@@ -1,0 +1,15 @@
+{
+  "cli_decode_cpu_matches_recorded_cuda": 2,
+  "cli_teach_cpu": "two real observations, one numeric step, saved revision",
+  "core_advanced_by_verification": false,
+  "focused_pytest_passed": 5,
+  "limitations": "small functional check, not a speed benchmark or proof of all-device numeric identity",
+  "ruff_new_tool_files": "passed",
+  "source_configuration_count": 18,
+  "configuration_differences": [
+    "plasticity",
+    "seed"
+  ],
+  "local_word_transcriber_pytest_passed": 2,
+  "total_focused_pytest_passed": 7
+}

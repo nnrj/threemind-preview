@@ -1,0 +1,19 @@
+# E59 preregistration: visual focus and saccades in an intact scene
+
+Registered2026-10-07 before this batch's results. [Authorized plan](../../../docs/en/plans/active-vision.md).
+
+Keep continuous-memory/2 and ordinary defaults, local competition/inhibition/forgetting, unchanged text normalization and50ms character/visual pacing. Input TopK remains off. Ongoing simulated wind, temperature, humidity, gravity support and bodily feedback remain; no liveCPU feedback. Preserve /2 four-field and /3 whole-retina versions. New /4 apparatus/reader have separate identities.
+
+Initial eye:6×6fine center plus6×6coarse periphery excluding central2×2,68RGB/range receptors(272ports),near the old64receptors. Coarse receptors average fixed subrays over larger angular areas; ports remain fixed as gaze moves. Two-axis inertial/damped bounded eye with measured angle/velocity ports, complete restoration. Optical checks precede recognition, and geometry amendments are registered before results. Primary fixed gain .03×64/receptor_count follows the previous total-receptor convention; short same-per-port-gain controls separate amplitude and sampling. No per-example normalization or baseline-subtracted Core responses.
+
+A: same scene/seed/duration,old four-field,16×16whole eye,new fixed and answer-independent scanning. Start2seconds,extend to10if bounded. Record active ports,input sum,identity repetition,nodes/edges,time/RAM and gaze. Audit co-observation and density; no Core rule changes.
+
+B: eight shape/color lessons,ten consecutive initial repeats each,three later review rounds with extra0/6/18second gaps. Compare fixed and independent scanning. Old whole-eye results remain historical,not a same-apparatus rerun. Independent training/validation/test layouts; actual questions stimulate Core; supervision only trains external readers. Shared local reading of raw activation/inhibition/direct/associative histories and matched direct-input control. At least24held-out questions,all choices and errors retained. Train gaze using demonstration data,then close the loop without teacher cues,correct coordinates or object metadata. Record external learning explicitly.
+
+C: compare fixed,independent and learned gaze plus bypass reader. At least18/24closest correct allocates further causal tests,not a consciousness criterion. Frozen readers,identical restored starts,absent motor output,existing-edge silence/rescue; targeted local interventions only after a useful behavioral effect. Eye/hand outputs are not forced to share an answer. Limited registered exploratory diagnosis below the gate is allowed but cannot be called established attribution.
+
+D: once regular shapes work,test unseen mild/moderate deformations with balanced colors/positions. Test before feedback,correct errors,then fresh variants; ambiguous category boundaries separate. Separate single/plural-positive/plural-negative questions with zero/one/multiple/all targets. Test untrained multiple action ability before correction. Do not expand extensive training without prerequisite capability.
+
+Record raw inputs,eye/hand commands,physical clocks,local/global activity,inhibition and direct/associative touches. Score closest object and arrival within0.20m separately. Multi-point scores include precision/recall,repetition,stopping; scorer never drives output. Preserve existing convergence and consciousness criteria. Saccade-associated activation alone is not causal deliberation; interventions must alter subsequent behavior.
+
+GTX1650CUDA reader fitting; original CPU Core/MuJoCo. One worker,180 cumulative compute minutes,512 creations,4GiB process RAM,6/8GiB evidence soft/hard limits. Reserve2GiB RAM,C5GiB,E15GiB. Usage80→85stop expansion/88stop new simulation,refresh30min. No old-data cleanup or broad scans. Report interim findings,not just final scores.

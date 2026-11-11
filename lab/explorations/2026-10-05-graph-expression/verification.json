@@ -1,0 +1,156 @@
+{
+  "commands": [
+    {
+      "args": [
+        "config"
+      ],
+      "stderr": "",
+      "stdout": "{\n  \"schema\": \"threemind.graph-expression/2\",\n  \"width\": 64,\n  \"heads\": 4,\n  \"queries\": 4,\n  \"temporal_layers\": 1,\n  \"decoder_layers\": 2,\n  \"maximum_frames\": 32,\n  \"maximum_nodes\": 512,\n  \"maximum_edges\": 16384,\n  \"maximum_tokens\": 64,\n  \"node_fields\": [\n    \"activation\",\n    \"inhibition\",\n    \"direct\",\n    \"associative\",\n    \"generated_inhibition\",\n    \"pending_inhibition\"\n  ],\n  \"edge_fields\": [\n    \"weight\",\n    \"stability\",\n    \"eligibility\",\n    \"touches\",\n    \"short_term_present\",\n    \"available\",\n    \"active\",\n    \"utilization\",\n    \"short_term_age_s\",\n    \"fast_present\",\n    \"fast_value\",\n    \"fast_age_s\"\n  ],\n  \"use_edges\": false,\n  \"seed\": 47\n}\n"
+    },
+    {
+      "args": [
+        "prepare",
+        "--input",
+        "raw.jsonl",
+        "--output",
+        "prepared.jsonl"
+      ],
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "args": [
+        "decode",
+        "--input",
+        "raw.jsonl",
+        "--output",
+        "cpu.jsonl",
+        "--checkpoint",
+        "E:\\WORKSPACE\\AgentWork\\threemind\\.work\\graph-expression-v2-20261005\\models\\multi-s223-local.safetensors",
+        "--device",
+        "cpu"
+      ],
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "args": [
+        "decode",
+        "--view",
+        "prepared-local",
+        "--input",
+        "prepared.jsonl",
+        "--output",
+        "auto.jsonl",
+        "--checkpoint",
+        "E:\\WORKSPACE\\AgentWork\\threemind\\.work\\graph-expression-v2-20261005\\models\\multi-s223-local.safetensors"
+      ],
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "args": [
+        "train",
+        "--input",
+        "teaching.jsonl",
+        "--output",
+        "continued.safetensors",
+        "--checkpoint",
+        "E:\\WORKSPACE\\AgentWork\\threemind\\.work\\graph-expression-v2-20261005\\models\\multi-s223-local.safetensors",
+        "--steps",
+        "1",
+        "--device",
+        "cpu"
+      ],
+      "stderr": "",
+      "stdout": "{'steps': 1, 'fit': '2/2', 'loss': 0.000155}\n{\"checkpoint\": \"continued.safetensors\", \"steps\": 1, \"device\": \"cpu\"}\n"
+    }
+  ],
+  "continued_training_new_file": true,
+  "cpu_and_auto_decode_equal": true,
+  "cpu_outputs": [
+    {
+      "device": "cpu",
+      "id": "0",
+      "observation": {
+        "local_policy": {
+          "amplitude_floor": 0,
+          "baseline_subtraction": false,
+          "normalize": false,
+          "omitted": "quiet structural state and monotonically decaying inhibition without participation",
+          "samples": 17,
+          "schema": "threemind.local-activity-policy/1",
+          "selection": "nonzero activity/flow or an observed rise in inhibition; retain that node for the window",
+          "top_k": null
+        },
+        "observed_channels": 125,
+        "view": "local",
+        "window_end_us": "442000000",
+        "window_start_us": "440000000"
+      },
+      "output": {
+        "cross_window_cache": false,
+        "pretrained_weights": false,
+        "terminated": true,
+        "text": "甲。",
+        "tokens": [
+          231,
+          148,
+          178,
+          227,
+          128,
+          130,
+          257
+        ]
+      }
+    },
+    {
+      "device": "cpu",
+      "id": "1",
+      "observation": {
+        "local_policy": {
+          "amplitude_floor": 0,
+          "baseline_subtraction": false,
+          "normalize": false,
+          "omitted": "quiet structural state and monotonically decaying inhibition without participation",
+          "samples": 17,
+          "schema": "threemind.local-activity-policy/1",
+          "selection": "nonzero activity/flow or an observed rise in inhibition; retain that node for the window",
+          "top_k": null
+        },
+        "observed_channels": 128,
+        "view": "local",
+        "window_end_us": "442000000",
+        "window_start_us": "440000000"
+      },
+      "output": {
+        "cross_window_cache": false,
+        "pretrained_weights": false,
+        "terminated": true,
+        "text": "甲。",
+        "tokens": [
+          231,
+          148,
+          178,
+          227,
+          128,
+          130,
+          257
+        ]
+      }
+    }
+  ],
+  "inference_labels_rejected": true,
+  "local_projection_exact_parity": true,
+  "old_checkpoint_load": "threemind.graph-expression/1",
+  "tests": {
+    "passed": 12,
+    "scope": "graph identity/time/limits/version, read-only bus, local observation parity, clock sensor"
+  },
+  "history_validation": {
+    "editions": 4,
+    "chapters": 57
+  },
+  "figure_inspected": true,
+  "core_dynamics_changed": false
+}

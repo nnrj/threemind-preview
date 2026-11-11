@@ -1,0 +1,421 @@
+# Milestones and reading routes
+
+> Public edition, 2026-11-11: private conversation locators and manuscript/submission discussions are omitted where present. Scientific records retain their original dates; the complete source remains unchanged.
+
+
+[简体中文](../../zh/history/milestones.md) · [English](milestones.md)
+
+Dates follow available evidence. Ranges denote phases rather than precise timestamps for every event.
+
+## Discovery milestones restored from original records on 15 October 2026
+
+| Original event date | Completed finding and reading route |
+| --- | --- |
+| 2026-09-29 | [E15 passes all four autonomy criteria; selective silencing, matching and restoration provide causal tests](themes/04-autonomous-consciousness.md) |
+| 2026-10-01 and 10-03 | [E21 transfers order response through weights; E30 transfers part of an action pattern through local connections](themes/04-autonomous-consciousness.md) |
+| 2026-10-03–10-04 | [Feeding, turning, predation and descendant behavior in complete oceans, with event and video evidence](themes/05-embodied-behavior.md) |
+| 2026-10-05–10-06 | [Personal calibration, internal naming pathways and four-field 24/24 physical pointing](themes/06-personal-learning.md) |
+| 2026-10-13 | [E68 continuous whole-individual shape–color learning; final new-position 66/72 and 71/72](themes/06-personal-learning.md) |
+| 2026-10-15 | [Discovery-history supplement and three biographies, preserving sources, criteria and prior prose](sources/2026-10-15-discovery-history.md) |
+
+The original milestone table and dated additions remain below. Compilation does not change discovery dates.
+
+## Original milestones and continuations
+
+| Date | Milestone and source |
+| --- | --- |
+| 2026-07-23 | [Documented start: the empty BlueBox folder](sources/origin-records.md) |
+| 2026-07-24 | [Founding hypothesis, anonymity and tools](sources/founding-statement.md) |
+| 2026-07-25 | [Strong-input consolidation requested and reported](sources/strong-stimulus-dialogue.md) |
+| 2026-07-26 | [Local novelty and the attention-gate dispute](sources/origin-records.md) |
+| 2026-07-31 | [ThreeMind named](sources/origin-records.md) |
+| 2026-08-01 — 08-04 | [Pairing, temporal readout and a negative family test](chronicles/01-origins.md) |
+| 2026-08-24 | [Current Git root after large-file history problems](sources/git-register.md) |
+| 2026-09-05 — 09-08 | [Second-generation rewrite and V3 recovery](chronicles/02-reconstruction.md) |
+| 2026-09-09 — 09-10 | [Calibrated pairing, corrected lessons and temporal endpoints](chronicles/03-teaching.md) |
+| 2026-09-24 — 09-29 | [Broader principles, preserved baseline and candidate kernels](chronicles/04-local-mechanisms.md) |
+| 2026-09-29 | [Depletion, facilitation, consolidation and internal causation](chronicles/05-autonomy.md) |
+| 2026-09-29 — 09-30 | [Arrival-window novelty and process readout](chronicles/06-calibration.md) |
+| 2026-09-30 | [Spacetime senses, transfer and intensity controls](chronicles/06-calibration.md) |
+| 2026-10-01 | [History recovers early dialogue and intensity provenance](decisions/strong-stimulus.md) |
+| 2026-10-01 | [Priority tests: retention, sensory direction and order](chronicles/07-priority-experiments.md) |
+| 2026-10-01 | [Intensity replacement deferred; order weights, cadence and sensory formation localized](../../../lab/explorations/2026-10-01-order-mechanisms/report.en.md) |
+| 2026-10-01 | [Sensory recovery, independent timing and exposure-matched references](../../../lab/explorations/2026-10-01-recovery-reference/report.en.md) |
+| 2026-10-01 | [Order survives background replacement; separate readout load and telemetry, no later-choice association detected](../../../lab/explorations/2026-10-01-observation-background/report.en.md) |
+| 2026-10-02 | [Target process analysis; physical telemetry and matched random input preserve order responses while global states differ](../../../lab/explorations/2026-10-02-target-background/report.en.md) |
+
+Start with the manifesto and seven chronological volumes. Use thematic histories and the intensity decision to trace a mechanism, and the source volumes to verify original wording. Outstanding work remains in the [D04 · research backlog](../plans/research-backlog.md); this catalogue is not a completed-feature checklist.
+
+---
+
+Compiled on 2026-10-01, covering the record available on that date. Original evidence is retained separately from later interpretation.
+
+
+## 2026-10-02 addendum
+
+| Date | Milestone |
+| --- | --- |
+| 2026-10-02 | [Direct readout of brief responses; 94 historical target responses no longer gated by 800 ms stability](../../../lab/explorations/2026-10-02-response-readout/report.en.md) |
+
+| 2026-10-02 | [Approved arm-first and restricted-language practical phase; experiments pending](../plans/robotics-and-language.md) |
+
+| 2026-10-02 | [Randomly initialized language peripherals, independent routing and version binding; engineering acceptance separated from attribution experiments](../language-adapters.md) |
+
+| 2026-10-02 | [E26: 108 robot episodes and two scratch-language routes; word calibration passes, reliable new assignments and practical control remain open](../../../lab/explorations/2026-10-02-robot-language/report.en.md) |
+
+| 2026-10-02 | [2026-10-02: public-task delivery after Docker recovery](../robotics.md) |
+
+
+## 2026-10-03: E27
+
+| Date | Milestone |
+| --- | --- |
+| 2026-10-03 | [Started: independent grasping, physical transfer food and survivor reproduction; existing Core lifecycle preserved](../plans/robot-survival-selection.md) |
+| 2026-10-03 | [Completed: all 24 founders starved without task food, no descendants; reusable survival and replay tools](../../../lab/explorations/2026-10-02-survival-transfer/report.en.md) |
+
+| 2026-10-03 | [E28 started: nutrient-contact ocean, funded births, controls and conditional mutation/predation](../plans/primitive-ocean.md) |
+
+| 2026-10-03 | [E28 simulations complete:199individuals/18worlds; feeding and reproduction work, inherited advantage mixed](../../../lab/explorations/2026-10-03-primitive-ocean/report.en.md) |
+
+| 2026-10-03 | [E29: larger sparse ocean, body energy and separate ecological controls registered](../plans/ocean-evolution.md) |
+
+| 2026-10-03 | [E29 fixed 14 worlds complete: greater Core population intake and living time, slightly lower per-body intake rate; mixed sharing outcomes, confirmation and attribution separate](../../../lab/explorations/2026-10-03-ocean-evolution/execution-notes.md) |
+
+| 2026-10-03 | [E29 completes 20 worlds: independent confirmation; no positive history-transfer advantage, communication feeding benefit with energy cost](../../../lab/explorations/2026-10-03-ocean-evolution/report.en.md) |
+
+| 2026-10-03 | [E30 begins: capture/shell calibration, unrestricted Core output and process-level local attribution](../plans/ocean-causality.md) |
+| 2026-10-03 | [E30 complete: feeding advantage in two worlds,31/32 unprompted-activity interventions and local response transfer, changed capture events; aggregate attribution remains partial](../../../lab/explorations/2026-10-03-ocean-causality/report.en.md) |
+
+| 2026-10-03 | [E31: local pathway/action transfer, disclosed context removal, complete-habitat follow-up approved and capture tools delivered](../../../lab/explorations/2026-10-03-ocean-behavior/report.en.md) |
+
+| 2026-10-04 | [E32 complete-habitat contribution andmedia delivered; E33 feeding/reproduction advantage without predation](../../../lab/explorations/2026-10-03-ocean-no-predation/report.en.md) |
+
+2026-10-04 — E34: 32 complete-habitat encounter forks; specific action-pattern transfer in 3/4 sources and one changed capture outcome. [Report](../../../lab/explorations/2026-10-03-ocean-hunting/report.en.md).
+
+2026-10-04 — E35 copied populations and E36 shared competition complete: final Core/random counts 49/35, 56/28, 49/36, 50/34. All process records and movies retained. [Report](../../../lab/explorations/2026-10-04-ocean-groups/report.en.md).
+
+2026-10-04 — E37 enclosure-only1200s:56 offspring,generation3,1 consumption; full footage and candidate59 delivered. E38 separately registered. [Delivery](../../../lab/explorations/2026-10-04-ocean-enclosure/delivery.en.md).
+
+2026-10-04 — Separately approved digestible-material apparatus passes accounting, restoration and old-rule regression. Passive turning/feeding observers, candidate archives and footage are delivered; long-term selection benefit remains untested. [Engineering record](../../../lab/explorations/2026-10-04-ocean-species/tooling-addendum.md).
+
+
+2026-10-04 — E38 closed at its budget boundary: scarcity did not increase consumption at common600s. Fourteen turning/feeding states from ten identities and full-habitat clips archived; no combined turning/enclosure candidate. [Report](../../../lab/explorations/2026-10-04-ocean-species/report.en.md).
+
+
+2026-10-04: E39–E40 completed; E41 activated — Both complete-habitat branches reached900s. The shared300s prefix is counted once:71 turn/feeding events,20 in natural descendants,45 candidate assets. No parent-rate improvement or full-enclosure success occurred; all17 consumer copies and two descendants were lost in both forks. No-sharing/sharing totals were food1105/1118, births36/38 and physical survivors34/33. Four distinct pairs transferred once each; nutritional help was observed, sustained reciprocity/joint foraging was not. Original-speed clips retain the complete ocean. The approved900s condition therefore activated E41: entire300s snapshots separately cultivate no-consumption turning and≥50% area coverage, with approved body contests and random equal-strength ties. Core and earlier evidence remain unchanged. [Report](../../../lab/explorations/2026-10-04-ocean-culture/report.en.md).
+
+
+2026-10-04: E41 complete, repeat consumers and combined descendants — Both branches900s;18 partial consumptions, six combined identities including two natural descendants,53 archives and nine complete-habitat recordings; parent improvement not established. [Report](../../../lab/explorations/2026-10-04-ocean-split/report.en.md).
+
+2026-10-04 — E42 initial language study closed; ordinary-intensity spaced review next。[Report](../../../lab/explorations/2026-10-04-language-centre/report.en.md)。
+
+2026-10-04: E43 spaced review preserves structure; language retrieval remains open。[Report](../../../lab/explorations/2026-10-04-language-spaced/report.en.md)。
+
+| 2026-10-04 | E44从零语言共同发育获准 / Scratch language co-development approved | [Plan](../plans/language-development.md)；旧Core与旧证据不改 / Core and earlier evidence preserved |
+
+2026-10-05 — E44：所学词语—视觉通路定位，弱活动表达校准完成；准确新回答未接通。 / Learned language–visual paths localized, weak expression calibrated; reliable new answers remain open. [Report](../../../lab/explorations/2026-10-04-language-development/report.en.md).
+
+2026-10-05 — E45校准、双向联想与未见组合获准 / Calibration, reciprocal association and unseen composition approved. [Plan](../plans/language-calibration-and-composition.md).
+
+2026-10-05 — E45：reciprocal pathways localized; native patterns separated from exact expression; defaults retained. [Report](../../../lab/explorations/2026-10-05-language-calibration/report.en.md).
+
+2026-10-05 — E46获准 / E46 authorized: [个体模式表达 / Native expression](../plans/native-expression.md); [中枢适配器 / Central adapters](../reference/central-adapters.md).
+
+2026-10-05 — E46 closed: individual activity interpretation improved; frozen new-correspondence gate failed; Core unchanged. [Report](../../../lab/explorations/2026-10-05-native-language/report.en.md).
+
+2026-10-05 — E47 complete: prior backlog explanation excluded; calibrated naming48/48 and24→0 versus24→24 pathway dependence; new-assignment expression/general communication unresolved, Core unchanged. [E47](../../../lab/explorations/2026-10-05-expression-alignment/report.en.md)。
+
+2026-10-05 — E48 authorized: raw state, temporal experience and expression attribution：[E48](../plans/temporal-input-and-state-expression.md)。
+
+### 2026-10-05: E48 raw-expression revalidation and score correction
+
+E48 completes1242 sources/branches/probes and19 candidate decoders.0/1/5/20/100ms do not improve the specified naming task;1ms new-mapping controls match0ms. Raw state/process is preserved without subtraction or sample normalization. Most1200-step decoders fit only4–7/18;6000 steps reach14/18 but not the17/18 gate. Event order yields16/16 on new objects, also16/16 without learning; direct-sensor exclusion yields8/16. Order traces exist, but learned relational transfer is not shown. A dated correction separates actual accuracy from cue specificity: the earlier9/12→12/12 had actual naming12/12 in both cases. Original outputs were unchanged. Main tables now present actual accuracy, old scoring and no-cue text separately; blank supervision cannot disprove autonomous activity. An unlabelled-no-cue control retains current6/8 but fails new mappings. Core/defaults and the established ocean interventions remain intact.
+
+[报告 / Report](../../../lab/explorations/2026-10-05-temporal-state-expression/report.en.md)
+
+2026-10-05 — E49: buses and expression calibration。[E49](../plans/bus-and-expression-calibration.md)
+
+2026-10-05 — E49 completed: calibrating expression across changing states。[E49](../../../lab/explorations/2026-10-05-bus-expression/report.en.md)
+
+2026-10-05 — E50。[计划 / Plan](../plans/graph-process-expression.md)
+
+2026-10-05 — E50 complete: taught common referents74/80 from local processes; targeted silencing16→8, matched16, rescue16; targeted transfer6/16 follows donor. Both frozen readers score0/40 on entirely new assignments, so general new-experience translation is not established. Variable-node local-first Python/CLI accepted; old tools/Core/defaults preserved. Observation frames differ from actual transmissions; that comparison is pending. Clock and retelling teaching is authorized next, distinct from reader drift. [E50](../../../lab/explorations/2026-10-05-graph-expression/report.en.md)
+
+2026-10-05 — E51 bounded pilot complete:144episodes/652simulated seconds with perceptible clock and now/just-now teaching. Clock4/4 and prefixes24/24, but current object3/12 and past2/12. External fit12/36misses the preregistered33/36gate; second source and longer periods stopped. All24past-context comparisons retain different local inputs; learned differences exceed the no-learning range but are not reliably recounted. Core/defaults/encoder unchanged;20mslanguage presentation recorded. Hours/yesterday untested. [E51](../../../lab/explorations/2026-10-05-clock-recollection/report.en.md)
+
+2026-10-05 — E52 phase complete: adaptive peripherals and actual self-hearing delivered. Questions score 24/80 versus 25/80 without self-hearing and 31/80 with Core plasticity off. Literal linear transcription scores 4/4 per source versus Transformer 1/4; recalled-content translation remains unreliable, with no Core/default change. [E52](../../../lab/explorations/2026-10-05-coadaptive-language/report.en.md)
+
+2026-10-06 — E53 Human-language expansion paused; full-ocean communication and causal experiments approved and running. [E53](chronicles/08-embodied-communication.md)
+
+2026-10-06, completion — E53's22stages establish sound/edge action effects, with incomplete utility attribution. Separate sensory submissions block cross-sensory edges; explicit common sampling enables them without changing Core. [Report](../../../lab/explorations/2026-10-06-ocean-communication/report.en.md)
+
+
+2026-10-06 — E54 registered; marker pointing28/32, language/imitation pending. [E54](chronicles/08-embodied-communication.md)
+
+2026-10-06, E54 completion — E54 first study complete: marker reaching 28/32; ordinary QA 42/48 also with Core learning off; strict reference 8/32, new scenes after reader calibration 6/32. Language-directed reaching 2/32, nearest choice 10/32. Full-port imitation 7/12 survives cross-edge masking. Both routes remain; composition and learned imitation are unestablished. Core/defaults unchanged. [Report and evidence](../../../lab/explorations/2026-10-06-shape-color-pointing/report.en.md)
+
+
+2026-10-06 — E55 registered after user correction: continuous bodily background and per-item expanding reviews; new external apparatus and balanced reference curriculum, results pending. [E55](../plans/grounded-classroom-reviews.md)
+
+2026-10-06 — E55 bounded study closed. E55 bounded study complete: bodily background and expanding reviews retained. Strict QA29/48, Core plasticity off26/48, existing-edge silence27/48; untaught combinations6/16. Three motor heads reach0/32,1/32,1/32: reliable word-guided pointing not achieved. Longer process and whole-episode validation do not solve control; Core/default unchanged. [E55](../../../lab/explorations/2026-10-06-grounded-reviews/report.en.md)
+
+
+2026-10-06 — E56 complete: shared4×4reading24/24; edge silence19/release24; equally fitted nonplastic-source reader also24. Resolution deprioritized; old circles attributed to physical motion. [E56](../../../lab/explorations/2026-10-06-vision-correction/report.en.md)
+
+2026-10-07 — E57 pointing attribution: three direct-input bypass fits each reach 24/24; opposite-history scores are 25/32 and 23/32, nonplastic controls 21/32 and 31/32. First-source teacher-marker activation exchange reproduces all donor choices; selected visual–text edge exchange does not. Distinguish transient history influence from conceptual recognition. Less external optimization does not consistently increase Core dependence. Dynamics and old evidence retained. [E57](../../../lab/explorations/2026-10-06-choice-attribution/report.en.md)
+
+2026-10-07 — E58: Short traces are memory; investigate content, not eligibility。[Plan](../plans/embodied-memory-content.md)
+
+2026-10-07 — E58: Memory after identical recent experience: the role of connections and unstable decoding。[E58 report](../../../lab/explorations/2026-10-07-embodied-memory/report.en.md)
+
+2026-10-07 — E59: From whole-scene sensing to a movable eye。[Plan](../plans/active-vision.md)
+
+2026-10-07 — E59: Lower eye cost, recognition and teaching still incomplete。[Report](../../../lab/explorations/2026-10-07-active-vision/report.en.md)
+
+
+### 2026-10-07 · E60 登记 / registered
+
+E60 is authorized: learn turning, holding and retargeting before coordination. Prioritize a shared motor adapter with separate adapters as controls; physical outputs do not assign semantic Core regions. Keep eye proprioception and the intact environment; test a head-fixed nose separately. Actual demonstrations, per-skill spaced review and teacher correction are required; selecting adapter checkpoints is not Core teaching. Preserve Core, old evidence and criteria. This entry records authorization, not new results.
+
+[Source](sources/2026-10-07-eye-hand-learning.md)
+
+2026-10-07 — E60 first study completed: actual teaching/correction; empty-batch trainer bug fixed with original failures retained. Edge silence/rescue changes/restores all commands across 12 trials; reliable fixation remains unachieved and the nose does not help this comparison. Complete 400-clip replay. R37 records future training routes without adding rewards to this batch. [Report](../../../lab/explorations/2026-10-07-eye-hand-learning/report.en.md)
+
+| 2026-10-07 | E61: Learning the body before instruction, registered | [Plan](../plans/body-exploration.md) |
+
+2026-10-07 — E61: 2026-10-07: E61 continuity correction and working baseline。[R40](../plans/system-continuity-audit.md) · [Source](sources/2026-10-07-system-continuity.md)
+
+2026-10-07 — E62 / R40: Complete-system retry started; behavioral outcome pending. [Source](sources/2026-10-07-continuous-development.md)
+
+2026-10-07 — E62 closed: continuity repaired; correction3/12, silence0/12, rescue3/12; reliable fixation unmet, R39/R41 next. [Source](sources/2026-10-07-continuous-development.md)
+
+2026-10-08 — E63/E64: old subject stopped; blank retry25/32and27/32; procedure retrospective/handoff, old calibration unexecuted. [Source](sources/2026-10-07-rehearsal-centered.md)
+
+2026-10-08 — User-requested audit establishes bilingual [training protocol v1](../training-protocol.md), preserving E56/E64 methods and execution boundaries without new experiments or changed historical criteria. [Request and delivery](sources/2026-10-07-rehearsal-centered.md)
+
+2026-10-08 — E65 complete-subject continuation: primary33/36, confirmation30/36, color16/16both; five target errors corrected, shape transfer and position stability unresolved. Originals and full replay retained. [Report](../../../lab/explorations/2026-10-08-centered-learning/report.en.md)
+
+2026-10-08 — E66 blank-start three-round correction: fixed development 53/72→72/72, final fresh positions 70/72, old-error retest 2/7 and controls 7/7; 26 immediate feedback events. Protocol v2.1 adds coverage and exact-condition retesting; curve comparison remains unexecuted. [Results](../../../lab/explorations/2026-10-08-centered-correction-cycles/report.en.md)
+
+2026-10-08 — User-requested post-E66 audit: consolidation exists and is enabled, stability still fades, persistence remains for discussion. No Core change or additional simulation. [Audit](../../../lab/explorations/2026-10-08-centered-correction-cycles/consolidation-audit.en.md)
+
+2026-10-08 — Revised continuous-memory/3 plan: per-edge half-life and historical-mechanism audit; preventing deletion, dormancy and revival default off, with dormancy-off forcing revival-off. Negative-threshold units remain proposed. Preserve old kernels and Python/Rust agreement; documentation only, no implementation or additional experiment. [Plan](../plans/memory-retention-v3.md)
+
+2026-10-08 — User selects unified automatic support retention. Independent continuous-memory/3 passes backend/basic mechanism checks and becomes the creation default; historical identities remain, retention/dormancy/revival switches stay off. Recognition and sustained-background benefits remain unverified. [2026-10-08](chronicles/09-adaptive-retention.md)
+
+2026-10-08 — In-place /3 locality repair removes global retention/synchronization, reward-to-dose conversion and propagation/learning quotas, restoring ordinary learning. Schema /3.1 rejects silent pre-repair continuation. Regression: 233 passes, two database skips; 26 mechanism pairs agree. Default repetition loses all edges after 300 seconds idle; gain-2/4 calibration retains structure without becoming defaults. Full teaching has not begun; old evidence receives an appended correction. [Report](../../../lab/explorations/2026-10-08-retention-repair/report.en.md)
+
+2026-10-08 — Text plus identical real telemetry: 57 expanding repetitions yield zero default-/3 text edges at +120s versus twelve shared-character edges for scheme 2 and full /2. Specific associations vanish and baseline cues are unresolved. Conditional structural regression, not general capability decline; initial input-design failure preserved, Core/defaults unchanged. [Report](../../../lab/explorations/2026-10-08-retention-telemetry-text/report.en.md)
+
+2026-10-09 — Local-event `/4` delivered, with `/3` still creatable;352 passes/11 database skips. Unrelated nodes do not increase local visits, but text retention fails to improve and small dense graphs are slower. H peaks at30.0035s in sampled diagnostics; no retuning or long teaching. [记录 / Record](chronicles/10-local-events.md)
+
+
+2026-10-09 — T10 data management, formal `data-bundle` and seven storage safeguards approved, awaiting implementation. UI/REST/CLI/Agent share a protocol; archive/material reimport, native-record restoration and supported-restorer continuation are separate claims, with unknown types read-only. Plans/history only in this turn; no actual relocation or cleanup. Implementation relocates mistakenly committed artifacts only; other migration support uses development tests, with no push. [Volume XI](chronicles/11-data-management.md) · [Approval source](sources/2026-10-09-data-management.md)
+
+2026-10-10 — T10 local Git cleanup and storage/package/management/migration/backup engineering accepted. Active pack falls about55%, preserving originals and complete original-repository backups. No other study migration, real DB upgrade or push; kernel memory findings unchanged. [Delivery](../plans/data-management-delivery.md)
+
+2026-10-10 — T11 backfills all 84 historical source indices and 59,118 references. Full backup recovery and original identity/revision/hash witnesses pass; shared AI/human recording and global UI accepted, with explicit gaps. Older birth and /4 host-saver mismatches remain T12. Core, old subjects and evidence unchanged. [Delivery](../plans/experiment-record-backfill-delivery.md) · [Volume XII](chronicles/12-research-records.md)
+
+Later 2026-10-10 — T13 makes main resource menus global across authorized projects, with ownership, explicit filters and creation destinations. Local schema 63 migration preserves old policies/scientific witnesses; 45 backend/six browser cases pass. Corrects the assistant's scoped defaults without Core or old-subject changes. [Volume XII correction](chronicles/12-research-records.md) · [Acceptance](../plans/global-resource-browsing.md)
+
+Later October 10, 2026 — T10/T11 storage tools pass isolated acceptance; real schema remains 63 without moves. Pause for user cleanup, preserving sources/database-default checkpoints and 114 unclassified resources. [Volume XI](chronicles/11-data-management.md) · [Handoff](../plans/existing-data-migration-stage.md)
+
+### 2026-10-10 · storage-root-activated
+
+Later October 10, 2026 — Current joint restore accepted; interruption resumed files without recopying the database. Schema 65 and actual 43-resource/32,984-file/4,242-payload relocation activate the new root. Append 70 experiment annotations and 129 database/136 repository report editions; retain sources and full backups. [Delivery](../plans/existing-data-migration-delivery.md)
+
+October 11, 2026 — T14 integrates later confirmed decisions into the original five-chapter plan, retaining workbench and acceptance scope. Local-first positioning, platform grants, unified AI and independent-Runtime boundaries are settled. Implementation remains paused; no real migration or individual change. [Plan](../plans/platform-hierarchy-navigation-workbench.md) · [Original](sources/2026-10-11-platform-plan-original.md)
+
+October 11, 2026 continuation — T14 implements the original five chapters: read-only workbench, system/project/instance boundaries, defaults/templates, unified AI/mail and role/non-interactive access. Normal-account CLI/MCP/Python workflow passes; logout preserves admitted execution. Explicit local 65→67 migration retains scientific witnesses. [Acceptance](../plans/platform-hierarchy-delivery.md) · [Source](sources/2026-10-11-platform-implementation.md)
+
+
+October11,2026 same-day continuation — T14 corrects kernel→template→parameters with all16 blank births, shared compatible implementations, historical causal/1–8 both backends and original unified Python. Explicit67→68 migration, daily extension and scientific witnesses verified; monitoring authority separated. No formal new experiment or historical-subject change. [Delivery](../plans/kernel-creation-hierarchy-delivery.md) · [Source](sources/2026-10-11-kernel-creation-hierarchy.md)
+
+October11,2026 same-day T12 — User-authorized zero-response local reclamation correction becomes `/3.1`, preserving `/3`. All24 corresponding `/4` cases lack the defect, so its dynamics remain unchanged. Both backends, Lab and independent Runtime pass; no old-subject migration, learning-formula/default-parameter change or retention-benefit claim. [Delivery](../plans/memory-retention-31-delivery.md) · [Source](sources/2026-10-11-memory31-expiry.md)
+
+October12,2026 — E67 first-arm final scores71/72 and67/72 coexist with continuing four-arm work. Twelve independent case controls keep personal readers fixed: normal/silence/rescue11/7/11 for /2 and10/6/10 for /3.1. Same-activity historical readers also expose one readout-stage regression. This establishes specific causal roles, not semantic storage; old scores, kernels and the /4 host remain unchanged. [Volume XIII](chronicles/13-shape-color-causality.md)
+
+
+> **Public-edition edit (2026-11-11; source lines 235-235):** Manuscript text, writing/submission discussion or links to non-public manuscript documents are omitted. Where a paragraph mixed these with research information, the research information is retained in this public extract. The complete source remains unchanged.
+
+
+
+
+Evening of October12,2026 correction — E67 replay time reversal is actual per-question complete restoration, confirmed by code and144 final clips. Teaching-mainline continuity does not establish continuous evaluation;71/72 and67/72 are fixed-checkpoint independent-question scores, and `/4` shares this limitation. Original reports remain; no new continuous experiment was started. [Correction](../../../lab/explorations/2026-10-11-shape-color-kernels/continuity-audit.en.md)
+
+October12,2026,23:43:18 China time — At the user's explicit request both E67 /4 arms stopped and automation `e67` was disabled, preserving complete472.5-second mainlines and partial calibration. Protocol v3 prohibits unpermitted ordinary-experiment rollback, distinguishes pauses from internal continuity and requires before/after notice for necessary ablation/transplant restorations. No new experiment began. [Termination and basis](../../../lab/explorations/2026-10-11-shape-color-kernels/stop-20261012.en.md)
+
+2026-10-13 — E68 authorized for fresh blank /2 and /3.1 individuals, continuous ordinary stages and prior consultation for rollback-dependent controls. New runner and four-curve replay in engineering validation; no formal scores claimed.[Source](sources/2026-10-13-continuous-shape-color.md)
+
+2026-10-13 — E68 continuous arms completed: final 66/72 and 71/72; both perfect in development rounds 2/3, /3.1 native time 1.896×. Complete chains and two curve videos verified; single-seed and reader-attribution limits remain. [E68](../../../lab/explorations/2026-10-13-continuous-shape-color/report.en.md)
+
+October 13, 2026 — The requested three-version performance audit identifies /3.1's retained whole-graph framework/repeated deadlines and /4's additional internal-packet pairing opportunities, with conditional cubic candidate work in dense graphs. Matched E67 correction timings are performance evidence, not missing continuous final tests. E68 outcomes remain; remedies await confirmation without changing dynamics or originals. [Audit source](sources/2026-10-13-kernel-performance-audit.md)
+
+October 13, 2026 — Follow-up provenance review finds no specific request for internal downstream pairing, classifying it as the assistant's semantic expansion of unified reception. A /2-to-/4 mechanism/configuration and computational-waste inventory is completed. Earlier explicit H approval remains recorded; removing adaptive H, structural weakening and continuous refresh are distinct questions, not a claim of free natural forgetting. No kernel change or new experiment. [Source and scope](sources/2026-10-13-kernel-performance-audit.md)
+
+2026-10-13 — User authorizes distinct `/5`, defaulting to /2 reception/learning while retaining local execution, H and reclamation; unified reception/asynchronous propagation remain research options. Unapproved non-temporary kernel changes require prior discussion and reason/impact disclosure. Tools must not consume internal time. Development and isolated validation remain in progress; no formal gain or installation completion claimed. [Decision](sources/2026-10-13-kernel-performance-audit.md) · [Plan](../plans/local-events-v5.md)
+
+2026-10-13 engineering delivery addendum — /5 passes isolated acceptance with /2 reception/learning defaults, internal downstream pairing removed and authorized H/reclamation retained. Equivalent fast paths preserve 112 Python and 56 native complete states exactly; old /2 and /4 remain faithful. Small graphs are substantially faster than /4 but slower than /2; research benefit is untested and the mixed-source research option remains pending. The existing service is not installed/restarted; no new formal study. R07 records engineering completion, research validation pending. [Delivery](../plans/local-events-v5-delivery.md) · [Source](sources/2026-10-13-kernel-performance-audit.md)
+
+October13,2026 same-day performance/root-cause follow-up — Six batches/352 engineering runs find5 slower than2/3.1 on dense graphs, but default H saves about38% advancement time on a1024-node low-degree graph. Full no-H replacement does not fix the slowdown. At the user's request, a53-function isolated profile with12 matching complete final states locates copying/tree deadlines and periodic stability maintenance; probe times are not exact production CPU shares. Cache/read-only-weight candidates still await independent validation, with no production Core/default or formal-student change. This is a same-day engineering follow-up, not a separate research phase. [Performance](../plans/memory5-performance-comparison-20261013.md) · [Root causes](../plans/memory5-root-cause-20261013.md) · [User statement](sources/2026-10-13-kernel-performance-audit.md)
+
+Candidate closure for the same follow-up — Cache A and combined A+B read-only weight access pass 66 isolated final-state checks. Combined large-sparse time falls by 10.58%; the dense 5.54% median trend includes three slower rounds. B alone, every intermediate trajectory, complete restoration, and configuration changes remain unverified. Candidates are neither installed nor integrated; the dense performance problem is not declared solved. [Results](../plans/memory5-root-cause-20261013.md)
+
+October 13, 2026 planning follow-up — Proposed `/5` performance phases P0–P4 based on measured causes, with a separate feasibility proof for lazy stability. Prior plans and evidence are preserved. Documentation only; implementation is not yet approved and dynamics/defaults are unchanged. [Proposal](../plans/local-events-v5.md)
+
+
+October 13, 2026, 5.1 delivery — User-approved equivalent optimization receives 5.1 identity while preserving old versions/default. Typed signals, numeric clocks and compact slots reduceHcost 49.58–60.38%versus 5 and S51.27–58.11%across nine workloads.189 boundary/recovery checks, frozen program preservation and host acceptance pass. Minor-version capability naming is repaired; no unifiedrename, no S recurrence change, new formal experiment or manuscript edit. [Delivery/limits](../plans/local-events-v51-delivery.md)
+
+October 13, 2026, E69 preparation — User authorizes a fresh `/5.1` individual for eye movement, eye–hand coordination and shape/color stages, with a persistent shared peripheral producing separate eye/hand selections and MOVE/WAIT. Tests cannot use ground truth to hard-code look-before-point. Complete continuity, final-update calibration and rehearsal of errors/old successes apply. Apparatus validation is in progress; no new score or Core/old-subject change. [Decision and limits](sources/2026-10-13-eye-hand-shape-color.md)
+
+October 13, 2026, E69 launch addendum — 70 integrated tooling checks passed; new individual `e69-5.1-223` was born at 18:41:02 Beijing time, with its first six demonstrated lessons continuously covering 0→36 simulated seconds and no autonomous score yet. Local API registration and protocol commit `83d9664` are preserved. User-authorized hourly e69 continuation is active; e67/e68 remain paused. [Birth and registration](sources/2026-10-13-eye-hand-shape-color.md)
+
+2026-10-14 — The user lifts the E69 pause; restoration from complete second 2004 is being prepared under explicit prior permission, not yet executed. Old request 000058 experience and missing complete state remain distinct; a separate continuation directory preserves originals. A host guard requests complete-boundary pauses without changing Core/internal time. The authorized exception must not be described as zero rollbacks. [Source](sources/2026-10-13-eye-hand-shape-color.md)
+
+2026-10-14 measured follow-up — E69 restored the authorized second-2004 save and verified its first new complete second-2010 boundary across nine members / 279 dependencies. Incident originals remain; e69 monitoring resumes, e67/e68 stay paused. One authorized rollback is disclosed; tooling success is not a new autonomous score. [Recovery](../../../lab/explorations/2026-10-13-eye-hand-shape-color/resume.en.md)
+
+
+
+> **Public-edition edit (2026-11-11; source lines 271-271):** Manuscript text, writing/submission discussion or links to non-public manuscript documents are omitted. Where a paragraph mixed these with research information, the research information is retained in this public extract. The complete source remains unchanged.
+
+
+
+
+October15,2026 — E69 autonomous gaze development reaches20/24 (19 entries, one maintenance), matching independent recomputation of2880 frames. The same individual continues into coordination. Initial52/52 is assisted teaching; autonomous coordination and final tests remain pending. [Evidence](sources/2026-10-13-eye-hand-shape-color.md)
+
+October15 same-day decision — E69 coordination remains0/24 after correction1. Sampling/role audit retains the original course. If warranted, the user allows several supported improvements in one bounded branch, aggregate benefit before attribution. Visual-center recognition is deferred until after E69. No branch or Core change occurred. [Source](sources/2026-10-13-eye-hand-shape-color.md)
+
+
+> **Public-edition edit (2026-11-11; source lines 277-277):** Manuscript text, writing/submission discussion or links to non-public manuscript documents are omitted. Where a paragraph mixed these with research information, the research information is retained in this public extract. The complete source remains unchanged.
+
+15 October 2026, later decision — Continue after the three frozen coordination corrections without rounds4/5; report gaze/naming separately, preserve the waiting-consolidation explanation and plan read-only emergent-region analysis. Decide further research priorities after completion. [Source](sources/2026-10-13-eye-hand-shape-color.md)
+
+The user subsequently authorized assessing and arranging a necessary fork; earlier deferral is not cancellation. Persistent new-pointing failure and verified training conditions justify a bounded original-method/combined-improvement comparison after E69, at most two cycles. Preserve full reference/state, inference boundaries and negative results. Omit execution if final performance resolves the bottleneck. No branch is implemented or launched yet. [Source](sources/2026-10-13-eye-hand-shape-color.md)
+
+[Volume XV From findings to mechanism prediction and evidence completion](chronicles/15-mechanism-discovery.md): 16 October2026 decisions and offline preparation, without experimental launch.
+
+
+Around04:00 on16 October2026:M2 late negative/early exploration and M1 eight-origin selective masking completed; both have API archive readback and verified/pending0 closure. Larger questions remain open;M3 execution pending. [Details](chronicles/15-mechanism-discovery.md)
+
+16 October 2026, around 04:35: M3 history dependence and instrument calibration completed. Simple memory controls also show history effects; missed 50 ms transients are explicitly corrected while original late endpoints and historical criteria remain intact. [Details](chronicles/15-mechanism-discovery.md)
+
+
+**2026-10-16 about 05:03 addendum:** The M2 reception pilot completed eight new origins and 448 causal copies. Six eligible origins have joint/single ratios of 1 under normalization and 2 under summation; two zero origins remain included. Unfitted route/receiver forecasts were saved before probes and classify all 224 nested forecasts, with independent N still eight. This is bounded symmetric simultaneous-input prediction, not a universal memory law. Full API readback verified/pending0. V1 failed only apparatus identity-whitelist acceptance before scientific origins; evidence is preserved. A bounded timing pilot will test the synchrony assumption, without confirmation expansion, Core changes or E69 resumption. [Details](chronicles/15-mechanism-discovery.md)
+
+
+Timing-batch addendum, 16 October 2026: eight new origins/288 copies completed; the independent-arrival approximation failed (primary MAE .002061211). A 1ms lag slightly reduced the history contrast by about .164%, without the predicted gain. Source and traces suggest common-cycle emission; the post-result phase diagnosis is not prospective validation. Full API readback verified/pending0; original forecasts/scores remain. Freeze the final overnight M2 extension: eight new origins/672 copies, new phases, teaching doses and 23s retention; not yet run. Then assemble the first-batch report, without confirmation expansion.
+
+
+First bounded batch delivered, 16 October 2026: seven sub-batches completed and one apparatus batch failed under its original rule; all eight records currently verified/pending0 after full API archive readback. M1 localizes a selective early expression route; M3 shows history dependence also in simple memory controls. M2 preserves the timing forecast failure and then prospectively validates a first-cycle account on new phases/doses/23s retention. Read-only graft audit rules out directly applying the old state/2 equal-topology tool to/5.1. Full M1–M3 questions, confirmation and the wider program remain open. No further overnight M2 expansion; this bounded continuation is PAUSED, and E67/E68/E69 stayed PAUSED.
+
+
+2026-10-16 — 16 October2026 prospective correction: freeze complete propositions and judge each PASS, FAIL or INVALID; no post-result higher C. Authorized X1 transfer/behavior, X2 retrieval/relearning and X3 all-four supplements are in preparation, with no scientific outcomes yet. [Source](../plans/experiment-conclusion-contract.md)
+
+16 October 2026 closure supplement completed: X1 local experience/two-gate transfer PASS (6/8 origins, donor arrivals 0/48→44/48, unrelated 44/48 unchanged); X2 trace/cue-expression separation PASS in 8/8 at 30/60s and transient/sustained separation PASS in 8/8 at 1/30/60s; relearning savings zero, FAIL. X3 ThreeMind passes all four in 8/8 each; no registered comparator passes all four, so discrimination PASS. All 80 units and 5,568 whole snapshots completed with original-file audit and full API archive readback, verified/pending0. Rules frozen at b574881; old originals, E15 and failures retained; no Core, author-paper or E69 change. [Details](chronicles/15-mechanism-discovery.md)
+
+16 October 2026 M5: fixed personal-port expression and selective causation PASS in 8/8; fixed all-activity expression FAIL, continued calibration gain PASS; all four passes and three failures retained, full API archive readback verified/pending0. [M5](chronicles/15-mechanism-discovery.md)
+
+16 October 2026: the user required scientific conclusions beyond scores and extended the audit to historical reports. 111 groups / 416 old files and 174 platform reports reviewed; sixteen groups receive 32 bilingual editions preserving originals, criteria and scores. Standards now require interpretation and meaning for ThreeMind; all history forms are updated. [Details](chronicles/15-mechanism-discovery.md)
+
+2026-10-16：用户授权已批准实验批间连续推进；M5新48来源确认进入冻结准备，未宣称新结果。 / Approved independent batches may proceed continuously; M5 48-origin confirmation prepared, no new result claimed. [Source](chronicles/15-mechanism-discovery.md)
+
+
+16 October 2026: M4 material audit completed; missing condition coverage and controls require a balanced prospective experiment. Full API archive readback and both report bodies verified; pending0. [Details](chronicles/15-mechanism-discovery.md)
+
+16 October 2026: M5 confirms all three targets in 48/48 new origins: fixed-port expression, local double dissociation and readout-scope advantage. Full archive and report-text API checks complete, pending=0. [Source](chronicles/15-mechanism-discovery.md)
+
+16 October 2026: M1 selective experience/choice transfer confirmed in 48 new origins and API-delivered; M3 v1 has apparatus failure only, N=0, preserved with separate v2 validation repair. [Source](chronicles/15-mechanism-discovery.md)
+
+16 October 2026: M2 acquisition window qualifies in 0/8 origins at every dose; apparatus rejected, valid negative API-delivered, M3 v2 next. [Source](chronicles/15-mechanism-discovery.md)
+
+16 October 2026: M3 confirms ThreeMind as the sole four-criterion winner in64 new origins,64/64 versus0/64, full API delivery/pending0; M2 fixed-parent cue diagnosis follows. [Source](chronicles/15-mechanism-discovery.md)
+
+16 October2026: M2 same-parent cue diagnosis passes8/8 and is API-delivered/pending0; weak-cue silence is distinct from failure to form history. Next M4 is a30-second/40-update capacity test,N0; balanced scientific curriculum remains to be frozen. [Source](chronicles/15-mechanism-discovery.md)
+
+2026-10-17: M2 short-term-resource causation passes; predictor gain omission located and original failure retained. [Report](../../../lab/explorations/2026-10-16-mechanism-discovery/m2-threshold-report.en.md)
+
+2026-10-17: M2 corrected formula passes prospective prediction on new materials. [Report](../../../lab/explorations/2026-10-16-mechanism-discovery/m2-gain-report.en.md)
+
+
+
+> **Public-edition edit (2026-11-11; source lines 326-326):** Manuscript text, writing/submission discussion or links to non-public manuscript documents are omitted. Where a paragraph mixed these with research information, the research information is retained in this public extract. The complete source remains unchanged.
+
+2026-10-17 17:54:23 directories comprise19 delivered,3 delivered apparatus failures and1 complete resource pause. M4 is4/8 plus o4/219s; capacity prevents resumption. Future scheduling remains the user's choice. [Source](chronicles/15-mechanism-discovery.md)
+
+
+
+> **Public-edition edit (2026-11-11; source lines 329-329):** Manuscript text, writing/submission discussion or links to non-public manuscript documents are omitted. Where a paragraph mixed these with research information, the research information is retained in this public extract. The complete source remains unchanged.
+
+
+
+> **Public-edition edit (2026-11-11; source lines 331-346):** Manuscript text, writing/submission discussion or links to non-public manuscript documents are omitted. Where a paragraph mixed these with research information, the research information is retained in this public extract. The complete source remains unchanged.
+
+
+## 1 November 2026: first 3-SAT exploration
+
+[Volume XVI: local experience and constraint search](chronicles/16-sat-pilot.md). No actual teaching benefit; WalkSAT wins. The small connection contribution and sustained-expression bottleneck are recorded explicitly.
+
+## 1 November 2026, later: protocol-compliant SAT rerun
+
+[Volume XVI continuation](chronicles/16-sat-pilot.md) records the procedure correction, personal temporal readout, spaced review and separate system-benefit/Core-teaching conclusions.
+
+
+## 1 November 2026: SAT v3 Core-necessity exclusions complete
+
+Eight origins: intact and no-Core alternatives all 161/192 with 208 identical full trajectories; constant input 103/192. The sufficient external search/reader rule is identified, and complete local API readback passes.
+
+[Evidence](chronicles/16-sat-pilot.md)
+
+
+## 2026-11-09: R43 context judgments and active observation launched
+
+The author authorized an exploration using existing /5.1. Eight sources and four separate goals were frozen before execution. Independent apparatus checks, API registration, and protocol readback passed before launch. Scientific results await completion and arithmetic verification. Old studies, Core, and the author's manuscript remain unchanged. [History](chronicles/17-context-revision.md) · [Sources](sources/2026-11-09-context-revision.md)
+
+## Later on 2026-11-09: R43 completed and delivery verified
+
+Eight independent individuals and 2,688 formal trials completed. G2 passed in 8/8; G1/G3/G4 each passed in 0/8. New evidence increased joint conflict accuracy from 4/64 to 62/64; selective observation and the expected behavioral effect of designated forward connections missed the original goals. Formal readout retained ordered frames and four activity fields; the post-run mean-activation diagnostic is separately identified. Full research-API readback verified the archive and 8,911 listed originals, pending=0. Bilingual reports close each registered question explicitly. [Chronicle](chronicles/17-context-revision.md) · [Delivery](../../../lab/explorations/2026-11-09-context-revision/delivery.md)
+
+## 2026-11-09: R44 retention-causality comparisons launched
+
+The author authorized research on whether and how decay should change. Complete states from eight sources supply post-initial-teaching and pretest comparisons, extending existing connection half-lives while preserving current weights, temporal adapters and other state. There are 112 research sequences. Exponential, power, inverse-logarithmic and two-exponential curves are separately labeled mathematical candidates; Core is unchanged. [Sources](sources/2026-11-09-retention-causality.md)
+
+### Same day: relaxation comparison registered and /5.2 authorized
+
+The author requested slower/disabled relaxation and subsequently authorized a distinct /5.2 comparison of three decay curves crossed with relaxation on/off. R45 passed eight apparatus checks and protocol registration, awaiting R44 completion; /5.2 is not implemented. The author clarified that renaming half-life decay as exponential decay concerns terminology, not replacing linear relaxation with exponential relaxation. [Source and clarification](sources/2026-11-09-retention-causality.md) · [Scope](../plans/decay-mechanisms-v52.md)
+
+## Evening, 2026-11-09: R44 delivered and R45 started serially
+
+R44 passed structure in 8/8 origins, late major benefit in 1/8, early target/all benefit in 1/8 and 2/8, and joint restoration in at most 1/8. Sensory improvement and action mismatch are explicitly distinguished. Complete archive and four bilingual documents passed API readback, completed/verified/pending=0. R45 launched at 17:50. Old kernels, originals and the author's manuscript remain intact. [History](chronicles/17-context-revision.md) · [Delivery](../../../lab/explorations/2026-11-09-retention-causality/delivery.md)
+
+## Evening, 2026-11-09: relaxation comparison delivered and genuine 5.2 started
+
+R45 passed all four major-benefit comparisons in 0/8 origins. Natural H stayed near 30 seconds with relaxation disabled; all three conditions scored 40/128. Original-package and bilingual API readback completed. The distinct 5.2 was then integrated and R46a began its three-curve-by-switch comparison. Historical versions and defaults remain unchanged; new outcomes await completion. [R45](../../../lab/explorations/2026-11-09-retention-relaxation/delivery.md) · [R46a](../../../lab/explorations/2026-11-09-decay-mechanisms52/HANDOFF.md)
+
+- 2026-11-10: R46a completed all six settings; none met every target. Repeated-course timescales failed to extend, while retained late history effects were inhibitory. [R46a](../../../lab/explorations/2026-11-09-decay-mechanisms52/report.en.md)
+
+- 2026-11-10: R46b completed; strong/novelty gain confirmed and inverse-logarithmic structural benefit 8/8, while activity benefits miss the six-profile target; complete archive readback pending0. [R46b](../../../lab/explorations/2026-11-09-decay-mechanisms52/stimulus-report.en.md)
+
+
+2026-11-10 — At the author's request, ordinary manuscript commits no longer face the 1 MiB gate: warn above 50 MiB and reject above 100 MiB. Research-data boundaries remain; 23 checks and staged/full-index audits pass. No working-repository commit or push. [Chapter 11 addition](chronicles/11-data-management.md)
+
+
+> **Public-edition edit (2026-11-11; source lines 395-395):** Manuscript text, writing/submission discussion or links to non-public manuscript documents are omitted. Where a paragraph mixed these with research information, the research information is retained in this public extract. The complete source remains unchanged.
+
+
+
+
+
+## 2026-11-11: Single-age /5.3 and R47a exploration
+
+Independent Python/Rust, four curves, clock pruning and directed transmission are implemented; 80 engineering and 14 instrument checks passed. R47a has started: eight origins, 4,608 sequences, both protocols read back and pending0. Confirmation, personal Transformer joint tasks and faithful /5.2 Rust remain pending.
+
+[Chapter 18: one weight and one decay age](chronicles/18-kernel53.md)
+
+11 November 2026 — R47b confirms local inverse-logarithmic retention in 48 fresh origins; all curves fail the weak-forgetting target. Complete API readback has pending0. R47c whole-system joint development started. [Chapter 18](chronicles/18-kernel53.md)
+
+11 November 2026 — R47c delivered: inverse-logarithmic initial/new/return each 8/8, reversal 4/8; no all-objective default winner. Faithful /5.2 Rust integrated and final regression passed. The fifth strategy was assessed, not implemented. [18](chronicles/18-kernel53.md)
+
+
+2026-11-11 — R48a originals and bilingual reports delivered: fast weak forgetting 8/8, but failed 300-second retention and identical matched-exponential pass counts; defaults unchanged. R48b continues forty whole learners; isolated Rust preparation underway. [18](chronicles/18-kernel53.md)
+
+2026-11-11 — R48 delivered: slow immediate initial learning 128/128 with one-third fewer updates, but failed 300-second retention; inverse log passed three goals at 8/8 and reversal at 4/8. Independent Rust and wheel verified; defaults unchanged. [18](chronicles/18-kernel53.md)

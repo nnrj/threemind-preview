@@ -1,0 +1,12 @@
+# E43 execution notes
+
+2026-10-04. Independent follow-up to E42; original evidence is not overwritten.
+
+- Physical telemetry acquisition: 841 samples per scope across840 real seconds. Host and recorder-process values only; unavailable OS counters are preserved as unavailable. This is replay of measured physics, not fabricated telemetry or instance self-feedback.
+- Test infrastructure: initial sandbox pytest temporary-directory access failed with WinError5; approved local retry succeeded. A diagnostic test initially used an unsupported8-dimensional fixture; changed the fixture to the protocol's valid32 dimensions. Production mapping was not changed. Three targeted schedule/replay/probe tests then passed.
+- Main runner saves compressed full checkpoints, references them from probes, and retains every cue/no-cue process. It does not repeatedly hash old evidence. Source restoration honors the original kernel identity.
+- Raw language-basis diagnosis is explicitly separate from all-node primary output. No sensory mapping, Core equation, threshold, default or historical state was edited.
+- After the first spacing/massed comparison, a read-only structural partition was added to distinguish language-channel and telemetry-channel edges in the saved530/830s checkpoints. This is exploratory description, not a new success criterion or an attribution of actual transmissions. All four probe windows are also tabulated diagnostically; the primary0.5–1s text window remains fixed.
+- Inner probe timers exclude restoring their source. Results additionally report each complete source-and-forks elapsed span using file timestamps, including restore/I/O, so resource reporting does not silently equate the shorter inner timers with total elapsed computation. The complete phase is checked against the2h ceiling.
+
+Commands use `.work/kernel-venv/Scripts/python.exe` with inherited `PYTHONPATH` removed; the old global Anaconda path is not used. The installed editable environment identifies the registered package correctly. Run `experiment.py prepare` exactly once, then `simulate`, `decode`, `analyse.py`, `figures.py`, `publish.py`. `usage.json` in the dedicated work directory must be refreshed from the account tool at least every30minutes. A `STOP` file halts new work safely. Never rerun preparation against the same directory or overwrite a failed/partial case without a dated recovery record.

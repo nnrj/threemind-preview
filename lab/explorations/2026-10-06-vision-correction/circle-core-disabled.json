@@ -1,0 +1,161 @@
+{
+  "schema": "threemind.circle-physical-control/1",
+  "recorded_on": "2026-10-06",
+  "core_instances_created": 0,
+  "core_advanced": false,
+  "recorded_trajectory_used_as_control": false,
+  "recorded_activity_used_as_control": false,
+  "control": "Core absent; physical world, initial body state, teacher scene schedule and weather retained; motor force zero",
+  "comparison_alignment": "As in E55, frame time denotes end of step; displayed pointer and physical measurements were observed before that step.",
+  "initial_physical_state": {
+    "schema": "threemind.grounded-classroom/1",
+    "seed": 91,
+    "pointer": {
+      "x": 0.0,
+      "y": 0.0,
+      "vx": 0.0,
+      "vy": 0.0
+    },
+    "marker": null,
+    "items": [
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "variant": 0,
+    "time_s": 0.0,
+    "weather_seed": 47,
+    "body_temperature": 295.0,
+    "acceleration": [
+      0.0,
+      0.0
+    ],
+    "motor_power": 0.0
+  },
+  "schedule": ".work\\grounded-reviews-20261006\\cases\\s223-spaced-teaching\\schedule.json",
+  "reference": ".work\\grounded-reviews-20261006\\complete-media\\complete-replay.json",
+  "trajectory": ".work\\vision-correction-20261006\\circle-core-disabled-trajectory.jsonl.gz",
+  "full_course": {
+    "s223-spaced-teaching": {
+      "samples": 10320,
+      "simulation_seconds": [
+        0.05,
+        516.0
+      ],
+      "max_pointer_distance_m": 0.0,
+      "max_physical_background_difference": {
+        "wind_x_m_s": 0.0,
+        "wind_y_m_s": 0.0,
+        "air_temperature_K": 0.0,
+        "relative_humidity": 0.0,
+        "body_temperature_K": 0.0,
+        "acceleration_x_m_s2": 0.0,
+        "acceleration_y_m_s2": 0.0,
+        "specific_force_z_m_s2": 0.0,
+        "support_force_N": 0.0,
+        "motor_power_W": 0.0
+      },
+      "scene_mismatches": 0,
+      "marker_mismatches": 0,
+      "reference_explicit_motor_commands": 0
+    },
+    "s223-frozen-teaching": {
+      "samples": 10320,
+      "simulation_seconds": [
+        0.05,
+        516.0
+      ],
+      "max_pointer_distance_m": 0.0,
+      "max_physical_background_difference": {
+        "wind_x_m_s": 0.0,
+        "wind_y_m_s": 0.0,
+        "air_temperature_K": 0.0,
+        "relative_humidity": 0.0,
+        "body_temperature_K": 0.0,
+        "acceleration_x_m_s2": 0.0,
+        "acceleration_y_m_s2": 0.0,
+        "specific_force_z_m_s2": 0.0,
+        "support_force_N": 0.0,
+        "motor_power_W": 0.0
+      },
+      "scene_mismatches": 0,
+      "marker_mismatches": 0,
+      "reference_explicit_motor_commands": 0
+    }
+  },
+  "user_windows": [
+    {
+      "video_seconds": [
+        147,
+        155
+      ],
+      "reference_case": "s223-spaced-teaching",
+      "samples": 1280,
+      "simulation_seconds": [
+        424.1,
+        488.05
+      ],
+      "max_pointer_distance_m": 0.0,
+      "max_physical_background_difference": {
+        "wind_x_m_s": 0.0,
+        "wind_y_m_s": 0.0,
+        "air_temperature_K": 0.0,
+        "relative_humidity": 0.0,
+        "body_temperature_K": 0.0,
+        "acceleration_x_m_s2": 0.0,
+        "acceleration_y_m_s2": 0.0,
+        "specific_force_z_m_s2": 0.0,
+        "support_force_N": 0.0,
+        "motor_power_W": 0.0
+      },
+      "scene_mismatches": 0,
+      "marker_mismatches": 0,
+      "reference_explicit_motor_commands": 0
+    },
+    {
+      "video_seconds": [
+        748,
+        758
+      ],
+      "reference_case": "s223-frozen-teaching",
+      "samples": 1585,
+      "simulation_seconds": [
+        420.05,
+        499.25
+      ],
+      "max_pointer_distance_m": 0.0,
+      "max_physical_background_difference": {
+        "wind_x_m_s": 0.0,
+        "wind_y_m_s": 0.0,
+        "air_temperature_K": 0.0,
+        "relative_humidity": 0.0,
+        "body_temperature_K": 0.0,
+        "acceleration_x_m_s2": 0.0,
+        "acceleration_y_m_s2": 0.0,
+        "specific_force_z_m_s2": 0.0,
+        "support_force_N": 0.0,
+        "motor_power_W": 0.0
+      },
+      "scene_mismatches": 0,
+      "marker_mismatches": 0,
+      "reference_explicit_motor_commands": 0
+    }
+  ],
+  "simulated_seconds": 516.0,
+  "physical_steps": 10320,
+  "wall_seconds": 5.200523200095631,
+  "trajectory_bytes": 1229086
+}

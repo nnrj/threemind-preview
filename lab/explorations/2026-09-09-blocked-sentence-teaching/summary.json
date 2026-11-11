@@ -1,0 +1,5001 @@
+{
+  "project_id": "5f779f43-ab27-4638-bb11-458a43598637",
+  "experiment": "blocked-sentence-teaching/1",
+  "inference": "Four encoding seeds; descriptive observation; no confirmation claim or calibrated language accuracy.",
+  "tolerance": 1e-12,
+  "seeds": [
+    41701,
+    41702,
+    41703,
+    41704
+  ],
+  "aggregates": [
+    {
+      "arm": "normal",
+      "stage": "pair_20_each",
+      "group": "pair",
+      "route": "continuation",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 0.000811320471820467,
+        "41702": 0.0,
+        "41703": 0.0,
+        "41704": 0.0
+      },
+      "early_by_seed": {
+        "41701": 0.0008458912149031887,
+        "41702": 0.0,
+        "41703": 0.0,
+        "41704": 0.0
+      },
+      "complete_seeds": 4,
+      "mean": 0.00020283011795511674,
+      "positive_seeds": 1,
+      "strict_target_top": 1,
+      "scorable_queries": 8,
+      "total_queries": 8,
+      "ties": 7,
+      "min_margin": 0.0,
+      "max_margin": 0.001622640943640934,
+      "peak_saturation_range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "arm": "normal",
+      "stage": "pair_20_each",
+      "group": "pair",
+      "route": "birth",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 0.00031913887138908855,
+        "41702": 0.0,
+        "41703": 0.0,
+        "41704": 0.0
+      },
+      "early_by_seed": {
+        "41701": 0.0006936901208088181,
+        "41702": 0.0,
+        "41703": 0.0,
+        "41704": 0.0
+      },
+      "complete_seeds": 4,
+      "mean": 7.978471784727214e-05,
+      "positive_seeds": 1,
+      "strict_target_top": 1,
+      "scorable_queries": 8,
+      "total_queries": 8,
+      "ties": 7,
+      "min_margin": 0.0,
+      "max_margin": 0.0006382777427781771,
+      "peak_saturation_range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "arm": "normal",
+      "stage": "dialogue_1",
+      "group": "pair",
+      "route": "continuation",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 0.0,
+        "41702": 0.0,
+        "41703": 0.0,
+        "41704": 0.0
+      },
+      "early_by_seed": {
+        "41701": 0.0,
+        "41702": 0.0,
+        "41703": 0.0,
+        "41704": 0.0
+      },
+      "complete_seeds": 4,
+      "mean": 0.0,
+      "positive_seeds": 0,
+      "strict_target_top": 0,
+      "scorable_queries": 8,
+      "total_queries": 8,
+      "ties": 8,
+      "min_margin": 0.0,
+      "max_margin": 0.0,
+      "peak_saturation_range": [
+        0.7571428571428571,
+        0.8992805755395683
+      ]
+    },
+    {
+      "arm": "normal",
+      "stage": "dialogue_1",
+      "group": "pair",
+      "route": "birth",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 0.0002454987919335294,
+        "41702": 0.001442629561202946,
+        "41703": 0.00020526576346252545,
+        "41704": 0.001218224743597729
+      },
+      "early_by_seed": {
+        "41701": 0.01026533064594394,
+        "41702": 0.06032237197063833,
+        "41703": 0.00858301955638361,
+        "41704": 0.050939068561621365
+      },
+      "complete_seeds": 4,
+      "mean": 0.0007779047150491825,
+      "positive_seeds": 4,
+      "strict_target_top": 7,
+      "scorable_queries": 8,
+      "total_queries": 8,
+      "ties": 0,
+      "min_margin": -8.108616991298057e-06,
+      "max_margin": 0.0017400943671468383,
+      "peak_saturation_range": [
+        0.7571428571428571,
+        0.8992805755395683
+      ]
+    },
+    {
+      "arm": "normal",
+      "stage": "dialogue_1",
+      "group": "who",
+      "route": "continuation",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 0.0,
+        "41702": -3.5759265486767777e-06,
+        "41703": 0.0,
+        "41704": 0.0
+      },
+      "early_by_seed": {
+        "41701": 0.0,
+        "41702": 0.0,
+        "41703": 0.0,
+        "41704": 0.0
+      },
+      "complete_seeds": 4,
+      "mean": -8.939816371691944e-07,
+      "positive_seeds": 0,
+      "strict_target_top": 2,
+      "scorable_queries": 16,
+      "total_queries": 16,
+      "ties": 12,
+      "min_margin": -2.1310205218005862e-05,
+      "max_margin": 9.638995802419004e-06,
+      "peak_saturation_range": [
+        0.7681159420289855,
+        0.9057971014492754
+      ]
+    },
+    {
+      "arm": "normal",
+      "stage": "dialogue_1",
+      "group": "who",
+      "route": "birth",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 0.0004061668500428828,
+        "41702": 0.0016396846621501704,
+        "41703": 0.0002189706321831797,
+        "41704": 0.0013995033002649204
+      },
+      "early_by_seed": {
+        "41701": 0.01698353372850256,
+        "41702": 0.06264176776769637,
+        "41703": 0.00977165296790887,
+        "41704": 0.05851908273827453
+      },
+      "complete_seeds": 4,
+      "mean": 0.0009160813611602883,
+      "positive_seeds": 4,
+      "strict_target_top": 9,
+      "scorable_queries": 16,
+      "total_queries": 16,
+      "ties": 0,
+      "min_margin": -0.12743682764135578,
+      "max_margin": 0.13063529444254351,
+      "peak_saturation_range": [
+        0.7681159420289855,
+        0.9057971014492754
+      ]
+    },
+    {
+      "arm": "normal",
+      "stage": "dialogue_3",
+      "group": "pair",
+      "route": "continuation",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 0.0,
+        "41702": 0.0,
+        "41703": 0.0,
+        "41704": 0.0
+      },
+      "early_by_seed": {
+        "41701": 0.0,
+        "41702": 0.0,
+        "41703": 0.0,
+        "41704": 0.0
+      },
+      "complete_seeds": 4,
+      "mean": 0.0,
+      "positive_seeds": 0,
+      "strict_target_top": 0,
+      "scorable_queries": 8,
+      "total_queries": 8,
+      "ties": 8,
+      "min_margin": 0.0,
+      "max_margin": 0.0,
+      "peak_saturation_range": [
+        0.993103448275862,
+        1.0
+      ]
+    },
+    {
+      "arm": "normal",
+      "stage": "dialogue_3",
+      "group": "pair",
+      "route": "birth",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 5.9095930395769436e-05,
+        "41702": 0.00028710842824924976,
+        "41703": 0.00010630379751508379,
+        "41704": 0.0002061325100677358
+      },
+      "early_by_seed": {
+        "41701": 0.002471047863673928,
+        "41702": 0.012005203463537478,
+        "41703": 0.004445006111092567,
+        "41704": 0.008619261854840812
+      },
+      "complete_seeds": 4,
+      "mean": 0.0001646601665569597,
+      "positive_seeds": 4,
+      "strict_target_top": 7,
+      "scorable_queries": 8,
+      "total_queries": 8,
+      "ties": 0,
+      "min_margin": -0.0001671769853475169,
+      "max_margin": 0.00044177916372967196,
+      "peak_saturation_range": [
+        0.993103448275862,
+        1.0
+      ]
+    },
+    {
+      "arm": "normal",
+      "stage": "dialogue_3",
+      "group": "who",
+      "route": "continuation",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 0.0,
+        "41702": 0.0,
+        "41703": 0.0,
+        "41704": 0.0
+      },
+      "early_by_seed": {
+        "41701": 0.0,
+        "41702": 0.0,
+        "41703": 0.0,
+        "41704": 0.0
+      },
+      "complete_seeds": 4,
+      "mean": 0.0,
+      "positive_seeds": 0,
+      "strict_target_top": 0,
+      "scorable_queries": 16,
+      "total_queries": 16,
+      "ties": 16,
+      "min_margin": 0.0,
+      "max_margin": 0.0,
+      "peak_saturation_range": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "arm": "normal",
+      "stage": "dialogue_3",
+      "group": "who",
+      "route": "birth",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 0.00011426857930485479,
+        "41702": 0.00020158297359240684,
+        "41703": 9.141413477026239e-05,
+        "41704": 0.00016233024415718278
+      },
+      "early_by_seed": {
+        "41701": 0.0047780469295494316,
+        "41702": 0.008429026718299495,
+        "41703": 0.0038224070747524402,
+        "41704": 0.006787706028959714
+      },
+      "complete_seeds": 4,
+      "mean": 0.0001423989829561767,
+      "positive_seeds": 4,
+      "strict_target_top": 14,
+      "scorable_queries": 16,
+      "total_queries": 16,
+      "ties": 0,
+      "min_margin": -0.0001190938308118783,
+      "max_margin": 0.0005020896103563599,
+      "peak_saturation_range": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "arm": "normal",
+      "stage": "family_3",
+      "group": "seen_family",
+      "route": "continuation",
+      "metric": "mean_role",
+      "by_seed": {
+        "41701": 0.0,
+        "41702": 0.0,
+        "41703": null,
+        "41704": 0.0
+      },
+      "early_by_seed": {
+        "41701": 0.0,
+        "41702": 0.0,
+        "41703": null,
+        "41704": 0.0
+      },
+      "complete_seeds": 3,
+      "mean": 0.0,
+      "positive_seeds": 0,
+      "strict_target_top": 0,
+      "scorable_queries": 6,
+      "total_queries": 8,
+      "ties": 6,
+      "min_margin": 0.0,
+      "max_margin": 0.0,
+      "peak_saturation_range": [
+        0.9937106918238994,
+        1.0
+      ]
+    },
+    {
+      "arm": "normal",
+      "stage": "family_3",
+      "group": "seen_family",
+      "route": "birth",
+      "metric": "mean_role",
+      "by_seed": {
+        "41701": 0.0006170305013671884,
+        "41702": -2.7873916387199937e-05,
+        "41703": null,
+        "41704": 0.000555946832105858
+      },
+      "early_by_seed": {
+        "41701": 0.02580062437488584,
+        "41702": -0.001165524953742253,
+        "41703": null,
+        "41704": 0.023246460840737837
+      },
+      "complete_seeds": 3,
+      "mean": 0.0003817011390286155,
+      "positive_seeds": 2,
+      "strict_target_top": 0,
+      "scorable_queries": 6,
+      "total_queries": 8,
+      "ties": 2,
+      "min_margin": -0.002241527442805591,
+      "max_margin": 0.0,
+      "peak_saturation_range": [
+        0.9937106918238994,
+        1.0
+      ]
+    },
+    {
+      "arm": "normal",
+      "stage": "review",
+      "group": "pair",
+      "route": "continuation",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 0.0,
+        "41702": 0.0,
+        "41703": 0.0,
+        "41704": 0.0
+      },
+      "early_by_seed": {
+        "41701": 0.0,
+        "41702": 0.0,
+        "41703": 0.0,
+        "41704": 0.0
+      },
+      "complete_seeds": 4,
+      "mean": 0.0,
+      "positive_seeds": 0,
+      "strict_target_top": 0,
+      "scorable_queries": 8,
+      "total_queries": 8,
+      "ties": 8,
+      "min_margin": 0.0,
+      "max_margin": 0.0,
+      "peak_saturation_range": [
+        0.9937106918238994,
+        1.0
+      ]
+    },
+    {
+      "arm": "normal",
+      "stage": "review",
+      "group": "pair",
+      "route": "birth",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 6.381204365280002e-05,
+        "41702": 0.00028710842824924976,
+        "41703": 0.00011692033946619773,
+        "41704": 0.00013883074071002754
+      },
+      "early_by_seed": {
+        "41701": 0.002668248271737589,
+        "41702": 0.012005203463537478,
+        "41703": 0.004888928105926504,
+        "41704": 0.005805093564753935
+      },
+      "complete_seeds": 4,
+      "mean": 0.00015166788801956876,
+      "positive_seeds": 4,
+      "strict_target_top": 7,
+      "scorable_queries": 8,
+      "total_queries": 8,
+      "ties": 0,
+      "min_margin": -0.00011015282368875834,
+      "max_margin": 0.00044177916372967196,
+      "peak_saturation_range": [
+        0.9937106918238994,
+        1.0
+      ]
+    },
+    {
+      "arm": "normal",
+      "stage": "review",
+      "group": "who",
+      "route": "continuation",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 0.0,
+        "41702": 0.0,
+        "41703": 0.0,
+        "41704": 0.0
+      },
+      "early_by_seed": {
+        "41701": 0.0,
+        "41702": 0.0,
+        "41703": 0.0,
+        "41704": 0.0
+      },
+      "complete_seeds": 4,
+      "mean": 0.0,
+      "positive_seeds": 0,
+      "strict_target_top": 0,
+      "scorable_queries": 16,
+      "total_queries": 16,
+      "ties": 16,
+      "min_margin": 0.0,
+      "max_margin": 0.0,
+      "peak_saturation_range": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "arm": "normal",
+      "stage": "review",
+      "group": "who",
+      "route": "birth",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 0.00010324231850145082,
+        "41702": 0.00019102540603918583,
+        "41703": 8.991527434443203e-05,
+        "41704": 0.00013517457027933943
+      },
+      "early_by_seed": {
+        "41701": 0.004316992876919071,
+        "41702": 0.00798757068954721,
+        "41703": 0.003759733455294012,
+        "41704": 0.005652213796703318
+      },
+      "complete_seeds": 4,
+      "mean": 0.00012983939229110203,
+      "positive_seeds": 4,
+      "strict_target_top": 14,
+      "scorable_queries": 16,
+      "total_queries": 16,
+      "ties": 0,
+      "min_margin": -0.0001190938308118783,
+      "max_margin": 0.0005020896103563599,
+      "peak_saturation_range": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "arm": "normal",
+      "stage": "final",
+      "group": "pair",
+      "route": "continuation",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 0.0,
+        "41702": 0.0,
+        "41703": 0.0,
+        "41704": 0.0
+      },
+      "early_by_seed": {
+        "41701": 0.0,
+        "41702": 0.0,
+        "41703": 0.0,
+        "41704": 0.0
+      },
+      "complete_seeds": 4,
+      "mean": 0.0,
+      "positive_seeds": 0,
+      "strict_target_top": 0,
+      "scorable_queries": 8,
+      "total_queries": 8,
+      "ties": 8,
+      "min_margin": 0.0,
+      "max_margin": 0.0,
+      "peak_saturation_range": [
+        0.9939759036144579,
+        1.0
+      ]
+    },
+    {
+      "arm": "normal",
+      "stage": "final",
+      "group": "pair",
+      "route": "birth",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 6.381204365280002e-05,
+        "41702": 0.00028710842824924976,
+        "41703": 0.00011692033946619773,
+        "41704": 0.00013883074071002754
+      },
+      "early_by_seed": {
+        "41701": 0.002668248271737589,
+        "41702": 0.012005203463537478,
+        "41703": 0.004888928105926504,
+        "41704": 0.005805093564753935
+      },
+      "complete_seeds": 4,
+      "mean": 0.00015166788801956876,
+      "positive_seeds": 4,
+      "strict_target_top": 7,
+      "scorable_queries": 8,
+      "total_queries": 8,
+      "ties": 0,
+      "min_margin": -0.00011015282368875834,
+      "max_margin": 0.00044177916372967196,
+      "peak_saturation_range": [
+        0.9939759036144579,
+        1.0
+      ]
+    },
+    {
+      "arm": "normal",
+      "stage": "final",
+      "group": "who",
+      "route": "continuation",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 0.0,
+        "41702": 0.0,
+        "41703": 0.0,
+        "41704": 0.0
+      },
+      "early_by_seed": {
+        "41701": 0.0,
+        "41702": 0.0,
+        "41703": 0.0,
+        "41704": 0.0
+      },
+      "complete_seeds": 4,
+      "mean": 0.0,
+      "positive_seeds": 0,
+      "strict_target_top": 0,
+      "scorable_queries": 16,
+      "total_queries": 16,
+      "ties": 16,
+      "min_margin": 0.0,
+      "max_margin": 0.0,
+      "peak_saturation_range": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "arm": "normal",
+      "stage": "final",
+      "group": "who",
+      "route": "birth",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 0.00010324231850145082,
+        "41702": 0.00019102540603918583,
+        "41703": 8.991527434443203e-05,
+        "41704": 0.00013517457027933943
+      },
+      "early_by_seed": {
+        "41701": 0.004316992876919071,
+        "41702": 0.00798757068954721,
+        "41703": 0.003759733455294012,
+        "41704": 0.005652213796703318
+      },
+      "complete_seeds": 4,
+      "mean": 0.00012983939229110203,
+      "positive_seeds": 4,
+      "strict_target_top": 14,
+      "scorable_queries": 16,
+      "total_queries": 16,
+      "ties": 0,
+      "min_margin": -0.0001190938308118783,
+      "max_margin": 0.0005020896103563599,
+      "peak_saturation_range": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "arm": "normal",
+      "stage": "final",
+      "group": "family",
+      "route": "continuation",
+      "metric": "mean_role",
+      "by_seed": {
+        "41701": 0.0,
+        "41702": 0.0,
+        "41703": null,
+        "41704": 0.0
+      },
+      "early_by_seed": {
+        "41701": 0.0,
+        "41702": 0.0,
+        "41703": null,
+        "41704": 0.0
+      },
+      "complete_seeds": 3,
+      "mean": 0.0,
+      "positive_seeds": 0,
+      "strict_target_top": 0,
+      "scorable_queries": 6,
+      "total_queries": 8,
+      "ties": 6,
+      "min_margin": 0.0,
+      "max_margin": 0.0,
+      "peak_saturation_range": [
+        0.9939759036144579,
+        1.0
+      ]
+    },
+    {
+      "arm": "normal",
+      "stage": "final",
+      "group": "family",
+      "route": "birth",
+      "metric": "mean_role",
+      "by_seed": {
+        "41701": -0.0005555089234492439,
+        "41702": 8.710598871009001e-05,
+        "41703": null,
+        "41704": 0.00043727206332438984
+      },
+      "early_by_seed": {
+        "41701": -0.02322815004939091,
+        "41702": 0.0036422654804444676,
+        "41703": null,
+        "41704": 0.018284172711831387
+      },
+      "complete_seeds": 3,
+      "mean": -1.0376957138254669e-05,
+      "positive_seeds": 2,
+      "strict_target_top": 1,
+      "scorable_queries": 6,
+      "total_queries": 8,
+      "ties": 2,
+      "min_margin": -0.8521953734793998,
+      "max_margin": 0.0001883678899421426,
+      "peak_saturation_range": [
+        0.9939759036144579,
+        1.0
+      ]
+    },
+    {
+      "arm": "crossed",
+      "stage": "final",
+      "group": "family",
+      "route": "continuation",
+      "metric": "mean_role",
+      "by_seed": {
+        "41701": 0.0,
+        "41702": 0.0,
+        "41703": null,
+        "41704": 0.0
+      },
+      "early_by_seed": {
+        "41701": 0.0,
+        "41702": 0.0,
+        "41703": null,
+        "41704": 0.0
+      },
+      "complete_seeds": 3,
+      "mean": 0.0,
+      "positive_seeds": 0,
+      "strict_target_top": 0,
+      "scorable_queries": 6,
+      "total_queries": 8,
+      "ties": 6,
+      "min_margin": 0.0,
+      "max_margin": 0.0,
+      "peak_saturation_range": [
+        0.9939759036144579,
+        1.0
+      ]
+    },
+    {
+      "arm": "crossed",
+      "stage": "final",
+      "group": "family",
+      "route": "birth",
+      "metric": "mean_role",
+      "by_seed": {
+        "41701": -0.0005189244081910127,
+        "41702": 8.710598871009001e-05,
+        "41703": null,
+        "41704": 0.000421012278765287
+      },
+      "early_by_seed": {
+        "41701": -0.021698398547604247,
+        "41702": 0.0036422654804444676,
+        "41703": null,
+        "41704": 0.017604283155481792
+      },
+      "complete_seeds": 3,
+      "mean": -3.602046905211894e-06,
+      "positive_seeds": 2,
+      "strict_target_top": 1,
+      "scorable_queries": 6,
+      "total_queries": 8,
+      "ties": 2,
+      "min_margin": -0.8521953734793998,
+      "max_margin": 7.151972752128533e-05,
+      "peak_saturation_range": [
+        0.9939759036144579,
+        1.0
+      ]
+    },
+    {
+      "arm": "pair_swap",
+      "stage": "pair_20_each",
+      "group": "pair",
+      "route": "continuation",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 0.0006267384712691114,
+        "41702": 0.0
+      },
+      "early_by_seed": {
+        "41701": 0.0009928733820200888,
+        "41702": 0.0
+      },
+      "complete_seeds": 2,
+      "mean": 0.0003133692356345557,
+      "positive_seeds": 1,
+      "strict_target_top": 1,
+      "scorable_queries": 4,
+      "total_queries": 4,
+      "ties": 3,
+      "min_margin": 0.0,
+      "max_margin": 0.0012534769425382227,
+      "peak_saturation_range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "arm": "pair_swap",
+      "stage": "pair_20_each",
+      "group": "pair",
+      "route": "birth",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 1.495630797196763e-05,
+        "41702": 0.0
+      },
+      "early_by_seed": {
+        "41701": 0.0004598743220640582,
+        "41702": 0.0
+      },
+      "complete_seeds": 2,
+      "mean": 7.478153985983815e-06,
+      "positive_seeds": 1,
+      "strict_target_top": 1,
+      "scorable_queries": 4,
+      "total_queries": 4,
+      "ties": 3,
+      "min_margin": 0.0,
+      "max_margin": 2.991261594393526e-05,
+      "peak_saturation_range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "arm": "pair_swap",
+      "stage": "dialogue_1",
+      "group": "pair",
+      "route": "continuation",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 0.0,
+        "41702": 0.0
+      },
+      "early_by_seed": {
+        "41701": 0.0,
+        "41702": 0.0
+      },
+      "complete_seeds": 2,
+      "mean": 0.0,
+      "positive_seeds": 0,
+      "strict_target_top": 0,
+      "scorable_queries": 4,
+      "total_queries": 4,
+      "ties": 4,
+      "min_margin": 0.0,
+      "max_margin": 0.0,
+      "peak_saturation_range": [
+        0.8705035971223022,
+        0.8905109489051095
+      ]
+    },
+    {
+      "arm": "pair_swap",
+      "stage": "dialogue_1",
+      "group": "pair",
+      "route": "birth",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 0.0003664139188627735,
+        "41702": 0.001774363431986281
+      },
+      "early_by_seed": {
+        "41701": 0.015321297513423045,
+        "41702": 0.07417228819466141
+      },
+      "complete_seeds": 2,
+      "mean": 0.0010703886754245273,
+      "positive_seeds": 2,
+      "strict_target_top": 4,
+      "scorable_queries": 4,
+      "total_queries": 4,
+      "ties": 0,
+      "min_margin": 0.000306152632934209,
+      "max_margin": 0.0020852633034378343,
+      "peak_saturation_range": [
+        0.8489208633093526,
+        0.8873239436619719
+      ]
+    },
+    {
+      "arm": "pair_swap",
+      "stage": "dialogue_1",
+      "group": "who",
+      "route": "continuation",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 0.0,
+        "41702": 3.0468178529308165e-06
+      },
+      "early_by_seed": {
+        "41701": 0.0,
+        "41702": 0.0
+      },
+      "complete_seeds": 2,
+      "mean": 1.5234089264654083e-06,
+      "positive_seeds": 1,
+      "strict_target_top": 2,
+      "scorable_queries": 8,
+      "total_queries": 8,
+      "ties": 4,
+      "min_margin": -3.9343827050175584e-05,
+      "max_margin": 4.5902355752525104e-05,
+      "peak_saturation_range": [
+        0.8897058823529411,
+        0.8970588235294118
+      ]
+    },
+    {
+      "arm": "pair_swap",
+      "stage": "dialogue_1",
+      "group": "who",
+      "route": "birth",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 0.0004411940211792864,
+        "41702": 0.0019535611673472952
+      },
+      "early_by_seed": {
+        "41701": 0.018511474506642256,
+        "41702": 0.07875845285294722
+      },
+      "complete_seeds": 2,
+      "mean": 0.0011973775942632908,
+      "positive_seeds": 2,
+      "strict_target_top": 4,
+      "scorable_queries": 8,
+      "total_queries": 8,
+      "ties": 0,
+      "min_margin": -0.16565754450612524,
+      "max_margin": 0.1699200989157138,
+      "peak_saturation_range": [
+        0.8676470588235294,
+        0.8936170212765957
+      ]
+    },
+    {
+      "arm": "pair_swap",
+      "stage": "dialogue_3",
+      "group": "pair",
+      "route": "continuation",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 0.0,
+        "41702": 0.0
+      },
+      "early_by_seed": {
+        "41701": 0.0,
+        "41702": 0.0
+      },
+      "complete_seeds": 2,
+      "mean": 0.0,
+      "positive_seeds": 0,
+      "strict_target_top": 0,
+      "scorable_queries": 4,
+      "total_queries": 4,
+      "ties": 4,
+      "min_margin": 0.0,
+      "max_margin": 0.0,
+      "peak_saturation_range": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "arm": "pair_swap",
+      "stage": "dialogue_3",
+      "group": "pair",
+      "route": "birth",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 0.00010088534652197279,
+        "41702": 0.00026683653601983215
+      },
+      "early_by_seed": {
+        "41701": 0.004218438026605903,
+        "41702": 0.011157550915369657
+      },
+      "complete_seeds": 2,
+      "mean": 0.00018386094127090247,
+      "positive_seeds": 2,
+      "strict_target_top": 3,
+      "scorable_queries": 4,
+      "total_queries": 4,
+      "ties": 0,
+      "min_margin": -0.0001316710205664373,
+      "max_margin": 0.0003334417136103829,
+      "peak_saturation_range": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "arm": "pair_swap",
+      "stage": "dialogue_3",
+      "group": "who",
+      "route": "continuation",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 0.0,
+        "41702": 0.0
+      },
+      "early_by_seed": {
+        "41701": 0.0,
+        "41702": 0.0
+      },
+      "complete_seeds": 2,
+      "mean": 0.0,
+      "positive_seeds": 0,
+      "strict_target_top": 0,
+      "scorable_queries": 8,
+      "total_queries": 8,
+      "ties": 8,
+      "min_margin": 0.0,
+      "max_margin": 0.0,
+      "peak_saturation_range": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "arm": "pair_swap",
+      "stage": "dialogue_3",
+      "group": "who",
+      "route": "birth",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 0.00011631325906180656,
+        "41702": 0.0002329263341424581
+      },
+      "early_by_seed": {
+        "41701": 0.004863543536701473,
+        "41702": 0.009739623634347244
+      },
+      "complete_seeds": 2,
+      "mean": 0.00017461979660213234,
+      "positive_seeds": 2,
+      "strict_target_top": 7,
+      "scorable_queries": 8,
+      "total_queries": 8,
+      "ties": 0,
+      "min_margin": -9.29512825849077e-05,
+      "max_margin": 0.0006724863300586748,
+      "peak_saturation_range": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "arm": "pair_swap",
+      "stage": "review",
+      "group": "pair",
+      "route": "continuation",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 0.0,
+        "41702": 0.0
+      },
+      "early_by_seed": {
+        "41701": 0.0,
+        "41702": 0.0
+      },
+      "complete_seeds": 2,
+      "mean": 0.0,
+      "positive_seeds": 0,
+      "strict_target_top": 0,
+      "scorable_queries": 4,
+      "total_queries": 4,
+      "ties": 4,
+      "min_margin": 0.0,
+      "max_margin": 0.0,
+      "peak_saturation_range": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "arm": "pair_swap",
+      "stage": "review",
+      "group": "pair",
+      "route": "birth",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 9.616923326483118e-05,
+        "41702": 0.00026683653601983215
+      },
+      "early_by_seed": {
+        "41701": 0.004021237618542214,
+        "41702": 0.011157550915369657
+      },
+      "complete_seeds": 2,
+      "mean": 0.00018150288464233166,
+      "positive_seeds": 2,
+      "strict_target_top": 3,
+      "scorable_queries": 4,
+      "total_queries": 4,
+      "ties": 0,
+      "min_margin": -8.407908542196196e-05,
+      "max_margin": 0.0003119630088503911,
+      "peak_saturation_range": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "arm": "pair_swap",
+      "stage": "review",
+      "group": "who",
+      "route": "continuation",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 0.0,
+        "41702": 0.0
+      },
+      "early_by_seed": {
+        "41701": 0.0,
+        "41702": 0.0
+      },
+      "complete_seeds": 2,
+      "mean": 0.0,
+      "positive_seeds": 0,
+      "strict_target_top": 0,
+      "scorable_queries": 8,
+      "total_queries": 8,
+      "ties": 8,
+      "min_margin": 0.0,
+      "max_margin": 0.0,
+      "peak_saturation_range": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "arm": "pair_swap",
+      "stage": "review",
+      "group": "who",
+      "route": "birth",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 0.0001110718075608974,
+        "41702": 0.0002058155433885822
+      },
+      "early_by_seed": {
+        "41701": 0.004644376540814579,
+        "41702": 0.008606008153106817
+      },
+      "complete_seeds": 2,
+      "mean": 0.0001584436754747398,
+      "positive_seeds": 2,
+      "strict_target_top": 7,
+      "scorable_queries": 8,
+      "total_queries": 8,
+      "ties": 0,
+      "min_margin": -9.29512825849077e-05,
+      "max_margin": 0.0005640431670431711,
+      "peak_saturation_range": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "arm": "pair_swap",
+      "stage": "final",
+      "group": "pair",
+      "route": "continuation",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 0.0,
+        "41702": 0.0
+      },
+      "early_by_seed": {
+        "41701": 0.0,
+        "41702": 0.0
+      },
+      "complete_seeds": 2,
+      "mean": 0.0,
+      "positive_seeds": 0,
+      "strict_target_top": 0,
+      "scorable_queries": 4,
+      "total_queries": 4,
+      "ties": 4,
+      "min_margin": 0.0,
+      "max_margin": 0.0,
+      "peak_saturation_range": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "arm": "pair_swap",
+      "stage": "final",
+      "group": "pair",
+      "route": "birth",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 9.616923326483118e-05,
+        "41702": 0.00026683653601983215
+      },
+      "early_by_seed": {
+        "41701": 0.004021237618542214,
+        "41702": 0.011157550915369657
+      },
+      "complete_seeds": 2,
+      "mean": 0.00018150288464233166,
+      "positive_seeds": 2,
+      "strict_target_top": 3,
+      "scorable_queries": 4,
+      "total_queries": 4,
+      "ties": 0,
+      "min_margin": -8.407908542196196e-05,
+      "max_margin": 0.0003119630088503911,
+      "peak_saturation_range": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "arm": "pair_swap",
+      "stage": "final",
+      "group": "who",
+      "route": "continuation",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 0.0,
+        "41702": 0.0
+      },
+      "early_by_seed": {
+        "41701": 0.0,
+        "41702": 0.0
+      },
+      "complete_seeds": 2,
+      "mean": 0.0,
+      "positive_seeds": 0,
+      "strict_target_top": 0,
+      "scorable_queries": 8,
+      "total_queries": 8,
+      "ties": 8,
+      "min_margin": 0.0,
+      "max_margin": 0.0,
+      "peak_saturation_range": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "arm": "pair_swap",
+      "stage": "final",
+      "group": "who",
+      "route": "birth",
+      "metric": "mean_margin",
+      "by_seed": {
+        "41701": 0.0001110718075608974,
+        "41702": 0.0002058155433885822
+      },
+      "early_by_seed": {
+        "41701": 0.004644376540814579,
+        "41702": 0.008606008153106817
+      },
+      "complete_seeds": 2,
+      "mean": 0.0001584436754747398,
+      "positive_seeds": 2,
+      "strict_target_top": 7,
+      "scorable_queries": 8,
+      "total_queries": 8,
+      "ties": 0,
+      "min_margin": -9.29512825849077e-05,
+      "max_margin": 0.0005640431670431711,
+      "peak_saturation_range": [
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "follows_crossed_facts": [
+    {
+      "seed": 41701,
+      "route": "continuation",
+      "by_family": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0
+    },
+    {
+      "seed": 41702,
+      "route": "continuation",
+      "by_family": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0
+    },
+    {
+      "seed": 41703,
+      "route": "continuation",
+      "by_family": [
+        null,
+        null
+      ],
+      "mean": null
+    },
+    {
+      "seed": 41704,
+      "route": "continuation",
+      "by_family": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0
+    },
+    {
+      "seed": 41701,
+      "route": "birth",
+      "by_family": [
+        -0.00010452718645215242,
+        0.00010452718645215242
+      ],
+      "mean": 0.0
+    },
+    {
+      "seed": 41702,
+      "route": "birth",
+      "by_family": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0
+    },
+    {
+      "seed": 41703,
+      "route": "birth",
+      "by_family": [
+        null,
+        null
+      ],
+      "mean": null
+    },
+    {
+      "seed": 41704,
+      "route": "birth",
+      "by_family": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0
+    }
+  ],
+  "training_anchors": [
+    {
+      "seed": 41701,
+      "count": 20,
+      "metrics": {
+        "activation": 0.19732235528738898,
+        "active_fraction": 0.6428571428571429,
+        "attention": {
+          "considered_channels": "0",
+          "counter_overflowed": false,
+          "effective": {
+            "budget_multiplier": 1.0,
+            "competition_enabled": false,
+            "effective_budget": null,
+            "gain": 1.0,
+            "sources": []
+          },
+          "evaluated_frames": "0",
+          "modulators": [],
+          "parameters": {
+            "attention_budget": 28,
+            "attention_competition_enabled": false
+          },
+          "passed_channels": "0",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "edge_density": 1.0,
+        "edges": 1722,
+        "energy": {
+          "consumed_associative": 0.0,
+          "consumed_direct": 0.0,
+          "consumed_inhibition": 0.0,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "parameters": {
+            "energy_associative_cost": 0.02,
+            "energy_capacity": 1.0,
+            "energy_direct_cost": 0.035,
+            "energy_inhibition_cost": 0.01,
+            "energy_initial_reserve": 1.0,
+            "energy_maintenance_cost_per_edge": 4e-05,
+            "energy_maintenance_cost_per_node": 0.0002,
+            "energy_simulation_enabled": false,
+            "energy_starvation_damage_enabled": false,
+            "energy_starvation_structural_decay": 0.06
+          },
+          "reserve": 1.0,
+          "schema": "threemind.energy/1",
+          "settled_state_time_us": "16000000",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "inhibition": 0.10177099108801949,
+        "life": "active",
+        "mean_activation": 0.004698151316366405,
+        "mean_weight": 0.030624285593541155,
+        "nodes": 42,
+        "pending_events": 0,
+        "quiet_since_us": null,
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "limits": {
+            "edge_adaptation_limit": null,
+            "max_edges": null,
+            "max_nodes": null,
+            "propagation_limit": null
+          },
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0",
+          "step_us": 100000
+        },
+        "saturated_fraction": 0.0,
+        "sequence": 1739,
+        "spatial": {
+          "clusters": null,
+          "coordinate_rule": "threemind.sha256-id-axis/1",
+          "isolated_nodes": null,
+          "neighbor_edges": null,
+          "parameters": {
+            "neighborhood_enabled": true,
+            "spatial_competition_rate": 0.0,
+            "spatial_dimensions": 3,
+            "spatial_embedding": false,
+            "spatial_radius": 2.5
+          },
+          "schema": "threemind.spatial-observation/1",
+          "seed": 20260724
+        },
+        "state_time_us": "16000000",
+        "time_us": "16000000",
+        "transport": {
+          "activated": 63.30401770188987,
+          "discarded": 0.0,
+          "received": 63.578894611340864,
+          "sent": 0.0
+        }
+      },
+      "mean_edge_stability": 0.051877095617838244,
+      "first_sentence_edges": 1722,
+      "retained_first_sentence_edges": 1722,
+      "anchor_mean_weight": 0.030624285593541117,
+      "anchor_mean_stability": 0.051877095617838244
+    },
+    {
+      "seed": 41701,
+      "count": 40,
+      "metrics": {
+        "activation": 0.2041011948761765,
+        "active_fraction": 0.4098360655737705,
+        "attention": {
+          "considered_channels": "0",
+          "counter_overflowed": false,
+          "effective": {
+            "budget_multiplier": 1.0,
+            "competition_enabled": false,
+            "effective_budget": null,
+            "gain": 1.0,
+            "sources": []
+          },
+          "evaluated_frames": "0",
+          "modulators": [],
+          "parameters": {
+            "attention_budget": 28,
+            "attention_competition_enabled": false
+          },
+          "passed_channels": "0",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "edge_density": 0.7612021857923498,
+        "edges": 2786,
+        "energy": {
+          "consumed_associative": 0.0,
+          "consumed_direct": 0.0,
+          "consumed_inhibition": 0.0,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "parameters": {
+            "energy_associative_cost": 0.02,
+            "energy_capacity": 1.0,
+            "energy_direct_cost": 0.035,
+            "energy_inhibition_cost": 0.01,
+            "energy_initial_reserve": 1.0,
+            "energy_maintenance_cost_per_edge": 4e-05,
+            "energy_maintenance_cost_per_node": 0.0002,
+            "energy_simulation_enabled": false,
+            "energy_starvation_damage_enabled": false,
+            "energy_starvation_structural_decay": 0.06
+          },
+          "reserve": 1.0,
+          "schema": "threemind.energy/1",
+          "settled_state_time_us": "32000000",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "inhibition": 0.08005581362200011,
+        "life": "active",
+        "mean_activation": 0.0033459212274783035,
+        "mean_weight": 0.026309886389307324,
+        "nodes": 61,
+        "pending_events": 0,
+        "quiet_since_us": null,
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "limits": {
+            "edge_adaptation_limit": null,
+            "max_edges": null,
+            "max_nodes": null,
+            "propagation_limit": null
+          },
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0",
+          "step_us": 100000
+        },
+        "saturated_fraction": 0.0,
+        "sequence": 3459,
+        "spatial": {
+          "clusters": null,
+          "coordinate_rule": "threemind.sha256-id-axis/1",
+          "isolated_nodes": null,
+          "neighbor_edges": null,
+          "parameters": {
+            "neighborhood_enabled": true,
+            "spatial_competition_rate": 0.0,
+            "spatial_dimensions": 3,
+            "spatial_embedding": false,
+            "spatial_radius": 2.5
+          },
+          "schema": "threemind.spatial-observation/1",
+          "seed": 20260724
+        },
+        "state_time_us": "32000000",
+        "time_us": "32000000",
+        "transport": {
+          "activated": 126.68879282051239,
+          "discarded": 0.0,
+          "received": 127.15778922268196,
+          "sent": 0.0
+        }
+      },
+      "mean_edge_stability": 0.04966566651683983,
+      "first_sentence_edges": 1722,
+      "retained_first_sentence_edges": 1722,
+      "anchor_mean_weight": 0.02297286544450816,
+      "anchor_mean_stability": 0.043490907714156965
+    },
+    {
+      "seed": 41701,
+      "count": 200,
+      "metrics": {
+        "activation": 95.16697498671398,
+        "active_fraction": 1.0,
+        "attention": {
+          "considered_channels": "0",
+          "counter_overflowed": false,
+          "effective": {
+            "budget_multiplier": 1.0,
+            "competition_enabled": false,
+            "effective_budget": null,
+            "gain": 1.0,
+            "sources": []
+          },
+          "evaluated_frames": "0",
+          "modulators": [],
+          "parameters": {
+            "attention_budget": 28,
+            "attention_competition_enabled": false
+          },
+          "passed_channels": "0",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "edge_density": 0.5976107226107226,
+        "edges": 12306,
+        "energy": {
+          "consumed_associative": 0.0,
+          "consumed_direct": 0.0,
+          "consumed_inhibition": 0.0,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "parameters": {
+            "energy_associative_cost": 0.02,
+            "energy_capacity": 1.0,
+            "energy_direct_cost": 0.035,
+            "energy_inhibition_cost": 0.01,
+            "energy_initial_reserve": 1.0,
+            "energy_maintenance_cost_per_edge": 4e-05,
+            "energy_maintenance_cost_per_node": 0.0002,
+            "energy_simulation_enabled": false,
+            "energy_starvation_damage_enabled": false,
+            "energy_starvation_structural_decay": 0.06
+          },
+          "reserve": 1.0,
+          "schema": "threemind.energy/1",
+          "settled_state_time_us": "160000000",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "inhibition": 21.017161509623882,
+        "life": "active",
+        "mean_activation": 0.6608817707410694,
+        "mean_weight": 0.7605860804539739,
+        "nodes": 144,
+        "pending_events": 2,
+        "quiet_since_us": null,
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "limits": {
+            "edge_adaptation_limit": null,
+            "max_edges": null,
+            "max_nodes": null,
+            "propagation_limit": null
+          },
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0",
+          "step_us": 100000
+        },
+        "saturated_fraction": 0.0,
+        "sequence": 18532,
+        "spatial": {
+          "clusters": null,
+          "coordinate_rule": "threemind.sha256-id-axis/1",
+          "isolated_nodes": null,
+          "neighbor_edges": null,
+          "parameters": {
+            "neighborhood_enabled": true,
+            "spatial_competition_rate": 0.0,
+            "spatial_dimensions": 3,
+            "spatial_embedding": false,
+            "spatial_radius": 2.5
+          },
+          "schema": "threemind.spatial-observation/1",
+          "seed": 20260724
+        },
+        "state_time_us": "160000000",
+        "time_us": "160000000",
+        "transport": {
+          "activated": 22526.633338377378,
+          "discarded": 0.0,
+          "received": 770687.1373770202,
+          "sent": 771811.5986414872
+        }
+      },
+      "mean_edge_stability": 0.9273945084269586,
+      "first_sentence_edges": 1722,
+      "retained_first_sentence_edges": 1482,
+      "anchor_mean_weight": 0.9839483981725916,
+      "anchor_mean_stability": 0.9891822345097807
+    },
+    {
+      "seed": 41701,
+      "count": 600,
+      "metrics": {
+        "activation": 109.37462613787105,
+        "active_fraction": 1.0,
+        "attention": {
+          "considered_channels": "0",
+          "counter_overflowed": false,
+          "effective": {
+            "budget_multiplier": 1.0,
+            "competition_enabled": false,
+            "effective_budget": null,
+            "gain": 1.0,
+            "sources": []
+          },
+          "evaluated_frames": "0",
+          "modulators": [],
+          "parameters": {
+            "attention_budget": 28,
+            "attention_competition_enabled": false
+          },
+          "passed_channels": "0",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "edge_density": 0.8105488770850806,
+        "edges": 17396,
+        "energy": {
+          "consumed_associative": 0.0,
+          "consumed_direct": 0.0,
+          "consumed_inhibition": 0.0,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "parameters": {
+            "energy_associative_cost": 0.02,
+            "energy_capacity": 1.0,
+            "energy_direct_cost": 0.035,
+            "energy_inhibition_cost": 0.01,
+            "energy_initial_reserve": 1.0,
+            "energy_maintenance_cost_per_edge": 4e-05,
+            "energy_maintenance_cost_per_node": 0.0002,
+            "energy_simulation_enabled": false,
+            "energy_starvation_damage_enabled": false,
+            "energy_starvation_structural_decay": 0.06
+          },
+          "reserve": 1.0,
+          "schema": "threemind.energy/1",
+          "settled_state_time_us": "480000000",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "inhibition": 24.42516490159065,
+        "life": "active",
+        "mean_activation": 0.7440450757678303,
+        "mean_weight": 1.0,
+        "nodes": 147,
+        "pending_events": 2,
+        "quiet_since_us": null,
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "limits": {
+            "edge_adaptation_limit": null,
+            "max_edges": null,
+            "max_nodes": null,
+            "propagation_limit": null
+          },
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0",
+          "step_us": 100000
+        },
+        "saturated_fraction": 0.0,
+        "sequence": 57332,
+        "spatial": {
+          "clusters": null,
+          "coordinate_rule": "threemind.sha256-id-axis/1",
+          "isolated_nodes": null,
+          "neighbor_edges": null,
+          "parameters": {
+            "neighborhood_enabled": true,
+            "spatial_competition_rate": 0.0,
+            "spatial_dimensions": 3,
+            "spatial_embedding": false,
+            "spatial_radius": 2.5
+          },
+          "schema": "threemind.spatial-observation/1",
+          "seed": 20260724
+        },
+        "state_time_us": "480000000",
+        "time_us": "480000000",
+        "transport": {
+          "activated": 152416.65861376948,
+          "discarded": 0.0,
+          "received": 12481350.320613107,
+          "sent": 12482409.814478364
+        }
+      },
+      "mean_edge_stability": 0.9999077759313694,
+      "first_sentence_edges": 1722,
+      "retained_first_sentence_edges": 1560,
+      "anchor_mean_weight": 1.0,
+      "anchor_mean_stability": 0.9999063204571236
+    },
+    {
+      "seed": 41701,
+      "count": 1020,
+      "metrics": {
+        "activation": 121.27934735015631,
+        "active_fraction": 1.0,
+        "attention": {
+          "considered_channels": "0",
+          "counter_overflowed": false,
+          "effective": {
+            "budget_multiplier": 1.0,
+            "competition_enabled": false,
+            "effective_budget": null,
+            "gain": 1.0,
+            "sources": []
+          },
+          "evaluated_frames": "0",
+          "modulators": [],
+          "parameters": {
+            "attention_budget": 28,
+            "attention_competition_enabled": false
+          },
+          "passed_channels": "0",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "edge_density": 0.724077861092176,
+        "edges": 19120,
+        "energy": {
+          "consumed_associative": 0.0,
+          "consumed_direct": 0.0,
+          "consumed_inhibition": 0.0,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "parameters": {
+            "energy_associative_cost": 0.02,
+            "energy_capacity": 1.0,
+            "energy_direct_cost": 0.035,
+            "energy_inhibition_cost": 0.01,
+            "energy_initial_reserve": 1.0,
+            "energy_maintenance_cost_per_edge": 4e-05,
+            "energy_maintenance_cost_per_node": 0.0002,
+            "energy_simulation_enabled": false,
+            "energy_starvation_damage_enabled": false,
+            "energy_starvation_structural_decay": 0.06
+          },
+          "reserve": 1.0,
+          "schema": "threemind.energy/1",
+          "settled_state_time_us": "816000000",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "inhibition": 26.96859825475592,
+        "life": "active",
+        "mean_activation": 0.7440450757678302,
+        "mean_weight": 1.0,
+        "nodes": 163,
+        "pending_events": 2,
+        "quiet_since_us": null,
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "limits": {
+            "edge_adaptation_limit": null,
+            "max_edges": null,
+            "max_nodes": null,
+            "propagation_limit": null
+          },
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0",
+          "step_us": 100000
+        },
+        "saturated_fraction": 0.0,
+        "sequence": 98072,
+        "spatial": {
+          "clusters": null,
+          "coordinate_rule": "threemind.sha256-id-axis/1",
+          "isolated_nodes": null,
+          "neighbor_edges": null,
+          "parameters": {
+            "neighborhood_enabled": true,
+            "spatial_competition_rate": 0.0,
+            "spatial_dimensions": 3,
+            "spatial_embedding": false,
+            "spatial_radius": 2.5
+          },
+          "schema": "threemind.spatial-observation/1",
+          "seed": 20260724
+        },
+        "state_time_us": "816000000",
+        "time_us": "816000000",
+        "transport": {
+          "activated": 304496.603806409,
+          "discarded": 0.0,
+          "received": 26613221.24974069,
+          "sent": 26613299.0218248
+        }
+      },
+      "mean_edge_stability": 0.9999074625480969,
+      "first_sentence_edges": 1722,
+      "retained_first_sentence_edges": 1560,
+      "anchor_mean_weight": 1.0,
+      "anchor_mean_stability": 0.9999055884415494
+    },
+    {
+      "seed": 41701,
+      "count": 1070,
+      "metrics": {
+        "activation": 121.27934735015631,
+        "active_fraction": 1.0,
+        "attention": {
+          "considered_channels": "0",
+          "counter_overflowed": false,
+          "effective": {
+            "budget_multiplier": 1.0,
+            "competition_enabled": false,
+            "effective_budget": null,
+            "gain": 1.0,
+            "sources": []
+          },
+          "evaluated_frames": "0",
+          "modulators": [],
+          "parameters": {
+            "attention_budget": 28,
+            "attention_competition_enabled": false
+          },
+          "passed_channels": "0",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "edge_density": 0.724077861092176,
+        "edges": 19120,
+        "energy": {
+          "consumed_associative": 0.0,
+          "consumed_direct": 0.0,
+          "consumed_inhibition": 0.0,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "parameters": {
+            "energy_associative_cost": 0.02,
+            "energy_capacity": 1.0,
+            "energy_direct_cost": 0.035,
+            "energy_inhibition_cost": 0.01,
+            "energy_initial_reserve": 1.0,
+            "energy_maintenance_cost_per_edge": 4e-05,
+            "energy_maintenance_cost_per_node": 0.0002,
+            "energy_simulation_enabled": false,
+            "energy_starvation_damage_enabled": false,
+            "energy_starvation_structural_decay": 0.06
+          },
+          "reserve": 1.0,
+          "schema": "threemind.energy/1",
+          "settled_state_time_us": "856000000",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "inhibition": 26.96894430992468,
+        "life": "active",
+        "mean_activation": 0.7440450757678302,
+        "mean_weight": 1.0,
+        "nodes": 163,
+        "pending_events": 2,
+        "quiet_since_us": null,
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "limits": {
+            "edge_adaptation_limit": null,
+            "max_edges": null,
+            "max_nodes": null,
+            "propagation_limit": null
+          },
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0",
+          "step_us": 100000
+        },
+        "saturated_fraction": 0.0,
+        "sequence": 102922,
+        "spatial": {
+          "clusters": null,
+          "coordinate_rule": "threemind.sha256-id-axis/1",
+          "isolated_nodes": null,
+          "neighbor_edges": null,
+          "parameters": {
+            "neighborhood_enabled": true,
+            "spatial_competition_rate": 0.0,
+            "spatial_dimensions": 3,
+            "spatial_embedding": false,
+            "spatial_radius": 2.5
+          },
+          "schema": "threemind.spatial-observation/1",
+          "seed": 20260724
+        },
+        "state_time_us": "856000000",
+        "time_us": "856000000",
+        "transport": {
+          "activated": 322758.1921131791,
+          "discarded": 0.0,
+          "received": 28318280.728027668,
+          "sent": 28318122.017557018
+        }
+      },
+      "mean_edge_stability": 0.9999074892647082,
+      "first_sentence_edges": 1722,
+      "retained_first_sentence_edges": 1560,
+      "anchor_mean_weight": 1.0,
+      "anchor_mean_stability": 0.9999056662775286
+    },
+    {
+      "seed": 41701,
+      "count": 1310,
+      "metrics": {
+        "activation": 123.5114825774598,
+        "active_fraction": 1.0,
+        "attention": {
+          "considered_channels": "0",
+          "counter_overflowed": false,
+          "effective": {
+            "budget_multiplier": 1.0,
+            "competition_enabled": false,
+            "effective_budget": null,
+            "gain": 1.0,
+            "sources": []
+          },
+          "evaluated_frames": "0",
+          "modulators": [],
+          "parameters": {
+            "attention_budget": 28,
+            "attention_competition_enabled": false
+          },
+          "passed_channels": "0",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "edge_density": 0.7134720700985762,
+        "edges": 19542,
+        "energy": {
+          "consumed_associative": 0.0,
+          "consumed_direct": 0.0,
+          "consumed_inhibition": 0.0,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "parameters": {
+            "energy_associative_cost": 0.02,
+            "energy_capacity": 1.0,
+            "energy_direct_cost": 0.035,
+            "energy_inhibition_cost": 0.01,
+            "energy_initial_reserve": 1.0,
+            "energy_maintenance_cost_per_edge": 4e-05,
+            "energy_maintenance_cost_per_node": 0.0002,
+            "energy_simulation_enabled": false,
+            "energy_starvation_damage_enabled": false,
+            "energy_starvation_structural_decay": 0.06
+          },
+          "reserve": 1.0,
+          "schema": "threemind.energy/1",
+          "settled_state_time_us": "1048000000",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "inhibition": 27.442854013165707,
+        "life": "active",
+        "mean_activation": 0.7440450757678301,
+        "mean_weight": 1.0,
+        "nodes": 166,
+        "pending_events": 2,
+        "quiet_since_us": null,
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "limits": {
+            "edge_adaptation_limit": null,
+            "max_edges": null,
+            "max_nodes": null,
+            "propagation_limit": null
+          },
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0",
+          "step_us": 100000
+        },
+        "saturated_fraction": 0.0,
+        "sequence": 126202,
+        "spatial": {
+          "clusters": null,
+          "coordinate_rule": "threemind.sha256-id-axis/1",
+          "isolated_nodes": null,
+          "neighbor_edges": null,
+          "parameters": {
+            "neighborhood_enabled": true,
+            "spatial_competition_rate": 0.0,
+            "spatial_dimensions": 3,
+            "spatial_embedding": false,
+            "spatial_radius": 2.5
+          },
+          "schema": "threemind.spatial-observation/1",
+          "seed": 20260724
+        },
+        "state_time_us": "1048000000",
+        "time_us": "1048000000",
+        "transport": {
+          "activated": 411747.9685428407,
+          "discarded": 0.0,
+          "received": 36634159.55576334,
+          "sent": 36633354.872764826
+        }
+      },
+      "mean_edge_stability": 0.999907420688409,
+      "first_sentence_edges": 1722,
+      "retained_first_sentence_edges": 1560,
+      "anchor_mean_weight": 1.0,
+      "anchor_mean_stability": 0.9999055701011055
+    },
+    {
+      "seed": 41702,
+      "count": 20,
+      "metrics": {
+        "activation": 0.19725610143097758,
+        "active_fraction": 0.625,
+        "attention": {
+          "considered_channels": "0",
+          "counter_overflowed": false,
+          "effective": {
+            "budget_multiplier": 1.0,
+            "competition_enabled": false,
+            "effective_budget": null,
+            "gain": 1.0,
+            "sources": []
+          },
+          "evaluated_frames": "0",
+          "modulators": [],
+          "parameters": {
+            "attention_budget": 28,
+            "attention_competition_enabled": false
+          },
+          "passed_channels": "0",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "edge_density": 1.0,
+        "edges": 1560,
+        "energy": {
+          "consumed_associative": 0.0,
+          "consumed_direct": 0.0,
+          "consumed_inhibition": 0.0,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "parameters": {
+            "energy_associative_cost": 0.02,
+            "energy_capacity": 1.0,
+            "energy_direct_cost": 0.035,
+            "energy_inhibition_cost": 0.01,
+            "energy_initial_reserve": 1.0,
+            "energy_maintenance_cost_per_edge": 4e-05,
+            "energy_maintenance_cost_per_node": 0.0002,
+            "energy_simulation_enabled": false,
+            "energy_starvation_damage_enabled": false,
+            "energy_starvation_structural_decay": 0.06
+          },
+          "reserve": 1.0,
+          "schema": "threemind.energy/1",
+          "settled_state_time_us": "16000000",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "inhibition": 0.10452728383137994,
+        "life": "active",
+        "mean_activation": 0.004931402535774439,
+        "mean_weight": 0.031179092688412697,
+        "nodes": 40,
+        "pending_events": 0,
+        "quiet_since_us": null,
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "limits": {
+            "edge_adaptation_limit": null,
+            "max_edges": null,
+            "max_nodes": null,
+            "propagation_limit": null
+          },
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0",
+          "step_us": 100000
+        },
+        "saturated_fraction": 0.0,
+        "sequence": 1740,
+        "spatial": {
+          "clusters": null,
+          "coordinate_rule": "threemind.sha256-id-axis/1",
+          "isolated_nodes": null,
+          "neighbor_edges": null,
+          "parameters": {
+            "neighborhood_enabled": true,
+            "spatial_competition_rate": 0.0,
+            "spatial_dimensions": 3,
+            "spatial_embedding": false,
+            "spatial_radius": 2.5
+          },
+          "schema": "threemind.spatial-observation/1",
+          "seed": 20260724
+        },
+        "state_time_us": "16000000",
+        "time_us": "16000000",
+        "transport": {
+          "activated": 63.277672129044646,
+          "discarded": 0.0,
+          "received": 63.578894611340935,
+          "sent": 0.0
+        }
+      },
+      "mean_edge_stability": 0.056064287035167845,
+      "first_sentence_edges": 1560,
+      "retained_first_sentence_edges": 1560,
+      "anchor_mean_weight": 0.03117909268841264,
+      "anchor_mean_stability": 0.056064287035167845
+    },
+    {
+      "seed": 41702,
+      "count": 40,
+      "metrics": {
+        "activation": 0.2073463948573204,
+        "active_fraction": 0.46551724137931033,
+        "attention": {
+          "considered_channels": "0",
+          "counter_overflowed": false,
+          "effective": {
+            "budget_multiplier": 1.0,
+            "competition_enabled": false,
+            "effective_budget": null,
+            "gain": 1.0,
+            "sources": []
+          },
+          "evaluated_frames": "0",
+          "modulators": [],
+          "parameters": {
+            "attention_budget": 28,
+            "attention_competition_enabled": false
+          },
+          "passed_channels": "0",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "edge_density": 0.7931034482758621,
+        "edges": 2622,
+        "energy": {
+          "consumed_associative": 0.0,
+          "consumed_direct": 0.0,
+          "consumed_inhibition": 0.0,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "parameters": {
+            "energy_associative_cost": 0.02,
+            "energy_capacity": 1.0,
+            "energy_direct_cost": 0.035,
+            "energy_inhibition_cost": 0.01,
+            "energy_initial_reserve": 1.0,
+            "energy_maintenance_cost_per_edge": 4e-05,
+            "energy_maintenance_cost_per_node": 0.0002,
+            "energy_simulation_enabled": false,
+            "energy_starvation_damage_enabled": false,
+            "energy_starvation_structural_decay": 0.06
+          },
+          "reserve": 1.0,
+          "schema": "threemind.energy/1",
+          "settled_state_time_us": "32000000",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "inhibition": 0.0802969960621686,
+        "life": "active",
+        "mean_activation": 0.003574937842367593,
+        "mean_weight": 0.026925566212860085,
+        "nodes": 58,
+        "pending_events": 0,
+        "quiet_since_us": null,
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "limits": {
+            "edge_adaptation_limit": null,
+            "max_edges": null,
+            "max_nodes": null,
+            "propagation_limit": null
+          },
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0",
+          "step_us": 100000
+        },
+        "saturated_fraction": 0.0,
+        "sequence": 3460,
+        "spatial": {
+          "clusters": null,
+          "coordinate_rule": "threemind.sha256-id-axis/1",
+          "isolated_nodes": null,
+          "neighbor_edges": null,
+          "parameters": {
+            "neighborhood_enabled": true,
+            "spatial_competition_rate": 0.0,
+            "spatial_dimensions": 3,
+            "spatial_embedding": false,
+            "spatial_radius": 2.5
+          },
+          "schema": "threemind.spatial-observation/1",
+          "seed": 20260724
+        },
+        "state_time_us": "32000000",
+        "time_us": "32000000",
+        "transport": {
+          "activated": 126.66247062564443,
+          "discarded": 0.0,
+          "received": 127.15778922268203,
+          "sent": 0.0
+        }
+      },
+      "mean_edge_stability": 0.0545355535101797,
+      "first_sentence_edges": 1560,
+      "retained_first_sentence_edges": 1560,
+      "anchor_mean_weight": 0.023789362705065358,
+      "anchor_mean_stability": 0.051959752479695025
+    },
+    {
+      "seed": 41702,
+      "count": 200,
+      "metrics": {
+        "activation": 83.83891635321308,
+        "active_fraction": 0.9057971014492754,
+        "attention": {
+          "considered_channels": "0",
+          "counter_overflowed": false,
+          "effective": {
+            "budget_multiplier": 1.0,
+            "competition_enabled": false,
+            "effective_budget": null,
+            "gain": 1.0,
+            "sources": []
+          },
+          "evaluated_frames": "0",
+          "modulators": [],
+          "parameters": {
+            "attention_budget": 28,
+            "attention_competition_enabled": false
+          },
+          "passed_channels": "0",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "edge_density": 0.47900137522479636,
+        "edges": 9056,
+        "energy": {
+          "consumed_associative": 0.0,
+          "consumed_direct": 0.0,
+          "consumed_inhibition": 0.0,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "parameters": {
+            "energy_associative_cost": 0.02,
+            "energy_capacity": 1.0,
+            "energy_direct_cost": 0.035,
+            "energy_inhibition_cost": 0.01,
+            "energy_initial_reserve": 1.0,
+            "energy_maintenance_cost_per_edge": 4e-05,
+            "energy_maintenance_cost_per_node": 0.0002,
+            "energy_simulation_enabled": false,
+            "energy_starvation_damage_enabled": false,
+            "energy_starvation_structural_decay": 0.06
+          },
+          "reserve": 1.0,
+          "schema": "threemind.energy/1",
+          "settled_state_time_us": "160000000",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "inhibition": 18.306640711126892,
+        "life": "active",
+        "mean_activation": 0.6075283793711093,
+        "mean_weight": 0.5961225527478405,
+        "nodes": 138,
+        "pending_events": 2,
+        "quiet_since_us": null,
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "limits": {
+            "edge_adaptation_limit": null,
+            "max_edges": null,
+            "max_nodes": null,
+            "propagation_limit": null
+          },
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0",
+          "step_us": 100000
+        },
+        "saturated_fraction": 0.0,
+        "sequence": 18088,
+        "spatial": {
+          "clusters": null,
+          "coordinate_rule": "threemind.sha256-id-axis/1",
+          "isolated_nodes": null,
+          "neighbor_edges": null,
+          "parameters": {
+            "neighborhood_enabled": true,
+            "spatial_competition_rate": 0.0,
+            "spatial_dimensions": 3,
+            "spatial_embedding": false,
+            "spatial_radius": 2.5
+          },
+          "schema": "threemind.spatial-observation/1",
+          "seed": 20260724
+        },
+        "state_time_us": "160000000",
+        "time_us": "160000000",
+        "transport": {
+          "activated": 10707.819554032394,
+          "discarded": 0.0,
+          "received": 198841.94965700278,
+          "sent": 199059.98185050124
+        }
+      },
+      "mean_edge_stability": 0.7490020269905016,
+      "first_sentence_edges": 1560,
+      "retained_first_sentence_edges": 1042,
+      "anchor_mean_weight": 0.613716190837903,
+      "anchor_mean_stability": 0.7012531398141438
+    },
+    {
+      "seed": 41702,
+      "count": 600,
+      "metrics": {
+        "activation": 118.303167047085,
+        "active_fraction": 1.0,
+        "attention": {
+          "considered_channels": "0",
+          "counter_overflowed": false,
+          "effective": {
+            "budget_multiplier": 1.0,
+            "competition_enabled": false,
+            "effective_budget": null,
+            "gain": 1.0,
+            "sources": []
+          },
+          "evaluated_frames": "0",
+          "modulators": [],
+          "parameters": {
+            "attention_budget": 28,
+            "attention_competition_enabled": false
+          },
+          "passed_channels": "0",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "edge_density": 0.7932489451476793,
+        "edges": 19928,
+        "energy": {
+          "consumed_associative": 0.0,
+          "consumed_direct": 0.0,
+          "consumed_inhibition": 0.0,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "parameters": {
+            "energy_associative_cost": 0.02,
+            "energy_capacity": 1.0,
+            "energy_direct_cost": 0.035,
+            "energy_inhibition_cost": 0.01,
+            "energy_initial_reserve": 1.0,
+            "energy_maintenance_cost_per_edge": 4e-05,
+            "energy_maintenance_cost_per_node": 0.0002,
+            "energy_simulation_enabled": false,
+            "energy_starvation_damage_enabled": false,
+            "energy_starvation_structural_decay": 0.06
+          },
+          "reserve": 1.0,
+          "schema": "threemind.energy/1",
+          "settled_state_time_us": "480000000",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "inhibition": 26.39949223896384,
+        "life": "active",
+        "mean_activation": 0.7440450757678302,
+        "mean_weight": 1.0,
+        "nodes": 159,
+        "pending_events": 2,
+        "quiet_since_us": null,
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "limits": {
+            "edge_adaptation_limit": null,
+            "max_edges": null,
+            "max_nodes": null,
+            "propagation_limit": null
+          },
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0",
+          "step_us": 100000
+        },
+        "saturated_fraction": 0.0,
+        "sequence": 56888,
+        "spatial": {
+          "clusters": null,
+          "coordinate_rule": "threemind.sha256-id-axis/1",
+          "isolated_nodes": null,
+          "neighbor_edges": null,
+          "parameters": {
+            "neighborhood_enabled": true,
+            "spatial_competition_rate": 0.0,
+            "spatial_dimensions": 3,
+            "spatial_embedding": false,
+            "spatial_radius": 2.5
+          },
+          "schema": "threemind.spatial-observation/1",
+          "seed": 20260724
+        },
+        "state_time_us": "480000000",
+        "time_us": "480000000",
+        "transport": {
+          "activated": 148490.84135794037,
+          "discarded": 0.0,
+          "received": 12670921.370603018,
+          "sent": 12672544.765058158
+        }
+      },
+      "mean_edge_stability": 0.9999077299534173,
+      "first_sentence_edges": 1560,
+      "retained_first_sentence_edges": 1260,
+      "anchor_mean_weight": 1.0,
+      "anchor_mean_stability": 0.9999062513620716
+    },
+    {
+      "seed": 41702,
+      "count": 1020,
+      "metrics": {
+        "activation": 122.76743750169197,
+        "active_fraction": 1.0,
+        "attention": {
+          "considered_channels": "0",
+          "counter_overflowed": false,
+          "effective": {
+            "budget_multiplier": 1.0,
+            "competition_enabled": false,
+            "effective_budget": null,
+            "gain": 1.0,
+            "sources": []
+          },
+          "evaluated_frames": "0",
+          "modulators": [],
+          "parameters": {
+            "attention_budget": 28,
+            "attention_competition_enabled": false
+          },
+          "passed_channels": "0",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "edge_density": 0.7774575018477458,
+        "edges": 21038,
+        "energy": {
+          "consumed_associative": 0.0,
+          "consumed_direct": 0.0,
+          "consumed_inhibition": 0.0,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "parameters": {
+            "energy_associative_cost": 0.02,
+            "energy_capacity": 1.0,
+            "energy_direct_cost": 0.035,
+            "energy_inhibition_cost": 0.01,
+            "energy_initial_reserve": 1.0,
+            "energy_maintenance_cost_per_edge": 4e-05,
+            "energy_maintenance_cost_per_node": 0.0002,
+            "energy_simulation_enabled": false,
+            "energy_starvation_damage_enabled": false,
+            "energy_starvation_structural_decay": 0.06
+          },
+          "reserve": 1.0,
+          "schema": "threemind.energy/1",
+          "settled_state_time_us": "816000000",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "inhibition": 27.384390218634888,
+        "life": "active",
+        "mean_activation": 0.7440450757678302,
+        "mean_weight": 1.0,
+        "nodes": 165,
+        "pending_events": 2,
+        "quiet_since_us": null,
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "limits": {
+            "edge_adaptation_limit": null,
+            "max_edges": null,
+            "max_nodes": null,
+            "propagation_limit": null
+          },
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0",
+          "step_us": 100000
+        },
+        "saturated_fraction": 0.0,
+        "sequence": 97628,
+        "spatial": {
+          "clusters": null,
+          "coordinate_rule": "threemind.sha256-id-axis/1",
+          "isolated_nodes": null,
+          "neighbor_edges": null,
+          "parameters": {
+            "neighborhood_enabled": true,
+            "spatial_competition_rate": 0.0,
+            "spatial_dimensions": 3,
+            "spatial_embedding": false,
+            "spatial_radius": 2.5
+          },
+          "schema": "threemind.spatial-observation/1",
+          "seed": 20260724
+        },
+        "state_time_us": "816000000",
+        "time_us": "816000000",
+        "transport": {
+          "activated": 303171.7315675766,
+          "discarded": 0.0,
+          "received": 28357002.838879295,
+          "sent": 28357524.19898095
+        }
+      },
+      "mean_edge_stability": 0.9999076549433975,
+      "first_sentence_edges": 1560,
+      "retained_first_sentence_edges": 1260,
+      "anchor_mean_weight": 1.0,
+      "anchor_mean_stability": 0.9999060992810936
+    },
+    {
+      "seed": 41702,
+      "count": 1070,
+      "metrics": {
+        "activation": 122.76743750169197,
+        "active_fraction": 1.0,
+        "attention": {
+          "considered_channels": "0",
+          "counter_overflowed": false,
+          "effective": {
+            "budget_multiplier": 1.0,
+            "competition_enabled": false,
+            "effective_budget": null,
+            "gain": 1.0,
+            "sources": []
+          },
+          "evaluated_frames": "0",
+          "modulators": [],
+          "parameters": {
+            "attention_budget": 28,
+            "attention_competition_enabled": false
+          },
+          "passed_channels": "0",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "edge_density": 0.7774575018477458,
+        "edges": 21038,
+        "energy": {
+          "consumed_associative": 0.0,
+          "consumed_direct": 0.0,
+          "consumed_inhibition": 0.0,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "parameters": {
+            "energy_associative_cost": 0.02,
+            "energy_capacity": 1.0,
+            "energy_direct_cost": 0.035,
+            "energy_inhibition_cost": 0.01,
+            "energy_initial_reserve": 1.0,
+            "energy_maintenance_cost_per_edge": 4e-05,
+            "energy_maintenance_cost_per_node": 0.0002,
+            "energy_simulation_enabled": false,
+            "energy_starvation_damage_enabled": false,
+            "energy_starvation_structural_decay": 0.06
+          },
+          "reserve": 1.0,
+          "schema": "threemind.energy/1",
+          "settled_state_time_us": "856000000",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "inhibition": 27.384738595211417,
+        "life": "active",
+        "mean_activation": 0.7440450757678302,
+        "mean_weight": 1.0,
+        "nodes": 165,
+        "pending_events": 2,
+        "quiet_since_us": null,
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "limits": {
+            "edge_adaptation_limit": null,
+            "max_edges": null,
+            "max_nodes": null,
+            "propagation_limit": null
+          },
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0",
+          "step_us": 100000
+        },
+        "saturated_fraction": 0.0,
+        "sequence": 102478,
+        "spatial": {
+          "clusters": null,
+          "coordinate_rule": "threemind.sha256-id-axis/1",
+          "isolated_nodes": null,
+          "neighbor_edges": null,
+          "parameters": {
+            "neighborhood_enabled": true,
+            "spatial_competition_rate": 0.0,
+            "spatial_dimensions": 3,
+            "spatial_embedding": false,
+            "spatial_radius": 2.5
+          },
+          "schema": "threemind.spatial-observation/1",
+          "seed": 20260724
+        },
+        "state_time_us": "856000000",
+        "time_us": "856000000",
+        "transport": {
+          "activated": 321657.3529680101,
+          "discarded": 0.0,
+          "received": 30239489.104648083,
+          "sent": 30239773.980522495
+        }
+      },
+      "mean_edge_stability": 0.9999076842298269,
+      "first_sentence_edges": 1560,
+      "retained_first_sentence_edges": 1260,
+      "anchor_mean_weight": 1.0,
+      "anchor_mean_stability": 0.9999061322046594
+    },
+    {
+      "seed": 41702,
+      "count": 1310,
+      "metrics": {
+        "activation": 123.5114825774598,
+        "active_fraction": 1.0,
+        "attention": {
+          "considered_channels": "0",
+          "counter_overflowed": false,
+          "effective": {
+            "budget_multiplier": 1.0,
+            "competition_enabled": false,
+            "effective_budget": null,
+            "gain": 1.0,
+            "sources": []
+          },
+          "evaluated_frames": "0",
+          "modulators": [],
+          "parameters": {
+            "attention_budget": 28,
+            "attention_competition_enabled": false
+          },
+          "passed_channels": "0",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "edge_density": 0.7777290982110259,
+        "edges": 21302,
+        "energy": {
+          "consumed_associative": 0.0,
+          "consumed_direct": 0.0,
+          "consumed_inhibition": 0.0,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "parameters": {
+            "energy_associative_cost": 0.02,
+            "energy_capacity": 1.0,
+            "energy_direct_cost": 0.035,
+            "energy_inhibition_cost": 0.01,
+            "energy_initial_reserve": 1.0,
+            "energy_maintenance_cost_per_edge": 4e-05,
+            "energy_maintenance_cost_per_node": 0.0002,
+            "energy_simulation_enabled": false,
+            "energy_starvation_damage_enabled": false,
+            "energy_starvation_structural_decay": 0.06
+          },
+          "reserve": 1.0,
+          "schema": "threemind.energy/1",
+          "settled_state_time_us": "1048000000",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "inhibition": 27.549046402900323,
+        "life": "active",
+        "mean_activation": 0.7440450757678301,
+        "mean_weight": 1.0,
+        "nodes": 166,
+        "pending_events": 2,
+        "quiet_since_us": null,
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "limits": {
+            "edge_adaptation_limit": null,
+            "max_edges": null,
+            "max_nodes": null,
+            "propagation_limit": null
+          },
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0",
+          "step_us": 100000
+        },
+        "saturated_fraction": 0.0,
+        "sequence": 125758,
+        "spatial": {
+          "clusters": null,
+          "coordinate_rule": "threemind.sha256-id-axis/1",
+          "isolated_nodes": null,
+          "neighbor_edges": null,
+          "parameters": {
+            "neighborhood_enabled": true,
+            "spatial_competition_rate": 0.0,
+            "spatial_dimensions": 3,
+            "spatial_embedding": false,
+            "spatial_radius": 2.5
+          },
+          "schema": "threemind.spatial-observation/1",
+          "seed": 20260724
+        },
+        "state_time_us": "1048000000",
+        "time_us": "1048000000",
+        "transport": {
+          "activated": 410781.7756837643,
+          "discarded": 0.0,
+          "received": 39364167.44185663,
+          "sent": 39363774.352494754
+        }
+      },
+      "mean_edge_stability": 0.999907653632108,
+      "first_sentence_edges": 1560,
+      "retained_first_sentence_edges": 1260,
+      "anchor_mean_weight": 1.0,
+      "anchor_mean_stability": 0.9999061426280972
+    },
+    {
+      "seed": 41703,
+      "count": 20,
+      "metrics": {
+        "activation": 0.20717061181004176,
+        "active_fraction": 0.6756756756756757,
+        "attention": {
+          "considered_channels": "0",
+          "counter_overflowed": false,
+          "effective": {
+            "budget_multiplier": 1.0,
+            "competition_enabled": false,
+            "effective_budget": null,
+            "gain": 1.0,
+            "sources": []
+          },
+          "evaluated_frames": "0",
+          "modulators": [],
+          "parameters": {
+            "attention_budget": 28,
+            "attention_competition_enabled": false
+          },
+          "passed_channels": "0",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "edge_density": 1.0,
+        "edges": 1332,
+        "energy": {
+          "consumed_associative": 0.0,
+          "consumed_direct": 0.0,
+          "consumed_inhibition": 0.0,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "parameters": {
+            "energy_associative_cost": 0.02,
+            "energy_capacity": 1.0,
+            "energy_direct_cost": 0.035,
+            "energy_inhibition_cost": 0.01,
+            "energy_initial_reserve": 1.0,
+            "energy_maintenance_cost_per_edge": 4e-05,
+            "energy_maintenance_cost_per_node": 0.0002,
+            "energy_simulation_enabled": false,
+            "energy_starvation_damage_enabled": false,
+            "energy_starvation_structural_decay": 0.06
+          },
+          "reserve": 1.0,
+          "schema": "threemind.energy/1",
+          "settled_state_time_us": "16000000",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "inhibition": 0.10935212069157817,
+        "life": "active",
+        "mean_activation": 0.005599205724595723,
+        "mean_weight": 0.03217005896339521,
+        "nodes": 37,
+        "pending_events": 0,
+        "quiet_since_us": null,
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "limits": {
+            "edge_adaptation_limit": null,
+            "max_edges": null,
+            "max_nodes": null,
+            "propagation_limit": null
+          },
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0",
+          "step_us": 100000
+        },
+        "saturated_fraction": 0.0,
+        "sequence": 1740,
+        "spatial": {
+          "clusters": null,
+          "coordinate_rule": "threemind.sha256-id-axis/1",
+          "isolated_nodes": null,
+          "neighbor_edges": null,
+          "parameters": {
+            "neighborhood_enabled": true,
+            "spatial_competition_rate": 0.0,
+            "spatial_dimensions": 3,
+            "spatial_embedding": false,
+            "spatial_radius": 2.5
+          },
+          "schema": "threemind.spatial-observation/1",
+          "seed": 20260724
+        },
+        "state_time_us": "16000000",
+        "time_us": "16000000",
+        "transport": {
+          "activated": 63.2183561633974,
+          "discarded": 0.0,
+          "received": 63.57889461134086,
+          "sent": 0.0
+        }
+      },
+      "mean_edge_stability": 0.06331462780072761,
+      "first_sentence_edges": 1332,
+      "retained_first_sentence_edges": 1332,
+      "anchor_mean_weight": 0.03217005896339545,
+      "anchor_mean_stability": 0.06331462780072761
+    },
+    {
+      "seed": 41703,
+      "count": 40,
+      "metrics": {
+        "activation": 0.20727686161172107,
+        "active_fraction": 0.45454545454545453,
+        "attention": {
+          "considered_channels": "0",
+          "counter_overflowed": false,
+          "effective": {
+            "budget_multiplier": 1.0,
+            "competition_enabled": false,
+            "effective_budget": null,
+            "gain": 1.0,
+            "sources": []
+          },
+          "evaluated_frames": "0",
+          "modulators": [],
+          "parameters": {
+            "attention_budget": 28,
+            "attention_competition_enabled": false
+          },
+          "passed_channels": "0",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "edge_density": 0.7818181818181819,
+        "edges": 2322,
+        "energy": {
+          "consumed_associative": 0.0,
+          "consumed_direct": 0.0,
+          "consumed_inhibition": 0.0,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "parameters": {
+            "energy_associative_cost": 0.02,
+            "energy_capacity": 1.0,
+            "energy_direct_cost": 0.035,
+            "energy_inhibition_cost": 0.01,
+            "energy_initial_reserve": 1.0,
+            "energy_maintenance_cost_per_edge": 4e-05,
+            "energy_maintenance_cost_per_node": 0.0002,
+            "energy_simulation_enabled": false,
+            "energy_starvation_damage_enabled": false,
+            "energy_starvation_structural_decay": 0.06
+          },
+          "reserve": 1.0,
+          "schema": "threemind.energy/1",
+          "settled_state_time_us": "32000000",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "inhibition": 0.08370092084272918,
+        "life": "active",
+        "mean_activation": 0.0037686702111222013,
+        "mean_weight": 0.027825733766927468,
+        "nodes": 55,
+        "pending_events": 0,
+        "quiet_since_us": null,
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "limits": {
+            "edge_adaptation_limit": null,
+            "max_edges": null,
+            "max_nodes": null,
+            "propagation_limit": null
+          },
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0",
+          "step_us": 100000
+        },
+        "saturated_fraction": 0.0,
+        "sequence": 3460,
+        "spatial": {
+          "clusters": null,
+          "coordinate_rule": "threemind.sha256-id-axis/1",
+          "isolated_nodes": null,
+          "neighbor_edges": null,
+          "parameters": {
+            "neighborhood_enabled": true,
+            "spatial_competition_rate": 0.0,
+            "spatial_dimensions": 3,
+            "spatial_embedding": false,
+            "spatial_radius": 2.5
+          },
+          "schema": "threemind.spatial-observation/1",
+          "seed": 20260724
+        },
+        "state_time_us": "32000000",
+        "time_us": "32000000",
+        "transport": {
+          "activated": 126.58510960938098,
+          "discarded": 0.0,
+          "received": 127.15778922268139,
+          "sent": 0.0
+        }
+      },
+      "mean_edge_stability": 0.060799572406829,
+      "first_sentence_edges": 1332,
+      "retained_first_sentence_edges": 1332,
+      "anchor_mean_weight": 0.024704236429187877,
+      "anchor_mean_stability": 0.060027267209249335
+    },
+    {
+      "seed": 41703,
+      "count": 200,
+      "metrics": {
+        "activation": 94.6950772705354,
+        "active_fraction": 0.9855072463768116,
+        "attention": {
+          "considered_channels": "0",
+          "counter_overflowed": false,
+          "effective": {
+            "budget_multiplier": 1.0,
+            "competition_enabled": false,
+            "effective_budget": null,
+            "gain": 1.0,
+            "sources": []
+          },
+          "evaluated_frames": "0",
+          "modulators": [],
+          "parameters": {
+            "attention_budget": 28,
+            "attention_competition_enabled": false
+          },
+          "passed_channels": "0",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "edge_density": 0.6168941076906802,
+        "edges": 11663,
+        "energy": {
+          "consumed_associative": 0.0,
+          "consumed_direct": 0.0,
+          "consumed_inhibition": 0.0,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "parameters": {
+            "energy_associative_cost": 0.02,
+            "energy_capacity": 1.0,
+            "energy_direct_cost": 0.035,
+            "energy_inhibition_cost": 0.01,
+            "energy_initial_reserve": 1.0,
+            "energy_maintenance_cost_per_edge": 4e-05,
+            "energy_maintenance_cost_per_node": 0.0002,
+            "energy_simulation_enabled": false,
+            "energy_starvation_damage_enabled": false,
+            "energy_starvation_structural_decay": 0.06
+          },
+          "reserve": 1.0,
+          "schema": "threemind.energy/1",
+          "settled_state_time_us": "160000000",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "inhibition": 20.94786381374211,
+        "life": "active",
+        "mean_activation": 0.686196212105329,
+        "mean_weight": 0.9012533179602481,
+        "nodes": 138,
+        "pending_events": 2,
+        "quiet_since_us": null,
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "limits": {
+            "edge_adaptation_limit": null,
+            "max_edges": null,
+            "max_nodes": null,
+            "propagation_limit": null
+          },
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0",
+          "step_us": 100000
+        },
+        "saturated_fraction": 0.0,
+        "sequence": 18562,
+        "spatial": {
+          "clusters": null,
+          "coordinate_rule": "threemind.sha256-id-axis/1",
+          "isolated_nodes": null,
+          "neighbor_edges": null,
+          "parameters": {
+            "neighborhood_enabled": true,
+            "spatial_competition_rate": 0.0,
+            "spatial_dimensions": 3,
+            "spatial_embedding": false,
+            "spatial_radius": 2.5
+          },
+          "schema": "threemind.spatial-observation/1",
+          "seed": 20260724
+        },
+        "state_time_us": "160000000",
+        "time_us": "160000000",
+        "transport": {
+          "activated": 23343.13789928755,
+          "discarded": 0.0,
+          "received": 956792.9459660725,
+          "sent": 958172.4171132579
+        }
+      },
+      "mean_edge_stability": 0.9409723370428467,
+      "first_sentence_edges": 1332,
+      "retained_first_sentence_edges": 1043,
+      "anchor_mean_weight": 0.9821390477122782,
+      "anchor_mean_stability": 0.985131459260238
+    },
+    {
+      "seed": 41703,
+      "count": 600,
+      "metrics": {
+        "activation": 107.14249091056756,
+        "active_fraction": 1.0,
+        "attention": {
+          "considered_channels": "0",
+          "counter_overflowed": false,
+          "effective": {
+            "budget_multiplier": 1.0,
+            "competition_enabled": false,
+            "effective_budget": null,
+            "gain": 1.0,
+            "sources": []
+          },
+          "evaluated_frames": "0",
+          "modulators": [],
+          "parameters": {
+            "attention_budget": 28,
+            "attention_competition_enabled": false
+          },
+          "passed_channels": "0",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "edge_density": 0.7972999222999223,
+        "edges": 16418,
+        "energy": {
+          "consumed_associative": 0.0,
+          "consumed_direct": 0.0,
+          "consumed_inhibition": 0.0,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "parameters": {
+            "energy_associative_cost": 0.02,
+            "energy_capacity": 1.0,
+            "energy_direct_cost": 0.035,
+            "energy_inhibition_cost": 0.01,
+            "energy_initial_reserve": 1.0,
+            "energy_maintenance_cost_per_edge": 4e-05,
+            "energy_maintenance_cost_per_node": 0.0002,
+            "energy_simulation_enabled": false,
+            "energy_starvation_damage_enabled": false,
+            "energy_starvation_structural_decay": 0.06
+          },
+          "reserve": 1.0,
+          "schema": "threemind.energy/1",
+          "settled_state_time_us": "480000000",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "inhibition": 23.926109081716724,
+        "life": "active",
+        "mean_activation": 0.7440450757678303,
+        "mean_weight": 1.0,
+        "nodes": 144,
+        "pending_events": 2,
+        "quiet_since_us": null,
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "limits": {
+            "edge_adaptation_limit": null,
+            "max_edges": null,
+            "max_nodes": null,
+            "propagation_limit": null
+          },
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0",
+          "step_us": 100000
+        },
+        "saturated_fraction": 0.0,
+        "sequence": 57362,
+        "spatial": {
+          "clusters": null,
+          "coordinate_rule": "threemind.sha256-id-axis/1",
+          "isolated_nodes": null,
+          "neighbor_edges": null,
+          "parameters": {
+            "neighborhood_enabled": true,
+            "spatial_competition_rate": 0.0,
+            "spatial_dimensions": 3,
+            "spatial_embedding": false,
+            "spatial_radius": 2.5
+          },
+          "schema": "threemind.spatial-observation/1",
+          "seed": 20260724
+        },
+        "state_time_us": "480000000",
+        "time_us": "480000000",
+        "transport": {
+          "activated": 151020.13263508846,
+          "discarded": 0.0,
+          "received": 12106507.666590009,
+          "sent": 12107348.76246709
+        }
+      },
+      "mean_edge_stability": 0.9999077879540373,
+      "first_sentence_edges": 1332,
+      "retained_first_sentence_edges": 1190,
+      "anchor_mean_weight": 1.0,
+      "anchor_mean_stability": 0.9999064607258046
+    },
+    {
+      "seed": 41703,
+      "count": 1020,
+      "metrics": {
+        "activation": 117.55912197131717,
+        "active_fraction": 1.0,
+        "attention": {
+          "considered_channels": "0",
+          "counter_overflowed": false,
+          "effective": {
+            "budget_multiplier": 1.0,
+            "competition_enabled": false,
+            "effective_budget": null,
+            "gain": 1.0,
+            "sources": []
+          },
+          "evaluated_frames": "0",
+          "modulators": [],
+          "parameters": {
+            "attention_budget": 28,
+            "attention_competition_enabled": false
+          },
+          "passed_channels": "0",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "edge_density": 0.7282109167136983,
+        "edges": 18064,
+        "energy": {
+          "consumed_associative": 0.0,
+          "consumed_direct": 0.0,
+          "consumed_inhibition": 0.0,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "parameters": {
+            "energy_associative_cost": 0.02,
+            "energy_capacity": 1.0,
+            "energy_direct_cost": 0.035,
+            "energy_inhibition_cost": 0.01,
+            "energy_initial_reserve": 1.0,
+            "energy_maintenance_cost_per_edge": 4e-05,
+            "energy_maintenance_cost_per_node": 0.0002,
+            "energy_simulation_enabled": false,
+            "energy_starvation_damage_enabled": false,
+            "energy_starvation_structural_decay": 0.06
+          },
+          "reserve": 1.0,
+          "schema": "threemind.energy/1",
+          "settled_state_time_us": "816000000",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "inhibition": 26.159344832186804,
+        "life": "active",
+        "mean_activation": 0.7440450757678302,
+        "mean_weight": 1.0,
+        "nodes": 158,
+        "pending_events": 2,
+        "quiet_since_us": null,
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "limits": {
+            "edge_adaptation_limit": null,
+            "max_edges": null,
+            "max_nodes": null,
+            "propagation_limit": null
+          },
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0",
+          "step_us": 100000
+        },
+        "saturated_fraction": 0.0,
+        "sequence": 98102,
+        "spatial": {
+          "clusters": null,
+          "coordinate_rule": "threemind.sha256-id-axis/1",
+          "isolated_nodes": null,
+          "neighbor_edges": null,
+          "parameters": {
+            "neighborhood_enabled": true,
+            "spatial_competition_rate": 0.0,
+            "spatial_dimensions": 3,
+            "spatial_embedding": false,
+            "spatial_radius": 2.5
+          },
+          "schema": "threemind.spatial-observation/1",
+          "seed": 20260724
+        },
+        "state_time_us": "816000000",
+        "time_us": "816000000",
+        "transport": {
+          "activated": 298664.01319682086,
+          "discarded": 0.0,
+          "received": 25467627.22595707,
+          "sent": 25467474.08193764
+        }
+      },
+      "mean_edge_stability": 0.9999075273943262,
+      "first_sentence_edges": 1332,
+      "retained_first_sentence_edges": 1190,
+      "anchor_mean_weight": 1.0,
+      "anchor_mean_stability": 0.9999058291141317
+    },
+    {
+      "seed": 41703,
+      "count": 1070,
+      "metrics": {
+        "activation": 117.55912197131717,
+        "active_fraction": 1.0,
+        "attention": {
+          "considered_channels": "0",
+          "counter_overflowed": false,
+          "effective": {
+            "budget_multiplier": 1.0,
+            "competition_enabled": false,
+            "effective_budget": null,
+            "gain": 1.0,
+            "sources": []
+          },
+          "evaluated_frames": "0",
+          "modulators": [],
+          "parameters": {
+            "attention_budget": 28,
+            "attention_competition_enabled": false
+          },
+          "passed_channels": "0",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "edge_density": 0.7282109167136983,
+        "edges": 18064,
+        "energy": {
+          "consumed_associative": 0.0,
+          "consumed_direct": 0.0,
+          "consumed_inhibition": 0.0,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "parameters": {
+            "energy_associative_cost": 0.02,
+            "energy_capacity": 1.0,
+            "energy_direct_cost": 0.035,
+            "energy_inhibition_cost": 0.01,
+            "energy_initial_reserve": 1.0,
+            "energy_maintenance_cost_per_edge": 4e-05,
+            "energy_maintenance_cost_per_node": 0.0002,
+            "energy_simulation_enabled": false,
+            "energy_starvation_damage_enabled": false,
+            "energy_starvation_structural_decay": 0.06
+          },
+          "reserve": 1.0,
+          "schema": "threemind.energy/1",
+          "settled_state_time_us": "856000000",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "inhibition": 26.159689956430952,
+        "life": "active",
+        "mean_activation": 0.7440450757678302,
+        "mean_weight": 1.0,
+        "nodes": 158,
+        "pending_events": 2,
+        "quiet_since_us": null,
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "limits": {
+            "edge_adaptation_limit": null,
+            "max_edges": null,
+            "max_nodes": null,
+            "propagation_limit": null
+          },
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0",
+          "step_us": 100000
+        },
+        "saturated_fraction": 0.0,
+        "sequence": 102952,
+        "spatial": {
+          "clusters": null,
+          "coordinate_rule": "threemind.sha256-id-axis/1",
+          "isolated_nodes": null,
+          "neighbor_edges": null,
+          "parameters": {
+            "neighborhood_enabled": true,
+            "spatial_competition_rate": 0.0,
+            "spatial_dimensions": 3,
+            "spatial_embedding": false,
+            "spatial_radius": 2.5
+          },
+          "schema": "threemind.spatial-observation/1",
+          "seed": 20260724
+        },
+        "state_time_us": "856000000",
+        "time_us": "856000000",
+        "transport": {
+          "activated": 316365.5975593044,
+          "discarded": 0.0,
+          "received": 27080322.801512245,
+          "sent": 27079933.175689038
+        }
+      },
+      "mean_edge_stability": 0.9999075543209542,
+      "first_sentence_edges": 1332,
+      "retained_first_sentence_edges": 1190,
+      "anchor_mean_weight": 1.0,
+      "anchor_mean_stability": 0.9999058385491166
+    },
+    {
+      "seed": 41703,
+      "count": 1310,
+      "metrics": {
+        "activation": 122.76743750169197,
+        "active_fraction": 1.0,
+        "attention": {
+          "considered_channels": "0",
+          "counter_overflowed": false,
+          "effective": {
+            "budget_multiplier": 1.0,
+            "competition_enabled": false,
+            "effective_budget": null,
+            "gain": 1.0,
+            "sources": []
+          },
+          "evaluated_frames": "0",
+          "modulators": [],
+          "parameters": {
+            "attention_budget": 28,
+            "attention_competition_enabled": false
+          },
+          "passed_channels": "0",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "edge_density": 0.6895048041389504,
+        "edges": 18658,
+        "energy": {
+          "consumed_associative": 0.0,
+          "consumed_direct": 0.0,
+          "consumed_inhibition": 0.0,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "parameters": {
+            "energy_associative_cost": 0.02,
+            "energy_capacity": 1.0,
+            "energy_direct_cost": 0.035,
+            "energy_inhibition_cost": 0.01,
+            "energy_initial_reserve": 1.0,
+            "energy_maintenance_cost_per_edge": 4e-05,
+            "energy_maintenance_cost_per_node": 0.0002,
+            "energy_simulation_enabled": false,
+            "energy_starvation_damage_enabled": false,
+            "energy_starvation_structural_decay": 0.06
+          },
+          "reserve": 1.0,
+          "schema": "threemind.energy/1",
+          "settled_state_time_us": "1048000000",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "inhibition": 27.232075679680747,
+        "life": "active",
+        "mean_activation": 0.7440450757678302,
+        "mean_weight": 1.0,
+        "nodes": 165,
+        "pending_events": 2,
+        "quiet_since_us": null,
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "limits": {
+            "edge_adaptation_limit": null,
+            "max_edges": null,
+            "max_nodes": null,
+            "propagation_limit": null
+          },
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0",
+          "step_us": 100000
+        },
+        "saturated_fraction": 0.0,
+        "sequence": 126232,
+        "spatial": {
+          "clusters": null,
+          "coordinate_rule": "threemind.sha256-id-axis/1",
+          "isolated_nodes": null,
+          "neighbor_edges": null,
+          "parameters": {
+            "neighborhood_enabled": true,
+            "spatial_competition_rate": 0.0,
+            "spatial_dimensions": 3,
+            "spatial_embedding": false,
+            "spatial_radius": 2.5
+          },
+          "schema": "threemind.spatial-observation/1",
+          "seed": 20260724
+        },
+        "state_time_us": "1048000000",
+        "time_us": "1048000000",
+        "transport": {
+          "activated": 404592.0123784975,
+          "discarded": 0.0,
+          "received": 35001767.93478934,
+          "sent": 35000762.2076195
+        }
+      },
+      "mean_edge_stability": 0.9999073609861961,
+      "first_sentence_edges": 1332,
+      "retained_first_sentence_edges": 1190,
+      "anchor_mean_weight": 1.0,
+      "anchor_mean_stability": 0.9999054664616311
+    },
+    {
+      "seed": 41704,
+      "count": 20,
+      "metrics": {
+        "activation": 0.2165804620859644,
+        "active_fraction": 0.7692307692307693,
+        "attention": {
+          "considered_channels": "0",
+          "counter_overflowed": false,
+          "effective": {
+            "budget_multiplier": 1.0,
+            "competition_enabled": false,
+            "effective_budget": null,
+            "gain": 1.0,
+            "sources": []
+          },
+          "evaluated_frames": "0",
+          "modulators": [],
+          "parameters": {
+            "attention_budget": 28,
+            "attention_competition_enabled": false
+          },
+          "passed_channels": "0",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "edge_density": 1.0,
+        "edges": 1482,
+        "energy": {
+          "consumed_associative": 0.0,
+          "consumed_direct": 0.0,
+          "consumed_inhibition": 0.0,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "parameters": {
+            "energy_associative_cost": 0.02,
+            "energy_capacity": 1.0,
+            "energy_direct_cost": 0.035,
+            "energy_inhibition_cost": 0.01,
+            "energy_initial_reserve": 1.0,
+            "energy_maintenance_cost_per_edge": 4e-05,
+            "energy_maintenance_cost_per_node": 0.0002,
+            "energy_simulation_enabled": false,
+            "energy_starvation_damage_enabled": false,
+            "energy_starvation_structural_decay": 0.06
+          },
+          "reserve": 1.0,
+          "schema": "threemind.energy/1",
+          "settled_state_time_us": "16000000",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "inhibition": 0.1109681480912991,
+        "life": "active",
+        "mean_activation": 0.005553345181691395,
+        "mean_weight": 0.0315203481758854,
+        "nodes": 39,
+        "pending_events": 0,
+        "quiet_since_us": null,
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "limits": {
+            "edge_adaptation_limit": null,
+            "max_edges": null,
+            "max_nodes": null,
+            "propagation_limit": null
+          },
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0",
+          "step_us": 100000
+        },
+        "saturated_fraction": 0.0,
+        "sequence": 1740,
+        "spatial": {
+          "clusters": null,
+          "coordinate_rule": "threemind.sha256-id-axis/1",
+          "isolated_nodes": null,
+          "neighbor_edges": null,
+          "parameters": {
+            "neighborhood_enabled": true,
+            "spatial_competition_rate": 0.0,
+            "spatial_dimensions": 3,
+            "spatial_embedding": false,
+            "spatial_radius": 2.5
+          },
+          "schema": "threemind.spatial-observation/1",
+          "seed": 20260724
+        },
+        "state_time_us": "16000000",
+        "time_us": "16000000",
+        "transport": {
+          "activated": 63.245448789005515,
+          "discarded": 0.0,
+          "received": 63.57889461134109,
+          "sent": 0.0
+        }
+      },
+      "mean_edge_stability": 0.05849213338834842,
+      "first_sentence_edges": 1482,
+      "retained_first_sentence_edges": 1482,
+      "anchor_mean_weight": 0.031520348175884935,
+      "anchor_mean_stability": 0.05849213338834842
+    },
+    {
+      "seed": 41704,
+      "count": 40,
+      "metrics": {
+        "activation": 0.2104180474080289,
+        "active_fraction": 0.45454545454545453,
+        "attention": {
+          "considered_channels": "0",
+          "counter_overflowed": false,
+          "effective": {
+            "budget_multiplier": 1.0,
+            "competition_enabled": false,
+            "effective_budget": null,
+            "gain": 1.0,
+            "sources": []
+          },
+          "evaluated_frames": "0",
+          "modulators": [],
+          "parameters": {
+            "attention_budget": 28,
+            "attention_competition_enabled": false
+          },
+          "passed_channels": "0",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "edge_density": 0.806060606060606,
+        "edges": 2394,
+        "energy": {
+          "consumed_associative": 0.0,
+          "consumed_direct": 0.0,
+          "consumed_inhibition": 0.0,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "parameters": {
+            "energy_associative_cost": 0.02,
+            "energy_capacity": 1.0,
+            "energy_direct_cost": 0.035,
+            "energy_inhibition_cost": 0.01,
+            "energy_initial_reserve": 1.0,
+            "energy_maintenance_cost_per_edge": 4e-05,
+            "energy_maintenance_cost_per_node": 0.0002,
+            "energy_simulation_enabled": false,
+            "energy_starvation_damage_enabled": false,
+            "energy_starvation_structural_decay": 0.06
+          },
+          "reserve": 1.0,
+          "schema": "threemind.energy/1",
+          "settled_state_time_us": "32000000",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "inhibition": 0.08248550385059623,
+        "life": "active",
+        "mean_activation": 0.00382578268014598,
+        "mean_weight": 0.027301550403562257,
+        "nodes": 55,
+        "pending_events": 0,
+        "quiet_since_us": null,
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "limits": {
+            "edge_adaptation_limit": null,
+            "max_edges": null,
+            "max_nodes": null,
+            "propagation_limit": null
+          },
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0",
+          "step_us": 100000
+        },
+        "saturated_fraction": 0.0,
+        "sequence": 3473,
+        "spatial": {
+          "clusters": null,
+          "coordinate_rule": "threemind.sha256-id-axis/1",
+          "isolated_nodes": null,
+          "neighbor_edges": null,
+          "parameters": {
+            "neighborhood_enabled": true,
+            "spatial_competition_rate": 0.0,
+            "spatial_dimensions": 3,
+            "spatial_embedding": false,
+            "spatial_radius": 2.5
+          },
+          "schema": "threemind.spatial-observation/1",
+          "seed": 20260724
+        },
+        "state_time_us": "32000000",
+        "time_us": "32000000",
+        "transport": {
+          "activated": 126.8718560320995,
+          "discarded": 0.0,
+          "received": 127.42796586204634,
+          "sent": 0.2701766393642238
+        }
+      },
+      "mean_edge_stability": 0.05876988864300674,
+      "first_sentence_edges": 1482,
+      "retained_first_sentence_edges": 1482,
+      "anchor_mean_weight": 0.024421166333197703,
+      "anchor_mean_stability": 0.05714237932717159
+    },
+    {
+      "seed": 41704,
+      "count": 200,
+      "metrics": {
+        "activation": 80.00579884012596,
+        "active_fraction": 0.9920634920634921,
+        "attention": {
+          "considered_channels": "0",
+          "counter_overflowed": false,
+          "effective": {
+            "budget_multiplier": 1.0,
+            "competition_enabled": false,
+            "effective_budget": null,
+            "gain": 1.0,
+            "sources": []
+          },
+          "evaluated_frames": "0",
+          "modulators": [],
+          "parameters": {
+            "attention_budget": 28,
+            "attention_competition_enabled": false
+          },
+          "passed_channels": "0",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "edge_density": 0.5278095238095238,
+        "edges": 8313,
+        "energy": {
+          "consumed_associative": 0.0,
+          "consumed_direct": 0.0,
+          "consumed_inhibition": 0.0,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "parameters": {
+            "energy_associative_cost": 0.02,
+            "energy_capacity": 1.0,
+            "energy_direct_cost": 0.035,
+            "energy_inhibition_cost": 0.01,
+            "energy_initial_reserve": 1.0,
+            "energy_maintenance_cost_per_edge": 4e-05,
+            "energy_maintenance_cost_per_node": 0.0002,
+            "energy_simulation_enabled": false,
+            "energy_starvation_damage_enabled": false,
+            "energy_starvation_structural_decay": 0.06
+          },
+          "reserve": 1.0,
+          "schema": "threemind.energy/1",
+          "settled_state_time_us": "160000000",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "inhibition": 17.62413824080882,
+        "life": "active",
+        "mean_activation": 0.6349666574613172,
+        "mean_weight": 0.7331257412956036,
+        "nodes": 126,
+        "pending_events": 2,
+        "quiet_since_us": null,
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "limits": {
+            "edge_adaptation_limit": null,
+            "max_edges": null,
+            "max_nodes": null,
+            "propagation_limit": null
+          },
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0",
+          "step_us": 100000
+        },
+        "saturated_fraction": 0.0,
+        "sequence": 18237,
+        "spatial": {
+          "clusters": null,
+          "coordinate_rule": "threemind.sha256-id-axis/1",
+          "isolated_nodes": null,
+          "neighbor_edges": null,
+          "parameters": {
+            "neighborhood_enabled": true,
+            "spatial_competition_rate": 0.0,
+            "spatial_dimensions": 3,
+            "spatial_embedding": false,
+            "spatial_radius": 2.5
+          },
+          "schema": "threemind.spatial-observation/1",
+          "seed": 20260724
+        },
+        "state_time_us": "160000000",
+        "time_us": "160000000",
+        "transport": {
+          "activated": 11678.911711997376,
+          "discarded": 0.0,
+          "received": 274145.0484539779,
+          "sent": 274539.8985687642
+        }
+      },
+      "mean_edge_stability": 0.926529750914822,
+      "first_sentence_edges": 1482,
+      "retained_first_sentence_edges": 1099,
+      "anchor_mean_weight": 0.8306538360078675,
+      "anchor_mean_stability": 0.9308662373640669
+    },
+    {
+      "seed": 41704,
+      "count": 600,
+      "metrics": {
+        "activation": 108.63058106210322,
+        "active_fraction": 1.0,
+        "attention": {
+          "considered_channels": "0",
+          "counter_overflowed": false,
+          "effective": {
+            "budget_multiplier": 1.0,
+            "competition_enabled": false,
+            "effective_budget": null,
+            "gain": 1.0,
+            "sources": []
+          },
+          "evaluated_frames": "0",
+          "modulators": [],
+          "parameters": {
+            "attention_budget": 28,
+            "attention_competition_enabled": false
+          },
+          "passed_channels": "0",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "edge_density": 0.8276806802078412,
+        "edges": 17522,
+        "energy": {
+          "consumed_associative": 0.0,
+          "consumed_direct": 0.0,
+          "consumed_inhibition": 0.0,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "parameters": {
+            "energy_associative_cost": 0.02,
+            "energy_capacity": 1.0,
+            "energy_direct_cost": 0.035,
+            "energy_inhibition_cost": 0.01,
+            "energy_initial_reserve": 1.0,
+            "energy_maintenance_cost_per_edge": 4e-05,
+            "energy_maintenance_cost_per_node": 0.0002,
+            "energy_simulation_enabled": false,
+            "energy_starvation_damage_enabled": false,
+            "energy_starvation_structural_decay": 0.06
+          },
+          "reserve": 1.0,
+          "schema": "threemind.energy/1",
+          "settled_state_time_us": "480000000",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "inhibition": 24.28323088212176,
+        "life": "active",
+        "mean_activation": 0.7440450757678303,
+        "mean_weight": 1.0,
+        "nodes": 146,
+        "pending_events": 2,
+        "quiet_since_us": null,
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "limits": {
+            "edge_adaptation_limit": null,
+            "max_edges": null,
+            "max_nodes": null,
+            "propagation_limit": null
+          },
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0",
+          "step_us": 100000
+        },
+        "saturated_fraction": 0.0,
+        "sequence": 57037,
+        "spatial": {
+          "clusters": null,
+          "coordinate_rule": "threemind.sha256-id-axis/1",
+          "isolated_nodes": null,
+          "neighbor_edges": null,
+          "parameters": {
+            "neighborhood_enabled": true,
+            "spatial_competition_rate": 0.0,
+            "spatial_dimensions": 3,
+            "spatial_embedding": false,
+            "spatial_radius": 2.5
+          },
+          "schema": "threemind.spatial-observation/1",
+          "seed": 20260724
+        },
+        "state_time_us": "480000000",
+        "time_us": "480000000",
+        "transport": {
+          "activated": 138976.86039175928,
+          "discarded": 0.0,
+          "received": 11539934.59496644,
+          "sent": 11541025.670693884
+        }
+      },
+      "mean_edge_stability": 0.9999078234937467,
+      "first_sentence_edges": 1482,
+      "retained_first_sentence_edges": 1190,
+      "anchor_mean_weight": 1.0,
+      "anchor_mean_stability": 0.9999064509663842
+    },
+    {
+      "seed": 41704,
+      "count": 1020,
+      "metrics": {
+        "activation": 124.25552765322763,
+        "active_fraction": 1.0,
+        "attention": {
+          "considered_channels": "0",
+          "counter_overflowed": false,
+          "effective": {
+            "budget_multiplier": 1.0,
+            "competition_enabled": false,
+            "effective_budget": null,
+            "gain": 1.0,
+            "sources": []
+          },
+          "evaluated_frames": "0",
+          "modulators": [],
+          "parameters": {
+            "attention_budget": 28,
+            "attention_competition_enabled": false
+          },
+          "passed_channels": "0",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "edge_density": 0.7135848784358992,
+        "edges": 19782,
+        "energy": {
+          "consumed_associative": 0.0,
+          "consumed_direct": 0.0,
+          "consumed_inhibition": 0.0,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "parameters": {
+            "energy_associative_cost": 0.02,
+            "energy_capacity": 1.0,
+            "energy_direct_cost": 0.035,
+            "energy_inhibition_cost": 0.01,
+            "energy_initial_reserve": 1.0,
+            "energy_maintenance_cost_per_edge": 4e-05,
+            "energy_maintenance_cost_per_node": 0.0002,
+            "energy_simulation_enabled": false,
+            "energy_starvation_damage_enabled": false,
+            "energy_starvation_structural_decay": 0.06
+          },
+          "reserve": 1.0,
+          "schema": "threemind.energy/1",
+          "settled_state_time_us": "816000000",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "inhibition": 27.63284089641194,
+        "life": "active",
+        "mean_activation": 0.7440450757678301,
+        "mean_weight": 1.0,
+        "nodes": 167,
+        "pending_events": 2,
+        "quiet_since_us": null,
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "limits": {
+            "edge_adaptation_limit": null,
+            "max_edges": null,
+            "max_nodes": null,
+            "propagation_limit": null
+          },
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0",
+          "step_us": 100000
+        },
+        "saturated_fraction": 0.0,
+        "sequence": 97777,
+        "spatial": {
+          "clusters": null,
+          "coordinate_rule": "threemind.sha256-id-axis/1",
+          "isolated_nodes": null,
+          "neighbor_edges": null,
+          "parameters": {
+            "neighborhood_enabled": true,
+            "spatial_competition_rate": 0.0,
+            "spatial_dimensions": 3,
+            "spatial_embedding": false,
+            "spatial_radius": 2.5
+          },
+          "schema": "threemind.spatial-observation/1",
+          "seed": 20260724
+        },
+        "state_time_us": "816000000",
+        "time_us": "816000000",
+        "transport": {
+          "activated": 294147.2081829625,
+          "discarded": 0.0,
+          "received": 26100261.337795,
+          "sent": 26100486.56594318
+        }
+      },
+      "mean_edge_stability": 0.9999074591301462,
+      "first_sentence_edges": 1482,
+      "retained_first_sentence_edges": 1190,
+      "anchor_mean_weight": 1.0,
+      "anchor_mean_stability": 0.9999055062076997
+    },
+    {
+      "seed": 41704,
+      "count": 1070,
+      "metrics": {
+        "activation": 124.25552765322763,
+        "active_fraction": 1.0,
+        "attention": {
+          "considered_channels": "0",
+          "counter_overflowed": false,
+          "effective": {
+            "budget_multiplier": 1.0,
+            "competition_enabled": false,
+            "effective_budget": null,
+            "gain": 1.0,
+            "sources": []
+          },
+          "evaluated_frames": "0",
+          "modulators": [],
+          "parameters": {
+            "attention_budget": 28,
+            "attention_competition_enabled": false
+          },
+          "passed_channels": "0",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "edge_density": 0.7135848784358992,
+        "edges": 19782,
+        "energy": {
+          "consumed_associative": 0.0,
+          "consumed_direct": 0.0,
+          "consumed_inhibition": 0.0,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "parameters": {
+            "energy_associative_cost": 0.02,
+            "energy_capacity": 1.0,
+            "energy_direct_cost": 0.035,
+            "energy_inhibition_cost": 0.01,
+            "energy_initial_reserve": 1.0,
+            "energy_maintenance_cost_per_edge": 4e-05,
+            "energy_maintenance_cost_per_node": 0.0002,
+            "energy_simulation_enabled": false,
+            "energy_starvation_damage_enabled": false,
+            "energy_starvation_structural_decay": 0.06
+          },
+          "reserve": 1.0,
+          "schema": "threemind.energy/1",
+          "settled_state_time_us": "856000000",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "inhibition": 27.63317659434571,
+        "life": "active",
+        "mean_activation": 0.7440450757678301,
+        "mean_weight": 1.0,
+        "nodes": 167,
+        "pending_events": 2,
+        "quiet_since_us": null,
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "limits": {
+            "edge_adaptation_limit": null,
+            "max_edges": null,
+            "max_nodes": null,
+            "propagation_limit": null
+          },
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0",
+          "step_us": 100000
+        },
+        "saturated_fraction": 0.0,
+        "sequence": 102627,
+        "spatial": {
+          "clusters": null,
+          "coordinate_rule": "threemind.sha256-id-axis/1",
+          "isolated_nodes": null,
+          "neighbor_edges": null,
+          "parameters": {
+            "neighborhood_enabled": true,
+            "spatial_competition_rate": 0.0,
+            "spatial_dimensions": 3,
+            "spatial_embedding": false,
+            "spatial_radius": 2.5
+          },
+          "schema": "threemind.spatial-observation/1",
+          "seed": 20260724
+        },
+        "state_time_us": "856000000",
+        "time_us": "856000000",
+        "transport": {
+          "activated": 312856.7979628611,
+          "discarded": 0.0,
+          "received": 27864301.72400291,
+          "sent": 27864290.46974554
+        }
+      },
+      "mean_edge_stability": 0.9999074850693838,
+      "first_sentence_edges": 1482,
+      "retained_first_sentence_edges": 1190,
+      "anchor_mean_weight": 1.0,
+      "anchor_mean_stability": 0.9999055398503184
+    },
+    {
+      "seed": 41704,
+      "count": 1310,
+      "metrics": {
+        "activation": 124.99957272899546,
+        "active_fraction": 1.0,
+        "attention": {
+          "considered_channels": "0",
+          "counter_overflowed": false,
+          "effective": {
+            "budget_multiplier": 1.0,
+            "competition_enabled": false,
+            "effective_budget": null,
+            "gain": 1.0,
+            "sources": []
+          },
+          "evaluated_frames": "0",
+          "modulators": [],
+          "parameters": {
+            "attention_budget": 28,
+            "attention_competition_enabled": false
+          },
+          "passed_channels": "0",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "edge_density": 0.713857998289136,
+        "edges": 20028,
+        "energy": {
+          "consumed_associative": 0.0,
+          "consumed_direct": 0.0,
+          "consumed_inhibition": 0.0,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "parameters": {
+            "energy_associative_cost": 0.02,
+            "energy_capacity": 1.0,
+            "energy_direct_cost": 0.035,
+            "energy_inhibition_cost": 0.01,
+            "energy_initial_reserve": 1.0,
+            "energy_maintenance_cost_per_edge": 4e-05,
+            "energy_maintenance_cost_per_node": 0.0002,
+            "energy_simulation_enabled": false,
+            "energy_starvation_damage_enabled": false,
+            "energy_starvation_structural_decay": 0.06
+          },
+          "reserve": 1.0,
+          "schema": "threemind.energy/1",
+          "settled_state_time_us": "1048000000",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "inhibition": 27.792003002949755,
+        "life": "active",
+        "mean_activation": 0.7440450757678301,
+        "mean_weight": 1.0,
+        "nodes": 168,
+        "pending_events": 2,
+        "quiet_since_us": null,
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "limits": {
+            "edge_adaptation_limit": null,
+            "max_edges": null,
+            "max_nodes": null,
+            "propagation_limit": null
+          },
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0",
+          "step_us": 100000
+        },
+        "saturated_fraction": 0.0,
+        "sequence": 125907,
+        "spatial": {
+          "clusters": null,
+          "coordinate_rule": "threemind.sha256-id-axis/1",
+          "isolated_nodes": null,
+          "neighbor_edges": null,
+          "parameters": {
+            "neighborhood_enabled": true,
+            "spatial_competition_rate": 0.0,
+            "spatial_dimensions": 3,
+            "spatial_embedding": false,
+            "spatial_radius": 2.5
+          },
+          "schema": "threemind.spatial-observation/1",
+          "seed": 20260724
+        },
+        "state_time_us": "1048000000",
+        "time_us": "1048000000",
+        "transport": {
+          "activated": 403190.6985817607,
+          "discarded": 0.0,
+          "received": 36418810.022775315,
+          "sent": 36418116.08466128
+        }
+      },
+      "mean_edge_stability": 0.9999074506985057,
+      "first_sentence_edges": 1482,
+      "retained_first_sentence_edges": 1190,
+      "anchor_mean_weight": 1.0,
+      "anchor_mean_stability": 0.9999055286787165
+    }
+  ],
+  "follows_swapped_pairs": [
+    {
+      "seed": 41701,
+      "route": "continuation",
+      "group": "pair",
+      "stage": "pair_20_each",
+      "normal_correct_margin": 0.000811320471820467,
+      "swapped_correct_margin": 0.0006267384712691114,
+      "following_difference": 0.0014380589430895783
+    },
+    {
+      "seed": 41701,
+      "route": "continuation",
+      "group": "pair",
+      "stage": "dialogue_1",
+      "normal_correct_margin": 0.0,
+      "swapped_correct_margin": 0.0,
+      "following_difference": 0.0
+    },
+    {
+      "seed": 41701,
+      "route": "continuation",
+      "group": "pair",
+      "stage": "dialogue_3",
+      "normal_correct_margin": 0.0,
+      "swapped_correct_margin": 0.0,
+      "following_difference": 0.0
+    },
+    {
+      "seed": 41701,
+      "route": "continuation",
+      "group": "pair",
+      "stage": "review",
+      "normal_correct_margin": 0.0,
+      "swapped_correct_margin": 0.0,
+      "following_difference": 0.0
+    },
+    {
+      "seed": 41701,
+      "route": "continuation",
+      "group": "pair",
+      "stage": "final",
+      "normal_correct_margin": 0.0,
+      "swapped_correct_margin": 0.0,
+      "following_difference": 0.0
+    },
+    {
+      "seed": 41701,
+      "route": "continuation",
+      "group": "who",
+      "stage": "dialogue_1",
+      "normal_correct_margin": 0.0,
+      "swapped_correct_margin": 0.0,
+      "following_difference": 0.0
+    },
+    {
+      "seed": 41701,
+      "route": "continuation",
+      "group": "who",
+      "stage": "dialogue_3",
+      "normal_correct_margin": 0.0,
+      "swapped_correct_margin": 0.0,
+      "following_difference": 0.0
+    },
+    {
+      "seed": 41701,
+      "route": "continuation",
+      "group": "who",
+      "stage": "review",
+      "normal_correct_margin": 0.0,
+      "swapped_correct_margin": 0.0,
+      "following_difference": 0.0
+    },
+    {
+      "seed": 41701,
+      "route": "continuation",
+      "group": "who",
+      "stage": "final",
+      "normal_correct_margin": 0.0,
+      "swapped_correct_margin": 0.0,
+      "following_difference": 0.0
+    },
+    {
+      "seed": 41701,
+      "route": "birth",
+      "group": "pair",
+      "stage": "pair_20_each",
+      "normal_correct_margin": 0.00031913887138908855,
+      "swapped_correct_margin": 1.495630797196763e-05,
+      "following_difference": 0.0003340951793610562
+    },
+    {
+      "seed": 41701,
+      "route": "birth",
+      "group": "pair",
+      "stage": "dialogue_1",
+      "normal_correct_margin": 0.0002454987919335294,
+      "swapped_correct_margin": 0.0003664139188627735,
+      "following_difference": 0.0006119127107963029
+    },
+    {
+      "seed": 41701,
+      "route": "birth",
+      "group": "pair",
+      "stage": "dialogue_3",
+      "normal_correct_margin": 5.9095930395769436e-05,
+      "swapped_correct_margin": 0.00010088534652197279,
+      "following_difference": 0.00015998127691774222
+    },
+    {
+      "seed": 41701,
+      "route": "birth",
+      "group": "pair",
+      "stage": "review",
+      "normal_correct_margin": 6.381204365280002e-05,
+      "swapped_correct_margin": 9.616923326483118e-05,
+      "following_difference": 0.0001599812769176312
+    },
+    {
+      "seed": 41701,
+      "route": "birth",
+      "group": "pair",
+      "stage": "final",
+      "normal_correct_margin": 6.381204365280002e-05,
+      "swapped_correct_margin": 9.616923326483118e-05,
+      "following_difference": 0.0001599812769176312
+    },
+    {
+      "seed": 41701,
+      "route": "birth",
+      "group": "who",
+      "stage": "dialogue_1",
+      "normal_correct_margin": 0.0004061668500428828,
+      "swapped_correct_margin": 0.0004411940211792864,
+      "following_difference": 0.0008473608712221692
+    },
+    {
+      "seed": 41701,
+      "route": "birth",
+      "group": "who",
+      "stage": "dialogue_3",
+      "normal_correct_margin": 0.00011426857930485479,
+      "swapped_correct_margin": 0.00011631325906180656,
+      "following_difference": 0.00023058183836666135
+    },
+    {
+      "seed": 41701,
+      "route": "birth",
+      "group": "who",
+      "stage": "review",
+      "normal_correct_margin": 0.00010324231850145082,
+      "swapped_correct_margin": 0.0001110718075608974,
+      "following_difference": 0.00021431412606234823
+    },
+    {
+      "seed": 41701,
+      "route": "birth",
+      "group": "who",
+      "stage": "final",
+      "normal_correct_margin": 0.00010324231850145082,
+      "swapped_correct_margin": 0.0001110718075608974,
+      "following_difference": 0.00021431412606234823
+    },
+    {
+      "seed": 41702,
+      "route": "continuation",
+      "group": "pair",
+      "stage": "pair_20_each",
+      "normal_correct_margin": 0.0,
+      "swapped_correct_margin": 0.0,
+      "following_difference": 0.0
+    },
+    {
+      "seed": 41702,
+      "route": "continuation",
+      "group": "pair",
+      "stage": "dialogue_1",
+      "normal_correct_margin": 0.0,
+      "swapped_correct_margin": 0.0,
+      "following_difference": 0.0
+    },
+    {
+      "seed": 41702,
+      "route": "continuation",
+      "group": "pair",
+      "stage": "dialogue_3",
+      "normal_correct_margin": 0.0,
+      "swapped_correct_margin": 0.0,
+      "following_difference": 0.0
+    },
+    {
+      "seed": 41702,
+      "route": "continuation",
+      "group": "pair",
+      "stage": "review",
+      "normal_correct_margin": 0.0,
+      "swapped_correct_margin": 0.0,
+      "following_difference": 0.0
+    },
+    {
+      "seed": 41702,
+      "route": "continuation",
+      "group": "pair",
+      "stage": "final",
+      "normal_correct_margin": 0.0,
+      "swapped_correct_margin": 0.0,
+      "following_difference": 0.0
+    },
+    {
+      "seed": 41702,
+      "route": "continuation",
+      "group": "who",
+      "stage": "dialogue_1",
+      "normal_correct_margin": -3.5759265486767777e-06,
+      "swapped_correct_margin": 3.0468178529308165e-06,
+      "following_difference": -5.291086957459612e-07
+    },
+    {
+      "seed": 41702,
+      "route": "continuation",
+      "group": "who",
+      "stage": "dialogue_3",
+      "normal_correct_margin": 0.0,
+      "swapped_correct_margin": 0.0,
+      "following_difference": 0.0
+    },
+    {
+      "seed": 41702,
+      "route": "continuation",
+      "group": "who",
+      "stage": "review",
+      "normal_correct_margin": 0.0,
+      "swapped_correct_margin": 0.0,
+      "following_difference": 0.0
+    },
+    {
+      "seed": 41702,
+      "route": "continuation",
+      "group": "who",
+      "stage": "final",
+      "normal_correct_margin": 0.0,
+      "swapped_correct_margin": 0.0,
+      "following_difference": 0.0
+    },
+    {
+      "seed": 41702,
+      "route": "birth",
+      "group": "pair",
+      "stage": "pair_20_each",
+      "normal_correct_margin": 0.0,
+      "swapped_correct_margin": 0.0,
+      "following_difference": 0.0
+    },
+    {
+      "seed": 41702,
+      "route": "birth",
+      "group": "pair",
+      "stage": "dialogue_1",
+      "normal_correct_margin": 0.001442629561202946,
+      "swapped_correct_margin": 0.001774363431986281,
+      "following_difference": 0.003216992993189227
+    },
+    {
+      "seed": 41702,
+      "route": "birth",
+      "group": "pair",
+      "stage": "dialogue_3",
+      "normal_correct_margin": 0.00028710842824924976,
+      "swapped_correct_margin": 0.00026683653601983215,
+      "following_difference": 0.0005539449642690819
+    },
+    {
+      "seed": 41702,
+      "route": "birth",
+      "group": "pair",
+      "stage": "review",
+      "normal_correct_margin": 0.00028710842824924976,
+      "swapped_correct_margin": 0.00026683653601983215,
+      "following_difference": 0.0005539449642690819
+    },
+    {
+      "seed": 41702,
+      "route": "birth",
+      "group": "pair",
+      "stage": "final",
+      "normal_correct_margin": 0.00028710842824924976,
+      "swapped_correct_margin": 0.00026683653601983215,
+      "following_difference": 0.0005539449642690819
+    },
+    {
+      "seed": 41702,
+      "route": "birth",
+      "group": "who",
+      "stage": "dialogue_1",
+      "normal_correct_margin": 0.0016396846621501704,
+      "swapped_correct_margin": 0.0019535611673472952,
+      "following_difference": 0.0035932458294974656
+    },
+    {
+      "seed": 41702,
+      "route": "birth",
+      "group": "who",
+      "stage": "dialogue_3",
+      "normal_correct_margin": 0.00020158297359240684,
+      "swapped_correct_margin": 0.0002329263341424581,
+      "following_difference": 0.00043450930773486496
+    },
+    {
+      "seed": 41702,
+      "route": "birth",
+      "group": "who",
+      "stage": "review",
+      "normal_correct_margin": 0.00019102540603918583,
+      "swapped_correct_margin": 0.0002058155433885822,
+      "following_difference": 0.00039684094942776804
+    },
+    {
+      "seed": 41702,
+      "route": "birth",
+      "group": "who",
+      "stage": "final",
+      "normal_correct_margin": 0.00019102540603918583,
+      "swapped_correct_margin": 0.0002058155433885822,
+      "following_difference": 0.00039684094942776804
+    }
+  ],
+  "resources": {
+    "elapsed_s": 1206.2350000000042,
+    "max_process_rss": 206036992,
+    "measurement_jobs": 132,
+    "probe_copies": 588,
+    "source_runs": 10,
+    "checkpoints": 44,
+    "delivered_training_carriers": 8820
+  }
+}

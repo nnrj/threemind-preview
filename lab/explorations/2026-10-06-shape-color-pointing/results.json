@@ -1,0 +1,1635 @@
+{
+  "schema": "threemind.shape-color-results/1",
+  "date": "2026-10-06",
+  "project_id": "9bed9a44-fdf2-4947-bca7-af5a854fa691",
+  "cases": {
+    "imitation-retry": {
+      "cross_edges": 56,
+      "fit": {
+        "device": "cuda:0",
+        "loss": 0.0009601854253560305,
+        "steps": 800,
+        "teacher_labels": "training only"
+      },
+      "full_fit": {
+        "device": "cuda:0",
+        "loss": 0.001312446198426187,
+        "steps": 800,
+        "teacher_labels": "training only"
+      },
+      "groups": {
+        "cross-silenced": {
+          "directional": 3,
+          "mean_cosine": -0.004035103158403793,
+          "n": 12
+        },
+        "full-cross-silenced": {
+          "directional": 7,
+          "mean_cosine": 0.4564541911447337,
+          "n": 12
+        },
+        "full-hidden": {
+          "directional": 3,
+          "mean_cosine": -1.0177044392397268e-16,
+          "n": 12
+        },
+        "full-normal": {
+          "directional": 7,
+          "mean_cosine": 0.4477346041027486,
+          "n": 12
+        },
+        "matched": {
+          "directional": 3,
+          "mean_cosine": -0.003325617017949071,
+          "n": 12
+        },
+        "normal": {
+          "directional": 3,
+          "mean_cosine": -0.0043408622438861994,
+          "n": 12
+        },
+        "rescue": {
+          "directional": 3,
+          "mean_cosine": -0.0043408622438861994,
+          "n": 12
+        },
+        "teacher-hidden": {
+          "directional": 3,
+          "mean_cosine": -7.401486830834377e-17,
+          "n": 12
+        }
+      },
+      "kind": "imitation",
+      "wall_seconds": 30.73653779993765
+    },
+    "motor-teaching": {
+      "fit": {
+        "device": "cuda:0",
+        "loss": 0.0012866721954196692,
+        "steps": 800,
+        "teacher_labels": "training only"
+      },
+      "kind": "motor-teaching",
+      "samples": 864,
+      "train_mse": 0.0012866722254125118,
+      "wall_seconds": 12.037290000007488
+    },
+    "motor-test-normal": {
+      "kind": "motor-test",
+      "median_error": 0.06704099736467878,
+      "mode": "normal",
+      "n": 32,
+      "success": 28,
+      "wall_seconds": 6.593601800035685
+    },
+    "motor-test-shuffled": {
+      "kind": "motor-test",
+      "median_error": 0.8435538762592897,
+      "mode": "shuffled",
+      "n": 32,
+      "success": 1,
+      "wall_seconds": 6.684763600002043
+    },
+    "motor-test-zero": {
+      "kind": "motor-test",
+      "median_error": 1.5944050730893373,
+      "mode": "zero",
+      "n": 32,
+      "success": 0,
+      "wall_seconds": 6.470106899971142
+    },
+    "s223-combinations": {
+      "frozen": false,
+      "intervention": "none",
+      "kind": "probe",
+      "n": 16,
+      "seed": 223,
+      "split": "combinations",
+      "wall_seconds": 119.08762319991365
+    },
+    "s223-corrected": {
+      "combinations": {
+        "color_correct": 7,
+        "correct": 8,
+        "n": 16,
+        "predictions": [
+          3,
+          1,
+          4,
+          4,
+          3,
+          3,
+          5,
+          4,
+          1,
+          1,
+          6,
+          6,
+          1,
+          3,
+          7,
+          7
+        ],
+        "shape_correct": 1,
+        "status": "exploratory retest after seeing original failure, not independent confirmation"
+      },
+      "extra_training": 64,
+      "fit": {
+        "device": "cuda:0",
+        "loss": 0.00015748015721328557,
+        "steps": 1500,
+        "teacher_labels": "training only"
+      },
+      "kind": "correction",
+      "layouts": {
+        "color_correct": 23,
+        "correct": 44,
+        "n": 48,
+        "predictions": [
+          0,
+          0,
+          5,
+          4,
+          0,
+          0,
+          6,
+          6,
+          0,
+          0,
+          7,
+          7,
+          1,
+          1,
+          4,
+          4,
+          1,
+          1,
+          6,
+          6,
+          1,
+          1,
+          7,
+          7,
+          3,
+          2,
+          4,
+          4,
+          3,
+          2,
+          5,
+          5,
+          1,
+          2,
+          7,
+          7,
+          3,
+          3,
+          4,
+          4,
+          3,
+          3,
+          5,
+          5,
+          3,
+          3,
+          6,
+          6
+        ],
+        "shape_correct": 21,
+        "status": "exploratory retest after seeing original failure, not independent confirmation"
+      },
+      "scope": "external reader calibration only; same previously taught Core snapshot; no held-out combinations as targets",
+      "seed": 223,
+      "train_correct": 160,
+      "train_n": 160,
+      "wall_seconds": 370.39237150002737
+    },
+    "s223-corrected-reference": {
+      "correct": 6,
+      "corrected": true,
+      "frozen": false,
+      "kind": "reference",
+      "n": 32,
+      "pointer_sensitive_scene_categories": 8,
+      "scene_categories": 8,
+      "seed": 223,
+      "wall_seconds": 196.401135000051
+    },
+    "s223-expression": {
+      "combinations": {
+        "color_correct": 6,
+        "correct": 6,
+        "n": 16,
+        "shape_correct": 0,
+        "shuffled_correct": 2,
+        "wrong_category": 0,
+        "zero_correct": 2
+      },
+      "fit": {
+        "device": "cuda:0",
+        "loss": 4.2415715142851695e-05,
+        "steps": 1000,
+        "teacher_labels": "training only"
+      },
+      "frozen": false,
+      "kind": "expression",
+      "layouts": {
+        "color_correct": 21,
+        "correct": 42,
+        "n": 48,
+        "shape_correct": 21,
+        "shuffled_correct": 4,
+        "wrong_category": 0,
+        "zero_correct": 6
+      },
+      "seed": 223,
+      "train_correct": 96,
+      "train_n": 96,
+      "wall_seconds": 9.737350599956699
+    },
+    "s223-frozen-combinations": {
+      "frozen": true,
+      "intervention": "none",
+      "kind": "probe",
+      "n": 16,
+      "seed": 223,
+      "split": "combinations",
+      "wall_seconds": 5.275549500016496
+    },
+    "s223-frozen-corrected": {
+      "combinations": {
+        "color_correct": 5,
+        "correct": 9,
+        "n": 16,
+        "predictions": [
+          3,
+          1,
+          4,
+          4,
+          1,
+          1,
+          7,
+          4,
+          1,
+          1,
+          6,
+          6,
+          3,
+          3,
+          7,
+          5
+        ],
+        "shape_correct": 4,
+        "status": "exploratory retest after seeing original failure, not independent confirmation"
+      },
+      "extra_training": 64,
+      "fit": {
+        "device": "cuda:0",
+        "loss": 3.3551670640008524e-05,
+        "steps": 1500,
+        "teacher_labels": "training only"
+      },
+      "frozen": true,
+      "kind": "correction",
+      "layouts": {
+        "color_correct": 21,
+        "correct": 40,
+        "n": 48,
+        "predictions": [
+          0,
+          1,
+          4,
+          7,
+          0,
+          0,
+          6,
+          6,
+          0,
+          0,
+          7,
+          7,
+          1,
+          1,
+          4,
+          4,
+          1,
+          1,
+          6,
+          6,
+          1,
+          1,
+          7,
+          7,
+          3,
+          2,
+          4,
+          4,
+          1,
+          2,
+          4,
+          5,
+          1,
+          1,
+          7,
+          7,
+          3,
+          3,
+          4,
+          4,
+          3,
+          3,
+          5,
+          5,
+          3,
+          3,
+          6,
+          6
+        ],
+        "shape_correct": 19,
+        "status": "exploratory retest after seeing original failure, not independent confirmation"
+      },
+      "scope": "external reader calibration only; same previously taught Core snapshot; no held-out combinations as targets",
+      "seed": 223,
+      "train_correct": 160,
+      "train_n": 160,
+      "wall_seconds": 33.97283460001927
+    },
+    "s223-frozen-corrected-reference": {
+      "correct": 9,
+      "corrected": true,
+      "frozen": true,
+      "kind": "reference",
+      "n": 32,
+      "pointer_sensitive_scene_categories": 6,
+      "scene_categories": 8,
+      "seed": 223,
+      "wall_seconds": 11.424507300020196
+    },
+    "s223-frozen-expression": {
+      "combinations": {
+        "color_correct": 6,
+        "correct": 6,
+        "n": 16,
+        "shape_correct": 0,
+        "shuffled_correct": 3,
+        "wrong_category": 0,
+        "zero_correct": 2
+      },
+      "fit": {
+        "device": "cuda:0",
+        "loss": 1.995984166569542e-05,
+        "steps": 1000,
+        "teacher_labels": "training only"
+      },
+      "frozen": true,
+      "kind": "expression",
+      "layouts": {
+        "color_correct": 22,
+        "correct": 42,
+        "n": 48,
+        "shape_correct": 20,
+        "shuffled_correct": 4,
+        "wrong_category": 0,
+        "zero_correct": 6
+      },
+      "seed": 223,
+      "train_correct": 96,
+      "train_n": 96,
+      "wall_seconds": 9.805676499963738
+    },
+    "s223-frozen-layouts": {
+      "frozen": true,
+      "intervention": "none",
+      "kind": "probe",
+      "n": 48,
+      "seed": 223,
+      "split": "layouts",
+      "wall_seconds": 15.909674299997278
+    },
+    "s223-frozen-reference": {
+      "correct": 6,
+      "frozen": true,
+      "kind": "reference",
+      "n": 32,
+      "pointer_sensitive_scene_categories": 2,
+      "scene_categories": 8,
+      "seed": 223,
+      "wall_seconds": 11.31134989997372
+    },
+    "s223-frozen-teaching": {
+      "edges": 0,
+      "frozen": true,
+      "kind": "teaching",
+      "lessons": 368,
+      "nodes": 414,
+      "seed": 223,
+      "sim_seconds": 326.0,
+      "wall_seconds": 116.56401029997505
+    },
+    "s223-frozen-train": {
+      "frozen": true,
+      "intervention": "none",
+      "kind": "probe",
+      "n": 96,
+      "seed": 223,
+      "split": "train",
+      "wall_seconds": 31.883114199968986
+    },
+    "s223-goal-teaching": {
+      "episodes": 120,
+      "fit": {
+        "device": "cuda:0",
+        "loss": 0.02571396343410015,
+        "steps": 1000,
+        "teacher_labels": "training only"
+      },
+      "kind": "goal-teaching",
+      "samples": 2400,
+      "seed": 223,
+      "wall_seconds": 934.9623917998979
+    },
+    "s223-goal-test-normal": {
+      "choice_correct": 10,
+      "held_out": {
+        "choice_correct": 3,
+        "n": 8,
+        "reached": 0
+      },
+      "kind": "goal-test",
+      "median_error": 0.8424829311944213,
+      "mode": "normal",
+      "n": 32,
+      "reached": 2,
+      "requested_choice_correct": 10,
+      "seed": 223,
+      "taught": {
+        "choice_correct": 7,
+        "n": 24,
+        "reached": 2
+      },
+      "wall_seconds": 353.77727710001636
+    },
+    "s223-goal-test-silence": {
+      "choice_correct": 9,
+      "held_out": {
+        "choice_correct": 2,
+        "n": 8,
+        "reached": 0
+      },
+      "kind": "goal-test",
+      "median_error": 1.1556112907562537,
+      "mode": "silence",
+      "n": 32,
+      "reached": 0,
+      "requested_choice_correct": 9,
+      "seed": 223,
+      "taught": {
+        "choice_correct": 7,
+        "n": 24,
+        "reached": 0
+      },
+      "wall_seconds": 230.07410399999935
+    },
+    "s223-goal-test-wrong-request": {
+      "choice_correct": 11,
+      "held_out": {
+        "choice_correct": 3,
+        "n": 8,
+        "reached": 0
+      },
+      "kind": "goal-test",
+      "median_error": 0.8748466804920074,
+      "mode": "wrong-request",
+      "n": 32,
+      "reached": 3,
+      "requested_choice_correct": 8,
+      "seed": 223,
+      "taught": {
+        "choice_correct": 8,
+        "n": 24,
+        "reached": 3
+      },
+      "wall_seconds": 356.5059784000041
+    },
+    "s223-layouts": {
+      "frozen": false,
+      "intervention": "none",
+      "kind": "probe",
+      "n": 48,
+      "seed": 223,
+      "split": "layouts",
+      "wall_seconds": 356.6339092999697
+    },
+    "s223-reference": {
+      "correct": 8,
+      "frozen": false,
+      "kind": "reference",
+      "n": 32,
+      "pointer_sensitive_scene_categories": 1,
+      "scene_categories": 8,
+      "seed": 223,
+      "wall_seconds": 190.01437709992751
+    },
+    "s223-teaching": {
+      "edges": 130243,
+      "frozen": false,
+      "kind": "teaching",
+      "lessons": 368,
+      "nodes": 399,
+      "seed": 223,
+      "sim_seconds": 326.0,
+      "wall_seconds": 872.8735788000049
+    },
+    "s223-train": {
+      "frozen": false,
+      "intervention": "none",
+      "kind": "probe",
+      "n": 96,
+      "seed": 223,
+      "split": "train",
+      "wall_seconds": 702.5412296999712
+    }
+  },
+  "incomplete_cases": {
+    "imitation": {
+      "status": "failed_tool_contract",
+      "stage": "first four sensory frames",
+      "simulated_seconds": 0.2,
+      "error": "ValueError: unknown active port; never silently omit",
+      "resolution": "explicit observer exclusions, independently saved imitation-retry",
+      "scientific_result": null
+    }
+  },
+  "paired_changed_request": {
+    "n": 32,
+    "changed_nearest_object": 1,
+    "normal_request_correct": 10,
+    "changed_request_correct": 8,
+    "normal_requested_reached": 2,
+    "changed_requested_reached": 2,
+    "both_requests_correct": 0,
+    "median_endpoint_change_m": 0.03480269435780204
+  },
+  "sensor_calibration": {
+    "schema": "threemind.classroom-sensor-calibration/1",
+    "scope": "known optical slot; nearest raw depth template; no Core or language; not a deployed solver",
+    "training_views": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "testing_views": [
+      5,
+      6
+    ],
+    "n": 128,
+    "shape_correct": 112,
+    "trials": [
+      {
+        "view": 5,
+        "color": 0,
+        "slot": 0,
+        "shape": 0,
+        "prediction": 0,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 0,
+        "slot": 1,
+        "shape": 1,
+        "prediction": 1,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 0,
+        "slot": 2,
+        "shape": 2,
+        "prediction": 1,
+        "correct": false
+      },
+      {
+        "view": 5,
+        "color": 0,
+        "slot": 3,
+        "shape": 3,
+        "prediction": 3,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 0,
+        "slot": 0,
+        "shape": 3,
+        "prediction": 3,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 0,
+        "slot": 1,
+        "shape": 0,
+        "prediction": 0,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 0,
+        "slot": 2,
+        "shape": 1,
+        "prediction": 1,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 0,
+        "slot": 3,
+        "shape": 2,
+        "prediction": 1,
+        "correct": false
+      },
+      {
+        "view": 5,
+        "color": 0,
+        "slot": 0,
+        "shape": 2,
+        "prediction": 1,
+        "correct": false
+      },
+      {
+        "view": 5,
+        "color": 0,
+        "slot": 1,
+        "shape": 3,
+        "prediction": 3,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 0,
+        "slot": 2,
+        "shape": 0,
+        "prediction": 0,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 0,
+        "slot": 3,
+        "shape": 1,
+        "prediction": 1,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 0,
+        "slot": 0,
+        "shape": 1,
+        "prediction": 1,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 0,
+        "slot": 1,
+        "shape": 2,
+        "prediction": 1,
+        "correct": false
+      },
+      {
+        "view": 5,
+        "color": 0,
+        "slot": 2,
+        "shape": 3,
+        "prediction": 3,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 0,
+        "slot": 3,
+        "shape": 0,
+        "prediction": 0,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 1,
+        "slot": 0,
+        "shape": 0,
+        "prediction": 0,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 1,
+        "slot": 1,
+        "shape": 1,
+        "prediction": 1,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 1,
+        "slot": 2,
+        "shape": 2,
+        "prediction": 1,
+        "correct": false
+      },
+      {
+        "view": 5,
+        "color": 1,
+        "slot": 3,
+        "shape": 3,
+        "prediction": 3,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 1,
+        "slot": 0,
+        "shape": 3,
+        "prediction": 3,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 1,
+        "slot": 1,
+        "shape": 0,
+        "prediction": 0,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 1,
+        "slot": 2,
+        "shape": 1,
+        "prediction": 1,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 1,
+        "slot": 3,
+        "shape": 2,
+        "prediction": 1,
+        "correct": false
+      },
+      {
+        "view": 5,
+        "color": 1,
+        "slot": 0,
+        "shape": 2,
+        "prediction": 1,
+        "correct": false
+      },
+      {
+        "view": 5,
+        "color": 1,
+        "slot": 1,
+        "shape": 3,
+        "prediction": 3,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 1,
+        "slot": 2,
+        "shape": 0,
+        "prediction": 0,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 1,
+        "slot": 3,
+        "shape": 1,
+        "prediction": 1,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 1,
+        "slot": 0,
+        "shape": 1,
+        "prediction": 1,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 1,
+        "slot": 1,
+        "shape": 2,
+        "prediction": 1,
+        "correct": false
+      },
+      {
+        "view": 5,
+        "color": 1,
+        "slot": 2,
+        "shape": 3,
+        "prediction": 3,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 1,
+        "slot": 3,
+        "shape": 0,
+        "prediction": 0,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 2,
+        "slot": 0,
+        "shape": 0,
+        "prediction": 0,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 2,
+        "slot": 1,
+        "shape": 1,
+        "prediction": 1,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 2,
+        "slot": 2,
+        "shape": 2,
+        "prediction": 1,
+        "correct": false
+      },
+      {
+        "view": 5,
+        "color": 2,
+        "slot": 3,
+        "shape": 3,
+        "prediction": 3,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 2,
+        "slot": 0,
+        "shape": 3,
+        "prediction": 3,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 2,
+        "slot": 1,
+        "shape": 0,
+        "prediction": 0,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 2,
+        "slot": 2,
+        "shape": 1,
+        "prediction": 1,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 2,
+        "slot": 3,
+        "shape": 2,
+        "prediction": 1,
+        "correct": false
+      },
+      {
+        "view": 5,
+        "color": 2,
+        "slot": 0,
+        "shape": 2,
+        "prediction": 1,
+        "correct": false
+      },
+      {
+        "view": 5,
+        "color": 2,
+        "slot": 1,
+        "shape": 3,
+        "prediction": 3,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 2,
+        "slot": 2,
+        "shape": 0,
+        "prediction": 0,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 2,
+        "slot": 3,
+        "shape": 1,
+        "prediction": 1,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 2,
+        "slot": 0,
+        "shape": 1,
+        "prediction": 1,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 2,
+        "slot": 1,
+        "shape": 2,
+        "prediction": 1,
+        "correct": false
+      },
+      {
+        "view": 5,
+        "color": 2,
+        "slot": 2,
+        "shape": 3,
+        "prediction": 3,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 2,
+        "slot": 3,
+        "shape": 0,
+        "prediction": 0,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 3,
+        "slot": 0,
+        "shape": 0,
+        "prediction": 0,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 3,
+        "slot": 1,
+        "shape": 1,
+        "prediction": 1,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 3,
+        "slot": 2,
+        "shape": 2,
+        "prediction": 1,
+        "correct": false
+      },
+      {
+        "view": 5,
+        "color": 3,
+        "slot": 3,
+        "shape": 3,
+        "prediction": 3,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 3,
+        "slot": 0,
+        "shape": 3,
+        "prediction": 3,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 3,
+        "slot": 1,
+        "shape": 0,
+        "prediction": 0,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 3,
+        "slot": 2,
+        "shape": 1,
+        "prediction": 1,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 3,
+        "slot": 3,
+        "shape": 2,
+        "prediction": 1,
+        "correct": false
+      },
+      {
+        "view": 5,
+        "color": 3,
+        "slot": 0,
+        "shape": 2,
+        "prediction": 1,
+        "correct": false
+      },
+      {
+        "view": 5,
+        "color": 3,
+        "slot": 1,
+        "shape": 3,
+        "prediction": 3,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 3,
+        "slot": 2,
+        "shape": 0,
+        "prediction": 0,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 3,
+        "slot": 3,
+        "shape": 1,
+        "prediction": 1,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 3,
+        "slot": 0,
+        "shape": 1,
+        "prediction": 1,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 3,
+        "slot": 1,
+        "shape": 2,
+        "prediction": 1,
+        "correct": false
+      },
+      {
+        "view": 5,
+        "color": 3,
+        "slot": 2,
+        "shape": 3,
+        "prediction": 3,
+        "correct": true
+      },
+      {
+        "view": 5,
+        "color": 3,
+        "slot": 3,
+        "shape": 0,
+        "prediction": 0,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 0,
+        "slot": 0,
+        "shape": 0,
+        "prediction": 0,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 0,
+        "slot": 1,
+        "shape": 1,
+        "prediction": 1,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 0,
+        "slot": 2,
+        "shape": 2,
+        "prediction": 2,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 0,
+        "slot": 3,
+        "shape": 3,
+        "prediction": 3,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 0,
+        "slot": 0,
+        "shape": 3,
+        "prediction": 3,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 0,
+        "slot": 1,
+        "shape": 0,
+        "prediction": 0,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 0,
+        "slot": 2,
+        "shape": 1,
+        "prediction": 1,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 0,
+        "slot": 3,
+        "shape": 2,
+        "prediction": 2,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 0,
+        "slot": 0,
+        "shape": 2,
+        "prediction": 2,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 0,
+        "slot": 1,
+        "shape": 3,
+        "prediction": 3,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 0,
+        "slot": 2,
+        "shape": 0,
+        "prediction": 0,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 0,
+        "slot": 3,
+        "shape": 1,
+        "prediction": 1,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 0,
+        "slot": 0,
+        "shape": 1,
+        "prediction": 1,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 0,
+        "slot": 1,
+        "shape": 2,
+        "prediction": 2,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 0,
+        "slot": 2,
+        "shape": 3,
+        "prediction": 3,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 0,
+        "slot": 3,
+        "shape": 0,
+        "prediction": 0,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 1,
+        "slot": 0,
+        "shape": 0,
+        "prediction": 0,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 1,
+        "slot": 1,
+        "shape": 1,
+        "prediction": 1,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 1,
+        "slot": 2,
+        "shape": 2,
+        "prediction": 2,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 1,
+        "slot": 3,
+        "shape": 3,
+        "prediction": 3,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 1,
+        "slot": 0,
+        "shape": 3,
+        "prediction": 3,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 1,
+        "slot": 1,
+        "shape": 0,
+        "prediction": 0,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 1,
+        "slot": 2,
+        "shape": 1,
+        "prediction": 1,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 1,
+        "slot": 3,
+        "shape": 2,
+        "prediction": 2,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 1,
+        "slot": 0,
+        "shape": 2,
+        "prediction": 2,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 1,
+        "slot": 1,
+        "shape": 3,
+        "prediction": 3,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 1,
+        "slot": 2,
+        "shape": 0,
+        "prediction": 0,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 1,
+        "slot": 3,
+        "shape": 1,
+        "prediction": 1,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 1,
+        "slot": 0,
+        "shape": 1,
+        "prediction": 1,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 1,
+        "slot": 1,
+        "shape": 2,
+        "prediction": 2,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 1,
+        "slot": 2,
+        "shape": 3,
+        "prediction": 3,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 1,
+        "slot": 3,
+        "shape": 0,
+        "prediction": 0,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 2,
+        "slot": 0,
+        "shape": 0,
+        "prediction": 0,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 2,
+        "slot": 1,
+        "shape": 1,
+        "prediction": 1,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 2,
+        "slot": 2,
+        "shape": 2,
+        "prediction": 2,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 2,
+        "slot": 3,
+        "shape": 3,
+        "prediction": 3,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 2,
+        "slot": 0,
+        "shape": 3,
+        "prediction": 3,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 2,
+        "slot": 1,
+        "shape": 0,
+        "prediction": 0,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 2,
+        "slot": 2,
+        "shape": 1,
+        "prediction": 1,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 2,
+        "slot": 3,
+        "shape": 2,
+        "prediction": 2,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 2,
+        "slot": 0,
+        "shape": 2,
+        "prediction": 2,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 2,
+        "slot": 1,
+        "shape": 3,
+        "prediction": 3,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 2,
+        "slot": 2,
+        "shape": 0,
+        "prediction": 0,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 2,
+        "slot": 3,
+        "shape": 1,
+        "prediction": 1,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 2,
+        "slot": 0,
+        "shape": 1,
+        "prediction": 1,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 2,
+        "slot": 1,
+        "shape": 2,
+        "prediction": 2,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 2,
+        "slot": 2,
+        "shape": 3,
+        "prediction": 3,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 2,
+        "slot": 3,
+        "shape": 0,
+        "prediction": 0,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 3,
+        "slot": 0,
+        "shape": 0,
+        "prediction": 0,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 3,
+        "slot": 1,
+        "shape": 1,
+        "prediction": 1,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 3,
+        "slot": 2,
+        "shape": 2,
+        "prediction": 2,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 3,
+        "slot": 3,
+        "shape": 3,
+        "prediction": 3,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 3,
+        "slot": 0,
+        "shape": 3,
+        "prediction": 3,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 3,
+        "slot": 1,
+        "shape": 0,
+        "prediction": 0,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 3,
+        "slot": 2,
+        "shape": 1,
+        "prediction": 1,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 3,
+        "slot": 3,
+        "shape": 2,
+        "prediction": 2,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 3,
+        "slot": 0,
+        "shape": 2,
+        "prediction": 2,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 3,
+        "slot": 1,
+        "shape": 3,
+        "prediction": 3,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 3,
+        "slot": 2,
+        "shape": 0,
+        "prediction": 0,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 3,
+        "slot": 3,
+        "shape": 1,
+        "prediction": 1,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 3,
+        "slot": 0,
+        "shape": 1,
+        "prediction": 1,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 3,
+        "slot": 1,
+        "shape": 2,
+        "prediction": 2,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 3,
+        "slot": 2,
+        "shape": 3,
+        "prediction": 3,
+        "correct": true
+      },
+      {
+        "view": 6,
+        "color": 3,
+        "slot": 3,
+        "shape": 0,
+        "prediction": 0,
+        "correct": true
+      }
+    ],
+    "wall_seconds": 0.15000620007049292
+  },
+  "resources": {
+    "completed_cases": 25,
+    "completed_case_compute_minutes": 83.19450571999381,
+    "created_core_instances": 872,
+    "usage_start": 59,
+    "usage_latest": 62
+  },
+  "unperformed": [
+    "second learned source 279",
+    "long-term energy selection for motor motivation",
+    "semantic self/other learning",
+    "free natural-language dialogue",
+    "general logical reasoning"
+  ],
+  "limitations": [
+    "forked trials are not independent learned individuals",
+    "correction retests are exploratory; preserved original scores remain separate",
+    "current heads can learn task mappings externally; raw Core dependence is not learned-edge mediation"
+  ]
+}

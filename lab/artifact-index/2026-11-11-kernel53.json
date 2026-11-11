@@ -1,0 +1,65 @@
+{
+  "schema": "threemind.kernel53-artifact-locations/1",
+  "studies": [
+    {
+      "study": "R47a",
+      "work": "E:/ThreeMindData/experiments/2026-11-11-kernel53/assay-v1",
+      "resource_id": "kernel53-retention-20261111-v1",
+      "project_id": "e5157c0b-c352-4707-a67b-9b6c0eacd31a",
+      "record_id": "3e575053-b083-5e69-918f-14de0f55ed66",
+      "archive_member": "originals-v1.zip",
+      "archive_sha256": "f249868a04adfd335230600bd697ec63f9910cf6c216ed40157a9fa711662023",
+      "archive_bytes": 85537475,
+      "manifest_members": 32703,
+      "analysis_sha256": "62cd1ede9ee79007a45a772db03fa89684b113d39bc2e14af1a740b6e0228e7c",
+      "publication_coverage": "verified",
+      "pending": 0,
+      "reports": [
+        "lab/explorations/2026-11-11-kernel53/report.zh.md",
+        "lab/explorations/2026-11-11-kernel53/report.en.md"
+      ]
+    },
+    {
+      "study": "R47b",
+      "work": "E:/ThreeMindData/experiments/2026-11-11-kernel53/confirmation-v1",
+      "resource_id": "kernel53-retention-confirmation-20261111-v1",
+      "project_id": "677255a8-c231-42f4-94df-f6fc69fa4cc5",
+      "record_id": "94258256-d075-585c-b431-03d87c5fa88f",
+      "archive_member": "originals-v1.zip",
+      "archive_sha256": "4fd9bf7a10dddc66c72d92e489a557e2f80da0208f7be56dc7b1d328a860ee94",
+      "archive_bytes": 100395432,
+      "manifest_members": 38083,
+      "analysis_sha256": "ab691ea48bf93896dd34e5a62a821fac714e7486f0168432ce5478c50d13c6bf",
+      "publication_coverage": "verified",
+      "pending": 0,
+      "reports": [
+        "lab/explorations/2026-11-11-kernel53/confirmation/report.zh.md",
+        "lab/explorations/2026-11-11-kernel53/confirmation/report.en.md"
+      ]
+    },
+    {
+      "study": "R47c",
+      "work": "E:/ThreeMindData/experiments/2026-11-11-kernel53/joint-v1",
+      "resource_id": "kernel53-joint-retention-20261111-v1",
+      "project_id": "36293223-5d3e-41cd-8df9-be343ccb5edb",
+      "record_id": "234feecd-728a-5849-926a-e8f49fcba4ed",
+      "archive_member": "originals-v1.zip",
+      "archive_sha256": "0bf75ad8a9ded5aaa1651232c79bd944e4a426dced779124d8bd5c0af6c4bc9f",
+      "archive_bytes": 125341032,
+      "manifest_members": 4186,
+      "analysis_sha256": "ebdaae63f0867de44910de0507e8dca7812722850672309b15ee8b54293e92ca",
+      "publication_coverage": "verified",
+      "pending": 0,
+      "reports": [
+        "lab/explorations/2026-11-11-kernel53/joint/report.zh.md",
+        "lab/explorations/2026-11-11-kernel53/joint/report.en.md"
+      ]
+    }
+  ],
+  "engineering": {
+    "work": "E:/ThreeMindData/experiments/2026-11-11-kernel53/engineering-v1",
+    "manifest_sha256": "2b9836e3795624137093895b69ae2de4cf6758533f4d92f02a52ac92fcb0385f",
+    "wheel_addendum_sha256": "10b962b30f8e93822bd77e35d632b0394bafa43a89d69bef76eac8ae97acfb23"
+  },
+  "data_boundary": "Original states, trajectories, binary products and full measurements remain outside Git; this file contains locators and hashes only."
+}

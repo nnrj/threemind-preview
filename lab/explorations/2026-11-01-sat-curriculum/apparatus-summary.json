@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "tests": 13,
+  "errors": 0,
+  "failures": 0,
+  "source_sha256": {
+    "student.py": "3b4b26502065d519853666530655670b8bf574f144adbbd4729b3c23923689dd",
+    "driver.py": "ed2f95eaa6879f0f4e41ccd503f3afecea508de927269c561a96b39183a61eb2",
+    "test_apparatus.py": "c7c6c3c2a448600d81ad0a9d6a6d101ad388552715ca59448e4aac7e4ce1a702"
+  },
+  "measurements": {
+    "development_seconds": 1.0861832000082359,
+    "development_local_correct": 16,
+    "development_sat_solved": 1,
+    "wall_seconds": 16.566646699997364,
+    "reader_parameters": 21986,
+    "learning_updates": 1200,
+    "fit": {
+      "loss": 0.0,
+      "training_correct": 48,
+      "n": 48,
+      "updates": 1200,
+      "computed_updates": 1200,
+      "committed_updates": 1200,
+      "selection": "last state; no weight, optimizer, RNG or loss-minimum rollback",
+      "samples": 48,
+      "core_time_us": 152000000,
+      "reader_digest": "0cd32b3b90fce1b8b7bc48c83426852b1e3f442398fb0a62818448a5427fce55"
+    },
+    "files_bytes": 1322656,
+    "work": "E:\\WORKSPACE\\AgentWork\\threemind\\.work\\sat-curriculum-validation-1793501783913983100"
+  }
+}

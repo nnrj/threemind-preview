@@ -1,0 +1,84 @@
+{
+  "s223-spaced-teaching": {
+    "groups": {
+      "vision": {
+        "nodes": 256.0,
+        "active_nodes": 256.0,
+        "activation_sum": 19.003298146846106,
+        "inhibition_sum": 5.704193972429525,
+        "direct_sum": 0.0,
+        "associative_sum": 0.0,
+        "stability_sum": 256.0,
+        "support_sum": 256.0
+      },
+      "text": {
+        "nodes": 120.0,
+        "active_nodes": 75.0,
+        "activation_sum": 4.520576535289056,
+        "inhibition_sum": 0.6636172626677276,
+        "direct_sum": 0.0,
+        "associative_sum": 0.0,
+        "stability_sum": 70.89127182654322,
+        "support_sum": 70.06175456105203
+      },
+      "background": {
+        "nodes": 13.0,
+        "active_nodes": 13.0,
+        "activation_sum": 0.902970506100572,
+        "inhibition_sum": 0.23495827038258654,
+        "direct_sum": 0.0,
+        "associative_sum": 0.0,
+        "stability_sum": 13.0,
+        "support_sum": 13.0
+      },
+      "body": {
+        "nodes": 14.0,
+        "active_nodes": 13.0,
+        "activation_sum": 4.884497608169441,
+        "inhibition_sum": 0.7041019647086659,
+        "direct_sum": 0.0,
+        "associative_sum": 0.0,
+        "stability_sum": 13.00384437464224,
+        "support_sum": 13.0
+      }
+    },
+    "edges": {
+      "vision -> vision": 65280,
+      "vision -> text": 30720,
+      "vision -> background": 3328,
+      "vision -> body": 3584,
+      "text -> vision": 30720,
+      "text -> background": 1090,
+      "text -> body": 1157,
+      "text -> text": 1640,
+      "background -> vision": 3328,
+      "background -> text": 1090,
+      "background -> background": 148,
+      "background -> body": 179,
+      "body -> vision": 3584,
+      "body -> text": 1158,
+      "body -> background": 179,
+      "body -> body": 156
+    },
+    "weight_sums": {
+      "vision -> vision": 61670.50470602146,
+      "vision -> text": 1874.4272197227788,
+      "vision -> background": 2296.1658300221948,
+      "vision -> body": 2914.230766837097,
+      "text -> vision": 1949.2014498866015,
+      "text -> background": 66.02717706439475,
+      "text -> body": 193.79178108801673,
+      "text -> text": 120.04114655936328,
+      "background -> vision": 2297.659337435138,
+      "background -> text": 63.78588478259662,
+      "background -> background": 76.0851982011565,
+      "background -> body": 119.10360466563803,
+      "body -> vision": 2960.637697813859,
+      "body -> text": 319.89709192806595,
+      "body -> background": 131.0595280521399,
+      "body -> body": 130.83157297154818
+    },
+    "scope": "external observer groups by sensory provenance, never Core semantic areas",
+    "time_us": "516000000"
+  }
+}

@@ -1,0 +1,23 @@
+# 2026-10-13: new blank individuals for continuous shape/color experiments
+
+Source: the current project conversation, recorded2026-10-13. Exact Chinese quotations are preserved in the [Chinese source](../../../zh/history/sources/2026-10-13-continuous-shape-color.md). The following is an editorial translation and implementation record, not a replacement transcript.
+
+Liu Dongxu requested a new /2-versus-3 shape/color experiment following the protocol, with no unilateral rollback; if a comparison needs rollback, ask him first. He clarified that “3” means /3.1. Replay videos must show consciousness activity curves below, as in the earlier four-field videos. He reiterated that the study starts from blank consciousnesses and must not reuse contaminated ones. After interrupting a seemingly stalled task, he authorized continuation or a new experiment if that interruption made continuity impossible.
+
+The planned E68 therefore uses two fresh complete individuals and their own blank peripherals. E67 and /4 remain stopped; engineering fixtures cannot become formal participants. Ordinary stages share the same current state. Peripheral fitting retains its last update/Adam/RNG instead of returning to a loss minimum. Historical calibration behavior, old evidence and Core dynamics remain unchanged. Four recorded activity curves accompany actual internal time in each video.
+
+Inspection after the interruption found no formal E68 directory or experimental process: work had stopped during engineering validation. No formal experiences were lost and no participant required replacement. A Windows fsync issue on a read-only handle was found and fixed before formal birth. Engineering tests are not behavioral results. Registration, launch, scores and delivery require subsequent receipts.
+
+[Preregistration](../../../../lab/explorations/2026-10-13-continuous-shape-color/design.en.md) · [Handoff](../../../../lab/explorations/2026-10-13-continuous-shape-color/HANDOFF.md) · [Protocol v3](../../training-protocol.md)
+
+Same-day execution addendum: registration synced and both zero-history births were witnessed; the detached host began continuous teaching. Earlier pre-launch statements describe the interruption audit, not current inactivity. Final scores/videos remain pending.[Startup verification](../../../../lab/explorations/2026-10-13-continuous-shape-color/verification.en.md)
+
+## October 13, 2026: E68 continuous comparison completed
+
+Fresh /2 and /3.1 individuals each reached 1555 simulated seconds with their own complete current state, without per-question restoration or minimum-loss reader rollback. After 514 lessons and three corrective rounds, both development scores were 72/72 in rounds 2 and 3. Final held-out-position scores were 66/72 and 71/72. First-round correction also caused 3 and 1 formerly correct questions to fail; round 2 removed those remaining errors. The common final error was a yellow cube at the second position, answered as a cylinder. E67 independent-question scores are not a same-protocol continuous comparison.
+
+/3.1 native advancement took 1.896 times as long. Final edge counts were 119454 and 118922; complete saved individuals were about 6.22 and 6.49 MiB. Repeated complete-boundary snapshots are research overhead, not one individual's size. All 62200 frames, 2518 boundaries and 12590 checkpoint members passed the audit. Two roughly 13-minute videos include four measured activity curves. Account expiry queued durable requests; renewing the same account synchronized them without replaying experiences.
+
+The batch supports higher /3.1 accuracy and faster /2 execution, with explicit single-individual/seed and personal-reader limits. It does not establish subjective consciousness, universal version superiority or long unreviewed retention. R07's prior idle evidence remains; /4 stays stopped. Fresh-seed replication, residual-error controls and causal branches remain recommendations; any required rollback still needs prior user agreement. [Report](../../../../lab/explorations/2026-10-13-continuous-shape-color/report.en.md) · [Delivery](../../../../lab/explorations/2026-10-13-continuous-shape-color/delivery.en.md) · [Notes](../../../../lab/explorations/2026-10-13-continuous-shape-color/notes.en.md)
+
+Platform delivery check: the same experiment is completed with 9109 evidence references, zero declared problems and zero pending requests. Coverage is indexed; full trajectory/checkpoint hashes have a separate local audit. Bilingual protocols, reports, notes and delivery tables are recorded without copying a large package. Receipt: `367d3aa7-55ce-5a9e-ad60-751d83731713`, summarized at the experiment data root in `analysis/platform-delivery-receipt.json`.

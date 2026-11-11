@@ -1,0 +1,142 @@
+[
+  {
+    "energy": {
+      "consumed_associative": 0.0,
+      "consumed_direct": 0.0,
+      "consumed_inhibition": 0.0,
+      "consumed_maintenance": 0.0,
+      "counter_overflowed": false,
+      "death_us": null,
+      "discarded_total": 0.0,
+      "initial_total": 0.0,
+      "last_maintenance_deficit": 0.0,
+      "last_settlement_us": "0",
+      "offered_total": 0.8,
+      "reserve": 0.8,
+      "schema": "threemind.energy/1",
+      "since_us": "0",
+      "starved_since_us": null,
+      "supplied_total": 0.8,
+      "unserved_total": 0.0
+    },
+    "model": "local-field",
+    "nodes": [
+      {
+        "activation": 0.09000000000000001,
+        "id": 0,
+        "reserve": 0.4
+      },
+      {
+        "activation": 0.09000000000000001,
+        "id": 1,
+        "reserve": 0.4
+      }
+    ],
+    "time_us": 0
+  },
+  {
+    "energy": {
+      "consumed_associative": 0.0,
+      "consumed_direct": 0.0,
+      "consumed_inhibition": 0.0005231799088688785,
+      "consumed_maintenance": 0.0,
+      "counter_overflowed": false,
+      "death_us": null,
+      "discarded_total": 0.0,
+      "initial_total": 0.0,
+      "last_maintenance_deficit": 0.0,
+      "last_settlement_us": "0",
+      "offered_total": 1.3,
+      "reserve": 1.299476820091131,
+      "schema": "threemind.energy/1",
+      "since_us": "0",
+      "starved_since_us": null,
+      "supplied_total": 1.3,
+      "unserved_total": 0.0
+    },
+    "model": "local-field",
+    "nodes": [
+      {
+        "activation": 0.0,
+        "id": 0,
+        "reserve": 0.6497384100455655
+      },
+      {
+        "activation": 0.0,
+        "id": 1,
+        "reserve": 0.6497384100455655
+      }
+    ],
+    "time_us": 1000000
+  },
+  {
+    "energy": {
+      "consumed_associative": 0.0,
+      "consumed_direct": 0.0,
+      "consumed_inhibition": 0.0,
+      "consumed_maintenance": 0.0,
+      "counter_overflowed": false,
+      "death_us": null,
+      "discarded_total": 0.0,
+      "initial_total": 0.0,
+      "last_maintenance_deficit": 0.0,
+      "last_settlement_us": "0",
+      "offered_total": 0.8,
+      "reserve": 0.8,
+      "schema": "threemind.energy/1",
+      "since_us": "0",
+      "starved_since_us": null,
+      "supplied_total": 0.8,
+      "unserved_total": 0.0
+    },
+    "model": "global-ledger",
+    "nodes": [
+      {
+        "activation": 0.09000000000000001,
+        "id": 0,
+        "reserve": 0.0
+      },
+      {
+        "activation": 0.09000000000000001,
+        "id": 1,
+        "reserve": 0.0
+      }
+    ],
+    "time_us": 0
+  },
+  {
+    "energy": {
+      "consumed_associative": 0.0,
+      "consumed_direct": 0.0,
+      "consumed_inhibition": 0.0005231799088688785,
+      "consumed_maintenance": 0.0,
+      "counter_overflowed": false,
+      "death_us": null,
+      "discarded_total": 0.29984882351023656,
+      "initial_total": 0.0,
+      "last_maintenance_deficit": 0.0,
+      "last_settlement_us": "0",
+      "offered_total": 1.3,
+      "reserve": 0.9996279965808947,
+      "schema": "threemind.energy/1",
+      "since_us": "0",
+      "starved_since_us": null,
+      "supplied_total": 1.0001511764897635,
+      "unserved_total": 0.0
+    },
+    "model": "global-ledger",
+    "nodes": [
+      {
+        "activation": 0.0,
+        "id": 0,
+        "reserve": 0.0
+      },
+      {
+        "activation": 0.0,
+        "id": 1,
+        "reserve": 0.0
+      }
+    ],
+    "time_us": 1000000
+  }
+]

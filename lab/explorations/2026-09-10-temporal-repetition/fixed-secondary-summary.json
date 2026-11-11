@@ -1,0 +1,42 @@
+[
+  {
+    "seed": 41701,
+    "group": "pair",
+    "max_abs_difference": 0.0
+  },
+  {
+    "seed": 41701,
+    "group": "family",
+    "max_abs_difference": 0.0
+  },
+  {
+    "seed": 41702,
+    "group": "pair",
+    "max_abs_difference": 0.0
+  },
+  {
+    "seed": 41702,
+    "group": "family",
+    "max_abs_difference": 0.0
+  },
+  {
+    "seed": 41703,
+    "group": "pair",
+    "max_abs_difference": 0.0
+  },
+  {
+    "seed": 41703,
+    "group": "family",
+    "max_abs_difference": 0.0
+  },
+  {
+    "seed": 41704,
+    "group": "pair",
+    "max_abs_difference": 0.0
+  },
+  {
+    "seed": 41704,
+    "group": "family",
+    "max_abs_difference": 0.0
+  }
+]

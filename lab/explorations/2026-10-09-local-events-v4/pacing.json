@@ -1,0 +1,14 @@
+[
+  {
+    "clock": "realtime",
+    "state_hash": "af65f6393267543f29b9e8615af39bf8d37df9f39d776219b060246774a1c400"
+  },
+  {
+    "clock": "scaled",
+    "state_hash": "af65f6393267543f29b9e8615af39bf8d37df9f39d776219b060246774a1c400"
+  },
+  {
+    "clock": "unbounded",
+    "state_hash": "af65f6393267543f29b9e8615af39bf8d37df9f39d776219b060246774a1c400"
+  }
+]

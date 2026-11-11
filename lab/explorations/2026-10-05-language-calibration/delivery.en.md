@@ -1,0 +1,19 @@
+# E45 execution, validation and delivery
+
+2026-10-05. Scientific conclusions are in the [report](report.en.md).
+
+- **2041 completed sources/branches:** 63 teaching histories, 1809 cue/no-cue/intervention branches, 72 component probes, 51 visual calibrations, 36 name calibrations and 10 sound calibrations. These are not independent seeds. No completed-case failure receipt was found; unrun branches were not invented.
+- Fifteen continuous sources each retain 300 seconds, totaling 9000 half-second windows. Anonymous activation, transport summaries, checkpoints and raw text are retained. No eligible late replay candidate existed, so its conditional causal branches did not run. No successful composition candidate existed for composition mediation intervention; unrun is not failed.
+- Equal-dose routes, six parameter alternatives, three held-out seeds, two-seed composition, independent expression validation and registered follow-ups completed. Historical models/evidence stayed read-only; interventions affected copies only. Core, Runtime, Rust and existing Transformer product code have no changes relative to starting commit **224ed4c**.
+- Reusable tools provide matched frames, paired visual sampling, actual-time process vectors/template comparison and physical oscillator sound, with Python/JSONL CLI access. E45 runners are frozen study protocols, not overwrite-in-place generic studies. New expression heads remain offline research instruments; daily chat/live integration remains T07.
+- Four new-tool checks and six existing-language checks ultimately passed. One existing test initially met a sandbox temporary-directory ACL refusal and passed after authorized isolated rerun. Ruff passed. Unchanged Core did not trigger redundant full-Core testing.
+- Offline replay passed 1440/390-pixel checks: 15 sources, seeking, previous/next windows, bounded nine-row history, no page overflow or script errors. Screenshots were inspected. Initial headless Edge launch was blocked by sandbox spawn EPERM; authorized isolated execution passed without operating user browsers/services or Docker.
+- Recorded simulation/training/decoding: **4074.343 seconds, 67.91 minutes**. Development, documentation, browser QA and archive wall time are excluded. Limits were four hours and 2400 sources/branches; unused budget is not a reason for aimless expansion.
+- Shared account usage moved **38%→40%**, conservatively including other tasks. Pre-archive work data was approximately 0.460 GiB. The combined local/archive/database budget has a 5-GiB expansion stop and 8-GiB hard limit. Post-publication measurements are recorded in resource-use.json; whole-database growth may include other work.
+- Notes, bilingual reports, figures, continuous replay and full evidence are published via ThreeMind Lab services to the independent project. publish.py writes delivery.json as the publication receipt. Archiving uses one-pass ZIP CRC plus the normal upload hash, without repeated full-content audits or old-data deletion.
+- Publication initially stopped because execution-note relative links failed platform validation. Document-menu URL conversion was added, then publication resumed from successful receipts without rerunning simulations, duplicating reports or replacing earlier records.
+- Current backlog R17/R20/T07/C23, modern Chinese/English histories and both Classical adaptations are synchronized. Defaults, historical instances and report criteria remain intact. Local Git commit only; no push.
+
+Project: **E45 语言对应校准与双向感官联想**, ID **c008cf91-ec52-4b23-829e-f53e5748ecbe**. Reports/records are under the project's records-and-reports area; registrations/discussion are notebook entries. Work directory: .work/language-calibration-20261005.
+
+This bounded batch is closed. Native-pattern expression, retention of component links, broader contextual/inhibitory observation and black-box communication are subsequent recommendations, not completed claims.

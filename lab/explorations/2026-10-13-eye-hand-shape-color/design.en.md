@@ -1,0 +1,62 @@
+# E69: continuous gaze, eye-hand coordination and shape-color learning
+
+Preregistration draft v1, 2026-10-13. Liu Dongxu selected a new blank `/5.1` individual and a persistent motor adapter with independent eye selection, hand selection and action/wait outputs. AI assists design, implementation, execution and reporting. Preparation only: no new behavioral results yet. Exact tasks, source hashes and apparatus checks are frozen before formal birth.
+
+One whole individual (Core seed223, sensory91, weather47) keeps its Core, events, body, mappings, current/history activity, motor and word peripherals, optimizers, random states, calibration evidence, servo state and curriculum cursor throughout all three stages. Kernel defaults stay unchanged. No old subject or trained peripheral is reused. E56 four-field success and E68 centered recognition are references, not guarantees. The [training protocol v3](../../../docs/en/training-protocol.md) forbids per-question restoration, best-weight rollback and discarded test experience; any necessary rollback control requires asking the user first.
+
+## Apparatus and authorized control
+
+Reuse the real movable, nonuniform 68-receptor eye (36 central fine and32 peripheral receptors), physical hand, RGB/range, proprioception and weather/temperature/gravity-support channels. Main tasks contain four objects, with layout and attribute permutations. Three-object transfer is reported separately. No target crops, increased resolution or Core changes.
+
+A new persistent spatial reader shares geometric neighborhoods and temporal encoding, but produces independent eye/hand receptor choices and a learned hand MOVE/WAIT output. Inference accepts only raw Core activation, inhibition, direct and associative activity plus fixed apparatus geometry. No object inventory, answer, correct location, classroom-stage identifier or scoring result enters inference. The servo executes predicted rays using body measurements. WAIT latches the hand's own current position for braking/holding; it does not overwrite position or velocity. Correct fixation never automatically releases the hand. The latch and all command state are checkpointed.
+
+An eight-word reader exists from birth. Calibration continues personal weights, Adam and random state to the last update, never a selected earlier minimum. The new motor reader is a declared architectural adaptation, not an exact reproduction of the four-field E56 reader.
+
+## Curriculum and evaluation
+
+1. **Gaze:** turn, center, maintain and switch gaze toward a physically visible teacher marker among four objects. Marker following is a cued skill, not semantic recognition. Initial alignment is not counted as a new turn.
+2. **Eye-hand:** the teacher demonstrates looking before pointing. Unassisted tests supply one compound request; independently learned eye/hand/wait outputs determine the sequence. Keep rehearsing gaze-only and waiting. Neither teacher motion nor a hard-coded correct-target gate counts as learned coordination.
+3. **Shape and color:** teach gray shapes, colors and combinations, then find, fixate, point and answer in four-object scenes. Asking a given color's shape or a given shape's color avoids including the answer in the question. Conjunction-name requests test localization, not naming an attribute already supplied.
+
+Teacher cues are real optical input. Cued basic tasks retain them explicitly; final semantic tasks remove cues and assistance. Marker and object height differ: label and score their actual geometry separately, and do not count gazing at a marker as resolving an occluded object. Record self and teacher commands separately.
+
+Gaze and coordination each begin with ten lessons per direction and three interleaved four-lesson reviews. Shape/color retains the104-lesson eight-concept reference. Each semantic concept rotates target quadrants during initial teaching and review, rather than binding its name to one direction. Concept demonstrations are explicitly teacher-only, with no naming label or autonomous naming score. Extra review gaps are0/6/18 simulated seconds, with scene, background and current control continuing. Record actual occurrence intervals rather than claiming an exact human forgetting curve.
+
+Conjunction-localization scenes include a same-shape/different-color distractor and a different-shape/same-color distractor, so both attributes are necessary. Cross-attribute questions identify one unique attribute and then ask the other, undisclosed attribute. Three-object transfer decouples question mode from target position; each mode covers all three positions.
+
+Each stage gathers real answer-free request activity and continues personal calibration (1200 updates per round, AdamW .002/.0001, batch≤32, clipping1, last state retained). Demonstration supervision and answer-free closed-loop samples are separate evidence. Eight raw frames span the full request; subsequent action sampling retains the request-to-current process, not just its last0.8 seconds.
+
+Each motor window lasts exactly 6 simulated seconds, sampled every 50 ms. The first 2 seconds contain the complete request; the first decision reads eight uniformly selected raw Core frames across that interval. New motor decisions follow every 0.5 seconds from second 2, giving eight decisions in the primary window. The body, eye/hand targets and previous command carry across requests; the first 2 seconds neither force WAIT nor clear prior commands. Shape/color naming adds a genuine 1-second question asking the undisclosed attribute after the motor window. Its complete activity supplies the word reader while learned eye/hand control continues, without waiting for correct fixation or pointing. Post-naming motor state is secondary evidence and cannot repair a failure in the first 6 seconds. Conjunction-only localization and teacher demonstrations have no extra naming second.
+
+Freeze development questions. Up to three correction cycles preserve the student's original response, repeat the failed condition, provide normal feedback/demonstration, add related conditions and formerly correct examples, collect answer-free conditions, continue calibration, and retest continuously. Every stage includes nearby layouts. Semantic correction also changes color while retaining shape and changes shape while retaining color: a reversible whole-scene transformation changes just that attribute dimension, preserving target position, the other attribute, unique selection and conjunction distractors. Regenerate truthful supervision and answer-free requests for each transformed scene. All development conditions, including earlier correct ones, receive three interleaved reviews. Calibration then samples the fixed calibration bank, original failures and every related condition once, deduplicating actual conditions rather than counting repeated reviews as new conditions; teacher answers are absent during acquisition. Freeze each adaptive course before execution. A perfect development set can end correction early. Do not change Core, replace peripherals or train indefinitely after failure.
+
+After all stages, one continuous final sequence uses unseen layouts for gaze, coordination and semantic tasks, plus separate three-object transfer. Final answers never select weights or train the subject. If earlier skills remain unreliable, later results are still recorded with this upstream limitation. Exact counts, fixed response windows, thresholds and resource estimates are frozen in `design.json` and task tables before birth.
+
+Score choice, outside-to-center entry, stable fixation, hand entry/end/dwell, eye-before-hand order, answer and complete end-to-end success separately. Use actual physical distances, not nearest-object ranking. Never choose a favorable instant post hoc. Bodies carry across scenes; do not reset eye/hand state for fairness. A correct overall response does not establish that all recognition occurred exclusively inside Core.
+
+Primary motor scores use only observations within the 6-second window. Fixation requires the target inside the central clear field and eye angular-speed magnitude below 0.08 rad/s for all last six frames. Pointing requires planar hand-target distance at most 0.15 m for all last six frames. Six 50 ms samples represent a nominal 0.30-second dwell; their first and last timestamps span 0.25 seconds, not a longer observed interval. Gaze-stage success evaluates the eye alone. Report the fraction of new commands choosing WAIT and actual hand behavior separately; successful gaze does not automatically establish learned waiting.
+
+If the hand starts at the target, classify the request as maintenance: order is`null` and excluded from the order denominator. Meeting the remaining requirements can count as fulfilling the request, but not as a newly performed look-before-point action. For initially unarrived hands, the operational order measure checks the first new MOVE command against completion of the first stable fixation and checks first hand entry against that fixation. It does not prove that all physical movement began after fixation. Retained commands may produce earlier motion; preserve and report it separately rather than hiding it behind a later new MOVE. Likewise, initial central alignment is not a newly performed gaze turn.
+
+A demonstration's`success` describes apparatus achievement of eye/hand targets only;`autonomous_success=null`, excluded from the student's autonomous denominator. Demonstrations have neither autonomous naming nor autonomous order scores. Report primary success alongside its components, maintenance counts, eligible order denominator and naming denominator instead of collapsing these different abilities into one percentage.
+
+## Pre-birth resource upper bound
+
+The current curriculum yields the following upper bound if all 24 development questions fail in every round and all three correction cycles run. These are engineering counts, not measured behavior. Each row includes its final checks, although all final checks remain scheduled after the three teaching stages.
+
+| Stage attribution | Main task entries | Additional retries | One-second naming questions | Extra review gaps | Motor supervision samples | Word calibration samples | Simulated seconds |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Gaze | 868 | 72 | 0 | 96s | 6,732 | 0 | 5,736 |
+| Eye-hand | 868 | 72 | 0 | 96s | 6,732 | 0 | 5,736 |
+| Semantic plus three-object transfer | 1,268 | 72 | 488 | 96s | 9,792 | 320 | 8,624 |
+| Total | 3,004 | 216 | 488 | 288s | 23,256 | 320 | 20,096 |
+
+Total advancement is `6×(3004+216)+488+288=20096` simulated seconds, or 5 h 34 min 56 s and 401,920 samples at 50 ms intervals. Each teaching/acquisition request contributes nine motor windows; retries, development and final tests do not add calibration examples. All 23,256 motor examples fit below the 32,768 retention ceiling without discarding old examples. Repeated optimizer updates are not counted as new examples. Calibration, saving and tool time do not advance simulation; these counts are not a wall-clock completion estimate.
+
+## Evidence and recovery
+
+Register through the unified research API before birth. Originals live in `E:\ThreeMindData\experiments\2026-10-13-eye-hand-shape-color`; Git contains code, protocol and small reports. Immutable calibration originals may be referenced by complete checkpoints with hashes and dependencies, avoiding repeated copies of every dataset. Each lesson/request/update block has an in-flight marker followed by an atomic complete boundary and parent chain. A dead process with in-flight evidence is not automatically rolled back or retried. Resume only the latest complete current state.
+
+Reserve25GiB disk and2GiB available RAM; pause at complete boundaries without deleting past evidence. Verify visibility/reachability, ray execution, hand occlusion, scene changes without body reset, truth-free inference, next-action/input/update restoration equality, observation purity and interruption handling using separate engineering samples. Tool time does not advance simulated time. Keep E67/E68 and their old automations stopped/completed; arrange long-running continuation separately for this batch.
+
+Replay shows the full scene, clear central field, eye/hand actions, answers and four genuine activity curves with continuous simulated timestamps. Preserve failures and all earlier reports. [Chinese protocol](design.zh.md) contains the same design; no new findings are claimed.

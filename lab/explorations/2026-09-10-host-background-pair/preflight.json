@@ -1,0 +1,240 @@
+{
+  "core": {
+    "step_us": 10000,
+    "delay_us": 10000,
+    "propagation_interval_us": 100000,
+    "quiescence_death_us": 1000000,
+    "node_prune_after_us": 80000000,
+    "activation_tau": 0.30441023431381903,
+    "trace_tau": 0.5039028822088802,
+    "inhibition_tau": 0.2321354823145728,
+    "eligibility_tau": 0.40247707040780034,
+    "stability_tau": 666.6666666666667,
+    "support_tau": 666.6666666666667,
+    "activation_decay_enabled": true,
+    "trace_decay_enabled": true,
+    "inhibition_decay_enabled": true,
+    "eligibility_decay_enabled": true,
+    "stability_decay_enabled": true,
+    "support_decay_enabled": true,
+    "propagation_rate": 4.2,
+    "direct_gain": 0.9,
+    "learning_rate": 0.055,
+    "birth_weight": 0.065,
+    "first_gain": 0.045,
+    "repeat_gain": 0.018,
+    "intensity_gain": 0.075,
+    "associative_gain": 0.01,
+    "stability_gain": 0.022,
+    "support_gain": 0.035,
+    "forgetting_rate": 0.025,
+    "inhibition_gain": 0.24,
+    "inhibition_diffusion_rate": 3.5,
+    "inhibition_response_gain": 2.0,
+    "activation_floor": 0.004,
+    "prune_weight": 0.008,
+    "prune_support": 0.006,
+    "plasticity": true,
+    "inhibition": true,
+    "seed": 20260724
+  },
+  "sensor": {
+    "enabled": true,
+    "encoding": "anonymous-distributed",
+    "normalization": "NFKC",
+    "channel_count": 192,
+    "frame_characters": 24,
+    "frame_interval_us": 20000,
+    "gain": 1.0,
+    "max_carrier_characters": 100000
+  },
+  "reader": {
+    "enabled": true,
+    "interval_us": 100000,
+    "trigger_manual": true,
+    "trigger_ai": false,
+    "trigger_ambient": false,
+    "baseline_us": 1200000,
+    "min_response_us": 1200000,
+    "max_response_us": 12000000,
+    "settle_us": 800000,
+    "activation_threshold": 0.055,
+    "excess_activation_min": 0.005,
+    "baseline_noise_gain": 1.0,
+    "candidate_scope": "associative-or-persistent",
+    "consider_activation_strength": true,
+    "ranking_mode": "composite",
+    "comparison_top_k": 7,
+    "convergence_jaccard_min": 0.8,
+    "convergence_drift_max": 0.12,
+    "convergence_amplitude_drift_max": 0.12,
+    "decay_final_ratio_max": 0.35,
+    "display_limit": 20,
+    "max_active_windows": 64,
+    "max_node_entries": 100000,
+    "max_history_samples": 10000
+  },
+  "host": {
+    "enabled": true,
+    "sample_interval_ms": 1000,
+    "smoothing_tau_s": 4.481420117724551,
+    "levels_enabled": true,
+    "changes_enabled": true,
+    "signals": {
+      "cpu_load": {
+        "level": true,
+        "change": true,
+        "gain": 1.0,
+        "reference_override": false,
+        "reference": 1.0
+      },
+      "cpu_frequency": {
+        "level": true,
+        "change": true,
+        "gain": 1.0,
+        "reference_override": false,
+        "reference": 4000000000.0
+      },
+      "memory_pressure": {
+        "level": true,
+        "change": true,
+        "gain": 1.0,
+        "reference_override": false,
+        "reference": 1.0
+      },
+      "memory_commit_pressure": {
+        "level": true,
+        "change": true,
+        "gain": 1.0,
+        "reference_override": false,
+        "reference": 1.0
+      },
+      "swap_pressure": {
+        "level": true,
+        "change": true,
+        "gain": 1.0,
+        "reference_override": false,
+        "reference": 1.0
+      },
+      "page_in_rate": {
+        "level": true,
+        "change": true,
+        "gain": 1.0,
+        "reference_override": false,
+        "reference": 268435456.0
+      },
+      "page_out_rate": {
+        "level": true,
+        "change": true,
+        "gain": 1.0,
+        "reference_override": false,
+        "reference": 268435456.0
+      },
+      "page_fault_rate": {
+        "level": true,
+        "change": true,
+        "gain": 1.0,
+        "reference_override": false,
+        "reference": 25000.0
+      },
+      "disk_read_rate": {
+        "level": true,
+        "change": true,
+        "gain": 1.0,
+        "reference_override": false,
+        "reference": 268435456.0
+      },
+      "disk_write_rate": {
+        "level": true,
+        "change": true,
+        "gain": 1.0,
+        "reference_override": false,
+        "reference": 268435456.0
+      },
+      "disk_read_iops": {
+        "level": true,
+        "change": true,
+        "gain": 1.0,
+        "reference_override": false,
+        "reference": 20000.0
+      },
+      "disk_write_iops": {
+        "level": true,
+        "change": true,
+        "gain": 1.0,
+        "reference_override": false,
+        "reference": 20000.0
+      },
+      "network_receive_rate": {
+        "level": true,
+        "change": true,
+        "gain": 1.0,
+        "reference_override": false,
+        "reference": 131072000.0
+      },
+      "network_send_rate": {
+        "level": true,
+        "change": true,
+        "gain": 1.0,
+        "reference_override": false,
+        "reference": 131072000.0
+      },
+      "network_receive_packets": {
+        "level": true,
+        "change": true,
+        "gain": 1.0,
+        "reference_override": false,
+        "reference": 200000.0
+      },
+      "network_send_packets": {
+        "level": true,
+        "change": true,
+        "gain": 1.0,
+        "reference_override": false,
+        "reference": 200000.0
+      },
+      "network_error_rate": {
+        "level": true,
+        "change": true,
+        "gain": 1.0,
+        "reference_override": false,
+        "reference": 1000.0
+      },
+      "network_drop_rate": {
+        "level": true,
+        "change": true,
+        "gain": 1.0,
+        "reference_override": false,
+        "reference": 1000.0
+      },
+      "battery_level": {
+        "level": true,
+        "change": true,
+        "gain": 1.0,
+        "reference_override": false,
+        "reference": 1.0
+      },
+      "ac_power": {
+        "level": true,
+        "change": true,
+        "gain": 1.0,
+        "reference_override": false,
+        "reference": 1.0
+      },
+      "battery_charging": {
+        "level": true,
+        "change": true,
+        "gain": 1.0,
+        "reference_override": false,
+        "reference": 1.0
+      }
+    }
+  },
+  "host_frame_intensity": 0.25,
+  "training_intensity": 0.9,
+  "probe_intensity": 0.5,
+  "recording_sha256": "447fea50664cc16a0902adc4b331c76907991e8ade20a60323ff13ce35e8f292",
+  "instrumentation_dependencies": {
+    "lab/explorations/2026-09-10-pair-no-punctuation/run.py": "1eb61603d843a33685a343de8ee768c49962990913826660afd559fc0e7b8a9a"
+  }
+}

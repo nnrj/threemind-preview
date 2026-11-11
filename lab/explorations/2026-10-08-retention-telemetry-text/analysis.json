@@ -1,0 +1,1501 @@
+{
+  "checked_evidence_files": {
+    "run-01": 631,
+    "run-02": 631,
+    "trace-01": 3
+  },
+  "runs": [
+    {
+      "case": "scheme1-repeat",
+      "timing_seconds": {
+        "capture_hash": 0.7730117001337931,
+        "core": 2.8629842010559514,
+        "gzip_write": 1.71200619940646,
+        "observation": 0.9678455002140254,
+        "restore": 0.30294610059354454
+      },
+      "wall_seconds": 7.25,
+      "stages": [
+        {
+          "seconds": 530,
+          "text": {
+            "cohort": {
+              "fraction": 1.0,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 1.0,
+              "surviving": 132,
+              "weight_sum": 2.5410429172021143
+            },
+            "count": 132,
+            "mean_weight": 0.019250325130319046,
+            "weight_sum": 2.5410429172021143
+          },
+          "background": {
+            "cohort": {
+              "fraction": 1.0,
+              "initial": 1346,
+              "new_edges": 0,
+              "relative_weight": 1.0,
+              "surviving": 1346,
+              "weight_sum": 24.419216855734934
+            },
+            "count": 1346,
+            "mean_weight": 0.01814206304289371,
+            "weight_sum": 24.419216855734934
+          },
+          "text_nodes": 16,
+          "paired_edges": 16,
+          "remaining_connected_characters": [
+            "。",
+            "叶",
+            "天",
+            "是",
+            "果",
+            "树",
+            "白",
+            "的",
+            "空",
+            "红",
+            "绿",
+            "色",
+            "花",
+            "苹",
+            "蓝",
+            "雪"
+          ],
+          "cue_probe_count": 5,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 4.336808689942018e-19
+        },
+        {
+          "seconds": 560,
+          "text": {
+            "cohort": {
+              "fraction": 0.8181818181818182,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 0.42740290576635576,
+              "surviving": 108,
+              "weight_sum": 1.086049126489201
+            },
+            "count": 108,
+            "mean_weight": 0.010056010430455564,
+            "weight_sum": 1.086049126489201
+          },
+          "background": {
+            "cohort": {
+              "fraction": 0.5542347696879644,
+              "initial": 1346,
+              "new_edges": 494,
+              "relative_weight": 0.36887803283343507,
+              "surviving": 746,
+              "weight_sum": 9.007712677076562
+            },
+            "count": 1240,
+            "mean_weight": 0.01775279527772936,
+            "weight_sum": 22.013466144384406
+          },
+          "text_nodes": 16,
+          "paired_edges": 16,
+          "remaining_connected_characters": [
+            "。",
+            "叶",
+            "天",
+            "是",
+            "果",
+            "树",
+            "白",
+            "的",
+            "空",
+            "红",
+            "绿",
+            "色",
+            "花",
+            "苹",
+            "蓝",
+            "雪"
+          ],
+          "cue_probe_count": 5,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 0.0
+        },
+        {
+          "seconds": 650,
+          "text": {
+            "cohort": {
+              "fraction": 0.0,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 0.0,
+              "surviving": 0,
+              "weight_sum": 0
+            },
+            "count": 0,
+            "mean_weight": null,
+            "weight_sum": 0
+          },
+          "background": {
+            "cohort": {
+              "fraction": 0.014858841010401188,
+              "initial": 1346,
+              "new_edges": 1266,
+              "relative_weight": 0.02398205396466676,
+              "surviving": 20,
+              "weight_sum": 0.5856229764091353
+            },
+            "count": 1286,
+            "mean_weight": 0.01684661039658122,
+            "weight_sum": 21.66474097000345
+          },
+          "text_nodes": 4,
+          "paired_edges": 0,
+          "remaining_connected_characters": [],
+          "cue_probe_count": 5,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 0.0
+        },
+        {
+          "seconds": 830,
+          "text": {
+            "cohort": {
+              "fraction": 0.0,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 0.0,
+              "surviving": 0,
+              "weight_sum": 0
+            },
+            "count": 0,
+            "mean_weight": null,
+            "weight_sum": 0
+          },
+          "background": {
+            "cohort": {
+              "fraction": 0.014858841010401188,
+              "initial": 1346,
+              "new_edges": 1292,
+              "relative_weight": 0.023416396222904326,
+              "surviving": 20,
+              "weight_sum": 0.5718100573469131
+            },
+            "count": 1312,
+            "mean_weight": 0.017143206212763953,
+            "weight_sum": 22.491886551146305
+          },
+          "text_nodes": 0,
+          "paired_edges": 0,
+          "remaining_connected_characters": [],
+          "cue_probe_count": 5,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 0.0
+        },
+        {
+          "seconds": 834,
+          "text": {
+            "cohort": {
+              "fraction": 0.0,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 0.0,
+              "surviving": 0,
+              "weight_sum": 0
+            },
+            "count": 0,
+            "mean_weight": null,
+            "weight_sum": 0
+          },
+          "background": {
+            "cohort": {
+              "fraction": 0.014858841010401188,
+              "initial": 1346,
+              "new_edges": 1306,
+              "relative_weight": 0.02340324343553988,
+              "surviving": 20,
+              "weight_sum": 0.5714888765800034
+            },
+            "count": 1326,
+            "mean_weight": 0.01650291276506008,
+            "weight_sum": 21.882862326469667
+          },
+          "text_nodes": 0,
+          "paired_edges": 0,
+          "remaining_connected_characters": [],
+          "cue_probe_count": 0,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 0
+        },
+        {
+          "seconds": 864,
+          "text": {
+            "cohort": {
+              "fraction": 0.0,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 0.0,
+              "surviving": 0,
+              "weight_sum": 0
+            },
+            "count": 0,
+            "mean_weight": null,
+            "weight_sum": 0
+          },
+          "background": {
+            "cohort": {
+              "fraction": 0.01337295690936107,
+              "initial": 1346,
+              "new_edges": 556,
+              "relative_weight": 0.01111476254445968,
+              "surviving": 18,
+              "weight_sum": 0.27141379687316114
+            },
+            "count": 574,
+            "mean_weight": 0.011118304033350228,
+            "weight_sum": 6.38190651514303
+          },
+          "text_nodes": 0,
+          "paired_edges": 0,
+          "remaining_connected_characters": [],
+          "cue_probe_count": 0,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 0
+        },
+        {
+          "seconds": 954,
+          "text": {
+            "cohort": {
+              "fraction": 0.0,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 0.0,
+              "surviving": 0,
+              "weight_sum": 0
+            },
+            "count": 0,
+            "mean_weight": null,
+            "weight_sum": 0
+          },
+          "background": {
+            "cohort": {
+              "fraction": 0.0,
+              "initial": 1346,
+              "new_edges": 0,
+              "relative_weight": 0.0,
+              "surviving": 0,
+              "weight_sum": 0
+            },
+            "count": 0,
+            "mean_weight": null,
+            "weight_sum": 0
+          },
+          "text_nodes": 0,
+          "paired_edges": 0,
+          "remaining_connected_characters": [],
+          "cue_probe_count": 0,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 0
+        },
+        {
+          "seconds": 1134,
+          "text": {
+            "cohort": {
+              "fraction": 0.0,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 0.0,
+              "surviving": 0,
+              "weight_sum": 0
+            },
+            "count": 0,
+            "mean_weight": null,
+            "weight_sum": 0
+          },
+          "background": {
+            "cohort": {
+              "fraction": 0.0,
+              "initial": 1346,
+              "new_edges": 0,
+              "relative_weight": 0.0,
+              "surviving": 0,
+              "weight_sum": 0
+            },
+            "count": 0,
+            "mean_weight": null,
+            "weight_sum": 0
+          },
+          "text_nodes": 0,
+          "paired_edges": 0,
+          "remaining_connected_characters": [],
+          "cue_probe_count": 5,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 0.0
+        },
+        {
+          "seconds": 2034,
+          "text": {
+            "cohort": {
+              "fraction": 0.0,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 0.0,
+              "surviving": 0,
+              "weight_sum": 0
+            },
+            "count": 0,
+            "mean_weight": null,
+            "weight_sum": 0
+          },
+          "background": {
+            "cohort": {
+              "fraction": 0.0,
+              "initial": 1346,
+              "new_edges": 0,
+              "relative_weight": 0.0,
+              "surviving": 0,
+              "weight_sum": 0
+            },
+            "count": 0,
+            "mean_weight": null,
+            "weight_sum": 0
+          },
+          "text_nodes": 0,
+          "paired_edges": 0,
+          "remaining_connected_characters": [],
+          "cue_probe_count": 5,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 0.0
+        }
+      ]
+    },
+    {
+      "case": "scheme2-repeat",
+      "timing_seconds": {
+        "capture_hash": 0.7337507996708155,
+        "core": 2.8015634993789718,
+        "gzip_write": 1.5873188996920362,
+        "observation": 1.0358150990214199,
+        "restore": 0.2702870999928564
+      },
+      "wall_seconds": 7.047000000020489,
+      "stages": [
+        {
+          "seconds": 530,
+          "text": {
+            "cohort": {
+              "fraction": 1.0,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 1.0,
+              "surviving": 132,
+              "weight_sum": 8.932106728057473
+            },
+            "count": 132,
+            "mean_weight": 0.06766747521255662,
+            "weight_sum": 8.932106728057473
+          },
+          "background": {
+            "cohort": {
+              "fraction": 1.0,
+              "initial": 1352,
+              "new_edges": 0,
+              "relative_weight": 1.0,
+              "surviving": 1352,
+              "weight_sum": 32.86092776554167
+            },
+            "count": 1352,
+            "mean_weight": 0.02430541994492727,
+            "weight_sum": 32.86092776554167
+          },
+          "text_nodes": 16,
+          "paired_edges": 16,
+          "remaining_connected_characters": [
+            "。",
+            "叶",
+            "天",
+            "是",
+            "果",
+            "树",
+            "白",
+            "的",
+            "空",
+            "红",
+            "绿",
+            "色",
+            "花",
+            "苹",
+            "蓝",
+            "雪"
+          ],
+          "cue_probe_count": 5,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 0.0
+        },
+        {
+          "seconds": 560,
+          "text": {
+            "cohort": {
+              "fraction": 1.0,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 0.7904494044368964,
+              "surviving": 132,
+              "weight_sum": 7.0603784435598245
+            },
+            "count": 132,
+            "mean_weight": 0.05348771548151382,
+            "weight_sum": 7.0603784435598245
+          },
+          "background": {
+            "cohort": {
+              "fraction": 0.5872781065088757,
+              "initial": 1352,
+              "new_edges": 478,
+              "relative_weight": 0.5197262707165821,
+              "surviving": 794,
+              "weight_sum": 17.078687439871956
+            },
+            "count": 1272,
+            "mean_weight": 0.024056738418408025,
+            "weight_sum": 30.600171268215007
+          },
+          "text_nodes": 16,
+          "paired_edges": 16,
+          "remaining_connected_characters": [
+            "。",
+            "叶",
+            "天",
+            "是",
+            "果",
+            "树",
+            "白",
+            "的",
+            "空",
+            "红",
+            "绿",
+            "色",
+            "花",
+            "苹",
+            "蓝",
+            "雪"
+          ],
+          "cue_probe_count": 5,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 0.0
+        },
+        {
+          "seconds": 650,
+          "text": {
+            "cohort": {
+              "fraction": 0.09090909090909091,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 0.46606186914046865,
+              "surviving": 12,
+              "weight_sum": 4.162914357040622
+            },
+            "count": 12,
+            "mean_weight": 0.3469095297533851,
+            "weight_sum": 4.162914357040622
+          },
+          "background": {
+            "cohort": {
+              "fraction": 0.026627218934911243,
+              "initial": 1352,
+              "new_edges": 1258,
+              "relative_weight": 0.24964496075478695,
+              "surviving": 36,
+              "weight_sum": 8.203565022394539
+            },
+            "count": 1294,
+            "mean_weight": 0.02345257330774487,
+            "weight_sum": 30.34762986022186
+          },
+          "text_nodes": 4,
+          "paired_edges": 0,
+          "remaining_connected_characters": [
+            "。",
+            "是",
+            "的",
+            "色"
+          ],
+          "cue_probe_count": 5,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 0.0
+        },
+        {
+          "seconds": 830,
+          "text": {
+            "cohort": {
+              "fraction": 0.09090909090909091,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 0.12593240068238618,
+              "surviving": 12,
+              "weight_sum": 1.124841643415571
+            },
+            "count": 12,
+            "mean_weight": 0.09373680361796426,
+            "weight_sum": 1.124841643415571
+          },
+          "background": {
+            "cohort": {
+              "fraction": 0.023668639053254437,
+              "initial": 1352,
+              "new_edges": 1282,
+              "relative_weight": 0.2989242967398412,
+              "surviving": 32,
+              "weight_sum": 9.822929722533265
+            },
+            "count": 1314,
+            "mean_weight": 0.025533433153729006,
+            "weight_sum": 33.55093116399991
+          },
+          "text_nodes": 4,
+          "paired_edges": 0,
+          "remaining_connected_characters": [
+            "。",
+            "是",
+            "的",
+            "色"
+          ],
+          "cue_probe_count": 5,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 0.0
+        },
+        {
+          "seconds": 834,
+          "text": {
+            "cohort": {
+              "fraction": 0.09090909090909091,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 0.12077861597173756,
+              "surviving": 12,
+              "weight_sum": 1.0788074883266268
+            },
+            "count": 12,
+            "mean_weight": 0.08990062402721889,
+            "weight_sum": 1.0788074883266268
+          },
+          "background": {
+            "cohort": {
+              "fraction": 0.023668639053254437,
+              "initial": 1352,
+              "new_edges": 1286,
+              "relative_weight": 0.3000099894029098,
+              "surviving": 32,
+              "weight_sum": 9.85860659070994
+            },
+            "count": 1318,
+            "mean_weight": 0.02462690895634384,
+            "weight_sum": 32.45826600446118
+          },
+          "text_nodes": 4,
+          "paired_edges": 0,
+          "remaining_connected_characters": [
+            "。",
+            "是",
+            "的",
+            "色"
+          ],
+          "cue_probe_count": 0,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 0
+        },
+        {
+          "seconds": 864,
+          "text": {
+            "cohort": {
+              "fraction": 0.09090909090909091,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 0.08674303523463997,
+              "surviving": 12,
+              "weight_sum": 0.7747980486314541
+            },
+            "count": 12,
+            "mean_weight": 0.06456650405262117,
+            "weight_sum": 0.7747980486314541
+          },
+          "background": {
+            "cohort": {
+              "fraction": 0.023668639053254437,
+              "initial": 1352,
+              "new_edges": 608,
+              "relative_weight": 0.29379754370522265,
+              "surviving": 32,
+              "weight_sum": 9.654459861390892
+            },
+            "count": 640,
+            "mean_weight": 0.026352803155813675,
+            "weight_sum": 16.865794019720752
+          },
+          "text_nodes": 4,
+          "paired_edges": 0,
+          "remaining_connected_characters": [
+            "。",
+            "是",
+            "的",
+            "色"
+          ],
+          "cue_probe_count": 0,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 0
+        },
+        {
+          "seconds": 954,
+          "text": {
+            "cohort": {
+              "fraction": 0.09090909090909091,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 0.0266661388235135,
+              "surviving": 12,
+              "weight_sum": 0.23818479799681952
+            },
+            "count": 12,
+            "mean_weight": 0.019848733166401625,
+            "weight_sum": 0.23818479799681952
+          },
+          "background": {
+            "cohort": {
+              "fraction": 0.019230769230769232,
+              "initial": 1352,
+              "new_edges": 0,
+              "relative_weight": 0.22944666258066243,
+              "surviving": 26,
+              "weight_sum": 7.53983020510776
+            },
+            "count": 26,
+            "mean_weight": 0.28999346942722154,
+            "weight_sum": 7.53983020510776
+          },
+          "text_nodes": 4,
+          "paired_edges": 0,
+          "remaining_connected_characters": [
+            "。",
+            "是",
+            "的",
+            "色"
+          ],
+          "cue_probe_count": 0,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 0
+        },
+        {
+          "seconds": 1134,
+          "text": {
+            "cohort": {
+              "fraction": 0.0,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 0.0,
+              "surviving": 0,
+              "weight_sum": 0
+            },
+            "count": 0,
+            "mean_weight": null,
+            "weight_sum": 0
+          },
+          "background": {
+            "cohort": {
+              "fraction": 0.014792899408284023,
+              "initial": 1352,
+              "new_edges": 0,
+              "relative_weight": 0.06073696800115209,
+              "surviving": 20,
+              "weight_sum": 1.9958731181838745
+            },
+            "count": 20,
+            "mean_weight": 0.09979365590919373,
+            "weight_sum": 1.9958731181838745
+          },
+          "text_nodes": 0,
+          "paired_edges": 0,
+          "remaining_connected_characters": [],
+          "cue_probe_count": 5,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 0.0
+        },
+        {
+          "seconds": 2034,
+          "text": {
+            "cohort": {
+              "fraction": 0.0,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 0.0,
+              "surviving": 0,
+              "weight_sum": 0
+            },
+            "count": 0,
+            "mean_weight": null,
+            "weight_sum": 0
+          },
+          "background": {
+            "cohort": {
+              "fraction": 0.0,
+              "initial": 1352,
+              "new_edges": 0,
+              "relative_weight": 0.0,
+              "surviving": 0,
+              "weight_sum": 0
+            },
+            "count": 0,
+            "mean_weight": null,
+            "weight_sum": 0
+          },
+          "text_nodes": 0,
+          "paired_edges": 0,
+          "remaining_connected_characters": [],
+          "cue_probe_count": 5,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 0.0
+        }
+      ]
+    },
+    {
+      "case": "scheme1-single",
+      "timing_seconds": {
+        "capture_hash": 0.7468432990135625,
+        "core": 2.845003102789633,
+        "gzip_write": 1.7645941011141986,
+        "observation": 0.977332696900703,
+        "restore": 0.3126245002495125
+      },
+      "wall_seconds": 7.25,
+      "stages": [
+        {
+          "seconds": 530,
+          "text": {
+            "cohort": {
+              "fraction": 1.0,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 1.0,
+              "surviving": 132,
+              "weight_sum": 5.4500512045306095
+            },
+            "count": 132,
+            "mean_weight": 0.041288266700989465,
+            "weight_sum": 5.4500512045306095
+          },
+          "background": {
+            "cohort": {
+              "fraction": 1.0,
+              "initial": 1346,
+              "new_edges": 0,
+              "relative_weight": 1.0,
+              "surviving": 1346,
+              "weight_sum": 24.419216855734934
+            },
+            "count": 1346,
+            "mean_weight": 0.01814206304289371,
+            "weight_sum": 24.419216855734934
+          },
+          "text_nodes": 16,
+          "paired_edges": 16,
+          "remaining_connected_characters": [
+            "。",
+            "叶",
+            "天",
+            "是",
+            "果",
+            "树",
+            "白",
+            "的",
+            "空",
+            "红",
+            "绿",
+            "色",
+            "花",
+            "苹",
+            "蓝",
+            "雪"
+          ],
+          "cue_probe_count": 5,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 0.0
+        },
+        {
+          "seconds": 560,
+          "text": {
+            "cohort": {
+              "fraction": 1.0,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 0.5000000000000001,
+              "surviving": 132,
+              "weight_sum": 2.7250256022653057
+            },
+            "count": 132,
+            "mean_weight": 0.02064413335049474,
+            "weight_sum": 2.7250256022653057
+          },
+          "background": {
+            "cohort": {
+              "fraction": 0.5542347696879644,
+              "initial": 1346,
+              "new_edges": 494,
+              "relative_weight": 0.36887803283343507,
+              "surviving": 746,
+              "weight_sum": 9.007712677076562
+            },
+            "count": 1240,
+            "mean_weight": 0.01775279527772936,
+            "weight_sum": 22.013466144384406
+          },
+          "text_nodes": 16,
+          "paired_edges": 16,
+          "remaining_connected_characters": [
+            "。",
+            "叶",
+            "天",
+            "是",
+            "果",
+            "树",
+            "白",
+            "的",
+            "空",
+            "红",
+            "绿",
+            "色",
+            "花",
+            "苹",
+            "蓝",
+            "雪"
+          ],
+          "cue_probe_count": 5,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 0.0
+        },
+        {
+          "seconds": 650,
+          "text": {
+            "cohort": {
+              "fraction": 0.0,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 0.0,
+              "surviving": 0,
+              "weight_sum": 0
+            },
+            "count": 0,
+            "mean_weight": null,
+            "weight_sum": 0
+          },
+          "background": {
+            "cohort": {
+              "fraction": 0.014858841010401188,
+              "initial": 1346,
+              "new_edges": 1266,
+              "relative_weight": 0.02398205396466676,
+              "surviving": 20,
+              "weight_sum": 0.5856229764091353
+            },
+            "count": 1286,
+            "mean_weight": 0.01684661039658122,
+            "weight_sum": 21.66474097000345
+          },
+          "text_nodes": 0,
+          "paired_edges": 0,
+          "remaining_connected_characters": [],
+          "cue_probe_count": 5,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 0.0
+        },
+        {
+          "seconds": 830,
+          "text": {
+            "cohort": {
+              "fraction": 0.0,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 0.0,
+              "surviving": 0,
+              "weight_sum": 0
+            },
+            "count": 0,
+            "mean_weight": null,
+            "weight_sum": 0
+          },
+          "background": {
+            "cohort": {
+              "fraction": 0.014858841010401188,
+              "initial": 1346,
+              "new_edges": 1292,
+              "relative_weight": 0.023416396222904326,
+              "surviving": 20,
+              "weight_sum": 0.5718100573469131
+            },
+            "count": 1312,
+            "mean_weight": 0.017143206212763953,
+            "weight_sum": 22.491886551146305
+          },
+          "text_nodes": 0,
+          "paired_edges": 0,
+          "remaining_connected_characters": [],
+          "cue_probe_count": 5,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 0.0
+        },
+        {
+          "seconds": 834,
+          "text": {
+            "cohort": {
+              "fraction": 0.0,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 0.0,
+              "surviving": 0,
+              "weight_sum": 0
+            },
+            "count": 0,
+            "mean_weight": null,
+            "weight_sum": 0
+          },
+          "background": {
+            "cohort": {
+              "fraction": 0.014858841010401188,
+              "initial": 1346,
+              "new_edges": 1306,
+              "relative_weight": 0.02340324343553988,
+              "surviving": 20,
+              "weight_sum": 0.5714888765800034
+            },
+            "count": 1326,
+            "mean_weight": 0.01650291276506008,
+            "weight_sum": 21.882862326469667
+          },
+          "text_nodes": 0,
+          "paired_edges": 0,
+          "remaining_connected_characters": [],
+          "cue_probe_count": 0,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 0
+        },
+        {
+          "seconds": 864,
+          "text": {
+            "cohort": {
+              "fraction": 0.0,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 0.0,
+              "surviving": 0,
+              "weight_sum": 0
+            },
+            "count": 0,
+            "mean_weight": null,
+            "weight_sum": 0
+          },
+          "background": {
+            "cohort": {
+              "fraction": 0.01337295690936107,
+              "initial": 1346,
+              "new_edges": 556,
+              "relative_weight": 0.01111476254445968,
+              "surviving": 18,
+              "weight_sum": 0.27141379687316114
+            },
+            "count": 574,
+            "mean_weight": 0.011118304033350228,
+            "weight_sum": 6.38190651514303
+          },
+          "text_nodes": 0,
+          "paired_edges": 0,
+          "remaining_connected_characters": [],
+          "cue_probe_count": 0,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 0
+        },
+        {
+          "seconds": 954,
+          "text": {
+            "cohort": {
+              "fraction": 0.0,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 0.0,
+              "surviving": 0,
+              "weight_sum": 0
+            },
+            "count": 0,
+            "mean_weight": null,
+            "weight_sum": 0
+          },
+          "background": {
+            "cohort": {
+              "fraction": 0.0,
+              "initial": 1346,
+              "new_edges": 0,
+              "relative_weight": 0.0,
+              "surviving": 0,
+              "weight_sum": 0
+            },
+            "count": 0,
+            "mean_weight": null,
+            "weight_sum": 0
+          },
+          "text_nodes": 0,
+          "paired_edges": 0,
+          "remaining_connected_characters": [],
+          "cue_probe_count": 0,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 0
+        },
+        {
+          "seconds": 1134,
+          "text": {
+            "cohort": {
+              "fraction": 0.0,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 0.0,
+              "surviving": 0,
+              "weight_sum": 0
+            },
+            "count": 0,
+            "mean_weight": null,
+            "weight_sum": 0
+          },
+          "background": {
+            "cohort": {
+              "fraction": 0.0,
+              "initial": 1346,
+              "new_edges": 0,
+              "relative_weight": 0.0,
+              "surviving": 0,
+              "weight_sum": 0
+            },
+            "count": 0,
+            "mean_weight": null,
+            "weight_sum": 0
+          },
+          "text_nodes": 0,
+          "paired_edges": 0,
+          "remaining_connected_characters": [],
+          "cue_probe_count": 5,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 0.0
+        },
+        {
+          "seconds": 2034,
+          "text": {
+            "cohort": {
+              "fraction": 0.0,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 0.0,
+              "surviving": 0,
+              "weight_sum": 0
+            },
+            "count": 0,
+            "mean_weight": null,
+            "weight_sum": 0
+          },
+          "background": {
+            "cohort": {
+              "fraction": 0.0,
+              "initial": 1346,
+              "new_edges": 0,
+              "relative_weight": 0.0,
+              "surviving": 0,
+              "weight_sum": 0
+            },
+            "count": 0,
+            "mean_weight": null,
+            "weight_sum": 0
+          },
+          "text_nodes": 0,
+          "paired_edges": 0,
+          "remaining_connected_characters": [],
+          "cue_probe_count": 5,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 0.0
+        }
+      ]
+    },
+    {
+      "case": "scheme2-single",
+      "timing_seconds": {
+        "capture_hash": 0.90258749993518,
+        "core": 2.583666995749809,
+        "gzip_write": 1.7149725005729124,
+        "observation": 1.103271002881229,
+        "restore": 0.3260405004257336
+      },
+      "wall_seconds": 7.25,
+      "stages": [
+        {
+          "seconds": 530,
+          "text": {
+            "cohort": {
+              "fraction": 1.0,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 1.0,
+              "surviving": 132,
+              "weight_sum": 5.4435474641767065
+            },
+            "count": 132,
+            "mean_weight": 0.041238995940732624,
+            "weight_sum": 5.4435474641767065
+          },
+          "background": {
+            "cohort": {
+              "fraction": 1.0,
+              "initial": 1352,
+              "new_edges": 0,
+              "relative_weight": 1.0,
+              "surviving": 1352,
+              "weight_sum": 32.86092776554167
+            },
+            "count": 1352,
+            "mean_weight": 0.02430541994492727,
+            "weight_sum": 32.86092776554167
+          },
+          "text_nodes": 16,
+          "paired_edges": 16,
+          "remaining_connected_characters": [
+            "。",
+            "叶",
+            "天",
+            "是",
+            "果",
+            "树",
+            "白",
+            "的",
+            "空",
+            "红",
+            "绿",
+            "色",
+            "花",
+            "苹",
+            "蓝",
+            "雪"
+          ],
+          "cue_probe_count": 5,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 0.0
+        },
+        {
+          "seconds": 560,
+          "text": {
+            "cohort": {
+              "fraction": 1.0,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 0.5052124702107649,
+              "surviving": 132,
+              "weight_sum": 2.750148061086259
+            },
+            "count": 132,
+            "mean_weight": 0.020834455008229235,
+            "weight_sum": 2.750148061086259
+          },
+          "background": {
+            "cohort": {
+              "fraction": 0.5872781065088757,
+              "initial": 1352,
+              "new_edges": 478,
+              "relative_weight": 0.5197262707165821,
+              "surviving": 794,
+              "weight_sum": 17.078687439871956
+            },
+            "count": 1272,
+            "mean_weight": 0.024056738418408025,
+            "weight_sum": 30.600171268215007
+          },
+          "text_nodes": 16,
+          "paired_edges": 16,
+          "remaining_connected_characters": [
+            "。",
+            "叶",
+            "天",
+            "是",
+            "果",
+            "树",
+            "白",
+            "的",
+            "空",
+            "红",
+            "绿",
+            "色",
+            "花",
+            "苹",
+            "蓝",
+            "雪"
+          ],
+          "cue_probe_count": 5,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 0.0
+        },
+        {
+          "seconds": 650,
+          "text": {
+            "cohort": {
+              "fraction": 0.0,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 0.0,
+              "surviving": 0,
+              "weight_sum": 0
+            },
+            "count": 0,
+            "mean_weight": null,
+            "weight_sum": 0
+          },
+          "background": {
+            "cohort": {
+              "fraction": 0.026627218934911243,
+              "initial": 1352,
+              "new_edges": 1258,
+              "relative_weight": 0.24964496075478695,
+              "surviving": 36,
+              "weight_sum": 8.203565022394539
+            },
+            "count": 1294,
+            "mean_weight": 0.02345257330774487,
+            "weight_sum": 30.34762986022186
+          },
+          "text_nodes": 0,
+          "paired_edges": 0,
+          "remaining_connected_characters": [],
+          "cue_probe_count": 5,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 0.0
+        },
+        {
+          "seconds": 830,
+          "text": {
+            "cohort": {
+              "fraction": 0.0,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 0.0,
+              "surviving": 0,
+              "weight_sum": 0
+            },
+            "count": 0,
+            "mean_weight": null,
+            "weight_sum": 0
+          },
+          "background": {
+            "cohort": {
+              "fraction": 0.023668639053254437,
+              "initial": 1352,
+              "new_edges": 1282,
+              "relative_weight": 0.2989242967398412,
+              "surviving": 32,
+              "weight_sum": 9.822929722533265
+            },
+            "count": 1314,
+            "mean_weight": 0.025533433153729006,
+            "weight_sum": 33.55093116399991
+          },
+          "text_nodes": 0,
+          "paired_edges": 0,
+          "remaining_connected_characters": [],
+          "cue_probe_count": 5,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 0.0
+        },
+        {
+          "seconds": 834,
+          "text": {
+            "cohort": {
+              "fraction": 0.0,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 0.0,
+              "surviving": 0,
+              "weight_sum": 0
+            },
+            "count": 0,
+            "mean_weight": null,
+            "weight_sum": 0
+          },
+          "background": {
+            "cohort": {
+              "fraction": 0.023668639053254437,
+              "initial": 1352,
+              "new_edges": 1286,
+              "relative_weight": 0.3000099894029098,
+              "surviving": 32,
+              "weight_sum": 9.85860659070994
+            },
+            "count": 1318,
+            "mean_weight": 0.02462690895634384,
+            "weight_sum": 32.45826600446118
+          },
+          "text_nodes": 0,
+          "paired_edges": 0,
+          "remaining_connected_characters": [],
+          "cue_probe_count": 0,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 0
+        },
+        {
+          "seconds": 864,
+          "text": {
+            "cohort": {
+              "fraction": 0.0,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 0.0,
+              "surviving": 0,
+              "weight_sum": 0
+            },
+            "count": 0,
+            "mean_weight": null,
+            "weight_sum": 0
+          },
+          "background": {
+            "cohort": {
+              "fraction": 0.023668639053254437,
+              "initial": 1352,
+              "new_edges": 608,
+              "relative_weight": 0.29379754370522265,
+              "surviving": 32,
+              "weight_sum": 9.654459861390892
+            },
+            "count": 640,
+            "mean_weight": 0.026352803155813675,
+            "weight_sum": 16.865794019720752
+          },
+          "text_nodes": 0,
+          "paired_edges": 0,
+          "remaining_connected_characters": [],
+          "cue_probe_count": 0,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 0
+        },
+        {
+          "seconds": 954,
+          "text": {
+            "cohort": {
+              "fraction": 0.0,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 0.0,
+              "surviving": 0,
+              "weight_sum": 0
+            },
+            "count": 0,
+            "mean_weight": null,
+            "weight_sum": 0
+          },
+          "background": {
+            "cohort": {
+              "fraction": 0.019230769230769232,
+              "initial": 1352,
+              "new_edges": 0,
+              "relative_weight": 0.22944666258066243,
+              "surviving": 26,
+              "weight_sum": 7.53983020510776
+            },
+            "count": 26,
+            "mean_weight": 0.28999346942722154,
+            "weight_sum": 7.53983020510776
+          },
+          "text_nodes": 0,
+          "paired_edges": 0,
+          "remaining_connected_characters": [],
+          "cue_probe_count": 0,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 0
+        },
+        {
+          "seconds": 1134,
+          "text": {
+            "cohort": {
+              "fraction": 0.0,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 0.0,
+              "surviving": 0,
+              "weight_sum": 0
+            },
+            "count": 0,
+            "mean_weight": null,
+            "weight_sum": 0
+          },
+          "background": {
+            "cohort": {
+              "fraction": 0.014792899408284023,
+              "initial": 1352,
+              "new_edges": 0,
+              "relative_weight": 0.06073696800115209,
+              "surviving": 20,
+              "weight_sum": 1.9958731181838745
+            },
+            "count": 20,
+            "mean_weight": 0.09979365590919373,
+            "weight_sum": 1.9958731181838745
+          },
+          "text_nodes": 0,
+          "paired_edges": 0,
+          "remaining_connected_characters": [],
+          "cue_probe_count": 5,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 0.0
+        },
+        {
+          "seconds": 2034,
+          "text": {
+            "cohort": {
+              "fraction": 0.0,
+              "initial": 132,
+              "new_edges": 0,
+              "relative_weight": 0.0,
+              "surviving": 0,
+              "weight_sum": 0
+            },
+            "count": 0,
+            "mean_weight": null,
+            "weight_sum": 0
+          },
+          "background": {
+            "cohort": {
+              "fraction": 0.0,
+              "initial": 1352,
+              "new_edges": 0,
+              "relative_weight": 0.0,
+              "surviving": 0,
+              "weight_sum": 0
+            },
+            "count": 0,
+            "mean_weight": null,
+            "weight_sum": 0
+          },
+          "text_nodes": 0,
+          "paired_edges": 0,
+          "remaining_connected_characters": [],
+          "cue_probe_count": 5,
+          "resolved_cues": 0,
+          "maximum_abs_full_window_delta": 0.0
+        }
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "case": "scheme1-repeat",
+      "samples": 422,
+      "sampled_text_H_max_s": 30.0,
+      "final_hash": "df2bb707aba6d8a2a2c9b6d7a8b7a17e1bd1c376165b62b91d3225af291cc854",
+      "exact_original_state": true,
+      "wall_seconds": 59.255743400077336
+    },
+    {
+      "case": "scheme2-repeat",
+      "samples": 422,
+      "sampled_text_H_max_s": 30.0,
+      "final_hash": "9cf4b32053c3b1fcc14961ad1cf88fae6b41da683cad068c848ab2138ade0256",
+      "exact_original_state": true,
+      "wall_seconds": 56.66254049993586
+    }
+  ],
+  "wall_seconds": 37.375
+}

@@ -1,0 +1,119 @@
+{
+  "frozen_hashes": {
+    "implementation.json": "55200459d8271b8b93b4270668ce99a7df53bfec54933d9211295fd7a92007e0",
+    "inputs.json": "b3830d63232dd7919e64bb9e88d13add43b752c461b620f2ce6ae3d544ce32aa",
+    "protocol.md": "0210d4f4f482c411b5b73294f900e75b6ae43823220da5ad3896fe8a11145019",
+    "run.py": "33bcd7ef4fe27a6dfa4501aaf39bb4e62f374f08b55afe1daacb9eea00225744"
+  },
+  "note_hash": "7fa927e100950a284417970cc9ee7d2cdba118033818f17cbe1c4bec5a0c2583",
+  "notebook_id": "b299ba08-a984-4a05-8267-bd893ceb296e",
+  "previous_projects": {
+    "194a2f1f-4912-435b-b94e-d8ac64fe4788": {
+      "counts": {
+        "documents": 4,
+        "notes": 0,
+        "runs": 10
+      },
+      "hash": "dbb0f1ad85156accf257bc5ccbd76e014c876d1d52b14d7a0fd09330efcfc7f0"
+    },
+    "a9bd83bb-3d57-4eab-859d-68312f6b2b17": {
+      "counts": {
+        "documents": 4,
+        "notes": 0,
+        "runs": 10
+      },
+      "hash": "eafcabd238d43fe3105767d3f63dff2d4ce07bebf247b73cca7d2ba42fa9d712"
+    }
+  },
+  "project_id": "62fd8734-a42a-4950-84d3-496c3bded189",
+  "protocol_note_id": "5458b34a-4fce-4204-a872-25725df6073d",
+  "quota": {
+    "max_at": 78,
+    "stop_new_at": 77,
+    "used_percent_start": 73
+  },
+  "resources_before": {
+    "available": 11050192896,
+    "database_bytes": 4208006835,
+    "disk_free": {
+      "D": 39140913152,
+      "E": 49392111616
+    },
+    "local_bytes": 1906126,
+    "rss": 63369216
+  },
+  "publication": {
+    "archive": {
+      "id": "b9de0577-6f98-4ff7-bfa9-2a53980833da",
+      "operation_id": "7c614171-8543-4cb1-b1cc-aa125615ce92",
+      "job_id": "f41b2fc1-8afc-4446-b229-039f69005993",
+      "done": true
+    },
+    "artifact:evidence.zip": {
+      "id": "2e2984fb-5f40-4168-9aae-2fda07d67e5f",
+      "operation_id": "68b89347-71b7-48ba-8972-7b3fe7b24301",
+      "artifact_id": "c63da90f-03d4-4b19-8137-1ec9ce0a9710",
+      "sha256": "146894a1f7389089b9e7317d5ca2346dc0c55150309c77b7fac020553bb7024b",
+      "bytes": 4781998
+    },
+    "artifact:evidence-index.json": {
+      "id": "9057074a-bf08-4d88-9028-f36bfad156b7",
+      "operation_id": "292b4c83-585f-4365-beb4-e0bb516a0c7a",
+      "artifact_id": "0945d81d-0e61-4954-8bed-97c91f0f92ad",
+      "sha256": "f1b7049de341fa98fc4f614ab83caa4130b4f5439c8d3cbdea764faf8671b819",
+      "bytes": 7572
+    },
+    "picture": {
+      "id": "41f377e2-2836-4b93-bc74-069fb9a4ba9d",
+      "operation_id": "0393b536-c041-4fea-8d80-892a9d174654"
+    },
+    "document:record": {
+      "id": "c02e6827-38e2-4c78-94a8-9ce9bf59b1a3",
+      "operation_id": "ae92876f-b8b0-4786-9486-804470f5058b",
+      "revision": 1,
+      "content_hash": "5eacbcea6f1c833af0d555ffea78f6d3329e2ea9de2ed1fc3deebd987da34d27"
+    },
+    "document:report": {
+      "id": "f6ac92c5-7758-430e-9011-71f2a7863e4a",
+      "operation_id": "9fc8da75-107c-47cd-a89e-96654f8fac64",
+      "revision": 1,
+      "content_hash": "03efc8e8bb4f49445b118b6d00f5b6b182db76bf0f871d7d1ddd1b716bd1ef0a"
+    },
+    "note:results": {
+      "id": "22d6e9d1-7299-4b4a-af7f-ddf92f5384de",
+      "operation_id": "f612f44a-7b13-4cc5-ac84-8923f62b1297",
+      "revision": 1,
+      "content_hash": "6a526b37ee8139fc3dc9bb5952a08a286346868042fdd5d5c1ab7f46da6c9861"
+    },
+    "export:markdown": {
+      "id": "fd4846a1-0e62-4d70-9e6f-42f76eb26c20",
+      "operation_id": "c56247be-ba1d-49bf-a811-3c093f252650",
+      "request_id": "a923e310-6cc7-4c30-b6cf-0577c4fe215f",
+      "job_id": "31d94dd8-f498-4873-83bd-988d03a9aac0",
+      "result": {
+        "artifact_id": "2ac91523-4e7f-4dc9-a696-daa7a53752b7",
+        "bundle_artifact_id": "f56040ce-2cdd-457e-bd17-657fc3a6d7dc",
+        "revision": 1,
+        "document_hash": "03efc8e8bb4f49445b118b6d00f5b6b182db76bf0f871d7d1ddd1b716bd1ef0a",
+        "sha256": "a69a14f80dfd2c0dbb173ee7805b10d636df0a963a2de7ad0efc0bf2e01e6756",
+        "bundle_sha256": "8fbee19444eec6c5dd559fbbc785ca623b5d8994a11d66a977688eb9dfaa2d98",
+        "warnings": []
+      }
+    },
+    "export:html": {
+      "id": "5f6ed39f-53c2-439e-83c9-c29c56b2e9d1",
+      "operation_id": "d376ffa1-7821-4598-972e-739a397667d1",
+      "request_id": "dd869c08-7ad9-49f2-968a-039fb8e2eb4e",
+      "job_id": "88e68136-7cbb-4dcb-b05f-22dfa92635f8",
+      "result": {
+        "artifact_id": "e7d691b7-b582-429c-ab66-d9e7b7889b83",
+        "bundle_artifact_id": "3863e025-1f60-44bd-8bcf-556b615cd49b",
+        "revision": 1,
+        "document_hash": "03efc8e8bb4f49445b118b6d00f5b6b182db76bf0f871d7d1ddd1b716bd1ef0a",
+        "sha256": "123cd65242467f5afabb7e4ec93931dd78ee770674b33ce9002b834669fdf751",
+        "bundle_sha256": "389bf2bf60b9fac69dd22560b60ba35a67178b4468f63cd1f091ed702aa72168",
+        "warnings": []
+      }
+    }
+  }
+}

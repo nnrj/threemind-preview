@@ -1,0 +1,2 @@
+# Preserve frozen experiment bytes and hashes across Windows checkouts.
+* -text whitespace=trailing-space,space-before-tab,cr-at-eol

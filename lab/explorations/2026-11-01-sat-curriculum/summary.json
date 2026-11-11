@@ -1,0 +1,163 @@
+{
+  "schema": "sat-curriculum-analysis/1",
+  "independent_origins": 8,
+  "students": 16,
+  "totals": {
+    "normal": {
+      "solved": 162,
+      "n": 192,
+      "local_correct": 27312,
+      "local_n": 27312,
+      "flips": 7568,
+      "wall_seconds": 55.0272108000936
+    },
+    "shuffled": {
+      "solved": 162,
+      "n": 192,
+      "local_correct": 27312,
+      "local_n": 27312,
+      "flips": 7568,
+      "wall_seconds": 55.09591650031507
+    },
+    "random-local": {
+      "solved": 103,
+      "n": 192,
+      "local_correct": 0,
+      "local_n": 0,
+      "flips": 13239,
+      "wall_seconds": 1.5152672003023326
+    },
+    "walksat": {
+      "solved": 168,
+      "n": 192,
+      "local_correct": 0,
+      "local_n": 0,
+      "flips": 6432,
+      "wall_seconds": 0.782786600291729
+    },
+    "quantized-rule": {
+      "solved": 162,
+      "n": 192,
+      "local_correct": 0,
+      "local_n": 0,
+      "flips": 7568,
+      "wall_seconds": 0.925652599951718
+    }
+  },
+  "paired": {
+    "random-local": {
+      "mean": 0.3072916666666667,
+      "per_origin": [
+        0.375,
+        0.4583333333333333,
+        0.08333333333333333,
+        0.3333333333333333,
+        0.3333333333333333,
+        0.20833333333333334,
+        0.25,
+        0.4166666666666667
+      ],
+      "ci95": [
+        0.22395833333333331,
+        0.38020833333333337
+      ],
+      "ci975": [
+        0.21354166666666666,
+        0.390625
+      ]
+    },
+    "shuffled": {
+      "mean": 0.0,
+      "per_origin": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "ci975": [
+        0.0,
+        0.0
+      ]
+    },
+    "quantized-rule": {
+      "mean": 0.0,
+      "per_origin": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "ci975": [
+        0.0,
+        0.0
+      ]
+    },
+    "walksat": {
+      "mean": -0.031249999999999997,
+      "per_origin": [
+        0.041666666666666664,
+        0.041666666666666664,
+        -0.125,
+        0.08333333333333333,
+        0.0,
+        -0.08333333333333333,
+        -0.125,
+        -0.08333333333333333
+      ],
+      "ci95": [
+        -0.08333333333333333,
+        0.020833333333333332
+      ],
+      "ci975": [
+        -0.08854166666666666,
+        0.031249999999999997
+      ]
+    }
+  },
+  "gates": {
+    "G1": true,
+    "G2": false,
+    "G3": true
+  },
+  "audit": {
+    "witnesses_and_trajectories": 1040,
+    "whole_transitions": 480,
+    "final_temporal_queries": 54624,
+    "lessons": 1792,
+    "complete_input_chains": true,
+    "trajectory_equal_to_quantized_rule": {
+      "normal": 208,
+      "shuffled": 208
+    },
+    "trajectory_equal_denominator": 208,
+    "core_parameters_unchanged": true,
+    "final_readers_frozen": true,
+    "original_error_conditions_resampled": true
+  },
+  "resource": {
+    "minimum_available_bytes": {
+      "commit": 11211972608,
+      "data_disk": 110471495680,
+      "ram": 12947574784,
+      "system_disk": 10581229568
+    },
+    "peak_private_bytes": 1784860672,
+    "wall_seconds": 1201.4935078999843
+  }
+}

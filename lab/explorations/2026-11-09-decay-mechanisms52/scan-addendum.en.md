@@ -1,0 +1,15 @@
+# Equivalent directory accounting and complete-boundary R46a continuation
+
+Operational addendum, 10 November 2026. Courses, formulas, interventions, sample counts, measurements and criteria remain fixed. This change only accelerates external evidence-size accounting.
+
+At 778 completed sequences, receipt-only accounting showed 1,433.79 and 1,450.50 operation seconds for the second and third complete origins, but receipt spans of 2,326.98 and 2,864.22 wall seconds. Repeated `Path.rglob/is_file/stat` walks of the growing evidence tree imposed substantial overhead. The third-origin rate projected a slight overrun of the original six-hour allowance.
+
+Old accounting and an `os.scandir` implementation returned exactly equal logical byte counts on three completed, immutable origin directories and the frozen implementation. Each 1,680-file origin scan fell from about 1.24–1.43 seconds to 0.118–0.120 seconds; the frozen implementation scan fell from 0.198 to 0.00388 seconds. Hidden and zero-length files and every hard-link entry remain counted. Unreadable entries, unsupported types and reparse points raise errors rather than being ignored. The evidence allowance remains 3 GiB.
+
+Five directory-accounting engineering checks passed. In the first attempt, three failed during sandbox temporary-directory setup because of Windows permissions, while two executed successfully. All five passed with scoped access to a new engineering directory. Synthetic JSON checks additionally verify complete chains, including a taught but untested next case: its current teaching state is restored directly for testing, without teaching again from birth. These engineering checks do not load or advance formal subjects.
+
+After verification, the current host is asked to pause after saving its ongoing operation. The precise STOP, host identity, current pointer, resource record and complete chain are separately preserved. Only after locked verification, registration and full note readback may that exact STOP be retired. The single-use entry point is `assay_scan_resume.py run`. Scientific sources and schedules remain frozen and the prior exact acceleration remains in use. Only the new process's directory-budget function is temporarily replaced and restored on exit. Old entry points are not rerun.
+
+Commit/RAM/C/E reserves remain 5/4/5/25 GiB with the same one-second guard. Cumulative scientific-host time remains six hours; private memory and originals retain 3-GiB caps. Budgets are neither reset nor increased. Host times are accumulated, and prior stages, pauses and engineering time remain separately documented. Completed sequences and any completed teaching phase of the next sequence are not replayed. Receipts establish the actual pause, host and first new boundary.
+
+Operation-receipt `wall_seconds` includes simulation, state capture and original writing, but excludes preceding directory-budget checks and outer control overhead. The final report distinguishes these from total host wall time and identifies the accounting-change boundary. This optimization adds no internal time and changes no stimuli or scientific outcomes.

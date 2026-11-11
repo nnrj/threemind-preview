@@ -1,0 +1,7 @@
+# Attributing the environmental preference: follow-up registration
+
+The second wiring block initially shows about 94% target occupancy, already present in generation-zero newborn evaluations. Preserve the observation, but distinguish synaptic learning from fixed motor projections indexed by node identities, which depend on first sensory encounter order.
+
+After selection, use both opposite-goal final parents from seed 9293202. At the same four held-out starts crossed with two layouts, add two independent newborn controls: (1) jointly set `propagation_rate=0` and `inhibition_diffusion_rate=0`, removing inter-node excitation and inhibition while retaining direct sensory contact, self-inhibition, node identities and motor wiring; (2) disable only `edge_consolidation_enabled` during evaluation, retaining inherited structure, transmission, forgetting, node plasticity and fast traces. Do not use global `plasticity=false`, which also gates some forgetting. These are explicit mechanism controls, not default changes.
+
+Thirty-two additional 60 s instances. Compare against the saved matched ordinary newborn tests. A preference surviving zero communication can be produced by direct sensory activity, node-local history and motor wiring, without requiring associative network communication. Dependence on communication but not evaluation consolidation implicates inherited structure. Preserve the behavior and separate its measured mechanism from stronger interpretations.

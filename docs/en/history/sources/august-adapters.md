@@ -1,0 +1,289 @@
+# August primary records: temporal observation and physical feedback
+
+> Public edition, 2026-11-11: private conversation locators and manuscript/submission discussions are omitted where present. Scientific records retain their original dates; the complete source remains unchanged.
+
+
+[简体中文](../../../zh/history/sources/august-adapters.md) · [English](august-adapters.md)
+
+
+> **Public-edition edit (2026-11-11; source lines 5-5):** Private conversation IDs and locators are omitted; scientific quotations and records are retained. The complete source remains unchanged.
+
+
+
+Source: the Codex conversation ThreeMind项目, ID `[private locator omitted]`. All 314 retrievable turns were read through a read-only interface on 2026-10-01. Times below are **turn start times in UTC+8**, not precise timestamps for every message within a turn. Only selected project-history messages are published, not tool logs, internal reasoning or the full private cache. Original wording and typos are retained. Attachments were not retrieved.
+
+Hashes cover the displayed original text before Markdown quotation prefixes. Both language editions retain the same Chinese primary source. English introductions are editorial summaries, not original English utterances.
+
+These are contemporary requests and authorized plans. Plans establish intent, not full implementation on their own; code must be checked against the surviving root and later commits. Historical telemetry defaults do not imply that every later experiment enabled them. The records concern temporal strength/duration readout, host versus process telemetry, disabling global clamping, and delayed feedback from actual instance computation through the sensory bus.
+
+### 2026-08-01T21:56:57+08:00 · user
+
+
+> **Public-edition edit (2026-11-11; source lines 13-13):** Private conversation IDs and locators are omitted; scientific quotations and records are retained. The complete source remains unchanged.
+
+
+
+`turn: [private locator omitted]` · `SHA-256: 12cb5efac8c238f7e4e973f01d6360ee282bb10387d8d5678abe29b7a3c2480f`
+
+原文 / Verbatim Chinese source
+
+> 意识详情里的动力学记录似乎不显示（还是根本没有记录)?
+> 此外，我想要给解读器增加一个机制。当刺激输入后，有时候重复结构会重复激活好几遍。我怀疑，这种在连续多个trick中重复出现的持续结构，节点的激活强度和持续时间（持续的trick），统计之后是一种收敛，节点以强度和激活持续时间，涌现除了刺激对应的响应。比如我输入：甲是谁。网络可能通过某个重复结构中某些节点的激活强度、持续时间（在意识舞台上的停留）自然产生了：松子。这个输出。只不过之前解读器没能解读出来。如果你觉得有必要，可以不修改当前的解读器，另外新增一个能按照上述规则解读的解读器。并且是否考虑激活强度作为可选项（默认勾选）。
+> 本次仅核查、评估、给出建议和方案。
+
+
+### 2026-08-13T22:01:21+08:00 · user
+
+
+> **Public-edition edit (2026-11-11; source lines 24-24):** Private conversation IDs and locators are omitted; scientific quotations and records are retained. The complete source remains unchanged.
+
+
+
+`turn: [private locator omitted]` · `SHA-256: e27219943d1d3c1713002afabc0bfe95401a87a5f19fdbf310d64424de851843`
+
+原文 / Verbatim Chinese source
+
+> PLEASE IMPLEMENT THIS PLAN:
+> # ThreeMind 物理遥测感官扩展计划
+>
+> ## 总体设计
+>
+> 将现有 `host-load-field` 升级为 `host-telemetry-field`，并新增独立的 `process-telemetry-field`：
+>
+> - 宿主物理遥测表示意识所处的计算机环境，默认开启。
+> - ThreeMind 进程遥测表示“躯体自身状态”，默认关闭，避免未经选择形成自反馈。
+> - 两者都只通过感官适配器 → InputBus 输入匿名刺激，不修改 Core、节点规则、连接规则、能量储备或注意机制。
+> - 原随机 `ambient-field` 保留，但改为默认关闭，由真实物理遥测取代其默认背景刺激地位。
+> - 模型包显式声明 `enabled: false` 时不挂载；未声明时宿主遥测默认开启。保存模型包时写入最终解析后的明确配置。
+>
+> ## 物理信号
+>
+> 宿主遥测首期采集：
+>
+> - CPU：总体利用率、频率。
+> - 内存：物理内存压力、提交/交换空间压力、可用时的换页速率。
+> - 磁盘：读写吞吐量、读写 IOPS。
+> - 网络：收发吞吐量、收发包速率、错误和丢包率；只取汇总计数，不读取地址、连接或内容。
+> - 供电：电池电量、交流供电、充电状态。
+> - 所有不可用指标均报告为“不可用”，不能伪造为零。
+>
+> 进程遥测首期采集：
+>
+> - ThreeMind 服务进程 CPU 占用。
+> - RSS、私有内存和缺页变化。
+> - 进程读写吞吐量。
+> - 线程数、句柄数。
+> - 宿主调度器测得的 tick 执行时间和延迟变化。
+> - 明确标记这些信号反映整个 ThreeMind 进程；多意识运行时不能冒充单个意识的独立资源消耗。
+>
+> 温度、风扇、GPU 负载/显存/功耗、磁盘 SMART 与真实电功率先定义插件接口，检测到可靠采集后才能启用。`psutil` 在 Windows 上不能普遍提供温度和风扇数据，因此不得用 CPU 负载估算并冒充实测值。[psutil 官方文档](https://psutil.readthedocs.io/stable/)
+>
+> ## 采样与匿名编码
+>
+> - 使用共享的 `HostTelemetryCollector` 按真实单调时间采样，默认间隔 `1000 ms`，不跟随意识 tick 速度变化。
+> - 宿主只采样一次；多个意识分别用自己的感官种子映射成不同匿名通道，避免重复执行系统探针。
+> - 每个物理量具有：
+>   - 水平总开关；
+>   - 变化总开关；
+>   - 独立的水平开关；
+>   - 独立的变化开关；
+>   - 增益和高级归一化设置。
+> - 默认水平与变化均开启。总开关关闭时保留子项配置，重新开启后恢复。
+> - 连续量编码为：
+>   - `metric.level`：平滑后的当前水平；
+>   - `metric.rise`：上升幅度；
+>   - `metric.fall`：下降幅度。
+> - 不使用负通道表示下降，因为现有 Core 会将负输入钳为零。
+> - 第一次采样只建立变化基线，不生成虚假的上升或下降刺激。
+> - 累计计数器不直接进入网络：
+>   - 磁盘、网络累计字节先换算为单位时间速率；
+>   - “水平”表示当前速率；
+>   - “变化”表示速率相对上次采样的升降。
+> - CPU、内存、电池按物理比例归一化；CPU 频率按可用最大频率归一化；网络优先按网卡链路速度归一化；磁盘等无可靠容量上限的指标使用显式、可配置并写入审计记录的参考尺度。
+> - 暂停的意识不积压物理体验；恢复时重新建立变化基线并接收当前水平，避免把暂停期间累积成一次巨大变化。
+>
+> ## 配置、模型包与 API
+>
+> 适配器配置采用结构化形式：
+>
+> ```json
+> {
+>   "sample_interval_ms": 1000,
+>   "smoothing": 0.8,
+>   "levels_enabled": true,
+>   "changes_enabled": true,
+>   "signals": {
+>     "cpu_load": {"level": true, "change": true, "gain": 1.0},
+>     "memory_pressure": {"level": true, "change": true, "gain": 1.0},
+>     "disk_read_rate": {"level": true, "change": true, "gain": 1.0}
+>   }
+> }
+> ```
+>
+> - 注册表增加递归配置校验和分组 UI 元数据。
+> - `GET /api/adapters` 增加运行状态：采集后端、可用指标、不可用原因、最后采样时间和最近错误。
+> - 增加意识实例级适配器绑定查询/修改接口；修改后写回当前模型包配置。
+> - 随机环境、宿主遥测、进程遥测分别开关；另保留“全部背景输入”总开关。
+> - `ambient_enabled` 拆分为清晰的背景总开关与适配器开关，避免关闭随机噪声时误关物理遥测。
+> - `psutil` 作为可选的 `telemetry` 依赖：
+>   - 未安装时继续使用现有 Windows/Linux 原生 CPU、内存采集；
+>   - 安装后开放磁盘、网络、电池和进程遥测；
+>   - UI 明确显示“完整／部分可用”，不让缺少依赖导致服务启动失败。
+> - `psutil` 只读取操作系统计数器，不包含任何智能模型。[系统磁盘、网络和电池接口说明](https://psutil.readthedocs.io/stable/index.html)
+>
+> ## 审计与 UI
+>
+> - 物理采样由适配器侧记录，不写入节点或连接。
+> - 每条记录包含：
+>   - UTC 时间和单调时间；
+>   - 采样后端；
+>   - 原始数值及单位；
+>   - 归一化水平；
+>   - 上升/下降值；
+>   - 使用的尺度、增益和平滑参数；
+>   - 对应意识、匿名输入帧和 `envelope_id`。
+> - 全局原始采样只保存一份；每个意识保存投递关联，避免多意识重复存储。
+> - 增加物理遥测历史查询及 CSV、JSONL 导出接口。
+> - 适配器管理页面采用分组表格展示“可用性／水平／变化／增益”，高级归一化参数默认折叠。
+> - 宿主遥测默认开启，随机背景默认关闭；创建意识界面明确展示这两个默认条件。
+> - Windows 管理型性能计数器不适合超过每秒一次的高频采样，因此默认保持一秒采样，用户可以显式调整。[Microsoft 性能计数器说明](https://learn.microsoft.com/en-us/windows/win32/perfctrs/about-performance-counters)
+>
+> ## 验证
+>
+> - 使用伪造采样器验证水平、上升、下降、首次基线、计数器重置和所有开关组合。
+> - 验证所有送入 Core 的通道均为匿名、有限、非负值。
+> - 验证缺少 `psutil`、无电池、无温度传感器、磁盘计数不可用时正常降级。
+> - 验证真实时间采样不随模拟速度改变。
+> - 验证多个意识共享同一原始采样，但匿名通道映射不同。
+> - 验证模型包显式关闭优先；未声明时宿主遥测开启。
+> - 验证随机背景默认关闭，宿主遥测不再受随机背景开关连带影响。
+> - 验证暂停/恢复不制造伪变化或积压洪峰。
+> - 验证原始遥测、归一化结果和投递关系在重启后仍可查询和导出。
+> - 运行 Core 动力学回归测试，确认本次改动没有改变遗忘、巩固、联想、抑制或传播规则。
+>
+> ## 假设
+>
+> - 实施目标是当前实际项目 `E:\WORKSPACE\AgentWork\threemind`。
+> - 不迁移未发布的旧模型包；新格式直接采用新的适配器 ID 和绑定语义。
+> - 实际物理遥测是外界刺激，不是 Core 的能量来源，也不自动启用能量模拟。
+> - 麦克风、摄像头、键鼠与网络内容属于独立感官和隐私边界，不混入宿主遥测适配器。
+
+
+### 2026-08-14T09:54:02+08:00 · user
+
+
+> **Public-edition edit (2026-11-11; source lines 156-156):** Private conversation IDs and locators are omitted; scientific quotations and records are retained. The complete source remains unchanged.
+
+
+
+`turn: [private locator omitted]` · `SHA-256: 7c298e689aa2e23fa58064fd3d10a733d1dfa1458b5f5052d3d9487aede38832`
+
+原文 / Verbatim Chinese source
+
+> 旧式全局稳态钳制，改为默认关闭。
+> 然后我记得之前说过一个与外部刺激对应的内部自反馈。当前内核以及整个实现，有相应的物理物理基础，可供实现（或者已经有雏形可供完善）为内部自反馈吗。有的话出个实现方案。
+
+
+### 2026-08-16T22:45:33+08:00 · user
+
+
+> **Public-edition edit (2026-11-11; source lines 166-166):** Private conversation IDs and locators are omitted; scientific quotations and records are retained. The complete source remains unchanged.
+
+
+
+`turn: [private locator omitted]` · `SHA-256: 24678a89f73e40360bb5893d23a6f4547fa449696592be8cf8cb2bf4c671884b`
+
+原文 / Verbatim Chinese source
+
+> PLEASE IMPLEMENT THIS PLAN:
+> # ThreeMind 默认稳态调整与实例级物理自反馈
+>
+> ## 总结
+>
+> - 将旧式全局稳态钳制改为默认关闭；只有模型包显式设置 `homeostasis_enabled: true` 才启用。
+> - 新增默认关闭的 `runtime-telemetry-field`，将单个意识实例运行时产生的真实计算代价作为匿名感官反馈。
+> - 不直接把 OutputBus 或节点激活回灌，避免人为构造语义循环。
+> - 保留现有 `process-telemetry-field` 作为整个服务的“共享躯体”遥测；实例级适配器与其并存。
+>
+> 物理闭环为：
+>
+> ```text
+> 外部刺激
+> → InputBus
+> → 意识实例运行
+> → 真实线程 CPU 时间／执行耗时／调度延迟
+> → 实例物理遥测适配器
+> → 匿名 level/rise/fall 通道
+> → 下一采样周期进入 InputBus
+> ```
+>
+> ## 关键改动
+>
+> ### 默认动力学
+>
+> - `RuntimeConfig.homeostasis_enabled`、新建意识默认参数以及 UI 回退值统一改为 `false`。
+> - 已有模型包显式写入 `true` 时继续启用，不覆盖用户选择。
+> - 未声明该参数的模型按关闭解析，并在后续保存时写入明确值。
+> - 保留 `target_total_activation`，仅在钳制显式开启时生效。
+> - 更新中英文说明，明确它是旧式对照机制，而非主线默认规则。
+>
+> ### 实例级物理自反馈
+>
+> 新增 `runtime-telemetry-field`，首期测量：
+>
+> - `thread_cpu_load`：该实例执行意识 epoch 时消耗的真实线程 CPU 时间占采样区间比例；
+> - `epoch_busy_ratio`：该实例执行 epoch 的真实墙钟时间占比；
+> - `epoch_execution_time_ms`：采样区间内 epoch 的平均执行耗时；
+> - `scheduler_latency_ms`：实际调度时间相对预期 tick 时间的延迟。
+>
+> 实现约束：
+>
+> - 测量位于应用层 `_HostObservedRuntime`，不修改节点、连接、传播、遗忘、固化或抑制算法。
+> - 使用真实单调时间采样，默认 `1000 ms`，不跟随模拟速度。
+> - 每个指标沿用遥测的 `level/rise/fall` 匿名编码、平滑、增益和归一化配置。
+> - 至少延迟一个采样周期，不允许同一 epoch 内立即回灌。
+> - 暂停、恢复、关闭适配器和重启时清空变化基线，不积压反馈。
+> - 多意识分别测量和编码；其他意识造成的操作系统竞争只作为真实外部环境影响，不冒充本实例资源。
+> - 输入 `envelope_id`、tick 范围和来源只用于审计关联，绝不参与通道映射或动力学。
+> - 自反馈帧自身造成的后续物理开销可以在下一周期被感知，这是闭环的自然组成部分。
+>
+> ### 配置、API 与审计
+>
+> - 适配器注册表加入 `runtime-telemetry-field`，宿主设备和模型绑定均默认关闭。
+> - 模型包保存完整解析配置；创建意识高级设置增加“实例物理自反馈”开关和实验性警告。
+> - 适配器管理页面沿用物理遥测分组表格，展示可用性、水平、变化、增益和高级归一化。
+> - 它受“全部背景输入”总开关约束，同时保留独立开关。
+> - 扩展现有接口：
+>   - `GET /api/adapters` 返回实例遥测状态；
+>   - 现有意识适配器绑定接口负责启停和配置；
+>   - 遥测查询、CSV 与 JSONL 导出支持 `adapter_id=runtime-telemetry-field` 和意识 ID。
+> - SQLite 遥测采样增加 `scope` 与所属意识字段，通过增量迁移保留现有宿主／进程遥测记录。
+> - 审计记录包含原始物理值、采样时间、归一化参数、匿名帧、投递信封，以及同期处理的外部输入信封关联。
+> - `interoceptive-field` 继续作为默认关闭的模拟信号，不伪装成真实自反馈。
+>
+> ## 测试与验收
+>
+> - 验证全局稳态钳制默认关闭，显式开启时仍按目标总激活量缩放。
+> - 验证关闭实例遥测时，Core 动力学与当前基线逐项一致。
+> - 使用伪造时钟验证 CPU 时间、忙碌比例、执行耗时和调度延迟计算。
+> - 验证首次采样、暂停恢复和计数器重置不产生伪 rise/fall。
+> - 验证两个意识获得各自物理采样和不同匿名通道，不共享实例数据。
+> - 验证信封 ID 只进入审计，不进入节点、边、感官通道或模型计算。
+> - 验证反馈至少延迟一个采样周期，不会形成同步递归。
+> - 验证背景总开关、宿主设备开关和模型绑定任一关闭时均不投递。
+> - 验证遥测记录重启后可查询并导出 CSV/JSONL。
+> - 运行全部 Core 动力学、遥测、模型包和前端构建回归测试。
+>
+> ## 默认与边界
+>
+> - 实施目标为 `E:\WORKSPACE\AgentWork\threemind`。
+> - 旧式全局稳态钳制：默认关闭。
+> - 实例物理自反馈：默认关闭，必须由用户主动启用。
+> - 宿主遥测继续默认开启；进程遥测继续默认关闭。
+> - 不实现 OutputBus 直接回灌、语义自言自语或模拟能量恢复。
+> - 当前物理基础是实际 CPU 时间和时序代价；它证明反馈信号具有客观来源，但不预先赋予其“自我感受”或“意识”含义。
+
+
+---
+
+Compiled on 2026-10-01, covering the record available on that date. Original evidence is retained separately from later interpretation.

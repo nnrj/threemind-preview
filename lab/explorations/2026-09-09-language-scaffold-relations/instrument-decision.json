@@ -1,0 +1,79 @@
+{
+  "calibration_passed": false,
+  "qualified_dose": null,
+  "diagnostic_dose": 1,
+  "confirmation_cancelled": true,
+  "rows": [
+    {
+      "dose": 0.03125,
+      "eligible": 0,
+      "total": 32,
+      "delivered": 0,
+      "peak_saturation": 0.0
+    },
+    {
+      "dose": 0.0625,
+      "eligible": 1,
+      "total": 32,
+      "delivered": 16,
+      "peak_saturation": 0.9834254143646409
+    },
+    {
+      "dose": 0.125,
+      "eligible": 2,
+      "total": 32,
+      "delivered": 32,
+      "peak_saturation": 0.9834254143646409
+    },
+    {
+      "dose": 0.25,
+      "eligible": 0,
+      "total": 32,
+      "delivered": 32,
+      "peak_saturation": 0.9834254143646409
+    },
+    {
+      "dose": 0.5,
+      "eligible": 0,
+      "total": 32,
+      "delivered": 32,
+      "peak_saturation": 0.9834254143646409
+    },
+    {
+      "dose": 1.0,
+      "eligible": 0,
+      "total": 32,
+      "delivered": 32,
+      "peak_saturation": 0.9834254143646409
+    },
+    {
+      "dose": 2.0,
+      "eligible": 0,
+      "total": 32,
+      "delivered": 32,
+      "peak_saturation": 0.9834254143646409
+    },
+    {
+      "dose": 4.0,
+      "eligible": 0,
+      "total": 32,
+      "delivered": 32,
+      "peak_saturation": 0.9834254143646409
+    }
+  ],
+  "formal_diagnostic_seeds": [
+    41601,
+    41602,
+    41603,
+    41604
+  ],
+  "materials": "Latin only",
+  "rounds": 8,
+  "arms": [
+    "full",
+    "rule_scrambled",
+    "teaching_scrambled",
+    "crossed_chain",
+    "learning_off"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "scope": "posthoc descriptive comparison from recorded trajectories only; not a random-control experiment",
+  "results": {
+    "s223-motor-test-recent-normal": {
+      "0.25": {
+        "n": 32,
+        "closer_to_target": 23,
+        "closer_to_centre": 30,
+        "target_progress_above_other_mean": 19,
+        "target_largest_progress": 4
+      },
+      "1.0": {
+        "n": 32,
+        "closer_to_target": 17,
+        "closer_to_centre": 24,
+        "target_progress_above_other_mean": 17,
+        "target_largest_progress": 12
+      },
+      "2.0": {
+        "n": 32,
+        "closer_to_target": 17,
+        "closer_to_centre": 20,
+        "target_progress_above_other_mean": 16,
+        "target_largest_progress": 9
+      }
+    },
+    "s223-motor-test-episode-normal": {
+      "0.25": {
+        "n": 32,
+        "closer_to_target": 19,
+        "closer_to_centre": 20,
+        "target_progress_above_other_mean": 17,
+        "target_largest_progress": 8
+      },
+      "1.0": {
+        "n": 32,
+        "closer_to_target": 17,
+        "closer_to_centre": 20,
+        "target_progress_above_other_mean": 14,
+        "target_largest_progress": 7
+      },
+      "2.0": {
+        "n": 32,
+        "closer_to_target": 14,
+        "closer_to_centre": 15,
+        "target_progress_above_other_mean": 12,
+        "target_largest_progress": 6
+      }
+    },
+    "s223-motor-test-episode-validated-normal": {
+      "0.25": {
+        "n": 32,
+        "closer_to_target": 14,
+        "closer_to_centre": 13,
+        "target_progress_above_other_mean": 16,
+        "target_largest_progress": 9
+      },
+      "1.0": {
+        "n": 32,
+        "closer_to_target": 13,
+        "closer_to_centre": 11,
+        "target_progress_above_other_mean": 15,
+        "target_largest_progress": 9
+      },
+      "2.0": {
+        "n": 32,
+        "closer_to_target": 15,
+        "closer_to_centre": 11,
+        "target_progress_above_other_mean": 17,
+        "target_largest_progress": 9
+      }
+    }
+  }
+}

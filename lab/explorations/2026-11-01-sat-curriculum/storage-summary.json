@@ -1,0 +1,155 @@
+{
+  "schema": "sat-storage/1",
+  "method": "Win32 FileStandardInfo allocation with volume/file identity hardlink deduplication",
+  "excludes": "Directory and NTFS metadata overhead; the measurement file itself when saved afterward",
+  "groups": {
+    "originals_and_metadata": {
+      "files": 2191,
+      "logical_bytes": 100445342,
+      "allocated_unique_bytes": 104311408
+    },
+    "archive": {
+      "files": 1,
+      "logical_bytes": 93480050,
+      "allocated_unique_bytes": 93483008
+    },
+    "api_readback": {
+      "files": 1,
+      "logical_bytes": 93480050,
+      "allocated_unique_bytes": 93483008
+    }
+  },
+  "logical_bytes": 287405442,
+  "allocated_unique_bytes": 291277424,
+  "paths_with_multiple_links": 0,
+  "subjects": [
+    {
+      "identity": "sat-v2-o0-normal",
+      "checkpoint_bytes": 21171,
+      "checkpoint_decoded_json_bytes": 87397,
+      "closure_files": 8,
+      "closure_logical_bytes": 618334,
+      "closure_allocated_bytes": 627112
+    },
+    {
+      "identity": "sat-v2-o0-shuffled",
+      "checkpoint_bytes": 21184,
+      "checkpoint_decoded_json_bytes": 87408,
+      "closure_files": 8,
+      "closure_logical_bytes": 631387,
+      "closure_allocated_bytes": 639400
+    },
+    {
+      "identity": "sat-v2-o1-normal",
+      "checkpoint_bytes": 21218,
+      "checkpoint_decoded_json_bytes": 87295,
+      "closure_files": 8,
+      "closure_logical_bytes": 623981,
+      "closure_allocated_bytes": 639400
+    },
+    {
+      "identity": "sat-v2-o1-shuffled",
+      "checkpoint_bytes": 21224,
+      "checkpoint_decoded_json_bytes": 87301,
+      "closure_files": 8,
+      "closure_logical_bytes": 631583,
+      "closure_allocated_bytes": 643496
+    },
+    {
+      "identity": "sat-v2-o2-normal",
+      "checkpoint_bytes": 21234,
+      "checkpoint_decoded_json_bytes": 86932,
+      "closure_files": 8,
+      "closure_logical_bytes": 621971,
+      "closure_allocated_bytes": 639400
+    },
+    {
+      "identity": "sat-v2-o2-shuffled",
+      "checkpoint_bytes": 21219,
+      "checkpoint_decoded_json_bytes": 86939,
+      "closure_files": 8,
+      "closure_logical_bytes": 631903,
+      "closure_allocated_bytes": 643496
+    },
+    {
+      "identity": "sat-v2-o3-normal",
+      "checkpoint_bytes": 21199,
+      "checkpoint_decoded_json_bytes": 87389,
+      "closure_files": 8,
+      "closure_logical_bytes": 619840,
+      "closure_allocated_bytes": 639392
+    },
+    {
+      "identity": "sat-v2-o3-shuffled",
+      "checkpoint_bytes": 21211,
+      "checkpoint_decoded_json_bytes": 87396,
+      "closure_files": 8,
+      "closure_logical_bytes": 631414,
+      "closure_allocated_bytes": 639400
+    },
+    {
+      "identity": "sat-v2-o4-normal",
+      "checkpoint_bytes": 21217,
+      "checkpoint_decoded_json_bytes": 86973,
+      "closure_files": 8,
+      "closure_logical_bytes": 617387,
+      "closure_allocated_bytes": 627112
+    },
+    {
+      "identity": "sat-v2-o4-shuffled",
+      "checkpoint_bytes": 21230,
+      "checkpoint_decoded_json_bytes": 86968,
+      "closure_files": 8,
+      "closure_logical_bytes": 628674,
+      "closure_allocated_bytes": 639400
+    },
+    {
+      "identity": "sat-v2-o5-normal",
+      "checkpoint_bytes": 21229,
+      "checkpoint_decoded_json_bytes": 87169,
+      "closure_files": 8,
+      "closure_logical_bytes": 622161,
+      "closure_allocated_bytes": 635296
+    },
+    {
+      "identity": "sat-v2-o5-shuffled",
+      "checkpoint_bytes": 21226,
+      "checkpoint_decoded_json_bytes": 87174,
+      "closure_files": 8,
+      "closure_logical_bytes": 632422,
+      "closure_allocated_bytes": 639392
+    },
+    {
+      "identity": "sat-v2-o6-normal",
+      "checkpoint_bytes": 21210,
+      "checkpoint_decoded_json_bytes": 87247,
+      "closure_files": 8,
+      "closure_logical_bytes": 619800,
+      "closure_allocated_bytes": 631208
+    },
+    {
+      "identity": "sat-v2-o6-shuffled",
+      "checkpoint_bytes": 21203,
+      "checkpoint_decoded_json_bytes": 87260,
+      "closure_files": 8,
+      "closure_logical_bytes": 629281,
+      "closure_allocated_bytes": 639400
+    },
+    {
+      "identity": "sat-v2-o7-normal",
+      "checkpoint_bytes": 21166,
+      "checkpoint_decoded_json_bytes": 86947,
+      "closure_files": 8,
+      "closure_logical_bytes": 621332,
+      "closure_allocated_bytes": 635304
+    },
+    {
+      "identity": "sat-v2-o7-shuffled",
+      "checkpoint_bytes": 21164,
+      "checkpoint_decoded_json_bytes": 86950,
+      "closure_files": 8,
+      "closure_logical_bytes": 632169,
+      "closure_allocated_bytes": 643496
+    }
+  ]
+}

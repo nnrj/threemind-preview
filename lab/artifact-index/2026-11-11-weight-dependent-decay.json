@@ -1,0 +1,50 @@
+{
+  "schema": "threemind.weight-decay-artifact-locations/1",
+  "studies": [
+    {
+      "study": "R48a",
+      "work": "E:/ThreeMindData/experiments/2026-11-11-weight-dependent-decay/assay-v1",
+      "resource_id": "weight-decay-local-20261111-v1",
+      "project_id": "6a6b439d-bf2e-4da2-840c-5695c224c761",
+      "record_id": "aa70f38d-6464-51f1-9226-15355094e844",
+      "archive_member": "originals-v1.zip",
+      "archive_sha256": "617f7782c1b2847bb43268f5e34b81c9ecb7254cf7ce5ff6ec32d8c9c72ecab1",
+      "archive_bytes": 24292846,
+      "manifest_members": 9417,
+      "analysis_sha256": "906f1ec4ab5c348c6d7a0ef50b7d7d29b55e049fd9970e61eaaea76f0a06eb13",
+      "publication_coverage": "verified",
+      "pending": 0,
+      "reports": [
+        "lab/explorations/2026-11-11-weight-dependent-decay/report.zh.md",
+        "lab/explorations/2026-11-11-weight-dependent-decay/report.en.md"
+      ]
+    },
+    {
+      "study": "R48b",
+      "work": "E:/ThreeMindData/experiments/2026-11-11-weight-dependent-decay/joint-v1",
+      "resource_id": "weight-decay-joint-20261111-v1",
+      "project_id": "6a3eb80d-7d53-45f3-a1e8-37c8b64eabd3",
+      "record_id": "1663e2c1-430f-539f-9e0b-aa6a2af33e91",
+      "archive_member": "originals-v1.zip",
+      "archive_sha256": "bd7119ae068894fc21d1f19b5eecaa57e368a71763049dbb22f77fce767f13c3",
+      "archive_bytes": 220490039,
+      "manifest_members": 6907,
+      "analysis_sha256": "dc717f021696406a20c561548867bd782d6f2e7b608a6cb68a47cb08ac58e987",
+      "publication_coverage": "verified",
+      "pending": 0,
+      "reports": [
+        "lab/explorations/2026-11-11-weight-dependent-decay/joint/report.zh.md",
+        "lab/explorations/2026-11-11-weight-dependent-decay/joint/report.en.md"
+      ]
+    }
+  ],
+  "engineering": {
+    "work": "E:/ThreeMindData/experiments/2026-11-11-weight-dependent-decay/engineering-v1",
+    "verified": true,
+    "archive_bytes": 11377690,
+    "archive_sha256": "0e8a3f6ea6101c7601697a171c96b9cffcb6d2f755f97c78027797e5a34caedc",
+    "members": 468,
+    "manifest_sha256": "33ed6e93f906e50e963980fb27181aa6b0213a6160c4b681b9d56c6232fb5bd7"
+  },
+  "data_boundary": "Original states, trajectories, measurements, binaries and archives remain outside Git; this index contains locators and hashes only."
+}

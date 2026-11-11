@@ -1,0 +1,11 @@
+# E45 addendum: reciprocal influence and lossy expression
+
+2026-10-05, after formal validation. The user emphasized that internal activity and words need not match perfectly; language may be a lossy expression. After bounded calibration, consider the peripherals plus Core as a black box, testing taught, similar and reasoning inputs while preserving internal traces for causal localization. Equal3/24 totals in two seeds were proposed as a possible deeper relation, not accepted as proof of a shared relation.
+
+Keep the original accuracy criteria, which never required100%. Separately report whether another sensory population changes. Existing formal evidence has24/36 nonzero visual-to-name effects in each learned assignment, versus0/36 with learning disabled. This descriptive finding was observed after results, not preregistered as a prediction.
+
+Before new interventions, register up to24 branches: for each seed and normal/reversed history, choose the earliest nonzero visual-to-name effect, ties by cue index; at most six sources. Silence language–vision edges or the same number of approximately weight-matched other edges, each with cue and same-state no-cue. Diagnose the L1 magnitude ratio of the name-sensory response difference versus the original. Retain signed changes and full traces. Removing sensory influence does not by itself establish/removes logical reasoning; an incorrect decoded name does not erase evidence of the influence.
+
+Fifteen300-second no-new-teaching histories are complete. Declared sensory populations are active only in roughly the first1–1.5seconds, with no re-entry candidate after five seconds; the originally conditional replay interventions therefore did not run. The full network remains active with background. This does not negate internal activity established in other tasks, and neither initial traces nor background activity are automatically called dreams.
+
+Recommended next black-box task: teach verifiable short outputs/actions, accept synonymous or multiple valid expressions, and use held-out examples, reversal, frozen/mismatched/bypassed-Core controls to attribute new knowledge. Not started in this batch; a fixed four-class observer does not settle the language-development route.

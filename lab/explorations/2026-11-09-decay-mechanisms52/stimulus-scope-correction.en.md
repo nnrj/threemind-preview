@@ -1,0 +1,11 @@
+# R46a correction: supplied dose and the strong-stimulus mechanism
+
+Recorded at 22:35 on 9 November 2026. Source review during execution identified this design omission before full-batch outcomes were generated. The original protocol, cases, stimuli and scoring rules are preserved; no results are rescored or replaced.
+
+`retention_assay.py` supplies per-channel amplitudes of 0.12, 0.4 or 1.0 through `Stimulus(t, channels)` without setting `Stimulus.intensity`. The latter therefore remains at its default 1.0 in every condition. The current local learning rule in `local.py` computes the dedicated strong-stimulus term as `max(0, intensity - 1)`. Thus, the registered `strong` course tests a higher per-channel dose of 1.0 and **does not engage the dedicated strong-stimulus term**. Reports retain the original condition identifier and label it “higher dose 1.0 (registered as strong).” Its prospective retention scores stand; retention attributable to the dedicated mechanism requires a separate experiment.
+
+Two novelty-related rules also need separate treatment. A node's first contact receives `first_gain`; a new connection has an additional arrival-window novelty rule whose eligibility depends on pre-existing endpoint connections and associative re-entry during that window. Teaching a fresh isolated pair does not automatically engage the latter mechanism. The protocol already states that novelty was not isolated. A subsequent apparatus must verify actual eligibility and awards rather than equating first presentation with successful mechanism engagement.
+
+The follow-up will first verify channel amplitude, overall intensity and actual drive on engineering material. Equal-drive conditions on opposite sides of the intensity threshold will separate the dedicated strong-stimulus term. First-contact and connection-novelty eligibility/awards will be checked separately. A retention comparison can then be frozen and registered, with delivery distinct from the current six-condition assay. This finding changes neither 5.1/5.2 dynamics nor historical originals.
+
+Source basis: `Stimulus` in `src/threemind_core/spec.py`; `_touch`, `_associate` and input processing in `advance_to` in `src/threemind_kernels/local.py`; and the study's frozen `retention_assay.py`. This correction is included in the research record, bilingual report and backlog.

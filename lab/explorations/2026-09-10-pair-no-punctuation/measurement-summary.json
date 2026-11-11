@@ -1,0 +1,20 @@
+{
+  "classification_counts": {
+    "residual_decay": 54,
+    "transient": 90,
+    "converged": 36
+  },
+  "final_positive_converged": 36,
+  "final_context_ties": 36,
+  "final_duration_range": [
+    1.4,
+    1.5
+  ],
+  "strongest_tie_count_range": [
+    50,
+    53
+  ],
+  "fixed_endpoint_delta_max": 0.0,
+  "ranking_viewer_windows": 180,
+  "ranking_viewer_rows": 7892
+}

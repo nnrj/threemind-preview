@@ -1,0 +1,19 @@
+{
+  "stream": {
+    "codec_name": "h264",
+    "width": 1600,
+    "height": 900,
+    "avg_frame_rate": "20/1",
+    "nb_frames": "34448",
+    "side_data_list": [
+      {}
+    ]
+  },
+  "duration_s": 1722.4,
+  "bytes": 54146057,
+  "chapters": 18,
+  "decode_samples": [
+    "encoded-action.png",
+    "encoded-end.png"
+  ]
+}

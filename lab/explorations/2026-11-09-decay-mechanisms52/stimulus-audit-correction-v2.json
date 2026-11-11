@@ -1,0 +1,14 @@
+{
+  "reason": "JSON object keys are strings after persistence; normalize only expected delay keys before equality.",
+  "original_sha256": "3f9fac61664e0bf72fbafd7dd742a277d8124060cbea70d3a59decc69c8a81ea",
+  "revision_sha256": "d4f1524ddd17df0155ec1e9882dd85adb74bbbc29062232c6854bc88e3a155ce",
+  "identified_before_full_scientific_results": true,
+  "scientific_subjects_created": 0,
+  "core_changed": false,
+  "criteria_changed": false,
+  "witness": {
+    "original_comparison": false,
+    "corrected_comparison": true,
+    "values_unchanged": true
+  }
+}

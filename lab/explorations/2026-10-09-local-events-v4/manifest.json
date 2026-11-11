@@ -1,0 +1,26 @@
+{
+  "background_frames": 44,
+  "design_sha256": "af5c052b68662fca0df341f87107da349999f6fae6f37ac88dec610e86fa0edd",
+  "native_sha256": "020c5c8d19ced9ba5b1c1c9a339ab95c196192f6fb6b94ab19a69fe2203ef044",
+  "sensory_seed": 20261004,
+  "source_commit": "87b89bb7fa18bd4179b08acba8842fc77268b35c",
+  "source_hashes": {
+    "crates\\threemind-core\\src\\local-defaults.json": "cace09c80a035dc071fa310bb47aed6bae93572a729a8e425f5212b4173cf960",
+    "crates\\threemind-core\\src\\local.rs": "d31f16d80597aab9de223a079250a6e1143e53544e2cf2f45bdbc0b35ea2d1fe",
+    "crates\\threemind-core\\src\\retention.rs": "0b726720ebb880b2a37879cc3c8cfbfbb9a5eda9d2e53214808cff174e2a9c3e",
+    "lab\\explorations\\2026-10-09-local-events-v4\\experiment.py": "f35a371224667e80588ec302d9e1f234dace375b25657651585f713209c7971a",
+    "src\\threemind_kernels\\local.py": "e8ea53c77cc3e52d1c038ad0ec7c049d4b15215dcfc66e227875ac3bc2c4c548",
+    "src\\threemind_kernels\\retention.py": "18fbeaf7f75e403c2d29c2e21ab747378a41461a44056172317bc16645b17532"
+  },
+  "source_sha256": "145a9f584c0b017e840a09d5a2410ae41bef064ff648aca97cd637ec1727a840",
+  "text_sensor": {
+    "channel_count": 192,
+    "enabled": true,
+    "encoding": "literal-character",
+    "frame_characters": 2,
+    "frame_interval_us": 50000,
+    "gain": 1.0,
+    "max_carrier_characters": 100000,
+    "normalization": "NFKC"
+  }
+}

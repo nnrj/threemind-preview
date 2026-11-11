@@ -1,0 +1,525 @@
+{
+  "analyses": {
+    "rules": {
+      "method": "uncalibrated-descriptive-paired-means/1",
+      "pairs": [
+        {
+          "seed": 41601,
+          "control": {
+            "query_role_specificity": 0.00023266946722183546
+          },
+          "treatment": {
+            "query_role_specificity": 0.00023238842198425314
+          }
+        },
+        {
+          "seed": 41602,
+          "control": {
+            "query_role_specificity": 0.0002587311343358878
+          },
+          "treatment": {
+            "query_role_specificity": 0.0003270590574424581
+          }
+        },
+        {
+          "seed": 41603,
+          "control": {
+            "query_role_specificity": -4.886788346847304e-05
+          },
+          "treatment": {
+            "query_role_specificity": 1.3219750934823082e-05
+          }
+        },
+        {
+          "seed": 41604,
+          "control": {
+            "query_role_specificity": null
+          },
+          "treatment": {
+            "query_role_specificity": null
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "metric": "query_role_specificity",
+          "n": 3,
+          "missing_pairs": 1,
+          "control_mean": 0.00014751090602975006,
+          "treatment_mean": 0.00019088907678717812,
+          "difference": 4.337817075742804e-05,
+          "ci95": null,
+          "p": null,
+          "p_holm": null,
+          "paired_dz": null
+        }
+      ],
+      "unit": "complete encoding seed blocks, conditional on fixed teaching material; not individual queries",
+      "inference": "Instrument physical gate failed. These are descriptive activation differences only; no confirmatory test, no language or consciousness claim."
+    },
+    "teaching": {
+      "method": "uncalibrated-descriptive-paired-means/1",
+      "pairs": [
+        {
+          "seed": 41601,
+          "control": {
+            "query_role_specificity": 0.00019681397205467688
+          },
+          "treatment": {
+            "query_role_specificity": 0.00023238842198425314
+          }
+        },
+        {
+          "seed": 41602,
+          "control": {
+            "query_role_specificity": 8.741487506669365e-05
+          },
+          "treatment": {
+            "query_role_specificity": 0.0003270590574424581
+          }
+        },
+        {
+          "seed": 41603,
+          "control": {
+            "query_role_specificity": 6.961381423548074e-05
+          },
+          "treatment": {
+            "query_role_specificity": 1.3219750934823082e-05
+          }
+        },
+        {
+          "seed": 41604,
+          "control": {
+            "query_role_specificity": null
+          },
+          "treatment": {
+            "query_role_specificity": null
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "metric": "query_role_specificity",
+          "n": 3,
+          "missing_pairs": 1,
+          "control_mean": 0.0001179475537856171,
+          "treatment_mean": 0.00019088907678717812,
+          "difference": 7.294152300156102e-05,
+          "ci95": null,
+          "p": null,
+          "p_holm": null,
+          "paired_dz": null
+        }
+      ],
+      "unit": "complete encoding seed blocks, conditional on fixed teaching material; not individual queries",
+      "inference": "Instrument physical gate failed. These are descriptive activation differences only; no confirmatory test, no language or consciousness claim."
+    }
+  },
+  "arms": {
+    "crossed_chain": {
+      "role_blocks": {
+        "41601": 0.00023482593934343043,
+        "41602": 0.00032929437265244443,
+        "41603": 2.377759550281633e-05,
+        "41604": null
+      },
+      "role": {
+        "total": 4,
+        "available": 3,
+        "unscorable": 1,
+        "mean": 0.0001959659691662304,
+        "positive": 3,
+        "zero": 0
+      },
+      "who": {
+        "total": 4,
+        "available": 4,
+        "unscorable": 0,
+        "mean": -0.00047706407741324175,
+        "positive": 2,
+        "zero": 0
+      },
+      "grandfather_dominance": {
+        "total": 8,
+        "available": 6,
+        "unscorable": 2,
+        "mean": -0.001577707270108697,
+        "positive": 0,
+        "zero": 0
+      },
+      "grandfather_minus_other": {
+        "total": 8,
+        "available": 8,
+        "unscorable": 0,
+        "mean": -1.0168758075246309e-05,
+        "positive": 4,
+        "zero": 0
+      },
+      "query_minus_bare": {
+        "total": 8,
+        "available": 8,
+        "unscorable": 0,
+        "mean": 0.0015926433717217692,
+        "positive": 4,
+        "zero": 0
+      },
+      "father_dominance": {
+        "total": 8,
+        "available": 6,
+        "unscorable": 2,
+        "mean": 2.660555663848892e-05,
+        "positive": 4,
+        "zero": 0
+      }
+    },
+    "full": {
+      "role_blocks": {
+        "41601": 0.00023238842198425314,
+        "41602": 0.0003270590574424581,
+        "41603": 1.3219750934823082e-05,
+        "41604": null
+      },
+      "role": {
+        "total": 4,
+        "available": 3,
+        "unscorable": 1,
+        "mean": 0.00019088907678717812,
+        "positive": 3,
+        "zero": 0
+      },
+      "who": {
+        "total": 4,
+        "available": 4,
+        "unscorable": 0,
+        "mean": -0.0004501061065543058,
+        "positive": 2,
+        "zero": 0
+      },
+      "grandfather_dominance": {
+        "total": 8,
+        "available": 6,
+        "unscorable": 2,
+        "mean": -0.0015969288430686308,
+        "positive": 0,
+        "zero": 0
+      },
+      "grandfather_minus_other": {
+        "total": 8,
+        "available": 8,
+        "unscorable": 0,
+        "mean": 2.0812430935865378e-05,
+        "positive": 4,
+        "zero": 0
+      },
+      "query_minus_bare": {
+        "total": 8,
+        "available": 8,
+        "unscorable": 0,
+        "mean": -0.0018484685299585135,
+        "positive": 4,
+        "zero": 0
+      },
+      "father_dominance": {
+        "total": 8,
+        "available": 6,
+        "unscorable": 2,
+        "mean": 3.70849330048606e-05,
+        "positive": 4,
+        "zero": 0
+      }
+    },
+    "learning_off": {
+      "role_blocks": {
+        "41601": 0.0,
+        "41602": 0.0,
+        "41603": 0.0,
+        "41604": null
+      },
+      "role": {
+        "total": 4,
+        "available": 3,
+        "unscorable": 1,
+        "mean": 0.0,
+        "positive": 0,
+        "zero": 3
+      },
+      "who": {
+        "total": 4,
+        "available": 4,
+        "unscorable": 0,
+        "mean": 0.0,
+        "positive": 0,
+        "zero": 4
+      },
+      "grandfather_dominance": {
+        "total": 8,
+        "available": 6,
+        "unscorable": 2,
+        "mean": 0.0,
+        "positive": 0,
+        "zero": 6
+      },
+      "grandfather_minus_other": {
+        "total": 8,
+        "available": 8,
+        "unscorable": 0,
+        "mean": 0.0,
+        "positive": 0,
+        "zero": 8
+      },
+      "query_minus_bare": {
+        "total": 8,
+        "available": 8,
+        "unscorable": 0,
+        "mean": 0.0,
+        "positive": 0,
+        "zero": 8
+      },
+      "father_dominance": {
+        "total": 8,
+        "available": 6,
+        "unscorable": 2,
+        "mean": 0.0,
+        "positive": 0,
+        "zero": 6
+      }
+    },
+    "rule_scrambled": {
+      "role_blocks": {
+        "41601": 0.00023266946722183546,
+        "41602": 0.0002587311343358878,
+        "41603": -4.886788346847304e-05,
+        "41604": null
+      },
+      "role": {
+        "total": 4,
+        "available": 3,
+        "unscorable": 1,
+        "mean": 0.00014751090602975006,
+        "positive": 2,
+        "zero": 0
+      },
+      "who": {
+        "total": 4,
+        "available": 4,
+        "unscorable": 0,
+        "mean": 6.511020187657812e-05,
+        "positive": 2,
+        "zero": 0
+      },
+      "grandfather_dominance": {
+        "total": 8,
+        "available": 6,
+        "unscorable": 2,
+        "mean": -0.0018270346848903902,
+        "positive": 0,
+        "zero": 0
+      },
+      "grandfather_minus_other": {
+        "total": 8,
+        "available": 8,
+        "unscorable": 0,
+        "mean": 1.747326542356209e-05,
+        "positive": 4,
+        "zero": 0
+      },
+      "query_minus_bare": {
+        "total": 8,
+        "available": 8,
+        "unscorable": 0,
+        "mean": -0.0026853792366809404,
+        "positive": 4,
+        "zero": 0
+      },
+      "father_dominance": {
+        "total": 8,
+        "available": 6,
+        "unscorable": 2,
+        "mean": 7.673557270321263e-05,
+        "positive": 4,
+        "zero": 0
+      }
+    },
+    "teaching_scrambled": {
+      "role_blocks": {
+        "41601": 0.00019681397205467688,
+        "41602": 8.741487506669365e-05,
+        "41603": 6.961381423548074e-05,
+        "41604": null
+      },
+      "role": {
+        "total": 4,
+        "available": 3,
+        "unscorable": 1,
+        "mean": 0.0001179475537856171,
+        "positive": 3,
+        "zero": 0
+      },
+      "who": {
+        "total": 4,
+        "available": 4,
+        "unscorable": 0,
+        "mean": 0.0006319247278829959,
+        "positive": 3,
+        "zero": 0
+      },
+      "grandfather_dominance": {
+        "total": 8,
+        "available": 6,
+        "unscorable": 2,
+        "mean": -0.0012758234015028032,
+        "positive": 0,
+        "zero": 0
+      },
+      "grandfather_minus_other": {
+        "total": 8,
+        "available": 8,
+        "unscorable": 0,
+        "mean": 8.438689998516158e-06,
+        "positive": 4,
+        "zero": 0
+      },
+      "query_minus_bare": {
+        "total": 8,
+        "available": 8,
+        "unscorable": 0,
+        "mean": 0.0004207107231280205,
+        "positive": 5,
+        "zero": 0
+      },
+      "father_dominance": {
+        "total": 8,
+        "available": 6,
+        "unscorable": 2,
+        "mean": 9.195654699872824e-05,
+        "positive": 4,
+        "zero": 0
+      }
+    }
+  },
+  "counts": {
+    "calibration": {
+      "parents": 4,
+      "source_cases": 4,
+      "copies": 104,
+      "elapsed_s": 181.64099999999962,
+      "peak_rss": 179740672
+    },
+    "weak_probe": {
+      "parents": 0,
+      "source_cases": 4,
+      "copies": 168,
+      "elapsed_s": 106.26599999999962,
+      "peak_rss": 170119168
+    },
+    "main": {
+      "parents": 20,
+      "source_cases": 20,
+      "copies": 228,
+      "elapsed_s": 479.65600000000086,
+      "peak_rss": 212287488
+    },
+    "long": {
+      "parents": 1,
+      "source_cases": 1,
+      "copies": 17,
+      "elapsed_s": 77.04700000000048,
+      "peak_rss": 164851712
+    }
+  },
+  "continuous": {
+    "role": {
+      "total": 8,
+      "available": 7,
+      "unscorable": 1,
+      "mean": 0.0,
+      "positive": 0,
+      "zero": 7
+    },
+    "target_margin": {
+      "total": 8,
+      "available": 6,
+      "unscorable": 2,
+      "mean": 0.0,
+      "positive": 0,
+      "zero": 6
+    },
+    "query_vs_bare": {
+      "total": 8,
+      "available": 8,
+      "unscorable": 0,
+      "mean": 0.0,
+      "positive": 0,
+      "zero": 8
+    }
+  },
+  "observability": {
+    "formal_probes": 184,
+    "nonzero_delivery": 152,
+    "unscorable": 36,
+    "peak_saturation": 1.0
+  },
+  "core_changed": false,
+  "not_language_accuracy": true,
+  "long_course": {
+    "seed": 41601,
+    "rounds": 24,
+    "birth": [
+      {
+        "child": "Z",
+        "expected_grandfather": "X",
+        "father": "Y",
+        "role": 4.459313330085202e-05,
+        "grandfather_vs_other": 0.00031998408355105035,
+        "query_vs_bare": 0.0006085455971958087,
+        "target_margin": 7.233530419448186e-05,
+        "canonical_grandfather_bias": 0.00031998408355105035,
+        "grandfather_activity": 0.8521346758811289,
+        "father_activity": 0.8519119909479649,
+        "father_query_margin": -0.00039053308496017625
+      },
+      {
+        "child": "W",
+        "expected_grandfather": "U",
+        "father": "V",
+        "role": 0.0,
+        "grandfather_vs_other": -0.0005123267683562194,
+        "query_vs_bare": -0.0006642012492219518,
+        "target_margin": -0.0005316465064492126,
+        "canonical_grandfather_bias": -0.0005123267683562194,
+        "grandfather_activity": 0.8515568469925711,
+        "father_activity": 0.8520884934990203,
+        "father_query_margin": 0.00030409632738448433
+      }
+    ],
+    "continuation": [
+      {
+        "child": "Z",
+        "expected_grandfather": "X",
+        "father": "Y",
+        "role": 0.0,
+        "grandfather_vs_other": 0.0,
+        "query_vs_bare": 0.0,
+        "target_margin": 0.0,
+        "canonical_grandfather_bias": 0.0,
+        "grandfather_activity": 0.0,
+        "father_activity": 0.0,
+        "father_query_margin": 0.0
+      },
+      {
+        "child": "W",
+        "expected_grandfather": "U",
+        "father": "V",
+        "role": 0.0,
+        "grandfather_vs_other": 0.0,
+        "query_vs_bare": 0.0,
+        "target_margin": 0.0,
+        "canonical_grandfather_bias": 0.0,
+        "grandfather_activity": 0.0,
+        "father_activity": 0.0,
+        "father_query_margin": 0.0
+      }
+    ],
+    "who": 0.00012834478407336425
+  }
+}

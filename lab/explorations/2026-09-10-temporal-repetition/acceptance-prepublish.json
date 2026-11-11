@@ -1,0 +1,37 @@
+{
+  "checked_at": "2026-09-10T01:30:26.320958+00:00",
+  "project_id": "194a2f1f-4912-435b-b94e-d8ac64fe4788",
+  "source_runs": 10,
+  "completed_seeds": [
+    41701,
+    41702,
+    41703,
+    41704
+  ],
+  "errors": [],
+  "exact_training_inputs": 7400,
+  "training_temporal_windows": 7394,
+  "checkpoint_hashes_verified": 30,
+  "measurement_source_hashes_verified": 58,
+  "measurement_copies": 400,
+  "all_original_carriers_and_frames_verified": true,
+  "all_repetition_counts_verified": true,
+  "old_project_metadata_unchanged": true,
+  "core_and_sensor_and_reader_source_unchanged": true,
+  "source_archive_files_verified": 203,
+  "database_growth_bytes": 356573184,
+  "local_evidence_bytes": 219744849,
+  "cumulative_training_probe_seconds": 1406.9230000000098,
+  "peak_rss": 290131968,
+  "disk_free_bytes": {
+    "D:/": 39161778176,
+    "E:/": 49438507008
+  },
+  "jobs": [
+    {
+      "status": "done",
+      "n": 58
+    }
+  ],
+  "resource_measurement_at": "2026-09-10T01:36:59.886098+00:00"
+}

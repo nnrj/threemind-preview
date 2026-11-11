@@ -1,0 +1,13 @@
+# M2 instrument calibration: can a50ms grid miss brief expression?
+
+Around04:20 on16 October2026;frozen before replay.M2's earlier no-output statements refer strictly to saved50ms grid points.The original criteria,denominators and report remain intact.This is post-hoc instrument calibration,not a new learning cohort or independent confirmation.
+
+Source inspection shows /5.1 activation decays with tau0.3044102343s and becomes zero below floor0.004.The associative field instead retains arrivals during the recent emission interval;it is not identically decaying instantaneous activation.An isolated activation0.00405292976 falls to the floor in approximately4.00167ms.Nonzero associative field with zero current activation may partly reflect sampling and field timing.All M2 configurations have energy_simulation_enabled=false;actual energy scarcity cannot explain these negatives.
+
+Select every M2 analysis-v1 life with peak_abs≤1e-9 and peak_assoc>0,plus positive instrument reference d1-o0-H-h0-strong.Preserve selection identity/source counts;do not add independent N or discard cases based on dense outcomes.Freeze original hashes/software identity and register a separate calibration record through the unified API.
+
+Create explicit **instrument-replay copies** from saved whole pre-cue states,leaving subjects/originals untouched.Replay only the original2s input,with identical delivery order on the original50ms outer lattice;within each step read at1ms intervals.The original reader,recent_activity and actuator still update only at original50ms times;extra observations are separate.Each final whole-state hash must equal the verified original final state,without discarding counters or RNG to force equivalence.Stop on any mismatch and do not use the new readings for mechanism claims.Observation itself does not advance time;explicit replay advancement belongs only to separate calibration copies.
+
+Measure missed peaks,peak values/times,last-nonzero/first-zero grid points.Where comparing source-defined decay,declare the isolated-arrival assumption rather than treating a fit as exclusion of alternatives.Preserve the original late negative and scores.New sampling/scoring requires a new protocol and materials;additional observations cannot make originally unread answers correct.
+
+Keep5/4/5/25GiB reserves,1GiB private,4GiB originals and2h host budget.Each2s replay is a complete unit.Preserve orphaned in-flight/hash failures and stop;authentication failure leaves durable pending.Originals:`E:/ThreeMindData/experiments/2026-10-16-mechanism-discovery/m2-sampling-calibration-v1`.Bilingual calibration report and dated correction preserve old editions;verify API archive readback before closure.

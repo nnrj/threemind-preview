@@ -1,0 +1,77 @@
+{
+  "checked_at": "2026-09-09T00:35:41.386778+00:00",
+  "project_id": "8c69053a-125e-4fbd-80a8-5a028abb8a9c",
+  "report_id": "60f3930a-cf3a-4f87-8808-e1e3f38ec250",
+  "report_revision": 1,
+  "report_content_hash": "96c6dc498c1c0807ea2014eb34c2e35990e998988a77e2af8fa1e38a875d1bbf",
+  "source_hashes": {
+    "5a6e4688-0341-4ca8-9b1b-0020e9c6f3ef": "84f73f4861aaef13fbdcd2eec6ee770be4721124fa4bba8248f15da9981a2307",
+    "1ae58613-081f-46fb-bbb0-f7b54166d27f": "bda85b9d3bc7f1b2f251e878fff8fbe4101589c8227c7168148a6fcf9697fa29"
+  },
+  "run_status_counts": [
+    {
+      "status": "completed",
+      "n": 977
+    }
+  ],
+  "job_status_counts": [
+    {
+      "status": "done",
+      "n": 983
+    }
+  ],
+  "checkpoints": {
+    "n": 977,
+    "bytes": "45704536"
+  },
+  "database_growth_after_publication_bytes": 1340915712,
+  "free_disk_bytes": {
+    "D:/": 41552392192,
+    "E:/": 50340642816
+  },
+  "new_results_note_revision": 2,
+  "old_models_unchanged": {
+    "count": 900,
+    "sha256": "3a808bef24e7f4704c61f765ea3666f154f649963de772701158a819be86b925"
+  },
+  "old_report_and_note_heads_verified": true,
+  "representative_zip_and_all_contained_final_state_hashes_verified": 3,
+  "browser": {
+    "errors": [],
+    "records": 3,
+    "notes": 3,
+    "scientific_images": 2,
+    "native_report_charts": 2,
+    "native_report_tables": 2,
+    "markdown_html_hashes_verified": true,
+    "calibration_and_storage": {
+      "errors": [],
+      "mutations": [],
+      "source_hash": "a0c230f74b4bdae37c17d71218c0a59cc697539b98190521e459269b9c359925",
+      "checks": [
+        "GUI/JSON roundtrip",
+        "trailing comma editable",
+        "saved calibration plot",
+        "raw download",
+        "read-only storage audit"
+      ]
+    }
+  },
+  "tests": {
+    "calibration_native_reference_and_api": 6,
+    "model_library_worker_lifecycle": 5,
+    "cli_database_free": true,
+    "ui_build": true,
+    "translation_audit": true
+  },
+  "core_changed": false,
+  "schema": 49,
+  "tools_commit": "522dbec",
+  "quota": {
+    "baseline_used_percent": 49,
+    "final_used_percent": 53,
+    "additional_percentage_points": 4,
+    "cap_percentage_points": 20,
+    "scope": "shared account, integer-rounded, including tool development"
+  }
+}

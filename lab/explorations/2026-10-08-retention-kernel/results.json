@@ -1,0 +1,898 @@
+{
+  "schema": "threemind.retention-verification/1",
+  "kind": "kernel instrumentation",
+  "exposure": [
+    {
+      "name": "memory2-single",
+      "observations": [
+        {
+          "delay_s": 0.1,
+          "time_us": "100000",
+          "nodes": 2,
+          "edges": 2,
+          "mean_weight": 0.08416554457604615,
+          "max_half_life_s": null,
+          "max_support": 0.025051188,
+          "max_node_half_life_s": null,
+          "max_fatigue": 0,
+          "dormant": 0,
+          "revived": 0,
+          "node_rejections": "0",
+          "edge_rejections": "0"
+        },
+        {
+          "delay_s": 30.0,
+          "time_us": "30000000",
+          "nodes": 2,
+          "edges": 2,
+          "mean_weight": 0.044620474647004,
+          "max_half_life_s": null,
+          "max_support": 0.0,
+          "max_node_half_life_s": null,
+          "max_fatigue": 0,
+          "dormant": 0,
+          "revived": 0,
+          "node_rejections": "0",
+          "edge_rejections": "0"
+        },
+        {
+          "delay_s": 300.0,
+          "time_us": "300000000",
+          "nodes": 0,
+          "edges": 0,
+          "mean_weight": 0.0,
+          "max_half_life_s": null,
+          "max_support": 0,
+          "max_node_half_life_s": null,
+          "max_fatigue": 0,
+          "dormant": 0,
+          "revived": 0,
+          "node_rejections": "0",
+          "edge_rejections": "0"
+        },
+        {
+          "delay_s": 1800.0,
+          "time_us": "1800000000",
+          "nodes": 0,
+          "edges": 0,
+          "mean_weight": 0.0,
+          "max_half_life_s": null,
+          "max_support": 0,
+          "max_node_half_life_s": null,
+          "max_fatigue": 0,
+          "dormant": 0,
+          "revived": 0,
+          "node_rejections": "0",
+          "edge_rejections": "0"
+        }
+      ],
+      "state_digest": "cfb6df882b96b25479b3e56e32e5ed4987da2086bb85480cdf71e3ad1bdcc868",
+      "wall_s": 0.03530710004270077
+    },
+    {
+      "name": "memory2-strong",
+      "observations": [
+        {
+          "delay_s": 0.1,
+          "time_us": "100000",
+          "nodes": 2,
+          "edges": 2,
+          "mean_weight": 0.1728690444446082,
+          "max_half_life_s": null,
+          "max_support": 0.034851650000000026,
+          "max_node_half_life_s": null,
+          "max_fatigue": 0,
+          "dormant": 0,
+          "revived": 0,
+          "node_rejections": "0",
+          "edge_rejections": "0"
+        },
+        {
+          "delay_s": 30.0,
+          "time_us": "30000000",
+          "nodes": 2,
+          "edges": 2,
+          "mean_weight": 0.11420061758720884,
+          "max_half_life_s": null,
+          "max_support": 0.0,
+          "max_node_half_life_s": null,
+          "max_fatigue": 0,
+          "dormant": 0,
+          "revived": 0,
+          "node_rejections": "0",
+          "edge_rejections": "0"
+        },
+        {
+          "delay_s": 300.0,
+          "time_us": "300000000",
+          "nodes": 0,
+          "edges": 0,
+          "mean_weight": 0.0,
+          "max_half_life_s": null,
+          "max_support": 0,
+          "max_node_half_life_s": null,
+          "max_fatigue": 0,
+          "dormant": 0,
+          "revived": 0,
+          "node_rejections": "0",
+          "edge_rejections": "0"
+        },
+        {
+          "delay_s": 1800.0,
+          "time_us": "1800000000",
+          "nodes": 0,
+          "edges": 0,
+          "mean_weight": 0.0,
+          "max_half_life_s": null,
+          "max_support": 0,
+          "max_node_half_life_s": null,
+          "max_fatigue": 0,
+          "dormant": 0,
+          "revived": 0,
+          "node_rejections": "0",
+          "edge_rejections": "0"
+        }
+      ],
+      "state_digest": "589245520d2afe60df5846ccb039fb48e95d8c944e3fab22ffb5890e72c59007",
+      "wall_s": 0.0492067999439314
+    },
+    {
+      "name": "memory2-repeated",
+      "observations": [
+        {
+          "delay_s": 0.1,
+          "time_us": "119850000",
+          "nodes": 2,
+          "edges": 2,
+          "mean_weight": 0.9999998234851307,
+          "max_half_life_s": null,
+          "max_support": 1.0,
+          "max_node_half_life_s": null,
+          "max_fatigue": 0,
+          "dormant": 0,
+          "revived": 0,
+          "node_rejections": "0",
+          "edge_rejections": "0"
+        },
+        {
+          "delay_s": 30.0,
+          "time_us": "149750000",
+          "nodes": 2,
+          "edges": 2,
+          "mean_weight": 0.9847669751132062,
+          "max_half_life_s": null,
+          "max_support": 1.0,
+          "max_node_half_life_s": null,
+          "max_fatigue": 0,
+          "dormant": 0,
+          "revived": 0,
+          "node_rejections": "0",
+          "edge_rejections": "0"
+        },
+        {
+          "delay_s": 300.0,
+          "time_us": "419750000",
+          "nodes": 2,
+          "edges": 2,
+          "mean_weight": 0.21198120597210332,
+          "max_half_life_s": null,
+          "max_support": 1.0,
+          "max_node_half_life_s": null,
+          "max_fatigue": 0,
+          "dormant": 0,
+          "revived": 0,
+          "node_rejections": "0",
+          "edge_rejections": "0"
+        },
+        {
+          "delay_s": 1800.0,
+          "time_us": "1919750000",
+          "nodes": 2,
+          "edges": 0,
+          "mean_weight": 0.0,
+          "max_half_life_s": null,
+          "max_support": 1.0,
+          "max_node_half_life_s": null,
+          "max_fatigue": 0,
+          "dormant": 0,
+          "revived": 0,
+          "node_rejections": "0",
+          "edge_rejections": "0"
+        }
+      ],
+      "state_digest": "458285682b4b64bf39a18a69fed1b2a1bb1fdb5bde67ba8e527c2da263cf237a",
+      "wall_s": 0.36139239999465644
+    },
+    {
+      "name": "memory3-single",
+      "observations": [
+        {
+          "delay_s": 0.1,
+          "time_us": "100000",
+          "nodes": 2,
+          "edges": 2,
+          "mean_weight": 0.08533692066232013,
+          "max_half_life_s": 30.217505915123837,
+          "max_support": 0.06699538072020028,
+          "max_node_half_life_s": 30.755194482039837,
+          "max_fatigue": 0,
+          "dormant": 0,
+          "revived": 0,
+          "node_rejections": "0",
+          "edge_rejections": "0"
+        },
+        {
+          "delay_s": 30.0,
+          "time_us": "30000000",
+          "nodes": 2,
+          "edges": 2,
+          "mean_weight": 0.05303765406164444,
+          "max_half_life_s": 30.0,
+          "max_support": 0.07308051048315667,
+          "max_node_half_life_s": 30.0,
+          "max_fatigue": 0,
+          "dormant": 0,
+          "revived": 0,
+          "node_rejections": "0",
+          "edge_rejections": "0"
+        },
+        {
+          "delay_s": 300.0,
+          "time_us": "300000000",
+          "nodes": 0,
+          "edges": 0,
+          "mean_weight": 0.0,
+          "max_half_life_s": null,
+          "max_support": 0,
+          "max_node_half_life_s": null,
+          "max_fatigue": 0,
+          "dormant": 0,
+          "revived": 0,
+          "node_rejections": "0",
+          "edge_rejections": "0"
+        },
+        {
+          "delay_s": 1800.0,
+          "time_us": "1800000000",
+          "nodes": 0,
+          "edges": 0,
+          "mean_weight": 0.0,
+          "max_half_life_s": null,
+          "max_support": 0,
+          "max_node_half_life_s": null,
+          "max_fatigue": 0,
+          "dormant": 0,
+          "revived": 0,
+          "node_rejections": "0",
+          "edge_rejections": "0"
+        }
+      ],
+      "state_digest": "9f89a67181224e25c44bf2282bbeeb2a12a75c857df0dc6fc4fdbc1969d479ff",
+      "wall_s": 0.07877430005464703
+    },
+    {
+      "name": "memory3-strong",
+      "observations": [
+        {
+          "delay_s": 0.1,
+          "time_us": "100000",
+          "nodes": 2,
+          "edges": 2,
+          "mean_weight": 0.220504953197457,
+          "max_half_life_s": 31.631408452631025,
+          "max_support": 0.1836416821731338,
+          "max_node_half_life_s": 32.28106818205436,
+          "max_fatigue": 2.9405960199202656,
+          "dormant": 0,
+          "revived": 0,
+          "node_rejections": "0",
+          "edge_rejections": "0"
+        },
+        {
+          "delay_s": 30.0,
+          "time_us": "30000000",
+          "nodes": 2,
+          "edges": 2,
+          "mean_weight": 0.15388819094568568,
+          "max_half_life_s": 30.0,
+          "max_support": 0.19725414846019373,
+          "max_node_half_life_s": 31.60805460014991,
+          "max_fatigue": 0.007436256529999314,
+          "dormant": 0,
+          "revived": 0,
+          "node_rejections": "0",
+          "edge_rejections": "0"
+        },
+        {
+          "delay_s": 300.0,
+          "time_us": "300000000",
+          "nodes": 0,
+          "edges": 0,
+          "mean_weight": 0.0,
+          "max_half_life_s": null,
+          "max_support": 0,
+          "max_node_half_life_s": null,
+          "max_fatigue": 0,
+          "dormant": 0,
+          "revived": 0,
+          "node_rejections": "0",
+          "edge_rejections": "0"
+        },
+        {
+          "delay_s": 1800.0,
+          "time_us": "1800000000",
+          "nodes": 0,
+          "edges": 0,
+          "mean_weight": 0.0,
+          "max_half_life_s": null,
+          "max_support": 0,
+          "max_node_half_life_s": null,
+          "max_fatigue": 0,
+          "dormant": 0,
+          "revived": 0,
+          "node_rejections": "0",
+          "edge_rejections": "0"
+        }
+      ],
+      "state_digest": "5701f6d8e4a445b4511ac2cc901d0b2bd6cbc4b40926a314d92a9ee121b6c18b",
+      "wall_s": 0.09362469997722656
+    },
+    {
+      "name": "memory3-repeated",
+      "observations": [
+        {
+          "delay_s": 0.1,
+          "time_us": "119850000",
+          "nodes": 2,
+          "edges": 2,
+          "mean_weight": 0.9999341336437146,
+          "max_half_life_s": 44809.09264075131,
+          "max_support": 0.9999972903096221,
+          "max_node_half_life_s": 522962.736451008,
+          "max_fatigue": 0,
+          "dormant": 0,
+          "revived": 0,
+          "node_rejections": "0",
+          "edge_rejections": "0"
+        },
+        {
+          "delay_s": 30.0,
+          "time_us": "149750000",
+          "nodes": 2,
+          "edges": 2,
+          "mean_weight": 0.9994772133192783,
+          "max_half_life_s": 45058.31464524301,
+          "max_support": 0.9999582529326891,
+          "max_node_half_life_s": 526173.481572733,
+          "max_fatigue": 0,
+          "dormant": 0,
+          "revived": 0,
+          "node_rejections": "0",
+          "edge_rejections": "0"
+        },
+        {
+          "delay_s": 300.0,
+          "time_us": "419750000",
+          "nodes": 2,
+          "edges": 2,
+          "mean_weight": 0.9953329443581425,
+          "max_half_life_s": 45024.564645211576,
+          "max_support": 0.9996026389537469,
+          "max_node_half_life_s": 526139.7315735887,
+          "max_fatigue": 0,
+          "dormant": 0,
+          "revived": 0,
+          "node_rejections": "0",
+          "edge_rejections": "0"
+        },
+        {
+          "delay_s": 1800.0,
+          "time_us": "1919750000",
+          "nodes": 2,
+          "edges": 2,
+          "mean_weight": 0.9725648738726093,
+          "max_half_life_s": 44837.06464503695,
+          "max_support": 0.9976288928424455,
+          "max_node_half_life_s": 525952.2315782692,
+          "max_fatigue": 0,
+          "dormant": 0,
+          "revived": 0,
+          "node_rejections": "0",
+          "edge_rejections": "0"
+        }
+      ],
+      "state_digest": "319e909a2a34d2aaf2ae7e82b65aee011b52ad08303596fe8f876041c37d701f",
+      "wall_s": 0.7868067000526935
+    }
+  ],
+  "background": [
+    {
+      "name": "fixed-memory2",
+      "at_input_end": {
+        "time_us": "120000000",
+        "nodes": 32,
+        "edges": 26,
+        "mean_weight": 0.009519975003832597,
+        "max_half_life_s": null,
+        "max_support": 0.006485639999999961,
+        "max_node_half_life_s": null,
+        "max_fatigue": 0,
+        "dormant": 0,
+        "revived": 0,
+        "node_rejections": "0",
+        "edge_rejections": "0"
+      },
+      "after_300s": {
+        "time_us": "420000000",
+        "nodes": 0,
+        "edges": 0,
+        "mean_weight": 0.0,
+        "max_half_life_s": null,
+        "max_support": 0,
+        "max_node_half_life_s": null,
+        "max_fatigue": 0,
+        "dormant": 0,
+        "revived": 0,
+        "node_rejections": "0",
+        "edge_rejections": "0"
+      },
+      "state_digest": "532c2a0da19046e446f4644df9cd8afcef20c280f8150c0d45b6110cd38fd81e",
+      "wall_s": 0.04402849997859448
+    },
+    {
+      "name": "fixed-automatic",
+      "at_input_end": {
+        "time_us": "120000000",
+        "nodes": 32,
+        "edges": 36,
+        "mean_weight": 0.010775112273327104,
+        "max_half_life_s": 30.0,
+        "max_support": 0.10563460368602462,
+        "max_node_half_life_s": 30.388925096634715,
+        "max_fatigue": 0,
+        "dormant": 0,
+        "revived": 0,
+        "node_rejections": "0",
+        "edge_rejections": "0"
+      },
+      "after_300s": {
+        "time_us": "420000000",
+        "nodes": 0,
+        "edges": 0,
+        "mean_weight": 0.0,
+        "max_half_life_s": null,
+        "max_support": 0,
+        "max_node_half_life_s": null,
+        "max_fatigue": 0,
+        "dormant": 0,
+        "revived": 0,
+        "node_rejections": "0",
+        "edge_rejections": "0"
+      },
+      "state_digest": "c4b3c0702984e26fef08b178d8da7c181fa67b3dfeebc5a5d706f78c0c24c291",
+      "wall_s": 0.39535430003888905
+    },
+    {
+      "name": "fixed-manual",
+      "at_input_end": {
+        "time_us": "120000000",
+        "nodes": 32,
+        "edges": 36,
+        "mean_weight": 0.010775112273327104,
+        "max_half_life_s": 30.0,
+        "max_support": 0.006450000000000045,
+        "max_node_half_life_s": 30.0,
+        "max_fatigue": 0,
+        "dormant": 0,
+        "revived": 0,
+        "node_rejections": "0",
+        "edge_rejections": "0"
+      },
+      "after_300s": {
+        "time_us": "420000000",
+        "nodes": 0,
+        "edges": 0,
+        "mean_weight": 0.0,
+        "max_half_life_s": null,
+        "max_support": 0,
+        "max_node_half_life_s": null,
+        "max_fatigue": 0,
+        "dormant": 0,
+        "revived": 0,
+        "node_rejections": "0",
+        "edge_rejections": "0"
+      },
+      "state_digest": "0181e3698cc3783e6ea08aa79d593bd79a80a3eb0295fc761d0309a9bda0b6f7",
+      "wall_s": 0.333126200013794
+    },
+    {
+      "name": "fixed-dormant",
+      "at_input_end": {
+        "time_us": "120000000",
+        "nodes": 32,
+        "edges": 36,
+        "mean_weight": 0.010775112273327104,
+        "max_half_life_s": 30.0,
+        "max_support": 0.10563460368602462,
+        "max_node_half_life_s": 30.388925096634715,
+        "max_fatigue": 0,
+        "dormant": 28,
+        "revived": 0,
+        "node_rejections": "0",
+        "edge_rejections": "0"
+      },
+      "after_300s": {
+        "time_us": "420000000",
+        "nodes": 0,
+        "edges": 0,
+        "mean_weight": 0.0,
+        "max_half_life_s": null,
+        "max_support": 0,
+        "max_node_half_life_s": null,
+        "max_fatigue": 0,
+        "dormant": 0,
+        "revived": 0,
+        "node_rejections": "0",
+        "edge_rejections": "0"
+      },
+      "state_digest": "2aa8e2405beb68fbadcca2b5f54aa6c94483b1117be98ce6dcfe022401ce452f",
+      "wall_s": 0.40906670002732426
+    },
+    {
+      "name": "fixed-revival",
+      "at_input_end": {
+        "time_us": "120000000",
+        "nodes": 32,
+        "edges": 36,
+        "mean_weight": 0.010775112273327104,
+        "max_half_life_s": 30.0,
+        "max_support": 0.10563460368602462,
+        "max_node_half_life_s": 30.388925096634715,
+        "max_fatigue": 0,
+        "dormant": 28,
+        "revived": 0,
+        "node_rejections": "0",
+        "edge_rejections": "0"
+      },
+      "after_300s": {
+        "time_us": "420000000",
+        "nodes": 0,
+        "edges": 0,
+        "mean_weight": 0.0,
+        "max_half_life_s": null,
+        "max_support": 0,
+        "max_node_half_life_s": null,
+        "max_fatigue": 0,
+        "dormant": 0,
+        "revived": 0,
+        "node_rejections": "0",
+        "edge_rejections": "0"
+      },
+      "state_digest": "db524e8e17e05cde2a35cab3620d1be3d27a752de6f79fac18b480451f352566",
+      "wall_s": 0.4172389000887051
+    },
+    {
+      "name": "expanding-memory2",
+      "at_input_end": {
+        "time_us": "120000000",
+        "nodes": 80,
+        "edges": 74,
+        "mean_weight": 0.020799187675894063,
+        "max_half_life_s": null,
+        "max_support": 0.006458910000000083,
+        "max_node_half_life_s": null,
+        "max_fatigue": 0,
+        "dormant": 0,
+        "revived": 0,
+        "node_rejections": "0",
+        "edge_rejections": "0"
+      },
+      "after_300s": {
+        "time_us": "420000000",
+        "nodes": 0,
+        "edges": 0,
+        "mean_weight": 0.0,
+        "max_half_life_s": null,
+        "max_support": 0,
+        "max_node_half_life_s": null,
+        "max_fatigue": 0,
+        "dormant": 0,
+        "revived": 0,
+        "node_rejections": "0",
+        "edge_rejections": "0"
+      },
+      "state_digest": "a7b52ab8191a83aa589a51e5c1e60ea65d8da8edcd138a492744f0408dee7a3c",
+      "wall_s": 0.0898103000363335
+    },
+    {
+      "name": "expanding-automatic",
+      "at_input_end": {
+        "time_us": "120000000",
+        "nodes": 96,
+        "edges": 70,
+        "mean_weight": 0.019674590238560826,
+        "max_half_life_s": 30.0,
+        "max_support": 0.0540722184105048,
+        "max_node_half_life_s": 30.388925096634715,
+        "max_fatigue": 0,
+        "dormant": 0,
+        "revived": 0,
+        "node_rejections": "0",
+        "edge_rejections": "0"
+      },
+      "after_300s": {
+        "time_us": "420000000",
+        "nodes": 0,
+        "edges": 0,
+        "mean_weight": 0.0,
+        "max_half_life_s": null,
+        "max_support": 0,
+        "max_node_half_life_s": null,
+        "max_fatigue": 0,
+        "dormant": 0,
+        "revived": 0,
+        "node_rejections": "0",
+        "edge_rejections": "0"
+      },
+      "state_digest": "f2d0e9e13e4eb2d80047b1bf8e76b6c5daecd9d9520a01c65df84cab559539be",
+      "wall_s": 0.6221205999609083
+    },
+    {
+      "name": "expanding-manual",
+      "at_input_end": {
+        "time_us": "120000000",
+        "nodes": 80,
+        "edges": 70,
+        "mean_weight": 0.019674590238560826,
+        "max_half_life_s": 30.0,
+        "max_support": 0.006450000000000045,
+        "max_node_half_life_s": 30.0,
+        "max_fatigue": 0,
+        "dormant": 0,
+        "revived": 0,
+        "node_rejections": "0",
+        "edge_rejections": "0"
+      },
+      "after_300s": {
+        "time_us": "420000000",
+        "nodes": 0,
+        "edges": 0,
+        "mean_weight": 0.0,
+        "max_half_life_s": null,
+        "max_support": 0,
+        "max_node_half_life_s": null,
+        "max_fatigue": 0,
+        "dormant": 0,
+        "revived": 0,
+        "node_rejections": "0",
+        "edge_rejections": "0"
+      },
+      "state_digest": "d7e34316d684a5c03c5882e0442db29f1e99b12b4c16b56cc61dfe091d876637",
+      "wall_s": 0.5430124999256805
+    },
+    {
+      "name": "expanding-dormant",
+      "at_input_end": {
+        "time_us": "120000000",
+        "nodes": 96,
+        "edges": 70,
+        "mean_weight": 0.019674590238560826,
+        "max_half_life_s": 30.0,
+        "max_support": 0.0540722184105048,
+        "max_node_half_life_s": 30.388925096634715,
+        "max_fatigue": 0,
+        "dormant": 26,
+        "revived": 0,
+        "node_rejections": "0",
+        "edge_rejections": "0"
+      },
+      "after_300s": {
+        "time_us": "420000000",
+        "nodes": 0,
+        "edges": 0,
+        "mean_weight": 0.0,
+        "max_half_life_s": null,
+        "max_support": 0,
+        "max_node_half_life_s": null,
+        "max_fatigue": 0,
+        "dormant": 0,
+        "revived": 0,
+        "node_rejections": "0",
+        "edge_rejections": "0"
+      },
+      "state_digest": "ba01d6dcfaff00f31aecea2d8c9e4f5ccbd0b8d2c0c1af37e8aca2053032b570",
+      "wall_s": 0.6097036999417469
+    },
+    {
+      "name": "expanding-revival",
+      "at_input_end": {
+        "time_us": "120000000",
+        "nodes": 96,
+        "edges": 70,
+        "mean_weight": 0.019674590238560826,
+        "max_half_life_s": 30.0,
+        "max_support": 0.0540722184105048,
+        "max_node_half_life_s": 30.388925096634715,
+        "max_fatigue": 0,
+        "dormant": 26,
+        "revived": 0,
+        "node_rejections": "0",
+        "edge_rejections": "0"
+      },
+      "after_300s": {
+        "time_us": "420000000",
+        "nodes": 0,
+        "edges": 0,
+        "mean_weight": 0.0,
+        "max_half_life_s": null,
+        "max_support": 0,
+        "max_node_half_life_s": null,
+        "max_fatigue": 0,
+        "dormant": 0,
+        "revived": 0,
+        "node_rejections": "0",
+        "edge_rejections": "0"
+      },
+      "state_digest": "e6d4b49d6329b77e328e375eaa746d47e31da4fc9e243947e99d64e13e667b5b",
+      "wall_s": 0.802400799933821
+    }
+  ],
+  "pairing": [
+    {
+      "name": "pairing-memory2",
+      "observations": [
+        {
+          "time_us": "40000000",
+          "nodes": 3,
+          "edges": 4,
+          "mean_weight": 0.9107838636783949,
+          "max_half_life_s": null,
+          "max_support": 1.0,
+          "max_node_half_life_s": null,
+          "max_fatigue": 0,
+          "dormant": 0,
+          "revived": 0,
+          "node_rejections": "0",
+          "edge_rejections": "0",
+          "weights": [
+            [
+              1,
+              2,
+              0.9135245552450557
+            ],
+            [
+              1,
+              3,
+              0.908043172111734
+            ],
+            [
+              2,
+              1,
+              0.9135245552450557
+            ],
+            [
+              3,
+              1,
+              0.908043172111734
+            ]
+          ]
+        },
+        {
+          "time_us": "340000000",
+          "nodes": 3,
+          "edges": 4,
+          "mean_weight": 0.17441408357609645,
+          "max_half_life_s": null,
+          "max_support": 1.0,
+          "max_node_half_life_s": null,
+          "max_fatigue": 0,
+          "dormant": 0,
+          "revived": 0,
+          "node_rejections": "0",
+          "edge_rejections": "0",
+          "weights": [
+            [
+              1,
+              2,
+              0.15693630927643634
+            ],
+            [
+              1,
+              3,
+              0.19189185787575658
+            ],
+            [
+              2,
+              1,
+              0.15693630927643634
+            ],
+            [
+              3,
+              1,
+              0.19189185787575658
+            ]
+          ]
+        }
+      ],
+      "state_digest": "9468edcc89b8ac58d87e393db0d09dfa9d40988192daa099857f037b4cbb30f3"
+    },
+    {
+      "name": "pairing-memory3",
+      "observations": [
+        {
+          "time_us": "40000000",
+          "nodes": 3,
+          "edges": 4,
+          "mean_weight": 0.9396936500631543,
+          "max_half_life_s": 174.98560152172388,
+          "max_support": 0.999752902929676,
+          "max_node_half_life_s": 6936.394332674712,
+          "max_fatigue": 0,
+          "dormant": 0,
+          "revived": 0,
+          "node_rejections": "0",
+          "edge_rejections": "0",
+          "weights": [
+            [
+              1,
+              2,
+              0.9031870466171494
+            ],
+            [
+              1,
+              3,
+              0.9762002535091592
+            ],
+            [
+              2,
+              1,
+              0.9031870466171494
+            ],
+            [
+              3,
+              1,
+              0.9762002535091592
+            ]
+          ]
+        },
+        {
+          "time_us": "340000000",
+          "nodes": 3,
+          "edges": 4,
+          "mean_weight": 0.24727757117508864,
+          "max_half_life_s": 138.35816368496694,
+          "max_support": 0.9705673412565077,
+          "max_node_half_life_s": 6995.39620392798,
+          "max_fatigue": 0,
+          "dormant": 0,
+          "revived": 0,
+          "node_rejections": "0",
+          "edge_rejections": "0",
+          "weights": [
+            [
+              1,
+              2,
+              0.2362465023131314
+            ],
+            [
+              1,
+              3,
+              0.2583086400370459
+            ],
+            [
+              2,
+              1,
+              0.2362465023131314
+            ],
+            [
+              3,
+              1,
+              0.2583086400370459
+            ]
+          ]
+        }
+      ],
+      "state_digest": "257cff43a44ccc076b5fa750817172e8d2033a9023a998d048334ff634a64340"
+    }
+  ]
+}

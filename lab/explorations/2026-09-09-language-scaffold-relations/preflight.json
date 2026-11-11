@@ -1,0 +1,406 @@
+{
+  "channel_count": 192,
+  "rows": [
+    {
+      "seed": 41501,
+      "family": 0,
+      "group": "family",
+      "coverage": {
+        "I": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        },
+        "J": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        },
+        "L": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        },
+        "M": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41501,
+      "family": 0,
+      "group": "who",
+      "coverage": {
+        "甲": {
+          "channels": 8,
+          "exclusive_channels": 6,
+          "retained_weight_fraction": 0.8030303030303031,
+          "scorable": true
+        },
+        "乙": {
+          "channels": 8,
+          "exclusive_channels": 5,
+          "retained_weight_fraction": 0.6666666666666666,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41501,
+      "family": 1,
+      "group": "family",
+      "coverage": {
+        "岚岳": {
+          "channels": 15,
+          "exclusive_channels": 3,
+          "retained_weight_fraction": 0.15185185185185188,
+          "scorable": true
+        },
+        "汀川": {
+          "channels": 18,
+          "exclusive_channels": 5,
+          "retained_weight_fraction": 0.262962962962963,
+          "scorable": true
+        },
+        "洵舟": {
+          "channels": 17,
+          "exclusive_channels": 6,
+          "retained_weight_fraction": 0.3481481481481482,
+          "scorable": true
+        },
+        "澄木": {
+          "channels": 16,
+          "exclusive_channels": 7,
+          "retained_weight_fraction": 0.43333333333333335,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41501,
+      "family": 1,
+      "group": "who",
+      "coverage": {
+        "甲": {
+          "channels": 8,
+          "exclusive_channels": 6,
+          "retained_weight_fraction": 0.8030303030303031,
+          "scorable": true
+        },
+        "乙": {
+          "channels": 8,
+          "exclusive_channels": 5,
+          "retained_weight_fraction": 0.6666666666666666,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41502,
+      "family": 0,
+      "group": "family",
+      "coverage": {
+        "I": {
+          "channels": 3,
+          "exclusive_channels": 1,
+          "retained_weight_fraction": 0.5249999999999999,
+          "scorable": true
+        },
+        "J": {
+          "channels": 3,
+          "exclusive_channels": 1,
+          "retained_weight_fraction": 0.22499999999999998,
+          "scorable": true
+        },
+        "L": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        },
+        "M": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41502,
+      "family": 0,
+      "group": "who",
+      "coverage": {
+        "甲": {
+          "channels": 9,
+          "exclusive_channels": 6,
+          "retained_weight_fraction": 0.696969696969697,
+          "scorable": true
+        },
+        "乙": {
+          "channels": 8,
+          "exclusive_channels": 6,
+          "retained_weight_fraction": 0.8030303030303031,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41502,
+      "family": 1,
+      "group": "family",
+      "coverage": {
+        "岚岳": {
+          "channels": 13,
+          "exclusive_channels": 5,
+          "retained_weight_fraction": 0.262962962962963,
+          "scorable": true
+        },
+        "汀川": {
+          "channels": 16,
+          "exclusive_channels": 5,
+          "retained_weight_fraction": 0.3481481481481482,
+          "scorable": true
+        },
+        "洵舟": {
+          "channels": 17,
+          "exclusive_channels": 7,
+          "retained_weight_fraction": 0.37407407407407406,
+          "scorable": true
+        },
+        "澄木": {
+          "channels": 15,
+          "exclusive_channels": 6,
+          "retained_weight_fraction": 0.3814814814814815,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41502,
+      "family": 1,
+      "group": "who",
+      "coverage": {
+        "甲": {
+          "channels": 9,
+          "exclusive_channels": 6,
+          "retained_weight_fraction": 0.696969696969697,
+          "scorable": true
+        },
+        "乙": {
+          "channels": 8,
+          "exclusive_channels": 6,
+          "retained_weight_fraction": 0.8030303030303031,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41503,
+      "family": 0,
+      "group": "family",
+      "coverage": {
+        "I": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        },
+        "J": {
+          "channels": 3,
+          "exclusive_channels": 1,
+          "retained_weight_fraction": 0.5249999999999999,
+          "scorable": true
+        },
+        "L": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        },
+        "M": {
+          "channels": 3,
+          "exclusive_channels": 1,
+          "retained_weight_fraction": 0.22499999999999998,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41503,
+      "family": 0,
+      "group": "who",
+      "coverage": {
+        "甲": {
+          "channels": 8,
+          "exclusive_channels": 4,
+          "retained_weight_fraction": 0.46969696969696967,
+          "scorable": true
+        },
+        "乙": {
+          "channels": 9,
+          "exclusive_channels": 4,
+          "retained_weight_fraction": 0.46969696969696967,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41503,
+      "family": 1,
+      "group": "family",
+      "coverage": {
+        "岚岳": {
+          "channels": 14,
+          "exclusive_channels": 3,
+          "retained_weight_fraction": 0.17037037037037037,
+          "scorable": true
+        },
+        "汀川": {
+          "channels": 18,
+          "exclusive_channels": 4,
+          "retained_weight_fraction": 0.22962962962962963,
+          "scorable": true
+        },
+        "洵舟": {
+          "channels": 18,
+          "exclusive_channels": 6,
+          "retained_weight_fraction": 0.32222222222222224,
+          "scorable": true
+        },
+        "澄木": {
+          "channels": 17,
+          "exclusive_channels": 5,
+          "retained_weight_fraction": 0.28888888888888886,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41503,
+      "family": 1,
+      "group": "who",
+      "coverage": {
+        "甲": {
+          "channels": 8,
+          "exclusive_channels": 4,
+          "retained_weight_fraction": 0.46969696969696967,
+          "scorable": true
+        },
+        "乙": {
+          "channels": 9,
+          "exclusive_channels": 4,
+          "retained_weight_fraction": 0.46969696969696967,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41504,
+      "family": 0,
+      "group": "family",
+      "coverage": {
+        "I": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        },
+        "J": {
+          "channels": 3,
+          "exclusive_channels": 1,
+          "retained_weight_fraction": 0.5249999999999999,
+          "scorable": true
+        },
+        "L": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        },
+        "M": {
+          "channels": 3,
+          "exclusive_channels": 1,
+          "retained_weight_fraction": 0.5249999999999999,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41504,
+      "family": 0,
+      "group": "who",
+      "coverage": {
+        "甲": {
+          "channels": 9,
+          "exclusive_channels": 7,
+          "retained_weight_fraction": 0.7651515151515152,
+          "scorable": true
+        },
+        "乙": {
+          "channels": 9,
+          "exclusive_channels": 6,
+          "retained_weight_fraction": 0.696969696969697,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41504,
+      "family": 1,
+      "group": "family",
+      "coverage": {
+        "岚岳": {
+          "channels": 15,
+          "exclusive_channels": 3,
+          "retained_weight_fraction": 0.17037037037037037,
+          "scorable": true
+        },
+        "汀川": {
+          "channels": 18,
+          "exclusive_channels": 3,
+          "retained_weight_fraction": 0.1777777777777778,
+          "scorable": true
+        },
+        "洵舟": {
+          "channels": 17,
+          "exclusive_channels": 7,
+          "retained_weight_fraction": 0.4,
+          "scorable": true
+        },
+        "澄木": {
+          "channels": 17,
+          "exclusive_channels": 10,
+          "retained_weight_fraction": 0.5518518518518519,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41504,
+      "family": 1,
+      "group": "who",
+      "coverage": {
+        "甲": {
+          "channels": 9,
+          "exclusive_channels": 7,
+          "retained_weight_fraction": 0.7651515151515152,
+          "scorable": true
+        },
+        "乙": {
+          "channels": 9,
+          "exclusive_channels": 6,
+          "retained_weight_fraction": 0.696969696969697,
+          "scorable": true
+        }
+      }
+    }
+  ],
+  "note": "physical coverage only; no Core training or answer selection"
+}

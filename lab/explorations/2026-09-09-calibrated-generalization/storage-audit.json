@@ -1,0 +1,1441 @@
+{
+  "schema": "threemind.storage-audit/1",
+  "project_id": "8c69053a-125e-4fbd-80a8-5a028abb8a9c",
+  "checked_at": "2026-09-09T00:24:05.789778+00:00",
+  "read_only": true,
+  "scope": "current project; only caller-visible personal note metadata",
+  "totals": {
+    "runs": 977,
+    "nodes": "56035",
+    "edges": "2376132"
+  },
+  "records": {
+    "studies": 0,
+    "research_documents": 0,
+    "probe_calibrations": 977,
+    "notes": 1
+  },
+  "checkpoints": {
+    "n": 977,
+    "bytes": "45704536"
+  },
+  "artifacts": {
+    "n": 1954,
+    "bytes": "304992481"
+  },
+  "stored_payload_bytes": 350697017,
+  "network_projection_estimate_bytes": 778293440,
+  "database_physical_bytes": 2514089651,
+  "rows": [
+    {
+      "id": "6632928e-dc1c-4eb4-9c7f-b8efc869ee77",
+      "name": "relations/41412/f3/reversed_chain",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "e690e0b3662f1be87dec76737e6b35185201a76df85f8cb1cb7e1973e2c05d92",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:23:34.926355+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "156658",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "d1f487cd-64bc-4c9d-9c26-7721095cd3b1",
+      "name": "relations/41412/f3/wrong_template",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "f0fc3eeaf260576edc9b469910bbd9448c9d93bbbf85938f0b03c7971e22d310",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:23:31.849608+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "169219",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "3fd0fea1-cdf5-466a-bf02-c3e8282a4ac4",
+      "name": "relations/41412/f3/correct",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "d95178f99fe9ab92be9c31851b395e95db30f54a60d41e8616b5072fedaed11e",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:23:28.886117+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "168434",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "c2ef5226-275c-4cea-91f7-24efb2150b6e",
+      "name": "relations/41412/f2/reversed_chain",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "49bd46d322d572af0547ccf75e28f30a82288a3ad9788f63f25f93cfec4f8da2",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:23:26.040849+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "158940",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "45d3afcf-3630-4d4f-896b-88f9a3c857a4",
+      "name": "relations/41412/f2/wrong_template",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "437d4be83cf3ff706e300644300c41ccdd1d970e07f7f3b72f21f3b26bb1fffb",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:23:22.837179+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "151890",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "4d3c2a5a-295e-4245-a7a5-bae10f47a3e3",
+      "name": "relations/41412/f2/correct",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "9297780679b1c5681f1d4c40c6f28ed68642632f7cd6ffe9eb031ded9c46d8cd",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:23:19.626243+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "151475",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "b2f09512-7610-48cf-8cf4-b9a1e2d14390",
+      "name": "relations/41412/f1/reversed_chain",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "5bc2a0fd6ad11f405e0bcd5e974cc6e3ca4949df2dd6a8d72ebe1543494a5446",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:23:15.862775+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "159764",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "7b27a668-f982-41f8-9e7d-c07ce05ccd0b",
+      "name": "relations/41412/f1/wrong_template",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "fc6aab844fd831562f760b7d66c59a1910fefbfd5a94163a7bc5e6cacc3c3e7d",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:23:12.416582+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "160884",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "fde79353-b503-4a12-9410-51e552f49ad7",
+      "name": "relations/41412/f1/correct",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "7853598717550edcd1d0d787ea2a60d86883b964e64719d15cd340063707dfe5",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:23:08.652118+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "160187",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "fc1e1e3d-7521-4524-9f75-ff1f4f191797",
+      "name": "relations/41412/f0/reversed_chain",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "78ccdfa4ce1ad28a26758a26976d3274cfe14aae6dd094bc85f4e78633160d80",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:23:03.929765+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "174498",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "ff4c12bf-8992-4381-88d1-cefc6d97049f",
+      "name": "relations/41412/f0/wrong_template",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "917848928a7971dcd96b531eecb1b6cf436e04db7a1e694f88437322c9cb48d9",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:22:58.769062+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "175244",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "0c2bb7ba-8a0c-4e01-bc30-1c8e54b96bda",
+      "name": "relations/41412/f0/correct",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "bbe7e5e08cabe1b5a1120a5a673015c93a29b973c62a8650668c37eb21173d6e",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:22:53.878430+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "175067",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "966af98a-d712-43a4-b8c4-7acbf868ef03",
+      "name": "relations/41411/f3/reversed_chain",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "18df2e2433a54310f93460c1bd741339841e7a8ac6869da5079070f6a69ffea9",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:22:45.768813+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "156347",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "596f427d-9247-44b9-8fd1-19f8d5be9b39",
+      "name": "relations/41411/f3/wrong_template",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "d5f1d68ab94412bff8c49bb992df1406780f3a6378992fc2a789bddb873eeb7e",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:22:37.238682+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "160563",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "4bed3b08-95b5-4969-8266-f4a5e5a22951",
+      "name": "relations/41411/f3/correct",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "f6547ef1c029206c01c6d17184a0965b5f560f3eb710ddf25e5f964ca4bad82d",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:22:31.396117+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "160516",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "0855adfb-37f6-49fb-a630-1e972d7f8045",
+      "name": "relations/41411/f2/reversed_chain",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "13ca97d20342e51061874f0b42625cf052fc6156887e52c2c95f4b1e967c2973",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:22:26.068355+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "171996",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "53f3f469-0bad-4b95-836c-4f957e91cbf1",
+      "name": "relations/41411/f2/wrong_template",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "bf2c8923842e5a46116ecacd6d8d246d36f6dde64609d797c98cbaa8302546ca",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:22:22.424358+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "179516",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "aacc076f-348f-4ea4-bf67-d45925e88a46",
+      "name": "relations/41411/f2/correct",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "88dc87d21fd0a940924602359c184712b6b43f6dec8180787f2b438b5f02be7e",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:22:19.245907+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "179539",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "f5967dae-2ecd-4ff2-b498-2d945a2793b3",
+      "name": "relations/41411/f1/reversed_chain",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "c432fadeafb38d5ba15da95e035fb9664c60f313f96462036a788f0370a87abd",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:22:16.054238+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "169106",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "be65083a-fb2e-426d-ad88-b243406ef450",
+      "name": "relations/41411/f1/wrong_template",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "ee9a1a2e3c825d3a6815db85beb149292f65f926fc5661686795bc304d8cb53a",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:22:12.491092+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "178922",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "9a72ab49-694e-4e59-940c-09b579759433",
+      "name": "relations/41411/f1/correct",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "06c271cef3bed2b9ec52e5b77c9972036f43031871ae93d7790aafdaea6108cb",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:22:09.011621+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "178563",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "44ce7212-4a92-4e9a-b5b2-153a8ba5a024",
+      "name": "relations/41411/f0/reversed_chain",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "67a030aee7468963f091336c2aae0f028c51964d83b2968b9deba0b30f52199e",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:22:05.122458+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "181489",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "410bb8bf-cb6a-4381-84a1-418dedbb7d4a",
+      "name": "relations/41411/f0/wrong_template",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "c0ff9e1b2c1a2f01dcbeacf2b8403175ec36544cb388c1006dd44a7be08d577a",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:22:02.067872+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "175505",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "c0a404df-c912-4d4a-9814-ce15c8a11f68",
+      "name": "relations/41411/f0/correct",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "d7ecb2c70ba1a52534d411a993f9df47f2868166721bc08cb479caf8b1018962",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:21:58.989498+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "175202",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "148beb8a-07bb-44bd-b5b5-13f9fc7a2a45",
+      "name": "relations/41410/f3/reversed_chain",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "3323151ee3130a9198fe7d6ec6709836076e0430d685770f2ec70a51e30b6d63",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:21:56.087382+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "168555",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "677fce0c-781f-4602-bb39-722ed49d25c7",
+      "name": "relations/41410/f3/wrong_template",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "174a6000192059c4ca55faaac23dde09acf7de7b5bef849c7bfa39fc0acb3bc2",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:21:53.400659+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "163604",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "54378cc5-bce8-49c1-9036-e1a48ab253c5",
+      "name": "relations/41410/f3/correct",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "58a5b9327d3a8a705a15d9193e208796e3061a37a3c993f84e475e5fbe66add7",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:21:50.729630+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "163603",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "b8533e8f-a733-4b27-a335-1010a6decaf2",
+      "name": "relations/41410/f2/reversed_chain",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "c2cfa2edbbe3eef0ea07697790cb2eb7ba04197a4fd33596f1025c06783a0aab",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:21:47.780641+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "168436",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "1df3e322-23c8-485d-9730-e4b283dabdb7",
+      "name": "relations/41410/f2/wrong_template",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "145ca03d155efa2227d55c78247d7f5df725a17311065cfef7a56c76c4395a82",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:21:44.801011+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "173195",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "65308d43-30e0-487b-9d51-a4eb672f46a9",
+      "name": "relations/41410/f2/correct",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "45133f935dbac769c55e4578833a899c685807c146d790ea474ae074b9041b7c",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:21:41.870688+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "173260",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "ae296a9a-5c23-4ad2-a804-0723aeaad717",
+      "name": "relations/41410/f1/reversed_chain",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "a20db75d62f15b0415af139cd4698975b2d4220deb68629a305d66376e6bf133",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:21:39.041430+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "164906",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "612e1a58-ec0a-4587-8a40-4919f8bc6ca4",
+      "name": "relations/41410/f1/wrong_template",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "4e9e36b7d09a809dbc8a82303adbda5e95ad60196a833f08e49aac5c8601587a",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:21:36.295833+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "161098",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "df8336db-36ac-40c9-9959-0befbd873f3d",
+      "name": "relations/41410/f1/correct",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "962dfe7f62a1a9647737526f5583dcc7abdc5aeafad958dac7b82bfed39ff4d2",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:21:33.532460+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "160868",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "0d0fb910-8ffb-4772-a08f-19c9c98428a8",
+      "name": "relations/41410/f0/reversed_chain",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "47cd9a51686b385e44c60abfe8a73983a6e525fa63d9348ff04b4f3fae6c0fc4",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:21:30.695389+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "171515",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "4c7b14e9-1f15-45d7-8bab-bda4e5ef42f0",
+      "name": "relations/41410/f0/wrong_template",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "44d647374189c870071e7cf8d2e83fad90b022ff161c78d4a7076ae2a7b909d4",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:21:27.938583+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "159673",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "45ff548f-0de0-43eb-adf3-23decffec885",
+      "name": "relations/41410/f0/correct",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "3861f43a098c0eba52a9d5c937e4790434b33f1436f053bbac9ed6a39a3e5b7f",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:21:25.174517+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "159371",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "8db9be51-574c-4a1d-a973-7f90505af1c9",
+      "name": "relations/41409/f3/reversed_chain",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "ef1479532593ab845497e5becebd29007f8bbb28a673ee0d4e097754683b95db",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:21:22.217727+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "172745",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "39d7aabb-0708-4a19-830e-fbc0d87f7663",
+      "name": "relations/41409/f3/wrong_template",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "bca3789f275a05ee7c6ec2b748edeff30fe08fd018f868b5923a454e5cdb9816",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:21:19.088868+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "170780",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "4a9ac6b3-a229-456e-9bea-c9af92f5b80e",
+      "name": "relations/41409/f3/correct",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "13ad85cda4e6a3b44aea10e6684bc8f6b6897db8168b0e9e962709ab202b6631",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:21:15.782116+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "170427",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "5c323094-c5ba-44dc-9580-3aab25171a15",
+      "name": "relations/41409/f2/reversed_chain",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "0b9a2671ccdf5263f1bc70572796ce60cc1424f3c7562f4b95b596a6841ae607",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:21:12.507943+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "165546",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "1eb040f2-f9ba-4f2b-888e-a5c3f015f517",
+      "name": "relations/41409/f2/wrong_template",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "69bcb68a54dc854a25b379f4010d92bb6bd34fc05b8f10c867fbc5e010152997",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:21:09.335283+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "163044",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "68dd0f67-5ca8-4504-a401-49e0fff0f38e",
+      "name": "relations/41409/f2/correct",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "52ab1689cfd3a9922c594ad35b082887529de74cf1a412d89f28bf440b6bc100",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:21:06.153986+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "163283",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "7d214654-0149-4855-a644-aa6953b9628a",
+      "name": "relations/41409/f1/reversed_chain",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "180ae0f2205b37d2038b1042592aa209b16a1ce220670d456d59a172d5348d52",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:21:02.856463+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "165532",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "9c8e7cbb-a604-40da-a785-1981ecb13356",
+      "name": "relations/41409/f1/wrong_template",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "db0bb52f4dcec2d50a259bcff344c7c7b82e32be8df38eb062a7d197ec2ecf34",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:20:59.859225+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "160268",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "1b20dae2-4918-4d69-bdf9-cef6308b3ed5",
+      "name": "relations/41409/f1/correct",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "703100f12fbc6376af42a297d2a14c13b4313c66d1f28f01d90fba895969e32c",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:20:56.506660+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "160364",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "515f8e92-aff7-4a4d-8c74-f2de36320f7f",
+      "name": "relations/41409/f0/reversed_chain",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "974f247f53b21ff49b7eed5c9a3a77436c8814d663a82d62d94be2d8eb4ba586",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:20:53.501235+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "172338",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "2c3f2e3c-9385-4f18-acfb-01434f3df375",
+      "name": "relations/41409/f0/wrong_template",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "7fea5684de2fe8c4e2f5672af13b58152bdd09b7e9f8983fd74dd16d92dc431e",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:20:50.514038+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "169482",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "376aee92-d2d6-4156-9db1-1d3d53c7668a",
+      "name": "relations/41409/f0/correct",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "41c763daec95fe12379009aed9d95e9a4d7d7aa615314ec5f27f9e603b355385",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:20:46.458124+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "169683",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "9985a5c1-1dd2-45e1-93b8-e9cda613662c",
+      "name": "relations/41408/f3/reversed_chain",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "0e72660d2ff8265dc1d206694ff68775ba6752f0670a828a4abe3c527b774619",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:20:42.323467+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "164515",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    },
+    {
+      "id": "9db1b787-2973-4e0c-9312-03ec7a057670",
+      "name": "relations/41408/f3/wrong_template",
+      "status": "completed",
+      "revision": 1,
+      "state_hash": "59b153a8528f12397c5adb1b078a33f7550d30d21e18ed750648246c14d3492f",
+      "archived_at": null,
+      "created_at": "2026-09-09 08:20:38.699616+08:00",
+      "classification": "keep",
+      "reasons": [
+        "有谱系、固定测量来源或已保留恢复点引用。",
+        "项目含实验、研究文档或本人笔记；自由文本和分析附件中的引用未被扫描，建议保留直至人工核对。"
+      ],
+      "metadata": {
+        "checkpoints": {
+          "n": 1,
+          "bytes": "164354",
+          "pinned": 0
+        },
+        "inputs": {
+          "n": 64
+        },
+        "calibrations": {
+          "n": 1
+        }
+      },
+      "deletion_authorized": false
+    }
+  ],
+  "offset": 0,
+  "more": true,
+  "limitations": [
+    "字节统计不含完整 WAL、媒体及索引；网络投影是预算估计，不是可回收空间。",
+    "分析 JSON、笔记正文与旧大数据未展开扫描；未发现引用不等于已证明没有引用。",
+    "不按文件名、失败或零结果自动判断垃圾。归档仍保留数据，不释放磁盘。",
+    "本扫描不创建清理令牌、不删除数据；实际清理由用户在模型档案中预览并确认。"
+  ],
+  "database_growth_bytes": 1335943168,
+  "local_evidence_bytes": 13264515
+}

@@ -1,0 +1,61 @@
+{
+  "checked_at": "2026-09-09T10:11:49.832687+00:00",
+  "project_id": "7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd",
+  "parents": 25,
+  "calibration_jobs": 63,
+  "job_status_counts": [
+    {
+      "status": "done",
+      "n": 70
+    }
+  ],
+  "old_inventory_unchanged": true,
+  "all_source_heads_unchanged": true,
+  "representative_bundles": [
+    {
+      "calibration_id": "9b3dae4b-fc29-4431-b990-e3f5877d8ddc",
+      "copies": 19,
+      "bundle_sha256": "3d69d484c3ae5d2e3b7a0b9a6223c3a96a26f0c321631fc0e4cc44ce6f73f116"
+    },
+    {
+      "calibration_id": "2ed3cc8b-1678-44ef-a106-c30e4a364504",
+      "copies": 7,
+      "bundle_sha256": "c8a5d2d18f2e88ea0438c80e0ca8f83d84b0b88d621c559bc0e357d6b3b3f5aa"
+    },
+    {
+      "calibration_id": "e6dd3efd-439d-4d3c-af5c-87fb8ea181b8",
+      "copies": 31,
+      "bundle_sha256": "19b42f025f7fb2a191c40aa3edfc3a2c562360860a76b53706eeb8b3d6dc5480"
+    },
+    {
+      "calibration_id": "a805e7be-e652-44aa-8f6b-22875f71c064",
+      "copies": 7,
+      "bundle_sha256": "e3bb8fa1bcee9a7cecdf054b31e60a229bad0bb5deae27dcae7fc0788e01f76a"
+    }
+  ],
+  "database_growth_bytes": 510345216,
+  "local_evidence_bytes": 2503607,
+  "free_disk_bytes": {
+    "D:/": 40039571456,
+    "E:/": 50321846272
+  },
+  "core_changed": false,
+  "calibration_passed": false,
+  "report_id": "b57c37ee-5abd-4235-8627-17f72f3d9162",
+  "report_hash": "c34d8f89826c51a4a29f8a2ced48c485b5e705e97e3fee4efe6913f7811806d3",
+  "report_blocks": 5,
+  "results_note_revision": 1,
+  "quota_baseline_percent": 63,
+  "quota_final_percent": 65,
+  "quota_delta_percentage_points": 2,
+  "quota_note": "Account-wide approximate weekly usage, not per-experiment billing.",
+  "validation": {
+    "corpus_and_withheld_answers": true,
+    "observer_direction_and_missingness": true,
+    "python_compile": true,
+    "undefined_name_lint": true,
+    "native_report_render": true,
+    "scientific_figures_inspected": 2,
+    "live_browser": false
+  }
+}

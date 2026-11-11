@@ -1,0 +1,7 @@
+{
+  "windows": 72,
+  "node_rows": 4157,
+  "all_nodes": true,
+  "primary_converged_windows": 0,
+  "ranking": "last_activation, descending, tolerance=1e-12"
+}

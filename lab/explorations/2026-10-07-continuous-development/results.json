@@ -1,0 +1,490 @@
+{
+  "action_and_body_comparisons": [
+    {
+      "action_changed_frames": 958,
+      "body_changed_frames": 958,
+      "changed_frames": 958,
+      "endpoint_changes": [
+        {
+          "intervention": false,
+          "mode": "point",
+          "normal": true,
+          "target_index": 2,
+          "trial": 1
+        },
+        {
+          "intervention": false,
+          "mode": "both",
+          "normal": true,
+          "target_index": 0,
+          "trial": 3
+        },
+        {
+          "intervention": false,
+          "mode": "look",
+          "normal": true,
+          "target_index": 1,
+          "trial": 7
+        }
+      ],
+      "frames": 960,
+      "intervention": "s223-direct-aligned-correction-system-silence",
+      "maximum_absolute_difference": 1.7962010522332652,
+      "maximum_body_difference": 1.0291021689806399,
+      "maximum_command_difference": 1.7962010522332652,
+      "mean_absolute_difference": 0.2233834107706073,
+      "reference": "s223-direct-aligned-correction-system-normal",
+      "tolerance": 1e-07
+    },
+    {
+      "action_changed_frames": 0,
+      "body_changed_frames": 0,
+      "changed_frames": 0,
+      "endpoint_changes": [],
+      "frames": 960,
+      "intervention": "s223-direct-aligned-correction-system-rescue",
+      "maximum_absolute_difference": 0.0,
+      "maximum_body_difference": 0.0,
+      "maximum_command_difference": 0.0,
+      "mean_absolute_difference": 0.0,
+      "reference": "s223-direct-aligned-correction-system-normal",
+      "tolerance": 1e-07
+    }
+  ],
+  "created_or_restored": 16,
+  "stages": [
+    {
+      "case": "birth-223",
+      "device": "cuda:0",
+      "identity": "e62-source-223",
+      "parameters": 94316,
+      "runner": "7a751acdf3e60a3f89c3f5a9de236e2570dda359f270a30a78bac7e692fd770b",
+      "seed": 223,
+      "tools": "1043b27ddcb9181a03a159e2fb8578fc5e65d029352341179a6bf17a7ff1dc6e",
+      "wall_seconds": 4.271970300003886
+    },
+    {
+      "case": "e56-reference",
+      "correct": 6,
+      "n": 6,
+      "reached": 6,
+      "runner": "83edc2c7ee9d6e69cfb705252bde8423de16cc3dc26e94d5a1c4539d401d99f4",
+      "scope": "original evaluation assembly, not reconstruction of missing historical training state",
+      "tools": "1043b27ddcb9181a03a159e2fb8578fc5e65d029352341179a6bf17a7ff1dc6e",
+      "wall_seconds": 104.65692539990414
+    },
+    {
+      "case": "s223-direct-aligned",
+      "contacts": 70,
+      "device": "cuda:0",
+      "examples_seen": 2027,
+      "group": "direct",
+      "growth": {
+        "directed_density": 0.9276939276939277,
+        "edges": 153294,
+        "nodes": 407,
+        "sim_seconds": 416.0,
+        "unique_channels": 407
+      },
+      "identity": "e62-source-223/direct",
+      "lessons": 156,
+      "motor_steps": 4054,
+      "peripheral_replacements": 0,
+      "preschool_peripheral_updates": 0,
+      "resume_from": null,
+      "resumed_at_step": 0,
+      "runner": "5c07b688922b5805620071c53e6a936c7f7676bd3383388ff2ece0e2e06ef2af",
+      "schedule": {
+        "group": "direct",
+        "next_step": 159,
+        "schedule": "6499359c0261eb497b4783cfb2d2d6141d90d5a655be038fefebca34f9b030ac",
+        "schema": "threemind.developmental-curriculum/1"
+      },
+      "seed": 223,
+      "sim_seconds": 416.0,
+      "tools": "02af89320064064d34ae88d374caa8c770925fba5c8493b53e68fd7d8890411c",
+      "wall_seconds": 1585.7970259999856,
+      "whole_system_checkpoint": "E:\\WORKSPACE\\AgentWork\\threemind\\.work\\continuous-development-20261007\\cases\\s223-direct-aligned\\system"
+    },
+    {
+      "attempts": 12,
+      "case": "s223-direct-aligned-correction",
+      "corrected_trials": 11,
+      "group": "direct",
+      "motor_steps": 4912,
+      "own_attempts_end_reached": 1,
+      "peripheral_replacements": 0,
+      "runner": "bf671a8406bffb74192823bb6eb7f87188ad4c9bf8c89acdaa744b15f17c77d0",
+      "seed": 223,
+      "sim_seconds": 568.5,
+      "steps_before": 4054,
+      "tools": "90f95ab6682513fc3cee8fddd4bb691490dbf8175f7d452fc7ff9d0e372985b5",
+      "wall_seconds": 614.358549800003,
+      "whole_system_checkpoint": "E:\\WORKSPACE\\AgentWork\\threemind\\.work\\continuous-development-20261007\\cases\\s223-direct-aligned-correction\\system"
+    },
+    {
+      "by_task": {
+        "both": {
+          "end_reached": 1,
+          "ever_reached": 1,
+          "mean_eye_error_rad": 0.22357213426144446,
+          "mean_hand_error_m": 0.7143815320329531,
+          "mean_residence_s": 0.7875000000000001,
+          "n": 4,
+          "reached_from_outside": 1
+        },
+        "look": {
+          "end_reached": 1,
+          "ever_reached": 1,
+          "mean_eye_error_rad": 0.23626385751581386,
+          "mean_hand_error_m": 0.24666453547258907,
+          "mean_residence_s": 0.675,
+          "n": 4,
+          "reached_from_outside": 1
+        },
+        "point": {
+          "end_reached": 1,
+          "ever_reached": 1,
+          "mean_eye_error_rad": 0.14405289622505885,
+          "mean_hand_error_m": 0.8038617462060332,
+          "mean_residence_s": 0.7375,
+          "n": 4,
+          "reached_from_outside": 1
+        }
+      },
+      "case": "s223-direct-aligned-correction-system-normal",
+      "checkpoint": "system",
+      "cue_seconds": 0.75,
+      "end_reached": 3,
+      "ever_reached": 3,
+      "group": "direct",
+      "mean_eye_error_rad": 0.22991799588862916,
+      "mean_hand_error_m": 0.7591216391194932,
+      "mode": "normal",
+      "motor_steps": 4912,
+      "n": 12,
+      "runner": "4dbb4a796353bfc490d538ba3cefc6be2be014e9bc82b3ee84b75da17ba844db",
+      "seed": 223,
+      "silenced_edges": 0,
+      "tools": "90f95ab6682513fc3cee8fddd4bb691490dbf8175f7d452fc7ff9d0e372985b5",
+      "wall_seconds": 208.09788489993662,
+      "whole_system_checkpoint": "E:\\WORKSPACE\\AgentWork\\threemind\\.work\\continuous-development-20261007\\cases\\s223-direct-aligned-correction-system-normal\\system"
+    },
+    {
+      "by_task": {
+        "both": {
+          "end_reached": 1,
+          "ever_reached": 1,
+          "mean_eye_error_rad": 0.22357213426144446,
+          "mean_hand_error_m": 0.7143815320329531,
+          "mean_residence_s": 0.7875000000000001,
+          "n": 4,
+          "reached_from_outside": 1
+        },
+        "look": {
+          "end_reached": 1,
+          "ever_reached": 1,
+          "mean_eye_error_rad": 0.23626385751581386,
+          "mean_hand_error_m": 0.24666453547258907,
+          "mean_residence_s": 0.675,
+          "n": 4,
+          "reached_from_outside": 1
+        },
+        "point": {
+          "end_reached": 1,
+          "ever_reached": 1,
+          "mean_eye_error_rad": 0.14405289622505885,
+          "mean_hand_error_m": 0.8038617462060332,
+          "mean_residence_s": 0.7375,
+          "n": 4,
+          "reached_from_outside": 1
+        }
+      },
+      "case": "s223-direct-aligned-correction-system-rescue",
+      "checkpoint": "system",
+      "cue_seconds": 0.75,
+      "end_reached": 3,
+      "ever_reached": 3,
+      "group": "direct",
+      "mean_eye_error_rad": 0.22991799588862916,
+      "mean_hand_error_m": 0.7591216391194932,
+      "mode": "rescue",
+      "motor_steps": 4912,
+      "n": 12,
+      "runner": "b3df4bc0b4984779e25b195b640dd4518e15f1e6f70e4965eb6e490b354e1079",
+      "seed": 223,
+      "silenced_edges": 176257,
+      "tools": "90f95ab6682513fc3cee8fddd4bb691490dbf8175f7d452fc7ff9d0e372985b5",
+      "wall_seconds": 212.5622489999514,
+      "whole_system_checkpoint": "E:\\WORKSPACE\\AgentWork\\threemind\\.work\\continuous-development-20261007\\cases\\s223-direct-aligned-correction-system-rescue\\system"
+    },
+    {
+      "by_task": {
+        "both": {
+          "end_reached": 0,
+          "ever_reached": 0,
+          "mean_eye_error_rad": 0.20830192563973277,
+          "mean_hand_error_m": 1.0022057471236263,
+          "mean_residence_s": 0.0,
+          "n": 4,
+          "reached_from_outside": 0
+        },
+        "look": {
+          "end_reached": 0,
+          "ever_reached": 0,
+          "mean_eye_error_rad": 0.21957027684036146,
+          "mean_hand_error_m": 0.37865704355693647,
+          "mean_residence_s": 0.0,
+          "n": 4,
+          "reached_from_outside": 0
+        },
+        "point": {
+          "end_reached": 0,
+          "ever_reached": 0,
+          "mean_eye_error_rad": 0.09886424274494904,
+          "mean_hand_error_m": 0.8986766883517998,
+          "mean_residence_s": 0.0,
+          "n": 4,
+          "reached_from_outside": 0
+        }
+      },
+      "case": "s223-direct-aligned-correction-system-silence",
+      "checkpoint": "system",
+      "cue_seconds": 0.75,
+      "end_reached": 0,
+      "ever_reached": 0,
+      "group": "direct",
+      "mean_eye_error_rad": 0.21393610124004708,
+      "mean_hand_error_m": 0.9504412177377131,
+      "mode": "silence",
+      "motor_steps": 4912,
+      "n": 12,
+      "runner": "4dbb4a796353bfc490d538ba3cefc6be2be014e9bc82b3ee84b75da17ba844db",
+      "seed": 223,
+      "silenced_edges": 176257,
+      "tools": "90f95ab6682513fc3cee8fddd4bb691490dbf8175f7d452fc7ff9d0e372985b5",
+      "wall_seconds": 120.3244788000593,
+      "whole_system_checkpoint": "E:\\WORKSPACE\\AgentWork\\threemind\\.work\\continuous-development-20261007\\cases\\s223-direct-aligned-correction-system-silence\\system"
+    },
+    {
+      "by_task": {
+        "both": {
+          "end_reached": 0,
+          "ever_reached": 0,
+          "mean_eye_error_rad": 0.26574150538512836,
+          "mean_hand_error_m": 1.0477334435379717,
+          "mean_residence_s": 0.0,
+          "n": 4,
+          "reached_from_outside": 0
+        },
+        "look": {
+          "end_reached": 1,
+          "ever_reached": 1,
+          "mean_eye_error_rad": 0.23166031266575052,
+          "mean_hand_error_m": 0.344239851205869,
+          "mean_residence_s": 0.8250000000000001,
+          "n": 4,
+          "reached_from_outside": 0
+        },
+        "point": {
+          "end_reached": 0,
+          "ever_reached": 0,
+          "mean_eye_error_rad": 0.116860645786039,
+          "mean_hand_error_m": 0.9716541212172338,
+          "mean_residence_s": 0.0,
+          "n": 4,
+          "reached_from_outside": 0
+        }
+      },
+      "case": "s223-direct-aligned-system-normal",
+      "checkpoint": "system",
+      "cue_seconds": 0.75,
+      "end_reached": 1,
+      "ever_reached": 1,
+      "group": "direct",
+      "mean_eye_error_rad": 0.24870090902543945,
+      "mean_hand_error_m": 1.0096937823776029,
+      "mode": "normal",
+      "motor_steps": 4054,
+      "n": 12,
+      "runner": "cd49b022d465fd33bce7d951f228c91eaf66ae517086a1ee8040e3b95d2d16df",
+      "seed": 223,
+      "silenced_edges": 0,
+      "tools": "02af89320064064d34ae88d374caa8c770925fba5c8493b53e68fd7d8890411c",
+      "wall_seconds": 219.57278030004818,
+      "whole_system_checkpoint": "E:\\WORKSPACE\\AgentWork\\threemind\\.work\\continuous-development-20261007\\cases\\s223-direct-aligned-system-normal\\system"
+    },
+    {
+      "by_task": {
+        "both": {
+          "end_reached": 0,
+          "ever_reached": 0,
+          "mean_eye_error_rad": 0.21522502174815816,
+          "mean_hand_error_m": 0.6478130438424239,
+          "mean_residence_s": 0.0,
+          "n": 4,
+          "reached_from_outside": 0
+        },
+        "look": {
+          "end_reached": 0,
+          "ever_reached": 0,
+          "mean_eye_error_rad": 0.26299823363147196,
+          "mean_hand_error_m": 0.3833216108258609,
+          "mean_residence_s": 0.0,
+          "n": 4,
+          "reached_from_outside": 0
+        },
+        "point": {
+          "end_reached": 1,
+          "ever_reached": 1,
+          "mean_eye_error_rad": 0.08820962132722748,
+          "mean_hand_error_m": 0.55506200668173,
+          "mean_residence_s": 0.47500000000000003,
+          "n": 4,
+          "reached_from_outside": 1
+        }
+      },
+      "case": "s223-direct-aligned-system-visible-cue-normal",
+      "checkpoint": "system",
+      "cue_seconds": 4.0,
+      "end_reached": 1,
+      "ever_reached": 1,
+      "group": "direct",
+      "mean_eye_error_rad": 0.23911162768981506,
+      "mean_hand_error_m": 0.6014375252620768,
+      "mode": "normal",
+      "motor_steps": 4054,
+      "n": 12,
+      "recovered_after_save_error": true,
+      "runner": "cd49b022d465fd33bce7d951f228c91eaf66ae517086a1ee8040e3b95d2d16df",
+      "seed": 223,
+      "silenced_edges": 0,
+      "tools": "02af89320064064d34ae88d374caa8c770925fba5c8493b53e68fd7d8890411c",
+      "wall_seconds": 219.44214029994328,
+      "whole_system_checkpoint": "E:\\WORKSPACE\\AgentWork\\threemind\\.work\\continuous-development-20261007\\cases\\s223-direct-aligned-system-visible-cue-normal\\system"
+    }
+  ],
+  "stopped_attempts": [
+    {
+      "available_memory_bytes": 13973004288,
+      "case": "s223-direct-aligned-system-visible-cue-normal",
+      "error": "[WinError 5] 拒绝访问。: 'E:\\\\WORKSPACE\\\\AgentWork\\\\threemind\\\\.work\\\\continuous-development-20261007\\\\cases\\\\s223-direct-aligned-system-visible-cue-normal\\\\system.partial' -> 'E:\\\\WORKSPACE\\\\AgentWork\\\\threemind\\\\.work\\\\continuous-development-20261007\\\\cases\\\\s223-direct-aligned-system-visible-cue-normal\\\\system'",
+      "process_rss_bytes": 1410592768,
+      "wall_seconds": 219.44214029994328
+    },
+    {
+      "case": "s223-explore",
+      "error": "study STOP file",
+      "wall_seconds": 1095.1167779000243
+    },
+    {
+      "case": "s223-explore-aligned",
+      "error": "memory reserve",
+      "wall_seconds": 1087.528522699955
+    }
+  ],
+  "total_compute_minutes": 91.19548842333025,
+  "calibration_checks": {
+    "motor-calibration.json": {
+      "schema": "threemind.motor-calibration-check/1",
+      "identity": "e62-source-223/direct",
+      "motor_steps": 4054,
+      "examples_seen": 2027,
+      "retained_examples": 256,
+      "scope": "retained supervised examples, not held-out behavior",
+      "input": "unmodified raw Core activity windows",
+      "mean_squared_pose_error": 0.043016958981752396,
+      "mean_absolute_error_by_output": [
+        0.10530119389295578,
+        0.12267237901687622,
+        0.14120367169380188,
+        0.16535773873329163
+      ],
+      "eye_fraction_error_median": 0.14204975962638855,
+      "hand_target_error_m_median": 0.1677301824092865,
+      "outputs": [
+        "eye_yaw_fraction",
+        "eye_pitch_fraction",
+        "hand_x_m",
+        "hand_y_m"
+      ]
+    },
+    "motor-calibration-after-correction.json": {
+      "schema": "threemind.motor-calibration-check/1",
+      "identity": "e62-source-223/direct",
+      "motor_steps": 4912,
+      "examples_seen": 2456,
+      "retained_examples": 256,
+      "scope": "retained supervised examples, not held-out behavior",
+      "input": "unmodified raw Core activity windows",
+      "mean_squared_pose_error": 0.005525719374418259,
+      "mean_absolute_error_by_output": [
+        0.03874509409070015,
+        0.04519142583012581,
+        0.03945215791463852,
+        0.058447353541851044
+      ],
+      "eye_fraction_error_median": 0.050712950527668,
+      "hand_target_error_m_median": 0.06879150867462158,
+      "outputs": [
+        "eye_yaw_fraction",
+        "eye_pitch_fraction",
+        "hand_x_m",
+        "hand_y_m"
+      ]
+    },
+    "calibration-transfer.json": {
+      "scope": "Same individual, frozen model and retained teacher caches; no Core or learning; not independent behavior",
+      "before_on_after_cache": {
+        "schema": "threemind.motor-calibration-check/1",
+        "identity": "e62-source-223/direct",
+        "motor_steps": 4054,
+        "examples_seen": 2027,
+        "retained_examples": 256,
+        "scope": "retained supervised examples, not held-out behavior",
+        "input": "unmodified raw Core activity windows",
+        "example_source_motor_steps": 4912,
+        "mean_squared_pose_error": 0.3751877546310425,
+        "mean_absolute_error_by_output": [
+          0.6582799553871155,
+          0.2779778838157654,
+          0.595747709274292,
+          0.4762860834598541
+        ],
+        "eye_fraction_error_median": 0.7690459489822388,
+        "hand_target_error_m_median": 0.8675374984741211,
+        "outputs": [
+          "eye_yaw_fraction",
+          "eye_pitch_fraction",
+          "hand_x_m",
+          "hand_y_m"
+        ]
+      },
+      "after_on_before_cache": {
+        "schema": "threemind.motor-calibration-check/1",
+        "identity": "e62-source-223/direct",
+        "motor_steps": 4912,
+        "examples_seen": 2456,
+        "retained_examples": 256,
+        "scope": "retained supervised examples, not held-out behavior",
+        "input": "unmodified raw Core activity windows",
+        "example_source_motor_steps": 4054,
+        "mean_squared_pose_error": 0.1364976465702057,
+        "mean_absolute_error_by_output": [
+          0.3808017075061798,
+          0.2073267102241516,
+          0.25884443521499634,
+          0.24055518209934235
+        ],
+        "eye_fraction_error_median": 0.4092508554458618,
+        "hand_target_error_m_median": 0.34698396921157837,
+        "outputs": [
+          "eye_yaw_fraction",
+          "eye_pitch_fraction",
+          "hand_x_m",
+          "hand_y_m"
+        ]
+      }
+    }
+  }
+}

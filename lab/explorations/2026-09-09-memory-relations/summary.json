@@ -1,0 +1,1878 @@
+{
+  "memory_and_sensitivity": [
+    {
+      "family": "memory",
+      "mode": "anonymous-distributed",
+      "route": "birth",
+      "repetitions": 0,
+      "arm": "paired",
+      "seed_count": 8,
+      "mean": 0.0,
+      "minimum_seed_mean": 0.0,
+      "maximum_seed_mean": 0.0,
+      "seed_values": {
+        "41203": 0.0,
+        "41204": 0.0,
+        "41205": 0.0,
+        "41206": 0.0,
+        "41207": 0.0,
+        "41208": 0.0,
+        "41209": 0.0,
+        "41210": 0.0
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "anonymous-distributed",
+      "route": "birth",
+      "repetitions": 1,
+      "arm": "paired",
+      "seed_count": 8,
+      "mean": 0.0,
+      "minimum_seed_mean": 0.0,
+      "maximum_seed_mean": 0.0,
+      "seed_values": {
+        "41203": 0.0,
+        "41204": 0.0,
+        "41205": 0.0,
+        "41206": 0.0,
+        "41207": 0.0,
+        "41208": 0.0,
+        "41209": 0.0,
+        "41210": 0.0
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "anonymous-distributed",
+      "route": "birth",
+      "repetitions": 1,
+      "arm": "mixed",
+      "seed_count": 8,
+      "mean": 0.0,
+      "minimum_seed_mean": 0.0,
+      "maximum_seed_mean": 0.0,
+      "seed_values": {
+        "41203": 0.0,
+        "41204": 0.0,
+        "41205": 0.0,
+        "41206": 0.0,
+        "41207": 0.0,
+        "41208": 0.0,
+        "41209": 0.0,
+        "41210": 0.0
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "anonymous-distributed",
+      "route": "birth",
+      "repetitions": 1,
+      "arm": "swapped",
+      "seed_count": 8,
+      "mean": 0.0,
+      "minimum_seed_mean": 0.0,
+      "maximum_seed_mean": 0.0,
+      "seed_values": {
+        "41203": 0.0,
+        "41204": 0.0,
+        "41205": 0.0,
+        "41206": 0.0,
+        "41207": 0.0,
+        "41208": 0.0,
+        "41209": 0.0,
+        "41210": 0.0
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "anonymous-distributed",
+      "route": "birth",
+      "repetitions": 4,
+      "arm": "paired",
+      "seed_count": 8,
+      "mean": 0.0,
+      "minimum_seed_mean": 0.0,
+      "maximum_seed_mean": 0.0,
+      "seed_values": {
+        "41203": 0.0,
+        "41204": 0.0,
+        "41205": 0.0,
+        "41206": 0.0,
+        "41207": 0.0,
+        "41208": 0.0,
+        "41209": 0.0,
+        "41210": 0.0
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "anonymous-distributed",
+      "route": "birth",
+      "repetitions": 4,
+      "arm": "mixed",
+      "seed_count": 8,
+      "mean": 0.0,
+      "minimum_seed_mean": 0.0,
+      "maximum_seed_mean": 0.0,
+      "seed_values": {
+        "41203": 0.0,
+        "41204": 0.0,
+        "41205": 0.0,
+        "41206": 0.0,
+        "41207": 0.0,
+        "41208": 0.0,
+        "41209": 0.0,
+        "41210": 0.0
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "anonymous-distributed",
+      "route": "birth",
+      "repetitions": 4,
+      "arm": "swapped",
+      "seed_count": 8,
+      "mean": 0.0,
+      "minimum_seed_mean": 0.0,
+      "maximum_seed_mean": 0.0,
+      "seed_values": {
+        "41203": 0.0,
+        "41204": 0.0,
+        "41205": 0.0,
+        "41206": 0.0,
+        "41207": 0.0,
+        "41208": 0.0,
+        "41209": 0.0,
+        "41210": 0.0
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "anonymous-distributed",
+      "route": "birth",
+      "repetitions": 12,
+      "arm": "paired",
+      "seed_count": 8,
+      "mean": 0.0,
+      "minimum_seed_mean": 0.0,
+      "maximum_seed_mean": 0.0,
+      "seed_values": {
+        "41203": 0.0,
+        "41204": 0.0,
+        "41205": 0.0,
+        "41206": 0.0,
+        "41207": 0.0,
+        "41208": 0.0,
+        "41209": 0.0,
+        "41210": 0.0
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "anonymous-distributed",
+      "route": "birth",
+      "repetitions": 12,
+      "arm": "mixed",
+      "seed_count": 8,
+      "mean": 0.0,
+      "minimum_seed_mean": 0.0,
+      "maximum_seed_mean": 0.0,
+      "seed_values": {
+        "41203": 0.0,
+        "41204": 0.0,
+        "41205": 0.0,
+        "41206": 0.0,
+        "41207": 0.0,
+        "41208": 0.0,
+        "41209": 0.0,
+        "41210": 0.0
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "anonymous-distributed",
+      "route": "birth",
+      "repetitions": 12,
+      "arm": "swapped",
+      "seed_count": 8,
+      "mean": 0.0,
+      "minimum_seed_mean": 0.0,
+      "maximum_seed_mean": 0.0,
+      "seed_values": {
+        "41203": 0.0,
+        "41204": 0.0,
+        "41205": 0.0,
+        "41206": 0.0,
+        "41207": 0.0,
+        "41208": 0.0,
+        "41209": 0.0,
+        "41210": 0.0
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "anonymous-distributed",
+      "route": "birth",
+      "repetitions": 12,
+      "arm": "learning_off",
+      "seed_count": 8,
+      "mean": 0.0,
+      "minimum_seed_mean": 0.0,
+      "maximum_seed_mean": 0.0,
+      "seed_values": {
+        "41203": 0.0,
+        "41204": 0.0,
+        "41205": 0.0,
+        "41206": 0.0,
+        "41207": 0.0,
+        "41208": 0.0,
+        "41209": 0.0,
+        "41210": 0.0
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "anonymous-distributed",
+      "route": "live",
+      "repetitions": 0,
+      "arm": "paired",
+      "seed_count": 8,
+      "mean": 0.0,
+      "minimum_seed_mean": 0.0,
+      "maximum_seed_mean": 0.0,
+      "seed_values": {
+        "41203": 0.0,
+        "41204": 0.0,
+        "41205": 0.0,
+        "41206": 0.0,
+        "41207": 0.0,
+        "41208": 0.0,
+        "41209": 0.0,
+        "41210": 0.0
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "anonymous-distributed",
+      "route": "live",
+      "repetitions": 1,
+      "arm": "paired",
+      "seed_count": 8,
+      "mean": 0.0,
+      "minimum_seed_mean": 0.0,
+      "maximum_seed_mean": 0.0,
+      "seed_values": {
+        "41203": 0.0,
+        "41204": 0.0,
+        "41205": 0.0,
+        "41206": 0.0,
+        "41207": 0.0,
+        "41208": 0.0,
+        "41209": 0.0,
+        "41210": 0.0
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "anonymous-distributed",
+      "route": "live",
+      "repetitions": 1,
+      "arm": "mixed",
+      "seed_count": 8,
+      "mean": 0.0,
+      "minimum_seed_mean": 0.0,
+      "maximum_seed_mean": 0.0,
+      "seed_values": {
+        "41203": 0.0,
+        "41204": 0.0,
+        "41205": 0.0,
+        "41206": 0.0,
+        "41207": 0.0,
+        "41208": 0.0,
+        "41209": 0.0,
+        "41210": 0.0
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "anonymous-distributed",
+      "route": "live",
+      "repetitions": 1,
+      "arm": "swapped",
+      "seed_count": 8,
+      "mean": 0.0,
+      "minimum_seed_mean": 0.0,
+      "maximum_seed_mean": 0.0,
+      "seed_values": {
+        "41203": 0.0,
+        "41204": 0.0,
+        "41205": 0.0,
+        "41206": 0.0,
+        "41207": 0.0,
+        "41208": 0.0,
+        "41209": 0.0,
+        "41210": 0.0
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "anonymous-distributed",
+      "route": "live",
+      "repetitions": 4,
+      "arm": "paired",
+      "seed_count": 8,
+      "mean": 0.0,
+      "minimum_seed_mean": 0.0,
+      "maximum_seed_mean": 0.0,
+      "seed_values": {
+        "41203": 0.0,
+        "41204": 0.0,
+        "41205": 0.0,
+        "41206": 0.0,
+        "41207": 0.0,
+        "41208": 0.0,
+        "41209": 0.0,
+        "41210": 0.0
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "anonymous-distributed",
+      "route": "live",
+      "repetitions": 4,
+      "arm": "mixed",
+      "seed_count": 8,
+      "mean": 0.0,
+      "minimum_seed_mean": 0.0,
+      "maximum_seed_mean": 0.0,
+      "seed_values": {
+        "41203": 0.0,
+        "41204": 0.0,
+        "41205": 0.0,
+        "41206": 0.0,
+        "41207": 0.0,
+        "41208": 0.0,
+        "41209": 0.0,
+        "41210": 0.0
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "anonymous-distributed",
+      "route": "live",
+      "repetitions": 4,
+      "arm": "swapped",
+      "seed_count": 8,
+      "mean": 0.0,
+      "minimum_seed_mean": 0.0,
+      "maximum_seed_mean": 0.0,
+      "seed_values": {
+        "41203": 0.0,
+        "41204": 0.0,
+        "41205": 0.0,
+        "41206": 0.0,
+        "41207": 0.0,
+        "41208": 0.0,
+        "41209": 0.0,
+        "41210": 0.0
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "anonymous-distributed",
+      "route": "live",
+      "repetitions": 12,
+      "arm": "paired",
+      "seed_count": 8,
+      "mean": 0.0,
+      "minimum_seed_mean": 0.0,
+      "maximum_seed_mean": 0.0,
+      "seed_values": {
+        "41203": 0.0,
+        "41204": 0.0,
+        "41205": 0.0,
+        "41206": 0.0,
+        "41207": 0.0,
+        "41208": 0.0,
+        "41209": 0.0,
+        "41210": 0.0
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "anonymous-distributed",
+      "route": "live",
+      "repetitions": 12,
+      "arm": "mixed",
+      "seed_count": 8,
+      "mean": 0.0,
+      "minimum_seed_mean": 0.0,
+      "maximum_seed_mean": 0.0,
+      "seed_values": {
+        "41203": 0.0,
+        "41204": 0.0,
+        "41205": 0.0,
+        "41206": 0.0,
+        "41207": 0.0,
+        "41208": 0.0,
+        "41209": 0.0,
+        "41210": 0.0
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "anonymous-distributed",
+      "route": "live",
+      "repetitions": 12,
+      "arm": "swapped",
+      "seed_count": 8,
+      "mean": 0.0,
+      "minimum_seed_mean": 0.0,
+      "maximum_seed_mean": 0.0,
+      "seed_values": {
+        "41203": 0.0,
+        "41204": 0.0,
+        "41205": 0.0,
+        "41206": 0.0,
+        "41207": 0.0,
+        "41208": 0.0,
+        "41209": 0.0,
+        "41210": 0.0
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "anonymous-distributed",
+      "route": "live",
+      "repetitions": 12,
+      "arm": "learning_off",
+      "seed_count": 8,
+      "mean": 0.0,
+      "minimum_seed_mean": 0.0,
+      "maximum_seed_mean": 0.0,
+      "seed_values": {
+        "41203": 0.0,
+        "41204": 0.0,
+        "41205": 0.0,
+        "41206": 0.0,
+        "41207": 0.0,
+        "41208": 0.0,
+        "41209": 0.0,
+        "41210": 0.0
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "literal-character",
+      "route": "birth",
+      "repetitions": 0,
+      "arm": "paired",
+      "seed_count": 2,
+      "mean": 0.0,
+      "minimum_seed_mean": 0.0,
+      "maximum_seed_mean": 0.0,
+      "seed_values": {
+        "41203": 0.0,
+        "41204": 0.0
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "literal-character",
+      "route": "birth",
+      "repetitions": 1,
+      "arm": "paired",
+      "seed_count": 2,
+      "mean": 0.004836644670047083,
+      "minimum_seed_mean": 0.004836644670047083,
+      "maximum_seed_mean": 0.004836644670047083,
+      "seed_values": {
+        "41203": 0.004836644670047083,
+        "41204": 0.004836644670047083
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "literal-character",
+      "route": "birth",
+      "repetitions": 1,
+      "arm": "mixed",
+      "seed_count": 2,
+      "mean": 0.004836644670047083,
+      "minimum_seed_mean": 0.004836644670047083,
+      "maximum_seed_mean": 0.004836644670047083,
+      "seed_values": {
+        "41203": 0.004836644670047083,
+        "41204": 0.004836644670047083
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "literal-character",
+      "route": "birth",
+      "repetitions": 1,
+      "arm": "swapped",
+      "seed_count": 2,
+      "mean": -0.004836644670047083,
+      "minimum_seed_mean": -0.004836644670047083,
+      "maximum_seed_mean": -0.004836644670047083,
+      "seed_values": {
+        "41203": -0.004836644670047083,
+        "41204": -0.004836644670047083
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "literal-character",
+      "route": "birth",
+      "repetitions": 4,
+      "arm": "paired",
+      "seed_count": 2,
+      "mean": 0.005668324367424955,
+      "minimum_seed_mean": 0.005658263300826351,
+      "maximum_seed_mean": 0.005678385434023559,
+      "seed_values": {
+        "41203": 0.005678385434023559,
+        "41204": 0.005658263300826351
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "literal-character",
+      "route": "birth",
+      "repetitions": 4,
+      "arm": "mixed",
+      "seed_count": 2,
+      "mean": 0.002082617503246513,
+      "minimum_seed_mean": 0.0020826013155707795,
+      "maximum_seed_mean": 0.0020826336909222473,
+      "seed_values": {
+        "41203": 0.0020826336909222473,
+        "41204": 0.0020826013155707795
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "literal-character",
+      "route": "birth",
+      "repetitions": 4,
+      "arm": "swapped",
+      "seed_count": 2,
+      "mean": -0.005668324395102658,
+      "minimum_seed_mean": -0.0056783854893789655,
+      "maximum_seed_mean": -0.005658263300826351,
+      "seed_values": {
+        "41203": -0.0056783854893789655,
+        "41204": -0.005658263300826351
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "literal-character",
+      "route": "birth",
+      "repetitions": 12,
+      "arm": "paired",
+      "seed_count": 2,
+      "mean": 0.009516136174395966,
+      "minimum_seed_mean": 0.009483171277671839,
+      "maximum_seed_mean": 0.009549101071120093,
+      "seed_values": {
+        "41203": 0.009483171277671839,
+        "41204": 0.009549101071120093
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "literal-character",
+      "route": "birth",
+      "repetitions": 12,
+      "arm": "mixed",
+      "seed_count": 2,
+      "mean": 0.00044373378696621656,
+      "minimum_seed_mean": 0.0004410197873806112,
+      "maximum_seed_mean": 0.00044644778655182193,
+      "seed_values": {
+        "41203": 0.00044644778655182193,
+        "41204": 0.0004410197873806112
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "literal-character",
+      "route": "birth",
+      "repetitions": 12,
+      "arm": "swapped",
+      "seed_count": 2,
+      "mean": -0.009516136330233614,
+      "minimum_seed_mean": -0.009549101071120093,
+      "maximum_seed_mean": -0.009483171589347136,
+      "seed_values": {
+        "41203": -0.009483171589347136,
+        "41204": -0.009549101071120093
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "literal-character",
+      "route": "birth",
+      "repetitions": 12,
+      "arm": "learning_off",
+      "seed_count": 2,
+      "mean": 0.0,
+      "minimum_seed_mean": 0.0,
+      "maximum_seed_mean": 0.0,
+      "seed_values": {
+        "41203": 0.0,
+        "41204": 0.0
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "literal-character",
+      "route": "live",
+      "repetitions": 0,
+      "arm": "paired",
+      "seed_count": 2,
+      "mean": 0.0,
+      "minimum_seed_mean": 0.0,
+      "maximum_seed_mean": 0.0,
+      "seed_values": {
+        "41203": 0.0,
+        "41204": 0.0
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "literal-character",
+      "route": "live",
+      "repetitions": 1,
+      "arm": "paired",
+      "seed_count": 2,
+      "mean": 0.004830024954054147,
+      "minimum_seed_mean": 0.004830024954054147,
+      "maximum_seed_mean": 0.004830024954054147,
+      "seed_values": {
+        "41203": 0.004830024954054147,
+        "41204": 0.004830024954054147
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "literal-character",
+      "route": "live",
+      "repetitions": 1,
+      "arm": "mixed",
+      "seed_count": 2,
+      "mean": 0.004830024954054147,
+      "minimum_seed_mean": 0.004830024954054147,
+      "maximum_seed_mean": 0.004830024954054147,
+      "seed_values": {
+        "41203": 0.004830024954054147,
+        "41204": 0.004830024954054147
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "literal-character",
+      "route": "live",
+      "repetitions": 1,
+      "arm": "swapped",
+      "seed_count": 2,
+      "mean": -0.004830024954127434,
+      "minimum_seed_mean": -0.00483002495420072,
+      "maximum_seed_mean": -0.004830024954054147,
+      "seed_values": {
+        "41203": -0.00483002495420072,
+        "41204": -0.004830024954054147
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "literal-character",
+      "route": "live",
+      "repetitions": 4,
+      "arm": "paired",
+      "seed_count": 2,
+      "mean": 0.00566082791042263,
+      "minimum_seed_mean": 0.005650798222500164,
+      "maximum_seed_mean": 0.005670857598345096,
+      "seed_values": {
+        "41203": 0.005670857598345096,
+        "41204": 0.005650798222500164
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "literal-character",
+      "route": "live",
+      "repetitions": 4,
+      "arm": "mixed",
+      "seed_count": 2,
+      "mean": 0.002079618800046603,
+      "minimum_seed_mean": 0.0020796034080719636,
+      "maximum_seed_mean": 0.002079634192021242,
+      "seed_values": {
+        "41203": 0.002079634192021242,
+        "41204": 0.0020796034080719636
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "literal-character",
+      "route": "live",
+      "repetitions": 4,
+      "arm": "swapped",
+      "seed_count": 2,
+      "mean": -0.005660827937643549,
+      "minimum_seed_mean": -0.0056708576527869335,
+      "maximum_seed_mean": -0.005650798222500164,
+      "seed_values": {
+        "41203": -0.0056708576527869335,
+        "41204": -0.005650798222500164
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "literal-character",
+      "route": "live",
+      "repetitions": 12,
+      "arm": "paired",
+      "seed_count": 2,
+      "mean": 0.00950005319041157,
+      "minimum_seed_mean": 0.009467186114672744,
+      "maximum_seed_mean": 0.009532920266150397,
+      "seed_values": {
+        "41203": 0.009467186114672744,
+        "41204": 0.009532920266150397
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "literal-character",
+      "route": "live",
+      "repetitions": 12,
+      "arm": "mixed",
+      "seed_count": 2,
+      "mean": 0.00044299547265028616,
+      "minimum_seed_mean": 0.00044028939635425363,
+      "maximum_seed_mean": 0.0004457015489463187,
+      "seed_values": {
+        "41203": 0.0004457015489463187,
+        "41204": 0.00044028939635425363
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "literal-character",
+      "route": "live",
+      "repetitions": 12,
+      "arm": "swapped",
+      "seed_count": 2,
+      "mean": -0.009500053346145851,
+      "minimum_seed_mean": -0.009532920266150397,
+      "maximum_seed_mean": -0.009467186426141305,
+      "seed_values": {
+        "41203": -0.009467186426141305,
+        "41204": -0.009532920266150397
+      }
+    },
+    {
+      "family": "memory",
+      "mode": "literal-character",
+      "route": "live",
+      "repetitions": 12,
+      "arm": "learning_off",
+      "seed_count": 2,
+      "mean": 0.0,
+      "minimum_seed_mean": 0.0,
+      "maximum_seed_mean": 0.0,
+      "seed_values": {
+        "41203": 0.0,
+        "41204": 0.0
+      }
+    },
+    {
+      "family": "sensitivity",
+      "intensity": 2,
+      "arm": "paired",
+      "seed_count": 2,
+      "mean": 0.0010813424437577553,
+      "seed_values": {
+        "41203": 0.0014130589877313828,
+        "41204": 0.0007496258997841277
+      }
+    },
+    {
+      "family": "sensitivity",
+      "intensity": 2,
+      "arm": "mixed",
+      "seed_count": 2,
+      "mean": -1.624136930570556e-05,
+      "seed_values": {
+        "41203": 2.0637087395080795e-05,
+        "41204": -5.3119826006491915e-05
+      }
+    },
+    {
+      "family": "sensitivity",
+      "intensity": 2,
+      "arm": "swapped",
+      "seed_count": 2,
+      "mean": -0.0009238279284872254,
+      "seed_values": {
+        "41203": -0.001085239858613554,
+        "41204": -0.0007624159983608967
+      }
+    },
+    {
+      "family": "sensitivity",
+      "intensity": 2,
+      "arm": "learning_off",
+      "seed_count": 2,
+      "mean": 0.0,
+      "seed_values": {
+        "41203": 0.0,
+        "41204": 0.0
+      }
+    },
+    {
+      "family": "sensitivity",
+      "intensity": 4,
+      "arm": "paired",
+      "seed_count": 2,
+      "mean": 0.011587938940713874,
+      "seed_values": {
+        "41203": 0.013592809444121194,
+        "41204": 0.009583068437306552
+      }
+    },
+    {
+      "family": "sensitivity",
+      "intensity": 4,
+      "arm": "mixed",
+      "seed_count": 2,
+      "mean": 0.000845063113679888,
+      "seed_values": {
+        "41203": 0.0009122401644919339,
+        "41204": 0.0007778860628678422
+      }
+    },
+    {
+      "family": "sensitivity",
+      "intensity": 4,
+      "arm": "swapped",
+      "seed_count": 2,
+      "mean": -0.010819450823834452,
+      "seed_values": {
+        "41203": -0.01233267391216222,
+        "41204": -0.009306227735506684
+      }
+    },
+    {
+      "family": "sensitivity",
+      "intensity": 4,
+      "arm": "learning_off",
+      "seed_count": 2,
+      "mean": 0.0,
+      "seed_values": {
+        "41203": 0.0,
+        "41204": 0.0
+      }
+    }
+  ],
+  "relations": [
+    {
+      "seed": 41203,
+      "arm": "correct",
+      "query": "Z的爷爷",
+      "target": "X",
+      "target_score": 0.0,
+      "father_score": 0.0,
+      "unrelated_score": 0.0,
+      "target_minus_unrelated": 0.0,
+      "grandfather_minus_father": 0.0,
+      "strict_grandfather_winner": false,
+      "probe_run_id": "1064162c-0efe-4a86-b21e-9565f8b478c4"
+    },
+    {
+      "seed": 41203,
+      "arm": "correct",
+      "query": "Z的父亲",
+      "target": "X",
+      "target_score": 0.0,
+      "father_score": 0.0,
+      "unrelated_score": 0.0,
+      "target_minus_unrelated": 0.0,
+      "grandfather_minus_father": 0.0,
+      "strict_grandfather_winner": false,
+      "probe_run_id": "11ca5cce-aa1c-42fe-a86e-7931d0f4c374"
+    },
+    {
+      "seed": 41203,
+      "arm": "correct",
+      "query": "Z",
+      "target": "X",
+      "target_score": 0.0,
+      "father_score": 0.0,
+      "unrelated_score": 0.0,
+      "target_minus_unrelated": 0.0,
+      "grandfather_minus_father": 0.0,
+      "strict_grandfather_winner": false,
+      "probe_run_id": "1f696534-89bf-46c6-9030-16fae32ee2a9"
+    },
+    {
+      "seed": 41203,
+      "arm": "correct",
+      "query": "W的爷爷",
+      "target": "U",
+      "target_score": 0.0,
+      "father_score": 0.0,
+      "unrelated_score": 0.0,
+      "target_minus_unrelated": 0.0,
+      "grandfather_minus_father": 0.0,
+      "strict_grandfather_winner": false,
+      "probe_run_id": "e92397bd-2a64-461b-870b-1ef4484e1792"
+    },
+    {
+      "seed": 41203,
+      "arm": "correct",
+      "query": "W的父亲",
+      "target": "U",
+      "target_score": 0.0,
+      "father_score": 0.0,
+      "unrelated_score": 0.0,
+      "target_minus_unrelated": 0.0,
+      "grandfather_minus_father": 0.0,
+      "strict_grandfather_winner": false,
+      "probe_run_id": "44a77e24-bd67-4cb8-b746-33f8b0b67b8b"
+    },
+    {
+      "seed": 41203,
+      "arm": "correct",
+      "query": "W",
+      "target": "U",
+      "target_score": 0.0,
+      "father_score": 0.0,
+      "unrelated_score": 0.0,
+      "target_minus_unrelated": 0.0,
+      "grandfather_minus_father": 0.0,
+      "strict_grandfather_winner": false,
+      "probe_run_id": "7ca9f6a1-c442-42e3-96b6-67afdac84d06"
+    },
+    {
+      "seed": 41203,
+      "arm": "wrong_template",
+      "query": "Z的爷爷",
+      "target": "X",
+      "target_score": 0.0,
+      "father_score": 0.0,
+      "unrelated_score": 0.0,
+      "target_minus_unrelated": 0.0,
+      "grandfather_minus_father": 0.0,
+      "strict_grandfather_winner": false,
+      "probe_run_id": "e873c487-8409-40e7-a57d-92f72a7dd147"
+    },
+    {
+      "seed": 41203,
+      "arm": "wrong_template",
+      "query": "Z的父亲",
+      "target": "X",
+      "target_score": 0.0,
+      "father_score": 0.0,
+      "unrelated_score": 0.0,
+      "target_minus_unrelated": 0.0,
+      "grandfather_minus_father": 0.0,
+      "strict_grandfather_winner": false,
+      "probe_run_id": "23df0f8d-61a9-429a-81bf-ecf332cbd8be"
+    },
+    {
+      "seed": 41203,
+      "arm": "wrong_template",
+      "query": "Z",
+      "target": "X",
+      "target_score": 0.0,
+      "father_score": 0.0,
+      "unrelated_score": 0.0,
+      "target_minus_unrelated": 0.0,
+      "grandfather_minus_father": 0.0,
+      "strict_grandfather_winner": false,
+      "probe_run_id": "a17cacf6-e7ff-4910-bf0a-0226b8746840"
+    },
+    {
+      "seed": 41203,
+      "arm": "wrong_template",
+      "query": "W的爷爷",
+      "target": "U",
+      "target_score": 0.0,
+      "father_score": 0.0,
+      "unrelated_score": 0.0,
+      "target_minus_unrelated": 0.0,
+      "grandfather_minus_father": 0.0,
+      "strict_grandfather_winner": false,
+      "probe_run_id": "422b3985-e0c6-4ce3-a243-af1a0a6b8a2e"
+    },
+    {
+      "seed": 41203,
+      "arm": "wrong_template",
+      "query": "W的父亲",
+      "target": "U",
+      "target_score": 0.0,
+      "father_score": 0.0,
+      "unrelated_score": 0.0,
+      "target_minus_unrelated": 0.0,
+      "grandfather_minus_father": 0.0,
+      "strict_grandfather_winner": false,
+      "probe_run_id": "72bb40e3-b192-4807-84fa-d0313c50e727"
+    },
+    {
+      "seed": 41203,
+      "arm": "wrong_template",
+      "query": "W",
+      "target": "U",
+      "target_score": 0.0,
+      "father_score": 0.0,
+      "unrelated_score": 0.0,
+      "target_minus_unrelated": 0.0,
+      "grandfather_minus_father": 0.0,
+      "strict_grandfather_winner": false,
+      "probe_run_id": "79fee777-e2c9-4143-854a-2aa4f23947e1"
+    },
+    {
+      "seed": 41203,
+      "arm": "reversed_chain",
+      "query": "Z的爷爷",
+      "target": "X",
+      "target_score": 0.0,
+      "father_score": 0.0,
+      "unrelated_score": 0.0,
+      "target_minus_unrelated": 0.0,
+      "grandfather_minus_father": 0.0,
+      "strict_grandfather_winner": false,
+      "probe_run_id": "544004b2-4b6a-4d46-aaa2-1f3eb8ef7ac2"
+    },
+    {
+      "seed": 41203,
+      "arm": "reversed_chain",
+      "query": "Z的父亲",
+      "target": "X",
+      "target_score": 0.0,
+      "father_score": 0.0,
+      "unrelated_score": 0.0,
+      "target_minus_unrelated": 0.0,
+      "grandfather_minus_father": 0.0,
+      "strict_grandfather_winner": false,
+      "probe_run_id": "5625dafa-3502-4bb6-b80b-3df3120fbdc4"
+    },
+    {
+      "seed": 41203,
+      "arm": "reversed_chain",
+      "query": "Z",
+      "target": "X",
+      "target_score": 0.0,
+      "father_score": 0.0,
+      "unrelated_score": 0.0,
+      "target_minus_unrelated": 0.0,
+      "grandfather_minus_father": 0.0,
+      "strict_grandfather_winner": false,
+      "probe_run_id": "a257125b-4d83-418e-8c3c-0f02ff4782fe"
+    },
+    {
+      "seed": 41203,
+      "arm": "reversed_chain",
+      "query": "W的爷爷",
+      "target": "U",
+      "target_score": 0.0,
+      "father_score": 0.0,
+      "unrelated_score": 0.0,
+      "target_minus_unrelated": 0.0,
+      "grandfather_minus_father": 0.0,
+      "strict_grandfather_winner": false,
+      "probe_run_id": "94fa57b9-44d9-477c-9d54-5806cd71e47c"
+    },
+    {
+      "seed": 41203,
+      "arm": "reversed_chain",
+      "query": "W的父亲",
+      "target": "U",
+      "target_score": 0.0,
+      "father_score": 0.0,
+      "unrelated_score": 0.0,
+      "target_minus_unrelated": 0.0,
+      "grandfather_minus_father": 0.0,
+      "strict_grandfather_winner": false,
+      "probe_run_id": "66587287-21cd-4580-b4bd-0eb29aec73ff"
+    },
+    {
+      "seed": 41203,
+      "arm": "reversed_chain",
+      "query": "W",
+      "target": "U",
+      "target_score": 0.0,
+      "father_score": 0.0,
+      "unrelated_score": 0.0,
+      "target_minus_unrelated": 0.0,
+      "grandfather_minus_father": 0.0,
+      "strict_grandfather_winner": false,
+      "probe_run_id": "18d7526a-2cd8-4677-b17c-d8c64fcf25d0"
+    },
+    {
+      "seed": 41204,
+      "arm": "correct",
+      "query": "Z的爷爷",
+      "target": "X",
+      "target_score": 0.0,
+      "father_score": 0.0,
+      "unrelated_score": 0.0015081503281452256,
+      "target_minus_unrelated": -0.0015081503281452256,
+      "grandfather_minus_father": 0.0,
+      "strict_grandfather_winner": false,
+      "probe_run_id": "662507c6-940d-427c-8b09-8075658afd08"
+    },
+    {
+      "seed": 41204,
+      "arm": "correct",
+      "query": "Z的父亲",
+      "target": "X",
+      "target_score": 0.0,
+      "father_score": 0.0,
+      "unrelated_score": 0.0,
+      "target_minus_unrelated": 0.0,
+      "grandfather_minus_father": 0.0,
+      "strict_grandfather_winner": false,
+      "probe_run_id": "35c3381c-75ec-4ed1-80a7-f23c486b792e"
+    },
+    {
+      "seed": 41204,
+      "arm": "correct",
+      "query": "Z",
+      "target": "X",
+      "target_score": 0.0,
+      "father_score": 0.0,
+      "unrelated_score": 0.0,
+      "target_minus_unrelated": 0.0,
+      "grandfather_minus_father": 0.0,
+      "strict_grandfather_winner": false,
+      "probe_run_id": "1434423b-9506-424b-becb-8220a6aa4598"
+    },
+    {
+      "seed": 41204,
+      "arm": "correct",
+      "query": "W的爷爷",
+      "target": "U",
+      "target_score": 0.0015083325362173791,
+      "father_score": 0.0,
+      "unrelated_score": 0.0,
+      "target_minus_unrelated": 0.0015083325362173791,
+      "grandfather_minus_father": 0.0015083325362173791,
+      "strict_grandfather_winner": true,
+      "probe_run_id": "34c22a06-2e27-4422-a537-ffafec351060"
+    },
+    {
+      "seed": 41204,
+      "arm": "correct",
+      "query": "W的父亲",
+      "target": "U",
+      "target_score": 0.0,
+      "father_score": 0.0,
+      "unrelated_score": 0.0,
+      "target_minus_unrelated": 0.0,
+      "grandfather_minus_father": 0.0,
+      "strict_grandfather_winner": false,
+      "probe_run_id": "b8549ba8-ca12-4465-99f0-144e57e114f8"
+    },
+    {
+      "seed": 41204,
+      "arm": "correct",
+      "query": "W",
+      "target": "U",
+      "target_score": 0.0,
+      "father_score": 0.0,
+      "unrelated_score": 0.0,
+      "target_minus_unrelated": 0.0,
+      "grandfather_minus_father": 0.0,
+      "strict_grandfather_winner": false,
+      "probe_run_id": "9c807d2d-c22e-47ee-be60-44dd76d02804"
+    },
+    {
+      "seed": 41204,
+      "arm": "wrong_template",
+      "query": "Z的爷爷",
+      "target": "X",
+      "target_score": 0.0,
+      "father_score": 0.0,
+      "unrelated_score": 0.0015081387336343302,
+      "target_minus_unrelated": -0.0015081387336343302,
+      "grandfather_minus_father": 0.0,
+      "strict_grandfather_winner": false,
+      "probe_run_id": "40c867b6-d6a5-410a-bd58-f4ff216a6bd0"
+    },
+    {
+      "seed": 41204,
+      "arm": "wrong_template",
+      "query": "Z的父亲",
+      "target": "X",
+      "target_score": 0.0,
+      "father_score": 0.0,
+      "unrelated_score": 0.0,
+      "target_minus_unrelated": 0.0,
+      "grandfather_minus_father": 0.0,
+      "strict_grandfather_winner": false,
+      "probe_run_id": "b8f8e746-461e-4ec8-ace3-464a7d643a7e"
+    },
+    {
+      "seed": 41204,
+      "arm": "wrong_template",
+      "query": "Z",
+      "target": "X",
+      "target_score": 0.0,
+      "father_score": 0.0,
+      "unrelated_score": 0.0,
+      "target_minus_unrelated": 0.0,
+      "grandfather_minus_father": 0.0,
+      "strict_grandfather_winner": false,
+      "probe_run_id": "d74c5c82-337e-4032-b6a7-261a4b8992e0"
+    },
+    {
+      "seed": 41204,
+      "arm": "wrong_template",
+      "query": "W的爷爷",
+      "target": "U",
+      "target_score": 0.0015083209295002602,
+      "father_score": 0.0,
+      "unrelated_score": 0.0,
+      "target_minus_unrelated": 0.0015083209295002602,
+      "grandfather_minus_father": 0.0015083209295002602,
+      "strict_grandfather_winner": true,
+      "probe_run_id": "4043d524-b290-4aba-95a7-741f3f82f1a2"
+    },
+    {
+      "seed": 41204,
+      "arm": "wrong_template",
+      "query": "W的父亲",
+      "target": "U",
+      "target_score": 0.0,
+      "father_score": 0.0,
+      "unrelated_score": 0.0,
+      "target_minus_unrelated": 0.0,
+      "grandfather_minus_father": 0.0,
+      "strict_grandfather_winner": false,
+      "probe_run_id": "eb65d022-acc2-46f1-b4a8-c9ce1fd59065"
+    },
+    {
+      "seed": 41204,
+      "arm": "wrong_template",
+      "query": "W",
+      "target": "U",
+      "target_score": 0.0,
+      "father_score": 0.0,
+      "unrelated_score": 0.0,
+      "target_minus_unrelated": 0.0,
+      "grandfather_minus_father": 0.0,
+      "strict_grandfather_winner": false,
+      "probe_run_id": "791d0796-35b2-4eda-a821-8cabe3398364"
+    },
+    {
+      "seed": 41204,
+      "arm": "reversed_chain",
+      "query": "Z的爷爷",
+      "target": "X",
+      "target_score": 0.0,
+      "father_score": 0.0,
+      "unrelated_score": 0.0016125275516755578,
+      "target_minus_unrelated": -0.0016125275516755578,
+      "grandfather_minus_father": 0.0,
+      "strict_grandfather_winner": false,
+      "probe_run_id": "fb48e3f3-a5e4-4d3f-bc33-5d7ada737925"
+    },
+    {
+      "seed": 41204,
+      "arm": "reversed_chain",
+      "query": "Z的父亲",
+      "target": "X",
+      "target_score": 0.0,
+      "father_score": 0.0,
+      "unrelated_score": 0.0,
+      "target_minus_unrelated": 0.0,
+      "grandfather_minus_father": 0.0,
+      "strict_grandfather_winner": false,
+      "probe_run_id": "1d6f21fb-3f7f-4d20-ac2d-ae939d37c7da"
+    },
+    {
+      "seed": 41204,
+      "arm": "reversed_chain",
+      "query": "Z",
+      "target": "X",
+      "target_score": 0.0,
+      "father_score": 0.0,
+      "unrelated_score": 0.0,
+      "target_minus_unrelated": 0.0,
+      "grandfather_minus_father": 0.0,
+      "strict_grandfather_winner": false,
+      "probe_run_id": "75e37c41-33a5-486d-a1f6-4a8c7d909c1e"
+    },
+    {
+      "seed": 41204,
+      "arm": "reversed_chain",
+      "query": "W的爷爷",
+      "target": "U",
+      "target_score": 0.0016097940806775047,
+      "father_score": 0.0,
+      "unrelated_score": 0.0,
+      "target_minus_unrelated": 0.0016097940806775047,
+      "grandfather_minus_father": 0.0016097940806775047,
+      "strict_grandfather_winner": true,
+      "probe_run_id": "caa35063-e5d3-46cf-b085-9d83e01efda5"
+    },
+    {
+      "seed": 41204,
+      "arm": "reversed_chain",
+      "query": "W的父亲",
+      "target": "U",
+      "target_score": 0.0,
+      "father_score": 0.0,
+      "unrelated_score": 0.0,
+      "target_minus_unrelated": 0.0,
+      "grandfather_minus_father": 0.0,
+      "strict_grandfather_winner": false,
+      "probe_run_id": "a612414c-239c-451d-b652-a43eb15bb8dd"
+    },
+    {
+      "seed": 41204,
+      "arm": "reversed_chain",
+      "query": "W",
+      "target": "U",
+      "target_score": 0.0,
+      "father_score": 0.0,
+      "unrelated_score": 0.0,
+      "target_minus_unrelated": 0.0,
+      "grandfather_minus_father": 0.0,
+      "strict_grandfather_winner": false,
+      "probe_run_id": "ca5070a8-7f88-4961-9364-c3a576394b3b"
+    }
+  ],
+  "analyses": {
+    "anonymous_birth": {
+      "method": "paired-bootstrap-signflip-holm/1",
+      "seed": 20260909,
+      "resamples": 5000,
+      "unit": "encoder-seed blocks; cues are averaged within a block",
+      "metrics": [
+        {
+          "metric": "memory.anonymous.birth.repeat12",
+          "n": 8,
+          "missing_pairs": 0,
+          "difference": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "paired_dz": null,
+          "p": 1.0,
+          "p_holm": 1,
+          "control_mean": 0.0,
+          "treatment_mean": 0.0
+        }
+      ],
+      "pairs": [
+        {
+          "seed": 41203,
+          "control": {
+            "memory.anonymous.birth.repeat12": 0.0
+          },
+          "treatment": {
+            "memory.anonymous.birth.repeat12": 0.0
+          }
+        },
+        {
+          "seed": 41204,
+          "control": {
+            "memory.anonymous.birth.repeat12": 0.0
+          },
+          "treatment": {
+            "memory.anonymous.birth.repeat12": 0.0
+          }
+        },
+        {
+          "seed": 41205,
+          "control": {
+            "memory.anonymous.birth.repeat12": 0.0
+          },
+          "treatment": {
+            "memory.anonymous.birth.repeat12": 0.0
+          }
+        },
+        {
+          "seed": 41206,
+          "control": {
+            "memory.anonymous.birth.repeat12": 0.0
+          },
+          "treatment": {
+            "memory.anonymous.birth.repeat12": 0.0
+          }
+        },
+        {
+          "seed": 41207,
+          "control": {
+            "memory.anonymous.birth.repeat12": 0.0
+          },
+          "treatment": {
+            "memory.anonymous.birth.repeat12": 0.0
+          }
+        },
+        {
+          "seed": 41208,
+          "control": {
+            "memory.anonymous.birth.repeat12": 0.0
+          },
+          "treatment": {
+            "memory.anonymous.birth.repeat12": 0.0
+          }
+        },
+        {
+          "seed": 41209,
+          "control": {
+            "memory.anonymous.birth.repeat12": 0.0
+          },
+          "treatment": {
+            "memory.anonymous.birth.repeat12": 0.0
+          }
+        },
+        {
+          "seed": 41210,
+          "control": {
+            "memory.anonymous.birth.repeat12": 0.0
+          },
+          "treatment": {
+            "memory.anonymous.birth.repeat12": 0.0
+          }
+        }
+      ],
+      "data_hash": "3fbfb0dc241f31a1654e9113c787da1330cfefac3587d992ead73151e7a4b5f1",
+      "notes": [
+        "Intervals quantify this sampling design; they do not establish consciousness.",
+        "One deterministic clone is not an independent replicate.",
+        "Missing values are excluded per metric and reported, never replaced by zero."
+      ],
+      "inference": "predeclared anonymous primary endpoint",
+      "multiple_testing_family": [
+        "anonymous_birth",
+        "anonymous_live"
+      ]
+    },
+    "anonymous_live": {
+      "method": "paired-bootstrap-signflip-holm/1",
+      "seed": 20260909,
+      "resamples": 5000,
+      "unit": "encoder-seed blocks; cues are averaged within a block",
+      "metrics": [
+        {
+          "metric": "memory.anonymous.live.repeat12",
+          "n": 8,
+          "missing_pairs": 0,
+          "difference": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "paired_dz": null,
+          "p": 1.0,
+          "p_holm": 1,
+          "control_mean": 0.0,
+          "treatment_mean": 0.0
+        }
+      ],
+      "pairs": [
+        {
+          "seed": 41203,
+          "control": {
+            "memory.anonymous.live.repeat12": 0.0
+          },
+          "treatment": {
+            "memory.anonymous.live.repeat12": 0.0
+          }
+        },
+        {
+          "seed": 41204,
+          "control": {
+            "memory.anonymous.live.repeat12": 0.0
+          },
+          "treatment": {
+            "memory.anonymous.live.repeat12": 0.0
+          }
+        },
+        {
+          "seed": 41205,
+          "control": {
+            "memory.anonymous.live.repeat12": 0.0
+          },
+          "treatment": {
+            "memory.anonymous.live.repeat12": 0.0
+          }
+        },
+        {
+          "seed": 41206,
+          "control": {
+            "memory.anonymous.live.repeat12": 0.0
+          },
+          "treatment": {
+            "memory.anonymous.live.repeat12": 0.0
+          }
+        },
+        {
+          "seed": 41207,
+          "control": {
+            "memory.anonymous.live.repeat12": 0.0
+          },
+          "treatment": {
+            "memory.anonymous.live.repeat12": 0.0
+          }
+        },
+        {
+          "seed": 41208,
+          "control": {
+            "memory.anonymous.live.repeat12": 0.0
+          },
+          "treatment": {
+            "memory.anonymous.live.repeat12": 0.0
+          }
+        },
+        {
+          "seed": 41209,
+          "control": {
+            "memory.anonymous.live.repeat12": 0.0
+          },
+          "treatment": {
+            "memory.anonymous.live.repeat12": 0.0
+          }
+        },
+        {
+          "seed": 41210,
+          "control": {
+            "memory.anonymous.live.repeat12": 0.0
+          },
+          "treatment": {
+            "memory.anonymous.live.repeat12": 0.0
+          }
+        }
+      ],
+      "data_hash": "641c989e62ae3599dc53a778ca2e2499d7d7244145ed34614d9362dc261f4a3d",
+      "notes": [
+        "Intervals quantify this sampling design; they do not establish consciousness.",
+        "One deterministic clone is not an independent replicate.",
+        "Missing values are excluded per metric and reported, never replaced by zero."
+      ],
+      "inference": "predeclared anonymous primary endpoint",
+      "multiple_testing_family": [
+        "anonymous_birth",
+        "anonymous_live"
+      ]
+    },
+    "literal_1": {
+      "method": "paired-bootstrap-signflip-holm/1",
+      "seed": 20260909,
+      "resamples": 5000,
+      "unit": "encoder-seed blocks; cues are averaged within a block",
+      "metrics": [
+        {
+          "metric": "memory.literal.birth.repeat1",
+          "n": 2,
+          "missing_pairs": 0,
+          "difference": 0.0,
+          "ci95": null,
+          "paired_dz": null,
+          "p": null,
+          "p_holm": null,
+          "control_mean": 0.004836644670047083,
+          "treatment_mean": 0.004836644670047083
+        }
+      ],
+      "pairs": [
+        {
+          "seed": 41203,
+          "control": {
+            "memory.literal.birth.repeat1": 0.004836644670047083
+          },
+          "treatment": {
+            "memory.literal.birth.repeat1": 0.004836644670047083
+          }
+        },
+        {
+          "seed": 41204,
+          "control": {
+            "memory.literal.birth.repeat1": 0.004836644670047083
+          },
+          "treatment": {
+            "memory.literal.birth.repeat1": 0.004836644670047083
+          }
+        }
+      ],
+      "data_hash": "cdb03518b7feed9152e3235dc400ea45b6379ba58cc6fd2b8b473cac43ac6394",
+      "notes": [
+        "Intervals quantify this sampling design; they do not establish consciousness.",
+        "One deterministic clone is not an independent replicate.",
+        "Missing values are excluded per metric and reported, never replaced by zero."
+      ],
+      "inference": "descriptive only; no small-sample significance claim"
+    },
+    "literal_4": {
+      "method": "paired-bootstrap-signflip-holm/1",
+      "seed": 20260909,
+      "resamples": 5000,
+      "unit": "encoder-seed blocks; cues are averaged within a block",
+      "metrics": [
+        {
+          "metric": "memory.literal.birth.repeat4",
+          "n": 2,
+          "missing_pairs": 0,
+          "difference": 0.0035857068641784416,
+          "ci95": null,
+          "paired_dz": null,
+          "p": null,
+          "p_holm": null,
+          "control_mean": 0.002082617503246513,
+          "treatment_mean": 0.005668324367424955
+        }
+      ],
+      "pairs": [
+        {
+          "seed": 41203,
+          "control": {
+            "memory.literal.birth.repeat4": 0.0020826336909222473
+          },
+          "treatment": {
+            "memory.literal.birth.repeat4": 0.005678385434023559
+          }
+        },
+        {
+          "seed": 41204,
+          "control": {
+            "memory.literal.birth.repeat4": 0.0020826013155707795
+          },
+          "treatment": {
+            "memory.literal.birth.repeat4": 0.005658263300826351
+          }
+        }
+      ],
+      "data_hash": "c27dcf8de5001bc42b5d770bcbd0fa880a56cac92e06b9fd768ade5d6e68ddb0",
+      "notes": [
+        "Intervals quantify this sampling design; they do not establish consciousness.",
+        "One deterministic clone is not an independent replicate.",
+        "Missing values are excluded per metric and reported, never replaced by zero."
+      ],
+      "inference": "descriptive only; no small-sample significance claim"
+    },
+    "literal_12": {
+      "method": "paired-bootstrap-signflip-holm/1",
+      "seed": 20260909,
+      "resamples": 5000,
+      "unit": "encoder-seed blocks; cues are averaged within a block",
+      "metrics": [
+        {
+          "metric": "memory.literal.birth.repeat12",
+          "n": 2,
+          "missing_pairs": 0,
+          "difference": 0.009072402387429748,
+          "ci95": null,
+          "paired_dz": null,
+          "p": null,
+          "p_holm": null,
+          "control_mean": 0.00044373378696621656,
+          "treatment_mean": 0.009516136174395966
+        }
+      ],
+      "pairs": [
+        {
+          "seed": 41203,
+          "control": {
+            "memory.literal.birth.repeat12": 0.00044644778655182193
+          },
+          "treatment": {
+            "memory.literal.birth.repeat12": 0.009483171277671839
+          }
+        },
+        {
+          "seed": 41204,
+          "control": {
+            "memory.literal.birth.repeat12": 0.0004410197873806112
+          },
+          "treatment": {
+            "memory.literal.birth.repeat12": 0.009549101071120093
+          }
+        }
+      ],
+      "data_hash": "d7b6fdf220d9b55f571b0de6792e6af1800867d5f821cafee23e867367aa6f90",
+      "notes": [
+        "Intervals quantify this sampling design; they do not establish consciousness.",
+        "One deterministic clone is not an independent replicate.",
+        "Missing values are excluded per metric and reported, never replaced by zero."
+      ],
+      "inference": "descriptive only; no small-sample significance claim"
+    },
+    "dose_2": {
+      "method": "paired-bootstrap-signflip-holm/1",
+      "seed": 20260909,
+      "resamples": 5000,
+      "unit": "encoder-seed blocks; cues are averaged within a block",
+      "metrics": [
+        {
+          "metric": "sensitivity.anonymous.intensity2",
+          "n": 2,
+          "missing_pairs": 0,
+          "difference": 0.0010975838130634608,
+          "ci95": null,
+          "paired_dz": null,
+          "p": null,
+          "p_holm": null,
+          "control_mean": -1.624136930570556e-05,
+          "treatment_mean": 0.0010813424437577553
+        }
+      ],
+      "pairs": [
+        {
+          "seed": 41203,
+          "control": {
+            "sensitivity.anonymous.intensity2": 2.0637087395080795e-05
+          },
+          "treatment": {
+            "sensitivity.anonymous.intensity2": 0.0014130589877313828
+          }
+        },
+        {
+          "seed": 41204,
+          "control": {
+            "sensitivity.anonymous.intensity2": -5.3119826006491915e-05
+          },
+          "treatment": {
+            "sensitivity.anonymous.intensity2": 0.0007496258997841277
+          }
+        }
+      ],
+      "data_hash": "3068459eb088c88bf09526dc154a3c943bcb815ff0892f653523caf953a59920",
+      "notes": [
+        "Intervals quantify this sampling design; they do not establish consciousness.",
+        "One deterministic clone is not an independent replicate.",
+        "Missing values are excluded per metric and reported, never replaced by zero."
+      ],
+      "inference": "descriptive only; no small-sample significance claim"
+    },
+    "dose_4": {
+      "method": "paired-bootstrap-signflip-holm/1",
+      "seed": 20260909,
+      "resamples": 5000,
+      "unit": "encoder-seed blocks; cues are averaged within a block",
+      "metrics": [
+        {
+          "metric": "sensitivity.anonymous.intensity4",
+          "n": 2,
+          "missing_pairs": 0,
+          "difference": 0.010742875827033985,
+          "ci95": null,
+          "paired_dz": null,
+          "p": null,
+          "p_holm": null,
+          "control_mean": 0.000845063113679888,
+          "treatment_mean": 0.011587938940713874
+        }
+      ],
+      "pairs": [
+        {
+          "seed": 41203,
+          "control": {
+            "sensitivity.anonymous.intensity4": 0.0009122401644919339
+          },
+          "treatment": {
+            "sensitivity.anonymous.intensity4": 0.013592809444121194
+          }
+        },
+        {
+          "seed": 41204,
+          "control": {
+            "sensitivity.anonymous.intensity4": 0.0007778860628678422
+          },
+          "treatment": {
+            "sensitivity.anonymous.intensity4": 0.009583068437306552
+          }
+        }
+      ],
+      "data_hash": "14a8790afbdc4fe6e803cfec089323cd4f6d89f3b967791b2936391ed84bd043",
+      "notes": [
+        "Intervals quantify this sampling design; they do not establish consciousness.",
+        "One deterministic clone is not an independent replicate.",
+        "Missing values are excluded per metric and reported, never replaced by zero."
+      ],
+      "inference": "descriptive only; no small-sample significance claim"
+    },
+    "relations": {
+      "method": "paired-bootstrap-signflip-holm/1",
+      "seed": 20260909,
+      "resamples": 5000,
+      "unit": "encoder-seed blocks; cues are averaged within a block",
+      "metrics": [
+        {
+          "metric": "relations.correct_vs_wrong_template",
+          "n": 2,
+          "missing_pairs": 0,
+          "difference": 3.051555861298405e-12,
+          "ci95": null,
+          "paired_dz": null,
+          "p": null,
+          "p_holm": null,
+          "control_mean": 4.554896648251887e-08,
+          "treatment_mean": 4.555201803838017e-08
+        }
+      ],
+      "pairs": [
+        {
+          "seed": 41203,
+          "control": {
+            "relations.correct_vs_wrong_template": 0.0
+          },
+          "treatment": {
+            "relations.correct_vs_wrong_template": 0.0
+          }
+        },
+        {
+          "seed": 41204,
+          "control": {
+            "relations.correct_vs_wrong_template": 9.109793296503774e-08
+          },
+          "treatment": {
+            "relations.correct_vs_wrong_template": 9.110403607676034e-08
+          }
+        }
+      ],
+      "data_hash": "9634d2a4a3e798c0c1ec8946b8bb846b4768772c82fa9a406172b2fe26eb1e6f",
+      "notes": [
+        "Intervals quantify this sampling design; they do not establish consciousness.",
+        "One deterministic clone is not an independent replicate.",
+        "Missing values are excluded per metric and reported, never replaced by zero."
+      ],
+      "inference": "descriptive only; no small-sample significance claim"
+    }
+  },
+  "resource_usage": [
+    {
+      "phase": "memory",
+      "elapsed_s": 91.26600000000326,
+      "peak_rss_bytes": 135303168,
+      "checkpoint_bytes": 16631111,
+      "estimated_project_db_bytes": null
+    },
+    {
+      "phase": "relations",
+      "elapsed_s": 17.594000000011874,
+      "peak_rss_bytes": 129769472,
+      "checkpoint_bytes": 2837192,
+      "estimated_project_db_bytes": 405704236
+    },
+    {
+      "phase": "sensitivity",
+      "elapsed_s": 7.796999999991385,
+      "peak_rss_bytes": 130560000,
+      "checkpoint_bytes": 902330,
+      "estimated_project_db_bytes": 425205606
+    }
+  ],
+  "completed_models": 900
+}

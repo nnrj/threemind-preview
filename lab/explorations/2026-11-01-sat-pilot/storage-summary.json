@@ -1,0 +1,46 @@
+{
+  "schema": "threemind.storage-snapshot/1",
+  "root": "E:\\ThreeMindData\\experiments\\2026-11-01-sat-pilot\\v1",
+  "method": "Win32 FileStandardInfo.AllocationSize; unique volume/file IDs",
+  "excludes": "Directory and NTFS metadata overhead; this measurement file itself if written later",
+  "files": 3254,
+  "paths_with_multiple_links": 0,
+  "unique_files": 3254,
+  "compressed_or_sparse_paths": 0,
+  "groups": {
+    "other_originals_and_metadata": {
+      "files": 3252,
+      "logical_bytes": 22723931,
+      "allocated_unique_bytes": 29144672
+    },
+    "archive": {
+      "files": 1,
+      "logical_bytes": 21347277,
+      "allocated_unique_bytes": 21348352
+    },
+    "api_readback": {
+      "files": 1,
+      "logical_bytes": 21347277,
+      "allocated_unique_bytes": 21348352
+    }
+  },
+  "final_whole_subject_snapshots": {
+    "count": 48,
+    "ranges": {
+      "compressed_bytes": [
+        10492,
+        10552
+      ],
+      "decoded_json_bytes": [
+        26390,
+        26490
+      ],
+      "allocated_bytes": [
+        12288,
+        12288
+      ]
+    }
+  },
+  "logical_bytes": 65418485,
+  "allocated_unique_bytes": 71841376
+}

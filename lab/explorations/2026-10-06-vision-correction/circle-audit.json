@@ -1,0 +1,82 @@
+{
+  "source": ".work\\grounded-reviews-20261006\\complete-media\\complete-replay.json",
+  "windows": [
+    {
+      "video_seconds": [
+        147,
+        155
+      ],
+      "chapters": [
+        {
+          "title": "正常学习：完整168课与间隔",
+          "case": "s223-spaced-teaching",
+          "kind": "teaching",
+          "source": ".work\\grounded-reviews-20261006\\cases\\s223-spaced-teaching\\teaching.jsonl.gz"
+        }
+      ],
+      "samples": 1280,
+      "simulation_seconds": [
+        424.1,
+        488.05
+      ],
+      "explicit_action_frames": 0,
+      "teacher_marker_frames": 0,
+      "activation_range": [
+        25.11877434435942,
+        29.483175141241347
+      ],
+      "association_range": [
+        0.0,
+        3.9071559939394054
+      ],
+      "path_length_m": 1.6079821718057632
+    },
+    {
+      "video_seconds": [
+        748,
+        758
+      ],
+      "chapters": [
+        {
+          "title": "关闭Core可塑学习：完整168课与间隔",
+          "case": "s223-frozen-teaching",
+          "kind": "teaching",
+          "source": ".work\\grounded-reviews-20261006\\cases\\s223-frozen-teaching\\teaching.jsonl.gz"
+        }
+      ],
+      "samples": 1585,
+      "simulation_seconds": [
+        420.05,
+        499.25
+      ],
+      "explicit_action_frames": 0,
+      "teacher_marker_frames": 0,
+      "activation_range": [
+        16.196838024009867,
+        17.334491799423382
+      ],
+      "association_range": [
+        0.0,
+        0.0
+      ],
+      "path_length_m": 2.042047518477408
+    }
+  ],
+  "same_simulation_time_learning_on_off": [
+    {
+      "matched_simulation_samples": 1280,
+      "max_pointer_distance_m": 0.0,
+      "max_activation_difference": 12.384687303539877,
+      "max_association_difference": 3.9071559939394054
+    },
+    {
+      "matched_simulation_samples": 1585,
+      "max_pointer_distance_m": 0.0,
+      "max_activation_difference": 12.384687303539877,
+      "max_association_difference": 3.9071559939394054
+    }
+  ],
+  "source_code_fact": "Basic teaching tick(action=None) advances world with no Core motor command; physical wind and body dynamics still apply.",
+  "core_rerun": false,
+  "video_rerendered": false
+}

@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-05",
+  "focused_tests": {
+    "command": ".work/kernel-venv/Scripts/python.exe -m pytest tests/test_expression_observation.py tests/test_connection_controls.py -q",
+    "passed": 6
+  },
+  "history": {
+    "editions": 4,
+    "chapters": 57,
+    "coverage_and_local_links": "passed"
+  },
+  "viewer": [
+    {
+      "width": 1440,
+      "errors": [],
+      "overflow": false,
+      "scope_switch": true,
+      "source_switch": true,
+      "modality_switch": true,
+      "latency_rows": 15
+    },
+    {
+      "width": 390,
+      "errors": [],
+      "overflow": false,
+      "scope_switch": true,
+      "source_switch": true,
+      "modality_switch": true,
+      "latency_rows": 15
+    }
+  ],
+  "visual_review": [
+    "1440px viewer",
+    "390px viewer",
+    "findings.png",
+    "process-patterns.png"
+  ],
+  "real_cli": {
+    "path": ".work/expression-alignment-20261005/cli-smoke/output.jsonl",
+    "device": "cpu",
+    "window_start_us": 266000000,
+    "window_end_us": 268000000,
+    "completed": true
+  },
+  "gpu_cpu_controls": "180 outputs, 0 same-window token mismatches",
+  "git_diff_check": "passed",
+  "core_files_changed": false,
+  "unrelated_full_builds_run": false
+}

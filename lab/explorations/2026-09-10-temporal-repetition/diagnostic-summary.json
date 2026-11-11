@@ -1,0 +1,28 @@
+[
+  {
+    "cue": "甲",
+    "original_classification": "residual_decay",
+    "original_duration_s": 1.2,
+    "sample_count": 601,
+    "last_mean": 0.7440450757678325,
+    "late_mean_min": 0.7440450757678325,
+    "late_mean_max": 0.9676833077041481,
+    "last_node_spread": 0.0,
+    "maximum_positive_zero_difference": 0.16066813397807622,
+    "last_positive_zero_difference": 0.0,
+    "same_node_sets_all_times": true
+  },
+  {
+    "cue": "Z的爷爷是谁？",
+    "original_classification": "residual_decay",
+    "original_duration_s": 1.2,
+    "sample_count": 601,
+    "last_mean": 0.7440450757678325,
+    "late_mean_min": 0.7440450757678325,
+    "late_mean_max": 0.9676833077041481,
+    "last_node_spread": 0.0,
+    "maximum_positive_zero_difference": 0.19512639430366507,
+    "last_positive_zero_difference": 0.0,
+    "same_node_sets_all_times": true
+  }
+]

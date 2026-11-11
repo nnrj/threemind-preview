@@ -1,0 +1,15 @@
+{
+  "project": "07e60c31-5f51-42e2-bc99-a83eb18f61a9",
+  "raw_path": "E:\\WORKSPACE\\AgentWork\\threemind\\.work\\ocean-split-20261004",
+  "raw_uploaded": false,
+  "reports": {
+    "record:raw": "764c74ff-0108-599a-bf9b-4091b68e30d3",
+    "record:videos": "1541fcab-6517-52b9-a5df-10849114c6e0",
+    "report:en": "5e59a406-8a68-5b8c-9744-53e9fc66b9b3",
+    "report:zh": "5a67c795-8a89-5682-ab92-d06bfa7741c5"
+  },
+  "work_bytes": 1665584547,
+  "species_asset_count": 53,
+  "species_index": "species-index.json",
+  "video_count": 9
+}

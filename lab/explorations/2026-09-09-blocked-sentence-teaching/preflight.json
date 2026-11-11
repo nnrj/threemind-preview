@@ -1,0 +1,396 @@
+{
+  "exact_original_strings": true,
+  "punctuation_preserved": true,
+  "all_carriers_single_frame": true,
+  "first_exposure_repetitions": 20,
+  "first_three_sweeps_repetitions": 20,
+  "same_character_counts_in_crossed_control": true,
+  "max_sentence_characters": 17,
+  "coverage": [
+    {
+      "seed": 41701,
+      "group": "pair",
+      "coverage": {
+        "松子": {
+          "channels": 18,
+          "exclusive_channels": 15,
+          "retained_weight_fraction": 0.825925925925926,
+          "scorable": true
+        },
+        "铃铛": {
+          "channels": 14,
+          "exclusive_channels": 12,
+          "retained_weight_fraction": 0.9296296296296297,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41701,
+      "group": "who",
+      "coverage": {
+        "甲": {
+          "channels": 9,
+          "exclusive_channels": 6,
+          "retained_weight_fraction": 0.7348484848484849,
+          "scorable": true
+        },
+        "乙": {
+          "channels": 8,
+          "exclusive_channels": 6,
+          "retained_weight_fraction": 0.7651515151515152,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41701,
+      "group": "seen_family",
+      "coverage": {
+        "A": {
+          "channels": 3,
+          "exclusive_channels": 1,
+          "retained_weight_fraction": 0.22499999999999998,
+          "scorable": true
+        },
+        "B": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        },
+        "D": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        },
+        "E": {
+          "channels": 3,
+          "exclusive_channels": 1,
+          "retained_weight_fraction": 0.22499999999999998,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41701,
+      "group": "family",
+      "coverage": {
+        "X": {
+          "channels": 3,
+          "exclusive_channels": 1,
+          "retained_weight_fraction": 0.5249999999999999,
+          "scorable": true
+        },
+        "Y": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        },
+        "U": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        },
+        "V": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41702,
+      "group": "pair",
+      "coverage": {
+        "松子": {
+          "channels": 17,
+          "exclusive_channels": 11,
+          "retained_weight_fraction": 0.611111111111111,
+          "scorable": true
+        },
+        "铃铛": {
+          "channels": 15,
+          "exclusive_channels": 13,
+          "retained_weight_fraction": 0.8851851851851852,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41702,
+      "group": "who",
+      "coverage": {
+        "甲": {
+          "channels": 9,
+          "exclusive_channels": 5,
+          "retained_weight_fraction": 0.6136363636363636,
+          "scorable": true
+        },
+        "乙": {
+          "channels": 9,
+          "exclusive_channels": 6,
+          "retained_weight_fraction": 0.787878787878788,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41702,
+      "group": "seen_family",
+      "coverage": {
+        "A": {
+          "channels": 3,
+          "exclusive_channels": 1,
+          "retained_weight_fraction": 0.5249999999999999,
+          "scorable": true
+        },
+        "B": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        },
+        "D": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        },
+        "E": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41702,
+      "group": "family",
+      "coverage": {
+        "X": {
+          "channels": 3,
+          "exclusive_channels": 1,
+          "retained_weight_fraction": 0.22499999999999998,
+          "scorable": true
+        },
+        "Y": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        },
+        "U": {
+          "channels": 3,
+          "exclusive_channels": 1,
+          "retained_weight_fraction": 0.5249999999999999,
+          "scorable": true
+        },
+        "V": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41703,
+      "group": "pair",
+      "coverage": {
+        "松子": {
+          "channels": 18,
+          "exclusive_channels": 15,
+          "retained_weight_fraction": 0.825925925925926,
+          "scorable": true
+        },
+        "铃铛": {
+          "channels": 15,
+          "exclusive_channels": 14,
+          "retained_weight_fraction": 0.9629629629629629,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41703,
+      "group": "who",
+      "coverage": {
+        "甲": {
+          "channels": 9,
+          "exclusive_channels": 5,
+          "retained_weight_fraction": 0.5378787878787878,
+          "scorable": true
+        },
+        "乙": {
+          "channels": 9,
+          "exclusive_channels": 5,
+          "retained_weight_fraction": 0.5757575757575758,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41703,
+      "group": "seen_family",
+      "coverage": {
+        "A": {
+          "channels": 3,
+          "exclusive_channels": 1,
+          "retained_weight_fraction": 0.22499999999999998,
+          "scorable": true
+        },
+        "B": {
+          "channels": 3,
+          "exclusive_channels": 1,
+          "retained_weight_fraction": 0.5249999999999999,
+          "scorable": true
+        },
+        "D": {
+          "channels": 3,
+          "exclusive_channels": 0,
+          "retained_weight_fraction": 0.0,
+          "scorable": false
+        },
+        "E": {
+          "channels": 3,
+          "exclusive_channels": 0,
+          "retained_weight_fraction": 0.0,
+          "scorable": false
+        }
+      }
+    },
+    {
+      "seed": 41703,
+      "group": "family",
+      "coverage": {
+        "X": {
+          "channels": 3,
+          "exclusive_channels": 0,
+          "retained_weight_fraction": 0.0,
+          "scorable": false
+        },
+        "Y": {
+          "channels": 3,
+          "exclusive_channels": 1,
+          "retained_weight_fraction": 0.22499999999999998,
+          "scorable": true
+        },
+        "U": {
+          "channels": 3,
+          "exclusive_channels": 1,
+          "retained_weight_fraction": 0.22499999999999998,
+          "scorable": true
+        },
+        "V": {
+          "channels": 3,
+          "exclusive_channels": 1,
+          "retained_weight_fraction": 0.22499999999999998,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41704,
+      "group": "pair",
+      "coverage": {
+        "松子": {
+          "channels": 18,
+          "exclusive_channels": 14,
+          "retained_weight_fraction": 0.7740740740740741,
+          "scorable": true
+        },
+        "铃铛": {
+          "channels": 13,
+          "exclusive_channels": 11,
+          "retained_weight_fraction": 0.9296296296296297,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41704,
+      "group": "who",
+      "coverage": {
+        "甲": {
+          "channels": 9,
+          "exclusive_channels": 4,
+          "retained_weight_fraction": 0.5606060606060606,
+          "scorable": true
+        },
+        "乙": {
+          "channels": 9,
+          "exclusive_channels": 6,
+          "retained_weight_fraction": 0.787878787878788,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41704,
+      "group": "seen_family",
+      "coverage": {
+        "A": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        },
+        "B": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        },
+        "D": {
+          "channels": 3,
+          "exclusive_channels": 1,
+          "retained_weight_fraction": 0.5249999999999999,
+          "scorable": true
+        },
+        "E": {
+          "channels": 3,
+          "exclusive_channels": 1,
+          "retained_weight_fraction": 0.22499999999999998,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41704,
+      "group": "family",
+      "coverage": {
+        "X": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        },
+        "Y": {
+          "channels": 3,
+          "exclusive_channels": 1,
+          "retained_weight_fraction": 0.5249999999999999,
+          "scorable": true
+        },
+        "U": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        },
+        "V": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        }
+      }
+    }
+  ],
+  "seed_selection": "four fixed consecutive seeds; no replacement for poor coverage"
+}

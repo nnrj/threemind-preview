@@ -1,0 +1,3892 @@
+{
+  "schema": "E58-results/1",
+  "cases": {
+    "A-fit-activity": {
+      "arrived": 10,
+      "categories": {
+        "color": 6,
+        "pair": 4,
+        "shape": 0
+      },
+      "correct": 10,
+      "fit": {
+        "device": "cuda:0",
+        "loss": 0.07462800294160843,
+        "steps": 600,
+        "teacher_labels": "training only"
+      },
+      "kind": "activity",
+      "n": 24,
+      "runner_signature": "e15b17f4e2bacc34a61a188ab184754ded956056a2ac489926d88b19fd17c7f3",
+      "train_exact_pixels": 45,
+      "wall_seconds": 11.893352400045842
+    },
+    "A-fit-incoming": {
+      "arrived": 12,
+      "categories": {
+        "color": 8,
+        "pair": 4,
+        "shape": 1
+      },
+      "correct": 13,
+      "fit": {
+        "device": "cuda:0",
+        "loss": 1.380713939666748,
+        "steps": 600,
+        "teacher_labels": "training only"
+      },
+      "kind": "incoming",
+      "n": 24,
+      "runner_signature": "e15b17f4e2bacc34a61a188ab184754ded956056a2ac489926d88b19fd17c7f3",
+      "train_exact_pixels": 30,
+      "wall_seconds": 11.539663900039159
+    },
+    "A-optics": {
+      "camera_count": 1,
+      "edges": 1076404,
+      "nodes": 1038,
+      "resolution": 16,
+      "runner_signature": "78b029160be4376e0266c4e5e2914176414bf0d8e02a8bef71db209eeca095c7",
+      "self_movement_changes_pixels": 2,
+      "shape_raw_distances": [
+        [
+          0.0,
+          1.6974396639159468,
+          1.6976602131680976,
+          1.6972890621939996
+        ],
+        [
+          1.6974396639159468,
+          0.0,
+          1.3859426189658544,
+          1.960180375340507
+        ],
+        [
+          1.6976602131680976,
+          1.3859426189658544,
+          0.0,
+          2.4006658674159196
+        ],
+        [
+          1.6972890621939996,
+          1.960180375340507,
+          2.4006658674159196,
+          0.0
+        ]
+      ],
+      "two_sim_seconds_wall": 30.647730999975465,
+      "wall_seconds": 31.935830800095573
+    },
+    "A-teach": {
+      "edges": 1319614,
+      "lessons": 104,
+      "nodes": 1154,
+      "runner_signature": "89d8a22de415b8838a216b190fe1f69e85a1e837833dd551740f682d84c389b2",
+      "sim_seconds": 180.0,
+      "wall_seconds": 3435.369904699968
+    },
+    "A-test-normal": {
+      "mode": "normal",
+      "n": 24,
+      "runner_signature": "e15b17f4e2bacc34a61a188ab184754ded956056a2ac489926d88b19fd17c7f3",
+      "split": "test",
+      "trial_process": "continuous within split; independent split start; randomized question order",
+      "wall_seconds": 633.2667180999415
+    },
+    "A-train-normal": {
+      "mode": "normal",
+      "n": 48,
+      "runner_signature": "e15b17f4e2bacc34a61a188ab184754ded956056a2ac489926d88b19fd17c7f3",
+      "split": "train",
+      "trial_process": "continuous within split; independent split start; randomized question order",
+      "wall_seconds": 1330.96769640001
+    },
+    "B-feedback": {
+      "conditions": {
+        "v0b0": {
+          "activation_integral": 3.6951825618743896,
+          "associative_integral": 0.0,
+          "raw_process_L1_vs_reference": 0.0
+        },
+        "v0b1": {
+          "activation_integral": 21.250226974487305,
+          "associative_integral": 0.2954377830028534,
+          "raw_process_L1_vs_reference": 480.95025634765625
+        },
+        "v1b0": {
+          "activation_integral": 4.17644739151001,
+          "associative_integral": 0.0,
+          "raw_process_L1_vs_reference": 39.15549087524414
+        },
+        "v1b1": {
+          "activation_integral": 21.73044204711914,
+          "associative_integral": 0.29545101523399353,
+          "raw_process_L1_vs_reference": 516.7685546875
+        }
+      },
+      "fully_replaced_equals_reference": true,
+      "interpretation": "sensory causation only; no claim of subjective agency or decision control",
+      "runner_signature": "78b029160be4376e0266c4e5e2914176414bf0d8e02a8bef71db209eeca095c7",
+      "samples": 120,
+      "sim_seconds": 6,
+      "wall_seconds": 409.6076577999629
+    },
+    "C-s223-d6-connections-swap-score": {
+      "choices_changed": 9,
+      "correct": 22,
+      "history_free_ceiling": 16,
+      "identical_current_input": true,
+      "n": 32,
+      "paired_both_correct": 7,
+      "predictions": [
+        [
+          2,
+          2,
+          3,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          3,
+          3,
+          2,
+          3,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          3,
+          3,
+          0,
+          1,
+          2,
+          3,
+          3,
+          3,
+          1,
+          2,
+          3,
+          1,
+          0,
+          0
+        ]
+      ],
+      "runner_signature": "f84aa92c80b6ca37e02dc9971565f12a71011d06d9af7fdeef4fc0b428d59993",
+      "targets": [
+        [
+          0,
+          2,
+          1,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          3,
+          0,
+          1,
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          0,
+          1,
+          2,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          1,
+          0,
+          3
+        ]
+      ],
+      "wall_seconds": 0.14990119996946305
+    },
+    "C-s223-d6-rescue-score": {
+      "choices_changed": 11,
+      "correct": 24,
+      "history_free_ceiling": 16,
+      "identical_current_input": true,
+      "n": 32,
+      "paired_both_correct": 9,
+      "predictions": [
+        [
+          0,
+          2,
+          1,
+          3,
+          3,
+          0,
+          1,
+          3,
+          2,
+          3,
+          3,
+          2,
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          3,
+          3,
+          1,
+          2,
+          3,
+          1,
+          0,
+          0
+        ]
+      ],
+      "runner_signature": "2983e89824881378f6a2c4b89c379ed7b07a124bf27a074e670e46797756a15e",
+      "targets": [
+        [
+          0,
+          2,
+          1,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          3,
+          0,
+          1,
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          0,
+          1,
+          2,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          1,
+          0,
+          3
+        ]
+      ],
+      "wall_seconds": 0.02724379999563098
+    },
+    "C-s223-d6-silence-score": {
+      "choices_changed": 0,
+      "correct": 16,
+      "history_free_ceiling": 16,
+      "identical_current_input": true,
+      "n": 32,
+      "paired_both_correct": 0,
+      "predictions": [
+        [
+          0,
+          1,
+          3,
+          0,
+          3,
+          1,
+          2,
+          3,
+          2,
+          0,
+          1,
+          2,
+          3,
+          1,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          0,
+          3,
+          1,
+          2,
+          3,
+          2,
+          0,
+          1,
+          2,
+          3,
+          1,
+          0,
+          3
+        ]
+      ],
+      "runner_signature": "2983e89824881378f6a2c4b89c379ed7b07a124bf27a074e670e46797756a15e",
+      "targets": [
+        [
+          0,
+          2,
+          1,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          3,
+          0,
+          1,
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          0,
+          1,
+          2,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          1,
+          0,
+          3
+        ]
+      ],
+      "wall_seconds": 0.02828079997561872
+    },
+    "C-s223-d6-teacher-swap-score": {
+      "choices_changed": 11,
+      "correct": 24,
+      "history_free_ceiling": 16,
+      "identical_current_input": true,
+      "n": 32,
+      "paired_both_correct": 9,
+      "predictions": [
+        [
+          0,
+          2,
+          1,
+          3,
+          3,
+          0,
+          1,
+          3,
+          2,
+          3,
+          3,
+          2,
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          3,
+          3,
+          1,
+          2,
+          3,
+          1,
+          0,
+          0
+        ]
+      ],
+      "runner_signature": "2983e89824881378f6a2c4b89c379ed7b07a124bf27a074e670e46797756a15e",
+      "targets": [
+        [
+          0,
+          2,
+          1,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          3,
+          0,
+          1,
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          0,
+          1,
+          2,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          1,
+          0,
+          3
+        ]
+      ],
+      "wall_seconds": 0.030440400005318224
+    },
+    "C-s223-p0-d6-frozen": {
+      "choices_changed": 0,
+      "correct": 16,
+      "history_free_ceiling": 16,
+      "identical_current_input": true,
+      "n": 32,
+      "paired_both_correct": 0,
+      "predictions": [
+        [
+          0,
+          2,
+          3,
+          3,
+          0,
+          1,
+          2,
+          3,
+          3,
+          3,
+          1,
+          1,
+          2,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          3,
+          3,
+          0,
+          1,
+          2,
+          3,
+          3,
+          3,
+          1,
+          1,
+          2,
+          2,
+          0,
+          0
+        ]
+      ],
+      "runner_signature": "89d8a22de415b8838a216b190fe1f69e85a1e837833dd551740f682d84c389b2",
+      "targets": [
+        [
+          0,
+          2,
+          1,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          3,
+          0,
+          1,
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          0,
+          1,
+          2,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          1,
+          0,
+          3
+        ]
+      ],
+      "wall_seconds": 0.1312623000703752
+    },
+    "C-s223-p0-d6-refit-saved-layout": {
+      "choices_changed": 0,
+      "correct": 16,
+      "fit": {
+        "device": "cuda:0",
+        "loss": 0.6932517290115356,
+        "steps": 1200,
+        "teacher_labels": "training only"
+      },
+      "history_free_ceiling": 16,
+      "identical_current_input": true,
+      "n": 32,
+      "paired_both_correct": 0,
+      "predictions": [
+        [
+          0,
+          2,
+          3,
+          0,
+          0,
+          0,
+          1,
+          3,
+          3,
+          3,
+          1,
+          1,
+          3,
+          2,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          3,
+          0,
+          0,
+          0,
+          1,
+          3,
+          3,
+          3,
+          1,
+          1,
+          3,
+          2,
+          1,
+          3
+        ]
+      ],
+      "runner_signature": "89d8a22de415b8838a216b190fe1f69e85a1e837833dd551740f682d84c389b2",
+      "targets": [
+        [
+          0,
+          2,
+          1,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          3,
+          0,
+          1,
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          0,
+          1,
+          2,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          1,
+          0,
+          3
+        ]
+      ],
+      "train_correct": 16,
+      "wall_seconds": 11.807243600022048
+    },
+    "C-s223-p0-h0-d6": {
+      "common_tail_s": 2,
+      "delay_s": 6,
+      "edges": 0,
+      "history": 0,
+      "nodes": 335,
+      "plasticity": false,
+      "runner_signature": "89d8a22de415b8838a216b190fe1f69e85a1e837833dd551740f682d84c389b2",
+      "seed": 223,
+      "wall_seconds": 2.403159699984826
+    },
+    "C-s223-p0-h0-d6-test-normal": {
+      "history": 0,
+      "mode": "normal",
+      "n": 16,
+      "receipt": {},
+      "runner_signature": "89d8a22de415b8838a216b190fe1f69e85a1e837833dd551740f682d84c389b2",
+      "source": "C-s223-p0-h0-d6",
+      "wall_seconds": 5.6227847000118345
+    },
+    "C-s223-p0-h0-d6-train-normal": {
+      "history": 0,
+      "mode": "normal",
+      "n": 16,
+      "receipt": {},
+      "runner_signature": "89d8a22de415b8838a216b190fe1f69e85a1e837833dd551740f682d84c389b2",
+      "source": "C-s223-p0-h0-d6",
+      "wall_seconds": 5.762599400011823
+    },
+    "C-s223-p0-h1-d6": {
+      "common_tail_s": 2,
+      "delay_s": 6,
+      "edges": 0,
+      "history": 1,
+      "nodes": 335,
+      "plasticity": false,
+      "runner_signature": "89d8a22de415b8838a216b190fe1f69e85a1e837833dd551740f682d84c389b2",
+      "seed": 223,
+      "wall_seconds": 2.3952410999918357
+    },
+    "C-s223-p0-h1-d6-test-normal": {
+      "history": 1,
+      "mode": "normal",
+      "n": 16,
+      "receipt": {},
+      "runner_signature": "89d8a22de415b8838a216b190fe1f69e85a1e837833dd551740f682d84c389b2",
+      "source": "C-s223-p0-h1-d6",
+      "wall_seconds": 5.71047659998294
+    },
+    "C-s223-p0-h1-d6-train-normal": {
+      "history": 1,
+      "mode": "normal",
+      "n": 16,
+      "receipt": {},
+      "runner_signature": "89d8a22de415b8838a216b190fe1f69e85a1e837833dd551740f682d84c389b2",
+      "source": "C-s223-p0-h1-d6",
+      "wall_seconds": 5.8599363000830635
+    },
+    "C-s223-p1-d0-frozen": {
+      "choices_changed": 0,
+      "correct": 16,
+      "history_free_ceiling": 16,
+      "identical_current_input": true,
+      "n": 32,
+      "paired_both_correct": 0,
+      "predictions": [
+        [
+          2,
+          1,
+          3,
+          0,
+          3,
+          1,
+          2,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          1,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          3,
+          1,
+          2,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          1,
+          0,
+          3
+        ]
+      ],
+      "runner_signature": "89d8a22de415b8838a216b190fe1f69e85a1e837833dd551740f682d84c389b2",
+      "targets": [
+        [
+          0,
+          2,
+          1,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          3,
+          0,
+          1,
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          0,
+          1,
+          2,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          1,
+          0,
+          3
+        ]
+      ],
+      "wall_seconds": 0.14616829995065928
+    },
+    "C-s223-p1-d30-frozen": {
+      "choices_changed": 0,
+      "correct": 16,
+      "history_free_ceiling": 16,
+      "identical_current_input": true,
+      "n": 32,
+      "paired_both_correct": 0,
+      "predictions": [
+        [
+          0,
+          2,
+          3,
+          0,
+          3,
+          1,
+          2,
+          3,
+          2,
+          3,
+          1,
+          2,
+          3,
+          1,
+          0,
+          3
+        ],
+        [
+          0,
+          2,
+          3,
+          0,
+          3,
+          1,
+          2,
+          3,
+          2,
+          3,
+          1,
+          2,
+          3,
+          1,
+          0,
+          3
+        ]
+      ],
+      "runner_signature": "89d8a22de415b8838a216b190fe1f69e85a1e837833dd551740f682d84c389b2",
+      "targets": [
+        [
+          0,
+          2,
+          1,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          3,
+          0,
+          1,
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          0,
+          1,
+          2,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          1,
+          0,
+          3
+        ]
+      ],
+      "wall_seconds": 0.14629469998180866
+    },
+    "C-s223-p1-d6-frozen": {
+      "choices_changed": 0,
+      "correct": 16,
+      "history_free_ceiling": 16,
+      "identical_current_input": true,
+      "n": 32,
+      "paired_both_correct": 0,
+      "predictions": [
+        [
+          0,
+          1,
+          3,
+          0,
+          3,
+          1,
+          2,
+          3,
+          2,
+          3,
+          1,
+          2,
+          3,
+          1,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          0,
+          3,
+          1,
+          2,
+          3,
+          2,
+          3,
+          1,
+          2,
+          3,
+          1,
+          0,
+          3
+        ]
+      ],
+      "runner_signature": "78b029160be4376e0266c4e5e2914176414bf0d8e02a8bef71db209eeca095c7",
+      "targets": [
+        [
+          0,
+          2,
+          1,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          3,
+          0,
+          1,
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          0,
+          1,
+          2,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          1,
+          0,
+          3
+        ]
+      ],
+      "wall_seconds": 0.15997429995331913
+    },
+    "C-s223-p1-d6-refit-saved-layout": {
+      "choices_changed": 11,
+      "correct": 24,
+      "fit": {
+        "device": "cuda:0",
+        "loss": 0.22364439070224762,
+        "steps": 1200,
+        "teacher_labels": "training only"
+      },
+      "history_free_ceiling": 16,
+      "identical_current_input": true,
+      "n": 32,
+      "paired_both_correct": 9,
+      "predictions": [
+        [
+          0,
+          2,
+          1,
+          3,
+          3,
+          0,
+          1,
+          3,
+          2,
+          3,
+          3,
+          2,
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          3,
+          3,
+          1,
+          2,
+          3,
+          1,
+          0,
+          0
+        ]
+      ],
+      "runner_signature": "2983e89824881378f6a2c4b89c379ed7b07a124bf27a074e670e46797756a15e",
+      "targets": [
+        [
+          0,
+          2,
+          1,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          3,
+          0,
+          1,
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          0,
+          1,
+          2,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          1,
+          0,
+          3
+        ]
+      ],
+      "train_correct": 29,
+      "wall_seconds": 12.434941399958916
+    },
+    "C-s223-p1-h0-d0": {
+      "common_tail_s": 2,
+      "delay_s": 0,
+      "edges": 108532,
+      "history": 0,
+      "nodes": 335,
+      "plasticity": true,
+      "runner_signature": "89d8a22de415b8838a216b190fe1f69e85a1e837833dd551740f682d84c389b2",
+      "seed": 223,
+      "wall_seconds": 11.323891500011086
+    },
+    "C-s223-p1-h0-d0-test-normal": {
+      "history": 0,
+      "mode": "normal",
+      "n": 16,
+      "receipt": {},
+      "runner_signature": "89d8a22de415b8838a216b190fe1f69e85a1e837833dd551740f682d84c389b2",
+      "source": "C-s223-p1-h0-d0",
+      "wall_seconds": 81.92716490000021
+    },
+    "C-s223-p1-h0-d30": {
+      "common_tail_s": 2,
+      "delay_s": 30,
+      "edges": 96496,
+      "history": 0,
+      "nodes": 335,
+      "plasticity": true,
+      "runner_signature": "89d8a22de415b8838a216b190fe1f69e85a1e837833dd551740f682d84c389b2",
+      "seed": 223,
+      "wall_seconds": 77.99644360004459
+    },
+    "C-s223-p1-h0-d30-test-normal": {
+      "history": 0,
+      "mode": "normal",
+      "n": 16,
+      "receipt": {},
+      "runner_signature": "89d8a22de415b8838a216b190fe1f69e85a1e837833dd551740f682d84c389b2",
+      "source": "C-s223-p1-h0-d30",
+      "wall_seconds": 74.485868900083
+    },
+    "C-s223-p1-h0-d6": {
+      "common_tail_s": 2,
+      "delay_s": 6,
+      "edges": 107138,
+      "history": 0,
+      "nodes": 335,
+      "plasticity": true,
+      "runner_signature": "78b029160be4376e0266c4e5e2914176414bf0d8e02a8bef71db209eeca095c7",
+      "seed": 223,
+      "wall_seconds": 27.399305199971423
+    },
+    "C-s223-p1-h0-d6-test-connections-swap": {
+      "history": 0,
+      "mode": "connections-swap",
+      "n": 16,
+      "receipt": {
+        "inserted": {
+          "edges": 107046,
+          "fast": 11729,
+          "short_term": 79263
+        },
+        "removed": {
+          "edges": 107138,
+          "fast": 11895,
+          "short_term": 79312
+        },
+        "retained": "recipient nodes, activity, energy, clock, novelty state and pending transmissions",
+        "selected": 107138
+      },
+      "runner_signature": "f84aa92c80b6ca37e02dc9971565f12a71011d06d9af7fdeef4fc0b428d59993",
+      "source": "C-s223-p1-h0-d6",
+      "wall_seconds": 86.4183602000121
+    },
+    "C-s223-p1-h0-d6-test-normal": {
+      "history": 0,
+      "mode": "normal",
+      "n": 16,
+      "receipt": {},
+      "runner_signature": "78b029160be4376e0266c4e5e2914176414bf0d8e02a8bef71db209eeca095c7",
+      "source": "C-s223-p1-h0-d6",
+      "wall_seconds": 100.14607800007798
+    },
+    "C-s223-p1-h0-d6-test-rescue": {
+      "history": 0,
+      "mode": "rescue",
+      "n": 16,
+      "receipt": {},
+      "runner_signature": "2983e89824881378f6a2c4b89c379ed7b07a124bf27a074e670e46797756a15e",
+      "source": "C-s223-p1-h0-d6",
+      "wall_seconds": 79.76621779997367
+    },
+    "C-s223-p1-h0-d6-test-silence": {
+      "history": 0,
+      "mode": "silence",
+      "n": 16,
+      "receipt": {},
+      "runner_signature": "2983e89824881378f6a2c4b89c379ed7b07a124bf27a074e670e46797756a15e",
+      "source": "C-s223-p1-h0-d6",
+      "wall_seconds": 62.71181320003234
+    },
+    "C-s223-p1-h0-d6-test-teacher-swap": {
+      "history": 0,
+      "mode": "teacher-swap",
+      "n": 16,
+      "receipt": {
+        "activation_absolute_change": 0.00020288839718913057,
+        "fields": "activation of teacher receptor channels only"
+      },
+      "runner_signature": "2983e89824881378f6a2c4b89c379ed7b07a124bf27a074e670e46797756a15e",
+      "source": "C-s223-p1-h0-d6",
+      "wall_seconds": 83.70017820002977
+    },
+    "C-s223-p1-h0-d6-train-normal": {
+      "history": 0,
+      "mode": "normal",
+      "n": 16,
+      "receipt": {},
+      "runner_signature": "78b029160be4376e0266c4e5e2914176414bf0d8e02a8bef71db209eeca095c7",
+      "source": "C-s223-p1-h0-d6",
+      "wall_seconds": 99.07071330002509
+    },
+    "C-s223-p1-h1-d0": {
+      "common_tail_s": 2,
+      "delay_s": 0,
+      "edges": 108500,
+      "history": 1,
+      "nodes": 335,
+      "plasticity": true,
+      "runner_signature": "89d8a22de415b8838a216b190fe1f69e85a1e837833dd551740f682d84c389b2",
+      "seed": 223,
+      "wall_seconds": 11.413208299898542
+    },
+    "C-s223-p1-h1-d0-test-normal": {
+      "history": 1,
+      "mode": "normal",
+      "n": 16,
+      "receipt": {},
+      "runner_signature": "89d8a22de415b8838a216b190fe1f69e85a1e837833dd551740f682d84c389b2",
+      "source": "C-s223-p1-h1-d0",
+      "wall_seconds": 80.36285200004932
+    },
+    "C-s223-p1-h1-d30": {
+      "common_tail_s": 2,
+      "delay_s": 30,
+      "edges": 96494,
+      "history": 1,
+      "nodes": 335,
+      "plasticity": true,
+      "runner_signature": "89d8a22de415b8838a216b190fe1f69e85a1e837833dd551740f682d84c389b2",
+      "seed": 223,
+      "wall_seconds": 78.30690179998055
+    },
+    "C-s223-p1-h1-d30-test-normal": {
+      "history": 1,
+      "mode": "normal",
+      "n": 16,
+      "receipt": {},
+      "runner_signature": "89d8a22de415b8838a216b190fe1f69e85a1e837833dd551740f682d84c389b2",
+      "source": "C-s223-p1-h1-d30",
+      "wall_seconds": 75.35870569990948
+    },
+    "C-s223-p1-h1-d6": {
+      "common_tail_s": 2,
+      "delay_s": 6,
+      "edges": 107066,
+      "history": 1,
+      "nodes": 335,
+      "plasticity": true,
+      "runner_signature": "78b029160be4376e0266c4e5e2914176414bf0d8e02a8bef71db209eeca095c7",
+      "seed": 223,
+      "wall_seconds": 27.289990800083615
+    },
+    "C-s223-p1-h1-d6-test-connections-swap": {
+      "history": 1,
+      "mode": "connections-swap",
+      "n": 16,
+      "receipt": {
+        "inserted": {
+          "edges": 107046,
+          "fast": 11887,
+          "short_term": 79291
+        },
+        "removed": {
+          "edges": 107066,
+          "fast": 11736,
+          "short_term": 79273
+        },
+        "retained": "recipient nodes, activity, energy, clock, novelty state and pending transmissions",
+        "selected": 107066
+      },
+      "runner_signature": "f84aa92c80b6ca37e02dc9971565f12a71011d06d9af7fdeef4fc0b428d59993",
+      "source": "C-s223-p1-h1-d6",
+      "wall_seconds": 86.27262800000608
+    },
+    "C-s223-p1-h1-d6-test-normal": {
+      "history": 1,
+      "mode": "normal",
+      "n": 16,
+      "receipt": {},
+      "runner_signature": "78b029160be4376e0266c4e5e2914176414bf0d8e02a8bef71db209eeca095c7",
+      "source": "C-s223-p1-h1-d6",
+      "wall_seconds": 100.91390710009728
+    },
+    "C-s223-p1-h1-d6-test-rescue": {
+      "history": 1,
+      "mode": "rescue",
+      "n": 16,
+      "receipt": {},
+      "runner_signature": "2983e89824881378f6a2c4b89c379ed7b07a124bf27a074e670e46797756a15e",
+      "source": "C-s223-p1-h1-d6",
+      "wall_seconds": 80.32302380003966
+    },
+    "C-s223-p1-h1-d6-test-silence": {
+      "history": 1,
+      "mode": "silence",
+      "n": 16,
+      "receipt": {},
+      "runner_signature": "2983e89824881378f6a2c4b89c379ed7b07a124bf27a074e670e46797756a15e",
+      "source": "C-s223-p1-h1-d6",
+      "wall_seconds": 61.21932330005802
+    },
+    "C-s223-p1-h1-d6-test-teacher-swap": {
+      "history": 1,
+      "mode": "teacher-swap",
+      "n": 16,
+      "receipt": {
+        "activation_absolute_change": 0.00020288839718913057,
+        "fields": "activation of teacher receptor channels only"
+      },
+      "runner_signature": "2983e89824881378f6a2c4b89c379ed7b07a124bf27a074e670e46797756a15e",
+      "source": "C-s223-p1-h1-d6",
+      "wall_seconds": 84.21771029999945
+    },
+    "C-s223-p1-h1-d6-train-normal": {
+      "history": 1,
+      "mode": "normal",
+      "n": 16,
+      "receipt": {},
+      "runner_signature": "78b029160be4376e0266c4e5e2914176414bf0d8e02a8bef71db209eeca095c7",
+      "source": "C-s223-p1-h1-d6",
+      "wall_seconds": 91.4850666000275
+    },
+    "C-s279-p1-d6-frozen": {
+      "choices_changed": 0,
+      "correct": 14,
+      "history_free_ceiling": 16,
+      "identical_current_input": true,
+      "n": 32,
+      "paired_both_correct": 0,
+      "predictions": [
+        [
+          0,
+          3,
+          3,
+          3,
+          3,
+          1,
+          0,
+          2,
+          2,
+          3,
+          0,
+          1,
+          3,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          3,
+          3,
+          3,
+          1,
+          0,
+          2,
+          2,
+          3,
+          0,
+          1,
+          3,
+          1,
+          0,
+          0
+        ]
+      ],
+      "runner_signature": "89d8a22de415b8838a216b190fe1f69e85a1e837833dd551740f682d84c389b2",
+      "targets": [
+        [
+          0,
+          2,
+          1,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          3,
+          0,
+          1,
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          0,
+          1,
+          2,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          1,
+          0,
+          3
+        ]
+      ],
+      "wall_seconds": 0.12848559999838471
+    },
+    "C-s279-p1-d6-refit-saved-layout": {
+      "choices_changed": 2,
+      "correct": 14,
+      "fit": {
+        "device": "cuda:0",
+        "loss": 0.00292197591625154,
+        "steps": 1200,
+        "teacher_labels": "training only"
+      },
+      "history_free_ceiling": 16,
+      "identical_current_input": true,
+      "n": 32,
+      "paired_both_correct": 0,
+      "predictions": [
+        [
+          0,
+          1,
+          3,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          0,
+          1,
+          1,
+          3,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          3,
+          3,
+          3,
+          1,
+          1,
+          2,
+          3,
+          0,
+          1,
+          1,
+          3,
+          1,
+          1,
+          0
+        ]
+      ],
+      "runner_signature": "89d8a22de415b8838a216b190fe1f69e85a1e837833dd551740f682d84c389b2",
+      "targets": [
+        [
+          0,
+          2,
+          1,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          3,
+          0,
+          1,
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          0,
+          1,
+          2,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          1,
+          0,
+          3
+        ]
+      ],
+      "train_correct": 32,
+      "wall_seconds": 12.502206100034527
+    },
+    "C-s279-p1-h0-d6": {
+      "common_tail_s": 2,
+      "delay_s": 6,
+      "edges": 107112,
+      "history": 0,
+      "nodes": 335,
+      "plasticity": true,
+      "runner_signature": "89d8a22de415b8838a216b190fe1f69e85a1e837833dd551740f682d84c389b2",
+      "seed": 279,
+      "wall_seconds": 24.733236200059764
+    },
+    "C-s279-p1-h0-d6-test-normal": {
+      "history": 0,
+      "mode": "normal",
+      "n": 16,
+      "receipt": {},
+      "runner_signature": "89d8a22de415b8838a216b190fe1f69e85a1e837833dd551740f682d84c389b2",
+      "source": "C-s279-p1-h0-d6",
+      "wall_seconds": 80.32659309997689
+    },
+    "C-s279-p1-h0-d6-train-normal": {
+      "history": 0,
+      "mode": "normal",
+      "n": 16,
+      "receipt": {},
+      "runner_signature": "89d8a22de415b8838a216b190fe1f69e85a1e837833dd551740f682d84c389b2",
+      "source": "C-s279-p1-h0-d6",
+      "wall_seconds": 79.78583770000841
+    },
+    "C-s279-p1-h1-d6": {
+      "common_tail_s": 2,
+      "delay_s": 6,
+      "edges": 107068,
+      "history": 1,
+      "nodes": 335,
+      "plasticity": true,
+      "runner_signature": "89d8a22de415b8838a216b190fe1f69e85a1e837833dd551740f682d84c389b2",
+      "seed": 279,
+      "wall_seconds": 25.260723200044595
+    },
+    "C-s279-p1-h1-d6-test-normal": {
+      "history": 1,
+      "mode": "normal",
+      "n": 16,
+      "receipt": {},
+      "runner_signature": "89d8a22de415b8838a216b190fe1f69e85a1e837833dd551740f682d84c389b2",
+      "source": "C-s279-p1-h1-d6",
+      "wall_seconds": 78.52762489998713
+    },
+    "C-s279-p1-h1-d6-train-normal": {
+      "history": 1,
+      "mode": "normal",
+      "n": 16,
+      "receipt": {},
+      "runner_signature": "89d8a22de415b8838a216b190fe1f69e85a1e837833dd551740f682d84c389b2",
+      "source": "C-s279-p1-h1-d6",
+      "wall_seconds": 79.13676630007103
+    },
+    "D-activity": {
+      "conditions": [
+        {
+          "feedback_examples": 4,
+          "fit": {
+            "device": "cuda:0",
+            "loss": 6.258482585508318e-07,
+            "steps": 600,
+            "teacher_labels": "training only"
+          },
+          "new_correct": 14,
+          "new_n": 16,
+          "new_predictions": [
+            2,
+            3,
+            0,
+            2,
+            1,
+            2,
+            3,
+            0,
+            3,
+            1,
+            2,
+            3,
+            1,
+            0,
+            3,
+            2
+          ],
+          "old_correct": 20,
+          "old_n": 32,
+          "old_rehearsal_examples": 8
+        },
+        {
+          "feedback_examples": 16,
+          "fit": {
+            "device": "cuda:0",
+            "loss": 5.304680144035956e-06,
+            "steps": 600,
+            "teacher_labels": "training only"
+          },
+          "new_correct": 14,
+          "new_n": 16,
+          "new_predictions": [
+            2,
+            3,
+            0,
+            2,
+            1,
+            2,
+            3,
+            0,
+            3,
+            1,
+            2,
+            3,
+            1,
+            0,
+            3,
+            2
+          ],
+          "old_correct": 20,
+          "old_n": 32,
+          "old_rehearsal_examples": 8
+        }
+      ],
+      "frozen_new_correct": 0,
+      "frozen_old_correct": 25,
+      "kind": "activity",
+      "new_n": 16,
+      "runner_signature": "89d8a22de415b8838a216b190fe1f69e85a1e837833dd551740f682d84c389b2",
+      "teacher_labels": "external supervised feedback, never held-out inference",
+      "wall_seconds": 11.851962700020522
+    },
+    "D-h2-teach": {
+      "history": 2,
+      "lessons": 52,
+      "runner_signature": "89d8a22de415b8838a216b190fe1f69e85a1e837833dd551740f682d84c389b2",
+      "unseen_pairs": true,
+      "wall_seconds": 242.9198392999824
+    },
+    "D-h2-teach-test-normal": {
+      "history": 2,
+      "mode": "normal",
+      "n": 16,
+      "receipt": {},
+      "runner_signature": "89d8a22de415b8838a216b190fe1f69e85a1e837833dd551740f682d84c389b2",
+      "source": "D-h2-teach",
+      "wall_seconds": 78.26355000003241
+    },
+    "D-h2-teach-train-normal": {
+      "history": 2,
+      "mode": "normal",
+      "n": 16,
+      "receipt": {},
+      "runner_signature": "89d8a22de415b8838a216b190fe1f69e85a1e837833dd551740f682d84c389b2",
+      "source": "D-h2-teach",
+      "wall_seconds": 80.1336804999737
+    },
+    "D-incoming": {
+      "conditions": [
+        {
+          "feedback_examples": 4,
+          "fit": {
+            "device": "cuda:0",
+            "loss": 0.5082467198371887,
+            "steps": 600,
+            "teacher_labels": "training only"
+          },
+          "new_correct": 16,
+          "new_n": 16,
+          "new_predictions": [
+            1,
+            3,
+            0,
+            2,
+            1,
+            2,
+            3,
+            0,
+            0,
+            1,
+            2,
+            3,
+            1,
+            0,
+            3,
+            2
+          ],
+          "old_correct": 16,
+          "old_n": 32,
+          "old_rehearsal_examples": 8
+        },
+        {
+          "feedback_examples": 16,
+          "fit": {
+            "device": "cuda:0",
+            "loss": 0.26649048924446106,
+            "steps": 600,
+            "teacher_labels": "training only"
+          },
+          "new_correct": 16,
+          "new_n": 16,
+          "new_predictions": [
+            1,
+            3,
+            0,
+            2,
+            1,
+            2,
+            3,
+            0,
+            0,
+            1,
+            2,
+            3,
+            1,
+            0,
+            3,
+            2
+          ],
+          "old_correct": 14,
+          "old_n": 32,
+          "old_rehearsal_examples": 8
+        }
+      ],
+      "frozen_new_correct": 0,
+      "frozen_old_correct": 16,
+      "kind": "incoming",
+      "new_n": 16,
+      "runner_signature": "89d8a22de415b8838a216b190fe1f69e85a1e837833dd551740f682d84c389b2",
+      "teacher_labels": "external supervised feedback, never held-out inference",
+      "wall_seconds": 8.130926299956627
+    }
+  },
+  "state_differences": {
+    "s223-p0-d6": {
+      "teacher": {
+        "activation": 0.0,
+        "inhibition": 7.485624658334119e-16
+      },
+      "visual": {
+        "activation": 0.0,
+        "inhibition": 0.0
+      },
+      "all": {
+        "activation": 0.0,
+        "inhibition": 7.485624658334119e-16
+      },
+      "edges": [
+        0,
+        0
+      ]
+    },
+    "s223-p1-d0": {
+      "teacher": {
+        "activation": 8.709491057847657e-05,
+        "inhibition": 0.0013800718871548046
+      },
+      "visual": {
+        "activation": 0.12547595917508725,
+        "inhibition": 0.02727954205601066
+      },
+      "all": {
+        "activation": 0.14622323889687147,
+        "inhibition": 0.03928851437882223
+      },
+      "edges": [
+        108532,
+        108500
+      ]
+    },
+    "s223-p1-d6": {
+      "teacher": {
+        "activation": 0.00020288839718913057,
+        "inhibition": 0.0010325408036668156
+      },
+      "visual": {
+        "activation": 0.055793330023504145,
+        "inhibition": 0.009092486511175037
+      },
+      "all": {
+        "activation": 0.06147660455177802,
+        "inhibition": 0.020017805502640002
+      },
+      "edges": [
+        107138,
+        107066
+      ]
+    },
+    "s223-p1-d30": {
+      "teacher": {
+        "activation": 0.00023669059118935215,
+        "inhibition": 0.0010795557367083396
+      },
+      "visual": {
+        "activation": 0.20145494314626572,
+        "inhibition": 0.03866783825797725
+      },
+      "all": {
+        "activation": 0.21113734731954745,
+        "inhibition": 0.05077813939003384
+      },
+      "edges": [
+        96496,
+        96494
+      ]
+    },
+    "s279-p1-d6": {
+      "teacher": {
+        "activation": 0.0002591550305920485,
+        "inhibition": 0.0008006260558378053
+      },
+      "visual": {
+        "activation": 0.2417521768930887,
+        "inhibition": 0.04150396404759482
+      },
+      "all": {
+        "activation": 0.24267833956041235,
+        "inhibition": 0.042999755668329545
+      },
+      "edges": [
+        107112,
+        107068
+      ]
+    }
+  },
+  "derived_first_commands": {
+    "C-s223-d6-connections-swap-score": {
+      "history_changed_first_commands": 9,
+      "n_pairs": 16,
+      "forces_from_recorded_choices_at_common_body": [
+        [
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ],
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ]
+      ],
+      "scope": "executor command at explicit common pose, not a new closed-loop trajectory",
+      "commands_changed_from_normal": 6
+    },
+    "C-s223-d6-rescue-score": {
+      "history_changed_first_commands": 11,
+      "n_pairs": 16,
+      "forces_from_recorded_choices_at_common_body": [
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ],
+        [
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ]
+      ],
+      "scope": "executor command at explicit common pose, not a new closed-loop trajectory",
+      "commands_changed_from_normal": 0
+    },
+    "C-s223-d6-silence-score": {
+      "history_changed_first_commands": 0,
+      "n_pairs": 16,
+      "forces_from_recorded_choices_at_common_body": [
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ]
+      ],
+      "scope": "executor command at explicit common pose, not a new closed-loop trajectory",
+      "commands_changed_from_normal": 17
+    },
+    "C-s223-d6-teacher-swap-score": {
+      "history_changed_first_commands": 11,
+      "n_pairs": 16,
+      "forces_from_recorded_choices_at_common_body": [
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ],
+        [
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ]
+      ],
+      "scope": "executor command at explicit common pose, not a new closed-loop trajectory",
+      "commands_changed_from_normal": 0
+    },
+    "C-s223-p0-d6-frozen": {
+      "history_changed_first_commands": 0,
+      "n_pairs": 16,
+      "forces_from_recorded_choices_at_common_body": [
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ],
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ]
+      ],
+      "scope": "executor command at explicit common pose, not a new closed-loop trajectory"
+    },
+    "C-s223-p0-d6-refit-saved-layout": {
+      "history_changed_first_commands": 0,
+      "n_pairs": 16,
+      "forces_from_recorded_choices_at_common_body": [
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ]
+      ],
+      "scope": "executor command at explicit common pose, not a new closed-loop trajectory"
+    },
+    "C-s223-p1-d0-frozen": {
+      "history_changed_first_commands": 0,
+      "n_pairs": 16,
+      "forces_from_recorded_choices_at_common_body": [
+        [
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ]
+      ],
+      "scope": "executor command at explicit common pose, not a new closed-loop trajectory"
+    },
+    "C-s223-p1-d30-frozen": {
+      "history_changed_first_commands": 0,
+      "n_pairs": 16,
+      "forces_from_recorded_choices_at_common_body": [
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ]
+      ],
+      "scope": "executor command at explicit common pose, not a new closed-loop trajectory"
+    },
+    "C-s223-p1-d6-frozen": {
+      "history_changed_first_commands": 0,
+      "n_pairs": 16,
+      "forces_from_recorded_choices_at_common_body": [
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ]
+      ],
+      "scope": "executor command at explicit common pose, not a new closed-loop trajectory"
+    },
+    "C-s223-p1-d6-refit-saved-layout": {
+      "history_changed_first_commands": 11,
+      "n_pairs": 16,
+      "forces_from_recorded_choices_at_common_body": [
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ],
+        [
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ]
+      ],
+      "scope": "executor command at explicit common pose, not a new closed-loop trajectory"
+    },
+    "C-s279-p1-d6-frozen": {
+      "history_changed_first_commands": 0,
+      "n_pairs": 16,
+      "forces_from_recorded_choices_at_common_body": [
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ],
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ]
+      ],
+      "scope": "executor command at explicit common pose, not a new closed-loop trajectory"
+    },
+    "C-s279-p1-d6-refit-saved-layout": {
+      "history_changed_first_commands": 2,
+      "n_pairs": 16,
+      "forces_from_recorded_choices_at_common_body": [
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ],
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ]
+      ],
+      "scope": "executor command at explicit common pose, not a new closed-loop trajectory"
+    }
+  },
+  "connection_transfer_donor_following": {
+    "s223": {
+      "n": 32,
+      "before_matches": 7,
+      "after_matches": 9,
+      "changed_choices": 6,
+      "changed_toward_donor": 4,
+      "changed_away_from_donor": 2
+    }
+  },
+  "physical_pointing": {
+    "activity": {
+      "color": {
+        "n": 8,
+        "nearest_object_correct": 6,
+        "arrived_within_0_20m": 6
+      },
+      "shape": {
+        "n": 8,
+        "nearest_object_correct": 0,
+        "arrived_within_0_20m": 0
+      },
+      "pair": {
+        "n": 8,
+        "nearest_object_correct": 4,
+        "arrived_within_0_20m": 4
+      }
+    },
+    "incoming": {
+      "color": {
+        "n": 8,
+        "nearest_object_correct": 8,
+        "arrived_within_0_20m": 7
+      },
+      "shape": {
+        "n": 8,
+        "nearest_object_correct": 1,
+        "arrived_within_0_20m": 1
+      },
+      "pair": {
+        "n": 8,
+        "nearest_object_correct": 4,
+        "arrived_within_0_20m": 4
+      }
+    }
+  },
+  "frozen_six_second_reader_across_delays": {
+    "s223-d0": {
+      "n": 32,
+      "correct": 15,
+      "paired_both_correct": 0,
+      "choices_changed": 0,
+      "history_free_ceiling": 16,
+      "reader": "frozen six-second calibration; no further fit",
+      "predictions": [
+        [
+          0,
+          2,
+          3,
+          3,
+          3,
+          0,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          3,
+          2,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          3,
+          3,
+          3,
+          0,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          3,
+          2,
+          1,
+          3
+        ]
+      ],
+      "targets": [
+        [
+          0,
+          2,
+          1,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          3,
+          0,
+          1,
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          0,
+          1,
+          2,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          1,
+          0,
+          3
+        ]
+      ]
+    },
+    "s223-d6": {
+      "n": 32,
+      "correct": 24,
+      "paired_both_correct": 9,
+      "choices_changed": 11,
+      "history_free_ceiling": 16,
+      "reader": "frozen six-second calibration; no further fit",
+      "predictions": [
+        [
+          0,
+          2,
+          1,
+          3,
+          3,
+          0,
+          1,
+          3,
+          2,
+          3,
+          3,
+          2,
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          3,
+          3,
+          1,
+          2,
+          3,
+          1,
+          0,
+          0
+        ]
+      ],
+      "targets": [
+        [
+          0,
+          2,
+          1,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          3,
+          0,
+          1,
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          0,
+          1,
+          2,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          1,
+          0,
+          3
+        ]
+      ]
+    },
+    "s223-d30": {
+      "n": 32,
+      "correct": 16,
+      "paired_both_correct": 0,
+      "choices_changed": 0,
+      "history_free_ceiling": 16,
+      "reader": "frozen six-second calibration; no further fit",
+      "predictions": [
+        [
+          2,
+          1,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          3,
+          0,
+          1,
+          2,
+          2,
+          1,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          3,
+          0,
+          1,
+          2,
+          2,
+          1,
+          0,
+          3
+        ]
+      ],
+      "targets": [
+        [
+          0,
+          2,
+          1,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          3,
+          0,
+          1,
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          0,
+          1,
+          2,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          1,
+          0,
+          3
+        ]
+      ]
+    },
+    "s279-d6": {
+      "n": 32,
+      "correct": 14,
+      "paired_both_correct": 0,
+      "choices_changed": 2,
+      "history_free_ceiling": 16,
+      "reader": "frozen six-second calibration; no further fit",
+      "predictions": [
+        [
+          0,
+          1,
+          3,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          0,
+          1,
+          1,
+          3,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          3,
+          3,
+          3,
+          1,
+          1,
+          2,
+          3,
+          0,
+          1,
+          1,
+          3,
+          1,
+          1,
+          0
+        ]
+      ],
+      "targets": [
+        [
+          0,
+          2,
+          1,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          3,
+          0,
+          1,
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          0,
+          1,
+          2,
+          3,
+          3,
+          0,
+          1,
+          2,
+          2,
+          1,
+          0,
+          3
+        ]
+      ]
+    }
+  },
+  "stopped": {
+    "C-s223-p1-d6-refit": {
+      "error": "four physical optical fields",
+      "wall_seconds": 0.018456700025126338
+    }
+  },
+  "completed_stages": 58,
+  "compute_minutes": 138.02012595167616,
+  "compute_including_failed_minutes": 138.02043356334326,
+  "compute_budget_amendment": {
+    "schema": "E58-budget-amendment/1",
+    "recorded_at": "2026-10-06T18:48:49.332806+00:00",
+    "original_seconds": 7200,
+    "revised_seconds": 8400,
+    "scope": "Finish the already registered whole-scene 104 lessons and 48/24 question episodes; no additional cases or outcome-based expansion.",
+    "reason": "Measured cost of the approximately million-edge whole scene places the original fixed workload near the original compute cap. Add a bounded twenty-minute execution allowance before any A pointing scores.",
+    "authorization": "User permits reasonable resource and duration increases for this study.",
+    "other_limits": "All instance, memory, storage and account-usage limits unchanged. Original platform and design remain intact."
+  },
+  "created": 436,
+  "local_bytes": 698292708
+}

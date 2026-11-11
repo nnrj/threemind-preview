@@ -1,0 +1,13 @@
+# Second batch preregistration: locating the reversed response with inertial senses
+
+2026-10-01. This batch shares the registered resource envelope. It changes neither Core rules nor historical evidence. Interventions affect new copies only, and analysis is separate from batch one.
+
+Use the four existing E18 blocks 930101–930104, ordinary parameters, full versus no-IMU senses, both pendulum directions. The fixed parent is `memory/{seed}/ordinary/{mode}/wait-1` from the previous project. Replay its exact physical recordings through the existing `experiment.clip` and `keep`, freezing source hashes; do not regenerate worlds, change mappings, or alter intensity. Every untreated physical replay must match the original complete final Core hash. A mismatch stops this batch and is preserved as a replay failure, not interpreted as a mechanism effect. Passive sampling every 20 ms does not change solver or propagation timing.
+
+At the start of testing, use public reconfigure on clones for all 16 combinations of local depletion, fast connection trace, local input competition, and inhibitory response. The first three use their existing enabled parameters; the fourth sets only `inhibition_response_gain=0` when off, retaining inhibition production and decay. Enabled values remain those of the parent. Forgetting, consolidation, novelty and every other parameter remain unchanged.
+
+Add a public intervention silencing all existing edges while retaining nodes. Count any subsequently born edges: this is not a permanent ban on all possible communication. Each condition has physical-input and matched no-physical-input copies, identical maintenance K, absolute timing and observation length.
+
+Measure A/B activation integrals during physical input (0–0.4 s), after input, and across the entire 0.6 s course plus 5 s follow-up. Subtract the matching no-physical-input response. The direction measure is the trained target's net integral minus the other target's; positive means the original direction, negative reversed, zero no directional difference. Preserve trajectories, final rankings, inhibition, associative arrivals, weights, short-term states and transport. An intervention at test time identifies a contribution to expression, not necessarily formation or an undesirable mechanism.
+
+The maximum is 17 conditions × 4 blocks × 2 sensory modes × 2 directions × 2 input conditions = 544 new instances. Show each material block and interactions; copies are not independent training samples. Unchanged, enhanced, attenuated, absent and reversed responses are all valid outcomes. Exact untreated replays must succeed before mechanism conclusions. Never alter Core to manufacture a match.

@@ -1,0 +1,3 @@
+# E49 amendment: shared expression with a calibrated training method
+
+2026-10-05, before execution. Earlier shared/personal comparisons underfit; balanced calibration now succeeds in all three sources. Add one shared model trained on16original/reversed532s examples from223 and251 each,32total; no source IDs in features. Same full-batch recipe and training-only stopping. Report taught sources and reader-unseen279, later times and cyclic assignments. Input wiring71is shared, so this is not arbitrary heterogeneous-code generalization. No retroactive personal-model selection;≤1additional model within budget.

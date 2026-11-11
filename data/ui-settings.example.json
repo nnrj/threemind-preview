@@ -1,0 +1,519 @@
+{
+  "notifications": {
+    "enabled": false,
+    "sender": "ThreeMind <onboarding@resend.dev>",
+    "recipients": [],
+    "language": "follow-ui",
+    "resend_api_key_configured": false,
+    "resend_api_key_hint": ""
+  },
+  "ui": {
+    "locale": "zh-CN"
+  },
+  "observer": {
+    "snapshot_enabled": true,
+    "activation_threshold": 0.055,
+    "min_nodes": 3,
+    "max_nodes": 7,
+    "min_internal_edges": 2,
+    "recurrence_window_ticks": 240,
+    "min_occurrences": 4,
+    "min_span_ticks": 8,
+    "alert_cooldown_ticks": 1200,
+    "read_touched_activity": true,
+    "repeatable_structure_readout": true,
+    "label_sort_by_activation": true,
+    "label_display_limit": 0,
+    "temporal": {
+      "enabled": true,
+      "trigger_manual": true,
+      "trigger_ai": false,
+      "trigger_ambient": false,
+      "consider_activation_strength": true,
+      "ranking_mode": "composite",
+      "candidate_scope": "associative-or-persistent",
+      "baseline_ticks": 12,
+      "min_response_ticks": 12,
+      "max_response_ticks": 120,
+      "settle_ticks": 8,
+      "activation_threshold": 0.055,
+      "excess_activation_min": 0.005,
+      "baseline_noise_gain": 1.0,
+      "convergence_jaccard_min": 0.8,
+      "convergence_drift_max": 0.12,
+      "display_limit": 7
+    }
+  },
+  "visualization": {
+    "mode": "3d",
+    "renderer": "threejson",
+    "canvas_shape": "circle",
+    "three_shape": "glow",
+    "style": "organic",
+    "continuous_motion": false
+  },
+  "archive": {
+    "prompt_for_snapshot_name": true
+  },
+  "ai": {
+    "environment": {
+      "enabled": false,
+      "provider_id": "",
+      "frequency_ticks": 120,
+      "random_frequency": true,
+      "intensity": 0.7,
+      "irregularity": 0.65
+    },
+    "interpreter": {
+      "enabled": false,
+      "provider_id": "",
+      "frequency_ticks": 300,
+      "periodic_enabled": true,
+      "on_repeatable_structure": false,
+      "active_nodes_enabled": true,
+      "on_manual_stimulus": false,
+      "listen_background_active_nodes": false,
+      "deduplicate_readouts": false,
+      "activation_min": 0.08,
+      "activation_max": 1.0,
+      "language": "auto"
+    },
+    "auto_snapshot": {
+      "enabled": false,
+      "frequency_ticks": 0,
+      "on_repeatable_structure": true,
+      "on_interpreter_important": true
+    }
+  },
+  "stimuli": {
+    "manual_enabled": true,
+    "ai_enabled": true,
+    "background_enabled": true,
+    "submit_on_enter": true,
+    "bypass_filter_sources": [],
+    "source_policies": {
+      "ui-text": {
+        "enabled": true,
+        "bypass_attention": false
+      },
+      "cli-text": {
+        "enabled": true,
+        "bypass_attention": false
+      },
+      "ai-environment": {
+        "enabled": true,
+        "bypass_attention": false
+      },
+      "ai-debug": {
+        "enabled": true,
+        "bypass_attention": false
+      },
+      "ui-audio": {
+        "enabled": true,
+        "bypass_attention": false
+      },
+      "ui-image": {
+        "enabled": true,
+        "bypass_attention": false
+      },
+      "ui-video": {
+        "enabled": true,
+        "bypass_attention": false
+      },
+      "live-microphone": {
+        "enabled": true,
+        "bypass_attention": false
+      },
+      "live-camera": {
+        "enabled": true,
+        "bypass_attention": false
+      },
+      "background": {
+        "enabled": true,
+        "bypass_attention": false
+      }
+    }
+  },
+  "adapter_preferences": {
+    "body-background": {
+      "enabled": false,
+      "config": {
+        "sampling_ticks": 1,
+        "threshold": 0.035,
+        "adaptation": 0.55,
+        "noise": 0.02,
+        "channel_count": 3
+      }
+    },
+    "ambient-field": {
+      "enabled": false,
+      "config": {
+        "transient_rate": 0.04,
+        "transient_amplitude": 0.12,
+        "transient_lifetime_min": 2,
+        "transient_lifetime_max": 14
+      }
+    },
+    "interoceptive-field": {
+      "enabled": false,
+      "config": {
+        "channel_count": 2,
+        "amplitude": 0.08
+      }
+    },
+    "host-telemetry-field": {
+      "enabled": true,
+      "config": {
+        "sample_interval_ms": 1000,
+        "smoothing": 0.8,
+        "levels_enabled": true,
+        "changes_enabled": true,
+        "signals": {
+          "cpu_load": {
+            "level": true,
+            "change": true,
+            "gain": 1.0
+          },
+          "cpu_frequency": {
+            "level": true,
+            "change": true,
+            "gain": 1.0
+          },
+          "memory_pressure": {
+            "level": true,
+            "change": true,
+            "gain": 1.0
+          },
+          "memory_commit_pressure": {
+            "level": true,
+            "change": true,
+            "gain": 1.0
+          },
+          "swap_pressure": {
+            "level": true,
+            "change": true,
+            "gain": 1.0
+          },
+          "page_in_rate": {
+            "level": true,
+            "change": true,
+            "gain": 1.0,
+            "reference": 268435456,
+            "reference_override": false
+          },
+          "page_out_rate": {
+            "level": true,
+            "change": true,
+            "gain": 1.0,
+            "reference": 268435456,
+            "reference_override": false
+          },
+          "page_fault_rate": {
+            "level": true,
+            "change": true,
+            "gain": 1.0,
+            "reference": 25000,
+            "reference_override": false
+          },
+          "disk_read_rate": {
+            "level": true,
+            "change": true,
+            "gain": 1.0,
+            "reference": 268435456,
+            "reference_override": false
+          },
+          "disk_write_rate": {
+            "level": true,
+            "change": true,
+            "gain": 1.0,
+            "reference": 268435456,
+            "reference_override": false
+          },
+          "disk_read_iops": {
+            "level": true,
+            "change": true,
+            "gain": 1.0,
+            "reference": 20000,
+            "reference_override": false
+          },
+          "disk_write_iops": {
+            "level": true,
+            "change": true,
+            "gain": 1.0,
+            "reference": 20000,
+            "reference_override": false
+          },
+          "network_receive_rate": {
+            "level": true,
+            "change": true,
+            "gain": 1.0,
+            "reference": 131072000,
+            "reference_override": false
+          },
+          "network_send_rate": {
+            "level": true,
+            "change": true,
+            "gain": 1.0,
+            "reference": 131072000,
+            "reference_override": false
+          },
+          "network_receive_packets": {
+            "level": true,
+            "change": true,
+            "gain": 1.0,
+            "reference": 200000,
+            "reference_override": false
+          },
+          "network_send_packets": {
+            "level": true,
+            "change": true,
+            "gain": 1.0,
+            "reference": 200000,
+            "reference_override": false
+          },
+          "network_error_rate": {
+            "level": true,
+            "change": true,
+            "gain": 1.0,
+            "reference": 1000,
+            "reference_override": false
+          },
+          "network_drop_rate": {
+            "level": true,
+            "change": true,
+            "gain": 1.0,
+            "reference": 1000,
+            "reference_override": false
+          },
+          "battery_level": {
+            "level": true,
+            "change": true,
+            "gain": 1.0
+          },
+          "ac_power": {
+            "level": true,
+            "change": true,
+            "gain": 1.0
+          },
+          "battery_charging": {
+            "level": true,
+            "change": true,
+            "gain": 1.0
+          }
+        }
+      }
+    },
+    "process-telemetry-field": {
+      "enabled": false,
+      "config": {
+        "sample_interval_ms": 1000,
+        "smoothing": 0.8,
+        "levels_enabled": true,
+        "changes_enabled": true,
+        "signals": {
+          "cpu_load": {
+            "level": true,
+            "change": true,
+            "gain": 1.0
+          },
+          "rss_pressure": {
+            "level": true,
+            "change": true,
+            "gain": 1.0
+          },
+          "private_memory_pressure": {
+            "level": true,
+            "change": true,
+            "gain": 1.0
+          },
+          "page_fault_rate": {
+            "level": true,
+            "change": true,
+            "gain": 1.0,
+            "reference": 25000,
+            "reference_override": false
+          },
+          "read_rate": {
+            "level": true,
+            "change": true,
+            "gain": 1.0,
+            "reference": 134217728,
+            "reference_override": false
+          },
+          "write_rate": {
+            "level": true,
+            "change": true,
+            "gain": 1.0,
+            "reference": 134217728,
+            "reference_override": false
+          },
+          "thread_count": {
+            "level": true,
+            "change": true,
+            "gain": 1.0,
+            "reference": 512,
+            "reference_override": false
+          },
+          "handle_count": {
+            "level": true,
+            "change": true,
+            "gain": 1.0,
+            "reference": 16384,
+            "reference_override": false
+          },
+          "scheduler_latency_ms": {
+            "level": true,
+            "change": true,
+            "gain": 1.0,
+            "reference": 250,
+            "reference_override": false
+          },
+          "tick_execution_time_ms": {
+            "level": true,
+            "change": true,
+            "gain": 1.0,
+            "reference": 250,
+            "reference_override": false
+          }
+        }
+      }
+    },
+    "runtime-telemetry-field": {
+      "enabled": false,
+      "config": {
+        "sample_interval_ms": 1000,
+        "smoothing": 0.8,
+        "levels_enabled": true,
+        "changes_enabled": true,
+        "signals": {
+          "thread_cpu_load": {
+            "level": true,
+            "change": true,
+            "gain": 1.0
+          },
+          "epoch_busy_ratio": {
+            "level": true,
+            "change": true,
+            "gain": 1.0
+          },
+          "epoch_execution_time_ms": {
+            "level": true,
+            "change": true,
+            "gain": 1.0,
+            "reference": 250,
+            "reference_override": false
+          },
+          "scheduler_latency_ms": {
+            "level": true,
+            "change": true,
+            "gain": 1.0,
+            "reference": 250,
+            "reference_override": false
+          }
+        }
+      }
+    },
+    "auditory-sensor": {
+      "enabled": true,
+      "config": {
+        "target_sample_rate": 16000,
+        "sensory_frame_rate": 20.0,
+        "encoding": "band-energy",
+        "band_count": 12,
+        "minimum_frequency": 80.0,
+        "maximum_frequency": 7600.0,
+        "waveform_bins": 24,
+        "level_enabled": true,
+        "change_enabled": true,
+        "gain": 1.0,
+        "inter_frame_epochs": 1,
+        "upload_limit_mb": 32,
+        "live_enabled": false
+      }
+    },
+    "visual-sensor": {
+      "enabled": true,
+      "config": {
+        "target_width": 24,
+        "target_height": 16,
+        "sensory_frame_rate": 6.0,
+        "patch_width": 4,
+        "patch_height": 4,
+        "filter_mode": "luminance",
+        "threshold": 0.5,
+        "level_enabled": true,
+        "change_enabled": true,
+        "gain": 1.0,
+        "inter_patch_epochs": 1,
+        "upload_limit_mb": 128,
+        "live_enabled": false
+      }
+    },
+    "acoustic-output-organ": {
+      "enabled": true,
+      "config": {
+        "maximum_voices": 12,
+        "minimum_activation": 0.08,
+        "output_interval_ms": 100
+      }
+    },
+    "activation-image-projector": {
+      "enabled": true,
+      "config": {
+        "width": 48,
+        "height": 32,
+        "output_interval_ms": 150
+      }
+    },
+    "text-sensor": {
+      "enabled": true,
+      "config": {
+        "frame_characters": 24,
+        "inter_frame_epochs": 1
+      }
+    },
+    "structural-readout": {
+      "enabled": true,
+      "config": {}
+    },
+    "temporal-convergence-readout": {
+      "enabled": true,
+      "config": {}
+    },
+    "ai-debug-duplex": {
+      "enabled": true,
+      "config": {
+        "max_steps": 24,
+        "max_stimuli": 12,
+        "max_text_length": 2000,
+        "max_wait_ticks": 5000,
+        "auto_run_default": false
+      }
+    },
+    "energy-budget": {
+      "enabled": false,
+      "config": {
+        "supply_per_tick": 0.004,
+        "total_supply_limit": 0.0
+      }
+    },
+    "network-transport": {
+      "enabled": false,
+      "config": {
+        "allow_remote_modulation": false,
+        "modulation_timeout_ticks": 300,
+        "output_interval_ms": 150
+      }
+    }
+  },
+  "conversation": {
+    "show_environment_stimuli": false,
+    "show_triggering_environment_stimuli": true,
+    "show_background_readouts": false
+  },
+  "experiments": {
+    "provider_id": "",
+    "language": "follow-ui",
+    "auto_run_default": false
+  }
+}

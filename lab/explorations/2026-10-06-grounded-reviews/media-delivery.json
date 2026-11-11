@@ -1,0 +1,54 @@
+{
+  "project_id": "b86c7719-bf02-4945-bf2b-1fceaf0683cc",
+  "artifacts": {
+    "video": {
+      "artifact_id": "9efc59ae-5a61-4693-aec6-f926071b95e4",
+      "bytes": 54146057,
+      "job_id": "488fe4db-46bd-47d6-b5de-af18a931ab50",
+      "sha256": "792da994cb5be8298abac8909cd37f1054e2f9e823877c3a06154f420627eacf"
+    },
+    "replay": {
+      "artifact_id": "7a483b37-5344-4c15-8f3a-721bf63b93f7",
+      "bytes": 59864437,
+      "job_id": "72bc2cef-eebd-4f16-88ed-ac90b3c90ab0",
+      "sha256": "d176eb2dca8e93fdb6d3d337494068d056d849b863bf435caf3c5f58b7d6b402"
+    },
+    "plan": {
+      "artifact_id": "47dc34de-3df9-41ef-a5cf-7142e630879b",
+      "bytes": 6073,
+      "job_id": "97c84de2-5efe-4816-8dae-8a114e78dc59",
+      "sha256": "38e90b63de527afda8ffa95e36c392dea2a6778b7a03895925774e0c1fd20b67"
+    },
+    "poster": {
+      "artifact_id": "1f4b6424-28a7-4dd8-a0e6-057f705208db",
+      "bytes": 175839,
+      "job_id": "7173398b-d91e-431f-aca2-743bc2dc5532",
+      "sha256": "31212cb68f0bf2e7ad82e2c496b3895dea77d56acec39421d0b345abff9f5966"
+    },
+    "approach": {
+      "artifact_id": "78749d26-1cc3-46f3-a652-b1e68dd89eb4",
+      "bytes": 2065,
+      "job_id": "d9d9f009-d73d-46bf-bded-7ea06a4a8d18",
+      "sha256": "8f63d32bc3174d05ad66d0afc58888dd1979b72ecece8dd6a77374c9f8d454bf"
+    }
+  },
+  "record_id": "46551491-5f46-5bab-bed3-60bea23f91fe",
+  "render": {
+    "input": "E:\\WORKSPACE\\AgentWork\\threemind\\.work\\grounded-reviews-20261006\\complete-media\\complete-replay.html",
+    "output": "E:\\WORKSPACE\\AgentWork\\threemind\\.work\\grounded-reviews-20261006\\complete-media\\e55-complete.mp4",
+    "duration_s": 1722.3999999999917,
+    "fps": 20,
+    "frames": 34448,
+    "width": 1600,
+    "height": 900,
+    "bytes": 54146057,
+    "wall_seconds": 879.319,
+    "renderer": "complete classroom UI canvas",
+    "audio": false,
+    "core_advanced": false,
+    "answers_regenerated": false,
+    "chapters": 18
+  },
+  "local_study_bytes": 2862956424,
+  "database_growth_bytes": 1447714816
+}

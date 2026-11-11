@@ -1,0 +1,520 @@
+{
+  "design_sha256": "110c196cd9e3df23027750ea3bcb4ec616c5659cbd822aac693a86e6eeea3916",
+  "script_sha256": "0668b26366a0b6be1e8daaaac6484a5e79b8ab525847fef48e6248aeb0c34672",
+  "replay_final_hash_matches": true,
+  "sample_interval_us": 10000,
+  "sampled_text_edge_H_max_s": 30.003533989243948,
+  "observed_text_emission_times": 70,
+  "snapshot_comparisons": [
+    {
+      "condition": "v3-h-repeat",
+      "time_s": 12,
+      "edges": [
+        {
+          "pair": "苹果",
+          "weight": 0.1062281660862437,
+          "stability": 0.40920096129929745,
+          "touches": 22,
+          "half_life": null
+        },
+        {
+          "pair": "果苹",
+          "weight": 0.1062281660862437,
+          "stability": 0.40920096129929745,
+          "touches": 22,
+          "half_life": null
+        },
+        {
+          "pair": "是红",
+          "weight": 0.10944502362425959,
+          "stability": 0.4003584540479805,
+          "touches": 12,
+          "half_life": null
+        },
+        {
+          "pair": "是绿",
+          "weight": 0.12974507248364722,
+          "stability": 0.41836011564942643,
+          "touches": 12,
+          "half_life": null
+        },
+        {
+          "pair": "红是",
+          "weight": 0.10978744682673441,
+          "stability": 0.4137604558964287,
+          "touches": 20,
+          "half_life": null
+        },
+        {
+          "pair": "的色",
+          "weight": 0.20423185483000603,
+          "stability": 0.974704371293833,
+          "touches": 27,
+          "half_life": null
+        },
+        {
+          "pair": "色的",
+          "weight": 0.20423185483000603,
+          "stability": 0.974704371293833,
+          "touches": 27,
+          "half_life": null
+        },
+        {
+          "pair": "叶树",
+          "weight": 0.10688879020606487,
+          "stability": 0.40871790415867953,
+          "touches": 21,
+          "half_life": null
+        },
+        {
+          "pair": "树叶",
+          "weight": 0.10688879020606487,
+          "stability": 0.40871790415867953,
+          "touches": 21,
+          "half_life": null
+        },
+        {
+          "pair": "绿是",
+          "weight": 0.13026813316445743,
+          "stability": 0.450650127339644,
+          "touches": 23,
+          "half_life": null
+        }
+      ]
+    },
+    {
+      "condition": "v3-h-repeat",
+      "time_s": 132,
+      "edges": [
+        {
+          "pair": "是绿",
+          "weight": 0.00810906703022796,
+          "stability": 0.23836894117332907,
+          "touches": 12,
+          "half_life": null
+        },
+        {
+          "pair": "的色",
+          "weight": 0.012764490926875378,
+          "stability": 0.794716702263591,
+          "touches": 27,
+          "half_life": null
+        },
+        {
+          "pair": "色的",
+          "weight": 0.012764490926875378,
+          "stability": 0.794716702263591,
+          "touches": 27,
+          "half_life": null
+        },
+        {
+          "pair": "绿是",
+          "weight": 0.00814175832277859,
+          "stability": 0.2706567700641757,
+          "touches": 23,
+          "half_life": null
+        }
+      ]
+    },
+    {
+      "condition": "v3-stability-repeat",
+      "time_s": 12,
+      "edges": [
+        {
+          "pair": "苹果",
+          "weight": 0.11303232994030651,
+          "stability": 0.4092374345755519,
+          "touches": 22,
+          "half_life": null
+        },
+        {
+          "pair": "果苹",
+          "weight": 0.11303232994030651,
+          "stability": 0.4092374345755519,
+          "touches": 22,
+          "half_life": null
+        },
+        {
+          "pair": "是红",
+          "weight": 0.11486215563791702,
+          "stability": 0.4003653501657878,
+          "touches": 12,
+          "half_life": null
+        },
+        {
+          "pair": "是绿",
+          "weight": 0.13590181558268524,
+          "stability": 0.41836032304966864,
+          "touches": 12,
+          "half_life": null
+        },
+        {
+          "pair": "红是",
+          "weight": 0.116501682989186,
+          "stability": 0.4137846547624727,
+          "touches": 20,
+          "half_life": null
+        },
+        {
+          "pair": "的色",
+          "weight": 0.22535016276166975,
+          "stability": 0.9765814370027676,
+          "touches": 29,
+          "half_life": null
+        },
+        {
+          "pair": "色的",
+          "weight": 0.22535016276166975,
+          "stability": 0.9765814370027676,
+          "touches": 29,
+          "half_life": null
+        },
+        {
+          "pair": "叶树",
+          "weight": 0.11322062270018378,
+          "stability": 0.40874783031690937,
+          "touches": 21,
+          "half_life": null
+        },
+        {
+          "pair": "树叶",
+          "weight": 0.11322062270018378,
+          "stability": 0.40874783031690937,
+          "touches": 21,
+          "half_life": null
+        },
+        {
+          "pair": "绿是",
+          "weight": 0.13865021148696188,
+          "stability": 0.450689389978986,
+          "touches": 23,
+          "half_life": null
+        }
+      ]
+    },
+    {
+      "condition": "v3-stability-repeat",
+      "time_s": 132,
+      "edges": [
+        {
+          "pair": "苹果",
+          "weight": 0.017237486740771222,
+          "stability": 0.22923949568759136,
+          "touches": 22,
+          "half_life": null
+        },
+        {
+          "pair": "果苹",
+          "weight": 0.017237486740771222,
+          "stability": 0.22923949568759136,
+          "touches": 22,
+          "half_life": null
+        },
+        {
+          "pair": "是红",
+          "weight": 0.017092234098783566,
+          "stability": 0.22036903291313725,
+          "touches": 12,
+          "half_life": null
+        },
+        {
+          "pair": "是绿",
+          "weight": 0.021254790697729238,
+          "stability": 0.2383691492636485,
+          "touches": 12,
+          "half_life": null
+        },
+        {
+          "pair": "红是",
+          "weight": 0.01799133426693752,
+          "stability": 0.23378742593788762,
+          "touches": 20,
+          "half_life": null
+        },
+        {
+          "pair": "的色",
+          "weight": 0.16474476023118942,
+          "stability": 0.7965936423421657,
+          "touches": 29,
+          "half_life": null
+        },
+        {
+          "pair": "色的",
+          "weight": 0.16474476023118942,
+          "stability": 0.7965936423421657,
+          "touches": 29,
+          "half_life": null
+        },
+        {
+          "pair": "叶树",
+          "weight": 0.017243009781184794,
+          "stability": 0.22875328027081832,
+          "touches": 21,
+          "half_life": null
+        },
+        {
+          "pair": "树叶",
+          "weight": 0.017243009781184794,
+          "stability": 0.22875328027081832,
+          "touches": 21,
+          "half_life": null
+        },
+        {
+          "pair": "绿是",
+          "weight": 0.023711519298333036,
+          "stability": 0.27069606901860677,
+          "touches": 23,
+          "half_life": null
+        }
+      ]
+    },
+    {
+      "condition": "v4-h-repeat",
+      "time_s": 12,
+      "edges": [
+        {
+          "pair": "苹果",
+          "weight": 0.10056953240505932,
+          "stability": 0.3709782271381448,
+          "touches": 22,
+          "half_life": 30.0
+        },
+        {
+          "pair": "果苹",
+          "weight": 0.10056953240505932,
+          "stability": 0.3709782271381448,
+          "touches": 22,
+          "half_life": 30.0
+        },
+        {
+          "pair": "是红",
+          "weight": 0.09849518295013368,
+          "stability": 0.3461664774505043,
+          "touches": 12,
+          "half_life": 30.0
+        },
+        {
+          "pair": "是绿",
+          "weight": 0.10731922303874189,
+          "stability": 0.3381853438652517,
+          "touches": 12,
+          "half_life": 30.0
+        },
+        {
+          "pair": "红是",
+          "weight": 0.11165674128621865,
+          "stability": 0.38737829928356954,
+          "touches": 23,
+          "half_life": 30.0
+        },
+        {
+          "pair": "的色",
+          "weight": 0.1525798480444833,
+          "stability": 0.7254030669728603,
+          "touches": 24,
+          "half_life": 30.0
+        },
+        {
+          "pair": "色的",
+          "weight": 0.16458023227257287,
+          "stability": 0.7429721181885872,
+          "touches": 24,
+          "half_life": 30.0
+        },
+        {
+          "pair": "叶树",
+          "weight": 0.1011282992418281,
+          "stability": 0.36412703769731647,
+          "touches": 19,
+          "half_life": 30.0
+        },
+        {
+          "pair": "树叶",
+          "weight": 0.11406786109314933,
+          "stability": 0.39743242554846214,
+          "touches": 23,
+          "half_life": 30.0
+        },
+        {
+          "pair": "绿是",
+          "weight": 0.10780037542485515,
+          "stability": 0.3610313841169065,
+          "touches": 23,
+          "half_life": 30.0
+        }
+      ]
+    },
+    {
+      "condition": "v4-h-repeat",
+      "time_s": 132,
+      "edges": [
+        {
+          "pair": "的色",
+          "weight": 0.009536240502780208,
+          "stability": 0.5454174194729285,
+          "touches": 24,
+          "half_life": 30.0
+        },
+        {
+          "pair": "色的",
+          "weight": 0.010286264517035812,
+          "stability": 0.5629864706886555,
+          "touches": 24,
+          "half_life": 30.0
+        }
+      ]
+    },
+    {
+      "condition": "v4-stability-repeat",
+      "time_s": 12,
+      "edges": [
+        {
+          "pair": "苹果",
+          "weight": 0.10663039724971222,
+          "stability": 0.3726131899109996,
+          "touches": 22,
+          "half_life": 30.0
+        },
+        {
+          "pair": "果苹",
+          "weight": 0.10663039724971222,
+          "stability": 0.3726131899109996,
+          "touches": 22,
+          "half_life": 30.0
+        },
+        {
+          "pair": "是红",
+          "weight": 0.10281392015305209,
+          "stability": 0.34603071333537677,
+          "touches": 12,
+          "half_life": 30.0
+        },
+        {
+          "pair": "是绿",
+          "weight": 0.11334009981082124,
+          "stability": 0.339789798208613,
+          "touches": 12,
+          "half_life": 30.0
+        },
+        {
+          "pair": "红是",
+          "weight": 0.11907879232902117,
+          "stability": 0.3872623187982535,
+          "touches": 23,
+          "half_life": 30.0
+        },
+        {
+          "pair": "的色",
+          "weight": 0.1661830942407783,
+          "stability": 0.7269511677980276,
+          "touches": 24,
+          "half_life": 30.0
+        },
+        {
+          "pair": "色的",
+          "weight": 0.18024080745169122,
+          "stability": 0.7445202190137546,
+          "touches": 24,
+          "half_life": 30.0
+        },
+        {
+          "pair": "叶树",
+          "weight": 0.10660922475050652,
+          "stability": 0.36755010803095656,
+          "touches": 20,
+          "half_life": 30.0
+        },
+        {
+          "pair": "树叶",
+          "weight": 0.12136371832343497,
+          "stability": 0.39711863945564246,
+          "touches": 23,
+          "half_life": 30.0
+        },
+        {
+          "pair": "绿是",
+          "weight": 0.11406980434699864,
+          "stability": 0.3626797390499127,
+          "touches": 23,
+          "half_life": 30.0
+        }
+      ]
+    },
+    {
+      "condition": "v4-stability-repeat",
+      "time_s": 132,
+      "edges": [
+        {
+          "pair": "苹果",
+          "weight": 0.014695431700820034,
+          "stability": 0.19261568157571238,
+          "touches": 22,
+          "half_life": 30.0
+        },
+        {
+          "pair": "果苹",
+          "weight": 0.014695431700820034,
+          "stability": 0.19261568157571238,
+          "touches": 22,
+          "half_life": 30.0
+        },
+        {
+          "pair": "是红",
+          "weight": 0.013165492847512918,
+          "stability": 0.16603377678615006,
+          "touches": 12,
+          "half_life": 30.0
+        },
+        {
+          "pair": "是绿",
+          "weight": 0.014265315957796315,
+          "stability": 0.15979801480152933,
+          "touches": 12,
+          "half_life": 30.0
+        },
+        {
+          "pair": "红是",
+          "weight": 0.0170892704954876,
+          "stability": 0.20726467287346403,
+          "touches": 23,
+          "half_life": 30.0
+        },
+        {
+          "pair": "的色",
+          "weight": 0.06097560638588181,
+          "stability": 0.5469630935886812,
+          "touches": 24,
+          "half_life": 30.0
+        },
+        {
+          "pair": "色的",
+          "weight": 0.06942226509960187,
+          "stability": 0.5645321448044083,
+          "touches": 24,
+          "half_life": 30.0
+        },
+        {
+          "pair": "叶树",
+          "weight": 0.014488393112157301,
+          "stability": 0.1875551543891947,
+          "touches": 20,
+          "half_life": 30.0
+        },
+        {
+          "pair": "树叶",
+          "weight": 0.01789841540187325,
+          "stability": 0.21712375603888429,
+          "touches": 23,
+          "half_life": 30.0
+        },
+        {
+          "pair": "绿是",
+          "weight": 0.01529502054809217,
+          "stability": 0.1826860917938379,
+          "touches": 23,
+          "half_life": 30.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+# E68 execution and verification notes
+
+October 13, 2026; prepared with AI assistance. Scientific conclusions are in the [report](report.en.md). These notes do not replace original trials, activity or complete individuals.
+
+- The earlier chat interruption occurred during engineering preflight, before formal E68 individuals existed. Two new complete blank subjects were subsequently created; no engineering specimen or E67 subject became a participant.
+- The detached pipeline and host started around 02:38 China time, with original host PID 21184 and pipeline PID 17004. Two launcher processes belong to the same process tree. The groups ran sequentially by curriculum round. Each was born once; ordinary stages neither restored old state nor replayed experiences or selected earlier reader weights.
+- Frozen courses contained 104+167+135+108 teaching statements per individual and 32 exact-error reanswers. Cumulative reader calibration used 296 labeled samples and retained all 4800 computed updates. Round 3 had an empty error union but completed its preregistered 108 mixed-review lessons.
+- The user authorized the separate E68 hourly continuation monitor. It checked progress, boundaries, logs, queued requests and capacity without restarting the host. E67 and `/4` remained stopped. Birth and final complete originals remain preserved.
+- Simulation finished around 09:46 China time. Both final states are 1555 seconds at boundary 1258, with 1259 boundaries including birth and no unresolved in-flight marker. Final scores are 66/72 and 71/72; final errors were not taught again.
+- `analyze.py` checked 62,200 frames, 2518 boundary links and 12,590 checkpoint members. `review_results.py` checks frozen sources, final states and video source hashes without instantiating, restoring or advancing consciousness.
+- Account-session expiry queued 1562 durable requests while reliable local computation continued. Explicit login with the same previously configured platform account allowed the existing pipeline to synchronize 1615 requests including newly produced export references. Pending returned to zero. No permission bypass or experimental rerun occurred. Better long-running-host renewal feedback remains a tooling recommendation, not a silently implemented runtime change.
+- Both complete video streams decoded successfully:1280×1024, 10 fps,H.264,779.1 seconds and 7791 encoded frames each, with source hashes checked. Actual encoded frames at 625 s (`/2`) and 702 s (`/3.1`) were inspected. The latter faithfully displays the shared yellow-cube/cylinder error at Core 1522 s. Chinese text and all four activity curves are legible; answer-reading holds do not advance simulation.
+- Fitting summaries do not invent activity while internal time is paused. The physical scene is labeled schematic, alongside actual retinal samples; scoring labels do not replace produced answers.
+- Bilingual reports, delivery supplements and these notes are saved through the canonical scientific recording interface with original references. Final database receipts determine publication success; merely writing a document is not claimed as database registration.
+- No causal ablation, transplant, reinitialization, parameter tuning, `/4` restart or author Word edit occurred. Suggested follow-up work requires separate registration and any necessary permission.
+
+Approximate minute-level times are conversions from recorded UTC to China time. Large originals stay in managed data storage; local commits include only code, small documents and histories, with no push.

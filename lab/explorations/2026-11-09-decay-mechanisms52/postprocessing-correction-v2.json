@@ -1,0 +1,16 @@
+{
+  "schema": "threemind.postprocessing-correction/1",
+  "date": "2026-11-09",
+  "original": {
+    "path": "lab/explorations/2026-11-09-decay-mechanisms52/audit_assay.py",
+    "sha256": "ce93fb17ab483a0ad19072da0e371c5be92f127d2adea3c7688f9d16dbd35f8c"
+  },
+  "revised": {
+    "path": "lab/explorations/2026-11-09-decay-mechanisms52/audit_assay_v2.py",
+    "sha256": "7ba99176bd8e53cb27c14ff1d1646e0d8b19cc105a70ac970493b590b333e11c"
+  },
+  "reason": "The original independent audit overwrote the integer boundary count with a condition dictionary before its final assertion.",
+  "effect": "Only validator bookkeeping and provenance; no change to stimuli, dynamics, scoring, scientific criteria, or original observations.",
+  "execution": "Prepared during live calculation before any complete outcome. Original frozen auditor remains unchanged and its failure log is retained. Revision 2 will create the first successful audit result after calculation.",
+  "canonical_result": "independent-audit-v1.json is the result schema/first successful result; auditor_revision and auditor_sha256 identify revision 2 explicitly."
+}

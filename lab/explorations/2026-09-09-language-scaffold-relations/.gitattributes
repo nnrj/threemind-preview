@@ -1,0 +1,9 @@
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.csv -text whitespace=trailing-space,space-before-tab,cr-at-eol
+*.png -text
+.gitattributes text eol=lf
+
+# Public preview: preserve the exported JSON bytes and provenance hashes.
+*.json -text whitespace=cr-at-eol

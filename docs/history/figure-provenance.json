@@ -1,0 +1,652 @@
+{
+  "schema": "threemind.preview-figure-provenance/1",
+  "date": "2026-11-11",
+  "historical_figure_date": "2026-10-14",
+  "note": "Scientific provenance for three bilingual figures only. Historical hashes describe their recorded source versions. No experiment was rerun and no image was regenerated. Manuscript text and editorial accounts are excluded.",
+  "images": [
+    {
+      "path": "docs/paper/zh/图表/图二_自主活动判据与因果检验_修订1.png",
+      "sha256": "c79760dfa684e2783b71cefb5ba38f06d43eeda19c7bed5f5974dd9c9d885c29"
+    },
+    {
+      "path": "docs/paper/zh/图表/图四_蜉蝣关键画面_修订1.png",
+      "sha256": "d72a4fb2a823033e18c101b73764be698b1a446517cde7ba366fe42c55199a7c"
+    },
+    {
+      "path": "docs/paper/zh/图表/图九_连续形色学习_修订1.png",
+      "sha256": "71f85c12aef9944e8edfc6307d5f3e986da01c2224b38dacb9032e68cb6ac7f1"
+    },
+    {
+      "path": "docs/paper/en/figures/figure-2-autonomy-causal-tests_revision1.png",
+      "sha256": "4a337c0692a8fd910db98f20767a35a327effe24a8d0d9a64c65106929c8d66c"
+    },
+    {
+      "path": "docs/paper/en/figures/figure-4-ecology-frames_revision1.png",
+      "sha256": "0ca627057e8a69842fa19f9e4785166c3c6eaebb5d62e6c759bb237ccfc7ef60"
+    },
+    {
+      "path": "docs/paper/en/figures/figure-9-continuous-shape-color_revision1.png",
+      "sha256": "56f1a214e52c0666b26105d705e3beef0d29191f4614e162899c795b3f1db408"
+    }
+  ],
+  "autonomy": {
+    "sources": {
+      "e13_selection": {
+        "path": ".work/input-rate-autonomy-20260929/selection-results.json",
+        "sha256": "dd36d3b336ea013d9d6ed9bca7e0e60c51c0d9e1656a30610efb5a24ac5cea8e",
+        "bytes": 70498
+      },
+      "e13_report": {
+        "path": "lab/explorations/2026-09-29-input-rate-and-autonomy/report.r2.zh.md",
+        "sha256": "c2603bf083a02142ddaae0d9739419a35dc572c456a6aa5f54251683f2dcb85d",
+        "bytes": 22944
+      },
+      "e15_criteria": {
+        "path": ".work/experience-autonomy-20260929/criteria-decision.json",
+        "sha256": "94af6c0b2d34c47377059183ee303016f485ec6dd915bcaea2d8b4c3b2baafbc",
+        "bytes": 1506
+      },
+      "e15_local": {
+        "path": ".work/experience-autonomy-20260929/local-analysis.json",
+        "sha256": "4326c1b1485075afc49925d07aeda19dd65feddf913437ca6145923c86e8b9df",
+        "bytes": 10243
+      },
+      "e15_environment": {
+        "path": ".work/experience-autonomy-20260929/environment-analysis.json",
+        "sha256": "9a7015f130bb80d1f4e9c2afcf0665241f677b93d6a8c62dc7020390dfd45c79",
+        "bytes": 15413
+      },
+      "e15_sequence": {
+        "path": ".work/experience-autonomy-20260929/sequence-analysis.json",
+        "sha256": "463f1fca7fbde40f1d16aa537f63222088ed0bfc0a046fbae9c77415e8ddc92f",
+        "bytes": 3218
+      },
+      "criteria_wording": {
+        "path": "lab/explorations/2026-09-29-internal-activity/autonomy-criteria.zh.md",
+        "sha256": "47d7b228c9eb06ebba5c652b5832b0022f7bef742c15aa8f5a027fab7a9be5a1",
+        "bytes": 5117
+      },
+      "e15_design": {
+        "path": "lab/explorations/2026-09-29-experience-and-autonomy/design.zh.md",
+        "sha256": "b66ead369d491b541adc5b211d620040fcc67d66c14df086d2872a6ad7325a92",
+        "bytes": 8072
+      },
+      "e15_report": {
+        "path": "lab/explorations/2026-09-29-experience-and-autonomy/report.r2.zh.md",
+        "sha256": "fb41f852f7a4121220e656bfeb9fef71a158812e2d8495a7ac445ddc032f8f33",
+        "bytes": 17063
+      },
+      "e21_report": {
+        "path": "lab/explorations/2026-10-01-order-mechanisms/report.zh.md",
+        "sha256": "cc63d3efcc7fae0e71f0d11c95212e75a3ebc40dc82f3b85d7522d2e7a755d00",
+        "bytes": 18068
+      },
+      "e30_report": {
+        "path": "lab/explorations/2026-10-03-ocean-causality/report.r2.zh.md",
+        "sha256": "f03519ee21dd29ec6c60a4bece22ed900e6a7962c629769267eba06005bc6afd",
+        "bytes": 15573
+      }
+    },
+    "e13": {
+      "region1_occupancy_percent": [
+        {
+          "wiring": 9293201,
+          "selection": "region0",
+          "n_paired_final_conditions": 8,
+          "value": 50.0
+        },
+        {
+          "wiring": 9293201,
+          "selection": "region1",
+          "n_paired_final_conditions": 8,
+          "value": 50.0
+        },
+        {
+          "wiring": 9293201,
+          "selection": "random",
+          "n_paired_final_conditions": 8,
+          "value": 50.0
+        },
+        {
+          "wiring": 9293202,
+          "selection": "region0",
+          "n_paired_final_conditions": 8,
+          "value": 2.5416666666666665
+        },
+        {
+          "wiring": 9293202,
+          "selection": "region1",
+          "n_paired_final_conditions": 8,
+          "value": 97.29166666666667
+        },
+        {
+          "wiring": 9293202,
+          "selection": "random",
+          "n_paired_final_conditions": 8,
+          "value": 97.45833333333334
+        }
+      ],
+      "source_key": "e13_selection.held_out[*].extra.region1_fraction",
+      "boundary": "Four starting positions x two layouts per selected parent; matched conditions, not eight independent lineages. Communication-off occupancy remains approximately97.25%; E13 does not show abolition of regional preference."
+    },
+    "e15": {
+      "criteria": {
+        "criteria": [
+          {
+            "criterion": 1,
+            "pass": true,
+            "passing_parents": [
+              "s9293201/region0",
+              "s9293201/region1",
+              "s9293202/region0",
+              "s9293202/region1"
+            ]
+          },
+          {
+            "criterion": 2,
+            "pass": true,
+            "passing_parents": [
+              "s9293201/region0",
+              "s9293201/region1",
+              "s9293202/region0",
+              "s9293202/region1"
+            ]
+          },
+          {
+            "criterion": 3,
+            "pass": true,
+            "passing_parents": [
+              "s9293201/region0",
+              "s9293201/region1",
+              "s9293202/region0",
+              "s9293202/region1"
+            ]
+          },
+          {
+            "criterion": 4,
+            "pass": true,
+            "passing_parents": [
+              "s9293201/region0",
+              "s9293201/region1",
+              "s9293202/region0",
+              "s9293202/region1"
+            ]
+          }
+        ],
+        "meaning": "Project operational conclusion; not a measurement of subjective experience",
+        "meets_all": true,
+        "parent_results": [
+          {
+            "criteria": [
+              true,
+              true,
+              true,
+              true
+            ],
+            "environment_effect": 0.0032502897597241273,
+            "history_motor": 0.005500599208410756,
+            "parent": "s9293201/region0",
+            "sequence_effect": 0.017246390028245115
+          },
+          {
+            "criteria": [
+              true,
+              true,
+              true,
+              true
+            ],
+            "environment_effect": 0.007541960649100073,
+            "history_motor": 0.00925437757086002,
+            "parent": "s9293201/region1",
+            "sequence_effect": 0.02496802860066026
+          },
+          {
+            "criteria": [
+              true,
+              true,
+              true,
+              true
+            ],
+            "environment_effect": 0.0005809520933116943,
+            "history_motor": -0.00841391626184071,
+            "parent": "s9293202/region0",
+            "sequence_effect": 0.00849644411146164
+          },
+          {
+            "criteria": [
+              true,
+              true,
+              true,
+              true
+            ],
+            "environment_effect": 0.0008825582810242372,
+            "history_motor": 0.015893647487813682,
+            "parent": "s9293202/region1",
+            "sequence_effect": 0.0026699062050346105
+          }
+        ],
+        "threshold": 0.0001,
+        "version": "autonomy-criteria/1"
+      },
+      "local": {
+        "exact_shams": 16,
+        "exact_restored_trajectories": 16,
+        "rows": [
+          {
+            "parent": "s9293201/region0",
+            "condition": "normal",
+            "history_motor": 0.005500599208410756,
+            "history_association": 0.019482410308335994
+          },
+          {
+            "parent": "s9293201/region0",
+            "condition": "sham",
+            "history_motor": 0.005500599208410756,
+            "history_association": 0.019482410308335994
+          },
+          {
+            "parent": "s9293201/region0",
+            "condition": "task_edges",
+            "history_motor": -2.2146605332451497e-05,
+            "history_association": 1.8674542197156738e-05
+          },
+          {
+            "parent": "s9293201/region0",
+            "condition": "matched_edges",
+            "history_motor": 0.005500599208410756,
+            "history_association": 0.019482410308335994
+          },
+          {
+            "parent": "s9293201/region0",
+            "condition": "returns",
+            "history_motor": 0.0056954877615036925,
+            "history_association": 0.019340278506317546
+          },
+          {
+            "parent": "s9293201/region0",
+            "condition": "restore",
+            "history_motor": 0.005500599208410756,
+            "history_association": 0.019482410308335994
+          },
+          {
+            "parent": "s9293201/region0",
+            "condition": "off",
+            "history_motor": 0.0,
+            "history_association": 0.0
+          },
+          {
+            "parent": "s9293201/region1",
+            "condition": "normal",
+            "history_motor": 0.00925437757086002,
+            "history_association": 0.019514858498232927
+          },
+          {
+            "parent": "s9293201/region1",
+            "condition": "sham",
+            "history_motor": 0.00925437757086002,
+            "history_association": 0.019514858498232927
+          },
+          {
+            "parent": "s9293201/region1",
+            "condition": "task_edges",
+            "history_motor": -5.147569898700244e-05,
+            "history_association": 5.82220410819392e-05
+          },
+          {
+            "parent": "s9293201/region1",
+            "condition": "matched_edges",
+            "history_motor": 0.00925437757086002,
+            "history_association": 0.019514858498232927
+          },
+          {
+            "parent": "s9293201/region1",
+            "condition": "returns",
+            "history_motor": 0.009348195374035792,
+            "history_association": 0.019373430949704545
+          },
+          {
+            "parent": "s9293201/region1",
+            "condition": "restore",
+            "history_motor": 0.00925437757086002,
+            "history_association": 0.019514858498232927
+          },
+          {
+            "parent": "s9293201/region1",
+            "condition": "off",
+            "history_motor": 0.0,
+            "history_association": 0.0
+          },
+          {
+            "parent": "s9293202/region0",
+            "condition": "normal",
+            "history_motor": -0.00841391626184071,
+            "history_association": 0.016673312649177947
+          },
+          {
+            "parent": "s9293202/region0",
+            "condition": "sham",
+            "history_motor": -0.00841391626184071,
+            "history_association": 0.016673312649177947
+          },
+          {
+            "parent": "s9293202/region0",
+            "condition": "task_edges",
+            "history_motor": -1.639206577606911e-05,
+            "history_association": 8.772954315165596e-05
+          },
+          {
+            "parent": "s9293202/region0",
+            "condition": "matched_edges",
+            "history_motor": -0.00840659947569039,
+            "history_association": 0.016659377136723882
+          },
+          {
+            "parent": "s9293202/region0",
+            "condition": "returns",
+            "history_motor": -0.008412272716589834,
+            "history_association": 0.01659133264036232
+          },
+          {
+            "parent": "s9293202/region0",
+            "condition": "restore",
+            "history_motor": -0.00841391626184071,
+            "history_association": 0.016673312649177947
+          },
+          {
+            "parent": "s9293202/region0",
+            "condition": "off",
+            "history_motor": 0.0,
+            "history_association": 0.0
+          },
+          {
+            "parent": "s9293202/region1",
+            "condition": "normal",
+            "history_motor": 0.015893647487813682,
+            "history_association": 0.03244140158852638
+          },
+          {
+            "parent": "s9293202/region1",
+            "condition": "sham",
+            "history_motor": 0.015893647487813682,
+            "history_association": 0.03244140158852638
+          },
+          {
+            "parent": "s9293202/region1",
+            "condition": "task_edges",
+            "history_motor": 0.0,
+            "history_association": 0.0
+          },
+          {
+            "parent": "s9293202/region1",
+            "condition": "matched_edges",
+            "history_motor": 0.015893647487813682,
+            "history_association": 0.03244140158852638
+          },
+          {
+            "parent": "s9293202/region1",
+            "condition": "returns",
+            "history_motor": 0.015893647487813682,
+            "history_association": 0.03244140158852638
+          },
+          {
+            "parent": "s9293202/region1",
+            "condition": "restore",
+            "history_motor": 0.015893647487813682,
+            "history_association": 0.03244140158852638
+          },
+          {
+            "parent": "s9293202/region1",
+            "condition": "off",
+            "history_motor": 0.0,
+            "history_association": 0.0
+          }
+        ]
+      },
+      "criterion_labels_zh": [
+        "经历留下个体差异",
+        "内部活动确实影响行为",
+        "内部状态组织连续互动",
+        "同一个体能被环境重新塑造"
+      ],
+      "criterion_labels_en": [
+        "Experience leaves individual differences",
+        "Internal activity causally affects behavior",
+        "Internal state organizes sequential interaction",
+        "The same individual is reshaped by its environment"
+      ],
+      "definition_source": "criteria_wording lines7-12; preregistered e15_design lines7-13",
+      "rules": {
+        "absolute_minimum_effect": 0.0001,
+        "sham_error_multiplier": 10,
+        "required_passing_parents": 3,
+        "required_wirings": 2,
+        "observed_passing_parents": 4,
+        "observed_wirings": 2
+      },
+      "boundary": "Two wiring families, two related selected parents in each. 802 instances are branches, not802 independent subjects. The four preregistered operational criteria passed; this is not a direct subjective-experience measurement."
+    },
+    "e21": {
+      "source_lines": "e21_report:11-34",
+      "unit": "1e-3 activation * simulated second",
+      "groups": [
+        "unchanged",
+        "node_history",
+        "connection_history",
+        "fast_state",
+        "weights_only",
+        "all_four"
+      ],
+      "facilitation_off": [
+        0.626764,
+        0.626764,
+        0.626764,
+        0.626764,
+        -0.626764,
+        -0.626764
+      ],
+      "facilitation_1s": [
+        0.631792,
+        0.631792,
+        0.631792,
+        0.631792,
+        -0.631792,
+        -0.631792
+      ],
+      "sign_decisions": {
+        "weight_exchanged_donor_direction": 128,
+        "weight_exchanged_n": 128,
+        "weight_not_exchanged_original_direction": 128,
+        "weight_not_exchanged_n": 128
+      },
+      "boundary": "State exchange in an anonymous order-response task at30s. Four materials x two orders x two facilitation settings x16 factorial exchange conditions, with cue/no-cue pairs=512 branches. Not transplant of E13 regional occupancy or whole consciousness."
+    }
+  },
+  "ecology_frames": [
+    {
+      "id": "turn-before",
+      "legacy_video": ".work/ocean-species-20261004/media/e38-turning-20.mp4",
+      "resolved_video": "E:\\ThreeMindData\\originals\\research\\1e4312291976e322b213e590\\media\\e38-turning-20.mp4",
+      "video_sha256": "b3d2de82683cea25f711c1257fd2019f1129291cde931b27de5caf72c0fce621",
+      "receipt": "E:\\ThreeMindData\\originals\\research\\1e4312291976e322b213e590\\media\\e38-turning-20.mp4.json",
+      "receipt_sha256": "1f937dec0dbf5feb29b0624183f3944056c17816ce8befa539ac6ffdbd511a61",
+      "frame_number_zero_based": 20,
+      "fps": 10,
+      "video_time_s": 2.0,
+      "nominal_render_time_s": 99.12,
+      "event_simulation_time_s": 104.12,
+      "time_note": "Nominal render time; source observations are held at 100 ms, not interpolated. Event time comes from the published record.",
+      "extracted_frame_sha256": "b44a8bde7999692e6d2228e404beef293a22947d4b443a98b3f0e1d37d7e0a5f",
+      "source_recording": "E:\\WORKSPACE\\AgentWork\\threemind\\.work\\ocean-species-20261004\\cases\\shared-00",
+      "panel_zh": "甲1  E38 #20：转弯过程",
+      "panel_en": "A1  E38 #20: motor turn"
+    },
+    {
+      "id": "turn-after",
+      "legacy_video": ".work/ocean-species-20261004/media/e38-turning-20.mp4",
+      "resolved_video": "E:\\ThreeMindData\\originals\\research\\1e4312291976e322b213e590\\media\\e38-turning-20.mp4",
+      "video_sha256": "b3d2de82683cea25f711c1257fd2019f1129291cde931b27de5caf72c0fce621",
+      "receipt": "E:\\ThreeMindData\\originals\\research\\1e4312291976e322b213e590\\media\\e38-turning-20.mp4.json",
+      "receipt_sha256": "1f937dec0dbf5feb29b0624183f3944056c17816ce8befa539ac6ffdbd511a61",
+      "frame_number_zero_based": 72,
+      "fps": 10,
+      "video_time_s": 7.2,
+      "nominal_render_time_s": 104.32000000000001,
+      "event_simulation_time_s": 104.12,
+      "time_note": "Nominal render time; source observations are held at 100 ms, not interpolated. Event time comes from the published record.",
+      "extracted_frame_sha256": "7e36de4d719a6b1571fdca57d5aa548b62aab254d5b88047941e956d9c5fe440",
+      "source_recording": "E:\\WORKSPACE\\AgentWork\\threemind\\.work\\ocean-species-20261004\\cases\\shared-00",
+      "panel_zh": "甲2  同一个体：随后摄入营养",
+      "panel_en": "A2  Same individual: subsequent feeding"
+    },
+    {
+      "id": "engulf-before",
+      "legacy_video": ".work/ocean-enclosure-20261004/media/enclosure-segment-01.mp4",
+      "resolved_video": "E:\\ThreeMindData\\originals\\research\\e21acbb5b0ef64e6d5d22790\\media\\enclosure-segment-01.mp4",
+      "video_sha256": "98de71a571c7978c79fa3e475b87ac9bc263b152a786a3900640419a1f1cec51",
+      "receipt": "E:\\ThreeMindData\\originals\\research\\e21acbb5b0ef64e6d5d22790\\media\\enclosure-segment-01.mp4.json",
+      "receipt_sha256": "1c0aefd561aa79acc7e990a92c43108563be7989b56bf879d5461b1fa558acfd",
+      "frame_number_zero_based": 58,
+      "fps": 10,
+      "video_time_s": 5.8,
+      "nominal_render_time_s": 225.86,
+      "event_simulation_time_s": 226.06,
+      "time_note": "Nominal render time; source observations are held at 100 ms, not interpolated. Event time comes from the published record.",
+      "extracted_frame_sha256": "3c9c4086075f404af58bf1582ae2709baca26083f34f7809f7c310b3fc8778c2",
+      "source_recording": "E:\\WORKSPACE\\AgentWork\\threemind\\.work\\ocean-enclosure-20261004\\cases\\segment-01",
+      "panel_zh": "乙1  E37 #59：完整包裹 #32 前",
+      "panel_en": "B1  E37 #59: before engulfing #32"
+    },
+    {
+      "id": "engulf-after",
+      "legacy_video": ".work/ocean-enclosure-20261004/media/enclosure-segment-01.mp4",
+      "resolved_video": "E:\\ThreeMindData\\originals\\research\\e21acbb5b0ef64e6d5d22790\\media\\enclosure-segment-01.mp4",
+      "video_sha256": "98de71a571c7978c79fa3e475b87ac9bc263b152a786a3900640419a1f1cec51",
+      "receipt": "E:\\ThreeMindData\\originals\\research\\e21acbb5b0ef64e6d5d22790\\media\\enclosure-segment-01.mp4.json",
+      "receipt_sha256": "1c0aefd561aa79acc7e990a92c43108563be7989b56bf879d5461b1fa558acfd",
+      "frame_number_zero_based": 62,
+      "fps": 10,
+      "video_time_s": 6.2,
+      "nominal_render_time_s": 226.26,
+      "event_simulation_time_s": 226.06,
+      "time_note": "Nominal render time; source observations are held at 100 ms, not interpolated. Event time comes from the published record.",
+      "extracted_frame_sha256": "2f39963dfe39ffec3cc9d384b152a1f83f26e5e6e7b2a4a3118d5a878f33a7c3",
+      "source_recording": "E:\\WORKSPACE\\AgentWork\\threemind\\.work\\ocean-enclosure-20261004\\cases\\segment-01",
+      "panel_zh": "乙2  达到保持条件后完成吞食",
+      "panel_en": "B2  Consumed after the holding condition"
+    },
+    {
+      "id": "offspring-turn",
+      "legacy_video": ".work/ocean-split-20261004/media/offspring-combined-earlier.mp4",
+      "resolved_video": "E:\\ThreeMindData\\originals\\research\\b57578fa3d9790b9a2d1b837\\media\\offspring-combined-earlier.mp4",
+      "video_sha256": "91017014975642b33dd36f7fb0e2edfdcc8ee06cd560ae69e5aeb4d22f810edb",
+      "receipt": "E:\\ThreeMindData\\originals\\research\\b57578fa3d9790b9a2d1b837\\media\\offspring-combined-earlier.mp4.json",
+      "receipt_sha256": "87076fcc40741323dfedcc629894d99000abc614bb2fbd079562920fbc1f32eb",
+      "frame_number_zero_based": 62,
+      "fps": 10,
+      "video_time_s": 6.2,
+      "nominal_render_time_s": 124.52,
+      "event_simulation_time_s": 124.32,
+      "time_note": "Nominal render time; source observations are held at 100 ms, not interpolated. Event time comes from the published record.",
+      "extracted_frame_sha256": "d3f5070d5d827d44f9134108157491cf9a410cced11bf9b62bc1f6e8f2106965",
+      "source_recording": "E:\\WORKSPACE\\AgentWork\\threemind\\.work\\ocean-culture-20261004\\cases\\shared-00",
+      "panel_zh": "丙1  E41 #60（第1代）：较早转弯摄食",
+      "panel_en": "C1  E41 #60 (G1): earlier turn and feeding"
+    },
+    {
+      "id": "offspring-capture",
+      "legacy_video": ".work/ocean-split-20261004/media/offspring-combined.mp4",
+      "resolved_video": "E:\\ThreeMindData\\originals\\research\\b57578fa3d9790b9a2d1b837\\media\\offspring-combined.mp4",
+      "video_sha256": "55c49ab7af40dc5ab2226947f2fdf4fce495396eefd713df95696c55b3371207",
+      "receipt": "E:\\ThreeMindData\\originals\\research\\b57578fa3d9790b9a2d1b837\\media\\offspring-combined.mp4.json",
+      "receipt_sha256": "5cc05e9296514dbf8a2a4149799609f67a396cfa0142edac4956a12ba455db49",
+      "frame_number_zero_based": 18,
+      "fps": 10,
+      "video_time_s": 1.8,
+      "nominal_render_time_s": 601.8,
+      "event_simulation_time_s": 601.6,
+      "time_note": "Nominal render time; source observations are held at 100 ms, not interpolated. Event time comes from the published record.",
+      "extracted_frame_sha256": "15d954c044423ac377fafe42d7cb35d6490a4b52e72ad1d19e9d419299d43c88",
+      "source_recording": "E:\\WORKSPACE\\AgentWork\\threemind\\.work\\ocean-split-20261004\\cases\\coverage-02",
+      "panel_zh": "丙2  同一后代：后来部分包裹吞食",
+      "panel_en": "C2  Same offspring: later partial engulfment"
+    }
+  ],
+  "ecology_report_sources": [
+    {
+      "path": "lab/explorations/2026-10-03-ocean-community/report.r2.zh.md",
+      "sha256": "2b6259914088ae9256042db499b234cbb9c06cad1f43bc40be0931e3bd2b52bd"
+    },
+    {
+      "path": "lab/explorations/2026-10-03-ocean-no-predation/report.r2.zh.md",
+      "sha256": "af90154cc09718c07ee65b704595a084449ba9783cb40d16af8865dcadbc6f4c"
+    },
+    {
+      "path": "lab/explorations/2026-10-04-ocean-enclosure/report.r2.zh.md",
+      "sha256": "7d089faa6efcf81fcd6c1f550b00e3786b7991c60caa95c475f1c59336ff9925"
+    },
+    {
+      "path": "lab/explorations/2026-10-04-ocean-species/turning-and-closeout.md",
+      "sha256": "8bae0b01f4353a7084dbcbe6bc81d3f0d988eaed7ef451e85748cca56529da30"
+    },
+    {
+      "path": "lab/explorations/2026-10-04-ocean-culture/report.r3.zh.md",
+      "sha256": "e2732ed9c5112541823427c5114c43fad975a4e43358729e5b8ef2575a71153a"
+    },
+    {
+      "path": "lab/explorations/2026-10-04-ocean-split/report.r3.zh.md",
+      "sha256": "c7bcbb6268bf49696c7f4e5e178c2507d81539e8fd1be25a880012b3d072e9a9"
+    }
+  ],
+  "continuous_learning": {
+    "experiment": "E68",
+    "source": "lab/explorations/2026-10-13-continuous-shape-color/report.zh.md",
+    "report_sha256": "eeb60a17197008e2361ed40d1f204e1bf2dd729f2775b3be6727d80a4e09c5a3",
+    "verified_results_sha256": "4a9c197a1965385f942fcd7142d065f2faa790f986b0d7a450c1cfad0b38958a",
+    "denominator": 72,
+    "independent_individuals_per_version": 1,
+    "phase_order": [
+      "initial",
+      "correction1",
+      "correction2",
+      "review3",
+      "final_new_positions"
+    ],
+    "2": {
+      "correct": [
+        51,
+        65,
+        72,
+        72,
+        66
+      ],
+      "first_correction_fixed": 17,
+      "first_correction_harmed": 3
+    },
+    "3.1": {
+      "correct": [
+        53,
+        69,
+        72,
+        72,
+        71
+      ],
+      "first_correction_fixed": 17,
+      "first_correction_harmed": 1
+    },
+    "note": "Last phase uses new-position questions. Counts are questions, not independent individuals; no inferred error bars."
+  },
+  "extract_sources": [
+    {
+      "path": "docs/paper/sources/autonomy-figure-data_revision1.json",
+      "sha256": "2c490262964149a0473f9ffbeece7bf2fa34394e39dd8bc47439855e4602af98"
+    },
+    {
+      "path": "docs/paper/sources/ecology-figure-data_revision1.json",
+      "sha256": "b33d664d1d53af4e4587c184e41040af2e84195e5119d143296838c4ff409fa6"
+    },
+    {
+      "path": "docs/paper/sources/figure-data_revision1.json",
+      "sha256": "ab53c81d883530213645464312d2da60dc912867647ea1a06e9829cbb38b6758"
+    }
+  ]
+}

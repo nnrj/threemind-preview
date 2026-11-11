@@ -1,0 +1,1 @@
+{"account_latest": 42, "archive_bytes": 924400135, "available_memory": 12934787072, "database_growth": 960126976, "free_c": 8733757440, "free_e": 60404793344, "hard_limit": 8589934592, "local_including_archive": 1906427896, "storage_scope": "includes shared database growth conservatively; final receipt is outside its own archive", "total_new_storage": 2866554872}

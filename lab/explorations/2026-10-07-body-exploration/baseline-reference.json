@@ -1,0 +1,93 @@
+{
+  "schema": "threemind.research-baseline-reference/1",
+  "date": "2026-10-07",
+  "study": "E56",
+  "role": "preserved functional assembly; not a complete historical training checkpoint",
+  "individual": "r4-exposure",
+  "core_world_path": ".work/vision-correction-20261006/cases/r4-exposure/checkpoint.json.gz",
+  "kernel": "threemind.continuous-memory/2",
+  "simulation_time_us": 354000000,
+  "world_schema": "threemind.grounded-classroom/2",
+  "peripheral_path": ".work/vision-correction-20261006/cases/r4-exposure-shared-fit/controller",
+  "peripheral_schema": "threemind.spatial-choice-reader/1",
+  "executor": "shared.test: servo executes selected endpoint only",
+  "task_path": "lab/explorations/2026-10-06-vision-correction/confirmation-tasks.json",
+  "source_path": "lab/explorations/2026-10-06-vision-correction/shared.py",
+  "results": {
+    "normal": {
+      "groups": {
+        "color": {
+          "correct": 8,
+          "n": 8,
+          "reached": 8
+        },
+        "pair": {
+          "correct": 8,
+          "n": 8,
+          "reached": 8
+        },
+        "shape": {
+          "correct": 8,
+          "n": 8,
+          "reached": 8
+        }
+      },
+      "trials": 24,
+      "selected_endpoint_reached": 24
+    },
+    "silence": {
+      "groups": {
+        "color": {
+          "correct": 7,
+          "n": 8,
+          "reached": 7
+        },
+        "pair": {
+          "correct": 7,
+          "n": 8,
+          "reached": 7
+        },
+        "shape": {
+          "correct": 5,
+          "n": 8,
+          "reached": 5
+        }
+      },
+      "trials": 24,
+      "selected_endpoint_reached": 24
+    },
+    "rescue": {
+      "groups": {
+        "color": {
+          "correct": 8,
+          "n": 8,
+          "reached": 8
+        },
+        "pair": {
+          "correct": 8,
+          "n": 8,
+          "reached": 8
+        },
+        "shape": {
+          "correct": 8,
+          "n": 8,
+          "reached": 8
+        }
+      },
+      "trials": 24,
+      "selected_endpoint_reached": 24
+    }
+  },
+  "project_id": "4266a949-9e41-45b7-9653-7566d2df8164",
+  "archive": {
+    "artifact_id": "21ec9aab-335d-4010-80f0-d1dbd0ad9aab",
+    "bytes": 1067823612,
+    "job_id": "32d4856a-5516-443a-99a5-8329231554fb",
+    "sha256": "33fca8d6a41dca670e630029ecb55ec8a2c97cf932aae79f21f5ecba58374987"
+  },
+  "not_saved": [
+    "optimizer state",
+    "recent activity window"
+  ],
+  "verification": "inspected source, model metadata, saved state identity and small results; did not rerun simulations or rehash archive"
+}

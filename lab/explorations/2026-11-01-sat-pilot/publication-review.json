@@ -1,0 +1,39 @@
+{
+  "schema": "threemind.sat-publication-review/1",
+  "reviewer": "assistant",
+  "approved_for_publication": true,
+  "work": "E:\\ThreeMindData\\experiments\\2026-11-01-sat-pilot\\v1",
+  "analysis_sha256": "7f23adf8de20b5ebeba7b789f41615835e318372c9913e13cad0336d7cb4564c",
+  "destination": "Local-only: http://127.0.0.1:8877; PostgreSQL 127.0.0.1:5433; filesystem E:/ThreeMindData/experiments/2026-11-01-sat-pilot/v1; no proxy or redirects",
+  "reviewed_files": {
+    ".work/sat-validation.txt": "7c7a02770ec158a5c167796a239fa0ad8fab7d2eefc24e96a86f4d783e53e111",
+    "lab/explorations/2026-10-16-mechanism-discovery/publish_mechanism.py": "bd68c4cc96ccf11d0a440411b40959f03ae167163aceed0c46404fc9b537eaff",
+    "lab/explorations/2026-11-01-sat-pilot/analyze.py": "183021ab8175980ffa84db23d0fb84bbee58c360b8ea38042d72c7d311dd7412",
+    "lab/explorations/2026-11-01-sat-pilot/diagnose.py": "2d9dc50319604f5ac18dc0d79c68b0f519ad66516edc2658e4cef31c8fa3daa8",
+    "lab/explorations/2026-11-01-sat-pilot/protocol.en.md": "263eaa3219dd0c1a4377cd4f62e5c8a2495b54332261dc660f78b03084990e6b",
+    "lab/explorations/2026-11-01-sat-pilot/protocol.zh.md": "52f0bdf108e266583c191dc269d269a05a15404f049f99882ff676018ce2ae3b",
+    "lab/explorations/2026-11-01-sat-pilot/publish.py": "b7590adfd39a1f3d92b5bd89ba5708dbb7d7fb9a6111bcb6d7f061502843ab38",
+    "lab/explorations/2026-11-01-sat-pilot/report.en.md": "e62bb1ca9ab09bd74b3e650ba3b608be650b118c8f9c145c97e263841cdf7f1d",
+    "lab/explorations/2026-11-01-sat-pilot/report.zh.md": "993ba76d3fe1ac148009fea8a996a86cc22e94196160f9d402a728f486b34f08",
+    "lab/explorations/2026-11-01-sat-pilot/sat_driver.py": "3c80e43af3fdb3ea8a5e081de57b17901200c6d3f9a2cf4d857ff6b96fff080f",
+    "lab/explorations/2026-11-01-sat-pilot/sat_problem.py": "c712073539c06b1a50d0b518798873ad4bf9e4fe2a5a3e5f45340dd98968da88",
+    "lab/explorations/2026-11-01-sat-pilot/sat_subject.py": "0960ccf02845d62b96634e398313a1ea23bb18a608376973c1400b6b3a77e12c",
+    "lab/explorations/2026-11-01-sat-pilot/summary.json": "4f7f4a6031d7fe6767eda09992fa2830a245a8bce31942f117ed8184ab59b6e9",
+    "lab/explorations/2026-11-01-sat-pilot/test_analysis.py": "25d4f9141f4b60c552ca0f0da989c2cfefbee44b9b4b37247a1671b554f28943",
+    "lab/explorations/2026-11-01-sat-pilot/test_sat.py": "6f6e91e18280b306f46e3ce3599cd9aee97144ad748d3c40d8758eb82a27d24c"
+  },
+  "reviewed_originals": {
+    "apparatus.json": "24a455d268192e4fe5a7f3f787f3b035fad16e4d31583e0e4b51aed6845dae7b",
+    "apparatus-review.json": "76c8c82d859077f1d1a11e02131e98c72040b4e8bae1da520892961c29e44043",
+    "apparatus-resource-summary.json": "405162b8c2f07b7be877abc97c3799e4ccd9e882b22ed54bc27d13a3c352132b",
+    "diagnostic-v1.json": "88b0db16fd60a24983c411ea82bb728e1c06dc0e955d8f413ecf1b4ec4a4a5ff",
+    "resource-summary.json": "972aaaa938d8d236572d5816a73a7ad8dc97c137197abe559c236db02cea28fc",
+    "runner-manifest.json": "6a7aaaa593ac07feddad9628cff85fdb56ef8daedad27621ce6eca2e0c3756d6",
+    "implementation.json": "73e2998fd98a89aae42d32d56cb44cc981bf20a89f2de76b513cb94a65db1d52"
+  },
+  "reports": {
+    "zh": "lab/explorations/2026-11-01-sat-pilot/report.zh.md",
+    "en": "lab/explorations/2026-11-01-sat-pilot/report.en.md"
+  },
+  "review_note": "Assistant-reviewed local 3-SAT pilot, not external or human replication. G0 valid. G1 FAIL: intact and shuffled both 98/192. G2 FAIL: target choice decrease 0.829 percentage points, below 20; a small reversible contribution remains. WalkSAT wins 172/192. All 1664 traces, 1248 full-state/input transitions and 16 teaching histories independently recomputed without Core execution. Twelve algorithm/auditor tests pass. Retrospective score/graph diagnostics are separate from primary scoring. Whole-subject continuity, explicit research copies, zero false SAT claims and zero ordinary rollbacks retained. Core and historical studies unchanged. Local finalization requires full archive and document loopback API readback, hashes and pending=0."
+}

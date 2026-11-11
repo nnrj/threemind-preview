@@ -1,0 +1,1432 @@
+{
+  "common": [
+    {
+      "text": "甲是松子。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "乙是铃铛。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "丙问甲，谁是铃铛？甲说：乙是铃铛。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "丙问乙，谁是松子？乙说：甲是松子。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "甲对乙说：我是松子，你是铃铛。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "乙对甲说：我是铃铛，你是松子。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "谁是松子？甲是松子。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "谁是铃铛？乙是铃铛。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "松子是谁？松子是甲。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "铃铛是谁？铃铛是乙。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "甲是松子。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "乙是铃铛。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "丙问甲，谁是铃铛？甲说：乙是铃铛。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "丙问乙，谁是松子？乙说：甲是松子。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "甲对乙说：我是松子，你是铃铛。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "乙对甲说：我是铃铛，你是松子。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "谁是松子？甲是松子。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "谁是铃铛？乙是铃铛。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "松子是谁？松子是甲。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "铃铛是谁？铃铛是乙。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "甲是松子。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "乙是铃铛。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "丙问甲，谁是铃铛？甲说：乙是铃铛。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "丙问乙，谁是松子？乙说：甲是松子。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "甲对乙说：我是松子，你是铃铛。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "乙对甲说：我是铃铛，你是松子。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "谁是松子？甲是松子。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "谁是铃铛？乙是铃铛。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "松子是谁？松子是甲。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "铃铛是谁？铃铛是乙。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "C的父亲是B。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "B的父亲是A。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "C的爷爷是A。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "父亲的父亲是爷爷。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "F的父亲是E。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "E的父亲是D。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "F的爷爷是D。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "C的父亲是B。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "B的父亲是A。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "C的爷爷是A。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "父亲的父亲是爷爷。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "F的父亲是E。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "E的父亲是D。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "F的爷爷是D。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "C的父亲是B。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "B的父亲是A。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "C的爷爷是A。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "父亲的父亲是爷爷。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "F的父亲是E。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "E的父亲是D。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "F的爷爷是D。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "甲是松子。",
+      "sweep": 1,
+      "repetitions": 5,
+      "stage": "review"
+    },
+    {
+      "text": "乙是铃铛。",
+      "sweep": 1,
+      "repetitions": 5,
+      "stage": "review"
+    },
+    {
+      "text": "丙问甲，谁是铃铛？甲说：乙是铃铛。",
+      "sweep": 1,
+      "repetitions": 5,
+      "stage": "review"
+    },
+    {
+      "text": "丙问乙，谁是松子？乙说：甲是松子。",
+      "sweep": 1,
+      "repetitions": 5,
+      "stage": "review"
+    },
+    {
+      "text": "甲对乙说：我是松子，你是铃铛。",
+      "sweep": 1,
+      "repetitions": 5,
+      "stage": "review"
+    },
+    {
+      "text": "乙对甲说：我是铃铛，你是松子。",
+      "sweep": 1,
+      "repetitions": 5,
+      "stage": "review"
+    },
+    {
+      "text": "谁是松子？甲是松子。",
+      "sweep": 1,
+      "repetitions": 5,
+      "stage": "review"
+    },
+    {
+      "text": "谁是铃铛？乙是铃铛。",
+      "sweep": 1,
+      "repetitions": 5,
+      "stage": "review"
+    },
+    {
+      "text": "松子是谁？松子是甲。",
+      "sweep": 1,
+      "repetitions": 5,
+      "stage": "review"
+    },
+    {
+      "text": "铃铛是谁？铃铛是乙。",
+      "sweep": 1,
+      "repetitions": 5,
+      "stage": "review"
+    }
+  ],
+  "normal": [
+    {
+      "text": "甲是松子。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "乙是铃铛。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "丙问甲，谁是铃铛？甲说：乙是铃铛。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "丙问乙，谁是松子？乙说：甲是松子。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "甲对乙说：我是松子，你是铃铛。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "乙对甲说：我是铃铛，你是松子。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "谁是松子？甲是松子。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "谁是铃铛？乙是铃铛。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "松子是谁？松子是甲。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "铃铛是谁？铃铛是乙。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "甲是松子。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "乙是铃铛。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "丙问甲，谁是铃铛？甲说：乙是铃铛。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "丙问乙，谁是松子？乙说：甲是松子。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "甲对乙说：我是松子，你是铃铛。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "乙对甲说：我是铃铛，你是松子。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "谁是松子？甲是松子。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "谁是铃铛？乙是铃铛。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "松子是谁？松子是甲。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "铃铛是谁？铃铛是乙。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "甲是松子。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "乙是铃铛。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "丙问甲，谁是铃铛？甲说：乙是铃铛。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "丙问乙，谁是松子？乙说：甲是松子。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "甲对乙说：我是松子，你是铃铛。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "乙对甲说：我是铃铛，你是松子。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "谁是松子？甲是松子。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "谁是铃铛？乙是铃铛。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "松子是谁？松子是甲。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "铃铛是谁？铃铛是乙。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "C的父亲是B。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "B的父亲是A。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "C的爷爷是A。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "父亲的父亲是爷爷。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "F的父亲是E。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "E的父亲是D。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "F的爷爷是D。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "C的父亲是B。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "B的父亲是A。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "C的爷爷是A。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "父亲的父亲是爷爷。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "F的父亲是E。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "E的父亲是D。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "F的爷爷是D。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "C的父亲是B。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "B的父亲是A。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "C的爷爷是A。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "父亲的父亲是爷爷。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "F的父亲是E。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "E的父亲是D。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "F的爷爷是D。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "甲是松子。",
+      "sweep": 1,
+      "repetitions": 5,
+      "stage": "review"
+    },
+    {
+      "text": "乙是铃铛。",
+      "sweep": 1,
+      "repetitions": 5,
+      "stage": "review"
+    },
+    {
+      "text": "丙问甲，谁是铃铛？甲说：乙是铃铛。",
+      "sweep": 1,
+      "repetitions": 5,
+      "stage": "review"
+    },
+    {
+      "text": "丙问乙，谁是松子？乙说：甲是松子。",
+      "sweep": 1,
+      "repetitions": 5,
+      "stage": "review"
+    },
+    {
+      "text": "甲对乙说：我是松子，你是铃铛。",
+      "sweep": 1,
+      "repetitions": 5,
+      "stage": "review"
+    },
+    {
+      "text": "乙对甲说：我是铃铛，你是松子。",
+      "sweep": 1,
+      "repetitions": 5,
+      "stage": "review"
+    },
+    {
+      "text": "谁是松子？甲是松子。",
+      "sweep": 1,
+      "repetitions": 5,
+      "stage": "review"
+    },
+    {
+      "text": "谁是铃铛？乙是铃铛。",
+      "sweep": 1,
+      "repetitions": 5,
+      "stage": "review"
+    },
+    {
+      "text": "松子是谁？松子是甲。",
+      "sweep": 1,
+      "repetitions": 5,
+      "stage": "review"
+    },
+    {
+      "text": "铃铛是谁？铃铛是乙。",
+      "sweep": 1,
+      "repetitions": 5,
+      "stage": "review"
+    },
+    {
+      "text": "Z的父亲是Y。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "held"
+    },
+    {
+      "text": "Y的父亲是X。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "held"
+    },
+    {
+      "text": "W的父亲是V。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "held"
+    },
+    {
+      "text": "V的父亲是U。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "held"
+    },
+    {
+      "text": "Z的父亲是Y。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "held"
+    },
+    {
+      "text": "Y的父亲是X。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "held"
+    },
+    {
+      "text": "W的父亲是V。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "held"
+    },
+    {
+      "text": "V的父亲是U。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "held"
+    },
+    {
+      "text": "Z的父亲是Y。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "held"
+    },
+    {
+      "text": "Y的父亲是X。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "held"
+    },
+    {
+      "text": "W的父亲是V。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "held"
+    },
+    {
+      "text": "V的父亲是U。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "held"
+    }
+  ],
+  "crossed": [
+    {
+      "text": "甲是松子。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "乙是铃铛。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "丙问甲，谁是铃铛？甲说：乙是铃铛。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "丙问乙，谁是松子？乙说：甲是松子。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "甲对乙说：我是松子，你是铃铛。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "乙对甲说：我是铃铛，你是松子。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "谁是松子？甲是松子。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "谁是铃铛？乙是铃铛。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "松子是谁？松子是甲。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "铃铛是谁？铃铛是乙。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "甲是松子。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "乙是铃铛。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "丙问甲，谁是铃铛？甲说：乙是铃铛。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "丙问乙，谁是松子？乙说：甲是松子。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "甲对乙说：我是松子，你是铃铛。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "乙对甲说：我是铃铛，你是松子。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "谁是松子？甲是松子。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "谁是铃铛？乙是铃铛。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "松子是谁？松子是甲。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "铃铛是谁？铃铛是乙。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "甲是松子。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "乙是铃铛。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "丙问甲，谁是铃铛？甲说：乙是铃铛。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "丙问乙，谁是松子？乙说：甲是松子。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "甲对乙说：我是松子，你是铃铛。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "乙对甲说：我是铃铛，你是松子。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "谁是松子？甲是松子。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "谁是铃铛？乙是铃铛。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "松子是谁？松子是甲。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "铃铛是谁？铃铛是乙。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "C的父亲是B。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "B的父亲是A。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "C的爷爷是A。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "父亲的父亲是爷爷。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "F的父亲是E。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "E的父亲是D。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "F的爷爷是D。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "C的父亲是B。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "B的父亲是A。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "C的爷爷是A。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "父亲的父亲是爷爷。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "F的父亲是E。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "E的父亲是D。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "F的爷爷是D。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "C的父亲是B。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "B的父亲是A。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "C的爷爷是A。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "父亲的父亲是爷爷。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "F的父亲是E。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "E的父亲是D。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "F的爷爷是D。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "family"
+    },
+    {
+      "text": "甲是松子。",
+      "sweep": 1,
+      "repetitions": 5,
+      "stage": "review"
+    },
+    {
+      "text": "乙是铃铛。",
+      "sweep": 1,
+      "repetitions": 5,
+      "stage": "review"
+    },
+    {
+      "text": "丙问甲，谁是铃铛？甲说：乙是铃铛。",
+      "sweep": 1,
+      "repetitions": 5,
+      "stage": "review"
+    },
+    {
+      "text": "丙问乙，谁是松子？乙说：甲是松子。",
+      "sweep": 1,
+      "repetitions": 5,
+      "stage": "review"
+    },
+    {
+      "text": "甲对乙说：我是松子，你是铃铛。",
+      "sweep": 1,
+      "repetitions": 5,
+      "stage": "review"
+    },
+    {
+      "text": "乙对甲说：我是铃铛，你是松子。",
+      "sweep": 1,
+      "repetitions": 5,
+      "stage": "review"
+    },
+    {
+      "text": "谁是松子？甲是松子。",
+      "sweep": 1,
+      "repetitions": 5,
+      "stage": "review"
+    },
+    {
+      "text": "谁是铃铛？乙是铃铛。",
+      "sweep": 1,
+      "repetitions": 5,
+      "stage": "review"
+    },
+    {
+      "text": "松子是谁？松子是甲。",
+      "sweep": 1,
+      "repetitions": 5,
+      "stage": "review"
+    },
+    {
+      "text": "铃铛是谁？铃铛是乙。",
+      "sweep": 1,
+      "repetitions": 5,
+      "stage": "review"
+    },
+    {
+      "text": "Z的父亲是Y。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "held"
+    },
+    {
+      "text": "Y的父亲是U。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "held"
+    },
+    {
+      "text": "W的父亲是V。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "held"
+    },
+    {
+      "text": "V的父亲是X。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "held"
+    },
+    {
+      "text": "Z的父亲是Y。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "held"
+    },
+    {
+      "text": "Y的父亲是U。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "held"
+    },
+    {
+      "text": "W的父亲是V。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "held"
+    },
+    {
+      "text": "V的父亲是X。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "held"
+    },
+    {
+      "text": "Z的父亲是Y。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "held"
+    },
+    {
+      "text": "Y的父亲是U。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "held"
+    },
+    {
+      "text": "W的父亲是V。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "held"
+    },
+    {
+      "text": "V的父亲是X。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "held"
+    }
+  ],
+  "swapped": [
+    {
+      "text": "甲是铃铛。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "乙是松子。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "丙问甲，谁是松子？甲说：乙是松子。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "丙问乙，谁是铃铛？乙说：甲是铃铛。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "甲对乙说：我是铃铛，你是松子。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "乙对甲说：我是松子，你是铃铛。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "谁是铃铛？甲是铃铛。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "谁是松子？乙是松子。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "铃铛是谁？铃铛是甲。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "松子是谁？松子是乙。",
+      "sweep": 1,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "甲是铃铛。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "乙是松子。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "丙问甲，谁是松子？甲说：乙是松子。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "丙问乙，谁是铃铛？乙说：甲是铃铛。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "甲对乙说：我是铃铛，你是松子。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "乙对甲说：我是松子，你是铃铛。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "谁是铃铛？甲是铃铛。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "谁是松子？乙是松子。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "铃铛是谁？铃铛是甲。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "松子是谁？松子是乙。",
+      "sweep": 2,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "甲是铃铛。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "乙是松子。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "丙问甲，谁是松子？甲说：乙是松子。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "丙问乙，谁是铃铛？乙说：甲是铃铛。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "甲对乙说：我是铃铛，你是松子。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "乙对甲说：我是松子，你是铃铛。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "谁是铃铛？甲是铃铛。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "谁是松子？乙是松子。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "铃铛是谁？铃铛是甲。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    },
+    {
+      "text": "松子是谁？松子是乙。",
+      "sweep": 3,
+      "repetitions": 20,
+      "stage": "dialogue"
+    }
+  ]
+}

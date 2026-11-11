@@ -1,0 +1,30 @@
+{
+  "reviewer": "assistant",
+  "approved_for_publication": true,
+  "work": "E:\\ThreeMindData\\experiments\\2026-11-01-sat-curriculum\\v2",
+  "reviewed_files": {
+    "lab/explorations/2026-11-01-sat-curriculum/report.zh.md": "d0b6766e83575f99807b8c36e478c124fb09b737458bac64a9decde2724d0f5d",
+    "lab/explorations/2026-11-01-sat-curriculum/report.en.md": "431ed1f3fd8b5c9adef20ab64b34cd7949931e904852170791f48d5fcd20002b",
+    "lab/explorations/2026-11-01-sat-curriculum/analyze.py": "79e50cb95418d633d0db9250cb87335ca350e4a07865717143bb50ba9fbec031",
+    "lab/explorations/2026-11-01-sat-curriculum/verify_readers.py": "7b28aff97c5ebb0dc084e86453a3561b579768406d5d87aa0f121fe160e05a33",
+    "lab/explorations/2026-11-01-sat-curriculum/storage_audit.py": "8a31eb9ee5737b976b14024fb14f9ec2ad97fbf5a68cb1b5cc7bd7f0c109c45c",
+    "lab/explorations/2026-11-01-sat-curriculum/publish.py": "d5c50660e48032049f7127a79c6148a6d98163b5d53ce85127f2d157dcced76e",
+    "lab/explorations/2026-11-01-sat-curriculum/v1-procedure-correction.zh.md": "3a01374463cbf5138d8d7fb6c8fe8d9d935e8a54847a38ef22ebccf5f1b24b4a",
+    "lab/explorations/2026-11-01-sat-curriculum/v1-procedure-correction.en.md": "2749ad965f5b19c781ad3b042d92069da497a406fd77aa74c679b3960b15d244",
+    "lab/explorations/2026-11-01-sat-curriculum/host_budget.py": "74622eeaf72e800e452bfe4adaa09cb0e05846140906c13f8928f903a0f26ebf",
+    "lab/explorations/2026-11-01-sat-curriculum/host-budget-note.zh.md": "06fd8b4d4873be004c30eb48b96ef6fe5ade6daae626167d5d43ab6cfff95a5d",
+    "lab/explorations/2026-11-01-sat-curriculum/host-budget-note.en.md": "3a3d2132b746b5079812115f4b284f83e4892a11b7ed71bf2eba7857e8da3ea9"
+  },
+  "analysis_sha256": "440f77045cb977a841ebc11f3410ad50b520209234314efc251338e06028ab50",
+  "reviewed_originals": {
+    "reader-replay.json": "982e568e5f786b5b34aa6852d74cc2cbb689433468aa3cebd5447f07acf1d62c",
+    "runner-manifest.json": "38e98aec7745262d6647bdda41e101d29e13f234d7d291090a69b278f779b0b6",
+    "implementation.json": "73e2998fd98a89aae42d32d56cb44cc981bf20a89f2de76b513cb94a65db1d52",
+    "postprocessing/v1-correction-receipt.json": "0714025089805669efc67d34e75faba8197685d0dc390597f58562d6a48ac8c9"
+  },
+  "reports": {
+    "zh": "lab/explorations/2026-11-01-sat-curriculum/report.zh.md",
+    "en": "lab/explorations/2026-11-01-sat-curriculum/report.en.md"
+  },
+  "review_note": "Assistant bilingual review and independently recomputed arithmetic; not author/human review or external replication. 1040 trajectories, 480 complete-state/input transitions, 54624 temporal reader predictions verified. G1 pass, G2 fail, G3 pass. No actual local classification error in the formal cohort; corrective-path coverage is isolated apparatus evidence. Normal, shuffled and the matched-information zero-break rule have identical complete action trajectories; no Core-specific teaching benefit claimed. The 1GiB host-budget pause at birth was complete and preserved, followed by the separately documented 2GiB process policy. No Core/default/half-life change or ordinary rollback. Old v1 has dated bilingual procedure corrections, unchanged archive hash and completed/verified status. All publication operations use only loopback API, local database and the exact registered E-drive resource."
+}

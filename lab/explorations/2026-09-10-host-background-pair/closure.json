@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-09-10T11:20:33.522780+00:00",
+  "project_id": "006772a5-86e9-4f01-bcd2-2d5f48f7a70e",
+  "report_id": "4ef4042f-1904-47b5-a50e-7235d99c6743",
+  "completion_note_id": "659f7f11-7075-4cc9-b4ee-e02cc2d73fe9",
+  "jobs": [
+    {
+      "status": "done",
+      "n": 34
+    }
+  ],
+  "database_growth_bytes": 28229632,
+  "local_evidence_bytes": 14920509,
+  "combined_new_storage_bytes": 43150141,
+  "quota": {
+    "used_percent": 79,
+    "stage": "after models, before publication",
+    "checked_at": "2026-09-10T11:17:08.770167+00:00",
+    "scope": "shared account"
+  },
+  "model_execution_after_results": false
+}

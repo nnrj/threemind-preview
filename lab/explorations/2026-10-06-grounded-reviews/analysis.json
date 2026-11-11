@@ -1,0 +1,353 @@
+{
+  "schema": "threemind.grounded-classroom-analysis/1",
+  "questions": {
+    "s223-frozen": {
+      "familiar": {
+        "views": {
+          "5": {
+            "n": 24,
+            "correct": 15
+          },
+          "6": {
+            "n": 24,
+            "correct": 11
+          }
+        },
+        "by_target": {
+          "0": {
+            "n": 6,
+            "correct": 4
+          },
+          "1": {
+            "n": 6,
+            "correct": 2
+          },
+          "2": {
+            "n": 6,
+            "correct": 3
+          },
+          "3": {
+            "n": 6,
+            "correct": 4
+          },
+          "4": {
+            "n": 6,
+            "correct": 6
+          },
+          "5": {
+            "n": 6,
+            "correct": 4
+          },
+          "6": {
+            "n": 6,
+            "correct": 1
+          },
+          "7": {
+            "n": 6,
+            "correct": 2
+          }
+        }
+      },
+      "held": {
+        "views": {
+          "5": {
+            "n": 8,
+            "correct": 3
+          },
+          "6": {
+            "n": 8,
+            "correct": 4
+          }
+        },
+        "by_target": {
+          "0": {
+            "n": 2,
+            "correct": 0
+          },
+          "1": {
+            "n": 2,
+            "correct": 0
+          },
+          "2": {
+            "n": 2,
+            "correct": 0
+          },
+          "3": {
+            "n": 2,
+            "correct": 0
+          },
+          "4": {
+            "n": 2,
+            "correct": 2
+          },
+          "5": {
+            "n": 2,
+            "correct": 2
+          },
+          "6": {
+            "n": 2,
+            "correct": 1
+          },
+          "7": {
+            "n": 2,
+            "correct": 2
+          }
+        }
+      }
+    },
+    "s223-spaced": {
+      "familiar": {
+        "views": {
+          "5": {
+            "n": 24,
+            "correct": 19
+          },
+          "6": {
+            "n": 24,
+            "correct": 10
+          }
+        },
+        "by_target": {
+          "0": {
+            "n": 6,
+            "correct": 3
+          },
+          "1": {
+            "n": 6,
+            "correct": 4
+          },
+          "2": {
+            "n": 6,
+            "correct": 3
+          },
+          "3": {
+            "n": 6,
+            "correct": 1
+          },
+          "4": {
+            "n": 6,
+            "correct": 6
+          },
+          "5": {
+            "n": 6,
+            "correct": 3
+          },
+          "6": {
+            "n": 6,
+            "correct": 5
+          },
+          "7": {
+            "n": 6,
+            "correct": 4
+          }
+        }
+      },
+      "held": {
+        "views": {
+          "5": {
+            "n": 8,
+            "correct": 3
+          },
+          "6": {
+            "n": 8,
+            "correct": 3
+          }
+        },
+        "by_target": {
+          "0": {
+            "n": 2,
+            "correct": 0
+          },
+          "1": {
+            "n": 2,
+            "correct": 0
+          },
+          "2": {
+            "n": 2,
+            "correct": 0
+          },
+          "3": {
+            "n": 2,
+            "correct": 0
+          },
+          "4": {
+            "n": 2,
+            "correct": 0
+          },
+          "5": {
+            "n": 2,
+            "correct": 2
+          },
+          "6": {
+            "n": 2,
+            "correct": 2
+          },
+          "7": {
+            "n": 2,
+            "correct": 2
+          }
+        }
+      },
+      "normal_vs_silence": {
+        "n": 48,
+        "both_correct": 25,
+        "a_only_correct": 4,
+        "b_only_correct": 2,
+        "both_wrong": 17,
+        "prediction_changed": 9
+      }
+    }
+  },
+  "actions": {
+    "s223-motor-test-episode-normal": {
+      "paired_to_episode_normal": {
+        "n": 32,
+        "both_correct": 10,
+        "a_only_correct": 0,
+        "b_only_correct": 0,
+        "both_wrong": 22,
+        "prediction_changed": 0
+      },
+      "by_view": {
+        "0": {
+          "n": 16,
+          "choice_correct": 5,
+          "reached": 0
+        },
+        "5": {
+          "n": 16,
+          "choice_correct": 5,
+          "reached": 0
+        }
+      },
+      "endpoint_change_median": 0.0,
+      "requested_taught": {
+        "n": 24,
+        "choice_correct": 8,
+        "reached": 0
+      },
+      "requested_held": {
+        "n": 8,
+        "choice_correct": 2,
+        "reached": 0
+      },
+      "distance_progress": {
+        "0.25": {
+          "closer": 19,
+          "median_metres": 0.002425914248878433,
+          "n": 32
+        },
+        "1.0": {
+          "closer": 17,
+          "median_metres": 0.005564396791552573,
+          "n": 32
+        },
+        "2.0": {
+          "closer": 14,
+          "median_metres": -0.10372201414911558,
+          "n": 32
+        }
+      }
+    },
+    "s223-motor-test-episode-validated-normal": {
+      "paired_to_episode_normal": {
+        "n": 32,
+        "both_correct": 5,
+        "a_only_correct": 5,
+        "b_only_correct": 1,
+        "both_wrong": 21,
+        "prediction_changed": 17
+      },
+      "by_view": {
+        "0": {
+          "n": 16,
+          "choice_correct": 2,
+          "reached": 0
+        },
+        "5": {
+          "n": 16,
+          "choice_correct": 4,
+          "reached": 1
+        }
+      },
+      "endpoint_change_median": 0.530716886920718,
+      "requested_taught": {
+        "n": 24,
+        "choice_correct": 5,
+        "reached": 1
+      },
+      "requested_held": {
+        "n": 8,
+        "choice_correct": 1,
+        "reached": 0
+      },
+      "distance_progress": {
+        "0.25": {
+          "closer": 14,
+          "median_metres": -0.007864253407980804,
+          "n": 32
+        },
+        "1.0": {
+          "closer": 13,
+          "median_metres": -0.06638632834390229,
+          "n": 32
+        },
+        "2.0": {
+          "closer": 15,
+          "median_metres": -0.047346001774219604,
+          "n": 32
+        }
+      }
+    },
+    "s223-motor-test-recent-normal": {
+      "paired_to_episode_normal": {
+        "n": 32,
+        "both_correct": 7,
+        "a_only_correct": 3,
+        "b_only_correct": 3,
+        "both_wrong": 19,
+        "prediction_changed": 13
+      },
+      "by_view": {
+        "0": {
+          "n": 16,
+          "choice_correct": 7,
+          "reached": 1
+        },
+        "5": {
+          "n": 16,
+          "choice_correct": 3,
+          "reached": 0
+        }
+      },
+      "endpoint_change_median": 0.5381666808864143,
+      "requested_taught": {
+        "n": 24,
+        "choice_correct": 9,
+        "reached": 1
+      },
+      "requested_held": {
+        "n": 8,
+        "choice_correct": 1,
+        "reached": 0
+      },
+      "distance_progress": {
+        "0.25": {
+          "closer": 23,
+          "median_metres": 0.05547774140788164,
+          "n": 32
+        },
+        "1.0": {
+          "closer": 17,
+          "median_metres": 0.02345020550265542,
+          "n": 32
+        },
+        "2.0": {
+          "closer": 17,
+          "median_metres": 0.019183363979254853,
+          "n": 32
+        }
+      }
+    }
+  }
+}

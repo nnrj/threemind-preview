@@ -1,0 +1,29 @@
+# E45: dose-matched teaching, visual observation and bounded parameter calibration
+
+2026-10-05, registered before results. Separate project; E44 evidence remains read-only.
+
+## Pre-result supplement: explicit propositions and reciprocal observation
+
+Following three user additions, report pass/not-passed separately. Task lexical mapping requires joint normal/reversed correctness in at least6/8 cues for at least two formal seeds and a learning-off control that cannot match it. This75% is this task's engineering gate, not a revision of consciousness criteria. For passed sources, targeted bridge silencing must remove at least half the correct items while number/weight-matched silencing retains75% of original correct items to support specific mediation; report global impairment separately.
+
+Also test visual→taught-name activity using held-out views and reversed experience, not merely direct object naming. A bounded subsequent two-stage task separately teaches name–object and object–other-sensory-consequence, withholding name–consequence co-presentation. Report two-step association and expressed task reasoning separately; a single ablation effect does not imply general logic. Kinship and situated pronouns remain later work.
+
+Expression must change appropriately with cue and experience; uncued residual words do not count as new answers. Observe300s with background and no new language/object teaching, preserving brief re-entry, transmission, sensory patterns and raw text. Intervene from saved candidate activity states to separate persistence, background triggering and internal paths. Dream-like replay remains an observation hypothesis. Five measured rays cannot reconstruct a full subjective scene; any reference image must be labelled. Additional sound must have an explicit simulated physical source rather than semantic labels.
+
+Before any E45 simulation, engineering checks found the existing per-channel amplitude bound1. Same-time controls therefore preserve separate legal frames; do not merge overflowing channels or raise intensity and inadvertently introduce extra strong-stimulus consolidation.
+
+Keep continuous-memory/2, teaching intensity1 and cue0.5, the four physical MuJoCo objects, five distance/RGB rays, gravity, explicit shared acquisition and recorded physical telemetry. This is not an ecological/active grasping experiment. Each short sentence repeats12 times initially, then spaced reviews,45 total, ending266s. Restore independent copies for each cue/no-cue at0/60/300s delays. Preserve forgetting, depletion, inhibition and death.
+
+New `threemind.language-dose-study/1` pairs language amount5 and vision10 per five-character lesson, cues0.5 per character. Six routes: normalized text-simultaneous (five same-time deliveries), text-repeat, dense/sparse character streams, stream-collapse (separate same-time deliveries, not an aggregate) and stream-reverse (reverse lesson frames only, normal cue order). NFKC and underlying channel mappings remain unchanged.20ms character spacing; proportional visual exposure. Last two routes are explicit research interventions. Equal total dose does not assert dynamical equivalence.
+
+Calibration seeds17/29 use壬癸子丑 with normal/reversed assignments. Test names and names+是 plus no-cue at0/60s. Select by joint normal/reversed correctness, then target margin, then fixed route order. Retain sparse baseline. Formal seeds71/89/107 and甲乙丁戊 are not inspected before selection. Input models never train on formal name–object assignments.
+
+Primary metric preserves E44's two-second no-cue-subtracted physical-template ranking. Supplement fixed0–0.2,0.2–0.5,0.5–1,1–2s windows. Calibrate an additional observer against independent actual single-object neural responses; hold out views/strengths and inspect mixtures. Observer receives no query, answer or formal assignment. Preserve all anonymous trajectories; visualization of sampled ray colours is not a reconstruction of subjective imagery.
+
+If peripheral calibration is below24/32 jointly correct (75%, an engineering progression gate, not a consciousness criterion), compare default against six single changes: activation_tau×0.5; inhibition_gain×1.5; facilitation_tau=1s; recovery_tau=0.4s; propagation_rate×0.5; learning_rate×2. Preserve all other parameters. Only a calibration improvement enters formal comparison; otherwise default remains. Formal evaluation retains default and plasticity-off controls. Report accuracy, amplitude, fixed short windows, uncued confusion, actual transmission and structural persistence separately. Improvement in at least two formal seeds supports a task candidate, not automatic universal defaults.
+
+If basic mapping remains unreliable, finish localization and defer large grammar training rather than treating unrun experiments as failures. Next composition tasks separate colour/shape and hold out combinations; personal/deictic terms need identities, positions and speaker changes in a common physical scene. Kinship, imagination and extended reasoning follow measurable prerequisites with separate registration.
+
+Retain continuous post-teaching activity with background and no new language; propagation-off and matched local bridge interventions distinguish sources. Existing expression heads remain blind to formal assignments; any further decoder training uses independent sensory calibration only.
+
+Budget:2400 cases, one worker,4h simulation/training, process4GiB/GPU3GiB;5GiB soft/8GiB hard combined work/archive/DB growth. Reserve RAM2GiB,C5GiB,E15GiB. Account baseline38%,+8 points stops expansion,+12 stops new computation; refresh every30min and count shared usage. Do not exhaust budgets deliberately. No old-data overwrite, automatic revival, service restarts, irrelevant Docker checks or repeated archive hashes. Freeze choices, actual configuration, failures and implementation; publish bilingual reports and history.

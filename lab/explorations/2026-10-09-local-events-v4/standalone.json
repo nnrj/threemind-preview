@@ -1,0 +1,23 @@
+{
+  "build": {
+    "schema": "threemind.standalone-build/1",
+    "kernel_id": "threemind.continuous-memory/4",
+    "definition_hash": "c2af61443fba47fed411c61ee9f10be7de8ce2c0217783bcb45f96e60239fd03",
+    "source_hash": "a5ec202675ebcf9cd3b37268be96a9bbd045088842b7f0701d84540620843c50",
+    "binary": "threemind-runtime.exe",
+    "binary_sha256": "ce3d3873c0f00cfde7e7d724f661a5140163cf87211296015404a42414304de8",
+    "platform": "win32",
+    "architecture": "AMD64",
+    "semantics": "compiled constructor; model weights and physical state remain plastic"
+  },
+  "compiled_definition_matches": true,
+  "plastic_stimulus_test": {
+    "time_us": 2000000,
+    "nodes": 4,
+    "edges": 12,
+    "state_hash": "cb242848def61abc537e73a2c8008c934e62a7b4f6268ea45da352b6e03ac674",
+    "native_runtime_hash_matches": true
+  },
+  "kernel3_override_rejected": true,
+  "kernel3_restore_rejected": true
+}

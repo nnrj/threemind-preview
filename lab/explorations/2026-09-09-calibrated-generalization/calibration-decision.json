@@ -1,0 +1,26 @@
+{
+  "rule": "lowest dose with >=80% physical observability; no target-hit criterion",
+  "summary": [
+    {
+      "dose": 1,
+      "eligible": 3,
+      "total": 16,
+      "fraction": 0.1875
+    },
+    {
+      "dose": 2,
+      "eligible": 16,
+      "total": 16,
+      "fraction": 1.0
+    },
+    {
+      "dose": 4,
+      "eligible": 16,
+      "total": 16,
+      "fraction": 1.0
+    }
+  ],
+  "selected_dose": 2,
+  "calibration_passed": true,
+  "calibration_sha256": "08d2fb0765296486d88526fb1b73643a00cd8380040722911b674846229a1076"
+}

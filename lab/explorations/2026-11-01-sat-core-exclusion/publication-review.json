@@ -1,0 +1,32 @@
+{
+  "reviewer": "assistant",
+  "approved_for_publication": true,
+  "reviewed_at": "2026-11-01T13:16:03.385770+08:00",
+  "work": "E:\\ThreeMindData\\experiments\\2026-11-01-sat-core-exclusion\\v1",
+  "analysis_sha256": "b82f81ab321e10856b4679006a1492a281f0b2bfd5a603773e5e7a325216e061",
+  "reports": {
+    "zh": "lab/explorations/2026-11-01-sat-core-exclusion/report.zh.md",
+    "en": "lab/explorations/2026-11-01-sat-core-exclusion/report.en.md"
+  },
+  "reviewed_files": {
+    "lab/explorations/2026-11-01-sat-core-exclusion/report.zh.md": "d002cde78d60b7bc0d1ed05e35e30e87286de4d130932ec366fbe17c9094fe85",
+    "lab/explorations/2026-11-01-sat-core-exclusion/report.en.md": "80bb9e0f34a384afea1a3eea5b972d715b57fcc472d81215ec77b70bb6294f1e",
+    "lab/explorations/2026-11-01-sat-core-exclusion/analyze.py": "67c74d4bd9128f0185713bb119e59d876f0ee0037a359e55424b43cab899b387",
+    "lab/explorations/2026-11-01-sat-core-exclusion/test_analysis.py": "b442362928de6747d32a70b4e4d818e8994b8afb8991b99e275eca4efe86be2d",
+    "lab/explorations/2026-11-01-sat-core-exclusion/publish.py": "8bc7de29d9641ecef2784ad6c59061f1b74063d33efb37e70fbdff64c2b41126",
+    "lab/explorations/2026-11-01-sat-core-exclusion/storage_audit.py": "d3d7173d31fc1dcf6127f39ba7dc2bc0d0ead825073c80668feccdde03ddf369",
+    "lab/explorations/2026-11-01-sat-core-exclusion/summary.json": "926aa2a25c82a12a5b602e8c32740306115c6f31a1b842c1af3f2941e55eb1c5",
+    "lab/explorations/2026-11-01-sat-core-exclusion/apparatus-summary.json": "0f461d242b91ae202bbac1a3e58cbacf67a9d21b7e5768e65c83791ecd79a687",
+    "lab/explorations/2026-11-01-sat-curriculum/analyze.py": "79e50cb95418d633d0db9250cb87335ca350e4a07865717143bb50ba9fbec031",
+    "lab/explorations/2026-10-16-mechanism-discovery/publish_mechanism.py": "bd68c4cc96ccf11d0a440411b40959f03ae167163aceed0c46404fc9b537eaff"
+  },
+  "reviewed_originals": {
+    "runner-manifest.json": "0b6f90f2ae39164e0b1cfdc2f395b3302315c6605f49b8dc2f06edbe8ccf00d6",
+    "implementation.json": "73e2998fd98a89aae42d32d56cb44cc981bf20a89f2de76b513cb94a65db1d52",
+    "parents-manifest.json": "de4d92898f4d22b42b502f815806e62cfef3afa73d370f60d501f13dd78f05fa",
+    "postprocessing/parent-boundary-review.json": "9043fd8fdbf227beb8e072214706c6a7385944d4089853f3cdd77f27ce373dfe",
+    "storage-before-publication.json": "e6972b2e480b654618399e7589d1535ba410a20b29fef039857d8d3febca8443",
+    "resource-summary.json": "c12e62c7ad139ac0c502856b1f8a21919c071f24a1a4f5f285180eec741fb34f"
+  },
+  "review_note": "Assistant review of the prospectively registered Core-necessity exclusions: all six Q1-Q4 targets close under their frozen criteria. Eight independent origins; 64 research branches and 24 algorithm conditions are not independent origins. Separate arithmetic code reconstructs 2288 trajectories, 1728 whole-state transitions, 258748 probe/final reader predictions and 1024 development predictions. Exact stepwise equality identifies a sufficient external search plus learned local reader rule; current category information remains useful. Fresh relay inputs contain no old Core activity. Frozen sources, original parents, old archives and Core implementation are unchanged. Bilingual reports explicitly state the unfavorable attribution result for Core learning in this apparatus. This is assistant review, not human review or external-researcher replication. Original manifests, package download and each member must pass the local research API readback before completion."
+}

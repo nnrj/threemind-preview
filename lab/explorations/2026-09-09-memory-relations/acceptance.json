@@ -1,0 +1,77 @@
+{
+  "checked_at": "2026-09-08T20:41:49.050225+00:00",
+  "project_id": "900840b0-d00d-450c-9669-72600cea7c40",
+  "report_id": "35372970-502a-4b1f-918f-8d7b5be8f05c",
+  "report_revision": 1,
+  "report_content_hash": "3822d15c7648369a654e21c5e77b0ba4f66ca9df00bf44a2e4cb44360291cf2a",
+  "source_hashes": {
+    "2ce35a61-e02b-42d7-af88-abd1a07eb3b1": "17e6f2d85097f42b1d741f3b8bc9985e8a6717dfb34192620127dd2d2c8148ce",
+    "0d8facf2-dd32-4a8c-9305-b57c172dec28": "263c594945f3c965a6535cdb8512d574c5ca1ce254748d1c712f752d7d341d3b",
+    "5585ddab-ab75-4ed0-a7b8-238161773900": "d1b14dea64984079ec4932c430e19803dfc614ee4add4fa6f7f4ac8582f053fe",
+    "7b08d2e0-cd44-4787-af48-93e3f28a00f1": "d37044f75d85faee98ed91414c930fb0663ce3f9b0b0dc36b65866bd8e66ddb8",
+    "8e72a20c-c5f7-429b-a95a-37a0bdbc68af": "dff4fa70b04047df0768f4231691c6ce69498e4e396ce4f0758eec6c2080896e",
+    "de096d47-cb8c-4be9-a3a4-20ac1383df81": "fc526d3193e7d872a0f852a1f5ab5d92cbab4e2a55dbf729fbec81e808a40901",
+    "af160c15-33d8-4cd3-926f-dbeef667e047": "38484ae31fb0d5dd6bb9f34b1fc05873813a4e77c1318a26c50932b57b54ab06",
+    "f008b299-f2c3-4a8e-a962-4157ec2a857a": "72359aa8184b7b42f1d2e66cfc631e07bff966d132da158533c2e42ebd2a9522"
+  },
+  "run_status_counts": [
+    {
+      "status": "completed",
+      "n": 900
+    }
+  ],
+  "publication_job_status_counts": [
+    {
+      "status": "done",
+      "n": 18
+    }
+  ],
+  "checkpoints": {
+    "n": 900,
+    "bytes": "21188966"
+  },
+  "note_heads": [
+    {
+      "id": "32e4dec6-26fa-4977-8608-75c4244d0507",
+      "revision": 2
+    },
+    {
+      "id": "dec59f8a-a0ef-4224-ba4c-a2ae9ceefe16",
+      "revision": 1
+    },
+    {
+      "id": "43e43488-e977-4c8e-9dc1-58befe1f3239",
+      "revision": 1
+    }
+  ],
+  "final_note_format": "document",
+  "browser_checks": {
+    "engine": "installed Microsoft Edge via Playwright",
+    "records": 3,
+    "notes": 3,
+    "native_charts": 8,
+    "native_tables": 8,
+    "scientific_images": 2,
+    "artifact_sha256_verified": true,
+    "image_and_download_links_verified": true,
+    "markdown_and_html_exports_verified": true,
+    "page_errors": []
+  },
+  "tests": {
+    "notebook_tests_passed": 13,
+    "capture_targeted_tests_passed": 32,
+    "capture_evidence": "docs/benchmarks/capture-backlog-acceptance.json"
+  },
+  "quota": {
+    "baseline_percent": 41,
+    "final_percent": 44,
+    "additional_percentage_points": 3,
+    "limit_additional_percentage_points": 20,
+    "account_shared_and_integer_rounded": true
+  },
+  "core_changed_for_experiment": false,
+  "figure_sha256": {
+    "memory-results.png": "39e1dcec2ea9ecb1fd89c9c0ace82449ccd7fb9b5758536bad44d0bb67392fe4",
+    "relation-results.png": "8f1bf8cde6d229dd0ee6f5a677b76c36feef2cc776498be2ee03a030a1647b59"
+  }
+}

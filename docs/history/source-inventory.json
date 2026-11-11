@@ -1,0 +1,1923 @@
+{
+  "schema": "threemind.history-inventory/1",
+  "baseline_commit": "e83aedd9aa1f5346341cd78d3c4e9aa7a0df4b2c",
+  "compiled_on": "2026-10-01",
+  "documents": [
+    {
+      "path": "docs/en/algorithmic-comparison.md",
+      "title": "Mechanism-by-Mechanism Comparison with Existing Network Families",
+      "sha256": "a280936aa9b669721007ff804108a64afcf71ab3877a78c579af4d7a8afef18c"
+    },
+    {
+      "path": "docs/en/architecture-boundaries.md",
+      "title": "ThreeMind Architecture Boundaries",
+      "sha256": "b78617c7efca70aa54fa73d19d16d50b30f5b1ac5eabfcd3a46bb58d34e27737"
+    },
+    {
+      "path": "docs/en/archive-catalog.md",
+      "title": "Archive Catalogue and Non-blocking Persistence",
+      "sha256": "e03d06318bc38ed6aa02a1d92ce91f673adf802af804ff3eac8fcb323a825f63"
+    },
+    {
+      "path": "docs/en/consciousness-hypothesis.md",
+      "title": "ThreeMind Consciousness Hypothesis Framework",
+      "sha256": "86ad58e59927f8545e865156b5c02a9fac255aea15e000588f1bf288426d702d"
+    },
+    {
+      "path": "docs/en/experiment-debugger.md",
+      "title": "ThreeMind Experiment and Debug Workbench",
+      "sha256": "4d1c491e711630b1cc946082627c4800424dd479f888adee7d5f7a6a27a9719f"
+    },
+    {
+      "path": "docs/en/intervention-and-ablation.md",
+      "title": "Intervention, Ablation, and Paired Controls",
+      "sha256": "158875b524b82b872264b21fd23f34e4aaab215e763bc4f291e5ad7325126a41"
+    },
+    {
+      "path": "docs/en/kernel-evolution-principles.md",
+      "title": "Multi-kernel research: preserving hypotheses while broadening mechanisms",
+      "sha256": "87595c9208dd9debe43729370aa0ce66959697f9ba3b98db191131947ad3177b"
+    },
+    {
+      "path": "docs/en/literature-positioning.md",
+      "title": "ThreeMind Research Positioning and Literature Memo",
+      "sha256": "ec7825e242557269d8e3de9709b2f67767d594c0be973b45ebc9d750f9e8e98f"
+    },
+    {
+      "path": "docs/en/local-inhibition-energy-and-dynamics.md",
+      "title": "Local Inhibition, Optional Energy Accounting, and Dynamics Tracing",
+      "sha256": "94d2dacb089af19a175119a7de580b34549c2d54b615576aaff42cefd2969def"
+    },
+    {
+      "path": "docs/en/multimodal-sensory-and-output-adapters.md",
+      "title": "Multimodal Sensory and Output Adapters",
+      "sha256": "0709feb3490a1aef18713e1fcac724fa2750abf45be8fd38a9b5dd39a9d1585f"
+    },
+    {
+      "path": "docs/en/operations.md",
+      "title": "ThreeMind Operating Guide",
+      "sha256": "a96f8a8b29e9b4ab2826880a03abed7225cae6cdcceb9e9802d872dba697a1d4"
+    },
+    {
+      "path": "docs/en/physical-telemetry-sensory-adapters.md",
+      "title": "Physical Telemetry Sensory Adapters",
+      "sha256": "aff8b54202e68be48fbb8967b5ab5ece1fdbbcffdd3828279e57938637a94ee3"
+    },
+    {
+      "path": "docs/en/plans/autonomous-activity.md",
+      "title": "Autonomous activity: from persistent circulation to environmental adaptation",
+      "sha256": "dc95b5edca62b2a32084dfd121e8721f6abff5cf6d457dc5dd1d7f38930e413d"
+    },
+    {
+      "path": "docs/en/plans/backup-and-cleanup.md",
+      "title": "Backup and project/batch cleanup",
+      "sha256": "a406c67aea4ca16c47f7efe7d0f336457639487f0208f5ef4c027be92d45c632"
+    },
+    {
+      "path": "docs/en/plans/candidate-mechanisms.md",
+      "title": "Candidate mechanism primitives and calibration",
+      "sha256": "4785a254193e0562324430b01753d64de77cbafe09b4c0896b3b4d047a803fe8"
+    },
+    {
+      "path": "docs/en/plans/capture-backlog.md",
+      "title": "Continuous capture backlog repair (2026-09-09)",
+      "sha256": "cb3d58c80c02cbc689c1bfc62e550a155cee6e53a52a28c4d60ae7532655eeb6"
+    },
+    {
+      "path": "docs/en/plans/continuous-mechanism-attribution.md",
+      "title": "Continuous-kernel attribution: completion record",
+      "sha256": "79bd3bb38aa175fed2b02f81905e22956444e3ea8bc2a9f09d9ff4830d3af022"
+    },
+    {
+      "path": "docs/en/plans/energy-lifecycle.md",
+      "title": "Energy-shortage damage and unified activity death",
+      "sha256": "98bb3562b86cbf5e7e7089fcb988b70d54f6300206357dfc254f37446fd6041d"
+    },
+    {
+      "path": "docs/en/plans/experience-and-autonomy.md",
+      "title": "Lasting experience and autonomy: 802 instances complete",
+      "sha256": "aa44908111c01a0cb74042fbb07ed88cefcdbe033f7206bd12fd031436ad5bd9"
+    },
+    {
+      "path": "docs/en/plans/index.md",
+      "title": "Mechanism restoration and research plans",
+      "sha256": "2ef2d2fc5bdbac76a5f8a26744703900445be8344ad741da33313ac3143fa876"
+    },
+    {
+      "path": "docs/en/plans/internal-activity-causal-tests.md",
+      "title": "Internal activity and behavior: completed causal comparisons",
+      "sha256": "fab57bbddb9b2d604eaf0af4efa5cd955f2a814769e77ad72a2db73239ea0891"
+    },
+    {
+      "path": "docs/en/plans/lif-candidate.md",
+      "title": "LIF candidate lif/1: equations, identity and validation boundaries",
+      "sha256": "ad6b418b5b040f0a2095acc28c9063d9717b842c045aa6d3b1921f018390d561"
+    },
+    {
+      "path": "docs/en/plans/mechanism-calibration-and-readouts.md",
+      "title": "Mechanism calibration, temporal activity readouts, and runtime boundaries",
+      "sha256": "d17bca41a175894c979107850a217e49d1c20e60949dc9c7a99993a7a85d41f4"
+    },
+    {
+      "path": "docs/en/plans/mechanism-discovery-and-intensity.md",
+      "title": "Facilitation and strong stimulus mechanism study",
+      "sha256": "a604fe3e75c09689d7c948a67e3ae17e6575b5e5922a5d9696c80eb642ef798e"
+    },
+    {
+      "path": "docs/en/plans/mechanism-questions.md",
+      "title": "Open mechanism questions",
+      "sha256": "b3f37806eb27a75ab953bf65a9e5e80c7b8c7f401234bf71906035dbef67e683"
+    },
+    {
+      "path": "docs/en/plans/memory-sequence-transfer.md",
+      "title": "Retention, sequence, transfer and environmental adaptation",
+      "sha256": "5de4123421722150160a667b4bf05eb64f408bb8c512b506bbdadbdc3e4d26ac"
+    },
+    {
+      "path": "docs/en/plans/memory-timescales.md",
+      "title": "Depletion, facilitation and consolidation experiments",
+      "sha256": "77755a0e473368771dfe93d3943d44e6cfdbd41515c7f37690f66d8b3cc4b463"
+    },
+    {
+      "path": "docs/en/plans/multi-kernel-implementation.md",
+      "title": "Multi-kernel implementation record",
+      "sha256": "ed6c1d34df8ced9be77a0fceb1d4f3371d6819a69cbfcc542a3775d34eb15130"
+    },
+    {
+      "path": "docs/en/plans/process-readout-calibration.md",
+      "title": "Activity-process readout calibration",
+      "sha256": "957a260d41a416b8f3a26addbe5eba2c162344d6beda938450d2b68861053502"
+    },
+    {
+      "path": "docs/en/plans/research-backlog.md",
+      "title": "Research backlog and unresolved work",
+      "sha256": "c95e0363e536de95f47974054acb51fd4bc1f31ab1975f2e01f5aa714703a9c9"
+    },
+    {
+      "path": "docs/en/plans/research-tooling-and-candidate-experiments.md",
+      "title": "Multi-kernel research tooling and initial experiments",
+      "sha256": "982c29d0a4c4b7613b277bfaa6ee08e1ca5007a83f00c97dfe8256a04cea2bbc"
+    },
+    {
+      "path": "docs/en/plans/stimulus-intensity-and-spacetime-original.md",
+      "title": "Original discussion: English translation",
+      "sha256": "928c4b74a839d4ad4b0d3f7ae02143d4efad2fbbd235b9b9e767fc59bc043d6b"
+    },
+    {
+      "path": "docs/en/plans/stimulus-intensity-and-spacetime.md",
+      "title": "Stimulus intensity, backgrounds and embodied senses",
+      "sha256": "f59cafbe536e9af760bb71916e88c1dbb32f7aec5255d60a1683ae2c88a2b7a4"
+    },
+    {
+      "path": "docs/en/plans/stimulus-spacetime-implementation.md",
+      "title": "Stimulus and proprioceptive tools: implementation",
+      "sha256": "48ec652b109e4289fbabca39978c647990dd71519829b82781d489f89c5b48ad"
+    },
+    {
+      "path": "docs/en/plans/temporal-chat-restoration.md",
+      "title": "Temporal readout and conversation restoration",
+      "sha256": "7e4badf2b38d5b9cb0600cc1c39bd285868657b8a8e2bead88dc7747abaf461f"
+    },
+    {
+      "path": "docs/en/plans/transformer-gpu-acceptance.md",
+      "title": "Local Transformer GPU and CPU fallback acceptance",
+      "sha256": "9a7cebaa36e98818c145babd275d76d91eeccc22f79427ee8c20cf62a785170d"
+    },
+    {
+      "path": "docs/en/plans/v3-restoration.md",
+      "title": "V3 mechanism restoration record",
+      "sha256": "0836e69aae1cc3a18cece220a68ec64ddc8f14237756ac8fbb4072f8f1bfd27d"
+    },
+    {
+      "path": "docs/en/plasticity-environment-and-language-models.md",
+      "title": "Plasticity, Environmental Selection, and Language Models: ThreeMind's Research Position",
+      "sha256": "90cdab1cfd88f60bffdd1dc965a22a4a61d0f9c2937fa04d1a5b4605ca42fb57"
+    },
+    {
+      "path": "docs/en/research-notes.md",
+      "title": "Research Notes and Working Agreements",
+      "sha256": "e79d4eefcf40ae961b4dd32b33e5af60f4aaeaf7cc60bee14aed30ecea56f55d"
+    },
+    {
+      "path": "docs/en/research-self-assessment.md",
+      "title": "Research Self-Assessment and Evidence Boundaries",
+      "sha256": "325d6119e2823e2531c9360c3242f737b50035338b2c31a189a98681158e8e17"
+    },
+    {
+      "path": "docs/en/spatial-embedding-decision.md",
+      "title": "Spatial Embedding: Baseline and Experimental Decision",
+      "sha256": "a709dce7844449281aa8cc325738d9fb6f60a14c2dca15213bc59634e6b390ec"
+    },
+    {
+      "path": "docs/en/statistics-and-evidence.md",
+      "title": "Statistics, Evidence, and Research-Data Export",
+      "sha256": "11544a843cae6bae8fd7cf30375249b69075a6b3c871bec6da9a26ea5cbe6f4c"
+    },
+    {
+      "path": "docs/en/temporal-frame-transport.md",
+      "title": "Temporal Frame Transport and Flow Control",
+      "sha256": "9ed3c893ed71eefa1ec7a63d82208c1cf4f358b84f7073c630fad6f1e2b34ec0"
+    },
+    {
+      "path": "docs/en/temporal-window-readout.md",
+      "title": "Temporal-window Convergence Readout",
+      "sha256": "e570c1929b1e7909dc505d93fbb115f263dbd5eaade987af43d4063da2aa7880"
+    },
+    {
+      "path": "docs/en/terminology.md",
+      "title": "ThreeMind Terminology (English–Chinese)",
+      "sha256": "bece7e6d549034ef836d9e80a23dd86101028606e520ac61752dffc88aa8645c"
+    },
+    {
+      "path": "docs/en/threejson-visualization-boundary.md",
+      "title": "ThreeJSON Visualization Boundary",
+      "sha256": "f86a4331f798f01843da23f26b10c927c5552f66b917eafcd38cc0a96d2c0613"
+    },
+    {
+      "path": "docs/en/transformer-comparison-and-research-assessment.md",
+      "title": "ThreeMind, Transformers, and the Research Path",
+      "sha256": "a8141c93bbd36068a941f73db128ebe51fa86ddb33d524dfcc60cac337e57cf6"
+    },
+    {
+      "path": "docs/en/v2-activity-readout.md",
+      "title": "Temporal activity readout",
+      "sha256": "902cdee57ef3fc9e190b645f12b66fcc3dd5feb0e7a42e630cc4f17df442d64c"
+    },
+    {
+      "path": "docs/en/v2-independent-runtime.md",
+      "title": "Independent Runtime and deployment checks",
+      "sha256": "cd078a88108c6c2553b149b20fef4dba3c6c044dcf42594a624dd092aafd9ea8"
+    },
+    {
+      "path": "docs/en/v2-kernel-behavior-audit.md",
+      "title": "Audit of legacy and current kernel dynamics and behavior",
+      "sha256": "d340b292af5dd9ab85937d375ae43621b84e4bba6f5ae1928c5ac5acd8c58830"
+    },
+    {
+      "path": "docs/en/v2-kernel.md",
+      "title": "ThreeMind kernel: architecture, time and local dynamics",
+      "sha256": "a400592230a0ec8dc8a9b53ce1af8208be8b3772ccb7a4e8d92027ec3db97628"
+    },
+    {
+      "path": "docs/en/v2-kernels.md",
+      "title": "Multiple kernels, a local Transformer and standalone deployment",
+      "sha256": "2f419483234062bcfd17dbfdc366d90b7f5ad61a7a5284d42e15fde42e1679a8"
+    },
+    {
+      "path": "docs/en/v2-memory-calibration.md",
+      "title": "Memory calibration kernel continuous-memory/2",
+      "sha256": "14c16935fb4ef3840dc45506288db342c6a573690cbf3ed83488d36627e3af57"
+    },
+    {
+      "path": "docs/en/v2-observation-tools.md",
+      "title": "Activity processes and reusable tools",
+      "sha256": "b2e43caba8e527b36d8e05aabfb61172b514d1d19b26cb66d3927fab10e1f00d"
+    },
+    {
+      "path": "docs/en/v2-probe-calibration.md",
+      "title": "Sensory/probe calibration and experiment storage audit",
+      "sha256": "b8d0257b4c5f2fc094dee4ac7c423aeb72e06a01cdb95f5727ebf58efddf2421"
+    },
+    {
+      "path": "docs/en/v2-research-tools.md",
+      "title": "Research operations, snapshots and compute devices",
+      "sha256": "05c70e59ed0a508a231f1611095a15627873761f4a0154335f46bd446cb00480"
+    },
+    {
+      "path": "docs/en/v2-temporal-research.md",
+      "title": "Temporal readouts, continuous chat and research records",
+      "sha256": "a26a60660b411e5a3738e3ea57ef3a3caa133a7986536c3f35d02db622121a9a"
+    },
+    {
+      "path": "docs/zh/algorithmic-comparison.md",
+      "title": "ThreeMind 与既有网络机制的逐项对比",
+      "sha256": "af8404ef8422e4152bad17ec6a465bb1a57e07af76b2cb96b53dc4fa243b212f"
+    },
+    {
+      "path": "docs/zh/architecture-boundaries.md",
+      "title": "ThreeMind 架构边界",
+      "sha256": "256c902c469e84045b18151dd0ccceeeee84bd9bb693ac25dfb4783c768391a9"
+    },
+    {
+      "path": "docs/zh/archive-catalog.md",
+      "title": "归档目录与非阻塞持久化",
+      "sha256": "e75dc6b28ca68aa2fdc4fdef62b7e0acfc0df4ec03df005a99f3252771d5e134"
+    },
+    {
+      "path": "docs/zh/consciousness-hypothesis.md",
+      "title": "ThreeMind 意识假设纲要",
+      "sha256": "be8830dceecab4e24c90116d492893fadf2bb7c3dfd88336dc1a172ab1434bd5"
+    },
+    {
+      "path": "docs/zh/embodied-functional-differentiation.md",
+      "title": "具身差异与功能分化：待检验推论",
+      "sha256": "a6e1fd178516d0583e8b4e692c55627ef91bf8f483ae0814f9d069cea95793f9"
+    },
+    {
+      "path": "docs/zh/experiment-debugger.md",
+      "title": "ThreeMind 实验与调试工作台",
+      "sha256": "00414338c5ac8200cd247173714c5dd62e6d0d0884d849c65285c4689149ff4c"
+    },
+    {
+      "path": "docs/zh/intervention-and-ablation.md",
+      "title": "干预、消融与配对对照",
+      "sha256": "204297462b6038b82372ebcbdcab1bf2fda6e1759ce19c23fe01de437d22b609"
+    },
+    {
+      "path": "docs/zh/kernel-evolution-principles.md",
+      "title": "多内核研究：保留原假设，扩展机制依据",
+      "sha256": "98fb008e15287fdaf54655277aec6825a0fc34e58ba2b513c214cd4207ee7d8c"
+    },
+    {
+      "path": "docs/zh/literature-positioning.md",
+      "title": "ThreeMind 研究定位与文献备忘",
+      "sha256": "44a243e9e3a8ced52c62ca5b9254a87e4db254e0bd6cc078fadd8f4e116f1f24"
+    },
+    {
+      "path": "docs/zh/local-inhibition-energy-and-dynamics.md",
+      "title": "局部抑制、可选能量记账与动力学追踪",
+      "sha256": "d29644204f5edee3ac93c3a4c59de3636c72a96342a2f01044ac18137b1b1cac"
+    },
+    {
+      "path": "docs/zh/multimodal-sensory-and-output-adapters.md",
+      "title": "多模态感官与输出器官",
+      "sha256": "b52fff328dd9e05a9dfb36fa6db86677d1e852fcd036bc2d8b3e4231e7a3a51e"
+    },
+    {
+      "path": "docs/zh/operations.md",
+      "title": "ThreeMind 操作指南",
+      "sha256": "f1e98f86de17cb2b39741effff10af4e7386096fc179215553e76eeadf1f50ca"
+    },
+    {
+      "path": "docs/zh/physical-telemetry-sensory-adapters.md",
+      "title": "物理遥测感官适配器",
+      "sha256": "7412a7a1af33b57d648088b880a8a715aefd5c337c7512caba6d58b90daf2969"
+    },
+    {
+      "path": "docs/zh/plans/autonomous-activity.md",
+      "title": "自主活动实验：从持续循环到适应环境",
+      "sha256": "17358d90237938019c062ad848f434a614eff45098796a4e9726dd3560da7990"
+    },
+    {
+      "path": "docs/zh/plans/backup-and-cleanup.md",
+      "title": "备份与按项目、批次整理数据",
+      "sha256": "d29537e85e1be1ef7b77d80a483e11ef069addfe4e332353fb25addeb11cc1b5"
+    },
+    {
+      "path": "docs/zh/plans/candidate-mechanisms.md",
+      "title": "候选机制的原语规范与验算",
+      "sha256": "6fb1320dd0f1c3ccd3a48df75a2afca430e7c3c17a2281b118ca1208d48f7abc"
+    },
+    {
+      "path": "docs/zh/plans/capture-backlog.md",
+      "title": "连续采集积压修复（2026-09-09）",
+      "sha256": "ebd85de9aa9c43b1edbfeb3ff62026842005bf3e7d97b05aba6b039f9e31a524"
+    },
+    {
+      "path": "docs/zh/plans/continuous-mechanism-attribution.md",
+      "title": "连续版机制归因：完成记录",
+      "sha256": "dbbe8a37766a10fe325efe3d60a7bbe12cda826fa414d819b6154f1490acdfa2"
+    },
+    {
+      "path": "docs/zh/plans/energy-lifecycle.md",
+      "title": "缺能损伤与统一活动死亡",
+      "sha256": "6f496773c35249540c101a4a7d8bec9fb26011da315b6f0fc783a0db9e9d9776"
+    },
+    {
+      "path": "docs/zh/plans/experience-and-autonomy.md",
+      "title": "经历保持、内部通路与自主活动：802 实例完成",
+      "sha256": "8ad0d79a44b65f9ed551aea8f2a7f4fa9750f66da829b6f64b89f678faa9002d"
+    },
+    {
+      "path": "docs/zh/plans/index.md",
+      "title": "机制恢复与后续研究计划",
+      "sha256": "c406598b625b59c7a5a0901029fb778ae0e1ef3e4178e0736b0cdfcaffb485df"
+    },
+    {
+      "path": "docs/zh/plans/internal-activity-causal-tests.md",
+      "title": "内部活动与行为：已完成的因果对照",
+      "sha256": "ff3728aa3e4bb495f81612edb475dcc2d1f81fc74351571ce6e1dc80ff01d86d"
+    },
+    {
+      "path": "docs/zh/plans/lif-candidate.md",
+      "title": "脉冲候选 lif/1：方程、身份和验证边界",
+      "sha256": "ebe41d1a0f07ab936b9ee77b42d613677f93bd7d905e24be3ee36fbf49e28bee"
+    },
+    {
+      "path": "docs/zh/plans/mechanism-calibration-and-readouts.md",
+      "title": "机制校准、时序活动读出与运行时边界",
+      "sha256": "0d5fb8cf555cef33a38fd566576d0863ba7e111f559f882c85b74eb5ee09cbe6"
+    },
+    {
+      "path": "docs/zh/plans/mechanism-discovery-and-intensity.md",
+      "title": "易化和强刺激机制的对照研究",
+      "sha256": "cfba18a215eb7fa619065d3b6ddf3b7f08514e95e0e756c45c4f89977991561e"
+    },
+    {
+      "path": "docs/zh/plans/mechanism-questions.md",
+      "title": "后续机制议题",
+      "sha256": "354b99f0782a79330d2240eaa58d3f5557dbed91dbbd4475b48ad37faa5792f3"
+    },
+    {
+      "path": "docs/zh/plans/memory-sequence-transfer.md",
+      "title": "长期记忆、顺序、迁移与环境适应",
+      "sha256": "c6c03e8473ee65632a513bef74eb6c8bdfc14b78ea0ad5dbb57f9749cdcce833"
+    },
+    {
+      "path": "docs/zh/plans/memory-timescales.md",
+      "title": "耗竭、易化与连接巩固实验",
+      "sha256": "dd21ca1736275a7ebc855dfe93f6f46af0c905ad49e49fe1674b283c68f31052"
+    },
+    {
+      "path": "docs/zh/plans/multi-kernel-implementation.md",
+      "title": "多内核增强实施记录",
+      "sha256": "a23d60952284176d2b36b538268d10045300a7ca741d47d198e8788d26e1edd7"
+    },
+    {
+      "path": "docs/zh/plans/process-readout-calibration.md",
+      "title": "活动过程读出校准",
+      "sha256": "57b08e4c1de372388e7cc29e6c17e193e70ffa734a2c5ba0e744db35d87e1155"
+    },
+    {
+      "path": "docs/zh/plans/research-backlog.md",
+      "title": "研究待办与未结事项",
+      "sha256": "3c62290839afa51a2a692c9e2bffe1bd152d6488fda221c13949cb57968ebd43"
+    },
+    {
+      "path": "docs/zh/plans/research-tooling-and-candidate-experiments.md",
+      "title": "多内核研究工具与初步实验实施记录",
+      "sha256": "7a53f037e4dc6001bb5e4af6ca815cad0c949ef227e26eaec400c5f41ad20d6c"
+    },
+    {
+      "path": "docs/zh/plans/stimulus-intensity-and-spacetime-original.md",
+      "title": "刺激强度与时空感官：用户原始讨论",
+      "sha256": "3d664867f76ec872c3e583f4cb86c83fbca54022a95475e045531e55cfbfd8ef"
+    },
+    {
+      "path": "docs/zh/plans/stimulus-intensity-and-spacetime.md",
+      "title": "刺激强度、背景输入与时空感官",
+      "sha256": "29622d8a50763f85ac66bfc1a1b616660928bfd91689c3d3a2d1950f812df7fc"
+    },
+    {
+      "path": "docs/zh/plans/stimulus-spacetime-implementation.md",
+      "title": "刺激与本体感官：实现和使用",
+      "sha256": "eab395000c0d7b1b9873d3d4cc6dae53bd7d4e091edf30011122cc4632546596"
+    },
+    {
+      "path": "docs/zh/plans/temporal-chat-restoration.md",
+      "title": "时序读出与聊天复刻实施记录",
+      "sha256": "587b42689bfe1cb203526577d30d129646576e22a0425dae0eea1af0a3aabde2"
+    },
+    {
+      "path": "docs/zh/plans/transformer-gpu-acceptance.md",
+      "title": "本机 Transformer GPU 与 CPU 回退验收",
+      "sha256": "f2a6e50e3022d3e9560ea827f9f2b2f8f6a157d290a96b48e2d7cc455b43feaf"
+    },
+    {
+      "path": "docs/zh/plans/v3-restoration.md",
+      "title": "V3 机制恢复实施记录",
+      "sha256": "450a8b0abfc5565594ccc4f9c9c6e57a35c00e9b6b4c54942a206239eefc63f4"
+    },
+    {
+      "path": "docs/zh/plasticity-environment-and-language-models.md",
+      "title": "可塑性、环境选择与语言模型：ThreeMind 的研究立场",
+      "sha256": "5f98244bc776daa52f82e737e5c307b112f1ab3c162fa1f6c836f915718796fb"
+    },
+    {
+      "path": "docs/zh/research-notes.md",
+      "title": "研究笔记与工作共识",
+      "sha256": "de87d2b317e5366f9269319f7c248b0c320a80c312c70df28bf3356506581b5c"
+    },
+    {
+      "path": "docs/zh/research-self-assessment.md",
+      "title": "研究自省与证据边界",
+      "sha256": "dda30f85dae29339876a6a000b0e9e4e58a0d30dddcbeecc362aa2f0c2ae6cb5"
+    },
+    {
+      "path": "docs/zh/second-generation-architecture-assessment.md",
+      "title": "ThreeMind 第二代架构评估与重构建议",
+      "sha256": "e538f3222ff796aecf6921666322d539c1e093b3267d6f5cd1115cc70e7d13fb"
+    },
+    {
+      "path": "docs/zh/spatial-embedding-decision.md",
+      "title": "空间基底：基线与实验分支决策",
+      "sha256": "6795d0d27a13c7face551417252da96139cfaca546559734c8670e8dd6d24cbb"
+    },
+    {
+      "path": "docs/zh/statistics-and-evidence.md",
+      "title": "统计、证据与研究数据导出",
+      "sha256": "58a962b4121b5dd9dd4e8fbfaad644d18f6246ef3fc77427cb1b3ed1eff6203f"
+    },
+    {
+      "path": "docs/zh/temporal-frame-transport.md",
+      "title": "时间帧传输与流量控制",
+      "sha256": "93a11dcf805eb5c3b0a6efdb4047c8a7cad811ea39d0fcd2f77077bd56bac5b9"
+    },
+    {
+      "path": "docs/zh/temporal-window-readout.md",
+      "title": "时间区间收敛读出",
+      "sha256": "8d45719e1fada16ef2a5ac39cdc1c35d5142122582fd6e818fba92e7ecf2c3c1"
+    },
+    {
+      "path": "docs/zh/terminology.md",
+      "title": "ThreeMind 术语表（中英）",
+      "sha256": "b8c55af7835663ab32daf1cbcfa7d42a5f1b37aa380cc1005a2138824361ea79"
+    },
+    {
+      "path": "docs/zh/threejson-visualization-boundary.md",
+      "title": "ThreeJSON 可视化边界",
+      "sha256": "17ebf90233260c23dd58b32275f05d190e111b74feec8f01a6f6b13a15bc6873"
+    },
+    {
+      "path": "docs/zh/transformer-comparison-and-research-assessment.md",
+      "title": "ThreeMind、Transformer 与研究路径评估",
+      "sha256": "c42d58836ea78206d4b2d2f17126630ee2acfa2d2457e957b1231bde2f64580b"
+    },
+    {
+      "path": "docs/zh/v2-activity-readout.md",
+      "title": "时序活动读出器",
+      "sha256": "b1597d7543d3afa6c897c03995b0475777e646844c2861cea8d7aec2668017c0"
+    },
+    {
+      "path": "docs/zh/v2-adapter-sdk.md",
+      "title": "适配器公共契约、SDK 与接入验收",
+      "sha256": "ece08a46dcfc7010ee88a0b13876b1492324eaea91d0c66e006e0f024ee3fd20"
+    },
+    {
+      "path": "docs/zh/v2-adapters-and-capabilities.md",
+      "title": "适配器目录、设备能力与配置边界",
+      "sha256": "d2a13b228e77948844594357097b3ecacea4fda4014f2a3422b481aca7bc6d58"
+    },
+    {
+      "path": "docs/zh/v2-ai-tools.md",
+      "title": "AI 供应商与外部研究工具",
+      "sha256": "0385f170c9b21a45832948dc25d72430e2b1fbdc075bc67468abd8c6284b0f7d"
+    },
+    {
+      "path": "docs/zh/v2-assessments.md",
+      "title": "独立评估：出生副本、固定标准与完整证据",
+      "sha256": "4de1df520f0d2dfb7ae7af64371f57dbeb944aa96f2a65f78026b21b898b6e35"
+    },
+    {
+      "path": "docs/zh/v2-attention.md",
+      "title": "输入注意、显式调制与递送证据",
+      "sha256": "c72fafcff62ac944d4bb5464bf8c99d887beac471c55743f4d0e88982868c102"
+    },
+    {
+      "path": "docs/zh/v2-body-tools.md",
+      "title": "环境场、躯体过滤与模拟内感受",
+      "sha256": "457194cc0663b27aa4f09d596214bf6a11b8166665122599405797454ca8749e"
+    },
+    {
+      "path": "docs/zh/v2-capability-restoration.md",
+      "title": "功能完整性审计与恢复安排",
+      "sha256": "055f3f6db48a04eb715c3c8304c5737ad622c0c3d7cef998457c1b65b217bcf2"
+    },
+    {
+      "path": "docs/zh/v2-container-isolation.md",
+      "title": "容器资源与部署隔离",
+      "sha256": "0576af5f6a26bb5526ec00a9ffa0c1796127055f02c79c1b00a0bd01a5ae94dc"
+    },
+    {
+      "path": "docs/zh/v2-continuous-output.md",
+      "title": "连续发声与激活图像输出",
+      "sha256": "29e0521004b0948f259d01cfd029793b0a88b9bf6a71b6fbad587c694edec25f"
+    },
+    {
+      "path": "docs/zh/v2-conversation.md",
+      "title": "刺激与读出：消息、显示偏好与证据",
+      "sha256": "31a2a17cee902eef57e107395950702537f13f2a57ed60b8a7f9a616c343d8f3"
+    },
+    {
+      "path": "docs/zh/v2-development.md",
+      "title": "发育训练与先天版本",
+      "sha256": "860a0a43d5f059cf9afcd82b0a8357ce6c6bdcf7d026844154db2a520215cf16"
+    },
+    {
+      "path": "docs/zh/v2-display-performance.md",
+      "title": "网络显示与被动读出的性能边界",
+      "sha256": "e37bc8aaae1f2319bb4595258eae613af2bce37d8d15b384a0c6dea46f03436f"
+    },
+    {
+      "path": "docs/zh/v2-ecology-ai.md",
+      "title": "可选的 AI 生态观察解释",
+      "sha256": "09e01950b80cdbb34a288600a01c0f257f53724038b33e853de3ce782a3d8ef7"
+    },
+    {
+      "path": "docs/zh/v2-ecology-capacity.md",
+      "title": "生态训练容量、历史成本与测量边界",
+      "sha256": "ba189a0f1d151982dfd1d9c746fff33e9c8cf5ddc3d22b8ab2aa2da02213c272"
+    },
+    {
+      "path": "docs/zh/v2-ecology-design.md",
+      "title": "生态训练器实现设计",
+      "sha256": "08d90dfbeb385aae9d61b892c751f591d97058fcf6d7a87ea75e050aa74eef27"
+    },
+    {
+      "path": "docs/zh/v2-ecology-foundation.md",
+      "title": "生态规则与共享物理基础",
+      "sha256": "79a90e803b75abc216458cb4277b9838fca55913094a886859e327c316e62309"
+    },
+    {
+      "path": "docs/zh/v2-ecology-observer.md",
+      "title": "生态观察与规则预警",
+      "sha256": "22fa11dc9633a404a7825281607db48dc967ba775d12dca3ffc2de71703dae31"
+    },
+    {
+      "path": "docs/zh/v2-ecology-reports.md",
+      "title": "整组生态实验的记录与报告",
+      "sha256": "91930a1bcd159246558e0c2fe400b50609cbe62681a457e5e9891979bc83fc54"
+    },
+    {
+      "path": "docs/zh/v2-ecology-runtime.md",
+      "title": "独立生态训练器、整组恢复与交换包",
+      "sha256": "937694dece083c04b1baaa0a343f7ee289942baa0bc6550c3d7ac38b84b90323"
+    },
+    {
+      "path": "docs/zh/v2-ecology.md",
+      "title": "生态训练、种群恢复与研究证据",
+      "sha256": "a024c5d1d9fed896267abceadee9983c63889a11dee880434cc681bd72547353"
+    },
+    {
+      "path": "docs/zh/v2-energy.md",
+      "title": "能量记账、外部供给与缺能损伤",
+      "sha256": "b64b558e5bf981767206cca4a63f6301662fd3c203d9c4da1096352cb97a69e6"
+    },
+    {
+      "path": "docs/zh/v2-evidence-streaming.md",
+      "title": "历史观察与完整证据导出",
+      "sha256": "7889fa4e0f033d2dcd47288bbbc40bfb1214cc78ca14bcf87a1e2338d0d0f24d"
+    },
+    {
+      "path": "docs/zh/v2-evolution-and-world-plan.md",
+      "title": "自动演化、世界与虚拟躯体实施方案",
+      "sha256": "d61bf2c8ed9110fb2d400ac9750ae6edf7a2c0874f351eb79eb2493b7913d7d5"
+    },
+    {
+      "path": "docs/zh/v2-evolution.md",
+      "title": "多代定向训练与固定证据",
+      "sha256": "d22b38777ac383b284aa0cbe1a5427da21c478d54d2800249fff0ee2bd27fce1"
+    },
+    {
+      "path": "docs/zh/v2-execution-health.md",
+      "title": "执行资源、进度与任务故障预警",
+      "sha256": "c7757868b3cbd358d62cea670fdea137248575f15dad38309e6fe383b12833cd"
+    },
+    {
+      "path": "docs/zh/v2-execution-resources.md",
+      "title": "执行队列与部署额度",
+      "sha256": "fa58fe75a8eac6d7b430d4c843e747af1ff1ac1b054a31023b4f279100e95aae"
+    },
+    {
+      "path": "docs/zh/v2-experiments.md",
+      "title": "第二代实验、比较与证据",
+      "sha256": "6b7bb7c32ef239e1d28725de043b83ed36db5e30b54b6541745d0905ee63e8ad"
+    },
+    {
+      "path": "docs/zh/v2-independent-runtime.md",
+      "title": "独立 Runtime 与部署检查",
+      "sha256": "0cd5eece74ff5950061d2f92a07ed762ef98538c4cd69d9f4c9769f074d7bee5"
+    },
+    {
+      "path": "docs/zh/v2-inputs.md",
+      "title": "感官输入、分帧与递送证据",
+      "sha256": "9f09b31ed34342ca0fcbe4865459e47bafd0b06e25a5ef525b504366d80dc64c"
+    },
+    {
+      "path": "docs/zh/v2-integration-acceptance.md",
+      "title": "重构整合验收与当前交付范围",
+      "sha256": "4823e0ad9589c0f11e7d53c978d63c6d64b6641abfb4ba6c8ba4ce2ff6930cf2"
+    },
+    {
+      "path": "docs/zh/v2-interface-language.md",
+      "title": "界面语言与研究数据边界",
+      "sha256": "a8e81d1117c8fba6ee780ff7a4856c2a99f3b7662ae24434c8912f2dee6b6e17"
+    },
+    {
+      "path": "docs/zh/v2-kernel-behavior-audit.md",
+      "title": "新旧内核动力学与行为核查",
+      "sha256": "a444461fd3d1cb4f3bf4b0a826a775b8a373d0ee22c7ce7a58fc38df937ca441"
+    },
+    {
+      "path": "docs/zh/v2-kernel.md",
+      "title": "ThreeMind 内核：架构、时间与局部动力学",
+      "sha256": "6b8922ef0d0e4e10d093abdebfa42e08b34d42aed1781691e4c77690b6cef97d"
+    },
+    {
+      "path": "docs/zh/v2-kernels.md",
+      "title": "多内核、本地 Transformer 与独立部署",
+      "sha256": "fd0628664d6045af24bb8d358257fbe47aef609997a94d43e049f773149098e1"
+    },
+    {
+      "path": "docs/zh/v2-legacy-parameter-map.md",
+      "title": "旧内核参数逐项对照",
+      "sha256": "64d8584303b8959ea5c7394dacb864586574d9a0f39c545ed71902b39d9abe97"
+    },
+    {
+      "path": "docs/zh/v2-live-capture.md",
+      "title": "连续设备采集：麦克风、摄像头与音画会话",
+      "sha256": "bb51b0e411605c0cf689e06a15f46a18de2e7c35f33c5483d15ae346594f9711"
+    },
+    {
+      "path": "docs/zh/v2-media-uploads.md",
+      "title": "大媒体分块上传、续传与原件证据",
+      "sha256": "c840e100de5276d91f578b7bb261d92b39968c06e97f17d2ec7704f63b5c77aa"
+    },
+    {
+      "path": "docs/zh/v2-media.md",
+      "title": "物理媒体感官与被动输出器官",
+      "sha256": "9e0d73c7f56a07e6b260e8a998d8453c3d46c66fcacac6fea4130bbd52329bae"
+    },
+    {
+      "path": "docs/zh/v2-memory-calibration.md",
+      "title": "记忆机制校准内核 continuous-memory/2",
+      "sha256": "643b94d557df67c332447963c8a719c25c04a42430d82ec418db885851932924"
+    },
+    {
+      "path": "docs/zh/v2-model-library.md",
+      "title": "意识档案、恢复点注释、谱系与清理",
+      "sha256": "277dac9082be86049f131c76a717b2b74ecb100209d6f75eb497323ff7884efe"
+    },
+    {
+      "path": "docs/zh/v2-network-devices.md",
+      "title": "网络设备：匿名载体、输出订阅与独立授权",
+      "sha256": "744e92e042b80f8fd3fba291a3756b2c8b68c533db8770f0243153e5d189ad99"
+    },
+    {
+      "path": "docs/zh/v2-notebooks-and-reports.md",
+      "title": "实验笔记、记录与报告方案",
+      "sha256": "753122a1dce8530ed8e56894a6cf5506a8ab379b2cbaf4a4d50ed3f033ce4823"
+    },
+    {
+      "path": "docs/zh/v2-notifications.md",
+      "title": "通知与邮件",
+      "sha256": "6f9504ca26d54a08e62468860d1464b4eefae0b8cf2153a45f94582c8f294fae"
+    },
+    {
+      "path": "docs/zh/v2-observation-and-adapter-plan.md",
+      "title": "演化观察、预警评估与适配器实施方案",
+      "sha256": "24482ef5fd0d91f352d5b0260296fdcbde9129688d1ce49004db4c66a4de9ff0"
+    },
+    {
+      "path": "docs/zh/v2-observation-tools.md",
+      "title": "活动过程与可复用检测工具",
+      "sha256": "40cdda00f605951760d77b6f21a35cebdb81134233a34d315b4c35f5aa59d16d"
+    },
+    {
+      "path": "docs/zh/v2-operations.md",
+      "title": "ThreeMind 2 使用与部署",
+      "sha256": "3930116824f89bfd186d9e694558518b44713c506b8c4b52bed47fb8a0ecb3e8"
+    },
+    {
+      "path": "docs/zh/v2-optional-core.md",
+      "title": "可选内核机制与对照",
+      "sha256": "8ebadb5eb1b5fbedb6cae6b94ae7b8453e2410d632eaf9a70f6774ebd093c6bd"
+    },
+    {
+      "path": "docs/zh/v2-personal-notebooks.md",
+      "title": "实验笔记：写作、草稿与笔记本",
+      "sha256": "92f18869c7f8c89cb8eb21b2ae0f35e72cb57ca2ef7fce7633781cb4b923206b"
+    },
+    {
+      "path": "docs/zh/v2-probe-calibration.md",
+      "title": "感官与探针校准、实验存储检查",
+      "sha256": "77eb167cdfd7b9890bd14e47cc00079a9542d960c810b31e83b32329f559902c"
+    },
+    {
+      "path": "docs/zh/v2-readouts.md",
+      "title": "截面结构与时序响应读出",
+      "sha256": "8de126703f2a4548a9e2f5ece7313f8d34119e9cb5384d009c67f8f2e25a4a84"
+    },
+    {
+      "path": "docs/zh/v2-research-ai.md",
+      "title": "用 AI 生成研究记录与报告草案",
+      "sha256": "811c59851c78a9755d09511462977d25fa63b9ee2f3a094335e5c4a05de58e3f"
+    },
+    {
+      "path": "docs/zh/v2-research-console.md",
+      "title": "人工实验控制台与同源沙箱",
+      "sha256": "b5a13d071241e7508e8a4b805bcf10b8ada626483026687c325585f08b8d32a6"
+    },
+    {
+      "path": "docs/zh/v2-research-documents.md",
+      "title": "实验记录与研究报告",
+      "sha256": "48e56c4208c25bb5536a7ef5e838f4fc84a23bad027b26ca5e7f87cb877334c6"
+    },
+    {
+      "path": "docs/zh/v2-research-events.md",
+      "title": "输入、干预与事件证据",
+      "sha256": "3776df7990f0aad47a3ab661f311b6ff400cd2c9e5c89f7cab510434250be4f9"
+    },
+    {
+      "path": "docs/zh/v2-research-exports.md",
+      "title": "研究文档导出与证据包",
+      "sha256": "98820921f24eaa582cb6898e30d5e510099853a30cc400445713b3cea0b93530"
+    },
+    {
+      "path": "docs/zh/v2-research-plans.md",
+      "title": "受控实验计划、命令与模板",
+      "sha256": "9aadbe4cf978e536b7b560f1b2c38a654b27aa19e23d81a02e0780fe6b9337cb"
+    },
+    {
+      "path": "docs/zh/v2-research-sharing.md",
+      "title": "固定研究文档分享",
+      "sha256": "d60b3263a8ee2200d4a6507f49bb0654cfaf8dafc2cf572598942b69eb4ac1f9"
+    },
+    {
+      "path": "docs/zh/v2-research-tools.md",
+      "title": "研究操作、实验快照与计算设备",
+      "sha256": "108a1923f40d0f13bb78c70ca64a4ab6acf933f4254daa4e41df9feaf45a5303"
+    },
+    {
+      "path": "docs/zh/v2-resource-limits.md",
+      "title": "模型容量与计算预算",
+      "sha256": "ccd17c65f4c86245a0a9179d8cc91c71a9270156c706567bdcfcd1bee444f144"
+    },
+    {
+      "path": "docs/zh/v2-source-policies.md",
+      "title": "输入来源、竞争筛选与可恢复边界",
+      "sha256": "07dcdbd41b9da5d15ebaa69bf4a416adc6f2b5681e05bcbd377861580d1f2404"
+    },
+    {
+      "path": "docs/zh/v2-spatial.md",
+      "title": "因果空间基底与观察投影",
+      "sha256": "302d2ad60fe59128b56be04b176e9f228ce738c275e567253b78c1f56f55dceb"
+    },
+    {
+      "path": "docs/zh/v2-state-captures.md",
+      "title": "命名状态捕获",
+      "sha256": "8a1891810612035e0d56e395030f72bcf2ba5afed11a2db8cb7fb6c27a5d9b6f"
+    },
+    {
+      "path": "docs/zh/v2-storage.md",
+      "title": "存储、模型本体与任务队列",
+      "sha256": "5f9ca2e3c519312d65cc8b063f8bb868bc98148cd4de85127b90aa604c27143b"
+    },
+    {
+      "path": "docs/zh/v2-study-designer.md",
+      "title": "图形研究协议与条件编辑",
+      "sha256": "6e71252c7c98e91866730335ce52648299d89d407d2a4693dfa0bbbb97677bec"
+    },
+    {
+      "path": "docs/zh/v2-telemetry.md",
+      "title": "物理遥测、实例执行计量与递送证据",
+      "sha256": "7ec2beeab457f92458c81ac14ea14a327725873e2fc53da87b7cd577d6a3a9c2"
+    },
+    {
+      "path": "docs/zh/v2-temporal-research.md",
+      "title": "时序读出、连续聊天与实验记录",
+      "sha256": "52d92f977ce85b71798ab3b988d7d5c1c48cde99d26a602a0712f84caee130ea"
+    },
+    {
+      "path": "docs/zh/v2-validation.md",
+      "title": "ThreeMind 2 实现与验证记录",
+      "sha256": "c1e76093da81897285cfd6606f6fe3d4f08d0d6c4631fe6cea1cdd8e7ac2d740"
+    },
+    {
+      "path": "docs/zh/v2-withdrawal-and-performance.md",
+      "title": "刺激撤除、饱和诊断与持续运行优化",
+      "sha256": "c68f5c64533ad205c4386f37bb3a12a3673f7137ce21416e0652390e3a1b5926"
+    },
+    {
+      "path": "docs/zh/v2-worker-scheduling.md",
+      "title": "执行节点能力匹配与任务回执",
+      "sha256": "e7940768ce053d18afb7518229d3406d03daafd928277ed0416ef23e0126a6a2"
+    },
+    {
+      "path": "docs/zh/v2-world-ai.md",
+      "title": "AI 世界与虚拟躯体草案",
+      "sha256": "137bd990122e506d41d553c5295927f6b3b13fe4ec900368fd2b34a65fbe3884"
+    },
+    {
+      "path": "docs/zh/v2-worlds.md",
+      "title": "可配置物理世界与虚拟躯体",
+      "sha256": "1b6b74c5484f98ab2ac28629fa38f0ca80b7bb0153b2ad7ceff267e3bd854e3f"
+    },
+    {
+      "path": "lab/README.md",
+      "title": "ThreeMind Lab Notebook",
+      "sha256": "89642b27693c2db1ed126d2926fec33b8b295eea9694954667d45e585cf08e1c"
+    },
+    {
+      "path": "lab/README_CN.md",
+      "title": "ThreeMind 实验笔记",
+      "sha256": "f697f7e433fc9bf2336c467fa486cca8dd3ca92b7a1d958459dda445ec3e0e11"
+    },
+    {
+      "path": "lab/ai-debug/README.md",
+      "title": "AI Debug Reports",
+      "sha256": "3163e70b21c7c69780e3c10fe7c24501352bcf6f261ea23e32ed56f275710a9c"
+    },
+    {
+      "path": "lab/ai-debug/README_CN.md",
+      "title": "AI 调试报告",
+      "sha256": "24629cac3f1213a3ad4384ba3f8ad7b22a8eb3ba6b73d3f78c19a4b6619b4cd6"
+    },
+    {
+      "path": "lab/en/001_2026-07-25_2015_minimal-body-triangle.md",
+      "title": "001 — Minimal Body Adapter and a Repeatable Three-Node Structure",
+      "sha256": "a1b54a317da752bdde6051c99bd662568b7a2d6b0a3f879193f91de4569b70fe"
+    },
+    {
+      "path": "lab/en/002_2026-07-27_0000_sensory-constraints-and-global-saturation.md",
+      "title": "002 — Sensory Constraints, Fixed Fields, and Global Saturation",
+      "sha256": "d772b176f86a736881054685cfbdbe6685ef4cc1c2bef3588c8d9be3c014d58a"
+    },
+    {
+      "path": "lab/en/003_2026-07-28_0000_recurrent-v3-signatures-and-readable-output.md",
+      "title": "003 — Recurrent V3 Activation Signatures and Readable Passive Output",
+      "sha256": "a9eac10c6d6f665fa85ff053f6b310a6920a3b9ad684e47336aa8c68a4327a9d"
+    },
+    {
+      "path": "lab/en/004_2026-07-28_0000_temporal-framing-of-long-textual-stimulation.md",
+      "title": "004 — Temporal Framing of Long Textual Stimulation",
+      "sha256": "2c755914ba456e2504ede323b5daaa73a9cbb94a6916852aea5a50940b5b8776"
+    },
+    {
+      "path": "lab/en/005_2026-08-01_0000_v3-probe-stimulus-convergence-mapping.md",
+      "title": "005 — Plastic and Repeatable Convergence Mapping under V3 Probe Stimulation",
+      "sha256": "5da75ae9ea05347d811d16732f004efd48f75422ff0acb5fde33a25e280a765b"
+    },
+    {
+      "path": "lab/en/006_2026-08-01_0055_relation-probe-recurrence-and-over-association.md",
+      "title": "006 — Relation-Probe Recurrence and Over-Association",
+      "sha256": "a45c87b8880f3dca80b6923b105bb1da7e048062d4ec4262511a6093fd8912ee"
+    },
+    {
+      "path": "lab/en/007_2026-08-02_1246_from-snapshot-readout-to-temporal-evidence.md",
+      "title": "007 — From Snapshot Readout to Temporal Evidence",
+      "sha256": "a32298c2300d52f8f251b49c7ad8656ca9c454b76afcd0572355313740ad1951"
+    },
+    {
+      "path": "lab/en/008_2026-08-03_2152_v3-candidate-word-order-convergence.md",
+      "title": "008 — Candidate Word-Order Convergence in the V3 Temporal Readout",
+      "sha256": "e21a914ef2a5d3408965bfe660e8200adacb863739ebedc57f4909ec1a944af1"
+    },
+    {
+      "path": "lab/en/009_2026-08-03_2202_fast-slow-timescales-and-evidence-chain.md",
+      "title": "009 — Fast–Slow Timescales and the Evidence Chain",
+      "sha256": "b7f1f342ab6a9fc5ac8bc05617c1e1561ca37e879c7bb40c94e371a84831ab78"
+    },
+    {
+      "path": "lab/en/010_2026-08-03_2239_migrating-activity-under-a-continuous-long-text-stream.md",
+      "title": "010 — Migrating Activity under a Continuous Long-Text Stream",
+      "sha256": "98af10b1358b3073d5ceef04f9b190a9d095f223e6a32dfab1ac80aab3ad631f"
+    },
+    {
+      "path": "lab/en/011_2026-08-03_2327_relation-endpoint-reactivation-and-response-clusters.md",
+      "title": "011 — Relation-Endpoint Reactivation and Candidate Response Clusters",
+      "sha256": "0980247e7bd2965c2a788fd97ba34056e179aa0f127545fe401d2edc696aaa90"
+    },
+    {
+      "path": "lab/en/012_2026-08-04_0014_coexisting-local-structures-for-multiple-relations.md",
+      "title": "012 — Coexisting Local Structures for Multiple Relations",
+      "sha256": "a7039e1e253f5fdf5b69673020136070882df85b2374df6998141df9ba96a775"
+    },
+    {
+      "path": "lab/en/013_2026-08-04_0041_no-transitive-relation-and-analogy-contact.md",
+      "title": "013 — No Transitive Relation Emerged; Candidate Analogy Contact",
+      "sha256": "4126a6144f438f19fa2199fd771f919566f4d55d96925a7eb2f88b6c8bcd91c1"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-blocked-sentence-teaching/README.md",
+      "title": "逐句重复教学实验",
+      "sha256": "a480170d3b816e02a82f4e055ba7f727b606366a76a544b6752c98e3a915194c"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-blocked-sentence-teaching/family-record.md",
+      "title": "family-record",
+      "sha256": "40c195a0a2921e084de93ae67fa4f09d6e8894c282c4079b4cd339ca52acde21"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-blocked-sentence-teaching/memory-record.md",
+      "title": "memory-record",
+      "sha256": "63f3ede02798140feb0396db85bbb610a58f96d59e907f9d253887abcbef23be"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-blocked-sentence-teaching/pair-control-plan.md",
+      "title": "配对正向活动的补充对照",
+      "sha256": "6b1b6b01fd6f92f583f2a8fc8530413e48041b992d84f65cf0d17e654ae715bc"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-blocked-sentence-teaching/protocol.md",
+      "title": "预先方案：逐句重复教学，完整保留说话人与标点",
+      "sha256": "574aa6fbabaceec98af818d269a8c9db6a1f55f5d6ac2f9fe278a6976acdbb4a"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-blocked-sentence-teaching/report-conclusion.md",
+      "title": "report-conclusion",
+      "sha256": "c3ff38acca549907b84550c34c42993decb1fcaf4131fb91d243a3eec532cd01"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-blocked-sentence-teaching/report-intro.md",
+      "title": "逐句重复教学：完整说话人与祖父关系",
+      "sha256": "0064b46d3c99473916b0347f1851350b5aa3e07296460781f48dbcd96f3017d3"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-blocked-sentence-teaching/report-resources.md",
+      "title": "report-resources",
+      "sha256": "d1128bea458548ca656916eb8c05a471a07b07519ad6166215a1101e368ec182"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-blocked-sentence-teaching/report.en.md",
+      "title": "Blocked sentence teaching with intact speakers and punctuation",
+      "sha256": "5d92e4b6410d0dc9d62b78ef9063d8f097b71e210041c3372b819d97f810d90d"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-blocked-sentence-teaching/report.md",
+      "title": "逐句重复教学：完整说话人与祖父关系",
+      "sha256": "b9f61c7546d9725a4092db097514d83d95285fcbc11016f564c7ae396418ac8b"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-blocked-sentence-teaching/training-record.md",
+      "title": "training-record",
+      "sha256": "01d16c79c3410ff346211b54284ca500061ed3189602ffa9d4cf4b1af1f156bb"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-blocked-sentence-teaching/validation-notes.md",
+      "title": "验证与执行说明",
+      "sha256": "a22668c12de692dd301a940bd48f34f04285317c19219c344c67104b869a27ab"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-calibrated-generalization/README.md",
+      "title": "校准后配对与关系组合验证",
+      "sha256": "7ca27a59523b41dce165c4296dfe19d5a781b0afca0737aa21d3ff82012443b0"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-calibrated-generalization/execution-notes.md",
+      "title": "冻结校准决策与执行说明",
+      "sha256": "c1ab271f69bc504e26b8e315dbca9fcffef3089f108f5db6532754906fb5b9f6"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-calibrated-generalization/memory-interpretation.md",
+      "title": "扩大配对验证的解释",
+      "sha256": "b547f937f4183853a504dd66b0f8c22ea5b67908c11efbbad2e7224125c2f134"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-calibrated-generalization/protocol.md",
+      "title": "预先固定方案：探针校准、扩大词表与未见名字家系",
+      "sha256": "f809badc828103a2f04559f96cf8749570cb714d55904c62051b5a4bcefc359b"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-calibrated-generalization/relations-interpretation.md",
+      "title": "独立关系组合验证的解释",
+      "sha256": "d29aa53d0d6661048bb0ebf9f094d17862f0ec0d9569ffacb1776f207cc8867e"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-calibrated-generalization/report.en.md",
+      "title": "Calibrated validation: associative pairs and unseen-name families",
+      "sha256": "ae644eff76771ef51eea0a919c7420f55d6914cc2d345ed47ad9996ba87f8db1"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-calibrated-generalization/report.md",
+      "title": "校准后验证报告：配对关联与未见名字家系",
+      "sha256": "5909f3876391fc415cb52ac6c8733df036d65d10086facf1ade4aa06476cc55e"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-default-mapping-repetition/README.md",
+      "title": "默认映射复验",
+      "sha256": "dab92a50b8628b1fb2c90d48eb4157a9466075a07ea6fa0cc6b4424516d225e5"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-default-mapping-repetition/family-record.md",
+      "title": "family-record",
+      "sha256": "94141888ce8f272f37ff493626c5d582aeeb1ca425883f141c867d282317ebd0"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-default-mapping-repetition/interpretation.en.md",
+      "title": "interpretation.en",
+      "sha256": "dd13c02432a6045fe69c64ad78bd60d475304e5797bd197090af3e1664161597"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-default-mapping-repetition/memory-record.md",
+      "title": "memory-record",
+      "sha256": "f73663c2450fd827c9bfa9287f64265125531fac939a751b336562fc1e7404cb"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-default-mapping-repetition/pair-control-plan.md",
+      "title": "预先对照：名词对应是否跟随教学",
+      "sha256": "9be6908da01e7bd403254b263961f5f501ad3239fd376d538560255d61bd43d6"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-default-mapping-repetition/protocol.md",
+      "title": "预先方案：默认映射复验，逐句重复与完整标点",
+      "sha256": "fb9d2575cf48c50f772fccd3c44dd672194d3c85691437dd49fcc25166e53527"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-default-mapping-repetition/report-conclusion.md",
+      "title": "report-conclusion",
+      "sha256": "e3a7290bf5fb29b81641431df26a380c5387d99508cff3208f1c4e769afbb0ea"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-default-mapping-repetition/report-intro.md",
+      "title": "默认映射复验：逐句20次与完整标点",
+      "sha256": "95f81230431245013ec88f263a71bbf8bb68edeab9623266dee0ea1cd62e3585"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-default-mapping-repetition/report-resources.md",
+      "title": "report-resources",
+      "sha256": "00e70e2892284d48b43454d13910a1cb799a6c7d9a1c3023fa93938b961f3f27"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-default-mapping-repetition/report.en.md",
+      "title": "Default-mapping replication: blocked sentence teaching",
+      "sha256": "d812cd744ddaa66aad3a8ca9e7394ec47aeea551bbca8fd9a01f33270f9b58a2"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-default-mapping-repetition/report.md",
+      "title": "默认映射复验：逐句20次与完整标点",
+      "sha256": "ec8c3ab17b72978a7d814e09f7033470bd934df350b40f010a6092cacff49b9a"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-default-mapping-repetition/training-record.md",
+      "title": "training-record",
+      "sha256": "a659823d1a8106e5ba7f0543658281677bdba02b9ae1a11d2274cccd999abee7"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-default-mapping-repetition/validation-notes.md",
+      "title": "实施与审计说明",
+      "sha256": "465fbbbee1b3fd672a5c319db2f6754dd2db7882939bf717ed372048f8da02f0"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-language-scaffold-relations/README.md",
+      "title": "教学探索：父亲的父亲与问答迁移",
+      "sha256": "58b1078da4e4edd33d985f9a139036ee94b1a399a14aca1bcf95815e88e26eae"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-language-scaffold-relations/amendment.md",
+      "title": "正式结果产生前的方案修订：校准失败后转为诊断实验",
+      "sha256": "80a3108b62904b9f5c4416a8f19a95c7310fc1a0aac11cb8f2d8394444f2b96f"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-language-scaffold-relations/interpretation.md",
+      "title": "interpretation",
+      "sha256": "d70e881510933a244eadf5a798f5299f2c8e8d1b6bec9f6eb8c4eb4c5a4b7130"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-language-scaffold-relations/protocol.md",
+      "title": "预先方案：教学句与祖父关系迁移",
+      "sha256": "b6b027ad261769cd69dce0dd720aba47eb62b467ef9cf8e6705e86136c78c376"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-language-scaffold-relations/report.en.md",
+      "title": "Teaching study: father's father and question-answer transfer",
+      "sha256": "9105e220ee83d3209e0869427e72204b886608b0ca727bdaec96b7649bb7231f"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-language-scaffold-relations/report.md",
+      "title": "教学探索报告：父亲的父亲与问答迁移",
+      "sha256": "b9f9252053eb3627bf03b9eca142ea25708659bc3581ff46e19621f8cfa340db"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-memory-relations/README.md",
+      "title": "重复关联与关系组合 · 2026-09-09",
+      "sha256": "fd5ff4a012b9d19b888752a62eef20b23ca60aabe34c8c71308467e6de82c7ce"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-memory-relations/amendment.md",
+      "title": "先导核查与后续范围细化",
+      "sha256": "5a86be9d91dc2be29f45fd6f4ff527a98b99a9a03f9eb7922a93e5ebba4a97f1"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-memory-relations/protocol.md",
+      "title": "重复关联与关系组合：有界探索预案",
+      "sha256": "680015e52f539e0e2e5bb4e431e1fbdd2f0c3bccf326553a38939f381929697b"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-memory-relations/report.en.md",
+      "title": "Repeated associations and relational composition: exploratory report",
+      "sha256": "f728fdb601f70495ca3dacba0c7338d68ca41d76740e5a55173df294c4e4cc17"
+    },
+    {
+      "path": "lab/explorations/2026-09-09-memory-relations/report.md",
+      "title": "重复记忆与关系组合：探索报告",
+      "sha256": "2d19af701755ac0bb4b7668ca6c71398baad076c130a6f0d6fd0a3fb5f50b143"
+    },
+    {
+      "path": "lab/explorations/2026-09-10-host-background-pair/README.md",
+      "title": "宿主背景与10秒间隔配对 / Host-background pairing",
+      "sha256": "91421e6820fc1db823d2a88b2cbf840918ba85863abc20d03ee1ced909fa8d94"
+    },
+    {
+      "path": "lab/explorations/2026-09-10-host-background-pair/protocol.md",
+      "title": "宿主机背景下的慢间隔配对实验",
+      "sha256": "36a467c20c7e88e65a34d274f0718e586b3c49e443734ea8ee9222929d972d3c"
+    },
+    {
+      "path": "lab/explorations/2026-09-10-host-background-pair/report.en.md",
+      "title": "Pairing with recorded host background, ten-second spacing and explicit intensities",
+      "sha256": "e32ce369942fbc8fd1262559b949046c8103ae53a7b9ec847950e0babc298f44"
+    },
+    {
+      "path": "lab/explorations/2026-09-10-host-background-pair/report.md",
+      "title": "宿主机背景、10秒间隔与分级强度：配对复验报告",
+      "sha256": "95f163261cc029722ae90ba847d6995a4401ac83d71fa642c95f7bb7c2b911f7"
+    },
+    {
+      "path": "lab/explorations/2026-09-10-pair-no-punctuation/README.md",
+      "title": "无标点配对实验 / Unpunctuated pairing study",
+      "sha256": "c87bf18fea409841d3686203b0106c97f8b33e5a8fada2e34492af212aca0c00"
+    },
+    {
+      "path": "lab/explorations/2026-09-10-pair-no-punctuation/protocol.md",
+      "title": "松子／铃铛：无标点、单独配对、时序终态实验",
+      "sha256": "f206a3c8d30ac21a267d84672108eed7ce3030c98575de870103b5caeae7552d"
+    },
+    {
+      "path": "lab/explorations/2026-09-10-pair-no-punctuation/report.en.md",
+      "title": "Pine nut / bell: unpunctuated pairing and temporal endpoints",
+      "sha256": "705f8aa35caa702c61870bd85db24c5e5972b876d3a722dcdac38307249d4837"
+    },
+    {
+      "path": "lab/explorations/2026-09-10-pair-no-punctuation/report.md",
+      "title": "松子／铃铛：无标点配对的时序收敛实验",
+      "sha256": "58802f8e6e9b8447d8b65cd2eeaea3d7d67b3cae8bfcf460d95455b2242d86fe"
+    },
+    {
+      "path": "lab/explorations/2026-09-10-temporal-repetition/README.md",
+      "title": "时序收敛复验 / Temporal convergence replication",
+      "sha256": "9ca446cf1a5c9c2a65d5f26c88a1e288d08eabab737475cbb381d9bd3158d01f"
+    },
+    {
+      "path": "lab/explorations/2026-09-10-temporal-repetition/decisions.md",
+      "title": "本轮决定",
+      "sha256": "c260e1f63ef61b539cd9f161a87dcb93ce44a23a303313b175bf84c17c27091e"
+    },
+    {
+      "path": "lab/explorations/2026-09-10-temporal-repetition/diagnostic-plan.md",
+      "title": "补充观察：读出结束后，活动是否继续变化？",
+      "sha256": "c5845793d7546bee76c1e30607efd0dd3cf4e3abdf0d156d48415ecfd191ab43"
+    },
+    {
+      "path": "lab/explorations/2026-09-10-temporal-repetition/family-record.md",
+      "title": "未见名字家系",
+      "sha256": "d9c3787313c69978df253e6a48b4e81733534592ef71a70fdb4216a348e837b9"
+    },
+    {
+      "path": "lab/explorations/2026-09-10-temporal-repetition/memory-record.md",
+      "title": "配对与问答",
+      "sha256": "48f298af54f4371db8782dd667616fab4931040ef4b36ceb92f1b874a77a7bf1"
+    },
+    {
+      "path": "lab/explorations/2026-09-10-temporal-repetition/protocol.md",
+      "title": "时序收敛复验：逐句重复、配对与未见家系",
+      "sha256": "176d9d48cda4258d1c55128d3aeab30eedbdd3d0d74cd84d38f45e39b34b48f2"
+    },
+    {
+      "path": "lab/explorations/2026-09-10-temporal-repetition/reader-record.md",
+      "title": "如何解释读出及其限制",
+      "sha256": "5ed69ffb7bf28fcf73c437e2796a47d7bb4b4a3b2e58acbccff96c76c404d1a7"
+    },
+    {
+      "path": "lab/explorations/2026-09-10-temporal-repetition/report-conclusion.md",
+      "title": "结论、边界和下一步",
+      "sha256": "f7eddf2ad4e53b14687c627e6201da5cb332485038bee82c997bd47111ea89b5"
+    },
+    {
+      "path": "lab/explorations/2026-09-10-temporal-repetition/report-intro.md",
+      "title": "时序收敛复验报告",
+      "sha256": "70c348fdb7184a9bb0bf3f2dddd5ac250bcb67c063c332fc94ff45af1b4764aa"
+    },
+    {
+      "path": "lab/explorations/2026-09-10-temporal-repetition/report.en.md",
+      "title": "Temporal readout replication: repeated complete sentences and unseen families",
+      "sha256": "c88b5ca1fd0c5262597adf8ef5272405db62fd3d5b5e9c7e908f270a45046fa7"
+    },
+    {
+      "path": "lab/explorations/2026-09-10-temporal-repetition/report.md",
+      "title": "时序收敛复验报告",
+      "sha256": "3045edc9d63d10ef0a04491f31dfdd26ead34220a10cdc800503618bc59e5525"
+    },
+    {
+      "path": "lab/explorations/2026-09-10-time-comparison/README.md",
+      "title": "Time-comparison evidence / 时间对照证据",
+      "sha256": "d9b3170f5a2a0b50dd305865afc5a14cb3cefac2fbb77d716cc088b6916e7639"
+    },
+    {
+      "path": "lab/explorations/2026-09-10-time-comparison/protocol.md",
+      "title": "第一阶段：时间与活动节律对照（不改内核）",
+      "sha256": "0210d4f4f482c411b5b73294f900e75b6ae43823220da5ad3896fe8a11145019"
+    },
+    {
+      "path": "lab/explorations/2026-09-10-time-comparison/report.en.md",
+      "title": "Time and activity rhythms: partial first-stage comparison",
+      "sha256": "3af1b783778af614c62c1bb854f806e5462f112535c3be73a77dd7cfff15c303"
+    },
+    {
+      "path": "lab/explorations/2026-09-10-time-comparison/report.md",
+      "title": "时间与活动节律：第一阶段对照及中止记录",
+      "sha256": "d4d7f11840615e68c0d919a76c9ab2251f4a62ad6942fcdd0648f7c2d3e9ed43"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-candidates/README.md",
+      "title": "Candidate-kernel study, 2026-09-29",
+      "sha256": "8214d611e28b655bba161e2fccc6b0de1e65a460856f4c538fdff96d2c8ca394"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-candidates/README_CN.md",
+      "title": "2026-09-29 多内核研究记录",
+      "sha256": "afc1bd01d16773ce7c7de142f7abe2f973bceb6e9170256c0c0608d6d5ac0f5c"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-candidates/delivery.en.md",
+      "title": "Delivery, resources and verification",
+      "sha256": "58d448b980f13e8614a74d88e35cf13605bc7b47e047525a6afd3eea0620be45"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-candidates/delivery.zh.md",
+      "title": "本轮交付、资源与复核",
+      "sha256": "bfc88e524b9ed8ff3feb63bec0122203d2f8e004f82c9d98a55693ce46acd4ba"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-candidates/design.md",
+      "title": "三内核初步对照：预注册方案",
+      "sha256": "99cf8c62bc9d530f1617c0e80a6998b11113935cfa2c33edc342ceb7d2e80492"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-candidates/interpretation.en.md",
+      "title": "Supplementary interpretation: what improved and what to investigate next",
+      "sha256": "14d9065e9fb9c8324db09faa2f46f2c162206adb811abc37bd78c2bb3503678c"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-candidates/interpretation.zh.md",
+      "title": "多内核实验补充解读：哪些改进有效，下一步研究什么",
+      "sha256": "a51c87cfbaeb1c3aab6d64455015679d10b8e7cb115cb25e598caf602334f4a8"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-candidates/report.en.md",
+      "title": "Candidate kernels: adaptation, pairing and context",
+      "sha256": "9f5d7f1462b6a0a606130bea8899dd0f23ef6776a0129b31684c717597c0b958"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-candidates/report.zh.md",
+      "title": "多内核初步实验：适应、配对与上下文",
+      "sha256": "696ae6628594916d30b91f1452bc5e10aacb439652dd40da5cd5457274c78ae8"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-continuous-mechanisms/README.md",
+      "title": "Continuous-kernel attribution study",
+      "sha256": "670213266dd26577f75363f0080e29e5b3e7f03eff269f79340acb9d1fe56822"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-continuous-mechanisms/README_CN.md",
+      "title": "连续版机制归因实验",
+      "sha256": "652325ef57883b762277aefd2ac9d77afc7209fbfa4fb158397b4316eb1b1bb2"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-continuous-mechanisms/delivery.en.md",
+      "title": "Continuous-kernel attribution: delivery and resources",
+      "sha256": "12a2e314f7daa9fc0300224eb3f6ca6708a5ae5cfedba3b028ab0de9b8b52a53"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-continuous-mechanisms/delivery.zh.md",
+      "title": "连续版机制归因：交付与资源实测",
+      "sha256": "59a253a61ef5be960e6e28f36c074f0561ffdfcb6dfed58412588047388d1f98"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-continuous-mechanisms/design.en.md",
+      "title": "Attribution of continuous-kernel effects: preregistered design",
+      "sha256": "808ed0f6296987cd196ea7a6749e45f1f88850adb6ebfcaa759d4994d356d964"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-continuous-mechanisms/design.md",
+      "title": "连续版机制归因：实验前方案",
+      "sha256": "d35f65047a0bb726b38429d760e4bf855a3e1460702d977857cc87a2d0700c0a"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-continuous-mechanisms/diagnostic-plan.md",
+      "title": "连续版机制归因：第二阶段补充方案",
+      "sha256": "92a9ba593ca66c8ceec02c1d3e46971829d39e75697fc9250b3ca7b6872abea4"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-continuous-mechanisms/report.en.md",
+      "title": "What causes the continuous kernel's discrimination?",
+      "sha256": "975e92579f52b78b007058aef6e1b1d3a9114901a15c889736c265fccebae78d"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-continuous-mechanisms/report.zh.md",
+      "title": "连续版的区别来自哪里：机制归因实验",
+      "sha256": "20d0914ce847acb408a6dfa18657703cb1507967f2b7651ef6f49a9ac7dbbbf6"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-experience-and-autonomy/README.md",
+      "title": "Lasting experience and autonomous-activity study",
+      "sha256": "8f6b4a31fb344343d3f21be30f30b8775e2a0e9cd5196db8743ec92e28186cb9"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-experience-and-autonomy/README_CN.md",
+      "title": "经历保持与自主活动研究",
+      "sha256": "455e603aae046f477150184d29f0b55dd3e0dc94c96742eef7106ea99e6f607e"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-experience-and-autonomy/delivery.en.md",
+      "title": "Delivery verification",
+      "sha256": "3ae3f625da5871b0eb877306162ef60996aec4b11cfed0e457b13c011b7d9b3f"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-experience-and-autonomy/delivery.zh.md",
+      "title": "交付验证",
+      "sha256": "347984175d9aa3a0c8f0c7e815f316b9815f8b6471cef5d6bbd9fea3fd316a86"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-experience-and-autonomy/design.en.md",
+      "title": "Preregistered study: lasting experience, internal pathways and autonomy criteria",
+      "sha256": "44ad1914aa6b7c5ffbd49eb87e886216814046db8a6b720b41e0e74d8b95983a"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-experience-and-autonomy/design.zh.md",
+      "title": "经历保持、内部通路与自主活动判据：事先登记",
+      "sha256": "b66ead369d491b541adc5b211d620040fcc67d66c14df086d2872a6ad7325a92"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-experience-and-autonomy/report.en.md",
+      "title": "Experience changes behavior through internal pathways: 802-instance report",
+      "sha256": "3fc807e40ad1e40de9e1528d6ce66e25ab76b0baed253f4637a5facda6d8842b"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-experience-and-autonomy/report.zh.md",
+      "title": "经历改变行为，内部通路承担作用：802 实例实验报告",
+      "sha256": "bdc8aaff27eaee09db5ca1543cf5e10f62995674debe9b3838bd2650cb236fd6"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-experience-and-autonomy/retention-extension.en.md",
+      "title": "Registered extension: what carries the 30-second effect?",
+      "sha256": "00990806212a15ad7d8805281c1b32361f7b2c171df877c06f25e01d34f8fc09"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-experience-and-autonomy/retention-extension.zh.md",
+      "title": "追加登记：定位 30 秒保持的载体",
+      "sha256": "01bb0bfa0c0138a79c48e08918888720dda157a2424c7fba1d7abc5979e41078"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-input-rate-and-autonomy/README.md",
+      "title": "Input timing, selection and autonomous activity",
+      "sha256": "c7b3029dad8bca825a81af49d39404aa862f6298c04fe3e2d783e278ae88a384"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-input-rate-and-autonomy/README_CN.md",
+      "title": "刺激间隔、环境选择与自主活动",
+      "sha256": "1c7511edf6a89d558d580f6412259106f114cae8d28489d2dad07fc12ceb3702"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-input-rate-and-autonomy/activity.en.md",
+      "title": "Continuous activity: execution registration",
+      "sha256": "8f903cfcbf3deb8bf1dc44147188914a297804aef26c28adc9cc170f427dd5dc"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-input-rate-and-autonomy/activity.zh.md",
+      "title": "连续活动观察：执行登记",
+      "sha256": "4f21d45cce2d8a05c4b90a8ff9c908f49eb757dd9e9a273e6c0a8b80fa73a0d0"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-input-rate-and-autonomy/attribution.en.md",
+      "title": "Attributing the environmental preference: follow-up registration",
+      "sha256": "e88c51b85ec3ef3fff8971419e2322610c4a7b2801b001102fe94a84cdb8e40c"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-input-rate-and-autonomy/attribution.zh.md",
+      "title": "环境偏向的来源：追加鉴别登记",
+      "sha256": "b3412aff6238199de5350caf104e4de1ff6f4b7c239abcb3034758a744a88ad4"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-input-rate-and-autonomy/delivery.en.md",
+      "title": "Experiment delivery",
+      "sha256": "7b0ffa8176552990fb8f169207c5ac0c8252efe1e012d1c54db10947e9b3de56"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-input-rate-and-autonomy/delivery.zh.md",
+      "title": "实验交付记录",
+      "sha256": "0376157ea88bb39615bd8de7bf0d5e71691ce8c15a84095c90b29989e2f7ff6b"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-input-rate-and-autonomy/design.en.md",
+      "title": "Registered execution: input timing, autonomous activity and environmental selection",
+      "sha256": "d74933ffc2cb7500754d3d91e8c9a5ec4e6dfe3f78efa6ef2192343186d47163"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-input-rate-and-autonomy/design.zh.md",
+      "title": "执行登记：刺激间隔、自主活动与环境选择",
+      "sha256": "2ab7d7ddb6f8eee909a1d611226f1f655cc9ed663f3c9dd53d6f4f966d7c3fa5"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-input-rate-and-autonomy/discussion-addendum.en.md",
+      "title": "discussion-addendum.en",
+      "sha256": "743b64d380cfdfb8232cae66bfb4fc659f46f2bd92d16c182b6b54e8ba5b8a33"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-input-rate-and-autonomy/discussion-addendum.zh.md",
+      "title": "discussion-addendum.zh",
+      "sha256": "e884fce85f1ef14d50e6e9fa559fdd400303b3f80d76600847b9533c880c4e25"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-input-rate-and-autonomy/record-activity.md",
+      "title": "全部输入停止后的活动",
+      "sha256": "df228550a661fc59ed027d3aa4c9510bb57acd40958b0fc309254f315b23c3d0"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-input-rate-and-autonomy/record-rate.md",
+      "title": "输入间隔校准",
+      "sha256": "947fedf478af723e21565f17baf9b5336a85658ef1ca524429f6311a7d01b838"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-input-rate-and-autonomy/record-recovery.md",
+      "title": "局部恢复速度",
+      "sha256": "52712b404c6d81bca89bf8b0ba5326a2f5b07f18a7ffcb147c343d336765576e"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-input-rate-and-autonomy/record-selection.md",
+      "title": "环境选择与行为归因",
+      "sha256": "1118b6d8703ba65e1cb35ced4759d36923649bb7462364218ce43600af50df15"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-input-rate-and-autonomy/recovery.en.md",
+      "title": "Local energy recovery: bounded follow-up",
+      "sha256": "e01b1c60186da15850720b5e7eef6fb893790f246a35fc7c543637dabb401f08"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-input-rate-and-autonomy/recovery.zh.md",
+      "title": "局部能量恢复速度：有限追加检验",
+      "sha256": "981f691b173f8caf86bbfeeb62493853150a1bb277d53a7679598714919f9314"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-input-rate-and-autonomy/report.en.md",
+      "title": "Input timing, environmental selection and autonomous activity",
+      "sha256": "0b9aeb905206b74b445de676be90de5255a9a0c3014d9577215638ccb50507ef"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-input-rate-and-autonomy/report.zh.md",
+      "title": "刺激间隔、环境选择与自主活动：实验结果",
+      "sha256": "e664a012f4a7c74db966038c8eb7296495c613daf24daaf5f609d8430113e9f5"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-input-rate-and-autonomy/selection.en.md",
+      "title": "Environmental selection: execution schedule",
+      "sha256": "0deb4ff27b4e708c14653c77a924da91f44cd3a4ac6b565da549178872b2c3a1"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-input-rate-and-autonomy/selection.zh.md",
+      "title": "环境选择：执行安排",
+      "sha256": "dcbbb2e3ca05a18787e31b02c2b5b894fcdeeb497b77f56887d09d989cddb258"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-input-rate-and-autonomy/world.en.md",
+      "title": "Ring environment: integration and selection registration",
+      "sha256": "e01fa874e5b7cbd38e2fa51d542c5489e1cd84876e4291725ea166fdbc413232"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-input-rate-and-autonomy/world.zh.md",
+      "title": "环形环境：工程接入与选择实验登记",
+      "sha256": "3751df7ba3a2795cafff82c5e709f510cd5381dde6ca520777aed4e6867c97c8"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-internal-activity/README.md",
+      "title": "Causal effects of internal activity",
+      "sha256": "4ed3324738220620f480b604278a1aa5b46883c83b9f5985f97584e6d3b4031f"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-internal-activity/README_CN.md",
+      "title": "内部活动与行为的因果验证",
+      "sha256": "e74a32f1d9631a6ffcb45eea8aeaeea0cfc7134cd1cabf4866b8d248ef7f9888"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-internal-activity/autonomy-criteria.en.md",
+      "title": "autonomy-criteria.en",
+      "sha256": "4190881df853bc577856c5aa7b62201672570ae2be54a7c1a5cdfadd1f1a8f71"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-internal-activity/autonomy-criteria.zh.md",
+      "title": "autonomy-criteria.zh",
+      "sha256": "47d7b228c9eb06ebba5c652b5832b0022f7bef742c15aa8f5a027fab7a9be5a1"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-internal-activity/delivery.en.md",
+      "title": "Experiment delivery",
+      "sha256": "fdffb5f279b0d6b0756b500a1ad8d198c48c2fb3c47ed5bbd1fc806847fa6609"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-internal-activity/delivery.zh.md",
+      "title": "实验交付记录",
+      "sha256": "5c32102f9aa4bd0a48cffb04ffca3da0a1f3c7a1de923a8ecb711cb209630351"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-internal-activity/design.en.md",
+      "title": "Does internal activity change behavior? Registered experiment",
+      "sha256": "c353d6296978ed694e3d0a1ab78b7112289be2a1678b7b2e14fc48204073cf94"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-internal-activity/design.zh.md",
+      "title": "内部活动是否实际改变行为：执行前登记",
+      "sha256": "4fce89b41033f8f93e16050fe7a96658af37d37a5e3b1b97d67a2bfbf141d3dd"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-internal-activity/report.en.md",
+      "title": "Internal activity changes behavior: 180 matched causal tests",
+      "sha256": "a92cd318ee30b40dc0386ae6e65229a2464bf010f687419179aa8d85369ed845"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-internal-activity/report.zh.md",
+      "title": "内部活动确实改变了行为：180 个实例的因果对照",
+      "sha256": "ac879523350d82c1edb17f5e403df7ca8a9d5e1b366044490bde3a254bc6339f"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-internal-activity/validation.en.md",
+      "title": "Registered extension: does the history contrast survive birth?",
+      "sha256": "da08506b460d5e0595cd9f6137d3168d45dc4ce3bf87a1b53e854f621ce6c02d"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-internal-activity/validation.zh.md",
+      "title": "追加登记：清空短时活动后，经历差异是否保留",
+      "sha256": "cef9870f869ea5b3d1d57e258766b9039dc7f193c82640e0028c02c3e57b39f7"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-mechanism-calibration/delivery.en.md",
+      "title": "Calibration delivery verification",
+      "sha256": "da9082fa2fb253f1cb62a311b201a9c0bcb4f011b67761dc3d6e624f80b1e723"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-mechanism-calibration/delivery.zh.md",
+      "title": "校准实验交付验证",
+      "sha256": "0ff7ebd8520dcfa4bc8553b74eb93c56f80e719f63f14b0417e0f1aa5ac21475"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-mechanism-calibration/design.en.md",
+      "title": "Preregistration: intensity, novelty, and 300-second retention",
+      "sha256": "8154a60733aea8a6bf2f14b1ce5b7c9656964b4f769e1de481a08946f17c52ec"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-mechanism-calibration/design.zh.md",
+      "title": "预登记：强刺激、新颖性与 300 秒保持",
+      "sha256": "fa47f8e2a520772570f7e3001a034775619f1e23f0b990d8df1ffabf9fd973c8"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-mechanism-calibration/release.en.md",
+      "title": "Delivery addendum (2026-09-30)",
+      "sha256": "dfdfd9bb706ff6acaca0a6edf46c3c59695bd7ac716ee73524e782478e72ffe6"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-mechanism-calibration/release.zh.md",
+      "title": "交付补充（2026-09-30）",
+      "sha256": "dee185268f91469b95bf3b20c2a285687e3f6a33625f6f88e47396e97e9df919"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-mechanism-calibration/report.en.md",
+      "title": "Intensity, novelty and 300-second retention: calibration results",
+      "sha256": "49f0ff24ad63e248712b14d124a3a30c072a4274807bb36c28ae74ca086cba52"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-mechanism-calibration/report.zh.md",
+      "title": "强刺激、新颖性与 300 秒遗忘：校准结果",
+      "sha256": "da8967841fcbeaf523e65cdc126e267a9539e5530a03530e05507f716ab5b4c0"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-memory-timescales/README.md",
+      "title": "Depletion, facilitation and consolidation: execution and results",
+      "sha256": "fea8820a786add8476a2f2cb3163d248076aaf33f80c79d37b45d7ab219c9743"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-memory-timescales/README_CN.md",
+      "title": "耗竭、易化与连接巩固：执行与结果",
+      "sha256": "0b5b2cb70acb51b04319ee4bcb252bc15ca72d9913bd6fc8d3afdf835fcf57ab"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-memory-timescales/delivery.en.md",
+      "title": "Experiment delivery",
+      "sha256": "74a730027ff8f5ff5b3877fc38541cfde89b1b1f280e2225d4cd95a1d55bbc9d"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-memory-timescales/delivery.zh.md",
+      "title": "实验交付记录",
+      "sha256": "703ff8ebd7e14852fd65f48106e8f4f3d211655c02bc34d95e3fe6065dd8261f"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-memory-timescales/design.en.md",
+      "title": "Depletion, facilitation and consolidation across timescales",
+      "sha256": "de9155e79110396208f41eea554169f23367f558444902c74cbdd154efcea564"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-memory-timescales/design.zh.md",
+      "title": "耗竭、易化与连接巩固：跨时间尺度实验方案",
+      "sha256": "fd73046e609da7ae9d7562418bb7ff2695266ff177a48329d1a42a63f421cf79"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-memory-timescales/discussion.en.md",
+      "title": "discussion.en",
+      "sha256": "e76bed4f9916fcc357748fda0b238ed460b20f263d6328d916f27822c6f1cf89"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-memory-timescales/discussion.zh.md",
+      "title": "discussion.zh",
+      "sha256": "fac3474de9808923f0d1a0b34e07bf83ffa23d98cf8651e1d4166e9c76012ee6"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-memory-timescales/report.en.md",
+      "title": "Depletion, facilitation and consolidation: experiment results",
+      "sha256": "b3a56b73eaee23473901215b42411e0c1ec4d1ff679c75071833773f166829c4"
+    },
+    {
+      "path": "lab/explorations/2026-09-29-memory-timescales/report.zh.md",
+      "title": "耗竭、易化与连接巩固：实验结果",
+      "sha256": "854a8630cda09d26b8ad5ab337005e6b3bf23cf15f6ceeddf8fdc369e0f7063e"
+    },
+    {
+      "path": "lab/explorations/2026-09-30-intensity-mechanisms/delivery.en.md",
+      "title": "交付校验 / Delivery verification",
+      "sha256": "d8e38268e9d730fb27bad5e7e3173f265ce07b68a8913744d858e8e051c662a0"
+    },
+    {
+      "path": "lab/explorations/2026-09-30-intensity-mechanisms/delivery.zh.md",
+      "title": "交付校验 / Delivery verification",
+      "sha256": "d8e38268e9d730fb27bad5e7e3173f265ce07b68a8913744d858e8e051c662a0"
+    },
+    {
+      "path": "lab/explorations/2026-09-30-intensity-mechanisms/design.en.md",
+      "title": "Explicit intensity consolidation and history dependent sensitivity",
+      "sha256": "32a3d5e525898df8e0ee41d8dd3414c0ce2005483ab08175cea31c10ac738833"
+    },
+    {
+      "path": "lab/explorations/2026-09-30-intensity-mechanisms/design.zh.md",
+      "title": "强刺激额外巩固与经历依赖敏感性实验",
+      "sha256": "b392a19203a4848107855723526fbfccf296bf49b678b6fff2ee6a7be5ea9e63"
+    },
+    {
+      "path": "lab/explorations/2026-09-30-intensity-mechanisms/extension.en.md",
+      "title": "Extension registration for edge formation and sensitivity",
+      "sha256": "c2200cf0dfd17d0a032da2477b9f4e5d08022d4bfe944ba48c1af5c676c51560"
+    },
+    {
+      "path": "lab/explorations/2026-09-30-intensity-mechanisms/extension.zh.md",
+      "title": "追加登记 成边来源与敏感性",
+      "sha256": "108f63046c25513d1f66ef18aa5c094b87e2550d72bede5b33ca400613d52dcd"
+    },
+    {
+      "path": "lab/explorations/2026-09-30-intensity-mechanisms/phase-extension.en.md",
+      "title": "Prospective extension: facilitation during formation or retrieval",
+      "sha256": "2c4747ddfc87b0b967577a5925a09007d481ed6e278f22cb820521f0317900d5"
+    },
+    {
+      "path": "lab/explorations/2026-09-30-intensity-mechanisms/phase-extension.zh.md",
+      "title": "追加登记：易化发生在形成阶段还是提示阶段",
+      "sha256": "ae546d678f87a04d72aded33ddb00c78c2c73fef76d21620ea04adad94b667f2"
+    },
+    {
+      "path": "lab/explorations/2026-09-30-intensity-mechanisms/report.en.md",
+      "title": "Intensity mechanism substitution and history dependent sensitivity",
+      "sha256": "5cb6f1cf42c2755a78ab36cf183717223ba179635ac5bc087d366ade1206a306"
+    },
+    {
+      "path": "lab/explorations/2026-09-30-intensity-mechanisms/report.zh.md",
+      "title": "强刺激机制替代与经历敏感性：实验结果",
+      "sha256": "757ff0a44d35c7da477015903015f97c704aa85aa8dc6cfce31d6f82b3a867dc"
+    },
+    {
+      "path": "lab/explorations/2026-09-30-memory-transfer/README.md",
+      "title": "Memory, sequence, transfer and adaptation study",
+      "sha256": "4674246c29dec0075c8ec12a9221fbec11d9653570608befc06dc23904cd4098"
+    },
+    {
+      "path": "lab/explorations/2026-09-30-memory-transfer/analysis-registration.md",
+      "title": "顺序材料与分析细节补充登记 / Additional prospective details",
+      "sha256": "220b5d92e3200c93846951ccb5b21bf9ccccc57883fe024483d23f248d0b214f"
+    },
+    {
+      "path": "lab/explorations/2026-09-30-memory-transfer/body-removal-registration.md",
+      "title": "全部本体感官移除对照 / Complete proprioceptive removal",
+      "sha256": "fa3520d7d8b44a0bcf1d021630bac446588828522bf14aa1010c08feba73f78c"
+    },
+    {
+      "path": "lab/explorations/2026-09-30-memory-transfer/delivery.en.md",
+      "title": "交付校验 / Delivery verification",
+      "sha256": "844b9253681a8db5da1b23e1323884c9dd4be434776f54679fe7c7ae53927a39"
+    },
+    {
+      "path": "lab/explorations/2026-09-30-memory-transfer/delivery.zh.md",
+      "title": "交付校验 / Delivery verification",
+      "sha256": "844b9253681a8db5da1b23e1323884c9dd4be434776f54679fe7c7ae53927a39"
+    },
+    {
+      "path": "lab/explorations/2026-09-30-memory-transfer/design.en.md",
+      "title": "Preregistration: memory, sequence, transfer and adaptation",
+      "sha256": "dfbd814ccbde58a0a6ea204f76f8c8c5a3e17aba3818b143d5775139c98cf00d"
+    },
+    {
+      "path": "lab/explorations/2026-09-30-memory-transfer/design.zh.md",
+      "title": "预登记：记忆、顺序、迁移与环境适应",
+      "sha256": "85979bb3a27c28455a1a5ccead54bdbc6d8144c00abec746f0331d912403248a"
+    },
+    {
+      "path": "lab/explorations/2026-09-30-memory-transfer/memory-intervention-registration.md",
+      "title": "300 秒记忆的定点验证 / Targeted retention verification",
+      "sha256": "ca9719da8805b35be662f13eb38e13d907e44cb11ab4ed72f77f1170c7e43a1b"
+    },
+    {
+      "path": "lab/explorations/2026-09-30-memory-transfer/report.en.md",
+      "title": "Memory, sequence, transfer and environmental adaptation: 1536 instances",
+      "sha256": "5ba5b4ae656f3ac9d686804ff9616d1b20812f92eafe581e61943c8444a7f370"
+    },
+    {
+      "path": "lab/explorations/2026-09-30-memory-transfer/report.zh.md",
+      "title": "记忆、顺序、迁移与环境适应：1536 个实例的结果",
+      "sha256": "6f47ac6a82b5f436cbdd3c56ad9024b65826446c388cf3b22a7a0a941c713b4f"
+    },
+    {
+      "path": "lab/explorations/2026-09-30-memory-transfer/transfer-trace-registration.md",
+      "title": "迁移反向响应的观察补录 / Recording the reverse transfer response",
+      "sha256": "16826291364179e98edd11bbe6e7698cf5b40fd059df2123e542e64635abf535"
+    },
+    {
+      "path": "lab/explorations/2026-09-30-stimulus-spacetime/delivery.en.md",
+      "title": "交付校验 / Delivery verification",
+      "sha256": "26385adec76d5356e95e843a483aafeaf42ad82a60ad93d2147464ef87964a76"
+    },
+    {
+      "path": "lab/explorations/2026-09-30-stimulus-spacetime/delivery.zh.md",
+      "title": "交付校验 / Delivery verification",
+      "sha256": "be5bafdd6fe69f4f660f82e63813aee3c05a6032010fff96658399252273bd76"
+    },
+    {
+      "path": "lab/explorations/2026-09-30-stimulus-spacetime/design.en.md",
+      "title": "Stimuli, backgrounds and physical references: preregistration",
+      "sha256": "c7d0d5060069358148048b14adbadab281cb81dff82e8fd6b88c69eec32acd0f"
+    },
+    {
+      "path": "lab/explorations/2026-09-30-stimulus-spacetime/design.zh.md",
+      "title": "刺激、背景与物理参照：预登记",
+      "sha256": "958eec796d054f908a37d549056b07d62ebb46f2641adb6c96a04dafcee1d16d"
+    },
+    {
+      "path": "lab/explorations/2026-09-30-stimulus-spacetime/execution-amendment.md",
+      "title": "执行工具修正 / Execution tooling correction",
+      "sha256": "e6ae89d1337be8376b570fbe54e406e376b8a8d0651abf73cfd7e06503694fad"
+    },
+    {
+      "path": "lab/explorations/2026-09-30-stimulus-spacetime/report.en.md",
+      "title": "Stimulus intensity, backgrounds and physical references: results",
+      "sha256": "abbee6648c71b61b4bf90430f849aae0583dd05f518dc4b5da0bf8a87b7f50e5"
+    },
+    {
+      "path": "lab/explorations/2026-09-30-stimulus-spacetime/report.zh.md",
+      "title": "刺激强度、背景与物理参照：实验结果",
+      "sha256": "cda0ff1ead8977cfe63cd0c7a5e3c9c485beae5ebe7aa3a0d13d3960fb4288e5"
+    },
+    {
+      "path": "lab/explorations/2026-09-30-stimulus-spacetime/retention-extension.md",
+      "title": "有界寿命补充 / Bounded retention extension",
+      "sha256": "534f8f26f27e470f342e97daaf9660cf6328ec70b1c56ac426ccd916c68948db"
+    },
+    {
+      "path": "lab/memos/README.md",
+      "title": "ThreeMind Experiment Memos",
+      "sha256": "056cefd6ac45cf2ac1f9bf791fcb188443cba135ab096415964da04475d27fb9"
+    },
+    {
+      "path": "lab/memos/README_CN.md",
+      "title": "ThreeMind 实验备忘",
+      "sha256": "540f7536b2407b1a3979b44be18b9e5fe22cd24e65ea220a4930891efdb804a2"
+    },
+    {
+      "path": "lab/memos/en/001_statistics-and-evidence-methods.md",
+      "title": "001 — Statistical Measures and Evidence Methods",
+      "sha256": "acc6d042c62c00875db8c50ca41bafee65e98787469c3996ee0327a0a1e34dbe"
+    },
+    {
+      "path": "lab/memos/en/002_experimental-methods-and-open-questions.md",
+      "title": "002 — Experimental Methods, Objectives, and Open Questions",
+      "sha256": "f1af41a1b7cd5f5bef2c07c85ceea9de5a5846b950431cb6eb6c116cfd1c94af"
+    },
+    {
+      "path": "lab/memos/en/003_control-experiment-module-plan.md",
+      "title": "003 — Independent Control-Experiment Module Plan",
+      "sha256": "1036e146f1d4e72e7fcf3fcd77f0209c8d2aeb63c884e8a745ebe04add651bf7"
+    },
+    {
+      "path": "lab/memos/en/004_innate-model-and-developmental-training.md",
+      "title": "004 — Innate Models and Developmental Training",
+      "sha256": "f09596bafd01a25ee8dac10940878ba28eab9b402f060f36a5ff8257490a5922"
+    },
+    {
+      "path": "lab/validations/2026-09-28-kernel-candidates/README.md",
+      "title": "多内核的小规模工程比较 / Small multi-kernel engineering comparison",
+      "sha256": "a05c5d96352523fab5b3d60366b0d5d018af20002a356832582cb71ba5ef0118"
+    },
+    {
+      "path": "lab/validations/2026-09-30-process-readouts/README.md",
+      "title": "Process readout calibration — 2026-09-30",
+      "sha256": "38cc4fcbada910199c2221c0ef82c0d236f6ec0e701698fd3c215e8bb8c9c3db"
+    },
+    {
+      "path": "lab/validations/2026-09-30-process-readouts/report.en.md",
+      "title": "Process-readout calibration: recovering responses that already occurred",
+      "sha256": "24f6e8786c660a2e352c2a2bf8c2858fee52e7b68168eb935837255101646b37"
+    },
+    {
+      "path": "lab/validations/2026-09-30-process-readouts/report.zh.md",
+      "title": "活动过程读出校准：把已经发生的响应读出来",
+      "sha256": "270b82864f0fb01555c1c2ee80538f3d9787b7725a6597b6e7f30478d0d5b566"
+    }
+  ],
+  "public_edition": {
+    "date": "2026-11-11",
+    "scope": "Subset of the historical inventory. Historical source hashes describe their recorded baseline, not the edited public copies.",
+    "omitted_entry_count": 7,
+    "omission_reason": "Manuscript files and manuscript-writing/submission records are excluded from this public catalogue."
+  }
+}

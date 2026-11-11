@@ -1,0 +1,427 @@
+{
+  "schema": "threemind.grounded-classroom-results/1",
+  "project_id": "b86c7719-bf02-4945-bf2b-1fceaf0683cc",
+  "completed_stages": 25,
+  "completed_compute_minutes": 116.7745272616623,
+  "instance_creation_attempts": 583,
+  "incomplete_or_failed": [
+    "s223-motor-test-episode-changed-request",
+    "s223-spaced-teaching-preflight-failed"
+  ],
+  "results": {
+    "s223-frozen-expression": {
+      "condition": "frozen",
+      "familiar": {
+        "all_four_correct_groups": 2,
+        "color_correct": 13,
+        "correct": 26,
+        "groups": 12,
+        "n": 48,
+        "pointer_sensitive_groups": 12,
+        "shape_correct": 13,
+        "shuffled_correct": 9,
+        "wrong_category": 2,
+        "zero_correct": 6
+      },
+      "fit": {
+        "device": "cuda:0",
+        "loss": 4.619908213499002e-05,
+        "steps": 1500,
+        "teacher_labels": "training only"
+      },
+      "held": {
+        "all_four_correct_groups": 1,
+        "color_correct": 7,
+        "correct": 7,
+        "groups": 4,
+        "n": 16,
+        "pointer_sensitive_groups": 4,
+        "shape_correct": 0,
+        "shuffled_correct": 2,
+        "wrong_category": 0,
+        "zero_correct": 2
+      },
+      "kind": "expression",
+      "runner_signature": "73f3a3d9dcd8ffd8e6fe225cb3c47b154af1386b96d63875b31e58ec5c8d239c",
+      "seed": 223,
+      "train_correct": 96,
+      "train_n": 96,
+      "wall_seconds": 15.141246699960902
+    },
+    "s223-frozen-familiar": {
+      "condition": "frozen",
+      "kind": "observations",
+      "mode": "normal",
+      "n": 48,
+      "runner_signature": "73f3a3d9dcd8ffd8e6fe225cb3c47b154af1386b96d63875b31e58ec5c8d239c",
+      "seed": 223,
+      "split": "familiar",
+      "wall_seconds": 16.752232700004242
+    },
+    "s223-frozen-held": {
+      "condition": "frozen",
+      "kind": "observations",
+      "mode": "normal",
+      "n": 16,
+      "runner_signature": "73f3a3d9dcd8ffd8e6fe225cb3c47b154af1386b96d63875b31e58ec5c8d239c",
+      "seed": 223,
+      "split": "held",
+      "wall_seconds": 5.36498919990845
+    },
+    "s223-frozen-permutations": {
+      "condition": "frozen",
+      "kind": "observations",
+      "mode": "normal",
+      "n": 48,
+      "runner_signature": "5798bf2970c604ad8fbafc9b70709b2993a0c23e8b7081623c5888df8e1d8958",
+      "seed": 223,
+      "split": "permutations",
+      "wall_seconds": 18.314969899947755
+    },
+    "s223-frozen-permutations-score": {
+      "all_four_correct_groups": 1,
+      "color_correct": 15,
+      "condition": "frozen",
+      "correct": 23,
+      "groups": 12,
+      "kind": "extra-score",
+      "mode": "normal",
+      "n": 48,
+      "pointer_sensitive_groups": 12,
+      "runner_signature": "5798bf2970c604ad8fbafc9b70709b2993a0c23e8b7081623c5888df8e1d8958",
+      "seed": 223,
+      "shape_correct": 8,
+      "shuffled_correct": 4,
+      "split": "permutations",
+      "wall_seconds": 0.35575330001302063,
+      "wrong_category": 1,
+      "zero_correct": 6
+    },
+    "s223-frozen-teaching": {
+      "condition": "frozen",
+      "edges": 0,
+      "kind": "teaching",
+      "lessons": 168,
+      "nodes": 403,
+      "runner_signature": "73f3a3d9dcd8ffd8e6fe225cb3c47b154af1386b96d63875b31e58ec5c8d239c",
+      "seed": 223,
+      "sim_seconds": 516.0,
+      "wall_seconds": 181.63074569997843,
+      "weight_max": 0.0,
+      "weight_sum": 0
+    },
+    "s223-frozen-train": {
+      "condition": "frozen",
+      "kind": "observations",
+      "mode": "normal",
+      "n": 96,
+      "runner_signature": "73f3a3d9dcd8ffd8e6fe225cb3c47b154af1386b96d63875b31e58ec5c8d239c",
+      "seed": 223,
+      "split": "train",
+      "wall_seconds": 32.64545779989567
+    },
+    "s223-motor-fit-episode": {
+      "fit": {
+        "device": "cuda:0",
+        "loss": 0.024725504219532013,
+        "steps": 1500,
+        "teacher_labels": "training only"
+      },
+      "kind": "motor-fit",
+      "runner_signature": "5798bf2970c604ad8fbafc9b70709b2993a0c23e8b7081623c5888df8e1d8958",
+      "samples": 1800,
+      "scope": "episode",
+      "wall_seconds": 17.269341700011864
+    },
+    "s223-motor-fit-recent": {
+      "fit": {
+        "device": "cuda:0",
+        "loss": 0.045157261192798615,
+        "steps": 1500,
+        "teacher_labels": "training only"
+      },
+      "kind": "motor-fit",
+      "runner_signature": "5798bf2970c604ad8fbafc9b70709b2993a0c23e8b7081623c5888df8e1d8958",
+      "samples": 1800,
+      "scope": "recent",
+      "wall_seconds": 11.433544700033963
+    },
+    "s223-motor-teaching": {
+      "episodes": 180,
+      "kind": "motor-teaching",
+      "runner_signature": "5798bf2970c604ad8fbafc9b70709b2993a0c23e8b7081623c5888df8e1d8958",
+      "samples": 1800,
+      "sim_seconds": 684.0,
+      "teacher_reached": 180,
+      "wall_seconds": 2245.8452046000166
+    },
+    "s223-motor-test-episode-normal": {
+      "choice_correct": 10,
+      "entered_target": 2,
+      "held_out": {
+        "choice_correct": 2,
+        "n": 8,
+        "reached": 0
+      },
+      "kind": "motor-test",
+      "median_error": 0.963388607357557,
+      "mode": "normal",
+      "n": 32,
+      "reached": 0,
+      "runner_signature": "5798bf2970c604ad8fbafc9b70709b2993a0c23e8b7081623c5888df8e1d8958",
+      "scope": "episode",
+      "taught": {
+        "choice_correct": 8,
+        "n": 24,
+        "reached": 0
+      },
+      "wall_seconds": 466.37234200001694
+    },
+    "s223-motor-test-episode-validated-normal": {
+      "choice_correct": 6,
+      "entered_target": 4,
+      "held_out": {
+        "choice_correct": 1,
+        "n": 8,
+        "reached": 0
+      },
+      "kind": "motor-test",
+      "median_error": 0.968078518767991,
+      "mode": "normal",
+      "n": 32,
+      "reached": 1,
+      "reader_name": "episode-validated",
+      "runner_signature": "ad26e6d7bc580cd66c6c89fde5dc3f119f2790f23a80cf93bff122988b34800d",
+      "scope": "episode",
+      "taught": {
+        "choice_correct": 5,
+        "n": 24,
+        "reached": 1
+      },
+      "wall_seconds": 476.38525040005334
+    },
+    "s223-motor-test-recent-normal": {
+      "choice_correct": 10,
+      "entered_target": 4,
+      "held_out": {
+        "choice_correct": 1,
+        "n": 8,
+        "reached": 0
+      },
+      "kind": "motor-test",
+      "median_error": 0.9137566017255304,
+      "mode": "normal",
+      "n": 32,
+      "reached": 1,
+      "runner_signature": "5798bf2970c604ad8fbafc9b70709b2993a0c23e8b7081623c5888df8e1d8958",
+      "scope": "recent",
+      "taught": {
+        "choice_correct": 9,
+        "n": 24,
+        "reached": 1
+      },
+      "wall_seconds": 445.25629419996403
+    },
+    "s223-motor-validation": {
+      "constant_action_validation_loss": 0.2389531206265611,
+      "fit": {
+        "device": "cuda:0",
+        "loss": 0.07872001826763153,
+        "selection": "held-out demonstration loss",
+        "steps": 1500,
+        "teacher_labels": "training only",
+        "training_count": 1680,
+        "training_loss": 0.03528876602649689,
+        "validation_count": 120
+      },
+      "held_lesson_indices": [
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179
+      ],
+      "kind": "motor-validation",
+      "passed_registered_gate": false,
+      "runner_signature": "15b9bc05299a25eea2b820498c2c0671c00cdb31b0c460f750b88dc5ac313b39",
+      "wall_seconds": 16.06384660000913
+    },
+    "s223-spaced-expression": {
+      "condition": "spaced",
+      "familiar": {
+        "all_four_correct_groups": 3,
+        "color_correct": 18,
+        "correct": 29,
+        "groups": 12,
+        "n": 48,
+        "pointer_sensitive_groups": 12,
+        "shape_correct": 11,
+        "shuffled_correct": 11,
+        "wrong_category": 0,
+        "zero_correct": 6
+      },
+      "fit": {
+        "device": "cuda:0",
+        "loss": 0.00010115655459230766,
+        "steps": 1500,
+        "teacher_labels": "training only"
+      },
+      "held": {
+        "all_four_correct_groups": 0,
+        "color_correct": 6,
+        "correct": 6,
+        "groups": 4,
+        "n": 16,
+        "pointer_sensitive_groups": 4,
+        "shape_correct": 0,
+        "shuffled_correct": 3,
+        "wrong_category": 0,
+        "zero_correct": 2
+      },
+      "kind": "expression",
+      "runner_signature": "73f7fbe305f9db3b2dd24eebe44cc81927195e3e43dd40e231ec09403742f34b",
+      "seed": 223,
+      "train_correct": 96,
+      "train_n": 96,
+      "wall_seconds": 16.66785779991187
+    },
+    "s223-spaced-familiar": {
+      "condition": "spaced",
+      "kind": "observations",
+      "mode": "normal",
+      "n": 48,
+      "runner_signature": "73f7fbe305f9db3b2dd24eebe44cc81927195e3e43dd40e231ec09403742f34b",
+      "seed": 223,
+      "split": "familiar",
+      "wall_seconds": 333.4209500999423
+    },
+    "s223-spaced-familiar-rescue": {
+      "condition": "spaced",
+      "kind": "observations",
+      "mode": "rescue",
+      "n": 8,
+      "runner_signature": "c2cdcfcade63c28d0c121b16edfee6d056a484312278ce52779ec7022ca12659",
+      "seed": 223,
+      "split": "familiar",
+      "wall_seconds": 54.850280300015584
+    },
+    "s223-spaced-familiar-rescue-score": {
+      "all_four_correct_groups": 2,
+      "color_correct": 4,
+      "condition": "spaced",
+      "correct": 8,
+      "groups": 2,
+      "kind": "extra-score",
+      "max_raw_difference_from_original": 0.0,
+      "mode": "rescue",
+      "n": 8,
+      "pointer_sensitive_groups": 2,
+      "runner_signature": "c2cdcfcade63c28d0c121b16edfee6d056a484312278ce52779ec7022ca12659",
+      "seed": 223,
+      "shape_correct": 4,
+      "shuffled_correct": 3,
+      "split": "familiar",
+      "wall_seconds": 0.3123243000591174,
+      "wrong_category": 0,
+      "zero_correct": 1
+    },
+    "s223-spaced-familiar-silence": {
+      "condition": "spaced",
+      "kind": "observations",
+      "mode": "silence",
+      "n": 48,
+      "runner_signature": "c2cdcfcade63c28d0c121b16edfee6d056a484312278ce52779ec7022ca12659",
+      "seed": 223,
+      "split": "familiar",
+      "wall_seconds": 236.7186437000055
+    },
+    "s223-spaced-familiar-silence-score": {
+      "all_four_correct_groups": 1,
+      "color_correct": 16,
+      "condition": "spaced",
+      "correct": 27,
+      "groups": 12,
+      "kind": "extra-score",
+      "mode": "silence",
+      "n": 48,
+      "pointer_sensitive_groups": 12,
+      "runner_signature": "c2cdcfcade63c28d0c121b16edfee6d056a484312278ce52779ec7022ca12659",
+      "seed": 223,
+      "shape_correct": 11,
+      "shuffled_correct": 10,
+      "split": "familiar",
+      "wall_seconds": 0.58607189997565,
+      "wrong_category": 0,
+      "zero_correct": 6
+    },
+    "s223-spaced-held": {
+      "condition": "spaced",
+      "kind": "observations",
+      "mode": "normal",
+      "n": 16,
+      "runner_signature": "73f7fbe305f9db3b2dd24eebe44cc81927195e3e43dd40e231ec09403742f34b",
+      "seed": 223,
+      "split": "held",
+      "wall_seconds": 122.2118592999177
+    },
+    "s223-spaced-permutations": {
+      "condition": "spaced",
+      "kind": "observations",
+      "mode": "normal",
+      "n": 48,
+      "runner_signature": "c2cdcfcade63c28d0c121b16edfee6d056a484312278ce52779ec7022ca12659",
+      "seed": 223,
+      "split": "permutations",
+      "wall_seconds": 300.17288650001865
+    },
+    "s223-spaced-permutations-score": {
+      "all_four_correct_groups": 2,
+      "color_correct": 14,
+      "condition": "spaced",
+      "correct": 20,
+      "groups": 12,
+      "kind": "extra-score",
+      "mode": "normal",
+      "n": 48,
+      "pointer_sensitive_groups": 12,
+      "runner_signature": "c2cdcfcade63c28d0c121b16edfee6d056a484312278ce52779ec7022ca12659",
+      "seed": 223,
+      "shape_correct": 6,
+      "shuffled_correct": 4,
+      "split": "permutations",
+      "wall_seconds": 0.35424440004862845,
+      "wrong_category": 0,
+      "zero_correct": 6
+    },
+    "s223-spaced-teaching": {
+      "condition": "spaced",
+      "edges": 147341,
+      "kind": "teaching",
+      "lessons": 168,
+      "nodes": 403,
+      "runner_signature": "73f7fbe305f9db3b2dd24eebe44cc81927195e3e43dd40e231ec09403742f34b",
+      "seed": 223,
+      "sim_seconds": 516.0,
+      "wall_seconds": 1384.9846720000496,
+      "weight_max": 1.0,
+      "weight_sum": 77183.44999305271
+    },
+    "s223-spaced-train": {
+      "condition": "spaced",
+      "kind": "observations",
+      "mode": "normal",
+      "n": 96,
+      "runner_signature": "73f7fbe305f9db3b2dd24eebe44cc81927195e3e43dd40e231ec09403742f34b",
+      "seed": 223,
+      "split": "train",
+      "wall_seconds": 607.3606258999789
+    }
+  }
+}

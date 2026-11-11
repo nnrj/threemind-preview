@@ -1,0 +1,54 @@
+{
+  "checked_at": "2026-09-10T09:32:51.634441+00:00",
+  "project_id": "2dabc73f-1f27-498b-83ae-93c4c6e10c1c",
+  "source_runs": 6,
+  "completed_seeds": [
+    41701,
+    41702,
+    41703
+  ],
+  "errors": [],
+  "exact_training_inputs": 2400,
+  "training_temporal_windows": 2394,
+  "checkpoint_hashes_verified": 15,
+  "measurement_source_hashes_verified": 42,
+  "measurement_copies": 264,
+  "all_original_carriers_and_frames_verified": true,
+  "all_repetition_counts_verified": true,
+  "old_project_metadata_unchanged": true,
+  "core_and_sensor_and_reader_source_unchanged": true,
+  "source_archive_files_verified": 203,
+  "database_growth_bytes": 48660480,
+  "local_evidence_bytes": 26079592,
+  "cumulative_training_probe_seconds": 186.75,
+  "peak_rss": 174235648,
+  "disk_free_bytes": {
+    "D:/": 39056867328,
+    "E:/": 49292972032
+  },
+  "jobs": [
+    {
+      "status": "done",
+      "n": 42
+    }
+  ],
+  "combined_new_storage_bytes": 74740072,
+  "temporal_windows": 180,
+  "explicit_fixed_copies": 72,
+  "fixed_no_input_baselines": 12,
+  "per_sentence_repetitions": 200,
+  "training_order_arms": [
+    "AB",
+    "BA"
+  ],
+  "all_original_nodes_tied_strongest_verified": 36,
+  "quota": {
+    "used_percent": 78,
+    "stage": "before publication",
+    "checked_at": "2026-09-10T09:32:47.291900+00:00",
+    "scope": "shared account window"
+  },
+  "verification_dependency": {
+    "lab/explorations/2026-09-10-temporal-repetition/verify.py": "3055eecc0827173c9e15320b2e02ceef9e9c3a0b48ccaf2837b75d6cfdb8863d"
+  }
+}

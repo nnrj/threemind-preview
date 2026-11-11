@@ -1,0 +1,11 @@
+# M5 independent confirmation delivery
+
+16 October 2026. The 48-new-origin record `3de6fc0d-1969-5320-a0ae-75a305ffa527` is completed and verified through the unified research API, with no problems and pending=0. [Scientific report](m5-confirmation-report.en.md) · [中文](m5-confirmation-delivery.zh.md)
+
+All three registered propositions are confirmed: fixed personal ports express newly taught Core associations; local pathways causally dissociate new and old expression; and declared-port scope outperforms fixed all-activity reading. Each target passes in 48/48 new origins across all six strata, excluding the previous eight exploratory origins. Port new singleton scores are 384/384, 0/384 after target silence, 384/384 after matched silence, and 384/384 after restoration; old answers show the complementary selective effect. Fixed all-activity new answers are 0/384. Continued fitting improves held-out-dose answers from 0/768 to 768/768; offline crosses identify the peripheral label-learning contribution.
+
+The archive is **4,893,365,629 bytes**, SHA256 `9984e9c72f2da7bc5733d533822ce2255f89b64955e3fd3b526dda324878326a`. There are 12,241 manifest members and 12,242 ZIP entries including the manifest. A real full API download matches the archive and every member hash. It includes 12,144 scientific whole-state snapshots, 10,944 examination records, frozen protocols/code, independent audit and reports. Postprocessing advances no subject.
+
+Chinese and English report identities are `9fe6a39a-8c8c-544a-8973-a3ad20579de2` and `be4fef31-5e6b-5fe4-bc40-523ca67f50d2`. Actual API report bodies exactly match the repository text. Figure v2 only repairs overlapping labels; v1 remains preserved. The executing assistant reviewed both reports and a separately implemented arithmetic/file audit; this is new-origin confirmation by the same research team, not external-researcher replication.
+
+Receipts: `publication/final-verification.json`, `publication/download-receipt.json`, `publication/text-readback-v1.json`. Originals: `E:/ThreeMindData/experiments/2026-10-16-mechanism-discovery/m5-confirmation-v1`. Do not rerun or replace this batch or its exploratory predecessor. The frozen M1 confirmation follows; E69/E67/E68 and the author's manuscript retain their existing state.

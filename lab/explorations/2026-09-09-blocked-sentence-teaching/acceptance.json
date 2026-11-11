@@ -1,0 +1,72 @@
+{
+  "checked_at": "2026-09-09T12:02:10.599480+00:00",
+  "project_id": "5f779f43-ab27-4638-bb11-458a43598637",
+  "exact_training_frames": 8820,
+  "source_runs": 10,
+  "checkpoint_hashes_verified": 44,
+  "measurement_source_hashes_verified": 132,
+  "all_original_text_and_punctuation_verified": true,
+  "all_repetition_counts_verified": true,
+  "all_input_frames_delivered": true,
+  "old_inventory_unchanged": true,
+  "old_model_count": 1902,
+  "source_config_unchanged": true,
+  "core_changed": false,
+  "representative_bundles": [
+    {
+      "id": "bd786e14-815a-4426-b412-e266d836c8c7",
+      "copies": 7,
+      "bundle_sha256": "7a3907414e01b8d2031a3026e094f9ea1593c4292287b494d8c540e3646c2460"
+    },
+    {
+      "id": "475de4ad-22cc-4810-be34-d41ae709c5dd",
+      "copies": 7,
+      "bundle_sha256": "070e8a685a36fb13fbbfbe7c93e964181d81cefb15d4f009e3de2281e1320d9b"
+    },
+    {
+      "id": "69485701-cbae-47f6-8be9-3a4a84ef9056",
+      "copies": 7,
+      "bundle_sha256": "1a23c9a9069d7e9239d5758c17e3119bc3d0597cf7f06a2957f688e1341aa5cf"
+    },
+    {
+      "id": "26f11c3b-466a-46af-9e27-b7a7bb2db5bf",
+      "copies": 7,
+      "bundle_sha256": "44638d6f12c6f093caf61dfb16da5dc3435e2a655bf66b4d9a41b351f0b5d1ce"
+    }
+  ],
+  "database_growth_bytes": 404684800,
+  "job_status_counts": [
+    {
+      "status": "done",
+      "n": 135
+    }
+  ],
+  "local_evidence_bytes": 9844344,
+  "free_disk_bytes": {
+    "D:/": 39754969088,
+    "E:/": 50310672384
+  },
+  "report_id": "647b0e96-47f9-4b73-9a04-693d08762557",
+  "report_hash": "52c84f999107148264424ef75a1c66a28fb9e4b155ef5632aba28d338274b3a4",
+  "report_blocks": 6,
+  "results_note_revision": 1,
+  "validation": {
+    "published_artifact_files_verified": 32,
+    "observer_fixture_checks": true,
+    "python_compile": true,
+    "undefined_name_lint": true,
+    "static_figures_inspected": 3,
+    "database_report_render": true,
+    "live_browser": false,
+    "core_runtime_product_code_changed": false
+  },
+  "quota_observation": {
+    "baseline_used_percent": 65,
+    "used_percent": 66,
+    "stop_used_percent": 83,
+    "source": "Codex account usage tool; checked again after all experiments and report publication",
+    "scope": "account-wide approximate observation, potentially delayed; not exact per-task billing",
+    "observed_increase_percentage_points": 1,
+    "stop_triggered": false
+  }
+}

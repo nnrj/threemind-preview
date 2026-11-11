@@ -1,0 +1,2182 @@
+{
+  "schema": "threemind.history/1",
+  "compiled_on": "2026-10-01",
+  "baseline_commit": "e83aedd9aa1f5346341cd78d3c4e9aa7a0df4b2c",
+  "source_count": 389,
+  "works": [
+    {
+      "id": "modern-zh",
+      "title": "ThreeMind 通史",
+      "subtitle": "简体中文 · 编年与专题",
+      "language": "zh-CN",
+      "description": "从空文件夹到可复核实验，记下假设、争论、改动与证据。"
+    },
+    {
+      "id": "modern-en",
+      "title": "A History of ThreeMind",
+      "subtitle": "English · Chronology and themes",
+      "language": "en",
+      "description": "Origins, decisions, experiments and unresolved questions, with sources."
+    },
+    {
+      "id": "classical-biographical",
+      "title": "ThreeMind 史记",
+      "subtitle": "文言 · 纪传体通史",
+      "language": "zh-Hans",
+      "description": "本纪、书、列传，循思想、机制与器物叙其兴革。"
+    },
+    {
+      "id": "classical-chronological",
+      "title": "ThreeMind 通鉴",
+      "subtitle": "文言 · 编年体通史",
+      "language": "zh-Hans",
+      "description": "以公历年月为序，记得失与考证。"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "zh-index",
+      "work": "modern-zh",
+      "key": "index",
+      "group": "guide",
+      "title": "ThreeMind 通史：从假设到可复核的实验",
+      "path": "docs/zh/history/index.md",
+      "period": "2026-07-23 — 2026-10-01",
+      "tags": [
+        "目录",
+        "index"
+      ]
+    },
+    {
+      "id": "zh-manifesto",
+      "work": "modern-zh",
+      "key": "manifesto",
+      "group": "guide",
+      "title": "宣言：让经历塑造一个持续活动的世界",
+      "path": "docs/zh/history/manifesto.md",
+      "period": "研究立场 / Research position",
+      "tags": [
+        "假设",
+        "哲学",
+        "principles"
+      ]
+    },
+    {
+      "id": "zh-milestones",
+      "work": "modern-zh",
+      "key": "milestones",
+      "group": "guide",
+      "title": "里程碑与阅读路线",
+      "path": "docs/zh/history/milestones.md",
+      "period": "2026-07-23 — 2026-10-04",
+      "tags": [
+        "里程碑",
+        "时间线",
+        "timeline"
+      ]
+    },
+    {
+      "id": "zh-editorial",
+      "work": "modern-zh",
+      "key": "editorial",
+      "group": "guide",
+      "title": "凡例、异说与续写规则",
+      "path": "docs/zh/history/editorial.md",
+      "period": "2026-10-01",
+      "tags": [
+        "凡例",
+        "续写",
+        "证据",
+        "冲突"
+      ]
+    },
+    {
+      "id": "zh-chronicles/01-origins",
+      "work": "modern-zh",
+      "key": "chronicles/01-origins",
+      "group": "chronicles",
+      "title": "卷一　从匿名光点到时间中的响应",
+      "path": "docs/zh/history/chronicles/01-origins.md",
+      "period": "2026-07-23 — 2026-08-04",
+      "tags": [
+        "起源",
+        "BlueBox",
+        "匿名",
+        "读出",
+        "origins"
+      ]
+    },
+    {
+      "id": "zh-chronicles/02-reconstruction",
+      "work": "modern-zh",
+      "key": "chronicles/02-reconstruction",
+      "group": "chronicles",
+      "title": "卷二　重构的收益与失而复得的机制",
+      "path": "docs/zh/history/chronicles/02-reconstruction.md",
+      "period": "2026-08-05 — 2026-09-08",
+      "tags": [
+        "架构",
+        "恢复",
+        "时间",
+        "architecture"
+      ]
+    },
+    {
+      "id": "zh-chronicles/03-teaching",
+      "work": "modern-zh",
+      "key": "chronicles/03-teaching",
+      "group": "chronicles",
+      "title": "卷三　教它说话，也校正自己的实验",
+      "path": "docs/zh/history/chronicles/03-teaching.md",
+      "period": "2026-09-09 — 2026-09-10",
+      "tags": [
+        "配对",
+        "家系",
+        "映射",
+        "时间",
+        "pairing"
+      ]
+    },
+    {
+      "id": "zh-chronicles/04-local-mechanisms",
+      "work": "modern-zh",
+      "key": "chronicles/04-local-mechanisms",
+      "group": "chronicles",
+      "title": "卷四　从候选内核到三种记忆作用",
+      "path": "docs/zh/history/chronicles/04-local-mechanisms.md",
+      "period": "2026-09-24 — 2026-09-29",
+      "tags": [
+        "连续内核",
+        "耗竭",
+        "易化",
+        "巩固",
+        "Transformer"
+      ]
+    },
+    {
+      "id": "zh-chronicles/05-autonomy",
+      "work": "modern-zh",
+      "key": "chronicles/05-autonomy",
+      "group": "chronicles",
+      "title": "卷五　内部活动怎样进入行为的因果链",
+      "path": "docs/zh/history/chronicles/05-autonomy.md",
+      "period": "2026-09-29",
+      "tags": [
+        "自主活动",
+        "消融",
+        "移植",
+        "标准",
+        "autonomy",
+        "自主意识",
+        "意识假设",
+        "四项判据",
+        "E15",
+        "验证"
+      ]
+    },
+    {
+      "id": "zh-chronicles/06-calibration",
+      "work": "modern-zh",
+      "key": "chronicles/06-calibration",
+      "group": "chronicles",
+      "title": "卷六　校准、物理参照与未完的强刺激问题",
+      "path": "docs/zh/history/chronicles/06-calibration.md",
+      "period": "2026-09-29 — 2026-10-01",
+      "tags": [
+        "新颖性",
+        "本体感官",
+        "长期记忆",
+        "工具",
+        "强刺激"
+      ]
+    },
+    {
+      "id": "zh-chronicles/07-priority-experiments",
+      "work": "modern-zh",
+      "key": "chronicles/07-priority-experiments",
+      "group": "chronicles",
+      "title": "卷七　把保留、方向与顺序分别问清",
+      "path": "docs/zh/history/chronicles/07-priority-experiments.md",
+      "period": "2026-10-01 — 2026-10-04",
+      "tags": [
+        "强刺激",
+        "易化",
+        "顺序",
+        "competition",
+        "memory"
+      ]
+    },
+    {
+      "id": "zh-themes/01-hypothesis",
+      "work": "modern-zh",
+      "key": "themes/01-hypothesis",
+      "group": "themes",
+      "title": "思想列传　何为意识，何者不能预置",
+      "path": "docs/zh/history/themes/01-hypothesis.md",
+      "period": "2026-07 — 2026-10",
+      "tags": [
+        "假设沿革",
+        "死亡",
+        "AGI",
+        "原则"
+      ]
+    },
+    {
+      "id": "zh-themes/02-instruments",
+      "work": "modern-zh",
+      "key": "themes/02-instruments",
+      "group": "themes",
+      "title": "器物列传　图像、读出器与实验台",
+      "path": "docs/zh/history/themes/02-instruments.md",
+      "period": "2026-07 — 2026-10",
+      "tags": [
+        "读出",
+        "探针",
+        "UI",
+        "测量",
+        "工具"
+      ]
+    },
+    {
+      "id": "zh-themes/03-memory",
+      "work": "modern-zh",
+      "key": "themes/03-memory",
+      "group": "themes",
+      "title": "机制列传　记住、忘却与重新触达",
+      "path": "docs/zh/history/themes/03-memory.md",
+      "period": "2026-07 — 2026-10",
+      "tags": [
+        "记忆",
+        "新颖性",
+        "遗忘",
+        "强刺激"
+      ]
+    },
+    {
+      "id": "zh-themes/04-autonomous-consciousness",
+      "work": "modern-zh",
+      "key": "themes/04-autonomous-consciousness",
+      "group": "themes",
+      "title": "自主意识列传　从创始猜想到四项判据通过",
+      "path": "docs/zh/history/themes/04-autonomous-consciousness.md",
+      "period": "2026-07 — 2026-10-15; compiled 2026-10-15",
+      "tags": [
+        "发现",
+        "猜想",
+        "验证",
+        "列传",
+        "discovery",
+        "autonomy",
+        "自主意识",
+        "意识假设",
+        "四项判据",
+        "E15",
+        "causality"
+      ]
+    },
+    {
+      "id": "zh-themes/05-embodied-behavior",
+      "work": "modern-zh",
+      "key": "themes/05-embodied-behavior",
+      "group": "themes",
+      "title": "具身行为列传　偏好、转弯、捕食与传承",
+      "path": "docs/zh/history/themes/05-embodied-behavior.md",
+      "period": "2026-07 — 2026-10-15; compiled 2026-10-15",
+      "tags": [
+        "发现",
+        "猜想",
+        "验证",
+        "列传",
+        "discovery",
+        "embodied",
+        "区域偏好",
+        "海洋",
+        "转弯",
+        "捕食",
+        "遗传",
+        "E30",
+        "E41"
+      ]
+    },
+    {
+      "id": "zh-themes/06-personal-learning",
+      "work": "modern-zh",
+      "key": "themes/06-personal-learning",
+      "group": "themes",
+      "title": "共同学习列传　个人表达器、四视场与连续形色",
+      "path": "docs/zh/history/themes/06-personal-learning.md",
+      "period": "2026-07 — 2026-10-15; compiled 2026-10-15",
+      "tags": [
+        "发现",
+        "猜想",
+        "验证",
+        "列传",
+        "discovery",
+        "learning",
+        "Transformer",
+        "个人外设",
+        "四视场",
+        "连续学习",
+        "形色",
+        "E56",
+        "E68"
+      ]
+    },
+    {
+      "id": "zh-decisions/strong-stimulus",
+      "work": "modern-zh",
+      "key": "decisions/strong-stimulus",
+      "group": "decisions",
+      "title": "强刺激巩固：来历、证据与暂留判断",
+      "path": "docs/zh/history/decisions/strong-stimulus.md",
+      "period": "2026-07-25 — 2026-10-01",
+      "tags": [
+        "强刺激",
+        "决策过程",
+        "阈值1",
+        "provenance"
+      ]
+    },
+    {
+      "id": "zh-sources/august-adapters",
+      "work": "modern-zh",
+      "key": "sources/august-adapters",
+      "group": "sources",
+      "title": "八月原始记录：时序观察与物理反馈",
+      "path": "docs/zh/history/sources/august-adapters.md",
+      "period": "2026-08-01 — 2026-08-16",
+      "tags": [
+        "时序",
+        "遥测",
+        "原文"
+      ]
+    },
+    {
+      "id": "zh-sources/founding-statement",
+      "work": "modern-zh",
+      "key": "sources/founding-statement",
+      "group": "sources",
+      "title": "创始陈述原件：连续、可塑、遗忘与联想",
+      "path": "docs/zh/history/sources/founding-statement.md",
+      "period": "2026-07-24",
+      "tags": [
+        "原文",
+        "创始",
+        "哲学"
+      ]
+    },
+    {
+      "id": "zh-sources/git-register",
+      "work": "modern-zh",
+      "key": "sources/git-register",
+      "group": "sources",
+      "title": "Git 纪事与取证边界",
+      "path": "docs/zh/history/sources/git-register.md",
+      "period": "2026-08-24 — 2026-09-30",
+      "tags": [
+        "Git",
+        "版本",
+        "出处"
+      ]
+    },
+    {
+      "id": "zh-sources/inventory",
+      "work": "modern-zh",
+      "key": "sources/inventory",
+      "group": "sources",
+      "title": "编纂前文献全目",
+      "path": "docs/zh/history/sources/inventory.md",
+      "period": "2026-10-01",
+      "tags": [
+        "文献盘点",
+        "完整目录"
+      ]
+    },
+    {
+      "id": "zh-sources/latest-intensity-discussion",
+      "work": "modern-zh",
+      "key": "sources/latest-intensity-discussion",
+      "group": "sources",
+      "title": "近期回忆与编史委托原文",
+      "path": "docs/zh/history/sources/latest-intensity-discussion.md",
+      "period": "收录 / Collected 2026-10-01",
+      "tags": [
+        "原文",
+        "回忆",
+        "编史"
+      ]
+    },
+    {
+      "id": "zh-sources/origin-records",
+      "work": "modern-zh",
+      "key": "sources/origin-records",
+      "group": "sources",
+      "title": "起源、命名与早期边界：对话摘编",
+      "path": "docs/zh/history/sources/origin-records.md",
+      "period": "2026-07-23 — 2026-07-31",
+      "tags": [
+        "BlueBox",
+        "定名",
+        "原文"
+      ]
+    },
+    {
+      "id": "zh-sources/source-register",
+      "work": "modern-zh",
+      "key": "sources/source-register",
+      "group": "sources",
+      "title": "重点史料登记：原件仍在原处",
+      "path": "docs/zh/history/sources/source-register.md",
+      "period": "盘点 / Survey 2026-10-01",
+      "tags": [
+        "参考",
+        "索引",
+        "sources"
+      ]
+    },
+    {
+      "id": "zh-sources/strong-stimulus-dialogue",
+      "work": "modern-zh",
+      "key": "sources/strong-stimulus-dialogue",
+      "group": "sources",
+      "title": "强刺激史料：请求、讨论与实施回复",
+      "path": "docs/zh/history/sources/strong-stimulus-dialogue.md",
+      "period": "2026-07-25",
+      "tags": [
+        "强刺激",
+        "原文",
+        "上限"
+      ]
+    },
+    {
+      "id": "en-index",
+      "work": "modern-en",
+      "key": "index",
+      "group": "guide",
+      "title": "A History of ThreeMind: from hypothesis to inspectable experiments",
+      "path": "docs/en/history/index.md",
+      "period": "2026-07-23 — 2026-10-01",
+      "tags": [
+        "目录",
+        "index"
+      ]
+    },
+    {
+      "id": "en-manifesto",
+      "work": "modern-en",
+      "key": "manifesto",
+      "group": "guide",
+      "title": "Manifesto: a world shaped by experience and sustained activity",
+      "path": "docs/en/history/manifesto.md",
+      "period": "研究立场 / Research position",
+      "tags": [
+        "假设",
+        "哲学",
+        "principles"
+      ]
+    },
+    {
+      "id": "en-milestones",
+      "work": "modern-en",
+      "key": "milestones",
+      "group": "guide",
+      "title": "Milestones and reading routes",
+      "path": "docs/en/history/milestones.md",
+      "period": "2026-07-23 — 2026-10-04",
+      "tags": [
+        "里程碑",
+        "时间线",
+        "timeline"
+      ]
+    },
+    {
+      "id": "en-editorial",
+      "work": "modern-en",
+      "key": "editorial",
+      "group": "guide",
+      "title": "Editorial method, differing accounts and continuation rules",
+      "path": "docs/en/history/editorial.md",
+      "period": "2026-10-01",
+      "tags": [
+        "凡例",
+        "续写",
+        "证据",
+        "冲突"
+      ]
+    },
+    {
+      "id": "en-chronicles/01-origins",
+      "work": "modern-en",
+      "key": "chronicles/01-origins",
+      "group": "chronicles",
+      "title": "Volume I — From anonymous points to responses through time",
+      "path": "docs/en/history/chronicles/01-origins.md",
+      "period": "2026-07-23 — 2026-08-04",
+      "tags": [
+        "起源",
+        "BlueBox",
+        "匿名",
+        "读出",
+        "origins"
+      ]
+    },
+    {
+      "id": "en-chronicles/02-reconstruction",
+      "work": "modern-en",
+      "key": "chronicles/02-reconstruction",
+      "group": "chronicles",
+      "title": "Volume II — Reconstruction, gains and mechanisms recovered",
+      "path": "docs/en/history/chronicles/02-reconstruction.md",
+      "period": "2026-08-05 — 2026-09-08",
+      "tags": [
+        "架构",
+        "恢复",
+        "时间",
+        "architecture"
+      ]
+    },
+    {
+      "id": "en-chronicles/03-teaching",
+      "work": "modern-en",
+      "key": "chronicles/03-teaching",
+      "group": "chronicles",
+      "title": "Volume III — Teaching language and correcting the experiment",
+      "path": "docs/en/history/chronicles/03-teaching.md",
+      "period": "2026-09-09 — 2026-09-10",
+      "tags": [
+        "配对",
+        "家系",
+        "映射",
+        "时间",
+        "pairing"
+      ]
+    },
+    {
+      "id": "en-chronicles/04-local-mechanisms",
+      "work": "modern-en",
+      "key": "chronicles/04-local-mechanisms",
+      "group": "chronicles",
+      "title": "Volume IV — Candidate kernels and three contributions to memory",
+      "path": "docs/en/history/chronicles/04-local-mechanisms.md",
+      "period": "2026-09-24 — 2026-09-29",
+      "tags": [
+        "连续内核",
+        "耗竭",
+        "易化",
+        "巩固",
+        "Transformer"
+      ]
+    },
+    {
+      "id": "en-chronicles/05-autonomy",
+      "work": "modern-en",
+      "key": "chronicles/05-autonomy",
+      "group": "chronicles",
+      "title": "Volume V — Internal activity enters the causal chain of behavior",
+      "path": "docs/en/history/chronicles/05-autonomy.md",
+      "period": "2026-09-29",
+      "tags": [
+        "自主活动",
+        "消融",
+        "移植",
+        "标准",
+        "autonomy",
+        "自主意识",
+        "意识假设",
+        "四项判据",
+        "E15",
+        "验证"
+      ]
+    },
+    {
+      "id": "en-chronicles/06-calibration",
+      "work": "modern-en",
+      "key": "chronicles/06-calibration",
+      "group": "chronicles",
+      "title": "Volume VI — Calibration, physical reference and the open intensity question",
+      "path": "docs/en/history/chronicles/06-calibration.md",
+      "period": "2026-09-29 — 2026-10-01",
+      "tags": [
+        "新颖性",
+        "本体感官",
+        "长期记忆",
+        "工具",
+        "强刺激"
+      ]
+    },
+    {
+      "id": "en-chronicles/07-priority-experiments",
+      "work": "modern-en",
+      "key": "chronicles/07-priority-experiments",
+      "group": "chronicles",
+      "title": "Volume VII — Separating retention, direction and order",
+      "path": "docs/en/history/chronicles/07-priority-experiments.md",
+      "period": "2026-10-01 — 2026-10-04",
+      "tags": [
+        "强刺激",
+        "易化",
+        "顺序",
+        "competition",
+        "memory"
+      ]
+    },
+    {
+      "id": "en-themes/01-hypothesis",
+      "work": "modern-en",
+      "key": "themes/01-hypothesis",
+      "group": "themes",
+      "title": "History of ideas — Consciousness and what must not be supplied in advance",
+      "path": "docs/en/history/themes/01-hypothesis.md",
+      "period": "2026-07 — 2026-10",
+      "tags": [
+        "假设沿革",
+        "死亡",
+        "AGI",
+        "原则"
+      ]
+    },
+    {
+      "id": "en-themes/02-instruments",
+      "work": "modern-en",
+      "key": "themes/02-instruments",
+      "group": "themes",
+      "title": "History of instruments — Graphs, readouts and the experimental bench",
+      "path": "docs/en/history/themes/02-instruments.md",
+      "period": "2026-07 — 2026-10",
+      "tags": [
+        "读出",
+        "探针",
+        "UI",
+        "测量",
+        "工具"
+      ]
+    },
+    {
+      "id": "en-themes/03-memory",
+      "work": "modern-en",
+      "key": "themes/03-memory",
+      "group": "themes",
+      "title": "History of mechanisms — Retaining, forgetting and reactivation",
+      "path": "docs/en/history/themes/03-memory.md",
+      "period": "2026-07 — 2026-10",
+      "tags": [
+        "记忆",
+        "新颖性",
+        "遗忘",
+        "强刺激"
+      ]
+    },
+    {
+      "id": "en-themes/04-autonomous-consciousness",
+      "work": "modern-en",
+      "key": "themes/04-autonomous-consciousness",
+      "group": "themes",
+      "title": "Autonomous-consciousness studies — From the founding conjecture to four passed criteria",
+      "path": "docs/en/history/themes/04-autonomous-consciousness.md",
+      "period": "2026-07 — 2026-10-15; compiled 2026-10-15",
+      "tags": [
+        "发现",
+        "猜想",
+        "验证",
+        "列传",
+        "discovery",
+        "autonomy",
+        "自主意识",
+        "意识假设",
+        "四项判据",
+        "E15",
+        "causality"
+      ]
+    },
+    {
+      "id": "en-themes/05-embodied-behavior",
+      "work": "modern-en",
+      "key": "themes/05-embodied-behavior",
+      "group": "themes",
+      "title": "Embodied behavior — Preferences, turning, predation and inheritance",
+      "path": "docs/en/history/themes/05-embodied-behavior.md",
+      "period": "2026-07 — 2026-10-15; compiled 2026-10-15",
+      "tags": [
+        "发现",
+        "猜想",
+        "验证",
+        "列传",
+        "discovery",
+        "embodied",
+        "区域偏好",
+        "海洋",
+        "转弯",
+        "捕食",
+        "遗传",
+        "E30",
+        "E41"
+      ]
+    },
+    {
+      "id": "en-themes/06-personal-learning",
+      "work": "modern-en",
+      "key": "themes/06-personal-learning",
+      "group": "themes",
+      "title": "Co-learning — Personal expression models, four-field pointing and continuous shape–color learning",
+      "path": "docs/en/history/themes/06-personal-learning.md",
+      "period": "2026-07 — 2026-10-15; compiled 2026-10-15",
+      "tags": [
+        "发现",
+        "猜想",
+        "验证",
+        "列传",
+        "discovery",
+        "learning",
+        "Transformer",
+        "个人外设",
+        "四视场",
+        "连续学习",
+        "形色",
+        "E56",
+        "E68"
+      ]
+    },
+    {
+      "id": "en-decisions/strong-stimulus",
+      "work": "modern-en",
+      "key": "decisions/strong-stimulus",
+      "group": "decisions",
+      "title": "Strong-input consolidation: provenance, evidence and provisional retention",
+      "path": "docs/en/history/decisions/strong-stimulus.md",
+      "period": "2026-07-25 — 2026-10-01",
+      "tags": [
+        "强刺激",
+        "决策过程",
+        "阈值1",
+        "provenance"
+      ]
+    },
+    {
+      "id": "en-sources/august-adapters",
+      "work": "modern-en",
+      "key": "sources/august-adapters",
+      "group": "sources",
+      "title": "August primary records: temporal observation and physical feedback",
+      "path": "docs/en/history/sources/august-adapters.md",
+      "period": "2026-08-01 — 2026-08-16",
+      "tags": [
+        "时序",
+        "遥测",
+        "原文"
+      ]
+    },
+    {
+      "id": "en-sources/founding-statement",
+      "work": "modern-en",
+      "key": "sources/founding-statement",
+      "group": "sources",
+      "title": "Founding primary source: continuity, plasticity, forgetting and association",
+      "path": "docs/en/history/sources/founding-statement.md",
+      "period": "2026-07-24",
+      "tags": [
+        "原文",
+        "创始",
+        "哲学"
+      ]
+    },
+    {
+      "id": "en-sources/git-register",
+      "work": "modern-en",
+      "key": "sources/git-register",
+      "group": "sources",
+      "title": "Git chronology and provenance limits",
+      "path": "docs/en/history/sources/git-register.md",
+      "period": "2026-08-24 — 2026-09-30",
+      "tags": [
+        "Git",
+        "版本",
+        "出处"
+      ]
+    },
+    {
+      "id": "en-sources/inventory",
+      "work": "modern-en",
+      "key": "sources/inventory",
+      "group": "sources",
+      "title": "Complete pre-compilation document inventory",
+      "path": "docs/en/history/sources/inventory.md",
+      "period": "2026-10-01",
+      "tags": [
+        "文献盘点",
+        "完整目录"
+      ]
+    },
+    {
+      "id": "en-sources/latest-intensity-discussion",
+      "work": "modern-en",
+      "key": "sources/latest-intensity-discussion",
+      "group": "sources",
+      "title": "Recent recollection and the commission to write this history",
+      "path": "docs/en/history/sources/latest-intensity-discussion.md",
+      "period": "收录 / Collected 2026-10-01",
+      "tags": [
+        "原文",
+        "回忆",
+        "编史"
+      ]
+    },
+    {
+      "id": "en-sources/origin-records",
+      "work": "modern-en",
+      "key": "sources/origin-records",
+      "group": "sources",
+      "title": "Origins, naming and early boundaries: selected conversation records",
+      "path": "docs/en/history/sources/origin-records.md",
+      "period": "2026-07-23 — 2026-07-31",
+      "tags": [
+        "BlueBox",
+        "定名",
+        "原文"
+      ]
+    },
+    {
+      "id": "en-sources/source-register",
+      "work": "modern-en",
+      "key": "sources/source-register",
+      "group": "sources",
+      "title": "Selected source register: originals remain in place",
+      "path": "docs/en/history/sources/source-register.md",
+      "period": "盘点 / Survey 2026-10-01",
+      "tags": [
+        "参考",
+        "索引",
+        "sources"
+      ]
+    },
+    {
+      "id": "en-sources/strong-stimulus-dialogue",
+      "work": "modern-en",
+      "key": "sources/strong-stimulus-dialogue",
+      "group": "sources",
+      "title": "Strong-input primary sources: request, discussion and implementation reply",
+      "path": "docs/en/history/sources/strong-stimulus-dialogue.md",
+      "period": "2026-07-25",
+      "tags": [
+        "强刺激",
+        "原文",
+        "上限"
+      ]
+    },
+    {
+      "id": "shiji-01",
+      "work": "classical-biographical",
+      "key": "shiji-01",
+      "group": "classical",
+      "title": "ThreeMind 史记 · 卷一　创始本纪",
+      "path": "docs/zh/history/classical/shiji-01.md",
+      "period": "2026-07 — 2026-10",
+      "tags": [
+        "文言",
+        "通史",
+        "纪传"
+      ]
+    },
+    {
+      "id": "shiji-02",
+      "work": "classical-biographical",
+      "key": "shiji-02",
+      "group": "classical",
+      "title": "ThreeMind 史记 · 卷二　塑性与遗忘书",
+      "path": "docs/zh/history/classical/shiji-02.md",
+      "period": "2026-07 — 2026-10",
+      "tags": [
+        "文言",
+        "通史",
+        "纪传"
+      ]
+    },
+    {
+      "id": "shiji-03",
+      "work": "classical-biographical",
+      "key": "shiji-03",
+      "group": "classical",
+      "title": "ThreeMind 史记 · 卷三　感官与器物列传",
+      "path": "docs/zh/history/classical/shiji-03.md",
+      "period": "2026-07 — 2026-10",
+      "tags": [
+        "文言",
+        "通史",
+        "纪传"
+      ]
+    },
+    {
+      "id": "shiji-04",
+      "work": "classical-biographical",
+      "key": "shiji-04",
+      "group": "classical",
+      "title": "ThreeMind 史记 · 卷四　诸试与自主活动列传",
+      "path": "docs/zh/history/classical/shiji-04.md",
+      "period": "2026-08 — 2026-09",
+      "tags": [
+        "文言",
+        "通史",
+        "纪传"
+      ]
+    },
+    {
+      "id": "shiji-05",
+      "work": "classical-biographical",
+      "key": "shiji-05",
+      "group": "classical",
+      "title": "ThreeMind 史记 · 卷五　列核与修史书",
+      "path": "docs/zh/history/classical/shiji-05.md",
+      "period": "2026-09 — 2026-10",
+      "tags": [
+        "文言",
+        "通史",
+        "纪传"
+      ]
+    },
+    {
+      "id": "shiji-06",
+      "work": "classical-biographical",
+      "key": "shiji-06",
+      "group": "classical",
+      "title": "ThreeMind 史记 · 卷六　自主意识与诸发现列传",
+      "path": "docs/zh/history/classical/shiji-06.md",
+      "period": "2026-07 — 2026-10-15; 补编2026-10-15",
+      "tags": [
+        "文言",
+        "发现",
+        "自主意识",
+        "验证",
+        "纪传"
+      ]
+    },
+    {
+      "id": "tongjian-01",
+      "work": "classical-chronological",
+      "key": "tongjian-01",
+      "group": "classical",
+      "title": "ThreeMind 通鉴 · 卷一　肇始与定名",
+      "path": "docs/zh/history/classical/tongjian-01.md",
+      "period": "2026-07",
+      "tags": [
+        "文言",
+        "通史",
+        "编年"
+      ]
+    },
+    {
+      "id": "tongjian-02",
+      "work": "classical-chronological",
+      "key": "tongjian-02",
+      "group": "classical",
+      "title": "ThreeMind 通鉴 · 卷二　观测与重构",
+      "path": "docs/zh/history/classical/tongjian-02.md",
+      "period": "2026-08 — 2026-09-08",
+      "tags": [
+        "文言",
+        "通史",
+        "编年"
+      ]
+    },
+    {
+      "id": "tongjian-03",
+      "work": "classical-chronological",
+      "key": "tongjian-03",
+      "group": "classical",
+      "title": "ThreeMind 通鉴 · 卷三　配对、诸核与内动",
+      "path": "docs/zh/history/classical/tongjian-03.md",
+      "period": "2026-09-09 — 2026-09-29",
+      "tags": [
+        "文言",
+        "通史",
+        "编年"
+      ]
+    },
+    {
+      "id": "tongjian-04",
+      "work": "classical-chronological",
+      "key": "tongjian-04",
+      "group": "classical",
+      "title": "ThreeMind 通鉴 · 卷四　校器、追源与续史",
+      "path": "docs/zh/history/classical/tongjian-04.md",
+      "period": "2026-09-29 — 2026-10-05",
+      "tags": [
+        "文言",
+        "通史",
+        "编年"
+      ]
+    },
+    {
+      "id": "tongjian-05",
+      "work": "classical-chronological",
+      "key": "tongjian-05",
+      "group": "classical",
+      "title": "ThreeMind 通鉴 · 卷五　猜想成验与诸发现补纪",
+      "path": "docs/zh/history/classical/tongjian-05.md",
+      "period": "2026-07 — 2026-10-15; 补编2026-10-15",
+      "tags": [
+        "文言",
+        "发现",
+        "自主意识",
+        "验证",
+        "编年"
+      ]
+    },
+    {
+      "id": "zh-language-grounding-20261004",
+      "work": "modern-zh",
+      "key": "language-grounding-20261004",
+      "group": "sources",
+      "title": "史料：多感官对应与语言",
+      "path": "docs/zh/history/sources/2026-10-04-language-grounding.md",
+      "period": "2026-10-04",
+      "tags": [
+        "语言",
+        "多感官",
+        "讨论"
+      ]
+    },
+    {
+      "id": "en-language-grounding-20261004",
+      "work": "modern-en",
+      "key": "language-grounding-20261004",
+      "group": "sources",
+      "title": "Source: multisensory correspondences and language",
+      "path": "docs/en/history/sources/2026-10-04-language-grounding.md",
+      "period": "2026-10-04",
+      "tags": [
+        "language",
+        "multisensory",
+        "dialogue"
+      ]
+    },
+    {
+      "id": "zh-chronicles/08-embodied-communication",
+      "work": "modern-zh",
+      "key": "chronicles/08-embodied-communication",
+      "group": "chronicles",
+      "title": "卷八　先使彼此听见，再求人类能懂",
+      "path": "docs/zh/history/chronicles/08-embodied-communication.md",
+      "period": "2026-10-05 — 2026-10-08",
+      "tags": [
+        "个体交流",
+        "ocean",
+        "E53"
+      ]
+    },
+    {
+      "id": "en-chronicles/08-embodied-communication",
+      "work": "modern-en",
+      "key": "chronicles/08-embodied-communication",
+      "group": "chronicles",
+      "title": "Volume VIII — Embodied inter-individual communication",
+      "path": "docs/en/history/chronicles/08-embodied-communication.md",
+      "period": "2026-10-05 — 2026-10-08",
+      "tags": [
+        "communication",
+        "ocean",
+        "E53"
+      ]
+    },
+    {
+      "id": "zh-memory-content-20261007",
+      "work": "modern-zh",
+      "key": "memory-content-20261007",
+      "group": "sources",
+      "title": "史料：短时痕迹与记忆内容",
+      "path": "docs/zh/history/sources/2026-10-07-memory-content.md",
+      "period": "2026-10-07",
+      "tags": [
+        "E58",
+        "memory",
+        "discussion"
+      ]
+    },
+    {
+      "id": "en-memory-content-20261007",
+      "work": "modern-en",
+      "key": "memory-content-20261007",
+      "group": "sources",
+      "title": "Source: short traces and memory content",
+      "path": "docs/en/history/sources/2026-10-07-memory-content.md",
+      "period": "2026-10-07",
+      "tags": [
+        "E58",
+        "memory",
+        "discussion"
+      ]
+    },
+    {
+      "id": "zh-active-vision-20261007",
+      "work": "modern-zh",
+      "key": "active-vision-20261007",
+      "group": "sources",
+      "title": "史料：视觉焦点与扫视",
+      "path": "docs/zh/history/sources/2026-10-07-active-vision.md",
+      "period": "2026-10-07",
+      "tags": [
+        "E59",
+        "vision",
+        "discussion"
+      ]
+    },
+    {
+      "id": "en-active-vision-20261007",
+      "work": "modern-en",
+      "key": "active-vision-20261007",
+      "group": "sources",
+      "title": "Source: visual focus and saccades",
+      "path": "docs/en/history/sources/2026-10-07-active-vision.md",
+      "period": "2026-10-07",
+      "tags": [
+        "E59",
+        "vision",
+        "discussion"
+      ]
+    },
+    {
+      "id": "zh-eye-hand-learning-20261007",
+      "work": "modern-zh",
+      "key": "eye-hand-learning-20261007",
+      "group": "sources",
+      "title": "史料：眼动、注视与共同运动中枢",
+      "path": "docs/zh/history/sources/2026-10-07-eye-hand-learning.md",
+      "period": "2026-10-07",
+      "tags": [
+        "E60",
+        "motor",
+        "discussion"
+      ]
+    },
+    {
+      "id": "en-eye-hand-learning-20261007",
+      "work": "modern-en",
+      "key": "eye-hand-learning-20261007",
+      "group": "sources",
+      "title": "Source: eye movements and a shared motor adapter",
+      "path": "docs/en/history/sources/2026-10-07-eye-hand-learning.md",
+      "period": "2026-10-07",
+      "tags": [
+        "E60",
+        "motor",
+        "discussion"
+      ]
+    },
+    {
+      "id": "zh-body-exploration-20261007",
+      "work": "modern-zh",
+      "key": "body-exploration-20261007",
+      "group": "sources",
+      "title": "史料：学前探索与先天偏好",
+      "path": "docs/zh/history/sources/2026-10-07-body-exploration.md",
+      "period": "2026-10-07",
+      "tags": [
+        "E61",
+        "development",
+        "discussion"
+      ]
+    },
+    {
+      "id": "en-body-exploration-20261007",
+      "work": "modern-en",
+      "key": "body-exploration-20261007",
+      "group": "sources",
+      "title": "Source: bodily exploration and innate preferences",
+      "path": "docs/en/history/sources/2026-10-07-body-exploration.md",
+      "period": "2026-10-07",
+      "tags": [
+        "E61",
+        "development",
+        "discussion"
+      ]
+    },
+    {
+      "id": "zh-system-continuity-20261007",
+      "work": "modern-zh",
+      "key": "system-continuity-20261007",
+      "group": "sources",
+      "title": "史料：整体连续性纠错与可用基线",
+      "path": "docs/zh/history/sources/2026-10-07-system-continuity.md",
+      "period": "2026-10-07",
+      "tags": [
+        "E61",
+        "R40",
+        "continuity",
+        "correction"
+      ]
+    },
+    {
+      "id": "en-system-continuity-20261007",
+      "work": "modern-en",
+      "key": "system-continuity-20261007",
+      "group": "sources",
+      "title": "Source: system continuity and the working baseline",
+      "path": "docs/en/history/sources/2026-10-07-system-continuity.md",
+      "period": "2026-10-07",
+      "tags": [
+        "E61",
+        "R40",
+        "continuity",
+        "correction"
+      ]
+    },
+    {
+      "id": "zh-continuous-development-20261007",
+      "work": "modern-zh",
+      "key": "continuous-development-20261007",
+      "group": "sources",
+      "title": "史料：保持整体后再重试",
+      "path": "docs/zh/history/sources/2026-10-07-continuous-development.md",
+      "period": "2026-10-07",
+      "tags": [
+        "E62",
+        "R40",
+        "continuity",
+        "development"
+      ]
+    },
+    {
+      "id": "en-continuous-development-20261007",
+      "work": "modern-en",
+      "key": "continuous-development-20261007",
+      "group": "sources",
+      "title": "Source: preserve the whole system before retrying",
+      "path": "docs/en/history/sources/2026-10-07-continuous-development.md",
+      "period": "2026-10-07",
+      "tags": [
+        "E62",
+        "R40",
+        "continuity",
+        "development"
+      ]
+    },
+    {
+      "id": "zh-rehearsal-centered-20261007",
+      "work": "modern-zh",
+      "key": "rehearsal-centered-20261007",
+      "group": "sources",
+      "title": "史料：纠错不忘旧，先把认识与寻找分开",
+      "path": "docs/zh/history/sources/2026-10-07-rehearsal-centered.md",
+      "period": "2026-10-07",
+      "tags": [
+        "E63",
+        "R41",
+        "R39",
+        "rehearsal",
+        "recognition"
+      ]
+    },
+    {
+      "id": "en-rehearsal-centered-20261007",
+      "work": "modern-en",
+      "key": "rehearsal-centered-20261007",
+      "group": "sources",
+      "title": "Source: correcting without forgetting, recognizing before searching",
+      "path": "docs/en/history/sources/2026-10-07-rehearsal-centered.md",
+      "period": "2026-10-07",
+      "tags": [
+        "E63",
+        "R41",
+        "R39",
+        "rehearsal",
+        "recognition"
+      ]
+    },
+    {
+      "id": "zh-09-adaptive-retention",
+      "work": "modern-zh",
+      "key": "09-adaptive-retention",
+      "group": "chronicles",
+      "title": "卷九　使历用者久存，也使久废者能忘",
+      "path": "docs/zh/history/chronicles/09-adaptive-retention.md",
+      "period": "2026-10-08",
+      "tags": [
+        "memory",
+        "retention",
+        "R07",
+        "R40",
+        "R41",
+        "locality",
+        "repair",
+        "telemetry",
+        "text",
+        "kernel-comparison"
+      ]
+    },
+    {
+      "id": "zh-2026-10-08-adaptive-retention",
+      "work": "modern-zh",
+      "key": "2026-10-08-adaptive-retention",
+      "group": "sources",
+      "title": "史料：统一支持度自动保持的选择",
+      "path": "docs/zh/history/sources/2026-10-08-adaptive-retention.md",
+      "period": "2026-10-08",
+      "tags": [
+        "memory",
+        "retention",
+        "R07",
+        "R40",
+        "R41",
+        "locality",
+        "repair",
+        "telemetry",
+        "text",
+        "kernel-comparison"
+      ]
+    },
+    {
+      "id": "en-09-adaptive-retention",
+      "work": "modern-en",
+      "key": "09-adaptive-retention",
+      "group": "chronicles",
+      "title": "Volume IX — Activity-dependent retention and reclamation",
+      "path": "docs/en/history/chronicles/09-adaptive-retention.md",
+      "period": "2026-10-08",
+      "tags": [
+        "memory",
+        "retention",
+        "R07",
+        "R40",
+        "R41",
+        "locality",
+        "repair",
+        "telemetry",
+        "text",
+        "kernel-comparison"
+      ]
+    },
+    {
+      "id": "en-2026-10-08-adaptive-retention",
+      "work": "modern-en",
+      "key": "2026-10-08-adaptive-retention",
+      "group": "sources",
+      "title": "Source: selecting unified automatic support retention",
+      "path": "docs/en/history/sources/2026-10-08-adaptive-retention.md",
+      "period": "2026-10-08",
+      "tags": [
+        "memory",
+        "retention",
+        "R07",
+        "R40",
+        "R41",
+        "locality",
+        "repair",
+        "telemetry",
+        "text",
+        "kernel-comparison"
+      ]
+    },
+    {
+      "id": "zh-10-local-events",
+      "work": "modern-zh",
+      "key": "10-local-events",
+      "group": "chronicles",
+      "title": "卷十　让各点自为，而不以改架构冒称记得更久",
+      "path": "docs/zh/history/chronicles/10-local-events.md",
+      "period": "2026-10-09",
+      "tags": [
+        "locality",
+        "memory",
+        "retention",
+        "R07",
+        "R40",
+        "R41",
+        "kernel-comparison"
+      ]
+    },
+    {
+      "id": "zh-2026-10-09-local-events",
+      "work": "modern-zh",
+      "key": "2026-10-09-local-events",
+      "group": "sources",
+      "title": "史料：局部运算改造与旧版可创建的边界",
+      "path": "docs/zh/history/sources/2026-10-09-local-events.md",
+      "period": "2026-10-09",
+      "tags": [
+        "locality",
+        "memory",
+        "retention",
+        "R07",
+        "R40",
+        "R41",
+        "kernel-comparison"
+      ]
+    },
+    {
+      "id": "en-10-local-events",
+      "work": "modern-en",
+      "key": "10-local-events",
+      "group": "chronicles",
+      "title": "Volume X — Object-local dynamics do not establish longer memory",
+      "path": "docs/en/history/chronicles/10-local-events.md",
+      "period": "2026-10-09",
+      "tags": [
+        "locality",
+        "memory",
+        "retention",
+        "R07",
+        "R40",
+        "R41",
+        "kernel-comparison"
+      ]
+    },
+    {
+      "id": "en-2026-10-09-local-events",
+      "work": "modern-en",
+      "key": "2026-10-09-local-events",
+      "group": "sources",
+      "title": "Source: local dynamics and preservation of creatable old kernels",
+      "path": "docs/en/history/sources/2026-10-09-local-events.md",
+      "period": "2026-10-09",
+      "tags": [
+        "locality",
+        "memory",
+        "retention",
+        "R07",
+        "R40",
+        "R41",
+        "kernel-comparison"
+      ]
+    },
+    {
+      "id": "zh-11-data-management",
+      "work": "modern-zh",
+      "key": "11-data-management",
+      "group": "chronicles",
+      "title": "卷十一　原始证据离开 Git，数据管理仍须保持完整",
+      "path": "docs/zh/history/chronicles/11-data-management.md",
+      "period": "2026-10-09",
+      "tags": [
+        "data-management",
+        "storage",
+        "data-bundle",
+        "evidence",
+        "continuity",
+        "T10"
+      ]
+    },
+    {
+      "id": "zh-2026-10-09-data-management",
+      "work": "modern-zh",
+      "key": "2026-10-09-data-management",
+      "group": "sources",
+      "title": "史料：数据管理、正式资料包与存储补强的批准范围",
+      "path": "docs/zh/history/sources/2026-10-09-data-management.md",
+      "period": "2026-10-09",
+      "tags": [
+        "data-management",
+        "storage",
+        "data-bundle",
+        "evidence",
+        "continuity",
+        "T10"
+      ]
+    },
+    {
+      "id": "en-11-data-management",
+      "work": "modern-en",
+      "key": "11-data-management",
+      "group": "chronicles",
+      "title": "Volume XI — Removing raw evidence from Git requires complete data management",
+      "path": "docs/en/history/chronicles/11-data-management.md",
+      "period": "2026-10-09",
+      "tags": [
+        "data-management",
+        "storage",
+        "data-bundle",
+        "evidence",
+        "continuity",
+        "T10"
+      ]
+    },
+    {
+      "id": "en-2026-10-09-data-management",
+      "work": "modern-en",
+      "key": "2026-10-09-data-management",
+      "group": "sources",
+      "title": "Source: approved scope for data management, formal bundles and storage safeguards",
+      "path": "docs/en/history/sources/2026-10-09-data-management.md",
+      "period": "2026-10-09",
+      "tags": [
+        "data-management",
+        "storage",
+        "data-bundle",
+        "evidence",
+        "continuity",
+        "T10"
+      ]
+    },
+    {
+      "id": "zh-chronicles-12",
+      "work": "modern-zh",
+      "key": "chronicles-12",
+      "group": "chronicles",
+      "title": "卷十二：实验同等记载，原件与索引相连",
+      "path": "docs/zh/history/chronicles/12-research-records.md",
+      "period": "2026-10-10",
+      "tags": [
+        "research-records",
+        "evidence",
+        "backfill",
+        "T11"
+      ]
+    },
+    {
+      "id": "zh-2026-10-10-research-records",
+      "work": "modern-zh",
+      "key": "2026-10-10-research-records",
+      "group": "sources",
+      "title": "史料：实验记录同等要求与补全授权",
+      "path": "docs/zh/history/sources/2026-10-10-research-records.md",
+      "period": "2026-10-10",
+      "tags": [
+        "research-records",
+        "evidence",
+        "backfill",
+        "T11"
+      ]
+    },
+    {
+      "id": "en-chronicles-12",
+      "work": "modern-en",
+      "key": "chronicles-12",
+      "group": "chronicles",
+      "title": "Volume XII: equal experimental records connect the index to originals",
+      "path": "docs/en/history/chronicles/12-research-records.md",
+      "period": "2026-10-10",
+      "tags": [
+        "research-records",
+        "evidence",
+        "backfill",
+        "T11"
+      ]
+    },
+    {
+      "id": "en-2026-10-10-research-records",
+      "work": "modern-en",
+      "key": "2026-10-10-research-records",
+      "group": "sources",
+      "title": "Source: equal recording requirements and backfill authorization",
+      "path": "docs/en/history/sources/2026-10-10-research-records.md",
+      "period": "2026-10-10",
+      "tags": [
+        "research-records",
+        "evidence",
+        "backfill",
+        "T11"
+      ]
+    },
+    {
+      "id": "zh-2026-10-10-storage-root",
+      "work": "modern-zh",
+      "key": "2026-10-10-storage-root",
+      "group": "sources",
+      "title": "2026-10-10：存量统一存储与磁盘清理边界",
+      "path": "docs/zh/history/sources/2026-10-10-storage-root.md",
+      "period": "2026-10-10",
+      "tags": [
+        "storage",
+        "migration",
+        "T10",
+        "T11"
+      ]
+    },
+    {
+      "id": "en-2026-10-10-storage-root",
+      "work": "modern-en",
+      "key": "2026-10-10-storage-root",
+      "group": "sources",
+      "title": "October 10, 2026: storage relocation and cleanup boundaries",
+      "path": "docs/en/history/sources/2026-10-10-storage-root.md",
+      "period": "2026-10-10",
+      "tags": [
+        "storage",
+        "migration",
+        "T10",
+        "T11"
+      ]
+    },
+    {
+      "id": "zh-2026-10-11-platform-plan-original",
+      "work": "modern-zh",
+      "key": "2026-10-11-platform-plan-original",
+      "group": "sources",
+      "title": "史料：用户重供的层级、导航与工作台原计划",
+      "path": "docs/zh/history/sources/2026-10-11-platform-plan-original.md",
+      "period": "2026-10-11",
+      "tags": [
+        "platform",
+        "workbench",
+        "permissions",
+        "T14",
+        "plan-revision"
+      ]
+    },
+    {
+      "id": "en-2026-10-11-platform-plan-original",
+      "work": "modern-en",
+      "key": "2026-10-11-platform-plan-original",
+      "group": "sources",
+      "title": "Source: the user's original hierarchy, navigation and workbench plan",
+      "path": "docs/en/history/sources/2026-10-11-platform-plan-original.md",
+      "period": "2026-10-11",
+      "tags": [
+        "platform",
+        "workbench",
+        "permissions",
+        "T14",
+        "plan-revision"
+      ]
+    },
+    {
+      "id": "zh-2026-10-11-platform-implementation",
+      "work": "modern-zh",
+      "key": "2026-10-11-platform-implementation",
+      "group": "sources",
+      "title": "史料：平台实施、授权与持续运行决定",
+      "path": "docs/zh/history/sources/2026-10-11-platform-implementation.md",
+      "period": "2026-10-11",
+      "tags": [
+        "platform",
+        "workbench",
+        "permissions",
+        "T14",
+        "implementation"
+      ]
+    },
+    {
+      "id": "en-2026-10-11-platform-implementation",
+      "work": "modern-en",
+      "key": "2026-10-11-platform-implementation",
+      "group": "sources",
+      "title": "Source: platform implementation, access and continued execution",
+      "path": "docs/en/history/sources/2026-10-11-platform-implementation.md",
+      "period": "2026-10-11",
+      "tags": [
+        "platform",
+        "workbench",
+        "permissions",
+        "T14",
+        "implementation"
+      ]
+    },
+    {
+      "id": "zh-2026-10-11-kernel-creation-hierarchy",
+      "work": "modern-zh",
+      "key": "2026-10-11-kernel-creation-hierarchy",
+      "group": "sources",
+      "title": "史料：内核身份、模板层次与历史执行恢复",
+      "path": "docs/zh/history/sources/2026-10-11-kernel-creation-hierarchy.md",
+      "period": "2026-10-11",
+      "tags": [
+        "kernel",
+        "templates",
+        "T14",
+        "implementation"
+      ]
+    },
+    {
+      "id": "en-2026-10-11-kernel-creation-hierarchy",
+      "work": "modern-en",
+      "key": "2026-10-11-kernel-creation-hierarchy",
+      "group": "sources",
+      "title": "Source: kernel identity, template hierarchy and historical execution",
+      "path": "docs/en/history/sources/2026-10-11-kernel-creation-hierarchy.md",
+      "period": "2026-10-11",
+      "tags": [
+        "kernel",
+        "templates",
+        "T14",
+        "implementation"
+      ]
+    },
+    {
+      "id": "zh-2026-10-11-memory31-expiry",
+      "work": "modern-zh",
+      "key": "2026-10-11-memory31-expiry",
+      "group": "sources",
+      "title": "史料：/3.1局部回收修复与/4核查",
+      "path": "docs/zh/history/sources/2026-10-11-memory31-expiry.md",
+      "period": "2026-10-11",
+      "tags": [
+        "kernel",
+        "memory",
+        "T12",
+        "expiry"
+      ]
+    },
+    {
+      "id": "en-2026-10-11-memory31-expiry",
+      "work": "modern-en",
+      "key": "2026-10-11-memory31-expiry",
+      "group": "sources",
+      "title": "Source: /3.1 local reclamation correction and /4 audit",
+      "path": "docs/en/history/sources/2026-10-11-memory31-expiry.md",
+      "period": "2026-10-11",
+      "tags": [
+        "kernel",
+        "memory",
+        "T12",
+        "expiry"
+      ]
+    },
+    {
+      "id": "zh-2026-10-11-shape-color-comparison",
+      "work": "modern-zh",
+      "key": "2026-10-11-shape-color-comparison",
+      "group": "sources",
+      "title": "史料：E67三版内核、四组形色对照",
+      "path": "docs/zh/history/sources/2026-10-11-shape-color-comparison.md",
+      "period": "2026-10-11",
+      "tags": [
+        "E67",
+        "R07",
+        "R40",
+        "R41",
+        "shape-color",
+        "comparison"
+      ]
+    },
+    {
+      "id": "en-2026-10-11-shape-color-comparison",
+      "work": "modern-en",
+      "key": "2026-10-11-shape-color-comparison",
+      "group": "sources",
+      "title": "Source: E67 three-kernel, four-condition shape/color comparison",
+      "path": "docs/en/history/sources/2026-10-11-shape-color-comparison.md",
+      "period": "2026-10-11",
+      "tags": [
+        "E67",
+        "R07",
+        "R40",
+        "R41",
+        "shape-color",
+        "comparison"
+      ]
+    },
+    {
+      "id": "zh-chronicles/13-shape-color-causality",
+      "work": "modern-zh",
+      "key": "chronicles/13-shape-color-causality",
+      "group": "chronicles",
+      "title": "卷十三　形色较试，分辨意识网络与表达器",
+      "path": "docs/zh/history/chronicles/13-shape-color-causality.md",
+      "period": "2026-10-11 — 2026-10-12",
+      "tags": [
+        "E67",
+        "R39",
+        "R40",
+        "R41",
+        "causality"
+      ]
+    },
+    {
+      "id": "en-chronicles/13-shape-color-causality",
+      "work": "modern-en",
+      "key": "chronicles/13-shape-color-causality",
+      "group": "chronicles",
+      "title": "Volume XIII — Shape/color comparisons and separating Core from its reader",
+      "path": "docs/en/history/chronicles/13-shape-color-causality.md",
+      "period": "2026-10-11 — 2026-10-12",
+      "tags": [
+        "E67",
+        "R39",
+        "R40",
+        "R41",
+        "causality"
+      ]
+    },
+    {
+      "id": "zh-2026-10-13-continuous-shape-color",
+      "work": "modern-zh",
+      "key": "2026-10-13-continuous-shape-color",
+      "group": "sources",
+      "title": "史料：E68新空白个体与连续形色实验",
+      "path": "docs/zh/history/sources/2026-10-13-continuous-shape-color.md",
+      "period": "2026-10-13",
+      "tags": [
+        "E68",
+        "R39",
+        "R40",
+        "continuity",
+        "shape-color"
+      ]
+    },
+    {
+      "id": "en-2026-10-13-continuous-shape-color",
+      "work": "modern-en",
+      "key": "2026-10-13-continuous-shape-color",
+      "group": "sources",
+      "title": "Source: E68 blank births and continuous shape/color tests",
+      "path": "docs/en/history/sources/2026-10-13-continuous-shape-color.md",
+      "period": "2026-10-13",
+      "tags": [
+        "E68",
+        "R39",
+        "R40",
+        "continuity",
+        "shape-color"
+      ]
+    },
+    {
+      "id": "zh-2026-10-13-kernel-performance-audit",
+      "work": "modern-zh",
+      "key": "2026-10-13-kernel-performance-audit",
+      "group": "sources",
+      "title": "史料：局部运算性能核查与实现边界",
+      "path": "docs/zh/history/sources/2026-10-13-kernel-performance-audit.md",
+      "period": "2026-10-13",
+      "tags": [
+        "performance",
+        "locality",
+        "E67",
+        "E68",
+        "R07"
+      ]
+    },
+    {
+      "id": "en-2026-10-13-kernel-performance-audit",
+      "work": "modern-en",
+      "key": "2026-10-13-kernel-performance-audit",
+      "group": "sources",
+      "title": "Source: local computation performance and implementation boundaries",
+      "path": "docs/en/history/sources/2026-10-13-kernel-performance-audit.md",
+      "period": "2026-10-13",
+      "tags": [
+        "performance",
+        "locality",
+        "E67",
+        "E68",
+        "R07"
+      ]
+    },
+    {
+      "id": "zh-2026-10-13-eye-hand-shape-color",
+      "work": "modern-zh",
+      "key": "2026-10-13-eye-hand-shape-color",
+      "group": "sources",
+      "title": "史料：连续眼动、手眼协调与形色三阶段重试",
+      "path": "docs/zh/history/sources/2026-10-13-eye-hand-shape-color.md",
+      "period": "2026-10-13",
+      "tags": [
+        "E69",
+        "R36",
+        "R39",
+        "R40",
+        "continuity",
+        "eye-hand",
+        "R11",
+        "functional-regions",
+        "gaze-naming"
+      ]
+    },
+    {
+      "id": "zh-sources/2026-10-15-discovery-history",
+      "work": "modern-zh",
+      "key": "sources/2026-10-15-discovery-history",
+      "group": "sources",
+      "title": "2026-10-15　重要猜想、验证与发现的补史依据",
+      "path": "docs/zh/history/sources/2026-10-15-discovery-history.md",
+      "period": "2026-10-15 compilation; July–October events",
+      "tags": [
+        "史料",
+        "自主意识",
+        "发现",
+        "判据",
+        "sources"
+      ]
+    },
+    {
+      "id": "en-2026-10-13-eye-hand-shape-color",
+      "work": "modern-en",
+      "key": "2026-10-13-eye-hand-shape-color",
+      "group": "sources",
+      "title": "Source: continuous eye movement, coordination and shape/color retry",
+      "path": "docs/en/history/sources/2026-10-13-eye-hand-shape-color.md",
+      "period": "2026-10-13",
+      "tags": [
+        "E69",
+        "R36",
+        "R39",
+        "R40",
+        "continuity",
+        "eye-hand",
+        "R11",
+        "functional-regions",
+        "gaze-naming"
+      ]
+    },
+    {
+      "id": "en-sources/2026-10-15-discovery-history",
+      "work": "modern-en",
+      "key": "sources/2026-10-15-discovery-history",
+      "group": "sources",
+      "title": "15 October 2026 — Sources for restoring the history of hypotheses and discoveries",
+      "path": "docs/en/history/sources/2026-10-15-discovery-history.md",
+      "period": "2026-10-15 compilation; July–October events",
+      "tags": [
+        "史料",
+        "自主意识",
+        "发现",
+        "判据",
+        "sources"
+      ]
+    },
+    {
+      "id": "zh-chronicles/15-mechanism-discovery",
+      "work": "modern-zh",
+      "key": "chronicles/15-mechanism-discovery",
+      "group": "chronicles",
+      "title": "卷十五 从已有发现转向机制预测与证据补全",
+      "path": "docs/zh/history/chronicles/15-mechanism-discovery.md",
+      "period": "2026-10-16",
+      "tags": [
+        "mechanisms",
+        "research-plan",
+        "M1",
+        "M2",
+        "M3",
+        "preparation",
+        "conclusions",
+        "report-revisions"
+      ]
+    },
+    {
+      "id": "zh-sources/2026-10-16-mechanism-discovery",
+      "work": "modern-zh",
+      "key": "sources/2026-10-16-mechanism-discovery",
+      "group": "sources",
+      "title": "2026-10-16机制发现计划的授权与边界",
+      "path": "docs/zh/history/sources/2026-10-16-mechanism-discovery.md",
+      "period": "2026-10-16",
+      "tags": [
+        "mechanisms",
+        "research-plan",
+        "M1",
+        "M2",
+        "M3",
+        "preparation",
+        "conclusions",
+        "report-revisions"
+      ]
+    },
+    {
+      "id": "en-chronicles/15-mechanism-discovery",
+      "work": "modern-en",
+      "key": "chronicles/15-mechanism-discovery",
+      "group": "chronicles",
+      "title": "Volume XV From findings to mechanism predictions",
+      "path": "docs/en/history/chronicles/15-mechanism-discovery.md",
+      "period": "2026-10-16",
+      "tags": [
+        "mechanisms",
+        "research-plan",
+        "M1",
+        "M2",
+        "M3",
+        "preparation",
+        "conclusions",
+        "report-revisions"
+      ]
+    },
+    {
+      "id": "en-sources/2026-10-16-mechanism-discovery",
+      "work": "modern-en",
+      "key": "sources/2026-10-16-mechanism-discovery",
+      "group": "sources",
+      "title": "16 October2026 mechanism-program authorization and boundaries",
+      "path": "docs/en/history/sources/2026-10-16-mechanism-discovery.md",
+      "period": "2026-10-16",
+      "tags": [
+        "mechanisms",
+        "research-plan",
+        "M1",
+        "M2",
+        "M3",
+        "preparation",
+        "conclusions",
+        "report-revisions"
+      ]
+    },
+    {
+      "id": "zh-sources/2026-11-01-sat-pilot",
+      "work": "modern-zh",
+      "key": "sources/2026-11-01-sat-pilot",
+      "group": "sources",
+      "title": "2026-11-01：3-SAT尝试的授权、设计与证据来源",
+      "path": "docs/zh/history/sources/2026-11-01-sat-pilot.md",
+      "period": "2026-11-01",
+      "tags": [
+        "3-SAT",
+        "R42",
+        "learning",
+        "local-search",
+        "causal-comparison"
+      ]
+    },
+    {
+      "id": "en-sources/2026-11-01-sat-pilot",
+      "work": "modern-en",
+      "key": "sources/2026-11-01-sat-pilot",
+      "group": "sources",
+      "title": "1 November 2026: Authorization and evidence sources for the 3-SAT pilot",
+      "path": "docs/en/history/sources/2026-11-01-sat-pilot.md",
+      "period": "2026-11-01",
+      "tags": [
+        "3-SAT",
+        "R42",
+        "learning",
+        "local-search",
+        "causal-comparison"
+      ]
+    },
+    {
+      "id": "zh-chronicles/16-sat-pilot",
+      "work": "modern-zh",
+      "key": "chronicles/16-sat-pilot",
+      "group": "chronicles",
+      "title": "卷十六 从局部经历到3-SAT求解的首次检验",
+      "path": "docs/zh/history/chronicles/16-sat-pilot.md",
+      "period": "2026-11-01",
+      "tags": [
+        "3-SAT",
+        "R42",
+        "learning",
+        "local-search",
+        "causal-comparison"
+      ]
+    },
+    {
+      "id": "en-chronicles/16-sat-pilot",
+      "work": "modern-en",
+      "key": "chronicles/16-sat-pilot",
+      "group": "chronicles",
+      "title": "Volume XVI A first test from local experience to 3-SAT search",
+      "path": "docs/en/history/chronicles/16-sat-pilot.md",
+      "period": "2026-11-01",
+      "tags": [
+        "3-SAT",
+        "R42",
+        "learning",
+        "local-search",
+        "causal-comparison"
+      ]
+    },
+    {
+      "id": "zh-17-context-revision",
+      "work": "modern-zh",
+      "key": "chronicles/17-context-revision",
+      "group": "chronicles",
+      "title": "卷十七 经历如何组织判断，又如何因新证据改变",
+      "path": "docs/zh/history/chronicles/17-context-revision.md",
+      "period": "2026-11-09",
+      "tags": [
+        "research",
+        "context",
+        "R43"
+      ]
+    },
+    {
+      "id": "zh-2026-11-09-context-revision",
+      "work": "modern-zh",
+      "key": "sources/2026-11-09-context-revision",
+      "group": "sources",
+      "title": "2026-11-09：情境判断与主动观察的授权及来源",
+      "path": "docs/zh/history/sources/2026-11-09-context-revision.md",
+      "period": "2026-11-09",
+      "tags": [
+        "research",
+        "context",
+        "R43"
+      ]
+    },
+    {
+      "id": "en-17-context-revision",
+      "work": "modern-en",
+      "key": "chronicles/17-context-revision",
+      "group": "chronicles",
+      "title": "Chapter 17: how experience organizes judgments and new evidence changes them",
+      "path": "docs/en/history/chronicles/17-context-revision.md",
+      "period": "2026-11-09",
+      "tags": [
+        "research",
+        "context",
+        "R43"
+      ]
+    },
+    {
+      "id": "en-2026-11-09-context-revision",
+      "work": "modern-en",
+      "key": "sources/2026-11-09-context-revision",
+      "group": "sources",
+      "title": "2026-11-09: context judgments and active observation",
+      "path": "docs/en/history/sources/2026-11-09-context-revision.md",
+      "period": "2026-11-09",
+      "tags": [
+        "research",
+        "context",
+        "R43"
+      ]
+    },
+    {
+      "id": "zh-2026-11-09-retention-causality",
+      "work": "modern-zh",
+      "key": "sources/2026-11-09-retention-causality",
+      "group": "sources",
+      "title": "2026-11-09：保持时间的授权与因果对照",
+      "path": "docs/zh/history/sources/2026-11-09-retention-causality.md",
+      "period": "2026-11-09",
+      "tags": [
+        "research",
+        "retention",
+        "R44"
+      ]
+    },
+    {
+      "id": "en-2026-11-09-retention-causality",
+      "work": "modern-en",
+      "key": "sources/2026-11-09-retention-causality",
+      "group": "sources",
+      "title": "2026-11-09: authorization and causal retention comparisons",
+      "path": "docs/en/history/sources/2026-11-09-retention-causality.md",
+      "period": "2026-11-09",
+      "tags": [
+        "research",
+        "retention",
+        "R44"
+      ]
+    },
+    {
+      "id": "zh-18-kernel53",
+      "work": "modern-zh",
+      "key": "chronicles/18-kernel53",
+      "group": "chronicles",
+      "title": "卷十八 将衰减还给一个权重和一个年龄",
+      "path": "docs/zh/history/chronicles/18-kernel53.md",
+      "period": "2026-11-11",
+      "tags": [
+        "kernel",
+        "decay",
+        "R47"
+      ]
+    },
+    {
+      "id": "en-18-kernel53",
+      "work": "modern-en",
+      "key": "chronicles/18-kernel53",
+      "group": "chronicles",
+      "title": "Chapter 18: one weight and one decay age",
+      "path": "docs/en/history/chronicles/18-kernel53.md",
+      "period": "2026-11-11",
+      "tags": [
+        "kernel",
+        "decay",
+        "R47"
+      ]
+    }
+  ],
+  "public_edition": {
+    "date": "2026-11-11",
+    "scope": "Public research history; manuscript and submission records omitted.",
+    "omitted_entry_count": 4,
+    "omission_reason": "Manuscript files and manuscript-writing/submission records are excluded from this public catalogue."
+  }
+}

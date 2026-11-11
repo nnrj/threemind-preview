@@ -1,0 +1,3363 @@
+{
+  "project_id": "7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd",
+  "calibrations": [
+    {
+      "id": "9b3dae4b-fc29-4431-b990-e3f5877d8ddc",
+      "run_id": "c6dd1a07-3237-4fe9-8ed4-667474775c6f",
+      "checkpoint_id": "ba17ca66-33b0-4e44-b4d6-41c3b44d8eb7",
+      "source_hash": "b29f9bde90d0543c1c8a938c51b056b38ed4dceb57812d0632dceb8c13919aec",
+      "protocol": {
+        "cues": [
+          "K的爷爷是谁？",
+          "K的父亲是谁？",
+          "K",
+          "N的爷爷是谁？",
+          "N的父亲是谁？",
+          "N"
+        ],
+        "route": "birth",
+        "terms": [
+          "I",
+          "J",
+          "L",
+          "M"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0,
+          2.0,
+          4.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "ac63cc91-27f6-403f-a45d-476a8d1e353a",
+        "source_hash": "b29f9bde90d0543c1c8a938c51b056b38ed4dceb57812d0632dceb8c13919aec",
+        "bundle_sha256": "3d69d484c3ae5d2e3b7a0b9a6223c3a96a26f0c321631fc0e4cc44ce6f73f116",
+        "result_sha256": "1eeaf1b7cb4ee686121a276e3bf28d356fa254cd94a2ae70123116672cc2e039",
+        "bundle_artifact_id": "46f3aac6-97c9-4ce1-9964-8394a5549c72"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "ac63cc91-27f6-403f-a45d-476a8d1e353a",
+          "sha256": "1eeaf1b7cb4ee686121a276e3bf28d356fa254cd94a2ae70123116672cc2e039",
+          "bytes": 372780,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/ac63cc91-27f6-403f-a45d-476a8d1e353a"
+        },
+        "bundle_artifact_id": {
+          "id": "46f3aac6-97c9-4ce1-9964-8394a5549c72",
+          "sha256": "3d69d484c3ae5d2e3b7a0b9a6223c3a96a26f0c321631fc0e4cc44ce6f73f116",
+          "bytes": 11372059,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/46f3aac6-97c9-4ce1-9964-8394a5549c72"
+        }
+      }
+    },
+    {
+      "id": "d2630c0e-8188-40e0-a77d-4ce4f118e9b5",
+      "run_id": "c6dd1a07-3237-4fe9-8ed4-667474775c6f",
+      "checkpoint_id": "ba17ca66-33b0-4e44-b4d6-41c3b44d8eb7",
+      "source_hash": "b29f9bde90d0543c1c8a938c51b056b38ed4dceb57812d0632dceb8c13919aec",
+      "protocol": {
+        "cues": [
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "route": "birth",
+        "terms": [
+          "甲",
+          "乙"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0,
+          2.0,
+          4.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "5856a3f5-7fce-4283-b670-3a8b620b7161",
+        "source_hash": "b29f9bde90d0543c1c8a938c51b056b38ed4dceb57812d0632dceb8c13919aec",
+        "bundle_sha256": "c1893d845b2c05530b3aa8dc6f977880a3b147ea3b6036cbd1ddfa0ccc63a92d",
+        "result_sha256": "499eac4b6fc6bda8bb85596aee34a8f7c846fd6f5856904bb65eb0c2a657c712",
+        "bundle_artifact_id": "7dacfedf-8205-49d7-8ac0-a34ed8eff20e"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "5856a3f5-7fce-4283-b670-3a8b620b7161",
+          "sha256": "499eac4b6fc6bda8bb85596aee34a8f7c846fd6f5856904bb65eb0c2a657c712",
+          "bytes": 136949,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/5856a3f5-7fce-4283-b670-3a8b620b7161"
+        },
+        "bundle_artifact_id": {
+          "id": "7dacfedf-8205-49d7-8ac0-a34ed8eff20e",
+          "sha256": "c1893d845b2c05530b3aa8dc6f977880a3b147ea3b6036cbd1ddfa0ccc63a92d",
+          "bytes": 4551273,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/7dacfedf-8205-49d7-8ac0-a34ed8eff20e"
+        }
+      }
+    },
+    {
+      "id": "399b117c-b8dc-469e-ad27-2fc3a80bf8ff",
+      "run_id": "2f86ee7a-a482-41b0-8429-e3bdd22630ab",
+      "checkpoint_id": "13db4648-e9d5-44ea-a1b2-443068ee3d19",
+      "source_hash": "47375ee2da2e8ff84c3533afc84e6abb2cd98e3810d02cfde6502045a93d6ec1",
+      "protocol": {
+        "cues": [
+          "岑岩的爷爷是谁？",
+          "岑岩的父亲是谁？",
+          "岑岩",
+          "屿原的爷爷是谁？",
+          "屿原的父亲是谁？",
+          "屿原"
+        ],
+        "route": "birth",
+        "terms": [
+          "岚岳",
+          "汀川",
+          "洵舟",
+          "澄木"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0,
+          2.0,
+          4.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "6196a0bc-4042-475f-ba43-6ccc1eea3bbb",
+        "source_hash": "47375ee2da2e8ff84c3533afc84e6abb2cd98e3810d02cfde6502045a93d6ec1",
+        "bundle_sha256": "037f9ec97aacdcc6ec6cbd57728ae85dfa39f6046e9f650485d2064ac9cc3802",
+        "result_sha256": "4a9bdca8763ab62c3e0157bf6d2103d0b3da06db132ee80b128e04913d6ce57f",
+        "bundle_artifact_id": "5385af51-ff59-4c87-b33e-ad9def2ad5a9"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "6196a0bc-4042-475f-ba43-6ccc1eea3bbb",
+          "sha256": "4a9bdca8763ab62c3e0157bf6d2103d0b3da06db132ee80b128e04913d6ce57f",
+          "bytes": 404125,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/6196a0bc-4042-475f-ba43-6ccc1eea3bbb"
+        },
+        "bundle_artifact_id": {
+          "id": "5385af51-ff59-4c87-b33e-ad9def2ad5a9",
+          "sha256": "037f9ec97aacdcc6ec6cbd57728ae85dfa39f6046e9f650485d2064ac9cc3802",
+          "bytes": 12634208,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/5385af51-ff59-4c87-b33e-ad9def2ad5a9"
+        }
+      }
+    },
+    {
+      "id": "eed61bd3-d6ba-484b-b424-5aea9c79b518",
+      "run_id": "2f86ee7a-a482-41b0-8429-e3bdd22630ab",
+      "checkpoint_id": "13db4648-e9d5-44ea-a1b2-443068ee3d19",
+      "source_hash": "47375ee2da2e8ff84c3533afc84e6abb2cd98e3810d02cfde6502045a93d6ec1",
+      "protocol": {
+        "cues": [
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "route": "birth",
+        "terms": [
+          "甲",
+          "乙"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0,
+          2.0,
+          4.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "2ebfa4b6-65ce-4613-b706-a00326285145",
+        "source_hash": "47375ee2da2e8ff84c3533afc84e6abb2cd98e3810d02cfde6502045a93d6ec1",
+        "bundle_sha256": "54be224e3a29f4a89edc6f50eeb9c308fe595bea4f01ca8dc171ae6290117785",
+        "result_sha256": "c5d62503268cd436677a6e496911f4c958a79888336c647ee22f10bc97e424d6",
+        "bundle_artifact_id": "24663072-c367-4862-a641-53f6922524c2"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "2ebfa4b6-65ce-4613-b706-a00326285145",
+          "sha256": "c5d62503268cd436677a6e496911f4c958a79888336c647ee22f10bc97e424d6",
+          "bytes": 137162,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/2ebfa4b6-65ce-4613-b706-a00326285145"
+        },
+        "bundle_artifact_id": {
+          "id": "24663072-c367-4862-a641-53f6922524c2",
+          "sha256": "54be224e3a29f4a89edc6f50eeb9c308fe595bea4f01ca8dc171ae6290117785",
+          "bytes": 5085943,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/24663072-c367-4862-a641-53f6922524c2"
+        }
+      }
+    },
+    {
+      "id": "2a8652b2-b5e8-4d78-91de-1b8b3c50dede",
+      "run_id": "a99ea8f4-bf48-4b31-91c1-22ad814ce942",
+      "checkpoint_id": "801b5a6d-55c6-4bab-8c15-70771c3c4a19",
+      "source_hash": "9345205dc15ce2b7bd1ee2408074c3d7075a0fb4094708d7840285c9046e471f",
+      "protocol": {
+        "cues": [
+          "K的爷爷是谁？",
+          "K的父亲是谁？",
+          "K",
+          "N的爷爷是谁？",
+          "N的父亲是谁？",
+          "N"
+        ],
+        "route": "birth",
+        "terms": [
+          "I",
+          "J",
+          "L",
+          "M"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0,
+          2.0,
+          4.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "5ef28fd3-5b57-4e54-9d86-832676650e0f",
+        "source_hash": "9345205dc15ce2b7bd1ee2408074c3d7075a0fb4094708d7840285c9046e471f",
+        "bundle_sha256": "1da09fcc7f30e3d395e06b4ce00e19525fac3c936f88052af58d7ef417be6b7c",
+        "result_sha256": "83785efb257ab8f48aa3db03eb51bcf0bebb6f828fba6d29e9f0af9d001e66ac",
+        "bundle_artifact_id": "8ae69424-4f67-4ca4-8705-899d75d2e4a1"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "5ef28fd3-5b57-4e54-9d86-832676650e0f",
+          "sha256": "83785efb257ab8f48aa3db03eb51bcf0bebb6f828fba6d29e9f0af9d001e66ac",
+          "bytes": 373072,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/5ef28fd3-5b57-4e54-9d86-832676650e0f"
+        },
+        "bundle_artifact_id": {
+          "id": "8ae69424-4f67-4ca4-8705-899d75d2e4a1",
+          "sha256": "1da09fcc7f30e3d395e06b4ce00e19525fac3c936f88052af58d7ef417be6b7c",
+          "bytes": 11510271,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/8ae69424-4f67-4ca4-8705-899d75d2e4a1"
+        }
+      }
+    },
+    {
+      "id": "fc558c4d-54f6-4883-85b4-852bf5ac891d",
+      "run_id": "a99ea8f4-bf48-4b31-91c1-22ad814ce942",
+      "checkpoint_id": "801b5a6d-55c6-4bab-8c15-70771c3c4a19",
+      "source_hash": "9345205dc15ce2b7bd1ee2408074c3d7075a0fb4094708d7840285c9046e471f",
+      "protocol": {
+        "cues": [
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "route": "birth",
+        "terms": [
+          "甲",
+          "乙"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0,
+          2.0,
+          4.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "620a1b63-a446-4a7f-ac1f-b203b31b3d06",
+        "source_hash": "9345205dc15ce2b7bd1ee2408074c3d7075a0fb4094708d7840285c9046e471f",
+        "bundle_sha256": "26e27352a76b08a1986efe5815f4c5cd7b313dfc5b7c749ee03e7cee0f68d753",
+        "result_sha256": "22c4ea8b1806660382999cce6f16d928ceb17a556ce279809aa835cc9a65a5a6",
+        "bundle_artifact_id": "5f03be28-a678-40de-a5ca-398a59634baa"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "620a1b63-a446-4a7f-ac1f-b203b31b3d06",
+          "sha256": "22c4ea8b1806660382999cce6f16d928ceb17a556ce279809aa835cc9a65a5a6",
+          "bytes": 137324,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/620a1b63-a446-4a7f-ac1f-b203b31b3d06"
+        },
+        "bundle_artifact_id": {
+          "id": "5f03be28-a678-40de-a5ca-398a59634baa",
+          "sha256": "26e27352a76b08a1986efe5815f4c5cd7b313dfc5b7c749ee03e7cee0f68d753",
+          "bytes": 4610100,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/5f03be28-a678-40de-a5ca-398a59634baa"
+        }
+      }
+    },
+    {
+      "id": "15a1a859-4423-4b8a-a3ba-31e24d371570",
+      "run_id": "2c8875a8-be84-48fa-864c-24ad79b13529",
+      "checkpoint_id": "bfb0d3ef-75ea-4c4b-af9c-43635651d180",
+      "source_hash": "d4f2f0b9b8046965118ffc41f2464fa07828855d64d7b2737bf18230b79541a0",
+      "protocol": {
+        "cues": [
+          "岑岩的爷爷是谁？",
+          "岑岩的父亲是谁？",
+          "岑岩",
+          "屿原的爷爷是谁？",
+          "屿原的父亲是谁？",
+          "屿原"
+        ],
+        "route": "birth",
+        "terms": [
+          "岚岳",
+          "汀川",
+          "洵舟",
+          "澄木"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0,
+          2.0,
+          4.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "76a18a33-ef9f-491e-b384-abfa6c6a68d5",
+        "source_hash": "d4f2f0b9b8046965118ffc41f2464fa07828855d64d7b2737bf18230b79541a0",
+        "bundle_sha256": "667292f84e81b019b3a78b3f177d8a75895b06579b97335db6e3e58fb6f1b712",
+        "result_sha256": "1dc1112f3b405ebdd7e1697fc2ba2fc93b5ced10b4fd3c0bbd0233fb37bfdc55",
+        "bundle_artifact_id": "cb207d2c-ac35-47ff-9333-3c4d38ae9a00"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "76a18a33-ef9f-491e-b384-abfa6c6a68d5",
+          "sha256": "1dc1112f3b405ebdd7e1697fc2ba2fc93b5ced10b4fd3c0bbd0233fb37bfdc55",
+          "bytes": 404647,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/76a18a33-ef9f-491e-b384-abfa6c6a68d5"
+        },
+        "bundle_artifact_id": {
+          "id": "cb207d2c-ac35-47ff-9333-3c4d38ae9a00",
+          "sha256": "667292f84e81b019b3a78b3f177d8a75895b06579b97335db6e3e58fb6f1b712",
+          "bytes": 12451980,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/cb207d2c-ac35-47ff-9333-3c4d38ae9a00"
+        }
+      }
+    },
+    {
+      "id": "b342eaa6-85f7-495d-93ad-9979ca720423",
+      "run_id": "2c8875a8-be84-48fa-864c-24ad79b13529",
+      "checkpoint_id": "bfb0d3ef-75ea-4c4b-af9c-43635651d180",
+      "source_hash": "d4f2f0b9b8046965118ffc41f2464fa07828855d64d7b2737bf18230b79541a0",
+      "protocol": {
+        "cues": [
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "route": "birth",
+        "terms": [
+          "甲",
+          "乙"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0,
+          2.0,
+          4.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "37a45665-11a9-4dc6-ade7-bf8928fceb73",
+        "source_hash": "d4f2f0b9b8046965118ffc41f2464fa07828855d64d7b2737bf18230b79541a0",
+        "bundle_sha256": "45455b243d9c8bb5d90230974efd4be1e43fec83a66bc986c024ef019435f969",
+        "result_sha256": "d4b479ef48121dddadf4cb32135e878f9559853a581f6e615f7150a0d88b4da6",
+        "bundle_artifact_id": "be21c503-7f2c-4468-b8f4-d01aa1b0ff35"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "37a45665-11a9-4dc6-ade7-bf8928fceb73",
+          "sha256": "d4b479ef48121dddadf4cb32135e878f9559853a581f6e615f7150a0d88b4da6",
+          "bytes": 137288,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/37a45665-11a9-4dc6-ade7-bf8928fceb73"
+        },
+        "bundle_artifact_id": {
+          "id": "be21c503-7f2c-4468-b8f4-d01aa1b0ff35",
+          "sha256": "45455b243d9c8bb5d90230974efd4be1e43fec83a66bc986c024ef019435f969",
+          "bytes": 5000982,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/be21c503-7f2c-4468-b8f4-d01aa1b0ff35"
+        }
+      }
+    },
+    {
+      "id": "e6dd3efd-439d-4d3c-af5c-87fb8ea181b8",
+      "run_id": "c6dd1a07-3237-4fe9-8ed4-667474775c6f",
+      "checkpoint_id": "ba17ca66-33b0-4e44-b4d6-41c3b44d8eb7",
+      "source_hash": "b29f9bde90d0543c1c8a938c51b056b38ed4dceb57812d0632dceb8c13919aec",
+      "protocol": {
+        "cues": [
+          "K的爷爷是谁？",
+          "K的父亲是谁？",
+          "K",
+          "N的爷爷是谁？",
+          "N的父亲是谁？",
+          "N"
+        ],
+        "route": "birth",
+        "terms": [
+          "I",
+          "J",
+          "L",
+          "M"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          0.03125,
+          0.0625,
+          0.125,
+          0.25,
+          0.5
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "029710a3-4dfe-40e2-a682-f0b935f559b4",
+        "source_hash": "b29f9bde90d0543c1c8a938c51b056b38ed4dceb57812d0632dceb8c13919aec",
+        "bundle_sha256": "19b42f025f7fb2a191c40aa3edfc3a2c562360860a76b53706eeb8b3d6dc5480",
+        "result_sha256": "3827f246a3a6fa61c337f0b9087880575b3328be8480b9ebc877fc1bc98740a6",
+        "bundle_artifact_id": "430fa283-af79-46fd-9637-4e00df14fc7c"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "029710a3-4dfe-40e2-a682-f0b935f559b4",
+          "sha256": "3827f246a3a6fa61c337f0b9087880575b3328be8480b9ebc877fc1bc98740a6",
+          "bytes": 549985,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/029710a3-4dfe-40e2-a682-f0b935f559b4"
+        },
+        "bundle_artifact_id": {
+          "id": "430fa283-af79-46fd-9637-4e00df14fc7c",
+          "sha256": "19b42f025f7fb2a191c40aa3edfc3a2c562360860a76b53706eeb8b3d6dc5480",
+          "bytes": 16840776,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/430fa283-af79-46fd-9637-4e00df14fc7c"
+        }
+      }
+    },
+    {
+      "id": "ed078a4c-dcbd-488a-a98d-055a20e15fe6",
+      "run_id": "c6dd1a07-3237-4fe9-8ed4-667474775c6f",
+      "checkpoint_id": "ba17ca66-33b0-4e44-b4d6-41c3b44d8eb7",
+      "source_hash": "b29f9bde90d0543c1c8a938c51b056b38ed4dceb57812d0632dceb8c13919aec",
+      "protocol": {
+        "cues": [
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "route": "birth",
+        "terms": [
+          "甲",
+          "乙"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          0.03125,
+          0.0625,
+          0.125,
+          0.25,
+          0.5
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "972011dc-ed74-4d16-9a77-d57fe27168ff",
+        "source_hash": "b29f9bde90d0543c1c8a938c51b056b38ed4dceb57812d0632dceb8c13919aec",
+        "bundle_sha256": "68ebc8ff6d3c602baf716d71b7358dbbb7bb33aa62e96fc6c0ad6cdaeebd89ca",
+        "result_sha256": "9f7708328eeeb159c9782fa3eb00889d56c041c4429aa03dfb5dabb9fe59ffb2",
+        "bundle_artifact_id": "ed723e7f-08b4-4680-a1f1-a46a1ae0c27c"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "972011dc-ed74-4d16-9a77-d57fe27168ff",
+          "sha256": "9f7708328eeeb159c9782fa3eb00889d56c041c4429aa03dfb5dabb9fe59ffb2",
+          "bytes": 193093,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/972011dc-ed74-4d16-9a77-d57fe27168ff"
+        },
+        "bundle_artifact_id": {
+          "id": "ed723e7f-08b4-4680-a1f1-a46a1ae0c27c",
+          "sha256": "68ebc8ff6d3c602baf716d71b7358dbbb7bb33aa62e96fc6c0ad6cdaeebd89ca",
+          "bytes": 6341188,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/ed723e7f-08b4-4680-a1f1-a46a1ae0c27c"
+        }
+      }
+    },
+    {
+      "id": "dc3e4fcc-7228-40fa-bc2b-476eb0c386ed",
+      "run_id": "2f86ee7a-a482-41b0-8429-e3bdd22630ab",
+      "checkpoint_id": "13db4648-e9d5-44ea-a1b2-443068ee3d19",
+      "source_hash": "47375ee2da2e8ff84c3533afc84e6abb2cd98e3810d02cfde6502045a93d6ec1",
+      "protocol": {
+        "cues": [
+          "岑岩的爷爷是谁？",
+          "岑岩的父亲是谁？",
+          "岑岩",
+          "屿原的爷爷是谁？",
+          "屿原的父亲是谁？",
+          "屿原"
+        ],
+        "route": "birth",
+        "terms": [
+          "岚岳",
+          "汀川",
+          "洵舟",
+          "澄木"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          0.03125,
+          0.0625,
+          0.125,
+          0.25,
+          0.5
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "2ed2b199-58be-4602-88ce-c1687fd2e451",
+        "source_hash": "47375ee2da2e8ff84c3533afc84e6abb2cd98e3810d02cfde6502045a93d6ec1",
+        "bundle_sha256": "549b34a3fbf7934a1474c0f0c6df0db190b244b1751b9646b7fbe78491ff7ee0",
+        "result_sha256": "d913f8f3ae47e04c45619746b6b902b11d501fc743672d766d050df45929fb95",
+        "bundle_artifact_id": "75bf051e-1378-4e2b-b88b-caeee3f93cd9"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "2ed2b199-58be-4602-88ce-c1687fd2e451",
+          "sha256": "d913f8f3ae47e04c45619746b6b902b11d501fc743672d766d050df45929fb95",
+          "bytes": 618316,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/2ed2b199-58be-4602-88ce-c1687fd2e451"
+        },
+        "bundle_artifact_id": {
+          "id": "75bf051e-1378-4e2b-b88b-caeee3f93cd9",
+          "sha256": "549b34a3fbf7934a1474c0f0c6df0db190b244b1751b9646b7fbe78491ff7ee0",
+          "bytes": 19563748,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/75bf051e-1378-4e2b-b88b-caeee3f93cd9"
+        }
+      }
+    },
+    {
+      "id": "a30d7233-e184-4eba-8380-82e5f06c3a55",
+      "run_id": "2f86ee7a-a482-41b0-8429-e3bdd22630ab",
+      "checkpoint_id": "13db4648-e9d5-44ea-a1b2-443068ee3d19",
+      "source_hash": "47375ee2da2e8ff84c3533afc84e6abb2cd98e3810d02cfde6502045a93d6ec1",
+      "protocol": {
+        "cues": [
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "route": "birth",
+        "terms": [
+          "甲",
+          "乙"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          0.03125,
+          0.0625,
+          0.125,
+          0.25,
+          0.5
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "2d16ffff-e018-439a-a41b-651b23b2c284",
+        "source_hash": "47375ee2da2e8ff84c3533afc84e6abb2cd98e3810d02cfde6502045a93d6ec1",
+        "bundle_sha256": "1a989699325b524f9e39144b70741cbe62d04c2802a87623229258676528b0aa",
+        "result_sha256": "5326aa77f42577eac5e5e6d1c828219580250430b48765c6b10d04f70d08f08b",
+        "bundle_artifact_id": "546cbb33-ed84-4ce4-9ac3-e1edf258a102"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "2d16ffff-e018-439a-a41b-651b23b2c284",
+          "sha256": "5326aa77f42577eac5e5e6d1c828219580250430b48765c6b10d04f70d08f08b",
+          "bytes": 193315,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/2d16ffff-e018-439a-a41b-651b23b2c284"
+        },
+        "bundle_artifact_id": {
+          "id": "546cbb33-ed84-4ce4-9ac3-e1edf258a102",
+          "sha256": "1a989699325b524f9e39144b70741cbe62d04c2802a87623229258676528b0aa",
+          "bytes": 7142692,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/546cbb33-ed84-4ce4-9ac3-e1edf258a102"
+        }
+      }
+    },
+    {
+      "id": "979a9c0f-3043-4967-ac16-a691218143c6",
+      "run_id": "a99ea8f4-bf48-4b31-91c1-22ad814ce942",
+      "checkpoint_id": "801b5a6d-55c6-4bab-8c15-70771c3c4a19",
+      "source_hash": "9345205dc15ce2b7bd1ee2408074c3d7075a0fb4094708d7840285c9046e471f",
+      "protocol": {
+        "cues": [
+          "K的爷爷是谁？",
+          "K的父亲是谁？",
+          "K",
+          "N的爷爷是谁？",
+          "N的父亲是谁？",
+          "N"
+        ],
+        "route": "birth",
+        "terms": [
+          "I",
+          "J",
+          "L",
+          "M"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          0.03125,
+          0.0625,
+          0.125,
+          0.25,
+          0.5
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "705ef21e-d222-4a7d-8716-5d2582b8ac12",
+        "source_hash": "9345205dc15ce2b7bd1ee2408074c3d7075a0fb4094708d7840285c9046e471f",
+        "bundle_sha256": "fb0f7356ccbfb164fb89317a037a91a7acf36db634982db3cbcbba7209a9abf1",
+        "result_sha256": "62d6bdd3ebd05642d3f91e261b933f403e4a0c61745f5f12a8d2b7cf24547368",
+        "bundle_artifact_id": "29a05fe2-432b-4d6e-91f8-482bc5887b4a"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "705ef21e-d222-4a7d-8716-5d2582b8ac12",
+          "sha256": "62d6bdd3ebd05642d3f91e261b933f403e4a0c61745f5f12a8d2b7cf24547368",
+          "bytes": 551665,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/705ef21e-d222-4a7d-8716-5d2582b8ac12"
+        },
+        "bundle_artifact_id": {
+          "id": "29a05fe2-432b-4d6e-91f8-482bc5887b4a",
+          "sha256": "fb0f7356ccbfb164fb89317a037a91a7acf36db634982db3cbcbba7209a9abf1",
+          "bytes": 17044968,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/29a05fe2-432b-4d6e-91f8-482bc5887b4a"
+        }
+      }
+    },
+    {
+      "id": "e5c50827-d37f-49b5-b595-f2437584fc91",
+      "run_id": "a99ea8f4-bf48-4b31-91c1-22ad814ce942",
+      "checkpoint_id": "801b5a6d-55c6-4bab-8c15-70771c3c4a19",
+      "source_hash": "9345205dc15ce2b7bd1ee2408074c3d7075a0fb4094708d7840285c9046e471f",
+      "protocol": {
+        "cues": [
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "route": "birth",
+        "terms": [
+          "甲",
+          "乙"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          0.03125,
+          0.0625,
+          0.125,
+          0.25,
+          0.5
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "f7ee1372-6350-463a-b983-b7ac33110f6e",
+        "source_hash": "9345205dc15ce2b7bd1ee2408074c3d7075a0fb4094708d7840285c9046e471f",
+        "bundle_sha256": "8b678fc82c640995e281f7dc8db64e310328590acd1c5bad88cefcbb0e0e95b5",
+        "result_sha256": "293602718451fadbb5497c3f7d2a2554306cfda2cfdf10ce44173eb59f16d413",
+        "bundle_artifact_id": "a371a93d-3797-4b9f-933f-c66accba9553"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "f7ee1372-6350-463a-b983-b7ac33110f6e",
+          "sha256": "293602718451fadbb5497c3f7d2a2554306cfda2cfdf10ce44173eb59f16d413",
+          "bytes": 193585,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/f7ee1372-6350-463a-b983-b7ac33110f6e"
+        },
+        "bundle_artifact_id": {
+          "id": "a371a93d-3797-4b9f-933f-c66accba9553",
+          "sha256": "8b678fc82c640995e281f7dc8db64e310328590acd1c5bad88cefcbb0e0e95b5",
+          "bytes": 6427158,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/a371a93d-3797-4b9f-933f-c66accba9553"
+        }
+      }
+    },
+    {
+      "id": "41b6f1b2-fca1-4365-b9a8-e1f2ca12b5c3",
+      "run_id": "2c8875a8-be84-48fa-864c-24ad79b13529",
+      "checkpoint_id": "bfb0d3ef-75ea-4c4b-af9c-43635651d180",
+      "source_hash": "d4f2f0b9b8046965118ffc41f2464fa07828855d64d7b2737bf18230b79541a0",
+      "protocol": {
+        "cues": [
+          "岑岩的爷爷是谁？",
+          "岑岩的父亲是谁？",
+          "岑岩",
+          "屿原的爷爷是谁？",
+          "屿原的父亲是谁？",
+          "屿原"
+        ],
+        "route": "birth",
+        "terms": [
+          "岚岳",
+          "汀川",
+          "洵舟",
+          "澄木"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          0.03125,
+          0.0625,
+          0.125,
+          0.25,
+          0.5
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "0d213127-936b-4788-bfe2-50946b43adb2",
+        "source_hash": "d4f2f0b9b8046965118ffc41f2464fa07828855d64d7b2737bf18230b79541a0",
+        "bundle_sha256": "2e449e0b3782e495d6faffd053dfa19d266c62ecd5116dc21a9a9905462519f7",
+        "result_sha256": "2a6a720613455408a553e565d1e7a62e284a8cc7193ca9c430fe45cc9f8c6127",
+        "bundle_artifact_id": "2ef007d7-daa9-425c-b453-7c11fc9b4ba8"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "0d213127-936b-4788-bfe2-50946b43adb2",
+          "sha256": "2a6a720613455408a553e565d1e7a62e284a8cc7193ca9c430fe45cc9f8c6127",
+          "bytes": 615281,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/0d213127-936b-4788-bfe2-50946b43adb2"
+        },
+        "bundle_artifact_id": {
+          "id": "2ef007d7-daa9-425c-b453-7c11fc9b4ba8",
+          "sha256": "2e449e0b3782e495d6faffd053dfa19d266c62ecd5116dc21a9a9905462519f7",
+          "bytes": 19092498,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/2ef007d7-daa9-425c-b453-7c11fc9b4ba8"
+        }
+      }
+    },
+    {
+      "id": "dd02e201-3653-4042-8fe0-7232d904e710",
+      "run_id": "2c8875a8-be84-48fa-864c-24ad79b13529",
+      "checkpoint_id": "bfb0d3ef-75ea-4c4b-af9c-43635651d180",
+      "source_hash": "d4f2f0b9b8046965118ffc41f2464fa07828855d64d7b2737bf18230b79541a0",
+      "protocol": {
+        "cues": [
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "route": "birth",
+        "terms": [
+          "甲",
+          "乙"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          0.03125,
+          0.0625,
+          0.125,
+          0.25,
+          0.5
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "0f45824b-2f32-4a04-8641-9c9011f93b37",
+        "source_hash": "d4f2f0b9b8046965118ffc41f2464fa07828855d64d7b2737bf18230b79541a0",
+        "bundle_sha256": "79b8f68da31a1b1dde312065f950c1975b490f254beaca5412a6006c79b6630e",
+        "result_sha256": "5d82764e09e6ba34838d1fec28469f32bd737d2a78534228fdb6fdf15aff03b3",
+        "bundle_artifact_id": "4d701211-ef11-4d71-a823-8e6603a3fddf"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "0f45824b-2f32-4a04-8641-9c9011f93b37",
+          "sha256": "5d82764e09e6ba34838d1fec28469f32bd737d2a78534228fdb6fdf15aff03b3",
+          "bytes": 193569,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/0f45824b-2f32-4a04-8641-9c9011f93b37"
+        },
+        "bundle_artifact_id": {
+          "id": "4d701211-ef11-4d71-a823-8e6603a3fddf",
+          "sha256": "79b8f68da31a1b1dde312065f950c1975b490f254beaca5412a6006c79b6630e",
+          "bytes": 7010655,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/4d701211-ef11-4d71-a823-8e6603a3fddf"
+        }
+      }
+    },
+    {
+      "id": "c6c7bd95-2dcf-4966-a35d-be04d6dcc878",
+      "run_id": "bff18d6b-678f-40ee-8e6c-da3f4d3d16f3",
+      "checkpoint_id": "6a835f11-0fb1-4414-87fa-1b868edbf7a3",
+      "source_hash": "470c9f953acf630d00d6a9bb136a397e69876a08e9aa37504b55132710569093",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "route": "birth",
+        "terms": [
+          "X",
+          "Y",
+          "U",
+          "V"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "01e491fb-0ece-4115-8dc3-edb6155ebe10",
+        "source_hash": "470c9f953acf630d00d6a9bb136a397e69876a08e9aa37504b55132710569093",
+        "bundle_sha256": "88318eeaeffc4789a345809095ff8e677b3dabda913553684d4f52343dffad32",
+        "result_sha256": "bc010de7b128ee823ef2ab6b736a7ec38e37f71f7c91aca15007fb33387f8ab8",
+        "bundle_artifact_id": "baa7864a-d6a2-435d-9c99-67ae3b8a9072"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "01e491fb-0ece-4115-8dc3-edb6155ebe10",
+          "sha256": "bc010de7b128ee823ef2ab6b736a7ec38e37f71f7c91aca15007fb33387f8ab8",
+          "bytes": 151797,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/01e491fb-0ece-4115-8dc3-edb6155ebe10"
+        },
+        "bundle_artifact_id": {
+          "id": "baa7864a-d6a2-435d-9c99-67ae3b8a9072",
+          "sha256": "88318eeaeffc4789a345809095ff8e677b3dabda913553684d4f52343dffad32",
+          "bytes": 3100867,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/baa7864a-d6a2-435d-9c99-67ae3b8a9072"
+        }
+      }
+    },
+    {
+      "id": "4ebf1f54-de6d-4b46-98b3-f4afaed97b8b",
+      "run_id": "bff18d6b-678f-40ee-8e6c-da3f4d3d16f3",
+      "checkpoint_id": "6a835f11-0fb1-4414-87fa-1b868edbf7a3",
+      "source_hash": "470c9f953acf630d00d6a9bb136a397e69876a08e9aa37504b55132710569093",
+      "protocol": {
+        "cues": [
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "route": "birth",
+        "terms": [
+          "甲",
+          "乙"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "e28c334d-8d09-4f45-a7e8-8a279a0a5b3f",
+        "source_hash": "470c9f953acf630d00d6a9bb136a397e69876a08e9aa37504b55132710569093",
+        "bundle_sha256": "8a7d98c8faa2f1365811747cfaf427562719496ea7813fbf10e58e8abce21890",
+        "result_sha256": "9592ae6b869c6f564f2960f989c9291aaa9252a9897d7ed4cc06241bec8bd370",
+        "bundle_artifact_id": "78b68f0e-1630-445e-bcf3-e44a99f612bb"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "e28c334d-8d09-4f45-a7e8-8a279a0a5b3f",
+          "sha256": "9592ae6b869c6f564f2960f989c9291aaa9252a9897d7ed4cc06241bec8bd370",
+          "bytes": 70658,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/e28c334d-8d09-4f45-a7e8-8a279a0a5b3f"
+        },
+        "bundle_artifact_id": {
+          "id": "78b68f0e-1630-445e-bcf3-e44a99f612bb",
+          "sha256": "8a7d98c8faa2f1365811747cfaf427562719496ea7813fbf10e58e8abce21890",
+          "bytes": 1522628,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/78b68f0e-1630-445e-bcf3-e44a99f612bb"
+        }
+      }
+    },
+    {
+      "id": "a805e7be-e652-44aa-8f6b-22875f71c064",
+      "run_id": "bff18d6b-678f-40ee-8e6c-da3f4d3d16f3",
+      "checkpoint_id": "6a835f11-0fb1-4414-87fa-1b868edbf7a3",
+      "source_hash": "470c9f953acf630d00d6a9bb136a397e69876a08e9aa37504b55132710569093",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "route": "continuation",
+        "terms": [
+          "X",
+          "Y",
+          "U",
+          "V"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "cdf58cc0-5bfa-4c85-866d-f6d45b5cb909",
+        "source_hash": "470c9f953acf630d00d6a9bb136a397e69876a08e9aa37504b55132710569093",
+        "bundle_sha256": "e3bb8fa1bcee9a7cecdf054b31e60a229bad0bb5deae27dcae7fc0788e01f76a",
+        "result_sha256": "1a1438a9650e2410ca37ff5889fa539781f816f2fd945efcc456cb25fcdf1ece",
+        "bundle_artifact_id": "ac476e72-0b7b-49d4-b853-a1f75ab83e93"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "cdf58cc0-5bfa-4c85-866d-f6d45b5cb909",
+          "sha256": "1a1438a9650e2410ca37ff5889fa539781f816f2fd945efcc456cb25fcdf1ece",
+          "bytes": 161504,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/cdf58cc0-5bfa-4c85-866d-f6d45b5cb909"
+        },
+        "bundle_artifact_id": {
+          "id": "ac476e72-0b7b-49d4-b853-a1f75ab83e93",
+          "sha256": "e3bb8fa1bcee9a7cecdf054b31e60a229bad0bb5deae27dcae7fc0788e01f76a",
+          "bytes": 4351623,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/ac476e72-0b7b-49d4-b853-a1f75ab83e93"
+        }
+      }
+    },
+    {
+      "id": "58087f07-3c80-49a5-96d3-d39b12dbb3a7",
+      "run_id": "3bdb5d46-7ea0-4be7-b44f-3d3cddabe54e",
+      "checkpoint_id": "1ac504e7-1ff1-45d3-8d1e-dfd95c73c9ca",
+      "source_hash": "21c5867e95c14e6efa430a348a39bcd73e38c0e2d6bfb3234371d7db7a7aaf49",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "route": "birth",
+        "terms": [
+          "X",
+          "Y",
+          "U",
+          "V"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "cb04a391-ca7f-47b5-97f0-daeeebc2994a",
+        "source_hash": "21c5867e95c14e6efa430a348a39bcd73e38c0e2d6bfb3234371d7db7a7aaf49",
+        "bundle_sha256": "d2451b9e4808abdcc98db16db133bc566590c6a4e6e050c3765d8758950c469c",
+        "result_sha256": "2e83de3cf9cb411667d900f4aea97ac7a6a5860f29b93bc492105bcd6df636c8",
+        "bundle_artifact_id": "b9fd3702-3119-4752-9bf1-0413d367700e"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "cb04a391-ca7f-47b5-97f0-daeeebc2994a",
+          "sha256": "2e83de3cf9cb411667d900f4aea97ac7a6a5860f29b93bc492105bcd6df636c8",
+          "bytes": 151853,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/cb04a391-ca7f-47b5-97f0-daeeebc2994a"
+        },
+        "bundle_artifact_id": {
+          "id": "b9fd3702-3119-4752-9bf1-0413d367700e",
+          "sha256": "d2451b9e4808abdcc98db16db133bc566590c6a4e6e050c3765d8758950c469c",
+          "bytes": 3241744,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/b9fd3702-3119-4752-9bf1-0413d367700e"
+        }
+      }
+    },
+    {
+      "id": "3f59f901-c698-4476-96ae-9bbbb8618a68",
+      "run_id": "3bdb5d46-7ea0-4be7-b44f-3d3cddabe54e",
+      "checkpoint_id": "1ac504e7-1ff1-45d3-8d1e-dfd95c73c9ca",
+      "source_hash": "21c5867e95c14e6efa430a348a39bcd73e38c0e2d6bfb3234371d7db7a7aaf49",
+      "protocol": {
+        "cues": [
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "route": "birth",
+        "terms": [
+          "甲",
+          "乙"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "a4c644da-1a87-4323-8f30-72c5435bef6f",
+        "source_hash": "21c5867e95c14e6efa430a348a39bcd73e38c0e2d6bfb3234371d7db7a7aaf49",
+        "bundle_sha256": "e71671f00cbf471a34a3b42f8dd27fdbb77edd9b6fbc303bf1cb2fe364d662ea",
+        "result_sha256": "13adf3fa2a929444fe225e2d5cb86c0d073cb4ff13da74fa89722eec1fbdc33d",
+        "bundle_artifact_id": "0d614566-9597-4cac-8302-5e99c575f543"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "a4c644da-1a87-4323-8f30-72c5435bef6f",
+          "sha256": "13adf3fa2a929444fe225e2d5cb86c0d073cb4ff13da74fa89722eec1fbdc33d",
+          "bytes": 70737,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/a4c644da-1a87-4323-8f30-72c5435bef6f"
+        },
+        "bundle_artifact_id": {
+          "id": "0d614566-9597-4cac-8302-5e99c575f543",
+          "sha256": "e71671f00cbf471a34a3b42f8dd27fdbb77edd9b6fbc303bf1cb2fe364d662ea",
+          "bytes": 1591940,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/0d614566-9597-4cac-8302-5e99c575f543"
+        }
+      }
+    },
+    {
+      "id": "d4e9b0e5-9357-4767-bffc-b25d97b58594",
+      "run_id": "e8b0d1e3-d1e8-436f-a63c-e602264548f2",
+      "checkpoint_id": "c973bddd-1993-4af6-bc4a-33dd1c04d35f",
+      "source_hash": "d5db349dbbf9eb83aa1a9a966ef74306ac5fa8a4233ad1d4fb6c564f9ec1e227",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "route": "birth",
+        "terms": [
+          "X",
+          "Y",
+          "U",
+          "V"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "6aec8183-d7d3-43df-89af-50f7f9d70742",
+        "source_hash": "d5db349dbbf9eb83aa1a9a966ef74306ac5fa8a4233ad1d4fb6c564f9ec1e227",
+        "bundle_sha256": "99be99d41b2e84a6ec9c2b330557b6f2b23221da6e89ab982a87f8caf6e22a09",
+        "result_sha256": "65649772d7f3d907785ceb7e204364f1f5372a9463954ee528c12a0228be2161",
+        "bundle_artifact_id": "6dd9bd2e-7e19-4070-94c0-3a9cf134e0d1"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "6aec8183-d7d3-43df-89af-50f7f9d70742",
+          "sha256": "65649772d7f3d907785ceb7e204364f1f5372a9463954ee528c12a0228be2161",
+          "bytes": 151845,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/6aec8183-d7d3-43df-89af-50f7f9d70742"
+        },
+        "bundle_artifact_id": {
+          "id": "6dd9bd2e-7e19-4070-94c0-3a9cf134e0d1",
+          "sha256": "99be99d41b2e84a6ec9c2b330557b6f2b23221da6e89ab982a87f8caf6e22a09",
+          "bytes": 4747819,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/6dd9bd2e-7e19-4070-94c0-3a9cf134e0d1"
+        }
+      }
+    },
+    {
+      "id": "b6654e6a-49d7-4246-9cf6-addf4843bdb6",
+      "run_id": "e8b0d1e3-d1e8-436f-a63c-e602264548f2",
+      "checkpoint_id": "c973bddd-1993-4af6-bc4a-33dd1c04d35f",
+      "source_hash": "d5db349dbbf9eb83aa1a9a966ef74306ac5fa8a4233ad1d4fb6c564f9ec1e227",
+      "protocol": {
+        "cues": [
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "route": "birth",
+        "terms": [
+          "甲",
+          "乙"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "11e088bc-b1a9-477d-a0c2-2a9e10bd10d1",
+        "source_hash": "d5db349dbbf9eb83aa1a9a966ef74306ac5fa8a4233ad1d4fb6c564f9ec1e227",
+        "bundle_sha256": "21f410604b6d3dc78ebd656f97d2f8f13329d362add482768cc4147489f3dfe2",
+        "result_sha256": "96e83be4c8807b43f65dd1a03adcc8e3525fc9abde801e4768303f4daf5fd51b",
+        "bundle_artifact_id": "cff4ea3d-16fe-4bce-8108-8872bd8e072e"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "11e088bc-b1a9-477d-a0c2-2a9e10bd10d1",
+          "sha256": "96e83be4c8807b43f65dd1a03adcc8e3525fc9abde801e4768303f4daf5fd51b",
+          "bytes": 70667,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/11e088bc-b1a9-477d-a0c2-2a9e10bd10d1"
+        },
+        "bundle_artifact_id": {
+          "id": "cff4ea3d-16fe-4bce-8108-8872bd8e072e",
+          "sha256": "21f410604b6d3dc78ebd656f97d2f8f13329d362add482768cc4147489f3dfe2",
+          "bytes": 2382106,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/cff4ea3d-16fe-4bce-8108-8872bd8e072e"
+        }
+      }
+    },
+    {
+      "id": "d0de5c62-b027-4c92-ac59-85628b70e1db",
+      "run_id": "03a857d7-5647-4336-aea2-018c2becb724",
+      "checkpoint_id": "b1e99c5b-f31c-406f-b3b7-0d5303d1eb06",
+      "source_hash": "ef86f111ed55c866c8bb2d8f84c6d0956bd659588641ba75843e7eb40f224745",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "route": "birth",
+        "terms": [
+          "X",
+          "Y",
+          "U",
+          "V"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "56087ca5-5669-47d8-9416-28157353a847",
+        "source_hash": "ef86f111ed55c866c8bb2d8f84c6d0956bd659588641ba75843e7eb40f224745",
+        "bundle_sha256": "cdf2d95101498b05cfaad0bb74fe1aed2e8b03f8ef0bb65d1276446ce1fe7865",
+        "result_sha256": "7131598c546013e8cce7b08282480aec50c4401a3cf30d5eb3e3d399214ceddc",
+        "bundle_artifact_id": "9608d53d-17cc-49bf-a712-6ce38b70b3f7"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "56087ca5-5669-47d8-9416-28157353a847",
+          "sha256": "7131598c546013e8cce7b08282480aec50c4401a3cf30d5eb3e3d399214ceddc",
+          "bytes": 151740,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/56087ca5-5669-47d8-9416-28157353a847"
+        },
+        "bundle_artifact_id": {
+          "id": "9608d53d-17cc-49bf-a712-6ce38b70b3f7",
+          "sha256": "cdf2d95101498b05cfaad0bb74fe1aed2e8b03f8ef0bb65d1276446ce1fe7865",
+          "bytes": 3094985,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/9608d53d-17cc-49bf-a712-6ce38b70b3f7"
+        }
+      }
+    },
+    {
+      "id": "34f87bbe-6490-4e6c-b7fb-57914ebc3c60",
+      "run_id": "03a857d7-5647-4336-aea2-018c2becb724",
+      "checkpoint_id": "b1e99c5b-f31c-406f-b3b7-0d5303d1eb06",
+      "source_hash": "ef86f111ed55c866c8bb2d8f84c6d0956bd659588641ba75843e7eb40f224745",
+      "protocol": {
+        "cues": [
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "route": "birth",
+        "terms": [
+          "甲",
+          "乙"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "35191524-c9a1-42c6-b22f-49834bf7f3b8",
+        "source_hash": "ef86f111ed55c866c8bb2d8f84c6d0956bd659588641ba75843e7eb40f224745",
+        "bundle_sha256": "3ae3591155549cde433747d6ac3fa64b952cfa6293bf0b835354022cdae2198f",
+        "result_sha256": "812fe29babfbd7e33fc58d128d3707089e37babd458857e383a5654a9fa913d0",
+        "bundle_artifact_id": "f47eb75c-ceb0-4ee6-823f-1f72fbc2f9a9"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "35191524-c9a1-42c6-b22f-49834bf7f3b8",
+          "sha256": "812fe29babfbd7e33fc58d128d3707089e37babd458857e383a5654a9fa913d0",
+          "bytes": 70678,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/35191524-c9a1-42c6-b22f-49834bf7f3b8"
+        },
+        "bundle_artifact_id": {
+          "id": "f47eb75c-ceb0-4ee6-823f-1f72fbc2f9a9",
+          "sha256": "3ae3591155549cde433747d6ac3fa64b952cfa6293bf0b835354022cdae2198f",
+          "bytes": 1519001,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/f47eb75c-ceb0-4ee6-823f-1f72fbc2f9a9"
+        }
+      }
+    },
+    {
+      "id": "ad68e421-836d-4158-a297-cca0605b8d17",
+      "run_id": "9a7b1f22-8c76-4f88-8803-cdd4d9fd852d",
+      "checkpoint_id": "26859155-eb9a-4f8d-936c-a9d98cd18b0d",
+      "source_hash": "f2cc9f28dfdaec8d184bed58d6a4a6d43f8b9149f29facd145e15b575a4a4967",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "route": "birth",
+        "terms": [
+          "X",
+          "Y",
+          "U",
+          "V"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "b3d93f0c-ea1b-4c91-8003-7a984adb7004",
+        "source_hash": "f2cc9f28dfdaec8d184bed58d6a4a6d43f8b9149f29facd145e15b575a4a4967",
+        "bundle_sha256": "77fac9639fdc8edbc8d3c57b38015f914b62ad1037ec059a67b24c4f5b53a172",
+        "result_sha256": "f8cde7fc067d4535d1c24ccbe1fdc1bfaa66b0deeca11620a3882e2d8fcdf677",
+        "bundle_artifact_id": "a40d497b-a555-4584-a5de-283335906605"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "b3d93f0c-ea1b-4c91-8003-7a984adb7004",
+          "sha256": "f8cde7fc067d4535d1c24ccbe1fdc1bfaa66b0deeca11620a3882e2d8fcdf677",
+          "bytes": 129287,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/b3d93f0c-ea1b-4c91-8003-7a984adb7004"
+        },
+        "bundle_artifact_id": {
+          "id": "a40d497b-a555-4584-a5de-283335906605",
+          "sha256": "77fac9639fdc8edbc8d3c57b38015f914b62ad1037ec059a67b24c4f5b53a172",
+          "bytes": 150666,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/a40d497b-a555-4584-a5de-283335906605"
+        }
+      }
+    },
+    {
+      "id": "19107881-ecd4-43ce-8dd6-f3cf5731dca6",
+      "run_id": "9a7b1f22-8c76-4f88-8803-cdd4d9fd852d",
+      "checkpoint_id": "26859155-eb9a-4f8d-936c-a9d98cd18b0d",
+      "source_hash": "f2cc9f28dfdaec8d184bed58d6a4a6d43f8b9149f29facd145e15b575a4a4967",
+      "protocol": {
+        "cues": [
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "route": "birth",
+        "terms": [
+          "甲",
+          "乙"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "60527111-091d-418c-b6a7-e404b7f1ed4b",
+        "source_hash": "f2cc9f28dfdaec8d184bed58d6a4a6d43f8b9149f29facd145e15b575a4a4967",
+        "bundle_sha256": "da18d06e563866cab64e05177cc118d682372a39a89924e1593607e81acba837",
+        "result_sha256": "78d9cb1ccaa740999d110699a9a10ce75e1cc0c507390c243b8d71258714e31f",
+        "bundle_artifact_id": "2bf21bc8-e1ba-4d0f-8d4d-a3171fdbe237"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "60527111-091d-418c-b6a7-e404b7f1ed4b",
+          "sha256": "78d9cb1ccaa740999d110699a9a10ce75e1cc0c507390c243b8d71258714e31f",
+          "bytes": 66201,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/60527111-091d-418c-b6a7-e404b7f1ed4b"
+        },
+        "bundle_artifact_id": {
+          "id": "2bf21bc8-e1ba-4d0f-8d4d-a3171fdbe237",
+          "sha256": "da18d06e563866cab64e05177cc118d682372a39a89924e1593607e81acba837",
+          "bytes": 72412,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/2bf21bc8-e1ba-4d0f-8d4d-a3171fdbe237"
+        }
+      }
+    },
+    {
+      "id": "3fd51deb-ed54-4379-a61b-98ae466c602d",
+      "run_id": "cfb5ae0a-56a2-49e4-973c-287b56276ed2",
+      "checkpoint_id": "49bbdb81-b468-4587-9782-67e33199059e",
+      "source_hash": "cf2463a55b2e099331763c2f3af6744d0f08b78dffe6024c3f127a642ffb0971",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "route": "birth",
+        "terms": [
+          "X",
+          "Y",
+          "U",
+          "V"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "97593539-5e91-4312-9342-e756e55dd9b0",
+        "source_hash": "cf2463a55b2e099331763c2f3af6744d0f08b78dffe6024c3f127a642ffb0971",
+        "bundle_sha256": "956967f992a60474cd6ff4b3edad1757e6a0e44413afbb2a2b5f2fa828c51242",
+        "result_sha256": "06d35113a912b401390257cf50a45ad7ea25cd4e4145465f3b22ec28c41706ff",
+        "bundle_artifact_id": "05f8cc65-311e-475d-a05d-24f628955de6"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "97593539-5e91-4312-9342-e756e55dd9b0",
+          "sha256": "06d35113a912b401390257cf50a45ad7ea25cd4e4145465f3b22ec28c41706ff",
+          "bytes": 151842,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/97593539-5e91-4312-9342-e756e55dd9b0"
+        },
+        "bundle_artifact_id": {
+          "id": "05f8cc65-311e-475d-a05d-24f628955de6",
+          "sha256": "956967f992a60474cd6ff4b3edad1757e6a0e44413afbb2a2b5f2fa828c51242",
+          "bytes": 5436347,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/05f8cc65-311e-475d-a05d-24f628955de6"
+        }
+      }
+    },
+    {
+      "id": "3f7fb489-6018-4273-8883-4a1a141a91e2",
+      "run_id": "cfb5ae0a-56a2-49e4-973c-287b56276ed2",
+      "checkpoint_id": "49bbdb81-b468-4587-9782-67e33199059e",
+      "source_hash": "cf2463a55b2e099331763c2f3af6744d0f08b78dffe6024c3f127a642ffb0971",
+      "protocol": {
+        "cues": [
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "route": "birth",
+        "terms": [
+          "甲",
+          "乙"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "68ac8b60-4c58-4512-9296-4330c14b9bcc",
+        "source_hash": "cf2463a55b2e099331763c2f3af6744d0f08b78dffe6024c3f127a642ffb0971",
+        "bundle_sha256": "9741420c632cb4a3531db0cb7dfd99a7e1d0f8d5007d79789bb3cf673359bcdc",
+        "result_sha256": "44903f723c911be493a604b636e86826a766a71c95053b72dedb9e9383f19326",
+        "bundle_artifact_id": "57880593-e3f2-48a9-a8c3-1e32e1680adf"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "68ac8b60-4c58-4512-9296-4330c14b9bcc",
+          "sha256": "44903f723c911be493a604b636e86826a766a71c95053b72dedb9e9383f19326",
+          "bytes": 70691,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/68ac8b60-4c58-4512-9296-4330c14b9bcc"
+        },
+        "bundle_artifact_id": {
+          "id": "57880593-e3f2-48a9-a8c3-1e32e1680adf",
+          "sha256": "9741420c632cb4a3531db0cb7dfd99a7e1d0f8d5007d79789bb3cf673359bcdc",
+          "bytes": 2750215,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/57880593-e3f2-48a9-a8c3-1e32e1680adf"
+        }
+      }
+    },
+    {
+      "id": "c602e874-c342-4fa5-85f4-0d1ca3c7949c",
+      "run_id": "cfb5ae0a-56a2-49e4-973c-287b56276ed2",
+      "checkpoint_id": "49bbdb81-b468-4587-9782-67e33199059e",
+      "source_hash": "cf2463a55b2e099331763c2f3af6744d0f08b78dffe6024c3f127a642ffb0971",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "route": "continuation",
+        "terms": [
+          "X",
+          "Y",
+          "U",
+          "V"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "06afb2ed-c6f6-4cab-8a59-e40f241ce071",
+        "source_hash": "cf2463a55b2e099331763c2f3af6744d0f08b78dffe6024c3f127a642ffb0971",
+        "bundle_sha256": "de6009400308ad1f61166ef245150770ae572ea0cf41f4ce6e42b1c3f572e9a1",
+        "result_sha256": "bd015e05c139f1bcd4b73e1b51338c36cc7fdc7b4bc13bdcf5f1e9a3d2a41d83",
+        "bundle_artifact_id": "7659eed7-50ea-4c64-b0b9-5d0f13f13764"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "06afb2ed-c6f6-4cab-8a59-e40f241ce071",
+          "sha256": "bd015e05c139f1bcd4b73e1b51338c36cc7fdc7b4bc13bdcf5f1e9a3d2a41d83",
+          "bytes": 161189,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/06afb2ed-c6f6-4cab-8a59-e40f241ce071"
+        },
+        "bundle_artifact_id": {
+          "id": "7659eed7-50ea-4c64-b0b9-5d0f13f13764",
+          "sha256": "de6009400308ad1f61166ef245150770ae572ea0cf41f4ce6e42b1c3f572e9a1",
+          "bytes": 7324634,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/7659eed7-50ea-4c64-b0b9-5d0f13f13764"
+        }
+      }
+    },
+    {
+      "id": "4a34cfc1-ec76-4d81-b7b1-4afca8d09b80",
+      "run_id": "58291ddb-19c5-49f9-898d-75b277c28234",
+      "checkpoint_id": "dedcf89f-3bfb-4192-ae3e-ef384705086a",
+      "source_hash": "1e0c4a683af57442bdf20162a46341a8f8a42de3df55e65a8c31cb2a48896015",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "route": "birth",
+        "terms": [
+          "X",
+          "Y",
+          "U",
+          "V"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "307db061-2efa-49cf-bb3d-d1e260498f16",
+        "source_hash": "1e0c4a683af57442bdf20162a46341a8f8a42de3df55e65a8c31cb2a48896015",
+        "bundle_sha256": "380a3bf51365dd8e5079609cbbd6b4b3523db26e91f1a497d9660d3f12529bc5",
+        "result_sha256": "7149058ceb83d7e581ae0ab399b654c715afe414d3b15cca4bf63266912b4e0a",
+        "bundle_artifact_id": "3150df6b-c766-40b0-90f6-91bd622ab11f"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "307db061-2efa-49cf-bb3d-d1e260498f16",
+          "sha256": "7149058ceb83d7e581ae0ab399b654c715afe414d3b15cca4bf63266912b4e0a",
+          "bytes": 151865,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/307db061-2efa-49cf-bb3d-d1e260498f16"
+        },
+        "bundle_artifact_id": {
+          "id": "3150df6b-c766-40b0-90f6-91bd622ab11f",
+          "sha256": "380a3bf51365dd8e5079609cbbd6b4b3523db26e91f1a497d9660d3f12529bc5",
+          "bytes": 5621248,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/3150df6b-c766-40b0-90f6-91bd622ab11f"
+        }
+      }
+    },
+    {
+      "id": "be0687f4-8868-4930-b3bb-a935d70a49f5",
+      "run_id": "58291ddb-19c5-49f9-898d-75b277c28234",
+      "checkpoint_id": "dedcf89f-3bfb-4192-ae3e-ef384705086a",
+      "source_hash": "1e0c4a683af57442bdf20162a46341a8f8a42de3df55e65a8c31cb2a48896015",
+      "protocol": {
+        "cues": [
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "route": "birth",
+        "terms": [
+          "甲",
+          "乙"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "f00d7a4b-7855-4d45-ae43-610dccdac9f6",
+        "source_hash": "1e0c4a683af57442bdf20162a46341a8f8a42de3df55e65a8c31cb2a48896015",
+        "bundle_sha256": "42b21fef1f1afd9941b2b96dbbbf8a6a883d3b278faf32b9b0e73da1917ddcf8",
+        "result_sha256": "cccb5beeebf041b013bbccb2213ab8b3ecc4b08005ce8d2dd345ab31595b924b",
+        "bundle_artifact_id": "72d682c1-af45-4fe2-928a-6de799e2e5e9"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "f00d7a4b-7855-4d45-ae43-610dccdac9f6",
+          "sha256": "cccb5beeebf041b013bbccb2213ab8b3ecc4b08005ce8d2dd345ab31595b924b",
+          "bytes": 70662,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/f00d7a4b-7855-4d45-ae43-610dccdac9f6"
+        },
+        "bundle_artifact_id": {
+          "id": "72d682c1-af45-4fe2-928a-6de799e2e5e9",
+          "sha256": "42b21fef1f1afd9941b2b96dbbbf8a6a883d3b278faf32b9b0e73da1917ddcf8",
+          "bytes": 2842830,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/72d682c1-af45-4fe2-928a-6de799e2e5e9"
+        }
+      }
+    },
+    {
+      "id": "bb7a41ab-1402-450b-937b-63b1ff6aefe8",
+      "run_id": "701524f1-367c-422a-b3bb-b53a61304e09",
+      "checkpoint_id": "6b61b0f8-4c6c-4176-9b28-48a55c262880",
+      "source_hash": "56f359f2b361af28b515e884ae9f33ab9c7614592890223058ee242c442c2d49",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "route": "birth",
+        "terms": [
+          "X",
+          "Y",
+          "U",
+          "V"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "b7929d66-5459-49e2-8527-7d6c2f59a7f1",
+        "source_hash": "56f359f2b361af28b515e884ae9f33ab9c7614592890223058ee242c442c2d49",
+        "bundle_sha256": "7583783e805a189fdd5f0038d4860e7b79483ed81b684457793d9f8420ff6665",
+        "result_sha256": "8ae054acd96ad843de8226a25acc02ba84a21f32f611030de5feeeefb83cd598",
+        "bundle_artifact_id": "c1d6989a-7675-4031-9019-0b3e8b3f2fe0"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "b7929d66-5459-49e2-8527-7d6c2f59a7f1",
+          "sha256": "8ae054acd96ad843de8226a25acc02ba84a21f32f611030de5feeeefb83cd598",
+          "bytes": 151830,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/b7929d66-5459-49e2-8527-7d6c2f59a7f1"
+        },
+        "bundle_artifact_id": {
+          "id": "c1d6989a-7675-4031-9019-0b3e8b3f2fe0",
+          "sha256": "7583783e805a189fdd5f0038d4860e7b79483ed81b684457793d9f8420ff6665",
+          "bytes": 6412989,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/c1d6989a-7675-4031-9019-0b3e8b3f2fe0"
+        }
+      }
+    },
+    {
+      "id": "d066dbb3-b7fb-449c-8827-7032393644a1",
+      "run_id": "701524f1-367c-422a-b3bb-b53a61304e09",
+      "checkpoint_id": "6b61b0f8-4c6c-4176-9b28-48a55c262880",
+      "source_hash": "56f359f2b361af28b515e884ae9f33ab9c7614592890223058ee242c442c2d49",
+      "protocol": {
+        "cues": [
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "route": "birth",
+        "terms": [
+          "甲",
+          "乙"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "4b90333f-2f4a-4376-bbbe-4a0f7ddb71d4",
+        "source_hash": "56f359f2b361af28b515e884ae9f33ab9c7614592890223058ee242c442c2d49",
+        "bundle_sha256": "5a164f45303305f7766da5cea05a2e6ff912c39ead15619ce0df4414c5dabd1a",
+        "result_sha256": "61ac70ba2a019db3f8498fe5506d7f86cfc91e07c07c5c0bd8736f0ac6939de8",
+        "bundle_artifact_id": "51b7636a-a445-4125-8928-28aec051585a"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "4b90333f-2f4a-4376-bbbe-4a0f7ddb71d4",
+          "sha256": "61ac70ba2a019db3f8498fe5506d7f86cfc91e07c07c5c0bd8736f0ac6939de8",
+          "bytes": 70721,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/4b90333f-2f4a-4376-bbbe-4a0f7ddb71d4"
+        },
+        "bundle_artifact_id": {
+          "id": "51b7636a-a445-4125-8928-28aec051585a",
+          "sha256": "5a164f45303305f7766da5cea05a2e6ff912c39ead15619ce0df4414c5dabd1a",
+          "bytes": 3249024,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/51b7636a-a445-4125-8928-28aec051585a"
+        }
+      }
+    },
+    {
+      "id": "404637e4-6c9f-4486-8a20-0616e6d1606f",
+      "run_id": "684b8961-5e2f-4651-82d8-b879f1439d26",
+      "checkpoint_id": "1c5b0303-a4f1-4bbe-83f1-e955fba15652",
+      "source_hash": "9f182456a181c044f889672dc8a9ef7811cbf2e2ad150af55405bafc850ac106",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "route": "birth",
+        "terms": [
+          "X",
+          "Y",
+          "U",
+          "V"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "d7333b8e-84d1-46dc-92b4-07528dc729c4",
+        "source_hash": "9f182456a181c044f889672dc8a9ef7811cbf2e2ad150af55405bafc850ac106",
+        "bundle_sha256": "4fc415c7a98bb17b7d1c3ee92929bacdeebd44fa0a01accc6acfe5671eb01b9b",
+        "result_sha256": "570f53b5cb49ea6b7460339aaac7d7e0ace34a7eba5f825833cae780865524ee",
+        "bundle_artifact_id": "e435b59c-e030-491b-9c9f-538aa979fa9c"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "d7333b8e-84d1-46dc-92b4-07528dc729c4",
+          "sha256": "570f53b5cb49ea6b7460339aaac7d7e0ace34a7eba5f825833cae780865524ee",
+          "bytes": 151880,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/d7333b8e-84d1-46dc-92b4-07528dc729c4"
+        },
+        "bundle_artifact_id": {
+          "id": "e435b59c-e030-491b-9c9f-538aa979fa9c",
+          "sha256": "4fc415c7a98bb17b7d1c3ee92929bacdeebd44fa0a01accc6acfe5671eb01b9b",
+          "bytes": 5435241,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/e435b59c-e030-491b-9c9f-538aa979fa9c"
+        }
+      }
+    },
+    {
+      "id": "51ccbb7a-4e4e-4484-9e01-a9a2a152b29c",
+      "run_id": "684b8961-5e2f-4651-82d8-b879f1439d26",
+      "checkpoint_id": "1c5b0303-a4f1-4bbe-83f1-e955fba15652",
+      "source_hash": "9f182456a181c044f889672dc8a9ef7811cbf2e2ad150af55405bafc850ac106",
+      "protocol": {
+        "cues": [
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "route": "birth",
+        "terms": [
+          "甲",
+          "乙"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "8eb9e779-4fdd-413d-a4b6-778234856c44",
+        "source_hash": "9f182456a181c044f889672dc8a9ef7811cbf2e2ad150af55405bafc850ac106",
+        "bundle_sha256": "83d06123e874f07a92145a595eb87d716199bcede035e542ab8191438794c3a4",
+        "result_sha256": "62ebbf80992afb6d3ab1882afbb78a8406ee688546f4ced8262a3ef4a593b5f3",
+        "bundle_artifact_id": "df38d096-c813-451d-b2db-8cdb0a9ae750"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "8eb9e779-4fdd-413d-a4b6-778234856c44",
+          "sha256": "62ebbf80992afb6d3ab1882afbb78a8406ee688546f4ced8262a3ef4a593b5f3",
+          "bytes": 70724,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/8eb9e779-4fdd-413d-a4b6-778234856c44"
+        },
+        "bundle_artifact_id": {
+          "id": "df38d096-c813-451d-b2db-8cdb0a9ae750",
+          "sha256": "83d06123e874f07a92145a595eb87d716199bcede035e542ab8191438794c3a4",
+          "bytes": 2748626,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/df38d096-c813-451d-b2db-8cdb0a9ae750"
+        }
+      }
+    },
+    {
+      "id": "a776696e-138a-4b02-a135-b76e443a69f4",
+      "run_id": "f397912f-7216-42da-9077-64d43e824be7",
+      "checkpoint_id": "7f110171-0ed2-40f1-812e-274c031d0f4e",
+      "source_hash": "a370dc919a8a3b6486cc7baa1940f582093789620532739286d1d3dadefb3160",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "route": "birth",
+        "terms": [
+          "X",
+          "Y",
+          "U",
+          "V"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "c1942e0f-1ebb-4050-ba6b-601db2946b46",
+        "source_hash": "a370dc919a8a3b6486cc7baa1940f582093789620532739286d1d3dadefb3160",
+        "bundle_sha256": "c900cf6495b611e1d570fa5e60d120ea53ef9806fce57deb537693f2d78e205b",
+        "result_sha256": "882aafbab3c64ea2b4d2bb35fbab256fd1b661549875efdf58eae0a5a5fa5b7b",
+        "bundle_artifact_id": "6e8a269b-92df-458f-a8d2-e5af048c41f9"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "c1942e0f-1ebb-4050-ba6b-601db2946b46",
+          "sha256": "882aafbab3c64ea2b4d2bb35fbab256fd1b661549875efdf58eae0a5a5fa5b7b",
+          "bytes": 130178,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/c1942e0f-1ebb-4050-ba6b-601db2946b46"
+        },
+        "bundle_artifact_id": {
+          "id": "6e8a269b-92df-458f-a8d2-e5af048c41f9",
+          "sha256": "c900cf6495b611e1d570fa5e60d120ea53ef9806fce57deb537693f2d78e205b",
+          "bytes": 151330,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/6e8a269b-92df-458f-a8d2-e5af048c41f9"
+        }
+      }
+    },
+    {
+      "id": "eefd2efb-5565-4266-b75b-d74ce210403c",
+      "run_id": "f397912f-7216-42da-9077-64d43e824be7",
+      "checkpoint_id": "7f110171-0ed2-40f1-812e-274c031d0f4e",
+      "source_hash": "a370dc919a8a3b6486cc7baa1940f582093789620532739286d1d3dadefb3160",
+      "protocol": {
+        "cues": [
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "route": "birth",
+        "terms": [
+          "甲",
+          "乙"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "be8b6cf4-1664-4947-a0ba-3a0ffb859091",
+        "source_hash": "a370dc919a8a3b6486cc7baa1940f582093789620532739286d1d3dadefb3160",
+        "bundle_sha256": "0baf952e7146d440fde008f5b8732686fa9a42630241f3d3e047dfdfbed9d1a5",
+        "result_sha256": "d5c96bc4e057b3dd8aff3d306f24d1de4d07465f9dbae461e56bc779f7c054e2",
+        "bundle_artifact_id": "38458c4b-da13-4063-adf7-ec3c6b2fc3f5"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "be8b6cf4-1664-4947-a0ba-3a0ffb859091",
+          "sha256": "d5c96bc4e057b3dd8aff3d306f24d1de4d07465f9dbae461e56bc779f7c054e2",
+          "bytes": 66300,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/be8b6cf4-1664-4947-a0ba-3a0ffb859091"
+        },
+        "bundle_artifact_id": {
+          "id": "38458c4b-da13-4063-adf7-ec3c6b2fc3f5",
+          "sha256": "0baf952e7146d440fde008f5b8732686fa9a42630241f3d3e047dfdfbed9d1a5",
+          "bytes": 73731,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/38458c4b-da13-4063-adf7-ec3c6b2fc3f5"
+        }
+      }
+    },
+    {
+      "id": "898a7876-ac77-4ba9-b959-79a11236a11d",
+      "run_id": "4fd6bbfd-f240-4bb6-9081-6f5580ca4489",
+      "checkpoint_id": "b68fde3d-4553-43ae-ba53-26e7ec20a587",
+      "source_hash": "d533d322a766dbd7ea2c5023862137e9dd5dc57b5294c9ebe13a86693de422fa",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "route": "birth",
+        "terms": [
+          "X",
+          "Y",
+          "U",
+          "V"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "a3327060-c4dc-4c23-aaa3-d995249442ce",
+        "source_hash": "d533d322a766dbd7ea2c5023862137e9dd5dc57b5294c9ebe13a86693de422fa",
+        "bundle_sha256": "40caae6c7e28b430f1d45a012368a40248816c767ef38da14a68d2c93517596d",
+        "result_sha256": "3fe0e18b2ac5d1748b934caef808d40ef5b22d1ee92b9125aa34dc602f6452e5",
+        "bundle_artifact_id": "18cc2e4b-a274-4405-8d32-59a270cda220"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "a3327060-c4dc-4c23-aaa3-d995249442ce",
+          "sha256": "3fe0e18b2ac5d1748b934caef808d40ef5b22d1ee92b9125aa34dc602f6452e5",
+          "bytes": 151557,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/a3327060-c4dc-4c23-aaa3-d995249442ce"
+        },
+        "bundle_artifact_id": {
+          "id": "18cc2e4b-a274-4405-8d32-59a270cda220",
+          "sha256": "40caae6c7e28b430f1d45a012368a40248816c767ef38da14a68d2c93517596d",
+          "bytes": 5023427,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/18cc2e4b-a274-4405-8d32-59a270cda220"
+        }
+      }
+    },
+    {
+      "id": "1f09b229-d382-4c79-9f6c-dbc4b83e35b0",
+      "run_id": "4fd6bbfd-f240-4bb6-9081-6f5580ca4489",
+      "checkpoint_id": "b68fde3d-4553-43ae-ba53-26e7ec20a587",
+      "source_hash": "d533d322a766dbd7ea2c5023862137e9dd5dc57b5294c9ebe13a86693de422fa",
+      "protocol": {
+        "cues": [
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "route": "birth",
+        "terms": [
+          "甲",
+          "乙"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "103755c7-35f5-4112-a3ca-1db5abae4498",
+        "source_hash": "d533d322a766dbd7ea2c5023862137e9dd5dc57b5294c9ebe13a86693de422fa",
+        "bundle_sha256": "a7217046e55c6da2fb8dd3761170d3d209035fa22f7f911b1bbd14062ee2b9e0",
+        "result_sha256": "44418d8b9e42a9d005768638b6e28f389ae8e5bf07f5bc54f00c499c7ca1a823",
+        "bundle_artifact_id": "a661bde5-2d48-473f-bba6-c5e9b0857266"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "103755c7-35f5-4112-a3ca-1db5abae4498",
+          "sha256": "44418d8b9e42a9d005768638b6e28f389ae8e5bf07f5bc54f00c499c7ca1a823",
+          "bytes": 70287,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/103755c7-35f5-4112-a3ca-1db5abae4498"
+        },
+        "bundle_artifact_id": {
+          "id": "a661bde5-2d48-473f-bba6-c5e9b0857266",
+          "sha256": "a7217046e55c6da2fb8dd3761170d3d209035fa22f7f911b1bbd14062ee2b9e0",
+          "bytes": 2529113,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/a661bde5-2d48-473f-bba6-c5e9b0857266"
+        }
+      }
+    },
+    {
+      "id": "5a18d991-2a12-4c62-89cb-661a67def59f",
+      "run_id": "4fd6bbfd-f240-4bb6-9081-6f5580ca4489",
+      "checkpoint_id": "b68fde3d-4553-43ae-ba53-26e7ec20a587",
+      "source_hash": "d533d322a766dbd7ea2c5023862137e9dd5dc57b5294c9ebe13a86693de422fa",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "route": "continuation",
+        "terms": [
+          "X",
+          "Y",
+          "U",
+          "V"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "96a5d519-9ab3-40ce-a60c-dfd2dab99828",
+        "source_hash": "d533d322a766dbd7ea2c5023862137e9dd5dc57b5294c9ebe13a86693de422fa",
+        "bundle_sha256": "53856f896e05cbbf1e2f5f390cc0e5b6b62d9a3c3eb94e0978d0e9c93bd2a430",
+        "result_sha256": "9cfa9467d70e42fe516e8d281b1e82f608db1c6c6ae3087185bd393f7dedae1c",
+        "bundle_artifact_id": "a00dcf0b-61c0-4356-bdef-f4c027bfcc0a"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "96a5d519-9ab3-40ce-a60c-dfd2dab99828",
+          "sha256": "9cfa9467d70e42fe516e8d281b1e82f608db1c6c6ae3087185bd393f7dedae1c",
+          "bytes": 160720,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/96a5d519-9ab3-40ce-a60c-dfd2dab99828"
+        },
+        "bundle_artifact_id": {
+          "id": "a00dcf0b-61c0-4356-bdef-f4c027bfcc0a",
+          "sha256": "53856f896e05cbbf1e2f5f390cc0e5b6b62d9a3c3eb94e0978d0e9c93bd2a430",
+          "bytes": 6714592,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/a00dcf0b-61c0-4356-bdef-f4c027bfcc0a"
+        }
+      }
+    },
+    {
+      "id": "02adf1b3-e65a-4909-8a57-307267a98690",
+      "run_id": "8b323a7a-efea-47ec-b3a7-188e8fe7bd12",
+      "checkpoint_id": "d61db557-682c-4a25-94e2-e1b59b3a434a",
+      "source_hash": "6083732c241406fa28f331d6c290a4f89fd254273ee8730281cdbdce8cf5f818",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "route": "birth",
+        "terms": [
+          "X",
+          "Y",
+          "U",
+          "V"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "b14c0668-b01a-472b-acb6-ce38169104f9",
+        "source_hash": "6083732c241406fa28f331d6c290a4f89fd254273ee8730281cdbdce8cf5f818",
+        "bundle_sha256": "1f5ab2f1cc704f248634671945342d5ac0200ec4157aa77b9a0377a6f7ab113e",
+        "result_sha256": "31520535beefae0b4cd9bbf258394711bc1d98f620614b628c04bed89f46d569",
+        "bundle_artifact_id": "ddf1962e-42a1-483d-9461-d9a758427dc6"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "b14c0668-b01a-472b-acb6-ce38169104f9",
+          "sha256": "31520535beefae0b4cd9bbf258394711bc1d98f620614b628c04bed89f46d569",
+          "bytes": 151662,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/b14c0668-b01a-472b-acb6-ce38169104f9"
+        },
+        "bundle_artifact_id": {
+          "id": "ddf1962e-42a1-483d-9461-d9a758427dc6",
+          "sha256": "1f5ab2f1cc704f248634671945342d5ac0200ec4157aa77b9a0377a6f7ab113e",
+          "bytes": 5200921,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/ddf1962e-42a1-483d-9461-d9a758427dc6"
+        }
+      }
+    },
+    {
+      "id": "8c6a5ce6-c36d-4998-a3e2-a859d6eb3468",
+      "run_id": "8b323a7a-efea-47ec-b3a7-188e8fe7bd12",
+      "checkpoint_id": "d61db557-682c-4a25-94e2-e1b59b3a434a",
+      "source_hash": "6083732c241406fa28f331d6c290a4f89fd254273ee8730281cdbdce8cf5f818",
+      "protocol": {
+        "cues": [
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "route": "birth",
+        "terms": [
+          "甲",
+          "乙"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "62892f0e-c1c3-4abf-8fc9-4310a17e93ee",
+        "source_hash": "6083732c241406fa28f331d6c290a4f89fd254273ee8730281cdbdce8cf5f818",
+        "bundle_sha256": "df7c332bee4b453929555fa1b1ca02f8b12930f81a67639dc8e0ad3a743924c6",
+        "result_sha256": "d54561146aba782c48fa19cba3eb8d4c2b8883cd8afa20d53c8e01008385b7ed",
+        "bundle_artifact_id": "0763db1c-3f33-47ce-80eb-9cfbec64f52d"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "62892f0e-c1c3-4abf-8fc9-4310a17e93ee",
+          "sha256": "d54561146aba782c48fa19cba3eb8d4c2b8883cd8afa20d53c8e01008385b7ed",
+          "bytes": 70277,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/62892f0e-c1c3-4abf-8fc9-4310a17e93ee"
+        },
+        "bundle_artifact_id": {
+          "id": "0763db1c-3f33-47ce-80eb-9cfbec64f52d",
+          "sha256": "df7c332bee4b453929555fa1b1ca02f8b12930f81a67639dc8e0ad3a743924c6",
+          "bytes": 2620795,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/0763db1c-3f33-47ce-80eb-9cfbec64f52d"
+        }
+      }
+    },
+    {
+      "id": "3f1b4175-0ea4-4db3-8895-ba327599caa1",
+      "run_id": "d7e94602-79d1-4a41-9e5b-2691aeabf82c",
+      "checkpoint_id": "eb66cd22-e76e-4ef4-9a25-7f83eb593b6d",
+      "source_hash": "83513fd00e29fd052163f544b1f8210a7e7118a73647e56bf2caa4f98d391bb5",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "route": "birth",
+        "terms": [
+          "X",
+          "Y",
+          "U",
+          "V"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "bb49213f-88dc-403d-a6a9-8bbe20214d0c",
+        "source_hash": "83513fd00e29fd052163f544b1f8210a7e7118a73647e56bf2caa4f98d391bb5",
+        "bundle_sha256": "55ef9d1454c61925f9a1d2c269e7566e95e21e138dcf97a1abfe748186837622",
+        "result_sha256": "35c7cce6b45624a89039bb6ee1d66fafa9af3664f4e65074853cabc940996326",
+        "bundle_artifact_id": "cc66eefb-6af2-4ef2-a0c8-abb6b2e1bb53"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "bb49213f-88dc-403d-a6a9-8bbe20214d0c",
+          "sha256": "35c7cce6b45624a89039bb6ee1d66fafa9af3664f4e65074853cabc940996326",
+          "bytes": 151014,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/bb49213f-88dc-403d-a6a9-8bbe20214d0c"
+        },
+        "bundle_artifact_id": {
+          "id": "cc66eefb-6af2-4ef2-a0c8-abb6b2e1bb53",
+          "sha256": "55ef9d1454c61925f9a1d2c269e7566e95e21e138dcf97a1abfe748186837622",
+          "bytes": 6152860,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/cc66eefb-6af2-4ef2-a0c8-abb6b2e1bb53"
+        }
+      }
+    },
+    {
+      "id": "4ee38222-1206-4d89-8841-08d23a3f6d70",
+      "run_id": "d7e94602-79d1-4a41-9e5b-2691aeabf82c",
+      "checkpoint_id": "eb66cd22-e76e-4ef4-9a25-7f83eb593b6d",
+      "source_hash": "83513fd00e29fd052163f544b1f8210a7e7118a73647e56bf2caa4f98d391bb5",
+      "protocol": {
+        "cues": [
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "route": "birth",
+        "terms": [
+          "甲",
+          "乙"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "8065b32e-9e2c-4445-a540-6bc653acb6b7",
+        "source_hash": "83513fd00e29fd052163f544b1f8210a7e7118a73647e56bf2caa4f98d391bb5",
+        "bundle_sha256": "0eed35cdd7ecb202e6403eda649441dc7ed9b9d70f05b20648ab018b8a3d2746",
+        "result_sha256": "853e1a627d24c4ea4c2c84689fd9dd5cc6ac427fa9034e0cb1e5bb724495ef5f",
+        "bundle_artifact_id": "865f20da-7a42-479b-9480-4f536613d48b"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "8065b32e-9e2c-4445-a540-6bc653acb6b7",
+          "sha256": "853e1a627d24c4ea4c2c84689fd9dd5cc6ac427fa9034e0cb1e5bb724495ef5f",
+          "bytes": 70091,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/8065b32e-9e2c-4445-a540-6bc653acb6b7"
+        },
+        "bundle_artifact_id": {
+          "id": "865f20da-7a42-479b-9480-4f536613d48b",
+          "sha256": "0eed35cdd7ecb202e6403eda649441dc7ed9b9d70f05b20648ab018b8a3d2746",
+          "bytes": 3109407,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/865f20da-7a42-479b-9480-4f536613d48b"
+        }
+      }
+    },
+    {
+      "id": "2ba8eeff-ed17-4a07-b172-0477a77f2e78",
+      "run_id": "c0236142-e764-441f-8bcc-0a16c618a90b",
+      "checkpoint_id": "6203283b-f304-4a47-a18e-1179f2c7d314",
+      "source_hash": "21d4230102f8f490884af171f1b8cbc38061f4b408da82b03f02223cda2da12f",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "route": "birth",
+        "terms": [
+          "X",
+          "Y",
+          "U",
+          "V"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "53ed94e8-f49c-4c69-b3e1-55c94b85adba",
+        "source_hash": "21d4230102f8f490884af171f1b8cbc38061f4b408da82b03f02223cda2da12f",
+        "bundle_sha256": "0e1543549e4d6c3a37431355e514ac63c5185fd4b40e4c7e5556dae7abc8e7e0",
+        "result_sha256": "319e17d5337449a2d23ccb63386663adcc0658d0904a4e2ad02a91bd71bbdf68",
+        "bundle_artifact_id": "e1debcf1-d633-4ac7-a24a-a36bf53efec5"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "53ed94e8-f49c-4c69-b3e1-55c94b85adba",
+          "sha256": "319e17d5337449a2d23ccb63386663adcc0658d0904a4e2ad02a91bd71bbdf68",
+          "bytes": 151609,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/53ed94e8-f49c-4c69-b3e1-55c94b85adba"
+        },
+        "bundle_artifact_id": {
+          "id": "e1debcf1-d633-4ac7-a24a-a36bf53efec5",
+          "sha256": "0e1543549e4d6c3a37431355e514ac63c5185fd4b40e4c7e5556dae7abc8e7e0",
+          "bytes": 5023213,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/e1debcf1-d633-4ac7-a24a-a36bf53efec5"
+        }
+      }
+    },
+    {
+      "id": "5cf5e399-7c16-4b73-b14a-999afcbe1e10",
+      "run_id": "c0236142-e764-441f-8bcc-0a16c618a90b",
+      "checkpoint_id": "6203283b-f304-4a47-a18e-1179f2c7d314",
+      "source_hash": "21d4230102f8f490884af171f1b8cbc38061f4b408da82b03f02223cda2da12f",
+      "protocol": {
+        "cues": [
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "route": "birth",
+        "terms": [
+          "甲",
+          "乙"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "61f24818-a666-49b1-9050-e917854c2a76",
+        "source_hash": "21d4230102f8f490884af171f1b8cbc38061f4b408da82b03f02223cda2da12f",
+        "bundle_sha256": "06b87ec368011e628ce8755e3ca2d9e13bfcce289cde17eaaed0ba5e63b1ddf5",
+        "result_sha256": "f0373c6d35317313cb6f9ee100bd8e42f8bf0d7863a315e07fffed5608c4df9c",
+        "bundle_artifact_id": "b42acae3-54ad-4f62-9e43-dd801e1b14d2"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "61f24818-a666-49b1-9050-e917854c2a76",
+          "sha256": "f0373c6d35317313cb6f9ee100bd8e42f8bf0d7863a315e07fffed5608c4df9c",
+          "bytes": 70272,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/61f24818-a666-49b1-9050-e917854c2a76"
+        },
+        "bundle_artifact_id": {
+          "id": "b42acae3-54ad-4f62-9e43-dd801e1b14d2",
+          "sha256": "06b87ec368011e628ce8755e3ca2d9e13bfcce289cde17eaaed0ba5e63b1ddf5",
+          "bytes": 2528909,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/b42acae3-54ad-4f62-9e43-dd801e1b14d2"
+        }
+      }
+    },
+    {
+      "id": "3f4b5ce8-0cb9-4e5d-8dac-4c4020425af3",
+      "run_id": "61a800b1-a6bb-48ed-937b-4f1f6186aa42",
+      "checkpoint_id": "af2dd592-4595-4c31-8552-300f68cf827f",
+      "source_hash": "db577547424f66207df285597d5154f19ce81204525a72c1ddbb06ca44a4f182",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "route": "birth",
+        "terms": [
+          "X",
+          "Y",
+          "U",
+          "V"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "d0213ce6-ad80-48e8-bf69-da3b926fcf17",
+        "source_hash": "db577547424f66207df285597d5154f19ce81204525a72c1ddbb06ca44a4f182",
+        "bundle_sha256": "34d40f1fb11e62b448cfd36c8a1889955e3181a6af96e768b4fac2b9aa80ab4a",
+        "result_sha256": "fe98fbbf753c354392e3e9fa9b1c20db61b9ced12e2776eda6f1856f481a00e6",
+        "bundle_artifact_id": "925b47a0-1faf-49eb-bad9-1fdc29d021c8"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "d0213ce6-ad80-48e8-bf69-da3b926fcf17",
+          "sha256": "fe98fbbf753c354392e3e9fa9b1c20db61b9ced12e2776eda6f1856f481a00e6",
+          "bytes": 130392,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/d0213ce6-ad80-48e8-bf69-da3b926fcf17"
+        },
+        "bundle_artifact_id": {
+          "id": "925b47a0-1faf-49eb-bad9-1fdc29d021c8",
+          "sha256": "34d40f1fb11e62b448cfd36c8a1889955e3181a6af96e768b4fac2b9aa80ab4a",
+          "bytes": 153494,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/925b47a0-1faf-49eb-bad9-1fdc29d021c8"
+        }
+      }
+    },
+    {
+      "id": "b5dce2de-7634-482d-a695-575cad7fb3d9",
+      "run_id": "61a800b1-a6bb-48ed-937b-4f1f6186aa42",
+      "checkpoint_id": "af2dd592-4595-4c31-8552-300f68cf827f",
+      "source_hash": "db577547424f66207df285597d5154f19ce81204525a72c1ddbb06ca44a4f182",
+      "protocol": {
+        "cues": [
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "route": "birth",
+        "terms": [
+          "甲",
+          "乙"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "4f389622-a79e-46c3-bb54-8f37fd336936",
+        "source_hash": "db577547424f66207df285597d5154f19ce81204525a72c1ddbb06ca44a4f182",
+        "bundle_sha256": "001d50b7dc3bf900fcea3f74e02c1549d5fdafd94bd92636fc83cb2bdc35e9b8",
+        "result_sha256": "8757f96191017e4a306e6b86305ec7647944f395c9bfa7257e7ea08bdabaa61b",
+        "bundle_artifact_id": "96f21ede-d9d9-4f8f-ad47-f3be655ab979"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "4f389622-a79e-46c3-bb54-8f37fd336936",
+          "sha256": "8757f96191017e4a306e6b86305ec7647944f395c9bfa7257e7ea08bdabaa61b",
+          "bytes": 65830,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/4f389622-a79e-46c3-bb54-8f37fd336936"
+        },
+        "bundle_artifact_id": {
+          "id": "96f21ede-d9d9-4f8f-ad47-f3be655ab979",
+          "sha256": "001d50b7dc3bf900fcea3f74e02c1549d5fdafd94bd92636fc83cb2bdc35e9b8",
+          "bytes": 73764,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/96f21ede-d9d9-4f8f-ad47-f3be655ab979"
+        }
+      }
+    },
+    {
+      "id": "f0dcfdba-8f7f-4840-9ea3-1288e69b06e0",
+      "run_id": "9ccf6d2f-4ccb-4aa3-93a0-fc603744a461",
+      "checkpoint_id": "90d1e3cc-76fc-4764-8b05-611d002730d8",
+      "source_hash": "5d8030b924fc1dfb95b598558e2e1b2b51ba397560e6ce86e0aa7defed419d73",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "route": "birth",
+        "terms": [
+          "X",
+          "Y",
+          "U",
+          "V"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "a406a6fc-db18-4346-9707-ce48a2a1caf4",
+        "source_hash": "5d8030b924fc1dfb95b598558e2e1b2b51ba397560e6ce86e0aa7defed419d73",
+        "bundle_sha256": "7c0ed26ea9b7691fdbba183bb8369dc93caa13f5eb07d2c5b3951feda704d083",
+        "result_sha256": "ae70c7adb23c7819c16f66bdbf238696354c0278ef731c5d1e8f519c9507ae26",
+        "bundle_artifact_id": "2d08b1cc-4bba-4250-b0ea-f8e2902a6bad"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "a406a6fc-db18-4346-9707-ce48a2a1caf4",
+          "sha256": "ae70c7adb23c7819c16f66bdbf238696354c0278ef731c5d1e8f519c9507ae26",
+          "bytes": 148667,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/a406a6fc-db18-4346-9707-ce48a2a1caf4"
+        },
+        "bundle_artifact_id": {
+          "id": "2d08b1cc-4bba-4250-b0ea-f8e2902a6bad",
+          "sha256": "7c0ed26ea9b7691fdbba183bb8369dc93caa13f5eb07d2c5b3951feda704d083",
+          "bytes": 3025110,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/2d08b1cc-4bba-4250-b0ea-f8e2902a6bad"
+        }
+      }
+    },
+    {
+      "id": "94111600-f17f-4f6a-8619-25ad2d409d78",
+      "run_id": "9ccf6d2f-4ccb-4aa3-93a0-fc603744a461",
+      "checkpoint_id": "90d1e3cc-76fc-4764-8b05-611d002730d8",
+      "source_hash": "5d8030b924fc1dfb95b598558e2e1b2b51ba397560e6ce86e0aa7defed419d73",
+      "protocol": {
+        "cues": [
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "route": "birth",
+        "terms": [
+          "甲",
+          "乙"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "635153a1-5366-4cbc-86ca-cec64fd0cb23",
+        "source_hash": "5d8030b924fc1dfb95b598558e2e1b2b51ba397560e6ce86e0aa7defed419d73",
+        "bundle_sha256": "8b9dc05cfe2111324d4d48e57ee5079b2438624a4a7a99213168c293dd844c37",
+        "result_sha256": "f05cb671870518322d4fb36e647717d892084dbac035e0c41b5b56268f19ec47",
+        "bundle_artifact_id": "d022870e-c962-41f7-ba8a-6d503161a497"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "635153a1-5366-4cbc-86ca-cec64fd0cb23",
+          "sha256": "f05cb671870518322d4fb36e647717d892084dbac035e0c41b5b56268f19ec47",
+          "bytes": 70873,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/635153a1-5366-4cbc-86ca-cec64fd0cb23"
+        },
+        "bundle_artifact_id": {
+          "id": "d022870e-c962-41f7-ba8a-6d503161a497",
+          "sha256": "8b9dc05cfe2111324d4d48e57ee5079b2438624a4a7a99213168c293dd844c37",
+          "bytes": 1484111,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/d022870e-c962-41f7-ba8a-6d503161a497"
+        }
+      }
+    },
+    {
+      "id": "5daa27e4-0e80-49d3-878a-f7974e598147",
+      "run_id": "9ccf6d2f-4ccb-4aa3-93a0-fc603744a461",
+      "checkpoint_id": "90d1e3cc-76fc-4764-8b05-611d002730d8",
+      "source_hash": "5d8030b924fc1dfb95b598558e2e1b2b51ba397560e6ce86e0aa7defed419d73",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "route": "continuation",
+        "terms": [
+          "X",
+          "Y",
+          "U",
+          "V"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "f52b5272-906b-4561-9352-3cd394e49e95",
+        "source_hash": "5d8030b924fc1dfb95b598558e2e1b2b51ba397560e6ce86e0aa7defed419d73",
+        "bundle_sha256": "176f032e98c86e0187d05d389412ca3ef1cae9790984eb5777c6d5f7ca838486",
+        "result_sha256": "d8991ae2003f91f88bbb5ba0810d08fa431368ea941149ccc344e35c7c1f531b",
+        "bundle_artifact_id": "2acb92da-6ba2-4cf7-926f-e31192225f4b"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "f52b5272-906b-4561-9352-3cd394e49e95",
+          "sha256": "d8991ae2003f91f88bbb5ba0810d08fa431368ea941149ccc344e35c7c1f531b",
+          "bytes": 156888,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/f52b5272-906b-4561-9352-3cd394e49e95"
+        },
+        "bundle_artifact_id": {
+          "id": "2acb92da-6ba2-4cf7-926f-e31192225f4b",
+          "sha256": "176f032e98c86e0187d05d389412ca3ef1cae9790984eb5777c6d5f7ca838486",
+          "bytes": 4337118,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/2acb92da-6ba2-4cf7-926f-e31192225f4b"
+        }
+      }
+    },
+    {
+      "id": "6fb01db2-c53a-44db-929c-73e8cc65e07e",
+      "run_id": "cd65bf9b-3353-4e2c-a4cf-3e42c3ac5ecc",
+      "checkpoint_id": "c45d699d-6737-4d02-b208-8e81fb64ea1c",
+      "source_hash": "239b2551b74b71d294d690ba773b25986fbcbb9308c28e8a39d39366a9c28a2e",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "route": "birth",
+        "terms": [
+          "X",
+          "Y",
+          "U",
+          "V"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "b9699895-b752-48b2-b303-3c8ab3021a49",
+        "source_hash": "239b2551b74b71d294d690ba773b25986fbcbb9308c28e8a39d39366a9c28a2e",
+        "bundle_sha256": "527d99d4d1bcb320b41051d1ebc37dc25aad9825a5e8cd397206786235fe891d",
+        "result_sha256": "37888182a3c9d72c94716ae8cf1229ba53cbea1c2733a7ccd57b7bad3026f8ab",
+        "bundle_artifact_id": "935a69fd-be51-4734-8559-31c8ad6f37a3"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "b9699895-b752-48b2-b303-3c8ab3021a49",
+          "sha256": "37888182a3c9d72c94716ae8cf1229ba53cbea1c2733a7ccd57b7bad3026f8ab",
+          "bytes": 148605,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/b9699895-b752-48b2-b303-3c8ab3021a49"
+        },
+        "bundle_artifact_id": {
+          "id": "935a69fd-be51-4734-8559-31c8ad6f37a3",
+          "sha256": "527d99d4d1bcb320b41051d1ebc37dc25aad9825a5e8cd397206786235fe891d",
+          "bytes": 3036609,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/935a69fd-be51-4734-8559-31c8ad6f37a3"
+        }
+      }
+    },
+    {
+      "id": "9d64f0b9-91fc-4fe7-a8a9-35728283952b",
+      "run_id": "cd65bf9b-3353-4e2c-a4cf-3e42c3ac5ecc",
+      "checkpoint_id": "c45d699d-6737-4d02-b208-8e81fb64ea1c",
+      "source_hash": "239b2551b74b71d294d690ba773b25986fbcbb9308c28e8a39d39366a9c28a2e",
+      "protocol": {
+        "cues": [
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "route": "birth",
+        "terms": [
+          "甲",
+          "乙"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "df74f6f1-c7cb-49f7-8946-2dd518a0ab36",
+        "source_hash": "239b2551b74b71d294d690ba773b25986fbcbb9308c28e8a39d39366a9c28a2e",
+        "bundle_sha256": "65f6393828066dcfc81cfe90828d595fe6cf319b16fa874cae63d863040a3214",
+        "result_sha256": "2d46a8ee86d4387d83387534425de4d622c42219a6345e4e509cb4370b7ecc80",
+        "bundle_artifact_id": "8c846a7f-f5cb-4e98-bbe1-7fb6bcee7977"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "df74f6f1-c7cb-49f7-8946-2dd518a0ab36",
+          "sha256": "2d46a8ee86d4387d83387534425de4d622c42219a6345e4e509cb4370b7ecc80",
+          "bytes": 70842,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/df74f6f1-c7cb-49f7-8946-2dd518a0ab36"
+        },
+        "bundle_artifact_id": {
+          "id": "8c846a7f-f5cb-4e98-bbe1-7fb6bcee7977",
+          "sha256": "65f6393828066dcfc81cfe90828d595fe6cf319b16fa874cae63d863040a3214",
+          "bytes": 1490753,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/8c846a7f-f5cb-4e98-bbe1-7fb6bcee7977"
+        }
+      }
+    },
+    {
+      "id": "38a6f9a6-cc98-4196-b1a4-854cbc3d79ed",
+      "run_id": "1dcf0e95-405d-433a-96fc-d8f1fe10f484",
+      "checkpoint_id": "67ac2381-9a6d-4c19-9a1d-865254561976",
+      "source_hash": "81d53ee24454227897891eeb710315e38874d9bcb9a6821c679c4d910060c9c5",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "route": "birth",
+        "terms": [
+          "X",
+          "Y",
+          "U",
+          "V"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "e1f0ea41-568f-4e15-95e0-16cb0506851f",
+        "source_hash": "81d53ee24454227897891eeb710315e38874d9bcb9a6821c679c4d910060c9c5",
+        "bundle_sha256": "546c20bfbb760e07d7e5d8e2bf39f614702636de7d456af49b3d9cadcdc91041",
+        "result_sha256": "f1504d4436aa1cdb1fa729b49fe9969a33815e14e2421508008a57a9fece7a3f",
+        "bundle_artifact_id": "3f3cffb2-b737-4063-bb3a-786416a5863c"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "e1f0ea41-568f-4e15-95e0-16cb0506851f",
+          "sha256": "f1504d4436aa1cdb1fa729b49fe9969a33815e14e2421508008a57a9fece7a3f",
+          "bytes": 148595,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/e1f0ea41-568f-4e15-95e0-16cb0506851f"
+        },
+        "bundle_artifact_id": {
+          "id": "3f3cffb2-b737-4063-bb3a-786416a5863c",
+          "sha256": "546c20bfbb760e07d7e5d8e2bf39f614702636de7d456af49b3d9cadcdc91041",
+          "bytes": 3301630,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/3f3cffb2-b737-4063-bb3a-786416a5863c"
+        }
+      }
+    },
+    {
+      "id": "4a12cbf5-ead6-4881-a454-66d9a5980d85",
+      "run_id": "1dcf0e95-405d-433a-96fc-d8f1fe10f484",
+      "checkpoint_id": "67ac2381-9a6d-4c19-9a1d-865254561976",
+      "source_hash": "81d53ee24454227897891eeb710315e38874d9bcb9a6821c679c4d910060c9c5",
+      "protocol": {
+        "cues": [
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "route": "birth",
+        "terms": [
+          "甲",
+          "乙"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "10b92b0d-4c51-4d1c-8b82-c8a56eec4916",
+        "source_hash": "81d53ee24454227897891eeb710315e38874d9bcb9a6821c679c4d910060c9c5",
+        "bundle_sha256": "bbb1f41d6a01f054fd2793ddf2d05252fc98ceaf1c8f4af4956722806408a83f",
+        "result_sha256": "f30596c82047bc4c7db8a148dcd9f4d6aa581d9507253c1e60aaeffe7ee4ae65",
+        "bundle_artifact_id": "4101fb4d-8d1c-4157-9431-77f19009df62"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "10b92b0d-4c51-4d1c-8b82-c8a56eec4916",
+          "sha256": "f30596c82047bc4c7db8a148dcd9f4d6aa581d9507253c1e60aaeffe7ee4ae65",
+          "bytes": 70910,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/10b92b0d-4c51-4d1c-8b82-c8a56eec4916"
+        },
+        "bundle_artifact_id": {
+          "id": "4101fb4d-8d1c-4157-9431-77f19009df62",
+          "sha256": "bbb1f41d6a01f054fd2793ddf2d05252fc98ceaf1c8f4af4956722806408a83f",
+          "bytes": 1626182,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/4101fb4d-8d1c-4157-9431-77f19009df62"
+        }
+      }
+    },
+    {
+      "id": "c21dd16f-602d-499b-bdeb-e74cb2aab8b8",
+      "run_id": "ff0212ad-0745-4fcf-ac3e-4aec26eb0a00",
+      "checkpoint_id": "b513cee9-16e5-447a-9dca-001fb50811ae",
+      "source_hash": "a73294f1ceb0fb0fe6ea3c1a05760ca3ffd98232c712768144a121efa17580e8",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "route": "birth",
+        "terms": [
+          "X",
+          "Y",
+          "U",
+          "V"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "ed3931f5-b967-4fce-a967-fd3e935a2914",
+        "source_hash": "a73294f1ceb0fb0fe6ea3c1a05760ca3ffd98232c712768144a121efa17580e8",
+        "bundle_sha256": "3d8e2b26c33f9ccf98bc32b1698fb4c675a665c0473f69069224f65934881220",
+        "result_sha256": "01dbeb2e692a5fd822175330ebc5912e8a69f1f12d45628df4f86f491f12979e",
+        "bundle_artifact_id": "5dacecb1-40a1-481b-9c4b-e34e74fcf1f5"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "ed3931f5-b967-4fce-a967-fd3e935a2914",
+          "sha256": "01dbeb2e692a5fd822175330ebc5912e8a69f1f12d45628df4f86f491f12979e",
+          "bytes": 148669,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/ed3931f5-b967-4fce-a967-fd3e935a2914"
+        },
+        "bundle_artifact_id": {
+          "id": "5dacecb1-40a1-481b-9c4b-e34e74fcf1f5",
+          "sha256": "3d8e2b26c33f9ccf98bc32b1698fb4c675a665c0473f69069224f65934881220",
+          "bytes": 3026038,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/5dacecb1-40a1-481b-9c4b-e34e74fcf1f5"
+        }
+      }
+    },
+    {
+      "id": "34c6508f-f2f5-49fe-8f1c-48f50399d368",
+      "run_id": "ff0212ad-0745-4fcf-ac3e-4aec26eb0a00",
+      "checkpoint_id": "b513cee9-16e5-447a-9dca-001fb50811ae",
+      "source_hash": "a73294f1ceb0fb0fe6ea3c1a05760ca3ffd98232c712768144a121efa17580e8",
+      "protocol": {
+        "cues": [
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "route": "birth",
+        "terms": [
+          "甲",
+          "乙"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "e89994bb-9486-4a67-9414-10c10e50b32b",
+        "source_hash": "a73294f1ceb0fb0fe6ea3c1a05760ca3ffd98232c712768144a121efa17580e8",
+        "bundle_sha256": "a7ab84eeab54fa8d87b3a9a1d9fe0f8e943891ba37aafc90323162faa5a5a1f0",
+        "result_sha256": "893b86da1f0fb7058e9097392d333668afadb8338637260175348e96a4a136a0",
+        "bundle_artifact_id": "fa77ca65-24c4-465e-8bf4-c68185d434a0"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "e89994bb-9486-4a67-9414-10c10e50b32b",
+          "sha256": "893b86da1f0fb7058e9097392d333668afadb8338637260175348e96a4a136a0",
+          "bytes": 70887,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/e89994bb-9486-4a67-9414-10c10e50b32b"
+        },
+        "bundle_artifact_id": {
+          "id": "fa77ca65-24c4-465e-8bf4-c68185d434a0",
+          "sha256": "a7ab84eeab54fa8d87b3a9a1d9fe0f8e943891ba37aafc90323162faa5a5a1f0",
+          "bytes": 1485255,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/fa77ca65-24c4-465e-8bf4-c68185d434a0"
+        }
+      }
+    },
+    {
+      "id": "bce9edca-2a39-4f51-be0d-ac1e619df6a0",
+      "run_id": "d55b2435-1d54-4ec9-bf24-f94aceea8739",
+      "checkpoint_id": "207af78e-c4ae-40f9-a862-fc53796fdcf7",
+      "source_hash": "30572ee52accb3ffef621b50f2a0248fc297efaaedb89efb035ee74890108a79",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "route": "birth",
+        "terms": [
+          "X",
+          "Y",
+          "U",
+          "V"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "e08d2a21-98fd-4e4f-b634-3450207a4e0b",
+        "source_hash": "30572ee52accb3ffef621b50f2a0248fc297efaaedb89efb035ee74890108a79",
+        "bundle_sha256": "47eea5ad92fa459cda90cb158b19d52a0541fc8f394cbf20318d99a175d29d6a",
+        "result_sha256": "8abd1d7e10c0bcae8974bdf6d8e9ae3c5ba9322b431afc45e731b3dc71fb7dbe",
+        "bundle_artifact_id": "0f8129a4-f9f0-43df-818c-58a19239d062"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "e08d2a21-98fd-4e4f-b634-3450207a4e0b",
+          "sha256": "8abd1d7e10c0bcae8974bdf6d8e9ae3c5ba9322b431afc45e731b3dc71fb7dbe",
+          "bytes": 130436,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/e08d2a21-98fd-4e4f-b634-3450207a4e0b"
+        },
+        "bundle_artifact_id": {
+          "id": "0f8129a4-f9f0-43df-818c-58a19239d062",
+          "sha256": "47eea5ad92fa459cda90cb158b19d52a0541fc8f394cbf20318d99a175d29d6a",
+          "bytes": 150410,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/0f8129a4-f9f0-43df-818c-58a19239d062"
+        }
+      }
+    },
+    {
+      "id": "73feb788-2101-4770-85b6-dfd1b8118120",
+      "run_id": "d55b2435-1d54-4ec9-bf24-f94aceea8739",
+      "checkpoint_id": "207af78e-c4ae-40f9-a862-fc53796fdcf7",
+      "source_hash": "30572ee52accb3ffef621b50f2a0248fc297efaaedb89efb035ee74890108a79",
+      "protocol": {
+        "cues": [
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "route": "birth",
+        "terms": [
+          "甲",
+          "乙"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "614d489c-bd44-43ec-91f2-e57571c9b837",
+        "source_hash": "30572ee52accb3ffef621b50f2a0248fc297efaaedb89efb035ee74890108a79",
+        "bundle_sha256": "7f629bdf6a98e9c24caac5f9c1bdd10dba335e514d4818aedd981c779d01f717",
+        "result_sha256": "0d4669c3f664b082b30c8937d7a4db4baf1d67faa647e08f9f8f617428d371cf",
+        "bundle_artifact_id": "c1151018-c225-4aac-9f24-89b531e01066"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "614d489c-bd44-43ec-91f2-e57571c9b837",
+          "sha256": "0d4669c3f664b082b30c8937d7a4db4baf1d67faa647e08f9f8f617428d371cf",
+          "bytes": 66508,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/614d489c-bd44-43ec-91f2-e57571c9b837"
+        },
+        "bundle_artifact_id": {
+          "id": "c1151018-c225-4aac-9f24-89b531e01066",
+          "sha256": "7f629bdf6a98e9c24caac5f9c1bdd10dba335e514d4818aedd981c779d01f717",
+          "bytes": 73326,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/c1151018-c225-4aac-9f24-89b531e01066"
+        }
+      }
+    },
+    {
+      "id": "398dc8f1-3de3-448c-b7e3-fb0f2189e3e7",
+      "run_id": "61dcb6eb-c662-4424-b092-67f907cf19e4",
+      "checkpoint_id": "3cf33fa5-ea1a-4134-a7ce-915082eb99c5",
+      "source_hash": "0d7d8a60c6efba9148e453ea165d33a8813ec16d9185946c12794bf5951f8f78",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "route": "birth",
+        "terms": [
+          "X",
+          "Y",
+          "U",
+          "V"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "5b86d4ee-bad5-49f9-a6a7-ef4b2f387fef",
+        "source_hash": "0d7d8a60c6efba9148e453ea165d33a8813ec16d9185946c12794bf5951f8f78",
+        "bundle_sha256": "37ec166434c0e7200f17464d082d4bc0803da39f47de7afd227649bb3b9b9497",
+        "result_sha256": "c169079f0ee97821ed344a191b12cc4c9880f3b773c215a40e33b80c0bb211e9",
+        "bundle_artifact_id": "52df5eaf-172a-4207-aaf7-6aac7c29a52f"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "5b86d4ee-bad5-49f9-a6a7-ef4b2f387fef",
+          "sha256": "c169079f0ee97821ed344a191b12cc4c9880f3b773c215a40e33b80c0bb211e9",
+          "bytes": 151347,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/5b86d4ee-bad5-49f9-a6a7-ef4b2f387fef"
+        },
+        "bundle_artifact_id": {
+          "id": "52df5eaf-172a-4207-aaf7-6aac7c29a52f",
+          "sha256": "37ec166434c0e7200f17464d082d4bc0803da39f47de7afd227649bb3b9b9497",
+          "bytes": 2542610,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/52df5eaf-172a-4207-aaf7-6aac7c29a52f"
+        }
+      }
+    },
+    {
+      "id": "d7377aa0-1314-4054-be17-ef251c762079",
+      "run_id": "61dcb6eb-c662-4424-b092-67f907cf19e4",
+      "checkpoint_id": "3cf33fa5-ea1a-4134-a7ce-915082eb99c5",
+      "source_hash": "0d7d8a60c6efba9148e453ea165d33a8813ec16d9185946c12794bf5951f8f78",
+      "protocol": {
+        "cues": [
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "route": "birth",
+        "terms": [
+          "甲",
+          "乙"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "4b535eec-3f0b-447a-9fcc-423b7ebbeffc",
+        "source_hash": "0d7d8a60c6efba9148e453ea165d33a8813ec16d9185946c12794bf5951f8f78",
+        "bundle_sha256": "0ab0ad07db2633e8ec7322ab2f53a23a25f0ff4586d0fc25a875d732963ed120",
+        "result_sha256": "4bbae0329d7d54720af28a84a71f9ad0dc5a1426b8ec1e2d265e588e14504b3f",
+        "bundle_artifact_id": "4e7f2cbe-c4e4-4c05-af13-d2ea4dec8c3e"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "4b535eec-3f0b-447a-9fcc-423b7ebbeffc",
+          "sha256": "4bbae0329d7d54720af28a84a71f9ad0dc5a1426b8ec1e2d265e588e14504b3f",
+          "bytes": 70408,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/4b535eec-3f0b-447a-9fcc-423b7ebbeffc"
+        },
+        "bundle_artifact_id": {
+          "id": "4e7f2cbe-c4e4-4c05-af13-d2ea4dec8c3e",
+          "sha256": "0ab0ad07db2633e8ec7322ab2f53a23a25f0ff4586d0fc25a875d732963ed120",
+          "bytes": 1222067,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/4e7f2cbe-c4e4-4c05-af13-d2ea4dec8c3e"
+        }
+      }
+    },
+    {
+      "id": "2ed3cc8b-1678-44ef-a106-c30e4a364504",
+      "run_id": "61dcb6eb-c662-4424-b092-67f907cf19e4",
+      "checkpoint_id": "3cf33fa5-ea1a-4134-a7ce-915082eb99c5",
+      "source_hash": "0d7d8a60c6efba9148e453ea165d33a8813ec16d9185946c12794bf5951f8f78",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "route": "continuation",
+        "terms": [
+          "X",
+          "Y",
+          "U",
+          "V"
+        ],
+        "blank_us": 200000,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": false
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "fbc7aaae-55aa-4198-941f-d75497e6b9f0",
+        "source_hash": "0d7d8a60c6efba9148e453ea165d33a8813ec16d9185946c12794bf5951f8f78",
+        "bundle_sha256": "c8a5d2d18f2e88ea0438c80e0ca8f83d84b0b88d621c559bc0e357d6b3b3f5aa",
+        "result_sha256": "358d90d0a7c554770e9cd9ed19b135563e52620dac07ac794c765648bef4861e",
+        "bundle_artifact_id": "19540023-6b8c-4494-844c-1b5eb7289446"
+      },
+      "downloads": {
+        "artifact_id": {
+          "id": "fbc7aaae-55aa-4198-941f-d75497e6b9f0",
+          "sha256": "358d90d0a7c554770e9cd9ed19b135563e52620dac07ac794c765648bef4861e",
+          "bytes": 160461,
+          "name": "probe-calibration.json",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/fbc7aaae-55aa-4198-941f-d75497e6b9f0"
+        },
+        "bundle_artifact_id": {
+          "id": "19540023-6b8c-4494-844c-1b5eb7289446",
+          "sha256": "c8a5d2d18f2e88ea0438c80e0ca8f83d84b0b88d621c559bc0e357d6b3b3f5aa",
+          "bytes": 3244703,
+          "name": "probe-evidence.zip",
+          "url": "/api/v2/projects/7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd/artifacts/19540023-6b8c-4494-844c-1b5eb7289446"
+        }
+      }
+    }
+  ],
+  "raw_scope": "All zero/nonzero node activity, actual input frames, events, original source and each final model. Word masks affect only observer scoring.",
+  "phase_files": {
+    "calibration": {
+      "file": "calibration-attempt1-results.json",
+      "sha256": "978cae478f2dd4a6e4b7bd80da9a7cf740e70ffb54b64ba1307e14c3cc9b7451"
+    },
+    "weak_probe": {
+      "file": "weak_probe-attempt1-results.json",
+      "sha256": "204dbd7efd3af335565abfe3c83d7cb5de7f8f291b4759277a3f9e0fb248ed37"
+    },
+    "main": {
+      "file": "main-attempt1-results.json",
+      "sha256": "0e0a50fb9925dcd1c00f5c8d9e999d2a8fa41d2b18039cd8025f6fdb030f0cb3"
+    },
+    "long": {
+      "file": "long-attempt1-results.json",
+      "sha256": "de4b3c3efc55a2065f0353c17cb17b6735c2651dfa303ff18678d1762baf320d"
+    }
+  }
+}

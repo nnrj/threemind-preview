@@ -1,0 +1,88 @@
+{
+  "method": "read-only comparison of existing first-confirmation records; same complete source, offset, color and shape question; cube versus cylinder",
+  "new_simulations": 0,
+  "new_calibrations": 0,
+  "comparisons": [
+    {
+      "failed_question": "final-1-0-5",
+      "shape": 2,
+      "color": 1,
+      "offset": [
+        0.014,
+        -0.014
+      ],
+      "answer": "圆柱体",
+      "comparison_question": "final-1-0-17",
+      "comparison_shape": 1,
+      "comparison_correct": true,
+      "retinal_values_equal": false,
+      "retinal_different_values": 660,
+      "retinal_max_absolute_difference": 0.21249999850988388,
+      "raw_activity_equal": false,
+      "activity_different_values": 7062,
+      "activity_max_absolute_difference": 0.028345391154289246,
+      "activity_l2_difference": 0.2222522348165512
+    },
+    {
+      "failed_question": "final-1-0-11",
+      "shape": 2,
+      "color": 4,
+      "offset": [
+        0.014,
+        -0.014
+      ],
+      "answer": "圆柱体",
+      "comparison_question": "final-1-0-1",
+      "comparison_shape": 1,
+      "comparison_correct": true,
+      "retinal_values_equal": false,
+      "retinal_different_values": 660,
+      "retinal_max_absolute_difference": 0.10000000149011612,
+      "raw_activity_equal": false,
+      "activity_different_values": 7040,
+      "activity_max_absolute_difference": 0.013308592140674591,
+      "activity_l2_difference": 0.12800221145153046
+    },
+    {
+      "failed_question": "final-1-0-31",
+      "shape": 2,
+      "color": 3,
+      "offset": [
+        0.014,
+        -0.014
+      ],
+      "answer": "圆柱体",
+      "comparison_question": "final-1-0-18",
+      "comparison_shape": 1,
+      "comparison_correct": true,
+      "retinal_values_equal": false,
+      "retinal_different_values": 660,
+      "retinal_max_absolute_difference": 0.21249999850988388,
+      "raw_activity_equal": false,
+      "activity_different_values": 7061,
+      "activity_max_absolute_difference": 0.028692860156297684,
+      "activity_l2_difference": 0.16009758412837982
+    },
+    {
+      "failed_question": "final-1-1-7",
+      "shape": 2,
+      "color": 1,
+      "offset": [
+        -0.014,
+        0.014
+      ],
+      "answer": "圆柱体",
+      "comparison_question": "final-1-1-28",
+      "comparison_shape": 1,
+      "comparison_correct": true,
+      "retinal_values_equal": false,
+      "retinal_different_values": 500,
+      "retinal_max_absolute_difference": 0.21249999850988388,
+      "raw_activity_equal": false,
+      "activity_different_values": 7030,
+      "activity_max_absolute_difference": 0.028414007276296616,
+      "activity_l2_difference": 0.181601881980896
+    }
+  ],
+  "interpretation": "All compared retinal input and sampled Core activity differ. This excludes literal identity for these records, not insufficient discriminability or classifier/generalization limitations. No causal mechanism is isolated."
+}

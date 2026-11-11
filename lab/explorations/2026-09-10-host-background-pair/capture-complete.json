@@ -1,0 +1,6 @@
+{
+  "samples": 415,
+  "duration_s": 415.0469999999914,
+  "first_delivery_rule": "capture elapsed time plus original 1 second feedback delay",
+  "scope": "host only"
+}

@@ -1,0 +1,246 @@
+{
+  "schema": "threemind.sat-analysis/1",
+  "independent_origins": 8,
+  "aggregate": {
+    "intact": {
+      "solved": 98,
+      "denominator": 192,
+      "initial_satisfied": 0,
+      "new_solutions": 98,
+      "success": 0.5104166666666666,
+      "mean_capped_flips": 68.09375,
+      "total_solve_seconds": 9.366626299888594,
+      "mean_zero_rate": 0.3871515396985225,
+      "eligible": 3300,
+      "queries": 43830,
+      "nonzero_queries": 169,
+      "sizes": {
+        "12": {
+          "solved": 70,
+          "total": 96
+        },
+        "20": {
+          "solved": 28,
+          "total": 96
+        }
+      }
+    },
+    "sham": {
+      "solved": 98,
+      "denominator": 192,
+      "initial_satisfied": 0,
+      "new_solutions": 98,
+      "success": 0.5104166666666666,
+      "mean_capped_flips": 68.09375,
+      "total_solve_seconds": 9.32512469982612,
+      "mean_zero_rate": 0.3871515396985225,
+      "eligible": 3300,
+      "queries": 43830,
+      "nonzero_queries": 169,
+      "sizes": {
+        "12": {
+          "solved": 70,
+          "total": 96
+        },
+        "20": {
+          "solved": 28,
+          "total": 96
+        }
+      }
+    },
+    "target": {
+      "solved": 96,
+      "denominator": 192,
+      "initial_satisfied": 0,
+      "new_solutions": 96,
+      "success": 0.5,
+      "mean_capped_flips": 69.20833333333333,
+      "total_solve_seconds": 9.52886809996562,
+      "mean_zero_rate": 0.378862749220399,
+      "eligible": 3361,
+      "queries": 44472,
+      "nonzero_queries": 0,
+      "sizes": {
+        "12": {
+          "solved": 69,
+          "total": 96
+        },
+        "20": {
+          "solved": 27,
+          "total": 96
+        }
+      }
+    },
+    "matched": {
+      "solved": 98,
+      "denominator": 192,
+      "initial_satisfied": 0,
+      "new_solutions": 98,
+      "success": 0.5104166666666666,
+      "mean_capped_flips": 68.09375,
+      "total_solve_seconds": 9.578319900145289,
+      "mean_zero_rate": 0.3871515396985225,
+      "eligible": 3300,
+      "queries": 43830,
+      "nonzero_queries": 169,
+      "sizes": {
+        "12": {
+          "solved": 70,
+          "total": 96
+        },
+        "20": {
+          "solved": 28,
+          "total": 96
+        }
+      }
+    },
+    "restored": {
+      "solved": 98,
+      "denominator": 192,
+      "initial_satisfied": 0,
+      "new_solutions": 98,
+      "success": 0.5104166666666666,
+      "mean_capped_flips": 68.09375,
+      "total_solve_seconds": 9.934191400068812,
+      "mean_zero_rate": 0.3871515396985225,
+      "eligible": 3300,
+      "queries": 43830,
+      "nonzero_queries": 169,
+      "sizes": {
+        "12": {
+          "solved": 70,
+          "total": 96
+        },
+        "20": {
+          "solved": 28,
+          "total": 96
+        }
+      }
+    },
+    "shuffled": {
+      "solved": 98,
+      "denominator": 192,
+      "initial_satisfied": 0,
+      "new_solutions": 98,
+      "success": 0.5104166666666666,
+      "mean_capped_flips": 68.23958333333333,
+      "total_solve_seconds": 9.973450100020273,
+      "mean_zero_rate": 0.3785059626599703,
+      "eligible": 3318,
+      "queries": 43914,
+      "nonzero_queries": 112,
+      "sizes": {
+        "12": {
+          "solved": 70,
+          "total": 96
+        },
+        "20": {
+          "solved": 28,
+          "total": 96
+        }
+      }
+    },
+    "random-local": {
+      "solved": 93,
+      "denominator": 192,
+      "initial_satisfied": 0,
+      "new_solutions": 93,
+      "success": 0.484375,
+      "mean_capped_flips": 69.28645833333333,
+      "total_solve_seconds": 1.5558481000480242,
+      "mean_zero_rate": null,
+      "eligible": 0,
+      "queries": 0,
+      "nonzero_queries": 0,
+      "sizes": {
+        "12": {
+          "solved": 61,
+          "total": 96
+        },
+        "20": {
+          "solved": 32,
+          "total": 96
+        }
+      }
+    },
+    "walksat": {
+      "solved": 172,
+      "denominator": 192,
+      "initial_satisfied": 0,
+      "new_solutions": 172,
+      "success": 0.8958333333333334,
+      "mean_capped_flips": 34.166666666666664,
+      "total_solve_seconds": 0.8379490000370424,
+      "mean_zero_rate": 1.0,
+      "eligible": 1426,
+      "queries": 0,
+      "nonzero_queries": 0,
+      "sizes": {
+        "12": {
+          "solved": 92,
+          "total": 96
+        },
+        "20": {
+          "solved": 80,
+          "total": 96
+        }
+      }
+    }
+  },
+  "G1": {
+    "verdict": "FAIL",
+    "planning_threshold": 0.1,
+    "minimum_positive_sources": 6,
+    "mean_difference": 0.0,
+    "source_differences": [
+      0.0,
+      0.04166666666666663,
+      0.0,
+      0.0,
+      0.0,
+      0.04166666666666663,
+      -0.04166666666666663,
+      -0.04166666666666663
+    ],
+    "positive_sources": 2,
+    "bootstrap_95": [
+      -0.020833333333333315,
+      0.020833333333333315
+    ]
+  },
+  "G2": {
+    "verdict": "FAIL",
+    "target_threshold": 0.2,
+    "matched_tolerance": 0.05,
+    "mean_target_drop": 0.008288790478123538,
+    "target_bootstrap_95": [
+      0.004110201515657788,
+      0.012972012048266597
+    ],
+    "mean_matched_drop": 0.0,
+    "source_target_drops": [
+      0.0059209679495430545,
+      0.001651735722284442,
+      0.014354066985645952,
+      0.021020868727337272,
+      0.0005530261495554356,
+      0.011822254037462454,
+      0.006761139663689408,
+      0.0042262645894702855
+    ],
+    "eligible_and_matching_valid": true
+  },
+  "audit": {
+    "recomputed_complete_teaching_histories": 16,
+    "independently_checked_matching_origins": 8,
+    "recomputed_input_digest_transitions": 1248,
+    "checked_trajectories": 1664,
+    "verified_whole_state_transitions": 1248,
+    "exact_sham_restore_problem_comparisons": 416,
+    "invalid_sat_claims": 0,
+    "unsat_sentinels": 128,
+    "ordinary_rollbacks": 0
+  },
+  "original_analysis_path": "E:\\ThreeMindData\\experiments\\2026-11-01-sat-pilot\\v1\\analysis-v1.json",
+  "classification": "small derived summary; originals are outside Git"
+}

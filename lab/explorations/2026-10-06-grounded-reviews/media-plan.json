@@ -1,0 +1,165 @@
+{
+  "schema": "threemind.classroom-complete-replay/1",
+  "core_advanced": false,
+  "answers_regenerated": false,
+  "scope": "all completed E55 recorded teaching, calibration, question controls and all three motor groups",
+  "duration_s": 1722.3999999999917,
+  "samples": 48104,
+  "chapters": [
+    {
+      "title": "正常学习：完整168课与间隔",
+      "case": "s223-spaced-teaching",
+      "kind": "teaching",
+      "start": 12.0,
+      "end": 162.3999999999999,
+      "trials": 168,
+      "source": ".work\\grounded-reviews-20261006\\cases\\s223-spaced-teaching\\teaching.jsonl.gz"
+    },
+    {
+      "title": "正常学习：全部96项外设校准",
+      "case": "s223-spaced-train",
+      "kind": "calibration",
+      "start": 162.3999999999999,
+      "end": 215.5999999999988,
+      "trials": 96,
+      "source": ".work\\grounded-reviews-20261006\\cases\\s223-spaced-train\\process.jsonl.gz"
+    },
+    {
+      "title": "正常学习：已教组合／新视角",
+      "case": "s223-spaced-familiar",
+      "kind": "question",
+      "start": 215.5999999999988,
+      "end": 327.5999999999988,
+      "trials": 48,
+      "source": ".work\\grounded-reviews-20261006\\cases\\s223-spaced-familiar\\process.jsonl.gz"
+    },
+    {
+      "title": "正常学习：未教组合",
+      "case": "s223-spaced-held",
+      "kind": "question",
+      "start": 327.5999999999988,
+      "end": 367.5999999999988,
+      "trials": 16,
+      "source": ".work\\grounded-reviews-20261006\\cases\\s223-spaced-held\\process.jsonl.gz"
+    },
+    {
+      "title": "正常学习：已见视角／新排列",
+      "case": "s223-spaced-permutations",
+      "kind": "question",
+      "start": 367.5999999999988,
+      "end": 479.5999999999988,
+      "trials": 48,
+      "source": ".work\\grounded-reviews-20261006\\cases\\s223-spaced-permutations\\process.jsonl.gz"
+    },
+    {
+      "title": "正常学习：已有连接静默",
+      "case": "s223-spaced-familiar-silence",
+      "kind": "question",
+      "start": 479.5999999999988,
+      "end": 591.5999999999988,
+      "trials": 48,
+      "source": ".work\\grounded-reviews-20261006\\cases\\s223-spaced-familiar-silence\\process.jsonl.gz"
+    },
+    {
+      "title": "正常学习：解除静默恢复",
+      "case": "s223-spaced-familiar-rescue",
+      "kind": "question",
+      "start": 591.5999999999988,
+      "end": 613.5999999999988,
+      "trials": 8,
+      "source": ".work\\grounded-reviews-20261006\\cases\\s223-spaced-familiar-rescue\\process.jsonl.gz"
+    },
+    {
+      "title": "关闭Core可塑学习：完整168课与间隔",
+      "case": "s223-frozen-teaching",
+      "kind": "teaching",
+      "start": 613.5999999999988,
+      "end": 763.9999999999911,
+      "trials": 168,
+      "source": ".work\\grounded-reviews-20261006\\cases\\s223-frozen-teaching\\teaching.jsonl.gz"
+    },
+    {
+      "title": "关闭Core可塑学习：全部96项外设校准",
+      "case": "s223-frozen-train",
+      "kind": "calibration",
+      "start": 763.9999999999911,
+      "end": 817.1999999999955,
+      "trials": 96,
+      "source": ".work\\grounded-reviews-20261006\\cases\\s223-frozen-train\\process.jsonl.gz"
+    },
+    {
+      "title": "关闭Core可塑学习：已教组合／新视角",
+      "case": "s223-frozen-familiar",
+      "kind": "question",
+      "start": 817.1999999999955,
+      "end": 929.1999999999955,
+      "trials": 48,
+      "source": ".work\\grounded-reviews-20261006\\cases\\s223-frozen-familiar\\process.jsonl.gz"
+    },
+    {
+      "title": "关闭Core可塑学习：未教组合",
+      "case": "s223-frozen-held",
+      "kind": "question",
+      "start": 929.1999999999955,
+      "end": 969.1999999999955,
+      "trials": 16,
+      "source": ".work\\grounded-reviews-20261006\\cases\\s223-frozen-held\\process.jsonl.gz"
+    },
+    {
+      "title": "关闭Core可塑学习：已见视角／新排列",
+      "case": "s223-frozen-permutations",
+      "kind": "question",
+      "start": 969.1999999999955,
+      "end": 1081.1999999999955,
+      "trials": 48,
+      "source": ".work\\grounded-reviews-20261006\\cases\\s223-frozen-permutations\\process.jsonl.gz"
+    },
+    {
+      "title": "运动教学：全部180课与间隔",
+      "case": "s223-motor-teaching",
+      "kind": "motor-teaching",
+      "start": 1081.1999999999955,
+      "end": 1292.1999999999873,
+      "trials": 180,
+      "source": ".work\\grounded-reviews-20261006\\cases\\s223-motor-teaching\\process.jsonl.gz"
+    },
+    {
+      "title": "实际指向：最近4帧／全部32次",
+      "case": "s223-motor-test-recent-normal",
+      "kind": "motor",
+      "start": 1292.1999999999873,
+      "end": 1430.5999999999888,
+      "trials": 32,
+      "source": ".work\\grounded-reviews-20261006\\cases\\s223-motor-test-recent-normal\\process.jsonl.gz"
+    },
+    {
+      "title": "实际指向：完整过程16帧／全部32次",
+      "case": "s223-motor-test-episode-normal",
+      "kind": "motor",
+      "start": 1430.5999999999888,
+      "end": 1568.9999999999902,
+      "trials": 32,
+      "source": ".work\\grounded-reviews-20261006\\cases\\s223-motor-test-episode-normal\\process.jsonl.gz"
+    },
+    {
+      "title": "实际指向：整段留出选模（探索性）／全部32次",
+      "case": "s223-motor-test-episode-validated-normal",
+      "kind": "motor",
+      "start": 1568.9999999999902,
+      "end": 1707.3999999999917,
+      "trials": 32,
+      "source": ".work\\grounded-reviews-20261006\\cases\\s223-motor-test-episode-validated-normal\\process.jsonl.gz"
+    }
+  ],
+  "simulations_unexecuted": [
+    "s223-motor-test-episode-changed-request",
+    "s223-spaced-teaching-preflight-failed"
+  ],
+  "display_only": {
+    "teacher_and_calibration_speed": 4,
+    "interval_speed": 8,
+    "formal_test_speed": 1,
+    "positions": "recorded; sample hold, no invented motion",
+    "rgb": "display conversion to 8-bit, original samples in evidence"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "bytes": 196802643,
+  "chapters": [
+    {
+      "bytes": 21261779,
+      "case": "initial-teaching",
+      "clips": 106,
+      "file": "initial-teaching.html",
+      "frames": 3600,
+      "label": "空白初教 · 全部104课与间隔"
+    },
+    {
+      "bytes": 5716373,
+      "case": "initial-calibration",
+      "clips": 48,
+      "file": "initial-calibration.html",
+      "frames": 960,
+      "label": "初次外设校准 · 全部48次问答"
+    },
+    {
+      "bytes": 8558764,
+      "case": "development-0",
+      "clips": 72,
+      "file": "development-0.html",
+      "frames": 1440,
+      "label": "纠错前开发检查 · 全部72题"
+    },
+    {
+      "bytes": 33428578,
+      "case": "correction-1",
+      "clips": 181,
+      "file": "correction-1.html",
+      "frames": 5660,
+      "label": "第1轮 · 错题重答、即时示范、相似题及旧例复习"
+    },
+    {
+      "bytes": 8565271,
+      "case": "calibration-1",
+      "clips": 72,
+      "file": "calibration-1.html",
+      "frames": 1440,
+      "label": "第1轮 · 外设续校材料72题"
+    },
+    {
+      "bytes": 8557531,
+      "case": "development-1",
+      "clips": 72,
+      "file": "development-1.html",
+      "frames": 1440,
+      "label": "第1轮 · 固定开发题72题"
+    },
+    {
+      "bytes": 8549630,
+      "case": "confirmation-1",
+      "clips": 72,
+      "file": "confirmation-1.html",
+      "frames": 1440,
+      "label": "第1轮 · 新位置确认72题"
+    },
+    {
+      "bytes": 24744207,
+      "case": "correction-2",
+      "clips": 127,
+      "file": "correction-2.html",
+      "frames": 4190,
+      "label": "第2轮 · 错题重答、即时示范、相似题及旧例复习"
+    },
+    {
+      "bytes": 8564361,
+      "case": "calibration-2",
+      "clips": 72,
+      "file": "calibration-2.html",
+      "frames": 1440,
+      "label": "第2轮 · 外设续校材料72题"
+    },
+    {
+      "bytes": 8557022,
+      "case": "development-2",
+      "clips": 72,
+      "file": "development-2.html",
+      "frames": 1440,
+      "label": "第2轮 · 固定开发题72题"
+    },
+    {
+      "bytes": 8535986,
+      "case": "confirmation-2",
+      "clips": 72,
+      "file": "confirmation-2.html",
+      "frames": 1440,
+      "label": "第2轮 · 新位置确认72题"
+    },
+    {
+      "bytes": 24457341,
+      "case": "correction-3",
+      "clips": 125,
+      "file": "correction-3.html",
+      "frames": 4140,
+      "label": "第3轮 · 错题重答、即时示范、相似题及旧例复习"
+    },
+    {
+      "bytes": 8564442,
+      "case": "calibration-3",
+      "clips": 72,
+      "file": "calibration-3.html",
+      "frames": 1440,
+      "label": "第3轮 · 外设续校材料72题"
+    },
+    {
+      "bytes": 8556637,
+      "case": "development-3",
+      "clips": 72,
+      "file": "development-3.html",
+      "frames": 1440,
+      "label": "第3轮 · 固定开发题72题"
+    },
+    {
+      "bytes": 8533757,
+      "case": "confirmation-3",
+      "clips": 72,
+      "file": "confirmation-3.html",
+      "frames": 1440,
+      "label": "第3轮 · 新位置确认72题"
+    },
+    {
+      "bytes": 1650964,
+      "case": "retention-retest",
+      "clips": 14,
+      "file": "retention-retest.html",
+      "frames": 280,
+      "label": "结项开发复查 · 已接受教师纠正的旧确认错题及易混题"
+    }
+  ],
+  "clips": 1321,
+  "frames": 33230
+}

@@ -1,0 +1,839 @@
+{
+  "schema": "threemind.eye-hand-paired-analysis/1",
+  "scope": "fixed updated reader; corrected student; common physical starting state",
+  "phase_metrics": {
+    "normal": {
+      "requested_eye_trials": 6,
+      "target_phases": 12,
+      "initially_aligned_phases": 1,
+      "initially_unaligned_phases": 11,
+      "unaligned_then_entered": 2,
+      "unaligned_then_aligned_slow": 2,
+      "unaligned_and_ended_aligned": 2,
+      "longest_aligned_slow_s": 1.75,
+      "retarget_phases": [
+        {
+          "start_s": 3.0,
+          "duration_s": 3.0,
+          "clear_center": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          },
+          "aligned_slow": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          }
+        },
+        {
+          "start_s": 3.0,
+          "duration_s": 3.0,
+          "clear_center": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          },
+          "aligned_slow": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          }
+        },
+        {
+          "start_s": 3.0,
+          "duration_s": 3.0,
+          "clear_center": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          },
+          "aligned_slow": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          }
+        },
+        {
+          "start_s": 3.0,
+          "duration_s": 3.0,
+          "clear_center": {
+            "fraction": 0.7666666666666667,
+            "first_s": 0.2,
+            "longest_s": 1.75,
+            "inside_at_start": false,
+            "inside_at_end": true
+          },
+          "aligned_slow": {
+            "fraction": 0.6666666666666666,
+            "first_s": 0.5,
+            "longest_s": 1.75,
+            "inside_at_start": false,
+            "inside_at_end": true
+          }
+        },
+        {
+          "start_s": 3.0,
+          "duration_s": 3.0,
+          "clear_center": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          },
+          "aligned_slow": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          }
+        },
+        {
+          "start_s": 3.0,
+          "duration_s": 3.0,
+          "clear_center": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          },
+          "aligned_slow": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          }
+        }
+      ]
+    },
+    "empty": {
+      "requested_eye_trials": 6,
+      "target_phases": 12,
+      "initially_aligned_phases": 3,
+      "initially_unaligned_phases": 9,
+      "unaligned_then_entered": 0,
+      "unaligned_then_aligned_slow": 0,
+      "unaligned_and_ended_aligned": 0,
+      "longest_aligned_slow_s": 3.0,
+      "retarget_phases": [
+        {
+          "start_s": 3.0,
+          "duration_s": 3.0,
+          "clear_center": {
+            "fraction": 1.0,
+            "first_s": 0.0,
+            "longest_s": 3.0,
+            "inside_at_start": true,
+            "inside_at_end": true
+          },
+          "aligned_slow": {
+            "fraction": 1.0,
+            "first_s": 0.0,
+            "longest_s": 3.0,
+            "inside_at_start": true,
+            "inside_at_end": true
+          }
+        },
+        {
+          "start_s": 3.0,
+          "duration_s": 3.0,
+          "clear_center": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          },
+          "aligned_slow": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          }
+        },
+        {
+          "start_s": 3.0,
+          "duration_s": 3.0,
+          "clear_center": {
+            "fraction": 1.0,
+            "first_s": 0.0,
+            "longest_s": 3.0,
+            "inside_at_start": true,
+            "inside_at_end": true
+          },
+          "aligned_slow": {
+            "fraction": 1.0,
+            "first_s": 0.0,
+            "longest_s": 3.0,
+            "inside_at_start": true,
+            "inside_at_end": true
+          }
+        },
+        {
+          "start_s": 3.0,
+          "duration_s": 3.0,
+          "clear_center": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          },
+          "aligned_slow": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          }
+        },
+        {
+          "start_s": 3.0,
+          "duration_s": 3.0,
+          "clear_center": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          },
+          "aligned_slow": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          }
+        },
+        {
+          "start_s": 3.0,
+          "duration_s": 3.0,
+          "clear_center": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          },
+          "aligned_slow": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          }
+        }
+      ]
+    },
+    "silence": {
+      "requested_eye_trials": 6,
+      "target_phases": 12,
+      "initially_aligned_phases": 1,
+      "initially_unaligned_phases": 11,
+      "unaligned_then_entered": 4,
+      "unaligned_then_aligned_slow": 2,
+      "unaligned_and_ended_aligned": 1,
+      "longest_aligned_slow_s": 0.9,
+      "retarget_phases": [
+        {
+          "start_s": 3.0,
+          "duration_s": 3.0,
+          "clear_center": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          },
+          "aligned_slow": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          }
+        },
+        {
+          "start_s": 3.0,
+          "duration_s": 3.0,
+          "clear_center": {
+            "fraction": 0.7666666666666667,
+            "first_s": 0.30000000000000004,
+            "longest_s": 2.3000000000000003,
+            "inside_at_start": false,
+            "inside_at_end": false
+          },
+          "aligned_slow": {
+            "fraction": 0.36666666666666664,
+            "first_s": 0.6000000000000001,
+            "longest_s": 0.9,
+            "inside_at_start": false,
+            "inside_at_end": false
+          }
+        },
+        {
+          "start_s": 3.0,
+          "duration_s": 3.0,
+          "clear_center": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          },
+          "aligned_slow": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          }
+        },
+        {
+          "start_s": 3.0,
+          "duration_s": 3.0,
+          "clear_center": {
+            "fraction": 0.016666666666666666,
+            "first_s": 0.1,
+            "longest_s": 0.05,
+            "inside_at_start": false,
+            "inside_at_end": false
+          },
+          "aligned_slow": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          }
+        },
+        {
+          "start_s": 3.0,
+          "duration_s": 3.0,
+          "clear_center": {
+            "fraction": 0.016666666666666666,
+            "first_s": 0.25,
+            "longest_s": 0.05,
+            "inside_at_start": false,
+            "inside_at_end": false
+          },
+          "aligned_slow": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          }
+        },
+        {
+          "start_s": 3.0,
+          "duration_s": 3.0,
+          "clear_center": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          },
+          "aligned_slow": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          }
+        }
+      ]
+    },
+    "rescue": {
+      "requested_eye_trials": 6,
+      "target_phases": 12,
+      "initially_aligned_phases": 1,
+      "initially_unaligned_phases": 11,
+      "unaligned_then_entered": 2,
+      "unaligned_then_aligned_slow": 2,
+      "unaligned_and_ended_aligned": 2,
+      "longest_aligned_slow_s": 1.75,
+      "retarget_phases": [
+        {
+          "start_s": 3.0,
+          "duration_s": 3.0,
+          "clear_center": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          },
+          "aligned_slow": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          }
+        },
+        {
+          "start_s": 3.0,
+          "duration_s": 3.0,
+          "clear_center": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          },
+          "aligned_slow": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          }
+        },
+        {
+          "start_s": 3.0,
+          "duration_s": 3.0,
+          "clear_center": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          },
+          "aligned_slow": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          }
+        },
+        {
+          "start_s": 3.0,
+          "duration_s": 3.0,
+          "clear_center": {
+            "fraction": 0.7666666666666667,
+            "first_s": 0.2,
+            "longest_s": 1.75,
+            "inside_at_start": false,
+            "inside_at_end": true
+          },
+          "aligned_slow": {
+            "fraction": 0.6666666666666666,
+            "first_s": 0.5,
+            "longest_s": 1.75,
+            "inside_at_start": false,
+            "inside_at_end": true
+          }
+        },
+        {
+          "start_s": 3.0,
+          "duration_s": 3.0,
+          "clear_center": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          },
+          "aligned_slow": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          }
+        },
+        {
+          "start_s": 3.0,
+          "duration_s": 3.0,
+          "clear_center": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          },
+          "aligned_slow": {
+            "fraction": 0.0,
+            "first_s": null,
+            "longest_s": 0.0,
+            "inside_at_start": false,
+            "inside_at_end": false
+          }
+        }
+      ]
+    }
+  },
+  "paired": {
+    "empty": {
+      "n": 12,
+      "endpoint_tolerance": 1e-09,
+      "changed_eye_endpoints": 12,
+      "changed_hand_endpoints": 12,
+      "maximum_action_difference": 0.9864001274108887,
+      "trials": [
+        {
+          "trial": 0,
+          "mode": "look",
+          "eye_endpoint_difference_rad": 0.39782532896332445,
+          "hand_endpoint_difference_m": 0.9808812914002306,
+          "maximum_action_difference": 0.9774230122566223,
+          "reference_associative_integral": 10.012636783573031,
+          "other_associative_integral": 7.748960233182789
+        },
+        {
+          "trial": 1,
+          "mode": "point",
+          "eye_endpoint_difference_rad": 0.09628334230799189,
+          "hand_endpoint_difference_m": 1.407604510895442,
+          "maximum_action_difference": 0.9327332973480225,
+          "reference_associative_integral": 10.360596440112724,
+          "other_associative_integral": 9.513043865148001
+        },
+        {
+          "trial": 2,
+          "mode": "both",
+          "eye_endpoint_difference_rad": 0.2056294260287761,
+          "hand_endpoint_difference_m": 1.4578590889983096,
+          "maximum_action_difference": 0.9864001274108887,
+          "reference_associative_integral": 9.321393663683454,
+          "other_associative_integral": 8.419721609587647
+        },
+        {
+          "trial": 3,
+          "mode": "hold",
+          "eye_endpoint_difference_rad": 0.31003710347813646,
+          "hand_endpoint_difference_m": 0.23513755653223067,
+          "maximum_action_difference": 0.16100549697875977,
+          "reference_associative_integral": 9.033851321739972,
+          "other_associative_integral": 9.696100284376387
+        },
+        {
+          "trial": 4,
+          "mode": "look",
+          "eye_endpoint_difference_rad": 0.2945470218617145,
+          "hand_endpoint_difference_m": 0.7108324906739537,
+          "maximum_action_difference": 0.9798251986503601,
+          "reference_associative_integral": 8.557815026984112,
+          "other_associative_integral": 8.762375716529768
+        },
+        {
+          "trial": 5,
+          "mode": "point",
+          "eye_endpoint_difference_rad": 0.27277647678565436,
+          "hand_endpoint_difference_m": 1.0040671155371919,
+          "maximum_action_difference": 0.8891036510467529,
+          "reference_associative_integral": 9.734003805873122,
+          "other_associative_integral": 8.59393750436665
+        },
+        {
+          "trial": 6,
+          "mode": "both",
+          "eye_endpoint_difference_rad": 0.21588606116099016,
+          "hand_endpoint_difference_m": 1.2080216366300556,
+          "maximum_action_difference": 0.8861284255981445,
+          "reference_associative_integral": 9.07260152108954,
+          "other_associative_integral": 8.584945095497186
+        },
+        {
+          "trial": 7,
+          "mode": "hold",
+          "eye_endpoint_difference_rad": 0.30807208733804525,
+          "hand_endpoint_difference_m": 0.20987868920380232,
+          "maximum_action_difference": 0.13239595293998718,
+          "reference_associative_integral": 8.735717265403652,
+          "other_associative_integral": 8.332055684659103
+        },
+        {
+          "trial": 8,
+          "mode": "look",
+          "eye_endpoint_difference_rad": 0.3323101553177673,
+          "hand_endpoint_difference_m": 0.7398449513649545,
+          "maximum_action_difference": 0.979246973991394,
+          "reference_associative_integral": 9.127789181495302,
+          "other_associative_integral": 9.416625088384624
+        },
+        {
+          "trial": 9,
+          "mode": "point",
+          "eye_endpoint_difference_rad": 0.04584561330651413,
+          "hand_endpoint_difference_m": 1.7894712422828503,
+          "maximum_action_difference": 0.9744744300842285,
+          "reference_associative_integral": 9.816960519387006,
+          "other_associative_integral": 8.643287722440599
+        },
+        {
+          "trial": 10,
+          "mode": "both",
+          "eye_endpoint_difference_rad": 0.25925181607814307,
+          "hand_endpoint_difference_m": 0.6326421413291767,
+          "maximum_action_difference": 0.4155784845352173,
+          "reference_associative_integral": 7.649149820702442,
+          "other_associative_integral": 8.451241532317495
+        },
+        {
+          "trial": 11,
+          "mode": "hold",
+          "eye_endpoint_difference_rad": 0.26394614016916257,
+          "hand_endpoint_difference_m": 0.18741143928803988,
+          "maximum_action_difference": 0.1552656590938568,
+          "reference_associative_integral": 8.98266882237636,
+          "other_associative_integral": 9.463031870052697
+        }
+      ]
+    },
+    "silence": {
+      "n": 12,
+      "endpoint_tolerance": 1e-09,
+      "changed_eye_endpoints": 12,
+      "changed_hand_endpoints": 12,
+      "maximum_action_difference": 1.3818943500518799,
+      "trials": [
+        {
+          "trial": 0,
+          "mode": "look",
+          "eye_endpoint_difference_rad": 0.337025079118746,
+          "hand_endpoint_difference_m": 0.348976349747715,
+          "maximum_action_difference": 0.8767901957035065,
+          "reference_associative_integral": 10.012636783573031,
+          "other_associative_integral": 0.16259593833778482
+        },
+        {
+          "trial": 1,
+          "mode": "point",
+          "eye_endpoint_difference_rad": 0.11873821114431792,
+          "hand_endpoint_difference_m": 0.7544300540537406,
+          "maximum_action_difference": 0.9015960451215506,
+          "reference_associative_integral": 10.360596440112724,
+          "other_associative_integral": 0.1634789056704876
+        },
+        {
+          "trial": 2,
+          "mode": "both",
+          "eye_endpoint_difference_rad": 0.1905016404483665,
+          "hand_endpoint_difference_m": 1.0338057519140789,
+          "maximum_action_difference": 0.9529277384281158,
+          "reference_associative_integral": 9.321393663683454,
+          "other_associative_integral": 0.16244842453741082
+        },
+        {
+          "trial": 3,
+          "mode": "hold",
+          "eye_endpoint_difference_rad": 0.28381276019734264,
+          "hand_endpoint_difference_m": 0.3299150069407837,
+          "maximum_action_difference": 0.15233037620782852,
+          "reference_associative_integral": 9.033851321739972,
+          "other_associative_integral": 0.1594428089364095
+        },
+        {
+          "trial": 4,
+          "mode": "look",
+          "eye_endpoint_difference_rad": 0.3117574562059665,
+          "hand_endpoint_difference_m": 0.43999321349524406,
+          "maximum_action_difference": 0.9572998136281967,
+          "reference_associative_integral": 8.557815026984112,
+          "other_associative_integral": 0.16256287903448896
+        },
+        {
+          "trial": 5,
+          "mode": "point",
+          "eye_endpoint_difference_rad": 0.2452638685198968,
+          "hand_endpoint_difference_m": 0.9914136703387119,
+          "maximum_action_difference": 1.3818943500518799,
+          "reference_associative_integral": 9.734003805873122,
+          "other_associative_integral": 0.16410510204530748
+        },
+        {
+          "trial": 6,
+          "mode": "both",
+          "eye_endpoint_difference_rad": 0.20956253688032675,
+          "hand_endpoint_difference_m": 0.7530345341376459,
+          "maximum_action_difference": 1.0219155699014664,
+          "reference_associative_integral": 9.07260152108954,
+          "other_associative_integral": 0.1619373654393863
+        },
+        {
+          "trial": 7,
+          "mode": "hold",
+          "eye_endpoint_difference_rad": 0.26273025223163476,
+          "hand_endpoint_difference_m": 0.2775799615424816,
+          "maximum_action_difference": 0.12991198105737567,
+          "reference_associative_integral": 8.735717265403652,
+          "other_associative_integral": 0.15947515547028987
+        },
+        {
+          "trial": 8,
+          "mode": "look",
+          "eye_endpoint_difference_rad": 0.2994921439546157,
+          "hand_endpoint_difference_m": 0.43786226629708197,
+          "maximum_action_difference": 0.8632651604712009,
+          "reference_associative_integral": 9.127789181495302,
+          "other_associative_integral": 0.16255380918098714
+        },
+        {
+          "trial": 9,
+          "mode": "point",
+          "eye_endpoint_difference_rad": 0.05471228985556794,
+          "hand_endpoint_difference_m": 0.29424644782232245,
+          "maximum_action_difference": 1.3304270803928375,
+          "reference_associative_integral": 9.816960519387006,
+          "other_associative_integral": 0.16664568141808622
+        },
+        {
+          "trial": 10,
+          "mode": "both",
+          "eye_endpoint_difference_rad": 0.15347503885941466,
+          "hand_endpoint_difference_m": 1.0987551597501322,
+          "maximum_action_difference": 0.9362692721188068,
+          "reference_associative_integral": 7.649149820702442,
+          "other_associative_integral": 0.161534811350659
+        },
+        {
+          "trial": 11,
+          "mode": "hold",
+          "eye_endpoint_difference_rad": 0.2823093827346298,
+          "hand_endpoint_difference_m": 0.2628890599550449,
+          "maximum_action_difference": 0.14577355608344078,
+          "reference_associative_integral": 8.98266882237636,
+          "other_associative_integral": 0.15944348254371304
+        }
+      ]
+    },
+    "rescue": {
+      "n": 12,
+      "endpoint_tolerance": 1e-09,
+      "changed_eye_endpoints": 0,
+      "changed_hand_endpoints": 0,
+      "maximum_action_difference": 0.0,
+      "trials": [
+        {
+          "trial": 0,
+          "mode": "look",
+          "eye_endpoint_difference_rad": 0.0,
+          "hand_endpoint_difference_m": 0.0,
+          "maximum_action_difference": 0.0,
+          "reference_associative_integral": 10.012636783573031,
+          "other_associative_integral": 10.012636783573031
+        },
+        {
+          "trial": 1,
+          "mode": "point",
+          "eye_endpoint_difference_rad": 0.0,
+          "hand_endpoint_difference_m": 0.0,
+          "maximum_action_difference": 0.0,
+          "reference_associative_integral": 10.360596440112724,
+          "other_associative_integral": 10.360596440112724
+        },
+        {
+          "trial": 2,
+          "mode": "both",
+          "eye_endpoint_difference_rad": 0.0,
+          "hand_endpoint_difference_m": 0.0,
+          "maximum_action_difference": 0.0,
+          "reference_associative_integral": 9.321393663683454,
+          "other_associative_integral": 9.321393663683454
+        },
+        {
+          "trial": 3,
+          "mode": "hold",
+          "eye_endpoint_difference_rad": 0.0,
+          "hand_endpoint_difference_m": 0.0,
+          "maximum_action_difference": 0.0,
+          "reference_associative_integral": 9.033851321739972,
+          "other_associative_integral": 9.033851321739972
+        },
+        {
+          "trial": 4,
+          "mode": "look",
+          "eye_endpoint_difference_rad": 0.0,
+          "hand_endpoint_difference_m": 0.0,
+          "maximum_action_difference": 0.0,
+          "reference_associative_integral": 8.557815026984112,
+          "other_associative_integral": 8.557815026984112
+        },
+        {
+          "trial": 5,
+          "mode": "point",
+          "eye_endpoint_difference_rad": 0.0,
+          "hand_endpoint_difference_m": 0.0,
+          "maximum_action_difference": 0.0,
+          "reference_associative_integral": 9.734003805873122,
+          "other_associative_integral": 9.734003805873122
+        },
+        {
+          "trial": 6,
+          "mode": "both",
+          "eye_endpoint_difference_rad": 0.0,
+          "hand_endpoint_difference_m": 0.0,
+          "maximum_action_difference": 0.0,
+          "reference_associative_integral": 9.07260152108954,
+          "other_associative_integral": 9.07260152108954
+        },
+        {
+          "trial": 7,
+          "mode": "hold",
+          "eye_endpoint_difference_rad": 0.0,
+          "hand_endpoint_difference_m": 0.0,
+          "maximum_action_difference": 0.0,
+          "reference_associative_integral": 8.735717265403652,
+          "other_associative_integral": 8.735717265403652
+        },
+        {
+          "trial": 8,
+          "mode": "look",
+          "eye_endpoint_difference_rad": 0.0,
+          "hand_endpoint_difference_m": 0.0,
+          "maximum_action_difference": 0.0,
+          "reference_associative_integral": 9.127789181495302,
+          "other_associative_integral": 9.127789181495302
+        },
+        {
+          "trial": 9,
+          "mode": "point",
+          "eye_endpoint_difference_rad": 0.0,
+          "hand_endpoint_difference_m": 0.0,
+          "maximum_action_difference": 0.0,
+          "reference_associative_integral": 9.816960519387006,
+          "other_associative_integral": 9.816960519387006
+        },
+        {
+          "trial": 10,
+          "mode": "both",
+          "eye_endpoint_difference_rad": 0.0,
+          "hand_endpoint_difference_m": 0.0,
+          "maximum_action_difference": 0.0,
+          "reference_associative_integral": 7.649149820702442,
+          "other_associative_integral": 7.649149820702442
+        },
+        {
+          "trial": 11,
+          "mode": "hold",
+          "eye_endpoint_difference_rad": 0.0,
+          "hand_endpoint_difference_m": 0.0,
+          "maximum_action_difference": 0.0,
+          "reference_associative_integral": 8.98266882237636,
+          "other_associative_integral": 8.98266882237636
+        }
+      ]
+    }
+  }
+}

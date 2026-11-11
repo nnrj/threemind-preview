@@ -1,0 +1,423 @@
+{
+  "exact_original_strings": true,
+  "source_punctuation_preserved": true,
+  "all_carriers_single_frame": true,
+  "sensor_equals_product_defaults": true,
+  "normalization": "NFKC",
+  "literal_to_normalized": {
+    "B的父亲是A。": "B的父亲是A。",
+    "C的父亲是B。": "C的父亲是B。",
+    "C的爷爷是A。": "C的爷爷是A。",
+    "E的父亲是D。": "E的父亲是D。",
+    "F的父亲是E。": "F的父亲是E。",
+    "F的爷爷是D。": "F的爷爷是D。",
+    "V的父亲是U。": "V的父亲是U。",
+    "V的父亲是X。": "V的父亲是X。",
+    "W的父亲是V。": "W的父亲是V。",
+    "Y的父亲是U。": "Y的父亲是U。",
+    "Y的父亲是X。": "Y的父亲是X。",
+    "Z的父亲是Y。": "Z的父亲是Y。",
+    "丙问乙，谁是松子？乙说：甲是松子。": "丙问乙,谁是松子?乙说:甲是松子。",
+    "丙问甲，谁是铃铛？甲说：乙是铃铛。": "丙问甲,谁是铃铛?甲说:乙是铃铛。",
+    "乙对甲说：我是铃铛，你是松子。": "乙对甲说:我是铃铛,你是松子。",
+    "乙是铃铛。": "乙是铃铛。",
+    "松子是谁？松子是甲。": "松子是谁?松子是甲。",
+    "父亲的父亲是爷爷。": "父亲的父亲是爷爷。",
+    "甲对乙说：我是松子，你是铃铛。": "甲对乙说:我是松子,你是铃铛。",
+    "甲是松子。": "甲是松子。",
+    "谁是松子？甲是松子。": "谁是松子?甲是松子。",
+    "谁是铃铛？乙是铃铛。": "谁是铃铛?乙是铃铛。",
+    "铃铛是谁？铃铛是乙。": "铃铛是谁?铃铛是乙。"
+  },
+  "first_exposure_repetitions": 20,
+  "first_three_sweeps_repetitions": 20,
+  "same_character_counts_in_crossed_control": true,
+  "max_sentence_characters": 17,
+  "coverage": [
+    {
+      "seed": 41701,
+      "group": "pair",
+      "coverage": {
+        "松子": {
+          "channels": 18,
+          "exclusive_channels": 15,
+          "retained_weight_fraction": 0.825925925925926,
+          "scorable": true
+        },
+        "铃铛": {
+          "channels": 14,
+          "exclusive_channels": 12,
+          "retained_weight_fraction": 0.9296296296296297,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41701,
+      "group": "who",
+      "coverage": {
+        "甲": {
+          "channels": 9,
+          "exclusive_channels": 6,
+          "retained_weight_fraction": 0.7348484848484849,
+          "scorable": true
+        },
+        "乙": {
+          "channels": 8,
+          "exclusive_channels": 6,
+          "retained_weight_fraction": 0.7651515151515152,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41701,
+      "group": "seen_family",
+      "coverage": {
+        "A": {
+          "channels": 3,
+          "exclusive_channels": 1,
+          "retained_weight_fraction": 0.22499999999999998,
+          "scorable": true
+        },
+        "B": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        },
+        "D": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        },
+        "E": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41701,
+      "group": "family",
+      "coverage": {
+        "X": {
+          "channels": 3,
+          "exclusive_channels": 1,
+          "retained_weight_fraction": 0.5249999999999999,
+          "scorable": true
+        },
+        "Y": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        },
+        "U": {
+          "channels": 3,
+          "exclusive_channels": 1,
+          "retained_weight_fraction": 0.5249999999999999,
+          "scorable": true
+        },
+        "V": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41702,
+      "group": "pair",
+      "coverage": {
+        "松子": {
+          "channels": 17,
+          "exclusive_channels": 11,
+          "retained_weight_fraction": 0.611111111111111,
+          "scorable": true
+        },
+        "铃铛": {
+          "channels": 15,
+          "exclusive_channels": 13,
+          "retained_weight_fraction": 0.8851851851851852,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41702,
+      "group": "who",
+      "coverage": {
+        "甲": {
+          "channels": 9,
+          "exclusive_channels": 5,
+          "retained_weight_fraction": 0.6136363636363636,
+          "scorable": true
+        },
+        "乙": {
+          "channels": 9,
+          "exclusive_channels": 6,
+          "retained_weight_fraction": 0.787878787878788,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41702,
+      "group": "seen_family",
+      "coverage": {
+        "A": {
+          "channels": 3,
+          "exclusive_channels": 1,
+          "retained_weight_fraction": 0.5249999999999999,
+          "scorable": true
+        },
+        "B": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        },
+        "D": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        },
+        "E": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41702,
+      "group": "family",
+      "coverage": {
+        "X": {
+          "channels": 3,
+          "exclusive_channels": 1,
+          "retained_weight_fraction": 0.22499999999999998,
+          "scorable": true
+        },
+        "Y": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        },
+        "U": {
+          "channels": 3,
+          "exclusive_channels": 1,
+          "retained_weight_fraction": 0.5249999999999999,
+          "scorable": true
+        },
+        "V": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41703,
+      "group": "pair",
+      "coverage": {
+        "松子": {
+          "channels": 18,
+          "exclusive_channels": 15,
+          "retained_weight_fraction": 0.825925925925926,
+          "scorable": true
+        },
+        "铃铛": {
+          "channels": 15,
+          "exclusive_channels": 14,
+          "retained_weight_fraction": 0.9629629629629629,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41703,
+      "group": "who",
+      "coverage": {
+        "甲": {
+          "channels": 9,
+          "exclusive_channels": 4,
+          "retained_weight_fraction": 0.41666666666666663,
+          "scorable": true
+        },
+        "乙": {
+          "channels": 9,
+          "exclusive_channels": 5,
+          "retained_weight_fraction": 0.5757575757575758,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41703,
+      "group": "seen_family",
+      "coverage": {
+        "A": {
+          "channels": 3,
+          "exclusive_channels": 0,
+          "retained_weight_fraction": 0.0,
+          "scorable": false
+        },
+        "B": {
+          "channels": 3,
+          "exclusive_channels": 1,
+          "retained_weight_fraction": 0.5249999999999999,
+          "scorable": true
+        },
+        "D": {
+          "channels": 3,
+          "exclusive_channels": 0,
+          "retained_weight_fraction": 0.0,
+          "scorable": false
+        },
+        "E": {
+          "channels": 3,
+          "exclusive_channels": 1,
+          "retained_weight_fraction": 0.22499999999999998,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41703,
+      "group": "family",
+      "coverage": {
+        "X": {
+          "channels": 3,
+          "exclusive_channels": 0,
+          "retained_weight_fraction": 0.0,
+          "scorable": false
+        },
+        "Y": {
+          "channels": 3,
+          "exclusive_channels": 1,
+          "retained_weight_fraction": 0.22499999999999998,
+          "scorable": true
+        },
+        "U": {
+          "channels": 3,
+          "exclusive_channels": 1,
+          "retained_weight_fraction": 0.22499999999999998,
+          "scorable": true
+        },
+        "V": {
+          "channels": 3,
+          "exclusive_channels": 1,
+          "retained_weight_fraction": 0.22499999999999998,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41704,
+      "group": "pair",
+      "coverage": {
+        "松子": {
+          "channels": 18,
+          "exclusive_channels": 14,
+          "retained_weight_fraction": 0.7740740740740741,
+          "scorable": true
+        },
+        "铃铛": {
+          "channels": 13,
+          "exclusive_channels": 11,
+          "retained_weight_fraction": 0.9296296296296297,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41704,
+      "group": "who",
+      "coverage": {
+        "甲": {
+          "channels": 9,
+          "exclusive_channels": 4,
+          "retained_weight_fraction": 0.5606060606060606,
+          "scorable": true
+        },
+        "乙": {
+          "channels": 9,
+          "exclusive_channels": 7,
+          "retained_weight_fraction": 0.856060606060606,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41704,
+      "group": "seen_family",
+      "coverage": {
+        "A": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        },
+        "B": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        },
+        "D": {
+          "channels": 3,
+          "exclusive_channels": 1,
+          "retained_weight_fraction": 0.5249999999999999,
+          "scorable": true
+        },
+        "E": {
+          "channels": 3,
+          "exclusive_channels": 1,
+          "retained_weight_fraction": 0.22499999999999998,
+          "scorable": true
+        }
+      }
+    },
+    {
+      "seed": 41704,
+      "group": "family",
+      "coverage": {
+        "X": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        },
+        "Y": {
+          "channels": 3,
+          "exclusive_channels": 1,
+          "retained_weight_fraction": 0.5249999999999999,
+          "scorable": true
+        },
+        "U": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        },
+        "V": {
+          "channels": 3,
+          "exclusive_channels": 2,
+          "retained_weight_fraction": 0.7499999999999999,
+          "scorable": true
+        }
+      }
+    }
+  ],
+  "seed_selection": "four fixed consecutive seeds; no replacement for poor coverage"
+}

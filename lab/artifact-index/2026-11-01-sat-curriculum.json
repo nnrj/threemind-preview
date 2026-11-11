@@ -1,0 +1,21 @@
+{
+  "schema": "threemind.sat-curriculum-artifact-location/1",
+  "study": "R42 SAT v2",
+  "work": "E:\\ThreeMindData\\experiments\\2026-11-01-sat-curriculum\\v2",
+  "resource_id": "sat-curriculum-20261101-v2",
+  "project_id": "7137e322-c160-424e-8832-55b29111fd31",
+  "record_id": "9219955f-127c-5196-95db-fa62081ca9b8",
+  "archive": "originals-v1.zip",
+  "archive_sha256": "cbc38f7f964b9238ca5fd978da0d87d610a3e0fce1b58846f874614a09196313",
+  "archive_bytes": 93480050,
+  "original_members": 2169,
+  "verified": true,
+  "pending": 0,
+  "independent_pairs": 8,
+  "students": 16,
+  "tracked_classification": "code, protocols, reports, aggregate summaries and evidence-location metadata; no raw trajectories or restorable subjects",
+  "reports": [
+    "lab/explorations/2026-11-01-sat-curriculum/report.zh.md",
+    "lab/explorations/2026-11-01-sat-curriculum/report.en.md"
+  ]
+}

@@ -1,0 +1,17 @@
+# E44 execution and delivery
+
+2026-10-05. Scientific findings are in `report.en.md` and `results.json`.
+
+- 1522 completed sources/branches:120 initial calibration,1296 formal grid,18 formal-seed calibration sources,72 weak-visual calibration and16 local interventions. They are not1522 independent randomized experiments. One incomplete attempt is retained;1523 total attempts remain below1536.
+- Eighteen normal/reversed/untaught continuous sources,566 seconds each, produce40752 half-second translations with two heads. Activity was recorded during actual execution; frozen text decoding occurred afterward. This is not live online conversation.
+- New instruments offer separate Python/CLI compilation, projection, training, decoding and experiment drivers. The new temporal head is not yet the main UI's default everyday language device. Existing adapters/APIs/sensors retain their meaning; the research project exposes notes, reports and offline replay.
+- No Core dynamics changed. Core, Runtime and Rust directories have no code differences from this batch's starting commit `90e70e3`. Local silencing uses existing research intervention APIs on test copies.
+- Six targeted tests cover causal prefixes/normalization, unknown-node preservation, serialization, absence of cross-window text cache, physical sensing and observer noninterference. Five existing non-API language observation tests passed, along with static checks. No unrelated full suite or repeated large-archive hashing was performed.
+- Replay checks passed at1440/390 pixels: no page overflow or script errors; source switching, seeking, playback, pagination and JSON download work. Visual review identified and corrected overlapping narrow-screen selectors and tiny chart labels, followed by rechecking. Sandbox `spawn EPERM` initially blocked the browser; the approved isolated headless run passed without operating user windows/services.
+- A usage-refresh guard stopped one calibration source when its account reading exceeded30 minutes. The refreshed value was37%. The partial directory, reason and conservative118.148-second estimate were retained. Completed cases were reused; only the unfinished source was rerun. An interruption was not counted as a negative finding.
+- Resource checking unnecessarily parsed large `.training.json` datasets for nonexistent timing fields. Later execution reads model timing metadata only; budgets, results and recorded runner revisions remain intact.
+- Docker's engine pipe was unavailable and related processes absent. Native Windows PostgreSQL17.11 at127.0.0.1:5433 and the experiment continued successfully. E44 required no Docker restart; user services were not taken over.
+- Recorded simulation/training/translation time69.61 minutes excludes orchestration, editing, reporting and archiving. Shared account readings35%→38% are not exact task billing. Pre-archive evidence is approximately1.05GiB; archives/database growth count toward8GiB and system reserves remain enforced.
+- Design, observations, weights, snapshots, failures and reports are stored in a separate research project. `delivery.json` records publication receipts; `resource-use.json` records final storage. Old projects, consciousnesses and database records were not cleared or overwritten. Commits remain local, without push.
+
+Only this bounded A–C batch is complete. Reliable newly learned language, verified associative monologue, social stageD and complex developmentE remain open in the research backlog.

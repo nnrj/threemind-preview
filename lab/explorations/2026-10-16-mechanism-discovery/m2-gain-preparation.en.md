@@ -1,0 +1,9 @@
+# M2 gain-aware prediction: pre-run apparatus review
+
+2026-10-17. Isolated source1120004 used only the previously known0.8 cue at zero delay. Plain, frequent observation, complete restoration and wall-clock pause produced the same whole-state SHA`e92a97e227766c693903a20f274269af619a92cb1cdc9fb9a22202a54181cd4a`; directions agreed and the maximum endpoint error was8.673617379884035e-19. No new scientific dose or delay was executed; scientific N=0.
+
+The isolated caller supplied a relative path to the resource guard. On exit, the existing absolute-path check rejected the resource-summary write, giving exit code1. The four-path numerical check passed, but the entire call did not finish successfully. Results and the failure site remain in`.work/m2-gain-apparatus-isolated-20261017`; no rerun or invented memory peak replaces the missing summary. The formal driver's CLI already resolves its work directory, and a no-simulation guard-finalization check has been added. The separately registered N0 apparatus must finish successfully with its actual resource summary before scientific sources run.
+
+Analysis and independent audit now both use the preregistered±1e-4 direction threshold to classify expression. Tiny nonzero floats do not count as a separate class. This alignment precedes freezing and execution of the new batch; old criteria and originals are unchanged.
+
+The no-simulation check also exposed test-environment issues: pytest's temporary directory failed permissions; with a unique workspace directory, the pytest/plugin process used1,127,038,976 private bytes and correctly triggered the1GiB guard. That evidence remains, with no subject experiences or incomplete scientific unit. Guard finalization is therefore checked in a fresh Python process like the formal host. No threshold is lowered, and the formal apparatus remains subject to the same guard.

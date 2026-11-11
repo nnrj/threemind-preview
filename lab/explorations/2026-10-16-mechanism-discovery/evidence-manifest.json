@@ -1,0 +1,219 @@
+{
+  "schema": "threemind.mechanism-evidence/1",
+  "recorded_on": "2026-10-16",
+  "selection": "bounded stage-zero source selection, not a complete original inventory",
+  "files": [
+    {
+      "id": "E15-report",
+      "kind": "report",
+      "path": "lab/explorations/2026-09-29-experience-and-autonomy/report.r2.zh.md",
+      "bytes": 17063,
+      "sha256": "fb41f852f7a4121220e656bfeb9fef71a158812e2d8495a7ac445ddc032f8f33",
+      "basis": "2026-10-16 review snapshot; not an independent historical seal"
+    },
+    {
+      "id": "E15-protocol",
+      "kind": "protocol",
+      "path": "lab/explorations/2026-09-29-experience-and-autonomy/design.zh.md",
+      "bytes": 8072,
+      "sha256": "b66ead369d491b541adc5b211d620040fcc67d66c14df086d2872a6ad7325a92",
+      "basis": "2026-10-16 review snapshot; not an independent historical seal"
+    },
+    {
+      "id": "E15-decision",
+      "kind": "original_summary",
+      "path": ".work/experience-autonomy-20260929/criteria-decision.json",
+      "bytes": 1506,
+      "sha256": "94af6c0b2d34c47377059183ee303016f485ec6dd915bcaea2d8b4c3b2baafbc",
+      "basis": "2026-10-16 review snapshot; not an independent historical seal"
+    },
+    {
+      "id": "E15-analysis",
+      "kind": "original_summary",
+      "path": ".work/experience-autonomy-20260929/analysis.json",
+      "bytes": 343,
+      "sha256": "5ac5d342ce93f562ec3774046043dfe5cf1bb48e15cc55daeaa360cebd3f6a99",
+      "basis": "2026-10-16 review snapshot; not an independent historical seal"
+    },
+    {
+      "id": "E21-report",
+      "kind": "report",
+      "path": "lab/explorations/2026-10-01-order-mechanisms/report.r3.zh.md",
+      "bytes": 19800,
+      "sha256": "bffff94686d7775780d536a4c93205451c2e281343234823dbc8982a37d97f7e",
+      "basis": "2026-10-16 review snapshot; not an independent historical seal"
+    },
+    {
+      "id": "E21-audit",
+      "kind": "original_summary",
+      "path": ".work/order-mechanisms-20261001/audit.json",
+      "bytes": 2091,
+      "sha256": "750918a401baf105092bb6dd01e41b09f0480c075f8d989412f8e72adc226492",
+      "basis": "2026-10-16 review snapshot; not an independent historical seal"
+    },
+    {
+      "id": "E30-report",
+      "kind": "report",
+      "path": "lab/explorations/2026-10-03-ocean-causality/report.r2.zh.md",
+      "bytes": 15573,
+      "sha256": "f03519ee21dd29ec6c60a4bece22ed900e6a7962c629769267eba06005bc6afd",
+      "basis": "2026-10-16 review snapshot; not an independent historical seal"
+    },
+    {
+      "id": "E30-findings",
+      "kind": "original_summary",
+      "path": ".work/ocean-causality-20261003/findings.json",
+      "bytes": 33393,
+      "sha256": "5562e9d3a054444b2c480267b909efa91cf0b872805e2f906529f94dd0ba1730",
+      "basis": "2026-10-16 review snapshot; not an independent historical seal"
+    },
+    {
+      "id": "E50-report",
+      "kind": "report",
+      "path": "lab/explorations/2026-10-05-graph-expression/report.r3.zh.md",
+      "bytes": 10139,
+      "sha256": "530582ed1d39720550f9dcc80b7ca073d775e52755ff9fdc6edce3a1e2b8f1b5",
+      "basis": "2026-10-16 review snapshot; not an independent historical seal"
+    },
+    {
+      "id": "E50-results",
+      "kind": "original_summary",
+      "path": "data/experiments/2026-10-05-graph-expression/results.json",
+      "bytes": 166498,
+      "sha256": "d2d503fe713103688fdf43882b2571bb0b7f9ed6f43dc0563d810f58ab652703",
+      "basis": "matches existing relocation receipt",
+      "resource_id": "research-artifact:79cf4dc3b7ceee7e51cab6ea",
+      "legacy_path": "lab/explorations/2026-10-05-graph-expression/results.json"
+    },
+    {
+      "id": "E53-report",
+      "kind": "report",
+      "path": "lab/explorations/2026-10-06-ocean-communication/report.r2.zh.md",
+      "bytes": 12142,
+      "sha256": "1ea75f439301e43b0b558143e5aa73f398c1c40524261c79d39e7a12ebcc8790",
+      "basis": "2026-10-16 review snapshot; not an independent historical seal"
+    },
+    {
+      "id": "E53-results",
+      "kind": "original_summary",
+      "path": "data/experiments/2026-10-06-ocean-communication/results.json",
+      "bytes": 164247,
+      "sha256": "d008c644dc657f1fdc16ccaa21b5a2f2842fd216b770c3d64491a2228b4485f9",
+      "basis": "matches existing relocation receipt",
+      "resource_id": "research-artifact:4092ada1ddc335de6088edb4",
+      "legacy_path": "lab/explorations/2026-10-06-ocean-communication/results.json"
+    },
+    {
+      "id": "E57-report",
+      "kind": "report",
+      "path": "lab/explorations/2026-10-06-choice-attribution/report.r2.zh.md",
+      "bytes": 16337,
+      "sha256": "3b24ad23949c438b773070f7e51f680c6cd6d2779e7bc071497c0a1d430967bd",
+      "basis": "2026-10-16 review snapshot; not an independent historical seal"
+    },
+    {
+      "id": "E57-results",
+      "kind": "original_summary",
+      "path": "lab/explorations/2026-10-06-choice-attribution/results.json",
+      "bytes": 38530,
+      "sha256": "c1930767f8b4bf02dece5f8ac6477b1a14ba155d61356e2c21e232bac154774b",
+      "basis": "2026-10-16 review snapshot; not an independent historical seal"
+    },
+    {
+      "id": "H-report",
+      "kind": "report",
+      "path": "lab/explorations/2026-10-09-local-events-v4/report.r2.zh.md",
+      "bytes": 10301,
+      "sha256": "4ff931cafe334392bf9827c0c3d0b7d599005ed2bd84cc3609dbc7c4ce3f49d3",
+      "basis": "2026-10-16 review snapshot; not an independent historical seal"
+    },
+    {
+      "id": "H-retention",
+      "kind": "original_summary",
+      "path": "lab/explorations/2026-10-09-local-events-v4/retention.json",
+      "bytes": 22342,
+      "sha256": "45f2c32db0918dc8e22a319f42f8fcc3561a29caeb75cf1706d5717bde7b511a",
+      "basis": "2026-10-16 review snapshot; not an independent historical seal"
+    },
+    {
+      "id": "H-diagnostics",
+      "kind": "original_summary",
+      "path": "lab/explorations/2026-10-09-local-events-v4/diagnostics.json",
+      "bytes": 13435,
+      "sha256": "2c89afadeffe2b9c47a8d8987cd784b9decdb8bf90bbd310fcbf58d332c43f95",
+      "basis": "2026-10-16 review snapshot; not an independent historical seal"
+    },
+    {
+      "id": "E68-report",
+      "kind": "report",
+      "path": "lab/explorations/2026-10-13-continuous-shape-color/report.zh.md",
+      "bytes": 11175,
+      "sha256": "eeb60a17197008e2361ed40d1f204e1bf2dd729f2775b3be6727d80a4e09c5a3",
+      "basis": "2026-10-16 review snapshot; not an independent historical seal"
+    },
+    {
+      "id": "E69-handoff-snapshot",
+      "kind": "protocol",
+      "path": "lab/explorations/2026-10-13-eye-hand-shape-color/HANDOFF.md",
+      "bytes": 61107,
+      "sha256": "45916e31d3c2e976d6d199b31b690a97696821690e3124c6f6dc86b26c447829",
+      "basis": "2026-10-16 review snapshot; not an independent historical seal"
+    },
+    {
+      "id": "E69-region-plan",
+      "kind": "protocol",
+      "path": "lab/explorations/2026-10-13-eye-hand-shape-color/focus-and-regional-analysis-20261015.zh.md",
+      "bytes": 9191,
+      "sha256": "f0a7fe63dc4f074b572f553f61179c95dc763ac298807174568bc369a3d9f208",
+      "basis": "2026-10-16 review snapshot; not an independent historical seal"
+    },
+    {
+      "id": "E69-comparison-plan",
+      "kind": "protocol",
+      "path": "lab/explorations/2026-10-13-eye-hand-shape-color/bounded-training-comparison-20261015.zh.md",
+      "bytes": 9021,
+      "sha256": "2c91fc8b6a07e38953552f2b9407ab4d42883e03113d8937b7769d934b6a9c74",
+      "basis": "2026-10-16 review snapshot; not an independent historical seal"
+    },
+    {
+      "id": "relocation-registry",
+      "kind": "registry",
+      "path": "lab/artifact-index/2026-10-09-relocations.json",
+      "bytes": 665532,
+      "sha256": "2ba0e320a91b13507054dbf550b18c1039fb214c0e7235fd1ac385f5757b139f",
+      "basis": "2026-10-16 review snapshot; not an independent historical seal"
+    },
+    {
+      "id": "record-registry",
+      "kind": "registry",
+      "path": "lab/artifact-index/2026-10-10-research-record-backfill.json",
+      "bytes": 88718,
+      "sha256": "fb15692b9eb47a7dae114a57980efe380808927c31b7026cafb85d949526f4bb",
+      "basis": "2026-10-16 review snapshot; not an independent historical seal"
+    },
+    {
+      "id": "training-v3",
+      "kind": "protocol",
+      "path": "docs/zh/training-protocol.md",
+      "bytes": 30947,
+      "sha256": "b117982722a0f33ad17da6493e90685a5342ea6187610b3cbd056783ca6144b4",
+      "basis": "2026-10-16 review snapshot; not an independent historical seal"
+    },
+    {
+      "id": "existing-input-audit",
+      "kind": "source",
+      "path": "lab/tools/study_input_audit.py",
+      "bytes": 5353,
+      "sha256": "e465723b51ebd1e3c146a1bd31f155aab19023463ba6e6b0d09090c0de13b57c",
+      "basis": "2026-10-16 review snapshot; not an independent historical seal"
+    },
+    {
+      "id": "existing-plans",
+      "kind": "source",
+      "path": "src/threemind_lab/research_commands.py",
+      "bytes": 12292,
+      "sha256": "ac7474f7583dd13420a5f32c1e576b0ebc911b9e7470d853ec30ca30439b276e",
+      "basis": "2026-10-16 review snapshot; not an independent historical seal"
+    }
+  ]
+}

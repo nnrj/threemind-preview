@@ -1,0 +1,14 @@
+{
+  "project_id": "4266a949-9e41-45b7-9653-7566d2df8164",
+  "records": {
+    "zh": {
+      "id": "300e3423-2cf2-5eaa-ab5b-e05c380be2c2",
+      "revision": 2
+    },
+    "en": {
+      "id": "d3e52492-ff6e-5271-8449-5e79a64dd6e9",
+      "revision": 2
+    }
+  },
+  "delivery_artifact": "0c53e560-1f05-4915-8d08-2a8fba7e8d15"
+}

@@ -1,0 +1,13 @@
+# E44 execution addendum
+
+2026-10-04. Fixed before the first model training or simulation; original registration is retained.
+
+- Input peripheral starts from random weights: 2 layers, width64, UTF-8 bytes, 1200 steps on independent text. Formal names occur as single characters, never paired with their formal objects. Input weights are then frozen.
+- Output peripheral starts from separate random weights: 2 layers, width64, 16 activity time bins, 1600 steps with a step200 checkpoint. It sees anonymous activity only. Teacher-provided calibration object words supervise expression in the external peripheral; this is not spontaneous language inside Core.
+- The MuJoCo apparatus retains all four objects. The external teacher points five physical rays at one object from varied views. Distance and material RGB form20 measured channels with total mapped amount2, co-observed with each language frame. Ordinary language intensity remains1. Stream routes have more frames and therefore more joint visual observations; a route advantage cannot be attributed solely to Transformer features or timing. A positive result requires a dose-matched follow-up.
+- Initial output training uses0.5s windows containing teaching and untaught-background windows every4s. Post-teaching silence and different cue strengths are independent diagnostic samples, not claimed as training data. Uncalibrated internal activity may translate incorrectly; all outputs remain visible.
+- Six tool tests passed, including identical final Core state with and without the new observer at the same input and advancement schedule. This necessary check is not repeated across the entire evidence collection.
+- Ruff inserted import-separator blank lines in two new files after registration, before any computation. Original registration/source remain preserved, with a syntax-tree-identical formatting amendment. Core is unchanged.
+- Complete anonymous activity is recorded for every source/fork; primary analysis uses whole registered windows. Lack of global stable convergence does not exclude a process signal. Local target analysis and complete text output are reported separately.
+
+The numerical selection rule is fixed before inspecting calibration results: average eight measured views per object, subtract components common to all objects, normalize, and use these as an independent visual analysis instrument. Subtract the matched no-cue two-second mean from the cued process mean. Rank four target scores; ties or no positive score do not count. Select one Transformer route by joint normal/reversed accuracy, then mean target margin; always retain the original text reference. Complete activity and language-decoder inputs are neither subtracted nor filtered this way.

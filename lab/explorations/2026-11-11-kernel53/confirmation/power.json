@@ -1,0 +1,14 @@
+{
+  "n": 48,
+  "simulations": 50000,
+  "seed": 261111053,
+  "paired_standardized_effect": 0.5,
+  "family_alpha": 0.05,
+  "comparisons": 3,
+  "one_sided_alpha": 0.016666666666666666,
+  "critical_t": 2.1924511155683453,
+  "power": 0.8937,
+  "monte_carlo_se": 0.0013784071241835626,
+  "model": "Independent normal paired differences; continuous mean late history-RMS endpoint",
+  "use": "Planning assumption, not a guarantee for every non-normal population or binary target"
+}

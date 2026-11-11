@@ -1,0 +1,7 @@
+# 1 November 2026: host budget amendment at the complete birth boundary
+
+The initial protocol reused a lightweight host's1GiB private-memory budget. The new host safely paused after its complete time_us=0 birth checkpoint, before any teaching/testing, with no in-flight marker. Peak private memory was1545576448bytes (about1.439GiB); a separate process importing only torch already used1439707136bytes (about1.341GiB). The original allowance omitted this fixed load cost. The first monitor records and exact STOP are preserved independently.
+
+With approximately12.3GiB available commit,12.9GiB physical RAM and103GiB E-drive space, the executor raises only this batch's process allowance to2GiB and requires8GiB available commit at startup. System reserves remain5/4/5/25GiB commit/RAM/C/data; one-second monitoring, complete-boundary pausing, two-hour host and1GiB original-data limits are unchanged. Curriculum, scoring, reader, Core and half-life do not change.
+
+The independent host_budget.py entry point freezes its own source and policy hashes and replaces only the process-local external guard binding. The frozen driver and dependencies remain byte-identical. Under the study lock, verify that the previous host exited, no orphaned in-flight record exists and the complete birth checkpoint including reader/optimizer restores. Retire only the exact archived STOP. Resume the current time_us=0 whole student; no new birth, earlier-state rollback or lost internal time.

@@ -1,0 +1,665 @@
+{
+  "checked_at": "2026-09-10T11:09:08.488140+00:00",
+  "project_id": "006772a5-86e9-4f01-bcd2-2d5f48f7a70e",
+  "runs": [
+    {
+      "seed": 41702,
+      "arm": "no-background",
+      "run_id": "95f7e117-dfd0-452b-8e87-bd80f0664d84",
+      "text_inputs": 1,
+      "host_frames": 0,
+      "host_delivered": 0,
+      "host_pending": 0,
+      "life": "dead",
+      "time_us": "2190000",
+      "active_nodes": 0,
+      "active_host_nodes": 0,
+      "edges_by_origin": {
+        "text→text": 992
+      }
+    },
+    {
+      "seed": 41702,
+      "arm": "host",
+      "run_id": "552aa797-e6d7-45bd-8477-b286fdd5b6f3",
+      "text_inputs": 40,
+      "host_frames": 415,
+      "host_delivered": 399,
+      "host_pending": 16,
+      "life": "active",
+      "time_us": "400000000",
+      "active_nodes": 39,
+      "active_host_nodes": 39,
+      "edges_by_origin": {
+        "text→text": 1832,
+        "host→host": 1458
+      }
+    },
+    {
+      "seed": 41701,
+      "arm": "no-background",
+      "run_id": "6890c93b-6a20-4ca7-b0e1-cf6731e7eed5",
+      "text_inputs": 1,
+      "host_frames": 0,
+      "host_delivered": 0,
+      "host_pending": 0,
+      "life": "dead",
+      "time_us": "2190000",
+      "active_nodes": 0,
+      "active_host_nodes": 0,
+      "edges_by_origin": {
+        "text→text": 1122
+      }
+    },
+    {
+      "seed": 41701,
+      "arm": "host",
+      "run_id": "38e0278b-c200-4857-b118-61ba3512caaf",
+      "text_inputs": 40,
+      "host_frames": 415,
+      "host_delivered": 399,
+      "host_pending": 16,
+      "life": "active",
+      "time_us": "400000000",
+      "active_nodes": 39,
+      "active_host_nodes": 39,
+      "edges_by_origin": {
+        "text→text": 1866,
+        "host→host": 1458
+      }
+    }
+  ],
+  "probes": [
+    {
+      "seed": 41701,
+      "stage": "untrained",
+      "cue": "甲是",
+      "intensity": 0.5,
+      "background_deliveries": 0,
+      "window_id": "8b559fcb5ae7eddedf8b6dd7"
+    },
+    {
+      "seed": 41701,
+      "stage": "untrained",
+      "cue": "乙是",
+      "intensity": 0.5,
+      "background_deliveries": 0,
+      "window_id": "cd49be371dc59f8c43eb78e0"
+    },
+    {
+      "seed": 41701,
+      "stage": "untrained",
+      "cue": "甲",
+      "intensity": 0.5,
+      "background_deliveries": 0,
+      "window_id": "b6654cf2a1f2c191b1de8b65"
+    },
+    {
+      "seed": 41701,
+      "stage": "untrained",
+      "cue": "乙",
+      "intensity": 0.5,
+      "background_deliveries": 0,
+      "window_id": "529d10b0a686ece8ce65be8f"
+    },
+    {
+      "seed": 41701,
+      "stage": "untrained",
+      "cue": "甲是",
+      "intensity": 0.0,
+      "background_deliveries": 0,
+      "window_id": "63f24ba7995ff502bc3491c2"
+    },
+    {
+      "seed": 41701,
+      "stage": "untrained",
+      "cue": "乙是",
+      "intensity": 0.0,
+      "background_deliveries": 0,
+      "window_id": "273cd13841333d4ea09c8b5c"
+    },
+    {
+      "seed": 41701,
+      "stage": "untrained",
+      "cue": "甲",
+      "intensity": 0.0,
+      "background_deliveries": 0,
+      "window_id": "c2c51a2bc896207c4dd761db"
+    },
+    {
+      "seed": 41701,
+      "stage": "untrained",
+      "cue": "乙",
+      "intensity": 0.0,
+      "background_deliveries": 0,
+      "window_id": "ebdedc71c0a11f7c9d6478e5"
+    },
+    {
+      "seed": 41701,
+      "stage": "untrained",
+      "cue": "松子",
+      "intensity": 0.5,
+      "background_deliveries": 0,
+      "window_id": "d8f2c7a7dd35e54a49359698"
+    },
+    {
+      "seed": 41701,
+      "stage": "untrained",
+      "cue": "铃铛",
+      "intensity": 0.5,
+      "background_deliveries": 0,
+      "window_id": "1fe49fa8f278d4869b741a45"
+    },
+    {
+      "seed": 41701,
+      "stage": "untrained",
+      "cue": "松子",
+      "intensity": 0.0,
+      "background_deliveries": 0,
+      "window_id": "e9fa66bdbae2be9476f5a784"
+    },
+    {
+      "seed": 41701,
+      "stage": "untrained",
+      "cue": "铃铛",
+      "intensity": 0.0,
+      "background_deliveries": 0,
+      "window_id": "cbcabb41a2caffeb669dbe86"
+    },
+    {
+      "seed": 41701,
+      "stage": "each10",
+      "cue": "甲是",
+      "intensity": 0.5,
+      "background_deliveries": 1,
+      "window_id": "d43db1bd7093ef763dfdedc0"
+    },
+    {
+      "seed": 41701,
+      "stage": "each10",
+      "cue": "乙是",
+      "intensity": 0.5,
+      "background_deliveries": 1,
+      "window_id": "2fed76e19b744ba61fa7aef5"
+    },
+    {
+      "seed": 41701,
+      "stage": "each10",
+      "cue": "甲",
+      "intensity": 0.5,
+      "background_deliveries": 1,
+      "window_id": "54e68a51c350c174f89f6961"
+    },
+    {
+      "seed": 41701,
+      "stage": "each10",
+      "cue": "乙",
+      "intensity": 0.5,
+      "background_deliveries": 1,
+      "window_id": "89316222f3c41d207c8fa87d"
+    },
+    {
+      "seed": 41701,
+      "stage": "each10",
+      "cue": "甲是",
+      "intensity": 0.0,
+      "background_deliveries": 1,
+      "window_id": "bbf068f898e27919d9e0a9f1"
+    },
+    {
+      "seed": 41701,
+      "stage": "each10",
+      "cue": "乙是",
+      "intensity": 0.0,
+      "background_deliveries": 1,
+      "window_id": "21f9a80bfa5a2651d41110fa"
+    },
+    {
+      "seed": 41701,
+      "stage": "each10",
+      "cue": "甲",
+      "intensity": 0.0,
+      "background_deliveries": 1,
+      "window_id": "454c31052beb9187f57dbb70"
+    },
+    {
+      "seed": 41701,
+      "stage": "each10",
+      "cue": "乙",
+      "intensity": 0.0,
+      "background_deliveries": 1,
+      "window_id": "8169f8df5b310b6fa8a10019"
+    },
+    {
+      "seed": 41701,
+      "stage": "each10",
+      "cue": "松子",
+      "intensity": 0.5,
+      "background_deliveries": 1,
+      "window_id": "8e7bc46009faf760707f0ebe"
+    },
+    {
+      "seed": 41701,
+      "stage": "each10",
+      "cue": "铃铛",
+      "intensity": 0.5,
+      "background_deliveries": 1,
+      "window_id": "746b274aeba201a0af0ccf94"
+    },
+    {
+      "seed": 41701,
+      "stage": "each10",
+      "cue": "松子",
+      "intensity": 0.0,
+      "background_deliveries": 1,
+      "window_id": "39cb1f1de2a30c00ae2329c3"
+    },
+    {
+      "seed": 41701,
+      "stage": "each10",
+      "cue": "铃铛",
+      "intensity": 0.0,
+      "background_deliveries": 1,
+      "window_id": "82e44ff00d463972096daf2c"
+    },
+    {
+      "seed": 41701,
+      "stage": "each20",
+      "cue": "甲是",
+      "intensity": 0.5,
+      "background_deliveries": 1,
+      "window_id": "bbb8ab4a5cb0060cb716b8ca"
+    },
+    {
+      "seed": 41701,
+      "stage": "each20",
+      "cue": "乙是",
+      "intensity": 0.5,
+      "background_deliveries": 1,
+      "window_id": "f16020efdd917409e4b2db7b"
+    },
+    {
+      "seed": 41701,
+      "stage": "each20",
+      "cue": "甲",
+      "intensity": 0.5,
+      "background_deliveries": 1,
+      "window_id": "9a01a0b6ebc6d1eb1ae17b56"
+    },
+    {
+      "seed": 41701,
+      "stage": "each20",
+      "cue": "乙",
+      "intensity": 0.5,
+      "background_deliveries": 1,
+      "window_id": "f9f0ac0ca541832d5f588221"
+    },
+    {
+      "seed": 41701,
+      "stage": "each20",
+      "cue": "甲是",
+      "intensity": 0.0,
+      "background_deliveries": 1,
+      "window_id": "011e2e6740c2416147e70db3"
+    },
+    {
+      "seed": 41701,
+      "stage": "each20",
+      "cue": "乙是",
+      "intensity": 0.0,
+      "background_deliveries": 1,
+      "window_id": "b58ed40c55a882450d583ebf"
+    },
+    {
+      "seed": 41701,
+      "stage": "each20",
+      "cue": "甲",
+      "intensity": 0.0,
+      "background_deliveries": 1,
+      "window_id": "86818a047f23891edad0ab4c"
+    },
+    {
+      "seed": 41701,
+      "stage": "each20",
+      "cue": "乙",
+      "intensity": 0.0,
+      "background_deliveries": 1,
+      "window_id": "1fc07339b9c0165077f70c96"
+    },
+    {
+      "seed": 41701,
+      "stage": "each20",
+      "cue": "松子",
+      "intensity": 0.5,
+      "background_deliveries": 1,
+      "window_id": "46049506321d0e7c9bb71ff3"
+    },
+    {
+      "seed": 41701,
+      "stage": "each20",
+      "cue": "铃铛",
+      "intensity": 0.5,
+      "background_deliveries": 1,
+      "window_id": "6997bc492530b43e6c25567c"
+    },
+    {
+      "seed": 41701,
+      "stage": "each20",
+      "cue": "松子",
+      "intensity": 0.0,
+      "background_deliveries": 1,
+      "window_id": "522fc88494ca476755a81b9f"
+    },
+    {
+      "seed": 41701,
+      "stage": "each20",
+      "cue": "铃铛",
+      "intensity": 0.0,
+      "background_deliveries": 1,
+      "window_id": "0f4a8de56d0775a4716fa4cc"
+    },
+    {
+      "seed": 41702,
+      "stage": "untrained",
+      "cue": "甲是",
+      "intensity": 0.5,
+      "background_deliveries": 0,
+      "window_id": "315633d80e550f6cc411c110"
+    },
+    {
+      "seed": 41702,
+      "stage": "untrained",
+      "cue": "乙是",
+      "intensity": 0.5,
+      "background_deliveries": 0,
+      "window_id": "8178692969178cf3d23c18c5"
+    },
+    {
+      "seed": 41702,
+      "stage": "untrained",
+      "cue": "甲",
+      "intensity": 0.5,
+      "background_deliveries": 0,
+      "window_id": "2bd7c183a2bcac188d665eab"
+    },
+    {
+      "seed": 41702,
+      "stage": "untrained",
+      "cue": "乙",
+      "intensity": 0.5,
+      "background_deliveries": 0,
+      "window_id": "2e90e8e90ef99e6ac29f167d"
+    },
+    {
+      "seed": 41702,
+      "stage": "untrained",
+      "cue": "甲是",
+      "intensity": 0.0,
+      "background_deliveries": 0,
+      "window_id": "c2dd86730d2e43402173ba9f"
+    },
+    {
+      "seed": 41702,
+      "stage": "untrained",
+      "cue": "乙是",
+      "intensity": 0.0,
+      "background_deliveries": 0,
+      "window_id": "8666c179dbf19ba8c3700491"
+    },
+    {
+      "seed": 41702,
+      "stage": "untrained",
+      "cue": "甲",
+      "intensity": 0.0,
+      "background_deliveries": 0,
+      "window_id": "6f8a99b588379c81c9411e05"
+    },
+    {
+      "seed": 41702,
+      "stage": "untrained",
+      "cue": "乙",
+      "intensity": 0.0,
+      "background_deliveries": 0,
+      "window_id": "302a712d80c04be8365ea93c"
+    },
+    {
+      "seed": 41702,
+      "stage": "untrained",
+      "cue": "松子",
+      "intensity": 0.5,
+      "background_deliveries": 0,
+      "window_id": "99bf999ac3d016fb76cee56d"
+    },
+    {
+      "seed": 41702,
+      "stage": "untrained",
+      "cue": "铃铛",
+      "intensity": 0.5,
+      "background_deliveries": 0,
+      "window_id": "626ae34e067ee814a6586475"
+    },
+    {
+      "seed": 41702,
+      "stage": "untrained",
+      "cue": "松子",
+      "intensity": 0.0,
+      "background_deliveries": 0,
+      "window_id": "3a4de4a883dbf9c97f5b10c4"
+    },
+    {
+      "seed": 41702,
+      "stage": "untrained",
+      "cue": "铃铛",
+      "intensity": 0.0,
+      "background_deliveries": 0,
+      "window_id": "a094a5cbf98f6b17f815eccc"
+    },
+    {
+      "seed": 41702,
+      "stage": "each10",
+      "cue": "甲是",
+      "intensity": 0.5,
+      "background_deliveries": 1,
+      "window_id": "24cd75f194e2c50de5e0c792"
+    },
+    {
+      "seed": 41702,
+      "stage": "each10",
+      "cue": "乙是",
+      "intensity": 0.5,
+      "background_deliveries": 1,
+      "window_id": "4b74c85ba84bf2b3d81c6180"
+    },
+    {
+      "seed": 41702,
+      "stage": "each10",
+      "cue": "甲",
+      "intensity": 0.5,
+      "background_deliveries": 1,
+      "window_id": "e5a001c7ee0ccd1f197025b0"
+    },
+    {
+      "seed": 41702,
+      "stage": "each10",
+      "cue": "乙",
+      "intensity": 0.5,
+      "background_deliveries": 1,
+      "window_id": "020aba3d7585388860efee0d"
+    },
+    {
+      "seed": 41702,
+      "stage": "each10",
+      "cue": "甲是",
+      "intensity": 0.0,
+      "background_deliveries": 1,
+      "window_id": "8be0a6e0551e0aad99aca9df"
+    },
+    {
+      "seed": 41702,
+      "stage": "each10",
+      "cue": "乙是",
+      "intensity": 0.0,
+      "background_deliveries": 1,
+      "window_id": "0ce60c2db2735d1a0e2fdc44"
+    },
+    {
+      "seed": 41702,
+      "stage": "each10",
+      "cue": "甲",
+      "intensity": 0.0,
+      "background_deliveries": 1,
+      "window_id": "3ae8c24b6642ea286724bbd1"
+    },
+    {
+      "seed": 41702,
+      "stage": "each10",
+      "cue": "乙",
+      "intensity": 0.0,
+      "background_deliveries": 1,
+      "window_id": "6c059c9b149de8b58da17067"
+    },
+    {
+      "seed": 41702,
+      "stage": "each10",
+      "cue": "松子",
+      "intensity": 0.5,
+      "background_deliveries": 1,
+      "window_id": "ea9ca2f6f5a9c80f6fd6ac4c"
+    },
+    {
+      "seed": 41702,
+      "stage": "each10",
+      "cue": "铃铛",
+      "intensity": 0.5,
+      "background_deliveries": 1,
+      "window_id": "c39781d88fff74ccd3d80474"
+    },
+    {
+      "seed": 41702,
+      "stage": "each10",
+      "cue": "松子",
+      "intensity": 0.0,
+      "background_deliveries": 1,
+      "window_id": "ec706675ca1d9d99e93edf3e"
+    },
+    {
+      "seed": 41702,
+      "stage": "each10",
+      "cue": "铃铛",
+      "intensity": 0.0,
+      "background_deliveries": 1,
+      "window_id": "4498ffb7421a9adcd5d7ac85"
+    },
+    {
+      "seed": 41702,
+      "stage": "each20",
+      "cue": "甲是",
+      "intensity": 0.5,
+      "background_deliveries": 1,
+      "window_id": "b1451643d40ab6580fede9bb"
+    },
+    {
+      "seed": 41702,
+      "stage": "each20",
+      "cue": "乙是",
+      "intensity": 0.5,
+      "background_deliveries": 1,
+      "window_id": "c3735718ce0d3122e3562366"
+    },
+    {
+      "seed": 41702,
+      "stage": "each20",
+      "cue": "甲",
+      "intensity": 0.5,
+      "background_deliveries": 1,
+      "window_id": "adee48ba26b33cf3c95d463e"
+    },
+    {
+      "seed": 41702,
+      "stage": "each20",
+      "cue": "乙",
+      "intensity": 0.5,
+      "background_deliveries": 1,
+      "window_id": "07dc22c667cd29b8edb0110f"
+    },
+    {
+      "seed": 41702,
+      "stage": "each20",
+      "cue": "甲是",
+      "intensity": 0.0,
+      "background_deliveries": 1,
+      "window_id": "29452189129d634e4214afd1"
+    },
+    {
+      "seed": 41702,
+      "stage": "each20",
+      "cue": "乙是",
+      "intensity": 0.0,
+      "background_deliveries": 1,
+      "window_id": "bd4e5c940cc297b0377b163f"
+    },
+    {
+      "seed": 41702,
+      "stage": "each20",
+      "cue": "甲",
+      "intensity": 0.0,
+      "background_deliveries": 1,
+      "window_id": "05e55357445ea301bf021563"
+    },
+    {
+      "seed": 41702,
+      "stage": "each20",
+      "cue": "乙",
+      "intensity": 0.0,
+      "background_deliveries": 1,
+      "window_id": "885e7cafe04289e5aa210a7a"
+    },
+    {
+      "seed": 41702,
+      "stage": "each20",
+      "cue": "松子",
+      "intensity": 0.5,
+      "background_deliveries": 1,
+      "window_id": "2f614cca71f9eec5665beb79"
+    },
+    {
+      "seed": 41702,
+      "stage": "each20",
+      "cue": "铃铛",
+      "intensity": 0.5,
+      "background_deliveries": 1,
+      "window_id": "6d496dd2e03c05e3ba057c3b"
+    },
+    {
+      "seed": 41702,
+      "stage": "each20",
+      "cue": "松子",
+      "intensity": 0.0,
+      "background_deliveries": 1,
+      "window_id": "c3a069aeb4896682c8eca2f0"
+    },
+    {
+      "seed": 41702,
+      "stage": "each20",
+      "cue": "铃铛",
+      "intensity": 0.0,
+      "background_deliveries": 1,
+      "window_id": "2d985d185c03d409670dc96a"
+    }
+  ],
+  "exact_frame_contents_and_times_verified": true,
+  "checkpoints_verified": 8,
+  "source_and_original_experiments_unchanged": true,
+  "trained_probes_with_background": 48,
+  "database_growth_bytes": 23764992,
+  "local_evidence_bytes": 14097939,
+  "combined_new_storage_bytes": 37862931,
+  "jobs": [
+    {
+      "status": "done",
+      "n": 16
+    }
+  ],
+  "model_seconds": 53.04700000000594,
+  "peak_rss": 147779584
+}

@@ -1,0 +1,31 @@
+{
+  "purpose": "diagnostic differences only; never submitted to Core or expression adapters",
+  "rows": [
+    {
+      "seed": 223,
+      "files": [
+        "E:\\WORKSPACE\\AgentWork\\threemind\\.work\\coadaptive-language-20261005\\cases\\transcription-s223-stage0\\0-0.4.json.gz",
+        "E:\\WORKSPACE\\AgentWork\\threemind\\.work\\coadaptive-language-20261005\\cases\\transcription-s223-stage0\\1-0.4.json.gz"
+      ],
+      "dense_frames": 101,
+      "different_frames": 100,
+      "dense_max_difference": 0.08583826123323483,
+      "difference_at_120ms": 0.06180354808792905,
+      "sampled_frames": 17,
+      "actual_local_max_difference": 0.06180354808792905
+    },
+    {
+      "seed": 279,
+      "files": [
+        "E:\\WORKSPACE\\AgentWork\\threemind\\.work\\coadaptive-language-20261005\\cases\\transcription-s279-stage0\\0-0.4.json.gz",
+        "E:\\WORKSPACE\\AgentWork\\threemind\\.work\\coadaptive-language-20261005\\cases\\transcription-s279-stage0\\1-0.4.json.gz"
+      ],
+      "dense_frames": 101,
+      "different_frames": 100,
+      "dense_max_difference": 0.08588638037006344,
+      "difference_at_120ms": 0.06183819386644564,
+      "sampled_frames": 17,
+      "actual_local_max_difference": 0.06183819386644564
+    }
+  ]
+}

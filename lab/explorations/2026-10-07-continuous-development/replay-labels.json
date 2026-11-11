@@ -1,0 +1,9 @@
+{
+  "s223-direct-aligned": "空白意识 · 完整156课与复习",
+  "s223-direct-aligned-system-normal": "教学后 · 无辅助短提示",
+  "s223-direct-aligned-system-visible-cue-normal": "教学后 · 无辅助持续提示",
+  "s223-direct-aligned-correction": "同一个体 · 自己尝试与错后示范",
+  "s223-direct-aligned-correction-system-normal": "纠错后 · 无辅助测试",
+  "s223-direct-aligned-correction-system-silence": "纠错后 · 已有连接静默对照",
+  "s223-direct-aligned-correction-system-rescue": "纠错后 · 连接恢复对照"
+}

@@ -1,0 +1,94 @@
+{
+  "checked_at": "2026-09-09T12:48:16.563713+00:00",
+  "project_id": "a9bd83bb-3d57-4eab-859d-68312f6b2b17",
+  "exact_training_frames": 8820,
+  "source_runs": 10,
+  "checkpoint_hashes_verified": 44,
+  "measurement_source_hashes_verified": 132,
+  "all_original_text_and_punctuation_verified": true,
+  "all_repetition_counts_verified": true,
+  "all_input_frames_delivered": true,
+  "old_inventory_unchanged": true,
+  "old_model_count": 1912,
+  "source_config_unchanged": true,
+  "core_changed": false,
+  "sensor_equals_product_defaults": true,
+  "product_sources_and_native_binary_unchanged": true,
+  "representative_bundles": [
+    {
+      "id": "daf58c32-9538-4c48-aebf-702a4349f874",
+      "copies": 7,
+      "bundle_sha256": "95d8d27c91337998388e19f9bf6d146e71f18f67a4863991f70be6ebe9dc2f48"
+    },
+    {
+      "id": "d866ebf0-1c83-42ca-b664-5b41e0d3ba04",
+      "copies": 7,
+      "bundle_sha256": "1a59180dd79b9a599f426439f2e5e7d1fa3eb54caa803db4119761941b356ae3"
+    },
+    {
+      "id": "431c69c3-3e30-421e-8082-ad941d0cc251",
+      "copies": 7,
+      "bundle_sha256": "4add9b97604d33897384487ed9ee5b7602c6bab6e3e0f71c4d3d10e6c282bed2"
+    },
+    {
+      "id": "fb52cb9f-eeea-4cf2-bf4d-869947804cb8",
+      "copies": 7,
+      "bundle_sha256": "67ab2fb94944f76c5b3888388a6b4fb75db2d7215a0db7bee8f612a9ab246051"
+    }
+  ],
+  "archived_product_source_files_verified": 200,
+  "identical_initial_stimulus_states": [
+    {
+      "seed": 41701,
+      "count": 20,
+      "source_hash": "032fc758b13a8f85d3f0019f74de6f41f735793bc3fb018decf764925ae06725"
+    },
+    {
+      "seed": 41701,
+      "count": 40,
+      "source_hash": "dac60bbca8f944b721b21c5fd1b7d1427e649f3bbd8a5ebd599d43425487ca26"
+    },
+    {
+      "seed": 41702,
+      "count": 20,
+      "source_hash": "33985f3855797dc4953ce79f7fe555fc515af05089b37444d27297326617af24"
+    },
+    {
+      "seed": 41702,
+      "count": 40,
+      "source_hash": "b4fdca2eed0e6d6309b6ac6b7b07bef713682b1d67743b945ead9e97950282a8"
+    },
+    {
+      "seed": 41703,
+      "count": 20,
+      "source_hash": "a3159fef0a9e3c14c8e8eaf508d7c39bd6291d6dd3ae9f881499be52c7a896ce"
+    },
+    {
+      "seed": 41703,
+      "count": 40,
+      "source_hash": "9eb790a39d854a325dcf94e5437805a00cf0f9b4cd278bcba07849598adb4656"
+    },
+    {
+      "seed": 41704,
+      "count": 20,
+      "source_hash": "690b0cf0a56dcb5a92a21c0dbdd5712422bee4018caa2516fb66d59d10460010"
+    },
+    {
+      "seed": 41704,
+      "count": 40,
+      "source_hash": "c9db790e599913a2aec62c232190b73991fa0a7902a67ff8d89d67caa74fb845"
+    }
+  ],
+  "database_growth_bytes": 383434752,
+  "job_status_counts": [
+    {
+      "status": "done",
+      "n": 132
+    }
+  ],
+  "local_evidence_bytes": 9726161,
+  "free_disk_bytes": {
+    "D:/": 39437467648,
+    "E:/": 50323525632
+  }
+}

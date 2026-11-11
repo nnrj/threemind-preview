@@ -1,0 +1,26 @@
+{
+  "selected_dose": null,
+  "calibration_passed": false,
+  "summary": [
+    {
+      "dose": 1,
+      "eligible": 0,
+      "total": 32,
+      "fraction": 0.0
+    },
+    {
+      "dose": 2,
+      "eligible": 0,
+      "total": 32,
+      "fraction": 0.0
+    },
+    {
+      "dose": 4,
+      "eligible": 0,
+      "total": 32,
+      "fraction": 0.0
+    }
+  ],
+  "rule": "lowest dose with >=80% physical observability; target scores never used",
+  "calibration_sha256": "978cae478f2dd4a6e4b7bd80da9a7cf740e70ffb54b64ba1307e14c3cc9b7451"
+}

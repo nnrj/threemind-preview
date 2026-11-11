@@ -1,0 +1,3599 @@
+{
+  "project_id": "194a2f1f-4912-435b-b94e-d8ac64fe4788",
+  "input_audits": [
+    {
+      "run_id": "186ebdf7-1fc3-446a-8650-d3bd65591f15",
+      "seed": 41703,
+      "arm": "crossed",
+      "actual_inputs": 240,
+      "sentence_counts": {
+        "Z的父亲是Y。": 60,
+        "Y的父亲是U。": 60,
+        "W的父亲是V。": 60,
+        "V的父亲是X。": 60
+      },
+      "hash": "95ad5142634f137537a8f3aa85c5283935f0860bb39b957dac523652c88b331e"
+    },
+    {
+      "run_id": "1fc58859-2ebc-49d4-b6b6-17617aa1b421",
+      "seed": 41703,
+      "arm": "normal",
+      "actual_inputs": 1310,
+      "sentence_counts": {
+        "甲是松子。": 65,
+        "乙是铃铛。": 65,
+        "丙问甲，谁是铃铛？甲说：乙是铃铛。": 65,
+        "丙问乙，谁是松子？乙说：甲是松子。": 65,
+        "甲对乙说：我是松子，你是铃铛。": 65,
+        "乙对甲说：我是铃铛，你是松子。": 65,
+        "谁是松子？甲是松子。": 65,
+        "谁是铃铛？乙是铃铛。": 65,
+        "松子是谁？松子是甲。": 65,
+        "铃铛是谁？铃铛是乙。": 65,
+        "C的父亲是B。": 60,
+        "B的父亲是A。": 60,
+        "C的爷爷是A。": 60,
+        "父亲的父亲是爷爷。": 60,
+        "F的父亲是E。": 60,
+        "E的父亲是D。": 60,
+        "F的爷爷是D。": 60,
+        "Z的父亲是Y。": 60,
+        "Y的父亲是X。": 60,
+        "W的父亲是V。": 60,
+        "V的父亲是U。": 60
+      },
+      "hash": "2ac102ad24093d3e251e81d6eaf03b338f9ffa47ea8f3bcbb79528f22034270e"
+    },
+    {
+      "run_id": "515f8753-9d3b-4842-a80c-d369f47c4951",
+      "seed": 41702,
+      "arm": "normal",
+      "actual_inputs": 1310,
+      "sentence_counts": {
+        "甲是松子。": 65,
+        "乙是铃铛。": 65,
+        "丙问甲，谁是铃铛？甲说：乙是铃铛。": 65,
+        "丙问乙，谁是松子？乙说：甲是松子。": 65,
+        "甲对乙说：我是松子，你是铃铛。": 65,
+        "乙对甲说：我是铃铛，你是松子。": 65,
+        "谁是松子？甲是松子。": 65,
+        "谁是铃铛？乙是铃铛。": 65,
+        "松子是谁？松子是甲。": 65,
+        "铃铛是谁？铃铛是乙。": 65,
+        "C的父亲是B。": 60,
+        "B的父亲是A。": 60,
+        "C的爷爷是A。": 60,
+        "父亲的父亲是爷爷。": 60,
+        "F的父亲是E。": 60,
+        "E的父亲是D。": 60,
+        "F的爷爷是D。": 60,
+        "Z的父亲是Y。": 60,
+        "Y的父亲是X。": 60,
+        "W的父亲是V。": 60,
+        "V的父亲是U。": 60
+      },
+      "hash": "88d57306d6188f102613f0cea817c781c4a6471670aa479913d8c021df69b0bf"
+    },
+    {
+      "run_id": "6b9e755f-408a-4a95-bd1e-1181863e9433",
+      "seed": 41702,
+      "arm": "crossed",
+      "actual_inputs": 240,
+      "sentence_counts": {
+        "Z的父亲是Y。": 60,
+        "Y的父亲是U。": 60,
+        "W的父亲是V。": 60,
+        "V的父亲是X。": 60
+      },
+      "hash": "fb430baba43053a0fdf66595b9cdc90864b8ccd6163bbcea94b39eba5f190537"
+    },
+    {
+      "run_id": "719c40d5-fe4a-4bb6-9506-99f014a81d8c",
+      "seed": 41704,
+      "arm": "normal",
+      "actual_inputs": 1310,
+      "sentence_counts": {
+        "甲是松子。": 65,
+        "乙是铃铛。": 65,
+        "丙问甲，谁是铃铛？甲说：乙是铃铛。": 65,
+        "丙问乙，谁是松子？乙说：甲是松子。": 65,
+        "甲对乙说：我是松子，你是铃铛。": 65,
+        "乙对甲说：我是铃铛，你是松子。": 65,
+        "谁是松子？甲是松子。": 65,
+        "谁是铃铛？乙是铃铛。": 65,
+        "松子是谁？松子是甲。": 65,
+        "铃铛是谁？铃铛是乙。": 65,
+        "C的父亲是B。": 60,
+        "B的父亲是A。": 60,
+        "C的爷爷是A。": 60,
+        "父亲的父亲是爷爷。": 60,
+        "F的父亲是E。": 60,
+        "E的父亲是D。": 60,
+        "F的爷爷是D。": 60,
+        "Z的父亲是Y。": 60,
+        "Y的父亲是X。": 60,
+        "W的父亲是V。": 60,
+        "V的父亲是U。": 60
+      },
+      "hash": "0e0c2642ea7723ac517ed8e312c7500e36669c39dcdabe3bf6d78639d7bb433d"
+    },
+    {
+      "run_id": "9a68759b-3499-4085-b6a2-abb12c9d0a3f",
+      "seed": 41704,
+      "arm": "crossed",
+      "actual_inputs": 240,
+      "sentence_counts": {
+        "Z的父亲是Y。": 60,
+        "Y的父亲是U。": 60,
+        "W的父亲是V。": 60,
+        "V的父亲是X。": 60
+      },
+      "hash": "2e1565b71ce3e396cc7a845f88eeb9acac1cd8fb1cfa99c7bdf46724280c7531"
+    },
+    {
+      "run_id": "c0a9cebe-9342-40e4-b4be-9904f41d7188",
+      "seed": 41701,
+      "arm": "normal",
+      "actual_inputs": 1310,
+      "sentence_counts": {
+        "甲是松子。": 65,
+        "乙是铃铛。": 65,
+        "丙问甲，谁是铃铛？甲说：乙是铃铛。": 65,
+        "丙问乙，谁是松子？乙说：甲是松子。": 65,
+        "甲对乙说：我是松子，你是铃铛。": 65,
+        "乙对甲说：我是铃铛，你是松子。": 65,
+        "谁是松子？甲是松子。": 65,
+        "谁是铃铛？乙是铃铛。": 65,
+        "松子是谁？松子是甲。": 65,
+        "铃铛是谁？铃铛是乙。": 65,
+        "C的父亲是B。": 60,
+        "B的父亲是A。": 60,
+        "C的爷爷是A。": 60,
+        "父亲的父亲是爷爷。": 60,
+        "F的父亲是E。": 60,
+        "E的父亲是D。": 60,
+        "F的爷爷是D。": 60,
+        "Z的父亲是Y。": 60,
+        "Y的父亲是X。": 60,
+        "W的父亲是V。": 60,
+        "V的父亲是U。": 60
+      },
+      "hash": "563e6dc3e222b4b91ccb3b80d3c888e7a184d949496ee905e4e28fccbc390867"
+    },
+    {
+      "run_id": "f0404b43-f4a1-485d-b96a-e6da71af0be3",
+      "seed": 41702,
+      "arm": "swapped",
+      "actual_inputs": 600,
+      "sentence_counts": {
+        "甲是铃铛。": 60,
+        "乙是松子。": 60,
+        "丙问甲，谁是松子？甲说：乙是松子。": 60,
+        "丙问乙，谁是铃铛？乙说：甲是铃铛。": 60,
+        "甲对乙说：我是铃铛，你是松子。": 60,
+        "乙对甲说：我是松子，你是铃铛。": 60,
+        "谁是铃铛？甲是铃铛。": 60,
+        "谁是松子？乙是松子。": 60,
+        "铃铛是谁？铃铛是甲。": 60,
+        "松子是谁？松子是乙。": 60
+      },
+      "hash": "746be84e576d6257657ef85e765785e576a1937dfcba9c414d04a75e6168e4aa"
+    },
+    {
+      "run_id": "f4544398-cf09-43aa-a816-36570c414d30",
+      "seed": 41701,
+      "arm": "crossed",
+      "actual_inputs": 240,
+      "sentence_counts": {
+        "Z的父亲是Y。": 60,
+        "Y的父亲是U。": 60,
+        "W的父亲是V。": 60,
+        "V的父亲是X。": 60
+      },
+      "hash": "15216066e7d7150b6cdc0b5c1ce7a17a71ae05d0db3782868882e56daa192990"
+    },
+    {
+      "run_id": "fbcfa297-6fed-439e-a547-8a8c8dfb0207",
+      "seed": 41701,
+      "arm": "swapped",
+      "actual_inputs": 600,
+      "sentence_counts": {
+        "甲是铃铛。": 60,
+        "乙是松子。": 60,
+        "丙问甲，谁是松子？甲说：乙是松子。": 60,
+        "丙问乙，谁是铃铛？乙说：甲是铃铛。": 60,
+        "甲对乙说：我是铃铛，你是松子。": 60,
+        "乙对甲说：我是松子，你是铃铛。": 60,
+        "谁是铃铛？甲是铃铛。": 60,
+        "谁是松子？乙是松子。": 60,
+        "铃铛是谁？铃铛是甲。": 60,
+        "松子是谁？松子是乙。": 60
+      },
+      "hash": "36f1cff21a3d89c1ef8c4f828f52435c8a0c9afc2e3a704dd183f85ec1f97458"
+    }
+  ],
+  "checkpoints": {
+    "2af0abcf-fcd2-4feb-879a-26249075a261": "dac60bbca8f944b721b21c5fd1b7d1427e649f3bbd8a5ebd599d43425487ca26",
+    "df21b292-8fa0-4f37-bfe3-5a9936fca6b1": "fc789275049701205190cb8930e083d09f6d4b1a1a54a8ea2eb974ff22489cb2",
+    "43c1275a-dcb9-48c1-931f-4ee5ea36abd2": "52485753cb19ae561a59f5036d5a5f5202e83cf8df1d7042b376aedea4c973bc",
+    "629e61e1-0c59-4eef-9084-936e4af17194": "ca18129b536dc503bea9a9a523a2ad28319ce2a93b57fe66b62432645d014405",
+    "6f1223a8-10f1-4148-885a-7b6db32d9f69": "563e6dc3e222b4b91ccb3b80d3c888e7a184d949496ee905e4e28fccbc390867",
+    "617fe4ab-9eb8-4f7d-85cd-303fb7a95dbc": "15216066e7d7150b6cdc0b5c1ce7a17a71ae05d0db3782868882e56daa192990",
+    "4d97cf9a-ffdf-4090-a474-24070f53fd08": "de928960591cf25d640ffd0536b466c7b5d232317580a27d556ae671fd751ae8",
+    "5ba3e844-a1fd-477e-9432-7dd9046611db": "369177ae5ed62f32c10dd149f42af4403349ace3c0f394c6b896c96a77e01e55",
+    "79a20fc7-4f55-4de8-9fb8-28621f31f35d": "36f1cff21a3d89c1ef8c4f828f52435c8a0c9afc2e3a704dd183f85ec1f97458",
+    "b52f2f1c-799a-4c40-93f9-7f42ce5534cf": "b4fdca2eed0e6d6309b6ac6b7b07bef713682b1d67743b945ead9e97950282a8",
+    "50f2a534-56ba-4168-9a15-0bfbedcb3336": "68d59a32a5dca3800d481e48a32f18f920534baa712172c85f8280ea579ace77",
+    "64262438-b8d5-4ad1-9e45-f42279ff4c80": "026746571e9e5581eb8c9f261fb9226b3dc4d28971636084b7a4213c2cbff4d8",
+    "006caaa0-1838-4dc8-a55d-230cf9551b31": "85e9f1432acc5680e1a81c4793861e5385dd92b2d0f0d662b76182f7f16df370",
+    "d50f7278-ea00-4c4c-a06e-f86cbc3d5d94": "88d57306d6188f102613f0cea817c781c4a6471670aa479913d8c021df69b0bf",
+    "ceb38e52-cf1d-4a45-a175-df4cdf076eda": "fb430baba43053a0fdf66595b9cdc90864b8ccd6163bbcea94b39eba5f190537",
+    "f29d38aa-eec5-466d-a85f-96f896dfae60": "b9f459a21061e2cf7d05f4826ef6f6d549e8663d0363d79a39091bbfea998afd",
+    "1a547614-30c2-4b8b-a3c3-abe5e6b1c5ec": "7d5f200bb76f82b1706d1c7c2605939458725d2ddab4e2914db38a4e3c292207",
+    "45f94a6a-9853-4bb1-8f70-4448a58944ce": "746be84e576d6257657ef85e765785e576a1937dfcba9c414d04a75e6168e4aa",
+    "84d688ca-3b9b-42da-814e-4868e959a735": "9eb790a39d854a325dcf94e5437805a00cf0f9b4cd278bcba07849598adb4656",
+    "5045a183-403f-4632-85bc-e51734d08f46": "189eab6263e775f359a2a73c4bca7a0e2ab770a3fb5d854b992877b7e003a6ee",
+    "636bb7be-7269-4dcc-a5a9-567b64a5fad6": "8f0e226c052d1a013406a545b50eeb51714f60326426ad01bbedb26dc89e27ad",
+    "bcf57a99-3537-44b2-9391-5073c919d171": "f1d7d647f43ba75dfb52c4e8118c8dce82113710babc42c5462bca263aae692b",
+    "76c13d71-3217-49a0-a5f2-7be10047ef98": "2ac102ad24093d3e251e81d6eaf03b338f9ffa47ea8f3bcbb79528f22034270e",
+    "0b0a6b65-924a-4a66-b508-accb05883b6b": "95ad5142634f137537a8f3aa85c5283935f0860bb39b957dac523652c88b331e",
+    "75525638-e974-4089-ac1a-586b98804f10": "c9db790e599913a2aec62c232190b73991fa0a7902a67ff8d89d67caa74fb845",
+    "78f7da0e-c714-48dc-a253-a7e03d7e1c2e": "a641d5555ab52b9b7e731af6fa7bf5c92b4bdd67154c21084013823f603a67fd",
+    "e2e69a45-7916-48c9-bdb4-2c7f502d8dd4": "ada8f32a87d800c457d9585d8a321217054603192d116339d8098b291afc9581",
+    "b67189b7-fd6e-4659-a0d7-d3eb77485047": "a176f5d50079ed32e719359375a0e7c41c500d4a7d94ee57b0e7cfc0bd79ecf4",
+    "b969c457-a946-4e55-ae1b-e3d7948d1ac1": "0e0c2642ea7723ac517ed8e312c7500e36669c39dcdabe3bf6d78639d7bb433d",
+    "3abd584d-3ad9-4f52-9325-b9a4906875ad": "2e1565b71ce3e396cc7a845f88eeb9acac1cd8fb1cfa99c7bdf46724280c7531"
+  },
+  "calibrations": [
+    {
+      "id": "03a83439-436d-4a39-a68e-7528073739c3",
+      "run_id": "719c40d5-fe4a-4bb6-9506-99f014a81d8c",
+      "checkpoint_id": "78f7da0e-c714-48dc-a253-a7e03d7e1c2e",
+      "source_hash": "a641d5555ab52b9b7e731af6fa7bf5c92b4bdd67154c21084013823f603a67fd",
+      "protocol": {
+        "cues": [
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "66dc79be-e5d3-48ae-afc6-6e2c64a32dae",
+        "source_hash": "a641d5555ab52b9b7e731af6fa7bf5c92b4bdd67154c21084013823f603a67fd",
+        "bundle_sha256": "93eca5e87b2b8f9c1030010aaba00818a0b6df4e30363c6c94f352d13c447eee",
+        "result_sha256": "135c1fa2233466621849e59b6265ab8dc46d7c3ac90cf873c10ec262fc292cc7",
+        "bundle_artifact_id": "e93c33ac-4ec4-4d4c-ac4b-294a3caebd49"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/66dc79be-e5d3-48ae-afc6-6e2c64a32dae",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/e93c33ac-4ec4-4d4c-ac4b-294a3caebd49"
+      }
+    },
+    {
+      "id": "0676dcec-4be7-4dd1-8514-e5ddea5858b2",
+      "run_id": "c0a9cebe-9342-40e4-b4be-9904f41d7188",
+      "checkpoint_id": "6f1223a8-10f1-4148-885a-7b6db32d9f69",
+      "source_hash": "563e6dc3e222b4b91ccb3b80d3c888e7a184d949496ee905e4e28fccbc390867",
+      "protocol": {
+        "cues": [
+          "谁是松子？",
+          "谁是铃铛？",
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "3f090976-f609-470c-a944-83892bdc2858",
+        "source_hash": "563e6dc3e222b4b91ccb3b80d3c888e7a184d949496ee905e4e28fccbc390867",
+        "bundle_sha256": "5fe701d6f96e495dad38c5ce121c37a19c14e4b0a907fdc70cfd2a6d110a049e",
+        "result_sha256": "8a86e90a975ed865e6467c20a243f1e97b5f49feb8eeb82ef3cda0789b7a96b1",
+        "bundle_artifact_id": "5e1e4317-39c6-4253-bfd9-8e22ea1381e4"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/3f090976-f609-470c-a944-83892bdc2858",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/5e1e4317-39c6-4253-bfd9-8e22ea1381e4"
+      }
+    },
+    {
+      "id": "1432e051-4910-4e7d-9090-f0bb155b4780",
+      "run_id": "719c40d5-fe4a-4bb6-9506-99f014a81d8c",
+      "checkpoint_id": "b969c457-a946-4e55-ae1b-e3d7948d1ac1",
+      "source_hash": "0e0c2642ea7723ac517ed8e312c7500e36669c39dcdabe3bf6d78639d7bb433d",
+      "protocol": {
+        "cues": [
+          "甲",
+          "乙"
+        ],
+        "route": "continuation",
+        "terms": [
+          "松子",
+          "铃铛"
+        ],
+        "blank_us": 0,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": true
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "4f9f26bb-d249-4929-a77d-c4467554e6c5",
+        "source_hash": "0e0c2642ea7723ac517ed8e312c7500e36669c39dcdabe3bf6d78639d7bb433d",
+        "bundle_sha256": "8742500b9e7fe614e23f8dbb051e63c46c040f5c07a8f343663e1005f307d3fb",
+        "result_sha256": "2a890129318e4040c730a2b3e98fc8a91541b1a8386f7fe4c030a7ea74b67c97",
+        "bundle_artifact_id": "5ab43867-a720-4cec-bb4e-3df0772d36d7"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/4f9f26bb-d249-4929-a77d-c4467554e6c5",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/5ab43867-a720-4cec-bb4e-3df0772d36d7"
+      }
+    },
+    {
+      "id": "189b00a9-364a-4a43-8866-3ccc2e2406d8",
+      "run_id": "c0a9cebe-9342-40e4-b4be-9904f41d7188",
+      "checkpoint_id": "df21b292-8fa0-4f37-bfe3-5a9936fca6b1",
+      "source_hash": "fc789275049701205190cb8930e083d09f6d4b1a1a54a8ea2eb974ff22489cb2",
+      "protocol": {
+        "cues": [
+          "谁是松子？",
+          "谁是铃铛？",
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "dab84c85-7129-4553-bc67-8753a945451b",
+        "source_hash": "fc789275049701205190cb8930e083d09f6d4b1a1a54a8ea2eb974ff22489cb2",
+        "bundle_sha256": "2f599eecfa6f34ad91755eb58920589491fadbaf80d9310d357f7bc5b8a2fff4",
+        "result_sha256": "200f7682241ff454b8babde0bedf96c3bdcbc68deb9f1b36ad60dcf0503d8554",
+        "bundle_artifact_id": "70acf60f-7fe1-417f-99e1-b5688495a177"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/dab84c85-7129-4553-bc67-8753a945451b",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/70acf60f-7fe1-417f-99e1-b5688495a177"
+      }
+    },
+    {
+      "id": "24eb56e2-1839-4803-bedd-2f672fa2c107",
+      "run_id": "1fc58859-2ebc-49d4-b6b6-17617aa1b421",
+      "checkpoint_id": "84d688ca-3b9b-42da-814e-4868e959a735",
+      "source_hash": "9eb790a39d854a325dcf94e5437805a00cf0f9b4cd278bcba07849598adb4656",
+      "protocol": {
+        "cues": [
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "5bd2d706-0238-42e8-937a-85bf4d7ec288",
+        "source_hash": "9eb790a39d854a325dcf94e5437805a00cf0f9b4cd278bcba07849598adb4656",
+        "bundle_sha256": "3da839ec29fdf4bc8b97742c2352893d9ef006be3c9f067de95d9a1c360de9c6",
+        "result_sha256": "e850b756d37e9ba5f305be1a357a1046de5d0f25fe440724c5b4abecc1898c75",
+        "bundle_artifact_id": "8640ff77-f5c3-4914-91bd-84e142213d70"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/5bd2d706-0238-42e8-937a-85bf4d7ec288",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/8640ff77-f5c3-4914-91bd-84e142213d70"
+      }
+    },
+    {
+      "id": "25dd2fdc-e41d-4791-baae-cf99f1a056da",
+      "run_id": "515f8753-9d3b-4842-a80c-d369f47c4951",
+      "checkpoint_id": "d50f7278-ea00-4c4c-a06e-f86cbc3d5d94",
+      "source_hash": "88d57306d6188f102613f0cea817c781c4a6471670aa479913d8c021df69b0bf",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "route": "continuation",
+        "terms": [
+          "X",
+          "Y",
+          "U",
+          "V"
+        ],
+        "blank_us": 0,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": true
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "1ac2b08f-7052-4e49-bb77-183ff2b84b38",
+        "source_hash": "88d57306d6188f102613f0cea817c781c4a6471670aa479913d8c021df69b0bf",
+        "bundle_sha256": "3213064539fd62197c6b860dabf14230646ab19216223cf8e10fff6ca7973c7a",
+        "result_sha256": "7c9691b8d850d48de618071fddfc6b578ca91feff12f9d433411db838a666881",
+        "bundle_artifact_id": "1dc501f6-fc29-4151-ac05-646cdd192cb5"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/1ac2b08f-7052-4e49-bb77-183ff2b84b38",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/1dc501f6-fc29-4151-ac05-646cdd192cb5"
+      }
+    },
+    {
+      "id": "35119585-99e6-4b6a-a4ab-c46e7fa35dd4",
+      "run_id": "515f8753-9d3b-4842-a80c-d369f47c4951",
+      "checkpoint_id": "64262438-b8d5-4ad1-9e45-f42279ff4c80",
+      "source_hash": "026746571e9e5581eb8c9f261fb9226b3dc4d28971636084b7a4213c2cbff4d8",
+      "protocol": {
+        "cues": [
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "d5b167bb-cc53-4f8e-9f36-554fb46e33bd",
+        "source_hash": "026746571e9e5581eb8c9f261fb9226b3dc4d28971636084b7a4213c2cbff4d8",
+        "bundle_sha256": "de0590dc1394b081d7af58a6599caaee42e67fae77f19b828810c7d773ad1faa",
+        "result_sha256": "c82ea261bec46758edd5e0a5be3d106636305f9c447fc07bead1f44163d5064f",
+        "bundle_artifact_id": "9f9ddc2f-c199-4773-bbcf-d26a4233af8a"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/d5b167bb-cc53-4f8e-9f36-554fb46e33bd",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/9f9ddc2f-c199-4773-bbcf-d26a4233af8a"
+      }
+    },
+    {
+      "id": "354da282-d5b3-41cc-a05d-0b6feadc977d",
+      "run_id": "719c40d5-fe4a-4bb6-9506-99f014a81d8c",
+      "checkpoint_id": "75525638-e974-4089-ac1a-586b98804f10",
+      "source_hash": "c9db790e599913a2aec62c232190b73991fa0a7902a67ff8d89d67caa74fb845",
+      "protocol": {
+        "cues": [
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "7dded471-f516-4f0f-b2df-3a3959e2a109",
+        "source_hash": "c9db790e599913a2aec62c232190b73991fa0a7902a67ff8d89d67caa74fb845",
+        "bundle_sha256": "fc83762f7aa6dab02d2ef799493dd8416508dd2ea05eacf9a8193c8463c3178f",
+        "result_sha256": "082453af6e4c257f13639624e0272c7b0bb0afc273e772d740ca6ee229b3f9a0",
+        "bundle_artifact_id": "53558819-9fe0-4a45-8ff6-c7742e91e908"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/7dded471-f516-4f0f-b2df-3a3959e2a109",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/53558819-9fe0-4a45-8ff6-c7742e91e908"
+      }
+    },
+    {
+      "id": "3f573ca4-47b8-4524-b79b-3a780e205c37",
+      "run_id": "c0a9cebe-9342-40e4-b4be-9904f41d7188",
+      "checkpoint_id": "2af0abcf-fcd2-4feb-879a-26249075a261",
+      "source_hash": "dac60bbca8f944b721b21c5fd1b7d1427e649f3bbd8a5ebd599d43425487ca26",
+      "protocol": {
+        "cues": [
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "0668a6be-b38b-4076-bfad-9c285f37e1c5",
+        "source_hash": "dac60bbca8f944b721b21c5fd1b7d1427e649f3bbd8a5ebd599d43425487ca26",
+        "bundle_sha256": "277f2006cd49cb03e81be45b4aeecd399abb1b61b83597bec1fb5b13574be6ed",
+        "result_sha256": "9ca8c69f71e22173cb8c1b835b82a4a672fb686aaedc996e2d72ba3b71927845",
+        "bundle_artifact_id": "063af209-e5bb-4163-b961-ddd6daac7a34"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/0668a6be-b38b-4076-bfad-9c285f37e1c5",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/063af209-e5bb-4163-b961-ddd6daac7a34"
+      }
+    },
+    {
+      "id": "495797c0-17d4-4370-a66d-c9fa86430d46",
+      "run_id": "9a68759b-3499-4085-b6a2-abb12c9d0a3f",
+      "checkpoint_id": "3abd584d-3ad9-4f52-9325-b9a4906875ad",
+      "source_hash": "2e1565b71ce3e396cc7a845f88eeb9acac1cd8fb1cfa99c7bdf46724280c7531",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "c7704b56-5341-4ac3-b138-ace0c60aa01a",
+        "source_hash": "2e1565b71ce3e396cc7a845f88eeb9acac1cd8fb1cfa99c7bdf46724280c7531",
+        "bundle_sha256": "a7c9b5d0f778fe3d28a954c8266ad3b99317a72f5969553d914dc0b5470079b1",
+        "result_sha256": "cf89a558d6856894d4b830b4c952d07c221dd19250a5d7fa0eb010347548a5b1",
+        "bundle_artifact_id": "ad918f84-2401-4a72-8875-d506b3bdd56e"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/c7704b56-5341-4ac3-b138-ace0c60aa01a",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/ad918f84-2401-4a72-8875-d506b3bdd56e"
+      }
+    },
+    {
+      "id": "4c9cf67a-dd90-4014-907f-8c70785bc2b8",
+      "run_id": "186ebdf7-1fc3-446a-8650-d3bd65591f15",
+      "checkpoint_id": "0b0a6b65-924a-4a66-b508-accb05883b6b",
+      "source_hash": "95ad5142634f137537a8f3aa85c5283935f0860bb39b957dac523652c88b331e",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "a6768df1-ccdf-4dc0-9e0e-5dbc9df9c5a9",
+        "source_hash": "95ad5142634f137537a8f3aa85c5283935f0860bb39b957dac523652c88b331e",
+        "bundle_sha256": "aaed036d91f3047007a487153d3198c61d11a10741c757569f6519b17c5ad6cd",
+        "result_sha256": "4cbe2a0457a611fe006920434e551752bb7d065c13a7618ea57543025ef731b4",
+        "bundle_artifact_id": "05bf004e-eb3c-4cc5-8f60-9c1b89ce49ab"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/a6768df1-ccdf-4dc0-9e0e-5dbc9df9c5a9",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/05bf004e-eb3c-4cc5-8f60-9c1b89ce49ab"
+      }
+    },
+    {
+      "id": "5285d332-81bd-47e7-876d-2b8b1db0f2a4",
+      "run_id": "515f8753-9d3b-4842-a80c-d369f47c4951",
+      "checkpoint_id": "d50f7278-ea00-4c4c-a06e-f86cbc3d5d94",
+      "source_hash": "88d57306d6188f102613f0cea817c781c4a6471670aa479913d8c021df69b0bf",
+      "protocol": {
+        "cues": [
+          "甲",
+          "乙"
+        ],
+        "route": "continuation",
+        "terms": [
+          "松子",
+          "铃铛"
+        ],
+        "blank_us": 0,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": true
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "0aebabe2-80b3-489f-aea0-aca5c2373a93",
+        "source_hash": "88d57306d6188f102613f0cea817c781c4a6471670aa479913d8c021df69b0bf",
+        "bundle_sha256": "b6ba02d242dd891e9ea3e7b6c772ed407e57dfdadbdb6e6b1ef04f91901b8fe6",
+        "result_sha256": "2da1768dfc86d2fd645ced4d0842409a6d42c99a77644ac9589a691824cc4930",
+        "bundle_artifact_id": "02488dad-34b4-4117-8994-fe830c5cc2b4"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/0aebabe2-80b3-489f-aea0-aca5c2373a93",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/02488dad-34b4-4117-8994-fe830c5cc2b4"
+      }
+    },
+    {
+      "id": "591646f0-547e-4946-9159-82a64e288dd9",
+      "run_id": "c0a9cebe-9342-40e4-b4be-9904f41d7188",
+      "checkpoint_id": "6f1223a8-10f1-4148-885a-7b6db32d9f69",
+      "source_hash": "563e6dc3e222b4b91ccb3b80d3c888e7a184d949496ee905e4e28fccbc390867",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "route": "continuation",
+        "terms": [
+          "X",
+          "Y",
+          "U",
+          "V"
+        ],
+        "blank_us": 0,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": true
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "ba528cfe-d475-4c6c-8fb8-aefc3e61d465",
+        "source_hash": "563e6dc3e222b4b91ccb3b80d3c888e7a184d949496ee905e4e28fccbc390867",
+        "bundle_sha256": "1c20914d3c5f7b2affac5c3ffedc6ec64b8468dac5359e0b46464b42ece68613",
+        "result_sha256": "7250069b3ce94b101bc18d47c73a2e228693b30b9c8ec41b72e23418fab65783",
+        "bundle_artifact_id": "1a5a22b0-2ff9-4d29-9d7e-dc2eb70604f1"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/ba528cfe-d475-4c6c-8fb8-aefc3e61d465",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/1a5a22b0-2ff9-4d29-9d7e-dc2eb70604f1"
+      }
+    },
+    {
+      "id": "5bc2c9fd-1346-4893-b8f4-42868239489f",
+      "run_id": "fbcfa297-6fed-439e-a547-8a8c8dfb0207",
+      "checkpoint_id": "79a20fc7-4f55-4de8-9fb8-28621f31f35d",
+      "source_hash": "36f1cff21a3d89c1ef8c4f828f52435c8a0c9afc2e3a704dd183f85ec1f97458",
+      "protocol": {
+        "cues": [
+          "谁是松子？",
+          "谁是铃铛？",
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "61e8dfe0-2f42-4c31-a398-ddd29b31855d",
+        "source_hash": "36f1cff21a3d89c1ef8c4f828f52435c8a0c9afc2e3a704dd183f85ec1f97458",
+        "bundle_sha256": "ce330eebf9f6f4e3a284c761fee4a75984d206cdbc51bb3ff5e14fb778c17b8c",
+        "result_sha256": "32d76f6f3a308c1f6ad40284db5c9da748130fa29871ce074dabc356689472dc",
+        "bundle_artifact_id": "e13fd60b-87be-4071-af95-5d1d33f3ae7e"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/61e8dfe0-2f42-4c31-a398-ddd29b31855d",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/e13fd60b-87be-4071-af95-5d1d33f3ae7e"
+      }
+    },
+    {
+      "id": "5e27098c-193e-4571-9776-f3aca8172208",
+      "run_id": "1fc58859-2ebc-49d4-b6b6-17617aa1b421",
+      "checkpoint_id": "76c13d71-3217-49a0-a5f2-7be10047ef98",
+      "source_hash": "2ac102ad24093d3e251e81d6eaf03b338f9ffa47ea8f3bcbb79528f22034270e",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "route": "continuation",
+        "terms": [
+          "X",
+          "Y",
+          "U",
+          "V"
+        ],
+        "blank_us": 0,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": true
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "123edecc-c73f-4024-b1a5-efb91d3cfcd8",
+        "source_hash": "2ac102ad24093d3e251e81d6eaf03b338f9ffa47ea8f3bcbb79528f22034270e",
+        "bundle_sha256": "0975fec0c4bdf8e25f70e3b89622470d5ca499693d663ddde3f873acf3b644c4",
+        "result_sha256": "85a96c1987b0848fb03021f88ab1510670e5153664c95eaa554f5ccaa0e72c29",
+        "bundle_artifact_id": "9b91aa07-46bf-4e3f-b130-d28e83f9ee34"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/123edecc-c73f-4024-b1a5-efb91d3cfcd8",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/9b91aa07-46bf-4e3f-b130-d28e83f9ee34"
+      }
+    },
+    {
+      "id": "67a782aa-700f-4014-bea8-e2fb7097ab65",
+      "run_id": "f0404b43-f4a1-485d-b96a-e6da71af0be3",
+      "checkpoint_id": "45f94a6a-9853-4bb1-8f70-4448a58944ce",
+      "source_hash": "746be84e576d6257657ef85e765785e576a1937dfcba9c414d04a75e6168e4aa",
+      "protocol": {
+        "cues": [
+          "谁是松子？",
+          "谁是铃铛？",
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "8d2b3248-7560-440a-b0ed-c22a8e20fcd4",
+        "source_hash": "746be84e576d6257657ef85e765785e576a1937dfcba9c414d04a75e6168e4aa",
+        "bundle_sha256": "b94b3d742d44c85bb402f9782268fb30e44d679f4aa63760a6eaca4e8bd67384",
+        "result_sha256": "5c478cb57a9295bc2c65aacfd91835d41017ddd5d02680e1f6c1a3df16658b08",
+        "bundle_artifact_id": "99e0a7e9-0d8b-4b93-9b8e-7742dfabf290"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/8d2b3248-7560-440a-b0ed-c22a8e20fcd4",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/99e0a7e9-0d8b-4b93-9b8e-7742dfabf290"
+      }
+    },
+    {
+      "id": "6932fc65-ac83-4135-81d1-1cd748b3a603",
+      "run_id": "719c40d5-fe4a-4bb6-9506-99f014a81d8c",
+      "checkpoint_id": "e2e69a45-7916-48c9-bdb4-2c7f502d8dd4",
+      "source_hash": "ada8f32a87d800c457d9585d8a321217054603192d116339d8098b291afc9581",
+      "protocol": {
+        "cues": [
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "9128c0ff-60ac-41fb-98d0-3d123bc51ca2",
+        "source_hash": "ada8f32a87d800c457d9585d8a321217054603192d116339d8098b291afc9581",
+        "bundle_sha256": "6337b3e7eb778236a819937e0a457a48950e2d3e715c4614792f7bd13fb526da",
+        "result_sha256": "28ec32012a3f22aedfe25a62160f6818b35ab30822c7bd0af3eb803eb778fce6",
+        "bundle_artifact_id": "3eacc976-b8d0-452b-902c-e74a1f2e4db5"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/9128c0ff-60ac-41fb-98d0-3d123bc51ca2",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/3eacc976-b8d0-452b-902c-e74a1f2e4db5"
+      }
+    },
+    {
+      "id": "6edabc5a-ddf2-481d-871f-d30fed2a2ae2",
+      "run_id": "719c40d5-fe4a-4bb6-9506-99f014a81d8c",
+      "checkpoint_id": "b969c457-a946-4e55-ae1b-e3d7948d1ac1",
+      "source_hash": "0e0c2642ea7723ac517ed8e312c7500e36669c39dcdabe3bf6d78639d7bb433d",
+      "protocol": {
+        "cues": [
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "e90661ab-72fe-4b5d-8567-b11c1447adb1",
+        "source_hash": "0e0c2642ea7723ac517ed8e312c7500e36669c39dcdabe3bf6d78639d7bb433d",
+        "bundle_sha256": "0d6cae55c04a7cca9ec26b2479aae7289822f72a48dbc16502e2b08fa963af12",
+        "result_sha256": "419d429871b3269fc5b909fa935bf567b07533a593d9ff00d465441c6823a3b2",
+        "bundle_artifact_id": "f243d9e0-06d8-4f4e-a0df-2e26f4a95f83"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/e90661ab-72fe-4b5d-8567-b11c1447adb1",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/f243d9e0-06d8-4f4e-a0df-2e26f4a95f83"
+      }
+    },
+    {
+      "id": "711cc037-69bf-4b6c-82c8-7b00f45ad6ef",
+      "run_id": "515f8753-9d3b-4842-a80c-d369f47c4951",
+      "checkpoint_id": "006caaa0-1838-4dc8-a55d-230cf9551b31",
+      "source_hash": "85e9f1432acc5680e1a81c4793861e5385dd92b2d0f0d662b76182f7f16df370",
+      "protocol": {
+        "cues": [
+          "C的爷爷是谁？",
+          "C的父亲是谁？",
+          "C",
+          "F的爷爷是谁？",
+          "F的父亲是谁？",
+          "F"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "2ae37082-68cf-40ed-95e1-484f0e1d13c7",
+        "source_hash": "85e9f1432acc5680e1a81c4793861e5385dd92b2d0f0d662b76182f7f16df370",
+        "bundle_sha256": "fa8b1b455c085d36345fc793f924e7ee5b313815b54ae131d627543336a75dbe",
+        "result_sha256": "6163a7fd320d79fa839c7142a35d1c5956baa412fbdf13d85966fcdbaf57d76f",
+        "bundle_artifact_id": "569c098e-d451-43e6-947d-e1821c4d07f7"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/2ae37082-68cf-40ed-95e1-484f0e1d13c7",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/569c098e-d451-43e6-947d-e1821c4d07f7"
+      }
+    },
+    {
+      "id": "76fff9ed-9a0b-4bde-ba1d-9918ee0f252b",
+      "run_id": "719c40d5-fe4a-4bb6-9506-99f014a81d8c",
+      "checkpoint_id": "78f7da0e-c714-48dc-a253-a7e03d7e1c2e",
+      "source_hash": "a641d5555ab52b9b7e731af6fa7bf5c92b4bdd67154c21084013823f603a67fd",
+      "protocol": {
+        "cues": [
+          "谁是松子？",
+          "谁是铃铛？",
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "b07161ba-1cd0-4678-8e86-1de1ac506cdd",
+        "source_hash": "a641d5555ab52b9b7e731af6fa7bf5c92b4bdd67154c21084013823f603a67fd",
+        "bundle_sha256": "619282dac1c18afaef81cc7d419a4544729561499815a8ab7a1f1c44ba84870b",
+        "result_sha256": "92602153ac7e9941e4613fab0d2c1531e72d7c01e28eef63b6097ca7b4af375e",
+        "bundle_artifact_id": "1a43862c-b3c4-457a-9e54-362532031482"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/b07161ba-1cd0-4678-8e86-1de1ac506cdd",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/1a43862c-b3c4-457a-9e54-362532031482"
+      }
+    },
+    {
+      "id": "7ba41c8e-62f2-4ba1-a7a7-669a6ee5ee8f",
+      "run_id": "1fc58859-2ebc-49d4-b6b6-17617aa1b421",
+      "checkpoint_id": "5045a183-403f-4632-85bc-e51734d08f46",
+      "source_hash": "189eab6263e775f359a2a73c4bca7a0e2ab770a3fb5d854b992877b7e003a6ee",
+      "protocol": {
+        "cues": [
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "8aa81f76-5c3b-4d4c-9a96-ba44f08abee6",
+        "source_hash": "189eab6263e775f359a2a73c4bca7a0e2ab770a3fb5d854b992877b7e003a6ee",
+        "bundle_sha256": "43f2e2d2f5bd2196b4eb4b2fa9446ea3e3b88703a8913a4982de6eb8f064dc73",
+        "result_sha256": "56413258f5ede538786912f2013c901545c8a89bd5a5f9714e816aa271e68e8c",
+        "bundle_artifact_id": "25833b30-2110-44d9-a74f-81801dc6cff6"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/8aa81f76-5c3b-4d4c-9a96-ba44f08abee6",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/25833b30-2110-44d9-a74f-81801dc6cff6"
+      }
+    },
+    {
+      "id": "7d9694ab-eaeb-4e5e-8282-4043283013d7",
+      "run_id": "515f8753-9d3b-4842-a80c-d369f47c4951",
+      "checkpoint_id": "50f2a534-56ba-4168-9a15-0bfbedcb3336",
+      "source_hash": "68d59a32a5dca3800d481e48a32f18f920534baa712172c85f8280ea579ace77",
+      "protocol": {
+        "cues": [
+          "谁是松子？",
+          "谁是铃铛？",
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "228582f5-81d5-455d-91ed-da1cde44424d",
+        "source_hash": "68d59a32a5dca3800d481e48a32f18f920534baa712172c85f8280ea579ace77",
+        "bundle_sha256": "debe4c844292eeb12a204a4cc55bb2d6eb3d8d41336bdd4ef1996037cc52bc6a",
+        "result_sha256": "14f4b521830cacfe846d4800084057674eacf5a1658d27a60dfb5c524a854f6e",
+        "bundle_artifact_id": "31ba8319-af5a-41b5-a034-50d190746a2f"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/228582f5-81d5-455d-91ed-da1cde44424d",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/31ba8319-af5a-41b5-a034-50d190746a2f"
+      }
+    },
+    {
+      "id": "7db196e7-4342-4f02-a9ad-6668120897b3",
+      "run_id": "c0a9cebe-9342-40e4-b4be-9904f41d7188",
+      "checkpoint_id": "629e61e1-0c59-4eef-9084-936e4af17194",
+      "source_hash": "ca18129b536dc503bea9a9a523a2ad28319ce2a93b57fe66b62432645d014405",
+      "protocol": {
+        "cues": [
+          "C的爷爷是谁？",
+          "C的父亲是谁？",
+          "C",
+          "F的爷爷是谁？",
+          "F的父亲是谁？",
+          "F"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "e761fb97-5cf6-410b-9e09-d1aa2d01cb87",
+        "source_hash": "ca18129b536dc503bea9a9a523a2ad28319ce2a93b57fe66b62432645d014405",
+        "bundle_sha256": "8c1531ae2bdc8d40e08237ea417b20be3929a23889c8b65907d8321befc1229c",
+        "result_sha256": "6a2d07027772434cd9756158e8133067b7bba7d0c0af12e9b88bc130ac9c68ee",
+        "bundle_artifact_id": "ddee51f2-93d1-4a48-aa32-12680b36944d"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/e761fb97-5cf6-410b-9e09-d1aa2d01cb87",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/ddee51f2-93d1-4a48-aa32-12680b36944d"
+      }
+    },
+    {
+      "id": "84980593-527b-43a5-b264-8ae98644016a",
+      "run_id": "719c40d5-fe4a-4bb6-9506-99f014a81d8c",
+      "checkpoint_id": "e2e69a45-7916-48c9-bdb4-2c7f502d8dd4",
+      "source_hash": "ada8f32a87d800c457d9585d8a321217054603192d116339d8098b291afc9581",
+      "protocol": {
+        "cues": [
+          "谁是松子？",
+          "谁是铃铛？",
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "47259b92-f69c-4812-bca5-0ce33d1cb22e",
+        "source_hash": "ada8f32a87d800c457d9585d8a321217054603192d116339d8098b291afc9581",
+        "bundle_sha256": "f991b347e20912adeff38d0d86bf9f84ae91d322b71b660e0bf3528f83507e6a",
+        "result_sha256": "4021e30b7fcc9604e2d544c020b5ef2b2a4b15b2d9397048ddc213e49eae27ff",
+        "bundle_artifact_id": "9bbc683c-ce1e-48be-ab8a-27ef6a705e69"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/47259b92-f69c-4812-bca5-0ce33d1cb22e",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/9bbc683c-ce1e-48be-ab8a-27ef6a705e69"
+      }
+    },
+    {
+      "id": "892a4380-264e-4cbe-bfaf-13bce168cb5e",
+      "run_id": "1fc58859-2ebc-49d4-b6b6-17617aa1b421",
+      "checkpoint_id": "76c13d71-3217-49a0-a5f2-7be10047ef98",
+      "source_hash": "2ac102ad24093d3e251e81d6eaf03b338f9ffa47ea8f3bcbb79528f22034270e",
+      "protocol": {
+        "cues": [
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "531e8118-f707-4521-b2b0-273aa2741699",
+        "source_hash": "2ac102ad24093d3e251e81d6eaf03b338f9ffa47ea8f3bcbb79528f22034270e",
+        "bundle_sha256": "cccb8cc9307162011fe0d254290aa18e80f21d48b3f9bada57398a512b1e01f9",
+        "result_sha256": "20da2dd1400a4c32ed0343ee886ce5168d89234ad130f99955ae0bc94b6f0666",
+        "bundle_artifact_id": "c9d0ee0d-7d71-435d-b5e1-b21f0d27fcda"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/531e8118-f707-4521-b2b0-273aa2741699",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/c9d0ee0d-7d71-435d-b5e1-b21f0d27fcda"
+      }
+    },
+    {
+      "id": "897d1413-4494-43a7-929a-f63a0825a0f4",
+      "run_id": "f0404b43-f4a1-485d-b96a-e6da71af0be3",
+      "checkpoint_id": "1a547614-30c2-4b8b-a3c3-abe5e6b1c5ec",
+      "source_hash": "7d5f200bb76f82b1706d1c7c2605939458725d2ddab4e2914db38a4e3c292207",
+      "protocol": {
+        "cues": [
+          "谁是松子？",
+          "谁是铃铛？",
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "6ac925aa-db94-49c4-be9b-cb7153ca5c5b",
+        "source_hash": "7d5f200bb76f82b1706d1c7c2605939458725d2ddab4e2914db38a4e3c292207",
+        "bundle_sha256": "cb1dff592212c60507eb1712c926f59cd2b644b7c0d9c269fa30565314eee332",
+        "result_sha256": "95032d0dcf82a43596a1a27b163162be1d03b5fc045775b5388d42e67385f148",
+        "bundle_artifact_id": "94f39239-89c9-40ba-b897-09d649ecc2d5"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/6ac925aa-db94-49c4-be9b-cb7153ca5c5b",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/94f39239-89c9-40ba-b897-09d649ecc2d5"
+      }
+    },
+    {
+      "id": "8b4ae373-8b30-459f-a067-0553f5af6b2a",
+      "run_id": "719c40d5-fe4a-4bb6-9506-99f014a81d8c",
+      "checkpoint_id": "b969c457-a946-4e55-ae1b-e3d7948d1ac1",
+      "source_hash": "0e0c2642ea7723ac517ed8e312c7500e36669c39dcdabe3bf6d78639d7bb433d",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "a28a7f4c-84a1-44b1-81cb-62d2807b0353",
+        "source_hash": "0e0c2642ea7723ac517ed8e312c7500e36669c39dcdabe3bf6d78639d7bb433d",
+        "bundle_sha256": "4b94014a25b18e845695ed2a8ced371e52d7fcd82b02271f55d6f0be9c0804c1",
+        "result_sha256": "443f17fdbc9152db313810d382504bc5bcaccf8d79290b159378f324bb09bf5a",
+        "bundle_artifact_id": "5bf3fe6d-8f34-41d0-b465-67bce8176f85"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/a28a7f4c-84a1-44b1-81cb-62d2807b0353",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/5bf3fe6d-8f34-41d0-b465-67bce8176f85"
+      }
+    },
+    {
+      "id": "8d50f595-7ddd-46d9-be60-cb809f74ecf1",
+      "run_id": "f0404b43-f4a1-485d-b96a-e6da71af0be3",
+      "checkpoint_id": "1a547614-30c2-4b8b-a3c3-abe5e6b1c5ec",
+      "source_hash": "7d5f200bb76f82b1706d1c7c2605939458725d2ddab4e2914db38a4e3c292207",
+      "protocol": {
+        "cues": [
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "fa56d276-e1cc-4882-9f0d-3867d1af643f",
+        "source_hash": "7d5f200bb76f82b1706d1c7c2605939458725d2ddab4e2914db38a4e3c292207",
+        "bundle_sha256": "bb1388ef9e3d5b2db56dd283da561fcc51bde5fa9c908c7ea73e26ad037068a1",
+        "result_sha256": "167d54d8555cc4b7cfb81871485bc241942d2a06c10df487578135079579584f",
+        "bundle_artifact_id": "f685370e-f9bf-489f-b213-016bce4476dd"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/fa56d276-e1cc-4882-9f0d-3867d1af643f",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/f685370e-f9bf-489f-b213-016bce4476dd"
+      }
+    },
+    {
+      "id": "8f69fdb8-6c31-4d0b-9d70-b40a5dd04826",
+      "run_id": "c0a9cebe-9342-40e4-b4be-9904f41d7188",
+      "checkpoint_id": "43c1275a-dcb9-48c1-931f-4ee5ea36abd2",
+      "source_hash": "52485753cb19ae561a59f5036d5a5f5202e83cf8df1d7042b376aedea4c973bc",
+      "protocol": {
+        "cues": [
+          "谁是松子？",
+          "谁是铃铛？",
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "196af8ed-b8b1-44e2-bf82-606a2f7d694e",
+        "source_hash": "52485753cb19ae561a59f5036d5a5f5202e83cf8df1d7042b376aedea4c973bc",
+        "bundle_sha256": "9ff9f8b4504acabccd99337cf7d0499b61b265c9b820a206a09dd67fc751bef7",
+        "result_sha256": "e017bcfe41fc1c3b041dd623df84c0fafd2cdf61048713a3c9dea9d8ae57dfc0",
+        "bundle_artifact_id": "914bf763-70d2-44bf-8c5c-28a0bf4ae16b"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/196af8ed-b8b1-44e2-bf82-606a2f7d694e",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/914bf763-70d2-44bf-8c5c-28a0bf4ae16b"
+      }
+    },
+    {
+      "id": "926e095e-2c2c-4e3e-9847-4bc91fbd51f5",
+      "run_id": "1fc58859-2ebc-49d4-b6b6-17617aa1b421",
+      "checkpoint_id": "636bb7be-7269-4dcc-a5a9-567b64a5fad6",
+      "source_hash": "8f0e226c052d1a013406a545b50eeb51714f60326426ad01bbedb26dc89e27ad",
+      "protocol": {
+        "cues": [
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "4ff0b2bc-ef5b-46c1-82bd-104ad54e6e3c",
+        "source_hash": "8f0e226c052d1a013406a545b50eeb51714f60326426ad01bbedb26dc89e27ad",
+        "bundle_sha256": "f078bc566f2110f0d137f6e6494b0c90227a7f48f49c22aff1d2905fc4ec5e3d",
+        "result_sha256": "03a834af1fbc2c87626a24acf5ac18cab5ad2ed7bde49b521b13ed384cdb0204",
+        "bundle_artifact_id": "4c335fe9-6341-4d0c-97fe-e1925d52873c"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/4ff0b2bc-ef5b-46c1-82bd-104ad54e6e3c",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/4c335fe9-6341-4d0c-97fe-e1925d52873c"
+      }
+    },
+    {
+      "id": "94b8a75c-815a-4322-8352-74d58eaa38bf",
+      "run_id": "719c40d5-fe4a-4bb6-9506-99f014a81d8c",
+      "checkpoint_id": "b969c457-a946-4e55-ae1b-e3d7948d1ac1",
+      "source_hash": "0e0c2642ea7723ac517ed8e312c7500e36669c39dcdabe3bf6d78639d7bb433d",
+      "protocol": {
+        "cues": [
+          "谁是松子？",
+          "谁是铃铛？",
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "7ad24a28-9376-4925-8198-92cccf793aa9",
+        "source_hash": "0e0c2642ea7723ac517ed8e312c7500e36669c39dcdabe3bf6d78639d7bb433d",
+        "bundle_sha256": "1d0f1c15d10bf6fe7443c0d5052fbcd1d3befc5e9e875ff877c532d70dc45b30",
+        "result_sha256": "8cd4b8f249359361191ddd59a731299e02637ec81d02183040460e32ece24c52",
+        "bundle_artifact_id": "7d13bdd9-0f68-403d-a563-77c8e1dcf702"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/7ad24a28-9376-4925-8198-92cccf793aa9",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/7d13bdd9-0f68-403d-a563-77c8e1dcf702"
+      }
+    },
+    {
+      "id": "9ee5d7d7-7a31-438f-94e0-d47aa546688b",
+      "run_id": "c0a9cebe-9342-40e4-b4be-9904f41d7188",
+      "checkpoint_id": "6f1223a8-10f1-4148-885a-7b6db32d9f69",
+      "source_hash": "563e6dc3e222b4b91ccb3b80d3c888e7a184d949496ee905e4e28fccbc390867",
+      "protocol": {
+        "cues": [
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "d354277f-21a1-4afc-8e15-c654d7bec04d",
+        "source_hash": "563e6dc3e222b4b91ccb3b80d3c888e7a184d949496ee905e4e28fccbc390867",
+        "bundle_sha256": "115a7e2d59d2e6f29c5bfc6bb797290b53c0bb3b4cda596218df44feae0b39ee",
+        "result_sha256": "1c09026724701706764dfedba281194ea4a96b7c2c4cac5290be8bd47fc55459",
+        "bundle_artifact_id": "a4ac09e9-33ae-4724-9653-5fdc598640ec"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/d354277f-21a1-4afc-8e15-c654d7bec04d",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/a4ac09e9-33ae-4724-9653-5fdc598640ec"
+      }
+    },
+    {
+      "id": "a0c23983-472d-4c14-8554-ad5025abd93a",
+      "run_id": "719c40d5-fe4a-4bb6-9506-99f014a81d8c",
+      "checkpoint_id": "b67189b7-fd6e-4659-a0d7-d3eb77485047",
+      "source_hash": "a176f5d50079ed32e719359375a0e7c41c500d4a7d94ee57b0e7cfc0bd79ecf4",
+      "protocol": {
+        "cues": [
+          "C的爷爷是谁？",
+          "C的父亲是谁？",
+          "C",
+          "F的爷爷是谁？",
+          "F的父亲是谁？",
+          "F"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "668b1c61-ac61-4bca-9838-a7674ba0c47f",
+        "source_hash": "a176f5d50079ed32e719359375a0e7c41c500d4a7d94ee57b0e7cfc0bd79ecf4",
+        "bundle_sha256": "73935cb39968f17593e0d65ecad2490fa21155ca2c72d14be28bc32f8fc2a2ca",
+        "result_sha256": "7accf9e035c93d868d7590ecb37f3fdedef520ecd18b5a5d8958321bcce63c2a",
+        "bundle_artifact_id": "5479ba96-6cdd-4085-9ba3-e6fe5837a364"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/668b1c61-ac61-4bca-9838-a7674ba0c47f",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/5479ba96-6cdd-4085-9ba3-e6fe5837a364"
+      }
+    },
+    {
+      "id": "a2ad4749-132b-47d7-9ad4-aab8b5b1470f",
+      "run_id": "515f8753-9d3b-4842-a80c-d369f47c4951",
+      "checkpoint_id": "d50f7278-ea00-4c4c-a06e-f86cbc3d5d94",
+      "source_hash": "88d57306d6188f102613f0cea817c781c4a6471670aa479913d8c021df69b0bf",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "b1792362-4e92-4299-9959-0f2d9a66868f",
+        "source_hash": "88d57306d6188f102613f0cea817c781c4a6471670aa479913d8c021df69b0bf",
+        "bundle_sha256": "13f6b6b6b8299369dedb8960cfa63c9fd6d6eacf4bf164351754855e22a514e0",
+        "result_sha256": "ccfd2b719a8984cdfcdc96753dd4d479b2352a5b2ae609bbf3df34a680f6249d",
+        "bundle_artifact_id": "cfe2b1a0-0f9c-4d5d-a90c-4a8969cec840"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/b1792362-4e92-4299-9959-0f2d9a66868f",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/cfe2b1a0-0f9c-4d5d-a90c-4a8969cec840"
+      }
+    },
+    {
+      "id": "a37ab567-5712-48c6-aac8-ba82df80ed1c",
+      "run_id": "1fc58859-2ebc-49d4-b6b6-17617aa1b421",
+      "checkpoint_id": "636bb7be-7269-4dcc-a5a9-567b64a5fad6",
+      "source_hash": "8f0e226c052d1a013406a545b50eeb51714f60326426ad01bbedb26dc89e27ad",
+      "protocol": {
+        "cues": [
+          "谁是松子？",
+          "谁是铃铛？",
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "17680e4c-8ac3-4aef-b65a-1446aa7a5911",
+        "source_hash": "8f0e226c052d1a013406a545b50eeb51714f60326426ad01bbedb26dc89e27ad",
+        "bundle_sha256": "368ef5e9bccd06f06d125889caf4d8258d5523984dc73b6397bdf3a9b8bf6393",
+        "result_sha256": "6b0fac2834da8415a5b8d3e7ea6a6a20856cd03949f0bb7045061773711a34c8",
+        "bundle_artifact_id": "ed422a08-c707-40dd-84d9-1ac0c89e5eff"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/17680e4c-8ac3-4aef-b65a-1446aa7a5911",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/ed422a08-c707-40dd-84d9-1ac0c89e5eff"
+      }
+    },
+    {
+      "id": "a878baae-2dc3-48cc-abb6-2869cd7669a0",
+      "run_id": "c0a9cebe-9342-40e4-b4be-9904f41d7188",
+      "checkpoint_id": "43c1275a-dcb9-48c1-931f-4ee5ea36abd2",
+      "source_hash": "52485753cb19ae561a59f5036d5a5f5202e83cf8df1d7042b376aedea4c973bc",
+      "protocol": {
+        "cues": [
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "97378bf5-8733-4dee-bde7-73b231eb4ddb",
+        "source_hash": "52485753cb19ae561a59f5036d5a5f5202e83cf8df1d7042b376aedea4c973bc",
+        "bundle_sha256": "2e7488737ecb8b834db2b6d504f7748ef3848d38f049de9bedb46c6befd2242c",
+        "result_sha256": "20da3c534f931d0c6481eb9fa7b8d156300fb06ff635c795e88756b308fcd3d9",
+        "bundle_artifact_id": "4d0b1c6b-29d6-4d99-ab74-52a864846412"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/97378bf5-8733-4dee-bde7-73b231eb4ddb",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/4d0b1c6b-29d6-4d99-ab74-52a864846412"
+      }
+    },
+    {
+      "id": "a97804c3-9e8d-4a79-b238-3da1ef20644b",
+      "run_id": "515f8753-9d3b-4842-a80c-d369f47c4951",
+      "checkpoint_id": "50f2a534-56ba-4168-9a15-0bfbedcb3336",
+      "source_hash": "68d59a32a5dca3800d481e48a32f18f920534baa712172c85f8280ea579ace77",
+      "protocol": {
+        "cues": [
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "eebb97b2-f4ca-4d96-9c66-846fbf4833ab",
+        "source_hash": "68d59a32a5dca3800d481e48a32f18f920534baa712172c85f8280ea579ace77",
+        "bundle_sha256": "721a49b6a81a2aa8c7f83c2fedb89ec576ac332d41e9c306f57c2ddec2cdc0bb",
+        "result_sha256": "95505bf6cfb94889f121204e09ca94dc47f084c3763f4501f203d5dd08ce8080",
+        "bundle_artifact_id": "a24ab39d-d7e3-4228-a44f-2422cbcf4ffc"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/eebb97b2-f4ca-4d96-9c66-846fbf4833ab",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/a24ab39d-d7e3-4228-a44f-2422cbcf4ffc"
+      }
+    },
+    {
+      "id": "abe3ea7f-42f2-46bd-8ea9-187f0220924c",
+      "run_id": "fbcfa297-6fed-439e-a547-8a8c8dfb0207",
+      "checkpoint_id": "5ba3e844-a1fd-477e-9432-7dd9046611db",
+      "source_hash": "369177ae5ed62f32c10dd149f42af4403349ace3c0f394c6b896c96a77e01e55",
+      "protocol": {
+        "cues": [
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "6dd7a57e-389b-4e98-b063-37bd508c20fb",
+        "source_hash": "369177ae5ed62f32c10dd149f42af4403349ace3c0f394c6b896c96a77e01e55",
+        "bundle_sha256": "972450c685dfe147ff58f61cf1616b814bc1aac9640e5ced60cf4b63f2a34ba9",
+        "result_sha256": "211645158c4ba8a2d2dd41db3e0d40f749beca1ddf2088b13f0e1975470b48d1",
+        "bundle_artifact_id": "ba462d56-6e43-4286-866f-a90a34b19696"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/6dd7a57e-389b-4e98-b063-37bd508c20fb",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/ba462d56-6e43-4286-866f-a90a34b19696"
+      }
+    },
+    {
+      "id": "b43838f9-e71f-446b-b5c1-aab627845c06",
+      "run_id": "515f8753-9d3b-4842-a80c-d369f47c4951",
+      "checkpoint_id": "64262438-b8d5-4ad1-9e45-f42279ff4c80",
+      "source_hash": "026746571e9e5581eb8c9f261fb9226b3dc4d28971636084b7a4213c2cbff4d8",
+      "protocol": {
+        "cues": [
+          "谁是松子？",
+          "谁是铃铛？",
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "495ca3b1-e45b-4f4c-ad9c-d5fa267cf235",
+        "source_hash": "026746571e9e5581eb8c9f261fb9226b3dc4d28971636084b7a4213c2cbff4d8",
+        "bundle_sha256": "c0413d167d0d0ea314148f55408958f6bb5256ea757822173e7e5163a0f5ce01",
+        "result_sha256": "45f70168a09567060fb865182295a12ddec7b85341712d124ca989f8244ba874",
+        "bundle_artifact_id": "e23462e0-3fdd-4c30-b0d2-f10513391979"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/495ca3b1-e45b-4f4c-ad9c-d5fa267cf235",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/e23462e0-3fdd-4c30-b0d2-f10513391979"
+      }
+    },
+    {
+      "id": "b78087dd-4123-4b39-bb4f-05c6b29192f0",
+      "run_id": "719c40d5-fe4a-4bb6-9506-99f014a81d8c",
+      "checkpoint_id": "b969c457-a946-4e55-ae1b-e3d7948d1ac1",
+      "source_hash": "0e0c2642ea7723ac517ed8e312c7500e36669c39dcdabe3bf6d78639d7bb433d",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "route": "continuation",
+        "terms": [
+          "X",
+          "Y",
+          "U",
+          "V"
+        ],
+        "blank_us": 0,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": true
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "7e86f167-7f03-40d3-be8b-1f42ac5619cd",
+        "source_hash": "0e0c2642ea7723ac517ed8e312c7500e36669c39dcdabe3bf6d78639d7bb433d",
+        "bundle_sha256": "dc8b27a4c3cb724e3ec97779bb3717a032f9c6cea1fc6ad8b7606423c4526f22",
+        "result_sha256": "246fef97205789125ef51148641967365043bb133520153eea543d5589725eda",
+        "bundle_artifact_id": "ed696312-2703-4c48-850d-8adb929f7cda"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/7e86f167-7f03-40d3-be8b-1f42ac5619cd",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/ed696312-2703-4c48-850d-8adb929f7cda"
+      }
+    },
+    {
+      "id": "b7d873eb-aacb-4d5e-82aa-bcb891531c85",
+      "run_id": "1fc58859-2ebc-49d4-b6b6-17617aa1b421",
+      "checkpoint_id": "76c13d71-3217-49a0-a5f2-7be10047ef98",
+      "source_hash": "2ac102ad24093d3e251e81d6eaf03b338f9ffa47ea8f3bcbb79528f22034270e",
+      "protocol": {
+        "cues": [
+          "谁是松子？",
+          "谁是铃铛？",
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "47a34b29-0b22-469f-a6a0-5c4a649aadc9",
+        "source_hash": "2ac102ad24093d3e251e81d6eaf03b338f9ffa47ea8f3bcbb79528f22034270e",
+        "bundle_sha256": "9b4760c0c007035262113ee4967359a5260b29b3212031cb51bcc8b973b0d565",
+        "result_sha256": "f123c6c25ff85587c279ac5d99bf4e3920dccee2360c9eb9e06999ecdf91a102",
+        "bundle_artifact_id": "d9ddde22-b7bd-4196-b5db-2bb87b5d4435"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/47a34b29-0b22-469f-a6a0-5c4a649aadc9",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/d9ddde22-b7bd-4196-b5db-2bb87b5d4435"
+      }
+    },
+    {
+      "id": "beb111d1-e20b-4ec2-8b18-4e0f61a2faf4",
+      "run_id": "515f8753-9d3b-4842-a80c-d369f47c4951",
+      "checkpoint_id": "d50f7278-ea00-4c4c-a06e-f86cbc3d5d94",
+      "source_hash": "88d57306d6188f102613f0cea817c781c4a6471670aa479913d8c021df69b0bf",
+      "protocol": {
+        "cues": [
+          "谁是松子？",
+          "谁是铃铛？",
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "29eec496-b587-4ca8-81bc-a265cc6e42d1",
+        "source_hash": "88d57306d6188f102613f0cea817c781c4a6471670aa479913d8c021df69b0bf",
+        "bundle_sha256": "7209d7dd13261d68b0c09ee5b1845d6bea9067d65a687b186c752c6a2f2a797b",
+        "result_sha256": "2f0b3dab3669bd4c2d084c07f7d026c284687f32956d490a31bdb250d6a2ab4e",
+        "bundle_artifact_id": "4dbad7f9-f012-49fd-9ba7-c54231ab9521"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/29eec496-b587-4ca8-81bc-a265cc6e42d1",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/4dbad7f9-f012-49fd-9ba7-c54231ab9521"
+      }
+    },
+    {
+      "id": "cf1da4a8-6937-4767-8521-e25f954450e3",
+      "run_id": "1fc58859-2ebc-49d4-b6b6-17617aa1b421",
+      "checkpoint_id": "5045a183-403f-4632-85bc-e51734d08f46",
+      "source_hash": "189eab6263e775f359a2a73c4bca7a0e2ab770a3fb5d854b992877b7e003a6ee",
+      "protocol": {
+        "cues": [
+          "谁是松子？",
+          "谁是铃铛？",
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "e059b3f8-2969-44c5-949e-2d8f16fedde1",
+        "source_hash": "189eab6263e775f359a2a73c4bca7a0e2ab770a3fb5d854b992877b7e003a6ee",
+        "bundle_sha256": "93a819aea8b5a1faf23d76fa65f2cd3eea773fdad833a28f247167bcb386adaa",
+        "result_sha256": "db338a1ef06cdec2a99f65d40f0776acb961dcf1849029abe8c6ddded86edf44",
+        "bundle_artifact_id": "eae6a1fa-52b5-4e8d-b6ba-dd12ed8a3b10"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/e059b3f8-2969-44c5-949e-2d8f16fedde1",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/eae6a1fa-52b5-4e8d-b6ba-dd12ed8a3b10"
+      }
+    },
+    {
+      "id": "d04a767a-2cae-4e4d-8801-29ec96574533",
+      "run_id": "fbcfa297-6fed-439e-a547-8a8c8dfb0207",
+      "checkpoint_id": "4d97cf9a-ffdf-4090-a474-24070f53fd08",
+      "source_hash": "de928960591cf25d640ffd0536b466c7b5d232317580a27d556ae671fd751ae8",
+      "protocol": {
+        "cues": [
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "55f9b66c-b338-4f79-aebc-611d4767e4a1",
+        "source_hash": "de928960591cf25d640ffd0536b466c7b5d232317580a27d556ae671fd751ae8",
+        "bundle_sha256": "c3771e6377fd314c7cc63a80071cb32270a1ad2b8750018801465c6612ae2742",
+        "result_sha256": "ae2094d535c0920c0211e35374fa608f2d7a54c132cdcf65613062576543ee0c",
+        "bundle_artifact_id": "3514d086-8496-4fdc-831b-4cf2088d367b"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/55f9b66c-b338-4f79-aebc-611d4767e4a1",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/3514d086-8496-4fdc-831b-4cf2088d367b"
+      }
+    },
+    {
+      "id": "d12be01c-78dd-4347-a1dd-3a3f5965d6e3",
+      "run_id": "f0404b43-f4a1-485d-b96a-e6da71af0be3",
+      "checkpoint_id": "f29d38aa-eec5-466d-a85f-96f896dfae60",
+      "source_hash": "b9f459a21061e2cf7d05f4826ef6f6d549e8663d0363d79a39091bbfea998afd",
+      "protocol": {
+        "cues": [
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "cdcd1dec-0325-4817-924c-f84158a6ec1b",
+        "source_hash": "b9f459a21061e2cf7d05f4826ef6f6d549e8663d0363d79a39091bbfea998afd",
+        "bundle_sha256": "ddd54a92a508add9591b4f26cf19db3ba46323bbef33abae8f0e4e4a988d6d15",
+        "result_sha256": "398c8f18c099f32c6c52285026741dc77bbd8afa3a34ac7af0c1f482ae9395e7",
+        "bundle_artifact_id": "c6cb8c12-c0f6-4b66-b3ca-26c3ba4db53e"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/cdcd1dec-0325-4817-924c-f84158a6ec1b",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/c6cb8c12-c0f6-4b66-b3ca-26c3ba4db53e"
+      }
+    },
+    {
+      "id": "d61e6232-1c65-4375-a6db-8b8cdd09f8a8",
+      "run_id": "c0a9cebe-9342-40e4-b4be-9904f41d7188",
+      "checkpoint_id": "df21b292-8fa0-4f37-bfe3-5a9936fca6b1",
+      "source_hash": "fc789275049701205190cb8930e083d09f6d4b1a1a54a8ea2eb974ff22489cb2",
+      "protocol": {
+        "cues": [
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "2911769a-651b-4eb7-bf76-fc9f2369554b",
+        "source_hash": "fc789275049701205190cb8930e083d09f6d4b1a1a54a8ea2eb974ff22489cb2",
+        "bundle_sha256": "40b8081bc154eeea1d16eeff88d6c8509a454a3151de334867d78aaaa858b959",
+        "result_sha256": "e27b8782273d555959a4332041a96134d7cea30bddca6e5ab2791718e380e297",
+        "bundle_artifact_id": "ee271c99-c10c-4dca-85e2-759bf05dc06d"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/2911769a-651b-4eb7-bf76-fc9f2369554b",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/ee271c99-c10c-4dca-85e2-759bf05dc06d"
+      }
+    },
+    {
+      "id": "d6671957-92df-4092-97d8-26308180ea9a",
+      "run_id": "515f8753-9d3b-4842-a80c-d369f47c4951",
+      "checkpoint_id": "d50f7278-ea00-4c4c-a06e-f86cbc3d5d94",
+      "source_hash": "88d57306d6188f102613f0cea817c781c4a6471670aa479913d8c021df69b0bf",
+      "protocol": {
+        "cues": [
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "a4c89fc5-6816-4885-a668-5b6aa84dcda8",
+        "source_hash": "88d57306d6188f102613f0cea817c781c4a6471670aa479913d8c021df69b0bf",
+        "bundle_sha256": "6463d6b8e6455c19344c74064e2776f6723995913f445223e9636409b7797597",
+        "result_sha256": "e9901ea9f5b2a01cac284094afbf29edc2479386739ee337581dcd649be0e370",
+        "bundle_artifact_id": "6c2e56c1-0c19-4eaf-a239-1c3024ba4593"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/a4c89fc5-6816-4885-a668-5b6aa84dcda8",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/6c2e56c1-0c19-4eaf-a239-1c3024ba4593"
+      }
+    },
+    {
+      "id": "d745302b-9023-4461-ba89-7a93f3c9aaa8",
+      "run_id": "c0a9cebe-9342-40e4-b4be-9904f41d7188",
+      "checkpoint_id": "6f1223a8-10f1-4148-885a-7b6db32d9f69",
+      "source_hash": "563e6dc3e222b4b91ccb3b80d3c888e7a184d949496ee905e4e28fccbc390867",
+      "protocol": {
+        "cues": [
+          "甲",
+          "乙"
+        ],
+        "route": "continuation",
+        "terms": [
+          "松子",
+          "铃铛"
+        ],
+        "blank_us": 0,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": true
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "05eb4f72-1e24-46ad-b49a-aff319df38b9",
+        "source_hash": "563e6dc3e222b4b91ccb3b80d3c888e7a184d949496ee905e4e28fccbc390867",
+        "bundle_sha256": "80baf6696763a1256092211401d7a2a7184358bb22168ab970f1b70c88588b45",
+        "result_sha256": "459c953e7cc998987021d4b40e810e53a7fa1a21c0ca63fc6208aa32fecaeadb",
+        "bundle_artifact_id": "806be2f4-c04b-4e2b-b746-d126bdfea717"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/05eb4f72-1e24-46ad-b49a-aff319df38b9",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/806be2f4-c04b-4e2b-b746-d126bdfea717"
+      }
+    },
+    {
+      "id": "d873f008-25a9-4d67-9631-16d6e5157854",
+      "run_id": "fbcfa297-6fed-439e-a547-8a8c8dfb0207",
+      "checkpoint_id": "79a20fc7-4f55-4de8-9fb8-28621f31f35d",
+      "source_hash": "36f1cff21a3d89c1ef8c4f828f52435c8a0c9afc2e3a704dd183f85ec1f97458",
+      "protocol": {
+        "cues": [
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "daeec484-cefa-45fc-8050-24f63a891e5d",
+        "source_hash": "36f1cff21a3d89c1ef8c4f828f52435c8a0c9afc2e3a704dd183f85ec1f97458",
+        "bundle_sha256": "c6147611d4b18a367df677b06a4066d82fcabdd134a482512b2507fbc25307b5",
+        "result_sha256": "187f53e7a625e3c0a0f76b6338135d678e68cc51db952dc1d69a4151592c4e1f",
+        "bundle_artifact_id": "c486cf6a-5363-4bf1-b138-c1728035d602"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/daeec484-cefa-45fc-8050-24f63a891e5d",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/c486cf6a-5363-4bf1-b138-c1728035d602"
+      }
+    },
+    {
+      "id": "e105eb6c-93d5-4e4c-832d-cd38e0ddc090",
+      "run_id": "1fc58859-2ebc-49d4-b6b6-17617aa1b421",
+      "checkpoint_id": "bcf57a99-3537-44b2-9391-5073c919d171",
+      "source_hash": "f1d7d647f43ba75dfb52c4e8118c8dce82113710babc42c5462bca263aae692b",
+      "protocol": {
+        "cues": [
+          "C的爷爷是谁？",
+          "C的父亲是谁？",
+          "C",
+          "F的爷爷是谁？",
+          "F的父亲是谁？",
+          "F"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "a1f54aa2-54f6-454e-beb2-94d71ae6184c",
+        "source_hash": "f1d7d647f43ba75dfb52c4e8118c8dce82113710babc42c5462bca263aae692b",
+        "bundle_sha256": "5ec78b99edc52f5540a4253e46c6290707afbc8f72bc363048d7024291ee45c6",
+        "result_sha256": "d74acfc997ea00d459b7b3091ebf47f823ee7b6dc216696ab509b1edbd3a21b0",
+        "bundle_artifact_id": "af709088-81de-411b-8b49-0021e30d979c"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/a1f54aa2-54f6-454e-beb2-94d71ae6184c",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/af709088-81de-411b-8b49-0021e30d979c"
+      }
+    },
+    {
+      "id": "e2fad01d-1c53-4b8c-8ed1-f5cb22ee7059",
+      "run_id": "f4544398-cf09-43aa-a816-36570c414d30",
+      "checkpoint_id": "617fe4ab-9eb8-4f7d-85cd-303fb7a95dbc",
+      "source_hash": "15216066e7d7150b6cdc0b5c1ce7a17a71ae05d0db3782868882e56daa192990",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "e7394785-bdf3-4178-a055-a825242c8833",
+        "source_hash": "15216066e7d7150b6cdc0b5c1ce7a17a71ae05d0db3782868882e56daa192990",
+        "bundle_sha256": "f042641100e90590e739d3a61e600a6a3e87fcd26813267e30d497a3dc261347",
+        "result_sha256": "c2f423c5b2cc62074bbf62f17d7c6efcc6eb5c49dfca6e9cc47e7f53ce4cd96d",
+        "bundle_artifact_id": "be8de82c-ce53-477e-b0b8-ee533fe4901c"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/e7394785-bdf3-4178-a055-a825242c8833",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/be8de82c-ce53-477e-b0b8-ee533fe4901c"
+      }
+    },
+    {
+      "id": "e4cdb0b7-30ef-4622-a1a1-71685f74ee1a",
+      "run_id": "fbcfa297-6fed-439e-a547-8a8c8dfb0207",
+      "checkpoint_id": "5ba3e844-a1fd-477e-9432-7dd9046611db",
+      "source_hash": "369177ae5ed62f32c10dd149f42af4403349ace3c0f394c6b896c96a77e01e55",
+      "protocol": {
+        "cues": [
+          "谁是松子？",
+          "谁是铃铛？",
+          "松子是谁？",
+          "铃铛是谁？"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "1b02ef3d-a790-4f42-b1b2-dff4eadf2bf4",
+        "source_hash": "369177ae5ed62f32c10dd149f42af4403349ace3c0f394c6b896c96a77e01e55",
+        "bundle_sha256": "dc1ad5f79a8df4311fa6f9d88fcbf80276b50b2971f657f78915018cda3afd31",
+        "result_sha256": "31fea123cb4d8f51ff74f1f725fc1b7e72342ae135925765f2d909ed7ac916a2",
+        "bundle_artifact_id": "7134c8a5-ac59-444f-bfb0-a91f05ac72c9"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/1b02ef3d-a790-4f42-b1b2-dff4eadf2bf4",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/7134c8a5-ac59-444f-bfb0-a91f05ac72c9"
+      }
+    },
+    {
+      "id": "e9d232aa-332e-4318-9292-ed494c808786",
+      "run_id": "f0404b43-f4a1-485d-b96a-e6da71af0be3",
+      "checkpoint_id": "45f94a6a-9853-4bb1-8f70-4448a58944ce",
+      "source_hash": "746be84e576d6257657ef85e765785e576a1937dfcba9c414d04a75e6168e4aa",
+      "protocol": {
+        "cues": [
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "f471681e-664b-4d3b-9a84-d58f6e8328cf",
+        "source_hash": "746be84e576d6257657ef85e765785e576a1937dfcba9c414d04a75e6168e4aa",
+        "bundle_sha256": "381bd467cd38008d488a76949f9c147f1df149d15d98d338a6d95731f919f959",
+        "result_sha256": "dcfeef3e63dec692bd4cb5fd30f8ddabff9104ef521f8d16dbe6730c57a7659f",
+        "bundle_artifact_id": "13e69a54-0a53-4fc3-8155-f4b0b606b2ba"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/f471681e-664b-4d3b-9a84-d58f6e8328cf",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/13e69a54-0a53-4fc3-8155-f4b0b606b2ba"
+      }
+    },
+    {
+      "id": "eaa87c46-155f-4aa1-a444-d3506aed89be",
+      "run_id": "6b9e755f-408a-4a95-bd1e-1181863e9433",
+      "checkpoint_id": "ceb38e52-cf1d-4a45-a175-df4cdf076eda",
+      "source_hash": "fb430baba43053a0fdf66595b9cdc90864b8ccd6163bbcea94b39eba5f190537",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "ac90e910-8e15-4091-9b57-c5c2626b67aa",
+        "source_hash": "fb430baba43053a0fdf66595b9cdc90864b8ccd6163bbcea94b39eba5f190537",
+        "bundle_sha256": "568bedd6cda16fc1dcf8cd6b35ffdf45377fbdc579e656acfd337483b6832bde",
+        "result_sha256": "af2b08e2a4ad3d5effd73415dee8b497e848f6d55859c756f1e1228b2f230f2b",
+        "bundle_artifact_id": "d4eb70b2-eb3d-444b-b955-fcd10349cd01"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/ac90e910-8e15-4091-9b57-c5c2626b67aa",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/d4eb70b2-eb3d-444b-b955-fcd10349cd01"
+      }
+    },
+    {
+      "id": "faa5a3d8-8997-4e3e-8eda-3f99d9fa7e07",
+      "run_id": "1fc58859-2ebc-49d4-b6b6-17617aa1b421",
+      "checkpoint_id": "76c13d71-3217-49a0-a5f2-7be10047ef98",
+      "source_hash": "2ac102ad24093d3e251e81d6eaf03b338f9ffa47ea8f3bcbb79528f22034270e",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "345ef5bb-3f76-4ae7-be22-7df62df6806a",
+        "source_hash": "2ac102ad24093d3e251e81d6eaf03b338f9ffa47ea8f3bcbb79528f22034270e",
+        "bundle_sha256": "8306a95fc5260ffddc752daf7a6dcbd0afb38e3efc3a7d28087b3f620e518ce8",
+        "result_sha256": "6c8c6a7398bd1c6898c19ef9cd8ca72caec2dd8863bcdc9a3925b567f48a2be9",
+        "bundle_artifact_id": "b81e3a7a-141b-4802-9844-2def218c3d57"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/345ef5bb-3f76-4ae7-be22-7df62df6806a",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/b81e3a7a-141b-4802-9844-2def218c3d57"
+      }
+    },
+    {
+      "id": "fb10bff1-9577-4feb-bec5-239890d45124",
+      "run_id": "515f8753-9d3b-4842-a80c-d369f47c4951",
+      "checkpoint_id": "b52f2f1c-799a-4c40-93f9-7f42ce5534cf",
+      "source_hash": "b4fdca2eed0e6d6309b6ac6b7b07bef713682b1d67743b945ead9e97950282a8",
+      "protocol": {
+        "cues": [
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "5dda10ba-f80c-4e29-a82f-dd158a55a58b",
+        "source_hash": "b4fdca2eed0e6d6309b6ac6b7b07bef713682b1d67743b945ead9e97950282a8",
+        "bundle_sha256": "e1591402272277ff6c2433ced62f1043427cfba09edf36004e0f207f89736065",
+        "result_sha256": "8d270c0c0734d1ccd0f970e6f2116fd107381938c7292f2d402a1334574eb640",
+        "bundle_artifact_id": "2574e679-a730-474e-8f9f-698c597558d3"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/5dda10ba-f80c-4e29-a82f-dd158a55a58b",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/2574e679-a730-474e-8f9f-698c597558d3"
+      }
+    },
+    {
+      "id": "fd601a4a-cfd1-497a-a6fa-0d505d0026a4",
+      "run_id": "1fc58859-2ebc-49d4-b6b6-17617aa1b421",
+      "checkpoint_id": "76c13d71-3217-49a0-a5f2-7be10047ef98",
+      "source_hash": "2ac102ad24093d3e251e81d6eaf03b338f9ffa47ea8f3bcbb79528f22034270e",
+      "protocol": {
+        "cues": [
+          "甲",
+          "乙"
+        ],
+        "route": "continuation",
+        "terms": [
+          "松子",
+          "铃铛"
+        ],
+        "blank_us": 0,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": true
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "6b16bac9-3ec5-4219-95cf-20ac893f05d0",
+        "source_hash": "2ac102ad24093d3e251e81d6eaf03b338f9ffa47ea8f3bcbb79528f22034270e",
+        "bundle_sha256": "6d0112116ae1a7a94efccacd52e5fe40be4d94fafe70afe6aef4d45836652295",
+        "result_sha256": "f453d9f58196601463750f5fdc84f85485ae58601fa2b85abeadbe6f08a7be0d",
+        "bundle_artifact_id": "01ec59cd-ec2f-42b0-b95d-cc0a53629a75"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/6b16bac9-3ec5-4219-95cf-20ac893f05d0",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/01ec59cd-ec2f-42b0-b95d-cc0a53629a75"
+      }
+    },
+    {
+      "id": "fdd4032a-3227-43ec-aa53-f8ef485e367c",
+      "run_id": "c0a9cebe-9342-40e4-b4be-9904f41d7188",
+      "checkpoint_id": "6f1223a8-10f1-4148-885a-7b6db32d9f69",
+      "source_hash": "563e6dc3e222b4b91ccb3b80d3c888e7a184d949496ee905e4e28fccbc390867",
+      "protocol": {
+        "cues": [
+          "Z的爷爷是谁？",
+          "Z的父亲是谁？",
+          "Z",
+          "W的爷爷是谁？",
+          "W的父亲是谁？",
+          "W"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 180,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "fcc80386-0442-473a-80fc-a82eaa7bcaeb",
+        "source_hash": "563e6dc3e222b4b91ccb3b80d3c888e7a184d949496ee905e4e28fccbc390867",
+        "bundle_sha256": "e7425cb791a5ccb6a05e24a60ee7904430a537b0c71946903a6892cfb6cc1792",
+        "result_sha256": "aedb8be2ed914dfb5976246c8db7738d96562c8ca073ab5c8426308eeb02b0c3",
+        "bundle_artifact_id": "9741a7de-8dab-4319-b004-d7c976ca1d98"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/fcc80386-0442-473a-80fc-a82eaa7bcaeb",
+        "bundle_artifact_id": "/api/v2/projects/194a2f1f-4912-435b-b94e-d8ac64fe4788/artifacts/9741a7de-8dab-4319-b004-d7c976ca1d98"
+      }
+    }
+  ]
+}

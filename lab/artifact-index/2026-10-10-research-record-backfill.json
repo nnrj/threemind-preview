@@ -1,0 +1,2204 @@
+{
+  "schema": "threemind.research-backfill-delivery/1",
+  "recorded_on": "2026-10-10",
+  "inventory_hash": "9ba6effd505461fba7e89150c008461c7020ecc2fa8ac51865bba1027f2f1f74",
+  "items": [
+    {
+      "source_key": "historical-project:3df399e5-649b-4040-b151-67a6bf278ec6",
+      "source_path": null,
+      "original_id": "E50",
+      "title": "E50 图与活动表达、共同所指",
+      "classification": "formal",
+      "experiment_date": null,
+      "date_basis": "original date unresolved",
+      "platform_experiment_id": "068fb4eb-f52c-5ed2-934a-64da5c988eb8",
+      "platform_project_id": "3df399e5-649b-4040-b151-67a6bf278ec6",
+      "original_project_id": "3df399e5-649b-4040-b151-67a6bf278ec6",
+      "execution_status": "unknown",
+      "coverage": "partial",
+      "references": 4,
+      "native_subjects": 0,
+      "gaps": [
+        {
+          "kind": "declared-gap",
+          "message": "Kernel identity is not established in the index; original configurations are preserved and no current default is substituted."
+        },
+        {
+          "kind": "missing-role",
+          "role": "report"
+        }
+      ],
+      "gap_codes": [
+        "G01",
+        "G08"
+      ]
+    },
+    {
+      "source_key": "historical-project:532e9e84-9454-46ef-bcb5-b5d80ca8916f",
+      "source_path": null,
+      "original_id": null,
+      "title": "机制验证 · 刺激撤除（探索性）",
+      "classification": "formal",
+      "experiment_date": null,
+      "date_basis": "original date unresolved",
+      "platform_experiment_id": "08d2c019-34e1-56b7-9567-e76eb876ffab",
+      "platform_project_id": "532e9e84-9454-46ef-bcb5-b5d80ca8916f",
+      "original_project_id": "532e9e84-9454-46ef-bcb5-b5d80ca8916f",
+      "execution_status": "unknown",
+      "coverage": "partial",
+      "references": 36,
+      "native_subjects": 32,
+      "gaps": [
+        {
+          "kind": "declared-gap",
+          "message": "No independently preserved preregistered protocol identified; later notebooks/reports are not substituted for it."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "No original scientific notebook identified."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "Kernel identity is not established in the index; original configurations are preserved and no current default is substituted."
+        },
+        {
+          "kind": "missing-role",
+          "role": "protocol"
+        },
+        {
+          "kind": "missing-role",
+          "role": "report"
+        }
+      ],
+      "gap_codes": [
+        "G02",
+        "G05",
+        "G01",
+        "G07",
+        "G08"
+      ]
+    },
+    {
+      "source_key": "early-notebook:001",
+      "source_path": "lab/zh/001_2026-07-25_2015_最小躯体三角结构.md",
+      "original_id": "N01",
+      "title": "001 — 最小躯体适配器与可重复三节点结构",
+      "classification": "formal",
+      "experiment_date": "2026-07-25",
+      "date_basis": "original notebook date",
+      "platform_experiment_id": "61225e01-5b69-5fe2-aea3-a65ff66b5efb",
+      "platform_project_id": "48d24fac-c0f4-5220-a4d7-0a9792054ea2",
+      "original_project_id": null,
+      "execution_status": "unknown",
+      "coverage": "partial",
+      "references": 2,
+      "native_subjects": 0,
+      "gaps": [
+        {
+          "kind": "declared-gap",
+          "message": "No original platform project identity identified; this is a later platform registration. Original case/checkpoint identities remain in their carriers."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "No independently preserved preregistered protocol identified; later notebooks/reports are not substituted for it."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "No original process/checkpoint carrier identified; descriptions cannot reconstruct missing model states."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "Kernel identity is not established in the index; original configurations are preserved and no current default is substituted."
+        },
+        {
+          "kind": "missing-role",
+          "role": "protocol"
+        },
+        {
+          "kind": "missing-role",
+          "role": "report"
+        }
+      ],
+      "gap_codes": [
+        "G03",
+        "G02",
+        "G04",
+        "G01",
+        "G07",
+        "G08"
+      ]
+    },
+    {
+      "source_key": "early-notebook:002",
+      "source_path": "lab/zh/002_2026-07-27_0000_感官约束与全局饱和.md",
+      "original_id": "N02",
+      "title": "002 — 感官约束、固定背景与全局饱和",
+      "classification": "formal",
+      "experiment_date": "2026-07-27",
+      "date_basis": "original notebook date",
+      "platform_experiment_id": "0d7271b2-777c-5850-bb00-831691266ecc",
+      "platform_project_id": "5cd9ef57-9dfc-56b0-af16-1568bda8cb99",
+      "original_project_id": null,
+      "execution_status": "unknown",
+      "coverage": "partial",
+      "references": 2,
+      "native_subjects": 0,
+      "gaps": [
+        {
+          "kind": "declared-gap",
+          "message": "No original platform project identity identified; this is a later platform registration. Original case/checkpoint identities remain in their carriers."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "No independently preserved preregistered protocol identified; later notebooks/reports are not substituted for it."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "No original process/checkpoint carrier identified; descriptions cannot reconstruct missing model states."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "Kernel identity is not established in the index; original configurations are preserved and no current default is substituted."
+        },
+        {
+          "kind": "missing-role",
+          "role": "protocol"
+        },
+        {
+          "kind": "missing-role",
+          "role": "report"
+        }
+      ],
+      "gap_codes": [
+        "G03",
+        "G02",
+        "G04",
+        "G01",
+        "G07",
+        "G08"
+      ]
+    },
+    {
+      "source_key": "early-notebook:003",
+      "source_path": "lab/zh/003_2026-07-28_0000_V3重复激活签名与可读输出.md",
+      "original_id": "N03",
+      "title": "003 — V3 重复激活签名与可读被动输出",
+      "classification": "formal",
+      "experiment_date": "2026-07-28",
+      "date_basis": "original notebook date",
+      "platform_experiment_id": "ef8e9f4a-d7ca-5f86-8424-13ace8859ee1",
+      "platform_project_id": "80bb317d-30b4-5128-9df8-8a0f677d0db3",
+      "original_project_id": null,
+      "execution_status": "unknown",
+      "coverage": "partial",
+      "references": 2,
+      "native_subjects": 0,
+      "gaps": [
+        {
+          "kind": "declared-gap",
+          "message": "No original platform project identity identified; this is a later platform registration. Original case/checkpoint identities remain in their carriers."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "No independently preserved preregistered protocol identified; later notebooks/reports are not substituted for it."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "No original process/checkpoint carrier identified; descriptions cannot reconstruct missing model states."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "Kernel identity is not established in the index; original configurations are preserved and no current default is substituted."
+        },
+        {
+          "kind": "missing-role",
+          "role": "protocol"
+        },
+        {
+          "kind": "missing-role",
+          "role": "report"
+        }
+      ],
+      "gap_codes": [
+        "G03",
+        "G02",
+        "G04",
+        "G01",
+        "G07",
+        "G08"
+      ]
+    },
+    {
+      "source_key": "early-notebook:004",
+      "source_path": "lab/zh/004_2026-07-28_0000_长文本刺激的时间分帧.md",
+      "original_id": "N04",
+      "title": "004 — 长文本刺激的时间分帧",
+      "classification": "formal",
+      "experiment_date": "2026-07-28",
+      "date_basis": "original notebook date",
+      "platform_experiment_id": "e280dfb6-060b-5263-8e3b-089406208bc0",
+      "platform_project_id": "8a050510-1a72-5819-b3fc-573245cc52dd",
+      "original_project_id": null,
+      "execution_status": "unknown",
+      "coverage": "partial",
+      "references": 2,
+      "native_subjects": 0,
+      "gaps": [
+        {
+          "kind": "declared-gap",
+          "message": "No original platform project identity identified; this is a later platform registration. Original case/checkpoint identities remain in their carriers."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "No independently preserved preregistered protocol identified; later notebooks/reports are not substituted for it."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "No original process/checkpoint carrier identified; descriptions cannot reconstruct missing model states."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "Kernel identity is not established in the index; original configurations are preserved and no current default is substituted."
+        },
+        {
+          "kind": "missing-role",
+          "role": "protocol"
+        },
+        {
+          "kind": "missing-role",
+          "role": "report"
+        }
+      ],
+      "gap_codes": [
+        "G03",
+        "G02",
+        "G04",
+        "G01",
+        "G07",
+        "G08"
+      ]
+    },
+    {
+      "source_key": "early-notebook:005",
+      "source_path": "lab/zh/005_2026-08-01_0000_V3探针刺激收敛映射.md",
+      "original_id": "N05",
+      "title": "005 — V3 探针刺激下的可塑、可重复收敛映射",
+      "classification": "formal",
+      "experiment_date": "2026-08-01",
+      "date_basis": "original notebook date",
+      "platform_experiment_id": "d08cdb8a-1bdf-5757-88c1-7b54f8e11029",
+      "platform_project_id": "309cf430-a8ab-57fd-8594-dea62e3c9e51",
+      "original_project_id": null,
+      "execution_status": "unknown",
+      "coverage": "partial",
+      "references": 2,
+      "native_subjects": 0,
+      "gaps": [
+        {
+          "kind": "declared-gap",
+          "message": "No original platform project identity identified; this is a later platform registration. Original case/checkpoint identities remain in their carriers."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "No independently preserved preregistered protocol identified; later notebooks/reports are not substituted for it."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "No original process/checkpoint carrier identified; descriptions cannot reconstruct missing model states."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "Kernel identity is not established in the index; original configurations are preserved and no current default is substituted."
+        },
+        {
+          "kind": "missing-role",
+          "role": "protocol"
+        },
+        {
+          "kind": "missing-role",
+          "role": "report"
+        }
+      ],
+      "gap_codes": [
+        "G03",
+        "G02",
+        "G04",
+        "G01",
+        "G07",
+        "G08"
+      ]
+    },
+    {
+      "source_key": "early-notebook:006",
+      "source_path": "lab/zh/006_2026-08-01_0055_关系探针复现与过度联想.md",
+      "original_id": "N06",
+      "title": "006 — 关系探针复现与过度联想",
+      "classification": "formal",
+      "experiment_date": "2026-08-01",
+      "date_basis": "original notebook date",
+      "platform_experiment_id": "42d090e7-aeb8-5db8-b00b-e0ed28518ca7",
+      "platform_project_id": "3968fa94-7331-5b0f-8ab6-a2bb5f3087dd",
+      "original_project_id": null,
+      "execution_status": "unknown",
+      "coverage": "partial",
+      "references": 2,
+      "native_subjects": 0,
+      "gaps": [
+        {
+          "kind": "declared-gap",
+          "message": "No original platform project identity identified; this is a later platform registration. Original case/checkpoint identities remain in their carriers."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "No independently preserved preregistered protocol identified; later notebooks/reports are not substituted for it."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "No original process/checkpoint carrier identified; descriptions cannot reconstruct missing model states."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "Kernel identity is not established in the index; original configurations are preserved and no current default is substituted."
+        },
+        {
+          "kind": "missing-role",
+          "role": "protocol"
+        },
+        {
+          "kind": "missing-role",
+          "role": "report"
+        }
+      ],
+      "gap_codes": [
+        "G03",
+        "G02",
+        "G04",
+        "G01",
+        "G07",
+        "G08"
+      ]
+    },
+    {
+      "source_key": "early-notebook:007",
+      "source_path": "lab/zh/007_2026-08-02_1246_从截面读出到时间区间证据.md",
+      "original_id": "N07",
+      "title": "007 — 从截面读出到时间区间证据",
+      "classification": "formal",
+      "experiment_date": "2026-08-02",
+      "date_basis": "original notebook date",
+      "platform_experiment_id": "ca7dd5a3-b556-5ef2-9328-22a8975d4313",
+      "platform_project_id": "64dd695b-b66b-559f-9cae-e4e0ae6a7642",
+      "original_project_id": null,
+      "execution_status": "unknown",
+      "coverage": "partial",
+      "references": 2,
+      "native_subjects": 0,
+      "gaps": [
+        {
+          "kind": "declared-gap",
+          "message": "No original platform project identity identified; this is a later platform registration. Original case/checkpoint identities remain in their carriers."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "No independently preserved preregistered protocol identified; later notebooks/reports are not substituted for it."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "No original process/checkpoint carrier identified; descriptions cannot reconstruct missing model states."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "Kernel identity is not established in the index; original configurations are preserved and no current default is substituted."
+        },
+        {
+          "kind": "missing-role",
+          "role": "protocol"
+        },
+        {
+          "kind": "missing-role",
+          "role": "report"
+        }
+      ],
+      "gap_codes": [
+        "G03",
+        "G02",
+        "G04",
+        "G01",
+        "G07",
+        "G08"
+      ]
+    },
+    {
+      "source_key": "early-notebook:008",
+      "source_path": "lab/zh/008_2026-08-03_2152_V3时序读出候选语序收敛.md",
+      "original_id": "N08",
+      "title": "008 — V3 时序读出中的候选语序收敛",
+      "classification": "formal",
+      "experiment_date": "2026-08-03",
+      "date_basis": "original notebook date",
+      "platform_experiment_id": "07f9575a-7ae6-52a1-813d-a5fb53c593c4",
+      "platform_project_id": "dbba0513-3ed3-56d8-89ce-ef939bb83554",
+      "original_project_id": null,
+      "execution_status": "unknown",
+      "coverage": "partial",
+      "references": 2,
+      "native_subjects": 0,
+      "gaps": [
+        {
+          "kind": "declared-gap",
+          "message": "No original platform project identity identified; this is a later platform registration. Original case/checkpoint identities remain in their carriers."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "No independently preserved preregistered protocol identified; later notebooks/reports are not substituted for it."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "No original process/checkpoint carrier identified; descriptions cannot reconstruct missing model states."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "Kernel identity is not established in the index; original configurations are preserved and no current default is substituted."
+        },
+        {
+          "kind": "missing-role",
+          "role": "protocol"
+        },
+        {
+          "kind": "missing-role",
+          "role": "report"
+        }
+      ],
+      "gap_codes": [
+        "G03",
+        "G02",
+        "G04",
+        "G01",
+        "G07",
+        "G08"
+      ]
+    },
+    {
+      "source_key": "early-notebook:009",
+      "source_path": "lab/zh/009_2026-08-03_2202_快慢时间尺度与证据链.md",
+      "original_id": "N09",
+      "title": "009 — 快慢时间尺度与证据链",
+      "classification": "formal",
+      "experiment_date": "2026-08-03",
+      "date_basis": "original notebook date",
+      "platform_experiment_id": "3b308b8a-96d8-5208-b653-b890fbe79c68",
+      "platform_project_id": "9ff4fcee-f5e4-5ccb-a8cd-09126d1f7634",
+      "original_project_id": null,
+      "execution_status": "unknown",
+      "coverage": "partial",
+      "references": 2,
+      "native_subjects": 0,
+      "gaps": [
+        {
+          "kind": "declared-gap",
+          "message": "No original platform project identity identified; this is a later platform registration. Original case/checkpoint identities remain in their carriers."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "No independently preserved preregistered protocol identified; later notebooks/reports are not substituted for it."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "No original process/checkpoint carrier identified; descriptions cannot reconstruct missing model states."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "Kernel identity is not established in the index; original configurations are preserved and no current default is substituted."
+        },
+        {
+          "kind": "missing-role",
+          "role": "protocol"
+        },
+        {
+          "kind": "missing-role",
+          "role": "report"
+        }
+      ],
+      "gap_codes": [
+        "G03",
+        "G02",
+        "G04",
+        "G01",
+        "G07",
+        "G08"
+      ]
+    },
+    {
+      "source_key": "early-notebook:010",
+      "source_path": "lab/zh/010_2026-08-03_2239_连续长文本流下的迁移激活.md",
+      "original_id": "N10",
+      "title": "010 — 连续长文本流下的迁移激活",
+      "classification": "formal",
+      "experiment_date": "2026-08-03",
+      "date_basis": "original notebook date",
+      "platform_experiment_id": "ae2f96b5-8226-5bb6-b202-fce7cab123fb",
+      "platform_project_id": "abfae156-cb55-5e70-90f1-64dbb457e282",
+      "original_project_id": null,
+      "execution_status": "unknown",
+      "coverage": "partial",
+      "references": 2,
+      "native_subjects": 0,
+      "gaps": [
+        {
+          "kind": "declared-gap",
+          "message": "No original platform project identity identified; this is a later platform registration. Original case/checkpoint identities remain in their carriers."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "No independently preserved preregistered protocol identified; later notebooks/reports are not substituted for it."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "No original process/checkpoint carrier identified; descriptions cannot reconstruct missing model states."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "Kernel identity is not established in the index; original configurations are preserved and no current default is substituted."
+        },
+        {
+          "kind": "missing-role",
+          "role": "protocol"
+        },
+        {
+          "kind": "missing-role",
+          "role": "report"
+        }
+      ],
+      "gap_codes": [
+        "G03",
+        "G02",
+        "G04",
+        "G01",
+        "G07",
+        "G08"
+      ]
+    },
+    {
+      "source_key": "early-notebook:011",
+      "source_path": "lab/zh/011_2026-08-03_2327_关系端点再激活与响应簇.md",
+      "original_id": "N11",
+      "title": "011 — 关系端点再激活与响应簇",
+      "classification": "formal",
+      "experiment_date": "2026-08-03",
+      "date_basis": "original notebook date",
+      "platform_experiment_id": "27932a15-f29c-5476-b3bf-031078f057d3",
+      "platform_project_id": "8b2f417c-82ed-5e05-b109-a0f8c7377aea",
+      "original_project_id": null,
+      "execution_status": "unknown",
+      "coverage": "partial",
+      "references": 2,
+      "native_subjects": 0,
+      "gaps": [
+        {
+          "kind": "declared-gap",
+          "message": "No original platform project identity identified; this is a later platform registration. Original case/checkpoint identities remain in their carriers."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "No independently preserved preregistered protocol identified; later notebooks/reports are not substituted for it."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "No original process/checkpoint carrier identified; descriptions cannot reconstruct missing model states."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "Kernel identity is not established in the index; original configurations are preserved and no current default is substituted."
+        },
+        {
+          "kind": "missing-role",
+          "role": "protocol"
+        },
+        {
+          "kind": "missing-role",
+          "role": "report"
+        }
+      ],
+      "gap_codes": [
+        "G03",
+        "G02",
+        "G04",
+        "G01",
+        "G07",
+        "G08"
+      ]
+    },
+    {
+      "source_key": "early-notebook:012",
+      "source_path": "lab/zh/012_2026-08-04_0014_多关系局部结构共存.md",
+      "original_id": "N12",
+      "title": "012 — 多关系局部结构共存",
+      "classification": "formal",
+      "experiment_date": "2026-08-04",
+      "date_basis": "original notebook date",
+      "platform_experiment_id": "d58b3c7f-452a-5558-a9a9-b5d164f793cb",
+      "platform_project_id": "62c6cbd6-d5bc-5458-a48f-da9904fde924",
+      "original_project_id": null,
+      "execution_status": "unknown",
+      "coverage": "partial",
+      "references": 2,
+      "native_subjects": 0,
+      "gaps": [
+        {
+          "kind": "declared-gap",
+          "message": "No original platform project identity identified; this is a later platform registration. Original case/checkpoint identities remain in their carriers."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "No independently preserved preregistered protocol identified; later notebooks/reports are not substituted for it."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "No original process/checkpoint carrier identified; descriptions cannot reconstruct missing model states."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "Kernel identity is not established in the index; original configurations are preserved and no current default is substituted."
+        },
+        {
+          "kind": "missing-role",
+          "role": "protocol"
+        },
+        {
+          "kind": "missing-role",
+          "role": "report"
+        }
+      ],
+      "gap_codes": [
+        "G03",
+        "G02",
+        "G04",
+        "G01",
+        "G07",
+        "G08"
+      ]
+    },
+    {
+      "source_key": "early-notebook:013",
+      "source_path": "lab/zh/013_2026-08-04_0041_传递关系未涌现与类比触达.md",
+      "original_id": "N13",
+      "title": "013 — 传递关系未涌现与类比触达",
+      "classification": "formal",
+      "experiment_date": "2026-08-04",
+      "date_basis": "original notebook date",
+      "platform_experiment_id": "17651b09-c3c3-584a-a779-e4d81c90684c",
+      "platform_project_id": "495232b8-5316-54e6-862c-aabd7890eb67",
+      "original_project_id": null,
+      "execution_status": "unknown",
+      "coverage": "partial",
+      "references": 2,
+      "native_subjects": 0,
+      "gaps": [
+        {
+          "kind": "declared-gap",
+          "message": "No original platform project identity identified; this is a later platform registration. Original case/checkpoint identities remain in their carriers."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "No independently preserved preregistered protocol identified; later notebooks/reports are not substituted for it."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "No original process/checkpoint carrier identified; descriptions cannot reconstruct missing model states."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "Kernel identity is not established in the index; original configurations are preserved and no current default is substituted."
+        },
+        {
+          "kind": "missing-role",
+          "role": "protocol"
+        },
+        {
+          "kind": "missing-role",
+          "role": "report"
+        }
+      ],
+      "gap_codes": [
+        "G03",
+        "G02",
+        "G04",
+        "G01",
+        "G07",
+        "G08"
+      ]
+    },
+    {
+      "source_key": "lab-exploration:2026-09-09-blocked-sentence-teaching",
+      "source_path": "lab/explorations/2026-09-09-blocked-sentence-teaching",
+      "original_id": "E04",
+      "title": "逐句重复教学：完整说话人与祖父关系",
+      "classification": "formal",
+      "experiment_date": "2026-09-09",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "fa704189-6188-5571-93a5-be1760d981c5",
+      "platform_project_id": "5f779f43-ab27-4638-bb11-458a43598637",
+      "original_project_id": "5f779f43-ab27-4638-bb11-458a43598637",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 394,
+      "native_subjects": 10,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-09-09-calibrated-generalization",
+      "source_path": "lab/explorations/2026-09-09-calibrated-generalization",
+      "original_id": "E02",
+      "title": "校准后验证报告：配对关联与未见名字家系",
+      "classification": "formal",
+      "experiment_date": "2026-09-09",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "1b1223e9-dab1-57a9-b7d7-05d227f81c61",
+      "platform_project_id": "8c69053a-125e-4fbd-80a8-5a028abb8a9c",
+      "original_project_id": "8c69053a-125e-4fbd-80a8-5a028abb8a9c",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 3004,
+      "native_subjects": 977,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-09-09-default-mapping-repetition",
+      "source_path": "lab/explorations/2026-09-09-default-mapping-repetition",
+      "original_id": "E05",
+      "title": "默认映射复验：逐句20次与完整标点",
+      "classification": "formal",
+      "experiment_date": "2026-09-09",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "0df58c6f-aaa2-5479-9f5c-849958f8e4d9",
+      "platform_project_id": "a9bd83bb-3d57-4eab-859d-68312f6b2b17",
+      "original_project_id": "a9bd83bb-3d57-4eab-859d-68312f6b2b17",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 400,
+      "native_subjects": 10,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-09-09-language-scaffold-relations",
+      "source_path": "lab/explorations/2026-09-09-language-scaffold-relations",
+      "original_id": "E03",
+      "title": "教学探索报告：父亲的父亲与问答迁移",
+      "classification": "formal",
+      "experiment_date": "2026-09-09",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "f3ce545e-8967-5c7c-a080-d995d95dd5a3",
+      "platform_project_id": "7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd",
+      "original_project_id": "7c4fb6f2-ca29-4cd8-9a4c-f112ddbff1dd",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 258,
+      "native_subjects": 25,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-09-09-memory-relations",
+      "source_path": "lab/explorations/2026-09-09-memory-relations",
+      "original_id": "E01",
+      "title": "重复记忆与关系组合：探索报告",
+      "classification": "formal",
+      "experiment_date": "2026-09-09",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "267ca0bd-304c-53ce-9499-92c80c9267b8",
+      "platform_project_id": "900840b0-d00d-450c-9669-72600cea7c40",
+      "original_project_id": "900840b0-d00d-450c-9669-72600cea7c40",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 946,
+      "native_subjects": 900,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-09-10-host-background-pair",
+      "source_path": "lab/explorations/2026-09-10-host-background-pair",
+      "original_id": "E09",
+      "title": "宿主机背景、10秒间隔与分级强度：配对复验报告",
+      "classification": "formal",
+      "experiment_date": "2026-09-10",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "d8915ef4-9a61-5e45-88e6-4a34c45f9b3a",
+      "platform_project_id": "006772a5-86e9-4f01-bcd2-2d5f48f7a70e",
+      "original_project_id": "006772a5-86e9-4f01-bcd2-2d5f48f7a70e",
+      "execution_status": "completed",
+      "coverage": "partial",
+      "references": 168,
+      "native_subjects": 4,
+      "gaps": [
+        {
+          "kind": "declared-gap",
+          "message": "Kernel identity is not established in the index; original configurations are preserved and no current default is substituted."
+        }
+      ],
+      "gap_codes": [
+        "G01"
+      ]
+    },
+    {
+      "source_key": "lab-exploration:2026-09-10-pair-no-punctuation",
+      "source_path": "lab/explorations/2026-09-10-pair-no-punctuation",
+      "original_id": "E08",
+      "title": "松子／铃铛：无标点配对的时序收敛实验",
+      "classification": "formal",
+      "experiment_date": "2026-09-10",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "c7e03405-1721-5ea3-a9dc-05956ea90796",
+      "platform_project_id": "2dabc73f-1f27-498b-83ae-93c4c6e10c1c",
+      "original_project_id": "2dabc73f-1f27-498b-83ae-93c4c6e10c1c",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 204,
+      "native_subjects": 6,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-09-10-temporal-repetition",
+      "source_path": "lab/explorations/2026-09-10-temporal-repetition",
+      "original_id": "E06",
+      "title": "时序收敛复验报告",
+      "classification": "formal",
+      "experiment_date": "2026-09-10",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "46606ccf-4934-5045-8a3b-b6719d536ffc",
+      "platform_project_id": "194a2f1f-4912-435b-b94e-d8ac64fe4788",
+      "original_project_id": "194a2f1f-4912-435b-b94e-d8ac64fe4788",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 217,
+      "native_subjects": 10,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-09-10-time-comparison",
+      "source_path": "lab/explorations/2026-09-10-time-comparison",
+      "original_id": "E07",
+      "title": "时间与活动节律：第一阶段对照及中止记录",
+      "classification": "formal",
+      "experiment_date": "2026-09-10",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "2b520844-1c6c-5a8f-a7dd-b98bef1e88e7",
+      "platform_project_id": "62fd8734-a42a-4950-84d3-496c3bded189",
+      "original_project_id": "62fd8734-a42a-4950-84d3-496c3bded189",
+      "execution_status": "interrupted",
+      "coverage": "indexed",
+      "references": 54,
+      "native_subjects": 0,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-09-29-candidates",
+      "source_path": "lab/explorations/2026-09-29-candidates",
+      "original_id": "E10",
+      "title": "多内核初步实验：适应、配对与上下文",
+      "classification": "formal",
+      "experiment_date": "2026-09-29",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "6531f563-2fa4-5978-8e37-d6936009a743",
+      "platform_project_id": "cb3a2d4a-f8a2-440e-9182-75148e9454a8",
+      "original_project_id": "cb3a2d4a-f8a2-440e-9182-75148e9454a8",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 3273,
+      "native_subjects": 3229,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-09-29-continuous-mechanisms",
+      "source_path": "lab/explorations/2026-09-29-continuous-mechanisms",
+      "original_id": "E11",
+      "title": "连续版的区别来自哪里：机制归因实验",
+      "classification": "formal",
+      "experiment_date": "2026-09-29",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "1ef967e2-69c3-59c6-a321-d3ee4a58b38a",
+      "platform_project_id": "e769cd2d-c636-41b0-a266-6af1cca4b805",
+      "original_project_id": "e769cd2d-c636-41b0-a266-6af1cca4b805",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 378,
+      "native_subjects": 341,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-09-29-experience-and-autonomy",
+      "source_path": "lab/explorations/2026-09-29-experience-and-autonomy",
+      "original_id": "E15",
+      "title": "经历改变行为，内部通路承担作用：802 实例实验报告",
+      "classification": "formal",
+      "experiment_date": "2026-09-29",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "db1a642e-3043-5cdb-b879-8240c6165f31",
+      "platform_project_id": "92548061-22c0-4bd9-b283-c4e1e7f4360d",
+      "original_project_id": "92548061-22c0-4bd9-b283-c4e1e7f4360d",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 842,
+      "native_subjects": 802,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-09-29-input-rate-and-autonomy",
+      "source_path": "lab/explorations/2026-09-29-input-rate-and-autonomy",
+      "original_id": "E13",
+      "title": "刺激间隔、环境选择与自主活动：实验结果",
+      "classification": "formal",
+      "experiment_date": "2026-09-29",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "09b949c9-6393-558f-baee-fcb9a8b69bff",
+      "platform_project_id": "59aee7a1-5248-417f-a03b-b56f858a04d9",
+      "original_project_id": "59aee7a1-5248-417f-a03b-b56f858a04d9",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 511,
+      "native_subjects": 448,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-09-29-internal-activity",
+      "source_path": "lab/explorations/2026-09-29-internal-activity",
+      "original_id": "E14",
+      "title": "内部活动确实改变了行为：180 个实例的因果对照",
+      "classification": "formal",
+      "experiment_date": "2026-09-29",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "ff2dd921-4146-56df-9701-432e565e662b",
+      "platform_project_id": "df63c577-3b39-4642-87c5-2e9e1b05f165",
+      "original_project_id": "df63c577-3b39-4642-87c5-2e9e1b05f165",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 217,
+      "native_subjects": 180,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-09-29-mechanism-calibration",
+      "source_path": "lab/explorations/2026-09-29-mechanism-calibration",
+      "original_id": "E16",
+      "title": "强刺激、新颖性与 300 秒遗忘：校准结果",
+      "classification": "formal",
+      "experiment_date": "2026-09-29",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "2bc5520d-95b1-5cb2-9367-3368f59b88eb",
+      "platform_project_id": "d27d28d0-55f1-4783-99fd-e3a503ec1573",
+      "original_project_id": "d27d28d0-55f1-4783-99fd-e3a503ec1573",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 825,
+      "native_subjects": 787,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-09-29-memory-timescales",
+      "source_path": "lab/explorations/2026-09-29-memory-timescales",
+      "original_id": "E12",
+      "title": "耗竭、易化与连接巩固：实验结果",
+      "classification": "formal",
+      "experiment_date": "2026-09-29",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "113d695c-7856-5ee4-afbd-d7adbd7481f6",
+      "platform_project_id": "cbde2d48-284d-4294-9184-89f439923547",
+      "original_project_id": "cbde2d48-284d-4294-9184-89f439923547",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 640,
+      "native_subjects": 598,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-09-30-intensity-mechanisms",
+      "source_path": "lab/explorations/2026-09-30-intensity-mechanisms",
+      "original_id": "E19",
+      "title": "强刺激机制替代与经历敏感性：实验结果",
+      "classification": "formal",
+      "experiment_date": "2026-09-30",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "52a97e0a-891d-56eb-b73d-5ed9708d9852",
+      "platform_project_id": "91dfc963-f441-49b7-8dc6-65dba73ab2cb",
+      "original_project_id": "91dfc963-f441-49b7-8dc6-65dba73ab2cb",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 1285,
+      "native_subjects": 1246,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-09-30-memory-transfer",
+      "source_path": "lab/explorations/2026-09-30-memory-transfer",
+      "original_id": "E18",
+      "title": "记忆、顺序、迁移与环境适应：1536 个实例的结果",
+      "classification": "formal",
+      "experiment_date": "2026-09-30",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "a7cb1ed5-7cf1-5ccf-b6bd-5fc5ef1be605",
+      "platform_project_id": "c49b4ad2-3d53-486a-b124-433e5491df36",
+      "original_project_id": "c49b4ad2-3d53-486a-b124-433e5491df36",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 1580,
+      "native_subjects": 1536,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-09-30-stimulus-spacetime",
+      "source_path": "lab/explorations/2026-09-30-stimulus-spacetime",
+      "original_id": "E17",
+      "title": "刺激强度、背景与物理参照：实验结果",
+      "classification": "formal",
+      "experiment_date": "2026-09-30",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "9a566527-2aa1-5765-9683-9d744d2f9656",
+      "platform_project_id": "36029e2c-2f4c-4f21-9aa5-376b0701c044",
+      "original_project_id": "36029e2c-2f4c-4f21-9aa5-376b0701c044",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 328,
+      "native_subjects": 295,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-10-01-observation-background",
+      "source_path": "lab/explorations/2026-10-01-observation-background",
+      "original_id": "E23",
+      "title": "E23：顺序效应经得住背景替换；读出负载与真实遥测须分开",
+      "classification": "formal",
+      "experiment_date": "2026-10-01",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "849c7c72-904d-5861-8c85-4afe6fd7f394",
+      "platform_project_id": "1a3e275e-4a4b-4be1-94a3-242e663e3470",
+      "original_project_id": "1a3e275e-4a4b-4be1-94a3-242e663e3470",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 541,
+      "native_subjects": 502,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-10-01-order-mechanisms",
+      "source_path": "lab/explorations/2026-10-01-order-mechanisms",
+      "original_id": "E21",
+      "title": "顺序信息保存在哪里，感官反向怎样形成",
+      "classification": "formal",
+      "experiment_date": "2026-10-01",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "ebc8bee1-65fc-53a6-9442-bd46a7e27513",
+      "platform_project_id": "2561276a-6460-4c52-910b-e92ef516e335",
+      "original_project_id": "2561276a-6460-4c52-910b-e92ef516e335",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 2941,
+      "native_subjects": 2880,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-10-01-priority-memory",
+      "source_path": "lab/explorations/2026-10-01-priority-memory",
+      "original_id": "E20",
+      "title": "强刺激、易化、感官响应与顺序：优先验证",
+      "classification": "formal",
+      "experiment_date": "2026-10-01",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "c58445d7-3a87-59ef-8580-fd3cc9f65e89",
+      "platform_project_id": "242ff8e9-f7d5-4d89-8964-cff06ca8fdf0",
+      "original_project_id": "242ff8e9-f7d5-4d89-8964-cff06ca8fdf0",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 2910,
+      "native_subjects": 2808,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-10-01-recovery-reference",
+      "source_path": "lab/explorations/2026-10-01-recovery-reference",
+      "original_id": "E22",
+      "title": "感官反向会恢复，顺序表达怎样受时间影响",
+      "classification": "formal",
+      "experiment_date": "2026-10-01",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "210cf6fb-be17-5eab-88d3-46b177db5c08",
+      "platform_project_id": "5e4f46e7-5d55-44de-a2b6-9707e2057387",
+      "original_project_id": "5e4f46e7-5d55-44de-a2b6-9707e2057387",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 1590,
+      "native_subjects": 1520,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-10-02-response-readout",
+      "source_path": "lab/explorations/2026-10-02-response-readout",
+      "original_id": "E25",
+      "title": "E25：响应短暂，不等于没有响应",
+      "classification": "formal",
+      "experiment_date": "2026-10-02",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "6d70712f-a931-53f0-8ff6-73d64a130fcd",
+      "platform_project_id": "53d7cd0b-d008-44ba-bc11-afdd35fb9c37",
+      "original_project_id": "53d7cd0b-d008-44ba-bc11-afdd35fb9c37",
+      "execution_status": "completed",
+      "coverage": "partial",
+      "references": 21,
+      "native_subjects": 0,
+      "gaps": [
+        {
+          "kind": "declared-gap",
+          "message": "Kernel identity is not established in the index; original configurations are preserved and no current default is substituted."
+        }
+      ],
+      "gap_codes": [
+        "G01"
+      ]
+    },
+    {
+      "source_key": "lab-exploration:2026-10-02-robot-language",
+      "source_path": "lab/explorations/2026-10-02-robot-language",
+      "original_id": "E26",
+      "title": "E26：机器人能动了，语言能译了，实用学习还没有通过",
+      "classification": "formal",
+      "experiment_date": "2026-10-02",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "7f840ba1-5c54-5b95-a899-1f0f54a5477b",
+      "platform_project_id": "0a246d2f-1f83-44c0-a179-9e617dd06bfb",
+      "original_project_id": "0a246d2f-1f83-44c0-a179-9e617dd06bfb",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 19,
+      "native_subjects": 0,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-10-02-survival-transfer",
+      "source_path": "lab/explorations/2026-10-02-survival-transfer",
+      "original_id": "E27",
+      "title": "E27：运行中生存淘汰已接通，但这批意识没有学会抓杯或倾倒",
+      "classification": "formal",
+      "experiment_date": "2026-10-02",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "292b7fe5-3961-5849-a77d-3de1425ab476",
+      "platform_project_id": "e4859f89-ab18-4d78-bf7c-c70d71bfc38e",
+      "original_project_id": "e4859f89-ab18-4d78-bf7c-c70d71bfc38e",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 36,
+      "native_subjects": 0,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-10-02-target-background",
+      "source_path": "lab/explorations/2026-10-02-target-background",
+      "original_id": "E24",
+      "title": "E24：背景会改变活动，但本轮目标响应保持不变",
+      "classification": "formal",
+      "experiment_date": "2026-10-02",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "0cad3736-e2fb-5ae1-bd82-e29f22692674",
+      "platform_project_id": "9f1aa861-2656-4af9-b3bb-4195f982cebd",
+      "original_project_id": "9f1aa861-2656-4af9-b3bb-4195f982cebd",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 215,
+      "native_subjects": 160,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-10-03-ocean-behavior",
+      "source_path": "lab/explorations/2026-10-03-ocean-behavior",
+      "original_id": "E31",
+      "title": "E31：内部活动确实影响动作，是否已经成为觅食、捕猎和逃离的技能？",
+      "classification": "formal",
+      "experiment_date": "2026-10-03",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "b455b71b-e2c8-5c0f-bf4f-13aae280f5fb",
+      "platform_project_id": "8bb46e22-c05f-4c7f-b398-c76406e299dc",
+      "original_project_id": "8bb46e22-c05f-4c7f-b398-c76406e299dc",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 9665,
+      "native_subjects": 0,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-10-03-ocean-causality",
+      "source_path": "lab/explorations/2026-10-03-ocean-causality",
+      "original_id": "E30",
+      "title": "E30：意识控制确有觅食优势，经历与内部活动确实改变行动",
+      "classification": "formal",
+      "experiment_date": "2026-10-03",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "98ea531f-f342-5184-86a2-a79292c37912",
+      "platform_project_id": "3818e230-3515-45ce-b873-55150549bd98",
+      "original_project_id": "3818e230-3515-45ce-b873-55150549bd98",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 46,
+      "native_subjects": 0,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-10-03-ocean-community",
+      "source_path": "lab/explorations/2026-10-03-ocean-community",
+      "original_id": "E32",
+      "title": "E32 完整海洋：内部活动的作用，终于放回原环境检验",
+      "classification": "formal",
+      "experiment_date": "2026-10-03",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "cebe3386-b046-5364-8309-57bc47b1bbdd",
+      "platform_project_id": "0b662685-7484-4c20-b1cb-064b53a582e4",
+      "original_project_id": "0b662685-7484-4c20-b1cb-064b53a582e4",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 2984,
+      "native_subjects": 0,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-10-03-ocean-evolution",
+      "source_path": "lab/explorations/2026-10-03-ocean-evolution",
+      "original_id": "E29",
+      "title": "E29：稀疏海洋中的生存、身体变异与资源交换",
+      "classification": "formal",
+      "experiment_date": "2026-10-03",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "2cdbfe9f-2cc6-59a5-8853-313e311034f6",
+      "platform_project_id": "5dbcdfa9-b088-4152-b1f9-ed0c0cd05bde",
+      "original_project_id": "5dbcdfa9-b088-4152-b1f9-ed0c0cd05bde",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 52,
+      "native_subjects": 0,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-10-03-ocean-hunting",
+      "source_path": "lab/explorations/2026-10-03-ocean-hunting",
+      "original_id": "E34",
+      "title": "E34：内部活动改变了动作；持久连接也改变了实际捕获结果",
+      "classification": "formal",
+      "experiment_date": "2026-10-03",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "5ccaa306-8022-50eb-af25-23ec061e05d4",
+      "platform_project_id": "315c50a4-0a3a-4b07-b760-0fc053730a39",
+      "original_project_id": "315c50a4-0a3a-4b07-b760-0fc053730a39",
+      "execution_status": "completed",
+      "coverage": "partial",
+      "references": 5135,
+      "native_subjects": 0,
+      "gaps": [
+        {
+          "kind": "declared-gap",
+          "message": "Kernel identity is not established in the index; original configurations are preserved and no current default is substituted."
+        }
+      ],
+      "gap_codes": [
+        "G01"
+      ]
+    },
+    {
+      "source_key": "lab-exploration:2026-10-03-ocean-no-predation",
+      "source_path": "lab/explorations/2026-10-03-ocean-no-predation",
+      "original_id": "E33",
+      "title": "E33：拿掉相互吞食，意识组的摄食与种群表现怎样？",
+      "classification": "formal",
+      "experiment_date": "2026-10-03",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "72803d20-8feb-5936-8594-9387fb9b29f9",
+      "platform_project_id": "0d64c773-bdab-4de5-a4a5-fcbc48964403",
+      "original_project_id": "0d64c773-bdab-4de5-a4a5-fcbc48964403",
+      "execution_status": "completed",
+      "coverage": "partial",
+      "references": 853,
+      "native_subjects": 0,
+      "gaps": [
+        {
+          "kind": "declared-gap",
+          "message": "Kernel identity is not established in the index; original configurations are preserved and no current default is substituted."
+        }
+      ],
+      "gap_codes": [
+        "G01"
+      ]
+    },
+    {
+      "source_key": "lab-exploration:2026-10-03-primitive-ocean",
+      "source_path": "lab/explorations/2026-10-03-primitive-ocean",
+      "original_id": "E28",
+      "title": "E28：营养海洋让生存与繁殖发生了，学习优势要单独看",
+      "classification": "formal",
+      "experiment_date": "2026-10-03",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "64529ff7-bd4d-5e94-a78e-c63370e2a740",
+      "platform_project_id": "e53a833e-6566-463c-90c2-a94a8fe2a8ef",
+      "original_project_id": "e53a833e-6566-463c-90c2-a94a8fe2a8ef",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 26,
+      "native_subjects": 0,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-10-04-language-centre",
+      "source_path": "lab/explorations/2026-10-04-language-centre",
+      "original_id": "E42",
+      "title": "E42：Qwen 可以转译活动，但当前教学尚未建立可靠的新配对表达",
+      "classification": "formal",
+      "experiment_date": "2026-10-04",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "7023592e-e10b-59cc-babd-dd5a010b39d3",
+      "platform_project_id": "2f6dc868-4ee2-4131-af36-36f4935a9844",
+      "original_project_id": "2f6dc868-4ee2-4131-af36-36f4935a9844",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 58,
+      "native_subjects": 4,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-10-04-language-development",
+      "source_path": "lab/explorations/2026-10-04-language-development",
+      "original_id": "E44",
+      "title": "E44：词语开始能唤起视觉活动，语言表达还没有接通可靠的新知识回忆",
+      "classification": "formal",
+      "experiment_date": "2026-10-04",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "f9639fe8-ccbf-570e-93d6-e6345116a369",
+      "platform_project_id": "a6fe320f-1e36-49f2-a5d0-b9c4597d83dc",
+      "original_project_id": "a6fe320f-1e36-49f2-a5d0-b9c4597d83dc",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 98,
+      "native_subjects": 0,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-10-04-language-spaced",
+      "source_path": "lab/explorations/2026-10-04-language-spaced",
+      "original_id": "E43",
+      "title": "E43：间隔复习留下了更持久的连接，但语言接口还没读出可靠的新对应",
+      "classification": "formal",
+      "experiment_date": "2026-10-04",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "cf2a316c-7096-589e-82e0-9ae3873ea51e",
+      "platform_project_id": "9cc6f412-6512-4c96-9a86-af93bfedfff7",
+      "original_project_id": "9cc6f412-6512-4c96-9a86-af93bfedfff7",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 50,
+      "native_subjects": 0,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-10-04-ocean-culture",
+      "source_path": "lab/explorations/2026-10-04-ocean-culture",
+      "original_id": "E39–E40",
+      "title": "E39–E40：三类候选共同培养与邻近分享",
+      "classification": "formal",
+      "experiment_date": "2026-10-04",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "3135a36d-672f-5456-b534-974d44772344",
+      "platform_project_id": "0891a8a7-9b75-417d-8859-75eced8c36ee",
+      "original_project_id": "0891a8a7-9b75-417d-8859-75eced8c36ee",
+      "execution_status": "completed",
+      "coverage": "partial",
+      "references": 2334,
+      "native_subjects": 0,
+      "gaps": [
+        {
+          "kind": "declared-gap",
+          "message": "Kernel identity is not established in the index; original configurations are preserved and no current default is substituted."
+        }
+      ],
+      "gap_codes": [
+        "G01"
+      ]
+    },
+    {
+      "source_key": "lab-exploration:2026-10-04-ocean-enclosure",
+      "source_path": "lab/explorations/2026-10-04-ocean-enclosure",
+      "original_id": "E37",
+      "title": "E37：仅包裹吞食的意识驱动海洋与代际变化",
+      "classification": "formal",
+      "experiment_date": "2026-10-04",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "b9ed4668-7f95-5c6a-be4e-db5f4a02a1a6",
+      "platform_project_id": "bc5ac72c-27bf-4e3e-9a21-f922bc7ddc90",
+      "original_project_id": "bc5ac72c-27bf-4e3e-9a21-f922bc7ddc90",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 1869,
+      "native_subjects": 0,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-10-04-ocean-groups",
+      "source_path": "lab/explorations/2026-10-04-ocean-groups",
+      "original_id": "E35–E36",
+      "title": "E35–E36：同一整组换控制器，以及两组共海竞争",
+      "classification": "formal",
+      "experiment_date": "2026-10-04",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "d843712c-e2d0-58d6-b8a8-27b9d29d0594",
+      "platform_project_id": "851b8ff9-0fc4-4d65-802c-5b979c215890",
+      "original_project_id": "851b8ff9-0fc4-4d65-802c-5b979c215890",
+      "execution_status": "completed",
+      "coverage": "partial",
+      "references": 2548,
+      "native_subjects": 0,
+      "gaps": [
+        {
+          "kind": "declared-gap",
+          "message": "Kernel identity is not established in the index; original configurations are preserved and no current default is substituted."
+        }
+      ],
+      "gap_codes": [
+        "G01"
+      ]
+    },
+    {
+      "source_key": "lab-exploration:2026-10-04-ocean-species",
+      "source_path": "lab/explorations/2026-10-04-ocean-species",
+      "original_id": "E38",
+      "title": "E38：成功个体能否成为可复用的吞食谱系",
+      "classification": "formal",
+      "experiment_date": "2026-10-04",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "33bfb9ae-04e7-50a8-82a9-78ee214e0e71",
+      "platform_project_id": "18f51630-f184-4b20-ba08-67ece6175083",
+      "original_project_id": "18f51630-f184-4b20-ba08-67ece6175083",
+      "execution_status": "completed",
+      "coverage": "partial",
+      "references": 1934,
+      "native_subjects": 0,
+      "gaps": [
+        {
+          "kind": "declared-gap",
+          "message": "Kernel identity is not established in the index; original configurations are preserved and no current default is substituted."
+        }
+      ],
+      "gap_codes": [
+        "G01"
+      ]
+    },
+    {
+      "source_key": "lab-exploration:2026-10-04-ocean-split",
+      "source_path": "lab/explorations/2026-10-04-ocean-split",
+      "original_id": "E41",
+      "title": "E41：转弯摄食与半包裹分开培养",
+      "classification": "formal",
+      "experiment_date": "2026-10-04",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "2cdb63ac-4c1f-5851-9b00-835f2a86fa8f",
+      "platform_project_id": "07e60c31-5f51-42e2-bc99-a83eb18f61a9",
+      "original_project_id": "07e60c31-5f51-42e2-bc99-a83eb18f61a9",
+      "execution_status": "completed",
+      "coverage": "partial",
+      "references": 2054,
+      "native_subjects": 0,
+      "gaps": [
+        {
+          "kind": "declared-gap",
+          "message": "Kernel identity is not established in the index; original configurations are preserved and no current default is substituted."
+        }
+      ],
+      "gap_codes": [
+        "G01"
+      ]
+    },
+    {
+      "source_key": "lab-exploration:2026-10-05-bus-expression",
+      "source_path": "lab/explorations/2026-10-05-bus-expression",
+      "original_id": "E49",
+      "title": "E49：意识的变化能读出来，但表达器必须学会跟上",
+      "classification": "formal",
+      "experiment_date": "2026-10-05",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "63798368-06cb-59cc-90e1-db06233210c7",
+      "platform_project_id": "2bbb612d-ed99-4021-8886-c250e33727f7",
+      "original_project_id": "2bbb612d-ed99-4021-8886-c250e33727f7",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 61,
+      "native_subjects": 0,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-10-05-clock-recollection",
+      "source_path": "lab/explorations/2026-10-05-clock-recollection",
+      "original_id": "E51",
+      "title": "E51：钟面和句式可读，刚刚发生的事仍未可靠说出",
+      "classification": "formal",
+      "experiment_date": "2026-10-05",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "a2c0d18f-1478-57c0-bbef-685c23e2ac8f",
+      "platform_project_id": "b915612c-6e9c-493a-b8ce-2eaf35fb7ac8",
+      "original_project_id": "b915612c-6e9c-493a-b8ce-2eaf35fb7ac8",
+      "execution_status": "completed",
+      "coverage": "partial",
+      "references": 22,
+      "native_subjects": 0,
+      "gaps": [
+        {
+          "kind": "declared-gap",
+          "message": "Kernel identity is not established in the index; original configurations are preserved and no current default is substituted."
+        }
+      ],
+      "gap_codes": [
+        "G01"
+      ]
+    },
+    {
+      "source_key": "lab-exploration:2026-10-05-coadaptive-language",
+      "source_path": "lab/explorations/2026-10-05-coadaptive-language",
+      "original_id": "E52",
+      "title": "E52：读出听词信息的缺口已定位，联想翻译仍未解决",
+      "classification": "formal",
+      "experiment_date": "2026-10-05",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "2ec85de8-be68-5278-9542-16d291849580",
+      "platform_project_id": "7d5d5fa6-d84b-47b2-b788-1cdec68a3aca",
+      "original_project_id": "7d5d5fa6-d84b-47b2-b788-1cdec68a3aca",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 82,
+      "native_subjects": 0,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-10-05-expression-alignment",
+      "source_path": "lab/explorations/2026-10-05-expression-alignment",
+      "original_id": "E47",
+      "title": "E47：内部联想已经能被译成名字，新经历的表达仍未打通",
+      "classification": "formal",
+      "experiment_date": "2026-10-05",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "cba8bcfd-9609-5d39-b13c-ab4a46d69107",
+      "platform_project_id": "4e645e2b-1408-4e6b-a651-a8e12acf765c",
+      "original_project_id": "4e645e2b-1408-4e6b-a651-a8e12acf765c",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 97,
+      "native_subjects": 0,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-10-05-graph-expression",
+      "source_path": "lab/explorations/2026-10-05-graph-expression",
+      "original_id": "E50",
+      "title": "E50：局部活动可以支撑可靠命名，新经历仍未自动译出",
+      "classification": "formal",
+      "experiment_date": "2026-10-05",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "b286585a-2302-5201-a006-ee51a1258788",
+      "platform_project_id": "18b1f570-cd04-4bad-ac33-b8bea07472f0",
+      "original_project_id": "18b1f570-cd04-4bad-ac33-b8bea07472f0",
+      "execution_status": "completed",
+      "coverage": "partial",
+      "references": 87,
+      "native_subjects": 0,
+      "gaps": [
+        {
+          "kind": "declared-gap",
+          "message": "Kernel identity is not established in the index; original configurations are preserved and no current default is substituted."
+        }
+      ],
+      "gap_codes": [
+        "G01"
+      ]
+    },
+    {
+      "source_key": "lab-exploration:2026-10-05-language-calibration",
+      "source_path": "lab/explorations/2026-10-05-language-calibration",
+      "original_id": "E45",
+      "title": "E45：确实学出了双向感官联系，稳定取词和关系组合尚未形成",
+      "classification": "formal",
+      "experiment_date": "2026-10-05",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "abdf309f-0e3f-5f17-ba27-f72c3d4349c9",
+      "platform_project_id": "c008cf91-ec52-4b23-829e-f53e5748ecbe",
+      "original_project_id": "c008cf91-ec52-4b23-829e-f53e5748ecbe",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 145,
+      "native_subjects": 0,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-10-05-native-language",
+      "source_path": "lab/explorations/2026-10-05-native-language",
+      "original_id": "E46",
+      "title": "E46：个体内部模式能译成词语，但冻结的表达器还跟不上新经历",
+      "classification": "formal",
+      "experiment_date": "2026-10-05",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "1b51bc60-ab97-5309-9fcf-b98883e8cfe6",
+      "platform_project_id": "3847f374-152f-4fde-b109-4ac6d2035e5c",
+      "original_project_id": "3847f374-152f-4fde-b109-4ac6d2035e5c",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 90,
+      "native_subjects": 0,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-10-05-temporal-state-expression",
+      "source_path": "lab/explorations/2026-10-05-temporal-state-expression",
+      "original_id": "E48",
+      "title": "E48：原始状态、句内时间与连续事件",
+      "classification": "formal",
+      "experiment_date": "2026-10-05",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "106980ab-2428-5fdc-9ee6-91beef11ee7d",
+      "platform_project_id": "c8e782f8-271e-4ccf-b453-86ae16bd38ae",
+      "original_project_id": "c8e782f8-271e-4ccf-b453-86ae16bd38ae",
+      "execution_status": "completed",
+      "coverage": "partial",
+      "references": 142,
+      "native_subjects": 0,
+      "gaps": [
+        {
+          "kind": "declared-gap",
+          "message": "Kernel identity is not established in the index; original configurations are preserved and no current default is substituted."
+        }
+      ],
+      "gap_codes": [
+        "G01"
+      ]
+    },
+    {
+      "source_key": "lab-exploration:2026-10-06-choice-attribution",
+      "source_path": "lab/explorations/2026-10-06-choice-attribution",
+      "original_id": "E57",
+      "title": "E57：指认的答案究竟来自哪里",
+      "classification": "formal",
+      "experiment_date": "2026-10-06",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "29cf9503-9050-5e55-8ff8-d55fcf6fb55b",
+      "platform_project_id": "e7606f95-62ea-4645-badd-46bdcf54ec47",
+      "original_project_id": "e7606f95-62ea-4645-badd-46bdcf54ec47",
+      "execution_status": "completed",
+      "coverage": "partial",
+      "references": 31,
+      "native_subjects": 0,
+      "gaps": [
+        {
+          "kind": "declared-gap",
+          "message": "Kernel identity is not established in the index; original configurations are preserved and no current default is substituted."
+        }
+      ],
+      "gap_codes": [
+        "G01"
+      ]
+    },
+    {
+      "source_key": "lab-exploration:2026-10-06-grounded-reviews",
+      "source_path": "lab/explorations/2026-10-06-grounded-reviews",
+      "original_id": "E55",
+      "title": "E55：辨认形色与按话指向",
+      "classification": "formal",
+      "experiment_date": "2026-10-06",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "7f827da5-3fcd-5465-8a85-7c6160f24fa5",
+      "platform_project_id": "b86c7719-bf02-4945-bf2b-1fceaf0683cc",
+      "original_project_id": "b86c7719-bf02-4945-bf2b-1fceaf0683cc",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 52,
+      "native_subjects": 0,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-10-06-ocean-communication",
+      "source_path": "lab/explorations/2026-10-06-ocean-communication",
+      "original_id": "E53",
+      "title": "E53：个体听见了彼此，也找到了一个感官学习缺口",
+      "classification": "formal",
+      "experiment_date": "2026-10-06",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "edae1d6f-b7a8-54af-a72a-bb284d31cc23",
+      "platform_project_id": "e3a234c2-9e3f-4d19-bedf-d643ba298ee6",
+      "original_project_id": "e3a234c2-9e3f-4d19-bedf-d643ba298ee6",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 46,
+      "native_subjects": 0,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-10-06-shape-color-pointing",
+      "source_path": "lab/explorations/2026-10-06-shape-color-pointing",
+      "original_id": "E54",
+      "title": "E54：会移动指针，但形色组合与“指哪个”还没有打通",
+      "classification": "formal",
+      "experiment_date": "2026-10-06",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "c4ae696e-d9ce-5e3d-ba82-32913879f7b1",
+      "platform_project_id": "9bed9a44-fdf2-4947-bca7-af5a854fa691",
+      "original_project_id": "9bed9a44-fdf2-4947-bca7-af5a854fa691",
+      "execution_status": "completed",
+      "coverage": "partial",
+      "references": 28,
+      "native_subjects": 0,
+      "gaps": [
+        {
+          "kind": "declared-gap",
+          "message": "Kernel identity is not established in the index; original configurations are preserved and no current default is substituted."
+        }
+      ],
+      "gap_codes": [
+        "G01"
+      ]
+    },
+    {
+      "source_key": "lab-exploration:2026-10-06-vision-correction",
+      "source_path": "lab/explorations/2026-10-06-vision-correction",
+      "original_id": "E56",
+      "title": "E56：共享读取修好了指认，回答归属另做验证",
+      "classification": "formal",
+      "experiment_date": "2026-10-06",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "de14f4ab-4355-5232-bfeb-a9a82a4dce30",
+      "platform_project_id": "4266a949-9e41-45b7-9653-7566d2df8164",
+      "original_project_id": "4266a949-9e41-45b7-9653-7566d2df8164",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 55,
+      "native_subjects": 0,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-10-07-active-vision",
+      "source_path": "lab/explorations/2026-10-07-active-vision",
+      "original_id": "E59",
+      "title": "E59：眼睛的成本降下来了，学会看哪里仍未完成",
+      "classification": "formal",
+      "experiment_date": "2026-10-07",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "fd308006-170f-5076-9205-937effba348f",
+      "platform_project_id": "9f3df121-3a48-4117-b2bf-bc6f9b867852",
+      "original_project_id": "9f3df121-3a48-4117-b2bf-bc6f9b867852",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 34,
+      "native_subjects": 0,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-10-07-body-exploration",
+      "source_path": "lab/explorations/2026-10-07-body-exploration",
+      "original_id": "E61",
+      "title": "E61：学前探索的分段流程记录与系统连续性更正",
+      "classification": "formal",
+      "experiment_date": "2026-10-07",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "93b154ee-5391-5819-b855-94848d7f539b",
+      "platform_project_id": "07d72fc7-a289-4dc6-9bb0-f3c31052082b",
+      "original_project_id": "07d72fc7-a289-4dc6-9bb0-f3c31052082b",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 158,
+      "native_subjects": 0,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-10-07-continuous-development",
+      "source_path": "lab/explorations/2026-10-07-continuous-development",
+      "original_id": "E62",
+      "title": "E62：保持同一个意识和运动中枢之后，基础教学怎样了",
+      "classification": "formal",
+      "experiment_date": "2026-10-07",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "a69aa5a5-099c-5645-9aa1-4bbc3923b2e4",
+      "platform_project_id": "55e5260f-a406-4aa8-8549-66c4b0aa30e9",
+      "original_project_id": "55e5260f-a406-4aa8-8549-66c4b0aa30e9",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 49,
+      "native_subjects": 0,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-10-07-embodied-memory",
+      "source_path": "lab/explorations/2026-10-07-embodied-memory",
+      "original_id": "E58",
+      "title": "E58：完整视野、动作反馈与记忆内容",
+      "classification": "formal",
+      "experiment_date": "2026-10-07",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "0f7779b4-df84-5750-9f8f-dd896295d1a6",
+      "platform_project_id": "93f1fb20-c124-4e80-825f-686f170b74e4",
+      "original_project_id": "93f1fb20-c124-4e80-825f-686f170b74e4",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 29,
+      "native_subjects": 0,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-10-07-eye-hand-learning",
+      "source_path": "lab/explorations/2026-10-07-eye-hand-learning",
+      "original_id": "E60",
+      "title": "E60：学习转眼、注视与眼手协调",
+      "classification": "formal",
+      "experiment_date": "2026-10-07",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "3aec2021-5005-5019-a034-131af0d616c1",
+      "platform_project_id": "5a6ba1f4-0906-4603-8a85-e625785dfb66",
+      "original_project_id": "5a6ba1f4-0906-4603-8a85-e625785dfb66",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 89,
+      "native_subjects": 0,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-10-07-rehearsal-centered",
+      "source_path": "lab/explorations/2026-10-07-rehearsal-centered",
+      "original_id": "E63",
+      "title": "E63：纠错复习与中央单物体认识",
+      "classification": "formal",
+      "experiment_date": "2026-10-07",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "3ca5d6e4-8385-53d9-bc12-f2f0f3c5b4d3",
+      "platform_project_id": "28d073d6-7ac8-4988-b1cc-ef96f00962d4",
+      "original_project_id": "28d073d6-7ac8-4988-b1cc-ef96f00962d4",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 37,
+      "native_subjects": 0,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-10-08-centered-correction-cycles",
+      "source_path": "lab/explorations/2026-10-08-centered-correction-cycles",
+      "original_id": "E66",
+      "title": "E66：空白起点多轮纠错的实测结果",
+      "classification": "formal",
+      "experiment_date": "2026-10-08",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "d61ce68f-e72b-5a68-b6cb-499967354624",
+      "platform_project_id": "2bece525-31f1-4df8-93cf-cb3bd8dc9132",
+      "original_project_id": "2bece525-31f1-4df8-93cf-cb3bd8dc9132",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 55,
+      "native_subjects": 0,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-10-08-centered-learning",
+      "source_path": "lab/explorations/2026-10-08-centered-learning",
+      "original_id": "E65",
+      "title": "E65：中央形色续学，颜色全对，形状迁移与位置稳定性未解决",
+      "classification": "formal",
+      "experiment_date": "2026-10-08",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "2a748b56-4057-5cf4-b5c3-adae9e4e9989",
+      "platform_project_id": "f0b5f84b-0d0d-4837-81b4-9064f7f908d2",
+      "original_project_id": "f0b5f84b-0d0d-4837-81b4-9064f7f908d2",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 28,
+      "native_subjects": 0,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-10-08-centered-restart",
+      "source_path": "lab/explorations/2026-10-08-centered-restart",
+      "original_id": "E64",
+      "title": "E64：恢复成功流程后，中央形色問答明显改善",
+      "classification": "formal",
+      "experiment_date": "2026-10-08",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "be6356e6-6cfb-501a-a1d0-7be2b8beb5aa",
+      "platform_project_id": "1ac69750-2c92-4123-b3dc-155dd25f1d04",
+      "original_project_id": "1ac69750-2c92-4123-b3dc-155dd25f1d04",
+      "execution_status": "completed",
+      "coverage": "indexed",
+      "references": 31,
+      "native_subjects": 0,
+      "gaps": [],
+      "gap_codes": []
+    },
+    {
+      "source_key": "lab-exploration:2026-10-08-four-field-reproduction",
+      "source_path": "lab/explorations/2026-10-08-four-field-reproduction",
+      "original_id": null,
+      "title": "E64：从空白重现四视场成功流程",
+      "classification": "proposal",
+      "experiment_date": "2026-10-08",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "5858fb6f-fb9b-5c42-8cd7-401a0edaf37c",
+      "platform_project_id": "549a489b-4aee-52b1-9800-327853e144a1",
+      "original_project_id": null,
+      "execution_status": "planned",
+      "coverage": "partial",
+      "references": 3,
+      "native_subjects": 0,
+      "gaps": [
+        {
+          "kind": "declared-gap",
+          "message": "Unstarted conditional draft; no execution data should exist. E64 was reassigned to centered restart."
+        },
+        {
+          "kind": "missing-role",
+          "role": "report"
+        }
+      ],
+      "gap_codes": [
+        "G06",
+        "G08"
+      ]
+    },
+    {
+      "source_key": "lab-exploration:2026-10-08-retention-kernel",
+      "source_path": "lab/explorations/2026-10-08-retention-kernel",
+      "original_id": null,
+      "title": "continuous-memory/3：自动保持与回收的实现验证",
+      "classification": "formal",
+      "experiment_date": "2026-10-08",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "d1af2769-147a-5216-94f1-9df2df01e9d3",
+      "platform_project_id": "5bfed2c9-f258-5d56-87ff-0e174afa0ec8",
+      "original_project_id": null,
+      "execution_status": "completed",
+      "coverage": "partial",
+      "references": 1036,
+      "native_subjects": 0,
+      "gaps": [
+        {
+          "kind": "declared-gap",
+          "message": "No original platform project identity identified; this is a later platform registration. Original case/checkpoint identities remain in their carriers."
+        }
+      ],
+      "gap_codes": [
+        "G03"
+      ]
+    },
+    {
+      "source_key": "lab-exploration:2026-10-08-retention-repair",
+      "source_path": "lab/explorations/2026-10-08-retention-repair",
+      "original_id": null,
+      "title": "continuous-memory/3 局部保持修复：工程通过，默认保持增益仍不足",
+      "classification": "formal",
+      "experiment_date": "2026-10-08",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "a3959ea6-f3ff-5f12-946d-de9e5ec85398",
+      "platform_project_id": "c64da4d7-ae0e-5ef7-8895-f7129f2e648d",
+      "original_project_id": null,
+      "execution_status": "completed",
+      "coverage": "partial",
+      "references": 485,
+      "native_subjects": 0,
+      "gaps": [
+        {
+          "kind": "declared-gap",
+          "message": "No original platform project identity identified; this is a later platform registration. Original case/checkpoint identities remain in their carriers."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "No original scientific notebook identified."
+        }
+      ],
+      "gap_codes": [
+        "G03",
+        "G05"
+      ]
+    },
+    {
+      "source_key": "lab-exploration:2026-10-08-retention-telemetry-text",
+      "source_path": "lab/explorations/2026-10-08-retention-telemetry-text",
+      "original_id": null,
+      "title": "物理遥测背景下，文字连接的重复、保持与消退",
+      "classification": "formal",
+      "experiment_date": "2026-10-08",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "829edb84-4669-53db-bd6a-c1b184319b5f",
+      "platform_project_id": "9206a459-6ac2-5428-b1a6-d3a6e1918fab",
+      "original_project_id": null,
+      "execution_status": "completed",
+      "coverage": "partial",
+      "references": 2325,
+      "native_subjects": 0,
+      "gaps": [
+        {
+          "kind": "declared-gap",
+          "message": "No original platform project identity identified; this is a later platform registration. Original case/checkpoint identities remain in their carriers."
+        }
+      ],
+      "gap_codes": [
+        "G03"
+      ]
+    },
+    {
+      "source_key": "lab-exploration:2026-10-09-local-events-v4",
+      "source_path": "lab/explorations/2026-10-09-local-events-v4",
+      "original_id": null,
+      "title": "/4 局部事件交付与保持校准",
+      "classification": "formal",
+      "experiment_date": "2026-10-09",
+      "date_basis": "source directory date; stage times remain in originals",
+      "platform_experiment_id": "70ccee42-6d48-50f3-8a06-6e376eebd689",
+      "platform_project_id": "27391361-97d4-5948-b689-89118a83edf6",
+      "original_project_id": null,
+      "execution_status": "completed",
+      "coverage": "partial",
+      "references": 108,
+      "native_subjects": 0,
+      "gaps": [
+        {
+          "kind": "declared-gap",
+          "message": "No original platform project identity identified; this is a later platform registration. Original case/checkpoint identities remain in their carriers."
+        },
+        {
+          "kind": "declared-gap",
+          "message": "No original scientific notebook identified."
+        }
+      ],
+      "gap_codes": [
+        "G03",
+        "G05"
+      ]
+    }
+  ],
+  "execution_counts": {
+    "completed": 67,
+    "unknown": 15,
+    "interrupted": 1,
+    "planned": 1
+  },
+  "coverage_counts": {
+    "indexed": 51,
+    "partial": 33
+  },
+  "reference_count": 59118,
+  "original_reference_count": 58974,
+  "new_small_text_reference_count": 144,
+  "native_subject_count": 19310,
+  "originals_copied": 0,
+  "index_table_physical_bytes": 126869504,
+  "new_text_logical_bytes": 391480,
+  "backup_id": "a0271c23-94a1-4467-8b27-f848ce30b0c6",
+  "backup_dump": {
+    "bytes": 47712433106,
+    "path": "database.dump",
+    "sha256": "77d9500a03be20557f3eef2984fb06f3d2177eee7d4d767b1faf085cd6ff7139"
+  },
+  "original_scientific_witness_matches": true,
+  "original_storage_registry_matches": true,
+  "tests": {
+    "records": 10,
+    "api_documents_notes_catalog_database": 28,
+    "data_bundles_storage_backup": 23,
+    "research_storage_migration": 40
+  },
+  "ui": {
+    "state": "passed",
+    "global_count": 84,
+    "checks": [
+      {
+        "code": "E64",
+        "visible": true,
+        "coverage": "indexed"
+      },
+      {
+        "code": "E65",
+        "visible": true,
+        "coverage": "indexed"
+      },
+      {
+        "code": "E66",
+        "visible": true,
+        "coverage": "indexed"
+      },
+      {
+        "code": "N01",
+        "visible": true,
+        "coverage": "partial"
+      },
+      {
+        "empty_project_scope_clears_to_global": true
+      }
+    ],
+    "english": true,
+    "mobile": true,
+    "page_errors": [],
+    "write_requests_allowed": false
+  },
+  "record_cost": {
+    "conditions": "Local isolated PG, direct canonical service; concurrent full live-backup restore; not a Core throughput benchmark.",
+    "core_operations": 0,
+    "database_sync_and_receipt": {
+      "p50_ms": 52.53879999872879,
+      "p95_ms": 56.31069999799365,
+      "total_s": 2.6094009000007645
+    },
+    "durable_enqueue": {
+      "p50_ms": 17.19000000230153,
+      "p95_ms": 19.19359999737935,
+      "total_s": 0.9372773000213783
+    },
+    "large_original_copies": 0,
+    "logical_stage_content_bytes": 2790,
+    "schema": "threemind.record-cost/1",
+    "stages": 50
+  },
+  "evidence_read_acceptance": {
+    "sources": 84,
+    "state": "passed",
+    "write_requests": 0,
+    "scope": "Every source has a visible completion receipt and an original preview; runtime metadata where no original small text is preserved."
+  },
+  "scope_note": "84 source indices, not 84 completed experiments. N01-N13 are later search labels for original notebooks 001-013."
+}

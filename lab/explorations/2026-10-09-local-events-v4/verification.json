@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-09",
+  "scope": "relevant engineering regressions, not live service E2E",
+  "pytest": {
+    "passed": 352,
+    "skipped": 11,
+    "failed": 0,
+    "duration_s": 68.52,
+    "files": [
+      "test_local_candidate.py",
+      "test_runtime_interop.py",
+      "test_configuration.py",
+      "test_process_observation.py",
+      "test_causal9_baseline.py",
+      "test_continuous_candidate.py",
+      "test_memory_candidate.py",
+      "test_novelty_candidate.py",
+      "test_retention_candidate.py",
+      "test_kernel_registry.py",
+      "test_kernel_mechanisms.py",
+      "test_artifact_validation.py",
+      "test_native_readout.py",
+      "test_response_readout.py",
+      "test_activity_readout.py",
+      "test_readout_fidelity.py",
+      "test_continuous_duration.py",
+      "test_kernel_build.py::test_build_does_not_overwrite_output_or_accept_arbitrary_definition"
+    ],
+    "skips": "isolated PostgreSQL cluster on port 55439 not running; no services started"
+  },
+  "cargo": {
+    "command": "cargo test -p threemind-core --lib",
+    "passed": 6,
+    "failed": 0
+  },
+  "frontend": {
+    "command": "npm run build",
+    "passed": true,
+    "fixture_browser_verified": true,
+    "live_lab_database_verified": false
+  },
+  "lint": {
+    "command": "ruff check changed Python sources/tests and calibration scripts",
+    "passed": true
+  },
+  "evidence_sha256": {
+    "complete.json": "74b78adc54f7044bd4e4eb4b21eafe312d1c3d7a92e9707a17f81303c8fe693f",
+    "diagnostics.json": "cc3a761b7994eac7896d2673359c584b29d70dea966a883a6e2a4f548ee7724b",
+    "energy.json": "b92991155043f207e83a0a0edac5b49c170f1116936e4b6e50c2862d75af5d50",
+    "manifest.json": "8b7cdf85a7e76ece98d057ca4a1bb4a2f0864824972623c6d7dbabc76f502b47",
+    "performance.json": "a3fb4fd907db0af6fbab55680054075b939652da0d3a30946fe9ca6adfc6354c",
+    "retention.json": "c427c4c30429e456e0c49206456acb8b8203d00fb6af0fd00609ee992247a7a0",
+    "pacing.json": "e26c850ea785d07f6e6e09989643624182fe1ed4fb88844a4ed11ddd27e3d79a",
+    "final-default-equivalence.json": "a20cb2b6476ca72530779a9b2468c0942800b99d78e3a974018a9ba38af3db75",
+    "ui-fixture.json": "1a5dfb71b6dd470ff5017d9ff8324465025906cb2444b2ead4fd389689021324",
+    "standalone.json": "363d752f96255556cb107b7cdede44466e5def1ace547a7b5961556772096900"
+  },
+  "preservation": {
+    "fixture": "tests_v2/fixtures/memory3-before-local4.json",
+    "older_fixture": "tests_v2/fixtures/memory2-before-retention3.json",
+    "creation_default": "threemind.continuous-memory/3",
+    "push": false,
+    "services_modified": false
+  },
+  "standalone": {
+    "build": {
+      "schema": "threemind.standalone-build/1",
+      "kernel_id": "threemind.continuous-memory/4",
+      "definition_hash": "c2af61443fba47fed411c61ee9f10be7de8ce2c0217783bcb45f96e60239fd03",
+      "source_hash": "a5ec202675ebcf9cd3b37268be96a9bbd045088842b7f0701d84540620843c50",
+      "binary": "threemind-runtime.exe",
+      "binary_sha256": "ce3d3873c0f00cfde7e7d724f661a5140163cf87211296015404a42414304de8",
+      "platform": "win32",
+      "architecture": "AMD64",
+      "semantics": "compiled constructor; model weights and physical state remain plastic"
+    },
+    "compiled_definition_matches": true,
+    "plastic_stimulus_test": {
+      "time_us": 2000000,
+      "nodes": 4,
+      "edges": 12,
+      "state_hash": "cb242848def61abc537e73a2c8008c934e62a7b4f6268ea45da352b6e03ac674",
+      "native_runtime_hash_matches": true
+    },
+    "kernel3_override_rejected": true,
+    "kernel3_restore_rejected": true
+  },
+  "final_default_replay": {
+    "conditions": 12,
+    "checkpoint_hashes_unchanged": 48
+  }
+}

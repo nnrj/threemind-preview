@@ -1,0 +1,9 @@
+# Ring environment: integration and selection registration
+
+Freeze before integration results. Keep the selected 1 s sensory spacing and continuous D/F/L=111. Enable the existing whole-model energy ledger with unlimited total external supply, finite 10 units/s offers every 100 ms, capacity and initial reserve 1, and unchanged nonzero consumption costs. Verify positive consumption and no unmet demand; never clamp local resources to full.
+
+The body moves on a unit circle with velocity governed by `dv/dt = 0.3 * control - 0.8 * v`. Integrate exactly for constant control every 100 ms. Use the existing WorldPorts formula `tanh(0.5 * sum(hash_sign(node) * activation))`, namespace `world-motor-v1:ring-study-v1:0`, on every node. Fixed, nonsemantic engineering wiring is explicitly not emergent motor anatomy. Do not select favorable nodes or seeds.
+
+The two equal half-regions present distinct anonymous four-channel patterns with identical amplitudes; two signed velocity channels encode `tanh(abs(v)/0.375)`. Overall sensory intensity is 0.8. Recorded host background remains enabled at 0.2; its nodes participate in the same motor projection. Goals and scores never enter the Core. Record physical motion, all node activity, control, exact stimuli/deliveries, and energy flows.
+
+Initial integration: seeds 9293201/9293202, initial positions 0.125/0.375/0.625/0.875, zero initial velocity, 60 simulated seconds each. These eight instances are also generation-zero candidates. Check both motion directions across the sample and report each seed's initial bias. Stop before selection if all controls have one sign or one region exceeds 85% occupancy across every seed and start. Do not alter wiring to pass. Freeze later selection and independent-newborn evaluation details before collecting their outcomes. Preserve all unrelated mechanisms, prior data, and global budgets.

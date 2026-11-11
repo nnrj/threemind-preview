@@ -1,0 +1,2358 @@
+{
+  "project_id": "2dabc73f-1f27-498b-83ae-93c4c6e10c1c",
+  "input_audits": [
+    {
+      "run_id": "4e09954f-3ecc-4a44-b672-deabcb27d3af",
+      "seed": 41703,
+      "arm": "AB",
+      "actual_inputs": 400,
+      "sentence_counts": {
+        "甲是松子": 200,
+        "乙是铃铛": 200
+      },
+      "hash": "66fe3c98da52c542015eabc01396271fbe796637be8b9c3a0a01922732d8a7d5"
+    },
+    {
+      "run_id": "5826d84e-022e-4b7e-a03d-4b207f3a1299",
+      "seed": 41702,
+      "arm": "BA",
+      "actual_inputs": 400,
+      "sentence_counts": {
+        "乙是铃铛": 200,
+        "甲是松子": 200
+      },
+      "hash": "8772637a70327271b588583b738a8762e7b432d7f0fb21841b009bb81a7658f7"
+    },
+    {
+      "run_id": "96b4e4b3-05ea-4baf-834a-b28b9c0a81cd",
+      "seed": 41703,
+      "arm": "BA",
+      "actual_inputs": 400,
+      "sentence_counts": {
+        "乙是铃铛": 200,
+        "甲是松子": 200
+      },
+      "hash": "d88b59e9a80a0e5be5dc07841a6ebdb83c6e71bf9d9d4bd247e20477a42d36b4"
+    },
+    {
+      "run_id": "cbf2785d-c189-4ea2-b625-49713636a549",
+      "seed": 41701,
+      "arm": "BA",
+      "actual_inputs": 400,
+      "sentence_counts": {
+        "乙是铃铛": 200,
+        "甲是松子": 200
+      },
+      "hash": "77be309e9cc58faa9efab78a4340d37a8c681de14269de47af0abf8b5a5243c7"
+    },
+    {
+      "run_id": "d50ed8b1-b50d-49c4-90e9-ccdcdfe22b95",
+      "seed": 41702,
+      "arm": "AB",
+      "actual_inputs": 400,
+      "sentence_counts": {
+        "甲是松子": 200,
+        "乙是铃铛": 200
+      },
+      "hash": "e3fa1509fa7717e55d383b14d74b5d934feb4ccff0585c04a0a7e48228dc954e"
+    },
+    {
+      "run_id": "f573aaab-a8d4-494f-8625-b72fbf54820f",
+      "seed": 41701,
+      "arm": "AB",
+      "actual_inputs": 400,
+      "sentence_counts": {
+        "甲是松子": 200,
+        "乙是铃铛": 200
+      },
+      "hash": "8cbbd84798d713413d5f95304a9ae4d985305356c309e7f2ca6de1a022670135"
+    }
+  ],
+  "checkpoints": {
+    "b8a8776b-8226-4e5b-afec-5919253f4f74": "3b9b3d9efad3404745f57940607cece958620b87da0f88eab56008b9c244aaa9",
+    "9c8e8e32-11e6-4b66-a54c-0516036aeb93": "e9483186bd75b4f34d28b1e491dd8669694dde622c3213c3ec7906a614b8ff57",
+    "a3a94ad7-e9ee-4d81-8b56-edf1628e4a79": "8cbbd84798d713413d5f95304a9ae4d985305356c309e7f2ca6de1a022670135",
+    "6f96b68d-6286-4ba9-9ec9-d5a8a9d3aea6": "89cb7707c910dccfb6440ce35bb9d406eacc672aa86c0b8c5e57846ab0a64aa7",
+    "8a06b051-1096-41c7-a103-0ee1f22850d7": "77be309e9cc58faa9efab78a4340d37a8c681de14269de47af0abf8b5a5243c7",
+    "3033148c-e96c-4c2d-b6c4-d158dbdfcd15": "3b9b3d9efad3404745f57940607cece958620b87da0f88eab56008b9c244aaa9",
+    "caa253ba-b526-43a7-9162-6a925a070bdd": "d91ead5440942b2be8d25a40d8146549011f654b57133033b67744b5b5c4fefe",
+    "f6ab3979-6201-45af-a42f-c223886a4289": "e3fa1509fa7717e55d383b14d74b5d934feb4ccff0585c04a0a7e48228dc954e",
+    "833e81da-e980-4679-a484-cfe16f2400e9": "615666571855007d99d3b3a6dbd392849e9d91dc80f9de24d488e2160fc43f57",
+    "5caad3b2-58ac-48df-be61-08226b1ebe7c": "8772637a70327271b588583b738a8762e7b432d7f0fb21841b009bb81a7658f7",
+    "fd0cb4ae-e346-47b4-adc6-fc9bfc901077": "3b9b3d9efad3404745f57940607cece958620b87da0f88eab56008b9c244aaa9",
+    "a0fbdcdf-a20b-44f6-8cc5-ac9098ed6804": "9a06f962371640acc9ee14761e3da2071dbced8ee3c4b3004979daa6b9a27411",
+    "a2d7712b-5407-43df-acf1-2459c14b71ab": "66fe3c98da52c542015eabc01396271fbe796637be8b9c3a0a01922732d8a7d5",
+    "2000c27a-9d21-4790-9590-f2ceacee79a2": "22733fda527906e8e3bb6ab2d68a95ec9f198649eee3775eee46ea35093278fe",
+    "374fdcde-6b06-48d7-87f9-d4570ae52c1e": "d88b59e9a80a0e5be5dc07841a6ebdb83c6e71bf9d9d4bd247e20477a42d36b4"
+  },
+  "calibrations": [
+    {
+      "id": "0705061c-5011-45e7-9f77-a8874aa00405",
+      "run_id": "4e09954f-3ecc-4a44-b672-deabcb27d3af",
+      "checkpoint_id": "a2d7712b-5407-43df-acf1-2459c14b71ab",
+      "source_hash": "66fe3c98da52c542015eabc01396271fbe796637be8b9c3a0a01922732d8a7d5",
+      "protocol": {
+        "cues": [
+          "甲是",
+          "乙是",
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 60,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "254977b5-49d8-4758-a5d7-b9ee885d7224",
+        "source_hash": "66fe3c98da52c542015eabc01396271fbe796637be8b9c3a0a01922732d8a7d5",
+        "bundle_sha256": "abe8278ef9ee340f6810ea7de740c75bda0bb38a2531fa70a340af88d0ff42f8",
+        "result_sha256": "f40f45b5d1a42c4ec4d94bcb916d0ad4e2620528b7483d143c8850603e27622f",
+        "bundle_artifact_id": "e597c8f2-d199-43e2-b161-cb6ce8dd853e"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/254977b5-49d8-4758-a5d7-b9ee885d7224",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/e597c8f2-d199-43e2-b161-cb6ce8dd853e"
+      }
+    },
+    {
+      "id": "0b5a5d36-1e41-4bde-a10b-2e5218fcebe6",
+      "run_id": "f573aaab-a8d4-494f-8625-b72fbf54820f",
+      "checkpoint_id": "a3a94ad7-e9ee-4d81-8b56-edf1628e4a79",
+      "source_hash": "8cbbd84798d713413d5f95304a9ae4d985305356c309e7f2ca6de1a022670135",
+      "protocol": {
+        "cues": [
+          "甲是",
+          "乙是",
+          "甲",
+          "乙"
+        ],
+        "route": "continuation",
+        "terms": [
+          "松子",
+          "铃铛"
+        ],
+        "blank_us": 0,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": true
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "72625bcf-caad-4cc7-aee7-1d3e4a80c041",
+        "source_hash": "8cbbd84798d713413d5f95304a9ae4d985305356c309e7f2ca6de1a022670135",
+        "bundle_sha256": "8d1e61731453b8ffd0861464bcc6dbd46effce3a4a5821e7caac613d523dee85",
+        "result_sha256": "ccbeb6b3270708c2fe734ce6e03d5e263ad053e35eca9b4b2cc489deff146739",
+        "bundle_artifact_id": "3076e2f8-7d47-47c5-a848-0cdae485c8ed"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/72625bcf-caad-4cc7-aee7-1d3e4a80c041",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/3076e2f8-7d47-47c5-a848-0cdae485c8ed"
+      }
+    },
+    {
+      "id": "109f626b-465d-47f2-859a-a9a32caa67a9",
+      "run_id": "d50ed8b1-b50d-49c4-90e9-ccdcdfe22b95",
+      "checkpoint_id": "3033148c-e96c-4c2d-b6c4-d158dbdfcd15",
+      "source_hash": "3b9b3d9efad3404745f57940607cece958620b87da0f88eab56008b9c244aaa9",
+      "protocol": {
+        "cues": [
+          "甲是",
+          "乙是",
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 60,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "98e178a8-34ad-4bb0-8cd2-0f30a3e18ef6",
+        "source_hash": "3b9b3d9efad3404745f57940607cece958620b87da0f88eab56008b9c244aaa9",
+        "bundle_sha256": "3674c04b19691cd06727182169ab38f07cebc2336d56848f26872aa5863c5f96",
+        "result_sha256": "01f2dc08fdc00717223d95462288e755c7b2cbbd60d9630e34fd0f765c7120fe",
+        "bundle_artifact_id": "205ba910-e240-41a4-8fef-72d9b7f28f7e"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/98e178a8-34ad-4bb0-8cd2-0f30a3e18ef6",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/205ba910-e240-41a4-8fef-72d9b7f28f7e"
+      }
+    },
+    {
+      "id": "26466339-5087-42d7-90fe-9a5959e55941",
+      "run_id": "f573aaab-a8d4-494f-8625-b72fbf54820f",
+      "checkpoint_id": "b8a8776b-8226-4e5b-afec-5919253f4f74",
+      "source_hash": "3b9b3d9efad3404745f57940607cece958620b87da0f88eab56008b9c244aaa9",
+      "protocol": {
+        "cues": [
+          "松子",
+          "铃铛"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 60,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "001cf0dc-13e2-4987-9f47-5e5b95946a23",
+        "source_hash": "3b9b3d9efad3404745f57940607cece958620b87da0f88eab56008b9c244aaa9",
+        "bundle_sha256": "aacf45020cefd935803b26295cbce00261570cb14ae57cedbd13649ef142a360",
+        "result_sha256": "f5744e62d049ae389f199d06a9d8dc22a575bedcf9d064bacf9673f88d94d5b9",
+        "bundle_artifact_id": "cc5b1a86-66c5-470e-b4ea-dd14d9139d7b"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/001cf0dc-13e2-4987-9f47-5e5b95946a23",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/cc5b1a86-66c5-470e-b4ea-dd14d9139d7b"
+      }
+    },
+    {
+      "id": "28b31811-c8b7-4ee7-b2ad-e2af21bd85ab",
+      "run_id": "96b4e4b3-05ea-4baf-834a-b28b9c0a81cd",
+      "checkpoint_id": "374fdcde-6b06-48d7-87f9-d4570ae52c1e",
+      "source_hash": "d88b59e9a80a0e5be5dc07841a6ebdb83c6e71bf9d9d4bd247e20477a42d36b4",
+      "protocol": {
+        "cues": [
+          "甲是",
+          "乙是",
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 60,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "c78bfc87-f406-4491-b693-d53f92ef6754",
+        "source_hash": "d88b59e9a80a0e5be5dc07841a6ebdb83c6e71bf9d9d4bd247e20477a42d36b4",
+        "bundle_sha256": "f7f9f6292b681f731ef9ab15bd502e4cf6d3dc2a8f309f205d58c5e0e70c0208",
+        "result_sha256": "531528953e2438143c4c09302342b703a5d5266004bbc111a26411ebdba842b3",
+        "bundle_artifact_id": "78948a99-92bc-4ce1-8783-9ef77bdb1956"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/c78bfc87-f406-4491-b693-d53f92ef6754",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/78948a99-92bc-4ce1-8783-9ef77bdb1956"
+      }
+    },
+    {
+      "id": "2de34277-7f9b-47cb-bc87-96cf1df62777",
+      "run_id": "96b4e4b3-05ea-4baf-834a-b28b9c0a81cd",
+      "checkpoint_id": "374fdcde-6b06-48d7-87f9-d4570ae52c1e",
+      "source_hash": "d88b59e9a80a0e5be5dc07841a6ebdb83c6e71bf9d9d4bd247e20477a42d36b4",
+      "protocol": {
+        "cues": [
+          "松子",
+          "铃铛"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 60,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "dc24d7dd-5abc-406c-8da1-493b89b14551",
+        "source_hash": "d88b59e9a80a0e5be5dc07841a6ebdb83c6e71bf9d9d4bd247e20477a42d36b4",
+        "bundle_sha256": "00c52ea3069e75ad72f19e3b75d484d977a116bad4e861f1f93eb22bba2c77a1",
+        "result_sha256": "c4b34b8b1404ea6f038ed340d64bced2ab683a15761c5dc634ed2abf1d0514ce",
+        "bundle_artifact_id": "ac45ebc0-0ac4-4fdf-915e-509d577c3100"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/dc24d7dd-5abc-406c-8da1-493b89b14551",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/ac45ebc0-0ac4-4fdf-915e-509d577c3100"
+      }
+    },
+    {
+      "id": "40a308e7-bbe8-4734-8cf6-ae2e7e0fdf5a",
+      "run_id": "cbf2785d-c189-4ea2-b625-49713636a549",
+      "checkpoint_id": "8a06b051-1096-41c7-a103-0ee1f22850d7",
+      "source_hash": "77be309e9cc58faa9efab78a4340d37a8c681de14269de47af0abf8b5a5243c7",
+      "protocol": {
+        "cues": [
+          "松子",
+          "铃铛"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 60,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "bbf36435-4551-4687-93d9-587828c4b315",
+        "source_hash": "77be309e9cc58faa9efab78a4340d37a8c681de14269de47af0abf8b5a5243c7",
+        "bundle_sha256": "f15ab3f3a90559c8b8c03d5a9f6d3f42b2d20e2940b2e2c2153883f6ae85aece",
+        "result_sha256": "b1c8eb7dc50914d41e66f3dab9043cda46cd8b11928c60952f90fe9b3c35037c",
+        "bundle_artifact_id": "034a4702-02f1-4e60-95d3-4340f4eb1d09"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/bbf36435-4551-4687-93d9-587828c4b315",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/034a4702-02f1-4e60-95d3-4340f4eb1d09"
+      }
+    },
+    {
+      "id": "40c6de5c-a424-4ecb-a7fb-2f2fa966788d",
+      "run_id": "4e09954f-3ecc-4a44-b672-deabcb27d3af",
+      "checkpoint_id": "a0fbdcdf-a20b-44f6-8cc5-ac9098ed6804",
+      "source_hash": "9a06f962371640acc9ee14761e3da2071dbced8ee3c4b3004979daa6b9a27411",
+      "protocol": {
+        "cues": [
+          "甲是",
+          "乙是",
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 60,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "ce2be2eb-31a2-4f73-a573-837491a27b81",
+        "source_hash": "9a06f962371640acc9ee14761e3da2071dbced8ee3c4b3004979daa6b9a27411",
+        "bundle_sha256": "e1d372b9df3d41ae4cb506ed21c434b3280e3e4aa68d85b4bec61bbe346c2d7d",
+        "result_sha256": "c22135db7ee167ad1dd634108ef487877b0c9bff20e377cd74df3f26e7409e80",
+        "bundle_artifact_id": "da442fb5-ca93-403d-b180-4d5528d525d7"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/ce2be2eb-31a2-4f73-a573-837491a27b81",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/da442fb5-ca93-403d-b180-4d5528d525d7"
+      }
+    },
+    {
+      "id": "4202373d-ebaa-47e8-ba7b-65eef0f81b7a",
+      "run_id": "4e09954f-3ecc-4a44-b672-deabcb27d3af",
+      "checkpoint_id": "a2d7712b-5407-43df-acf1-2459c14b71ab",
+      "source_hash": "66fe3c98da52c542015eabc01396271fbe796637be8b9c3a0a01922732d8a7d5",
+      "protocol": {
+        "cues": [
+          "甲是",
+          "乙是",
+          "甲",
+          "乙"
+        ],
+        "route": "continuation",
+        "terms": [
+          "松子",
+          "铃铛"
+        ],
+        "blank_us": 0,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": true
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "76de318f-c3ee-4710-9fa0-839d33f541f7",
+        "source_hash": "66fe3c98da52c542015eabc01396271fbe796637be8b9c3a0a01922732d8a7d5",
+        "bundle_sha256": "18b4010c1f4c7d390e96ae5b2aaf38d59d669d10721a12f7437c743962440f3d",
+        "result_sha256": "2e4cfa5b4af03caa137174e375dc9703aa55b0c9344d3ad8bb2d88d8e9fc071f",
+        "bundle_artifact_id": "3f18b12d-d1b3-4667-826d-7c0a43fab8b1"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/76de318f-c3ee-4710-9fa0-839d33f541f7",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/3f18b12d-d1b3-4667-826d-7c0a43fab8b1"
+      }
+    },
+    {
+      "id": "4bb35a38-b172-459c-bf57-60f562a83c31",
+      "run_id": "cbf2785d-c189-4ea2-b625-49713636a549",
+      "checkpoint_id": "6f96b68d-6286-4ba9-9ec9-d5a8a9d3aea6",
+      "source_hash": "89cb7707c910dccfb6440ce35bb9d406eacc672aa86c0b8c5e57846ab0a64aa7",
+      "protocol": {
+        "cues": [
+          "甲是",
+          "乙是",
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 60,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "3797b6a5-4574-4a30-97e8-ce279e9d8fa0",
+        "source_hash": "89cb7707c910dccfb6440ce35bb9d406eacc672aa86c0b8c5e57846ab0a64aa7",
+        "bundle_sha256": "4a43a3e15377d38e43f6de3232bdb6a8c72d7b3f78bb8c35eb079db096e72263",
+        "result_sha256": "1f9e795ae92e6236050caac90a9f597c5b2189cfdb9a2e2842efe4e1036e00d7",
+        "bundle_artifact_id": "bdb83ef1-823a-403c-ad69-e03f546b15e2"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/3797b6a5-4574-4a30-97e8-ce279e9d8fa0",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/bdb83ef1-823a-403c-ad69-e03f546b15e2"
+      }
+    },
+    {
+      "id": "4cdb5bc4-8b9d-4722-a5f6-c07940844c18",
+      "run_id": "5826d84e-022e-4b7e-a03d-4b207f3a1299",
+      "checkpoint_id": "5caad3b2-58ac-48df-be61-08226b1ebe7c",
+      "source_hash": "8772637a70327271b588583b738a8762e7b432d7f0fb21841b009bb81a7658f7",
+      "protocol": {
+        "cues": [
+          "松子",
+          "铃铛"
+        ],
+        "route": "continuation",
+        "terms": [
+          "甲",
+          "乙"
+        ],
+        "blank_us": 0,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": true
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "0a018785-ecc6-49bb-8cbd-f778af4e2d7e",
+        "source_hash": "8772637a70327271b588583b738a8762e7b432d7f0fb21841b009bb81a7658f7",
+        "bundle_sha256": "203e9f79986cafa81964053b8b4c7f502356c34bc06d5dd1c0e9f98c0f2bd8d7",
+        "result_sha256": "95606f7356d736a2710263f7b69d5299b628c034b610ccee223a46391c0602f9",
+        "bundle_artifact_id": "ff0b6151-b023-4773-b298-e9aaa3a36320"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/0a018785-ecc6-49bb-8cbd-f778af4e2d7e",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/ff0b6151-b023-4773-b298-e9aaa3a36320"
+      }
+    },
+    {
+      "id": "583d1075-edfd-4091-bc70-f2c206434080",
+      "run_id": "d50ed8b1-b50d-49c4-90e9-ccdcdfe22b95",
+      "checkpoint_id": "f6ab3979-6201-45af-a42f-c223886a4289",
+      "source_hash": "e3fa1509fa7717e55d383b14d74b5d934feb4ccff0585c04a0a7e48228dc954e",
+      "protocol": {
+        "cues": [
+          "松子",
+          "铃铛"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 60,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "b4ba3f11-7820-48f1-97f0-0092ee04874d",
+        "source_hash": "e3fa1509fa7717e55d383b14d74b5d934feb4ccff0585c04a0a7e48228dc954e",
+        "bundle_sha256": "bfc37f0cf089e2073003120d5a38eb6fe5f32689cba21a4a4638010ea6455096",
+        "result_sha256": "ae08dbab658b1b0999498e707d78a91a62f7c977a782b78bb4e25c449f8dafde",
+        "bundle_artifact_id": "3b0564e1-e9a0-42b8-984f-69e1c5d0134d"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/b4ba3f11-7820-48f1-97f0-0092ee04874d",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/3b0564e1-e9a0-42b8-984f-69e1c5d0134d"
+      }
+    },
+    {
+      "id": "5de1825f-bf42-42d4-84b9-444d9dc73d6d",
+      "run_id": "96b4e4b3-05ea-4baf-834a-b28b9c0a81cd",
+      "checkpoint_id": "2000c27a-9d21-4790-9590-f2ceacee79a2",
+      "source_hash": "22733fda527906e8e3bb6ab2d68a95ec9f198649eee3775eee46ea35093278fe",
+      "protocol": {
+        "cues": [
+          "松子",
+          "铃铛"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 60,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "77ae4d47-d00b-42b0-9cb9-ebc3efc04c3d",
+        "source_hash": "22733fda527906e8e3bb6ab2d68a95ec9f198649eee3775eee46ea35093278fe",
+        "bundle_sha256": "d32f0d96e8e50f0c1dd69bc74547f6214a3af6494ad3699fb07abfadb0e73eac",
+        "result_sha256": "dd731e4708d62f7a8119b3e51fedbce8f5d4c1ae5c58ec1fff10b23c8bc35907",
+        "bundle_artifact_id": "d75f87ce-0e71-45f5-92a5-f67b13e2a50d"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/77ae4d47-d00b-42b0-9cb9-ebc3efc04c3d",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/d75f87ce-0e71-45f5-92a5-f67b13e2a50d"
+      }
+    },
+    {
+      "id": "5f87524c-44b0-4b03-a536-81d0d2be6a97",
+      "run_id": "f573aaab-a8d4-494f-8625-b72fbf54820f",
+      "checkpoint_id": "9c8e8e32-11e6-4b66-a54c-0516036aeb93",
+      "source_hash": "e9483186bd75b4f34d28b1e491dd8669694dde622c3213c3ec7906a614b8ff57",
+      "protocol": {
+        "cues": [
+          "甲是",
+          "乙是",
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 60,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "88e4a093-4751-44b6-98a7-a5b6c2254495",
+        "source_hash": "e9483186bd75b4f34d28b1e491dd8669694dde622c3213c3ec7906a614b8ff57",
+        "bundle_sha256": "f747e83334fb2a359a7cdcb39f052ca42d043d7ae0c1d8655a58eda595bd1372",
+        "result_sha256": "e640eedf5a524cf9334639ab082404a1c21ff999ed634d8eb35467ad06ef7a78",
+        "bundle_artifact_id": "efbdf037-f782-4ce7-8497-2b695f4fff43"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/88e4a093-4751-44b6-98a7-a5b6c2254495",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/efbdf037-f782-4ce7-8497-2b695f4fff43"
+      }
+    },
+    {
+      "id": "61bede3c-3b1f-4121-851b-256d137f5477",
+      "run_id": "f573aaab-a8d4-494f-8625-b72fbf54820f",
+      "checkpoint_id": "b8a8776b-8226-4e5b-afec-5919253f4f74",
+      "source_hash": "3b9b3d9efad3404745f57940607cece958620b87da0f88eab56008b9c244aaa9",
+      "protocol": {
+        "cues": [
+          "甲是",
+          "乙是",
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 60,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "959675fd-4af1-450e-a5bb-b3e94498af73",
+        "source_hash": "3b9b3d9efad3404745f57940607cece958620b87da0f88eab56008b9c244aaa9",
+        "bundle_sha256": "296020743b39010d8cc6c973a64e80350ebda8e2ea1500eaf37a3c67b894da21",
+        "result_sha256": "38f01cbaf7c09192104622494e7b39ec23dbe775af74e9da5a65550063d7e3fb",
+        "bundle_artifact_id": "a3d6b073-7541-4fa9-acf5-bc12d65639d1"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/959675fd-4af1-450e-a5bb-b3e94498af73",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/a3d6b073-7541-4fa9-acf5-bc12d65639d1"
+      }
+    },
+    {
+      "id": "63dcc02b-1bc8-436c-b2df-a627538271eb",
+      "run_id": "4e09954f-3ecc-4a44-b672-deabcb27d3af",
+      "checkpoint_id": "fd0cb4ae-e346-47b4-adc6-fc9bfc901077",
+      "source_hash": "3b9b3d9efad3404745f57940607cece958620b87da0f88eab56008b9c244aaa9",
+      "protocol": {
+        "cues": [
+          "甲是",
+          "乙是",
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 60,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "ae0392fe-5ed9-45f4-b5e1-ec9f64b364e5",
+        "source_hash": "3b9b3d9efad3404745f57940607cece958620b87da0f88eab56008b9c244aaa9",
+        "bundle_sha256": "647b03f83c5affc0d0f792a916f3260c36434420a0b28c80347e5cfae0112ba4",
+        "result_sha256": "b9cc205756779d7344ddb7765a5d49338375db56c4a255d6987b649ed161c3e8",
+        "bundle_artifact_id": "b905f6f0-7e22-4811-9d17-cfa1c763dbfe"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/ae0392fe-5ed9-45f4-b5e1-ec9f64b364e5",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/b905f6f0-7e22-4811-9d17-cfa1c763dbfe"
+      }
+    },
+    {
+      "id": "66de616b-b0e5-47bd-be5b-9796d978069a",
+      "run_id": "5826d84e-022e-4b7e-a03d-4b207f3a1299",
+      "checkpoint_id": "833e81da-e980-4679-a484-cfe16f2400e9",
+      "source_hash": "615666571855007d99d3b3a6dbd392849e9d91dc80f9de24d488e2160fc43f57",
+      "protocol": {
+        "cues": [
+          "甲是",
+          "乙是",
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 60,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "c6b4d8fd-c28a-4368-b177-bf2b3fe6be92",
+        "source_hash": "615666571855007d99d3b3a6dbd392849e9d91dc80f9de24d488e2160fc43f57",
+        "bundle_sha256": "be11f0718eaf84e31e9b4584cf38c757cc4ab69fb23f9566bedbb0f7e08fa18f",
+        "result_sha256": "b4e3c52b5392533389225d64c06df14724e4ea471e6e9ede9ab52c9be6b879dd",
+        "bundle_artifact_id": "0bc22ed2-c0e4-42fc-be2a-4a028203ddb4"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/c6b4d8fd-c28a-4368-b177-bf2b3fe6be92",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/0bc22ed2-c0e4-42fc-be2a-4a028203ddb4"
+      }
+    },
+    {
+      "id": "6de680cf-dab7-4608-ad41-5223ccf1d1a8",
+      "run_id": "f573aaab-a8d4-494f-8625-b72fbf54820f",
+      "checkpoint_id": "a3a94ad7-e9ee-4d81-8b56-edf1628e4a79",
+      "source_hash": "8cbbd84798d713413d5f95304a9ae4d985305356c309e7f2ca6de1a022670135",
+      "protocol": {
+        "cues": [
+          "甲是",
+          "乙是",
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 60,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "6f34f03a-d3ab-4677-878b-b6ca55123946",
+        "source_hash": "8cbbd84798d713413d5f95304a9ae4d985305356c309e7f2ca6de1a022670135",
+        "bundle_sha256": "c63dff68399d7c6e72f35eeff89f15d3a42ee703f1794f401496c1f9cccd19bc",
+        "result_sha256": "831cd36d608b70c2352d9693fafb6a9dfa7988124dab7e0e459a06a0c1666cda",
+        "bundle_artifact_id": "46ae5fb6-9fda-4770-9fb9-e9e90303dc08"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/6f34f03a-d3ab-4677-878b-b6ca55123946",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/46ae5fb6-9fda-4770-9fb9-e9e90303dc08"
+      }
+    },
+    {
+      "id": "6e1db2f2-61e6-481d-a6b0-c9b239f8ba3f",
+      "run_id": "5826d84e-022e-4b7e-a03d-4b207f3a1299",
+      "checkpoint_id": "5caad3b2-58ac-48df-be61-08226b1ebe7c",
+      "source_hash": "8772637a70327271b588583b738a8762e7b432d7f0fb21841b009bb81a7658f7",
+      "protocol": {
+        "cues": [
+          "甲是",
+          "乙是",
+          "甲",
+          "乙"
+        ],
+        "route": "continuation",
+        "terms": [
+          "松子",
+          "铃铛"
+        ],
+        "blank_us": 0,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": true
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "5c72a80b-2217-401c-bdf0-0d466e24ce30",
+        "source_hash": "8772637a70327271b588583b738a8762e7b432d7f0fb21841b009bb81a7658f7",
+        "bundle_sha256": "571c67b5e7d5e1c5af68a2f3a749e2cc0dadc686b1fd344a0424b7c1318ebee5",
+        "result_sha256": "499684394e7ae0f43c1a5da616b42b065bdbf4803325d229c24998d5ab7fe736",
+        "bundle_artifact_id": "7f0547c6-a34a-49e7-8197-ebc1205c5e96"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/5c72a80b-2217-401c-bdf0-0d466e24ce30",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/7f0547c6-a34a-49e7-8197-ebc1205c5e96"
+      }
+    },
+    {
+      "id": "6fa26f18-9b12-453e-b5d7-608cf6331354",
+      "run_id": "4e09954f-3ecc-4a44-b672-deabcb27d3af",
+      "checkpoint_id": "a2d7712b-5407-43df-acf1-2459c14b71ab",
+      "source_hash": "66fe3c98da52c542015eabc01396271fbe796637be8b9c3a0a01922732d8a7d5",
+      "protocol": {
+        "cues": [
+          "松子",
+          "铃铛"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 60,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "59682d6e-511e-42cc-9185-b0ce6db84a4c",
+        "source_hash": "66fe3c98da52c542015eabc01396271fbe796637be8b9c3a0a01922732d8a7d5",
+        "bundle_sha256": "ec293d2b72ca0d5c33fa6e254d0ac4608f06d3b6845aafffd5827876549ffb51",
+        "result_sha256": "00763f5fecc1778375a77aa8e1ccb3be70d3efd452dea6643cb8920a3c3d3f34",
+        "bundle_artifact_id": "526e5687-5e30-43bc-993f-e7aea199fbb0"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/59682d6e-511e-42cc-9185-b0ce6db84a4c",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/526e5687-5e30-43bc-993f-e7aea199fbb0"
+      }
+    },
+    {
+      "id": "77cb58b6-fd0c-4539-a14d-e6dfe20cd966",
+      "run_id": "96b4e4b3-05ea-4baf-834a-b28b9c0a81cd",
+      "checkpoint_id": "374fdcde-6b06-48d7-87f9-d4570ae52c1e",
+      "source_hash": "d88b59e9a80a0e5be5dc07841a6ebdb83c6e71bf9d9d4bd247e20477a42d36b4",
+      "protocol": {
+        "cues": [
+          "松子",
+          "铃铛"
+        ],
+        "route": "continuation",
+        "terms": [
+          "甲",
+          "乙"
+        ],
+        "blank_us": 0,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": true
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "690d25df-f368-4546-96ab-e61178bb45b6",
+        "source_hash": "d88b59e9a80a0e5be5dc07841a6ebdb83c6e71bf9d9d4bd247e20477a42d36b4",
+        "bundle_sha256": "760ebdf32e4aa135046c214b422d8d5f31b682614a11d07b6e8ba6129a1764e7",
+        "result_sha256": "6ac78e47fe5f4828ba1f14ebb3d082fe10acbed68622109ff665712ac7d7f7bf",
+        "bundle_artifact_id": "2236c04c-6d56-4dd1-8921-b04d4a0516d5"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/690d25df-f368-4546-96ab-e61178bb45b6",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/2236c04c-6d56-4dd1-8921-b04d4a0516d5"
+      }
+    },
+    {
+      "id": "7864b17d-66fd-4d7e-a5bd-59c5c3b9ae5d",
+      "run_id": "cbf2785d-c189-4ea2-b625-49713636a549",
+      "checkpoint_id": "8a06b051-1096-41c7-a103-0ee1f22850d7",
+      "source_hash": "77be309e9cc58faa9efab78a4340d37a8c681de14269de47af0abf8b5a5243c7",
+      "protocol": {
+        "cues": [
+          "松子",
+          "铃铛"
+        ],
+        "route": "continuation",
+        "terms": [
+          "甲",
+          "乙"
+        ],
+        "blank_us": 0,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": true
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "24ad9aef-ceac-46c5-a642-e35157ef0ca8",
+        "source_hash": "77be309e9cc58faa9efab78a4340d37a8c681de14269de47af0abf8b5a5243c7",
+        "bundle_sha256": "86f5ff6aaa7a8ded98c37359b969d8e108c48c44dd5e7d2f176b0bc1f07cf5f1",
+        "result_sha256": "481b4e19e404a67aa2815ee17256934b3f9523c9b80b556b1966999739db0443",
+        "bundle_artifact_id": "4f625a7e-756d-4e90-b9fd-d0915b80a959"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/24ad9aef-ceac-46c5-a642-e35157ef0ca8",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/4f625a7e-756d-4e90-b9fd-d0915b80a959"
+      }
+    },
+    {
+      "id": "78be71b6-3926-474a-bbf3-1ccf86b11598",
+      "run_id": "5826d84e-022e-4b7e-a03d-4b207f3a1299",
+      "checkpoint_id": "833e81da-e980-4679-a484-cfe16f2400e9",
+      "source_hash": "615666571855007d99d3b3a6dbd392849e9d91dc80f9de24d488e2160fc43f57",
+      "protocol": {
+        "cues": [
+          "松子",
+          "铃铛"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 60,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "dcf9aad1-0269-43d5-80d6-36610e17cb8e",
+        "source_hash": "615666571855007d99d3b3a6dbd392849e9d91dc80f9de24d488e2160fc43f57",
+        "bundle_sha256": "492e341a6130ebe7e169936287cda79a26c582d7f5ca5d398b588e7be36af9cd",
+        "result_sha256": "206294fa6743f5f92136bb84f621a2f0d57edea1b0a2a5109107768387a6b8c2",
+        "bundle_artifact_id": "ee7989a7-2da6-4cea-9572-58ee8ebd693f"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/dcf9aad1-0269-43d5-80d6-36610e17cb8e",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/ee7989a7-2da6-4cea-9572-58ee8ebd693f"
+      }
+    },
+    {
+      "id": "8a19e01d-3ff7-447e-877c-ac84bb885c89",
+      "run_id": "f573aaab-a8d4-494f-8625-b72fbf54820f",
+      "checkpoint_id": "a3a94ad7-e9ee-4d81-8b56-edf1628e4a79",
+      "source_hash": "8cbbd84798d713413d5f95304a9ae4d985305356c309e7f2ca6de1a022670135",
+      "protocol": {
+        "cues": [
+          "松子",
+          "铃铛"
+        ],
+        "route": "continuation",
+        "terms": [
+          "甲",
+          "乙"
+        ],
+        "blank_us": 0,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": true
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "e7f9784b-8a8b-4d61-9270-ec7abd8d12ad",
+        "source_hash": "8cbbd84798d713413d5f95304a9ae4d985305356c309e7f2ca6de1a022670135",
+        "bundle_sha256": "6790de2f4ff9aa4785ee53cd7b35489e123787f1f7d5b33dca44dc911dcc5e2a",
+        "result_sha256": "f336d12e727b096c9cceb5de40339860d06d28e26183f57da20a6dddfda8db60",
+        "bundle_artifact_id": "0eb16664-ad2a-4d96-8512-06503ad655b2"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/e7f9784b-8a8b-4d61-9270-ec7abd8d12ad",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/0eb16664-ad2a-4d96-8512-06503ad655b2"
+      }
+    },
+    {
+      "id": "8d461d29-4432-42bf-9330-137027c01061",
+      "run_id": "f573aaab-a8d4-494f-8625-b72fbf54820f",
+      "checkpoint_id": "9c8e8e32-11e6-4b66-a54c-0516036aeb93",
+      "source_hash": "e9483186bd75b4f34d28b1e491dd8669694dde622c3213c3ec7906a614b8ff57",
+      "protocol": {
+        "cues": [
+          "松子",
+          "铃铛"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 60,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "b7092dd2-0ad3-48f0-ba13-7b743acebc67",
+        "source_hash": "e9483186bd75b4f34d28b1e491dd8669694dde622c3213c3ec7906a614b8ff57",
+        "bundle_sha256": "ff8c4db907d6720041e5a9bf6b7229856ac1d72dd5bb373f17693fa3f92f6e06",
+        "result_sha256": "c6cee82cf16fb91363693085d85efec70ce38ffc121721b1f8925afb3700fab0",
+        "bundle_artifact_id": "4f6cd270-3b22-4650-836b-8f6f26ff4d99"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/b7092dd2-0ad3-48f0-ba13-7b743acebc67",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/4f6cd270-3b22-4650-836b-8f6f26ff4d99"
+      }
+    },
+    {
+      "id": "8d4dd751-ebdd-4dca-8541-ba24e1591778",
+      "run_id": "4e09954f-3ecc-4a44-b672-deabcb27d3af",
+      "checkpoint_id": "a2d7712b-5407-43df-acf1-2459c14b71ab",
+      "source_hash": "66fe3c98da52c542015eabc01396271fbe796637be8b9c3a0a01922732d8a7d5",
+      "protocol": {
+        "cues": [
+          "松子",
+          "铃铛"
+        ],
+        "route": "continuation",
+        "terms": [
+          "甲",
+          "乙"
+        ],
+        "blank_us": 0,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": true
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "940bf542-cc8e-4256-b8ac-582a806c2e0c",
+        "source_hash": "66fe3c98da52c542015eabc01396271fbe796637be8b9c3a0a01922732d8a7d5",
+        "bundle_sha256": "21e1f4199085dfad3d58e6dc257341b3bd2dbca398801c1e279286959387de7b",
+        "result_sha256": "537695ab043ffd1d5435c303a98846d528a4cc6a2b7db7bce13ba3af925edc08",
+        "bundle_artifact_id": "9d1671a1-87d5-4104-90e7-db9ddeacfa91"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/940bf542-cc8e-4256-b8ac-582a806c2e0c",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/9d1671a1-87d5-4104-90e7-db9ddeacfa91"
+      }
+    },
+    {
+      "id": "9589f7fe-037f-42fc-81bc-37c7062dae1c",
+      "run_id": "d50ed8b1-b50d-49c4-90e9-ccdcdfe22b95",
+      "checkpoint_id": "f6ab3979-6201-45af-a42f-c223886a4289",
+      "source_hash": "e3fa1509fa7717e55d383b14d74b5d934feb4ccff0585c04a0a7e48228dc954e",
+      "protocol": {
+        "cues": [
+          "甲是",
+          "乙是",
+          "甲",
+          "乙"
+        ],
+        "route": "continuation",
+        "terms": [
+          "松子",
+          "铃铛"
+        ],
+        "blank_us": 0,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": true
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "8cdf4fa0-d567-4b5e-bceb-11bc7506494b",
+        "source_hash": "e3fa1509fa7717e55d383b14d74b5d934feb4ccff0585c04a0a7e48228dc954e",
+        "bundle_sha256": "0ef93505a7fee49d29946ddac3fb07fe2e39a9b3f860ace63fcd9b8b32c9a970",
+        "result_sha256": "a32c88eca31262dd8787032ffdcc199158634e2448e9cab6aa045ca9ced06bba",
+        "bundle_artifact_id": "7635c716-5763-4d82-a6d8-8440a16929e7"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/8cdf4fa0-d567-4b5e-bceb-11bc7506494b",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/7635c716-5763-4d82-a6d8-8440a16929e7"
+      }
+    },
+    {
+      "id": "aa771c02-aba7-4f85-98f3-5edf8568ae8a",
+      "run_id": "d50ed8b1-b50d-49c4-90e9-ccdcdfe22b95",
+      "checkpoint_id": "caa253ba-b526-43a7-9162-6a925a070bdd",
+      "source_hash": "d91ead5440942b2be8d25a40d8146549011f654b57133033b67744b5b5c4fefe",
+      "protocol": {
+        "cues": [
+          "松子",
+          "铃铛"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 60,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "edc8917c-95ce-441f-b899-47fddf30cd52",
+        "source_hash": "d91ead5440942b2be8d25a40d8146549011f654b57133033b67744b5b5c4fefe",
+        "bundle_sha256": "2594d37703a51e570f68e08b13f448e718164e0556da7745c91a5aa7491e8539",
+        "result_sha256": "80ffc5c795f5e1331dfceb8d05d3f6a363cd49b314cf4ea2c297fdc7cf6efbd9",
+        "bundle_artifact_id": "7b6bb04c-bc85-46c2-b5b9-9f906fc50f2e"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/edc8917c-95ce-441f-b899-47fddf30cd52",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/7b6bb04c-bc85-46c2-b5b9-9f906fc50f2e"
+      }
+    },
+    {
+      "id": "adf3fde9-4cc1-4e97-ba73-2dfbcbb074af",
+      "run_id": "d50ed8b1-b50d-49c4-90e9-ccdcdfe22b95",
+      "checkpoint_id": "f6ab3979-6201-45af-a42f-c223886a4289",
+      "source_hash": "e3fa1509fa7717e55d383b14d74b5d934feb4ccff0585c04a0a7e48228dc954e",
+      "protocol": {
+        "cues": [
+          "甲是",
+          "乙是",
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 60,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "0200674f-be42-4467-8b8e-409bc86f862a",
+        "source_hash": "e3fa1509fa7717e55d383b14d74b5d934feb4ccff0585c04a0a7e48228dc954e",
+        "bundle_sha256": "7234da78ec48bece9e653dd257865af57613d9affd4d6b0830776ecb28fe3fa3",
+        "result_sha256": "69a29627b9fe1a828ec2efd81849a7a08d0810d5e8d894cc7a852bd0c1fd9f6d",
+        "bundle_artifact_id": "3c7445ae-9978-40eb-abde-7608c2b239d8"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/0200674f-be42-4467-8b8e-409bc86f862a",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/3c7445ae-9978-40eb-abde-7608c2b239d8"
+      }
+    },
+    {
+      "id": "ae612930-89be-4b2d-adba-4f4892c15de5",
+      "run_id": "4e09954f-3ecc-4a44-b672-deabcb27d3af",
+      "checkpoint_id": "a0fbdcdf-a20b-44f6-8cc5-ac9098ed6804",
+      "source_hash": "9a06f962371640acc9ee14761e3da2071dbced8ee3c4b3004979daa6b9a27411",
+      "protocol": {
+        "cues": [
+          "松子",
+          "铃铛"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 60,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "292fce18-5899-4d12-82d8-864eb6460588",
+        "source_hash": "9a06f962371640acc9ee14761e3da2071dbced8ee3c4b3004979daa6b9a27411",
+        "bundle_sha256": "fec7aae904465ca49a7d8b11658a2882894a2ceb05c49055663847b145aaae23",
+        "result_sha256": "46d28a25587afdcd5bc80511b6b60d82e1c23b33095850a51a1d493add8ff392",
+        "bundle_artifact_id": "99cc2d84-a537-446a-9e70-9185e90c6574"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/292fce18-5899-4d12-82d8-864eb6460588",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/99cc2d84-a537-446a-9e70-9185e90c6574"
+      }
+    },
+    {
+      "id": "aee17001-2659-41cf-9069-d24646da7b48",
+      "run_id": "f573aaab-a8d4-494f-8625-b72fbf54820f",
+      "checkpoint_id": "a3a94ad7-e9ee-4d81-8b56-edf1628e4a79",
+      "source_hash": "8cbbd84798d713413d5f95304a9ae4d985305356c309e7f2ca6de1a022670135",
+      "protocol": {
+        "cues": [
+          "松子",
+          "铃铛"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 60,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "006a2653-19b9-41c3-be59-e80e91bd3431",
+        "source_hash": "8cbbd84798d713413d5f95304a9ae4d985305356c309e7f2ca6de1a022670135",
+        "bundle_sha256": "e1866e18f5f79f53d768f8b6e6e44a8a00b8e85803cf26cd7512113b689107e9",
+        "result_sha256": "e77846e63c49e91987b3889283d4ce7b413776c57fcf8531da61d07985dfef13",
+        "bundle_artifact_id": "bba75156-0c03-43fd-a9b0-78057aa99f29"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/006a2653-19b9-41c3-be59-e80e91bd3431",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/bba75156-0c03-43fd-a9b0-78057aa99f29"
+      }
+    },
+    {
+      "id": "b3e3e9b9-51e9-4d8a-b023-620686d900bf",
+      "run_id": "d50ed8b1-b50d-49c4-90e9-ccdcdfe22b95",
+      "checkpoint_id": "3033148c-e96c-4c2d-b6c4-d158dbdfcd15",
+      "source_hash": "3b9b3d9efad3404745f57940607cece958620b87da0f88eab56008b9c244aaa9",
+      "protocol": {
+        "cues": [
+          "松子",
+          "铃铛"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 60,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "5149795d-2273-4756-8310-8f823fc29e48",
+        "source_hash": "3b9b3d9efad3404745f57940607cece958620b87da0f88eab56008b9c244aaa9",
+        "bundle_sha256": "424d56511f41982fa8dd7581758b48aa571f2a1a57a0ffa13eeb4260f1c93eb0",
+        "result_sha256": "013505bbfa77bcadbbc7e4c41fe1eea342938260d7f1e857c75d6c0bfa852c5b",
+        "bundle_artifact_id": "c36a36a9-7ade-4e64-bfe4-27db1ec68b29"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/5149795d-2273-4756-8310-8f823fc29e48",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/c36a36a9-7ade-4e64-bfe4-27db1ec68b29"
+      }
+    },
+    {
+      "id": "be633347-d012-4b6b-ad26-71182e25ee76",
+      "run_id": "4e09954f-3ecc-4a44-b672-deabcb27d3af",
+      "checkpoint_id": "fd0cb4ae-e346-47b4-adc6-fc9bfc901077",
+      "source_hash": "3b9b3d9efad3404745f57940607cece958620b87da0f88eab56008b9c244aaa9",
+      "protocol": {
+        "cues": [
+          "松子",
+          "铃铛"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 60,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "8bb1916d-7cf6-46f3-9a38-5f9168381856",
+        "source_hash": "3b9b3d9efad3404745f57940607cece958620b87da0f88eab56008b9c244aaa9",
+        "bundle_sha256": "7f75aad8a51cac2eb29d0cdc0517ab0c1d699d623b560813b9478450e219f5d1",
+        "result_sha256": "e27c3d513d222ba13f5abbdf218fd13d9e8979c818089810f86910c7eb28e935",
+        "bundle_artifact_id": "47ef6825-58c4-4510-a4d7-c156a54c6366"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/8bb1916d-7cf6-46f3-9a38-5f9168381856",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/47ef6825-58c4-4510-a4d7-c156a54c6366"
+      }
+    },
+    {
+      "id": "d8f3618f-d68e-4332-9b36-1c3c05ae92c6",
+      "run_id": "cbf2785d-c189-4ea2-b625-49713636a549",
+      "checkpoint_id": "6f96b68d-6286-4ba9-9ec9-d5a8a9d3aea6",
+      "source_hash": "89cb7707c910dccfb6440ce35bb9d406eacc672aa86c0b8c5e57846ab0a64aa7",
+      "protocol": {
+        "cues": [
+          "松子",
+          "铃铛"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 60,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "5995f9ba-9b08-45c4-a506-5dc711062253",
+        "source_hash": "89cb7707c910dccfb6440ce35bb9d406eacc672aa86c0b8c5e57846ab0a64aa7",
+        "bundle_sha256": "00ab674f86ec2f93a30a9dc60652703ace24afe040ccd1f1d470b11da68f61e9",
+        "result_sha256": "64719f4e3145f2f793e3b18529444979e8fb0e3d51d06e3150d42a71859df51a",
+        "bundle_artifact_id": "740da22c-c634-47b9-bec8-3ee0b542027e"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/5995f9ba-9b08-45c4-a506-5dc711062253",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/740da22c-c634-47b9-bec8-3ee0b542027e"
+      }
+    },
+    {
+      "id": "dd670562-1022-4934-8aa2-e5afb180e9b9",
+      "run_id": "d50ed8b1-b50d-49c4-90e9-ccdcdfe22b95",
+      "checkpoint_id": "caa253ba-b526-43a7-9162-6a925a070bdd",
+      "source_hash": "d91ead5440942b2be8d25a40d8146549011f654b57133033b67744b5b5c4fefe",
+      "protocol": {
+        "cues": [
+          "甲是",
+          "乙是",
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 60,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "40fccd34-88f8-4d9c-bbb3-581664c55a62",
+        "source_hash": "d91ead5440942b2be8d25a40d8146549011f654b57133033b67744b5b5c4fefe",
+        "bundle_sha256": "fae77ca92ae8641de16669b89767da7ff4ba3fcc6959aaa0de0d2c6fa104c0e0",
+        "result_sha256": "8adb16918442519c335dcfe92b5f1b44c12db65d86b144b7d8d9f0486ec807f0",
+        "bundle_artifact_id": "1f2a2417-7255-4c6f-96ec-08040d2ebd04"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/40fccd34-88f8-4d9c-bbb3-581664c55a62",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/1f2a2417-7255-4c6f-96ec-08040d2ebd04"
+      }
+    },
+    {
+      "id": "de2e28d9-bc73-4dac-b8d1-24df78a90801",
+      "run_id": "96b4e4b3-05ea-4baf-834a-b28b9c0a81cd",
+      "checkpoint_id": "2000c27a-9d21-4790-9590-f2ceacee79a2",
+      "source_hash": "22733fda527906e8e3bb6ab2d68a95ec9f198649eee3775eee46ea35093278fe",
+      "protocol": {
+        "cues": [
+          "甲是",
+          "乙是",
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 60,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "a0e64079-9b21-4b22-bf59-a4d1e35adbfe",
+        "source_hash": "22733fda527906e8e3bb6ab2d68a95ec9f198649eee3775eee46ea35093278fe",
+        "bundle_sha256": "7a6e8db424bb5ab2c29f53efbcd72171e8c58d4bd61e0dd07e32118291f8eb61",
+        "result_sha256": "ddee72ab5fb9a45ca2d4f6dcf943994aaf8c6a6e8ace64f7afb63fe19bebc0d0",
+        "bundle_artifact_id": "3b3dee4b-fee4-4db9-8eae-a87685eee7ff"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/a0e64079-9b21-4b22-bf59-a4d1e35adbfe",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/3b3dee4b-fee4-4db9-8eae-a87685eee7ff"
+      }
+    },
+    {
+      "id": "e10befa7-02ee-489c-b212-7db1d9af320b",
+      "run_id": "d50ed8b1-b50d-49c4-90e9-ccdcdfe22b95",
+      "checkpoint_id": "f6ab3979-6201-45af-a42f-c223886a4289",
+      "source_hash": "e3fa1509fa7717e55d383b14d74b5d934feb4ccff0585c04a0a7e48228dc954e",
+      "protocol": {
+        "cues": [
+          "松子",
+          "铃铛"
+        ],
+        "route": "continuation",
+        "terms": [
+          "甲",
+          "乙"
+        ],
+        "blank_us": 0,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": true
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "b5652455-3bd9-40ca-9087-3da5a5b5ad8e",
+        "source_hash": "e3fa1509fa7717e55d383b14d74b5d934feb4ccff0585c04a0a7e48228dc954e",
+        "bundle_sha256": "b82ecd1b6b91c506529f8b117ce5568e30fa4e04221823ced46e3b43f67bd2c6",
+        "result_sha256": "a245a334d0424d9a7d4b817429162ad0bc6be0b4e70f386618c64070c107d042",
+        "bundle_artifact_id": "90992141-2119-470a-8f4b-51778fda2c82"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/b5652455-3bd9-40ca-9087-3da5a5b5ad8e",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/90992141-2119-470a-8f4b-51778fda2c82"
+      }
+    },
+    {
+      "id": "e22fd12f-cde7-41a4-adc0-99ae55c7eed6",
+      "run_id": "5826d84e-022e-4b7e-a03d-4b207f3a1299",
+      "checkpoint_id": "5caad3b2-58ac-48df-be61-08226b1ebe7c",
+      "source_hash": "8772637a70327271b588583b738a8762e7b432d7f0fb21841b009bb81a7658f7",
+      "protocol": {
+        "cues": [
+          "松子",
+          "铃铛"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 60,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "a03ab197-eee1-4b7d-b52f-29963802bcfb",
+        "source_hash": "8772637a70327271b588583b738a8762e7b432d7f0fb21841b009bb81a7658f7",
+        "bundle_sha256": "b1976307504704d5c703d5679cdd6cc25d56ce03776a5face47019263b0d7553",
+        "result_sha256": "7fb644b751ec17a0d66462bc970d5e97f4da2177da639926a675747c72aa3b9a",
+        "bundle_artifact_id": "c1e9cddb-0b1b-471c-8aaa-d1be09f5011f"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/a03ab197-eee1-4b7d-b52f-29963802bcfb",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/c1e9cddb-0b1b-471c-8aaa-d1be09f5011f"
+      }
+    },
+    {
+      "id": "e68a3be5-b2df-4361-b576-c8331f75fe2d",
+      "run_id": "96b4e4b3-05ea-4baf-834a-b28b9c0a81cd",
+      "checkpoint_id": "374fdcde-6b06-48d7-87f9-d4570ae52c1e",
+      "source_hash": "d88b59e9a80a0e5be5dc07841a6ebdb83c6e71bf9d9d4bd247e20477a42d36b4",
+      "protocol": {
+        "cues": [
+          "甲是",
+          "乙是",
+          "甲",
+          "乙"
+        ],
+        "route": "continuation",
+        "terms": [
+          "松子",
+          "铃铛"
+        ],
+        "blank_us": 0,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": true
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "bd9eb35f-7f6a-4222-8e55-84a05e951616",
+        "source_hash": "d88b59e9a80a0e5be5dc07841a6ebdb83c6e71bf9d9d4bd247e20477a42d36b4",
+        "bundle_sha256": "aac45c1410c4820b1b14fbe298ec59144440da5b1c451623be26ed4750939488",
+        "result_sha256": "cbb13b3287f562773cc610d6340918d5bf5af0ccbb5fb0ed023ed5c5ae109751",
+        "bundle_artifact_id": "f8f2a43a-5c1f-4eb4-9fd7-5fd8f27edcab"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/bd9eb35f-7f6a-4222-8e55-84a05e951616",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/f8f2a43a-5c1f-4eb4-9fd7-5fd8f27edcab"
+      }
+    },
+    {
+      "id": "f1e481e7-9f00-47a2-bc16-56595f593929",
+      "run_id": "cbf2785d-c189-4ea2-b625-49713636a549",
+      "checkpoint_id": "8a06b051-1096-41c7-a103-0ee1f22850d7",
+      "source_hash": "77be309e9cc58faa9efab78a4340d37a8c681de14269de47af0abf8b5a5243c7",
+      "protocol": {
+        "cues": [
+          "甲是",
+          "乙是",
+          "甲",
+          "乙"
+        ],
+        "route": "continuation",
+        "terms": [
+          "松子",
+          "铃铛"
+        ],
+        "blank_us": 0,
+        "sample_us": 20000,
+        "window_us": 1000000,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "score_from_us": 200000,
+        "learning_during_probe": true
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "73e5df56-00ca-4c40-919d-6f0919dccd88",
+        "source_hash": "77be309e9cc58faa9efab78a4340d37a8c681de14269de47af0abf8b5a5243c7",
+        "bundle_sha256": "c3ac8f81aa9361d4e2e980b7183f7b0dde5cdd265ab14ffe371899b848941420",
+        "result_sha256": "c0c4bbfacb61ed87b8f9559587e01c8fb707d9ec649cb03cbe2a868fcfb5e2af",
+        "bundle_artifact_id": "e556c279-0386-4f3e-adc5-2968c7e4c9cc"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/73e5df56-00ca-4c40-919d-6f0919dccd88",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/e556c279-0386-4f3e-adc5-2968c7e4c9cc"
+      }
+    },
+    {
+      "id": "f97e0357-db25-4efc-8202-cd87f034403a",
+      "run_id": "5826d84e-022e-4b7e-a03d-4b207f3a1299",
+      "checkpoint_id": "5caad3b2-58ac-48df-be61-08226b1ebe7c",
+      "source_hash": "8772637a70327271b588583b738a8762e7b432d7f0fb21841b009bb81a7658f7",
+      "protocol": {
+        "cues": [
+          "甲是",
+          "乙是",
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 60,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "efbeebc6-3b4f-4835-b318-bc697fd6127c",
+        "source_hash": "8772637a70327271b588583b738a8762e7b432d7f0fb21841b009bb81a7658f7",
+        "bundle_sha256": "e3e78791cb609c9b3c2f227ada24ccd993cfd23f20483244b91a5c848b7232cd",
+        "result_sha256": "fdc780e991107fe7bf2dbead9adca521d8e589b3729c3e47be9aa4a66ea56c75",
+        "bundle_artifact_id": "53d1b8b1-dfed-44a5-951d-59895569b4f0"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/efbeebc6-3b4f-4835-b318-bc697fd6127c",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/53d1b8b1-dfed-44a5-951d-59895569b4f0"
+      }
+    },
+    {
+      "id": "fd921789-d5ef-449f-bf2f-070e35b22b37",
+      "run_id": "cbf2785d-c189-4ea2-b625-49713636a549",
+      "checkpoint_id": "8a06b051-1096-41c7-a103-0ee1f22850d7",
+      "source_hash": "77be309e9cc58faa9efab78a4340d37a8c681de14269de47af0abf8b5a5243c7",
+      "protocol": {
+        "cues": [
+          "甲是",
+          "乙是",
+          "甲",
+          "乙"
+        ],
+        "mode": "temporal",
+        "route": "continuation",
+        "blank_us": 0,
+        "intensities": [
+          1.0,
+          0.0
+        ],
+        "max_wall_seconds": 60,
+        "temporal_readout": {
+          "enabled": true,
+          "settle_us": 800000,
+          "trigger_ai": false,
+          "baseline_us": 1200000,
+          "interval_us": 100000,
+          "ranking_mode": "composite",
+          "display_limit": 20,
+          "trigger_manual": true,
+          "candidate_scope": "associative-or-persistent",
+          "max_response_us": 12000000,
+          "min_response_us": 1200000,
+          "trigger_ambient": false,
+          "comparison_top_k": 7,
+          "max_node_entries": 100000,
+          "max_active_windows": 64,
+          "baseline_noise_gain": 1.0,
+          "max_history_samples": 10000,
+          "activation_threshold": 0.055,
+          "convergence_drift_max": 0.12,
+          "decay_final_ratio_max": 0.35,
+          "excess_activation_min": 0.005,
+          "convergence_jaccard_min": 0.8,
+          "consider_activation_strength": true,
+          "convergence_amplitude_drift_max": 0.12
+        },
+        "learning_during_probe": null
+      },
+      "status": "done",
+      "result": {
+        "artifact_id": "9c687026-5c81-4b65-b912-28445e06afe8",
+        "source_hash": "77be309e9cc58faa9efab78a4340d37a8c681de14269de47af0abf8b5a5243c7",
+        "bundle_sha256": "fe2ae3abdceeb339bfe0d733c4d932cee98b1b97e0c3fca452aa60c488c3c434",
+        "result_sha256": "93effc68704a34dccaf5f62b39865849b239d0b1acb2c2603a5903422af82bd6",
+        "bundle_artifact_id": "7fa26dbd-92c6-4a76-996a-761c4b5870b0"
+      },
+      "downloads": {
+        "artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/9c687026-5c81-4b65-b912-28445e06afe8",
+        "bundle_artifact_id": "/api/v2/projects/2dabc73f-1f27-498b-83ae-93c4c6e10c1c/artifacts/7fa26dbd-92c6-4a76-996a-761c4b5870b0"
+      }
+    }
+  ]
+}

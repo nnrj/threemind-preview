@@ -1,0 +1,17 @@
+# E64: blank-start centered recognition using the successful teaching/calibration method
+
+Registered 2026-10-08 after source audit. The user explicitly retained a single whole eye, one centered object and eight-word shape/color answers. This is an adaptation of E56's method, not an exact reproduction of its four-position task. The [audit](audit.md) lists differences before execution; E63's stopped subject is not continued first.
+
+Start a blank continuous-memory/2 Core (seed223; optical/text seed91) and its own new peripheral. Restore the E56 temporal Transformer architecture, ordinary strength1, 50ms character delivery, 104 lessons of1.5s, and review gaps0/6/18s (180s total). Teach grey shapes and colored cubes. Retain the current fixed-body whole-eye apparatus, physical background and unchanged Core dynamics/defaults.
+
+Collect48 genuine answer-free questions from independent complete copies:16shape,16color,16conjunction questions. Sample8 unchanged raw activation/inhibition/direct/associative frames across each one-second question. Fit the peripheral for1200updates with E56's AdamW.002/batch32/training-loss selection. Preserve the matching optimizer and RNG. No image, target or scene metadata is an inference argument. The same individual's peripheral continues; no replacement between ordinary stages.
+
+Use12practice questions to define the original exposure procedure:5repetitions, gaps0/0/0/6/18s, one-second question plus two-second observation. Collect12later question windows and continue calibration on48+12examples for1200updates. This is external instrument calibration, not unbroken online co-development.
+
+Test32pre-registered questions (4grey shapes,4colored spheres,12colored cylinders/cubes/cones asked both properties), and a second32with a different pre-registered small displacement/order. Each question starts from the same complete source copy with its fixed personal peripheral. Report actual answers,16shape/16color, and explicitly separate calibrated conjunctions from held-out combinations. Reliable improvement requires at least24/32and12/16per property on BOTH sets; scores below remain informative but do not trigger calibration of the old subject.
+
+If this passes, test existing-edge silence/rescue with the fixed reader; also score zero and shuffled recorded activity. Only then calibrate a separate continuation copy of the old E63 individual with its own original weights/Adam, without transplanting the new decoder. Its original16-frame head is retained and reported separately. If both work, write a separate experimental procedure standard alongside, not inside, the preserved Core hypotheses.
+
+Calibration conjunctions are fixed in advance: each shape paired with its same-index and next-index color, asking both properties. Labels supervise only the external translator. No baseline subtraction, per-trial amplitude normalization, core-rule change, test-based checkpoint choice, sensor remapping or old-data overwrite. Source audit and bounded manifests replace repeated scans of large evidence.
+
+Budget: one worker,384creations/restores,90compute minutes including failures, process4GiB; reserve2GiB RAM and C5/E15GiB. New evidence2GiB stops expansion,4GiB including archive hard limit. E63/E64 share the18%account starting value:23%stops expansion,24%stops simulations. Refresh actual readings every30minutes. Preserve stopped evidence; do not operate user services.

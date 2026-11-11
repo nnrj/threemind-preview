@@ -1,38 +1,57 @@
 {
-  "schema": "threemind.public-preview-review/1",
+  "schema": "threemind.public-preview-review/2",
   "date": "2026-11-11",
-  "source": {
-    "files_scanned": 2663,
-    "credential_key_patterns_and_manuscript_path_checks": "passed",
-    "reviewed_nonsecret_url_examples": [
-      "legacy/ui/src/Lab.tsx: URL placeholder",
-      "tests_v2/test_ai_providers.py: negative test fixture"
-    ]
-  },
-  "data": {
-    "evidence_files": 28314,
-    "archive_path_lists_inspected": 8159,
-    "detected_types": {
-      "text": 12201,
-      "gzip": 4963,
-      "torch-checkpoint": 2518,
-      "media-or-binary": 2991,
-      "zip": 5641
+  "initial_extraction_review": {
+    "schema": "threemind.public-preview-review/1",
+    "date": "2026-11-11",
+    "source": {
+      "files_scanned": 2663,
+      "credential_key_patterns_and_manuscript_path_checks": "passed",
+      "reviewed_nonsecret_url_examples": [
+        "legacy/ui/src/Lab.tsx: URL placeholder",
+        "tests_v2/test_ai_providers.py: negative test fixture"
+      ]
     },
-    "full_text_review": {
-      "scope": "All selected loose text, complete gzip streams, and all text members of ZIP archives; archive member paths and disguised Office formats checked in the first pass. No model deserialization.",
-      "counts": {
+    "data": {
+      "evidence_files": 28314,
+      "archive_path_lists_inspected": 8159,
+      "detected_types": {
+        "text": 12201,
         "gzip": 4963,
-        "zip_text_members": 38233,
-        "loose_text": 12201
+        "torch-checkpoint": 2518,
+        "media-or-binary": 2991,
+        "zip": 5641
       },
-      "expanded_text_bytes_scanned": 146884127534,
-      "findings": []
+      "full_text_review": {
+        "scope": "All selected loose text, complete gzip streams, and all text members of ZIP archives; archive member paths and disguised Office formats checked in the first pass. No model deserialization.",
+        "counts": {
+          "gzip": 4963,
+          "zip_text_members": 38233,
+          "loose_text": 12201
+        },
+        "expanded_text_bytes_scanned": 146884127534,
+        "findings": []
+      },
+      "extensionless_python_source_reviewed": true,
+      "payload_hashes_verified_during_copy": true
     },
-    "extensionless_python_source_reviewed": true,
-    "payload_hashes_verified_during_copy": true
+    "excluded": "Manuscript drafts, manuscript-authoring documents, private discussion archives, local credentials, host control queues and duplicate API readbacks. Scientific protocols and experiment reports remain evidence.",
+    "findings_requiring_removal": [],
+    "scope_note": "Signature and filename checks, plus format and provenance inspection. Models were not executed or deserialized for this review."
   },
-  "excluded": "Manuscript drafts, manuscript-authoring documents, private discussion archives, local credentials, host control queues and duplicate API readbacks. Scientific protocols and experiment reports remain evidence.",
-  "findings_requiring_removal": [],
-  "scope_note": "Signature and filename checks, plus format and provenance inspection. Models were not executed or deserialized for this review."
+  "supplement_review": {
+    "source_derived_additions": 2721,
+    "exact_additions": 2635,
+    "edited_public_additions": 85,
+    "known_private_conversation_locators_found": 0,
+    "credential_signature_findings": 0,
+    "personal_context": "Only founding-statement recollections explicitly approved by the author were found in the added material. Their English/Chinese sources and excerpt JSON retain them.",
+    "images_visually_reviewed": 246,
+    "paper_directory": "Six explicitly approved research PNGs only; no manuscript or draft text files.",
+    "omissions": "Marked at each edited document location and in JSON metadata; source positions indexed in PUBLIC_OMISSIONS.json.",
+    "excluded": "Manuscript text and drafts, writing/submission discussions, private conversation locators, credentials/local state and raw experimental payloads.",
+    "scope_limit": "Signature checks and manual review of flagged text and all added PNGs; scientific result reports are intentionally public. This is not a claim that automated scanning can prove absence of every possible secret.",
+    "packaging_adjustments": 1
+  },
+  "data_preview": "Not changed or recopied in this supplement; prior extraction review remains recorded above."
 }

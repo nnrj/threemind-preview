@@ -1,51 +1,103 @@
 {
-  "schema": "threemind.public-preview-validation/1",
+  "schema": "threemind.public-preview-validation/2",
   "date": "2026-11-11",
   "source_commit": "8f56c7872458f40e9367c7144d74968fa7187a19",
-  "python": "3.13.0",
-  "python_dependencies": {
-    "numpy": "2.5.3",
-    "scipy": "1.18.1",
-    "torch": "2.14.0+cu130",
-    "maturin": "1.15.0",
-    "pytest": "9.1.1"
+  "initial_extraction_checks": {
+    "preview_commit": "bd1cf983b22f8a28b35672249076bdbb55d350a6",
+    "record": {
+      "schema": "threemind.public-preview-validation/1",
+      "date": "2026-11-11",
+      "source_commit": "8f56c7872458f40e9367c7144d74968fa7187a19",
+      "python": "3.13.0",
+      "python_dependencies": {
+        "numpy": "2.5.3",
+        "scipy": "1.18.1",
+        "torch": "2.14.0+cu130",
+        "maturin": "1.15.0",
+        "pytest": "9.1.1"
+      },
+      "preserved_source_files_verified": 2652,
+      "python_files_syntax_checked": 1750,
+      "native_extension": "Built from the preview source into an isolated temporary directory",
+      "standalone_runtime": "Built from the preview source with cargo build --offline --locked -p threemind-runtime",
+      "kernel_regression": {
+        "passed": 343,
+        "failed": 0,
+        "test_files": [
+          "tests_v2/test_kernel_registry.py",
+          "tests_v2/test_local51_equivalence.py",
+          "tests_v2/test_local53.py",
+          "tests_v2/test_weight_decay.py"
+        ],
+        "included": "Historical routing, reference/native equivalence, /5.3 rules and standalone artifact roundtrips"
+      },
+      "workbench": {
+        "dependency_install": "Lockfile dependencies installed from existing cache using npm ci --offline --ignore-scripts",
+        "typescript_and_vite_build": "passed",
+        "existing_large_chunk_warning": true,
+        "browser_interaction_tested": false
+      },
+      "cli_help_import": "passed",
+      "code_data_git_guard": "passed before initial commit",
+      "data": {
+        "files_copied_and_sha256_readback_verified": 28314,
+        "bytes": 45671121023,
+        "historical_original_checksums_verified_where_available": true,
+        "SAT_parent_dependencies_verified": 96,
+        "four_confirmation_reanalyses_match": true
+      },
+      "environment_scope": "Existing Python dependencies and cached Rust/Node packages were used; the native extension and standalone runtime were freshly built from the extracted source. No database service or scientific run was started.",
+      "originals": {
+        "source_git_clean": true,
+        "preserved_source_files_still_match_original_repository": true,
+        "author_manuscript_unchanged": true,
+        "data_sources_were_not_written": true
+      },
+      "publication": "Local only; no push or upload"
+    },
+    "scope": "Prior completed checks; the kernel/build/data checks here were not rerun for the documentation supplement."
   },
-  "preserved_source_files_verified": 2652,
-  "python_files_syntax_checked": 1750,
-  "native_extension": "Built from the preview source into an isolated temporary directory",
-  "standalone_runtime": "Built from the preview source with cargo build --offline --locked -p threemind-runtime",
-  "kernel_regression": {
-    "passed": 343,
-    "failed": 0,
-    "test_files": [
-      "tests_v2/test_kernel_registry.py",
-      "tests_v2/test_local51_equivalence.py",
-      "tests_v2/test_local53.py",
-      "tests_v2/test_weight_decay.py"
-    ],
-    "included": "Historical routing, reference/native equivalence, /5.3 rules and standalone artifact roundtrips"
+  "supplement_checks": {
+    "source_manifest": {
+      "exact_source_files": 5287,
+      "public_editions": 85,
+      "generated_files": 5,
+      "packaging_edits": 1,
+      "verification": "All listed file sizes and SHA-256 hashes verified."
+    },
+    "history_catalogue": {
+      "passed": true,
+      "editions": 4,
+      "chapters": 135,
+      "scope": "Catalogue, bilingual coverage and local Markdown links."
+    },
+    "history_tests": {
+      "passed": 5,
+      "failed": 0,
+      "test_file": "tests_v2/test_history.py",
+      "initial_attempt": "Windows sandbox temporary-fixture access denied; isolated authorized rerun passed."
+    },
+    "syntax": {
+      "new_json_files_parsed": 992,
+      "new_python_files_parsed": 3
+    },
+    "runtime_resources": "Replay HTML/templates and the settings example restored byte-identically; no simulation was run.",
+    "paper_figure_api": "The unchanged Documents.resource API rejects docs/paper image paths. Files and direct Markdown links are valid; no API access boundary was changed.",
+    "original_source_integrity": {
+      "tracked_files_hashed": 6070,
+      "changed_files": 0,
+      "head": "8f56c7872458f40e9367c7144d74968fa7187a19",
+      "git_worktree_clean": true
+    },
+    "git_data_guard": {
+      "staged": "passed",
+      "all_tracked": "passed"
+    },
+    "staged_byte_check": {
+      "files_checked": 5391,
+      "mismatches": 0,
+      "note": "One old JSON newline-conversion rule was overridden in preview Git attributes before this successful check."
+    }
   },
-  "workbench": {
-    "dependency_install": "Lockfile dependencies installed from existing cache using npm ci --offline --ignore-scripts",
-    "typescript_and_vite_build": "passed",
-    "existing_large_chunk_warning": true,
-    "browser_interaction_tested": false
-  },
-  "cli_help_import": "passed",
-  "code_data_git_guard": "passed before initial commit",
-  "data": {
-    "files_copied_and_sha256_readback_verified": 28314,
-    "bytes": 45671121023,
-    "historical_original_checksums_verified_where_available": true,
-    "SAT_parent_dependencies_verified": 96,
-    "four_confirmation_reanalyses_match": true
-  },
-  "environment_scope": "Existing Python dependencies and cached Rust/Node packages were used; the native extension and standalone runtime were freshly built from the extracted source. No database service or scientific run was started.",
-  "originals": {
-    "source_git_clean": true,
-    "preserved_source_files_still_match_original_repository": true,
-    "author_manuscript_unchanged": true,
-    "data_sources_were_not_written": true
-  },
-  "publication": "Local only; no push or upload"
+  "scope": "Original repository and ThreeMindData were not written. No experiment, training, database or long-running service was started. Local preparation only; no push or upload."
 }

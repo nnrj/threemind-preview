@@ -1,0 +1,11 @@
+{
+  "scope": "fully intercepted fixture; no live Lab or database",
+  "cards": 7,
+  "local_defaults_visible": true,
+  "viewport_widths": [
+    1440,
+    390
+  ],
+  "page_errors": [],
+  "unexpected_requests": []
+}

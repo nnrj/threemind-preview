@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-09-10T09:35:13.080837+00:00",
+  "project_id": "2dabc73f-1f27-498b-83ae-93c4c6e10c1c",
+  "database_growth_bytes": 53362688,
+  "local_evidence_bytes": 26152730,
+  "combined_new_storage_bytes": 79515418,
+  "jobs": [
+    {
+      "status": "done",
+      "n": 78
+    }
+  ],
+  "quota": {
+    "used_percent": 78,
+    "stage": "before publication",
+    "checked_at": "2026-09-10T09:32:47.291900+00:00",
+    "scope": "shared account window"
+  },
+  "disk_free_bytes": {
+    "D:/": 39051255808,
+    "E:/": 49292869632
+  },
+  "completion_note_id": "67d314f2-5275-45ff-a25b-2e040865aea2",
+  "model_execution_after_study": false
+}

@@ -1,0 +1,9 @@
+{
+  "baseline_used_percent": 65,
+  "used_percent": 66,
+  "stop_used_percent": 83,
+  "source": "Codex account usage tool; checked again after all experiments and report publication",
+  "scope": "account-wide approximate observation, potentially delayed; not exact per-task billing",
+  "observed_increase_percentage_points": 1,
+  "stop_triggered": false
+}

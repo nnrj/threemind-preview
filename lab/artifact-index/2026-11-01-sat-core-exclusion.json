@@ -1,0 +1,22 @@
+{
+  "schema": "threemind.sat-core-exclusion-artifact-location/1",
+  "study": "R42 SAT v3",
+  "work": "E:\\ThreeMindData\\experiments\\2026-11-01-sat-core-exclusion\\v1",
+  "resource_id": "sat-core-exclusion-20261101-v1",
+  "project_id": "114851bb-fed4-4508-9b8e-898a8e0098a4",
+  "record_id": "fd28c3a2-6ba3-5541-b49b-7551b3a5e4da",
+  "archive": "originals-v1.zip",
+  "archive_sha256": "45c1d58687199d561fdb18527d023f520253e3c326908dae0c813529e04b547b",
+  "archive_bytes": 136542318,
+  "original_members": 5066,
+  "verified": true,
+  "pending": 0,
+  "independent_parent_origins": 8,
+  "research_branches": 64,
+  "algorithm_baseline_conditions": 24,
+  "reports": [
+    "lab/explorations/2026-11-01-sat-core-exclusion/report.zh.md",
+    "lab/explorations/2026-11-01-sat-core-exclusion/report.en.md"
+  ],
+  "tracked_classification": "code, protocols, reports, aggregate summaries and artifact-location metadata; no original trajectories or restorable subjects"
+}

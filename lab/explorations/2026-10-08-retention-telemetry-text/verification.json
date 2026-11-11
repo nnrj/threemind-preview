@@ -1,0 +1,116 @@
+{
+  "recorded_utc": "2026-10-08T13:51:12.061901+00:00",
+  "source_commit": "bd4512385bc798ce229f3f028336b00ed48f34d6",
+  "frozen_file_hashes_checked": {
+    "run-01": 631,
+    "run-02": 631,
+    "run-03": 319,
+    "trace-01": 3
+  },
+  "git_staged_frozen_bytes_identical": true,
+  "core_crates_frontend_unchanged": true,
+  "backend_prefix_validation": {
+    "run-01": [
+      {
+        "full_state_matches": true,
+        "mode": "adaptive-half-life",
+        "same_backend_restore_exact": true,
+        "until_us": "24000000",
+        "wall_seconds": 3.734536199946888
+      },
+      {
+        "full_state_matches": true,
+        "mode": "legacy-stability",
+        "same_backend_restore_exact": true,
+        "until_us": "24000000",
+        "wall_seconds": 3.5538117000833154
+      }
+    ],
+    "run-02": [
+      {
+        "full_state_matches": true,
+        "mode": "adaptive-half-life",
+        "same_backend_restore_exact": true,
+        "until_us": "24000000",
+        "wall_seconds": 3.8617403999669477
+      },
+      {
+        "full_state_matches": true,
+        "mode": "legacy-stability",
+        "same_backend_restore_exact": true,
+        "until_us": "24000000",
+        "wall_seconds": 3.6607616000110283
+      }
+    ],
+    "run-03": {
+      "full_state_matches": true,
+      "mode": "full-v2",
+      "same_backend_restore_exact": true,
+      "until_us": "24000000",
+      "wall_seconds": 3.0954751999815926
+    }
+  },
+  "checks": [
+    {
+      "command": [
+        "C:\\Users\\tianh\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "tools/validate_history.py"
+      ],
+      "returncode": 0,
+      "output": "History verified: 4 editions, 77 chapters; bilingual coverage and local links valid.",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "E:\\WORKSPACE\\AgentWork\\threemind\\.venv\\Scripts\\ruff.exe",
+        "check",
+        "E:\\WORKSPACE\\AgentWork\\threemind\\lab\\explorations\\2026-10-08-retention-telemetry-text",
+        "--exclude",
+        "run-*",
+        "--exclude",
+        "trace-01"
+      ],
+      "returncode": 0,
+      "output": "All checks passed!",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "E:\\WORKSPACE\\AgentWork\\threemind\\.venv\\Scripts\\ruff.exe",
+        "format",
+        "--check",
+        "E:\\WORKSPACE\\AgentWork\\threemind\\lab\\explorations\\2026-10-08-retention-telemetry-text",
+        "--exclude",
+        "run-*",
+        "--exclude",
+        "trace-01"
+      ],
+      "returncode": 0,
+      "output": "12 files already formatted",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "-c",
+        "core.safecrlf=false",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "returncode": 0,
+      "output": "",
+      "stderr": ""
+    }
+  ],
+  "figures_sha256": {
+    "retention.png": "f7d478a0f89436a8edc355752613a5c998554afdbadbb99fee22f1dc8beb9b52",
+    "retention.svg": "3b3a19adab22183c3d2a891cec9963575cbfe5ba389f15d26c331d97ce2e90e9",
+    "repetition-diagnostic.png": "65647784913a39e9a9faee7a76ac065802061546c405a927ceb1752c3779c41c",
+    "repetition-diagnostic.svg": "fa104904d3eed8e719f3d59117e288325d81758e45183aff2a4e0a991ff097ea",
+    "legacy-comparison.png": "0f5248a3c656d0632bb270ccb0f85896706fad638d3e145b1a89e8d1dbfcc858",
+    "legacy-comparison.svg": "f78417589c48b4ecbc95509b73a5ed81062f1140f30432075dad0559933a2985"
+  },
+  "figure_review": "All three PNG figures visually reviewed; SVG whitespace cleanup preserves geometry.",
+  "scope": "Lab scripts, registrations, raw evidence, plots and documentation only; no Core/default changes. Full trajectories use Rust, backend parity covers 24-second prefixes. No service changes or push."
+}

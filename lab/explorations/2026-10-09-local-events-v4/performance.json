@@ -1,0 +1,104 @@
+[
+  {
+    "advance_s": 0.0001729999203234911,
+    "audit": {
+      "edge_visits": 61,
+      "edges_awakened": 0,
+      "edges_deleted": 0,
+      "expiry_checks": 1,
+      "node_visits": 25,
+      "nodes_awakened": 0,
+      "nodes_deleted": 0,
+      "scan_visits": 0
+    },
+    "mode": "local-events",
+    "nodes": 2,
+    "observation_s": 8.610007353127003e-05,
+    "save_compress_s": 0.0005507000023499131
+  },
+  {
+    "advance_s": 0.0001580000389367342,
+    "audit": {
+      "edge_visits": 61,
+      "edges_awakened": 0,
+      "edges_deleted": 0,
+      "expiry_checks": 1,
+      "node_visits": 25,
+      "nodes_awakened": 0,
+      "nodes_deleted": 0,
+      "scan_visits": 20
+    },
+    "mode": "scan-control",
+    "nodes": 2,
+    "observation_s": 6.530003156512976e-05,
+    "save_compress_s": 0.00043379992712289095
+  },
+  {
+    "advance_s": 0.00016739999409765005,
+    "audit": {
+      "edge_visits": 61,
+      "edges_awakened": 0,
+      "edges_deleted": 0,
+      "expiry_checks": 1,
+      "node_visits": 25,
+      "nodes_awakened": 0,
+      "nodes_deleted": 0,
+      "scan_visits": 0
+    },
+    "mode": "local-events",
+    "nodes": 1002,
+    "observation_s": 0.0005403000395745039,
+    "save_compress_s": 0.012578800087794662
+  },
+  {
+    "advance_s": 0.0002221000613644719,
+    "audit": {
+      "edge_visits": 61,
+      "edges_awakened": 0,
+      "edges_deleted": 0,
+      "expiry_checks": 1,
+      "node_visits": 25,
+      "nodes_awakened": 0,
+      "nodes_deleted": 0,
+      "scan_visits": 10020
+    },
+    "mode": "scan-control",
+    "nodes": 1002,
+    "observation_s": 0.0005909000756219029,
+    "save_compress_s": 0.013791700010187924
+  },
+  {
+    "advance_s": 0.00016529997810721397,
+    "audit": {
+      "edge_visits": 61,
+      "edges_awakened": 0,
+      "edges_deleted": 0,
+      "expiry_checks": 1,
+      "node_visits": 25,
+      "nodes_awakened": 0,
+      "nodes_deleted": 0,
+      "scan_visits": 0
+    },
+    "mode": "local-events",
+    "nodes": 10002,
+    "observation_s": 0.005503399996086955,
+    "save_compress_s": 0.11524220008868724
+  },
+  {
+    "advance_s": 0.0006364000728353858,
+    "audit": {
+      "edge_visits": 61,
+      "edges_awakened": 0,
+      "edges_deleted": 0,
+      "expiry_checks": 1,
+      "node_visits": 25,
+      "nodes_awakened": 0,
+      "nodes_deleted": 0,
+      "scan_visits": 100020
+    },
+    "mode": "scan-control",
+    "nodes": 10002,
+    "observation_s": 0.005659900023601949,
+    "save_compress_s": 0.11634419998154044
+  }
+]

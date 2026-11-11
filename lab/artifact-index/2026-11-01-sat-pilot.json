@@ -1,0 +1,21 @@
+{
+  "schema": "threemind.sat-pilot-artifact-location/1",
+  "study": "R42 / 2026-11-01 SAT pilot v1",
+  "work": "E:\\ThreeMindData\\experiments\\2026-11-01-sat-pilot\\v1",
+  "resource_id": "sat-pilot-20261101-v1",
+  "project_id": "7e0dbe00-99e4-4b28-afae-dd3e3cdac4d6",
+  "record_id": "2c6ef182-21d2-5049-8678-236191df04b8",
+  "archive_member": "originals-v1.zip",
+  "archive_sha256": "d657cf7c8155a9fff54e77f95b85ce6e72d7e4f2d892fed27988ec0b5448b46f",
+  "archive_bytes": 21347277,
+  "manifest_members": 3232,
+  "analysis_sha256": "7f23adf8de20b5ebeba7b789f41615835e318372c9913e13cad0336d7cb4564c",
+  "diagnostic_sha256": "88b0db16fd60a24983c411ea82bb728e1c06dc0e955d8f413ecf1b4ec4a4a5ff",
+  "publication_coverage": "verified",
+  "pending": 0,
+  "reports": [
+    "lab/explorations/2026-11-01-sat-pilot/report.zh.md",
+    "lab/explorations/2026-11-01-sat-pilot/report.en.md"
+  ],
+  "data_boundary": "Raw materials, states, trajectories and archives stay outside Git; small summaries are derived."
+}
