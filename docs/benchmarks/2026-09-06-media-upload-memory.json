@@ -1,0 +1,42 @@
+{
+  "schema": "threemind.media-upload-benchmark/1",
+  "date": "2026-09-06",
+  "cases": [
+    {
+      "raw_bytes": 2097846,
+      "upload_seconds": 0.041,
+      "hash_decode_admit_seconds": 0.385,
+      "rss_baseline_bytes": 92925952,
+      "rss_peak_bytes": 98971648,
+      "rss_peak_delta_bytes": 6045696,
+      "python_traced_peak_bytes": 4271255,
+      "rss_sample_interval_ms": 10,
+      "frame_count": 2,
+      "largest_carrier_read_bytes": 1048576
+    },
+    {
+      "raw_bytes": 269484726,
+      "upload_seconds": 3.961,
+      "hash_decode_admit_seconds": 3.403,
+      "rss_baseline_bytes": 98959360,
+      "rss_peak_bytes": 107466752,
+      "rss_peak_delta_bytes": 8507392,
+      "python_traced_peak_bytes": 4295055,
+      "rss_sample_interval_ms": 10,
+      "frame_count": 2,
+      "largest_carrier_read_bytes": 1048576
+    }
+  ],
+  "scope": "sequential API-store pipeline in one Python process; isolated local PostgreSQL",
+  "limits": [
+    "compressible generated RIFF padding with 321 real PCM samples",
+    "not long-video decode or disk throughput",
+    "RSS is sampled, not every allocation; tracemalloc omits native allocations",
+    "no prior data or .env read"
+  ],
+  "source_sha256": {
+    "src/threemind_lab/media_uploads.py": "a8dfb1813188a19e02ba276f3359b01202bd0b39f832339de135eb86c858d032",
+    "src/threemind_lab/media_codec.py": "6c49bfe5cb168eecf7e21da22ec32d076368318410f87b63c73b86e0da65661c",
+    "scripts/benchmark-media-upload.py": "5508a45945a3f27aa8618d30784ae070b314d31eac1b2c968698173f17ee39a0"
+  }
+}

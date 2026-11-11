@@ -1,0 +1,229 @@
+{
+  "schema": "threemind.validation-progress/1",
+  "date": "2026-09-06",
+  "stage": "D4 display and readout performance",
+  "status": "in_progress_not_accepted",
+  "base_commit": "022aacd",
+  "uncommitted_changes": true,
+  "core_changed": false,
+  "scientific_parameter_count": 419,
+  "database_schema": 20,
+  "checks": {
+    "latest_related_python": {
+      "passed": 22,
+      "skipped": 0,
+      "deselected": 1,
+      "seconds": 10.11,
+      "excluded": "PostgreSQL readout integration test; isolated test service unavailable",
+      "command": "python -X utf8 -m pytest tests_v2/test_readouts.py tests_v2/test_readout_columns.py tests_v2/test_sensory.py::test_output_consumers_do_not_mutate_each_other_and_evidence_failure_is_visible -k 'not database_readouts' -q -p no:cacheprovider",
+      "log": ".work/d4-pause-tests.log"
+    },
+    "frozen_pre_optimization_reference": {
+      "reference_file_sha256": "0c595ce5880c53fb8885fc59c818cd185a5d7b2b7d2f7eb78f847857f26d2b90",
+      "cases": [
+        {
+          "scope": "all-active",
+          "origin": "0",
+          "samples": 16,
+          "exact": true,
+          "output_sha256": "ab288fd0e670c25f000d5120b7670493153d04e153a8786a305ac8a2f3ea4335"
+        },
+        {
+          "scope": "all-active",
+          "origin": "37778931862957161709587",
+          "samples": 16,
+          "exact": true,
+          "output_sha256": "03ad89323eff9e841a294215e25b196bb4d8453b91fd0326d7a46629a9839a96"
+        },
+        {
+          "scope": "associative-only",
+          "origin": "0",
+          "samples": 16,
+          "exact": true,
+          "output_sha256": "ab288fd0e670c25f000d5120b7670493153d04e153a8786a305ac8a2f3ea4335"
+        },
+        {
+          "scope": "associative-only",
+          "origin": "37778931862957161709587",
+          "samples": 16,
+          "exact": true,
+          "output_sha256": "03ad89323eff9e841a294215e25b196bb4d8453b91fd0326d7a46629a9839a96"
+        },
+        {
+          "scope": "associative-or-persistent",
+          "origin": "0",
+          "samples": 16,
+          "exact": true,
+          "output_sha256": "ab288fd0e670c25f000d5120b7670493153d04e153a8786a305ac8a2f3ea4335"
+        },
+        {
+          "scope": "associative-or-persistent",
+          "origin": "37778931862957161709587",
+          "samples": 16,
+          "exact": true,
+          "output_sha256": "03ad89323eff9e841a294215e25b196bb4d8453b91fd0326d7a46629a9839a96"
+        }
+      ]
+    },
+    "ruff_changed_python": "passed",
+    "earlier_graph_backend": {
+      "passed": 5,
+      "seconds": 20.16,
+      "log": ".work/d4-graph-tests1.log"
+    },
+    "earlier_graph_model": {
+      "passed": 2,
+      "seconds": 3.7,
+      "log": ".work/d4-model.log"
+    },
+    "last_executed_browser_batch": {
+      "passed": 3,
+      "failed": 2,
+      "failures": [
+        "label-flow fixture expected paused but research advance ends completed",
+        "study scan select required explicit accessible name"
+      ],
+      "fixes_written": true,
+      "fixes_retested": false,
+      "log": ".work/d4-browser2.log"
+    },
+    "latest_browser_attempt": {
+      "status": "blocked_before_tests",
+      "reason": "Node child-process spawn EPERM",
+      "log": ".work/d4-browser3.log"
+    },
+    "latest_production_build": "blocked; last successful dist precedes final study select accessible-name change",
+    "last_complete_baseline": {
+      "stage": "D3b",
+      "passed": 273,
+      "skipped": 0
+    },
+    "d4_full_regression": "not_run"
+  },
+  "preliminary_readout_measurements": {
+    "before": [
+      {
+        "nodes": 1000,
+        "cold_ms": 16.91670000002432,
+        "steady_ms": [
+          14.822699999967881,
+          14.727200000038465,
+          15.076700000008714,
+          14.667300000041905,
+          14.503200000035577,
+          14.507699999967372,
+          14.25619999997707
+        ],
+        "steady_median_ms": 14.667300000041905,
+        "section_json_bytes": 133403,
+        "scope": "one structural and one temporal observer plus section JSON; excludes Core, checkpoint copying, database and UI"
+      },
+      {
+        "nodes": 10000,
+        "cold_ms": 171.6003000000228,
+        "steady_ms": [
+          161.3995000000159,
+          157.80170000005,
+          161.25640000007024,
+          150.54489999999987,
+          155.1943999999139,
+          158.15069999996467,
+          157.91400000000522
+        ],
+        "steady_median_ms": 157.91400000000522,
+        "section_json_bytes": 1348405,
+        "scope": "one structural and one temporal observer plus section JSON; excludes Core, checkpoint copying, database and UI"
+      }
+    ],
+    "after_column_prototype": [
+      {
+        "nodes": 1000,
+        "cold_ms": 1488.0607000000055,
+        "steady_ms": [
+          10.469600000078572,
+          9.55229999999574,
+          12.187399999902482,
+          10.992699999860633,
+          9.645599999885235,
+          9.506399999963833,
+          9.495600000036575
+        ],
+        "steady_median_ms": 9.645599999885235,
+        "section_json_bytes": 133403,
+        "scope": "one structural and one temporal observer plus section JSON; excludes Core, checkpoint copying, database and UI"
+      },
+      {
+        "nodes": 10000,
+        "cold_ms": 103.67219999989175,
+        "steady_ms": [
+          102.10300000017014,
+          96.4040000001205,
+          95.61009999993075,
+          95.3809000000092,
+          95.1850999999806,
+          101.49309999997058,
+          92.83340000001772
+        ],
+        "steady_median_ms": 95.61009999993075,
+        "section_json_bytes": 1348405,
+        "scope": "one structural and one temporal observer plus section JSON; excludes Core, checkpoint copying, database and UI"
+      }
+    ],
+    "scope": "Structural and temporal observation plus section JSON; excludes Core, checkpoint copying, database and UI. Seven steady samples per size. Not a real-time guarantee. After measurement precedes final scalar-compatibility hardening. Cold startup includes dependency import."
+  },
+  "preliminary_layout_measurements": {
+    "schema": "threemind.display-benchmark/1",
+    "at": "2026-09-06T11:33:06.922Z",
+    "node": "v24.14.0",
+    "cpu": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+    "scope": "Synthetic graph; Node worker calculation only, excludes database, HTTP, main-thread upload and GPU drawing.",
+    "measurements": [
+      {
+        "nodes": 10000,
+        "edges": 40000,
+        "labels": 80,
+        "prepare_ms": 20.363000000000056,
+        "layout_step_ms": 2.3633000000000948,
+        "transfer_pack_ms": 1.1575000000000273
+      },
+      {
+        "nodes": 100000,
+        "edges": 300000,
+        "labels": 80,
+        "prepare_ms": 244.8182999999999,
+        "layout_step_ms": 16.721700000000055,
+        "transfer_pack_ms": 3.1109999999998763
+      }
+    ]
+  },
+  "earlier_browser_buffer_lifecycle": {
+    "scope": "Browser WebGL2 createBuffer/deleteBuffer API instrumentation; not measured driver VRAM. Synthetic observation responses, real paused database run unchanged.",
+    "cycles": 5,
+    "node_counts": [
+      60,
+      10000,
+      60
+    ],
+    "edge_counts": [
+      240,
+      40000,
+      240
+    ],
+    "settled_live_buffers_each_cycle": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "live_after_unmount": 0
+  },
+  "remaining": [
+    "Restore local command execution and isolated PostgreSQL test service",
+    "Rebuild production UI and verify final browser paths and screenshots",
+    "End-to-end readout throughput and full regression",
+    "Evidence export observation commit-revision boundary and bounded event/carrier packaging",
+    "Avoid full historical checkpoint decode on unchanged graph requests",
+    "Stage documentation and tested local commits; never push"
+  ]
+}

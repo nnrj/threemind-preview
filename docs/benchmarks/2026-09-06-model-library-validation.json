@@ -1,0 +1,14 @@
+{
+  "stage": "D1",
+  "date": "2026-09-06",
+  "validation": {
+    "python_api_native": {"passed": 234, "skipped": 0, "seconds": 270.59},
+    "final_model_and_configuration": {"passed": 9, "seconds": 25.34},
+    "edge_model_and_configuration": {"passed": 2, "seconds": 35.1},
+    "edge_final_visual_correction": {"passed": 1, "seconds": 11.9}
+  },
+  "versions": {"database": 15, "core": "causal/7", "state": "state/5", "profile": "profile/5"},
+  "scope": "Independent metadata revisions, exact checkpoint origins, pageable library and version annotations, transactional history and annotation exports, reference-protected whole-run cleanup with rollback and shared media retention",
+  "data_safety": "Only synthetic test records were cleaned. No legacy data directory was read or migrated.",
+  "remaining": "D research workbench, AI, display/operations and performance; E notebooks/reports; innate evolutionary trainer"
+}

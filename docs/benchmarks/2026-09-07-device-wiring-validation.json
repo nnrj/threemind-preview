@@ -1,0 +1,65 @@
+{
+  "schema": "threemind.validation/1",
+  "date": "2026-09-07",
+  "source_base_commit": "7a41f88",
+  "scope": "Stable anonymous network wiring across deployment identities, credentials, model import and existing device UI",
+  "contracts": {
+    "lab_schema": 41,
+    "wiring_manifest": "threemind.network-wiring/1",
+    "network": "threemind-network/2 unchanged",
+    "core": "causal/7 unchanged",
+    "state": "state/5 unchanged",
+    "runtime_profile": "profile/5 unchanged",
+    "birth": "threemind.birth/1 unchanged"
+  },
+  "backend_integration": {
+    "passed": 27,
+    "failed": 0,
+    "skipped": 0,
+    "seconds": 120.07,
+    "warning": "One upstream ziamath DeprecationWarning",
+    "files": [
+      "test_device_wiring.py", "test_devices.py", "test_network.py",
+      "test_migration_restart.py", "test_research_operations.py",
+      "test_readout_fidelity.py", "test_adapter_api.py"
+    ],
+    "checks": [
+      "An actually stimulated model is exported as tmind with profile, imported into another project, bound to a new credential and receives the same stimuli through preserved wiring; complete Core hashes equal at 81000, 85000 and 100000 us",
+      "Original learned model remains unchanged; credential rotation preserves wiring and rejects the old credential",
+      "Explicit modulation uses stable remote wiring source while preserving current credential binding in provenance",
+      "Corrupt, ambiguous, duplicate-key, over-budget, wrong-seed and unsupported manifests rejected",
+      "Duplicate wiring on one consciousness rejected; immutable identity enforced by SQL and API",
+      "Schema 40 upgrade preserves device IDs as wiring IDs in two forced-RLS projects; repeated migration retains isolation",
+      "Existing scalar control, raw readout, envelope independence, WebSocket retries, timing, rollback, revocation, old upgrade boundaries and adapter catalogue remain valid"
+    ]
+  },
+  "browser": {
+    "browser": "Microsoft Edge, real local workstation",
+    "final_passed": 2,
+    "final_failed": 0,
+    "seconds": 19.6,
+    "first_round": {
+      "passed": 1,
+      "failed": 1,
+      "cause": "New wiring fieldset reused the old advanced-limit CSS class; old selector became ambiguous",
+      "fix": "Dedicated styled wiring group, followed by both complete flow rechecks"
+    },
+    "checks": [
+      "Original graphical device creation, actual WebSocket delivery, receipt and complete evidence downloads, rotation and revocation",
+      "New wiring default, actual manifest download, no credentials in file, corrupt-file refusal, valid import, new credential with preserved wiring, readonly editing",
+      "Desktop 1440 and mobile 390 viewport, no document overflow or page errors; all five final screenshots visually inspected"
+    ]
+  },
+  "build": "TypeScript and Vite passed; existing chunk-size advisory retained",
+  "ruff": "passed",
+  "translations": {"catalogue": 4217, "missing": 0, "duplicate_keys": 0, "invalid_placeholders": 0},
+  "legacy_parameters": {"reviewed": 55, "pending": 0, "data_files_read": false},
+  "workstation": "Migrated and restarted while idle, serving schema 41 on 127.0.0.1:8877",
+  "limitations": [
+    "No new full-suite or Docker build attributed to this wiring phase; prior container validation remains schema 40",
+    "Wiring manifest and model are explicitly exported separately; this covers network/2, not all world, body or hardware calibration formats",
+    "Checksums detect manifest corruption but are not authorization; permissions remain deployment-scoped",
+    "No automatic observer, warning intervention, AI provider call or voice activation",
+    "Small deterministic engineering fixtures do not establish consciousness or AGI"
+  ]
+}

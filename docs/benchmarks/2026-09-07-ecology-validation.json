@@ -1,0 +1,103 @@
+{
+  "schema": "threemind.validation/1",
+  "date": "2026-09-07",
+  "source_base_commit": "43636d9",
+  "scope": "Real ecological population coordination, atomic PostgreSQL checkpoints, complete individual evidence, GUI, fixed exports and verified on-demand archived dead brains.",
+  "contracts": {
+    "core": "causal/7 unchanged",
+    "state": "state/5 unchanged",
+    "runtime_profile": "profile/5 unchanged",
+    "birth": "threemind.birth/1 unchanged",
+    "world": "threemind.world/1 unchanged",
+    "database_schema": 39,
+    "population": "threemind.ecology-runtime/1",
+    "evidence": "threemind.ecology-evidence/1"
+  },
+  "full_suite": {
+    "passed": 479,
+    "failed": 1,
+    "skipped": 0,
+    "seconds": 1497.6,
+    "failure": "The old schema-32 upgrade fixture retained schema-39 tables while deleting its version markers, causing DuplicateTable. The fixture was corrected and rerun below.",
+    "scope_note": "Started before final cold-state integration and individual-related event filtering; final changed paths are covered by the integration runs below, not claimed as part of this full-suite run."
+  },
+  "final_ecology_integration": {
+    "passed": 25,
+    "failed": 0,
+    "skipped": 0,
+    "seconds": 73.87,
+    "files": [
+      "test_ecology_api.py",
+      "test_ecology_store.py",
+      "test_ecology_runtime.py",
+      "test_group_checkpoint.py",
+      "test_cold_state.py"
+    ]
+  },
+  "final_upgrade_and_operations": {
+    "passed": 5,
+    "failed": 0,
+    "skipped": 0,
+    "seconds": 34.89,
+    "includes_original_failure": true
+  },
+  "browser_regression": {
+    "passed": 5,
+    "failed": 0,
+    "reported_duration": "1.7m",
+    "browser": "Microsoft Edge",
+    "files": [
+      "ecology.spec.ts",
+      "worlds.spec.ts",
+      "configuration.spec.ts",
+      "development.spec.ts"
+    ]
+  },
+  "final_browser": {
+    "passed": 2,
+    "failed": 0,
+    "seconds": 41.7,
+    "file": "ecology.spec.ts",
+    "viewports": [
+      1440,
+      390
+    ]
+  },
+  "coverage": [
+    "Shared and independent actual offspring; inherited persistent state hashes and activity reset",
+    "Phase/input closure is applied before reproduction at the same physical boundary",
+    "Pending sensory-delivery interval and birth-offset clocks restore exactly",
+    "Group rollback after partial newborn writes; committed-response loss without duplicate evidence",
+    "Worker lease takeover, stale-writer rejection and accepted pause versus final completion",
+    "Frozen protocol, project isolation, independent lifecycle rejection and optional audited external inputs",
+    "Individual filtering includes parenthood and full resource transfer evidence",
+    "ZIP contains complete ecological events, individuals, CSV, SVG/PNG and optional verified model binaries",
+    "Graphical and JSON round-trip, default-on independent senses, read-only post-creation configuration",
+    "Historical population selection, 3D observation, responsive individual cards and owned population navigation",
+    "Confirmed dead/detached cores release mutable instances; unchanged checkpoints reuse durable brain references without reloading",
+    "Archived raw nodes, edges, readout windows, binary exports and complete population restoration remain identical"
+  ],
+  "performance": {
+    "record": "2026-09-07-ecology-retention.json",
+    "final_model_hashes_equal": 66,
+    "final_rss_baseline_bytes": 272969728,
+    "final_rss_archived_bytes": 109842432
+  },
+  "tooling": {
+    "frontend_build": "passed",
+    "ruff": "passed",
+    "translation_catalogue": 4164,
+    "translation_missing": 0,
+    "legacy_parameter_fields": 55,
+    "legacy_parameters_pending": 0,
+    "data_files_read": false,
+    "external_ai_calls": false
+  },
+  "remaining": [
+    "Ecological CLI and whole-population bundle import",
+    "Whole-population report source integration",
+    "Historical ledger/tool-state scalability and large-population throughput",
+    "Updated Docker image acceptance",
+    "Optional observation, warnings, evaluation and unified-adapter additions require the recorded design discussion"
+  ]
+}

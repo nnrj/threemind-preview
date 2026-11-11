@@ -1,0 +1,1195 @@
+{
+  "schema": "threemind.kernel-behavior-audit/1",
+  "baseline_commit": "95a6db5",
+  "duration_fix_commit": "0d334e7",
+  "native_extension_sha256": "fa127216fc6bc50e7cef43d192d13c0c49082bb69b433537f7bbe7fa96f89786",
+  "scope": "Frozen local legacy unified runtime versus current causal/7; no cross-version equivalence claim.",
+  "sources": {
+    "core/threemind/runtime.py": "4263c8e921a7cce73faba23fb6f673ecd1e0302846c7c17c14faa13fb31d9cdd",
+    "core/threemind/model.py": "624e708c40a4293304895067f9af00a29be4aefed54c7440288310148dae9e78",
+    "core/threemind/attention.py": "b5b4a3256c52bb971be7706b6c9a684a44ac1a2fe88f06f38ecc44bc04a796a2",
+    "core/threemind/frames.py": "a1da68bf0eb5aa17758995eb83018142f18c66dd8436c8471186c6fc4a2221ad",
+    "src/threemind_core/engine.py": "0b9b50e9c68c59eb452392ea3b7aac17459f56d73be395a7d542bc752d32c256",
+    "src/threemind_core/spec.py": "b8ea29364bb31e2e5504bea7dbf0280c2f6301b174c33a1f09303fc5ac0c46df",
+    "src/threemind_core/attention.py": "386f47720e8e590f4d5749eca05581026eb84cd191220db554c9230d2526234a",
+    "src/threemind_core/energy.py": "1168c65b3f9565e6e5a40814dc181c09e249e4e1e82564c9e6242cea5be93e6d",
+    "src/threemind_core/spatial.py": "e57fc876000e4124910dd3e5a1480e79b5c88150f5227d79d9e75fdd9338635c",
+    "src/threemind_core/resources.py": "75cb0c23ae291281782fc2fdb8f9c6d8bdcdeab67af08b02515bebfb5dee35a4",
+    "crates/threemind-core/src/lib.rs": "46a57a3cc1caeefe999157d3f6ef345e8e04854cad13d4e6ec784266277d28ec",
+    "crates/threemind-core/src/attention.rs": "a31e31781ca32ed1481f40669b22bc118899962daee2b0a30bc545a4dcfcdae4",
+    "crates/threemind-core/src/energy.rs": "ec3b55931e40ed6e2b404eac10bfabc70469b40f7bc9096f108c163e9e7c2569",
+    "crates/threemind-core/src/spatial.rs": "b2758cd8095fe21c9e537cc1808a0daeebe8b41b942352f998a93e60240a12a2",
+    "crates/threemind-core/src/resources.rs": "e5236deed1809215dc1bec2cbdf03ed527d0c352d9ba467a1b0abb478db45eca",
+    "src/threemind_lab/protocols.py": "0e0059e60478b539573dacd39099fd07de30ee007751f2c6106614ca75a52ab1",
+    "src/threemind_lab/run_cycle.py": "79b2470fba2a6c2d388580582c92ed3b8d5f472a4f17944ec9c08ec59308af90",
+    "src/threemind_lab/configuration.py": "42ec511064182e62d9d0b429e4e0b5b8d27773e1bf180d1d95ef0cfe99456895",
+    "src/threemind_lab/conversation_api.py": "b12e320fb233f62eacfcd4fc530852ac8f5519a9c031ca9533c8a2d147ec6904",
+    "src/threemind_runtime/sensory.py": "817a2e4ab33e0af42dd47578ab545d3061160886b736408d7faef99f36eb77f7",
+    "src/threemind_runtime/readout_config.py": "eef3c664ec2a1c17e72145f920a59816afb0c7ecf0b2d97c1fa8f2a2cac37fe6",
+    "src/threemind_runtime/readouts.py": "305763784c6d666cdb1658fbaee2effb81eb658a0736667fb9eae4355987278f",
+    "src/threemind_runtime/bus.py": "abe9bcf3e0c1cd9b9c0bbd933116d37047fdf97ea9c5160d7c12c4ddf3537d52",
+    "src/threemind_runtime/inheritance.py": "d95d169a8a101e77a630defddf76921319238e5d47b17f246407fbae9aa0aee8",
+    "src/threemind_runtime/adapters.py": "a3c85c872034687f3a9401cd83f8d00f27807d69f6e624f81a2c8f9c3ee34db0",
+    "src/threemind_runtime/cli.py": "d41edd494e95424f43c15ef2bd892f112469052d4668e230ca46801376bda358",
+    "adapters/threemind_adapters/sensors.py": "8011955134523bd7070b15fd62512fbd3205e11599f98a46c876ee5263c1edea",
+    "adapters/threemind_adapters/outputs.py": "a8c967b4204de14f460c9508a4bf7eea4a3ce70c81558b7adc5844674b3005b4",
+    "legacy/ui/src/ManagementPages.tsx": "37b2a82f58fb4605243ef472ec937dbce1cbc44dfcb1e71f36476d6bdb6368f1",
+    "threemind-ui/src/v2/inputs.tsx": "4f3e1049c0e13224f64d46b4a0c896ba34c537ad1b628351d91a1b7e09c11979",
+    "threemind-ui/src/v2/conversation.tsx": "79331591f302d9c91f70c398ad071786b92ef3955f1e3aa2d2c2cdbf283bba3a"
+  },
+  "inventory": {
+    "old_field_count": 55,
+    "new_field_count": 60,
+    "old_to_new": [
+      {
+        "old": "tick_seconds",
+        "old_default": 0.1,
+        "new": "step_us / Runtime.clock / speed",
+        "new_defaults": {
+          "step_us": 10000
+        }
+      },
+      {
+        "old": "activation_decay",
+        "old_default": 0.72,
+        "new": "activation_tau",
+        "new_defaults": {
+          "activation_tau": 0.3044
+        }
+      },
+      {
+        "old": "propagation_gain",
+        "old_default": 0.42,
+        "new": "propagation_rate / delay_us",
+        "new_defaults": {
+          "propagation_rate": 4.2,
+          "delay_us": 10000
+        }
+      },
+      {
+        "old": "propagation_activation_min",
+        "old_default": null,
+        "new": "propagation_activation_min",
+        "new_defaults": {
+          "propagation_activation_min": 0.0
+        }
+      },
+      {
+        "old": "node_activation_floor",
+        "old_default": 0.004,
+        "new": "activation_floor",
+        "new_defaults": {
+          "activation_floor": 1e-05
+        }
+      },
+      {
+        "old": "direct_gain",
+        "old_default": 0.9,
+        "new": "direct_gain",
+        "new_defaults": {
+          "direct_gain": 0.9
+        }
+      },
+      {
+        "old": "learning_rate",
+        "old_default": 0.055,
+        "new": "learning_rate",
+        "new_defaults": {
+          "learning_rate": 0.0055
+        }
+      },
+      {
+        "old": "edge_decay",
+        "old_default": 0.0025,
+        "new": "forgetting_rate",
+        "new_defaults": {
+          "forgetting_rate": 0.025
+        }
+      },
+      {
+        "old": "edge_birth_weight",
+        "old_default": 0.065,
+        "new": "birth_weight",
+        "new_defaults": {
+          "birth_weight": 0.065
+        }
+      },
+      {
+        "old": "stability_gain",
+        "old_default": 0.022,
+        "new": "stability_gain",
+        "new_defaults": {
+          "stability_gain": 0.022
+        }
+      },
+      {
+        "old": "stability_decay",
+        "old_default": 0.00015,
+        "new": "stability_tau",
+        "new_defaults": {
+          "stability_tau": 666.667
+        }
+      },
+      {
+        "old": "consolidation_first_gain",
+        "old_default": 0.045,
+        "new": "first_gain",
+        "new_defaults": {
+          "first_gain": 0.045
+        }
+      },
+      {
+        "old": "consolidation_repeat_gain",
+        "old_default": 0.018,
+        "new": "repeat_gain",
+        "new_defaults": {
+          "repeat_gain": 0.018
+        }
+      },
+      {
+        "old": "consolidation_intensity_gain",
+        "old_default": 0.075,
+        "new": "intensity_gain",
+        "new_defaults": {
+          "intensity_gain": 0.075
+        }
+      },
+      {
+        "old": "consolidation_associative_gain",
+        "old_default": 0.01,
+        "new": "associative_gain",
+        "new_defaults": {
+          "associative_gain": 0.01
+        }
+      },
+      {
+        "old": "consolidation_cap",
+        "old_default": 0.42,
+        "new": "consolidation_cap",
+        "new_defaults": {
+          "consolidation_cap": 0.42
+        }
+      },
+      {
+        "old": "prune_threshold",
+        "old_default": 0.008,
+        "new": "prune_weight",
+        "new_defaults": {
+          "prune_weight": 0.008
+        }
+      },
+      {
+        "old": "node_support_gain",
+        "old_default": 0.035,
+        "new": "support_gain",
+        "new_defaults": {
+          "support_gain": 0.035
+        }
+      },
+      {
+        "old": "node_support_decay",
+        "old_default": 0.00015,
+        "new": "support_tau",
+        "new_defaults": {
+          "support_tau": 666.667
+        }
+      },
+      {
+        "old": "node_support_prune_threshold",
+        "old_default": 0.006,
+        "new": "prune_support",
+        "new_defaults": {
+          "prune_support": 1e-05
+        }
+      },
+      {
+        "old": "node_prune_after",
+        "old_default": 800,
+        "new": "无活动、无抑制、无连接且无支持",
+        "new_defaults": {}
+      },
+      {
+        "old": "association_window",
+        "old_default": 5,
+        "new": "association_window_us",
+        "new_defaults": {
+          "association_window_us": 500000
+        }
+      },
+      {
+        "old": "edge_birth_policy",
+        "old_default": "local-coactivation",
+        "new": "edge_birth_policy",
+        "new_defaults": {
+          "edge_birth_policy": "co-stimulus"
+        }
+      },
+      {
+        "old": "attention_budget",
+        "old_default": 28,
+        "new": "attention_budget",
+        "new_defaults": {
+          "attention_budget": 28
+        }
+      },
+      {
+        "old": "attention_competition_enabled",
+        "old_default": false,
+        "new": "attention_competition_enabled",
+        "new_defaults": {
+          "attention_competition_enabled": false
+        }
+      },
+      {
+        "old": "edge_adaptation_limit",
+        "old_default": null,
+        "new": "edge_adaptation_limit",
+        "new_defaults": {
+          "edge_adaptation_limit": null
+        }
+      },
+      {
+        "old": "propagation_limit",
+        "old_default": null,
+        "new": "propagation_limit",
+        "new_defaults": {
+          "propagation_limit": null
+        }
+      },
+      {
+        "old": "edge_birth_activation_product_min",
+        "old_default": null,
+        "new": "edge_birth_activation_product_min",
+        "new_defaults": {
+          "edge_birth_activation_product_min": 0.0
+        }
+      },
+      {
+        "old": "local_novelty_gain",
+        "old_default": 0.018,
+        "new": "local_novelty_gain",
+        "new_defaults": {
+          "local_novelty_gain": 0.0
+        }
+      },
+      {
+        "old": "novelty_touch_reference",
+        "old_default": 0.2,
+        "new": "novelty_touch_reference",
+        "new_defaults": {
+          "novelty_touch_reference": 0.2
+        }
+      },
+      {
+        "old": "homeostasis_enabled",
+        "old_default": false,
+        "new": "homeostasis_enabled",
+        "new_defaults": {
+          "homeostasis_enabled": false
+        }
+      },
+      {
+        "old": "target_total_activation",
+        "old_default": 12.0,
+        "new": "target_total_activation",
+        "new_defaults": {
+          "target_total_activation": 4.0
+        }
+      },
+      {
+        "old": "topology_inhibition_enabled",
+        "old_default": true,
+        "new": "inhibition",
+        "new_defaults": {
+          "inhibition": true
+        }
+      },
+      {
+        "old": "inhibition_generation_gain",
+        "old_default": 0.24,
+        "new": "inhibition_gain",
+        "new_defaults": {
+          "inhibition_gain": 0.24
+        }
+      },
+      {
+        "old": "inhibition_decay",
+        "old_default": 0.35,
+        "new": "inhibition_tau",
+        "new_defaults": {
+          "inhibition_tau": 0.2321
+        }
+      },
+      {
+        "old": "inhibition_diffusion",
+        "old_default": 0.35,
+        "new": "inhibition_diffusion_rate",
+        "new_defaults": {
+          "inhibition_diffusion_rate": 3.5
+        }
+      },
+      {
+        "old": "inhibition_response_gain",
+        "old_default": 2.0,
+        "new": "inhibition_response_gain",
+        "new_defaults": {
+          "inhibition_response_gain": 2.0
+        }
+      },
+      {
+        "old": "inhibition_saturation",
+        "old_default": 1.0,
+        "new": "inhibition_saturation",
+        "new_defaults": {
+          "inhibition_saturation": 1.0
+        }
+      },
+      {
+        "old": "inhibition_propagation_min",
+        "old_default": 0.002,
+        "new": "inhibition_propagation_min",
+        "new_defaults": {
+          "inhibition_propagation_min": 0.0
+        }
+      },
+      {
+        "old": "energy_simulation_enabled",
+        "old_default": false,
+        "new": "energy_simulation_enabled",
+        "new_defaults": {
+          "energy_simulation_enabled": false
+        }
+      },
+      {
+        "old": "energy_initial_reserve",
+        "old_default": 1.0,
+        "new": "energy_initial_reserve",
+        "new_defaults": {
+          "energy_initial_reserve": 1.0
+        }
+      },
+      {
+        "old": "energy_capacity",
+        "old_default": 1.0,
+        "new": "energy_capacity",
+        "new_defaults": {
+          "energy_capacity": 1.0
+        }
+      },
+      {
+        "old": "energy_direct_cost",
+        "old_default": 0.035,
+        "new": "energy_direct_cost",
+        "new_defaults": {
+          "energy_direct_cost": 0.035
+        }
+      },
+      {
+        "old": "energy_associative_cost",
+        "old_default": 0.02,
+        "new": "energy_associative_cost",
+        "new_defaults": {
+          "energy_associative_cost": 0.02
+        }
+      },
+      {
+        "old": "energy_inhibition_cost",
+        "old_default": 0.01,
+        "new": "energy_inhibition_cost",
+        "new_defaults": {
+          "energy_inhibition_cost": 0.01
+        }
+      },
+      {
+        "old": "irreversible_energy_death_enabled",
+        "old_default": false,
+        "new": "irreversible_energy_death_enabled",
+        "new_defaults": {
+          "irreversible_energy_death_enabled": false
+        }
+      },
+      {
+        "old": "energy_maintenance_cost_per_node",
+        "old_default": 2e-05,
+        "new": "energy_maintenance_cost_per_node",
+        "new_defaults": {
+          "energy_maintenance_cost_per_node": 0.0002
+        }
+      },
+      {
+        "old": "energy_maintenance_cost_per_edge",
+        "old_default": 4e-06,
+        "new": "energy_maintenance_cost_per_edge",
+        "new_defaults": {
+          "energy_maintenance_cost_per_edge": 4e-05
+        }
+      },
+      {
+        "old": "energy_starvation_structural_decay",
+        "old_default": 0.006,
+        "new": "energy_starvation_structural_decay",
+        "new_defaults": {
+          "energy_starvation_structural_decay": 0.06
+        }
+      },
+      {
+        "old": "energy_starvation_death_ticks",
+        "old_default": 900,
+        "new": "energy_starvation_death_us",
+        "new_defaults": {
+          "energy_starvation_death_us": 90000000
+        }
+      },
+      {
+        "old": "response_epsilon",
+        "old_default": 0.0008,
+        "new": "activation_floor + 在途兴奋事件",
+        "new_defaults": {}
+      },
+      {
+        "old": "unresponsive_window",
+        "old_default": 900,
+        "new": "输入关闭且活动与在途兴奋均耗尽",
+        "new_defaults": {}
+      },
+      {
+        "old": "max_nodes",
+        "old_default": null,
+        "new": "max_nodes",
+        "new_defaults": {
+          "max_nodes": null
+        }
+      },
+      {
+        "old": "max_edges",
+        "old_default": null,
+        "new": "max_edges",
+        "new_defaults": {
+          "max_edges": null
+        }
+      },
+      {
+        "old": "random_seed",
+        "old_default": 20260724,
+        "new": "RunSpec.seed / Config.seed",
+        "new_defaults": {}
+      }
+    ],
+    "new_defaults": {
+      "step_us": 10000,
+      "delay_us": 10000,
+      "activation_tau": 0.3044,
+      "trace_tau": 0.504,
+      "inhibition_tau": 0.2321,
+      "stability_tau": 666.667,
+      "support_tau": 666.667,
+      "propagation_rate": 4.2,
+      "direct_gain": 0.9,
+      "learning_rate": 0.0055,
+      "birth_weight": 0.065,
+      "first_gain": 0.045,
+      "repeat_gain": 0.018,
+      "intensity_gain": 0.075,
+      "associative_gain": 0.01,
+      "stability_gain": 0.022,
+      "support_gain": 0.035,
+      "forgetting_rate": 0.025,
+      "inhibition_gain": 0.24,
+      "inhibition_diffusion_rate": 3.5,
+      "inhibition_response_gain": 2.0,
+      "activation_floor": 1e-05,
+      "prune_weight": 0.008,
+      "prune_support": 1e-05,
+      "plasticity": true,
+      "inhibition": true,
+      "seed": 20260724,
+      "propagation_activation_min": 0.0,
+      "consolidation_cap": 0.42,
+      "association_window_us": 500000,
+      "edge_birth_policy": "co-stimulus",
+      "edge_birth_activation_product_min": 0.0,
+      "local_novelty_gain": 0.0,
+      "novelty_touch_reference": 0.2,
+      "homeostasis_enabled": false,
+      "target_total_activation": 4.0,
+      "inhibition_saturation": 1.0,
+      "inhibition_propagation_min": 0.0,
+      "max_nodes": null,
+      "max_edges": null,
+      "propagation_limit": null,
+      "edge_adaptation_limit": null,
+      "energy_simulation_enabled": false,
+      "energy_initial_reserve": 1.0,
+      "energy_capacity": 1.0,
+      "energy_direct_cost": 0.035,
+      "energy_associative_cost": 0.02,
+      "energy_inhibition_cost": 0.01,
+      "irreversible_energy_death_enabled": false,
+      "energy_maintenance_cost_per_node": 0.0002,
+      "energy_maintenance_cost_per_edge": 4e-05,
+      "energy_starvation_structural_decay": 0.06,
+      "energy_starvation_death_us": 90000000,
+      "attention_competition_enabled": false,
+      "attention_budget": 28,
+      "spatial_embedding": false,
+      "spatial_dimensions": 3,
+      "neighborhood_enabled": true,
+      "spatial_radius": 2.5,
+      "spatial_competition_rate": 0.0
+    },
+    "new_fields_without_direct_same_name": [
+      "activation_floor",
+      "activation_tau",
+      "association_window_us",
+      "associative_gain",
+      "birth_weight",
+      "delay_us",
+      "energy_starvation_death_us",
+      "first_gain",
+      "forgetting_rate",
+      "inhibition",
+      "inhibition_diffusion_rate",
+      "inhibition_gain",
+      "inhibition_tau",
+      "intensity_gain",
+      "neighborhood_enabled",
+      "plasticity",
+      "propagation_rate",
+      "prune_support",
+      "prune_weight",
+      "repeat_gain",
+      "seed",
+      "spatial_competition_rate",
+      "spatial_dimensions",
+      "spatial_embedding",
+      "spatial_radius",
+      "stability_tau",
+      "step_us",
+      "support_gain",
+      "support_tau",
+      "trace_tau"
+    ]
+  },
+  "probes": {
+    "reference": {
+      "first_pair": {
+        "old": {
+          "tick": 1,
+          "life": "active",
+          "nodes": [
+            {
+              "activation": 0.63,
+              "inhibition": 0.09753784517869074,
+              "support": 0.022050000000000004,
+              "stability": 0.0069299999999999995,
+              "plasticity": 0.9950104,
+              "touch_count": 1
+            },
+            {
+              "activation": 0.45,
+              "inhibition": 0.06992832983396233,
+              "support": 0.015750000000000004,
+              "stability": 0.0049499999999999995,
+              "plasticity": 0.996436,
+              "touch_count": 1
+            }
+          ],
+          "edges": [
+            {
+              "weight": 0.06439826883090015,
+              "stability": 0.0754588452,
+              "eligibility": 0.058968
+            },
+            {
+              "weight": 0.06439826883090015,
+              "stability": 0.0754588452,
+              "eligibility": 0.058968
+            }
+          ]
+        },
+        "new": {
+          "time_us": "0",
+          "life": "active",
+          "nodes": [
+            {
+              "activation": 0.63,
+              "inhibition": 0.0,
+              "support": 0.022050000000000004,
+              "stability": 0.013859999999999999,
+              "touches": 1
+            },
+            {
+              "activation": 0.45,
+              "inhibition": 0.0,
+              "support": 0.015750000000000004,
+              "stability": 0.009899999999999999,
+              "touches": 1
+            }
+          ],
+          "edges": [
+            {
+              "weight": 0.08802675,
+              "stability": 0.07427700000000001,
+              "eligibility": 0.28350000000000003
+            },
+            {
+              "weight": 0.08802675,
+              "stability": 0.07427700000000001,
+              "eligibility": 0.28350000000000003
+            }
+          ]
+        }
+      },
+      "three_repetitions": {
+        "old": {
+          "tick": 3,
+          "life": "active",
+          "nodes": [
+            {
+              "activation": 1.0,
+              "inhibition": 0.14639308926783628,
+              "support": 0.05690147473974504,
+              "stability": 0.028691192895234405,
+              "plasticity": 0.9793423411154313,
+              "touch_count": 3
+            },
+            {
+              "activation": 0.8523181268521681,
+              "inhibition": 0.15192501727482588,
+              "support": 0.04086467611067568,
+              "stability": 0.022093846906185564,
+              "plasticity": 0.9840924302275464,
+              "touch_count": 3
+            }
+          ],
+          "edges": [
+            {
+              "weight": 0.12209976770091334,
+              "stability": 0.18578585359232067,
+              "eligibility": 0.3614502073194721
+            },
+            {
+              "weight": 0.10282601213869287,
+              "stability": 0.16505569534798462,
+              "eligibility": 0.3688538528216608
+            }
+          ]
+        },
+        "new": {
+          "time_us": "200000",
+          "life": "active",
+          "nodes": [
+            {
+              "activation": 1.0,
+              "inhibition": 0.1418131394893574,
+              "support": 0.05097319799879539,
+              "stability": 0.0320402958849571,
+              "touches": 21
+            },
+            {
+              "activation": 0.8960705461784525,
+              "inhibition": 0.12654152306045058,
+              "support": 0.042988320675473576,
+              "stability": 0.027021230138869094,
+              "touches": 22
+            }
+          ],
+          "edges": [
+            {
+              "weight": 0.09695469032378946,
+              "stability": 0.14941384082327508,
+              "eligibility": 1.0
+            },
+            {
+              "weight": 0.09686079835789506,
+              "stability": 0.1492071640592044,
+              "eligibility": 1.0
+            }
+          ]
+        }
+      },
+      "zero_energy_receptor_allocation": {
+        "old": {
+          "tick": 1,
+          "life": "active",
+          "nodes": [],
+          "edges": []
+        },
+        "new": {
+          "time_us": "0",
+          "life": "waiting",
+          "nodes": [
+            {
+              "activation": 0.0,
+              "inhibition": 0.0,
+              "support": 0.0,
+              "stability": 0.0,
+              "touches": 0
+            }
+          ],
+          "edges": []
+        }
+      },
+      "silent_but_ports_open": {
+        "old": {
+          "tick": 101,
+          "life": "active",
+          "nodes": [
+            {
+              "activation": 0.0,
+              "inhibition": 2.918919123089062e-20,
+              "support": 0.0071539500000000235,
+              "stability": 0.0069299999999999995,
+              "plasticity": 0.9950104,
+              "touch_count": 1
+            }
+          ],
+          "edges": []
+        },
+        "new": {
+          "time_us": "10000000",
+          "life": "active",
+          "nodes": [
+            {
+              "activation": 0.0,
+              "inhibition": 0.0,
+              "support": 0.021721718431161118,
+              "stability": 0.013653651585301279,
+              "touches": 1
+            }
+          ],
+          "edges": []
+        }
+      },
+      "explicitly_closed_after_silence": {
+        "old": {
+          "tick": 102,
+          "life": "active",
+          "nodes": [
+            {
+              "activation": 0.0,
+              "inhibition": 1.8972974300078905e-20,
+              "support": 0.007004989500000024,
+              "stability": 0.0069299999999999995,
+              "plasticity": 0.9950104,
+              "touch_count": 1
+            }
+          ],
+          "edges": []
+        },
+        "new": {
+          "time_us": "10000000",
+          "life": "dead",
+          "nodes": [
+            {
+              "activation": 0.0,
+              "inhibition": 0.0,
+              "support": 0.021721718431161118,
+              "stability": 0.013653651585301279,
+              "touches": 1
+            }
+          ],
+          "edges": []
+        }
+      },
+      "never_activated_closed": {
+        "life": "waiting",
+        "time_us": "1000000"
+      },
+      "two_frames_one_epoch_timestamp": {
+        "old": {
+          "tick": 2,
+          "life": "active",
+          "nodes": [
+            {
+              "activation": 0.4536,
+              "inhibition": 0.09722970470911649,
+              "support": 0.021901039500000004,
+              "stability": 0.0069299999999999995,
+              "plasticity": 0.9950104,
+              "touch_count": 1
+            },
+            {
+              "activation": 0.63,
+              "inhibition": 0.15005822335183192,
+              "support": 0.022050000000000004,
+              "stability": 0.0069299999999999995,
+              "plasticity": 0.9950104,
+              "touch_count": 1
+            }
+          ],
+          "edges": []
+        },
+        "new": {
+          "time_us": "100000",
+          "life": "active",
+          "nodes": [
+            {
+              "activation": 0.63,
+              "inhibition": 0.0,
+              "support": 0.022050000000000004,
+              "stability": 0.013859999999999999,
+              "touches": 1
+            },
+            {
+              "activation": 0.63,
+              "inhibition": 0.0,
+              "support": 0.022050000000000004,
+              "stability": 0.013859999999999999,
+              "touches": 1
+            }
+          ],
+          "edges": []
+        }
+      },
+      "node_structural_lesion": {
+        "old": {
+          "tick": 1,
+          "life": "active",
+          "nodes": [
+            {
+              "activation": 0.45,
+              "inhibition": 0.06992832983396233,
+              "support": 0.015750000000000004,
+              "stability": 0.0049499999999999995,
+              "plasticity": 0.996436,
+              "touch_count": 1
+            }
+          ],
+          "edges": []
+        },
+        "new": {
+          "time_us": "0",
+          "life": "active",
+          "nodes": [
+            {
+              "activation": 0.0,
+              "inhibition": 0.0,
+              "support": 0.022050000000000004,
+              "stability": 0.013859999999999999,
+              "touches": 1
+            },
+            {
+              "activation": 0.45,
+              "inhibition": 0.0,
+              "support": 0.015750000000000004,
+              "stability": 0.009899999999999999,
+              "touches": 1
+            }
+          ],
+          "edges": []
+        }
+      }
+    },
+    "native": {
+      "first_pair": {
+        "old": {
+          "tick": 1,
+          "life": "active",
+          "nodes": [
+            {
+              "activation": 0.63,
+              "inhibition": 0.09753784517869074,
+              "support": 0.022050000000000004,
+              "stability": 0.0069299999999999995,
+              "plasticity": 0.9950104,
+              "touch_count": 1
+            },
+            {
+              "activation": 0.45,
+              "inhibition": 0.06992832983396233,
+              "support": 0.015750000000000004,
+              "stability": 0.0049499999999999995,
+              "plasticity": 0.996436,
+              "touch_count": 1
+            }
+          ],
+          "edges": [
+            {
+              "weight": 0.06439826883090015,
+              "stability": 0.0754588452,
+              "eligibility": 0.058968
+            },
+            {
+              "weight": 0.06439826883090015,
+              "stability": 0.0754588452,
+              "eligibility": 0.058968
+            }
+          ]
+        },
+        "new": {
+          "time_us": "0",
+          "life": "active",
+          "nodes": [
+            {
+              "activation": 0.63,
+              "inhibition": 0.0,
+              "support": 0.022050000000000004,
+              "stability": 0.013859999999999999,
+              "touches": 1
+            },
+            {
+              "activation": 0.45,
+              "inhibition": 0.0,
+              "support": 0.015750000000000004,
+              "stability": 0.009899999999999999,
+              "touches": 1
+            }
+          ],
+          "edges": [
+            {
+              "weight": 0.08802675,
+              "stability": 0.07427700000000001,
+              "eligibility": 0.28350000000000003
+            },
+            {
+              "weight": 0.08802675,
+              "stability": 0.07427700000000001,
+              "eligibility": 0.28350000000000003
+            }
+          ]
+        }
+      },
+      "three_repetitions": {
+        "old": {
+          "tick": 3,
+          "life": "active",
+          "nodes": [
+            {
+              "activation": 1.0,
+              "inhibition": 0.14639308926783628,
+              "support": 0.05690147473974504,
+              "stability": 0.028691192895234405,
+              "plasticity": 0.9793423411154313,
+              "touch_count": 3
+            },
+            {
+              "activation": 0.8523181268521681,
+              "inhibition": 0.15192501727482588,
+              "support": 0.04086467611067568,
+              "stability": 0.022093846906185564,
+              "plasticity": 0.9840924302275464,
+              "touch_count": 3
+            }
+          ],
+          "edges": [
+            {
+              "weight": 0.12209976770091334,
+              "stability": 0.18578585359232067,
+              "eligibility": 0.3614502073194721
+            },
+            {
+              "weight": 0.10282601213869287,
+              "stability": 0.16505569534798462,
+              "eligibility": 0.3688538528216608
+            }
+          ]
+        },
+        "new": {
+          "time_us": "200000",
+          "life": "active",
+          "nodes": [
+            {
+              "activation": 1.0,
+              "inhibition": 0.1418131394893574,
+              "support": 0.05097319799879539,
+              "stability": 0.0320402958849571,
+              "touches": 21
+            },
+            {
+              "activation": 0.8960705461784525,
+              "inhibition": 0.12654152306045058,
+              "support": 0.042988320675473576,
+              "stability": 0.027021230138869094,
+              "touches": 22
+            }
+          ],
+          "edges": [
+            {
+              "weight": 0.09695469032378946,
+              "stability": 0.14941384082327508,
+              "eligibility": 1.0
+            },
+            {
+              "weight": 0.09686079835789506,
+              "stability": 0.1492071640592044,
+              "eligibility": 1.0
+            }
+          ]
+        }
+      },
+      "zero_energy_receptor_allocation": {
+        "old": {
+          "tick": 1,
+          "life": "active",
+          "nodes": [],
+          "edges": []
+        },
+        "new": {
+          "time_us": "0",
+          "life": "waiting",
+          "nodes": [
+            {
+              "activation": 0.0,
+              "inhibition": 0.0,
+              "support": 0.0,
+              "stability": 0.0,
+              "touches": 0
+            }
+          ],
+          "edges": []
+        }
+      },
+      "silent_but_ports_open": {
+        "old": {
+          "tick": 101,
+          "life": "active",
+          "nodes": [
+            {
+              "activation": 0.0,
+              "inhibition": 2.918919123089062e-20,
+              "support": 0.0071539500000000235,
+              "stability": 0.0069299999999999995,
+              "plasticity": 0.9950104,
+              "touch_count": 1
+            }
+          ],
+          "edges": []
+        },
+        "new": {
+          "time_us": "10000000",
+          "life": "active",
+          "nodes": [
+            {
+              "activation": 0.0,
+              "inhibition": 0.0,
+              "support": 0.021721718431161118,
+              "stability": 0.013653651585301279,
+              "touches": 1
+            }
+          ],
+          "edges": []
+        }
+      },
+      "explicitly_closed_after_silence": {
+        "old": {
+          "tick": 102,
+          "life": "active",
+          "nodes": [
+            {
+              "activation": 0.0,
+              "inhibition": 1.8972974300078905e-20,
+              "support": 0.007004989500000024,
+              "stability": 0.0069299999999999995,
+              "plasticity": 0.9950104,
+              "touch_count": 1
+            }
+          ],
+          "edges": []
+        },
+        "new": {
+          "time_us": "10000000",
+          "life": "dead",
+          "nodes": [
+            {
+              "activation": 0.0,
+              "inhibition": 0.0,
+              "support": 0.021721718431161118,
+              "stability": 0.013653651585301279,
+              "touches": 1
+            }
+          ],
+          "edges": []
+        }
+      },
+      "never_activated_closed": {
+        "life": "waiting",
+        "time_us": "1000000"
+      },
+      "two_frames_one_epoch_timestamp": {
+        "old": {
+          "tick": 2,
+          "life": "active",
+          "nodes": [
+            {
+              "activation": 0.4536,
+              "inhibition": 0.09722970470911649,
+              "support": 0.021901039500000004,
+              "stability": 0.0069299999999999995,
+              "plasticity": 0.9950104,
+              "touch_count": 1
+            },
+            {
+              "activation": 0.63,
+              "inhibition": 0.15005822335183192,
+              "support": 0.022050000000000004,
+              "stability": 0.0069299999999999995,
+              "plasticity": 0.9950104,
+              "touch_count": 1
+            }
+          ],
+          "edges": []
+        },
+        "new": {
+          "time_us": "100000",
+          "life": "active",
+          "nodes": [
+            {
+              "activation": 0.63,
+              "inhibition": 0.0,
+              "support": 0.022050000000000004,
+              "stability": 0.013859999999999999,
+              "touches": 1
+            },
+            {
+              "activation": 0.63,
+              "inhibition": 0.0,
+              "support": 0.022050000000000004,
+              "stability": 0.013859999999999999,
+              "touches": 1
+            }
+          ],
+          "edges": []
+        }
+      },
+      "node_structural_lesion": {
+        "old": {
+          "tick": 1,
+          "life": "active",
+          "nodes": [
+            {
+              "activation": 0.45,
+              "inhibition": 0.06992832983396233,
+              "support": 0.015750000000000004,
+              "stability": 0.0049499999999999995,
+              "plasticity": 0.996436,
+              "touch_count": 1
+            }
+          ],
+          "edges": []
+        },
+        "new": {
+          "time_us": "0",
+          "life": "active",
+          "nodes": [
+            {
+              "activation": 0.0,
+              "inhibition": 0.0,
+              "support": 0.022050000000000004,
+              "stability": 0.013859999999999999,
+              "touches": 1
+            },
+            {
+              "activation": 0.45,
+              "inhibition": 0.0,
+              "support": 0.015750000000000004,
+              "stability": 0.009899999999999999,
+              "touches": 1
+            }
+          ],
+          "edges": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "threemind.validation/1",
+  "date": "2026-09-07",
+  "phase": "D6b",
+  "versions": {"database": 24, "causal": 7, "state": 5, "profile": 5, "scientific_fields": 419},
+  "checks": {
+    "full_regression": {"passed": 320, "skipped": 0, "seconds": 390.88},
+    "first_full_regression": {"passed": 316, "failed": 1, "seconds": 440.05, "failure": "The old deterministic telemetry test probe lacked the real probe's default scopes argument. Its interface was corrected before final validation."},
+    "queue_ai_notification_regression": {"passed": 38, "seconds": 105.10},
+    "telemetry_adapter_scheduling": {"passed": 15, "seconds": 31.08},
+    "final_scheduling_sources": {"passed": 11, "seconds": 35.36},
+    "edge_initial_queue_and_limits": {"passed": 2, "seconds": 17.2},
+    "edge_final_receipt_export": {"passed": 1, "seconds": 8.0},
+    "translation_audit": {"entries": 3244, "literal_references": 2316, "marked_dynamic_references": 26, "parameters": 419, "adapters": 23, "commands": 10, "missing": 0, "duplicates": 0, "invalid_placeholders": 0},
+    "typescript_vite_ruff_legacy_audit": "passed",
+    "local_schema": "24 installed; final requirement function applied from the uncommitted migration verbatim after an idle check"
+  },
+  "coverage": [
+    "Unreported and incapable workers skip tasks without consuming attempts or changing the model",
+    "A real reference Runtime executes an eligible later task while a MuJoCo task stays queued",
+    "Per-process reports govern claims even if a same-named registry row was overwritten",
+    "Partial telemetry remains usable; disabled telemetry source policies do not require unused probes",
+    "Pending protocol changes refresh task requirements, including raw SQL enqueue paths",
+    "Each generation has an atomic capability receipt; failed receipt writes roll back admission",
+    "Lease recovery preserves previous receipts and fences stale writers",
+    "Lease time starts after a real database advisory-lock wait",
+    "Read-only reasons reflect barriers, zero limits, offline/drained nodes, capacity and expired leases",
+    "Project-scoped cursors and receipt APIs reject foreign access; admin scheduling does not expose model content",
+    "Real browser queued-to-completed transition, actual native worker receipt and JSON download",
+    "Chinese and English narrow layouts inspected; missing dynamic labels fixed and added to source audit"
+  ],
+  "limits": [
+    "Capability matching does not prove numerical backend equivalence or provide host affinity",
+    "Direct database workers remain trusted deployment components, not anonymous public compute clients",
+    "Queue reasons are bounded observations, not position reservations or strict fairness",
+    "No OS resource isolation in this phase; no new MQ/database service or old data migration",
+    "Docker image verification belongs to the next deployment phase and is not claimed by these tests"
+  ]
+}

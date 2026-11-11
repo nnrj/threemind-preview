@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-08",
+  "base_commit": "5767a60",
+  "scope": "F5a ecological observation and warnings; inhibition audit; Windows renderer probe isolation",
+  "versions": {
+    "core": "causal/7 (unchanged)",
+    "state": "state/5 (unchanged)",
+    "runtime_profile": "profile/5 (unchanged)",
+    "birth": "birth/1 (unchanged)",
+    "database": 42,
+    "observer": "threemind.ecology-observer/1",
+    "configuration": "threemind.ecology-observer-config/1"
+  },
+  "checks": [
+    {"suite": "inhibition, reference and native core, attention, spatial and document resources", "passed": 63, "failed": 0, "seconds": 17.57, "log": ".work/inhibition-fidelity-regression.log"},
+    {"suite": "initial integration before dormant wakeup refinement", "passed": 38, "failed": 0, "seconds": 149.18, "log": ".work/ecology-observer-integration.log"},
+    {"suite": "observer, large cursor rollback, SQL immutability and RLS, migration fixtures, readout, operations and scheduling", "passed": 35, "failed": 0, "seconds": 111.61, "log": ".work/ecology-observer-final-backend.log"},
+    {"suite": "final partial-index migration and large cursor/wakeup verification", "passed": 2, "failed": 0, "seconds": 13.98, "log": ".work/ecology-observer-final-migration.log"},
+    {"suite": "final optional-renderer isolation, retry and worker pipe lifecycle", "passed": 9, "failed": 0, "seconds": 10.41, "log": ".work/ecology-observer-worker-recovery-final.log"},
+    {"suite": "final Edge observer, ecological creation/control and real world/RGB flows", "passed": 4, "failed": 0, "seconds": 47.4, "log": ".work/ecology-observer-final-browser.log"}
+  ],
+  "quality": {
+    "ui_build": "passed; existing large-chunk advisory remains",
+    "ruff": "passed",
+    "translation_catalogue": 4282,
+    "missing_translations": 0,
+    "reviewed_legacy_parameters": 55,
+    "pending_legacy_parameters": 0,
+    "git_diff_check": "passed",
+    "visual_review": "five final observer desktop/mobile images and two world configuration/actual RGB images inspected",
+    "workstation": "schema 42; restarted after idle check; both runtime workers report RGB available"
+  },
+  "renderer_diagnosis": {
+    "before": "RGB child inheriting an actively read parent-watch pipe timed out before producing output; real workstation probes timed out at 20 seconds",
+    "after": "stdin=DEVNULL; isolated result returns; workstation workers measured 2694.574 and 2685.468 ms",
+    "calibration_hash_before_and_after": "6d539670f61912389e9a64620b6ba2627fd7d1b42afc30e779ab928bf1f60df5",
+    "limits": "Synthetic renderer calibration only; not a general simulation speed benchmark"
+  },
+  "earlier_failures": [
+    "Psycopg cannot decode PostgreSQL -infinity timestamps in job RETURNING rows; replaced the default with a finite epoch before deployment.",
+    "Two observer form selects had implicit labels containing explanatory/option text; explicit accessible names added to all observer selects.",
+    "World browser test stayed queued after initial renderer timeouts; fixed control-pipe inheritance and added bounded idle reprobe.",
+    "Worker shutdown test allowed 15 seconds despite a legitimate 20-second optional probe timeout; cold-start allowance corrected to 40 seconds. Final suite completed in 10.41 seconds."
+  ],
+  "boundaries": [
+    "Suite counts overlap; they are not one full-repository test count.",
+    "No new scientific brain-region experiment and no proof of consciousness or AGI.",
+    "Observer reads committed facts; no Core dynamics or output projection changed.",
+    "Large event test uses explicitly labelled transport fixtures before checkpoint commit.",
+    "Observer shares runtime workers and quotas; a single busy worker can delay observations.",
+    "No external AI request, notification or speech was made.",
+    "No test data migration or scan of data/.",
+    "Docker image was not rebuilt; the previous container acceptance remains schema 40."
+  ]
+}

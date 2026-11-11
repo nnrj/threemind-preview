@@ -1,0 +1,21 @@
+{
+  "schema": "threemind.legacy-environment-fixture/1",
+  "source_commit": "5a5f0dd",
+  "mujoco_version": "3.12.0",
+  "rows": [
+    {
+      "seed": 17,
+      "physical_frames_sha256": "59709120152a595b7031ef2fb671684183947717640abb158d440cad3f05b7ea",
+      "physical_state_sha256": "6a67021bcda0e502543e823760ce01384f013ffc5b54ec26962c24ad20121034",
+      "ambient_frames_sha256": "24be26e908f3824732a3e9e51f947941cafc8ce2d8aff2dc15413c0a7a3b6028",
+      "ambient_state_sha256": "8b44e5b509e9dbbf5e46951f0198227865c0e73d70b9c0c2ff97c2df0bbbdd48"
+    },
+    {
+      "seed": 91,
+      "physical_frames_sha256": "0993119db4660d258c71774a7f1450c32cbe4fd3d96f3e69d3e53b27e066f6ca",
+      "physical_state_sha256": "98730f17a91e4eb12854adfaaf1a9407be2bb253892aa85bfc872120da5dab26",
+      "ambient_frames_sha256": "297beea51864cc18d8a794485ada6e4ecd10e6d05094e86d778db174e8acb736",
+      "ambient_state_sha256": "77153d69a89911940106b848fdad76b80a181927406dd92703a27738759c8907"
+    }
+  ]
+}

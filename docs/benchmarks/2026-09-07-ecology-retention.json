@@ -1,0 +1,690 @@
+{
+  "schema": "threemind.performance-probe/1",
+  "source_base_commit": "43636d9",
+  "date": "2026-09-07",
+  "scenario": "One simulated second, 48-channel stimulus-formed founder network, 2 founders, 64-offspring budget, at most 8 living bodies; explicit resource and damage rules force turnover.",
+  "script": "scripts/benchmark-ecology-retention.py",
+  "baseline": {
+    "samples": [
+      {
+        "time_us": 20000,
+        "historical_individuals": 4,
+        "living_bodies": 4,
+        "dead_cores": 0,
+        "rss_bytes": 88457216,
+        "model_payload_bytes": 1457611
+      },
+      {
+        "time_us": 40000,
+        "historical_individuals": 6,
+        "living_bodies": 6,
+        "dead_cores": 0,
+        "rss_bytes": 97574912,
+        "model_payload_bytes": 2195633
+      },
+      {
+        "time_us": 60000,
+        "historical_individuals": 8,
+        "living_bodies": 6,
+        "dead_cores": 0,
+        "rss_bytes": 101941248,
+        "model_payload_bytes": 2962351
+      },
+      {
+        "time_us": 80000,
+        "historical_individuals": 10,
+        "living_bodies": 6,
+        "dead_cores": 0,
+        "rss_bytes": 108711936,
+        "model_payload_bytes": 3715210
+      },
+      {
+        "time_us": 100000,
+        "historical_individuals": 12,
+        "living_bodies": 6,
+        "dead_cores": 2,
+        "rss_bytes": 113516544,
+        "model_payload_bytes": 4455213
+      },
+      {
+        "time_us": 120000,
+        "historical_individuals": 14,
+        "living_bodies": 6,
+        "dead_cores": 4,
+        "rss_bytes": 122195968,
+        "model_payload_bytes": 5226576
+      },
+      {
+        "time_us": 140000,
+        "historical_individuals": 16,
+        "living_bodies": 6,
+        "dead_cores": 6,
+        "rss_bytes": 125231104,
+        "model_payload_bytes": 6012959
+      },
+      {
+        "time_us": 160000,
+        "historical_individuals": 18,
+        "living_bodies": 6,
+        "dead_cores": 8,
+        "rss_bytes": 131817472,
+        "model_payload_bytes": 6756231
+      },
+      {
+        "time_us": 180000,
+        "historical_individuals": 20,
+        "living_bodies": 6,
+        "dead_cores": 10,
+        "rss_bytes": 136617984,
+        "model_payload_bytes": 7533841
+      },
+      {
+        "time_us": 200000,
+        "historical_individuals": 22,
+        "living_bodies": 6,
+        "dead_cores": 12,
+        "rss_bytes": 146014208,
+        "model_payload_bytes": 8280515
+      },
+      {
+        "time_us": 220000,
+        "historical_individuals": 24,
+        "living_bodies": 6,
+        "dead_cores": 14,
+        "rss_bytes": 148553728,
+        "model_payload_bytes": 9039516
+      },
+      {
+        "time_us": 240000,
+        "historical_individuals": 26,
+        "living_bodies": 6,
+        "dead_cores": 16,
+        "rss_bytes": 158371840,
+        "model_payload_bytes": 9840135
+      },
+      {
+        "time_us": 260000,
+        "historical_individuals": 28,
+        "living_bodies": 6,
+        "dead_cores": 18,
+        "rss_bytes": 160940032,
+        "model_payload_bytes": 10579854
+      },
+      {
+        "time_us": 280000,
+        "historical_individuals": 30,
+        "living_bodies": 6,
+        "dead_cores": 20,
+        "rss_bytes": 170979328,
+        "model_payload_bytes": 11351534
+      },
+      {
+        "time_us": 300000,
+        "historical_individuals": 32,
+        "living_bodies": 6,
+        "dead_cores": 22,
+        "rss_bytes": 173768704,
+        "model_payload_bytes": 12113600
+      },
+      {
+        "time_us": 320000,
+        "historical_individuals": 34,
+        "living_bodies": 6,
+        "dead_cores": 24,
+        "rss_bytes": 183320576,
+        "model_payload_bytes": 12884324
+      },
+      {
+        "time_us": 340000,
+        "historical_individuals": 36,
+        "living_bodies": 6,
+        "dead_cores": 26,
+        "rss_bytes": 183934976,
+        "model_payload_bytes": 13622209
+      },
+      {
+        "time_us": 360000,
+        "historical_individuals": 38,
+        "living_bodies": 6,
+        "dead_cores": 28,
+        "rss_bytes": 194863104,
+        "model_payload_bytes": 14413007
+      },
+      {
+        "time_us": 380000,
+        "historical_individuals": 40,
+        "living_bodies": 6,
+        "dead_cores": 30,
+        "rss_bytes": 193507328,
+        "model_payload_bytes": 15150747
+      },
+      {
+        "time_us": 400000,
+        "historical_individuals": 42,
+        "living_bodies": 6,
+        "dead_cores": 32,
+        "rss_bytes": 207388672,
+        "model_payload_bytes": 15970990
+      },
+      {
+        "time_us": 420000,
+        "historical_individuals": 44,
+        "living_bodies": 6,
+        "dead_cores": 34,
+        "rss_bytes": 205881344,
+        "model_payload_bytes": 16713722
+      },
+      {
+        "time_us": 440000,
+        "historical_individuals": 46,
+        "living_bodies": 6,
+        "dead_cores": 36,
+        "rss_bytes": 218501120,
+        "model_payload_bytes": 17483450
+      },
+      {
+        "time_us": 460000,
+        "historical_individuals": 48,
+        "living_bodies": 6,
+        "dead_cores": 38,
+        "rss_bytes": 218529792,
+        "model_payload_bytes": 18276826
+      },
+      {
+        "time_us": 480000,
+        "historical_individuals": 50,
+        "living_bodies": 6,
+        "dead_cores": 40,
+        "rss_bytes": 228831232,
+        "model_payload_bytes": 19049923
+      },
+      {
+        "time_us": 500000,
+        "historical_individuals": 52,
+        "living_bodies": 6,
+        "dead_cores": 42,
+        "rss_bytes": 229400576,
+        "model_payload_bytes": 19820063
+      },
+      {
+        "time_us": 520000,
+        "historical_individuals": 54,
+        "living_bodies": 6,
+        "dead_cores": 44,
+        "rss_bytes": 238764032,
+        "model_payload_bytes": 20597468
+      },
+      {
+        "time_us": 540000,
+        "historical_individuals": 56,
+        "living_bodies": 6,
+        "dead_cores": 46,
+        "rss_bytes": 240488448,
+        "model_payload_bytes": 21340314
+      },
+      {
+        "time_us": 560000,
+        "historical_individuals": 58,
+        "living_bodies": 6,
+        "dead_cores": 47,
+        "rss_bytes": 250093568,
+        "model_payload_bytes": 22115104
+      },
+      {
+        "time_us": 580000,
+        "historical_individuals": 60,
+        "living_bodies": 6,
+        "dead_cores": 50,
+        "rss_bytes": 253681664,
+        "model_payload_bytes": 22906481
+      },
+      {
+        "time_us": 600000,
+        "historical_individuals": 62,
+        "living_bodies": 6,
+        "dead_cores": 51,
+        "rss_bytes": 263643136,
+        "model_payload_bytes": 23683045
+      },
+      {
+        "time_us": 620000,
+        "historical_individuals": 64,
+        "living_bodies": 6,
+        "dead_cores": 54,
+        "rss_bytes": 265170944,
+        "model_payload_bytes": 24422971
+      },
+      {
+        "time_us": 640000,
+        "historical_individuals": 66,
+        "living_bodies": 6,
+        "dead_cores": 55,
+        "rss_bytes": 274407424,
+        "model_payload_bytes": 25166574
+      },
+      {
+        "time_us": 1000000,
+        "historical_individuals": 66,
+        "living_bodies": 0,
+        "dead_cores": 66,
+        "rss_bytes": 272969728,
+        "model_payload_bytes": 25192567
+      }
+    ],
+    "seconds": 57.53100000000268,
+    "final_state_hashes": {
+      "n0": "83881dce9dffeb529765b6006fe8cba2a345470f97990f910bc76c094899a6e5",
+      "n1": "5e33b2a52d23c0d1a9686b646102365c2ad01b50f146cb46d89de7d6a2a67af5",
+      "n2": "7f674bd505abf5eb82a5aaa7b867f347c7ded73f7b0fdb4734c46e3370149ec1",
+      "n3": "723c949fd53f0a550837d73d22969b5d11eabeb409d48390feb2f76d9a385a2a",
+      "n4": "983c4a48257483f862ce22d09a46e3c5351338e1bde542f2be8f82eb51e43a53",
+      "n5": "962d12392a8193b7e05bff3ca3666025c600f7814880588b879f8441afc1b619",
+      "n6": "4d8c601004a60cdf348107ba226f6493b5248b9b6178665665ae0b7a7d494fce",
+      "n7": "c6ec6a76d9e055432788ab4ea766b9440e48ef16c229a5fa04f413214a67b6a2",
+      "n8": "81042693dd7ff6f9fa58e38a59c61de4c42ce9cfc8969c5d3016cdd8b840ac47",
+      "n9": "f000ca7a23d62bddc298e7d785bbf90117a68831fc9686f9a5a5f1ac0c3b932a",
+      "n10": "6355c219ab984e97ec2d4c9814bbc6f58f7860e00a7817c5bcec576db6928789",
+      "n11": "9879dacbc7da2a533da31eadcf74c9051ab8087154a38cfe5c0b4c5aa38bd8a3",
+      "n12": "3532ce11e649375bd9e2cbcc1a70e6688a05f126926154f49b19e9a75280121f",
+      "n13": "3e1412d065dd2d6a422218ffe3c914367318fe9e7e6de5f82b80ce620e751d88",
+      "n14": "05fbef7887fdbb2390014a351ddba65532281da0a77a66a33b95a930c40bf2bd",
+      "n15": "693b2d25da17d47c800e8187053c4e51bff2131507b451a44555971455d45284",
+      "n16": "fdc3afb94d52ada77f6efa8d0f7b0d6df0ab41ba8e2c5f17e364a5cdac92d297",
+      "n17": "8423e35b1d1951dcf8c30553059088deda651d2ac0b722a29d0baa7e4009c6d6",
+      "n18": "158c931fa1ea87785f614bfe8d85ce86f2bb6065d8b19a779827630ffbce76d2",
+      "n19": "88e82b29d748e9f7564474d59ebedd2e5b6d7c388f9cb4a52aa64d44f2aa35c9",
+      "n20": "8410ad72e30d538c17570ed90fdcbccae4d2ea120ad13a2b385fe254444c94e1",
+      "n21": "8efe4d89f128f47be6210707d2f5ee898874f127fe1f000cde8fd8ed3c0532e8",
+      "n22": "39a3852fea4694335e23d8a04ada6aa027ef3eaf50839d470ce6815c3fa54331",
+      "n23": "a7443cb9ef637075630aa690c07e46c9d69ce89968cd3f77cc2bbe22ae24a674",
+      "n24": "2ddc1c86082e7e183bec03c5e1739d0309c6bf105b2a07b13d3909a0491440d5",
+      "n25": "04465aec90ec04588886cdbb587521ae79a5e7b9dee37142c887d3992e07b45a",
+      "n26": "8005c097255491c963491fe3c5844ba7da57c92408878f9de0aa82a47ccc2b6e",
+      "n27": "24b5d7bcca7343d5f795812ee4878c2afa7dcbcdcf91be7bee094d39dc290cb6",
+      "n28": "2e9a252bc8b0c82d67d402c544af29a84f63e204e6fd9135fa3f9663e1c92797",
+      "n29": "c1b0a82c9849c06001bd87bd5a6c872d2cef9c7a1c036a93c9c60140b12c7038",
+      "n30": "42f7c6a49f21ceec676bf97a1acebaa59ad0e243b8cd7550c7aba869a9d07b0d",
+      "n31": "7758b01982ff96c83e2317cdbb2649e30c430b260bfa8c2e7507430df35423f6",
+      "n32": "bbb15cc60060ba3cc059d97e5677e5504b339cd66ee93de9cc927bd5f5f2ac28",
+      "n33": "e98026243d3b7a34c03afd369e72f69a6d3084a11ea057678b9613b8ee864da7",
+      "n34": "2ba22a683ded342dfcfdab2581eb1002f10364a8afb9d3f26ab690cbe5a7895d",
+      "n35": "b0ee4716c3ad452b2b326d6596ddbde723e9aa2e39ebb871977ba3ac05e98fac",
+      "n36": "dffe8c8fd4375f40ba2f69c63a943750950b3c8d0f535aa1575c8f4e179cda8f",
+      "n37": "2f6a80d77187603313e3df32d95064fede7245ea16551e779375cd2e1fd77309",
+      "n38": "76420fbeb106bc9b27341a2a19aa22efc2bdaabdaac72c3233d6696742a04350",
+      "n39": "b58235a23fe98167a39406a91f20f79bd5dc47007ba013096721e7ec7f90d357",
+      "n40": "cf8dd9957df518d5eaa2cd0a85fef798dd5b98c3197963ed5a7ee0838edf5442",
+      "n41": "9a268a228718ad2142c3c9101d53593811b56911d3ffb5f6cdd01f9e2ccc147c",
+      "n42": "9c3932310ba40817959e267ad515d364b0b9b09bde5106d86f253b7b54252896",
+      "n43": "aefe977a20c2f3850f22ffd4e0af7fac43127d427fbc0a3d1747120f046d295c",
+      "n44": "14214925ac76526b20188f06df281c5099e4696ef4676034af12c9f5933ba7d6",
+      "n45": "e50d5269a55f0c69ee2331e28f244b52f76d21aee37214f454a90d09a23b774c",
+      "n46": "49e74ab75b9d60fff5b05aecddfe568ea16bd6e80fbb4c4b95e4ff1f1b3e4b2d",
+      "n47": "9ed4926c404f00957a2362d48ef6f45ff61181082ba4ad86615074959da3eadc",
+      "n48": "27b7b6783942957929ca661dbe37a2b72e1ce8b8583d1b4855242a7b61ad44bf",
+      "n49": "e3a8ea5fec7f820340137c5e42fdb5f71aa383debe32f649bac6d892ebefeb70",
+      "n50": "ef0eb7cc127cc32117541b2719d8d75af4adfd2f1d9253f07109caa7e9044db7",
+      "n51": "551c7420465fa1615d18c549738d9909c8e4b9fc6c8546790f4a255af59afee1",
+      "n52": "9db516504aa9bbae6bde958210667a95077f6c0cb952fd465b9a720876d39980",
+      "n53": "b05193396df3f1b181d4ce7295cf0fde358a782269e7c46778ab73293910f9e6",
+      "n54": "ce02417676c03d116e3510fdceb902d8293d97250b7faa334f0614ebf2a2f7cd",
+      "n55": "9f2d6dcb422b74f2225ee5275616c6144c58caa98672e83e2c98987089546de2",
+      "n56": "7cafed56cee2d1e9c7cf39229066e81ac6663a849946ec0a5ec5b5404f19995c",
+      "n57": "5e58180894d54620543b8d69791f70bc26d77e3aa0d544d7ada6d56044b2089e",
+      "n58": "de9226dca8ffdddc11165109ea7c86ccbabc7faacfc2358b71282e58ab77f6f6",
+      "n59": "d3a30e84cb61de170575a643ba3cad727b642ca8bad4eafd5c2629735951fab5",
+      "n60": "f52ae08818e9c3f3efab52d86a2dc596c2c5f4525629e2bedf94c6a2a330b0aa",
+      "n61": "09e48fe6bd45d561d97e372999cf1b5a4433fb9cffc618ee0db3bd1052fa020c",
+      "n62": "51cb4948f89467992bfa666a24c7009be11b8854777db96e4033a24cba94a15b",
+      "n63": "02efe6df28098ce32f33c9c3313dea7f798873cc740e91d518fa56a2ead47be2",
+      "n64": "52f01d0bd6b3d1536904935a77aac146663d8052df708948560a48674be1c874",
+      "n65": "0d06ec42094140cd2b38ab5140d585dfb5bfaecadde91ac5041d9cbff95a8816"
+    }
+  },
+  "archived": {
+    "samples": [
+      {
+        "time_us": 20000,
+        "historical_individuals": 4,
+        "living_bodies": 4,
+        "dead_cores": 0,
+        "rss_bytes": 90849280,
+        "model_payload_bytes": 1457611
+      },
+      {
+        "time_us": 40000,
+        "historical_individuals": 6,
+        "living_bodies": 6,
+        "dead_cores": 0,
+        "rss_bytes": 98238464,
+        "model_payload_bytes": 2195633
+      },
+      {
+        "time_us": 60000,
+        "historical_individuals": 8,
+        "living_bodies": 6,
+        "dead_cores": 0,
+        "rss_bytes": 104251392,
+        "model_payload_bytes": 2962351
+      },
+      {
+        "time_us": 80000,
+        "historical_individuals": 10,
+        "living_bodies": 6,
+        "dead_cores": 0,
+        "rss_bytes": 110018560,
+        "model_payload_bytes": 3715210
+      },
+      {
+        "time_us": 100000,
+        "historical_individuals": 12,
+        "living_bodies": 6,
+        "dead_cores": 2,
+        "rss_bytes": 112107520,
+        "model_payload_bytes": 4455213
+      },
+      {
+        "time_us": 120000,
+        "historical_individuals": 14,
+        "living_bodies": 6,
+        "dead_cores": 4,
+        "rss_bytes": 116445184,
+        "model_payload_bytes": 5226576
+      },
+      {
+        "time_us": 140000,
+        "historical_individuals": 16,
+        "living_bodies": 6,
+        "dead_cores": 6,
+        "rss_bytes": 115154944,
+        "model_payload_bytes": 6012959
+      },
+      {
+        "time_us": 160000,
+        "historical_individuals": 18,
+        "living_bodies": 6,
+        "dead_cores": 8,
+        "rss_bytes": 117116928,
+        "model_payload_bytes": 6756231
+      },
+      {
+        "time_us": 180000,
+        "historical_individuals": 20,
+        "living_bodies": 6,
+        "dead_cores": 10,
+        "rss_bytes": 117530624,
+        "model_payload_bytes": 7533841
+      },
+      {
+        "time_us": 200000,
+        "historical_individuals": 22,
+        "living_bodies": 6,
+        "dead_cores": 12,
+        "rss_bytes": 117522432,
+        "model_payload_bytes": 8280515
+      },
+      {
+        "time_us": 220000,
+        "historical_individuals": 24,
+        "living_bodies": 6,
+        "dead_cores": 14,
+        "rss_bytes": 118652928,
+        "model_payload_bytes": 9039516
+      },
+      {
+        "time_us": 240000,
+        "historical_individuals": 26,
+        "living_bodies": 6,
+        "dead_cores": 16,
+        "rss_bytes": 118677504,
+        "model_payload_bytes": 9840135
+      },
+      {
+        "time_us": 260000,
+        "historical_individuals": 28,
+        "living_bodies": 6,
+        "dead_cores": 18,
+        "rss_bytes": 118960128,
+        "model_payload_bytes": 10579854
+      },
+      {
+        "time_us": 280000,
+        "historical_individuals": 30,
+        "living_bodies": 6,
+        "dead_cores": 20,
+        "rss_bytes": 119017472,
+        "model_payload_bytes": 11351534
+      },
+      {
+        "time_us": 300000,
+        "historical_individuals": 32,
+        "living_bodies": 6,
+        "dead_cores": 22,
+        "rss_bytes": 119193600,
+        "model_payload_bytes": 12113600
+      },
+      {
+        "time_us": 320000,
+        "historical_individuals": 34,
+        "living_bodies": 6,
+        "dead_cores": 24,
+        "rss_bytes": 119209984,
+        "model_payload_bytes": 12884324
+      },
+      {
+        "time_us": 340000,
+        "historical_individuals": 36,
+        "living_bodies": 6,
+        "dead_cores": 26,
+        "rss_bytes": 119611392,
+        "model_payload_bytes": 13622209
+      },
+      {
+        "time_us": 360000,
+        "historical_individuals": 38,
+        "living_bodies": 6,
+        "dead_cores": 28,
+        "rss_bytes": 120188928,
+        "model_payload_bytes": 14413007
+      },
+      {
+        "time_us": 380000,
+        "historical_individuals": 40,
+        "living_bodies": 6,
+        "dead_cores": 30,
+        "rss_bytes": 119758848,
+        "model_payload_bytes": 15150747
+      },
+      {
+        "time_us": 400000,
+        "historical_individuals": 42,
+        "living_bodies": 6,
+        "dead_cores": 32,
+        "rss_bytes": 119988224,
+        "model_payload_bytes": 15970990
+      },
+      {
+        "time_us": 420000,
+        "historical_individuals": 44,
+        "living_bodies": 6,
+        "dead_cores": 34,
+        "rss_bytes": 122368000,
+        "model_payload_bytes": 16713722
+      },
+      {
+        "time_us": 440000,
+        "historical_individuals": 46,
+        "living_bodies": 6,
+        "dead_cores": 36,
+        "rss_bytes": 121794560,
+        "model_payload_bytes": 17483450
+      },
+      {
+        "time_us": 460000,
+        "historical_individuals": 48,
+        "living_bodies": 6,
+        "dead_cores": 38,
+        "rss_bytes": 120389632,
+        "model_payload_bytes": 18276826
+      },
+      {
+        "time_us": 480000,
+        "historical_individuals": 50,
+        "living_bodies": 6,
+        "dead_cores": 40,
+        "rss_bytes": 120340480,
+        "model_payload_bytes": 19049923
+      },
+      {
+        "time_us": 500000,
+        "historical_individuals": 52,
+        "living_bodies": 6,
+        "dead_cores": 42,
+        "rss_bytes": 122892288,
+        "model_payload_bytes": 19820063
+      },
+      {
+        "time_us": 520000,
+        "historical_individuals": 54,
+        "living_bodies": 6,
+        "dead_cores": 44,
+        "rss_bytes": 120438784,
+        "model_payload_bytes": 20597468
+      },
+      {
+        "time_us": 540000,
+        "historical_individuals": 56,
+        "living_bodies": 6,
+        "dead_cores": 46,
+        "rss_bytes": 121864192,
+        "model_payload_bytes": 21340314
+      },
+      {
+        "time_us": 560000,
+        "historical_individuals": 58,
+        "living_bodies": 6,
+        "dead_cores": 47,
+        "rss_bytes": 122888192,
+        "model_payload_bytes": 22115104
+      },
+      {
+        "time_us": 580000,
+        "historical_individuals": 60,
+        "living_bodies": 6,
+        "dead_cores": 50,
+        "rss_bytes": 123158528,
+        "model_payload_bytes": 22906481
+      },
+      {
+        "time_us": 600000,
+        "historical_individuals": 62,
+        "living_bodies": 6,
+        "dead_cores": 51,
+        "rss_bytes": 125501440,
+        "model_payload_bytes": 23683045
+      },
+      {
+        "time_us": 620000,
+        "historical_individuals": 64,
+        "living_bodies": 6,
+        "dead_cores": 54,
+        "rss_bytes": 124260352,
+        "model_payload_bytes": 24422971
+      },
+      {
+        "time_us": 640000,
+        "historical_individuals": 66,
+        "living_bodies": 6,
+        "dead_cores": 55,
+        "rss_bytes": 124022784,
+        "model_payload_bytes": 25166574
+      },
+      {
+        "time_us": 1000000,
+        "historical_individuals": 66,
+        "living_bodies": 0,
+        "dead_cores": 66,
+        "rss_bytes": 109842432,
+        "model_payload_bytes": 25192567
+      }
+    ],
+    "seconds": 56.219000000011874,
+    "final_state_hashes": {
+      "n0": "83881dce9dffeb529765b6006fe8cba2a345470f97990f910bc76c094899a6e5",
+      "n1": "5e33b2a52d23c0d1a9686b646102365c2ad01b50f146cb46d89de7d6a2a67af5",
+      "n2": "7f674bd505abf5eb82a5aaa7b867f347c7ded73f7b0fdb4734c46e3370149ec1",
+      "n3": "723c949fd53f0a550837d73d22969b5d11eabeb409d48390feb2f76d9a385a2a",
+      "n4": "983c4a48257483f862ce22d09a46e3c5351338e1bde542f2be8f82eb51e43a53",
+      "n5": "962d12392a8193b7e05bff3ca3666025c600f7814880588b879f8441afc1b619",
+      "n6": "4d8c601004a60cdf348107ba226f6493b5248b9b6178665665ae0b7a7d494fce",
+      "n7": "c6ec6a76d9e055432788ab4ea766b9440e48ef16c229a5fa04f413214a67b6a2",
+      "n8": "81042693dd7ff6f9fa58e38a59c61de4c42ce9cfc8969c5d3016cdd8b840ac47",
+      "n9": "f000ca7a23d62bddc298e7d785bbf90117a68831fc9686f9a5a5f1ac0c3b932a",
+      "n10": "6355c219ab984e97ec2d4c9814bbc6f58f7860e00a7817c5bcec576db6928789",
+      "n11": "9879dacbc7da2a533da31eadcf74c9051ab8087154a38cfe5c0b4c5aa38bd8a3",
+      "n12": "3532ce11e649375bd9e2cbcc1a70e6688a05f126926154f49b19e9a75280121f",
+      "n13": "3e1412d065dd2d6a422218ffe3c914367318fe9e7e6de5f82b80ce620e751d88",
+      "n14": "05fbef7887fdbb2390014a351ddba65532281da0a77a66a33b95a930c40bf2bd",
+      "n15": "693b2d25da17d47c800e8187053c4e51bff2131507b451a44555971455d45284",
+      "n16": "fdc3afb94d52ada77f6efa8d0f7b0d6df0ab41ba8e2c5f17e364a5cdac92d297",
+      "n17": "8423e35b1d1951dcf8c30553059088deda651d2ac0b722a29d0baa7e4009c6d6",
+      "n18": "158c931fa1ea87785f614bfe8d85ce86f2bb6065d8b19a779827630ffbce76d2",
+      "n19": "88e82b29d748e9f7564474d59ebedd2e5b6d7c388f9cb4a52aa64d44f2aa35c9",
+      "n20": "8410ad72e30d538c17570ed90fdcbccae4d2ea120ad13a2b385fe254444c94e1",
+      "n21": "8efe4d89f128f47be6210707d2f5ee898874f127fe1f000cde8fd8ed3c0532e8",
+      "n22": "39a3852fea4694335e23d8a04ada6aa027ef3eaf50839d470ce6815c3fa54331",
+      "n23": "a7443cb9ef637075630aa690c07e46c9d69ce89968cd3f77cc2bbe22ae24a674",
+      "n24": "2ddc1c86082e7e183bec03c5e1739d0309c6bf105b2a07b13d3909a0491440d5",
+      "n25": "04465aec90ec04588886cdbb587521ae79a5e7b9dee37142c887d3992e07b45a",
+      "n26": "8005c097255491c963491fe3c5844ba7da57c92408878f9de0aa82a47ccc2b6e",
+      "n27": "24b5d7bcca7343d5f795812ee4878c2afa7dcbcdcf91be7bee094d39dc290cb6",
+      "n28": "2e9a252bc8b0c82d67d402c544af29a84f63e204e6fd9135fa3f9663e1c92797",
+      "n29": "c1b0a82c9849c06001bd87bd5a6c872d2cef9c7a1c036a93c9c60140b12c7038",
+      "n30": "42f7c6a49f21ceec676bf97a1acebaa59ad0e243b8cd7550c7aba869a9d07b0d",
+      "n31": "7758b01982ff96c83e2317cdbb2649e30c430b260bfa8c2e7507430df35423f6",
+      "n32": "bbb15cc60060ba3cc059d97e5677e5504b339cd66ee93de9cc927bd5f5f2ac28",
+      "n33": "e98026243d3b7a34c03afd369e72f69a6d3084a11ea057678b9613b8ee864da7",
+      "n34": "2ba22a683ded342dfcfdab2581eb1002f10364a8afb9d3f26ab690cbe5a7895d",
+      "n35": "b0ee4716c3ad452b2b326d6596ddbde723e9aa2e39ebb871977ba3ac05e98fac",
+      "n36": "dffe8c8fd4375f40ba2f69c63a943750950b3c8d0f535aa1575c8f4e179cda8f",
+      "n37": "2f6a80d77187603313e3df32d95064fede7245ea16551e779375cd2e1fd77309",
+      "n38": "76420fbeb106bc9b27341a2a19aa22efc2bdaabdaac72c3233d6696742a04350",
+      "n39": "b58235a23fe98167a39406a91f20f79bd5dc47007ba013096721e7ec7f90d357",
+      "n40": "cf8dd9957df518d5eaa2cd0a85fef798dd5b98c3197963ed5a7ee0838edf5442",
+      "n41": "9a268a228718ad2142c3c9101d53593811b56911d3ffb5f6cdd01f9e2ccc147c",
+      "n42": "9c3932310ba40817959e267ad515d364b0b9b09bde5106d86f253b7b54252896",
+      "n43": "aefe977a20c2f3850f22ffd4e0af7fac43127d427fbc0a3d1747120f046d295c",
+      "n44": "14214925ac76526b20188f06df281c5099e4696ef4676034af12c9f5933ba7d6",
+      "n45": "e50d5269a55f0c69ee2331e28f244b52f76d21aee37214f454a90d09a23b774c",
+      "n46": "49e74ab75b9d60fff5b05aecddfe568ea16bd6e80fbb4c4b95e4ff1f1b3e4b2d",
+      "n47": "9ed4926c404f00957a2362d48ef6f45ff61181082ba4ad86615074959da3eadc",
+      "n48": "27b7b6783942957929ca661dbe37a2b72e1ce8b8583d1b4855242a7b61ad44bf",
+      "n49": "e3a8ea5fec7f820340137c5e42fdb5f71aa383debe32f649bac6d892ebefeb70",
+      "n50": "ef0eb7cc127cc32117541b2719d8d75af4adfd2f1d9253f07109caa7e9044db7",
+      "n51": "551c7420465fa1615d18c549738d9909c8e4b9fc6c8546790f4a255af59afee1",
+      "n52": "9db516504aa9bbae6bde958210667a95077f6c0cb952fd465b9a720876d39980",
+      "n53": "b05193396df3f1b181d4ce7295cf0fde358a782269e7c46778ab73293910f9e6",
+      "n54": "ce02417676c03d116e3510fdceb902d8293d97250b7faa334f0614ebf2a2f7cd",
+      "n55": "9f2d6dcb422b74f2225ee5275616c6144c58caa98672e83e2c98987089546de2",
+      "n56": "7cafed56cee2d1e9c7cf39229066e81ac6663a849946ec0a5ec5b5404f19995c",
+      "n57": "5e58180894d54620543b8d69791f70bc26d77e3aa0d544d7ada6d56044b2089e",
+      "n58": "de9226dca8ffdddc11165109ea7c86ccbabc7faacfc2358b71282e58ab77f6f6",
+      "n59": "d3a30e84cb61de170575a643ba3cad727b642ca8bad4eafd5c2629735951fab5",
+      "n60": "f52ae08818e9c3f3efab52d86a2dc596c2c5f4525629e2bedf94c6a2a330b0aa",
+      "n61": "09e48fe6bd45d561d97e372999cf1b5a4433fb9cffc618ee0db3bd1052fa020c",
+      "n62": "51cb4948f89467992bfa666a24c7009be11b8854777db96e4033a24cba94a15b",
+      "n63": "02efe6df28098ce32f33c9c3313dea7f798873cc740e91d518fa56a2ead47be2",
+      "n64": "52f01d0bd6b3d1536904935a77aac146663d8052df708948560a48674be1c874",
+      "n65": "0d06ec42094140cd2b38ab5140d585dfb5bfaecadde91ac5041d9cbff95a8816"
+    }
+  },
+  "models_equal": true,
+  "model_count": 66,
+  "final_rss_reduction_percent": 59.76021487628108,
+  "limitations": [
+    "Synthetic retention probe, not a consciousness or adaptation result.",
+    "A dedicated SQLite fixture represents durable storage; it does not measure end-to-end Lab/PostgreSQL memory.",
+    "Concurrent regression and both probes were running; reported wall time is not a throughput comparison.",
+    "Lineage, ledger and observation-tool state still grow with historical population; no constant total-memory guarantee."
+  ]
+}

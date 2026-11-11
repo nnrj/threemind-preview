@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "threemind-lab"
+version = "2.1.0"
+description = "ThreeMind research lab and independent plastic runtime"
+requires-python = ">=3.11"
+dependencies = [
+  "threemind-runtime==2.1.0",
+  "threemind-transformer==2.1.0",
+  "fastapi>=0.115,<1", "uvicorn>=0.30,<1", "websockets>=14,<17", "python-multipart>=0.0.18,<1",
+  "psycopg[binary,pool]>=3.3.5,<4",
+  "pyarrow>=16,<60", "numpy>=1.26,<3", "scipy>=1.13,<2", "matplotlib>=3.8,<4",
+  "argon2-cffi>=23,<26", "psutil>=5.9,<8", "mujoco>=3.3,<4",
+  "pydantic>=2.8,<3",
+  "jsonschema>=4.23,<5",
+  "httpx>=0.27,<1", "cryptography>=43,<50", "markdown-it-py>=4.2,<5",
+  "python-docx>=1.2,<2", "reportlab>=4.4,<5", "mdit-py-plugins>=0.5,<1",
+  "latex2mathml>=3.81,<4", "mathml2omml>=0.0.2,<1", "ziamath>=0.13,<0.14", "svglib>=1.6,<2"
+]
+
+[project.scripts]
+threemind = "threemind_lab.cli:main"
+mind = "threemind_lab.cli:main"
+threemind-mcp = "threemind_lab.mcp_server:main"
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "httpx>=0.27,<1", "maturin>=1.9,<2", "ruff>=0.12,<1", "pypdf>=6,<7"]
+media = ["av>=13", "Pillow>=10"]
+transformer = ["torch>=2.6,<3"]
+language = ["torch>=2.6,<3", "transformers>=4.51,<5", "peft>=0.17,<1", "safetensors>=0.6,<1"]
+mcp = ["mcp>=2.2,<3"]
+storage = ["boto3>=1.35,<2"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["threemind_lab*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests_v2"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 120

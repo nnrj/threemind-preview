@@ -1,0 +1,44 @@
+{
+  "scope": "E2d immutable input, intervention, configuration and Lab event evidence",
+  "date": "2026-09-07",
+  "status": "verified after fixes",
+  "database_schema": 29,
+  "scientific_contracts_changed": false,
+  "scientific_parameters": 419,
+  "legacy_fields_reviewed": 55,
+  "legacy_fields_pending": 0,
+  "full_suite": {
+    "passed": 351, "failed": 1, "skipped": 0, "seconds": 592.01,
+    "log": ".work/report-events-full-1.log",
+    "failure": "test fixture expected local +08:00 after implementation normalized admission time to UTC",
+    "resolution": "assertion normalized to UTC; the affected test passed in both final targeted runs"
+  },
+  "final_events_and_exports": {"passed": 10, "seconds": 48.92, "log": ".work/report-events-target-final.log"},
+  "final_six_events_tests": {"passed": 6, "seconds": 24.04, "log": ".work/report-events-six-final.log"},
+  "browser_regression": {"browser": "Microsoft Edge", "passed": 7, "seconds": 44.6, "log": ".work/report-events-browser-1.log"},
+  "final_browser": {"passed": 1, "seconds": 8.4, "log": ".work/report-events-browser-final.log"},
+  "build": {"passed": true, "log": ".work/report-events-build-final.log"},
+  "static_audit": {"ruff": "passed", "translations": 3599, "missing_translations": 0, "duplicate_translation_keys": 0},
+  "visual_review": {"docx_pages": 3, "pdf_pages": 3, "all_pages_inspected": true, "desktop_and_390px_inspected": true},
+  "checks": [
+    "120 complete event rows; checkpoint time and commit watermarks exclude future and unknown commits",
+    "exact timestamps, equal-time stable IDs, source hashes recomputed from complete raw rows",
+    "host UTC admission differs from simulation processing time; pending requests are not applied events",
+    "rejected port scheduling retains rejection phase",
+    "event group and explicit type intersections, empty sources and meaningful count-only summaries",
+    "large payloads omitted inside SQL from previews and loaded from fixed rows on demand",
+    "AI uses all category counts without raw carriers; a mock provider produces a new unreviewed draft",
+    "project isolation and old-worker capability exclusion",
+    "four real export formats, complete JSONL payloads in optional evidence ZIP",
+    "real replay run, graphical capture, JSON save validation, raw detail and narrow table navigation"
+  ],
+  "screenshots": ["docs/images/v2/report-events-desktop.png", "docs/images/v2/report-events-mobile.png"],
+  "remaining_in_E2": ["explicit fixed-revision sharing"],
+  "limitations": [
+    "Lab event evidence is not a complete Core propagation trace",
+    "log counts are not independent inputs or experiments",
+    "one large event still requires enough memory to decode it",
+    "AI summaries do not reveal parameter changes or carrier contents",
+    "engineering fixtures do not establish consciousness or AGI"
+  ]
+}

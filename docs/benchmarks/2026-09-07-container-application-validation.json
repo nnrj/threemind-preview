@@ -1,0 +1,221 @@
+{
+  "image": "threemind-lab:validation",
+  "source_commit": "908595e",
+  "checks": {
+    "initialization_login_frontend": {
+      "server_mode": true,
+      "anonymous_denied": true,
+      "native": true
+    },
+    "mujoco_native_run": {
+      "status": "completed",
+      "time_us": "200000",
+      "state_hash": "2ebaf61e3658644948b407869be56e1b83b470831dbd79b58d3ab2f67de65a7e"
+    },
+    "notification_tls_queue": {
+      "status": "sent",
+      "verified_tls": true,
+      "external_recipients": 0
+    },
+    "ai_queue": {
+      "status": "completed",
+      "external_paid_calls": 0
+    },
+    "media_and_organs": {
+      "original_roundtrips": 2,
+      "delivered_envelopes": 2,
+      "organ_response_keys": [
+        "rows",
+        "more",
+        "next",
+        "scope"
+      ]
+    },
+    "research_exports": {
+      "markdown": {
+        "bytes": 2492,
+        "sha256": "ae857fcd8ee5fcf80dc52370addd02b3d7620e21b80ddb3173a4bc0c468446c7"
+      },
+      "html": {
+        "bytes": 7456,
+        "sha256": "49c9300c8d531d2fa0d92108859f26a69afa592fcaed9d419b8da75a2d3d7bf6"
+      },
+      "docx": {
+        "bytes": 39679,
+        "sha256": "74e514e95527b6ef4f82f276eb1ce199e6072d0b025e7c83bee0410be3ae7702"
+      },
+      "pdf": {
+        "bytes": 39513,
+        "sha256": "1a0d67d76507117dbcdaaf3ede77c1952b327fe8b7bf26175c03ce05f1d5a166"
+      }
+    },
+    "recovery_started": {
+      "committed_time_us": "300000",
+      "previous_generation": 1,
+      "natural_lease_expiry_seconds": 60
+    },
+    "worker_fault_recovery": {
+      "generation": 2,
+      "state_hash": "9607d322bf04dc0ae909c6aaeedb85f15a55ad4e11b35c9a5c7550ebc1de216e",
+      "matches_uninterrupted_run": true
+    },
+    "model_roundtrip": {
+      "bytes": 14633,
+      "state_hash_matches": true
+    },
+    "complete": true,
+    "chart_exports": {
+      "html": {
+        "bytes": 45722,
+        "sha256": "b3d93e390d64a5f59394b511f84a03c085885049e076e6c70c291969b5ca604f"
+      },
+      "docx": {
+        "bytes": 86509,
+        "sha256": "24e48c454a6fd36f9b540de9e9c8af303792bb21dd9af786eca2fcacb8c2b174"
+      },
+      "pdf": {
+        "bytes": 52297,
+        "sha256": "43fd09c56e3421a70ed971b6a40758654d869bf520d48525dd3b5474cc2bea7e"
+      }
+    },
+    "actual_container_isolation": {
+      "services": {
+        "ai-worker": {
+          "image": "threemind-lab:validation",
+          "user": "threemind",
+          "read_only": true,
+          "memory_bytes": 536870912,
+          "nano_cpus": 1000000000,
+          "pids": 256,
+          "cap_drop": [
+            "ALL"
+          ],
+          "security_opt": [
+            "no-new-privileges:true"
+          ],
+          "ports": {}
+        },
+        "api": {
+          "image": "threemind-lab:validation",
+          "user": "threemind",
+          "read_only": true,
+          "memory_bytes": 2147483648,
+          "nano_cpus": 2000000000,
+          "pids": 256,
+          "cap_drop": [
+            "ALL"
+          ],
+          "security_opt": [
+            "no-new-privileges:true"
+          ],
+          "ports": {
+            "8877/tcp": [
+              {
+                "HostIp": "127.0.0.1",
+                "HostPort": "18878"
+              }
+            ]
+          }
+        },
+        "notification-worker": {
+          "image": "threemind-lab:validation",
+          "user": "threemind",
+          "read_only": true,
+          "memory_bytes": 268435456,
+          "nano_cpus": 500000000,
+          "pids": 256,
+          "cap_drop": [
+            "ALL"
+          ],
+          "security_opt": [
+            "no-new-privileges:true"
+          ],
+          "ports": {}
+        },
+        "worker": {
+          "image": "threemind-lab:validation",
+          "user": "threemind",
+          "read_only": true,
+          "memory_bytes": 2147483648,
+          "nano_cpus": 2000000000,
+          "pids": 256,
+          "cap_drop": [
+            "ALL"
+          ],
+          "security_opt": [
+            "no-new-privileges:true"
+          ],
+          "ports": {}
+        },
+        "bootstrap": {
+          "image": "threemind-lab:validation",
+          "user": "threemind",
+          "read_only": true,
+          "memory_bytes": 1073741824,
+          "nano_cpus": 1000000000,
+          "pids": 256,
+          "cap_drop": [
+            "ALL"
+          ],
+          "security_opt": [
+            "no-new-privileges:true"
+          ],
+          "ports": {}
+        },
+        "postgres": {
+          "image": "postgres:17-bookworm",
+          "user": "",
+          "read_only": false,
+          "memory_bytes": 1073741824,
+          "nano_cpus": 2000000000,
+          "pids": 256,
+          "cap_drop": null,
+          "security_opt": null,
+          "ports": {}
+        }
+      },
+      "api_probe": {
+        "uid": 10001,
+        "root_write_denied": true,
+        "tmp_writable": true,
+        "no_new_privs": true,
+        "zero_effective_capabilities": true
+      }
+    }
+  },
+  "project_id": "c04c61d8-6ae5-4a32-9619-239af240881e",
+  "date": "2026-09-07",
+  "platform": "Linux x86-64 under Docker Desktop on Windows",
+  "schema": 29,
+  "image_config": "sha256:8621c5912d07a9bc025e61539d0657131eebd66a935ee5c93cd2db39359f4994",
+  "manifest_list_sha256": "8621c5912d07a9bc025e61539d0657131eebd66a935ee5c93cd2db39359f4994",
+  "network_resolution": "Build command reused existing Windows loopback HTTP proxy through HTTP_PROXY and HTTPS_PROXY; no global configuration changed.",
+  "fixture_corrections": [
+    "AI completion status is completed, not succeeded",
+    "Trajectory metric is activation, not total_activation"
+  ],
+  "visual_review": {
+    "docx_pages": 3,
+    "pdf_pages": 3,
+    "every_page_checked": true,
+    "includes_chinese_math_tables_and_line_chart": true
+  },
+  "browser": {
+    "server_login": true,
+    "viewport_widths": [
+      1440,
+      390
+    ],
+    "page_errors": 0
+  },
+  "cleanup": {
+    "isolated_stack_and_database_volume_removed": true,
+    "other_projects_untouched": true,
+    "built_image_retained": true
+  },
+  "limitations": [
+    "Functional acceptance with small synthetic fixtures; no large-network or 24-hour capacity claim",
+    "No ARM64 or cross-hardware bitwise equivalence claim",
+    "Later source changes require a new image build"
+  ]
+}

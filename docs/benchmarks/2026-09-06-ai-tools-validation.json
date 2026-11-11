@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-06",
+  "stage": "D3b external environment, interpreter and research assistant",
+  "database_schema": 19,
+  "core": "causal/7",
+  "model_profile": "profile/5",
+  "scientific_fields": 419,
+  "python_full": { "passed": 273, "skipped": 0, "seconds": 291.32, "log": ".work/d3b-full.log" },
+  "python_final_targeted": { "passed": 9, "log": ".work/d3b-final.log" },
+  "browser_final": { "passed": 5, "log": ".work/d3b-browser-final.log", "provider": "local synthetic HTTP/SSE server" },
+  "checks": ["Ruff", "TypeScript/Vite", "55 legacy fields reviewed, zero pending", "git diff --check", "desktop and mobile screenshots inspected"],
+  "coverage": [
+    "ordinary bus stimulus and exact request retries", "effect receipt and input atomic rollback",
+    "cancel after HTTP completion, disable and re-enable before effect",
+    "independent tool changes and automatic actor identity",
+    "historical snapshot constrained by simulation time and commit revision",
+    "bounded recorded nodes, edges, metrics and plan receipts",
+    "invalid analysis source references rejected with original response retained",
+    "manual, background and recurrence trigger selection and optional content deduplication",
+    "durable host and simulation schedules without modifying Core time",
+    "finite registered AI plans with confirmed or explicit sandbox execution",
+    "human plan revision preserves immutable AI proposal provenance",
+    "project boundaries and actor revocation", "schema upgrade from prior database",
+    "graphical and JSON configuration, save-time validation, default values, mobile layout"
+  ],
+  "limits": ["AI conclusions remain unreviewed", "No paid provider request", "Not a universal provider compatibility claim", "Remaining D, E and innate trainer still in progress"],
+  "old_data_read": false,
+  "push": false
+}

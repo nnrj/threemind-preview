@@ -1,0 +1,1938 @@
+{
+  "host_telemetry": {
+    "intensity": {
+      "label": "总输入强度",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "原始物理量与通道映射保持不变；0 表示不施加输入量。新建默认 0.2。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "enabled": {
+      "label": "启用",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "来自真实物理计数，仅允许实时调度；会作为刺激影响模型。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "sample_interval_ms": {
+      "label": "真实采样间隔",
+      "minimum": 100,
+      "maximum": 60000,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "ms",
+      "type": "int"
+    },
+    "smoothing_tau_s": {
+      "label": "平滑时间常数",
+      "minimum": 0,
+      "maximum": 3600,
+      "choices": null,
+      "hint": "指数平滑；0 关闭平滑。默认在 1 秒间隔下保留旧值的 80%。",
+      "immutable": false,
+      "unit": "s",
+      "type": "float"
+    },
+    "levels_enabled": {
+      "label": "全部水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "changes_enabled": {
+      "label": "全部变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.cpu_load.level": {
+      "label": "水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.cpu_load.change": {
+      "label": "变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.cpu_load.gain": {
+      "label": "增益",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.cpu_load.reference_override": {
+      "label": "手动归一化尺度",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "关闭时使用探针提供的尺度。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.cpu_load.reference": {
+      "label": "参考尺度",
+      "minimum": 1e-12,
+      "maximum": 1e+18,
+      "choices": null,
+      "hint": "单位与原始测量一致；仅手动尺度开启时生效。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.cpu_frequency.level": {
+      "label": "水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.cpu_frequency.change": {
+      "label": "变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.cpu_frequency.gain": {
+      "label": "增益",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.cpu_frequency.reference_override": {
+      "label": "手动归一化尺度",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "关闭时使用探针提供的尺度。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.cpu_frequency.reference": {
+      "label": "参考尺度",
+      "minimum": 1e-12,
+      "maximum": 1e+18,
+      "choices": null,
+      "hint": "单位与原始测量一致；仅手动尺度开启时生效。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.memory_pressure.level": {
+      "label": "水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.memory_pressure.change": {
+      "label": "变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.memory_pressure.gain": {
+      "label": "增益",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.memory_pressure.reference_override": {
+      "label": "手动归一化尺度",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "关闭时使用探针提供的尺度。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.memory_pressure.reference": {
+      "label": "参考尺度",
+      "minimum": 1e-12,
+      "maximum": 1e+18,
+      "choices": null,
+      "hint": "单位与原始测量一致；仅手动尺度开启时生效。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.memory_commit_pressure.level": {
+      "label": "水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.memory_commit_pressure.change": {
+      "label": "变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.memory_commit_pressure.gain": {
+      "label": "增益",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.memory_commit_pressure.reference_override": {
+      "label": "手动归一化尺度",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "关闭时使用探针提供的尺度。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.memory_commit_pressure.reference": {
+      "label": "参考尺度",
+      "minimum": 1e-12,
+      "maximum": 1e+18,
+      "choices": null,
+      "hint": "单位与原始测量一致；仅手动尺度开启时生效。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.swap_pressure.level": {
+      "label": "水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.swap_pressure.change": {
+      "label": "变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.swap_pressure.gain": {
+      "label": "增益",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.swap_pressure.reference_override": {
+      "label": "手动归一化尺度",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "关闭时使用探针提供的尺度。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.swap_pressure.reference": {
+      "label": "参考尺度",
+      "minimum": 1e-12,
+      "maximum": 1e+18,
+      "choices": null,
+      "hint": "单位与原始测量一致；仅手动尺度开启时生效。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.page_in_rate.level": {
+      "label": "水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.page_in_rate.change": {
+      "label": "变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.page_in_rate.gain": {
+      "label": "增益",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.page_in_rate.reference_override": {
+      "label": "手动归一化尺度",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "关闭时使用探针提供的尺度。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.page_in_rate.reference": {
+      "label": "参考尺度",
+      "minimum": 1e-12,
+      "maximum": 1e+18,
+      "choices": null,
+      "hint": "单位与原始测量一致；仅手动尺度开启时生效。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.page_out_rate.level": {
+      "label": "水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.page_out_rate.change": {
+      "label": "变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.page_out_rate.gain": {
+      "label": "增益",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.page_out_rate.reference_override": {
+      "label": "手动归一化尺度",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "关闭时使用探针提供的尺度。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.page_out_rate.reference": {
+      "label": "参考尺度",
+      "minimum": 1e-12,
+      "maximum": 1e+18,
+      "choices": null,
+      "hint": "单位与原始测量一致；仅手动尺度开启时生效。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.page_fault_rate.level": {
+      "label": "水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.page_fault_rate.change": {
+      "label": "变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.page_fault_rate.gain": {
+      "label": "增益",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.page_fault_rate.reference_override": {
+      "label": "手动归一化尺度",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "关闭时使用探针提供的尺度。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.page_fault_rate.reference": {
+      "label": "参考尺度",
+      "minimum": 1e-12,
+      "maximum": 1e+18,
+      "choices": null,
+      "hint": "单位与原始测量一致；仅手动尺度开启时生效。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.disk_read_rate.level": {
+      "label": "水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.disk_read_rate.change": {
+      "label": "变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.disk_read_rate.gain": {
+      "label": "增益",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.disk_read_rate.reference_override": {
+      "label": "手动归一化尺度",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "关闭时使用探针提供的尺度。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.disk_read_rate.reference": {
+      "label": "参考尺度",
+      "minimum": 1e-12,
+      "maximum": 1e+18,
+      "choices": null,
+      "hint": "单位与原始测量一致；仅手动尺度开启时生效。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.disk_write_rate.level": {
+      "label": "水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.disk_write_rate.change": {
+      "label": "变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.disk_write_rate.gain": {
+      "label": "增益",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.disk_write_rate.reference_override": {
+      "label": "手动归一化尺度",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "关闭时使用探针提供的尺度。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.disk_write_rate.reference": {
+      "label": "参考尺度",
+      "minimum": 1e-12,
+      "maximum": 1e+18,
+      "choices": null,
+      "hint": "单位与原始测量一致；仅手动尺度开启时生效。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.disk_read_iops.level": {
+      "label": "水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.disk_read_iops.change": {
+      "label": "变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.disk_read_iops.gain": {
+      "label": "增益",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.disk_read_iops.reference_override": {
+      "label": "手动归一化尺度",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "关闭时使用探针提供的尺度。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.disk_read_iops.reference": {
+      "label": "参考尺度",
+      "minimum": 1e-12,
+      "maximum": 1e+18,
+      "choices": null,
+      "hint": "单位与原始测量一致；仅手动尺度开启时生效。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.disk_write_iops.level": {
+      "label": "水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.disk_write_iops.change": {
+      "label": "变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.disk_write_iops.gain": {
+      "label": "增益",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.disk_write_iops.reference_override": {
+      "label": "手动归一化尺度",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "关闭时使用探针提供的尺度。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.disk_write_iops.reference": {
+      "label": "参考尺度",
+      "minimum": 1e-12,
+      "maximum": 1e+18,
+      "choices": null,
+      "hint": "单位与原始测量一致；仅手动尺度开启时生效。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.network_receive_rate.level": {
+      "label": "水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.network_receive_rate.change": {
+      "label": "变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.network_receive_rate.gain": {
+      "label": "增益",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.network_receive_rate.reference_override": {
+      "label": "手动归一化尺度",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "关闭时使用探针提供的尺度。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.network_receive_rate.reference": {
+      "label": "参考尺度",
+      "minimum": 1e-12,
+      "maximum": 1e+18,
+      "choices": null,
+      "hint": "单位与原始测量一致；仅手动尺度开启时生效。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.network_send_rate.level": {
+      "label": "水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.network_send_rate.change": {
+      "label": "变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.network_send_rate.gain": {
+      "label": "增益",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.network_send_rate.reference_override": {
+      "label": "手动归一化尺度",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "关闭时使用探针提供的尺度。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.network_send_rate.reference": {
+      "label": "参考尺度",
+      "minimum": 1e-12,
+      "maximum": 1e+18,
+      "choices": null,
+      "hint": "单位与原始测量一致；仅手动尺度开启时生效。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.network_receive_packets.level": {
+      "label": "水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.network_receive_packets.change": {
+      "label": "变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.network_receive_packets.gain": {
+      "label": "增益",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.network_receive_packets.reference_override": {
+      "label": "手动归一化尺度",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "关闭时使用探针提供的尺度。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.network_receive_packets.reference": {
+      "label": "参考尺度",
+      "minimum": 1e-12,
+      "maximum": 1e+18,
+      "choices": null,
+      "hint": "单位与原始测量一致；仅手动尺度开启时生效。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.network_send_packets.level": {
+      "label": "水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.network_send_packets.change": {
+      "label": "变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.network_send_packets.gain": {
+      "label": "增益",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.network_send_packets.reference_override": {
+      "label": "手动归一化尺度",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "关闭时使用探针提供的尺度。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.network_send_packets.reference": {
+      "label": "参考尺度",
+      "minimum": 1e-12,
+      "maximum": 1e+18,
+      "choices": null,
+      "hint": "单位与原始测量一致；仅手动尺度开启时生效。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.network_error_rate.level": {
+      "label": "水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.network_error_rate.change": {
+      "label": "变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.network_error_rate.gain": {
+      "label": "增益",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.network_error_rate.reference_override": {
+      "label": "手动归一化尺度",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "关闭时使用探针提供的尺度。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.network_error_rate.reference": {
+      "label": "参考尺度",
+      "minimum": 1e-12,
+      "maximum": 1e+18,
+      "choices": null,
+      "hint": "单位与原始测量一致；仅手动尺度开启时生效。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.network_drop_rate.level": {
+      "label": "水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.network_drop_rate.change": {
+      "label": "变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.network_drop_rate.gain": {
+      "label": "增益",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.network_drop_rate.reference_override": {
+      "label": "手动归一化尺度",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "关闭时使用探针提供的尺度。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.network_drop_rate.reference": {
+      "label": "参考尺度",
+      "minimum": 1e-12,
+      "maximum": 1e+18,
+      "choices": null,
+      "hint": "单位与原始测量一致；仅手动尺度开启时生效。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.battery_level.level": {
+      "label": "水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.battery_level.change": {
+      "label": "变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.battery_level.gain": {
+      "label": "增益",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.battery_level.reference_override": {
+      "label": "手动归一化尺度",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "关闭时使用探针提供的尺度。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.battery_level.reference": {
+      "label": "参考尺度",
+      "minimum": 1e-12,
+      "maximum": 1e+18,
+      "choices": null,
+      "hint": "单位与原始测量一致；仅手动尺度开启时生效。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.ac_power.level": {
+      "label": "水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.ac_power.change": {
+      "label": "变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.ac_power.gain": {
+      "label": "增益",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.ac_power.reference_override": {
+      "label": "手动归一化尺度",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "关闭时使用探针提供的尺度。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.ac_power.reference": {
+      "label": "参考尺度",
+      "minimum": 1e-12,
+      "maximum": 1e+18,
+      "choices": null,
+      "hint": "单位与原始测量一致；仅手动尺度开启时生效。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.battery_charging.level": {
+      "label": "水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.battery_charging.change": {
+      "label": "变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.battery_charging.gain": {
+      "label": "增益",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.battery_charging.reference_override": {
+      "label": "手动归一化尺度",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "关闭时使用探针提供的尺度。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.battery_charging.reference": {
+      "label": "参考尺度",
+      "minimum": 1e-12,
+      "maximum": 1e+18,
+      "choices": null,
+      "hint": "单位与原始测量一致；仅手动尺度开启时生效。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    }
+  },
+  "process_telemetry": {
+    "intensity": {
+      "label": "总输入强度",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "原始物理量与通道映射保持不变；0 表示不施加输入量。新建默认 0.2。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "enabled": {
+      "label": "启用",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "来自真实物理计数，仅允许实时调度；会作为刺激影响模型。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "sample_interval_ms": {
+      "label": "真实采样间隔",
+      "minimum": 100,
+      "maximum": 60000,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "ms",
+      "type": "int"
+    },
+    "smoothing_tau_s": {
+      "label": "平滑时间常数",
+      "minimum": 0,
+      "maximum": 3600,
+      "choices": null,
+      "hint": "指数平滑；0 关闭平滑。默认在 1 秒间隔下保留旧值的 80%。",
+      "immutable": false,
+      "unit": "s",
+      "type": "float"
+    },
+    "levels_enabled": {
+      "label": "全部水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "changes_enabled": {
+      "label": "全部变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.cpu_load.level": {
+      "label": "水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.cpu_load.change": {
+      "label": "变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.cpu_load.gain": {
+      "label": "增益",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.cpu_load.reference_override": {
+      "label": "手动归一化尺度",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "关闭时使用探针提供的尺度。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.cpu_load.reference": {
+      "label": "参考尺度",
+      "minimum": 1e-12,
+      "maximum": 1e+18,
+      "choices": null,
+      "hint": "单位与原始测量一致；仅手动尺度开启时生效。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.rss_pressure.level": {
+      "label": "水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.rss_pressure.change": {
+      "label": "变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.rss_pressure.gain": {
+      "label": "增益",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.rss_pressure.reference_override": {
+      "label": "手动归一化尺度",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "关闭时使用探针提供的尺度。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.rss_pressure.reference": {
+      "label": "参考尺度",
+      "minimum": 1e-12,
+      "maximum": 1e+18,
+      "choices": null,
+      "hint": "单位与原始测量一致；仅手动尺度开启时生效。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.private_memory_pressure.level": {
+      "label": "水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.private_memory_pressure.change": {
+      "label": "变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.private_memory_pressure.gain": {
+      "label": "增益",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.private_memory_pressure.reference_override": {
+      "label": "手动归一化尺度",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "关闭时使用探针提供的尺度。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.private_memory_pressure.reference": {
+      "label": "参考尺度",
+      "minimum": 1e-12,
+      "maximum": 1e+18,
+      "choices": null,
+      "hint": "单位与原始测量一致；仅手动尺度开启时生效。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.page_fault_rate.level": {
+      "label": "水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.page_fault_rate.change": {
+      "label": "变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.page_fault_rate.gain": {
+      "label": "增益",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.page_fault_rate.reference_override": {
+      "label": "手动归一化尺度",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "关闭时使用探针提供的尺度。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.page_fault_rate.reference": {
+      "label": "参考尺度",
+      "minimum": 1e-12,
+      "maximum": 1e+18,
+      "choices": null,
+      "hint": "单位与原始测量一致；仅手动尺度开启时生效。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.read_rate.level": {
+      "label": "水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.read_rate.change": {
+      "label": "变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.read_rate.gain": {
+      "label": "增益",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.read_rate.reference_override": {
+      "label": "手动归一化尺度",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "关闭时使用探针提供的尺度。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.read_rate.reference": {
+      "label": "参考尺度",
+      "minimum": 1e-12,
+      "maximum": 1e+18,
+      "choices": null,
+      "hint": "单位与原始测量一致；仅手动尺度开启时生效。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.write_rate.level": {
+      "label": "水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.write_rate.change": {
+      "label": "变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.write_rate.gain": {
+      "label": "增益",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.write_rate.reference_override": {
+      "label": "手动归一化尺度",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "关闭时使用探针提供的尺度。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.write_rate.reference": {
+      "label": "参考尺度",
+      "minimum": 1e-12,
+      "maximum": 1e+18,
+      "choices": null,
+      "hint": "单位与原始测量一致；仅手动尺度开启时生效。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.thread_count.level": {
+      "label": "水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.thread_count.change": {
+      "label": "变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.thread_count.gain": {
+      "label": "增益",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.thread_count.reference_override": {
+      "label": "手动归一化尺度",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "关闭时使用探针提供的尺度。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.thread_count.reference": {
+      "label": "参考尺度",
+      "minimum": 1e-12,
+      "maximum": 1e+18,
+      "choices": null,
+      "hint": "单位与原始测量一致；仅手动尺度开启时生效。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.handle_count.level": {
+      "label": "水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.handle_count.change": {
+      "label": "变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.handle_count.gain": {
+      "label": "增益",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.handle_count.reference_override": {
+      "label": "手动归一化尺度",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "关闭时使用探针提供的尺度。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.handle_count.reference": {
+      "label": "参考尺度",
+      "minimum": 1e-12,
+      "maximum": 1e+18,
+      "choices": null,
+      "hint": "单位与原始测量一致；仅手动尺度开启时生效。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.scheduler_latency_ms.level": {
+      "label": "水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.scheduler_latency_ms.change": {
+      "label": "变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.scheduler_latency_ms.gain": {
+      "label": "增益",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.scheduler_latency_ms.reference_override": {
+      "label": "手动归一化尺度",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "关闭时使用探针提供的尺度。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.scheduler_latency_ms.reference": {
+      "label": "参考尺度",
+      "minimum": 1e-12,
+      "maximum": 1e+18,
+      "choices": null,
+      "hint": "单位与原始测量一致；仅手动尺度开启时生效。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.tick_execution_time_ms.level": {
+      "label": "水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.tick_execution_time_ms.change": {
+      "label": "变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.tick_execution_time_ms.gain": {
+      "label": "增益",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.tick_execution_time_ms.reference_override": {
+      "label": "手动归一化尺度",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "关闭时使用探针提供的尺度。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.tick_execution_time_ms.reference": {
+      "label": "参考尺度",
+      "minimum": 1e-12,
+      "maximum": 1e+18,
+      "choices": null,
+      "hint": "单位与原始测量一致；仅手动尺度开启时生效。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    }
+  },
+  "runtime_telemetry": {
+    "intensity": {
+      "label": "总输入强度",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "原始物理量与通道映射保持不变；0 表示不施加输入量。新建默认 0.2。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "enabled": {
+      "label": "启用",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "来自真实物理计数，仅允许实时调度；会作为刺激影响模型。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "sample_interval_ms": {
+      "label": "真实采样间隔",
+      "minimum": 100,
+      "maximum": 60000,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "ms",
+      "type": "int"
+    },
+    "smoothing_tau_s": {
+      "label": "平滑时间常数",
+      "minimum": 0,
+      "maximum": 3600,
+      "choices": null,
+      "hint": "指数平滑；0 关闭平滑。默认在 1 秒间隔下保留旧值的 80%。",
+      "immutable": false,
+      "unit": "s",
+      "type": "float"
+    },
+    "levels_enabled": {
+      "label": "全部水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "changes_enabled": {
+      "label": "全部变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.thread_cpu_load.level": {
+      "label": "水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.thread_cpu_load.change": {
+      "label": "变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.thread_cpu_load.gain": {
+      "label": "增益",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.thread_cpu_load.reference_override": {
+      "label": "手动归一化尺度",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "关闭时使用探针提供的尺度。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.thread_cpu_load.reference": {
+      "label": "参考尺度",
+      "minimum": 1e-12,
+      "maximum": 1e+18,
+      "choices": null,
+      "hint": "单位与原始测量一致；仅手动尺度开启时生效。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.epoch_busy_ratio.level": {
+      "label": "水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.epoch_busy_ratio.change": {
+      "label": "变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.epoch_busy_ratio.gain": {
+      "label": "增益",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.epoch_busy_ratio.reference_override": {
+      "label": "手动归一化尺度",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "关闭时使用探针提供的尺度。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.epoch_busy_ratio.reference": {
+      "label": "参考尺度",
+      "minimum": 1e-12,
+      "maximum": 1e+18,
+      "choices": null,
+      "hint": "单位与原始测量一致；仅手动尺度开启时生效。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.epoch_execution_time_ms.level": {
+      "label": "水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.epoch_execution_time_ms.change": {
+      "label": "变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.epoch_execution_time_ms.gain": {
+      "label": "增益",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.epoch_execution_time_ms.reference_override": {
+      "label": "手动归一化尺度",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "关闭时使用探针提供的尺度。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.epoch_execution_time_ms.reference": {
+      "label": "参考尺度",
+      "minimum": 1e-12,
+      "maximum": 1e+18,
+      "choices": null,
+      "hint": "单位与原始测量一致；仅手动尺度开启时生效。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.scheduler_latency_ms.level": {
+      "label": "水平通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.scheduler_latency_ms.change": {
+      "label": "变化通道",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.scheduler_latency_ms.gain": {
+      "label": "增益",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null,
+      "hint": "",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    },
+    "signals.scheduler_latency_ms.reference_override": {
+      "label": "手动归一化尺度",
+      "minimum": null,
+      "maximum": null,
+      "choices": null,
+      "hint": "关闭时使用探针提供的尺度。",
+      "immutable": false,
+      "unit": "",
+      "type": "bool"
+    },
+    "signals.scheduler_latency_ms.reference": {
+      "label": "参考尺度",
+      "minimum": 1e-12,
+      "maximum": 1e+18,
+      "choices": null,
+      "hint": "单位与原始测量一致；仅手动尺度开启时生效。",
+      "immutable": false,
+      "unit": "",
+      "type": "float"
+    }
+  }
+}

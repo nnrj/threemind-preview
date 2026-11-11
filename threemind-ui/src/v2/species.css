@@ -1,0 +1,8 @@
+.species-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:16px;margin:18px 0}
+.species-library{padding:18px}.species-library>.panel-heading{padding:0 0 18px}
+.species-card{min-width:0;padding:18px;border:1px solid var(--border,#dce6e2);border-radius:12px;background:var(--surface,#fff)}
+.species-card h3{margin:0;overflow-wrap:anywhere}.species-card dl{display:grid;grid-template-columns:auto minmax(0,1fr);gap:8px 16px;font-size:.9rem}
+.species-card dd{margin:0;overflow-wrap:anywhere}.species-card dt{color:var(--muted,#657973)}
+.species-card details{margin:16px 0}.species-card pre{font-size:.8rem;max-height:340px;overflow:auto}
+.species-library>.panel-heading{align-items:start;flex-wrap:wrap;gap:12px}.species-library .button-row{display:flex;gap:12px}
+@media(max-width:600px){.species-card{padding:12px}.species-card .panel-heading{flex-wrap:wrap}.species-card dl{grid-template-columns:1fr}.species-card dd{margin-bottom:6px}}

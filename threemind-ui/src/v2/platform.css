@@ -1,0 +1,156 @@
+.project-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+.project-card {
+  text-decoration: none;
+  color: inherit;
+}
+.service-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+}
+.permission-category {
+  margin-bottom: 20px;
+}
+.permission-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px 0;
+}
+.permission-row > strong {
+  min-width: 220px;
+}
+.role-checklist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.table-scroll {
+  overflow-x: auto;
+}
+.login-card .check {
+  margin: 12px 0;
+}
+.observatory > .inspector {
+  min-width: 0;
+}
+.settings-tabs {
+  overflow-x: auto;
+}
+.settings-tabs > button {
+  flex-shrink: 0;
+}
+.main-shell,
+.page,
+.consciousness-workbench {
+  min-width: 0;
+}
+.project-card h2 {
+  overflow-wrap: anywhere;
+}
+@media (max-width: 600px) {
+  .project-cards {
+    grid-template-columns: 1fr;
+  }
+  .permission-row > strong {
+    min-width: 100%;
+    overflow-wrap: anywhere;
+  }
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+  .topbar .breadcrumb {
+    display: none;
+  }
+  .topbar > div {
+    gap: 8px;
+  }
+  .topbar .connection-indicator {
+    display: none;
+  }
+  .page {
+    padding: 20px 14px;
+  }
+  .page-title {
+    flex-wrap: wrap;
+  }
+  .page-title h1 {
+    font-size: 28px;
+  }
+  .observatory {
+    display: flex;
+    flex-direction: column;
+  }
+  .observatory > .inspector {
+    width: 100%;
+    max-width: 100%;
+    border-left: 0;
+  }
+  .observatory .graph-wrap {
+    min-height: 420px;
+  }
+  .runtime-tabs {
+    overflow-x: auto;
+  }
+  .runtime-tabs button {
+    white-space: nowrap;
+  }
+  .service-row {
+    flex-wrap: wrap;
+  }
+}
+
+.tabs.player-mobile-tabs {
+  display: none;
+}
+@media (max-width: 600px) {
+  .tabs.player-mobile-tabs {
+    display: flex;
+  }
+  .player-pane-network > .inspector {
+    display: none;
+  }
+  .player-pane-inspector > .graph-export-view {
+    display: none;
+  }
+  .player-pane-inspector > .inspector {
+    display: block;
+  }
+}
+.logout-instances {
+  display: grid;
+  gap: 0.65rem;
+  margin-block: 1rem;
+}
+.logout-instance {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+  border: 1px solid var(--line);
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+}
+.logout-instance input {
+  width: auto;
+  margin-top: 0.25rem;
+}
+.logout-instance span {
+  min-width: 0;
+}
+.logout-instance strong,
+.logout-instance small {
+  display: block;
+  overflow-wrap: anywhere;
+}
+.logout-instance small {
+  color: var(--muted);
+  margin-top: 0.3rem;
+}

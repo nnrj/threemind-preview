@@ -1,0 +1,14 @@
+{
+  "package_schema_version": "3.0.0",
+  "kernel_id": "anonymous-spatial",
+  "name": "Anonymous spatial association model",
+  "node_payload": "anonymous",
+  "weighted_edges": true,
+  "spatial_embedding": true,
+  "spatial_dimensions": 3,
+  "parameters": {
+    "activation_decay": 0.72,
+    "propagation_gain": 0.42,
+    "max_nodes": 20000
+  }
+}

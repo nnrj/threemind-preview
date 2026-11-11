@@ -1,0 +1,41 @@
+{
+  "date": "2026-09-06",
+  "scope": "B9 adapter registry and separate host capabilities",
+  "adapter_count": 22,
+  "configuration_fields": 379,
+  "core_fields": 60,
+  "database_schema": 11,
+  "causal": "causal/6",
+  "state": "state/5",
+  "profile": "profile/4",
+  "full_pytest": {
+    "passed": 202,
+    "skipped": 0,
+    "seconds": 196.8
+  },
+  "browser": {
+    "passed": 1,
+    "seconds": 19.8,
+    "engine": "Edge",
+    "get_user_media_calls": 0
+  },
+  "checks": [
+    "Ruff",
+    "TypeScript/Vite",
+    "Prettier",
+    "git diff --check",
+    "legacy audit: 55 covered, 0 pending"
+  ],
+  "limits": [
+    "Capabilities are process-scoped smoke checks, not throughput guarantees",
+    "Full heterogeneous worker dependency routing remains in operations work",
+    "No old data scanned or physical AV devices captured"
+  ],
+  "sha256": {
+    "src/threemind_runtime/registry.py": "5123faae2bbcee83e6e318147cf5771c77f6d7bf11dab6944064c81f7757987a",
+    "src/threemind_runtime/capabilities.py": "46c8579bf2854d5b3a278bba3abccea424f11d6679d275396b555b600f8c3336",
+    "src/threemind_lab/adapter_api.py": "a128be4607922c48126f7647ee747aa2877a731a75106c1d8eae48f3b54fa362",
+    "threemind-ui/src/v2/adapterCatalogue.tsx": "46fb6e340f5958cd05e6f5e1b10324e5a9f597484e87dc0a5bcea560c38edd8f",
+    "threemind-ui/src/v2/browserCapabilities.ts": "745ebb1ba45dd8f0f5f0b223f70278cf6698f2ffe813de3a626808ed0ef5d624"
+  }
+}

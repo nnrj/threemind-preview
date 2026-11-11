@@ -1,0 +1,35 @@
+{
+  "schema": "threemind.validation/1",
+  "date": "2026-09-07",
+  "phase": "D5c",
+  "versions": {"database": 22, "causal": 7, "state": 5, "profile": 5, "scientific_fields": 419},
+  "checks": {
+    "source_audit": {"catalogue": 3172, "literal_references": 2251, "metadata_texts": 712, "parameters": 419, "adapters": 23, "commands": 10, "duplicates": 0, "missing": 0, "invalid_placeholders": 0, "remaining_direct_display_literals": 0},
+    "initial_configuration_and_language": {"passed": 4, "seconds": 29.7},
+    "expanded_browser_before_corrections": {"passed": 10, "failed": 2},
+    "final_language_graph_and_research": {"passed": 8, "seconds": 30.3},
+    "chart_zoom_language_switch": {"passed": 1, "seconds": 4.5},
+    "typescript_vite_ruff_diff_check": "passed",
+    "language_chunk": {"kilobytes": 249.68, "gzip_kilobytes": 92.89},
+    "python_full_regression": "not rerun for this UI-only phase"
+  },
+  "coverage": [
+    "Chinese default, English, browser matching, reload, storage event, blocked localStorage",
+    "User names and placeholders in user text remain unchanged",
+    "English parameter search, immutable hints, GUI/JSON scientific value round trip",
+    "Same CodeMirror document node, undo history and uncommitted pasted search preserved",
+    "Background notification language survives GUI/JSON and personal locale changes; email remains disabled",
+    "Same WebGL canvas through locale changes and bounded buffers over five display resize cycles",
+    "Chart numeric axis range preserved through both locale directions after real wheel zoom",
+    "Completed simulation Core hash unchanged after chart locale changes",
+    "Existing adapter, configuration, research console and plan flows; local SMTP sink only",
+    "Desktop and narrow screen layouts inspected"
+  ],
+  "limits": [
+    "Static copy audit is not a proof that every dynamic expression is translated",
+    "User data, documents, raw API errors and historical diagnostic payloads retain source language",
+    "Pending paste preservation corrected after browser failure; prior canvas selector narrowed to the actual WebGL layer",
+    "Language bundle is bounded but adds initial download size; existing large chunk warnings remain",
+    "No external translation API, model format change, database migration or data scan"
+  ]
+}

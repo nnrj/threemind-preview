@@ -1,0 +1,36 @@
+{
+  "scope": "E2a fixed source capture and structured research documents",
+  "date": "2026-09-07",
+  "status": "verified",
+  "database_schema": 26,
+  "scientific_contracts_changed": false,
+  "scientific_parameters": 419,
+  "legacy_fields_reviewed": 55,
+  "legacy_fields_pending": 0,
+  "full_suite": {"passed": 337, "skipped": 0, "seconds": 469.72, "log": ".work/reports-full-1.log"},
+  "final_backend": {"passed": 6, "seconds": 21.35, "log": ".work/reports-backend-final.log"},
+  "final_browser": {"browser": "Microsoft Edge", "passed": 3, "seconds": 14.3, "log": ".work/reports-browser-delivery2.log"},
+  "build": {"passed": true, "log": ".work/reports-build-delivery2.log", "warning": "existing shared graph/editor bundles exceed Vite's 500 kB advisory threshold"},
+  "static_audit": {"ruff": "passed", "translations": 3521, "missing_translations": 0, "duplicate_translation_keys": 0},
+  "checks": [
+    "complete selected trajectory beyond 32 rows, bounded by both checkpoint time and commit revision",
+    "canonical content hash recomputed from exact time strings, rows, provenance and coverage",
+    "Core analytic node and edge observation without mutation",
+    "full histogram count and selected paired-analysis endpoint; missing, CI and censoring retained",
+    "immutable revisions, original operation replay, optimistic concurrency and copy on conflict",
+    "fixed record block references unaffected by later record edits",
+    "project and role boundaries, CSRF, missing source rejection and source retention",
+    "fenced capture, over-budget rollback and unused-source release",
+    "graphical capture, defaults, bidirectional JSON and automatic save validation",
+    "paginated full captured data, formula stylesheet, language and 390 px dark layout",
+    "lost save acknowledgement, recoverable JSON draft and concurrent author edits"
+  ],
+  "screenshots": ["docs/images/v2/records-editor.png", "docs/images/v2/records-preview.png", "docs/images/v2/reports-mobile-dark.png"],
+  "remaining_in_E2": ["AI proposals", "Markdown/HTML/DOCX/PDF exports", "explicit fixed-revision sharing", "input/intervention/event sources"],
+  "limitations": [
+    "2,000,000 rows / 512 MiB canonical scalar projection per source; oversize captures fail explicitly",
+    "checkpoint distributions still reconstruct the model and have proportional memory cost",
+    "display-bin means and extrema are not time-weighted means or confidence intervals",
+    "author commentary and engineering fixtures do not establish consciousness or AGI"
+  ]
+}

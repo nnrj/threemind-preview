@@ -1,0 +1,36 @@
+{
+  "schema": "threemind.validation/1",
+  "date": "2026-09-07",
+  "phase": "D5b",
+  "versions": {"database": 22, "causal": 7, "state": 5, "profile": 5, "scientific_fields": 419},
+  "checks": {
+    "full_regression": {"passed": 303, "skipped": 0, "seconds": 451.96},
+    "initial_capture_tests": {"passed": 6, "seconds": 37.33},
+    "final_capture_library_database_tests": {"passed": 13, "seconds": 40.41},
+    "edge_existing_configuration_and_library": {"passed": 2},
+    "edge_final_capture_and_mobile_layout": {"passed": 1, "seconds": 8.8},
+    "typescript_vite_ruff": "passed",
+    "legacy_fields": {"reviewed": 55, "pending": 0},
+    "local_schema": "22 installed"
+  },
+  "coverage": [
+    "Real worker receipt points to the actual checkpoint; final Core hash matches a run without naming",
+    "Concurrent same-request submission returns one capture; changed content or overlapping request is rejected",
+    "Name, pin, annotation history, capture receipt and checkpoint roll back together",
+    "Successful checkpoint return includes current annotation metadata, including on exact retry",
+    "Pending request is not attached to an earlier unrelated checkpoint",
+    "Permission revocation, early termination, worker failure and lease exhaustion give explicit failed receipts",
+    "Automatic revision/UTC naming preserves suffix within 120 characters",
+    "Pinned capture prevents cleanup; after unpin, reviewed whole-archive cleanup removes its dependent receipt",
+    "Metadata JSONL contains capture receipts; project boundaries and read-only role enforced",
+    "Browser cancel submits nothing; lost POST response acknowledged through database history without duplicate request",
+    "Device preference survives refresh; automatic capture requires no dialog and does not inherit previous pin selection",
+    "Desktop and mobile inspected; active run tool tab remains visible on a narrow viewport"
+  ],
+  "limits": [
+    "Initial browser attempt exposed inaccessible exact field labels; explicit labels added and path passed",
+    "The final 13-case suite ran after the checkpoint-return metadata correction; earlier full collection is not claimed to contain its new assertions",
+    "Names are human annotations, not model structure, semantic understanding or a consciousness measure",
+    "No data directory scan or migration"
+  ]
+}

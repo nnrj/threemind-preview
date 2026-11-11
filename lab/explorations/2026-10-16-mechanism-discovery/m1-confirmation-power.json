@@ -1,0 +1,71 @@
+{
+  "schema": "threemind.mechanism-power/1",
+  "kind": "continuous",
+  "effect": 0.5,
+  "family_size": 1,
+  "per_comparison_alpha": 0.05,
+  "replicates": 20000,
+  "seed": 2026101603,
+  "baseline_success": null,
+  "discordance": null,
+  "rows": [
+    {
+      "independent_units": 48,
+      "power": 0.92295,
+      "monte_carlo_95_interval": [
+        0.9191724404130155,
+        0.9265651162871256
+      ],
+      "meets_planning_target": true
+    },
+    {
+      "independent_units": 64,
+      "power": 0.9727,
+      "monte_carlo_95_interval": [
+        0.9703492019987404,
+        0.9748692471138182
+      ],
+      "meets_planning_target": true
+    },
+    {
+      "independent_units": 80,
+      "power": 0.9931,
+      "monte_carlo_95_interval": [
+        0.9918542758696303,
+        0.9941563381718392
+      ],
+      "meets_planning_target": true
+    },
+    {
+      "independent_units": 96,
+      "power": 0.9979,
+      "monte_carlo_95_interval": [
+        0.9971628472365731,
+        0.9984459232587578
+      ],
+      "meets_planning_target": true
+    },
+    {
+      "independent_units": 112,
+      "power": 0.99945,
+      "monte_carlo_95_interval": [
+        0.9990153237654903,
+        0.9996928514180666
+      ],
+      "meets_planning_target": true
+    },
+    {
+      "independent_units": 128,
+      "power": 0.99985,
+      "monte_carlo_95_interval": [
+        0.9995590363727073,
+        0.999948985182005
+      ],
+      "meets_planning_target": true
+    }
+  ],
+  "selected_n": 48,
+  "decision": "conditional-planning-estimate",
+  "scope": "assumed independent paired outcomes; not pilot-fitted or final sample authorization",
+  "execution_authorized": false
+}

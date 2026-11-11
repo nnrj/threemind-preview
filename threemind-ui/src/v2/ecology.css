@@ -1,0 +1,227 @@
+.ecology-fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px 20px;
+}
+.ecology-fields > .ecology-group {
+  grid-column: 1 / -1;
+}
+.ecology-group {
+  padding: 14px;
+  margin: 14px 0;
+  border: 1px solid var(--border, #dce5df);
+  border-radius: 9px;
+  min-width: 0;
+}
+.ecology-group > summary {
+  cursor: pointer;
+  font-weight: 600;
+  padding: 4px 0;
+}
+.ecology-group[open] > summary {
+  margin-bottom: 14px;
+}
+.ecology-group h4 {
+  margin: 0 0 12px;
+}
+.ecology-group > details {
+  margin: 12px 0;
+}
+.ecology-vector {
+  display: flex;
+  gap: 6px;
+}
+.ecology-vector input {
+  min-width: 0;
+  width: 100%;
+}
+.ecology-editor > .configuration-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 18px 0;
+}
+.ecology-summary {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+.ecology-summary > div {
+  padding: 14px;
+  border: 1px solid var(--border, #dce5df);
+  border-radius: 9px;
+  display: grid;
+  gap: 7px;
+}
+.ecology-summary strong {
+  font-size: 1.5rem;
+  font-variant-numeric: tabular-nums;
+}
+.ecology-summary span {
+  font-size: 0.83rem;
+}
+.ecology-event {
+  border-bottom: 1px solid var(--border, #dce5df);
+  padding: 10px 0;
+}
+.ecology-event > summary {
+  cursor: pointer;
+  overflow-wrap: anywhere;
+}
+.ecology-detail {
+  margin-top: 24px;
+  min-width: 0;
+  padding: 24px;
+}
+.ecology-detail .query-controls {
+  flex-wrap: wrap;
+}
+.ecology-detail td details {
+  max-width: 480px;
+}
+.ecology-members td:last-child {
+  min-width: 12rem;
+}
+@media (max-width: 680px) {
+  .ecology-members table,
+  .ecology-members tbody {
+    display: block;
+    min-width: 0;
+    width: 100%;
+  }
+  .ecology-members thead {
+    display: none;
+  }
+  .ecology-members tr {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin: 12px 0;
+    padding: 8px;
+    border: 1px solid var(--border, #dce5df);
+    border-radius: 9px;
+  }
+  .ecology-members td {
+    display: block;
+    padding: 8px;
+    min-width: 0;
+    border: 0;
+    overflow-wrap: anywhere;
+  }
+  .ecology-members td::before {
+    content: attr(data-label);
+    display: block;
+    font-size: 0.78rem;
+    opacity: 0.7;
+    margin-bottom: 5px;
+  }
+  .ecology-members td:last-child {
+    min-width: 0;
+    grid-column: 1 / -1;
+  }
+  .ecology-members td:last-child details {
+    margin-top: 10px;
+  }
+  .ecology-fields {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .ecology-summary {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .ecology-group {
+    padding: 10px;
+  }
+  .ecology-detail .page-title {
+    display: block;
+  }
+  .ecology-detail {
+    padding: 14px;
+  }
+}
+/* Observer records are readable independently of the world renderer. */
+.observer-panel {
+  min-width: 0;
+}
+.observer-toolbar {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.observer-toolbar h3,
+.observer-toolbar p {
+  margin: 0;
+}
+.observer-form {
+  border: 0;
+  padding: 0;
+  min-width: 0;
+}
+.observer-switches {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  margin: 16px 0;
+}
+.observer-fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px 20px;
+  margin: 12px 0;
+}
+.observer-rule {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  margin: 18px 0;
+  padding: 14px;
+  min-width: 0;
+}
+.observer-rule legend {
+  padding: 0 6px;
+}
+.observer-rule > button {
+  margin-top: 12px;
+}
+.observer-feed {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 12px;
+}
+.observer-entry {
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: 8px;
+  padding: 14px 16px;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.observer-entry p {
+  margin: 8px 0;
+}
+.observer-entry pre {
+  max-height: 280px;
+  overflow: auto;
+  white-space: pre-wrap;
+  font-size: 12px;
+}
+.observer-warning {
+  border-left-color: #a46a20;
+}
+.observer-speech {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px;
+  margin: 14px 0;
+}
+.observer-speech > summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+@media (max-width: 640px) {
+  .observer-fields {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

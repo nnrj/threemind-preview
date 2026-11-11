@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-08",
+  "base_commit": "2d76d3d",
+  "scope": "F5f shared adapter declarations, negotiation, offline SDK checks and graphical tools",
+  "versions": {"contract": "threemind.adapter-contract/1", "manifest": "threemind.adapter-manifest/1", "database": "46 unchanged", "core": "causal/7 unchanged", "installed_adapters": 24},
+  "checks": [
+    {"suite": "declarations, SDK, registry and sensory regression", "passed": 28, "failed": 0, "seconds": 27.34, "log": ".work/adapter-contracts-first.log"},
+    {"suite": "SDK, registry, source policy, readout fidelity and deployment wiring", "passed": 38, "failed": 0, "seconds": 42.20, "log": ".work/adapter-contracts-final-backend.log"},
+    {"suite": "final declaration, clock/unit negotiation and both numerical backends", "passed": 13, "failed": 0, "seconds": 8.75, "log": ".work/adapter-contracts-accepted-backend.log"},
+    {"suite": "initial new contracts, legacy catalogue and execution health browser", "passed": 2, "failed": 1, "seconds": 38.5, "log": ".work/adapter-contracts-browser.log"},
+    {"suite": "fixed missing capability labels, remaining old positional test selector", "passed": 1, "failed": 1, "seconds": 26.7, "log": ".work/adapter-contracts-repaired-browser.log"},
+    {"suite": "final new and old adapter browser paths", "passed": 2, "failed": 0, "seconds": 18.6, "log": ".work/adapter-contracts-accepted-browser.log"},
+    {"suite": "final Chinese/English narrow-screen overflow and declaration checks", "passed": 1, "failed": 0, "seconds": 7.6, "log": ".work/adapter-contracts-responsive-browser.log"}
+  ],
+  "quality": {"build": "passed; existing lazy chunk size advisory remains", "ruff": "passed", "translations": 4500, "missing_translations": 0, "legacy_fields_reviewed": 55, "legacy_pending": 0},
+  "fixes": [
+    "Two previously added Runtime worker capability reports lacked display names and caused the existing capability page to crash. Producers now supply names, and the UI falls back to stable feature identifiers for old reports.",
+    "The legacy browser check now selects a Core worker by its declared capability rather than assuming the first alphabetically listed worker is a Core worker.",
+    "Nested grid minimum widths and wrapped tabs fixed content clipped inside the narrow-screen panel; checks now inspect panel overflow, not just document width."
+  ],
+  "limits": [
+    "These overlapping suites are not a full repository total. Full regression and updated container validation are tracked separately.",
+    "Declarations never authorize devices, load uploaded code or certify third-party behaviour.",
+    "Executable fixtures cover network, anonymous frames and text codecs with fixed stimuli on reference and native backends; arbitrary hardware and stateful drivers require their own fixtures.",
+    "Binary carrier example passed offline; no real hardware, paid AI or external mail was used.",
+    "No new Core topology ports, brain regions or plastic output mechanism were added. Fixed actuator projections remain explicitly labelled engineering baselines."
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schema": "threemind.validation/1",
+  "date": "2026-09-07",
+  "source_base_commit": "8dad833",
+  "scope": "Fixed whole-population evidence, research records and reports, paged ecological resource ledger and narrow histogram rendering.",
+  "contracts": {
+    "database_schema": 40,
+    "worker_feature": "worker.ecology_evidence_v1",
+    "core": "causal/7 unchanged",
+    "state": "state/5 unchanged",
+    "runtime_profile": "profile/5 unchanged",
+    "birth": "threemind.birth/1 unchanged"
+  },
+  "integration": {
+    "passed": 34,
+    "failed": 1,
+    "seconds": 225.85,
+    "failure": "Schema-15 upgrade fixture retained newly added ecology foreign-key columns; corrected fixture cleanup.",
+    "upgrade_recheck": {"passed": 2, "failed": 0, "seconds": 14.21},
+    "checks": [
+      "Source fixed at 17 ms remains two members even when capture executes after six actual members exist; physical time 20 ms is explicit",
+      "All dead and nonreproducing members retained, actual offspring restricted to selected checkpoint, original outcomes and model hashes preserved",
+      "Shared ancestry, non-independent observations, waiting versus death and right-censoring boundaries preserved",
+      "Fixed protocol and project/campaign checkpoint constraints; old worker excluded from new evidence jobs",
+      "31 independent inactive habitats retain inventory with 30+1 paging; detail omits full account and pool arrays",
+      "Markdown, HTML, DOCX and PDF exports with complete source evidence; local mock AI draft flow",
+      "Existing evolution sources, research documents, AI, exports, shares, operations and schema-32 upgrade paths"
+    ]
+  },
+  "browser": {
+    "engine": "Edge via Playwright",
+    "integration_passed": 8,
+    "integration_wall_time": "1.2 minutes",
+    "final_histogram_layout_recheck": {"passed": 1, "seconds": 10.4},
+    "checks": [
+      "Ecological configuration, group controls, individual ownership and fixed exports",
+      "Graphical resource ledger, selected-checkpoint record entry, full population source and default charts",
+      "Existing event capture, four-format exports, JSON synchronization, interrupted saves and fixed report references",
+      "Desktop and 390 px mobile preview with no document overflow; explicit histogram offset and original tooltip boundaries"
+    ]
+  },
+  "build": "passed; existing large lazy chunk notices remain",
+  "ruff": "passed",
+  "translation_catalogue": {"entries": 4202, "missing": 0, "duplicates": 0, "invalid_placeholders": 0},
+  "legacy_parameter_audit": {"fields": 55, "pending": 0},
+  "limits": [
+    "No new full-suite or container run in this phase",
+    "No real external AI call; generated language still requires scientific review",
+    "Complete population source is not a per-member complete input/readout history export",
+    "API paging reduces Python, transfer and browser costs; PostgreSQL JSON processing and Runtime cumulative history remain proportional costs",
+    "No consciousness, beneficial evolution, large-population throughput or cross-hardware equivalence claim"
+  ]
+}

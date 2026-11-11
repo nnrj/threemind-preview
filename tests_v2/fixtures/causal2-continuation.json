@@ -1,0 +1,978 @@
+{
+  "purpose": "Frozen C1 optional-mechanism engineering control; not research evidence",
+  "source_commit": "309b077",
+  "native_binary_sha256": "af74e3611c8f286d530494345679815a0db651f3883cebdac655b9441a58834c",
+  "before": {
+    "schema": "threemind.state/2",
+    "dynamics": "threemind.causal/2",
+    "config": {
+      "step_us": 10000,
+      "delay_us": 10000,
+      "activation_tau": 0.3044,
+      "trace_tau": 0.504,
+      "inhibition_tau": 0.2321,
+      "stability_tau": 666.667,
+      "support_tau": 666.667,
+      "propagation_rate": 4.2,
+      "direct_gain": 0.9,
+      "learning_rate": 0.0055,
+      "birth_weight": 0.065,
+      "first_gain": 0.045,
+      "repeat_gain": 0.018,
+      "intensity_gain": 0.075,
+      "associative_gain": 0.01,
+      "stability_gain": 0.022,
+      "support_gain": 0.035,
+      "forgetting_rate": 0.025,
+      "inhibition_gain": 0.24,
+      "inhibition_diffusion_rate": 3.5,
+      "inhibition_response_gain": 2.0,
+      "activation_floor": 1e-05,
+      "prune_weight": 0.008,
+      "prune_support": 1e-05,
+      "plasticity": true,
+      "inhibition": true,
+      "seed": 20260724,
+      "consolidation_cap": 0.08,
+      "edge_birth_policy": "temporal-association",
+      "local_novelty_gain": 0.018,
+      "homeostasis_enabled": true,
+      "target_total_activation": 1.4,
+      "inhibition_saturation": 2.0,
+      "inhibition_propagation_min": 0.0001
+    },
+    "time_us": "75013",
+    "state_time_us": "72014",
+    "next_step_us": "80000",
+    "sequence": 42,
+    "next_event": 46,
+    "next_node": 6,
+    "sources_open": true,
+    "life": "active",
+    "nodes": [
+      {
+        "id": 1,
+        "channel": 0,
+        "activation": 0.2421002303894726,
+        "inhibition": 0.11919145446757437,
+        "trace": 0.6296621979775513,
+        "support": 0.0254003181361251,
+        "stability": 0.015965914256992907,
+        "direct": 0.23864711996938778,
+        "associative": 0.003453110420084821,
+        "touches": 7,
+        "last_touch_us": "70000"
+      },
+      {
+        "id": 2,
+        "channel": 2,
+        "activation": 0.49861405256538427,
+        "inhibition": 0.22429735205635215,
+        "trace": 0.9340667226148284,
+        "support": 0.03481546882514974,
+        "stability": 0.02188400897580841,
+        "direct": 0.4932371535426774,
+        "associative": 0.005376899022706852,
+        "touches": 8,
+        "last_touch_us": "70000"
+      },
+      {
+        "id": 3,
+        "channel": 1,
+        "activation": 0.26861085263218487,
+        "inhibition": 0.1471101280072386,
+        "trace": 0.6696798056232024,
+        "support": 0.025411442298126297,
+        "stability": 0.015972906587393667,
+        "direct": 0.26423758881300946,
+        "associative": 0.004373263819175397,
+        "touches": 4,
+        "last_touch_us": "70000"
+      },
+      {
+        "id": 4,
+        "channel": 3,
+        "activation": 0.13676694369935766,
+        "inhibition": 0.07709400066147987,
+        "trace": 0.33824155849546744,
+        "support": 0.012827880032272622,
+        "stability": 0.008063238877428503,
+        "direct": 0.13211879440650473,
+        "associative": 0.004648149292852928,
+        "touches": 4,
+        "last_touch_us": "70000"
+      },
+      {
+        "id": 5,
+        "channel": 4,
+        "activation": 0.21525767212532887,
+        "inhibition": 0.0864,
+        "trace": 0.352927538188773,
+        "support": 0.012599811001511993,
+        "stability": 0.007919881200950395,
+        "direct": 0.21525767212532887,
+        "associative": 0.0,
+        "touches": 1,
+        "last_touch_us": "62014"
+      }
+    ],
+    "edges": [
+      {
+        "source": 1,
+        "target": 2,
+        "weight": 0.09272032087995441,
+        "stability": 0.11261892482166974,
+        "eligibility": 0.9960119417644897,
+        "touches": 15,
+        "birth_us": "0",
+        "last_touch_us": "70000"
+      },
+      {
+        "source": 1,
+        "target": 3,
+        "weight": 0.09870370565957445,
+        "stability": 0.0833485645657532,
+        "eligibility": 0.8655485343373995,
+        "touches": 8,
+        "birth_us": "31007",
+        "last_touch_us": "70000"
+      },
+      {
+        "source": 1,
+        "target": 4,
+        "weight": 0.05828606447540445,
+        "stability": 0.05066033021349212,
+        "eligibility": 0.4353055297585813,
+        "touches": 8,
+        "birth_us": "31007",
+        "last_touch_us": "70000"
+      },
+      {
+        "source": 1,
+        "target": 5,
+        "weight": 0.0505466708564633,
+        "stability": 0.04352384321817695,
+        "eligibility": 0.14266264087826414,
+        "touches": 2,
+        "birth_us": "62014",
+        "last_touch_us": "70000"
+      },
+      {
+        "source": 2,
+        "target": 1,
+        "weight": 0.09084553450628671,
+        "stability": 0.09221841014527275,
+        "eligibility": 0.9960119417644897,
+        "touches": 14,
+        "birth_us": "0",
+        "last_touch_us": "70000"
+      },
+      {
+        "source": 2,
+        "target": 3,
+        "weight": 0.08150940192904842,
+        "stability": 0.07554295063101432,
+        "eligibility": 0.5411832416470804,
+        "touches": 8,
+        "birth_us": "31007",
+        "last_touch_us": "70000"
+      },
+      {
+        "source": 2,
+        "target": 4,
+        "weight": 0.049619213235549346,
+        "stability": 0.04668398589166231,
+        "eligibility": 0.2729512000521068,
+        "touches": 8,
+        "birth_us": "31007",
+        "last_touch_us": "70000"
+      },
+      {
+        "source": 2,
+        "target": 5,
+        "weight": 0.07415529076262652,
+        "stability": 0.05966938823981103,
+        "eligibility": 0.2947364416632829,
+        "touches": 2,
+        "birth_us": "62014",
+        "last_touch_us": "70000"
+      },
+      {
+        "source": 3,
+        "target": 1,
+        "weight": 0.034686888046968865,
+        "stability": 0.0320834285864348,
+        "eligibility": 0.6222390314645729,
+        "touches": 8,
+        "birth_us": "40000",
+        "last_touch_us": "70000"
+      },
+      {
+        "source": 3,
+        "target": 2,
+        "weight": 0.02881358600294808,
+        "stability": 0.04829571636970766,
+        "eligibility": 0.7822269235930159,
+        "touches": 9,
+        "birth_us": "40000",
+        "last_touch_us": "70000"
+      },
+      {
+        "source": 3,
+        "target": 4,
+        "weight": 0.08764890935180074,
+        "stability": 0.0792641878775492,
+        "eligibility": 0.4828283775581256,
+        "touches": 8,
+        "birth_us": "31007",
+        "last_touch_us": "70000"
+      },
+      {
+        "source": 3,
+        "target": 5,
+        "weight": 0.051631199666354224,
+        "stability": 0.04386125139182969,
+        "eligibility": 0.15781043525055966,
+        "touches": 2,
+        "birth_us": "62014",
+        "last_touch_us": "70000"
+      },
+      {
+        "source": 4,
+        "target": 1,
+        "weight": 0.026264610137263045,
+        "stability": 0.025003130185414606,
+        "eligibility": 0.3130912449712286,
+        "touches": 8,
+        "birth_us": "40000",
+        "last_touch_us": "70000"
+      },
+      {
+        "source": 4,
+        "target": 2,
+        "weight": 0.0232587425914142,
+        "stability": 0.03955160338128128,
+        "eligibility": 0.3950181972492281,
+        "touches": 9,
+        "birth_us": "40000",
+        "last_touch_us": "70000"
+      },
+      {
+        "source": 4,
+        "target": 3,
+        "weight": 0.08762685740086205,
+        "stability": 0.07921566717829145,
+        "eligibility": 0.4807106178159235,
+        "touches": 8,
+        "birth_us": "31007",
+        "last_touch_us": "70000"
+      },
+      {
+        "source": 4,
+        "target": 5,
+        "weight": 0.04599684779702697,
+        "stability": 0.04207425006797215,
+        "eligibility": 0.07975345220598819,
+        "touches": 2,
+        "birth_us": "62014",
+        "last_touch_us": "70000"
+      },
+      {
+        "source": 5,
+        "target": 1,
+        "weight": 0.021411034962480115,
+        "stability": 0.018853076581856178,
+        "eligibility": 0.0527875691587001,
+        "touches": 2,
+        "birth_us": "70000",
+        "last_touch_us": "70000"
+      },
+      {
+        "source": 5,
+        "target": 2,
+        "weight": 0.0747468804950819,
+        "stability": 0.0620476063963338,
+        "eligibility": 0.4024064798437144,
+        "touches": 3,
+        "birth_us": "62014",
+        "last_touch_us": "70000"
+      },
+      {
+        "source": 5,
+        "target": 3,
+        "weight": 0.021735360715715978,
+        "stability": 0.01889699435347107,
+        "eligibility": 0.05855001649990766,
+        "touches": 2,
+        "birth_us": "70000",
+        "last_touch_us": "70000"
+      },
+      {
+        "source": 5,
+        "target": 4,
+        "weight": 0.0196828966255916,
+        "stability": 0.01823900399799533,
+        "eligibility": 0.029888033347274707,
+        "touches": 2,
+        "birth_us": "70000",
+        "last_touch_us": "70000"
+      }
+    ],
+    "queue": [
+      {
+        "time_us": "80000",
+        "id": 41,
+        "kind": "inhibition",
+        "payload": {
+          "values": [
+            [
+              1,
+              0.0002614972774635506
+            ]
+          ]
+        }
+      },
+      {
+        "time_us": "80000",
+        "id": 42,
+        "kind": "inhibition",
+        "payload": {
+          "values": [
+            [
+              2,
+              0.0003626265862566397
+            ]
+          ]
+        }
+      },
+      {
+        "time_us": "80000",
+        "id": 43,
+        "kind": "inhibition",
+        "payload": {
+          "values": [
+            [
+              3,
+              0.00047977992420816746
+            ]
+          ]
+        }
+      },
+      {
+        "time_us": "80000",
+        "id": 44,
+        "kind": "inhibition",
+        "payload": {
+          "values": [
+            [
+              4,
+              0.0004893106526997456
+            ]
+          ]
+        }
+      },
+      {
+        "time_us": "80000",
+        "id": 45,
+        "kind": "signal",
+        "payload": {
+          "values": [
+            [
+              1,
+              0.0022374110782459123
+            ],
+            [
+              2,
+              0.001768741666674273
+            ],
+            [
+              3,
+              0.0028697530730953597
+            ],
+            [
+              4,
+              0.0022754470679552793
+            ],
+            [
+              5,
+              0.0023943436537156096
+            ]
+          ]
+        }
+      },
+      {
+        "time_us": "80000",
+        "id": 46,
+        "kind": "inhibition",
+        "payload": {
+          "values": [
+            [
+              1,
+              0.0031293980640605488
+            ],
+            [
+              2,
+              0.003239966370515857
+            ],
+            [
+              3,
+              0.0031408584759236944
+            ],
+            [
+              4,
+              0.0027245312941424266
+            ],
+            [
+              5,
+              0.002770091604348928
+            ]
+          ]
+        }
+      },
+      {
+        "time_us": "93021",
+        "id": 4,
+        "kind": "stimulus",
+        "payload": {
+          "channels": [
+            [
+              3,
+              0.8
+            ],
+            [
+              0,
+              0.4
+            ]
+          ],
+          "intensity": 1.0,
+          "time_us": "93021"
+        }
+      },
+      {
+        "time_us": "124028",
+        "id": 5,
+        "kind": "stimulus",
+        "payload": {
+          "channels": [
+            [
+              4,
+              0.8
+            ],
+            [
+              1,
+              0.4
+            ]
+          ],
+          "intensity": 1.0,
+          "time_us": "124028"
+        }
+      },
+      {
+        "time_us": "155035",
+        "id": 6,
+        "kind": "stimulus",
+        "payload": {
+          "channels": [
+            [
+              0,
+              0.8
+            ],
+            [
+              2,
+              0.4
+            ]
+          ],
+          "intensity": 1.0,
+          "time_us": "155035"
+        }
+      },
+      {
+        "time_us": "186042",
+        "id": 7,
+        "kind": "stimulus",
+        "payload": {
+          "channels": [
+            [
+              1,
+              0.8
+            ],
+            [
+              3,
+              0.4
+            ]
+          ],
+          "intensity": 1.0,
+          "time_us": "186042"
+        }
+      },
+      {
+        "time_us": "217049",
+        "id": 8,
+        "kind": "stimulus",
+        "payload": {
+          "channels": [
+            [
+              2,
+              0.8
+            ],
+            [
+              4,
+              0.4
+            ]
+          ],
+          "intensity": 1.0,
+          "time_us": "217049"
+        }
+      }
+    ],
+    "silenced_nodes": [],
+    "silenced_edges": []
+  },
+  "before_hash": "a6b3798e433541d6a97c672fd6688953ccdbb1a1dab8d4b7dc5b8cc226ec3467",
+  "target_us": "310031",
+  "after": {
+    "schema": "threemind.state/2",
+    "dynamics": "threemind.causal/2",
+    "config": {
+      "step_us": 10000,
+      "delay_us": 10000,
+      "activation_tau": 0.3044,
+      "trace_tau": 0.504,
+      "inhibition_tau": 0.2321,
+      "stability_tau": 666.667,
+      "support_tau": 666.667,
+      "propagation_rate": 4.2,
+      "direct_gain": 0.9,
+      "learning_rate": 0.0055,
+      "birth_weight": 0.065,
+      "first_gain": 0.045,
+      "repeat_gain": 0.018,
+      "intensity_gain": 0.075,
+      "associative_gain": 0.01,
+      "stability_gain": 0.022,
+      "support_gain": 0.035,
+      "forgetting_rate": 0.025,
+      "inhibition_gain": 0.24,
+      "inhibition_diffusion_rate": 3.5,
+      "inhibition_response_gain": 2.0,
+      "activation_floor": 1e-05,
+      "prune_weight": 0.008,
+      "prune_support": 1e-05,
+      "plasticity": true,
+      "inhibition": true,
+      "seed": 20260724,
+      "consolidation_cap": 0.08,
+      "edge_birth_policy": "temporal-association",
+      "local_novelty_gain": 0.018,
+      "homeostasis_enabled": true,
+      "target_total_activation": 1.4,
+      "inhibition_saturation": 2.0,
+      "inhibition_propagation_min": 0.0001
+    },
+    "time_us": "310031",
+    "state_time_us": "310000",
+    "next_step_us": "320000",
+    "sequence": 248,
+    "next_event": 224,
+    "next_node": 6,
+    "sources_open": true,
+    "life": "active",
+    "nodes": [
+      {
+        "id": 1,
+        "channel": 0,
+        "activation": 0.1434314480818369,
+        "inhibition": 0.15634297919258006,
+        "trace": 0.7523436174281646,
+        "support": 0.056329510257193516,
+        "stability": 0.03540712073309308,
+        "direct": 0.12817507680236045,
+        "associative": 0.015256371279476495,
+        "touches": 33,
+        "last_touch_us": "310000"
+      },
+      {
+        "id": 2,
+        "channel": 2,
+        "activation": 0.35284336127908705,
+        "inhibition": 0.1996215568892214,
+        "trace": 0.8417376117220535,
+        "support": 0.0642921375427531,
+        "stability": 0.04041220074115906,
+        "direct": 0.3382879301855032,
+        "associative": 0.0145554310935839,
+        "touches": 34,
+        "last_touch_us": "310000"
+      },
+      {
+        "id": 3,
+        "channel": 1,
+        "activation": 0.22456427442146662,
+        "inhibition": 0.1787793927205756,
+        "trace": 0.8004271530358313,
+        "support": 0.0562035771774538,
+        "stability": 0.03532796279725667,
+        "direct": 0.20484594046718277,
+        "associative": 0.019718333954283875,
+        "touches": 30,
+        "last_touch_us": "310000"
+      },
+      {
+        "id": 4,
+        "channel": 3,
+        "activation": 0.14280596820862537,
+        "inhibition": 0.13511130490855588,
+        "trace": 0.7990298638717683,
+        "support": 0.04576986241435778,
+        "stability": 0.02876962780331062,
+        "direct": 0.12531936276933767,
+        "associative": 0.017486605439287674,
+        "touches": 30,
+        "last_touch_us": "310000"
+      },
+      {
+        "id": 5,
+        "channel": 4,
+        "activation": 0.2282612452915506,
+        "inhibition": 0.1467803486534371,
+        "trace": 0.8448650909822694,
+        "support": 0.045466886909139616,
+        "stability": 0.02857918605717349,
+        "direct": 0.21105695764283622,
+        "associative": 0.01720428764871434,
+        "touches": 27,
+        "last_touch_us": "310000"
+      }
+    ],
+    "edges": [
+      {
+        "source": 1,
+        "target": 2,
+        "weight": 0.10506883261888968,
+        "stability": 0.19550135175073471,
+        "eligibility": 1.0,
+        "touches": 65,
+        "birth_us": "0",
+        "last_touch_us": "310000"
+      },
+      {
+        "source": 1,
+        "target": 3,
+        "weight": 0.10886016797523762,
+        "stability": 0.14473624342382782,
+        "eligibility": 1.0,
+        "touches": 58,
+        "birth_us": "31007",
+        "last_touch_us": "310000"
+      },
+      {
+        "source": 1,
+        "target": 4,
+        "weight": 0.06887681537982426,
+        "stability": 0.11981379280516521,
+        "eligibility": 1.0,
+        "touches": 58,
+        "birth_us": "31007",
+        "last_touch_us": "310000"
+      },
+      {
+        "source": 1,
+        "target": 5,
+        "weight": 0.06005645714003847,
+        "stability": 0.10181536425334119,
+        "eligibility": 1.0,
+        "touches": 52,
+        "birth_us": "62014",
+        "last_touch_us": "310000"
+      },
+      {
+        "source": 2,
+        "target": 1,
+        "weight": 0.10355190363347083,
+        "stability": 0.1700185079677129,
+        "eligibility": 1.0,
+        "touches": 64,
+        "birth_us": "0",
+        "last_touch_us": "310000"
+      },
+      {
+        "source": 2,
+        "target": 3,
+        "weight": 0.09360970200234953,
+        "stability": 0.1444359027578404,
+        "eligibility": 1.0,
+        "touches": 58,
+        "birth_us": "31007",
+        "last_touch_us": "310000"
+      },
+      {
+        "source": 2,
+        "target": 4,
+        "weight": 0.06076036189789438,
+        "stability": 0.11141958563015758,
+        "eligibility": 1.0,
+        "touches": 58,
+        "birth_us": "31007",
+        "last_touch_us": "310000"
+      },
+      {
+        "source": 2,
+        "target": 5,
+        "weight": 0.08727248740486133,
+        "stability": 0.14553846209828664,
+        "eligibility": 1.0,
+        "touches": 52,
+        "birth_us": "62014",
+        "last_touch_us": "310000"
+      },
+      {
+        "source": 3,
+        "target": 1,
+        "weight": 0.044298727617324354,
+        "stability": 0.09056202139619679,
+        "eligibility": 1.0,
+        "touches": 58,
+        "birth_us": "40000",
+        "last_touch_us": "310000"
+      },
+      {
+        "source": 3,
+        "target": 2,
+        "weight": 0.041562994893608554,
+        "stability": 0.11920918590962662,
+        "eligibility": 1.0,
+        "touches": 59,
+        "birth_us": "40000",
+        "last_touch_us": "310000"
+      },
+      {
+        "source": 3,
+        "target": 4,
+        "weight": 0.09771301126591529,
+        "stability": 0.15305421783692635,
+        "eligibility": 1.0,
+        "touches": 58,
+        "birth_us": "31007",
+        "last_touch_us": "310000"
+      },
+      {
+        "source": 3,
+        "target": 5,
+        "weight": 0.0629269642369583,
+        "stability": 0.11576412929946216,
+        "eligibility": 1.0,
+        "touches": 52,
+        "birth_us": "62014",
+        "last_touch_us": "310000"
+      },
+      {
+        "source": 4,
+        "target": 1,
+        "weight": 0.03690249080211454,
+        "stability": 0.10042892845491178,
+        "eligibility": 1.0,
+        "touches": 58,
+        "birth_us": "40000",
+        "last_touch_us": "310000"
+      },
+      {
+        "source": 4,
+        "target": 2,
+        "weight": 0.0334759832990972,
+        "stability": 0.10028072525357741,
+        "eligibility": 1.0,
+        "touches": 59,
+        "birth_us": "40000",
+        "last_touch_us": "310000"
+      },
+      {
+        "source": 4,
+        "target": 3,
+        "weight": 0.09766737455016267,
+        "stability": 0.14649311192660872,
+        "eligibility": 1.0,
+        "touches": 58,
+        "birth_us": "31007",
+        "last_touch_us": "310000"
+      },
+      {
+        "source": 4,
+        "target": 5,
+        "weight": 0.05533976551688182,
+        "stability": 0.0996430123720923,
+        "eligibility": 1.0,
+        "touches": 52,
+        "birth_us": "62014",
+        "last_touch_us": "310000"
+      },
+      {
+        "source": 5,
+        "target": 1,
+        "weight": 0.031448963225847684,
+        "stability": 0.07885736598372821,
+        "eligibility": 1.0,
+        "touches": 52,
+        "birth_us": "70000",
+        "last_touch_us": "310000"
+      },
+      {
+        "source": 5,
+        "target": 2,
+        "weight": 0.08775758189541329,
+        "stability": 0.14108227066890763,
+        "eligibility": 1.0,
+        "touches": 53,
+        "birth_us": "62014",
+        "last_touch_us": "310000"
+      },
+      {
+        "source": 5,
+        "target": 3,
+        "weight": 0.03309057317724694,
+        "stability": 0.09712072726032672,
+        "eligibility": 1.0,
+        "touches": 52,
+        "birth_us": "70000",
+        "last_touch_us": "310000"
+      },
+      {
+        "source": 5,
+        "target": 4,
+        "weight": 0.028141891710103815,
+        "stability": 0.07189227990732329,
+        "eligibility": 1.0,
+        "touches": 52,
+        "birth_us": "70000",
+        "last_touch_us": "310000"
+      }
+    ],
+    "queue": [
+      {
+        "time_us": "320000",
+        "id": 218,
+        "kind": "inhibition",
+        "payload": {
+          "values": [
+            [
+              1,
+              0.0003259555766895898
+            ]
+          ]
+        }
+      },
+      {
+        "time_us": "320000",
+        "id": 219,
+        "kind": "inhibition",
+        "payload": {
+          "values": [
+            [
+              2,
+              0.0002654408830238922
+            ]
+          ]
+        }
+      },
+      {
+        "time_us": "320000",
+        "id": 220,
+        "kind": "inhibition",
+        "payload": {
+          "values": [
+            [
+              3,
+              0.00038179355043787004
+            ]
+          ]
+        }
+      },
+      {
+        "time_us": "320000",
+        "id": 221,
+        "kind": "inhibition",
+        "payload": {
+          "values": [
+            [
+              4,
+              0.00034312712434005234
+            ]
+          ]
+        }
+      },
+      {
+        "time_us": "320000",
+        "id": 222,
+        "kind": "inhibition",
+        "payload": {
+          "values": [
+            [
+              5,
+              0.00034544866273161204
+            ]
+          ]
+        }
+      },
+      {
+        "time_us": "320000",
+        "id": 223,
+        "kind": "signal",
+        "payload": {
+          "values": [
+            [
+              1,
+              0.0017574207665502096
+            ],
+            [
+              2,
+              0.0015337332523902695
+            ],
+            [
+              3,
+              0.002132546984182495
+            ],
+            [
+              4,
+              0.0017918861558874463
+            ],
+            [
+              5,
+              0.0018416699323715554
+            ]
+          ]
+        }
+      },
+      {
+        "time_us": "320000",
+        "id": 224,
+        "kind": "inhibition",
+        "payload": {
+          "values": [
+            [
+              1,
+              0.006413603575202145
+            ],
+            [
+              2,
+              0.0061070279511330205
+            ],
+            [
+              3,
+              0.0065852434853163585
+            ],
+            [
+              4,
+              0.005164127487517694
+            ],
+            [
+              5,
+              0.0048183191400604005
+            ]
+          ]
+        }
+      }
+    ],
+    "silenced_nodes": [],
+    "silenced_edges": []
+  },
+  "after_hash": "3809a21fb0c2b9b9765dda3ff74f19ae3d411a053a6a8a303c3008d1767eea71"
+}

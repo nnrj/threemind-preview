@@ -1,0 +1,148 @@
+export default {
+  读出方式: "Readout method",
+  响应读出: "Response readout",
+  "持续稳定（旧版）": "Sustained stability (legacy)",
+  "持续稳定是单独的分析条件；不满足它，不表示没有响应。旧判据与默认 800 毫秒保持不变。":
+    "Sustained stability is a separate condition, not a requirement for a response. Its legacy criteria and 800 ms default are preserved.",
+  "响应收敛：读出短暂而明确的活动":
+    "Response convergence: read brief, distinct activity",
+  "不要求持续 800 毫秒。保留响应出现、峰值与领先节点变化；每次输出按同一采样时刻的激活强度排序。":
+    "No 800 ms duration requirement. Keeps response entries, peaks and changes of leaders; ranks activation at one common sample time.",
+  "目标节点 ID（留空读取全部节点）": "Target node IDs (empty for all nodes)",
+  读取响应: "Read responses",
+  检测到响应: "Response detected",
+  "检测到微弱活动（未超过数值容差）":
+    "Weak activity detected (at or below numerical tolerance)",
+  "响应段／读出时刻": "Episodes / readout instants",
+  "采样间隔（毫秒）": "Sampling interval (ms)",
+  "记录有边界截断或采样缺口；已测响应保留，缺失过程不补写。":
+    "This record has boundary censoring or sampling gaps. Measured responses remain; missing processes are not reconstructed.",
+  "当前读出：同一时刻的激活排序":
+    "Current output: simultaneous activation ranking",
+  首个采样已有活动: "Active at first sample",
+  响应出现: "Response entry",
+  领先节点变化: "Leaders changed",
+  观测到先升后降: "Observed rise and fall",
+  本段最大响应: "Episode maximum",
+  领先差值: "Lead margin",
+  本段采样数: "Samples in this episode",
+  "领先节点并列，不强行选出唯一答案。":
+    "Leaders are tied; no unique answer is imposed.",
+  "单点响应已保留；实际持续时间与点间过程未知。":
+    "Single-point response retained; actual duration and between-sample activity are unknown.",
+  "此段起点或终点超出已有采样，不能据此断定活动何时开始或结束。":
+    "The episode extends beyond sampling at one or both ends; its actual onset or ending is unknown.",
+  外部注释: "External annotation",
+  当前激活: "Current activation",
+  激活节点: "Active nodes",
+  返回本窗最大响应: "Return to window maximum",
+  "默认展示本窗总激活最大的响应时刻（并列取最早）。这不等于答案最正确；可逐项查看其他响应。零激活节点省略，未拼接不同时刻的峰值。":
+    "Initially shows the instant with greatest total activation, earliest on a tie. This does not imply the most correct answer. Other responses remain selectable. Zero nodes are omitted; peaks from different times are never combined.",
+  "总激活随时间变化（当前页）": "Total activation over time (current page)",
+  观测内容: "Observation",
+  查看此刻: "View this instant",
+  "数据页（响应与采样各 100 条）": "Data page (100 responses and samples each)",
+  导出完整响应JSON: "Export complete response JSON",
+  "导出完整响应 JSON": "Export complete response JSON",
+  "响应收敛是本项目对响应形成结果的称呼，不等同于持续稳态。检测器不判断词义、正确答案或意识；完整轨迹和原全局判定保留。":
+    "Response convergence here names an observed response result, not a sustained steady state. The detector does not judge meaning, answer correctness or consciousness. Complete trajectories and original global classifications are preserved.",
+  局部稳态: "Locally steady",
+  "局部模式稳定，幅度仍变化": "Stable local pattern; changing amplitude",
+  仍在变化: "Changing",
+  连续观察长度不足: "Insufficient uninterrupted observation",
+  低于活动分析下限: "Below activity analysis floor",
+  稳定窗口内活动曾中断: "Activity interrupted within stability window",
+  目标响应与局部收敛: "Target response and local convergence",
+  "指定节点分析完整过程；目标响应、局部稳定与全局收敛分别呈现。原始活动不会被删改。":
+    "Analyze explicit nodes over the full process. Target response, local stability and global convergence remain separate. Raw activity is unchanged.",
+  "目标节点 ID（逗号分隔）": "Target node IDs (comma-separated)",
+  分析目标响应: "Analyze target response",
+  局部判定参数: "Local analysis parameters",
+  "稳定观察长度（毫秒）": "Stability observation length (ms)",
+  "确认性实验应事先确定目标和参数；事后选取只作探索。局部模式稳定仍可能伴随整体衰减。":
+    "Fix targets and criteria before confirmatory testing; later selections are exploratory. A stable local pattern may still decay in amplitude.",
+  原全局判定: "Original global classification",
+  目标活动: "Target activity",
+  "首次局部模式收敛（秒）": "First local pattern convergence (s)",
+  "首次局部稳态（秒）": "First local steady state (s)",
+  窗末局部状态: "Terminal local state",
+  "记录有删失或采样缺口；已测活动保留，缺失期间不能判定稳定。":
+    "Record is censored or has sampling gaps. Measured activity remains valid; gaps cannot establish stability.",
+  目标总激活随时间变化: "Target activity over time",
+  曲线采样页: "Chart sample page",
+  导出完整目标分析JSON: "Export complete target analysis JSON",
+  "导出完整目标分析 JSON": "Export complete target analysis JSON",
+  local_steady: "Locally steady",
+  local_pattern: "Stable local pattern; changing amplitude",
+  changing: "Changing",
+  insufficient_span: "Insufficient uninterrupted observation",
+  below_activity_floor: "Below activity floor",
+  activity_interrupted: "Activity interrupted within stability window",
+  手动无刺激观察: "Manual stimulus-free observation",
+  活动过程分析版本: "Activity analysis version",
+  "V1：历史响应判定": "V1: historical response analysis",
+  "V2：完整过程与响应判定": "V2: complete process and response analysis",
+  过程变化报告容差: "Process change reporting tolerance",
+  "省略版本仍恢复 V1；V2 保存整个有界观察过程，增加弱活动、减弱及时间变化测量。":
+    "Omitted versions restore V1. V2 retains the bounded observation period, including weak activity, decreases and temporal change.",
+  "只用于变化计数与标识；不裁剪原始轨迹，不是内核门槛。":
+    "Used only for change counts and flags. Does not trim raw trajectories or change the Core threshold.",
+  过程未完整测量: "Process measurement incomplete",
+  过程内测到活动: "Activity recorded during the observation",
+  采样中未测到活动: "No activity measured in the recorded samples",
+  活动节点: "Active nodes",
+  增强节点: "Nodes above baseline",
+  减弱节点: "Nodes below baseline",
+  窗末前消退节点: "Nodes fading before the window ended",
+  再次激活节点: "Reactivated nodes",
+  累计活动变化: "Cumulative activity change",
+  "过程活动与收敛结果分别呈现；增强、减弱相对于刺激前基线，不单独证明因果。":
+    "Process activity is separate from convergence. Increases and decreases are relative to the pre-window baseline, not causal proof.",
+  最大采样间隔: "Largest sample gap",
+  存在采样缺口: "Sampling gaps detected",
+  "基线未完整测得或配置为零参考；增减需结合基线条件解释。":
+    "Baseline coverage is incomplete or configured as zero. Interpret changes with this reference condition.",
+  过程检测工具: "Process observation tools",
+  "查看短暂活动、先后转移与减弱；也可重新分析旧的完整轨迹，原记录保持不变。":
+    "Inspect brief activity, temporal transfers and decreases. Re-analyze complete historical trajectories without changing their records.",
+  收起过程分析: "Hide process analysis",
+  展开过程分析: "Analyze the process",
+  活动随时间变化: "Activity over time",
+  总激活: "Total activity",
+  相对基线增强: "Increase over baseline",
+  相对基线减弱: "Decrease below baseline",
+  相邻采样的活动分布变化: "Activity distribution change between samples",
+  "各节点峰值并非同一时刻；没有活动时分布距离留空。曲线只显示当前页采样。":
+    "Node peaks can occur at different times. Distribution distance is unavailable without activity. Curves show samples on this page.",
+  峰值: "Peak",
+  "峰值时刻（秒）": "Peak time (s)",
+  增强幅度: "Peak increase",
+  减弱幅度: "Peak decrease",
+  激活次数: "Activity episodes",
+  "数据页（节点与采样各 100 条）": "Data page (100 nodes and samples each)",
+  对照另一条完整轨迹: "Compare another complete trajectory",
+  "用于同源副本或节点身份对应的记录。比较全部已采样节点，不使用词语模板；对齐不到的时刻不会补零。":
+    "Use copies of the same source or records with corresponding node identities. Compares all sampled nodes without token masks. Unmatched times are never filled with zeros.",
+  对照证据编号: "Reference evidence ID",
+  "对照意识 ID（留空为当前意识）":
+    "Reference consciousness ID (empty for current)",
+  按各自首个采样对齐: "Align to each first sample",
+  比较过程: "Compare processes",
+  "没有可对齐的采样，无法判定轨迹相同或不同。":
+    "No samples align. These trajectories cannot be classified as equal or different.",
+  匹配采样: "Matched samples",
+  变化节点: "Changed nodes",
+  最大总差异: "Maximum total difference",
+  "未匹配采样（左／右）": "Unmatched samples (left/right)",
+  最大差异: "Maximum difference",
+  "对应时刻（秒）": "Time of difference (s)",
+  "显示差异最大的前 100 个节点；完整比较可通过 Python／命令行导出。因果解释还需受控实验。":
+    "Shows the 100 nodes with greatest differences. Export complete comparisons using Python/CLI. Causal interpretation requires controlled experiments.",
+  首次激活顺序: "Order of first activation",
+  无刺激观察: "Observe without a stimulus",
+  "观察请求已排队；运行中的意识会开始记录，暂停中的意识在继续运行后开始。不会注入刺激。":
+    "Observation queued. Running consciousnesses begin recording; paused ones begin after resumption. No stimulus is injected.",
+  未触发新窗口的输入帧: "Input frames with window triggering disabled",
+  "来源触发已关闭，不等于没有活动。可使用无刺激观察覆盖这段过程。":
+    "Source triggering is disabled, which does not mean no activity occurred. Use a stimulus-free window to observe this period.",
+};

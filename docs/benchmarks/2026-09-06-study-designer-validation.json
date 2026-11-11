@@ -1,0 +1,35 @@
+{
+  "stage": "D2a",
+  "date": "2026-09-06",
+  "validation": {
+    "python_api_native": {
+      "passed": 246,
+      "skipped": 0,
+      "seconds": 240.15
+    },
+    "edge_configuration_library_studies": {
+      "passed": 4,
+      "seconds": 39.7
+    },
+    "edge_final_roles_and_studies": {
+      "passed": 3,
+      "seconds": 17.1
+    }
+  },
+  "versions": {
+    "database": 15,
+    "core": "causal/7",
+    "state": "state/5",
+    "profile": "profile/5"
+  },
+  "configuration_fields": 419,
+  "scope": [
+    "Graphical shared protocol and typed condition patches",
+    "Common worker and preview resolution",
+    "Per-block replay frame forms and JSON",
+    "Shared identity and phase validation",
+    "Immutable study reuse and bounded summary queries",
+    "Frozen in-flight competition flag preservation"
+  ],
+  "remaining": "D2 manual workbench and controlled plans, AI, settings/operations/performance; E notes and reports; innate evolutionary trainer"
+}

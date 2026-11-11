@@ -1,0 +1,156 @@
+.bundle-workspace {
+  display: grid;
+  gap: 20px;
+  min-width: 0;
+}
+.bundle-intro {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: start;
+}
+.bundle-intro > div:first-child {
+  flex: 1 1 380px;
+}
+.bundle-intro h2,
+.bundle-card h3 {
+  margin-top: 0;
+}
+.bundle-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+.bundle-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 285px), 1fr));
+  gap: 16px;
+}
+.bundle-card {
+  min-width: 0;
+  display: grid;
+  gap: 8px;
+  align-content: start;
+}
+.bundle-card p,
+.bundle-card h3 {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+.bundle-card .bundle-actions {
+  margin-top: 12px;
+}
+.bundle-preview {
+  max-height: 400px;
+  max-width: 100%;
+  overflow: auto;
+  padding: 16px;
+  background: var(--bg, #f3f6f3);
+  border-radius: 8px;
+  font-size: 12px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.bundle-restore {
+  border-top: 1px solid var(--border, #d9e4df);
+  margin-top: 24px;
+  padding-top: 12px;
+  display: grid;
+  gap: 12px;
+}
+.bundle-temporal-list {
+  max-height: 460px;
+  overflow: auto;
+}
+.bundle-temporal {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border);
+}
+.bundle-temporal h4,
+.bundle-temporal p {
+  margin: 6px 0;
+}
+.bundle-temporal p {
+  font-size: 12px;
+  overflow-wrap: anywhere;
+}
+.bundle-temporal details {
+  margin: 12px 0;
+}
+.bundle-temporal .table-scroll {
+  max-width: 100%;
+}
+.bundle-temporal th,
+.bundle-temporal td {
+  padding: 8px;
+}
+.bundle-digest {
+  overflow-wrap: anywhere;
+  font-size: 12px;
+}
+.bundle-attachment-section {
+  margin: 20px 0;
+}
+.bundle-attachment-section summary {
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+.bundle-attachments {
+  display: grid;
+  gap: 12px;
+  margin: 12px 0;
+}
+.bundle-checklist {
+  display: grid;
+  gap: 8px;
+  max-height: 200px;
+  overflow: auto;
+}
+.bundle-checklist label {
+  display: flex;
+  gap: 8px;
+  align-items: start;
+  overflow-wrap: anywhere;
+}
+.bundle-checklist input {
+  flex: 0 0 auto;
+  width: auto;
+}
+.bundle-job-list {
+  display: grid;
+  gap: 12px;
+}
+.bundle-job {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  border-top: 1px solid var(--border, #d9e4df);
+  padding-top: 12px;
+}
+.bundle-job > div:first-child {
+  flex: 1 1 200px;
+}
+.bundle-job small {
+  display: block;
+  margin-top: 4px;
+}
+.bundle-job .error-box {
+  flex: 1 1 100%;
+}
+@media (max-width: 650px) {
+  .bundle-intro > div:first-child {
+    flex-basis: 100%;
+  }
+  .bundle-intro > .bundle-actions {
+    width: 100%;
+  }
+  .bundle-intro .button {
+    flex: 1;
+  }
+  .bundle-actions progress {
+    max-width: 100%;
+  }
+}

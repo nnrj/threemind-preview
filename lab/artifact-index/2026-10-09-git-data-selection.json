@@ -1,0 +1,272 @@
+{
+  "schema": "threemind.research-artifact-selection/1",
+  "batch": "2026-10-09-git-data-cleanup-r2",
+  "base_commit": "1bc4a29b28e3ded9b8135d1080decec0b173692d",
+  "status": "approved-for-copy-no-source-delete",
+  "destination_root": "data/experiments",
+  "path_mapping": [
+    {
+      "prefix": "lab/explorations/",
+      "replace_with": ""
+    },
+    {
+      "prefix": "docs/benchmarks/",
+      "replace_with": "docs/benchmarks/"
+    }
+  ],
+  "groups": [
+    {
+      "id": "2026-10-08-retention-repair-run-01",
+      "reason": "Original checkpoints, input/telemetry recordings and detailed per-condition results; keep protocol, runners, checksums, configuration and compact summaries in Git.",
+      "prefix": "lab/explorations/2026-10-08-retention-repair/run-01/",
+      "patterns": [
+        "*.json.gz",
+        "*.jsonl.gz",
+        "results.json",
+        "result.json",
+        "result-*.json"
+      ],
+      "paths": [],
+      "expected_current": {
+        "files": 181,
+        "bytes": 4071596,
+        "paths_sha256": "5fedfb1491fb8050a85d52a9d8c3165c1bf8e68652b2e310681adbaccfa89c86"
+      }
+    },
+    {
+      "id": "2026-10-08-retention-repair-run-02",
+      "reason": "Original checkpoints, input/telemetry recordings and detailed per-condition results; keep protocol, runners, checksums, configuration and compact summaries in Git.",
+      "prefix": "lab/explorations/2026-10-08-retention-repair/run-02/",
+      "patterns": [
+        "*.json.gz",
+        "*.jsonl.gz",
+        "results.json",
+        "result.json",
+        "result-*.json"
+      ],
+      "paths": [],
+      "expected_current": {
+        "files": 287,
+        "bytes": 12634280,
+        "paths_sha256": "ae98c8f21df7ad800a2df03f742bc3a2a05a1aea1c84a2d89c9299a482ab8f8d"
+      }
+    },
+    {
+      "id": "2026-10-08-retention-telemetry-text-run-01",
+      "reason": "Original checkpoints, input/telemetry recordings and detailed per-condition results; keep protocol, runners, checksums, configuration and compact summaries in Git.",
+      "prefix": "lab/explorations/2026-10-08-retention-telemetry-text/run-01/",
+      "patterns": [
+        "*.json.gz",
+        "*.jsonl.gz",
+        "results.json",
+        "result.json",
+        "result-*.json",
+        "*/result.json"
+      ],
+      "paths": [],
+      "expected_current": {
+        "files": 360,
+        "bytes": 20141554,
+        "paths_sha256": "5c74409b3aac0ca1429c7b86ebd3557e3ae009c6e88685a8b7167c37d20da8e4"
+      }
+    },
+    {
+      "id": "2026-10-08-retention-telemetry-text-run-02",
+      "reason": "Original checkpoints, input/telemetry recordings and detailed per-condition results; keep protocol, runners, checksums, configuration and compact summaries in Git.",
+      "prefix": "lab/explorations/2026-10-08-retention-telemetry-text/run-02/",
+      "patterns": [
+        "*.json.gz",
+        "*.jsonl.gz",
+        "results.json",
+        "result.json",
+        "result-*.json",
+        "*/result.json"
+      ],
+      "paths": [],
+      "expected_current": {
+        "files": 360,
+        "bytes": 20109495,
+        "paths_sha256": "8cc0c10e35803c1fd2539a60a7a521b7a8162aa23c064b9bd095dd3042b89390"
+      }
+    },
+    {
+      "id": "2026-10-08-retention-telemetry-text-run-03",
+      "reason": "Original checkpoints, input/telemetry recordings and detailed per-condition results; keep protocol, runners, checksums, configuration and compact summaries in Git.",
+      "prefix": "lab/explorations/2026-10-08-retention-telemetry-text/run-03/",
+      "patterns": [
+        "*.json.gz",
+        "*.jsonl.gz",
+        "results.json",
+        "result.json",
+        "result-*.json",
+        "*/result.json"
+      ],
+      "paths": [],
+      "expected_current": {
+        "files": 181,
+        "bytes": 9332536,
+        "paths_sha256": "4f45d3e46d19f1d7e0ebf029d0b36c3abe0b0d5a12da5604788f4a340330fa88"
+      }
+    },
+    {
+      "id": "retention-text-readout-trace",
+      "reason": "Original fine-grained readout trajectory.",
+      "prefix": "",
+      "patterns": [],
+      "paths": [
+        "lab/explorations/2026-10-08-retention-telemetry-text/trace-01/results.json"
+      ],
+      "expected_current": {
+        "files": 1,
+        "bytes": 190299,
+        "paths_sha256": "cbdda5359ac4bd10e2325c43e81ac854f95b14e8a0f6044fe237ab6788225aa2"
+      }
+    },
+    {
+      "id": "retention-kernel-checkpoints",
+      "reason": "Frozen experimental Core checkpoints, not regression fixtures.",
+      "prefix": "lab/explorations/2026-10-08-retention-kernel/checkpoints/",
+      "patterns": [
+        "*.json.gz"
+      ],
+      "paths": [],
+      "expected_current": {
+        "files": 18,
+        "bytes": 31746,
+        "paths_sha256": "1a7a7c954667a9d48908075b7e16de2939499846da5fbef2360753a87a77c25d"
+      }
+    },
+    {
+      "id": "historical-detailed-json-evidence",
+      "reason": "Reviewed recorded input streams, per-point trajectories, calibration result copies and detailed per-case outputs; excludes protocols, delivery records and compact aggregate summaries.",
+      "prefix": "",
+      "patterns": [],
+      "paths": [
+        "lab/explorations/2026-09-09-blocked-sentence-teaching/measurements.json",
+        "lab/explorations/2026-09-09-blocked-sentence-teaching/raw-activity-differences.json",
+        "lab/explorations/2026-09-09-blocked-sentence-teaching/time-courses.json",
+        "lab/explorations/2026-09-09-blocked-sentence-teaching/training-traces.json",
+        "lab/explorations/2026-09-09-calibrated-generalization/evidence-index.json",
+        "lab/explorations/2026-09-09-default-mapping-repetition/measurements.json",
+        "lab/explorations/2026-09-09-default-mapping-repetition/raw-activity-differences.json",
+        "lab/explorations/2026-09-09-default-mapping-repetition/time-courses.json",
+        "lab/explorations/2026-09-09-default-mapping-repetition/training-traces.json",
+        "lab/explorations/2026-09-09-language-scaffold-relations/physical-timing.json",
+        "lab/explorations/2026-09-09-language-scaffold-relations/time-courses.json",
+        "lab/explorations/2026-09-10-host-background-pair/analysis.json",
+        "lab/explorations/2026-09-10-pair-no-punctuation/analysis.json",
+        "lab/explorations/2026-09-10-time-comparison/inputs.json",
+        "lab/explorations/2026-09-10-time-comparison/partial-prefix.json",
+        "lab/explorations/2026-10-04-language-centre/results.json",
+        "lab/explorations/2026-10-04-language-development/results.json",
+        "lab/explorations/2026-10-04-language-spaced/results.json",
+        "lab/explorations/2026-10-04-ocean-culture/results.json",
+        "lab/explorations/2026-10-04-ocean-split/results.json",
+        "lab/explorations/2026-10-05-coadaptive-language/results.json",
+        "lab/explorations/2026-10-05-expression-alignment/results.json",
+        "lab/explorations/2026-10-05-graph-expression/results.json",
+        "lab/explorations/2026-10-05-language-calibration/component-results.json",
+        "lab/explorations/2026-10-05-language-calibration/pattern-results.json",
+        "lab/explorations/2026-10-05-language-calibration/results.json",
+        "lab/explorations/2026-10-05-language-calibration/visual-reader-formal.json",
+        "lab/explorations/2026-10-05-native-language/initial-findings.json",
+        "lab/explorations/2026-10-05-native-language/initial-mediation.json",
+        "lab/explorations/2026-10-05-native-language/results.json",
+        "lab/explorations/2026-10-05-native-language/route-reassessment.json",
+        "lab/explorations/2026-10-05-temporal-state-expression/raw-old.json",
+        "lab/explorations/2026-10-05-temporal-state-expression/raw-timing.json",
+        "lab/explorations/2026-10-05-temporal-state-expression/results.json",
+        "lab/explorations/2026-10-06-ocean-communication/results.json",
+        "lab/explorations/2026-10-07-body-exploration/results.json",
+        "lab/explorations/2026-10-07-eye-hand-learning/results.json"
+      ],
+      "expected_current": {
+        "files": 37,
+        "bytes": 32510582,
+        "paths_sha256": "d094192dc2dce693f6ab63ad32a741edead0571f8b05d77daafa77f4e2836ee4"
+      }
+    },
+    {
+      "id": "historical-row-evidence",
+      "reason": "Original per-case/window/state-pair tables; compact summary and comparison tables remain in Git.",
+      "prefix": "",
+      "patterns": [],
+      "paths": [
+        "lab/explorations/2026-09-09-calibrated-generalization/memory-cases.csv",
+        "lab/explorations/2026-09-09-calibrated-generalization/relations-cases.csv",
+        "lab/explorations/2026-09-09-language-scaffold-relations/family-cases.csv",
+        "lab/explorations/2026-09-09-language-scaffold-relations/probe-observability.csv",
+        "lab/explorations/2026-10-01-order-mechanisms/tables/paired-orders.csv",
+        "lab/explorations/2026-10-01-order-mechanisms/tables/windows.csv",
+        "lab/explorations/2026-10-01-priority-memory/tables/memory-windows.csv",
+        "lab/explorations/2026-10-01-priority-memory/tables/reversal-windows.csv",
+        "lab/explorations/2026-10-01-priority-memory/tables/sequence-state-pairs.csv",
+        "lab/explorations/2026-10-01-priority-memory/tables/sequence-windows.csv",
+        "lab/explorations/2026-10-01-recovery-reference/tables/paired-orders.csv",
+        "lab/explorations/2026-10-01-recovery-reference/tables/windows.csv",
+        "lab/explorations/2026-10-02-target-background/tables/background-trajectories.csv",
+        "lab/explorations/2026-10-02-target-background/tables/live.csv",
+        "lab/explorations/2026-10-02-target-background/tables/live-pairs.csv"
+      ],
+      "expected_current": {
+        "files": 15,
+        "bytes": 3178562,
+        "paths_sha256": "482d768a3a048ac152eb08f8261f20ca42f91743f70cfa4c27d0adb2d4f74de9"
+      }
+    },
+    {
+      "id": "historical-source-archives",
+      "reason": "Frozen implementation/instrumentation snapshot ZIPs; original archive bytes preserved, unpacked maintained source remains in Git.",
+      "prefix": "",
+      "patterns": [],
+      "paths": [
+        "lab/explorations/2026-09-09-calibrated-generalization/implementation-source.zip",
+        "lab/explorations/2026-09-10-pair-no-punctuation/instrumentation-source.zip"
+      ],
+      "expected_current": {
+        "files": 2,
+        "bytes": 636218,
+        "paths_sha256": "ec6dc0618bb18f93fdd90bb9454908aa46b95f314e4a2793b5785ff18aa96f64"
+      }
+    },
+    {
+      "id": "historical-data-rich-html",
+      "reason": "Generated ranking viewers embed complete experimental node/time data; viewer source/templates remain in Git.",
+      "prefix": "",
+      "patterns": [],
+      "paths": [
+        "lab/explorations/2026-09-10-host-background-pair/rankings.html",
+        "lab/explorations/2026-09-10-pair-no-punctuation/rankings.html"
+      ],
+      "expected_current": {
+        "files": 2,
+        "bytes": 1077318,
+        "paths_sha256": "db3579eff536d6215356454d577cedf1bc676301d440f3ce02574a8d5b9f74a7"
+      }
+    },
+    {
+      "id": "documentation-full-benchmark",
+      "reason": "Full benchmark samples and final model states, requires a new compact derived docs resource before historical cleanup.",
+      "prefix": "",
+      "patterns": [],
+      "paths": [
+        "docs/benchmarks/kernel-candidates-2026-09-28.json"
+      ],
+      "expected_current": {
+        "files": 1,
+        "bytes": 1064579,
+        "paths_sha256": "aaadda4d0d4a47ab0d7deb5a0e70b35e78c18b7f68dbba36b02b31aaf90dbc42"
+      }
+    }
+  ],
+  "preserve": [
+    "all source code and registered protocols",
+    "all original Markdown reports and links",
+    "compact aggregate summaries and provenance indexes",
+    "tests_v2 fixtures and native regression inputs"
+  ],
+  "archive_companions": "Tracked files in each affected experiment directory are also copied as frozen evidence context; they are not selected for Git removal.",
+  "approval_date": "2026-10-10",
+  "revision": 2,
+  "revision_reason": "Include ten nested per-condition result.json files already byte-preserved as companions in r1."
+}

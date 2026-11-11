@@ -1,0 +1,278 @@
+.conversation-layout.conversation-restored {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  min-width: 0;
+  gap: 0;
+}
+.conversation-layout .conversation-panel {
+  min-height: 0;
+  padding: 12px;
+  border: 0;
+}
+.conversation-layout .panel-heading {
+  padding: 0;
+  margin: 0 0 8px;
+  align-items: center;
+}
+.conversation-layout .panel-heading h2 {
+  font-size: 16px;
+  margin: 0;
+}
+.conversation-layout .conversation-messages {
+  position: relative;
+  height: clamp(340px, 54dvh, 720px);
+  min-height: 240px;
+  max-height: none;
+  padding: 0;
+  overflow-anchor: none;
+}
+.conversation-inline .conversation-messages {
+  height: clamp(300px, 43dvh, 580px);
+}
+.conversation-spacer {
+  position: relative;
+  width: 100%;
+}
+.conversation-position {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0 5px 8px 0;
+  display: grid;
+}
+.conversation-layout .chat-message {
+  max-width: 94%;
+  min-width: 0;
+  justify-self: start;
+  padding: 9px 10px;
+  margin: 0;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--accent) 5%, var(--bg));
+}
+.conversation-layout .chat-message.user {
+  justify-self: end;
+  background: color-mix(in srgb, var(--accent) 12%, var(--bg));
+  border-color: color-mix(in srgb, var(--accent) 42%, var(--border));
+}
+.conversation-layout .chat-message.environment {
+  border-style: dashed;
+  opacity: 0.85;
+}
+.conversation-layout .chat-message.interpreter {
+  border-color: color-mix(in srgb, #c18b50 38%, var(--border));
+}
+.conversation-layout .chat-message header {
+  justify-content: space-between;
+  gap: 12px;
+  margin: 0 0 5px;
+  color: var(--muted);
+  font-size: 10px;
+}
+.conversation-layout .chat-message.user header strong {
+  color: var(--accent);
+}
+.conversation-layout .chat-message.interpreter header strong {
+  color: #a77943;
+}
+.conversation-layout .chat-message p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.conversation-layout .chat-message small {
+  margin-top: 5px;
+  font-size: 10px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+.chat-evidence {
+  margin-top: 5px;
+  font-size: 11px;
+}
+.chat-evidence summary {
+  cursor: pointer;
+  color: var(--muted);
+}
+.chat-evidence .text-link {
+  display: inline-block;
+  margin: 5px 8px 2px 0;
+}
+.chat-evidence[open] {
+  border-top: 1px solid var(--border);
+  padding-top: 6px;
+}
+.chat-node-table {
+  max-height: 260px;
+  overflow: auto;
+  margin-block: 8px;
+}
+.chat-node-table table {
+  min-width: 0;
+  width: 100%;
+  font-size: 11px;
+}
+.chat-node-table th,
+.chat-node-table td {
+  padding: 5px;
+  white-space: nowrap;
+}
+.chat-expanded-labels {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+}
+.chat-expanded-labels button {
+  margin: 4px 12px 0 0;
+}
+.chat-temporal-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 9px;
+  padding: 7px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 11px;
+  color: var(--muted);
+}
+.chat-temporal-status > a:first-child {
+  font-weight: 600;
+}
+.chat-history-status {
+  min-height: 22px;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  align-items: center;
+  font-size: 11px;
+}
+.chat-history-status .button {
+  padding: 4px 8px;
+  min-height: 28px;
+  font-size: 11px;
+}
+.chat-options {
+  padding: 8px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin-bottom: 8px;
+  display: grid;
+  gap: 8px;
+  max-height: 40dvh;
+  overflow: auto;
+  font-size: 12px;
+}
+.chat-options input[type="number"] {
+  max-width: 90px;
+  margin-left: 8px;
+}
+.conversation-layout .conversation-composer {
+  padding: 10px 12px;
+  border: 0;
+  border-top: 1px solid var(--border);
+  margin: 0;
+  display: grid;
+  gap: 8px;
+  max-width: none;
+}
+.conversation-layout .chat-organs {
+  margin: 0;
+  gap: 5px;
+}
+.conversation-layout .chat-organ-row {
+  gap: 5px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.conversation-layout .organ-switch {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4px;
+  padding: 5px;
+  min-height: 32px;
+  font-size: 11px;
+  white-space: nowrap;
+}
+.conversation-layout .organ-switch small {
+  display: none;
+}
+.conversation-layout .organ-switch.starting,
+.conversation-layout .organ-switch.stopping {
+  opacity: 0.6;
+}
+.chat-media-add {
+  position: relative;
+}
+.conversation-layout .organ-switch.media-add {
+  min-width: 30px;
+}
+.conversation-layout .chat-media-row {
+  position: absolute;
+  z-index: 30;
+  bottom: calc(100% + 8px);
+  left: 0;
+  width: 180px;
+  display: grid;
+  padding: 6px;
+  gap: 4px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  box-shadow: 0 8px 20px #0002;
+}
+.conversation-layout .chat-media-row .button {
+  justify-content: flex-start;
+}
+.conversation-layout .input-composer {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 8px;
+}
+.conversation-layout .input-composer > .field {
+  grid-column: 1 / -1;
+  margin: 0;
+}
+.conversation-layout .input-composer textarea {
+  height: 76px;
+  min-height: 72px;
+  max-height: 180px;
+  resize: vertical;
+}
+.conversation-layout .input-composer > .chat-intensity {
+  grid-column: 1;
+  grid-row: 2;
+  align-self: end;
+}
+.conversation-layout .input-composer > .button {
+  grid-column: 2;
+  grid-row: 2;
+  align-self: end;
+  min-height: 36px;
+}
+.conversation-layout .input-composer > .notice,
+.conversation-layout .input-composer > .error-box,
+.conversation-layout .input-composer > p {
+  grid-column: 1 / -1;
+  font-size: 11px;
+  margin: 0;
+}
+.conversation-layout .input-composer > .notice {
+  padding: 4px 0;
+  background: transparent;
+  border: 0;
+}
+@media (max-width: 600px) {
+  .conversation-layout .conversation-messages {
+    height: 46dvh;
+  }
+  .conversation-layout .organ-switch {
+    font-size: 10px;
+  }
+}

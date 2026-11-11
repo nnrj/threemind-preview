@@ -1,0 +1,99 @@
+.robot-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin: 16px 0;
+}
+.robot-toolbar .field {
+  min-width: 220px;
+  flex: 1;
+}
+.robot-workspace {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(320px, 1fr);
+  gap: 18px;
+  align-items: start;
+}
+.robot-scene-panel {
+  position: sticky;
+  top: 18px;
+  min-width: 0;
+}
+.robot-config-panel,
+.robot-signals-panel {
+  min-width: 0;
+}
+.robot-signals-panel {
+  grid-column: 1 / -1;
+}
+.robot-workspace .world-scene {
+  height: min(60vh, 640px);
+  min-height: 320px;
+}
+.robot-metrics {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  padding: 16px 0;
+}
+.robot-metrics span {
+  display: grid;
+  gap: 6px;
+}
+.robot-editor .form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+.robot-editor input[type="number"] {
+  width: 100%;
+  min-width: 0;
+}
+.robot-editor details {
+  margin-top: 16px;
+}
+.robot-editor summary {
+  cursor: pointer;
+  margin: 12px 0;
+}
+.robot-sticky-actions {
+  position: sticky;
+  bottom: 0;
+  background: var(--panel);
+  padding: 14px 0;
+  flex-wrap: wrap;
+}
+.robot-mobile-tabs {
+  display: none;
+}
+@media (max-width: 760px) {
+  .robot-workspace {
+    display: block;
+  }
+  .robot-mobile-tabs {
+    display: flex;
+  }
+  .robot-workspace > section {
+    display: none;
+  }
+  .robot-tab-scene .robot-scene-panel,
+  .robot-tab-configure .robot-config-panel,
+  .robot-tab-signals .robot-signals-panel {
+    display: block;
+    position: static;
+  }
+  .robot-editor .form-grid {
+    grid-template-columns: 1fr;
+  }
+  .robot-toolbar {
+    align-items: stretch;
+  }
+  .robot-toolbar .field {
+    flex-basis: 100%;
+  }
+  .robot-workspace .world-scene {
+    height: 44vh;
+    min-height: 260px;
+  }
+}

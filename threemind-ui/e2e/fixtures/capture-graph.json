@@ -1,0 +1,1 @@
+{"revision":1,"time_us":2500000,"coordinates":"display","nodes":[{"id":1,"activation":0.9},{"id":2,"activation":0.6},{"id":3,"activation":0.2}],"edges":[{"source":1,"target":2,"weight":0.6},{"source":2,"target":3,"weight":0.4}],"total_nodes":3,"total_edges":2}

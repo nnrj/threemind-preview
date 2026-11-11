@@ -1,0 +1,11 @@
+[build-system]
+requires = ["maturin>=1.9,<2"]
+build-backend = "maturin"
+
+[project]
+name = "threemind-native"
+version = "2.0.0"
+requires-python = ">=3.11"
+
+[tool.maturin]
+module-name = "_threemind_native"

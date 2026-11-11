@@ -1,0 +1,830 @@
+{
+  "source_commit": "78f911b",
+  "native_binary_sha256": "59de75c74741deadd233eada6ef4d6a9868e21e76e51426be22a98abdf73ca4b",
+  "before": {
+    "schema": "threemind.state/3",
+    "dynamics": "threemind.causal/3",
+    "config": {
+      "step_us": 10000,
+      "delay_us": 10000,
+      "activation_tau": 0.3044,
+      "trace_tau": 0.504,
+      "inhibition_tau": 0.2321,
+      "stability_tau": 666.667,
+      "support_tau": 666.667,
+      "propagation_rate": 4.2,
+      "direct_gain": 0.9,
+      "learning_rate": 0.0055,
+      "birth_weight": 0.065,
+      "first_gain": 0.045,
+      "repeat_gain": 0.018,
+      "intensity_gain": 0.075,
+      "associative_gain": 0.01,
+      "stability_gain": 0.022,
+      "support_gain": 0.035,
+      "forgetting_rate": 0.025,
+      "inhibition_gain": 0.24,
+      "inhibition_diffusion_rate": 3.5,
+      "inhibition_response_gain": 2.0,
+      "activation_floor": 1e-05,
+      "prune_weight": 0.008,
+      "prune_support": 1e-05,
+      "plasticity": true,
+      "inhibition": true,
+      "seed": 20260724,
+      "edge_birth_policy": "temporal-association",
+      "local_novelty_gain": 0.018,
+      "max_nodes": 6,
+      "max_edges": 9,
+      "propagation_limit": 5,
+      "edge_adaptation_limit": 4
+    },
+    "time_us": "45013",
+    "state_time_us": "44028",
+    "next_step_us": "50000",
+    "sequence": 31,
+    "next_event": 41,
+    "next_node": 7,
+    "sources_open": true,
+    "life": "active",
+    "nodes": [
+      {
+        "id": 1,
+        "channel": 0,
+        "activation": 0.829234682471467,
+        "inhibition": 0.1976603667662351,
+        "trace": 0.8689380198300305,
+        "support": 0.03268063990400109,
+        "stability": 0.020542116511086405,
+        "direct": 0.823423224856132,
+        "associative": 0.0058114576153352445,
+        "touches": 5,
+        "last_touch_us": "40000"
+      },
+      {
+        "id": 2,
+        "channel": 2,
+        "activation": 0.8950107370380022,
+        "inhibition": 0.2108799448665786,
+        "trace": 0.930264961104715,
+        "support": 0.034546384041238234,
+        "stability": 0.021714869968778302,
+        "direct": 0.8893862508054049,
+        "associative": 0.005624486232597263,
+        "touches": 5,
+        "last_touch_us": "40000"
+      },
+      {
+        "id": 3,
+        "channel": 5,
+        "activation": 0.5492533635111451,
+        "inhibition": 0.13177579661059155,
+        "trace": 0.5675954831627114,
+        "support": 0.020903857447965097,
+        "stability": 0.01313956753872092,
+        "direct": 0.5451737902023817,
+        "associative": 0.004079573308763462,
+        "touches": 5,
+        "last_touch_us": "40000"
+      },
+      {
+        "id": 4,
+        "channel": 1,
+        "activation": 0.8538421640198487,
+        "inhibition": 0.1494763018158038,
+        "trace": 0.8821990499226703,
+        "support": 0.032473844072494804,
+        "stability": 0.02041213055985387,
+        "direct": 0.8538421640198487,
+        "associative": 0.0,
+        "touches": 2,
+        "last_touch_us": "44028"
+      },
+      {
+        "id": 5,
+        "channel": 3,
+        "activation": 0.9216699783465024,
+        "inhibition": 0.22266460961463458,
+        "trace": 0.9444834051171701,
+        "support": 0.034324320782586445,
+        "stability": 0.02157528734905433,
+        "direct": 0.9216699783465024,
+        "associative": 0.0,
+        "touches": 2,
+        "last_touch_us": "33021"
+      },
+      {
+        "id": 6,
+        "channel": 6,
+        "activation": 0.5644307002043872,
+        "inhibition": 0.058681229609016845,
+        "trace": 0.5750645324179454,
+        "support": 0.020726087631578592,
+        "stability": 0.013027826511277969,
+        "direct": 0.5644307002043872,
+        "associative": 0.0,
+        "touches": 2,
+        "last_touch_us": "44028"
+      }
+    ],
+    "edges": [
+      {
+        "source": 1,
+        "target": 2,
+        "weight": 0.09507928704231736,
+        "stability": 0.10905953795474733,
+        "eligibility": 0.9920397881374692,
+        "touches": 5,
+        "birth_us": "0",
+        "last_touch_us": "40000"
+      },
+      {
+        "source": 1,
+        "target": 3,
+        "weight": 0.0760253098695557,
+        "stability": 0.06667803295771049,
+        "eligibility": 0.179652465069566,
+        "touches": 2,
+        "birth_us": "0",
+        "last_touch_us": "10000"
+      },
+      {
+        "source": 2,
+        "target": 1,
+        "weight": 0.09381297872405032,
+        "stability": 0.10400872446055502,
+        "eligibility": 0.9920397881374692,
+        "touches": 4,
+        "birth_us": "0",
+        "last_touch_us": "40000"
+      },
+      {
+        "source": 3,
+        "target": 1,
+        "weight": 0.07601635033449704,
+        "stability": 0.06665831674282406,
+        "eligibility": 0.17881474049000254,
+        "touches": 2,
+        "birth_us": "0",
+        "last_touch_us": "10000"
+      },
+      {
+        "source": 4,
+        "target": 1,
+        "weight": 0.05358196717103053,
+        "stability": 0.03801803504184751,
+        "eligibility": 0.8813254438075204,
+        "touches": 2,
+        "birth_us": "20000",
+        "last_touch_us": "30000"
+      },
+      {
+        "source": 4,
+        "target": 2,
+        "weight": 0.0380091730864495,
+        "stability": 0.03698412586603636,
+        "eligibility": 0.8410587009905302,
+        "touches": 2,
+        "birth_us": "20000",
+        "last_touch_us": "30000"
+      },
+      {
+        "source": 5,
+        "target": 1,
+        "weight": 0.0388224780128059,
+        "stability": 0.040337607806026514,
+        "eligibility": 0.9920397881374692,
+        "touches": 2,
+        "birth_us": "20000",
+        "last_touch_us": "40000"
+      },
+      {
+        "source": 5,
+        "target": 2,
+        "weight": 0.07719567986522591,
+        "stability": 0.03612143394402715,
+        "eligibility": 0.8402847044169024,
+        "touches": 1,
+        "birth_us": "40000",
+        "last_touch_us": "40000"
+      }
+    ],
+    "queue": [
+      {
+        "time_us": "50000",
+        "id": 35,
+        "kind": "inhibition",
+        "payload": {
+          "values": [
+            [
+              1,
+              0.000760624305289366
+            ]
+          ]
+        }
+      },
+      {
+        "time_us": "50000",
+        "id": 36,
+        "kind": "inhibition",
+        "payload": {
+          "values": [
+            [
+              2,
+              0.0004439167550367175
+            ]
+          ]
+        }
+      },
+      {
+        "time_us": "50000",
+        "id": 37,
+        "kind": "inhibition",
+        "payload": {
+          "values": [
+            [
+              3,
+              0.0003365998482510827
+            ]
+          ]
+        }
+      },
+      {
+        "time_us": "50000",
+        "id": 38,
+        "kind": "signal",
+        "payload": {
+          "values": [
+            [
+              1,
+              0.0037123185128857556
+            ],
+            [
+              2,
+              0.005068825630830909
+            ],
+            [
+              3,
+              0.0020029240899667924
+            ]
+          ]
+        }
+      },
+      {
+        "time_us": "50000",
+        "id": 39,
+        "kind": "inhibition",
+        "payload": {
+          "values": [
+            [
+              1,
+              0.009505094739206767
+            ],
+            [
+              2,
+              0.005976444648643614
+            ],
+            [
+              3,
+              0.0015477199216354007
+            ],
+            [
+              4,
+              0.002472318660974443
+            ],
+            [
+              5,
+              0.0035961257958229695
+            ]
+          ]
+        }
+      },
+      {
+        "time_us": "54028",
+        "id": 40,
+        "kind": "inhibition",
+        "payload": {
+          "values": [
+            [
+              4,
+              0.049886346752631594
+            ]
+          ]
+        }
+      },
+      {
+        "time_us": "54028",
+        "id": 41,
+        "kind": "inhibition",
+        "payload": {
+          "values": [
+            [
+              6,
+              0.07732495331950341
+            ]
+          ]
+        }
+      },
+      {
+        "time_us": "55035",
+        "id": 6,
+        "kind": "stimulus",
+        "payload": {
+          "channels": [
+            [
+              5,
+              0.8
+            ],
+            [
+              7,
+              0.4
+            ],
+            [
+              2,
+              0.3
+            ]
+          ],
+          "intensity": 1.0,
+          "time_us": "55035"
+        }
+      },
+      {
+        "time_us": "66042",
+        "id": 7,
+        "kind": "stimulus",
+        "payload": {
+          "channels": [
+            [
+              6,
+              0.8
+            ],
+            [
+              0,
+              0.4
+            ],
+            [
+              3,
+              0.3
+            ]
+          ],
+          "intensity": 1.0,
+          "time_us": "66042"
+        }
+      },
+      {
+        "time_us": "77049",
+        "id": 8,
+        "kind": "stimulus",
+        "payload": {
+          "channels": [
+            [
+              7,
+              0.8
+            ],
+            [
+              1,
+              0.4
+            ],
+            [
+              4,
+              0.3
+            ]
+          ],
+          "intensity": 1.0,
+          "time_us": "77049"
+        }
+      },
+      {
+        "time_us": "88056",
+        "id": 9,
+        "kind": "stimulus",
+        "payload": {
+          "channels": [
+            [
+              0,
+              0.8
+            ],
+            [
+              2,
+              0.4
+            ],
+            [
+              5,
+              0.3
+            ]
+          ],
+          "intensity": 1.0,
+          "time_us": "88056"
+        }
+      },
+      {
+        "time_us": "99063",
+        "id": 10,
+        "kind": "stimulus",
+        "payload": {
+          "channels": [
+            [
+              1,
+              0.8
+            ],
+            [
+              3,
+              0.4
+            ],
+            [
+              6,
+              0.3
+            ]
+          ],
+          "intensity": 1.0,
+          "time_us": "99063"
+        }
+      },
+      {
+        "time_us": "110070",
+        "id": 11,
+        "kind": "stimulus",
+        "payload": {
+          "channels": [
+            [
+              2,
+              0.8
+            ],
+            [
+              4,
+              0.4
+            ],
+            [
+              7,
+              0.3
+            ]
+          ],
+          "intensity": 1.0,
+          "time_us": "110070"
+        }
+      },
+      {
+        "time_us": "121077",
+        "id": 12,
+        "kind": "stimulus",
+        "payload": {
+          "channels": [
+            [
+              3,
+              0.8
+            ],
+            [
+              5,
+              0.4
+            ],
+            [
+              0,
+              0.3
+            ]
+          ],
+          "intensity": 1.0,
+          "time_us": "121077"
+        }
+      }
+    ],
+    "silenced_nodes": [],
+    "silenced_edges": [],
+    "resources": {
+      "schema": "threemind.resources/1",
+      "since_us": "0",
+      "adaptation_period_us": "40000",
+      "adaptations_used": 4,
+      "node_capacity_rejections": "3",
+      "edge_capacity_rejections": "0",
+      "adaptation_budget_skips": "95",
+      "propagation_budget_skips": "7",
+      "counter_overflowed": false
+    }
+  },
+  "before_hash": "40d6c872767d27df65f7639be3a074ecebf4e8a0a74b3060955a7e4e2d1693c9",
+  "target_us": "190031",
+  "after": {
+    "schema": "threemind.state/3",
+    "dynamics": "threemind.causal/3",
+    "config": {
+      "step_us": 10000,
+      "delay_us": 10000,
+      "activation_tau": 0.3044,
+      "trace_tau": 0.504,
+      "inhibition_tau": 0.2321,
+      "stability_tau": 666.667,
+      "support_tau": 666.667,
+      "propagation_rate": 4.2,
+      "direct_gain": 0.9,
+      "learning_rate": 0.0055,
+      "birth_weight": 0.065,
+      "first_gain": 0.045,
+      "repeat_gain": 0.018,
+      "intensity_gain": 0.075,
+      "associative_gain": 0.01,
+      "stability_gain": 0.022,
+      "support_gain": 0.035,
+      "forgetting_rate": 0.025,
+      "inhibition_gain": 0.24,
+      "inhibition_diffusion_rate": 3.5,
+      "inhibition_response_gain": 2.0,
+      "activation_floor": 1e-05,
+      "prune_weight": 0.008,
+      "prune_support": 1e-05,
+      "plasticity": true,
+      "inhibition": true,
+      "seed": 20260724,
+      "edge_birth_policy": "temporal-association",
+      "local_novelty_gain": 0.018,
+      "max_nodes": 6,
+      "max_edges": 9,
+      "propagation_limit": 5,
+      "edge_adaptation_limit": 4
+    },
+    "time_us": "190031",
+    "state_time_us": "190000",
+    "next_step_us": "200000",
+    "sequence": 141,
+    "next_event": 127,
+    "next_node": 7,
+    "sources_open": true,
+    "life": "active",
+    "nodes": [
+      {
+        "id": 1,
+        "channel": 0,
+        "activation": 0.8124028453011418,
+        "inhibition": 0.2102697320010503,
+        "trace": 0.8877896710721007,
+        "support": 0.04732953124669978,
+        "stability": 0.029749991069354165,
+        "direct": 0.7746840029773631,
+        "associative": 0.03771884232377907,
+        "touches": 23,
+        "last_touch_us": "190000"
+      },
+      {
+        "id": 2,
+        "channel": 2,
+        "activation": 0.804254356862137,
+        "inhibition": 0.21803207595387852,
+        "trace": 0.890019611942668,
+        "support": 0.04676768523688564,
+        "stability": 0.029396830720328095,
+        "direct": 0.7480932296062238,
+        "associative": 0.056161127255912976,
+        "touches": 23,
+        "last_touch_us": "190000"
+      },
+      {
+        "id": 3,
+        "channel": 5,
+        "activation": 0.8064868597357056,
+        "inhibition": 0.14692899338160798,
+        "trace": 0.8815707939915639,
+        "support": 0.044904902192471834,
+        "stability": 0.028225938520982288,
+        "direct": 0.7906310098597319,
+        "associative": 0.015855849875973792,
+        "touches": 18,
+        "last_touch_us": "190000"
+      },
+      {
+        "id": 4,
+        "channel": 1,
+        "activation": 0.741750914347628,
+        "inhibition": 0.12356530240484917,
+        "trace": 0.8349106585906454,
+        "support": 0.043094546333622995,
+        "stability": 0.027088000552563014,
+        "direct": 0.741750914347628,
+        "associative": 0.0,
+        "touches": 4,
+        "last_touch_us": "99063"
+      },
+      {
+        "id": 5,
+        "channel": 3,
+        "activation": 0.797381160532186,
+        "inhibition": 0.13980198583302203,
+        "trace": 0.8721865154094657,
+        "support": 0.045347129722800306,
+        "stability": 0.028503910111474462,
+        "direct": 0.797381160532186,
+        "associative": 0.0,
+        "touches": 5,
+        "last_touch_us": "121077"
+      },
+      {
+        "id": 6,
+        "channel": 6,
+        "activation": 0.741750914347628,
+        "inhibition": 0.16150084676210108,
+        "trace": 0.8349106585906454,
+        "support": 0.0409392089061411,
+        "stability": 0.025733217026717242,
+        "direct": 0.741750914347628,
+        "associative": 0.0,
+        "touches": 4,
+        "last_touch_us": "99063"
+      }
+    ],
+    "edges": [
+      {
+        "source": 1,
+        "target": 2,
+        "weight": 0.13513356285713402,
+        "stability": 0.27019009159371515,
+        "eligibility": 1.0,
+        "touches": 14,
+        "birth_us": "0",
+        "last_touch_us": "190000"
+      },
+      {
+        "source": 1,
+        "target": 3,
+        "weight": 0.10111230429963654,
+        "stability": 0.1678840731900053,
+        "eligibility": 1.0,
+        "touches": 8,
+        "birth_us": "0",
+        "last_touch_us": "190000"
+      },
+      {
+        "source": 2,
+        "target": 1,
+        "weight": 0.11671173507486425,
+        "stability": 0.19653237725578712,
+        "eligibility": 1.0,
+        "touches": 9,
+        "birth_us": "0",
+        "last_touch_us": "190000"
+      },
+      {
+        "source": 3,
+        "target": 1,
+        "weight": 0.10631282210619077,
+        "stability": 0.18870111253759214,
+        "eligibility": 1.0,
+        "touches": 9,
+        "birth_us": "0",
+        "last_touch_us": "190000"
+      },
+      {
+        "source": 3,
+        "target": 2,
+        "weight": 0.09062238222529134,
+        "stability": 0.0601884735904282,
+        "eligibility": 0.8200313576546939,
+        "touches": 2,
+        "birth_us": "60000",
+        "last_touch_us": "90000"
+      },
+      {
+        "source": 4,
+        "target": 1,
+        "weight": 0.06892865708013432,
+        "stability": 0.10009264612359528,
+        "eligibility": 0.8532265636477703,
+        "touches": 5,
+        "birth_us": "20000",
+        "last_touch_us": "110000"
+      },
+      {
+        "source": 4,
+        "target": 2,
+        "weight": 0.06668844039658609,
+        "stability": 0.152247734897703,
+        "eligibility": 0.8703247258333905,
+        "touches": 8,
+        "birth_us": "20000",
+        "last_touch_us": "120000"
+      },
+      {
+        "source": 5,
+        "target": 1,
+        "weight": 0.07619137922645663,
+        "stability": 0.19035690140004718,
+        "eligibility": 0.9610945000924985,
+        "touches": 10,
+        "birth_us": "20000",
+        "last_touch_us": "170000"
+      },
+      {
+        "source": 5,
+        "target": 2,
+        "weight": 0.10137737132391782,
+        "stability": 0.13379571878605975,
+        "eligibility": 0.8703247258333905,
+        "touches": 6,
+        "birth_us": "40000",
+        "last_touch_us": "120000"
+      }
+    ],
+    "queue": [
+      {
+        "time_us": "200000",
+        "id": 123,
+        "kind": "inhibition",
+        "payload": {
+          "values": [
+            [
+              1,
+              0.0008978989750237971
+            ]
+          ]
+        }
+      },
+      {
+        "time_us": "200000",
+        "id": 124,
+        "kind": "inhibition",
+        "payload": {
+          "values": [
+            [
+              2,
+              0.0009180994554162394
+            ]
+          ]
+        }
+      },
+      {
+        "time_us": "200000",
+        "id": 125,
+        "kind": "inhibition",
+        "payload": {
+          "values": [
+            [
+              3,
+              0.00042858601385239515
+            ]
+          ]
+        }
+      },
+      {
+        "time_us": "200000",
+        "id": 126,
+        "kind": "signal",
+        "payload": {
+          "values": [
+            [
+              1,
+              0.005363338585756415
+            ],
+            [
+              2,
+              0.0054501444580920926
+            ],
+            [
+              3,
+              0.002353572267148527
+            ]
+          ]
+        }
+      },
+      {
+        "time_us": "200000",
+        "id": 127,
+        "kind": "inhibition",
+        "payload": {
+          "values": [
+            [
+              1,
+              0.009863860244024913
+            ],
+            [
+              2,
+              0.010033853628605137
+            ],
+            [
+              3,
+              0.0038469074447823786
+            ],
+            [
+              4,
+              0.0026506052686711985
+            ],
+            [
+              5,
+              0.0034753931644771717
+            ]
+          ]
+        }
+      }
+    ],
+    "silenced_nodes": [],
+    "silenced_edges": [],
+    "resources": {
+      "schema": "threemind.resources/1",
+      "since_us": "0",
+      "adaptation_period_us": "190000",
+      "adaptations_used": 4,
+      "node_capacity_rejections": "8",
+      "edge_capacity_rejections": "9",
+      "adaptation_budget_skips": "390",
+      "propagation_budget_skips": "66",
+      "counter_overflowed": false
+    }
+  },
+  "after_hash": "532971df3eac83bc11ca64cb6f8ae5f3240cf0e21dfc9fa3a379605d16fd5e0f"
+}

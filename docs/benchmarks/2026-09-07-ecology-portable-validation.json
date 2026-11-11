@@ -1,0 +1,45 @@
+{
+  "schema": "threemind.validation/1",
+  "date": "2026-09-07",
+  "source_base_commit": "60c1928",
+  "scope": "Standalone ecological CLI, optional atomic SQLite population storage and explicit portable group import/export, independent of Lab.",
+  "contracts": {
+    "core": "causal/7 unchanged",
+    "state": "state/5 unchanged",
+    "runtime_profile": "profile/5 unchanged",
+    "birth": "threemind.birth/1 unchanged",
+    "database_schema": "Lab remains 39; standalone population store version 1",
+    "protocol": "threemind.ecology-job/1",
+    "bundle": "threemind.population-bundle/1"
+  },
+  "integration": {
+    "passed": 24,
+    "failed": 0,
+    "skipped": 0,
+    "seconds": 73.32,
+    "files": [
+      "test_ecology_cli.py",
+      "test_population_store.py",
+      "test_world_cli.py",
+      "test_runtime_interop.py",
+      "test_cold_state.py",
+      "test_ecology_store.py"
+    ],
+    "checks": [
+      "SQLite transaction rollback, compare-and-swap revision, immutable protocol and damaged chunks",
+      "Six-member final group equality after database resume, bundle resume and uninterrupted execution, including a partial physical interval",
+      "No threemind_lab module imported by CLI subprocesses",
+      "Numerical-boundary trace storage, complete birth/input evidence and invocation header order",
+      "Nondefault inherited sensory profile preserved, founder creates actual reset births",
+      "Missing, undeclared, corrupted and metadata-checksum-invalid bundles rejected; existing exports not overwritten",
+      "Existing world CLI, runtime model interoperability and PostgreSQL ecology integration"
+    ]
+  },
+  "ruff": "passed",
+  "scope_limits": [
+    "No new full-suite, browser or Docker run in this phase; UI and Lab schema unchanged",
+    "Lab ecological evidence ZIP is not silently converted to a portable resume bundle; Lab phases, commands and telemetry remain host capabilities",
+    "Recovery bundles contain fixed runtime state, not full historical evidence streams",
+    "No cross-hardware physics equivalence, distributed simulation or consciousness claim"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "stage": "B12",
+  "date": "2026-09-06",
+  "validation": {
+    "python_api_native": {
+      "passed": 230,
+      "skipped": 0,
+      "seconds": 241.46
+    },
+    "rust_workspace": {
+      "passed": 2
+    },
+    "edge": {
+      "passed": 2,
+      "seconds": 19.1,
+      "real_hardware_access": false
+    }
+  },
+  "versions": {
+    "database": 14,
+    "core": "causal/7",
+    "state": "state/5",
+    "profile": "profile/5"
+  },
+  "configuration_fields": 419,
+  "core_fields": 60,
+  "adapter_contracts": 23,
+  "legacy_causal6_fixture": {
+    "before_hash": "ec02a8b9b9d47f1ea4928b68c1222486fc211d334d774d43482f4cf67cd10c35",
+    "after_hash": "11c7fe63d691c84e59a9e1ff6e955a6bb147e8c60ac0227fba488004ad16c75b"
+  },
+  "remaining": "D tool restoration and performance, E notebooks/reports, innate evolutionary trainer"
+}

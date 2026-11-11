@@ -1,0 +1,9 @@
+# E50: local activity first, following the user's correction
+
+2026-10-05, before local-expression training. The user distinguishes the active local process produced by activation, inhibition, decay and competition from the entire stored network. Adopt this correction. Full-graph calibration remains an offline diagnostic, not the main expression score.
+
+Retain nodes that show nonzero activation, direct/associative flow, generated/pending inhibition, or an observed increase in inhibition during the window. Preserve their activity and inhibition throughout the window. No semantic selection, top-k cutoff, no-cue subtraction or amplitude rescaling. Quiet structure and purely residual monotonically decaying inhibition without window participation are excluded from the primary reader, while the complete original evidence remains. This is an auditable observation policy, not a claim of complete information coverage; Core is unchanged.
+
+Choose17 existing timestamps evenly from101 recorded activity samples, without interpolation. Feed actual relative time to the external reader. The main path omits stored weights, stability, support and touch counters; a separate local-edge comparison uses five actual graph samples, without inventing intermediate connectivity. Report how many nodes participate. New anonymous channels need no fixed node dictionary.
+
+Start with source223 under two opposite histories,32 external teaching observations across visual and textual perspectives, then the registered held-out views, descriptions and60-second-later observations. Only interpret attribution after adequate fit, with source279 for replication. Stop expanding reasoning if the instrument underfits or emits constant answers. Supervision, sensory-only, randomized-label and frozen-intervention boundaries remain. Differences from the whole-graph model jointly change fields and sampling density, not locality alone.

@@ -1,0 +1,49 @@
+{
+  "date": "2026-09-06",
+  "scope": "B11 stimulus/readout observer feed and shared browser preferences",
+  "database_schema": 13,
+  "model_configuration_fields": 379,
+  "core": "causal/6",
+  "state": "state/5",
+  "profile": "profile/4",
+  "full_pytest": {
+    "passed": 213,
+    "skipped": 0,
+    "seconds": 184.01
+  },
+  "final_targeted_pytest": {
+    "passed": 4,
+    "seconds": 20.64
+  },
+  "browser": {
+    "passed": 3,
+    "seconds": 30.7,
+    "engine": "Edge",
+    "actual_hardware_capture": false
+  },
+  "checks": [
+    "Ruff",
+    "TypeScript/Vite",
+    "Prettier",
+    "legacy audit 55 covered, 0 pending",
+    "git diff --check",
+    "desktop and mobile screenshot inspection"
+  ],
+  "limits": [
+    "Display preferences do not change source admission or attention policy; B12 restores those separately",
+    "Feed order is receipt/record order, not simulation time",
+    "Historical pages freeze membership but show status at query time",
+    "Index export contains summaries and references; full evidence remains in original endpoints",
+    "No scan of the old data directory",
+    "Large-history filtered-query throughput remains part of the D performance audit"
+  ],
+  "sha256": {
+    "migrations/013_conversation.sql": "624dc957f0e871a87c4fb9bc0e02301406e8e96abc08c2945cb40ea3b4062f24",
+    "src/threemind_lab/conversation_api.py": "037d4b942b6b26a3d0fd2c36c5183fb8dc0368da750902c2c7e4cd34eecae57b",
+    "threemind-ui/src/v2/conversation.tsx": "69ef8aea0c16caa5f0f4ab0f6add46735e652b39e7bff4cc77e3be70f951b18a",
+    "threemind-ui/src/v2/conversationPreferences.tsx": "613dd902d14a2e108a3d365cbd384153957e75c663f0b9459898480707d53fe2",
+    "threemind-ui/src/v2/preferences.ts": "12d998867b9d1a7817a59c4c65426749e07bde239afe9bae5d42bc24e027f497",
+    "tests_v2/test_conversation.py": "b5d57296c1db59edd4c3680878932f282abd84803f5b64358efa7d3a807821c1",
+    "threemind-ui/e2e/conversation.spec.ts": "f6232aafeca21f542e7c1c456854115ecbaf21f50dab99cb2ac0ff60db34a5ca"
+  }
+}

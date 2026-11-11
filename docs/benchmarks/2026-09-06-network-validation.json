@@ -1,0 +1,57 @@
+{
+  "date": "2026-09-06",
+  "scope": "B8 scoped anonymous network devices",
+  "schema": 11,
+  "core": "causal/6",
+  "state": "state/5",
+  "profile": "profile/4",
+  "model_configuration_fields": 379,
+  "full_pytest": {
+    "passed": 197,
+    "skipped": 0,
+    "seconds": 182.82
+  },
+  "final_network_pytest": {
+    "passed": 8,
+    "seconds": 26.62
+  },
+  "rate_counter_assertion": {
+    "passed": 1,
+    "seconds": 5.08
+  },
+  "browser": {
+    "passed": 1,
+    "seconds": 12.7,
+    "engine": "Edge",
+    "real_hardware_capture": false
+  },
+  "checks": [
+    "Ruff",
+    "TypeScript and Vite",
+    "Prettier",
+    "legacy parameter audit 55 covered, 0 pending"
+  ],
+  "coverage": [
+    "strict bounded JSON, signed receptor mapping, time and channel budgets",
+    "distinct token hash, project/run scope, revoked and disabled issuer, viewer denial",
+    "HTTP and actual browser WebSocket hello/input/output/reconnect, subscription and origin guard",
+    "exact sequence retry, conflict/gap rejection, atomic data and command admission",
+    "shared InputBus capacity, closed sources, scalar capability and source provenance",
+    "raw carrier, encoded values, committed delivery, full per-device CSV/JSONL export",
+    "device origin checkpoint rollback and recovery, late rejection without partial queue or reanchoring",
+    "worker replacement interrupts physical sessions and rejects unprocessed scalar/input commands",
+    "bounded output declares incompleteness and skipped revisions; paginated receipt and observation history",
+    "GUI create/edit/rotate/disable, one-time credential, docs/formulas and mobile layout"
+  ],
+  "screenshots_sha256": {
+    "docs\\images\\v2-devices-desktop.png": "d36f5e29b282fb357456e78e1e30a6174fba40f3c528d7f12704b6f987a84074",
+    "docs\\images\\v2-devices-mobile.png": "581bb8011982e322d06fa7edbab36110ebcdf42f24e8b127e8afc4748d219ba2"
+  },
+  "limits": [
+    "No hardware clock calibration or public-load benchmark",
+    "No claim of cognition or AGI progress from engineering tests",
+    "Subscription is latest committed graph projection, not a full event stream",
+    "No network sound/pixel streaming in this module",
+    "Generic device capability discovery, large media, other B/D/E items and innate trainer remain"
+  ]
+}

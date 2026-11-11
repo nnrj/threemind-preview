@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-05",
+  "purpose": "Visualization of existing E50/E52 evidence; not a new experiment",
+  "frontend_build": "TypeScript and Vite passed",
+  "browser_tests": {"command": "node node_modules/@playwright/test/cli.js test --config playwright.replay.config.ts", "passed": 2, "scope": ["recorded answer appears only after its observation window", "seeking backward hides later dialogue", "latest past sample without interpolation", "reject unordered evidence", "artifact list and local JSON loading", "390px layout without horizontal overflow", "PNG download", "actual 3-second WebM recording", "GET-only replay access"]},
+  "recording_limit": "This browser produced no encoded frames for a 1-second UI capture; empty output now errors instead of downloading an empty file. The 3-second capture passed.",
+  "video": {"duration_s": 224, "width": 1920, "height": 1080, "codec": "h264", "fps": 15, "frames": 3360, "bytes": 5627339, "audio": false, "encoded_frame_visually_checked_at_s": 190},
+  "visual_checks": ["teaching with repeated input and measurement", "actual naming", "silencing and matched controls", "E52 wrong answer and teacher correction", "desktop and narrow-screen previews"],
+  "history_validation": "4 editions, 57 chapters, bilingual coverage and local links passed",
+  "database": "Three new artifacts and one new replay record appended to E52 via existing Lab services; upload sizes verified",
+  "original_evidence_modified": false,
+  "core_executed_or_modified": false,
+  "paid_provider_calls": 0,
+  "service_handling": "Only owned isolated Vite/browser/export processes were started and closed; occupied port8893 was left alone",
+  "threejson": {"local_commit_inspected": "7acc656", "adopted": false, "performance_comparison_run": false, "reason": "Useful for future3D replay; current text/chart demonstration does not need an additional renderer"}
+}

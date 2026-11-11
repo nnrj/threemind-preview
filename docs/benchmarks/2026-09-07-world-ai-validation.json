@@ -1,0 +1,78 @@
+{
+  "schema": "threemind.validation/1",
+  "date": "2026-09-07",
+  "source_base_commit": "db115a0",
+  "scope": "Reviewable AI world/body proposals using existing providers and immutable world revisions; engineering acceptance only.",
+  "contracts": {
+    "core": "causal/7 unchanged",
+    "state": "state/5 unchanged",
+    "runtime_profile": "profile/5 unchanged",
+    "birth": "threemind.birth/1 unchanged",
+    "world": "threemind.world/1 unchanged",
+    "template": "threemind.world-authoring/1",
+    "database_schema": 38,
+    "parameters": 421
+  },
+  "full_suite_round": {
+    "passed": 432,
+    "failed": 2,
+    "skipped": 0,
+    "seconds": 1398.31,
+    "failures": [
+      "Registry test still expected the body-filter dependency without the newly implemented world environment.",
+      "Version-15 upgrade test still expected schema 37 instead of schema 38. The migration itself completed."
+    ],
+    "resolution": "Updated both assertions and added an upgraded-role SELECT check for the new provenance columns; both original failures are covered in the final targeted run."
+  },
+  "final_backend": {
+    "passed": 14,
+    "failed": 0,
+    "skipped": 0,
+    "seconds": 107.66,
+    "files": ["test_registry.py", "test_research_operations.py", "test_world_ai.py"],
+    "coverage": [
+      "Exact preview hash, fixed scope and operation-ID retry",
+      "Local mock provider, actor permissions and worker capability matching",
+      "Strict JSON, invalid references, scripts, cancellation and truncated responses rejected",
+      "Successful generation creates a proposal only, without a world, run or Core mutation",
+      "Explicit manual adoption, edited final protocol, proposal provenance and revision identity",
+      "Component identity comparison ignores incidental array ordering",
+      "Existing adapter registry and incremental database upgrade from schema 15"
+    ]
+  },
+  "browser": {
+    "engine": "Microsoft Edge / Playwright, local workstation and local mock AI only",
+    "integration_passed": 4,
+    "integration_seconds": 52.1,
+    "final_mobile_layout_passed": 1,
+    "final_mobile_layout_seconds": 20.4,
+    "coverage": [
+      "Explicit sending preview and local provider response",
+      "World proposal differences, manual edit and adopt, saved AI provenance",
+      "Reopen proposal from call history and reject an invalid scripted world",
+      "Existing world authoring and fixed-evidence research AI flows",
+      "390 px layout: complete per-field before/after values without clipped columns"
+    ],
+    "screenshots_visually_reviewed": [
+      "docs/images/world-ai-proposal.png",
+      "docs/images/world-ai-mobile.png"
+    ]
+  },
+  "tooling": {
+    "frontend_production_build": "passed; existing large dependency chunk warnings remain",
+    "translation_catalogue": 4022,
+    "missing_translations": 0,
+    "duplicate_translation_keys": 0,
+    "legacy_fields_reviewed": 55,
+    "legacy_fields_pending": 0,
+    "remote_ai_requests": 0,
+    "data_files_read": false
+  },
+  "limitations": [
+    "The full-suite result is not described as an all-pass run; final fixes were test assertions and were verified with the targeted run.",
+    "No ecological resource or shared-population trainer is delivered by this AI proposal phase.",
+    "Static physical compilation does not validate long-running numerical stability or scientific usefulness.",
+    "AI explanations remain suggestions; design labels cannot implement ecological mechanics or establish consciousness.",
+    "The Docker application image has not been rebuilt for schema 38 in this phase."
+  ]
+}

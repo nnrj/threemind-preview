@@ -1,0 +1,10 @@
+{
+  "package_schema_version": "3.0.0",
+  "kernel_id": "anonymous-sensory",
+  "name": "Anonymous sensory model",
+  "node_payload": "anonymous",
+  "weighted_edges": true,
+  "spatial_embedding": false,
+  "spatial_dimensions": 0,
+  "parameters": {}
+}

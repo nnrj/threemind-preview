@@ -1,0 +1,1151 @@
+{
+  "schema": "threemind.mechanism-check-summary/1",
+  "derived_from_schema": "threemind.mechanism-check/1",
+  "scope": "nonsemantic engineering check; no learning or AGI claim",
+  "capability": "Derived engineering summary only; no raw observations or restorable final states.",
+  "source": {
+    "resource_id": "research-artifact:4f3d0df7c2a6b95cb8cee567",
+    "legacy_path": "docs/benchmarks/kernel-candidates-2026-09-28.json",
+    "bytes": 1064579,
+    "sha256": "0898dc6076989e5702367d2e099d7715731a99a4da76436265793e05f021af6b"
+  },
+  "snapshot_commit": "1bc4a29b28e3ded9b8135d1080decec0b173692d",
+  "backend": "native",
+  "protocol_sha256": "ec3b90b774359393974a8dd095a7bc76bca8f9d8b323d0626f477785cb68f440",
+  "inputs": [
+    {
+      "time_us": "0",
+      "channels": [
+        [
+          101,
+          0.7
+        ],
+        [
+          202,
+          0.5
+        ]
+      ],
+      "intensity": 0.9
+    },
+    {
+      "time_us": "100000",
+      "channels": [
+        [
+          101,
+          0.7
+        ],
+        [
+          202,
+          0.5
+        ]
+      ],
+      "intensity": 0.9
+    },
+    {
+      "time_us": "200000",
+      "channels": [
+        [
+          101,
+          0.7
+        ],
+        [
+          202,
+          0.5
+        ]
+      ],
+      "intensity": 0.9
+    },
+    {
+      "time_us": "300000",
+      "channels": [
+        [
+          101,
+          0.7
+        ],
+        [
+          202,
+          0.5
+        ]
+      ],
+      "intensity": 0.9
+    },
+    {
+      "time_us": "400000",
+      "channels": [
+        [
+          101,
+          0.7
+        ],
+        [
+          202,
+          0.5
+        ]
+      ],
+      "intensity": 0.9
+    },
+    {
+      "time_us": "500000",
+      "channels": [
+        [
+          101,
+          0.7
+        ],
+        [
+          202,
+          0.5
+        ]
+      ],
+      "intensity": 0.9
+    },
+    {
+      "time_us": "650000",
+      "channels": [
+        [
+          101,
+          0.5
+        ]
+      ],
+      "intensity": 0.5
+    }
+  ],
+  "budgets": {
+    "wall_seconds": 60,
+    "memory_bytes": 1073741824,
+    "output_bytes": 2097152
+  },
+  "wall_seconds": 0.061455999999452615,
+  "rss_bytes": 29806592,
+  "cases": [
+    {
+      "case": "baseline",
+      "kernel_id": "threemind.causal/9",
+      "definition": {
+        "config": {
+          "activation_decay_enabled": true,
+          "activation_floor": 0.004,
+          "activation_tau": 0.30441023431381903,
+          "associative_gain": 0.01,
+          "birth_weight": 0.065,
+          "delay_us": 10000,
+          "direct_gain": 0.9,
+          "eligibility_decay_enabled": true,
+          "eligibility_tau": 0.40247707040780034,
+          "first_gain": 0.045,
+          "forgetting_rate": 0.025,
+          "inhibition": true,
+          "inhibition_decay_enabled": true,
+          "inhibition_diffusion_rate": 3.5,
+          "inhibition_gain": 0.24,
+          "inhibition_response_gain": 2.0,
+          "inhibition_tau": 0.2321354823145728,
+          "intensity_gain": 0.075,
+          "learning_rate": 0.055,
+          "node_prune_after_us": 80000000,
+          "plasticity": true,
+          "propagation_interval_us": 100000,
+          "propagation_rate": 4.2,
+          "prune_support": 0.006,
+          "prune_weight": 0.008,
+          "quiescence_death_us": 1000000,
+          "repeat_gain": 0.018,
+          "seed": 20260724,
+          "stability_decay_enabled": true,
+          "stability_gain": 0.022,
+          "stability_tau": 666.6666666666667,
+          "step_us": 10000,
+          "support_decay_enabled": true,
+          "support_gain": 0.035,
+          "support_tau": 666.6666666666667,
+          "trace_decay_enabled": true,
+          "trace_tau": 0.5039028822088802
+        },
+        "hypothesis_id": "threemind.hypotheses/causal9",
+        "kernel_id": "threemind.causal/9",
+        "operators": [
+          {
+            "id": "threemind.causal9-transition/1",
+            "phase": "hybrid-event-clock"
+          }
+        ],
+        "schema": "threemind.kernel-definition/1",
+        "state_schema": "threemind.state/6"
+      },
+      "observation_count": 37,
+      "final_time_us": "900000",
+      "final_metrics": {
+        "active_fraction": 1.0,
+        "edge_density": 1.0,
+        "edges": 2,
+        "life": "active",
+        "mean_activation": 0.3880005292001567,
+        "mean_weight": 0.2673208052369088,
+        "nodes": 2,
+        "pending_events": 2,
+        "saturated_fraction": 0.0
+      },
+      "observed_ranges": {
+        "active_fraction": {
+          "min": 1.0,
+          "max": 1.0
+        },
+        "edge_density": {
+          "min": 1.0,
+          "max": 1.0
+        },
+        "edges": {
+          "min": 2,
+          "max": 2
+        },
+        "mean_activation": {
+          "min": 0.37987056401071,
+          "max": 1.0
+        },
+        "mean_weight": {
+          "min": 0.059673475000000004,
+          "max": 0.2673208052369088
+        },
+        "nodes": {
+          "min": 2,
+          "max": 2
+        },
+        "pending_events": {
+          "min": 0,
+          "max": 7
+        },
+        "saturated_fraction": {
+          "min": 0.0,
+          "max": 1.0
+        }
+      },
+      "spike_count": 0,
+      "exact_restore": true,
+      "original_final_state_hash": "3b45ae20e2a11b04b9391bcc0716ed7b8a3b29fac3da80a83010e1c6e5d762ff"
+    },
+    {
+      "case": "continuous_all_off",
+      "kernel_id": "threemind.continuous/1",
+      "definition": {
+        "config": {
+          "activation_decay_enabled": true,
+          "activation_floor": 0.004,
+          "activation_tau": 0.30441023431381903,
+          "associative_gain": 0.01,
+          "birth_weight": 0.065,
+          "context_enabled": false,
+          "context_mix": 1.0,
+          "context_tau_s": 1.0,
+          "context_temperature": 1.0,
+          "delay_us": 10000,
+          "direct_gain": 0.9,
+          "eligibility_decay_enabled": true,
+          "eligibility_tau": 0.40247707040780034,
+          "fast_enabled": false,
+          "fast_gain": 0.1,
+          "fast_learning_rate": 0.1,
+          "fast_tau_s": 2.0,
+          "first_gain": 0.045,
+          "forgetting_rate": 0.025,
+          "inhibition": true,
+          "inhibition_decay_enabled": true,
+          "inhibition_diffusion_rate": 3.5,
+          "inhibition_gain": 0.24,
+          "inhibition_response_gain": 2.0,
+          "inhibition_tau": 0.2321354823145728,
+          "intensity_gain": 0.075,
+          "learning_rate": 0.055,
+          "node_prune_after_us": 80000000,
+          "plasticity": true,
+          "propagation_interval_us": 100000,
+          "propagation_rate": 4.2,
+          "prune_support": 0.006,
+          "prune_weight": 0.008,
+          "quiescence_death_us": 1000000,
+          "repeat_gain": 0.018,
+          "seed": 20260724,
+          "stability_decay_enabled": true,
+          "stability_gain": 0.022,
+          "stability_tau": 666.6666666666667,
+          "step_us": 10000,
+          "stp_active_tau_s": 0.003,
+          "stp_enabled": false,
+          "stp_facilitation_tau_s": 0.0,
+          "stp_recovery_tau_s": 0.8,
+          "stp_utilization": 0.5,
+          "support_decay_enabled": true,
+          "support_gain": 0.035,
+          "support_tau": 666.6666666666667,
+          "trace_decay_enabled": true,
+          "trace_tau": 0.5039028822088802
+        },
+        "hypothesis_id": "threemind.hypotheses/continuous1",
+        "kernel_id": "threemind.continuous/1",
+        "operators": [
+          {
+            "id": "threemind.causal9-transition/1",
+            "phase": "hybrid-event-clock"
+          },
+          {
+            "id": "threemind.leaky-fast-trace/1",
+            "phase": "efficacy-and-emission"
+          },
+          {
+            "id": "threemind.tm-synapse/1",
+            "phase": "before-emission"
+          },
+          {
+            "id": "threemind.local-context-attention/1",
+            "phase": "after-arrival"
+          }
+        ],
+        "schema": "threemind.kernel-definition/1",
+        "state_schema": "threemind.continuous-state/1"
+      },
+      "observation_count": 37,
+      "final_time_us": "900000",
+      "final_metrics": {
+        "active_fraction": 1.0,
+        "edge_density": 1.0,
+        "edges": 2,
+        "life": "active",
+        "mean_activation": 0.3880005292001567,
+        "mean_weight": 0.2673208052369088,
+        "nodes": 2,
+        "pending_events": 2,
+        "saturated_fraction": 0.0
+      },
+      "observed_ranges": {
+        "active_fraction": {
+          "min": 1.0,
+          "max": 1.0
+        },
+        "edge_density": {
+          "min": 1.0,
+          "max": 1.0
+        },
+        "edges": {
+          "min": 2,
+          "max": 2
+        },
+        "mean_activation": {
+          "min": 0.37987056401071,
+          "max": 1.0
+        },
+        "mean_weight": {
+          "min": 0.059673475000000004,
+          "max": 0.2673208052369088
+        },
+        "nodes": {
+          "min": 2,
+          "max": 2
+        },
+        "pending_events": {
+          "min": 0,
+          "max": 7
+        },
+        "saturated_fraction": {
+          "min": 0.0,
+          "max": 1.0
+        }
+      },
+      "spike_count": 0,
+      "exact_restore": true,
+      "original_final_state_hash": "1859d82f1cef3101c3c7761f2c3d4b464bbdcb61fddd9c4f15fbcd2f4c29782d"
+    },
+    {
+      "case": "continuous",
+      "kernel_id": "threemind.continuous/1",
+      "definition": {
+        "config": {
+          "activation_decay_enabled": true,
+          "activation_floor": 0.004,
+          "activation_tau": 0.30441023431381903,
+          "associative_gain": 0.01,
+          "birth_weight": 0.065,
+          "context_enabled": true,
+          "context_mix": 1.0,
+          "context_tau_s": 1.0,
+          "context_temperature": 1.0,
+          "delay_us": 10000,
+          "direct_gain": 0.9,
+          "eligibility_decay_enabled": true,
+          "eligibility_tau": 0.40247707040780034,
+          "fast_enabled": true,
+          "fast_gain": 0.1,
+          "fast_learning_rate": 0.1,
+          "fast_tau_s": 2.0,
+          "first_gain": 0.045,
+          "forgetting_rate": 0.025,
+          "inhibition": true,
+          "inhibition_decay_enabled": true,
+          "inhibition_diffusion_rate": 3.5,
+          "inhibition_gain": 0.24,
+          "inhibition_response_gain": 2.0,
+          "inhibition_tau": 0.2321354823145728,
+          "intensity_gain": 0.075,
+          "learning_rate": 0.055,
+          "node_prune_after_us": 80000000,
+          "plasticity": true,
+          "propagation_interval_us": 100000,
+          "propagation_rate": 4.2,
+          "prune_support": 0.006,
+          "prune_weight": 0.008,
+          "quiescence_death_us": 1000000,
+          "repeat_gain": 0.018,
+          "seed": 20260724,
+          "stability_decay_enabled": true,
+          "stability_gain": 0.022,
+          "stability_tau": 666.6666666666667,
+          "step_us": 10000,
+          "stp_active_tau_s": 0.003,
+          "stp_enabled": true,
+          "stp_facilitation_tau_s": 0.0,
+          "stp_recovery_tau_s": 0.8,
+          "stp_utilization": 0.5,
+          "support_decay_enabled": true,
+          "support_gain": 0.035,
+          "support_tau": 666.6666666666667,
+          "trace_decay_enabled": true,
+          "trace_tau": 0.5039028822088802
+        },
+        "hypothesis_id": "threemind.hypotheses/continuous1",
+        "kernel_id": "threemind.continuous/1",
+        "operators": [
+          {
+            "id": "threemind.causal9-transition/1",
+            "phase": "hybrid-event-clock"
+          },
+          {
+            "id": "threemind.leaky-fast-trace/1",
+            "phase": "efficacy-and-emission"
+          },
+          {
+            "id": "threemind.tm-synapse/1",
+            "phase": "before-emission"
+          },
+          {
+            "id": "threemind.local-context-attention/1",
+            "phase": "after-arrival"
+          }
+        ],
+        "schema": "threemind.kernel-definition/1",
+        "state_schema": "threemind.continuous-state/1"
+      },
+      "observation_count": 37,
+      "final_time_us": "900000",
+      "final_metrics": {
+        "active_fraction": 1.0,
+        "edge_density": 1.0,
+        "edges": 2,
+        "life": "active",
+        "mean_activation": 0.3176405507900463,
+        "mean_weight": 0.261700847451393,
+        "nodes": 2,
+        "pending_events": 1,
+        "saturated_fraction": 0.0
+      },
+      "observed_ranges": {
+        "active_fraction": {
+          "min": 1.0,
+          "max": 1.0
+        },
+        "edge_density": {
+          "min": 1.0,
+          "max": 1.0
+        },
+        "edges": {
+          "min": 2,
+          "max": 2
+        },
+        "mean_activation": {
+          "min": 0.3176405507900463,
+          "max": 1.0
+        },
+        "mean_weight": {
+          "min": 0.059673475000000004,
+          "max": 0.2622139513598269
+        },
+        "nodes": {
+          "min": 2,
+          "max": 2
+        },
+        "pending_events": {
+          "min": 0,
+          "max": 7
+        },
+        "saturated_fraction": {
+          "min": 0.0,
+          "max": 1.0
+        }
+      },
+      "spike_count": 0,
+      "exact_restore": true,
+      "original_final_state_hash": "5f031ab91eae74cb8d2d41f7cd0b6780d9b32d2c6d0624b8e2e68e2105a68438"
+    },
+    {
+      "case": "continuous_no_stp",
+      "kernel_id": "threemind.continuous/1",
+      "definition": {
+        "config": {
+          "activation_decay_enabled": true,
+          "activation_floor": 0.004,
+          "activation_tau": 0.30441023431381903,
+          "associative_gain": 0.01,
+          "birth_weight": 0.065,
+          "context_enabled": true,
+          "context_mix": 1.0,
+          "context_tau_s": 1.0,
+          "context_temperature": 1.0,
+          "delay_us": 10000,
+          "direct_gain": 0.9,
+          "eligibility_decay_enabled": true,
+          "eligibility_tau": 0.40247707040780034,
+          "fast_enabled": true,
+          "fast_gain": 0.1,
+          "fast_learning_rate": 0.1,
+          "fast_tau_s": 2.0,
+          "first_gain": 0.045,
+          "forgetting_rate": 0.025,
+          "inhibition": true,
+          "inhibition_decay_enabled": true,
+          "inhibition_diffusion_rate": 3.5,
+          "inhibition_gain": 0.24,
+          "inhibition_response_gain": 2.0,
+          "inhibition_tau": 0.2321354823145728,
+          "intensity_gain": 0.075,
+          "learning_rate": 0.055,
+          "node_prune_after_us": 80000000,
+          "plasticity": true,
+          "propagation_interval_us": 100000,
+          "propagation_rate": 4.2,
+          "prune_support": 0.006,
+          "prune_weight": 0.008,
+          "quiescence_death_us": 1000000,
+          "repeat_gain": 0.018,
+          "seed": 20260724,
+          "stability_decay_enabled": true,
+          "stability_gain": 0.022,
+          "stability_tau": 666.6666666666667,
+          "step_us": 10000,
+          "stp_active_tau_s": 0.003,
+          "stp_enabled": false,
+          "stp_facilitation_tau_s": 0.0,
+          "stp_recovery_tau_s": 0.8,
+          "stp_utilization": 0.5,
+          "support_decay_enabled": true,
+          "support_gain": 0.035,
+          "support_tau": 666.6666666666667,
+          "trace_decay_enabled": true,
+          "trace_tau": 0.5039028822088802
+        },
+        "hypothesis_id": "threemind.hypotheses/continuous1",
+        "kernel_id": "threemind.continuous/1",
+        "operators": [
+          {
+            "id": "threemind.causal9-transition/1",
+            "phase": "hybrid-event-clock"
+          },
+          {
+            "id": "threemind.leaky-fast-trace/1",
+            "phase": "efficacy-and-emission"
+          },
+          {
+            "id": "threemind.tm-synapse/1",
+            "phase": "before-emission"
+          },
+          {
+            "id": "threemind.local-context-attention/1",
+            "phase": "after-arrival"
+          }
+        ],
+        "schema": "threemind.kernel-definition/1",
+        "state_schema": "threemind.continuous-state/1"
+      },
+      "observation_count": 37,
+      "final_time_us": "900000",
+      "final_metrics": {
+        "active_fraction": 1.0,
+        "edge_density": 1.0,
+        "edges": 2,
+        "life": "active",
+        "mean_activation": 0.3887618050111976,
+        "mean_weight": 0.26735504070913124,
+        "nodes": 2,
+        "pending_events": 2,
+        "saturated_fraction": 0.0
+      },
+      "observed_ranges": {
+        "active_fraction": {
+          "min": 1.0,
+          "max": 1.0
+        },
+        "edge_density": {
+          "min": 1.0,
+          "max": 1.0
+        },
+        "edges": {
+          "min": 2,
+          "max": 2
+        },
+        "mean_activation": {
+          "min": 0.37987056401071,
+          "max": 1.0
+        },
+        "mean_weight": {
+          "min": 0.059673475000000004,
+          "max": 0.26735504070913124
+        },
+        "nodes": {
+          "min": 2,
+          "max": 2
+        },
+        "pending_events": {
+          "min": 0,
+          "max": 7
+        },
+        "saturated_fraction": {
+          "min": 0.0,
+          "max": 1.0
+        }
+      },
+      "spike_count": 0,
+      "exact_restore": true,
+      "original_final_state_hash": "83600c3f6608013f69f8b5256e074ac171841788c000d3c4ffe066c8c4d56a24"
+    },
+    {
+      "case": "continuous_no_fast",
+      "kernel_id": "threemind.continuous/1",
+      "definition": {
+        "config": {
+          "activation_decay_enabled": true,
+          "activation_floor": 0.004,
+          "activation_tau": 0.30441023431381903,
+          "associative_gain": 0.01,
+          "birth_weight": 0.065,
+          "context_enabled": true,
+          "context_mix": 1.0,
+          "context_tau_s": 1.0,
+          "context_temperature": 1.0,
+          "delay_us": 10000,
+          "direct_gain": 0.9,
+          "eligibility_decay_enabled": true,
+          "eligibility_tau": 0.40247707040780034,
+          "fast_enabled": false,
+          "fast_gain": 0.1,
+          "fast_learning_rate": 0.1,
+          "fast_tau_s": 2.0,
+          "first_gain": 0.045,
+          "forgetting_rate": 0.025,
+          "inhibition": true,
+          "inhibition_decay_enabled": true,
+          "inhibition_diffusion_rate": 3.5,
+          "inhibition_gain": 0.24,
+          "inhibition_response_gain": 2.0,
+          "inhibition_tau": 0.2321354823145728,
+          "intensity_gain": 0.075,
+          "learning_rate": 0.055,
+          "node_prune_after_us": 80000000,
+          "plasticity": true,
+          "propagation_interval_us": 100000,
+          "propagation_rate": 4.2,
+          "prune_support": 0.006,
+          "prune_weight": 0.008,
+          "quiescence_death_us": 1000000,
+          "repeat_gain": 0.018,
+          "seed": 20260724,
+          "stability_decay_enabled": true,
+          "stability_gain": 0.022,
+          "stability_tau": 666.6666666666667,
+          "step_us": 10000,
+          "stp_active_tau_s": 0.003,
+          "stp_enabled": true,
+          "stp_facilitation_tau_s": 0.0,
+          "stp_recovery_tau_s": 0.8,
+          "stp_utilization": 0.5,
+          "support_decay_enabled": true,
+          "support_gain": 0.035,
+          "support_tau": 666.6666666666667,
+          "trace_decay_enabled": true,
+          "trace_tau": 0.5039028822088802
+        },
+        "hypothesis_id": "threemind.hypotheses/continuous1",
+        "kernel_id": "threemind.continuous/1",
+        "operators": [
+          {
+            "id": "threemind.causal9-transition/1",
+            "phase": "hybrid-event-clock"
+          },
+          {
+            "id": "threemind.leaky-fast-trace/1",
+            "phase": "efficacy-and-emission"
+          },
+          {
+            "id": "threemind.tm-synapse/1",
+            "phase": "before-emission"
+          },
+          {
+            "id": "threemind.local-context-attention/1",
+            "phase": "after-arrival"
+          }
+        ],
+        "schema": "threemind.kernel-definition/1",
+        "state_schema": "threemind.continuous-state/1"
+      },
+      "observation_count": 37,
+      "final_time_us": "900000",
+      "final_metrics": {
+        "active_fraction": 1.0,
+        "edge_density": 1.0,
+        "edges": 2,
+        "life": "active",
+        "mean_activation": 0.31762705034557437,
+        "mean_weight": 0.26169983232455457,
+        "nodes": 2,
+        "pending_events": 1,
+        "saturated_fraction": 0.0
+      },
+      "observed_ranges": {
+        "active_fraction": {
+          "min": 1.0,
+          "max": 1.0
+        },
+        "edge_density": {
+          "min": 1.0,
+          "max": 1.0
+        },
+        "edges": {
+          "min": 2,
+          "max": 2
+        },
+        "mean_activation": {
+          "min": 0.31762705034557437,
+          "max": 1.0
+        },
+        "mean_weight": {
+          "min": 0.059673475000000004,
+          "max": 0.26221298318839914
+        },
+        "nodes": {
+          "min": 2,
+          "max": 2
+        },
+        "pending_events": {
+          "min": 0,
+          "max": 7
+        },
+        "saturated_fraction": {
+          "min": 0.0,
+          "max": 1.0
+        }
+      },
+      "spike_count": 0,
+      "exact_restore": true,
+      "original_final_state_hash": "19cb448bbd6b1e4ee1cb9b9aef2ba6fad6a79b3f7c7cf001ae0d26c000e37c9a"
+    },
+    {
+      "case": "continuous_no_context",
+      "kernel_id": "threemind.continuous/1",
+      "definition": {
+        "config": {
+          "activation_decay_enabled": true,
+          "activation_floor": 0.004,
+          "activation_tau": 0.30441023431381903,
+          "associative_gain": 0.01,
+          "birth_weight": 0.065,
+          "context_enabled": false,
+          "context_mix": 1.0,
+          "context_tau_s": 1.0,
+          "context_temperature": 1.0,
+          "delay_us": 10000,
+          "direct_gain": 0.9,
+          "eligibility_decay_enabled": true,
+          "eligibility_tau": 0.40247707040780034,
+          "fast_enabled": true,
+          "fast_gain": 0.1,
+          "fast_learning_rate": 0.1,
+          "fast_tau_s": 2.0,
+          "first_gain": 0.045,
+          "forgetting_rate": 0.025,
+          "inhibition": true,
+          "inhibition_decay_enabled": true,
+          "inhibition_diffusion_rate": 3.5,
+          "inhibition_gain": 0.24,
+          "inhibition_response_gain": 2.0,
+          "inhibition_tau": 0.2321354823145728,
+          "intensity_gain": 0.075,
+          "learning_rate": 0.055,
+          "node_prune_after_us": 80000000,
+          "plasticity": true,
+          "propagation_interval_us": 100000,
+          "propagation_rate": 4.2,
+          "prune_support": 0.006,
+          "prune_weight": 0.008,
+          "quiescence_death_us": 1000000,
+          "repeat_gain": 0.018,
+          "seed": 20260724,
+          "stability_decay_enabled": true,
+          "stability_gain": 0.022,
+          "stability_tau": 666.6666666666667,
+          "step_us": 10000,
+          "stp_active_tau_s": 0.003,
+          "stp_enabled": true,
+          "stp_facilitation_tau_s": 0.0,
+          "stp_recovery_tau_s": 0.8,
+          "stp_utilization": 0.5,
+          "support_decay_enabled": true,
+          "support_gain": 0.035,
+          "support_tau": 666.6666666666667,
+          "trace_decay_enabled": true,
+          "trace_tau": 0.5039028822088802
+        },
+        "hypothesis_id": "threemind.hypotheses/continuous1",
+        "kernel_id": "threemind.continuous/1",
+        "operators": [
+          {
+            "id": "threemind.causal9-transition/1",
+            "phase": "hybrid-event-clock"
+          },
+          {
+            "id": "threemind.leaky-fast-trace/1",
+            "phase": "efficacy-and-emission"
+          },
+          {
+            "id": "threemind.tm-synapse/1",
+            "phase": "before-emission"
+          },
+          {
+            "id": "threemind.local-context-attention/1",
+            "phase": "after-arrival"
+          }
+        ],
+        "schema": "threemind.kernel-definition/1",
+        "state_schema": "threemind.continuous-state/1"
+      },
+      "observation_count": 37,
+      "final_time_us": "900000",
+      "final_metrics": {
+        "active_fraction": 1.0,
+        "edge_density": 1.0,
+        "edges": 2,
+        "life": "active",
+        "mean_activation": 0.3176405507900463,
+        "mean_weight": 0.261700847451393,
+        "nodes": 2,
+        "pending_events": 1,
+        "saturated_fraction": 0.0
+      },
+      "observed_ranges": {
+        "active_fraction": {
+          "min": 1.0,
+          "max": 1.0
+        },
+        "edge_density": {
+          "min": 1.0,
+          "max": 1.0
+        },
+        "edges": {
+          "min": 2,
+          "max": 2
+        },
+        "mean_activation": {
+          "min": 0.3176405507900463,
+          "max": 1.0
+        },
+        "mean_weight": {
+          "min": 0.059673475000000004,
+          "max": 0.2622139513598269
+        },
+        "nodes": {
+          "min": 2,
+          "max": 2
+        },
+        "pending_events": {
+          "min": 0,
+          "max": 7
+        },
+        "saturated_fraction": {
+          "min": 0.0,
+          "max": 1.0
+        }
+      },
+      "spike_count": 0,
+      "exact_restore": true,
+      "original_final_state_hash": "31a6e84a86d9968beec75c5604c23660f56ca3ad4d6795a412650bfabfb07d6b"
+    },
+    {
+      "case": "lif",
+      "kernel_id": "threemind.lif/1",
+      "definition": {
+        "config": {
+          "adaptation_jump_na": 0.01,
+          "adaptation_tau_s": 0.1,
+          "birth_weight": 0.05,
+          "current_decay_enabled": true,
+          "current_epsilon_na": 1e-08,
+          "current_tau_s": 0.005,
+          "delay_us": "1000",
+          "inhibition": true,
+          "input_gain_na": 1.0,
+          "leak_enabled": true,
+          "max_edges": 200000,
+          "max_nodes": 10000,
+          "membrane_tau_s": 0.02,
+          "plasticity": true,
+          "quiescence_death_us": "1000000",
+          "refractory_us": "2000",
+          "reset_mv": -65.0,
+          "resistance_mohm": 100.0,
+          "rest_mv": -65.0,
+          "seed": 20260724,
+          "spike_gain_na": 0.3,
+          "stdp_a_minus": 0.0105,
+          "stdp_a_plus": 0.01,
+          "stdp_enabled": true,
+          "stdp_tau_post_s": 0.02,
+          "stdp_tau_pre_s": 0.02,
+          "step_us": "250",
+          "stp_active_tau_s": 0.003,
+          "stp_enabled": true,
+          "stp_facilitation_tau_s": 0.0,
+          "stp_recovery_tau_s": 0.8,
+          "stp_utilization": 0.5,
+          "threshold_mv": -50.0,
+          "voltage_epsilon_mv": 1e-06
+        },
+        "hypothesis_id": "threemind.hypotheses/lif1",
+        "kernel_id": "threemind.lif/1",
+        "operators": [
+          {
+            "id": "threemind.adaptive-rc/1",
+            "phase": "passive-evolution"
+          },
+          {
+            "id": "threemind.co-input-growth/1",
+            "phase": "external-contact"
+          },
+          {
+            "id": "threemind.lif-threshold-reset/1",
+            "phase": "fixed-grid"
+          },
+          {
+            "id": "threemind.arrival-pair-stdp/1",
+            "phase": "arrival-and-spike"
+          },
+          {
+            "id": "threemind.tm-synapse/1",
+            "phase": "before-spike-emission"
+          },
+          {
+            "id": "threemind.physical-activity-life/1",
+            "phase": "after-arrivals-and-spikes"
+          }
+        ],
+        "schema": "threemind.kernel-definition/1",
+        "state_schema": "threemind.lif-state/1"
+      },
+      "observation_count": 37,
+      "final_time_us": "900000",
+      "final_metrics": {
+        "edges": 2,
+        "life": "alive",
+        "nodes": 2
+      },
+      "observed_ranges": {
+        "edges": {
+          "min": 2,
+          "max": 2
+        },
+        "nodes": {
+          "min": 2,
+          "max": 2
+        }
+      },
+      "spike_count": 0,
+      "exact_restore": true,
+      "original_final_state_hash": "be43ac57fd7e7b625193354306edea35ce56dd3c8b5864f70c908666f853c7b7"
+    },
+    {
+      "case": "lif_no_stp",
+      "kernel_id": "threemind.lif/1",
+      "definition": {
+        "config": {
+          "adaptation_jump_na": 0.01,
+          "adaptation_tau_s": 0.1,
+          "birth_weight": 0.05,
+          "current_decay_enabled": true,
+          "current_epsilon_na": 1e-08,
+          "current_tau_s": 0.005,
+          "delay_us": "1000",
+          "inhibition": true,
+          "input_gain_na": 1.0,
+          "leak_enabled": true,
+          "max_edges": 200000,
+          "max_nodes": 10000,
+          "membrane_tau_s": 0.02,
+          "plasticity": true,
+          "quiescence_death_us": "1000000",
+          "refractory_us": "2000",
+          "reset_mv": -65.0,
+          "resistance_mohm": 100.0,
+          "rest_mv": -65.0,
+          "seed": 20260724,
+          "spike_gain_na": 0.3,
+          "stdp_a_minus": 0.0105,
+          "stdp_a_plus": 0.01,
+          "stdp_enabled": true,
+          "stdp_tau_post_s": 0.02,
+          "stdp_tau_pre_s": 0.02,
+          "step_us": "250",
+          "stp_active_tau_s": 0.003,
+          "stp_enabled": false,
+          "stp_facilitation_tau_s": 0.0,
+          "stp_recovery_tau_s": 0.8,
+          "stp_utilization": 0.5,
+          "threshold_mv": -50.0,
+          "voltage_epsilon_mv": 1e-06
+        },
+        "hypothesis_id": "threemind.hypotheses/lif1",
+        "kernel_id": "threemind.lif/1",
+        "operators": [
+          {
+            "id": "threemind.adaptive-rc/1",
+            "phase": "passive-evolution"
+          },
+          {
+            "id": "threemind.co-input-growth/1",
+            "phase": "external-contact"
+          },
+          {
+            "id": "threemind.lif-threshold-reset/1",
+            "phase": "fixed-grid"
+          },
+          {
+            "id": "threemind.arrival-pair-stdp/1",
+            "phase": "arrival-and-spike"
+          },
+          {
+            "id": "threemind.tm-synapse/1",
+            "phase": "before-spike-emission"
+          },
+          {
+            "id": "threemind.physical-activity-life/1",
+            "phase": "after-arrivals-and-spikes"
+          }
+        ],
+        "schema": "threemind.kernel-definition/1",
+        "state_schema": "threemind.lif-state/1"
+      },
+      "observation_count": 37,
+      "final_time_us": "900000",
+      "final_metrics": {
+        "edges": 2,
+        "life": "alive",
+        "nodes": 2
+      },
+      "observed_ranges": {
+        "edges": {
+          "min": 2,
+          "max": 2
+        },
+        "nodes": {
+          "min": 2,
+          "max": 2
+        }
+      },
+      "spike_count": 0,
+      "exact_restore": true,
+      "original_final_state_hash": "c1ec31d6c41609994af510ab476b5bde3f232a3b9d3282a414228a816f715dbe"
+    },
+    {
+      "case": "lif_no_stdp",
+      "kernel_id": "threemind.lif/1",
+      "definition": {
+        "config": {
+          "adaptation_jump_na": 0.01,
+          "adaptation_tau_s": 0.1,
+          "birth_weight": 0.05,
+          "current_decay_enabled": true,
+          "current_epsilon_na": 1e-08,
+          "current_tau_s": 0.005,
+          "delay_us": "1000",
+          "inhibition": true,
+          "input_gain_na": 1.0,
+          "leak_enabled": true,
+          "max_edges": 200000,
+          "max_nodes": 10000,
+          "membrane_tau_s": 0.02,
+          "plasticity": true,
+          "quiescence_death_us": "1000000",
+          "refractory_us": "2000",
+          "reset_mv": -65.0,
+          "resistance_mohm": 100.0,
+          "rest_mv": -65.0,
+          "seed": 20260724,
+          "spike_gain_na": 0.3,
+          "stdp_a_minus": 0.0105,
+          "stdp_a_plus": 0.01,
+          "stdp_enabled": false,
+          "stdp_tau_post_s": 0.02,
+          "stdp_tau_pre_s": 0.02,
+          "step_us": "250",
+          "stp_active_tau_s": 0.003,
+          "stp_enabled": true,
+          "stp_facilitation_tau_s": 0.0,
+          "stp_recovery_tau_s": 0.8,
+          "stp_utilization": 0.5,
+          "threshold_mv": -50.0,
+          "voltage_epsilon_mv": 1e-06
+        },
+        "hypothesis_id": "threemind.hypotheses/lif1",
+        "kernel_id": "threemind.lif/1",
+        "operators": [
+          {
+            "id": "threemind.adaptive-rc/1",
+            "phase": "passive-evolution"
+          },
+          {
+            "id": "threemind.co-input-growth/1",
+            "phase": "external-contact"
+          },
+          {
+            "id": "threemind.lif-threshold-reset/1",
+            "phase": "fixed-grid"
+          },
+          {
+            "id": "threemind.arrival-pair-stdp/1",
+            "phase": "arrival-and-spike"
+          },
+          {
+            "id": "threemind.tm-synapse/1",
+            "phase": "before-spike-emission"
+          },
+          {
+            "id": "threemind.physical-activity-life/1",
+            "phase": "after-arrivals-and-spikes"
+          }
+        ],
+        "schema": "threemind.kernel-definition/1",
+        "state_schema": "threemind.lif-state/1"
+      },
+      "observation_count": 37,
+      "final_time_us": "900000",
+      "final_metrics": {
+        "edges": 2,
+        "life": "alive",
+        "nodes": 2
+      },
+      "observed_ranges": {
+        "edges": {
+          "min": 2,
+          "max": 2
+        },
+        "nodes": {
+          "min": 2,
+          "max": 2
+        }
+      },
+      "spike_count": 0,
+      "exact_restore": true,
+      "original_final_state_hash": "4a9f53c7923cb74e7d8b8d3f886052dcd14da9f741c368283e81b7a2cee3eb7b"
+    }
+  ]
+}

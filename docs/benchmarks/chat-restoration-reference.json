@@ -1,0 +1,104 @@
+{
+  "schema": "threemind.chat-restoration-reference/1",
+  "sources": {
+    "97d8592:adapters/threemind_adapters/outputs.py": {
+      "sha256": "a8c967b4204de14f460c9508a4bf7eea4a3ce70c81558b7adc5844674b3005b4",
+      "bytes": 29037
+    },
+    "97d8592:adapters/threemind_adapters/temporal.py": {
+      "sha256": "afde2b323886a39a9f0c5b78007963111eb83bef0076ccc387e2d5301790fcbc",
+      "bytes": 27452
+    },
+    "0c5e64a:legacy/ui/src/Lab.tsx": {
+      "sha256": "90ac189e4c82dbfae633d083cdda0a377b581e39292e40a92621c3c619e0068d",
+      "bytes": 245431
+    },
+    "0c5e64a:legacy/ui/src/MediaControls.tsx": {
+      "sha256": "89d530075fe1f9d71d89cdd6b3b6a09aa520c2fe5b04c75354f20efcd25b3844",
+      "bytes": 35515
+    },
+    "0c5e64a:legacy/ui/src/styles.css": {
+      "sha256": "f4e8f03d98cc59d30fc60d74427f069fa0a64176ceca768288b7f07a707a58b9",
+      "bytes": 58704
+    },
+    "db4e0a4:src/threemind_runtime/chat_readout.py": {
+      "sha256": "b5c91e7b8db8a27daa165b360f66c5fbae60f8eb73e0e8c3fe2c13dcdd806432",
+      "bytes": 1216
+    },
+    "db4e0a4:threemind-ui/src/v2/conversation.tsx": {
+      "sha256": "739708f0521cef50f11cd9704bd01c5fa085ef2cfdbc559b9524fe81bb22d557",
+      "bytes": 15283
+    }
+  },
+  "nodes": [
+    {
+      "id": 9,
+      "activation": 0.2,
+      "direct_touch": 0.5,
+      "associative_touch": 0,
+      "stability": 0.1
+    },
+    {
+      "id": 3,
+      "activation": 0.8,
+      "direct_touch": 0.1,
+      "associative_touch": 0.1,
+      "stability": 0.1
+    },
+    {
+      "id": 7,
+      "activation": 0.8,
+      "direct_touch": 0.1,
+      "associative_touch": 0.2,
+      "stability": 0.1
+    }
+  ],
+  "labels": {
+    "3": "松子",
+    "7": "甲",
+    "9": "松子"
+  },
+  "cases": [
+    {
+      "sort_by_activation": true,
+      "node_ids": [
+        7,
+        3,
+        9
+      ],
+      "text": "甲 · 松子"
+    },
+    {
+      "sort_by_activation": false,
+      "node_ids": [
+        3,
+        7,
+        9
+      ],
+      "text": "松子 · 甲"
+    }
+  ],
+  "temporal": {
+    "default_display_items": 7,
+    "default_ranking": "composite",
+    "consider_activation_strength": true
+  },
+  "interaction": [
+    "one chronological conversation",
+    "user right, readers left",
+    "readable text first",
+    "anonymous identity and node IDs secondary",
+    "temporal interval and classification",
+    "media toolbar before textarea",
+    "intensity and send below textarea",
+    "bottom pin respects upward reading"
+  ],
+  "approved_new_behavior": [
+    "complete raw evidence retained",
+    "timestamp delivery",
+    "exact envelope provenance",
+    "successful send clears; failure retains draft",
+    "IME guard",
+    "bounded virtual history"
+  ]
+}

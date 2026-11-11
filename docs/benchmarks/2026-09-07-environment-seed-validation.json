@@ -1,0 +1,77 @@
+{
+  "schema": "threemind.validation/1",
+  "date": "2026-09-07",
+  "stage": "F2a independent environment randomization",
+  "source_base": "5a5f0dd",
+  "database_schema": 32,
+  "contracts": {
+    "core": "causal/7",
+    "state": "state/5",
+    "profile": "profile/5",
+    "birth": "threemind.birth/1",
+    "parameters": 420
+  },
+  "validation": {
+    "backend": {
+      "passed": 43,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 79.84
+    },
+    "browser_regression": {
+      "passed": 5
+    },
+    "browser_final": {
+      "passed": 1,
+      "seconds": 26.1
+    },
+    "build": "passed; existing large chunk warnings remain",
+    "ruff": "passed",
+    "legacy_fields": 55,
+    "translations": {
+      "catalogue": 3716,
+      "literalReferences": 2854,
+      "dynamicReferences": 109,
+      "metadata": {
+        "parameters": 420,
+        "adapters": 23,
+        "commands": 10,
+        "texts": 715
+      },
+      "duplicates": [],
+      "invalidPlaceholders": [],
+      "missing": [],
+      "remainingDirectDisplayLiterals": {}
+    }
+  },
+  "evidence": {
+    "fixture": "tests_v2/fixtures/environment-seed-legacy.json",
+    "screenshot": "docs/images/v2/environment-seed-configuration.png",
+    "local_logs": {
+      "backend": ".work/environment-seed-target-delivery.log",
+      "browser_regression": ".work/environment-seed-browser-1.log",
+      "browser_final": ".work/environment-seed-browser-delivery.log",
+      "build": ".work/environment-seed-build-delivery.log",
+      "ruff": ".work/environment-seed-ruff-delivery.log",
+      "legacy": ".work/environment-seed-legacy.log"
+    }
+  },
+  "verified_boundaries": [
+    "Frozen prechange default input and physical-state hashes match for MuJoCo 3.12.0 and the synthetic fixture.",
+    "Environment randomization preserves sensory namespaces and actuator mapping.",
+    "Explicit seed restores physical state, synthetic RNG, body filters and native/reference Core state.",
+    "Inherited children may vary the environment while preserving the source identity and source checkpoint.",
+    "Paused worker continuation matches an uninterrupted sibling.",
+    "Immutable seeds are validated in both graphical/JSON flows; unused environment seeds do not prevent switching to manual input.",
+    "Old workers cannot claim new protocols, including explicit null; older stored protocols remain eligible.",
+    "Fresh schema, schema-15 upgrade and the actual workstation schema-32 migration passed."
+  ],
+  "corrected_findings": [
+    "Initial tests exposed an inactive interoception deadline being changed during restore; preserving it restored equality without changing active sensor delivery."
+  ],
+  "not_claimed": [
+    "No new consciousness or evolutionary research conclusion.",
+    "Automatic multigeneration selection and customizable ecological worlds remain under implementation.",
+    "The Docker validation image has not been rebuilt for this phase."
+  ]
+}

@@ -1,0 +1,928 @@
+{
+  "schema": "threemind.robot-assets/1",
+  "repository": "https://github.com/google-deepmind/mujoco_menagerie",
+  "revision": "4d038b3feae26ec82b46a4d586379114012a8ac7",
+  "profiles": {
+    "g1": {
+      "folder": "unitree_g1",
+      "category": "humanoid",
+      "endpoint": "pelvis",
+      "modes": [
+        "torque",
+        "position",
+        "velocity",
+        "skill"
+      ],
+      "entry": "scene.xml",
+      "files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1537,
+          "git_blob": "62637c8d1416c57ef1aafdf0d4867502e96b9164"
+        },
+        {
+          "path": "README.md",
+          "bytes": 2202,
+          "git_blob": "a169cb588dc9dd7eedbbba1db47188e1ccb334b7"
+        },
+        {
+          "path": "assets/head_link.STL",
+          "bytes": 932784,
+          "git_blob": "2ee5fba15de3ccd4c31774bc7a66de7aeefab770"
+        },
+        {
+          "path": "assets/left_ankle_pitch_link.STL",
+          "bytes": 71184,
+          "git_blob": "69de8490184afc698f633e34bb74e65351bd4689"
+        },
+        {
+          "path": "assets/left_ankle_roll_link.STL",
+          "bytes": 653384,
+          "git_blob": "8864e9f98103190883d1ba027aba5469925f2bca"
+        },
+        {
+          "path": "assets/left_elbow_link.STL",
+          "bytes": 88784,
+          "git_blob": "1a96d99ba469960173129084ab6dd3bf8a732a71"
+        },
+        {
+          "path": "assets/left_hand_index_0_link.STL",
+          "bytes": 475984,
+          "git_blob": "8069369afd690192ef592cbe502082ebb889fd38"
+        },
+        {
+          "path": "assets/left_hand_index_1_link.STL",
+          "bytes": 1521784,
+          "git_blob": "89d231d7e896a8ca5955a692980aa7d4a83d8905"
+        },
+        {
+          "path": "assets/left_hand_middle_0_link.STL",
+          "bytes": 475984,
+          "git_blob": "8069369afd690192ef592cbe502082ebb889fd38"
+        },
+        {
+          "path": "assets/left_hand_middle_1_link.STL",
+          "bytes": 1521784,
+          "git_blob": "89d231d7e896a8ca5955a692980aa7d4a83d8905"
+        },
+        {
+          "path": "assets/left_hand_palm_link.STL",
+          "bytes": 2140184,
+          "git_blob": "7d595ed8fb2f20363c4b20eeb9e5b8f564c52191"
+        },
+        {
+          "path": "assets/left_hand_thumb_0_link.STL",
+          "bytes": 8884,
+          "git_blob": "3028bb4d6e1ae3d30d2504259c08e4106bbacf63"
+        },
+        {
+          "path": "assets/left_hand_thumb_1_link.STL",
+          "bytes": 475984,
+          "git_blob": "d1c080c86e1d11fb0c8e7e58afc57863acc78280"
+        },
+        {
+          "path": "assets/left_hand_thumb_2_link.STL",
+          "bytes": 1521784,
+          "git_blob": "8b32e966348f646fe4e39fe929a10c6d2c766579"
+        },
+        {
+          "path": "assets/left_hip_pitch_link.STL",
+          "bytes": 181684,
+          "git_blob": "5b751c767ecf03b29c707b19f1faf5367e8d33d2"
+        },
+        {
+          "path": "assets/left_hip_roll_link.STL",
+          "bytes": 192184,
+          "git_blob": "778437ffe61731915fa4cb7cf2390e9cbe738c43"
+        },
+        {
+          "path": "assets/left_hip_yaw_link.STL",
+          "bytes": 296284,
+          "git_blob": "383093ab96ed3a099ab79f5d6ed144fc0b7067a9"
+        },
+        {
+          "path": "assets/left_knee_link.STL",
+          "bytes": 854884,
+          "git_blob": "f2e98e54e8f1980eb62ad25c7a838044c23bbadf"
+        },
+        {
+          "path": "assets/left_rubber_hand.STL",
+          "bytes": 2287484,
+          "git_blob": "c44830f1fd519ee28750cad04d7d0adb209c265f"
+        },
+        {
+          "path": "assets/left_shoulder_pitch_link.STL",
+          "bytes": 176784,
+          "git_blob": "e698311fb12d3f22f018b668c40dab667c39b8d3"
+        },
+        {
+          "path": "assets/left_shoulder_roll_link.STL",
+          "bytes": 400284,
+          "git_blob": "80bca84aca41137f8270fb35e263dcc5d9658e43"
+        },
+        {
+          "path": "assets/left_shoulder_yaw_link.STL",
+          "bytes": 249184,
+          "git_blob": "281e699055ffafe094f52a440547eb4b64f83bfa"
+        },
+        {
+          "path": "assets/left_wrist_pitch_link.STL",
+          "bytes": 85984,
+          "git_blob": "82cc224a8e41251d879502f9809e31d0988ec7f9"
+        },
+        {
+          "path": "assets/left_wrist_roll_link.STL",
+          "bytes": 356184,
+          "git_blob": "f3c263a7ab3fc1e902bf2513064d4bc666c6b59f"
+        },
+        {
+          "path": "assets/left_wrist_yaw_link.STL",
+          "bytes": 318684,
+          "git_blob": "31be4fd45fa18987b35b3386fdce2ce98c798774"
+        },
+        {
+          "path": "assets/logo_link.STL",
+          "bytes": 243384,
+          "git_blob": "e9792098504b64b359fbffa983373e5e6fa1b50a"
+        },
+        {
+          "path": "assets/pelvis.STL",
+          "bytes": 1060884,
+          "git_blob": "691a779b9c9f4c97f48eaa9edf9eb336ca3b4411"
+        },
+        {
+          "path": "assets/pelvis_contour_link.STL",
+          "bytes": 1805184,
+          "git_blob": "42434339abf5a0a3816f890389e3e61af3b1e03c"
+        },
+        {
+          "path": "assets/right_ankle_pitch_link.STL",
+          "bytes": 71184,
+          "git_blob": "e77d8a2fe1e5d56fac049833d254d6ffa4f6b350"
+        },
+        {
+          "path": "assets/right_ankle_roll_link.STL",
+          "bytes": 653784,
+          "git_blob": "d4261dd7ccf39dd9c54cad37c1982f1d50e6fccc"
+        },
+        {
+          "path": "assets/right_elbow_link.STL",
+          "bytes": 88784,
+          "git_blob": "f259e3812efb9985d6463c04d3e8a4b53793a699"
+        },
+        {
+          "path": "assets/right_hand_index_0_link.STL",
+          "bytes": 475984,
+          "git_blob": "f87ad3212b5d52b40d8017e5cf7fc3caf78e51e4"
+        },
+        {
+          "path": "assets/right_hand_index_1_link.STL",
+          "bytes": 1521784,
+          "git_blob": "6dea51ad93c8a64ec9951f4914fa16f749ea176c"
+        },
+        {
+          "path": "assets/right_hand_middle_0_link.STL",
+          "bytes": 475984,
+          "git_blob": "f87ad3212b5d52b40d8017e5cf7fc3caf78e51e4"
+        },
+        {
+          "path": "assets/right_hand_middle_1_link.STL",
+          "bytes": 1521784,
+          "git_blob": "6dea51ad93c8a64ec9951f4914fa16f749ea176c"
+        },
+        {
+          "path": "assets/right_hand_palm_link.STL",
+          "bytes": 2140184,
+          "git_blob": "5ae00a783df3e5744ebce98ab13f9f3591848e7a"
+        },
+        {
+          "path": "assets/right_hand_thumb_0_link.STL",
+          "bytes": 8884,
+          "git_blob": "1cae7f18e16605cb9d6b1d1a0cf6e5c5c360a344"
+        },
+        {
+          "path": "assets/right_hand_thumb_1_link.STL",
+          "bytes": 475984,
+          "git_blob": "c141fbf5a61744444b4a6b70d5b8fe947ff167ae"
+        },
+        {
+          "path": "assets/right_hand_thumb_2_link.STL",
+          "bytes": 1521784,
+          "git_blob": "e942923c50993a56cfeb29040066b1da1f9d5770"
+        },
+        {
+          "path": "assets/right_hip_pitch_link.STL",
+          "bytes": 181284,
+          "git_blob": "998a0a0f5c248b217cf82c5088d6d365d9654ecd"
+        },
+        {
+          "path": "assets/right_hip_roll_link.STL",
+          "bytes": 192684,
+          "git_blob": "47b2eebdd36c7289679eebb9583c65a15514e194"
+        },
+        {
+          "path": "assets/right_hip_yaw_link.STL",
+          "bytes": 296284,
+          "git_blob": "371856427c7cc31ae7463c83f00ef6652c72d672"
+        },
+        {
+          "path": "assets/right_knee_link.STL",
+          "bytes": 852284,
+          "git_blob": "76d21a3d81e4e34520c5d6b3f28d7e43c1874364"
+        },
+        {
+          "path": "assets/right_rubber_hand.STL",
+          "bytes": 2192684,
+          "git_blob": "0aacffbb8168f0bb588f8cba3f37f9e2c6e0421a"
+        },
+        {
+          "path": "assets/right_shoulder_pitch_link.STL",
+          "bytes": 176784,
+          "git_blob": "3f5b4ed47ade68e83f617ef3fd65cb810e9b0e07"
+        },
+        {
+          "path": "assets/right_shoulder_roll_link.STL",
+          "bytes": 401884,
+          "git_blob": "179d61753d48b3a55165b81ded2c14e84deb81c2"
+        },
+        {
+          "path": "assets/right_shoulder_yaw_link.STL",
+          "bytes": 249984,
+          "git_blob": "2ba6076a8853edac5e3e17cffd2c256318e88d92"
+        },
+        {
+          "path": "assets/right_wrist_pitch_link.STL",
+          "bytes": 79584,
+          "git_blob": "da194543c40df9d492abb0553c06cc614a78caae"
+        },
+        {
+          "path": "assets/right_wrist_roll_link.STL",
+          "bytes": 356084,
+          "git_blob": "26868d2282b7e38c2ba40e00968d2c92c421fbd2"
+        },
+        {
+          "path": "assets/right_wrist_yaw_link.STL",
+          "bytes": 341484,
+          "git_blob": "d788902867014c5984e6029fce822508579f73dc"
+        },
+        {
+          "path": "assets/torso_link_rev_1_0.STL",
+          "bytes": 2570584,
+          "git_blob": "8a759a709750ad97e1f372db0ebbff246daedcc1"
+        },
+        {
+          "path": "assets/waist_roll_link_rev_1_0.STL",
+          "bytes": 85884,
+          "git_blob": "a64f330c592582dc31cdf38f4d08cfff06681c5f"
+        },
+        {
+          "path": "assets/waist_yaw_link_rev_1_0.STL",
+          "bytes": 619984,
+          "git_blob": "0fabb63d37627cb77f64c5d2a46cf25d4acc66fc"
+        },
+        {
+          "path": "g1.png",
+          "bytes": 1781215,
+          "git_blob": "8c4dde8b44175ab0e62e35c9cd82a5879a4f9330"
+        },
+        {
+          "path": "g1.xml",
+          "bytes": 23446,
+          "git_blob": "eac40717db423cbdcc03f1fbbbbff37425552396"
+        },
+        {
+          "path": "g1_mjx.xml",
+          "bytes": 27445,
+          "git_blob": "2b6a9d8519c8924812b832e485e29db5b0a7e7b4"
+        },
+        {
+          "path": "g1_mjx_colliders.png",
+          "bytes": 14340,
+          "git_blob": "90040b840e53cd4881b84ff6e92b19a711330227"
+        },
+        {
+          "path": "g1_with_hands.png",
+          "bytes": 1786643,
+          "git_blob": "27bdf3ba72607924d414df9210f4e50d08c14794"
+        },
+        {
+          "path": "g1_with_hands.xml",
+          "bytes": 35285,
+          "git_blob": "4f3f71e25ecced4b21120091ec72e3c431b0a325"
+        },
+        {
+          "path": "scene.xml",
+          "bytes": 774,
+          "git_blob": "941b5492c881db8d13f10bc816c80d032537cee2"
+        },
+        {
+          "path": "scene_mjx.xml",
+          "bytes": 7423,
+          "git_blob": "aae62d45770280edffb84b8b0fa661f9ac88cd9d"
+        },
+        {
+          "path": "scene_with_hands.xml",
+          "bytes": 795,
+          "git_blob": "c09e24a250bacb26b3bdbf8bce9d6a23b6c989a5"
+        }
+      ]
+    },
+    "piper": {
+      "folder": "agilex_piper",
+      "category": "arm",
+      "endpoint": "link6",
+      "modes": [
+        "torque",
+        "position",
+        "velocity",
+        "skill"
+      ],
+      "entry": "scene.xml",
+      "files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1065,
+          "git_blob": "1ace5a240f199be4ae0567bed99051213893345c"
+        },
+        {
+          "path": "README.md",
+          "bytes": 1681,
+          "git_blob": "7a300b81e0556b580ed4e4942bf0aaa9c90944a8"
+        },
+        {
+          "path": "assets/base_link.stl",
+          "bytes": 535084,
+          "git_blob": "f9ad9da087272dd1916f7f3f872d5236f6a0c0fd"
+        },
+        {
+          "path": "assets/link1.stl",
+          "bytes": 938084,
+          "git_blob": "f29ff2628b6a8bf620b4f9fb7039df790749154d"
+        },
+        {
+          "path": "assets/link2.stl",
+          "bytes": 3595884,
+          "git_blob": "2c3ab29ec2ebba230d78d6a708c880dfa44761fb"
+        },
+        {
+          "path": "assets/link2_0.obj",
+          "bytes": 3388066,
+          "git_blob": "d3289a5d714821b5ccb728934161133b96e250b1"
+        },
+        {
+          "path": "assets/link2_1.obj",
+          "bytes": 100403,
+          "git_blob": "923fec63aed4991faddda4961f91e35142e20d0d"
+        },
+        {
+          "path": "assets/link2_10.obj",
+          "bytes": 29779,
+          "git_blob": "5d1f265a4273d707666caeb846db81689380d35e"
+        },
+        {
+          "path": "assets/link2_11.obj",
+          "bytes": 58387,
+          "git_blob": "b34ad25291e33e2c66dd545c8fed0d9306109f62"
+        },
+        {
+          "path": "assets/link2_12.obj",
+          "bytes": 55034,
+          "git_blob": "58389b5bfc3e5f4f1d4a185ee4d93acf1271cb2e"
+        },
+        {
+          "path": "assets/link2_13.obj",
+          "bytes": 29671,
+          "git_blob": "f494b675aeac5e126beaa8e8f1a204eb8cefdc5e"
+        },
+        {
+          "path": "assets/link2_14.obj",
+          "bytes": 59190,
+          "git_blob": "30dbf5b48b5452adb6f1c5a3193c8f930ea3ef4b"
+        },
+        {
+          "path": "assets/link2_15.obj",
+          "bytes": 29439,
+          "git_blob": "ed8de528fe22872d31129c4b2215b8da3b4868c9"
+        },
+        {
+          "path": "assets/link2_16.obj",
+          "bytes": 53557,
+          "git_blob": "5a51f30391e4af7da1d4d81fc7ee874f2015526e"
+        },
+        {
+          "path": "assets/link2_17.obj",
+          "bytes": 29281,
+          "git_blob": "103a6fcdef56fd3cf0d90c29aed7349cace632b3"
+        },
+        {
+          "path": "assets/link2_18.obj",
+          "bytes": 23997,
+          "git_blob": "1dba62daa44ce61a14ef616370fe7f00fa0f19b6"
+        },
+        {
+          "path": "assets/link2_19.obj",
+          "bytes": 32457,
+          "git_blob": "33f99f9d1ffb48de04dbea173dc4a8bddb7988a7"
+        },
+        {
+          "path": "assets/link2_2.obj",
+          "bytes": 99885,
+          "git_blob": "cd470a8505322c136ef7a9f5c195119b99a7c789"
+        },
+        {
+          "path": "assets/link2_20.obj",
+          "bytes": 43817,
+          "git_blob": "c462d02088d2aa5a993395720697c94edc53653a"
+        },
+        {
+          "path": "assets/link2_21.obj",
+          "bytes": 39258,
+          "git_blob": "4217db71c544c9726bffa5887a7442103d25d098"
+        },
+        {
+          "path": "assets/link2_22.obj",
+          "bytes": 31373,
+          "git_blob": "a5ed5a665bc93502e130c8b4a0d334f1bfde49c0"
+        },
+        {
+          "path": "assets/link2_23.obj",
+          "bytes": 43902,
+          "git_blob": "27a226ce929f179c4c503016125d04cc4206ab4d"
+        },
+        {
+          "path": "assets/link2_24.obj",
+          "bytes": 39526,
+          "git_blob": "13ce81f89b79b92a7c5c5127348ef8433748e625"
+        },
+        {
+          "path": "assets/link2_25.obj",
+          "bytes": 24111,
+          "git_blob": "5f5d981b21daf475ea0e2145c9dd632922c59e78"
+        },
+        {
+          "path": "assets/link2_26.obj",
+          "bytes": 51974,
+          "git_blob": "1e7c9f811c5f74c988fccf06500965b04164d81e"
+        },
+        {
+          "path": "assets/link2_27.obj",
+          "bytes": 24075,
+          "git_blob": "4fff84e8cb5391b3f1eac188faa5c453165bf5d2"
+        },
+        {
+          "path": "assets/link2_28.obj",
+          "bytes": 12884,
+          "git_blob": "eea332c3048c9f2b801ef8bde9fcd13129d89ad3"
+        },
+        {
+          "path": "assets/link2_29.obj",
+          "bytes": 25090,
+          "git_blob": "3bf7eb67f1555ee2fd70927ce1aec38fd79f4d4d"
+        },
+        {
+          "path": "assets/link2_3.obj",
+          "bytes": 282937,
+          "git_blob": "3fe63f019200cac9860ab6f34a1d6e7a12f74983"
+        },
+        {
+          "path": "assets/link2_30.obj",
+          "bytes": 12280,
+          "git_blob": "0ff2accf7f221afaa35618c3557b8b6d366414d5"
+        },
+        {
+          "path": "assets/link2_31.obj",
+          "bytes": 4621268,
+          "git_blob": "103a8ecfaa09c4dd0385dd53c223d26f5df5b584"
+        },
+        {
+          "path": "assets/link2_4.obj",
+          "bytes": 274531,
+          "git_blob": "fc0f84fdb99707ede0fb74db51d47dea0fa3f59c"
+        },
+        {
+          "path": "assets/link2_5.obj",
+          "bytes": 29647,
+          "git_blob": "5f54e060b30ea841f9946e99a0a53931f8bebf55"
+        },
+        {
+          "path": "assets/link2_6.obj",
+          "bytes": 30085,
+          "git_blob": "6029251f4eb245c92d025307927b109eda920f26"
+        },
+        {
+          "path": "assets/link2_7.obj",
+          "bytes": 52047,
+          "git_blob": "149961f1003ea390d05ccab73875367d28e0fe39"
+        },
+        {
+          "path": "assets/link2_8.obj",
+          "bytes": 53837,
+          "git_blob": "0dc54a211e59374fc5372b18ecf0da8ed602f78f"
+        },
+        {
+          "path": "assets/link2_9.obj",
+          "bytes": 55512,
+          "git_blob": "8b314083f9159cd2479a3d289853cc0e4121fed7"
+        },
+        {
+          "path": "assets/link2_gray.stl",
+          "bytes": 41284,
+          "git_blob": "923708414163c51c1c9489c7fa709335d61af4c9"
+        },
+        {
+          "path": "assets/link2_red.stl",
+          "bytes": 191084,
+          "git_blob": "550716b85041a917e8b2cde6f2fadee9b7341804"
+        },
+        {
+          "path": "assets/link3.stl",
+          "bytes": 2703584,
+          "git_blob": "56c2bf45abd6d8ce6d5bfe6d732a98a04d3d4126"
+        },
+        {
+          "path": "assets/link3_0.obj",
+          "bytes": 314533,
+          "git_blob": "26a21dbb104b99f4fc1c7b569d624ae256f96c0c"
+        },
+        {
+          "path": "assets/link3_1.obj",
+          "bytes": 4236,
+          "git_blob": "12dc2bf84617e9dd06e6dcb1061c6160906c7bd1"
+        },
+        {
+          "path": "assets/link3_10.obj",
+          "bytes": 11974,
+          "git_blob": "ce51455b164f4854c09887eafdabe368b9221817"
+        },
+        {
+          "path": "assets/link3_11.obj",
+          "bytes": 20406,
+          "git_blob": "25aaa35997a5c066b055b8d855e89cbe9073e456"
+        },
+        {
+          "path": "assets/link3_12.obj",
+          "bytes": 24374,
+          "git_blob": "d30cf3dcf9192818ab056ff4f96d504056becad8"
+        },
+        {
+          "path": "assets/link3_13.obj",
+          "bytes": 28094,
+          "git_blob": "5b68eef9f81b1f0aff2745ccc22f5f49f33f7476"
+        },
+        {
+          "path": "assets/link3_14.obj",
+          "bytes": 2236465,
+          "git_blob": "8c74e8300129f0ad948dbc38a5d0bfe832eef268"
+        },
+        {
+          "path": "assets/link3_15.obj",
+          "bytes": 361248,
+          "git_blob": "49255a6b82be626ff79ee6350b193819c74398e4"
+        },
+        {
+          "path": "assets/link3_16.obj",
+          "bytes": 410181,
+          "git_blob": "442d11df89c7be63a34c4cc2e96e847c26478d3e"
+        },
+        {
+          "path": "assets/link3_17.obj",
+          "bytes": 328947,
+          "git_blob": "2df4f49e59563cab88f2230c110de9d2ddbb0ecf"
+        },
+        {
+          "path": "assets/link3_18.obj",
+          "bytes": 485677,
+          "git_blob": "5689ea1e2193bd8794ea24d0c121ae3ee4c6af00"
+        },
+        {
+          "path": "assets/link3_19.obj",
+          "bytes": 441403,
+          "git_blob": "67ec3c91f88360c7391ea0c5535c0706d44adfc5"
+        },
+        {
+          "path": "assets/link3_2.obj",
+          "bytes": 12776,
+          "git_blob": "87eca49d38efbcd48e8ea21fe5b649056fbd86c7"
+        },
+        {
+          "path": "assets/link3_20.obj",
+          "bytes": 371433,
+          "git_blob": "1bf067c1f87416008228d6f7bf5f9cad80bfa00b"
+        },
+        {
+          "path": "assets/link3_21.obj",
+          "bytes": 366150,
+          "git_blob": "ce8914e49cc392267283972b4982980866edde22"
+        },
+        {
+          "path": "assets/link3_22.obj",
+          "bytes": 406666,
+          "git_blob": "0b553507026cdd21e401bded74b9e5340dbb486d"
+        },
+        {
+          "path": "assets/link3_23.obj",
+          "bytes": 372094,
+          "git_blob": "dca1d8ec4609f96890448e5af82530fe6e711264"
+        },
+        {
+          "path": "assets/link3_24.obj",
+          "bytes": 27673,
+          "git_blob": "a7b1c526939b07a27e32bde3d747e07763e01ce3"
+        },
+        {
+          "path": "assets/link3_25.obj",
+          "bytes": 27968,
+          "git_blob": "2bb433399cbb7aecbfa5746f92324eb9ce3cf423"
+        },
+        {
+          "path": "assets/link3_26.obj",
+          "bytes": 28048,
+          "git_blob": "973660334f4e1c00b1786d174bed2cb728693fcf"
+        },
+        {
+          "path": "assets/link3_27.obj",
+          "bytes": 593047,
+          "git_blob": "f1617cdc13207ea4fc0cd77eb48f978b83726f11"
+        },
+        {
+          "path": "assets/link3_28.obj",
+          "bytes": 385831,
+          "git_blob": "8a9eec4ee3fd2bba28882bd09f11aaa1587402ef"
+        },
+        {
+          "path": "assets/link3_3.obj",
+          "bytes": 21158,
+          "git_blob": "ece273c010cac22ac7d5e3273d2a9ceedb28ca10"
+        },
+        {
+          "path": "assets/link3_4.obj",
+          "bytes": 24968,
+          "git_blob": "099a0f5a01acc9d266ecbf05dfcc0564a453449e"
+        },
+        {
+          "path": "assets/link3_5.obj",
+          "bytes": 29032,
+          "git_blob": "6c7a54a2ffef1d70d40d4be9e363544f6f39638f"
+        },
+        {
+          "path": "assets/link3_7.obj",
+          "bytes": 306050,
+          "git_blob": "e3c5c7023959b0b7b2bd2f70525f5c868ed7273e"
+        },
+        {
+          "path": "assets/link3_8.obj",
+          "bytes": 18174,
+          "git_blob": "d866ac46cb06f0ebad304a28743c46ba50a8c768"
+        },
+        {
+          "path": "assets/link3_9.obj",
+          "bytes": 4134,
+          "git_blob": "1d73f7a9ff6e0c4d47e4ea8b316f17300d083dcb"
+        },
+        {
+          "path": "assets/link4.stl",
+          "bytes": 730484,
+          "git_blob": "6077b622cd7a06473ce703221106f5c5e731c6cb"
+        },
+        {
+          "path": "assets/link4_2.obj",
+          "bytes": 496498,
+          "git_blob": "154ec12b183273e25c0b67ad93dbbeac31883a8e"
+        },
+        {
+          "path": "assets/link4_3.obj",
+          "bytes": 389641,
+          "git_blob": "168ee256f67bb93935715444a92748b38f7fb009"
+        },
+        {
+          "path": "assets/link4_4.obj",
+          "bytes": 188047,
+          "git_blob": "dfa070074072cd2a1b8cbe639dc187cc274c0524"
+        },
+        {
+          "path": "assets/link4_5.obj",
+          "bytes": 390967,
+          "git_blob": "9f1236ec76ace4c351aa894f56582bd9c7933263"
+        },
+        {
+          "path": "assets/link4_6.obj",
+          "bytes": 315503,
+          "git_blob": "fa9a54d142a9738e001a967e8b4a1f1a0d03c0b5"
+        },
+        {
+          "path": "assets/link5.stl",
+          "bytes": 1147884,
+          "git_blob": "6b6f5ee6ea996a33b198ce3e0580b50d5a30696f"
+        },
+        {
+          "path": "assets/link5_2.obj",
+          "bytes": 313882,
+          "git_blob": "3f48e736b5ca589adff4f6497602c53a535668d9"
+        },
+        {
+          "path": "assets/link5_3.obj",
+          "bytes": 86793,
+          "git_blob": "74be807a5761be91dffea478f6e2154f1a5ffc52"
+        },
+        {
+          "path": "assets/link5_4.obj",
+          "bytes": 485245,
+          "git_blob": "341a3ecbcae8b2b3170c1721926abd83b1d33d6a"
+        },
+        {
+          "path": "assets/link5_5.obj",
+          "bytes": 237046,
+          "git_blob": "16605db3217caa8a9aae37cf6eb7b8e10ee7f529"
+        },
+        {
+          "path": "assets/link5_6.obj",
+          "bytes": 689622,
+          "git_blob": "d4a80c6ad6650e40cb1d62c95af10f0af3a44381"
+        },
+        {
+          "path": "assets/link5_7.obj",
+          "bytes": 1081203,
+          "git_blob": "750598d7e93a77819afab21bd7c94c7019a0a2ae"
+        },
+        {
+          "path": "assets/link5_8.obj",
+          "bytes": 335282,
+          "git_blob": "08975a4036619130951be09f8c0b5163f7a8dd8a"
+        },
+        {
+          "path": "assets/link6.stl",
+          "bytes": 671184,
+          "git_blob": "40e0d81827fb1f9ff69424d0328d355cf2c803a7"
+        },
+        {
+          "path": "assets/link7.stl",
+          "bytes": 91984,
+          "git_blob": "ef2a30ca89fe970588b4fdbfcf58e9ceb6b8565e"
+        },
+        {
+          "path": "assets/link8.stl",
+          "bytes": 91884,
+          "git_blob": "f8e75c1d7bc6e77b7cd2cc5d30ef773c88fc5e64"
+        },
+        {
+          "path": "assets/linke2_dark_gray.stl",
+          "bytes": 17284,
+          "git_blob": "2a33b3dac2dd03fb2e92e65e8a0b24500a8c478c"
+        },
+        {
+          "path": "piper.png",
+          "bytes": 1378578,
+          "git_blob": "1270421db3b4cb27dfc09dd8e27ac02fc4d9f738"
+        },
+        {
+          "path": "piper.xml",
+          "bytes": 14537,
+          "git_blob": "8b8962d805b519bc25f764316abf65bb3f6d8f37"
+        },
+        {
+          "path": "scene.xml",
+          "bytes": 819,
+          "git_blob": "3025eb80f088a9075e55561efa89a2929b5dfe2a"
+        }
+      ]
+    },
+    "so101": {
+      "folder": "robotstudio_so101",
+      "category": "arm",
+      "endpoint": "wrist",
+      "modes": [
+        "position",
+        "velocity",
+        "skill"
+      ],
+      "entry": "scene.xml",
+      "files": [
+        {
+          "path": "LICENSE",
+          "bytes": 11357,
+          "git_blob": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+        },
+        {
+          "path": "README.md",
+          "bytes": 1142,
+          "git_blob": "65129dba053c84d2ad384b1922cea46b119e9036"
+        },
+        {
+          "path": "assets/base_motor_holder_so101_v1.stl",
+          "bytes": 1877084,
+          "git_blob": "cac2b8dd98d3d8a6dcdf429b36aaa4b576d82041"
+        },
+        {
+          "path": "assets/base_so101_v2.stl",
+          "bytes": 471584,
+          "git_blob": "ed10aa61d1181f8001c908ee5cae5c4f970ba417"
+        },
+        {
+          "path": "assets/motor_holder_so101_base_v1.stl",
+          "bytes": 1129384,
+          "git_blob": "9eaf67243a5ffc2dacb3fbd026b4c0620adcdd66"
+        },
+        {
+          "path": "assets/motor_holder_so101_wrist_v1.stl",
+          "bytes": 1052184,
+          "git_blob": "d0aa18b15a9cd63f41fa4d48e82df7a3b618c75d"
+        },
+        {
+          "path": "assets/moving_jaw_so101_gripper_part0_v1.stl",
+          "bytes": 50684,
+          "git_blob": "d8dd83494b31952e2f52432bc9624e74bd241030"
+        },
+        {
+          "path": "assets/moving_jaw_so101_gripper_part1_v1.stl",
+          "bytes": 342684,
+          "git_blob": "ed758675140114dbab751f93ea7d40b8d27e4594"
+        },
+        {
+          "path": "assets/moving_jaw_so101_gripper_v1.stl",
+          "bytes": 690384,
+          "git_blob": "f5bd23f855f0d90f73d00abef90576d0c7120719"
+        },
+        {
+          "path": "assets/moving_jaw_so101_v1.stl",
+          "bytes": 1413584,
+          "git_blob": "7e8736686592072cf34c7f6e2e6e88f8a3ba60bb"
+        },
+        {
+          "path": "assets/rotation_pitch_so101_v1.stl",
+          "bytes": 883684,
+          "git_blob": "5c05dee570623f62c4ab7597d76c7bdea20eacea"
+        },
+        {
+          "path": "assets/sts3215_03a_no_horn_v1.stl",
+          "bytes": 865884,
+          "git_blob": "2a89597702f5ec6849b6b1b894c867b35b98ca42"
+        },
+        {
+          "path": "assets/sts3215_03a_v1.stl",
+          "bytes": 954084,
+          "git_blob": "fe05403dbfac7a26822b8c8cd0fc3d5288a69fc8"
+        },
+        {
+          "path": "assets/under_arm_so101_v1.stl",
+          "bytes": 1975884,
+          "git_blob": "480e0583c8bb27ff9affefbebee72b784fb054c8"
+        },
+        {
+          "path": "assets/upper_arm_so101_v1.stl",
+          "bytes": 1303484,
+          "git_blob": "9c0f9b275a51f720476e529c92193f4f69d4784c"
+        },
+        {
+          "path": "assets/waveshare_mounting_plate_so101_v2.stl",
+          "bytes": 62784,
+          "git_blob": "4dba1f22b01ab9afef2466872fcb3e1efca89e38"
+        },
+        {
+          "path": "assets/wrist_roll_follower_so101_camera_mount.stl",
+          "bytes": 122884,
+          "git_blob": "dfe1ecc5e11eb79280c032148ad6ba68a21c431e"
+        },
+        {
+          "path": "assets/wrist_roll_follower_so101_gripper_part0_v1.stl",
+          "bytes": 73784,
+          "git_blob": "7a6bdae516080bd381758fb87cfa48beab3c96b9"
+        },
+        {
+          "path": "assets/wrist_roll_follower_so101_gripper_v1.stl",
+          "bytes": 741684,
+          "git_blob": "279308978e9d64d0bb231968d6169ce78aa0ebde"
+        },
+        {
+          "path": "assets/wrist_roll_follower_so101_v1.stl",
+          "bytes": 1439884,
+          "git_blob": "123ce374ad3efc240e4d7022f31314e59fe4b0c0"
+        },
+        {
+          "path": "assets/wrist_roll_pitch_so101_v2.stl",
+          "bytes": 2699784,
+          "git_blob": "ac5172a35e6da3e9fdea21e25803f23cc61e31f1"
+        },
+        {
+          "path": "scene.xml",
+          "bytes": 825,
+          "git_blob": "f6d8d5b119f0966a8c1139fa65277355b8474327"
+        },
+        {
+          "path": "scene_box.xml",
+          "bytes": 1469,
+          "git_blob": "f51dd3b7609d75c0a26d2735e924c140a15b72b1"
+        },
+        {
+          "path": "so101.png",
+          "bytes": 1010575,
+          "git_blob": "f9ac493bb3809531abe7f23ef7168d15315c2c23"
+        },
+        {
+          "path": "so101.xml",
+          "bytes": 17206,
+          "git_blob": "38bd905c819c8c6d755fecb6394d166944262cce"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-07",
+  "scope": "E2e fixed-revision publication, explicit evidence access, revocation and public reader",
+  "schema": 30,
+  "contracts": {"causal": 7, "state": 5, "profile": 5, "model_parameters": 419, "legacy_reviewed": 55, "legacy_pending": 0},
+  "full_regression": {"passed": 356, "failed": 1, "skipped": 0, "seconds": 627.65, "failure": "Version-15 reconstruction fixture did not remove the new share foreign key before dropping exports", "resolved_in_final_targeted_run": true},
+  "final_targeted": {"passed": 14, "seconds": 61.28, "files": ["test_report_shares.py", "test_report_exports.py", "test_research_operations.py"]},
+  "browser": {"combined_passed": 6, "combined_seconds": 48.2, "final_passed": 1, "final_seconds": 16.8, "browser": "Microsoft Edge", "widths": [1440, 390], "page_errors": 0, "private_api_requests_from_public_reader": 0},
+  "verified": [
+    "Completed fixed HTML export and expected SHA-256 required before explicit publication",
+    "Later document edits do not alter published title, revision or bytes",
+    "Body only by default; complete evidence ZIP requires separate explicit selection",
+    "Concurrent and lost-acknowledgement retries reuse the original publication",
+    "Project owner permission, CSRF, cross-project and anonymous API boundaries",
+    "Publisher disabled or downgraded, expired and revoked publications become unavailable",
+    "Publication references and artifact chunks cannot be modified or deleted",
+    "Public file stream releases the database connection before yielding to a slow reader",
+    "Corrupted export bytes are rejected without creating a share",
+    "Manual report referencing an AI record retains AI authorship indication",
+    "Sandboxed iframe, content hashes, no-store, no-referrer and noindex headers",
+    "Narrow HTML tables scroll without changing numeric precision"
+  ],
+  "limits": {"html_body_bytes": 33554432, "active_shares_per_project": 1000, "evidence_package_budget_bytes": 2147483648},
+  "checks": {"typescript_vite": "passed", "ruff": "passed", "translation_catalogue": 3643, "missing_translations": 0, "screenshots_reviewed": true},
+  "limitations": [
+    "Links are public to anyone holding the URL, not recipient-specific private authorization",
+    "Previously downloaded content cannot be recalled; downloads started before revocation may finish",
+    "No anonymous execution, untrusted worker or production capacity certification",
+    "The prior Docker acceptance image is pinned to 908595e; these changes require rebuilding that image"
+  ]
+}

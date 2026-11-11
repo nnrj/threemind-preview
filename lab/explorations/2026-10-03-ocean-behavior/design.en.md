@@ -1,0 +1,23 @@
+# E31: attribution of foraging, pursuit and escape
+
+Registered2026-10-03 after E30. Original evidence stays read-only. Keep continuous-memory/2, Ocean/3, mapping and all normal output timing/amplitude unchanged. The user authorizes controls, ablation, transplantation and environment changes.
+
+Active behavior is operationally defined as pre-contact movement that adjusts to an observable object's location and contributes to food/prey approach or threat avoidance. Consumption alone is insufficient. Sensory input does not disqualify internal contribution. Report responsiveness, experience benefit, internal pathway contribution and graft benefit separately, without changing existing autonomy criteria or claiming subjective experience.
+
+Select the four lowest-ID living individuals aged at least20s at200s from each of the two E30 Core worlds. Selection is independent of feeding performance. These eight donors remain nested within two training worlds. Retain individual body traits, receptor IDs and motor wiring.
+
+For each donor, use three exterior scenes: nutrient patch, weaker neighboring body and stronger neighboring body. Roles come from physical holding conditions, never labels delivered to Core. Opponents use repeatable1s random controls. Environmental, proprioceptive and contact inputs remain. A6s discovery scene on a separate bearing identifies at most128 pre-existing inbound edges to active nodes without recent direct input, ranked by activity and weight, plus a same-count weight/stability-matched control. Do not select regions by ablation success or transplant new edges learned in discovery. Evaluate two held-out opposite bearings for20s each.
+
+Awake arms: intact, target silence, matched silence and all-existing-edge silence. Motor controls: actual intact actions from the opposite scene, unchanged in amplitude/continuity but disconnected from current feedback;1s random output; passive drift. All motor work still costs energy. No matching restriction is placed on the intact group.
+
+Persistent-history arms: experienced birth, channel-aligned blank birth, target graft and matched graft. Clear instantaneous donor activity, provide equal finite reserves, retain ordinary learning, forgetting, inhibition and local energy. A random controller ignores Core output, so transplanting into it cannot affect behavior. Compare a grafted blank consciousness controlling an equivalent body against both random and ungrafted Core control; do not count controller replacement as a graft effect.
+
+Primary process windows:0–0.5,0.5–2,2–6,6–20s, including pre-contact approach/avoidance, directional changes when the target changes sides, first contact/capture/release, food intake, captures, escape and finite energy. Analyze drift separately. Failure to contact, death and unavailable targets are separate outcomes. Analyst target coordinates never enter Core. Neither circling nor stillness is preclassified as wrong. Report per-donor effects; simulation frames are not independent samples.
+
+Then compare experienced/blank/target-grafted/matched-grafted births for90s in two unseen food distributions. Original focal individual is primary; descendants are separate. Reproduction and body mutation remain available. A single founding body isolates performance, not population competition.
+
+If budget permits, two original200s shared-world copies supply the first prospectively triggered food/weak-neighbor/strong-neighbor approaches, at most one of each per world. Select before outcomes using distance and past activity; save awake world and compare intact/target/matched copies for20s. Retain untriggered and inapplicable cases.
+
+Strong learned/internal attribution needs agreement across experienced-versus-blank benefit, selective ablation loss beyond matched ablation, selective graft benefit beyond matched graft and held-out environments. Partial agreement warrants a partial conclusion, retaining genuine causal effects. No new consciousness threshold is introduced.
+
+Budgets:6 aggregate simulation-process hours, preferably one worker,4GiB process RSS;3GiB evidence stops expansion,6GiB hard including archive/database; leave2GiB RAM,C5GiB/E15GiB. Account starts13%;+8percentage points stops expansion,+12 stops new simulation, including shared-account use. Preserve failed attempts. No repeated whole-evidence hashing/restoration without an anomaly. Save at horizons rather than declaring death. No old data deletion; no3D/fusion/sharing/intensity-mechanism replacement. Publish bilingual reports, notes, receipts and process evidence. Original Chinese request is preserved in design.zh.md; this document is its experimental interpretation, not a verbatim translation.

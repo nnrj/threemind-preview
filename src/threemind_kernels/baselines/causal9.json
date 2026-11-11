@@ -1,0 +1,70 @@
+{
+  "schema": "threemind.kernel-baseline/1",
+  "revision": "b53fba1e6bc3e5a865f028ff323083cd2c550997",
+  "kernel_id": "threemind.causal/9",
+  "state_schema": "threemind.state/6",
+  "hypotheses": "docs/zh/consciousness-hypothesis.md",
+  "sources": [
+    {
+      "path": "src/threemind_core/spec.py",
+      "sha256": "e44cf161ff954afa149e3502cd6bf9ea68663ce805b6c4954c632c23abe21b78"
+    },
+    {
+      "path": "src/threemind_core/resources.py",
+      "sha256": "75cb0c23ae291281782fc2fdb8f9c6d8bdcdeab67af08b02515bebfb5dee35a4"
+    },
+    {
+      "path": "src/threemind_core/energy.py",
+      "sha256": "1e6631674e7713bfe31427b8b4354a48fcfd5b2cbbd2a56f82f043bb187b8ec7"
+    },
+    {
+      "path": "src/threemind_core/attention.py",
+      "sha256": "386f47720e8e590f4d5749eca05581026eb84cd191220db554c9230d2526234a"
+    },
+    {
+      "path": "src/threemind_core/spatial.py",
+      "sha256": "e57fc876000e4124910dd3e5a1480e79b5c88150f5227d79d9e75fdd9338635c"
+    },
+    {
+      "path": "src/threemind_core/restoration.py",
+      "sha256": "66050853a73f60e81bea2802c792ef6806299a9625de3e1c7eced2dc85f72120"
+    },
+    {
+      "path": "src/threemind_core/engine.py",
+      "sha256": "356f502068f1aab9161818c92dbb422357564437a1b34844ea78c79128289367"
+    },
+    {
+      "path": "docs/zh/consciousness-hypothesis.md",
+      "sha256": "be8830dceecab4e24c90116d492893fadf2bb7c3dfd88336dc1a172ab1434bd5"
+    },
+    {
+      "path": "docs/en/consciousness-hypothesis.md",
+      "sha256": "86ad58e59927f8545e865156b5c02a9fac255aea15e000588f1bf288426d702d"
+    },
+    {
+      "path": "crates/threemind-core/src/lib.rs",
+      "sha256": "62b8c8e66edda1d868f9ae865e6be705d3057896a038314ff3fc9b10fa0adece"
+    },
+    {
+      "path": "crates/threemind-core/src/restoration.rs",
+      "sha256": "e772a02ebbaa035c9ef515ca784751269aba957c0491014d5448bb71ecb53c3a"
+    },
+    {
+      "path": "crates/threemind-core/src/attention.rs",
+      "sha256": "a31e31781ca32ed1481f40669b22bc118899962daee2b0a30bc545a4dcfcdae4"
+    },
+    {
+      "path": "crates/threemind-core/src/energy.rs",
+      "sha256": "3e6a30d415e3678e3cb2d5f8d404292abb0c6370b57cc33aaac02ff75bd5141a"
+    },
+    {
+      "path": "crates/threemind-core/src/resources.rs",
+      "sha256": "e5236deed1809215dc1bec2cbdf03ed527d0c352d9ba467a1b0abb478db45eca"
+    },
+    {
+      "path": "crates/threemind-core/src/spatial.rs",
+      "sha256": "b2758cd8095fe21c9e537cc1808a0daeebe8b41b942352f998a93e60240a12a2"
+    }
+  ],
+  "witness_sha256": "855eff74ef62adfeba81710d3d82ec0e2f643db45f2780c2792c3e7b44466e31"
+}

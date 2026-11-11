@@ -1,0 +1,146 @@
+{
+  "file": "E:\\WORKSPACE\\AgentWork\\threemind\\.work\\language-replay-20261005\\language-replay.json",
+  "clips": 17,
+  "duration_s": 224,
+  "bytes": 11060266,
+  "sources": [
+    ".work/coadaptive-language-20261005/cases/s223-feedback-stage0/dialogue.jsonl.gz",
+    ".work/coadaptive-language-20261005/cases/s223-feedback-stage0/teaching-observation-4.json.gz",
+    ".work/coadaptive-language-20261005/cases/s223-feedback-stage0/teaching-observation-6.json.gz",
+    ".work/graph-expression-20261005/cases/s223-multi-continued-t440-i0-visual-v9-x0.5-test/process.json.gz",
+    ".work/graph-expression-20261005/cases/s223-multi-continued-t440-i1-visual-v9-x0.5-test/process.json.gz",
+    ".work/graph-expression-20261005/cases/s223-multi-continued-t440-i2-visual-v9-x0.5-test/process.json.gz",
+    ".work/graph-expression-20261005/cases/s223-multi-continued-t440-i3-visual-v9-x0.5-test/process.json.gz",
+    ".work/graph-expression-20261005/cases/s223-multi-continued/definition.json",
+    ".work/graph-expression-20261005/cases/s223-multi-continued/teaching-440.jsonl.gz",
+    ".work/graph-expression-20261005/cases/s223-multi-reversal-t440-i0-visual-v9-x0.5-test/process.json.gz",
+    ".work/graph-expression-v2-20261005/attribution-s223.json",
+    ".work/graph-expression-v2-20261005/cases/control-s223-continued-rescue-i0/process.json.gz",
+    ".work/graph-expression-v2-20261005/cases/control-s223-continued-silence-matched-i0/process.json.gz",
+    ".work/graph-expression-v2-20261005/cases/control-s223-continued-silence-target-i0/process.json.gz",
+    ".work/graph-expression-v2-20261005/models/multi-s223-local.json"
+  ],
+  "core_advanced": false,
+  "answers_regenerated": false,
+  "chapters": [
+    {
+      "id": "intro",
+      "title": "当经历变成回答",
+      "start_s": 0,
+      "duration_s": 12,
+      "source": "E50 / E52 · 原始证据的可视化"
+    },
+    {
+      "id": "teach-first",
+      "title": "先反复教，再间隔复习",
+      "start_s": 12,
+      "duration_s": 30,
+      "source": "E50 · continuous-memory/2 · 原始教学记录"
+    },
+    {
+      "id": "teach-spaced",
+      "title": "让经历留下来",
+      "start_s": 42,
+      "duration_s": 26,
+      "source": "E50 · continuous-memory/2 · 原始教学记录"
+    },
+    {
+      "id": "name-0",
+      "title": "换个角度，它仍能说出名字",
+      "start_s": 68,
+      "duration_s": 10,
+      "source": "E50 · 冻结同一个体的局部表达器 · 测试未给目标名字"
+    },
+    {
+      "id": "name-1",
+      "title": "换个角度，它仍能说出名字",
+      "start_s": 78,
+      "duration_s": 10,
+      "source": "E50 · 冻结同一个体的局部表达器 · 测试未给目标名字"
+    },
+    {
+      "id": "name-2",
+      "title": "换个角度，它仍能说出名字",
+      "start_s": 88,
+      "duration_s": 10,
+      "source": "E50 · 冻结同一个体的局部表达器 · 测试未给目标名字"
+    },
+    {
+      "id": "name-3",
+      "title": "换个角度，它仍能说出名字",
+      "start_s": 98,
+      "duration_s": 10,
+      "source": "E50 · 冻结同一个体的局部表达器 · 测试未给目标名字"
+    },
+    {
+      "id": "reversal",
+      "title": "同一个物体，不同经历，不同名字",
+      "start_s": 108,
+      "duration_s": 12,
+      "source": "E50 · 冻结同一个体的局部表达器 · 测试未给目标名字"
+    },
+    {
+      "id": "intervention-intro",
+      "title": "回答与内部连接有关吗？",
+      "start_s": 120,
+      "duration_s": 10,
+      "source": "E50 / E52 · 原始证据的可视化"
+    },
+    {
+      "id": "control-base",
+      "title": "对照一 · 正常连接",
+      "start_s": 130,
+      "duration_s": 10,
+      "source": "E50 · 冻结同一个体的局部表达器 · 测试未给目标名字"
+    },
+    {
+      "id": "silence-target",
+      "title": "对照二 · 屏蔽视觉—语言相关连接",
+      "start_s": 140,
+      "duration_s": 10,
+      "source": "E50 · 冻结同一个体的局部表达器 · 测试未给目标名字"
+    },
+    {
+      "id": "silence-matched",
+      "title": "对照三 · 屏蔽其他匹配连接",
+      "start_s": 150,
+      "duration_s": 10,
+      "source": "E50 · 冻结同一个体的局部表达器 · 测试未给目标名字"
+    },
+    {
+      "id": "rescue",
+      "title": "对照四 · 解除相关连接屏蔽",
+      "start_s": 160,
+      "duration_s": 10,
+      "source": "E50 · 冻结同一个体的局部表达器 · 测试未给目标名字"
+    },
+    {
+      "id": "e52-intro",
+      "title": "下一步：边学，边回答，听见自己",
+      "start_s": 170,
+      "duration_s": 10,
+      "source": "E50 / E52 · 原始证据的可视化"
+    },
+    {
+      "id": "e52-4",
+      "title": "实际问答：回答之后，教师继续示范",
+      "start_s": 180,
+      "duration_s": 14,
+      "source": "E52 · 现场回答，不是训练完成后重读旧样本"
+    },
+    {
+      "id": "e52-6",
+      "title": "实际问答：回答之后，教师继续示范",
+      "start_s": 194,
+      "duration_s": 14,
+      "source": "E52 · 现场回答，不是训练完成后重读旧样本"
+    },
+    {
+      "id": "ending",
+      "title": "已经能读出一些经历，继续打通表达",
+      "start_s": 208,
+      "duration_s": 16,
+      "source": "E50 / E52 · 原始证据的可视化"
+    }
+  ]
+}

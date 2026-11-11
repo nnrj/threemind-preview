@@ -1,0 +1,15 @@
+# Optional Linux environment-task worker; no Transformer or Core equations added.
+ARG BASE_IMAGE=threemind-lab:local
+FROM ${BASE_IMAGE}
+USER root
+RUN apt-get update && apt-get install -y --no-install-recommends git && rm -rf /var/lib/apt/lists/*
+COPY deploy/constraints-playground-linux-py312.txt /app/deploy/constraints-playground-linux-py312.txt
+RUN --mount=type=cache,target=/root/.cache/pip PIP_CACHE_DIR=/root/.cache/pip pip install --timeout 120 --retries 3 -c /app/deploy/constraints-playground-linux-py312.txt 'playground @ git+https://github.com/google-deepmind/mujoco_playground.git@ef4fefc13033c0468af4ef651847f5348af0c7d7' 'jax[cpu]==0.11.2' 'mujoco==3.14.0' 'mujoco-mjx==3.14.0'
+ENV THREEMIND_PLAYGROUND_ASSETS=/opt/playground-assets JAX_DEFAULT_MATMUL_PRECISION=highest XLA_PYTHON_CLIENT_PREALLOCATE=false OMP_NUM_THREADS=2
+COPY src/threemind_runtime/playground_assets.py src/threemind_runtime/playground_assets.json /tmp/playground-provision/
+RUN python /tmp/playground-provision/playground_assets.py install && python /tmp/playground-provision/playground_assets.py verify
+COPY src/threemind_runtime/ /app/src/threemind_runtime/
+COPY src/threemind_lab/ /app/src/threemind_lab/
+COPY migrations/ /app/migrations/
+USER threemind
+CMD ["python", "-m", "threemind_lab.cli", "worker", "--task-family", "playground"]

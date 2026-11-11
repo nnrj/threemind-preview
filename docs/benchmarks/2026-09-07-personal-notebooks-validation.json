@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-07",
+  "scope": "E1 personal authoring, immutable revisions and private image attachments",
+  "database_schema": 25,
+  "scientific_contracts_unchanged": ["threemind.causal/7", "threemind.state/5", "threemind.profile/5"],
+  "scientific_parameters": 419,
+  "backend": {"passed": 331, "skipped": 0, "seconds": 436.50, "log": ".work/notebooks-full-1.log"},
+  "targeted_backend": {"passed": 15, "seconds": 25.91, "log": ".work/notebooks-backend-final.log", "note": "Final table-layout validation uses bounded linear cell bookkeeping; damaged-image rejection included."},
+  "browser": {"channel": "msedge", "passed": 4, "seconds": 13.7, "log": ".work/notebooks-browser-delivery2.log"},
+  "existing_browser_regression": {"passed": 2, "seconds": 25.1, "log": ".work/notebooks-regression.log", "scope": "Original scientific graphical/JSON configuration and language/undo"},
+  "language_audit": {"entries": 3386, "literal_references": 2492, "marked_dynamic_references": 26, "missing": 0, "duplicates": 0},
+  "legacy_parameter_audit": {"reviewed": 55, "pending": 0, "data_read": false},
+  "checks": [
+    "TypeScript and Vite production build",
+    "Ruff",
+    "Real isolated PostgreSQL with non-owner application role and forced per-author/project RLS",
+    "Default notebook concurrency; revision CAS and exact operation replay",
+    "Database triggers reject historical revision updates and deletions",
+    "CSRF, current project membership and viewer write boundaries",
+    "Owned image references across historical revisions, invalid images, canonical attachment URLs",
+    "Plain Markdown, task lists, code, table, math, rich CSS and merged cell/column width roundtrips",
+    "Formula display mode and existing formula editing",
+    "Authoring autosave, drafts/categories, notebooks/default selection, list/cards, revision restoration and archive recovery",
+    "Lost response across reload, concurrent version conflict, safe copy and continued typing during save",
+    "Language changes preserve text and undo; 390-pixel dark layout; fullscreen modal interaction"
+  ],
+  "screenshots": ["../images/v2/notebooks-writing.png", "../images/v2/notebooks-shelf.png", "../images/v2/notebooks-mobile-dark.png"],
+  "screenshot_run": ".work/notebooks-browser-delivery",
+  "limits": [
+    "One authoritative representation per revision, not arbitrary HTML/Markdown lossless editing",
+    "1 MiB body, bounded tree and table layout, 8 MiB/16 Mpixel static images, 1 GiB image budget per author/project",
+    "sessionStorage is a recovery buffer, not a database or a browser-profile backup",
+    "Research records, reports, AI generation, document exports, public sharing and innate trainer remain separate work",
+    "Optional Docker application image verification remains blocked by registry connectivity"
+  ]
+}

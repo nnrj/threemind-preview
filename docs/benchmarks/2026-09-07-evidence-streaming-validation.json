@@ -1,0 +1,191 @@
+{
+  "schema": "threemind.validation/1",
+  "date": "2026-09-07",
+  "stage": "D4b historical conditional observation and streamed evidence packaging",
+  "status": "validated_for_this_scope",
+  "base_commit": "3b0db4d",
+  "database_schema": 20,
+  "core_changed": false,
+  "scientific_parameter_count": 419,
+  "full_regression": {
+    "passed": 287,
+    "skipped": 0,
+    "seconds": 300.5
+  },
+  "targeted_before_final_zip_batching": {
+    "passed": 12,
+    "seconds": 46.46
+  },
+  "browser": {
+    "graph_display_and_spatial": {
+      "passed": 3,
+      "batch_total_seconds": 26.4
+    },
+    "evidence_after_locator_fix": {
+      "passed": 1,
+      "seconds": 5.8
+    },
+    "final_responsive_evidence": {
+      "passed": 1,
+      "seconds": 5.5
+    },
+    "visual_review": [
+      "1440px desktop",
+      "390px mobile with visible download"
+    ]
+  },
+  "checks": [
+    "TypeScript and production Vite build",
+    "Ruff",
+    "legacy 55-field audit"
+  ],
+  "covered_failures": [
+    "later commit at an earlier/equal simulation time cannot enter historical statistics",
+    "unknown commit revisions are preserved separately, never silently assigned to the checkpoint",
+    "disk failure during an active result stream closes nested iterators and permits connection reuse",
+    "figure failure removes temporary ZIP and does not publish an artifact",
+    "artifact row/chunks remain invisible before atomic commit",
+    "separate-connection heartbeat succeeds during artifact streaming",
+    "read failure, actual-clock expiry, or replaced worker generation rolls back the artifact",
+    "unchanged historical graph does not decode a model; spatial header cache still checks axes and project",
+    "JSONB null, Unicode escaping, nested values and large integer semantics",
+    "single-row fallback when libpq chunk capability is unavailable"
+  ],
+  "iterations": [
+    "Initial artifact INSERT incorrectly fetched a row without RETURNING; corrected before final regression.",
+    "First browser evidence selector matched both table download and job result; narrowed to the download action.",
+    "Mobile inspection found cramped provenance and off-screen download; responsive artifact cards verified.",
+    "Named-cursor FETCH overhead and per-line compression overhead reduced with chunk streaming and bounded ZIP batching."
+  ],
+  "benchmarks": {
+    "before_traced": {
+      "schema": "threemind.evidence-memory-benchmark/1",
+      "variant": "reference_worker",
+      "reference_source_sha256": "eb403a65248aa09f3f18d5f29b2d47ec2fe553e9bd1b379a88bfd87094ac5534",
+      "events": 20000,
+      "payload_bytes_each": 4096,
+      "generated_payload_bytes": 81920000,
+      "seconds_with_tracemalloc": 7.904399200000626,
+      "rss_baseline_bytes": 178737152,
+      "rss_peak_bytes": 503554048,
+      "rss_peak_delta_bytes": 324816896,
+      "python_traced_peak_bytes": 350341087,
+      "rss_sample_interval_ms": 10,
+      "artifact_bytes": 629104,
+      "artifact_sha256": "197442eb8fed296715b3f96eabeab75e0bf95d1ffb1ee177ae2e73c188119587",
+      "scope": "Complete export job through PostgreSQL artifact commit, native figure/model backends initialized first; isolated PostgreSQL 55439, fresh Python process per variant.",
+      "limits": [
+        "Generated compressible event history, two observation samples, two-node model",
+        "Not a large-model or many-observation-sample benchmark",
+        "tracemalloc changes timing and excludes native allocations; sampled RSS can miss short peaks",
+        "No original data or .env read; database and temporary export files cleaned after run"
+      ],
+      "source_sha256": {
+        "src\\threemind_lab\\evidence.py": "dcf2abb04bd6c0f90f67c963c22e12665feda8fda135b57d11104a334d3f1770",
+        "src\\threemind_lab\\database.py": "e9800189a6340e94bae814d4ec312ca513fd4d2caedfae3fe71d560d156691fd",
+        "src\\threemind_lab\\worker.py": "94aef5f4279cf25c6306af06b85d1f37618587b6c6ae6153991b9a0ea57d251a"
+      }
+    },
+    "after_traced": {
+      "schema": "threemind.evidence-memory-benchmark/1",
+      "variant": "current_worker",
+      "reference_source_sha256": null,
+      "events": 20000,
+      "payload_bytes_each": 4096,
+      "generated_payload_bytes": 81920000,
+      "seconds": 8.943512699999701,
+      "tracemalloc_enabled": true,
+      "rss_baseline_bytes": 178294784,
+      "rss_peak_bytes": 205099008,
+      "rss_peak_delta_bytes": 26804224,
+      "python_traced_peak_bytes": 9432461,
+      "rss_sample_interval_ms": 10,
+      "artifact_bytes": 635153,
+      "artifact_sha256": "d9c575ebd97cc1eb66a28bcc2cd995e4e1c1ee02491e8326dc18ecfbfdc81651",
+      "scope": "Complete export job through PostgreSQL artifact commit, native figure/model backends initialized first; isolated PostgreSQL 55439, fresh Python process per variant.",
+      "limits": [
+        "Generated compressible event history, two observation samples, two-node model",
+        "Not a large-model or many-observation-sample benchmark",
+        "tracemalloc changes timing and excludes native allocations; sampled RSS can miss short peaks",
+        "No original data or .env read; database and temporary export files cleaned after run"
+      ],
+      "source_sha256": {
+        "src\\threemind_lab\\evidence.py": "175d3aa62bdad4e9f7b6f41a5bcdf6e57444926bf0ed434caa02d5e48c023d1b",
+        "src\\threemind_lab\\database_stream.py": "d20b4b9254ceebc708d1e57eb20c962d41319d5cf3c3ca7a1a906340b2bb51a5",
+        "src\\threemind_lab\\database.py": "e9800189a6340e94bae814d4ec312ca513fd4d2caedfae3fe71d560d156691fd",
+        "src\\threemind_lab\\worker.py": "94aef5f4279cf25c6306af06b85d1f37618587b6c6ae6153991b9a0ea57d251a",
+        "src\\threemind_lab\\inputs.py": "50f18d3e33f4cd3eb3acd0f448e0a4334c4239f660afb74a619a1028ada20133"
+      }
+    },
+    "before_untraced": {
+      "schema": "threemind.evidence-memory-benchmark/1",
+      "variant": "reference_worker",
+      "reference_source_sha256": "eb403a65248aa09f3f18d5f29b2d47ec2fe553e9bd1b379a88bfd87094ac5534",
+      "events": 20000,
+      "payload_bytes_each": 4096,
+      "generated_payload_bytes": 81920000,
+      "seconds": 3.7719011999997747,
+      "tracemalloc_enabled": false,
+      "rss_baseline_bytes": 178606080,
+      "rss_peak_bytes": 473718784,
+      "rss_peak_delta_bytes": 295112704,
+      "python_traced_peak_bytes": null,
+      "rss_sample_interval_ms": 10,
+      "artifact_bytes": 629105,
+      "artifact_sha256": "c4bb4d26ddf2036a52e3a0025e1cc212d3bc8172a6db278b9632d702e2c0c6b1",
+      "scope": "Complete export job through PostgreSQL artifact commit, native figure/model backends initialized first; isolated PostgreSQL 55439, fresh Python process per variant.",
+      "limits": [
+        "Generated compressible event history, two observation samples, two-node model",
+        "Not a large-model or many-observation-sample benchmark",
+        "tracemalloc changes timing and excludes native allocations; sampled RSS can miss short peaks",
+        "No original data or .env read; database and temporary export files cleaned after run"
+      ],
+      "source_sha256": {
+        "src\\threemind_lab\\evidence.py": "175d3aa62bdad4e9f7b6f41a5bcdf6e57444926bf0ed434caa02d5e48c023d1b",
+        "src\\threemind_lab\\database_stream.py": "d20b4b9254ceebc708d1e57eb20c962d41319d5cf3c3ca7a1a906340b2bb51a5",
+        "src\\threemind_lab\\database.py": "e9800189a6340e94bae814d4ec312ca513fd4d2caedfae3fe71d560d156691fd",
+        "src\\threemind_lab\\worker.py": "94aef5f4279cf25c6306af06b85d1f37618587b6c6ae6153991b9a0ea57d251a",
+        "src\\threemind_lab\\inputs.py": "50f18d3e33f4cd3eb3acd0f448e0a4334c4239f660afb74a619a1028ada20133"
+      }
+    },
+    "after_untraced": {
+      "schema": "threemind.evidence-memory-benchmark/1",
+      "variant": "current_worker",
+      "reference_source_sha256": null,
+      "events": 20000,
+      "payload_bytes_each": 4096,
+      "generated_payload_bytes": 81920000,
+      "seconds": 4.721784800000023,
+      "tracemalloc_enabled": false,
+      "rss_baseline_bytes": 178601984,
+      "rss_peak_bytes": 197877760,
+      "rss_peak_delta_bytes": 19275776,
+      "python_traced_peak_bytes": null,
+      "rss_sample_interval_ms": 10,
+      "artifact_bytes": 635151,
+      "artifact_sha256": "c2ade51a13006ce73ab54340c0e9e26cb5809871c130546d39f6499924a73803",
+      "scope": "Complete export job through PostgreSQL artifact commit, native figure/model backends initialized first; isolated PostgreSQL 55439, fresh Python process per variant.",
+      "limits": [
+        "Generated compressible event history, two observation samples, two-node model",
+        "Not a large-model or many-observation-sample benchmark",
+        "tracemalloc changes timing and excludes native allocations; sampled RSS can miss short peaks",
+        "No original data or .env read; database and temporary export files cleaned after run"
+      ],
+      "source_sha256": {
+        "src\\threemind_lab\\evidence.py": "175d3aa62bdad4e9f7b6f41a5bcdf6e57444926bf0ed434caa02d5e48c023d1b",
+        "src\\threemind_lab\\database_stream.py": "d20b4b9254ceebc708d1e57eb20c962d41319d5cf3c3ca7a1a906340b2bb51a5",
+        "src\\threemind_lab\\database.py": "e9800189a6340e94bae814d4ec312ca513fd4d2caedfae3fe71d560d156691fd",
+        "src\\threemind_lab\\worker.py": "94aef5f4279cf25c6306af06b85d1f37618587b6c6ae6153991b9a0ea57d251a",
+        "src\\threemind_lab\\inputs.py": "50f18d3e33f4cd3eb3acd0f448e0a4334c4239f660afb74a619a1028ada20133"
+      }
+    }
+  },
+  "limits": [
+    "Single-run generated compressible event history, two-node model, two observations; no research conclusion.",
+    "Untraced elapsed time increased in this fixture; memory reduction is not a speedup claim.",
+    "Full model decode/encoding and numerical sample list remain proportional to their size.",
+    "Cold spatial queries and changed graphs still reconstruct the full checkpoint.",
+    "Row batch and largest individual JSON record add memory beyond ZIP buffer sizes.",
+    "RSS sampled every 10ms; tracemalloc excludes native allocations and changes timing."
+  ]
+}

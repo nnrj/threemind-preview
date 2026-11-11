@@ -1,0 +1,67 @@
+{
+  "date": "2026-09-09",
+  "purpose": "engineering capture admission checks, not scientific experiments",
+  "conditions": "Synthetic browser devices, native worker, isolated PostgreSQL 55439. Local system load was not held constant; do not infer exact speedup ratios.",
+  "stages": [
+    {
+      "stage": "capture-before-world",
+      "case": "capture-throughput-mujoco--c6de2-without-losing-packet-order",
+      "acknowledged": 130,
+      "median_ms": 68.0,
+      "p95_ms": 178,
+      "maximum_ms": 297,
+      "session_status": "active",
+      "reason": null
+    },
+    {
+      "stage": "capture-before-large",
+      "case": "capture-throughput-replay--bc9aa-without-losing-packet-order",
+      "acknowledged": 155,
+      "median_ms": 70,
+      "p95_ms": 737,
+      "maximum_ms": 2577,
+      "session_status": "active",
+      "reason": null
+    },
+    {
+      "stage": "capture-after",
+      "case": "capture-throughput-manual--a9187-without-losing-packet-order",
+      "acknowledged": 127,
+      "median_ms": 78,
+      "p95_ms": 255,
+      "maximum_ms": 435,
+      "session_status": "active",
+      "reason": null
+    },
+    {
+      "stage": "capture-after",
+      "case": "capture-throughput-mujoco--c6de2-without-losing-packet-order",
+      "acknowledged": 130,
+      "median_ms": 63.5,
+      "p95_ms": 682,
+      "maximum_ms": 910,
+      "session_status": "active",
+      "reason": null
+    },
+    {
+      "stage": "capture-after",
+      "case": "capture-throughput-replay--bc9aa-without-losing-packet-order",
+      "acknowledged": 45,
+      "median_ms": 103,
+      "p95_ms": 803,
+      "maximum_ms": 3003,
+      "session_status": "interrupted",
+      "reason": "queue_overflow"
+    },
+    {
+      "stage": "capture-concurrent",
+      "case": "capture-throughput-replay--bc9aa-without-losing-packet-order",
+      "acknowledged": 173,
+      "median_ms": 90,
+      "p95_ms": 659,
+      "maximum_ms": 864,
+      "session_status": "active",
+      "reason": null
+    }
+  ]
+}

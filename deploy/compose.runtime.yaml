@@ -1,0 +1,21 @@
+# Optional external isolation. No database, Lab, network or GPU is required.
+# Put an exported model at ./runtime-input/model.tmind and create ./runtime-output.
+services:
+  runtime:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+      target: runtime-python
+    network_mode: none
+    read_only: true
+    user: "65534:65534"
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    pids_limit: 64
+    mem_limit: 4g
+    cpus: 2
+    tmpfs: [/tmp:size=64m,noexec,nosuid]
+    volumes:
+      - ./runtime-input:/input:ro
+      - ./runtime-output:/output
+    command: [--model, /input/model.tmind, --deployment-manifest, /input/declaration.json, --clock, unbounded, --until-us, "1000000", --export, /output/final.tmind]

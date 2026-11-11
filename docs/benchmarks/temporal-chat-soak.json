@@ -1,0 +1,44 @@
+[
+  {
+    "elapsed_s": 0,
+    "messages": 6,
+    "dom_nodes": 1886,
+    "heap_bytes": 12508788
+  },
+  {
+    "elapsed_s": 10,
+    "messages": 6,
+    "dom_nodes": 1856,
+    "heap_bytes": 13430840
+  },
+  {
+    "elapsed_s": 20,
+    "messages": 6,
+    "dom_nodes": 1858,
+    "heap_bytes": 13995592
+  },
+  {
+    "elapsed_s": 30,
+    "messages": 6,
+    "dom_nodes": 1859,
+    "heap_bytes": 14118720
+  },
+  {
+    "elapsed_s": 40,
+    "messages": 6,
+    "dom_nodes": 1861,
+    "heap_bytes": 14234584
+  },
+  {
+    "elapsed_s": 50,
+    "messages": 6,
+    "dom_nodes": 1863,
+    "heap_bytes": 14272960
+  },
+  {
+    "elapsed_s": 60,
+    "messages": 6,
+    "dom_nodes": 1865,
+    "heap_bytes": 14260636
+  }
+]

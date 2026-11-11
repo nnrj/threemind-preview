@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-08",
+  "base_commit": "4648672",
+  "scope": "F5b read-only standalone ecology observer and optional browser speech",
+  "versions": {"database": 42, "core": "causal/7 (unchanged)", "observer": "threemind.ecology-observer/1"},
+  "checks": [
+    {"suite": "standalone ecology, observer CLI and observer API", "passed": 10, "failed": 0, "seconds": 81.00, "log": ".work/observer-output-final-backend.log"},
+    {"suite": "final CLI malformed configuration, read-only sources and bounded transaction regression", "passed": 2, "failed": 0, "seconds": 9.38, "log": ".work/observer-cli-validation-final.log"},
+    {"suite": "original observer browser flow", "passed": 1, "failed": 0, "seconds": 12.8, "log": ".work/observer-output-browser-final.log"},
+    {"suite": "final mock speech backlog, errors, configuration changes and evidence invariance", "passed": 1, "failed": 0, "seconds": 18.1, "log": ".work/observer-speech-accepted.log"}
+  ],
+  "quality": {
+    "ui_build": "passed; pre-existing chunk size advisory remains",
+    "ruff": "passed",
+    "prettier_selected_ui": "passed",
+    "translations": 4299,
+    "missing_translations": 0,
+    "git_diff_check": "passed",
+    "standalone_entry": "editable package installed without dependency downloads; threemind-observe --help passed",
+    "visual_review": "desktop speech and narrow-screen service error images inspected"
+  },
+  "earlier_failures": [
+    "SQL ORDER BY id sorted a text cast alias; qualified numeric e.id fixes newest-message order.",
+    "Deferred React updater read a replaced pending array and overcounted skipped speech; capture the drop count before updating the queue.",
+    "After rule revision change the speech panel correctly resets closed; browser assertion now opens the new panel before checking its stopped controls."
+  ],
+  "boundaries": [
+    "Overlapping suites are not a full-repository test total.",
+    "Browser speech uses a mock speech engine and a labelled synthetic presentation feed; no real audio or external service called.",
+    "Standalone CLI does not load brain chunks and leaves unobserved viable_cores unavailable.",
+    "Read-only source checks cover model hashes and fixed observation export; no Core dynamics changed.",
+    "No data/ scan or migration; no Docker rebuild or git push."
+  ]
+}

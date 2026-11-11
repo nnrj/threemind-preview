@@ -1,0 +1,36 @@
+{
+  "schema": "threemind.validation/1",
+  "date": "2026-09-07",
+  "phase": "D6a",
+  "versions": {"database": 23, "causal": 7, "state": 5, "profile": 5, "scientific_fields": 419},
+  "checks": {
+    "full_regression": {"passed": 308, "skipped": 0, "seconds": 372.06},
+    "final_execution_tests": {"passed": 6, "seconds": 18.14},
+    "admin_numeric_contract": {"passed": 1, "seconds": 5.86},
+    "edge_execution_flow": {"passed": 1, "includes": "real worker execution, JSON validation, conflict preservation, inherited limits, Chinese and English mobile views"},
+    "typescript_vite_ruff": "passed",
+    "translation_audit": {"entries": 3209, "parameters": 419, "adapters": 23, "commands": 10, "missing": 0, "duplicates": 0, "invalid_placeholders": 0},
+    "local_schema": "23 installed"
+  },
+  "coverage": [
+    "Eight concurrent claim attempts admit exactly three jobs in three eligible projects",
+    "A capped project does not block another project; AI queue capacity remains independent",
+    "Zero admission leaves active leases renewable; expired work recovers with a new generation",
+    "Lowering admission to zero during a real simulation preserves final Core state hash",
+    "Initialization is idempotent across processes with different startup defaults",
+    "Strict numeric and unknown-field validation, optimistic revision checks and history rollback",
+    "Administrator queue management does not grant access to another project's model data",
+    "Ordinary members cannot edit limits or view foreign queue counts; server mutations require CSRF",
+    "Search treats percent and underscore literally and pages without overlap",
+    "Worker drain is audited, missing worker rejected, active lease retained",
+    "Browser validates real queued-to-completed transition, unsaved conflict draft and explicit reload",
+    "Mobile table readability corrected through screenshot inspection; responsive queue cards and translations verified"
+  ],
+  "limits": [
+    "Concurrency budgets are not OS CPU, memory or disk quotas",
+    "No strict fair-share reservation or automatic worker process scaling",
+    "Old workers that do not consult central limits must be stopped before upgrade",
+    "The full 308-case run preceded the additional search and API assertions; those passed in the final targeted runs",
+    "No new database service or MQ, no model format changes and no data directory scan"
+  ]
+}

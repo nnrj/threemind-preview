@@ -1,0 +1,17 @@
+# E50: graph/process expression, common referents and answer attribution
+
+2026-10-05, before execution. Preserve E49 and the old decoder. No Core equation/default or input-mapping changes.
+
+The user authorizes a graph/process-sensitive expression adapter and joint development. Multiple perspectives on the same referent are tested together with discrimination between referents, held-out phrasings/views, opposite learning histories and interventions. Agreement alone cannot exclude direct sensory classification or a constant answer. No old criteria are rewritten.
+
+New graph-expression/1 uses shared node/edge encoders, messages along observed directed edges, frame attention queries, actual relative sample times, temporal attention and byte generation with cross-attention. Variable graph sizes, no active-node ranking. Reversible32-bit anonymous receptor identities are not semantic or source labels. Raw evidence is retained, with no baseline subtraction, per-example scaling or Core writeback. Stored lazy short-term operator values include their update age and are not represented as fully recovered current values. Inference has no teaching answers or cross-question cache.
+
+First reuse E48 full states at0/.1/.5/1/2s for223/279,16training examples each covering original/reversed532s. Compare graph and node-only versions with E49. At most4000steps, equal training exposure, training-only selection every500steps. Calibration gate15/16 before interpreting transfer; if insufficient allow one preregistered learning-rate alternative0.0003 versus0.001. No semantic no-cue target.
+
+Common-reference teaching uses two Core seeds and opposite assignments. Three short forms per object: “甲是红球。” / “这是红球，叫甲。” / “看见红球，这是甲。”, substituting the actual name/object. Each form initially appears12times consecutively, then4reviews with less frequent repetition. Intensity1, unchanged sensory mapping, explicit paired visual acquisitions and recorded physical telemetry. Decoder probes never contain the target assigned name: use visual views, bare object terms, taught descriptions and held-out descriptions such as “我看见红球。”. Separate decoder-frozen and later-recalibrated results, including late and no-cue observations. If the input adapter cannot represent a form adequately, do not automatically blame Core.
+
+Attribution compares a separately trained sensory-only adapter with the same teaching opportunities; opposite histories under identical current cues; unseen assignments; no-learning Core; randomized calibration targets; selective cross-sensory pathway suppression, matched non-target suppression and restoration; and bounded donor-pathway transplantation into same-source copies. Preserve matching errors and separate collapse from content-specific reversal. This study does not invent independent robot behaviour evidence. No-cue words have no presumed semantic truth. Low transfer or non-specific intervention effects stop expansion into complex reasoning.
+
+Budget:384new cases,24training runs,4hours aggregate compute,one worker; RSS4/GPU3GiB,freeRAM2/C5/D15/E15GiB. Work3GiB soft/8GiB total hard; shared account49% baseline,+6stop expansion,+10stop new compute. Keep all old data. Publish independent bilingual records/reports and histories; local commits only.
+
+Methods: [control tasks](https://aclanthology.org/D19-1275/), [causal abstraction](https://arxiv.org/abs/2106.02997), [Perceiver IO](https://arxiv.org/abs/2107.14795). References motivate controls, not ThreeMind conclusions.

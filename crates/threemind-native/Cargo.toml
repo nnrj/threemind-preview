@@ -1,0 +1,13 @@
+[package]
+name = "threemind-native"
+version.workspace = true
+edition.workspace = true
+
+[lib]
+name = "_threemind_native"
+crate-type = ["cdylib"]
+
+[dependencies]
+threemind-core = { path = "../threemind-core" }
+pyo3 = { version = "0.27", features = ["extension-module", "abi3-py311"] }
+serde_json = "1"

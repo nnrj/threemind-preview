@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "threemind-core"
+version = "0.1.0"
+description = "Data-driven ThreeMind consciousness runtime"
+requires-python = ">=3.11"
+dependencies = ["fastapi>=0.110", "uvicorn>=0.27", "websockets>=12", "cryptography>=42", "python-multipart>=0.0.9"]
+
+[project.scripts]
+threemind = "threemind.cli:main"
+mind = "threemind.cli:main"
+
+[project.optional-dependencies]
+mysql = ["mysql-connector-python>=9.0"]
+telemetry = ["psutil>=5.9"]
+media = ["av>=13", "numpy>=1.26", "Pillow>=10"]
+
+[tool.setuptools.packages.find]
+where = ["core", "adapters", "services"]

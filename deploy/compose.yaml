@@ -1,0 +1,130 @@
+name: threemind-v2
+
+x-lab: &lab
+  image: threemind-lab:local
+  build:
+    context: ..
+    dockerfile: deploy/Dockerfile
+    target: lab
+  init: true
+  security_opt: ["no-new-privileges:true"]
+  cap_drop: ["ALL"]
+  networks: [data]
+  read_only: true
+  pids_limit: ${THREEMIND_CONTAINER_PIDS:-256}
+  mem_limit: ${THREEMIND_CONTAINER_MEMORY:-1g}
+  cpus: ${THREEMIND_CONTAINER_CPUS:-1}
+  tmpfs: ["/tmp:rw,nosuid,noexec,size=${THREEMIND_CONTAINER_TMP_BYTES:-536870912},mode=1777"]
+  logging:
+    driver: json-file
+    options: {max-size: "10m", max-file: "3"}
+
+x-connection: &connection
+  THREEMIND_PG_HOST: postgres
+  THREEMIND_PG_PORT: "5432"
+  THREEMIND_PG_USER: threemind_app
+  THREEMIND_PG_DATABASE: threemind
+  THREEMIND_PG_PASSWORD: ${THREEMIND_PG_PASSWORD:?Run scripts/init-compose.py first}
+  THREEMIND_MAX_ACTIVE_JOBS: ${THREEMIND_MAX_ACTIVE_JOBS:-2}
+  THREEMIND_MODE: server
+  MUJOCO_GL: ${THREEMIND_MUJOCO_GL:-osmesa}
+  THREEMIND_MAX_AI_JOBS: ${THREEMIND_MAX_AI_JOBS:-2}
+  THREEMIND_MAX_NOTIFICATION_JOBS: ${THREEMIND_MAX_NOTIFICATION_JOBS:-1}
+  THREEMIND_NOTIFICATION_ALLOWED_ENDPOINTS: ${THREEMIND_NOTIFICATION_ALLOWED_ENDPOINTS:-}
+  THREEMIND_AI_ALLOWED_ORIGINS: ${THREEMIND_AI_ALLOWED_ORIGINS:-}
+
+services:
+  postgres:
+    image: postgres:17-bookworm
+    networks: [data]
+    mem_limit: ${THREEMIND_DATABASE_MEMORY:-4g}
+    cpus: ${THREEMIND_DATABASE_CPUS:-2}
+    pids_limit: ${THREEMIND_DATABASE_PIDS:-256}
+    shm_size: ${THREEMIND_DATABASE_SHM:-256m}
+    logging:
+      driver: json-file
+      options: {max-size: "10m", max-file: "3"}
+    environment:
+      POSTGRES_PASSWORD: ${THREEMIND_PG_ADMIN_PASSWORD:?Run scripts/init-compose.py first}
+    volumes: ["database:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d postgres"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+  bootstrap:
+    <<: *lab
+    environment:
+      <<: *connection
+      THREEMIND_PG_ADMIN_PASSWORD: ${THREEMIND_PG_ADMIN_PASSWORD}
+      THREEMIND_PG_OWNER_PASSWORD: ${THREEMIND_PG_OWNER_PASSWORD:?Run scripts/init-compose.py first}
+    command: ["python", "-m", "threemind_lab.container_bootstrap"]
+    depends_on:
+      postgres: {condition: service_healthy}
+    restart: "no"
+  api:
+    <<: *lab
+    networks: [data, external]
+    mem_limit: ${THREEMIND_API_MEMORY:-2g}
+    cpus: ${THREEMIND_API_CPUS:-2}
+    tmpfs: ["/tmp:rw,nosuid,noexec,size=${THREEMIND_API_TMP_BYTES:-1073741824},mode=1777"]
+    environment:
+      <<: *connection
+      THREEMIND_SECRET_KEYS: ${THREEMIND_SECRET_KEYS:?Run scripts/init-compose.py --ensure-ai-key}
+      THREEMIND_HOSTS: ${THREEMIND_HOSTS:-127.0.0.1,localhost}
+      THREEMIND_ORIGINS: ${THREEMIND_ORIGINS:-http://127.0.0.1:8878,http://localhost:8878}
+      THREEMIND_SECURE_COOKIE: ${THREEMIND_SECURE_COOKIE:-false}
+      THREEMIND_MAX_IMPORT_MB: ${THREEMIND_MAX_IMPORT_MB:-128}
+    ports: ["127.0.0.1:${THREEMIND_HTTP_PORT:-8878}:8877"]
+    depends_on:
+      bootstrap: {condition: service_completed_successfully}
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8877/api/v2/health', timeout=3)"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+  ai-worker:
+    <<: *lab
+    networks: [data, external]
+    mem_limit: ${THREEMIND_AI_MEMORY:-512m}
+    cpus: ${THREEMIND_AI_CPUS:-1}
+    environment:
+      <<: *connection
+      THREEMIND_SECRET_KEYS: ${THREEMIND_SECRET_KEYS:?Run scripts/init-compose.py --ensure-ai-key}
+    command: ["python", "-m", "threemind_lab.cli", "worker", "--queue", "ai"]
+    depends_on:
+      bootstrap: {condition: service_completed_successfully}
+    stop_grace_period: 30s
+    restart: unless-stopped
+  notification-worker:
+    <<: *lab
+    networks: [data, external]
+    mem_limit: ${THREEMIND_NOTIFICATION_MEMORY:-256m}
+    cpus: ${THREEMIND_NOTIFICATION_CPUS:-0.5}
+    environment:
+      <<: *connection
+      THREEMIND_SECRET_KEYS: ${THREEMIND_SECRET_KEYS:?Run scripts/init-compose.py --ensure-ai-key}
+    command: ["python", "-m", "threemind_lab.cli", "worker", "--queue", "notification"]
+    depends_on:
+      bootstrap: {condition: service_completed_successfully}
+    stop_grace_period: 45s
+    restart: unless-stopped
+  worker:
+    <<: *lab
+    mem_limit: ${THREEMIND_WORKER_MEMORY:-4g}
+    cpus: ${THREEMIND_WORKER_CPUS:-2}
+    tmpfs: ["/tmp:rw,nosuid,noexec,size=${THREEMIND_WORKER_TMP_BYTES:-1073741824},mode=1777"]
+    environment: *connection
+    command: ["python", "-m", "threemind_lab.cli", "worker"]
+    depends_on:
+      bootstrap: {condition: service_completed_successfully}
+    stop_grace_period: 30s
+    restart: unless-stopped
+volumes:
+  database:
+networks:
+  data:
+    internal: true
+  external:

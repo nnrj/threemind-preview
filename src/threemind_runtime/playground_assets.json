@@ -1,0 +1,4526 @@
+{
+  "schema": "threemind.playground-assets/1",
+  "revision": "ef4fefc13033c0468af4ef651847f5348af0c7d7",
+  "menagerie_revision": "1b86ece576591213e2b666ebf59508454200ca97",
+  "source_files": [
+    {
+      "path": "mujoco_playground/__init__.py",
+      "git_blob": "15d80f9c5f94915a83f72c8c1a497d33c8ecee94",
+      "bytes": 1598
+    },
+    {
+      "path": "mujoco_playground/_src/__init__.py",
+      "git_blob": "75edc9bba7f3e7ec22e8282aa66852a536959013",
+      "bytes": 575
+    },
+    {
+      "path": "mujoco_playground/_src/dm_control_suite/__init__.py",
+      "git_blob": "0d13fc82b5be591a2bb5e2d72a5fb73e0b0aeb33",
+      "bytes": 6152
+    },
+    {
+      "path": "mujoco_playground/_src/dm_control_suite/acrobot.py",
+      "git_blob": "9c514330076a40e13010b7517c8e449b471bb49b",
+      "bytes": 5235
+    },
+    {
+      "path": "mujoco_playground/_src/dm_control_suite/ball_in_cup.py",
+      "git_blob": "84e893aa4c9cc68a9f5b2fd5ed99e83ed9ee56e9",
+      "bytes": 4103
+    },
+    {
+      "path": "mujoco_playground/_src/dm_control_suite/cartpole.py",
+      "git_blob": "a84e23caba6c60c2c3818c2e32d6e891b3784411",
+      "bytes": 10828
+    },
+    {
+      "path": "mujoco_playground/_src/dm_control_suite/cheetah.py",
+      "git_blob": "cac229b2cc06580578346fc5995eeb8377cc4824",
+      "bytes": 4553
+    },
+    {
+      "path": "mujoco_playground/_src/dm_control_suite/common.py",
+      "git_blob": "30750869203b0cda1bd3b0b0f1b4d5b8a8a58c49",
+      "bytes": 926
+    },
+    {
+      "path": "mujoco_playground/_src/dm_control_suite/dm_control_suite_test.py",
+      "git_blob": "0e2736e24771d20e121837f12192f4a6ff93e4dc",
+      "bytes": 2551
+    },
+    {
+      "path": "mujoco_playground/_src/dm_control_suite/finger.py",
+      "git_blob": "735b9ce9ad655426be52bea27035fa6762ef9c35",
+      "bytes": 12265
+    },
+    {
+      "path": "mujoco_playground/_src/dm_control_suite/fish.py",
+      "git_blob": "020ce346585bfd6dba1215cdc3ea206672d8186b",
+      "bytes": 6168
+    },
+    {
+      "path": "mujoco_playground/_src/dm_control_suite/hopper.py",
+      "git_blob": "9e42825620d5fa0e88afa06fc486660b54ecc074",
+      "bytes": 6319
+    },
+    {
+      "path": "mujoco_playground/_src/dm_control_suite/humanoid.py",
+      "git_blob": "e2c958bf0ff963a5742c3fcf6daa4ee40e375263",
+      "bytes": 7650
+    },
+    {
+      "path": "mujoco_playground/_src/dm_control_suite/pendulum.py",
+      "git_blob": "680707b2d63a4a3e6e3f04eaf8216053c1966214",
+      "bytes": 4865
+    },
+    {
+      "path": "mujoco_playground/_src/dm_control_suite/point_mass.py",
+      "git_blob": "4ee0ad5f57cbe0f5ca6742e8dc0e4aa39869928a",
+      "bytes": 4818
+    },
+    {
+      "path": "mujoco_playground/_src/dm_control_suite/reacher.py",
+      "git_blob": "ee7c36b2c478ba6b7d4bf03d17a8879b178d53ad",
+      "bytes": 6005
+    },
+    {
+      "path": "mujoco_playground/_src/dm_control_suite/swimmer.py",
+      "git_blob": "7ec047cbe6b1c83caba8c96c992ad9b4e34b723d",
+      "bytes": 8458
+    },
+    {
+      "path": "mujoco_playground/_src/dm_control_suite/walker.py",
+      "git_blob": "d16572203cb54d3447b699da235c0a383cb7cbac",
+      "bytes": 6075
+    },
+    {
+      "path": "mujoco_playground/_src/gait.py",
+      "git_blob": "4a022e5de1b7e7689bad6988e0654deb93e6e1d3",
+      "bytes": 2906
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/__init__.py",
+      "git_blob": "9e4fe7f5f8ba951a285e6774b5da97af464b9a4e",
+      "bytes": 8060
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/apollo/__init__.py",
+      "git_blob": "75edc9bba7f3e7ec22e8282aa66852a536959013",
+      "bytes": 575
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/apollo/base.py",
+      "git_blob": "1921443ae5a771bd2ef7d3304c95677a9b2bae5f",
+      "bytes": 7152
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/apollo/constants.py",
+      "git_blob": "0916aa59a10804a35cb6ac0c49bf9161786a695f",
+      "bytes": 1398
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/apollo/joystick.py",
+      "git_blob": "5ee5b0e56b90ff96dd9ccbd64a13c06cfe229574",
+      "bytes": 15554
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/barkour/__init__.py",
+      "git_blob": "75edc9bba7f3e7ec22e8282aa66852a536959013",
+      "bytes": 575
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/barkour/joystick.py",
+      "git_blob": "bc47b8999a88801a8d3edf49d8b08518c4c3b5de",
+      "bytes": 17527
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/berkeley_humanoid/__init__.py",
+      "git_blob": "75edc9bba7f3e7ec22e8282aa66852a536959013",
+      "bytes": 575
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/berkeley_humanoid/base.py",
+      "git_blob": "20ebfa90c39510d2ff520bb43f18a0c56820cf84",
+      "bytes": 3956
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/berkeley_humanoid/berkeley_humanoid_constants.py",
+      "git_blob": "b97e1af1eae38ffbf4464653ea7a1791ca4a1af3",
+      "bytes": 1579
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/berkeley_humanoid/joystick.py",
+      "git_blob": "42f6e69fef0b98aa21dc01dc10ba941c1565e3c1",
+      "bytes": 22978
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/berkeley_humanoid/randomize.py",
+      "git_blob": "d65cb7be005bf8bc48ff0545b2a3a1d45663cf06",
+      "bytes": 2952
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/g1/__init__.py",
+      "git_blob": "75edc9bba7f3e7ec22e8282aa66852a536959013",
+      "bytes": 575
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/g1/base.py",
+      "git_blob": "371670baaf07a6af0e16303f24da5277528d8d9f",
+      "bytes": 3953
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/g1/g1_constants.py",
+      "git_blob": "fcce20723609751c653373a68bc0dfb4cb9b172b",
+      "bytes": 2257
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/g1/joystick.py",
+      "git_blob": "1d30d1cdcaa2e38bd06bf7f1e37719f74b02bf9b",
+      "bytes": 27768
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/g1/randomize.py",
+      "git_blob": "6e0c4edd3f7624cc455dde24bf1b80e79a4c0979",
+      "bytes": 2940
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/go1/__init__.py",
+      "git_blob": "75edc9bba7f3e7ec22e8282aa66852a536959013",
+      "bytes": 575
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/go1/base.py",
+      "git_blob": "4c24d65f6a014fe88dfdb1ae07660173d179cd9c",
+      "bytes": 4080
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/go1/getup.py",
+      "git_blob": "e4b5fca2763b983051484a2c4785f081457e890f",
+      "bytes": 12883
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/go1/go1_constants.py",
+      "git_blob": "0700859cd49320137237a3d2890e0e6a0452ad4f",
+      "bytes": 1700
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/go1/handstand.py",
+      "git_blob": "0bd9a4d28e0c6fb6e24bf923bf1a5c4c29a9c636",
+      "bytes": 13908
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/go1/joystick.py",
+      "git_blob": "c3356e17f1ea20e1af738e42806ee7669a67ee55",
+      "bytes": 21557
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/go1/randomize.py",
+      "git_blob": "a9b1eda35fc93857ffe94e4163e36134a358b531",
+      "bytes": 3311
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/h1/__init__.py",
+      "git_blob": "75edc9bba7f3e7ec22e8282aa66852a536959013",
+      "bytes": 575
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/h1/base.py",
+      "git_blob": "660e5b98d0780775f445293b1e70bed1d8cda4d4",
+      "bytes": 3953
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/h1/h1_constants.py",
+      "git_blob": "51c5e00be62fe66a3d3c98602a61530f7d6f2821",
+      "bytes": 1195
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/h1/inplace_gait_tracking.py",
+      "git_blob": "5061a50c48b51c188f7359f804a5e6d27e04c658",
+      "bytes": 12395
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/h1/joystick.py",
+      "git_blob": "62242cc7e37d8ce3ec33b9ba5fb4427f6c6f3c40",
+      "bytes": 12808
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/h1/joystick_gait_tracking.py",
+      "git_blob": "16c25eee2b4226263cad3135148c970dc732eb2c",
+      "bytes": 16739
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/locomotion_test.py",
+      "git_blob": "e2a72fdef47ff59720651d03865ccc60c3eab1e4",
+      "bytes": 1614
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/op3/__init__.py",
+      "git_blob": "75edc9bba7f3e7ec22e8282aa66852a536959013",
+      "bytes": 575
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/op3/base.py",
+      "git_blob": "baa9c7d34058dc9ca0cdef1c6a43dda2939d45e5",
+      "bytes": 3988
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/op3/joystick.py",
+      "git_blob": "ac70b031e17bc725d7c914a03a01029f69063a9c",
+      "bytes": 16828
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/op3/op3_constants.py",
+      "git_blob": "ab55adbac022d6b7eaff46305444af707203684c",
+      "bytes": 1149
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/spot/__init__.py",
+      "git_blob": "75edc9bba7f3e7ec22e8282aa66852a536959013",
+      "bytes": 575
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/spot/base.py",
+      "git_blob": "eefb404d8dd2061f19584e1a3de5721b0e4b053e",
+      "bytes": 4344
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/spot/getup.py",
+      "git_blob": "9b451c3366899981820f486de91b0ab2af2600a5",
+      "bytes": 9202
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/spot/joystick.py",
+      "git_blob": "11e0be55ce1c5d85da3a2b47e0cadc1ab9217945",
+      "bytes": 21191
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/spot/joystick_gait_tracking.py",
+      "git_blob": "491a3ff8868b2d46bb05ea4f90dbb077cf6a5de0",
+      "bytes": 13265
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/spot/spot_constants.py",
+      "git_blob": "d73d592cceff4c58c44afd7382453f6e5ad95bc9",
+      "bytes": 1434
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/t1/__init__.py",
+      "git_blob": "75edc9bba7f3e7ec22e8282aa66852a536959013",
+      "bytes": 575
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/t1/base.py",
+      "git_blob": "c146fc57cdb1efe2234bf97690885f9efe9f123a",
+      "bytes": 3675
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/t1/joystick.py",
+      "git_blob": "a91d38de4183a98665e1519385987d68793edb47",
+      "bytes": 25913
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/t1/randomize.py",
+      "git_blob": "4496a25fe8c54c576d24c0a92da17f1291cc695b",
+      "bytes": 3875
+    },
+    {
+      "path": "mujoco_playground/_src/locomotion/t1/t1_constants.py",
+      "git_blob": "bff94cc973a5ee6991fc82bed6dc0ae2ebd17b10",
+      "bytes": 1592
+    },
+    {
+      "path": "mujoco_playground/_src/manipulation/__init__.py",
+      "git_blob": "dd530afe231da39419503b4c67daaeaef5c67e78",
+      "bytes": 5213
+    },
+    {
+      "path": "mujoco_playground/_src/manipulation/aero_hand/__init__.py",
+      "git_blob": "45614d8d30410ed32b04527bc6020d0b02f9a446",
+      "bytes": 606
+    },
+    {
+      "path": "mujoco_playground/_src/manipulation/aero_hand/aero_hand_constants.py",
+      "git_blob": "31f80675816fab071d6bcca958306656905e9af7",
+      "bytes": 1836
+    },
+    {
+      "path": "mujoco_playground/_src/manipulation/aero_hand/base.py",
+      "git_blob": "3c05791711fdf76a87bba0f6964790cf6cfc191a",
+      "bytes": 4301
+    },
+    {
+      "path": "mujoco_playground/_src/manipulation/aero_hand/rotate_z.py",
+      "git_blob": "9411a7fdd9e9e80d566a2ee25037833658526897",
+      "bytes": 15624
+    },
+    {
+      "path": "mujoco_playground/_src/manipulation/aloha/__init__.py",
+      "git_blob": "75edc9bba7f3e7ec22e8282aa66852a536959013",
+      "bytes": 575
+    },
+    {
+      "path": "mujoco_playground/_src/manipulation/aloha/aloha_constants.py",
+      "git_blob": "431d8ffa509a6822996773c35e315b8922cbbef2",
+      "bytes": 1384
+    },
+    {
+      "path": "mujoco_playground/_src/manipulation/aloha/base.py",
+      "git_blob": "216d41b6289d9e01f85738e929bfb1c3e2070612",
+      "bytes": 3923
+    },
+    {
+      "path": "mujoco_playground/_src/manipulation/aloha/handover.py",
+      "git_blob": "e76364fbe9febdb29be94e2b8bbd90f78dd55027",
+      "bytes": 10050
+    },
+    {
+      "path": "mujoco_playground/_src/manipulation/aloha/single_peg_insertion.py",
+      "git_blob": "a0ad0cbb98fab6b0ff785e6e34822f1501cded08",
+      "bytes": 9420
+    },
+    {
+      "path": "mujoco_playground/_src/manipulation/franka_emika_panda/__init__.py",
+      "git_blob": "75edc9bba7f3e7ec22e8282aa66852a536959013",
+      "bytes": 575
+    },
+    {
+      "path": "mujoco_playground/_src/manipulation/franka_emika_panda/open_cabinet.py",
+      "git_blob": "50151d7007b9c38034bcb6f168b0d62e6bd54d82",
+      "bytes": 7583
+    },
+    {
+      "path": "mujoco_playground/_src/manipulation/franka_emika_panda/panda.py",
+      "git_blob": "6e1a985da473abaff19051ad76bd7d67cfcb1837",
+      "bytes": 3895
+    },
+    {
+      "path": "mujoco_playground/_src/manipulation/franka_emika_panda/panda_kinematics.py",
+      "git_blob": "59ca63950eec3ab2e718e96437025949bb3982d3",
+      "bytes": 8528
+    },
+    {
+      "path": "mujoco_playground/_src/manipulation/franka_emika_panda/pick.py",
+      "git_blob": "ed680d26e76fed6beac961373127a16e6a644c7d",
+      "bytes": 8444
+    },
+    {
+      "path": "mujoco_playground/_src/manipulation/franka_emika_panda/pick_cartesian.py",
+      "git_blob": "16803ce77d69aea2fca587d885b5e0926fa4e775",
+      "bytes": 15966
+    },
+    {
+      "path": "mujoco_playground/_src/manipulation/franka_emika_panda/randomize_vision.py",
+      "git_blob": "86809c9c70f1c40d79bf68b7da15c0d42a249ff4",
+      "bytes": 5992
+    },
+    {
+      "path": "mujoco_playground/_src/manipulation/franka_emika_panda/xmls/mjx_cabinet.xml",
+      "git_blob": "84d1cfba886924b8a493faad2d27857c4d824581",
+      "bytes": 1740
+    },
+    {
+      "path": "mujoco_playground/_src/manipulation/franka_emika_panda/xmls/mjx_scene.xml",
+      "git_blob": "fe80a2afdf205c3fa677f13fe2a7a16c0fdd6129",
+      "bytes": 1225
+    },
+    {
+      "path": "mujoco_playground/_src/manipulation/franka_emika_panda/xmls/mjx_single_cube.xml",
+      "git_blob": "26aebb74011728fbc016326194da66415ca20ae8",
+      "bytes": 1223
+    },
+    {
+      "path": "mujoco_playground/_src/manipulation/franka_emika_panda/xmls/mjx_single_cube_camera.xml",
+      "git_blob": "2d9be371c5fc3d1fa873d6e06930aa3221fe441c",
+      "bytes": 3510
+    },
+    {
+      "path": "mujoco_playground/_src/manipulation/franka_emika_panda/xmls/sensor.xml",
+      "git_blob": "9a4a5f06c4016812af9fd8b656da2e16125487ba",
+      "bytes": 524
+    },
+    {
+      "path": "mujoco_playground/_src/manipulation/franka_emika_panda_robotiq/__init__.py",
+      "git_blob": "75edc9bba7f3e7ec22e8282aa66852a536959013",
+      "bytes": 575
+    },
+    {
+      "path": "mujoco_playground/_src/manipulation/franka_emika_panda_robotiq/panda_robotiq.py",
+      "git_blob": "1abdb90bb534651ab237dbadae9759305cc20c13",
+      "bytes": 6126
+    },
+    {
+      "path": "mujoco_playground/_src/manipulation/franka_emika_panda_robotiq/push_cube.py",
+      "git_blob": "fb1ebd5899346508a3ab278974518e64e2a32258",
+      "bytes": 20429
+    },
+    {
+      "path": "mujoco_playground/_src/manipulation/leap_hand/__init__.py",
+      "git_blob": "75edc9bba7f3e7ec22e8282aa66852a536959013",
+      "bytes": 575
+    },
+    {
+      "path": "mujoco_playground/_src/manipulation/leap_hand/base.py",
+      "git_blob": "6788c122379a20390e41504dae5425977eb71388",
+      "bytes": 4323
+    },
+    {
+      "path": "mujoco_playground/_src/manipulation/leap_hand/leap_hand_constants.py",
+      "git_blob": "e02ac84506c114cfa05248299281358a022be315",
+      "bytes": 1519
+    },
+    {
+      "path": "mujoco_playground/_src/manipulation/leap_hand/reorient.py",
+      "git_blob": "605c024700ecc64b3908c5ad70af14663da9b327",
+      "bytes": 21722
+    },
+    {
+      "path": "mujoco_playground/_src/manipulation/leap_hand/rotate_z.py",
+      "git_blob": "b0318f59468249c8064413d2ab7c79d82dc8faec",
+      "bytes": 13476
+    },
+    {
+      "path": "mujoco_playground/_src/manipulation/manipulation_test.py",
+      "git_blob": "df462d5e7a26f1f995a7412e22086169f0efa799",
+      "bytes": 1734
+    },
+    {
+      "path": "mujoco_playground/_src/mjx_env.py",
+      "git_blob": "dc72886aa753b5b84da313103c30a678bb9e7a95",
+      "bytes": 13451
+    },
+    {
+      "path": "mujoco_playground/_src/registry.py",
+      "git_blob": "521bc0bcb0f250c62f168b270d96ba299b954b91",
+      "bytes": 2451
+    },
+    {
+      "path": "mujoco_playground/_src/registry_test.py",
+      "git_blob": "744f04dc11d85e7ee8dbda39332c51e25ed0c5ac",
+      "bytes": 2379
+    },
+    {
+      "path": "mujoco_playground/_src/reward.py",
+      "git_blob": "15eb8ffcb521141edc36bb7e7012be8d9b74da2b",
+      "bytes": 4306
+    },
+    {
+      "path": "mujoco_playground/_src/wrapper.py",
+      "git_blob": "f6929b849c43a71e2eda4a55be9eeefab6fab428",
+      "bytes": 9841
+    },
+    {
+      "path": "mujoco_playground/_src/wrapper_test.py",
+      "git_blob": "1397009f330bc4e8e14940b3407aaf6283971d3b",
+      "bytes": 7870
+    },
+    {
+      "path": "mujoco_playground/_src/wrapper_torch.py",
+      "git_blob": "b537afaef465f22a7ba569bda3dcbb05fda93744",
+      "bytes": 7397
+    },
+    {
+      "path": "mujoco_playground/config/__init__.py",
+      "git_blob": "75edc9bba7f3e7ec22e8282aa66852a536959013",
+      "bytes": 575
+    },
+    {
+      "path": "mujoco_playground/config/dm_control_suite_params.py",
+      "git_blob": "b2d5fc5bc97c09550d158ae3a5af21d82046f651",
+      "bytes": 4516
+    },
+    {
+      "path": "mujoco_playground/config/locomotion_params.py",
+      "git_blob": "3b265900d17c894182651c248891d98c10d7b700",
+      "bytes": 7259
+    },
+    {
+      "path": "mujoco_playground/config/manipulation_params.py",
+      "git_blob": "b5d00c0b3fd5a1ea7c6d69b304326f73ced00397",
+      "bytes": 9526
+    },
+    {
+      "path": "mujoco_playground/experimental/madrona_benchmarking/benchmark.py",
+      "git_blob": "d21aad6d1d1b48a15dcc7f7a71d1b74e5df0d308",
+      "bytes": 8971
+    },
+    {
+      "path": "mujoco_playground/experimental/madrona_benchmarking/make_plots.py",
+      "git_blob": "34ffe7e6f833385546155357c65493331df721da",
+      "bytes": 19586
+    },
+    {
+      "path": "mujoco_playground/experimental/madrona_benchmarking/print_tables.py",
+      "git_blob": "fe7870a6c927bf2ceae5e9b8719247196ac0e0ea",
+      "bytes": 4814
+    },
+    {
+      "path": "mujoco_playground/experimental/sim2sim/gamepad_reader.py",
+      "git_blob": "fb14d95dd927e4d74249db73c7e09427ce6848e1",
+      "bytes": 3000
+    },
+    {
+      "path": "mujoco_playground/experimental/sim2sim/play_apollo_joystick.py",
+      "git_blob": "4da025e004fe430b84e15baf3856a41ce5941f35",
+      "bytes": 4471
+    },
+    {
+      "path": "mujoco_playground/experimental/sim2sim/play_bh_joystick.py",
+      "git_blob": "611b653ba91c9e61d4825b64d8f9b203e74412e2",
+      "bytes": 4095
+    },
+    {
+      "path": "mujoco_playground/experimental/sim2sim/play_g1_joystick.py",
+      "git_blob": "1a05178c8c78e721b393e459a7aeabefa1505c9e",
+      "bytes": 4064
+    },
+    {
+      "path": "mujoco_playground/experimental/sim2sim/play_go1_joystick.py",
+      "git_blob": "1e27295c40a760394886e6c5ef2a09820900376a",
+      "bytes": 3653
+    },
+    {
+      "path": "mujoco_playground/experimental/sim2sim/play_leap_reorient.py",
+      "git_blob": "3c1b83813a008cc4e3d0873b6ff4b2aae422abf1",
+      "bytes": 4260
+    },
+    {
+      "path": "mujoco_playground/experimental/sim2sim/play_t1_joystick.py",
+      "git_blob": "cd6cd654ed3ad77d7035d32d9c9adb394de7692b",
+      "bytes": 4211
+    },
+    {
+      "path": "mujoco_playground/experimental/utils/plotting.py",
+      "git_blob": "43fee467679819ecdbbbf75973490ca5089aa723",
+      "bytes": 11672
+    },
+    {
+      "path": "LICENSE",
+      "git_blob": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "bytes": 11358
+    }
+  ],
+  "asset_files": [
+    {
+      "path": "franka_emika_panda/CHANGELOG.md",
+      "git_blob": "ca435bea21ba35429a0f63caf27274832088eaa6",
+      "bytes": 235
+    },
+    {
+      "path": "franka_emika_panda/LICENSE",
+      "git_blob": "d9a10c0d8e868ebf8da0b3dc95bb0be634c34bfe",
+      "bytes": 10173
+    },
+    {
+      "path": "franka_emika_panda/README.md",
+      "git_blob": "fe10493a981079003d1f7fa245225703ad520b0f",
+      "bytes": 2908
+    },
+    {
+      "path": "franka_emika_panda/assets/finger_0.obj",
+      "git_blob": "104cf631a225dad6a0bdc8f5cf31dc994c75216f",
+      "bytes": 87872
+    },
+    {
+      "path": "franka_emika_panda/assets/finger_1.obj",
+      "git_blob": "31364d4804285e0594878adf0972d543453caff1",
+      "bytes": 64651
+    },
+    {
+      "path": "franka_emika_panda/assets/hand.stl",
+      "git_blob": "4e820902eba7b9d959a2e0cc8091f4b0f09ed77a",
+      "bytes": 10084
+    },
+    {
+      "path": "franka_emika_panda/assets/hand_0.obj",
+      "git_blob": "d211d88e9235bcf0aef55944c0a4dd442e6043bc",
+      "bytes": 9091
+    },
+    {
+      "path": "franka_emika_panda/assets/hand_1.obj",
+      "git_blob": "88e32af1cf1e84c6c1a01506481630393b90b8dc",
+      "bytes": 121863
+    },
+    {
+      "path": "franka_emika_panda/assets/hand_2.obj",
+      "git_blob": "1611d55faf3a901e13e51e499c19d9fff438c7db",
+      "bytes": 596001
+    },
+    {
+      "path": "franka_emika_panda/assets/hand_3.obj",
+      "git_blob": "3fcd6f303523ad716ae56013a9b06acdd8b413d6",
+      "bytes": 902145
+    },
+    {
+      "path": "franka_emika_panda/assets/hand_4.obj",
+      "git_blob": "0b308459702bf47c8e1a17b60486a6f9c6aa77f2",
+      "bytes": 151988
+    },
+    {
+      "path": "franka_emika_panda/assets/link0.stl",
+      "git_blob": "def070c7077c0ddb33bbe16cd6c75f19dd318734",
+      "bytes": 10084
+    },
+    {
+      "path": "franka_emika_panda/assets/link0_0.obj",
+      "git_blob": "49d5e9f85dc38178073cfe0ff0cc007f9e0ea5fc",
+      "bytes": 296497
+    },
+    {
+      "path": "franka_emika_panda/assets/link0_1.obj",
+      "git_blob": "6bce09cfb9561bf387ab052a2ec0d0b514cfa269",
+      "bytes": 103978
+    },
+    {
+      "path": "franka_emika_panda/assets/link0_10.obj",
+      "git_blob": "b1475760a6c8bcd12252f74b55482faaf5202359",
+      "bytes": 343308
+    },
+    {
+      "path": "franka_emika_panda/assets/link0_11.obj",
+      "git_blob": "b4c3117c70af56a581e50a6758c60c2368d211cb",
+      "bytes": 22295
+    },
+    {
+      "path": "franka_emika_panda/assets/link0_2.obj",
+      "git_blob": "33fb68f14f85785ce5399a4a2e806ef30aeda624",
+      "bytes": 590892
+    },
+    {
+      "path": "franka_emika_panda/assets/link0_3.obj",
+      "git_blob": "2960c9116f94d3d71caa28efd2a4928997c8edaf",
+      "bytes": 47588
+    },
+    {
+      "path": "franka_emika_panda/assets/link0_4.obj",
+      "git_blob": "5218f67d8acfc17bf5b66b5d340b87ff557dff73",
+      "bytes": 211200
+    },
+    {
+      "path": "franka_emika_panda/assets/link0_5.obj",
+      "git_blob": "91dd8aff8f2d604d5b19f9d5b4fd9ef90944e740",
+      "bytes": 17023
+    },
+    {
+      "path": "franka_emika_panda/assets/link0_7.obj",
+      "git_blob": "68bcdf9cee7a61b10bd0b64b45cee82adb8da6c9",
+      "bytes": 30699
+    },
+    {
+      "path": "franka_emika_panda/assets/link0_8.obj",
+      "git_blob": "51f418a02bc35ae501e2243ffff81457c2fc85b4",
+      "bytes": 3263194
+    },
+    {
+      "path": "franka_emika_panda/assets/link0_9.obj",
+      "git_blob": "3f809da9d0f0764dfa780b231edf9a0e8f729ce8",
+      "bytes": 105629
+    },
+    {
+      "path": "franka_emika_panda/assets/link1.obj",
+      "git_blob": "f49e713092445a09b81f03552acf9e9d1b43b18e",
+      "bytes": 3274995
+    },
+    {
+      "path": "franka_emika_panda/assets/link1.stl",
+      "git_blob": "426bcf2d7a04e067e01ab198d0ccfef63c6846e8",
+      "bytes": 15084
+    },
+    {
+      "path": "franka_emika_panda/assets/link2.obj",
+      "git_blob": "a1d5d92c7bf6549927ae704fa98cffeb512ad040",
+      "bytes": 3295608
+    },
+    {
+      "path": "franka_emika_panda/assets/link2.stl",
+      "git_blob": "b369f1599a3c1356611716621f998bd8b5a8863b",
+      "bytes": 15084
+    },
+    {
+      "path": "franka_emika_panda/assets/link3.stl",
+      "git_blob": "25162eeedf286d1e27fdd4ba38950ae90678bb0f",
+      "bytes": 15084
+    },
+    {
+      "path": "franka_emika_panda/assets/link3_0.obj",
+      "git_blob": "039065e91d8e92ed12aed91f3540c36c605197b1",
+      "bytes": 3046804
+    },
+    {
+      "path": "franka_emika_panda/assets/link3_1.obj",
+      "git_blob": "6ce40eb74eabd150e7a066198f983baf8e8ed042",
+      "bytes": 65260
+    },
+    {
+      "path": "franka_emika_panda/assets/link3_2.obj",
+      "git_blob": "00f2e27de6e5dbe773f7b056ba722421733bb08e",
+      "bytes": 83591
+    },
+    {
+      "path": "franka_emika_panda/assets/link3_3.obj",
+      "git_blob": "428533ad0c7ba766f46a8ff572527b277c5b3928",
+      "bytes": 457684
+    },
+    {
+      "path": "franka_emika_panda/assets/link4.stl",
+      "git_blob": "76c8c33c3e1e6c184f8c3693b390892c25b179e3",
+      "bytes": 15084
+    },
+    {
+      "path": "franka_emika_panda/assets/link4_0.obj",
+      "git_blob": "d497e1d381adb44779b39d0273d3ee3e27eb2d3a",
+      "bytes": 83486
+    },
+    {
+      "path": "franka_emika_panda/assets/link4_1.obj",
+      "git_blob": "32d853f4dc53639324923eadfd6eca1c0c101350",
+      "bytes": 3148001
+    },
+    {
+      "path": "franka_emika_panda/assets/link4_2.obj",
+      "git_blob": "77b8a6d245b45955ecea73c18c80fffb977f23f6",
+      "bytes": 455522
+    },
+    {
+      "path": "franka_emika_panda/assets/link4_3.obj",
+      "git_blob": "5f46aea8f9520cc60387d94fadc241a544de1ec7",
+      "bytes": 67497
+    },
+    {
+      "path": "franka_emika_panda/assets/link5_0.obj",
+      "git_blob": "b81d9466e2c535ab2c8e1a4d665d3e2d361eedbe",
+      "bytes": 824158
+    },
+    {
+      "path": "franka_emika_panda/assets/link5_1.obj",
+      "git_blob": "902daf327ca4d9388977bdc1f126e40d70945216",
+      "bytes": 63174
+    },
+    {
+      "path": "franka_emika_panda/assets/link5_2.obj",
+      "git_blob": "d598fc55e7da0843f957d664d79a6da3416d68c0",
+      "bytes": 3856621
+    },
+    {
+      "path": "franka_emika_panda/assets/link5_collision_0.obj",
+      "git_blob": "6d6eb5203b88af66dd209f3866755fdaf718b22d",
+      "bytes": 3861
+    },
+    {
+      "path": "franka_emika_panda/assets/link5_collision_1.obj",
+      "git_blob": "2eeeeea1709d0fe8f5232ee81544b1d520f0f5e1",
+      "bytes": 2412
+    },
+    {
+      "path": "franka_emika_panda/assets/link5_collision_2.obj",
+      "git_blob": "6b563bff798a9b4607e3ae7e4e2847f13c0bda0b",
+      "bytes": 3786
+    },
+    {
+      "path": "franka_emika_panda/assets/link6.stl",
+      "git_blob": "2e9594a873f97e572ec68a4e0ab6d65f41f5007e",
+      "bytes": 10084
+    },
+    {
+      "path": "franka_emika_panda/assets/link6_0.obj",
+      "git_blob": "a1816531102045e49d1bb7e533df8eb1dea2e87f",
+      "bytes": 157563
+    },
+    {
+      "path": "franka_emika_panda/assets/link6_1.obj",
+      "git_blob": "7548d77d2984209889c7fa4c4afc36427783d021",
+      "bytes": 27106
+    },
+    {
+      "path": "franka_emika_panda/assets/link6_10.obj",
+      "git_blob": "9ff9ebdc5ce9055b2c2b0abb83de8d3fd6a04b83",
+      "bytes": 368502
+    },
+    {
+      "path": "franka_emika_panda/assets/link6_11.obj",
+      "git_blob": "4fdbfcd4255c063a62f3425ef15ecd03d511978d",
+      "bytes": 32653
+    },
+    {
+      "path": "franka_emika_panda/assets/link6_12.obj",
+      "git_blob": "e5e59fa4b6d69d7f9133f9761456432c928d6902",
+      "bytes": 3894
+    },
+    {
+      "path": "franka_emika_panda/assets/link6_13.obj",
+      "git_blob": "e3e7a2e37284f9c66845b24708b5f3b20216cfd6",
+      "bytes": 3798
+    },
+    {
+      "path": "franka_emika_panda/assets/link6_14.obj",
+      "git_blob": "3a28c781c3de90a5b23c1d78e1faf357888f5ec7",
+      "bytes": 444469
+    },
+    {
+      "path": "franka_emika_panda/assets/link6_15.obj",
+      "git_blob": "154c260c3664c349a83ea86cec2586368544a5c8",
+      "bytes": 668552
+    },
+    {
+      "path": "franka_emika_panda/assets/link6_16.obj",
+      "git_blob": "ef541608c6e1722dc09c3752a06675110fbef7d7",
+      "bytes": 3675358
+    },
+    {
+      "path": "franka_emika_panda/assets/link6_2.obj",
+      "git_blob": "6281d594fdad7ea84c116a2d515eca74fe87711d",
+      "bytes": 9916
+    },
+    {
+      "path": "franka_emika_panda/assets/link6_3.obj",
+      "git_blob": "212943b17bd21713eab8279ad905b8323d366e09",
+      "bytes": 11943
+    },
+    {
+      "path": "franka_emika_panda/assets/link6_4.obj",
+      "git_blob": "17aff9f4a6d4103e35ae723c927a0749eaa67df3",
+      "bytes": 13846
+    },
+    {
+      "path": "franka_emika_panda/assets/link6_5.obj",
+      "git_blob": "af8b5cc59cb1c5c9c22993b7f2481b9e6baf63cb",
+      "bytes": 11841
+    },
+    {
+      "path": "franka_emika_panda/assets/link6_6.obj",
+      "git_blob": "db6f0d570a3f5bbfc52d0e12424f10dd3f79298b",
+      "bytes": 12597
+    },
+    {
+      "path": "franka_emika_panda/assets/link6_7.obj",
+      "git_blob": "eb3a586c82ae32cfb63546b83a0d9142fdb8e9af",
+      "bytes": 4382
+    },
+    {
+      "path": "franka_emika_panda/assets/link6_8.obj",
+      "git_blob": "dc28c6d1d77f68a5796234a9702b6aa8776b5b60",
+      "bytes": 9131
+    },
+    {
+      "path": "franka_emika_panda/assets/link6_9.obj",
+      "git_blob": "56421f8d7f1dbc11460641e60fd419c83442de7b",
+      "bytes": 17616
+    },
+    {
+      "path": "franka_emika_panda/assets/link7.stl",
+      "git_blob": "0532d057507637533d25f4b3ed451f213685a61d",
+      "bytes": 10084
+    },
+    {
+      "path": "franka_emika_panda/assets/link7_0.obj",
+      "git_blob": "f87d32aa31656ceb036a4bedfddba0d9378b1336",
+      "bytes": 1362355
+    },
+    {
+      "path": "franka_emika_panda/assets/link7_1.obj",
+      "git_blob": "762c0a8583367c5450efcfc74007c80d6b25ae14",
+      "bytes": 121358
+    },
+    {
+      "path": "franka_emika_panda/assets/link7_2.obj",
+      "git_blob": "2a35c5f8240c9fa0b163e201b01a458e3af8fa08",
+      "bytes": 208907
+    },
+    {
+      "path": "franka_emika_panda/assets/link7_3.obj",
+      "git_blob": "8ff85cf7722b24050e56cc4af50eeb24d48eb8c8",
+      "bytes": 123684
+    },
+    {
+      "path": "franka_emika_panda/assets/link7_4.obj",
+      "git_blob": "2cdad2df7a5771fc0a1440992a5738ab9613a1d5",
+      "bytes": 85732
+    },
+    {
+      "path": "franka_emika_panda/assets/link7_5.obj",
+      "git_blob": "860d25fc767ed54c5c5ab92981de716a88496dc2",
+      "bytes": 226402
+    },
+    {
+      "path": "franka_emika_panda/assets/link7_6.obj",
+      "git_blob": "9c00fa0369770bbefdcc6e423b7e99e83aa69b77",
+      "bytes": 99900
+    },
+    {
+      "path": "franka_emika_panda/assets/link7_7.obj",
+      "git_blob": "19d7b0f6621e64114fc0ca49f87e8ebeade4d713",
+      "bytes": 792162
+    },
+    {
+      "path": "franka_emika_panda/hand.xml",
+      "git_blob": "b386048ef08f0ddb93a5f902efb09865be89af5f",
+      "bytes": 4547
+    },
+    {
+      "path": "franka_emika_panda/mjx_panda.xml",
+      "git_blob": "0699d23587b0bda62963eea12e5fd8c66d2e1099",
+      "bytes": 14426
+    },
+    {
+      "path": "franka_emika_panda/mjx_panda_nohand.xml",
+      "git_blob": "5d85772b45f937f51a5dcef1d6d72cbb83ef6439",
+      "bytes": 10487
+    },
+    {
+      "path": "franka_emika_panda/mjx_scene.xml",
+      "git_blob": "71b6202c18f2665b26f611f8a592dc15ad079fee",
+      "bytes": 1209
+    },
+    {
+      "path": "franka_emika_panda/mjx_single_cube.xml",
+      "git_blob": "47e6ac1e4b577e1d3e259ec1a4ad44ad7369c88d",
+      "bytes": 1185
+    },
+    {
+      "path": "franka_emika_panda/panda.png",
+      "git_blob": "01e9cc58645e568cf28addcadea57f8517c857f3",
+      "bytes": 2192427
+    },
+    {
+      "path": "franka_emika_panda/panda.xml",
+      "git_blob": "0d51ae3a52fdd48d35e22c18f3c3adbdaf2e6cd5",
+      "bytes": 14438
+    },
+    {
+      "path": "franka_emika_panda/panda_nohand.xml",
+      "git_blob": "c6273b4254e7c8d268063d19067a6dd004e95e7a",
+      "bytes": 11246
+    },
+    {
+      "path": "franka_emika_panda/scene.xml",
+      "git_blob": "4b322a111cc8ed315e0692c8ca1bb920b03a3abb",
+      "bytes": 865
+    }
+  ],
+  "world": {
+    "schema_id": "threemind.world/2",
+    "label": "PandaPickCube declared sensory and action ports",
+    "wiring_namespace": "playground-panda-v1",
+    "physics": {
+      "step_us": 5000,
+      "sample_us": 20000,
+      "gravity": [
+        0.0,
+        0.0,
+        -9.81
+      ],
+      "integrator": "implicitfast",
+      "iterations": 50
+    },
+    "bodies": [
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "body1",
+        "label": "link0",
+        "parent_id": null,
+        "free": false
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "body2",
+        "label": "link1",
+        "parent_id": "body1",
+        "free": false
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "body3",
+        "label": "link2",
+        "parent_id": "body2",
+        "free": false
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "body4",
+        "label": "link3",
+        "parent_id": "body3",
+        "free": false
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "body5",
+        "label": "link4",
+        "parent_id": "body4",
+        "free": false
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "body6",
+        "label": "link5",
+        "parent_id": "body5",
+        "free": false
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "body7",
+        "label": "link6",
+        "parent_id": "body6",
+        "free": false
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "body8",
+        "label": "link7",
+        "parent_id": "body7",
+        "free": false
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "body9",
+        "label": "hand",
+        "parent_id": "body8",
+        "free": false
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "body10",
+        "label": "left_finger",
+        "parent_id": "body9",
+        "free": false
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "body11",
+        "label": "right_finger",
+        "parent_id": "body9",
+        "free": false
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "body12",
+        "label": "box",
+        "parent_id": null,
+        "free": false
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "body13",
+        "label": "mocap_target",
+        "parent_id": null,
+        "free": false
+      }
+    ],
+    "geometries": [
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom0",
+        "label": "floor",
+        "body_id": null,
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom1",
+        "label": "geom1",
+        "body_id": "body1",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom2",
+        "label": "geom2",
+        "body_id": "body1",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom3",
+        "label": "geom3",
+        "body_id": "body1",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom4",
+        "label": "geom4",
+        "body_id": "body1",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom5",
+        "label": "geom5",
+        "body_id": "body1",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom6",
+        "label": "geom6",
+        "body_id": "body1",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom7",
+        "label": "geom7",
+        "body_id": "body1",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom8",
+        "label": "geom8",
+        "body_id": "body1",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom9",
+        "label": "geom9",
+        "body_id": "body1",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom10",
+        "label": "geom10",
+        "body_id": "body1",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom11",
+        "label": "geom11",
+        "body_id": "body1",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom12",
+        "label": "geom12",
+        "body_id": "body1",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom13",
+        "label": "geom13",
+        "body_id": "body2",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom14",
+        "label": "geom14",
+        "body_id": "body2",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom15",
+        "label": "geom15",
+        "body_id": "body3",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom16",
+        "label": "geom16",
+        "body_id": "body3",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom17",
+        "label": "geom17",
+        "body_id": "body4",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom18",
+        "label": "geom18",
+        "body_id": "body4",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom19",
+        "label": "geom19",
+        "body_id": "body4",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom20",
+        "label": "geom20",
+        "body_id": "body4",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom21",
+        "label": "geom21",
+        "body_id": "body4",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom22",
+        "label": "geom22",
+        "body_id": "body5",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom23",
+        "label": "geom23",
+        "body_id": "body5",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom24",
+        "label": "geom24",
+        "body_id": "body5",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom25",
+        "label": "geom25",
+        "body_id": "body5",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom26",
+        "label": "geom26",
+        "body_id": "body5",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom27",
+        "label": "geom27",
+        "body_id": "body6",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom28",
+        "label": "geom28",
+        "body_id": "body6",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom29",
+        "label": "geom29",
+        "body_id": "body6",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom30",
+        "label": "geom30",
+        "body_id": "body6",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom31",
+        "label": "geom31",
+        "body_id": "body6",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom32",
+        "label": "geom32",
+        "body_id": "body6",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom33",
+        "label": "geom33",
+        "body_id": "body7",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom34",
+        "label": "geom34",
+        "body_id": "body7",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom35",
+        "label": "geom35",
+        "body_id": "body7",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom36",
+        "label": "geom36",
+        "body_id": "body7",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom37",
+        "label": "geom37",
+        "body_id": "body7",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom38",
+        "label": "geom38",
+        "body_id": "body7",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom39",
+        "label": "geom39",
+        "body_id": "body7",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom40",
+        "label": "geom40",
+        "body_id": "body7",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom41",
+        "label": "geom41",
+        "body_id": "body7",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom42",
+        "label": "geom42",
+        "body_id": "body7",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom43",
+        "label": "geom43",
+        "body_id": "body7",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom44",
+        "label": "geom44",
+        "body_id": "body7",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom45",
+        "label": "geom45",
+        "body_id": "body7",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom46",
+        "label": "geom46",
+        "body_id": "body7",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom47",
+        "label": "geom47",
+        "body_id": "body7",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom48",
+        "label": "geom48",
+        "body_id": "body7",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom49",
+        "label": "geom49",
+        "body_id": "body7",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom50",
+        "label": "geom50",
+        "body_id": "body7",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom51",
+        "label": "geom51",
+        "body_id": "body8",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom52",
+        "label": "geom52",
+        "body_id": "body8",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom53",
+        "label": "geom53",
+        "body_id": "body8",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom54",
+        "label": "geom54",
+        "body_id": "body8",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom55",
+        "label": "geom55",
+        "body_id": "body8",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom56",
+        "label": "geom56",
+        "body_id": "body8",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom57",
+        "label": "geom57",
+        "body_id": "body8",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom58",
+        "label": "geom58",
+        "body_id": "body8",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom59",
+        "label": "geom59",
+        "body_id": "body8",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom60",
+        "label": "geom60",
+        "body_id": "body9",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom61",
+        "label": "geom61",
+        "body_id": "body9",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom62",
+        "label": "geom62",
+        "body_id": "body9",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom63",
+        "label": "geom63",
+        "body_id": "body9",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom64",
+        "label": "geom64",
+        "body_id": "body9",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom65",
+        "label": "geom65",
+        "body_id": "body9",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom66",
+        "label": "hand_capsule",
+        "body_id": "body9",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom67",
+        "label": "geom67",
+        "body_id": "body10",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom68",
+        "label": "geom68",
+        "body_id": "body10",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom69",
+        "label": "geom69",
+        "body_id": "body10",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom70",
+        "label": "geom70",
+        "body_id": "body10",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom71",
+        "label": "geom71",
+        "body_id": "body10",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom72",
+        "label": "geom72",
+        "body_id": "body10",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom73",
+        "label": "left_finger_pad",
+        "body_id": "body10",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom74",
+        "label": "geom74",
+        "body_id": "body11",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom75",
+        "label": "geom75",
+        "body_id": "body11",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom76",
+        "label": "geom76",
+        "body_id": "body11",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom77",
+        "label": "geom77",
+        "body_id": "body11",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom78",
+        "label": "geom78",
+        "body_id": "body11",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom79",
+        "label": "geom79",
+        "body_id": "body11",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom80",
+        "label": "right_finger_pad",
+        "body_id": "body11",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom81",
+        "label": "box",
+        "body_id": "body12",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "id": "geom82",
+        "label": "geom82",
+        "body_id": "body13",
+        "shape": "sphere",
+        "size": [
+          0.15
+        ],
+        "density": 100.0,
+        "friction": [
+          0.8,
+          0.005,
+          0.0001
+        ],
+        "rgba": [
+          0.22,
+          0.52,
+          0.45,
+          1.0
+        ],
+        "collision": true
+      }
+    ],
+    "joints": [
+      {
+        "id": "joint0",
+        "label": "joint1",
+        "body_id": "body2",
+        "kind": "hinge",
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "limits": [
+          -2.8973,
+          2.8973
+        ],
+        "damping": 0.5,
+        "initial": 0.0,
+        "initial_jitter": 0.0
+      },
+      {
+        "id": "joint1",
+        "label": "joint2",
+        "body_id": "body3",
+        "kind": "hinge",
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "limits": [
+          -1.7628,
+          1.7628
+        ],
+        "damping": 0.5,
+        "initial": 0.3,
+        "initial_jitter": 0.0
+      },
+      {
+        "id": "joint2",
+        "label": "joint3",
+        "body_id": "body4",
+        "kind": "hinge",
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "limits": [
+          -2.8973,
+          2.8973
+        ],
+        "damping": 0.5,
+        "initial": 0.0,
+        "initial_jitter": 0.0
+      },
+      {
+        "id": "joint3",
+        "label": "joint4",
+        "body_id": "body5",
+        "kind": "hinge",
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "limits": [
+          -3.0718,
+          -0.0698
+        ],
+        "damping": 0.5,
+        "initial": -1.57079,
+        "initial_jitter": 0.0
+      },
+      {
+        "id": "joint4",
+        "label": "joint5",
+        "body_id": "body6",
+        "kind": "hinge",
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "limits": [
+          -2.8973,
+          2.8973
+        ],
+        "damping": 0.5,
+        "initial": 0.0,
+        "initial_jitter": 0.0
+      },
+      {
+        "id": "joint5",
+        "label": "joint6",
+        "body_id": "body7",
+        "kind": "hinge",
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "limits": [
+          -0.0175,
+          3.7525
+        ],
+        "damping": 0.5,
+        "initial": 2.0,
+        "initial_jitter": 0.0
+      },
+      {
+        "id": "joint6",
+        "label": "joint7",
+        "body_id": "body8",
+        "kind": "hinge",
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "limits": [
+          -2.8973,
+          2.8973
+        ],
+        "damping": 0.5,
+        "initial": -0.7853,
+        "initial_jitter": 0.0
+      },
+      {
+        "id": "joint7",
+        "label": "finger_joint1",
+        "body_id": "body10",
+        "kind": "slide",
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "limits": [
+          0.0,
+          0.04
+        ],
+        "damping": 0.5,
+        "initial": 0.04,
+        "initial_jitter": 0.0
+      },
+      {
+        "id": "joint8",
+        "label": "finger_joint2",
+        "body_id": "body11",
+        "kind": "slide",
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "limits": [
+          0.0,
+          0.04
+        ],
+        "damping": 0.5,
+        "initial": 0.04,
+        "initial_jitter": 0.0
+      }
+    ],
+    "motors": [
+      {
+        "id": "motor0",
+        "label": "actuator1",
+        "port": 0,
+        "joint_id": "joint0",
+        "gear": 1.0,
+        "control_limit": 100.0,
+        "projection_gain": 0.02
+      },
+      {
+        "id": "motor1",
+        "label": "actuator2",
+        "port": 1,
+        "joint_id": "joint1",
+        "gear": 1.0,
+        "control_limit": 100.0,
+        "projection_gain": 0.02
+      },
+      {
+        "id": "motor2",
+        "label": "actuator3",
+        "port": 2,
+        "joint_id": "joint2",
+        "gear": 1.0,
+        "control_limit": 100.0,
+        "projection_gain": 0.02
+      },
+      {
+        "id": "motor3",
+        "label": "actuator4",
+        "port": 3,
+        "joint_id": "joint3",
+        "gear": 1.0,
+        "control_limit": 100.0,
+        "projection_gain": 0.02
+      },
+      {
+        "id": "motor4",
+        "label": "actuator5",
+        "port": 4,
+        "joint_id": "joint4",
+        "gear": 1.0,
+        "control_limit": 12.0,
+        "projection_gain": 0.02
+      },
+      {
+        "id": "motor5",
+        "label": "actuator6",
+        "port": 5,
+        "joint_id": "joint5",
+        "gear": 1.0,
+        "control_limit": 12.0,
+        "projection_gain": 0.02
+      },
+      {
+        "id": "motor6",
+        "label": "actuator7",
+        "port": 6,
+        "joint_id": "joint6",
+        "gear": 1.0,
+        "control_limit": 12.0,
+        "projection_gain": 0.02
+      },
+      {
+        "id": "motor7",
+        "label": "actuator8",
+        "port": 7,
+        "joint_id": "joint7",
+        "gear": 1.0,
+        "control_limit": 200.0,
+        "projection_gain": 0.02
+      }
+    ],
+    "sensors": [
+      {
+        "id": "joint_positionjoint0",
+        "label": "",
+        "port": 0,
+        "kind": "joint_position",
+        "joint_id": "joint0",
+        "scale": 3.0
+      },
+      {
+        "id": "joint_velocityjoint0",
+        "label": "",
+        "port": 1,
+        "kind": "joint_velocity",
+        "joint_id": "joint0",
+        "scale": 5.0
+      },
+      {
+        "id": "joint_positionjoint1",
+        "label": "",
+        "port": 2,
+        "kind": "joint_position",
+        "joint_id": "joint1",
+        "scale": 3.0
+      },
+      {
+        "id": "joint_velocityjoint1",
+        "label": "",
+        "port": 3,
+        "kind": "joint_velocity",
+        "joint_id": "joint1",
+        "scale": 5.0
+      },
+      {
+        "id": "joint_positionjoint2",
+        "label": "",
+        "port": 4,
+        "kind": "joint_position",
+        "joint_id": "joint2",
+        "scale": 3.0
+      },
+      {
+        "id": "joint_velocityjoint2",
+        "label": "",
+        "port": 5,
+        "kind": "joint_velocity",
+        "joint_id": "joint2",
+        "scale": 5.0
+      },
+      {
+        "id": "joint_positionjoint3",
+        "label": "",
+        "port": 6,
+        "kind": "joint_position",
+        "joint_id": "joint3",
+        "scale": 3.0
+      },
+      {
+        "id": "joint_velocityjoint3",
+        "label": "",
+        "port": 7,
+        "kind": "joint_velocity",
+        "joint_id": "joint3",
+        "scale": 5.0
+      },
+      {
+        "id": "joint_positionjoint4",
+        "label": "",
+        "port": 8,
+        "kind": "joint_position",
+        "joint_id": "joint4",
+        "scale": 3.0
+      },
+      {
+        "id": "joint_velocityjoint4",
+        "label": "",
+        "port": 9,
+        "kind": "joint_velocity",
+        "joint_id": "joint4",
+        "scale": 5.0
+      },
+      {
+        "id": "joint_positionjoint5",
+        "label": "",
+        "port": 10,
+        "kind": "joint_position",
+        "joint_id": "joint5",
+        "scale": 3.0
+      },
+      {
+        "id": "joint_velocityjoint5",
+        "label": "",
+        "port": 11,
+        "kind": "joint_velocity",
+        "joint_id": "joint5",
+        "scale": 5.0
+      },
+      {
+        "id": "joint_positionjoint6",
+        "label": "",
+        "port": 12,
+        "kind": "joint_position",
+        "joint_id": "joint6",
+        "scale": 3.0
+      },
+      {
+        "id": "joint_velocityjoint6",
+        "label": "",
+        "port": 13,
+        "kind": "joint_velocity",
+        "joint_id": "joint6",
+        "scale": 5.0
+      },
+      {
+        "id": "joint_positionjoint7",
+        "label": "",
+        "port": 14,
+        "kind": "joint_position",
+        "joint_id": "joint7",
+        "scale": 3.0
+      },
+      {
+        "id": "joint_velocityjoint7",
+        "label": "",
+        "port": 15,
+        "kind": "joint_velocity",
+        "joint_id": "joint7",
+        "scale": 5.0
+      },
+      {
+        "id": "joint_positionjoint8",
+        "label": "",
+        "port": 16,
+        "kind": "joint_position",
+        "joint_id": "joint8",
+        "scale": 3.0
+      },
+      {
+        "id": "joint_velocityjoint8",
+        "label": "",
+        "port": 17,
+        "kind": "joint_velocity",
+        "joint_id": "joint8",
+        "scale": 5.0
+      }
+    ],
+    "forces": []
+  },
+  "object_names": {
+    "b_body1": 1,
+    "b_body2": 2,
+    "b_body3": 3,
+    "b_body4": 4,
+    "b_body5": 5,
+    "b_body6": 6,
+    "b_body7": 7,
+    "b_body8": 8,
+    "b_body9": 9,
+    "b_body10": 10,
+    "b_body11": 11,
+    "b_body12": 12,
+    "b_body13": 13,
+    "j_joint0": 0,
+    "j_joint1": 1,
+    "j_joint2": 2,
+    "j_joint3": 3,
+    "j_joint4": 4,
+    "j_joint5": 5,
+    "j_joint6": 6,
+    "j_joint7": 7,
+    "j_joint8": 8,
+    "a_motor0": 0,
+    "a_motor1": 1,
+    "a_motor2": 2,
+    "a_motor3": 3,
+    "a_motor4": 4,
+    "a_motor5": 5,
+    "a_motor6": 6,
+    "a_motor7": 7,
+    "g_geom0": 0,
+    "g_geom1": 1,
+    "g_geom2": 2,
+    "g_geom3": 3,
+    "g_geom4": 4,
+    "g_geom5": 5,
+    "g_geom6": 6,
+    "g_geom7": 7,
+    "g_geom8": 8,
+    "g_geom9": 9,
+    "g_geom10": 10,
+    "g_geom11": 11,
+    "g_geom12": 12,
+    "g_geom13": 13,
+    "g_geom14": 14,
+    "g_geom15": 15,
+    "g_geom16": 16,
+    "g_geom17": 17,
+    "g_geom18": 18,
+    "g_geom19": 19,
+    "g_geom20": 20,
+    "g_geom21": 21,
+    "g_geom22": 22,
+    "g_geom23": 23,
+    "g_geom24": 24,
+    "g_geom25": 25,
+    "g_geom26": 26,
+    "g_geom27": 27,
+    "g_geom28": 28,
+    "g_geom29": 29,
+    "g_geom30": 30,
+    "g_geom31": 31,
+    "g_geom32": 32,
+    "g_geom33": 33,
+    "g_geom34": 34,
+    "g_geom35": 35,
+    "g_geom36": 36,
+    "g_geom37": 37,
+    "g_geom38": 38,
+    "g_geom39": 39,
+    "g_geom40": 40,
+    "g_geom41": 41,
+    "g_geom42": 42,
+    "g_geom43": 43,
+    "g_geom44": 44,
+    "g_geom45": 45,
+    "g_geom46": 46,
+    "g_geom47": 47,
+    "g_geom48": 48,
+    "g_geom49": 49,
+    "g_geom50": 50,
+    "g_geom51": 51,
+    "g_geom52": 52,
+    "g_geom53": 53,
+    "g_geom54": 54,
+    "g_geom55": 55,
+    "g_geom56": 56,
+    "g_geom57": 57,
+    "g_geom58": 58,
+    "g_geom59": 59,
+    "g_geom60": 60,
+    "g_geom61": 61,
+    "g_geom62": 62,
+    "g_geom63": 63,
+    "g_geom64": 64,
+    "g_geom65": 65,
+    "g_geom66": 66,
+    "g_geom67": 67,
+    "g_geom68": 68,
+    "g_geom69": 69,
+    "g_geom70": 70,
+    "g_geom71": 71,
+    "g_geom72": 72,
+    "g_geom73": 73,
+    "g_geom74": 74,
+    "g_geom75": 75,
+    "g_geom76": 76,
+    "g_geom77": 77,
+    "g_geom78": 78,
+    "g_geom79": 79,
+    "g_geom80": 80,
+    "g_geom81": 81,
+    "g_geom82": 82
+  },
+  "endpoint": "body9",
+  "object_body": "body12"
+}

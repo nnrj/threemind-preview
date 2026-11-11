@@ -1,0 +1,36 @@
+{
+  "scope": "E2c evidence-bound AI research record and report proposals",
+  "date": "2026-09-07",
+  "status": "verified",
+  "database_schema": 28,
+  "scientific_contracts_changed": false,
+  "scientific_parameters": 419,
+  "legacy_fields_reviewed": 55,
+  "legacy_fields_pending": 0,
+  "full_suite": {"passed": 347, "skipped": 0, "seconds": 544.46, "log": ".work/research-ai-full-1.log"},
+  "ai_regression": {"passed": 21, "seconds": 80.26, "log": ".work/research-ai-backend-2.log"},
+  "final_backend": {"passed": 10, "seconds": 48.32, "log": ".work/research-ai-target-final.log"},
+  "final_browser": {"browser": "Microsoft Edge", "passed": 6, "seconds": 36.2, "log": ".work/research-ai-browser-final.log"},
+  "build": {"passed": true, "log": ".work/research-ai-build-final.log"},
+  "static_audit": {"ruff": "passed", "translations": 3573, "missing_translations": 0, "duplicate_translation_keys": 0},
+  "external_paid_ai_calls": 0,
+  "checks": [
+    "complete captured-row aggregation, preserving missing values and unknown-commit omissions",
+    "all paired-analysis endpoints including negative and missing effects, plus censoring coverage",
+    "request preview fingerprint, canonical source hashes and fixed selected record blocks",
+    "source retention during generation and immutable request references",
+    "strict JSON and scope validation reject fabricated values, extra sources and omitted endpoints",
+    "new unreviewed document per generation; duplicate operation and recovered job do not duplicate effects",
+    "cancellation, provider revision, project access and transaction rollback boundaries",
+    "generation provenance in editing, preview, export and call detail navigation",
+    "real loopback mock provider, lost acknowledgement retry and 390 px dark evidence preview"
+  ],
+  "screenshots": ["docs/images/v2/research-ai-record.png", "docs/images/v2/research-ai-mobile.png", "docs/images/v2/research-ai-mobile-evidence.png"],
+  "remaining_in_E2": ["explicit fixed-revision sharing", "input/intervention/event sources"],
+  "limitations": [
+    "8 selected sources, 64 metrics and 120 KB evidence summary; excess rejected rather than truncated",
+    "aggregate summaries do not preserve pointwise trajectories or establish causality",
+    "structural validation does not establish correctness of natural-language interpretation",
+    "engineering fixtures do not establish consciousness or AGI"
+  ]
+}

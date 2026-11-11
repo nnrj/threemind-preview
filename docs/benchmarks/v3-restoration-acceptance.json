@@ -1,0 +1,282 @@
+{
+  "schema": "threemind-v3-restoration-validation/1",
+  "date": "2026-09-08",
+  "dynamics": "threemind.causal/8",
+  "state": "threemind.state/6",
+  "lab_schema": 48,
+  "source_oracle": "tests_v2/fixtures/v3-restoration.json",
+  "source_baselines": [
+    {
+      "revision": "97d8592",
+      "path": "core/threemind/runtime.py",
+      "sha256": "4263c8e921a7cce73faba23fb6f673ecd1e0302846c7c17c14faa13fb31d9cdd"
+    },
+    {
+      "revision": "97d8592",
+      "path": "core/threemind/model.py",
+      "sha256": "958046eaf861a6e0db5841ca95d764879662e59be79f50a52c96dd3f3b8ef939"
+    },
+    {
+      "revision": "97d8592",
+      "path": "core/threemind/frames.py",
+      "sha256": "a1da68bf0eb5aa17758995eb83018142f18c66dd8436c8471186c6fc4a2221ad"
+    },
+    {
+      "revision": "97d8592",
+      "path": "core/threemind/attention.py",
+      "sha256": "b5b4a3256c52bb971be7706b6c9a684a44ac1a2fe88f06f38ecc44bc04a796a2"
+    },
+    {
+      "revision": "0c5e64a",
+      "path": "legacy/ui/src/Lab.tsx",
+      "sha256": "90ac189e4c82dbfae633d083cdda0a377b581e39292e40a92621c3c619e0068d"
+    },
+    {
+      "revision": "0c5e64a",
+      "path": "legacy/ui/src/MediaControls.tsx",
+      "sha256": "89d530075fe1f9d71d89cdd6b3b6a09aa520c2fe5b04c75354f20efcd25b3844"
+    }
+  ],
+  "initial_full_suite": {
+    "passed": 580,
+    "failed": 18,
+    "failure_cases": [
+      "tests_v2/test_cold_state.py::test_archived_dead_core_releases_mutability_and_preserves_all_observations[reference]",
+      "tests_v2/test_cold_state.py::test_archived_dead_core_releases_mutability_and_preserves_all_observations[native]",
+      "tests_v2/test_device_wiring.py::test_schema_40_upgrade_preserves_wiring_across_forced_rls_projects",
+      "tests_v2/test_ecology_api.py::test_phase_closure_is_settled_before_same_boundary_reproduction",
+      "tests_v2/test_ecology_store.py::test_retired_brains_are_durable_and_do_not_load_or_copy_on_later_commits",
+      "tests_v2/test_inhibition_fidelity.py::test_local_inhibition_is_delayed_and_reduces_response_without_input_filtering[reference]",
+      "tests_v2/test_inhibition_fidelity.py::test_local_inhibition_is_delayed_and_reduces_response_without_input_filtering[native]",
+      "tests_v2/test_inhibition_fidelity.py::test_inhibition_follows_stimulus_formed_topology_and_survives_model_exchange[reference]",
+      "tests_v2/test_inhibition_fidelity.py::test_inhibition_follows_stimulus_formed_topology_and_survives_model_exchange[native]",
+      "tests_v2/test_readout_fidelity.py::test_upgrade_refreshes_waiting_jobs_in_each_project_without_touching_models",
+      "tests_v2/test_research_operations.py::test_incremental_research_migration_uses_its_own_schema_and_grants",
+      "tests_v2/test_spatial.py::test_distance_controls_adaptation_and_excitatory_flux_but_not_topology_deletion[reference]",
+      "tests_v2/test_spatial.py::test_distance_controls_adaptation_and_excitatory_flux_but_not_topology_deletion[native]",
+      "tests_v2/test_spatial.py::test_spatial_competition_uses_fixed_time_boundary_snapshot_and_keeps_inhibition_separate[reference]",
+      "tests_v2/test_spatial.py::test_spatial_competition_uses_fixed_time_boundary_snapshot_and_keeps_inhibition_separate[native]",
+      "tests_v2/test_spatial.py::test_competition_chain_is_not_changed_by_edge_traversal_order[reference]",
+      "tests_v2/test_spatial.py::test_competition_chain_is_not_changed_by_edge_traversal_order[native]",
+      "tests_v2/test_study_editor.py::test_study_shared_contract_and_frozen_attention_flag"
+    ],
+    "log_sha256": "f362d8571b3d5baed27866c3374e5b3608f502ddf295b02180b8e0fb6010b919"
+  },
+  "affected_latest_results": {
+    "passed": 114,
+    "failed": 0,
+    "runs": [
+      {
+        "source": ".work/v3-acceptance-junit.xml",
+        "sha256": "e787eab0d754f49eb535a93dfa6fc5f7eb28b9c1ea93ced50c6b7c245a378303",
+        "tests": 114,
+        "failures": 1
+      },
+      {
+        "source": ".work/v3-organ-final-junit.xml",
+        "sha256": "246ceb8047bee718114dc31ead7bc61b3f33fe03c587aa606d11248e331ed01b",
+        "tests": 5,
+        "failures": 0
+      }
+    ],
+    "cases": [
+      "tests_v2.test_cold_state::test_archived_dead_core_releases_mutability_and_preserves_all_observations[native]",
+      "tests_v2.test_cold_state::test_archived_dead_core_releases_mutability_and_preserves_all_observations[reference]",
+      "tests_v2.test_cold_state::test_state_reference_rejects_corruption_and_archival_of_a_live_core",
+      "tests_v2.test_device_wiring::test_learned_model_import_new_binding_and_credentials_preserve_dynamics",
+      "tests_v2.test_device_wiring::test_schema_40_upgrade_preserves_wiring_across_forced_rls_projects",
+      "tests_v2.test_device_wiring::test_wiring_roundtrip_rejects_corruption_ambiguity_and_unsupported_identity",
+      "tests_v2.test_device_wiring::test_wiring_validation_duplicate_binding_seed_and_project_boundaries",
+      "tests_v2.test_doc_resources::test_plans_menu_and_published_english_peer",
+      "tests_v2.test_doc_resources::test_public_document_resources_cannot_reach_secrets",
+      "tests_v2.test_ecology_api::test_catalogue_strict_defaults_immutable_protocol_scope_and_group_controls",
+      "tests_v2.test_ecology_api::test_lab_recovery_and_readout_phase_hooks_keep_actual_input_evidence",
+      "tests_v2.test_ecology_api::test_optional_external_inputs_and_lifecycle_lock_share_existing_bus",
+      "tests_v2.test_ecology_api::test_quiescence_deadline_and_phase_closure_precede_same_boundary_reproduction",
+      "tests_v2.test_ecology_store::test_committed_population_survives_lost_response_without_duplicate_evidence",
+      "tests_v2.test_ecology_store::test_group_rollback_recovery_and_exact_retry_keep_births_and_input_audit_atomic",
+      "tests_v2.test_ecology_store::test_lease_takeover_and_late_pause_preserve_complete_population",
+      "tests_v2.test_ecology_store::test_retired_brains_are_durable_and_do_not_load_or_copy_on_later_commits",
+      "tests_v2.test_ecology_store::test_worker_actual_inheritance_all_member_evidence_and_frozen_source[independent]",
+      "tests_v2.test_ecology_store::test_worker_actual_inheritance_all_member_evidence_and_frozen_source[shared]",
+      "tests_v2.test_inhibition_fidelity::test_inhibition_follows_stimulus_formed_topology_and_survives_model_exchange[native]",
+      "tests_v2.test_inhibition_fidelity::test_inhibition_follows_stimulus_formed_topology_and_survives_model_exchange[reference]",
+      "tests_v2.test_inhibition_fidelity::test_local_inhibition_uses_model_rhythm_and_reduces_response_without_input_filtering[native]",
+      "tests_v2.test_inhibition_fidelity::test_local_inhibition_uses_model_rhythm_and_reduces_response_without_input_filtering[reference]",
+      "tests_v2.test_inhibition_fidelity::test_stimulus_history_protects_edges_and_plasticity_ablation_freezes_slow_state[native]",
+      "tests_v2.test_inhibition_fidelity::test_stimulus_history_protects_edges_and_plasticity_ablation_freezes_slow_state[reference]",
+      "tests_v2.test_optional_core::test_frozen_legacy_resume_default_equivalence_and_versioned_reconfigure[native]",
+      "tests_v2.test_optional_core::test_frozen_legacy_resume_default_equivalence_and_versioned_reconfigure[reference]",
+      "tests_v2.test_optional_core::test_local_novelty_requires_existing_neighbourhood_and_nonzero_reentry[native]",
+      "tests_v2.test_optional_core::test_local_novelty_requires_existing_neighbourhood_and_nonzero_reentry[reference]",
+      "tests_v2.test_optional_core::test_optional_configuration_upgrade_is_audited_without_overwriting_old_checkpoint",
+      "tests_v2.test_optional_core::test_optional_model_rust_and_sqlite_roundtrip[json]",
+      "tests_v2.test_optional_core::test_optional_model_rust_and_sqlite_roundtrip[tmind]",
+      "tests_v2.test_optional_core::test_optional_reference_native_numerics_and_invalid_configuration",
+      "tests_v2.test_optional_core::test_optional_thresholds_caps_homeostasis_and_state_bounds[native]",
+      "tests_v2.test_optional_core::test_optional_thresholds_caps_homeostasis_and_state_bounds[reference]",
+      "tests_v2.test_optional_core::test_temporal_birth_uses_real_touch_window_and_internal_delivery[native]",
+      "tests_v2.test_optional_core::test_temporal_birth_uses_real_touch_window_and_internal_delivery[reference]",
+      "tests_v2.test_organ_controls::test_chat_projects_all_actual_activity_without_candidate_or_causal_filtering",
+      "tests_v2.test_organ_controls::test_conversation_inlines_plaintext_and_separate_ai_observation",
+      "tests_v2.test_organ_controls::test_paused_controls_keep_model_and_use_scoped_configuration_validation",
+      "tests_v2.test_organ_controls::test_switch_scope_and_accepted_carriers_survive_capture_off",
+      "tests_v2.test_organ_controls::test_worker_acknowledges_inline_controls_atomically",
+      "tests_v2.test_readout_fidelity::test_complete_recording_requires_capable_worker_and_disabled_recording_does_not",
+      "tests_v2.test_readout_fidelity::test_default_raw_paging_exports_and_historical_missingness",
+      "tests_v2.test_readout_fidelity::test_envelope_labels_and_reader_options_cannot_change_core_dynamics[Engine]",
+      "tests_v2.test_readout_fidelity::test_envelope_labels_and_reader_options_cannot_change_core_dynamics[NativeEngine]",
+      "tests_v2.test_readout_fidelity::test_unfiltered_snapshot_keeps_weak_untraced_and_non_candidate_nodes",
+      "tests_v2.test_readout_fidelity::test_upgrade_refreshes_waiting_jobs_in_each_project_without_touching_models",
+      "tests_v2.test_research_operations::test_incremental_research_migration_uses_its_own_schema_and_grants",
+      "tests_v2.test_research_operations::test_manual_advance_absolute_stop_retry_and_continuation",
+      "tests_v2.test_research_operations::test_manual_advance_pending_recovery_and_atomic_completion",
+      "tests_v2.test_research_operations::test_research_api_checkpoint_evidence_notes_roles_and_validation",
+      "tests_v2.test_spatial::test_causal_geometry_portable_plastic_model_and_sqlite[json-python]",
+      "tests_v2.test_spatial::test_causal_geometry_portable_plastic_model_and_sqlite[json-rust]",
+      "tests_v2.test_spatial::test_causal_geometry_portable_plastic_model_and_sqlite[tmind-python]",
+      "tests_v2.test_spatial::test_causal_geometry_portable_plastic_model_and_sqlite[tmind-rust]",
+      "tests_v2.test_spatial::test_competition_chain_is_not_changed_by_edge_traversal_order[native]",
+      "tests_v2.test_spatial::test_competition_chain_is_not_changed_by_edge_traversal_order[reference]",
+      "tests_v2.test_spatial::test_developmental_coordinates_and_geometry_do_not_create_connections[native]",
+      "tests_v2.test_spatial::test_developmental_coordinates_and_geometry_do_not_create_connections[reference]",
+      "tests_v2.test_spatial::test_distance_controls_adaptation_and_excitatory_flux_but_not_topology_deletion[native]",
+      "tests_v2.test_spatial::test_distance_controls_adaptation_and_excitatory_flux_but_not_topology_deletion[reference]",
+      "tests_v2.test_spatial::test_spatial_competition_uses_fixed_time_boundary_snapshot_and_keeps_inhibition_separate[native]",
+      "tests_v2.test_spatial::test_spatial_competition_uses_fixed_time_boundary_snapshot_and_keeps_inhibition_separate[reference]",
+      "tests_v2.test_spatial::test_spatial_default_preserves_frozen5_and_upgrade_keeps_live_modulators[native]",
+      "tests_v2.test_spatial::test_spatial_default_preserves_frozen5_and_upgrade_keeps_live_modulators[reference]",
+      "tests_v2.test_spatial::test_spatial_validation_and_closed_independent_ports[native]",
+      "tests_v2.test_spatial::test_spatial_validation_and_closed_independent_ports[reference]",
+      "tests_v2.test_study_editor::test_study_invalid_conditions_rejected[arm0-config]",
+      "tests_v2.test_study_editor::test_study_invalid_conditions_rejected[arm1-duration_s]",
+      "tests_v2.test_study_editor::test_study_invalid_conditions_rejected[arm2-body_filter]",
+      "tests_v2.test_study_editor::test_study_invalid_conditions_rejected[arm3-body_filter]",
+      "tests_v2.test_study_editor::test_study_invalid_conditions_rejected[arm4-body_filter]",
+      "tests_v2.test_study_editor::test_study_invalid_conditions_rejected[arm5-\\u540c\\u65f6]",
+      "tests_v2.test_study_editor::test_study_invalid_conditions_rejected[arm6-lattice]",
+      "tests_v2.test_study_editor::test_study_invalid_conditions_rejected[arm7-\\u8eab\\u4efd]",
+      "tests_v2.test_study_editor::test_study_invalid_conditions_rejected[arm8-\\u5b9e\\u65f6]",
+      "tests_v2.test_study_editor::test_study_runtime_patches_execute_and_preview_is_readonly",
+      "tests_v2.test_study_editor::test_study_shared_contract_and_frozen_attention_flag",
+      "tests_v2.test_study_editor::test_study_validation_never_ignores_common_or_recording_inputs",
+      "tests_v2.test_v3_restoration::test_birth_repeat_novelty_and_forget_match_git_operators[python]",
+      "tests_v2.test_v3_restoration::test_birth_repeat_novelty_and_forget_match_git_operators[rust]",
+      "tests_v2.test_v3_restoration::test_budget_clock_can_be_reconfigured_without_corrupting_saved_state[python]",
+      "tests_v2.test_v3_restoration::test_budget_clock_can_be_reconfigured_without_corrupting_saved_state[rust]",
+      "tests_v2.test_v3_restoration::test_disconnect_does_not_retract_emission_and_delete_never_reuses_id[python]",
+      "tests_v2.test_v3_restoration::test_disconnect_does_not_retract_emission_and_delete_never_reuses_id[rust]",
+      "tests_v2.test_v3_restoration::test_disconnected_subnetworks_are_not_forced_into_existing_component[python]",
+      "tests_v2.test_v3_restoration::test_disconnected_subnetworks_are_not_forced_into_existing_component[rust]",
+      "tests_v2.test_v3_restoration::test_external_input_without_activation_does_not_prevent_death[python]",
+      "tests_v2.test_v3_restoration::test_external_input_without_activation_does_not_prevent_death[rust]",
+      "tests_v2.test_v3_restoration::test_old_dynamics_are_not_silently_resumed[python]",
+      "tests_v2.test_v3_restoration::test_old_dynamics_are_not_silently_resumed[rust]",
+      "tests_v2.test_v3_restoration::test_propagation_clock_reconfiguration_survives_empty_skips_and_restoration[python]",
+      "tests_v2.test_v3_restoration::test_propagation_clock_reconfiguration_survives_empty_skips_and_restoration[rust]",
+      "tests_v2.test_v3_restoration::test_quiescence_deadline_arrivals_and_no_automatic_resurrection[python]",
+      "tests_v2.test_v3_restoration::test_quiescence_deadline_arrivals_and_no_automatic_resurrection[rust]",
+      "tests_v2.test_v3_restoration::test_saturated_target_cost_touch_and_independent_consolidation[python]",
+      "tests_v2.test_v3_restoration::test_saturated_target_cost_touch_and_independent_consolidation[rust]",
+      "tests_v2.test_v3_restoration::test_single_edge_threshold_cannot_be_rescued_by_fanin[python-10000]",
+      "tests_v2.test_v3_restoration::test_single_edge_threshold_cannot_be_rescued_by_fanin[python-20000]",
+      "tests_v2.test_v3_restoration::test_single_edge_threshold_cannot_be_rescued_by_fanin[python-5000]",
+      "tests_v2.test_v3_restoration::test_single_edge_threshold_cannot_be_rescued_by_fanin[rust-10000]",
+      "tests_v2.test_v3_restoration::test_single_edge_threshold_cannot_be_rescued_by_fanin[rust-20000]",
+      "tests_v2.test_v3_restoration::test_single_edge_threshold_cannot_be_rescued_by_fanin[rust-5000]",
+      "tests_v2.test_v3_restoration::test_soft_inhibition_is_not_applied_every_solver_step[python]",
+      "tests_v2.test_v3_restoration::test_soft_inhibition_is_not_applied_every_solver_step[rust]",
+      "tests_v2.test_v3_restoration::test_two_inhibition_phases_and_finite_pool_match_old_operators[python]",
+      "tests_v2.test_v3_restoration::test_two_inhibition_phases_and_finite_pool_match_old_operators[rust]",
+      "tests_v2.test_v3_restoration::test_zero_disables_rates_and_decay_flags_preserve_states[python]",
+      "tests_v2.test_v3_restoration::test_zero_disables_rates_and_decay_flags_preserve_states[rust]",
+      "tests_v2.test_v3_restoration::test_zero_grace_dies_after_quiescence_without_removing_structure[python]",
+      "tests_v2.test_v3_restoration::test_zero_grace_dies_after_quiescence_without_removing_structure[rust]",
+      "tests_v2.test_v3_restoration::test_zero_support_isolated_node_survives_until_joint_prune_boundary[python]",
+      "tests_v2.test_v3_restoration::test_zero_support_isolated_node_survives_until_joint_prune_boundary[rust]"
+    ]
+  },
+  "other_validation": {
+    "rust_workspace_tests_passed": 2,
+    "native_and_cli_release_build": "passed",
+    "ui_build": "passed; existing bundle-size warning remains",
+    "ruff": "passed",
+    "utf8": "passed",
+    "translation_catalogue": {
+      "entries": 4574,
+      "parameters": 431,
+      "missing": 0,
+      "duplicate_keys": 0
+    }
+  },
+  "browser_scenarios": [
+    "graphical/JSON synchronization, validation, paused immutable editing and defaults",
+    "full conversation preferences, history paging, evidence links and escaped content",
+    "browser storage unavailable",
+    "media upload, original download, recorded voiced sample audition and image/WAV export",
+    "prominent encoding, IME, success/failure drafts, media entries and four organs",
+    "Chinese/English kernel and plans, math and diagram rendering"
+  ],
+  "chat_soak": {
+    "nominal_duration_s": 60,
+    "samples": [
+      {
+        "elapsed_s": 0,
+        "messages": 20,
+        "dom_nodes": 7041,
+        "heap_bytes": 13628068
+      },
+      {
+        "elapsed_s": 10,
+        "messages": 20,
+        "dom_nodes": 12825,
+        "heap_bytes": 16445376
+      },
+      {
+        "elapsed_s": 20,
+        "messages": 20,
+        "dom_nodes": 12827,
+        "heap_bytes": 16697132
+      },
+      {
+        "elapsed_s": 30,
+        "messages": 20,
+        "dom_nodes": 12829,
+        "heap_bytes": 16763648
+      },
+      {
+        "elapsed_s": 40,
+        "messages": 20,
+        "dom_nodes": 12831,
+        "heap_bytes": 16712084
+      },
+      {
+        "elapsed_s": 50,
+        "messages": 20,
+        "dom_nodes": 12833,
+        "heap_bytes": 16768228
+      },
+      {
+        "elapsed_s": 60,
+        "messages": 20,
+        "dom_nodes": 12835,
+        "heap_bytes": 16978912
+      }
+    ],
+    "warmup_sample_s": 10,
+    "heap_change_bytes_after_warmup": 533536,
+    "dom_change_after_warmup": 10
+  },
+  "limits": [
+    "Initial full suite was followed by targeted fixes and reruns; do not describe it as a single all-green full-suite run.",
+    "Soak uses a small fixed sensory workload and fake browser capture devices; it does not establish hours-long capacity or physical-device performance.",
+    "Optional independent forced energy death remains an unresolved decision; ordinary quiescence and structure retention are implemented.",
+    "Legacy archives were not resumed, relabeled or mass migrated. No data/ scan and no external AI provider call."
+  ],
+  "implementation_commits": [
+    "c42baed",
+    "5ef9a46",
+    "a741a3b",
+    "53342ac"
+  ]
+}

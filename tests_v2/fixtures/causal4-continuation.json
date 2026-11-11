@@ -1,0 +1,1222 @@
+{
+  "source_commit": "14de159",
+  "implementation": {
+    "schema": "threemind.implementation/1",
+    "backend": "native",
+    "dynamics": "threemind.causal/4",
+    "supported_dynamics": [
+      "threemind.causal/1",
+      "threemind.causal/2",
+      "threemind.causal/3",
+      "threemind.causal/4"
+    ],
+    "state_schema": "threemind.state/4",
+    "supported_state_schemas": [
+      "threemind.state/2",
+      "threemind.state/3",
+      "threemind.state/4"
+    ],
+    "python": "3.12.7",
+    "platform": "Windows",
+    "machine": "AMD64",
+    "packages": {
+      "threemind-lab": "2.0.0",
+      "threemind-native": "2.0.0",
+      "mujoco": "3.12.0",
+      "numpy": "1.26.4",
+      "scipy": "1.13.1",
+      "pyarrow": "16.1.0",
+      "psycopg": "3.3.5",
+      "av": "18.1.0",
+      "Pillow": "10.4.0",
+      "psutil": "5.9.0"
+    },
+    "source_sha256": "3d78802e137e5adf1c223d1a456eaf0b6ce842a0655101d63fede50ca1641704",
+    "source_files": {
+      "src/threemind/__init__.py": "6a1668c127bef7b69c24fd50b63f8b6728bfadd94f8f23f3700d61f9d82bd498",
+      "src/threemind/__main__.py": "b6cd40890aa6985dc479172461f13131ab1119fa578479f56d9fd8f751fe7d5c",
+      "src/threemind_core/__init__.py": "f3eb5e0c6f549cdba7ac4f3ef790c3e9f83955c9a387622bfc2ec1505406218d",
+      "src/threemind_core/energy.py": "1168c65b3f9565e6e5a40814dc181c09e249e4e1e82564c9e6242cea5be93e6d",
+      "src/threemind_core/engine.py": "6ba2355495a2af4b95d080e88d297172017eadaafb181497bfb1735a5491d8b9",
+      "src/threemind_core/resources.py": "75cb0c23ae291281782fc2fdb8f9c6d8bdcdeab67af08b02515bebfb5dee35a4",
+      "src/threemind_core/spec.py": "9d21a579571d270a120c89da2cf5040c117ce1fd768f1e066a285340e3c4d075",
+      "src/threemind_lab/__init__.py": "32a9a75cc65880e8fb692eea8929a15f5209d6464e4715784d906c6aa282c97c",
+      "src/threemind_lab/api.py": "d67d8ddc40208c128e81bafa52bcbdafe9f4e0879f1019df5e8c6718ca5c316c",
+      "src/threemind_lab/auth.py": "055d344056262ea204c0e0c05bc21d1ef2936b8d19807ae18ec7812803c76a64",
+      "src/threemind_lab/bootstrap.py": "e488466c76d42f5621d68a92bd68b1ca5cc000f3aad3e86fc2202b476b5ad567",
+      "src/threemind_lab/checkpoints.py": "c697c943f7d899aa2c36396f7bcdc9e04439564a22a912eb004679381a8cb0bc",
+      "src/threemind_lab/cli.py": "f465093283b0eee6f65c6d89f82cada8cd65770cac1f8eeca05b8e57fe0a226d",
+      "src/threemind_lab/config.py": "1eb3f2a76bd0c2acba2bc7f777d952ab77de468274a63a2beda6a6d45c29b1fb",
+      "src/threemind_lab/configuration.py": "0a464a4f8187ab3c8e0f21d21953b9385acd6a9df407fcfa062956a5549fc63f",
+      "src/threemind_lab/container_bootstrap.py": "8f4afffa3401365b592dd5daab28be44787d7aac78891942285dc497cf93848d",
+      "src/threemind_lab/database.py": "9c99367baf40148c2378e1249cdcc44e993a8139b2fe910f16b6939e6efcf9f3",
+      "src/threemind_lab/documents.py": "5002bd5f732160ed9caffd600fec6de0b7a28814d75d2c76349728cec53b84da",
+      "src/threemind_lab/energy_api.py": "9245856071a679f8807035032a697036a12ddb56c81bf8815c05c391cedaf0f4",
+      "src/threemind_lab/input_cycle.py": "73cd51c0a340c90937d5422e4cb778c91295e9153583f933f2f21ea426b5f093",
+      "src/threemind_lab/inputs.py": "703de985c8a0bfe58dad575f5d6065c2d3ddc7012b6a89ad746cc227dda071e8",
+      "src/threemind_lab/live_capture.py": "93df62b5f43bb528f831bd1d74e6c964eed66b6f4900b3cfd43c53bd1600656c",
+      "src/threemind_lab/live_capture_api.py": "af49f99094a2aa545b9f6cc193dc519d57198c8a610374e001e39f147a24f456",
+      "src/threemind_lab/measurements.py": "7f4f7950e2187e7280117a73c1c673d5eb47199bd31c20aa918267e70b7e1a8b",
+      "src/threemind_lab/media_codec.py": "e2bf467301586ed0b26776567d7e0107d0fccbaabed24d233c1227ade13a6847",
+      "src/threemind_lab/media_store.py": "a3baee702f935daa5445e216bc41531c1c12e6510f412ed0dcb8561a0ca00eeb",
+      "src/threemind_lab/organ_stream_api.py": "442ed0c1c14ed382584597432843386857b6d80c5e0cc81dfc6575d3a2bdf5ef",
+      "src/threemind_lab/organs.py": "d2cdf7953c1d663bed0df14c8ce4ab1bcc3b6533083b6f1801ac69954d7f7f76",
+      "src/threemind_lab/protocols.py": "5c00e55921f0687ff67fdda016d4e19e1168b0a0afdebc49cf8ef6f6a81504b3",
+      "src/threemind_lab/provenance.py": "63f8f87811feec027b43fcbfed1df4af19ae7920ab936e7df19a939808555d81",
+      "src/threemind_lab/queries.py": "cff137580e087c37dcfd73714c5795dbb2e44687d7b42ea4b53e1e9472ed163b",
+      "src/threemind_lab/readouts.py": "78039f9a9541627ced58e7cf80be40a9a66f9d686a82a0e4fee91fcd4a9d6cc9",
+      "src/threemind_lab/readouts_api.py": "98165b68fc2fb38621df5f74e057824fd80a2598a6bbb0576cdd3ca65dc14e96",
+      "src/threemind_lab/resource_api.py": "2eeaf16ab8e4f08b106dcad119220b5e4a506a5772104b4444fe2cc3b5662465",
+      "src/threemind_lab/resource_evidence.py": "bc2578f7e54de4ada4517ee6a9e849ae3599d600bc495ad855e16ffbbafeb405",
+      "src/threemind_lab/run_cycle.py": "67e3af87f3f2980574f5f266b19562d181150f45627b86dc4d3bbaa50b2c11b6",
+      "src/threemind_lab/statistics.py": "ee1d4be1b2ca0cb2de4671182edfb92ce9ffcfa3869f3371d53289412026ef3d",
+      "src/threemind_lab/telemetry.py": "6ab14b442887e07c7c3f1325de24fe1a4141d98a967ed882006a3e575c4017a8",
+      "src/threemind_lab/worker.py": "87ce4350ece081f6d6ab7c48555d55000007f4d3241844fe517e5e36e46714d2",
+      "src/threemind_runtime/__init__.py": "5484b32a7a5dd8e54fee61f9b132c23dea0e9c466469e0e381db28da3018ba57",
+      "src/threemind_runtime/adapters.py": "bed86ec39d36b37de906515f38e2c95ab936a43e54ea08875cad39cad9a4aae0",
+      "src/threemind_runtime/bus.py": "4e9d79293fcb7cedcea2f8496d7b95ae60114b446edf72bc2152b331351b0f34",
+      "src/threemind_runtime/cli.py": "ab2e6582637681ae5bfd47b663731151d75a8e470fcbebe853a99fa9d4f5a172",
+      "src/threemind_runtime/codec.py": "5997b963785dfce7f2d6c70c601604b1adb96ee45377d5bfe57093db9f626913",
+      "src/threemind_runtime/energy_supply.py": "6dbc1148fbe8df62257145ef2e0e73da7d4c74d5907ade6f3e2dbc29fd0231a0",
+      "src/threemind_runtime/host.py": "a8a70c9c986b42bdde56f1a2872faba25fc31df527071261ff70b8e8608c1589",
+      "src/threemind_runtime/live_media.py": "7e49d73d8b8417feb851112e3034cae6882a919bd7df5ad8e32f350d59460419",
+      "src/threemind_runtime/media.py": "17ac29810f8d9cf9b3694608457269a59b99e7a8ccf424a5f2654e98ffeb985d",
+      "src/threemind_runtime/output_organs.py": "5af8a056befb741b2cc39a530de02aaed2122f0a10b90b42c1f36d15b29e0129",
+      "src/threemind_runtime/profile.py": "ee0301fdb1a237aad5ef9e4740f2f0c97258eacabc592379f0bc1cc5f2357752",
+      "src/threemind_runtime/readout_config.py": "0d8e7ec4f7698861bec2e1e3d1dc9b3c109f32f887f9c0273ecd0e3d495f4399",
+      "src/threemind_runtime/readouts.py": "0c595ce5880c53fb8885fc59c818cd185a5d7b2b7d2f7eb78f847857f26d2b90",
+      "src/threemind_runtime/receptors.py": "6445a8762cb3097a5a8d3e0a51bc81cfabfb782e724f93c16d25edd471764ca0",
+      "src/threemind_runtime/sensory.py": "65d83e4466ff182078459bb611875a24084f5676f763c15abe5104f7297fc520",
+      "src/threemind_runtime/store.py": "90dfe48755ad51c26e5d6819a93a4dc6b54d23d2643abbc9074db0558e1c0e8c",
+      "src/threemind_runtime/telemetry.py": "66d78ba01b572e1b7d83ee88a8bb53d652ef96d6814c2c9a6330cdca42f11977",
+      "src/threemind_runtime/telemetry_probe.py": "e6d90b0261418a08f4f46f051ffc263ec774892e5cdce6cebb15e6a1fbb04dd5",
+      "crates/threemind-core/src/canonical.rs": "db03316de5733498a8ea24e00295294eb93bb2150332e80f58fe73d09a2dd822",
+      "crates/threemind-core/src/energy.rs": "ec3b55931e40ed6e2b404eac10bfabc70469b40f7bc9096f108c163e9e7c2569",
+      "crates/threemind-core/src/lib.rs": "3e03cfe0a708738d9b71f650ec647e712635d9a0ec11a158f99943b6eab63a68",
+      "crates/threemind-core/src/resources.rs": "e5236deed1809215dc1bec2cbdf03ed527d0c352d9ba467a1b0abb478db45eca",
+      "crates/threemind-native/src/lib.rs": "c31592f855ec10ce81fb205d9de1ff3bbba07093622f657952c3f24d53728cd0",
+      "crates/threemind-runtime/src/artifact.rs": "200abc4bf6dda91fca58b8ec34804cb0a4ca0fd8db76ed82bef2d2290ae27849",
+      "crates/threemind-runtime/src/main.rs": "4666f10022306655874a26fc47c39f7a7b55b145fac5bf3d847c8ac1c79cfaf7",
+      "crates/threemind-runtime/src/store.rs": "457c5a8b1b904926be79ecff8f8d9c13ed335f8e7bc08cf64ec230bc1b96d961",
+      "crates/threemind-core/Cargo.toml": "4e0bb4f6589006a69892e49b70647b0c37cfb9e57e43e4e7a7e9a4682a6c3ae4",
+      "crates/threemind-native/Cargo.toml": "3b73c86282f2654982383d6adbced014b313ab82c3ad1f78abdcf89c3668a2ce",
+      "crates/threemind-runtime/Cargo.toml": "526a0d79274bebd769d773be7d32ec35c6cd5237c244896ed03fbc903ffdb7de",
+      "Cargo.toml": "a2f00125c013dc3d0d6cb062d032c6cc89c6e8a0d90d803f1aaa9a2930a04bc3",
+      "Cargo.lock": "44dfdac9148f0304a5e703159a4ba6428a72ee1ac1173ab81c7d908a5eb04555",
+      "pyproject.toml": "82f0d955303c0f86f29d2c7a70b4fad8f3c0c1741ea0707a70bf99bbafea6a79",
+      "crates/threemind-runtime/src/media-profile-contract.json": "7b3c160dd6e436da8afea047b147c29ef40ac164319d442db12a370ec5e4a32d",
+      "crates/threemind-runtime/src/media-profile-contract-v3.json": "62b41d769c30a3350f72162d8ef7a454c7dfb7aa7303d62b12224a7f3b4b61d7",
+      "crates/threemind-runtime/src/telemetry-profile-contract.json": "bd9e381b30f536f22a50a5c4e52d4e315691ba11a67bddeb7b243488a7273988"
+    },
+    "native_binary_sha256": "af82e4cf8b66ce6cf7a432063053a9f720ecd6743c1375c35340011e6b8c3431"
+  },
+  "before": {
+    "schema": "threemind.state/4",
+    "dynamics": "threemind.causal/4",
+    "config": {
+      "step_us": 10000,
+      "delay_us": 10000,
+      "activation_tau": 0.3044,
+      "trace_tau": 0.504,
+      "inhibition_tau": 0.2321,
+      "stability_tau": 666.667,
+      "support_tau": 666.667,
+      "propagation_rate": 4.2,
+      "direct_gain": 0.9,
+      "learning_rate": 0.0055,
+      "birth_weight": 0.065,
+      "first_gain": 0.045,
+      "repeat_gain": 0.018,
+      "intensity_gain": 0.075,
+      "associative_gain": 0.01,
+      "stability_gain": 0.022,
+      "support_gain": 0.035,
+      "forgetting_rate": 0.025,
+      "inhibition_gain": 0.24,
+      "inhibition_diffusion_rate": 3.5,
+      "inhibition_response_gain": 2.0,
+      "activation_floor": 1e-05,
+      "prune_weight": 0.008,
+      "prune_support": 1e-05,
+      "plasticity": true,
+      "inhibition": true,
+      "seed": 20260724,
+      "association_window_us": 50000,
+      "edge_birth_policy": "temporal-association",
+      "local_novelty_gain": 0.01,
+      "max_nodes": 9,
+      "max_edges": 18,
+      "propagation_limit": 5,
+      "edge_adaptation_limit": 6,
+      "energy_simulation_enabled": true,
+      "energy_initial_reserve": 0.3,
+      "irreversible_energy_death_enabled": true
+    },
+    "time_us": "45013",
+    "state_time_us": "44006",
+    "next_step_us": "50000",
+    "sequence": 28,
+    "next_event": 40,
+    "next_node": 8,
+    "sources_open": true,
+    "life": "active",
+    "nodes": [
+      {
+        "id": 1,
+        "channel": 0,
+        "activation": 0.9628154616300263,
+        "inhibition": 0.23141724887345605,
+        "trace": 0.9811058930674971,
+        "support": 0.037489577115864106,
+        "stability": 0.02356487704425744,
+        "direct": 0.9588541332141389,
+        "associative": 0.00396132841588757,
+        "touches": 5,
+        "last_touch_us": "40000"
+      },
+      {
+        "id": 2,
+        "channel": 3,
+        "activation": 0.4740479824911975,
+        "inhibition": 0.10950023057366993,
+        "trace": 0.5016977569193533,
+        "support": 0.019144663133683022,
+        "stability": 0.012033788255457898,
+        "direct": 0.4673146406445919,
+        "associative": 0.006733341846605572,
+        "touches": 4,
+        "last_touch_us": "40000"
+      },
+      {
+        "id": 3,
+        "channel": 5,
+        "activation": 0.8353450566733873,
+        "inhibition": 0.2018460088153764,
+        "trace": 0.8641748772710255,
+        "support": 0.031881047937312834,
+        "stability": 0.020039515846310915,
+        "direct": 0.8281478343853518,
+        "associative": 0.007197222288035527,
+        "touches": 5,
+        "last_touch_us": "40000"
+      },
+      {
+        "id": 4,
+        "channel": 1,
+        "activation": 0.658880561734734,
+        "inhibition": 0.15445779541955967,
+        "trace": 0.6824394676635759,
+        "support": 0.0251989793077818,
+        "stability": 0.015839358422034273,
+        "direct": 0.658880561734734,
+        "associative": 0.0,
+        "touches": 1,
+        "last_touch_us": "17003"
+      },
+      {
+        "id": 5,
+        "channel": 4,
+        "activation": 0.4941604213010504,
+        "inhibition": 0.11343724169319351,
+        "trace": 0.5118296007476819,
+        "support": 0.01889923448083635,
+        "stability": 0.011879518816525707,
+        "direct": 0.4941604213010504,
+        "associative": 0.0,
+        "touches": 1,
+        "last_touch_us": "17003"
+      },
+      {
+        "id": 6,
+        "channel": 6,
+        "activation": 0.4118003510842087,
+        "inhibition": 0.10037106920530793,
+        "trace": 0.4265246672897349,
+        "support": 0.015749362067363628,
+        "stability": 0.009899599013771422,
+        "direct": 0.4118003510842087,
+        "associative": 0.0,
+        "touches": 1,
+        "last_touch_us": "17003"
+      },
+      {
+        "id": 7,
+        "channel": 2,
+        "activation": 0.6967312120262305,
+        "inhibition": 0.1728,
+        "trace": 0.705855076377546,
+        "support": 0.025199622003023985,
+        "stability": 0.01583976240190079,
+        "direct": 0.6967312120262305,
+        "associative": 0.0,
+        "touches": 1,
+        "last_touch_us": "34006"
+      }
+    ],
+    "edges": [
+      {
+        "source": 1,
+        "target": 2,
+        "weight": 0.11039633595541312,
+        "stability": 0.10265640431380238,
+        "eligibility": 0.972592898560541,
+        "touches": 4,
+        "birth_us": "0",
+        "last_touch_us": "30000"
+      },
+      {
+        "source": 1,
+        "target": 3,
+        "weight": 0.10103390736544039,
+        "stability": 0.09904391664276631,
+        "eligibility": 0.9920830924066806,
+        "touches": 3,
+        "birth_us": "0",
+        "last_touch_us": "40000"
+      },
+      {
+        "source": 1,
+        "target": 4,
+        "weight": 0.07987768871882941,
+        "stability": 0.05614294824952065,
+        "eligibility": 0.4646629665369221,
+        "touches": 1,
+        "birth_us": "17003",
+        "last_touch_us": "17003"
+      },
+      {
+        "source": 2,
+        "target": 1,
+        "weight": 0.11039182233264898,
+        "stability": 0.10264647296975266,
+        "eligibility": 0.972592898560541,
+        "touches": 4,
+        "birth_us": "0",
+        "last_touch_us": "30000"
+      },
+      {
+        "source": 2,
+        "target": 3,
+        "weight": 0.07944627004553001,
+        "stability": 0.06774137608668407,
+        "eligibility": 0.22395089116257708,
+        "touches": 2,
+        "birth_us": "0",
+        "last_touch_us": "10000"
+      },
+      {
+        "source": 3,
+        "target": 1,
+        "weight": 0.10102756884665808,
+        "stability": 0.09902996941912362,
+        "eligibility": 0.9920830924066806,
+        "touches": 3,
+        "birth_us": "0",
+        "last_touch_us": "40000"
+      },
+      {
+        "source": 3,
+        "target": 2,
+        "weight": 0.0794327071602304,
+        "stability": 0.0677115302843132,
+        "eligibility": 0.22268271403186166,
+        "touches": 1,
+        "birth_us": "0",
+        "last_touch_us": "0"
+      },
+      {
+        "source": 4,
+        "target": 1,
+        "weight": 0.04993429076083981,
+        "stability": 0.044771644507030826,
+        "eligibility": 0.9920830924066806,
+        "touches": 3,
+        "birth_us": "20000",
+        "last_touch_us": "40000"
+      },
+      {
+        "source": 4,
+        "target": 2,
+        "weight": 0.037269899408413236,
+        "stability": 0.025362084192700616,
+        "eligibility": 0.6763151651614617,
+        "touches": 2,
+        "birth_us": "20000",
+        "last_touch_us": "30000"
+      },
+      {
+        "source": 4,
+        "target": 3,
+        "weight": 0.03583760357774203,
+        "stability": 0.03521060779792343,
+        "eligibility": 0.9920830924066806,
+        "touches": 3,
+        "birth_us": "20000",
+        "last_touch_us": "40000"
+      },
+      {
+        "source": 5,
+        "target": 1,
+        "weight": 0.03723181613641492,
+        "stability": 0.025301539076438114,
+        "eligibility": 0.6750182704756237,
+        "touches": 2,
+        "birth_us": "20000",
+        "last_touch_us": "30000"
+      },
+      {
+        "source": 7,
+        "target": 1,
+        "weight": 0.05834836848679466,
+        "stability": 0.02495087881900177,
+        "eligibility": 0.6832620115767873,
+        "touches": 1,
+        "birth_us": "40000",
+        "last_touch_us": "40000"
+      },
+      {
+        "source": 7,
+        "target": 3,
+        "weight": 0.051756715180347225,
+        "stability": 0.022780966345839607,
+        "eligibility": 0.5928026361532459,
+        "touches": 1,
+        "birth_us": "40000",
+        "last_touch_us": "40000"
+      }
+    ],
+    "queue": [
+      {
+        "time_us": "50000",
+        "id": 36,
+        "kind": "inhibition",
+        "payload": {
+          "values": [
+            [
+              1,
+              0.00018182839562331976
+            ]
+          ]
+        }
+      },
+      {
+        "time_us": "50000",
+        "id": 37,
+        "kind": "inhibition",
+        "payload": {
+          "values": [
+            [
+              2,
+              0.0006001418259535464
+            ]
+          ]
+        }
+      },
+      {
+        "time_us": "50000",
+        "id": 38,
+        "kind": "inhibition",
+        "payload": {
+          "values": [
+            [
+              3,
+              0.0005402829414615601
+            ]
+          ]
+        }
+      },
+      {
+        "time_us": "50000",
+        "id": 39,
+        "kind": "signal",
+        "payload": {
+          "values": [
+            [
+              1,
+              0.0029407740306710674
+            ],
+            [
+              2,
+              0.005688268081904823
+            ],
+            [
+              3,
+              0.0030897606161724013
+            ],
+            [
+              4,
+              0.002442797908510948
+            ]
+          ]
+        }
+      },
+      {
+        "time_us": "50000",
+        "id": 40,
+        "kind": "inhibition",
+        "payload": {
+          "values": [
+            [
+              1,
+              0.010233186301377522
+            ],
+            [
+              2,
+              0.003894776423240545
+            ],
+            [
+              3,
+              0.004101378806427232
+            ],
+            [
+              4,
+              0.002210379515737186
+            ],
+            [
+              5,
+              0.0005166515160845247
+            ],
+            [
+              7,
+              0.0014606437723656924
+            ]
+          ]
+        }
+      },
+      {
+        "time_us": "51009",
+        "id": 4,
+        "kind": "stimulus",
+        "payload": {
+          "channels": [
+            [
+              3,
+              0.8
+            ],
+            [
+              6,
+              0.6
+            ],
+            [
+              1,
+              0.5
+            ]
+          ],
+          "intensity": 1.0,
+          "time_us": "51009"
+        }
+      },
+      {
+        "time_us": "68012",
+        "id": 5,
+        "kind": "stimulus",
+        "payload": {
+          "channels": [
+            [
+              4,
+              0.8
+            ],
+            [
+              0,
+              0.6
+            ],
+            [
+              2,
+              0.5
+            ]
+          ],
+          "intensity": 1.0,
+          "time_us": "68012"
+        }
+      },
+      {
+        "time_us": "81007",
+        "id": 13,
+        "kind": "energy",
+        "payload": {
+          "amount": 0.02,
+          "source": "frozen-causal4-external"
+        }
+      },
+      {
+        "time_us": "85015",
+        "id": 6,
+        "kind": "stimulus",
+        "payload": {
+          "channels": [
+            [
+              5,
+              0.8
+            ],
+            [
+              1,
+              0.6
+            ],
+            [
+              3,
+              0.5
+            ]
+          ],
+          "intensity": 1.0,
+          "time_us": "85015"
+        }
+      },
+      {
+        "time_us": "102018",
+        "id": 7,
+        "kind": "stimulus",
+        "payload": {
+          "channels": [
+            [
+              6,
+              0.8
+            ],
+            [
+              2,
+              0.6
+            ],
+            [
+              4,
+              0.5
+            ]
+          ],
+          "intensity": 1.0,
+          "time_us": "102018"
+        }
+      },
+      {
+        "time_us": "119021",
+        "id": 8,
+        "kind": "stimulus",
+        "payload": {
+          "channels": [
+            [
+              0,
+              0.8
+            ],
+            [
+              3,
+              0.6
+            ],
+            [
+              5,
+              0.5
+            ]
+          ],
+          "intensity": 1.0,
+          "time_us": "119021"
+        }
+      },
+      {
+        "time_us": "136024",
+        "id": 9,
+        "kind": "stimulus",
+        "payload": {
+          "channels": [
+            [
+              1,
+              0.8
+            ],
+            [
+              4,
+              0.6
+            ],
+            [
+              6,
+              0.5
+            ]
+          ],
+          "intensity": 1.0,
+          "time_us": "136024"
+        }
+      },
+      {
+        "time_us": "140011",
+        "id": 14,
+        "kind": "energy",
+        "payload": {
+          "amount": 0.1,
+          "source": "frozen-causal4-external"
+        }
+      },
+      {
+        "time_us": "153027",
+        "id": 10,
+        "kind": "stimulus",
+        "payload": {
+          "channels": [
+            [
+              2,
+              0.8
+            ],
+            [
+              5,
+              0.6
+            ],
+            [
+              0,
+              0.5
+            ]
+          ],
+          "intensity": 1.0,
+          "time_us": "153027"
+        }
+      },
+      {
+        "time_us": "170030",
+        "id": 11,
+        "kind": "stimulus",
+        "payload": {
+          "channels": [
+            [
+              3,
+              0.8
+            ],
+            [
+              6,
+              0.6
+            ],
+            [
+              1,
+              0.5
+            ]
+          ],
+          "intensity": 1.0,
+          "time_us": "170030"
+        }
+      },
+      {
+        "time_us": "187033",
+        "id": 12,
+        "kind": "stimulus",
+        "payload": {
+          "channels": [
+            [
+              4,
+              0.8
+            ],
+            [
+              0,
+              0.6
+            ],
+            [
+              2,
+              0.5
+            ]
+          ],
+          "intensity": 1.0,
+          "time_us": "187033"
+        }
+      }
+    ],
+    "silenced_nodes": [],
+    "silenced_edges": [],
+    "resources": {
+      "schema": "threemind.resources/1",
+      "since_us": "0",
+      "adaptation_period_us": "40000",
+      "adaptations_used": 6,
+      "node_capacity_rejections": "0",
+      "edge_capacity_rejections": "0",
+      "adaptation_budget_skips": "77",
+      "propagation_budget_skips": "21",
+      "counter_overflowed": false
+    },
+    "energy": {
+      "schema": "threemind.energy/1",
+      "since_us": "0",
+      "reserve": 0.12554667266747568,
+      "initial_total": 0.3,
+      "offered_total": 0.0,
+      "supplied_total": 0.0,
+      "consumed_direct": 0.17291233799696298,
+      "consumed_associative": 0.0007466899754675412,
+      "consumed_inhibition": 0.0007338909600937908,
+      "consumed_maintenance": 6.040840000000001e-05,
+      "unserved_total": 0.0,
+      "discarded_total": 0.0,
+      "last_settlement_us": "44006",
+      "last_maintenance_deficit": 0.0,
+      "starved_since_us": null,
+      "death_us": null,
+      "counter_overflowed": false
+    }
+  },
+  "before_hash": "551d2d95652660191947b25f1ff0281e3cc9b709ce868ac520510cf945079d6c",
+  "target_us": "220031",
+  "after": {
+    "schema": "threemind.state/4",
+    "dynamics": "threemind.causal/4",
+    "config": {
+      "step_us": 10000,
+      "delay_us": 10000,
+      "activation_tau": 0.3044,
+      "trace_tau": 0.504,
+      "inhibition_tau": 0.2321,
+      "stability_tau": 666.667,
+      "support_tau": 666.667,
+      "propagation_rate": 4.2,
+      "direct_gain": 0.9,
+      "learning_rate": 0.0055,
+      "birth_weight": 0.065,
+      "first_gain": 0.045,
+      "repeat_gain": 0.018,
+      "intensity_gain": 0.075,
+      "associative_gain": 0.01,
+      "stability_gain": 0.022,
+      "support_gain": 0.035,
+      "forgetting_rate": 0.025,
+      "inhibition_gain": 0.24,
+      "inhibition_diffusion_rate": 3.5,
+      "inhibition_response_gain": 2.0,
+      "activation_floor": 1e-05,
+      "prune_weight": 0.008,
+      "prune_support": 1e-05,
+      "plasticity": true,
+      "inhibition": true,
+      "seed": 20260724,
+      "association_window_us": 50000,
+      "edge_birth_policy": "temporal-association",
+      "local_novelty_gain": 0.01,
+      "max_nodes": 9,
+      "max_edges": 18,
+      "propagation_limit": 5,
+      "edge_adaptation_limit": 6,
+      "energy_simulation_enabled": true,
+      "energy_initial_reserve": 0.3,
+      "irreversible_energy_death_enabled": true
+    },
+    "time_us": "220031",
+    "state_time_us": "220000",
+    "next_step_us": "230000",
+    "sequence": 182,
+    "next_event": 166,
+    "next_node": 8,
+    "sources_open": true,
+    "life": "active",
+    "nodes": [
+      {
+        "id": 1,
+        "channel": 0,
+        "activation": 0.904327247260631,
+        "inhibition": 0.23465322055445628,
+        "trace": 0.9438373538963051,
+        "support": 0.05446078680146057,
+        "stability": 0.03423955387484333,
+        "direct": 0.8721759559689402,
+        "associative": 0.0321512912916909,
+        "touches": 26,
+        "last_touch_us": "220000"
+      },
+      {
+        "id": 2,
+        "channel": 3,
+        "activation": 0.8662498514860838,
+        "inhibition": 0.26542338719481046,
+        "trace": 0.9236612331570225,
+        "support": 0.05143375942384431,
+        "stability": 0.03233664014984323,
+        "direct": 0.8195549760286138,
+        "associative": 0.046694875457470184,
+        "touches": 25,
+        "last_touch_us": "220000"
+      },
+      {
+        "id": 3,
+        "channel": 5,
+        "activation": 0.8160640427875163,
+        "inhibition": 0.17707673817366318,
+        "trace": 0.8895932411670976,
+        "support": 0.049268994791404605,
+        "stability": 0.030975875267853583,
+        "direct": 0.7840983143304978,
+        "associative": 0.031965728457018644,
+        "touches": 24,
+        "last_touch_us": "220000"
+      },
+      {
+        "id": 4,
+        "channel": 1,
+        "activation": 0.8584139529994724,
+        "inhibition": 0.15926796884658279,
+        "trace": 0.9156592266786806,
+        "support": 0.05081663507852685,
+        "stability": 0.03194891489923269,
+        "direct": 0.836511926227187,
+        "associative": 0.0219020267722856,
+        "touches": 20,
+        "last_touch_us": "220000"
+      },
+      {
+        "id": 5,
+        "channel": 4,
+        "activation": 0.8973569335220893,
+        "inhibition": 0.14823705947443355,
+        "trace": 0.9366826754078834,
+        "support": 0.0506926759154073,
+        "stability": 0.031870779096763696,
+        "direct": 0.8973569335220893,
+        "associative": 0.0,
+        "touches": 5,
+        "last_touch_us": "187033"
+      },
+      {
+        "id": 6,
+        "channel": 6,
+        "activation": 0.8486070815115617,
+        "inhibition": 0.1401544669137668,
+        "trace": 0.905609731753407,
+        "support": 0.048596355342141746,
+        "stability": 0.030552956813700877,
+        "direct": 0.8486070815115617,
+        "associative": 0.0,
+        "touches": 5,
+        "last_touch_us": "170030"
+      },
+      {
+        "id": 7,
+        "channel": 2,
+        "activation": 0.8973569335220893,
+        "inhibition": 0.1607172352551204,
+        "trace": 0.9366826754078834,
+        "support": 0.05040670133651483,
+        "stability": 0.03169042435708798,
+        "direct": 0.8973569335220893,
+        "associative": 0.0,
+        "touches": 5,
+        "last_touch_us": "187033"
+      }
+    ],
+    "edges": [
+      {
+        "source": 1,
+        "target": 2,
+        "weight": 0.1594869020943988,
+        "stability": 0.30037442788782315,
+        "eligibility": 1.0,
+        "touches": 14,
+        "birth_us": "0",
+        "last_touch_us": "220000"
+      },
+      {
+        "source": 1,
+        "target": 3,
+        "weight": 0.12586490028806743,
+        "stability": 0.21745390478839632,
+        "eligibility": 0.9055558280165251,
+        "touches": 8,
+        "birth_us": "0",
+        "last_touch_us": "170000"
+      },
+      {
+        "source": 1,
+        "target": 4,
+        "weight": 0.11244973215368517,
+        "stability": 0.1875966824883135,
+        "eligibility": 0.9610945000924985,
+        "touches": 8,
+        "birth_us": "17003",
+        "last_touch_us": "200000"
+      },
+      {
+        "source": 2,
+        "target": 1,
+        "weight": 0.159482393405079,
+        "stability": 0.3003645015400765,
+        "eligibility": 1.0,
+        "touches": 14,
+        "birth_us": "0",
+        "last_touch_us": "220000"
+      },
+      {
+        "source": 2,
+        "target": 3,
+        "weight": 0.09470373778364255,
+        "stability": 0.12990087293358243,
+        "eligibility": 0.8364643072929835,
+        "touches": 5,
+        "birth_us": "0",
+        "last_touch_us": "130000"
+      },
+      {
+        "source": 2,
+        "target": 4,
+        "weight": 0.09607576729242497,
+        "stability": 0.11269758948927852,
+        "eligibility": 0.9237026381080496,
+        "touches": 5,
+        "birth_us": "60000",
+        "last_touch_us": "180000"
+      },
+      {
+        "source": 3,
+        "target": 1,
+        "weight": 0.12583118154663991,
+        "stability": 0.1995277273344148,
+        "eligibility": 0.9055558280165251,
+        "touches": 8,
+        "birth_us": "0",
+        "last_touch_us": "170000"
+      },
+      {
+        "source": 3,
+        "target": 2,
+        "weight": 0.10017120657718968,
+        "stability": 0.1517918665380147,
+        "eligibility": 0.8364643072929835,
+        "touches": 5,
+        "birth_us": "0",
+        "last_touch_us": "130000"
+      },
+      {
+        "source": 3,
+        "target": 4,
+        "weight": 0.08759966264274437,
+        "stability": 0.07110422174373991,
+        "eligibility": 0.8532265636477706,
+        "touches": 3,
+        "birth_us": "90000",
+        "last_touch_us": "140000"
+      },
+      {
+        "source": 4,
+        "target": 1,
+        "weight": 0.07763842897107169,
+        "stability": 0.15636336178498472,
+        "eligibility": 0.9610945000924985,
+        "touches": 10,
+        "birth_us": "20000",
+        "last_touch_us": "200000"
+      },
+      {
+        "source": 4,
+        "target": 2,
+        "weight": 0.06297251564555749,
+        "stability": 0.12883299790393335,
+        "eligibility": 0.9237026381080496,
+        "touches": 8,
+        "birth_us": "20000",
+        "last_touch_us": "180000"
+      },
+      {
+        "source": 4,
+        "target": 3,
+        "weight": 0.05614918219782841,
+        "stability": 0.1170581115876662,
+        "eligibility": 0.8877655252065779,
+        "touches": 8,
+        "birth_us": "20000",
+        "last_touch_us": "160000"
+      },
+      {
+        "source": 5,
+        "target": 1,
+        "weight": 0.06734329002151036,
+        "stability": 0.1463927040635033,
+        "eligibility": 1.0,
+        "touches": 9,
+        "birth_us": "20000",
+        "last_touch_us": "220000"
+      },
+      {
+        "source": 5,
+        "target": 2,
+        "weight": 0.09895579010537467,
+        "stability": 0.12520624373157083,
+        "eligibility": 1.0,
+        "touches": 7,
+        "birth_us": "70000",
+        "last_touch_us": "220000"
+      },
+      {
+        "source": 6,
+        "target": 2,
+        "weight": 0.08269437498072243,
+        "stability": 0.07009189928314456,
+        "eligibility": 0.9237026381080496,
+        "touches": 3,
+        "birth_us": "110000",
+        "last_touch_us": "180000"
+      },
+      {
+        "source": 7,
+        "target": 1,
+        "weight": 0.10202598323184742,
+        "stability": 0.20064998385927094,
+        "eligibility": 1.0,
+        "touches": 10,
+        "birth_us": "40000",
+        "last_touch_us": "220000"
+      },
+      {
+        "source": 7,
+        "target": 2,
+        "weight": 0.0811544726969935,
+        "stability": 0.06393851037028694,
+        "eligibility": 1.0,
+        "touches": 3,
+        "birth_us": "110000",
+        "last_touch_us": "220000"
+      },
+      {
+        "source": 7,
+        "target": 3,
+        "weight": 0.06977187303085537,
+        "stability": 0.09573327932305539,
+        "eligibility": 0.9055558280165251,
+        "touches": 5,
+        "birth_us": "40000",
+        "last_touch_us": "170000"
+      }
+    ],
+    "queue": [
+      {
+        "time_us": "230000",
+        "id": 161,
+        "kind": "inhibition",
+        "payload": {
+          "values": [
+            [
+              1,
+              0.00029661512762423195
+            ]
+          ]
+        }
+      },
+      {
+        "time_us": "230000",
+        "id": 162,
+        "kind": "inhibition",
+        "payload": {
+          "values": [
+            [
+              2,
+              0.0010594474781521809
+            ]
+          ]
+        }
+      },
+      {
+        "time_us": "230000",
+        "id": 163,
+        "kind": "inhibition",
+        "payload": {
+          "values": [
+            [
+              3,
+              0.000571514034714259
+            ]
+          ]
+        }
+      },
+      {
+        "time_us": "230000",
+        "id": 164,
+        "kind": "inhibition",
+        "payload": {
+          "values": [
+            [
+              4,
+              0.0005231191039489729
+            ]
+          ]
+        }
+      },
+      {
+        "time_us": "230000",
+        "id": 165,
+        "kind": "signal",
+        "payload": {
+          "values": [
+            [
+              1,
+              0.0019016629600062337
+            ],
+            [
+              2,
+              0.006786307164534227
+            ],
+            [
+              3,
+              0.003150400353770204
+            ],
+            [
+              4,
+              0.0028146184929041737
+            ]
+          ]
+        }
+      },
+      {
+        "time_us": "230000",
+        "id": 166,
+        "kind": "inhibition",
+        "payload": {
+          "values": [
+            [
+              1,
+              0.01110984074057355
+            ],
+            [
+              2,
+              0.015809685586694936
+            ],
+            [
+              3,
+              0.006643206289730279
+            ],
+            [
+              4,
+              0.004566755829885644
+            ],
+            [
+              5,
+              0.0025049542608162013
+            ],
+            [
+              6,
+              0.0012639758446329659
+            ],
+            [
+              7,
+              0.0038917884226489893
+            ]
+          ]
+        }
+      }
+    ],
+    "silenced_nodes": [],
+    "silenced_edges": [],
+    "resources": {
+      "schema": "threemind.resources/1",
+      "since_us": "0",
+      "adaptation_period_us": "220000",
+      "adaptations_used": 6,
+      "node_capacity_rejections": "0",
+      "edge_capacity_rejections": "5",
+      "adaptation_budget_skips": "606",
+      "propagation_budget_skips": "236",
+      "counter_overflowed": false
+    },
+    "energy": {
+      "schema": "threemind.energy/1",
+      "since_us": "0",
+      "reserve": 0.05615118639963776,
+      "initial_total": 0.3,
+      "offered_total": 0.12000000000000001,
+      "supplied_total": 0.12000000000000001,
+      "consumed_direct": 0.34960124686239236,
+      "consumed_associative": 0.005320630414531968,
+      "consumed_inhibition": 0.008510671883437848,
+      "consumed_maintenance": 0.00041626444000000004,
+      "unserved_total": 0.0012530291226434916,
+      "discarded_total": 0.0,
+      "last_settlement_us": "220000",
+      "last_maintenance_deficit": 0.0,
+      "starved_since_us": null,
+      "death_us": null,
+      "counter_overflowed": false
+    }
+  },
+  "after_hash": "d4d4f24ec4fe6445c2fd2eb0c91d1f45e061c15e28badfcf649e4244a3dd518e"
+}

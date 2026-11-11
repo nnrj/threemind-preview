@@ -1,0 +1,90 @@
+.probe-calibration {
+  display: grid;
+  gap: 20px;
+  min-width: 0;
+}
+.probe-calibration > .panel,
+.storage-audit {
+  padding: 24px;
+  min-width: 0;
+}
+.probe-calibration h2,
+.storage-audit h2 {
+  font-size: 21px;
+  margin: 0 0 12px;
+}
+.probe-calibration h3 {
+  font-size: 17px;
+  margin: 0 0 12px;
+}
+.probe-calibration p,
+.storage-audit > p {
+  line-height: 1.65;
+  margin: 12px 0;
+}
+.probe-calibration .panel-heading {
+  padding: 0;
+  align-items: flex-start;
+}
+.probe-calibration code {
+  overflow-wrap: anywhere;
+}
+.probe-calibration details {
+  margin: 16px 0;
+}
+.probe-calibration details > .form-grid {
+  margin: 16px 0;
+}
+.probe-calibration select {
+  max-width: 100%;
+}
+.probe-legend,
+.probe-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  margin: 14px 0;
+}
+.probe-calibration .table-scroll,
+.storage-audit .table-scroll {
+  overflow: auto;
+  margin: 18px 0;
+}
+.probe-calibration td,
+.probe-calibration th {
+  white-space: nowrap;
+}
+.probe-calibration td button {
+  border: 1px solid var(--line, #d8e0da);
+  background: transparent;
+  border-radius: 6px;
+  padding: 7px 12px;
+  color: inherit;
+  cursor: pointer;
+}
+.probe-calibration td button[aria-pressed="true"] {
+  outline: 2px solid var(--accent, #237969);
+}
+.storage-audit th:nth-child(2),
+.storage-audit td:nth-child(2),
+.storage-audit td:last-child {
+  white-space: nowrap;
+}
+.storage-audit td:first-child {
+  min-width: 230px;
+  overflow-wrap: anywhere;
+}
+.storage-audit td:nth-child(3) {
+  min-width: 280px;
+}
+.storage-audit td p {
+  margin: 5px 0;
+  line-height: 1.6;
+}
+@media (max-width: 760px) {
+  .probe-calibration > .panel,
+  .storage-audit {
+    padding: 16px;
+  }
+}

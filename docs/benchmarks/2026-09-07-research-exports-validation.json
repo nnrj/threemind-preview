@@ -1,0 +1,33 @@
+{
+  "scope": "E2b fixed-revision research publication and evidence bundles",
+  "date": "2026-09-07",
+  "status": "verified on native Windows workstation",
+  "database_schema": 27,
+  "scientific_contracts_changed": false,
+  "scientific_parameters": 419,
+  "legacy_fields_reviewed": 55,
+  "legacy_fields_pending": 0,
+  "full_suite": {"passed": 341, "skipped": 0, "seconds": 483.17, "log": ".work/report-export-full-1.log"},
+  "final_backend": {"passed": 5, "seconds": 18.26, "log": ".work/report-export-tests-approved.log"},
+  "browser": {"browser": "Microsoft Edge", "passed": 4, "seconds": 22.9, "log": ".work/report-export-browser-2.log"},
+  "build": {"passed": true, "log": ".work/report-export-ui-build-2.log"},
+  "visual_qa": {"word_pages": 6, "pdf_pages": 5, "all_pages_inspected": true, "word_render": ".work/report-export-word-render-final", "pdf_render": ".work/report-export-pdf-approved-*.png", "font": "Microsoft YaHei"},
+  "static_audit": {"ruff": "passed", "translations": 3541, "missing_translations": 0, "duplicate_translation_keys": 0},
+  "checks": [
+    "Markdown, offline HTML, real DOCX with OMML and embedded-CJK PDF",
+    "fixed document and referenced record revisions unaffected by later head edits",
+    "complete selected source JSONL hash recomputation and per-file checksums",
+    "table excerpts, stable network object identity, missing data and full-row opt-in",
+    "request idempotency, project authorization, explicit budget failure and old-worker exclusion",
+    "database-side compact summaries preserve full manifests and original source hashes",
+    "lost browser acknowledgement, unsaved edits, actual downloads and mobile layout"
+  ],
+  "screenshots": ["docs/images/v2/report-export.png", "docs/images/v2/report-export-mobile.png"],
+  "remaining_in_E2": ["AI proposals", "explicit fixed-revision sharing", "input/intervention/event sources"],
+  "limitations": [
+    "100000 body table cells and 2 GiB uncompressed evidence package; explicit failure on excess",
+    "not all LaTeX macros or Markdown extensions are supported; conversion errors are explicit",
+    "full Linux application container remains unverified due to Docker registry timeout",
+    "engineering fixtures do not establish consciousness or AGI"
+  ]
+}

@@ -1,0 +1,376 @@
+{
+  "project": "07e60c31-5f51-42e2-bc99-a83eb18f61a9",
+  "assets": [
+    {
+      "asset_id": "ca5373ce-dd2b-41f2-9212-7857491a15e4",
+      "name": "E41 turn59 #13 · turns-1",
+      "case": "turning-01",
+      "individual": 13,
+      "time_us": 301020000
+    },
+    {
+      "asset_id": "67b518b4-46c9-4817-a905-f6db84c28f43",
+      "name": "E41 turn59 #25 · turns-1",
+      "case": "turning-01",
+      "individual": 25,
+      "time_us": 309260000
+    },
+    {
+      "asset_id": "408689fe-8589-4ebf-9d1c-c605ab566e9e",
+      "name": "E41 turn44 #21 · turns-1",
+      "case": "turning-01",
+      "individual": 21,
+      "time_us": 311160000
+    },
+    {
+      "asset_id": "e5d7ef7e-21b2-43a9-85ce-f0524668d9d9",
+      "name": "E41 turn59 #70 · turns-1",
+      "case": "turning-01",
+      "individual": 70,
+      "time_us": 385600000
+    },
+    {
+      "asset_id": "cbc07636-430b-4dbb-87e4-beaa24bde86c",
+      "name": "E41 turn44 #27 · turns-1",
+      "case": "turning-01",
+      "individual": 27,
+      "time_us": 400220000
+    },
+    {
+      "asset_id": "0ed6116e-8573-450f-a53f-dbb283de8753",
+      "name": "E41 turn59 #28 · turns-1",
+      "case": "turning-01",
+      "individual": 28,
+      "time_us": 414240000
+    },
+    {
+      "asset_id": "a7175d3d-e71e-46fb-893e-745044e1c90c",
+      "name": "E41 turn59 #56 · turns-1",
+      "case": "turning-01",
+      "individual": 56,
+      "time_us": 434640000
+    },
+    {
+      "asset_id": "6d5c277a-d2ab-4325-8379-6619431ad2e0",
+      "name": "E41 turn59 #71 · turns-1",
+      "case": "turning-01",
+      "individual": 71,
+      "time_us": 513040000
+    },
+    {
+      "asset_id": "355ac8ac-c5d2-4ecb-aba8-6cbcce4720a0",
+      "name": "E41 turn59 #31 · turns-3",
+      "case": "turning-01",
+      "individual": 31,
+      "time_us": 530500000
+    },
+    {
+      "asset_id": "b5bf2ddb-4f49-4d44-ad8c-f38858ff4c94",
+      "name": "E41 turn44 #39 · turns-1",
+      "case": "turning-01",
+      "individual": 39,
+      "time_us": 552520000
+    },
+    {
+      "asset_id": "ef79cb42-9df2-45ef-9926-d911b49298f8",
+      "name": "E41 turn59 #34 · turns-3",
+      "case": "turning-01",
+      "individual": 34,
+      "time_us": 579900000
+    },
+    {
+      "asset_id": "844032dd-5430-48d3-991a-ee7625241000",
+      "name": "E41 turn59 #59 · turns-1",
+      "case": "turning-01",
+      "individual": 59,
+      "time_us": 582760000
+    },
+    {
+      "asset_id": "7e2bf008-4480-4576-9613-f036652e4c62",
+      "name": "E41 engulf15 #38 · capture-1",
+      "case": "coverage-01",
+      "individual": 38,
+      "time_us": 309500000
+    },
+    {
+      "asset_id": "e7d1c640-8c1a-4403-96c8-e19e9682b6ea",
+      "name": "E41 engulf15 #38 · capture-2",
+      "case": "coverage-01",
+      "individual": 38,
+      "time_us": 315020000
+    },
+    {
+      "asset_id": "7cbf70e6-c2ab-4071-bd0e-8ca5d16e6585",
+      "name": "E41 engulf15 #8 · capture-1",
+      "case": "coverage-01",
+      "individual": 8,
+      "time_us": 320000000
+    },
+    {
+      "asset_id": "81578645-5ad4-4884-b99f-a1dc6f6193c5",
+      "name": "E41 turn44 #12 · capture-1, both",
+      "case": "coverage-01",
+      "individual": 12,
+      "time_us": 416240000
+    },
+    {
+      "asset_id": "aaa55180-0c03-46eb-bad5-7f64427cba4b",
+      "name": "E41 turn59 #13 · turns-1",
+      "case": "coverage-01",
+      "individual": 13,
+      "time_us": 301020000
+    },
+    {
+      "asset_id": "cf9ad03c-b738-46d0-85ac-aaf08a1264be",
+      "name": "E41 turn59 #25 · turns-1",
+      "case": "coverage-01",
+      "individual": 25,
+      "time_us": 309260000
+    },
+    {
+      "asset_id": "3164505d-bf0d-41d4-a218-058861e85e7b",
+      "name": "E41 engulf15 #5 · capture-1",
+      "case": "coverage-01",
+      "individual": 5,
+      "time_us": 330980000
+    },
+    {
+      "asset_id": "bd79a8c6-03de-4b1b-b199-2c0553409aab",
+      "name": "E41 turn59 #59 · capture-1",
+      "case": "coverage-01",
+      "individual": 59,
+      "time_us": 357320000
+    },
+    {
+      "asset_id": "8b897bb4-9f4f-431a-b1ba-9075689614b5",
+      "name": "E41 turn44 #18 · capture-1",
+      "case": "coverage-01",
+      "individual": 18,
+      "time_us": 375000000
+    },
+    {
+      "asset_id": "29ef5642-f8e0-43f2-b7f0-692bc0c54045",
+      "name": "E41 turn44 #27 · capture-1",
+      "case": "coverage-01",
+      "individual": 27,
+      "time_us": 376800000
+    },
+    {
+      "asset_id": "4120c7ec-3461-489f-b58c-34d55be15b96",
+      "name": "E41 turn59 #28 · turns-1",
+      "case": "coverage-01",
+      "individual": 28,
+      "time_us": 382900000
+    },
+    {
+      "asset_id": "49ef09c2-0109-41ac-a8e0-0c5e42ffecb5",
+      "name": "E41 turn59 #74 · turns-1",
+      "case": "coverage-01",
+      "individual": 74,
+      "time_us": 426400000
+    },
+    {
+      "asset_id": "b9f53674-3e37-43fc-b854-b2ffb6340431",
+      "name": "E41 turn59 #13 · capture-1, both",
+      "case": "coverage-01",
+      "individual": 13,
+      "time_us": 428640000
+    },
+    {
+      "asset_id": "70891d31-920c-4ced-ac30-f3737042abee",
+      "name": "E41 turn59 #71 · turns-1",
+      "case": "coverage-01",
+      "individual": 71,
+      "time_us": 436140000
+    },
+    {
+      "asset_id": "1e97d858-7eab-44c3-b7b8-fe515f8c90eb",
+      "name": "E41 turn44 #21 · capture-1",
+      "case": "coverage-01",
+      "individual": 21,
+      "time_us": 460000000
+    },
+    {
+      "asset_id": "599a3a39-7da2-48c8-8140-853f924c955e",
+      "name": "E41 turn44 #21 · turns-1, both",
+      "case": "coverage-01",
+      "individual": 21,
+      "time_us": 496280000
+    },
+    {
+      "asset_id": "c946f140-e304-48a2-b1f7-279173fa4b43",
+      "name": "E41 engulf15 #5 · capture-2",
+      "case": "coverage-01",
+      "individual": 5,
+      "time_us": 502520000
+    },
+    {
+      "asset_id": "81f2b47d-2c22-41c6-89fa-1b52cd9b43af",
+      "name": "E41 turn44 #6 · capture-1, both",
+      "case": "coverage-01",
+      "individual": 6,
+      "time_us": 548280000
+    },
+    {
+      "asset_id": "12f18de3-5ca2-42a5-9155-2fc5e0b9a346",
+      "name": "E41 turn44 #27 · capture-2",
+      "case": "coverage-01",
+      "individual": 27,
+      "time_us": 572140000
+    },
+    {
+      "asset_id": "a281ea7d-bd83-41f4-ab4d-f9e7b2b5a512",
+      "name": "E41 engulf15 #5 · capture-3",
+      "case": "coverage-01",
+      "individual": 5,
+      "time_us": 576720000
+    },
+    {
+      "asset_id": "7d287449-8941-4438-b527-88d99b621a72",
+      "name": "E41 turn59 #25 · turns-3",
+      "case": "turning-02",
+      "individual": 25,
+      "time_us": 610100000
+    },
+    {
+      "asset_id": "37f61bfe-12c5-4100-ab1b-0b39d654de96",
+      "name": "E41 turn59 #75 · turns-1",
+      "case": "turning-02",
+      "individual": 75,
+      "time_us": 684740000
+    },
+    {
+      "asset_id": "1d7cb855-0c20-41c6-85e7-366786ba655c",
+      "name": "E41 turn44 #80 · turns-1",
+      "case": "turning-02",
+      "individual": 80,
+      "time_us": 736060000
+    },
+    {
+      "asset_id": "94db3fa9-95fd-4049-8141-bc3d19c00051",
+      "name": "E41 turn44 #81 · turns-1",
+      "case": "turning-02",
+      "individual": 81,
+      "time_us": 747380000
+    },
+    {
+      "asset_id": "bf29ccae-6292-43b2-b546-629f1879469f",
+      "name": "E41 turn59 #28 · turns-3",
+      "case": "turning-02",
+      "individual": 28,
+      "time_us": 773060000
+    },
+    {
+      "asset_id": "cbf5cb37-5f81-4e87-a0b1-56b4ee440faa",
+      "name": "E41 turn59 #85 · turns-1",
+      "case": "turning-02",
+      "individual": 85,
+      "time_us": 797940000
+    },
+    {
+      "asset_id": "a90393fc-1873-4209-b6fd-bdf3fb9b43d8",
+      "name": "E41 turn44 #18 · turns-1",
+      "case": "turning-02",
+      "individual": 18,
+      "time_us": 813480000
+    },
+    {
+      "asset_id": "3b8d7e44-d865-4391-9304-f4fa45b97dd9",
+      "name": "E41 turn44 #60 · capture-1, both",
+      "case": "coverage-02",
+      "individual": 60,
+      "time_us": 601600000
+    },
+    {
+      "asset_id": "7424cad7-a534-4eac-b944-5f0f1d0d0210",
+      "name": "E41 turn59 #59 · turns-1, both",
+      "case": "coverage-02",
+      "individual": 59,
+      "time_us": 602540000
+    },
+    {
+      "asset_id": "cde547d9-c085-4cfd-82ae-4870b9cb9f16",
+      "name": "E41 engulf15 #5 · capture-4",
+      "case": "coverage-02",
+      "individual": 5,
+      "time_us": 644180000
+    },
+    {
+      "asset_id": "00a0ee4a-5a84-4e03-97aa-688a5a580f6b",
+      "name": "E41 turn59 #79 · turns-1",
+      "case": "coverage-02",
+      "individual": 79,
+      "time_us": 684680000
+    },
+    {
+      "asset_id": "aafe2a85-1559-4105-b50f-94d8754dfcb0",
+      "name": "E41 turn59 #64 · turns-1",
+      "case": "coverage-02",
+      "individual": 64,
+      "time_us": 702980000
+    },
+    {
+      "asset_id": "2449a82e-8782-4d94-be73-872290cf6c23",
+      "name": "E41 turn59 #59 · turns-3",
+      "case": "coverage-02",
+      "individual": 59,
+      "time_us": 714560000
+    },
+    {
+      "asset_id": "0b0024c5-1a0a-4ef0-bdaf-2aebaab9babb",
+      "name": "E41 turn59 #70 · turns-1",
+      "case": "coverage-02",
+      "individual": 70,
+      "time_us": 718160000
+    },
+    {
+      "asset_id": "0d7e7491-6950-4bdc-8608-d05630157737",
+      "name": "E41 turn59 #31 · turns-3",
+      "case": "coverage-02",
+      "individual": 31,
+      "time_us": 781600000
+    },
+    {
+      "asset_id": "d0f76330-a125-4217-8b87-fdb3b03d1dbe",
+      "name": "E41 turn44 #6 · capture-2",
+      "case": "coverage-02",
+      "individual": 6,
+      "time_us": 783780000
+    },
+    {
+      "asset_id": "fe626dc9-0c39-49e8-860c-a4afa1fefb1e",
+      "name": "E41 turn59 #82 · turns-1",
+      "case": "coverage-02",
+      "individual": 82,
+      "time_us": 817000000
+    },
+    {
+      "asset_id": "39e18de0-09e8-41ba-91be-c00b20d59408",
+      "name": "E41 engulf15 #5 · capture-5",
+      "case": "coverage-02",
+      "individual": 5,
+      "time_us": 821920000
+    },
+    {
+      "asset_id": "d87cea94-cc9c-4a3b-a644-9715cd2db3a1",
+      "name": "E41 turn59 #88 · turns-1",
+      "case": "coverage-02",
+      "individual": 88,
+      "time_us": 851380000
+    },
+    {
+      "asset_id": "64925bc7-055f-47a7-bbd3-0b527e1a067c",
+      "name": "E41 turn59 #7 · turns-1",
+      "case": "coverage-02",
+      "individual": 7,
+      "time_us": 876780000
+    },
+    {
+      "asset_id": "57b505ca-013c-4397-a25c-42f6d5ca01c9",
+      "name": "E41 turn59 #92 · turns-1",
+      "case": "coverage-02",
+      "individual": 92,
+      "time_us": 894920000
+    }
+  ]
+}

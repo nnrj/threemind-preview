@@ -1,0 +1,30 @@
+{
+  "stage": "D2b",
+  "date": "2026-09-06",
+  "validation": {
+    "full": {
+      "passed": 249,
+      "skipped": 0,
+      "seconds": 260.98
+    },
+    "final_target": {
+      "passed": 4,
+      "seconds": 20.86
+    },
+    "edge": {
+      "passed": 2,
+      "seconds": 15.3
+    },
+    "final_layout_flow": {
+      "passed": 1
+    }
+  },
+  "versions": {
+    "database": 16,
+    "core": "causal/7",
+    "state": "state/5",
+    "profile": "profile/5"
+  },
+  "configuration_fields": 419,
+  "remaining": "D2c durable controlled plans and templates; AI; other settings, operations and performance; E notes and reports; innate trainer"
+}

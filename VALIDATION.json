@@ -1,0 +1,51 @@
+{
+  "schema": "threemind.public-preview-validation/1",
+  "date": "2026-11-11",
+  "source_commit": "8f56c7872458f40e9367c7144d74968fa7187a19",
+  "python": "3.13.0",
+  "python_dependencies": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "torch": "2.14.0+cu130",
+    "maturin": "1.15.0",
+    "pytest": "9.1.1"
+  },
+  "preserved_source_files_verified": 2652,
+  "python_files_syntax_checked": 1750,
+  "native_extension": "Built from the preview source into an isolated temporary directory",
+  "standalone_runtime": "Built from the preview source with cargo build --offline --locked -p threemind-runtime",
+  "kernel_regression": {
+    "passed": 343,
+    "failed": 0,
+    "test_files": [
+      "tests_v2/test_kernel_registry.py",
+      "tests_v2/test_local51_equivalence.py",
+      "tests_v2/test_local53.py",
+      "tests_v2/test_weight_decay.py"
+    ],
+    "included": "Historical routing, reference/native equivalence, /5.3 rules and standalone artifact roundtrips"
+  },
+  "workbench": {
+    "dependency_install": "Lockfile dependencies installed from existing cache using npm ci --offline --ignore-scripts",
+    "typescript_and_vite_build": "passed",
+    "existing_large_chunk_warning": true,
+    "browser_interaction_tested": false
+  },
+  "cli_help_import": "passed",
+  "code_data_git_guard": "passed before initial commit",
+  "data": {
+    "files_copied_and_sha256_readback_verified": 28314,
+    "bytes": 45671121023,
+    "historical_original_checksums_verified_where_available": true,
+    "SAT_parent_dependencies_verified": 96,
+    "four_confirmation_reanalyses_match": true
+  },
+  "environment_scope": "Existing Python dependencies and cached Rust/Node packages were used; the native extension and standalone runtime were freshly built from the extracted source. No database service or scientific run was started.",
+  "originals": {
+    "source_git_clean": true,
+    "preserved_source_files_still_match_original_repository": true,
+    "author_manuscript_unchanged": true,
+    "data_sources_were_not_written": true
+  },
+  "publication": "Local only; no push or upload"
+}

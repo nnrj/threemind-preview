@@ -1,0 +1,39 @@
+{
+  "schema": "threemind.validation/1",
+  "date": "2026-09-07",
+  "phase": "D5a",
+  "scope": "Project notifications, per-user read state and isolated email delivery",
+  "versions": {"database": 21, "causal": 7, "state": 5, "profile": 5, "scientific_fields": 419},
+  "checks": {
+    "full_regression": {"passed": 297, "skipped": 0, "seconds": 400.43},
+    "final_targeted_after_data_export_trigger_correction": {"passed": 11, "seconds": 50.48},
+    "edge_notification_configuration_and_display": {"passed": 4, "seconds": 31.8},
+    "typescript_and_vite": "passed",
+    "ruff": "passed",
+    "legacy_fields_reviewed": 55,
+    "legacy_fields_pending": 0,
+    "compose_config": "validated; no containers rebuilt",
+    "local_database": "schema 21 installed; no legacy data scan"
+  },
+  "coverage": [
+    "Real Core run with notifications disabled and enabled produces the same state hash",
+    "Committed run, model export and actual data_export task facts; transaction rollback emits no notification",
+    "Encrypted credentials, redaction, preserve/clear, no-op save, revision conflicts and project isolation",
+    "Owner-only policy; members mark only their own inbox as read",
+    "Independent queue, request deduplication, out-of-order transaction commits and exhausted leases",
+    "Policy, owner permission and deployment allowlist rechecked before dispatch",
+    "Rolling request cap and cooldown retain inbox facts; uncertain delivery is not resent",
+    "Mock Resend HTTP rejection, timeout and redirect handling; stable idempotency key",
+    "SMTP TLS setup, partial recipient refusal and known DATA receipt followed by QUIT failure",
+    "Edge graph/JSON round trip, duplicate-key rejection, save validation and mobile settings navigation",
+    "Real loopback SMTP receiver captures explicit test message and committed run message"
+  ],
+  "limits": [
+    "No live external email account was contacted; provider-specific deliverability is not verified",
+    "Structural recurrence trigger test uses an explicitly synthetic event fixture, not a new research result",
+    "TLS transport ordering is tested with a stub; production certificates and DNS depend on deployment",
+    "Unread count uses a live database count; no million-notification load claim",
+    "First full attempt had one outdated migration reconstruction fixture (296 passed); fixed before the passing run",
+    "Final task-kind correction was checked by the targeted suite after the full run; no claim that earlier collection included the added assertion"
+  ]
+}

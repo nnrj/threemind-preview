@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "tests": 10,
+  "failures": 0,
+  "errors": 0,
+  "work": "E:\\WORKSPACE\\AgentWork\\threemind\\.work\\sat-exclusion-apparatus-1793505658902223200",
+  "wall_seconds": 4.256395999982487,
+  "source_sha256": {
+    "study.py": "dc9707203b4e9a3f3fe97aab9f42b0a364df26b678f40219a4638dc0e2956dc9",
+    "test_apparatus.py": "c7e0c767e31f6af723036e0339e9483c6d63735c4268ec62b5274465e910a542"
+  }
+}

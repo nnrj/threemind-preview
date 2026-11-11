@@ -1,0 +1,33 @@
+const history: Record<string, string> = {
+  史书: "History",
+  阅读项目史书: "Read the project history",
+  "记下想法如何成为机制，实验如何改变判断。":
+    "How ideas became mechanisms, and experiments changed judgments.",
+  项目起点: "Project start",
+  本版编纂: "This edition",
+  选择史书版本: "Choose a history edition",
+  史书版本: "History edition",
+  卷目与史料: "Chapters and sources",
+  搜索章节: "Search chapters",
+  "搜索标题、时期或主题…": "Search titles, periods or topics…",
+  史书章节: "History chapters",
+  开篇与导读: "Opening and guide",
+  编年六卷: "Six chronological volumes",
+  专题列传: "Thematic histories",
+  决策与考证: "Decisions and provenance",
+  原始史料与全目: "Primary sources and inventory",
+  各卷目录: "Volumes",
+  没有匹配的章节: "No matching chapters",
+  "正文直接来自项目 Markdown；原始报告保持原位。":
+    "Text comes directly from project Markdown. Original reports remain in place.",
+  史书正文: "History text",
+  原始文献: "Original source",
+  下载本章: "Download chapter",
+  返回引用章节: "Back to the citing chapter",
+  章节翻阅: "Chapter navigation",
+  上一章: "Previous chapter",
+  下一章: "Next chapter",
+  未找到这部史书或章节: "History edition or chapter not found",
+  返回史书目录: "Return to the history index",
+};
+export default history;

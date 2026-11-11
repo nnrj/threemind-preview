@@ -1,0 +1,282 @@
+{
+  "schema": "threemind.legacy-kernel-sources/1",
+  "sources": [
+    {
+      "revision": "0bdb5e154868f02264ff66db0e0754119c35340f",
+      "path": "src/threemind_core/spec.py",
+      "source_sha256": "b8ea29364bb31e2e5504bea7dbf0280c2f6301b174c33a1f09303fc5ac0c46df",
+      "vendored_path": "src/threemind_kernels/legacy/causal_compat/spec.py"
+    },
+    {
+      "revision": "0bdb5e154868f02264ff66db0e0754119c35340f",
+      "path": "src/threemind_core/resources.py",
+      "source_sha256": "75cb0c23ae291281782fc2fdb8f9c6d8bdcdeab67af08b02515bebfb5dee35a4",
+      "vendored_path": "src/threemind_kernels/legacy/causal_compat/resources.py"
+    },
+    {
+      "revision": "0bdb5e154868f02264ff66db0e0754119c35340f",
+      "path": "src/threemind_core/energy.py",
+      "source_sha256": "1168c65b3f9565e6e5a40814dc181c09e249e4e1e82564c9e6242cea5be93e6d",
+      "vendored_path": "src/threemind_kernels/legacy/causal_compat/energy.py"
+    },
+    {
+      "revision": "0bdb5e154868f02264ff66db0e0754119c35340f",
+      "path": "src/threemind_core/attention.py",
+      "source_sha256": "386f47720e8e590f4d5749eca05581026eb84cd191220db554c9230d2526234a",
+      "vendored_path": "src/threemind_kernels/legacy/causal_compat/attention.py"
+    },
+    {
+      "revision": "0bdb5e154868f02264ff66db0e0754119c35340f",
+      "path": "src/threemind_core/spatial.py",
+      "source_sha256": "e57fc876000e4124910dd3e5a1480e79b5c88150f5227d79d9e75fdd9338635c",
+      "vendored_path": "src/threemind_kernels/legacy/causal_compat/spatial.py"
+    },
+    {
+      "revision": "0bdb5e154868f02264ff66db0e0754119c35340f",
+      "path": "src/threemind_core/engine.py",
+      "source_sha256": "eb2da152a1c1553ed481d339d44745ba024a0c451f616267893c12ee936cb029",
+      "vendored_path": "src/threemind_kernels/legacy/causal_compat/engine.py"
+    },
+    {
+      "revision": "304ef25dd8cafaec3cffd374cf9a7f06b77d5388",
+      "path": "src/threemind_core/spec.py",
+      "source_sha256": "79fc14d219fa287f04a1547d44091a1ec5e8b9999cfd2b31ff8961c3b946c67b",
+      "vendored_path": "src/threemind_kernels/legacy/causal8/spec.py"
+    },
+    {
+      "revision": "304ef25dd8cafaec3cffd374cf9a7f06b77d5388",
+      "path": "src/threemind_core/resources.py",
+      "source_sha256": "75cb0c23ae291281782fc2fdb8f9c6d8bdcdeab67af08b02515bebfb5dee35a4",
+      "vendored_path": "src/threemind_kernels/legacy/causal8/resources.py"
+    },
+    {
+      "revision": "304ef25dd8cafaec3cffd374cf9a7f06b77d5388",
+      "path": "src/threemind_core/energy.py",
+      "source_sha256": "1168c65b3f9565e6e5a40814dc181c09e249e4e1e82564c9e6242cea5be93e6d",
+      "vendored_path": "src/threemind_kernels/legacy/causal8/energy.py"
+    },
+    {
+      "revision": "304ef25dd8cafaec3cffd374cf9a7f06b77d5388",
+      "path": "src/threemind_core/attention.py",
+      "source_sha256": "386f47720e8e590f4d5749eca05581026eb84cd191220db554c9230d2526234a",
+      "vendored_path": "src/threemind_kernels/legacy/causal8/attention.py"
+    },
+    {
+      "revision": "304ef25dd8cafaec3cffd374cf9a7f06b77d5388",
+      "path": "src/threemind_core/spatial.py",
+      "source_sha256": "e57fc876000e4124910dd3e5a1480e79b5c88150f5227d79d9e75fdd9338635c",
+      "vendored_path": "src/threemind_kernels/legacy/causal8/spatial.py"
+    },
+    {
+      "revision": "304ef25dd8cafaec3cffd374cf9a7f06b77d5388",
+      "path": "src/threemind_core/restoration.py",
+      "source_sha256": "d7c16210b32adf1f613655531c5a7d2dd51d74bc0cb2a43a738d09e3179f8154",
+      "vendored_path": "src/threemind_kernels/legacy/causal8/restoration.py"
+    },
+    {
+      "revision": "304ef25dd8cafaec3cffd374cf9a7f06b77d5388",
+      "path": "src/threemind_core/engine.py",
+      "source_sha256": "f6315966d1e02174cd82c67d9464fd6bb8fc7d68b6c1f9a96fa5083b0dd230f4",
+      "vendored_path": "src/threemind_kernels/legacy/causal8/engine.py"
+    },
+    {
+      "revision": "97d85922534fb6316960169f826cf8ff4a0acafd",
+      "path": "core/threemind/model.py",
+      "source_sha256": "958046eaf861a6e0db5841ca95d764879662e59be79f50a52c96dd3f3b8ef939",
+      "vendored_path": "src/threemind_kernels/legacy/unified/model.py"
+    },
+    {
+      "revision": "97d85922534fb6316960169f826cf8ff4a0acafd",
+      "path": "core/threemind/frames.py",
+      "source_sha256": "a1da68bf0eb5aa17758995eb83018142f18c66dd8436c8471186c6fc4a2221ad",
+      "vendored_path": "src/threemind_kernels/legacy/unified/frames.py"
+    },
+    {
+      "revision": "97d85922534fb6316960169f826cf8ff4a0acafd",
+      "path": "core/threemind/attention.py",
+      "source_sha256": "b5b4a3256c52bb971be7706b6c9a684a44ac1a2fe88f06f38ecc44bc04a796a2",
+      "vendored_path": "src/threemind_kernels/legacy/unified/attention.py"
+    },
+    {
+      "revision": "97d85922534fb6316960169f826cf8ff4a0acafd",
+      "path": "core/threemind/runtime.py",
+      "source_sha256": "4263c8e921a7cce73faba23fb6f673ecd1e0302846c7c17c14faa13fb31d9cdd",
+      "vendored_path": "src/threemind_kernels/legacy/unified/runtime.py"
+    },
+    {
+      "revision": "425f1a3a2ad3bd1688f5eff809fa9f4fc75e402f",
+      "path": "src/threemind_core/spec.py",
+      "source_sha256": "d09f38da9644db7112d940d8971f9b909dc627363216ad5bc369e9b3739dc6b0",
+      "vendored_path": "src/threemind_kernels/legacy/configs/causal1.py"
+    },
+    {
+      "revision": "309b0771b37fd8fd23dbd0bb297df83f94e58dc5",
+      "path": "src/threemind_core/spec.py",
+      "source_sha256": "828a9c36ddf54d71ae2fc5523225e8e6f534a4698eae4e413a3eac1beb700706",
+      "vendored_path": "src/threemind_kernels/legacy/configs/causal2.py"
+    },
+    {
+      "revision": "78f911b6f7cde2b8d1f67090748f6bd5739f1384",
+      "path": "src/threemind_core/spec.py",
+      "source_sha256": "d86aeabc936efdae2630179ab7323ceb1b2a4d9329d8eca8938414dd327d02ac",
+      "vendored_path": "src/threemind_kernels/legacy/configs/causal3.py"
+    },
+    {
+      "revision": "14de159d8dfe3201935853a142df4f04093e2a81",
+      "path": "src/threemind_core/spec.py",
+      "source_sha256": "9d21a579571d270a120c89da2cf5040c117ce1fd768f1e066a285340e3c4d075",
+      "vendored_path": "src/threemind_kernels/legacy/configs/causal4.py"
+    },
+    {
+      "revision": "33e34966720c520af2f386d4e7aa486ff97c5ff9",
+      "path": "src/threemind_core/spec.py",
+      "source_sha256": "e4f20c542025fc9be83c26d71ba9979ab708cece45fe5f1e844e20eeb750b239",
+      "vendored_path": "src/threemind_kernels/legacy/configs/causal5.py"
+    },
+    {
+      "revision": "54e859a69b1c885c7cb9e11d2175309f052ef9ed",
+      "path": "src/threemind_core/spec.py",
+      "source_sha256": "18bd09a6a9c9100580e7c6e2e00f7013a48762f9f5387d3e76ffb40db768ab1a",
+      "vendored_path": "src/threemind_kernels/legacy/configs/causal6.py"
+    },
+    {
+      "revision": "0bdb5e154868f02264ff66db0e0754119c35340f",
+      "path": "src/threemind_core/spec.py",
+      "source_sha256": "b8ea29364bb31e2e5504bea7dbf0280c2f6301b174c33a1f09303fc5ac0c46df",
+      "vendored_path": "src/threemind_kernels/legacy/configs/causal7.py"
+    },
+    {
+      "revision": "304ef25dd8cafaec3cffd374cf9a7f06b77d5388",
+      "path": "src/threemind_core/spec.py",
+      "source_sha256": "79fc14d219fa287f04a1547d44091a1ec5e8b9999cfd2b31ff8961c3b946c67b",
+      "vendored_path": "src/threemind_kernels/legacy/configs/causal8.py"
+    },
+    {
+      "revision": "0bdb5e154868f02264ff66db0e0754119c35340f",
+      "path": "crates/threemind-core/src/attention.rs",
+      "source_sha256": "a31e31781ca32ed1481f40669b22bc118899962daee2b0a30bc545a4dcfcdae4",
+      "vendored_path": "crates/threemind-causal-legacy/src/attention.rs"
+    },
+    {
+      "revision": "0bdb5e154868f02264ff66db0e0754119c35340f",
+      "path": "crates/threemind-core/src/canonical.rs",
+      "source_sha256": "db03316de5733498a8ea24e00295294eb93bb2150332e80f58fe73d09a2dd822",
+      "vendored_path": "crates/threemind-causal-legacy/src/canonical.rs"
+    },
+    {
+      "revision": "0bdb5e154868f02264ff66db0e0754119c35340f",
+      "path": "crates/threemind-core/src/energy.rs",
+      "source_sha256": "ec3b55931e40ed6e2b404eac10bfabc70469b40f7bc9096f108c163e9e7c2569",
+      "vendored_path": "crates/threemind-causal-legacy/src/energy.rs"
+    },
+    {
+      "revision": "0bdb5e154868f02264ff66db0e0754119c35340f",
+      "path": "crates/threemind-core/src/lib.rs",
+      "source_sha256": "46a57a3cc1caeefe999157d3f6ef345e8e04854cad13d4e6ec784266277d28ec",
+      "vendored_path": "crates/threemind-causal-legacy/src/lib.rs"
+    },
+    {
+      "revision": "0bdb5e154868f02264ff66db0e0754119c35340f",
+      "path": "crates/threemind-core/src/resources.rs",
+      "source_sha256": "e5236deed1809215dc1bec2cbdf03ed527d0c352d9ba467a1b0abb478db45eca",
+      "vendored_path": "crates/threemind-causal-legacy/src/resources.rs"
+    },
+    {
+      "revision": "0bdb5e154868f02264ff66db0e0754119c35340f",
+      "path": "crates/threemind-core/src/spatial.rs",
+      "source_sha256": "b2758cd8095fe21c9e537cc1808a0daeebe8b41b942352f998a93e60240a12a2",
+      "vendored_path": "crates/threemind-causal-legacy/src/spatial.rs"
+    },
+    {
+      "revision": "304ef25dd8cafaec3cffd374cf9a7f06b77d5388",
+      "path": "crates/threemind-core/src/attention.rs",
+      "source_sha256": "a31e31781ca32ed1481f40669b22bc118899962daee2b0a30bc545a4dcfcdae4",
+      "vendored_path": "crates/threemind-causal8-legacy/src/attention.rs"
+    },
+    {
+      "revision": "304ef25dd8cafaec3cffd374cf9a7f06b77d5388",
+      "path": "crates/threemind-core/src/canonical.rs",
+      "source_sha256": "db03316de5733498a8ea24e00295294eb93bb2150332e80f58fe73d09a2dd822",
+      "vendored_path": "crates/threemind-causal8-legacy/src/canonical.rs"
+    },
+    {
+      "revision": "304ef25dd8cafaec3cffd374cf9a7f06b77d5388",
+      "path": "crates/threemind-core/src/energy.rs",
+      "source_sha256": "ec3b55931e40ed6e2b404eac10bfabc70469b40f7bc9096f108c163e9e7c2569",
+      "vendored_path": "crates/threemind-causal8-legacy/src/energy.rs"
+    },
+    {
+      "revision": "304ef25dd8cafaec3cffd374cf9a7f06b77d5388",
+      "path": "crates/threemind-core/src/lib.rs",
+      "source_sha256": "3f6fbb90bc4cb9f8146071ed4ef5a513465f221f35003ab340aa2836e940d203",
+      "vendored_path": "crates/threemind-causal8-legacy/src/lib.rs"
+    },
+    {
+      "revision": "304ef25dd8cafaec3cffd374cf9a7f06b77d5388",
+      "path": "crates/threemind-core/src/resources.rs",
+      "source_sha256": "e5236deed1809215dc1bec2cbdf03ed527d0c352d9ba467a1b0abb478db45eca",
+      "vendored_path": "crates/threemind-causal8-legacy/src/resources.rs"
+    },
+    {
+      "revision": "304ef25dd8cafaec3cffd374cf9a7f06b77d5388",
+      "path": "crates/threemind-core/src/restoration.rs",
+      "source_sha256": "79420eb59023c06d577c09e18140f3656c5232a30aa2ec79da7194f76def7de6",
+      "vendored_path": "crates/threemind-causal8-legacy/src/restoration.rs"
+    },
+    {
+      "revision": "304ef25dd8cafaec3cffd374cf9a7f06b77d5388",
+      "path": "crates/threemind-core/src/spatial.rs",
+      "source_sha256": "b2758cd8095fe21c9e537cc1808a0daeebe8b41b942352f998a93e60240a12a2",
+      "vendored_path": "crates/threemind-causal8-legacy/src/spatial.rs"
+    },
+    {
+      "revision": "97d85922534fb6316960169f826cf8ff4a0acafd",
+      "path": "adapters/threemind_adapters/sensors.py",
+      "source_sha256": "8011955134523bd7070b15fd62512fbd3205e11599f98a46c876ee5263c1edea",
+      "vendored_path": "src/threemind_kernels/legacy/unified/sensors.py"
+    },
+    {
+      "revision": "5a5f0dd58c254e56b290676287d17568e78ae9f0",
+      "path": "src/threemind_runtime/inheritance.py",
+      "source_sha256": "d95d169a8a101e77a630defddf76921319238e5d47b17f246407fbae9aa0aee8",
+      "vendored_path": "src/threemind_kernels/legacy/causal_compat/inheritance.py",
+      "adaptation": "local imports only"
+    },
+    {
+      "revision": "304ef25dd8cafaec3cffd374cf9a7f06b77d5388",
+      "path": "src/threemind_runtime/inheritance.py",
+      "source_sha256": "168514ef16cec179b7b20999abe9088c85c906a7de19d97e6b43b7818cd669b2",
+      "vendored_path": "src/threemind_kernels/legacy/causal8/inheritance.py",
+      "adaptation": "local imports only"
+    }
+  ],
+  "bridges": [
+    "causal_compat.Engine constructor accepts birth identity before initialization",
+    "causal-legacy.Engine::new_version accepts birth identity before initialization; no formulas altered",
+    {
+      "path": "src/threemind_kernels/legacy/unified/sensors.py",
+      "change": "Only SensoryFrame import routed to the co-vendored original frames module; encoding and channel identity unchanged."
+    }
+  ],
+  "birth_witnesses": [
+    {
+      "revision": "5a5f0dd58c254e56b290676287d17568e78ae9f0",
+      "path": "tests_v2/test_development.py",
+      "source_sha256": "3ff18ff2abab8209b172a9a5fa1637aa3419b315ae6da75f91a07a4c44477f61",
+      "test": "test_storage_free_birth_preserves_learned_structure_and_remains_plastic"
+    },
+    {
+      "revision": "304ef25dd8cafaec3cffd374cf9a7f06b77d5388",
+      "path": "tests_v2/test_development.py",
+      "source_sha256": "3ff18ff2abab8209b172a9a5fa1637aa3419b315ae6da75f91a07a4c44477f61",
+      "test": "test_storage_free_birth_preserves_learned_structure_and_remains_plastic"
+    }
+  ],
+  "birth_fixture": {
+    "path": "tests_v2/fixtures/legacy-birth.json",
+    "sha256": "ecbc3283e56c917d7abc9851743af52fe61bbba8a130a290fdadd97757bf39f7",
+    "bytes": 17983,
+    "classification": "necessary small frozen engineering fixture, not a formal experiment",
+    "method": "Child hashes evaluated from original Git birth source with local historical imports; causal1-6 reuse existing frozen parent fixtures; causal7-8 synthetic native parents use the preserved original kernels."
+  }
+}

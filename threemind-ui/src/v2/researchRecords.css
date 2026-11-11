@@ -1,0 +1,15 @@
+.research-records { max-width: 1200px; margin: 0 auto; min-width: 0; }
+.record-scope { padding: 12px 16px; border-left: 3px solid var(--accent); background: var(--surface); }
+.record-filters { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 12px; margin: 24px 0; }
+.record-filters .field { min-width: 0; }
+.record-filters input, .record-filters select { min-width: 0; width: 100%; max-width: 100%; box-sizing: border-box; }
+.record-list article { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; padding: 20px 0; border-bottom: 1px solid var(--border); }
+.record-list article > div:first-child { flex: 1; min-width: min(200px, 100%); overflow-wrap: anywhere; }
+.record-list small { display: block; margin-top: 8px; opacity: .72; overflow-wrap: anywhere; }
+.record-status { display: flex; flex-direction: column; gap: 8px; font-size: 13px; }
+.record-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; margin: 20px 0; }
+.research-records section { margin: 28px 0; }
+.research-records pre { max-height: 480px; overflow: auto; white-space: pre-wrap; overflow-wrap: anywhere; padding: 16px; border: 1px solid var(--border); }
+.record-gaps { border-left: 3px solid #b08031; padding: 16px; background: var(--surface); }
+.research-records details { margin: 12px 0; }
+@media (max-width: 600px) { .record-filters { grid-template-columns: minmax(0, 1fr); } .record-list article { align-items: flex-start; } }

@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "threemind-transformer"
+version = "2.1.0"
+description = "Optional local Transformer senses and language conversion for ThreeMind"
+requires-python = ">=3.11"
+dependencies = ["threemind-runtime==2.1.0", "pydantic>=2.8,<3", "psutil>=5.9,<8"]
+
+[project.optional-dependencies]
+scratch = ["torch>=2.6,<3", "safetensors>=0.6,<1"]
+language = ["torch>=2.6,<3", "safetensors>=0.6,<1", "transformers>=4.51,<5", "peft>=0.17,<1"]
+
+[project.scripts]
+threemind-transformer = "threemind_transformer.cli:main"
+threemind-language = "threemind_transformer.language_cli:main"
+
+[tool.setuptools.packages.find]
+where = ["../../src"]
+include = ["threemind_transformer*"]
+
+[tool.setuptools.package-data]
+threemind_transformer = ["language_assets.json"]

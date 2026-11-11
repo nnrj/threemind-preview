@@ -1,0 +1,117 @@
+{
+  "date": "2026-09-10",
+  "baseline": "db4e0a4",
+  "reference": "chat-restoration-reference.json",
+  "scope": "Observer presentation, temporal tools, CLI evidence, immutable report sources; no scientific training rerun",
+  "unchanged_scientific_paths": [
+    "src/threemind_core",
+    "crates/threemind-core",
+    "src/threemind_runtime/sensory.py",
+    "src/threemind_runtime/readout_config.py",
+    "src/threemind_runtime/readouts.py",
+    "src/threemind_runtime/readout_host.py"
+  ],
+  "tests": [
+    {
+      "command": ".venv/Scripts/python.exe -m pytest tests_v2/test_cli_readout_evidence.py tests_v2/test_temporal_chat_restoration.py tests_v2/test_temporal_reports.py tests_v2/test_conversation.py tests_v2/test_probe_calibration.py tests_v2/test_readouts.py tests_v2/test_readout_columns.py tests_v2/test_readout_fidelity.py tests_v2/test_runtime_interop.py tests_v2/test_research_documents.py tests_v2/test_report_exports.py -q",
+      "passed": 71,
+      "seconds": 197.74
+    },
+    {
+      "scope": "After the CLI source-policy fix and added regression; overlaps the preceding suite",
+      "files": [
+        "test_cli_readout_evidence",
+        "test_temporal_chat_restoration",
+        "test_temporal_reports",
+        "test_probe_calibration"
+      ],
+      "passed": 24,
+      "seconds": 77.51
+    },
+    {
+      "command": "THREEMIND_E2E_URL=http://127.0.0.1:8881 npx playwright test e2e/conversation.spec.ts e2e/v3-restoration.spec.ts e2e/temporal-research.spec.ts",
+      "passed": 4,
+      "seconds": 37.4
+    },
+    {
+      "scope": "Final localized experiment-status display",
+      "file": "e2e/temporal-research.spec.ts",
+      "passed": 1,
+      "seconds": 8.6
+    },
+    {
+      "scope": "Final inline layout, 60-second soak and virtualized chat",
+      "file": "e2e/v3-restoration.spec.ts",
+      "environment": {
+        "THREEMIND_E2E_SOAK": "1"
+      },
+      "passed": 1
+    }
+  ],
+  "build": "TypeScript and Vite passed; existing large-chunk warning remains",
+  "lint": "Ruff, translation catalogue audit and git diff --check passed",
+  "soak": {
+    "duration_s": 60,
+    "max_mounted_messages": 6,
+    "heap_growth_10_to_60_s_bytes": 829796,
+    "dom_growth_10_to_60_s": 9,
+    "samples": "temporal-chat-soak.json"
+  },
+  "deployment": {
+    "database": "127.0.0.1:5433/threemind",
+    "schema_from": 49,
+    "schema_to": 50,
+    "doctor": "connected; workstation; native",
+    "historical_data_scanned_or_recomputed": false,
+    "cleanup": false
+  },
+  "limitations": [
+    "Finite small-model browser test; no hours-long or server-scale capacity conclusion",
+    "Playwright uses simulated microphone/camera and test media, not physical hardware certification",
+    "Historical experiments were not backfilled, repaired, reanalyzed or cleaned",
+    "Window nodes and time samples are not independent experimental replicates"
+  ],
+  "sha256": {
+    "docs/benchmarks/temporal-chat-soak.json": "aada96f15dfba54a8e1696fafb32e05d3f262941f48737b90e822218e2879002",
+    "docs/images/temporal-inline-chat-mobile.png": "26fb95cc090747d9761a219d6d464a48f2916973118099dac29cef5efd3e9a76",
+    "docs/images/temporal-inline-chat.png": "0d645abc9202457b4b245895356c7cbfd624b90434f5168ce4006ba11c64e98a",
+    "docs/images/temporal-mixed-chat-mobile.png": "d698a7ebe64dbfcfb792f3e9b4d660533a6844bd147e6be6524d3430f37c8e48",
+    "docs/images/temporal-mixed-chat.png": "0b15374fc040f865e64467e33257ed13f87a1d178e34ae48db789d6b56fe1e92",
+    "docs/images/temporal-observation.png": "6b3e89faf6a9fcc3b84ab82a2edd78fe4c7b8eb3439cfced4ae3b24e65626abd",
+    "docs/images/temporal-report-draft.png": "489432d7f8c7db5a873099c823118c0d39a8b8994dd444c154ad943f97847849",
+    "migrations/050_temporal_research.sql": "ce552b4d56cd4aa50d86648b487f96f697d9d32990a62a8822b7d49372907f02",
+    "src/threemind_lab/calibration.py": "ae55049cede904215237201b8c04b2b8ddfcc7f94a1815dd4e15e0aa9f9d059b",
+    "src/threemind_lab/calibration_api.py": "615e4cc627ceba2018593aa3f9433af1cf86d553fde9711ca108b64aa1adb7e8",
+    "src/threemind_lab/conversation_api.py": "1cb3c7693eaf44feec0157d4aa4d9a7511af5d64f83b36bdbd0b6ae2aedd1e7a",
+    "src/threemind_lab/database.py": "7f62df197e48b86ca9b0491b5c0d236f0bacec4912352e7739673b0f3dc5d5a2",
+    "src/threemind_lab/report_schema.py": "d9636b70fa4679676887d67e1aa8fbbde46af64b993974eed8fd35ff2ccd9689",
+    "src/threemind_lab/report_sources.py": "0992102ec3f578bac555f593d3f3e15d445d1d1c1907aaf4003c0ecceb4b32ac",
+    "src/threemind_lab/report_temporal.py": "21874925794199cddc2aae5d073545a3c33abd3f90c5474fbb90e85c7b9b8399",
+    "src/threemind_lab/research_documents.py": "faaf33963d04af5754d8af3b82ebea327814bbe209d806f5f88f932232d46a09",
+    "src/threemind_lab/worker.py": "564ce82fb0f81ec14294ae33da3a2ba499b4946c73be58b08b283e5070042d1b",
+    "src/threemind_runtime/calibration.py": "02d3680c7532f29c8efe2ae88ba71874cfd04dc3656c5aacd2dfbede8be6c0ee",
+    "src/threemind_runtime/calibration_cli.py": "68ef2f4074d45f4492f36cd8486042285016a44470920307cbebbd3ff1daabdc",
+    "src/threemind_runtime/chat_readout.py": "f259ee08c9564b861714255dc0c578029b5ae52a244c2d59333e83924592e8c3",
+    "src/threemind_runtime/cli.py": "44e168962d7215e8275898f6321dbab69205f2b5853ad29b8e3ce5dbae7e4e2c",
+    "src/threemind_runtime/readout_session.py": "7dc24973e5be5937f1e3d03bd7aac0a5b033a84b3fc2611a1b7c5f6999f6d1a2",
+    "src/threemind_runtime/temporal_probe.py": "91eb6188f71c3d0536fd4da9c7e0b77aab44fb95f1cb4f4fbacac584ed173cc4",
+    "threemind-ui/src/v2/ChatMessage.tsx": "12c91dca65aa78bf70c4829ab6a7cf60f82adfba384bf62200e97fed82e96220",
+    "threemind-ui/src/v2/TemporalProbe.tsx": "cb650f0d20ab761f2b8b74e469f7780615b784b1da1799915bda05c8eee45b3c",
+    "threemind-ui/src/v2/TemporalSource.tsx": "919b10b1ce6d6c3e0b05c4a35e0817508c15d41070d3a48f8704af6cdc8cae54",
+    "threemind-ui/src/v2/VirtualConversation.tsx": "c1cd3443b75901706129a31cdb7f94d8ebb04fc05058537697bb6dd59a56bc7c",
+    "threemind-ui/src/v2/chatOrgans.tsx": "e941a2ea499bcb3c4ffc996821b319da77d9632b1e7c1e95d2d795010b60ff2a",
+    "threemind-ui/src/v2/chatRestoration.css": "4948e672c470c852015b1e0472b001f591fdaded0d50d3e96d55319c7a255789",
+    "threemind-ui/src/v2/conversation.tsx": "c28d4855ecbb144236775ff34150f6ef6e9b8614b4b3c36b7581e85a1e97aafd",
+    "threemind-ui/src/v2/conversationPreferences.tsx": "809cbf47e8f25c382f34831fd85d84cdf3697671bb973039a0a6621bd84a7922",
+    "threemind-ui/src/v2/inputs.tsx": "a6c92314172f775219b9aa7fec21005815d7faf3303ab37b924f4ff04e6d6522",
+    "threemind-ui/src/v2/locales/en.ts": "036e0631e40eed87391097a58e70b178550b060e008cb3c6c421c119696f71d8",
+    "threemind-ui/src/v2/media.tsx": "f96b4e69203e9705757d1f774c7eaee1915314a659322d45aed1d30e24d794e5",
+    "threemind-ui/src/v2/preferences.ts": "cc4213353d2b9b2eab78d708d05b4ce8028af5cc1f9fe7355eba0cc0df13a300",
+    "threemind-ui/src/v2/probeCalibration.tsx": "f6560be5156405b55a1df3565edf92e00b4a5015ae9d56f3ebe5a7f3845a9c1a",
+    "threemind-ui/src/v2/readouts.tsx": "f7bc5603e59db9abb4731721b3afcf82c3b0740d2efc67b95ed0fe04d0dd83cb",
+    "threemind-ui/src/v2/reportLabels.ts": "ec7ca1b3dcb976c9f9705b549452d71c11390d4c9bc3532a37cef7d6a6919017",
+    "threemind-ui/src/v2/reportRender.tsx": "4ec786be956ed6c82ea884ebaa91ae0c2bb762af11cba460c49802757c35c752",
+    "threemind-ui/src/v2/reports.tsx": "2bcd37cf55aa58bb1fbe74d75ce534be89348fb553f0686be57fc71a0dcf404b",
+    "threemind-ui/src/v2/research.tsx": "45b0fd3ae6520cd21df972127521eac490c5ce53f081a9e56735f21fc905044b"
+  }
+}

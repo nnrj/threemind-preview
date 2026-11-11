@@ -1,0 +1,21 @@
+{
+  "schema": "threemind.validation/1",
+  "date": "2026-09-07",
+  "phase": "D6c",
+  "status": "policy_verified_application_image_pending",
+  "checks": {
+    "compose_normalization": "passed",
+    "policy": ["positive configurable CPU/memory/PID limits", "read-only Lab root", "bounded tmpfs", "rotated logs", "internal data network", "loopback-only API port", "no PostgreSQL published port", "no AI/mail decryption key in Runtime worker or bootstrap"],
+    "docker_engine_probe": {"passed": true, "existing_image": "postgres:17-alpine", "pull": "never", "network": "none", "user": "65534:65534", "memory_max_bytes": 134217728, "cpu_max": "50000 100000", "pids_max": 64, "root_write_rejected": true, "tmp_write_succeeded": true, "effective_capabilities": 0, "no_new_privileges": 1, "temporary_container_removed": true},
+    "application_build": {"attempts": 2, "including_escalated_retry": true, "completed": false, "reason": "Connection timeout while fetching Docker Hub authentication token from auth.docker.io; base images could not be resolved"}
+  },
+  "limits": [
+    "The engine probe does not execute the ThreeMind application",
+    "No full-container runtime, media/export, AI/mail or restart acceptance is claimed",
+    "Native workstation tests remain separate evidence",
+    "Per-container budgets are not per-project OS isolation",
+    "No global Docker network configuration or existing application containers were changed",
+    "A missing encryption key was generated only in the ignored local Compose configuration; no existing keys were replaced or printed"
+  ],
+  "follow_up": ["Resolve Docker Hub connectivity", "Build current application image", "Run isolated Compose application acceptance", "Verify resource failure recovery before marking full container deployment complete"]
+}

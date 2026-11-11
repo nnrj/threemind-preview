@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-08",
+  "base_commit": "20b91c2",
+  "scope": "F5e optional project execution resource and progress warnings",
+  "versions": {"database": 46, "observer": "threemind.execution-health/1", "core": "causal/7 unchanged"},
+  "checks": [
+    {"suite": "notifications, sampled health, observer, migrations and wiring", "passed": 24, "failed": 0, "seconds": 90.77, "log": ".work/execution-health-backend.log"},
+    {"suite": "final health, exception isolation, RLS and worker capability gate", "passed": 6, "failed": 0, "seconds": 15.72, "log": ".work/execution-health-accepted-backend.log"},
+    {"suite": "initial browser health and existing local SMTP", "passed": 1, "failed": 1, "seconds": 14.0, "log": ".work/execution-health-browser.log"},
+    {"suite": "corrected health browser including full JSON configuration and model hashes", "passed": 1, "failed": 0, "seconds": 17.6, "log": ".work/execution-health-final-browser.log"},
+    {"suite": "final responsive health cards, export and notification evidence", "passed": 1, "failed": 0, "seconds": 11.7, "log": ".work/execution-health-accepted-browser.log"}
+  ],
+  "quality": {"build": "passed; existing chunk size advisory", "ruff": "passed", "translations": 4435, "missing_translations": 0},
+  "fixes": [
+    "Initial browser test attempted to parse virtualized CodeMirror DOM as the entire document. The test now verifies the full actual validation request; product JSON was not truncated.",
+    "Narrow-screen metric table was replaced by responsive cards after screenshot review.",
+    "Non-database observation errors stop only the affected monitor with redacted status; other projects continue.",
+    "An old notification worker cannot claim policies containing the new strict fields."
+  ],
+  "boundaries": [
+    "Overlapping suites are not a full repository total.",
+    "Browser threshold wait>=0 was an explicitly labelled engineering fixture, not a real fault.",
+    "Notification regression used a local SMTP sink; no external email or AI was sent.",
+    "Health rules use sampled host observations, not model time or proof of continuous conditions.",
+    "Current observations and immutable notices are retained; a complete historical performance time series is not promised.",
+    "No Core or scientific parameter changes, data/ scan, Docker rebuild or push in this stage."
+  ]
+}

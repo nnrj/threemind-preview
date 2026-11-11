@@ -1,0 +1,242 @@
+{
+  "schema": "threemind.memory2-preservation-hashes/1",
+  "classification": "Small frozen engineering witness: scenario/configuration and complete-state hashes only. No formal research individuals or trajectories.",
+  "baseline_commits": [
+    "52e18c3e3d9be89aa2569861e612b977c6911f4b",
+    "6a9e68a2b261beb6c2d3424662d3e0c6baad102c",
+    "f4e7568f29c0f81c9ed2bce022f805279aff4fe7"
+  ],
+  "generated_from": "6a9e68a2b261beb6c2d3424662d3e0c6baad102c",
+  "python": "3.13.0",
+  "platform": "win32",
+  "hash_rule": "SHA-256 of sorted compact JSON, unrounded complete Python state; cross-backend numeric comparison separately uses rel=1e-12, abs=1e-14. Do not regenerate automatically when a check fails.",
+  "default_sha256": "6ec704cac1ac49d25b624dc7ad24be937952aa077d1fccfee71854a54d4be888",
+  "cases": {
+    "arrival-window/base_operator_route": {
+      "config": {
+        "stp_enabled": false,
+        "fast_enabled": false,
+        "context_enabled": false,
+        "novelty_mode": "arrival-window"
+      },
+      "scenario_sha256": "920c517259e834ac2bf9484d06bfadab5f6142cec0e04ae3339fe90d7925c7bc",
+      "snapshot_count": 3,
+      "state_sha256": "8f9c7a3de03fb0ce8479aeb57ff0bc160afdf77ecb48bba2abc6615f3a4c4e13"
+    },
+    "arrival-window/birth_repeat_and_propagation": {
+      "config": {
+        "novelty_mode": "arrival-window"
+      },
+      "scenario_sha256": "74b83462d7fc0005494927c7ec308c79c20857ec07ced9c1a8f1f831494759f4",
+      "snapshot_count": 4,
+      "state_sha256": "ba56d74f82a6fdf45bb9c9f7a55e580d5e516691bd0ab3836c10678a9fb12038"
+    },
+    "arrival-window/disconnect_delete_new_identity": {
+      "config": {
+        "novelty_mode": "arrival-window"
+      },
+      "scenario_sha256": "477aef56b3e97aabeecf3212454e91cc4637d90cc46c5d26d324006c6c988705",
+      "snapshot_count": 3,
+      "state_sha256": "9a6d556817f67c0181e8d301aada803de2eea7c1ff48b8e06685b44903f6bd7c"
+    },
+    "arrival-window/energy_starvation": {
+      "config": {
+        "energy_simulation_enabled": true,
+        "energy_starvation_damage_enabled": true,
+        "energy_initial_reserve": 0.0001,
+        "novelty_mode": "arrival-window"
+      },
+      "scenario_sha256": "b5dfd569eca60b9cd3c8694d7c4aa7030ec07c66ca4c00a94a87997380981050",
+      "snapshot_count": 2,
+      "state_sha256": "4e240e54805cd24332bf3e5d302b2a75a0d3f0ce117c6e2e10875f0bec8ab019"
+    },
+    "arrival-window/isolated_pruning": {
+      "config": {
+        "energy_simulation_enabled": true,
+        "energy_initial_reserve": 0.0,
+        "node_prune_after_us": 100000,
+        "novelty_mode": "arrival-window"
+      },
+      "scenario_sha256": "b6b52b0af75a4a3c89346d48306f1ad1e0dc721427221ff604229c3b029b6169",
+      "snapshot_count": 2,
+      "state_sha256": "fa90341f38c584c224543c13238f232e271b9547ff5e54faa68d8ded1777165d"
+    },
+    "arrival-window/learning_off": {
+      "config": {
+        "plasticity": false,
+        "novelty_mode": "arrival-window"
+      },
+      "scenario_sha256": "8f32fa3bd054c1fe595bc62e320f028d729bb657ff6b90a20cdaefc03409d8f3",
+      "snapshot_count": 2,
+      "state_sha256": "c07d51b48516cbe56f716ea41ef29a27680d6155b376670e888fbf0768a7d9b7"
+    },
+    "arrival-window/saturation_consumes_energy": {
+      "config": {
+        "energy_simulation_enabled": true,
+        "inhibition": false,
+        "novelty_mode": "arrival-window"
+      },
+      "scenario_sha256": "779b5a34eaa58e8abfda0886cf631335a35768172946a36a63ae6abdc7a8e6ed",
+      "snapshot_count": 2,
+      "state_sha256": "afa45c57dbc0aaa3b7861a400afde7ac1e40d57acd061a71d14bdc6063066bea"
+    },
+    "arrival-window/spatial_neighborhood": {
+      "config": {
+        "spatial_embedding": true,
+        "spatial_radius": 2.5,
+        "novelty_mode": "arrival-window"
+      },
+      "scenario_sha256": "21e630f2f9dbd9dff10957367c05599ec39c847d7d3e89ca21494c38fb22a14d",
+      "snapshot_count": 2,
+      "state_sha256": "8eb54f6e8445b7921bc3add81a995c377b85053004463a1b4694b89c71461feb"
+    },
+    "arrival-window/strong_non_aligned": {
+      "config": {
+        "novelty_mode": "arrival-window"
+      },
+      "scenario_sha256": "e37c81af24d5bf1841d5ff818b725f3c940be6abdc84c13fa2bd91e218b919e9",
+      "snapshot_count": 4,
+      "state_sha256": "75d72e6387860d894dfa891ee77000926af8eaf7136ddff60b5d6391b3fe355e"
+    },
+    "arrival-window/temporal_links": {
+      "config": {
+        "edge_birth_policy": "temporal-association",
+        "novelty_mode": "arrival-window"
+      },
+      "scenario_sha256": "2de7196d933778d2d6d5b115e71e7ae1a30967775c105e45797fc0fbd5831e2f",
+      "snapshot_count": 3,
+      "state_sha256": "50763e3f207a010e2fad5f735e19e45dabe1a6f3c5f8fde061aa08237974b994"
+    },
+    "arrival-window/waiting_quiet_death": {
+      "config": {
+        "propagation_rate": 0.0,
+        "novelty_mode": "arrival-window"
+      },
+      "scenario_sha256": "18b4c6853f881635f1e1685b819dbeddce4f9d1a2cf6f04589660e763a786dc0",
+      "snapshot_count": 3,
+      "state_sha256": "b633cf6e3aed97bfccc03f5d450825c94fbbbb951d3033a007f7370ee77dcda8"
+    },
+    "arrival-window/weak_lanes_inhibition_and_forgetting": {
+      "config": {
+        "delay_us": 17311,
+        "novelty_mode": "arrival-window"
+      },
+      "scenario_sha256": "cc7b4b2abc536a81ca3537bebe0e5d839d33bbe47f1c6205c13f9f6e7e0364fe",
+      "snapshot_count": 3,
+      "state_sha256": "63cac116eb5bfa293a03f4b154b0857715657260ed849c0227e855cb3d8dda9e"
+    },
+    "immediate/base_operator_route": {
+      "config": {
+        "stp_enabled": false,
+        "fast_enabled": false,
+        "context_enabled": false,
+        "novelty_mode": "immediate"
+      },
+      "scenario_sha256": "0bfa547e9f9d8e550e5e3d00cbdde8e9f9bba680f3305703a97955a7df14a38e",
+      "snapshot_count": 3,
+      "state_sha256": "cd3c6246c6f9ab9e54b3bfb4c65cc9d15d906baba6e1f512ab75b44a3a4680ff"
+    },
+    "immediate/birth_repeat_and_propagation": {
+      "config": {
+        "novelty_mode": "immediate"
+      },
+      "scenario_sha256": "7521ac16319c294da5c525877a9afd715693c31740fa3af495258027a6d623eb",
+      "snapshot_count": 4,
+      "state_sha256": "6038a5037ef9bb0e0fa9f54eb17fed504d29bcc065dee7083f5d820711da3171"
+    },
+    "immediate/disconnect_delete_new_identity": {
+      "config": {
+        "novelty_mode": "immediate"
+      },
+      "scenario_sha256": "3fb2130e17c251df7a550da15bd90fe82a799e2b38567dca73bf4aafd31059e1",
+      "snapshot_count": 3,
+      "state_sha256": "7f87f8c6bedffb9f516599b7b62a26323ca501911f3c3de79f4d59a7670c87dd"
+    },
+    "immediate/energy_starvation": {
+      "config": {
+        "energy_simulation_enabled": true,
+        "energy_starvation_damage_enabled": true,
+        "energy_initial_reserve": 0.0001,
+        "novelty_mode": "immediate"
+      },
+      "scenario_sha256": "adae76672bf61cd361fabd4b7d45a11d0197e54cd6134f87021ae44b95a6d812",
+      "snapshot_count": 2,
+      "state_sha256": "abbcf6d5647ffa2423eac89b44bd8490dc826feb8dd88b020ce87520c4bb8057"
+    },
+    "immediate/isolated_pruning": {
+      "config": {
+        "energy_simulation_enabled": true,
+        "energy_initial_reserve": 0.0,
+        "node_prune_after_us": 100000,
+        "novelty_mode": "immediate"
+      },
+      "scenario_sha256": "d5dcd66bcb9c7aa8b6b05f5bd76280a1394ebba27865ce64b14415084750cb96",
+      "snapshot_count": 2,
+      "state_sha256": "d8887d12b92449564ab41e683e28243ea953e6dd7cea036cd23121c5fdfcf9a9"
+    },
+    "immediate/learning_off": {
+      "config": {
+        "plasticity": false,
+        "novelty_mode": "immediate"
+      },
+      "scenario_sha256": "5c1dc7db9823313bb0bedcbb2d090d6f53adb995bf92862ef65af8d63a66bd3d",
+      "snapshot_count": 2,
+      "state_sha256": "4101341b3c7fd0eba8d89e3bb35243d6ace1f8048e647d70b8f7b1bad79e5159"
+    },
+    "immediate/saturation_consumes_energy": {
+      "config": {
+        "energy_simulation_enabled": true,
+        "inhibition": false,
+        "novelty_mode": "immediate"
+      },
+      "scenario_sha256": "af4e19037bc6aefc3b19dd179a172ebfb3d078f70dc4b3e690b87e821141f582",
+      "snapshot_count": 2,
+      "state_sha256": "b336606e9ada28d843674078c86563a15c1d62ff545d123c0c29290502dfe3b7"
+    },
+    "immediate/spatial_neighborhood": {
+      "config": {
+        "spatial_embedding": true,
+        "spatial_radius": 2.5,
+        "novelty_mode": "immediate"
+      },
+      "scenario_sha256": "73453dc07f45edef39d72f1f23622a9fd2f4ce113e0512d53c6e1adbdd2061bc",
+      "snapshot_count": 2,
+      "state_sha256": "2b74bdc685dc5f08192e61cee62b1e332a9d28061b1b2ab224fa319a4d399a30"
+    },
+    "immediate/strong_non_aligned": {
+      "config": {
+        "novelty_mode": "immediate"
+      },
+      "scenario_sha256": "fb6f50fc4f660e4e0103c266ea66a83ad1d2ef056cf46921d3b75245a77b3a0d",
+      "snapshot_count": 4,
+      "state_sha256": "6585a11faf1ad107de2783180ce4dbda24238e3e7b8cd7df16fbd3ea00e8a24b"
+    },
+    "immediate/temporal_links": {
+      "config": {
+        "edge_birth_policy": "temporal-association",
+        "novelty_mode": "immediate"
+      },
+      "scenario_sha256": "57f24745b99b285207dbaca68a0349966c05e663294a4756296fa5bfe5aee6fc",
+      "snapshot_count": 3,
+      "state_sha256": "ee3a08093ce7144783b9b4a10e459e86359e19e181d5e2b23e2fa9d70806e31d"
+    },
+    "immediate/waiting_quiet_death": {
+      "config": {
+        "propagation_rate": 0.0,
+        "novelty_mode": "immediate"
+      },
+      "scenario_sha256": "9f0638b369d67e2536c54c69162202e048132f349538e105b8f9e4e97fcbbc71",
+      "snapshot_count": 3,
+      "state_sha256": "56c716ea16bc1d02f9d5271aaa62bba29d5cba0013380fe710d9014c9deaf789"
+    },
+    "immediate/weak_lanes_inhibition_and_forgetting": {
+      "config": {
+        "delay_us": 17311,
+        "novelty_mode": "immediate"
+      },
+      "scenario_sha256": "253f3b760d92b17899b240977ca39c7ba98bb20f24852f73203eca7e73c42be5",
+      "snapshot_count": 3,
+      "state_sha256": "f539b41bce65b3640cb5db96a9516446f28280889dfc046d07ae88836174cbd4"
+    }
+  }
+}

@@ -1,0 +1,1906 @@
+{
+  "classification": "exploratory mechanism diagnostic; n=4, not evidence for consciousness or AGI",
+  "phase_sampling_keeps_all_12_state_hashes": true,
+  "project_id": "532e9e84-9454-46ef-bcb5-b5d80ca8916f",
+  "study_id": "414f2b51-7d93-4d39-b92f-fda334c31c6c",
+  "protocol": {
+    "arms": [
+      {
+        "name": "持续驱动",
+        "phases": null,
+        "config_patch": {},
+        "intervention": null,
+        "max_channels": null,
+        "actuator_feedback": null
+      },
+      {
+        "name": "撤除与恢复",
+        "phases": [
+          {
+            "name": "drive",
+            "duration_s": 3.0,
+            "close_sources": false,
+            "input_enabled": true
+          },
+          {
+            "name": "withdrawal",
+            "duration_s": 24.0,
+            "close_sources": false,
+            "input_enabled": false
+          },
+          {
+            "name": "recovery",
+            "duration_s": 3.0,
+            "close_sources": false,
+            "input_enabled": true
+          }
+        ],
+        "config_patch": {},
+        "intervention": null,
+        "max_channels": null,
+        "actuator_feedback": null
+      },
+      {
+        "name": "撤除＋关闭传播",
+        "phases": [
+          {
+            "name": "drive",
+            "duration_s": 3.0,
+            "close_sources": false,
+            "input_enabled": true
+          },
+          {
+            "name": "withdrawal",
+            "duration_s": 24.0,
+            "close_sources": false,
+            "input_enabled": false
+          },
+          {
+            "name": "recovery",
+            "duration_s": 3.0,
+            "close_sources": false,
+            "input_enabled": true
+          }
+        ],
+        "config_patch": {
+          "propagation_rate": 0
+        },
+        "intervention": null,
+        "max_channels": null,
+        "actuator_feedback": null
+      }
+    ],
+    "base": {
+      "seed": 20260724,
+      "clock": "unbounded",
+      "speed": 1,
+      "trace": false,
+      "config": {},
+      "phases": [
+        {
+          "name": "drive",
+          "duration_s": 3.0,
+          "close_sources": false,
+          "input_enabled": true
+        },
+        {
+          "name": "withdrawal",
+          "duration_s": 24.0,
+          "close_sources": false,
+          "input_enabled": true
+        },
+        {
+          "name": "recovery",
+          "duration_s": 3.0,
+          "close_sources": false,
+          "input_enabled": true
+        }
+      ],
+      "replay": [],
+      "study_id": null,
+      "condition": null,
+      "sample_us": 100000,
+      "block_seed": null,
+      "duration_s": 30.0,
+      "environment": "mujoco",
+      "intervention": null,
+      "max_channels": null,
+      "checkpoint_us": 2000000,
+      "actuator_feedback": true
+    },
+    "name": "物理驱动与 24 秒撤除 · 半开区间复验",
+    "seeds": [
+      11,
+      23,
+      47,
+      89
+    ],
+    "warmup_s": 2.0,
+    "replay_blocks": {}
+  },
+  "analysis": {
+    "analysis": {
+      "seed": 71423,
+      "unit": "independent run/environment pair",
+      "notes": [
+        "Intervals quantify this sampling design; they do not establish consciousness.",
+        "One deterministic clone is not an independent replicate.",
+        "Missing values are excluded per metric and reported, never replaced by zero."
+      ],
+      "pairs": [
+        {
+          "seed": 11,
+          "control": {
+            "edges": 130,
+            "nodes": 13,
+            "samples": 304,
+            "activation": 13.0,
+            "inhibition": 2.391074866725261,
+            "mean_weight": 0.8188035537716687,
+            "edge_density": 0.8333333333333334,
+            "activation_auc": 355.8221828182972,
+            "active_fraction": 1.0,
+            "mean_activation": 1.0,
+            "saturated_fraction": 1.0,
+            "phase.drive.mean_weight_time_mean": 0.3262690332126442,
+            "phase.drive.edge_density_time_mean": 0.6807070707070705,
+            "phase.recovery.mean_weight_time_mean": 0.8133784130576326,
+            "phase.drive.active_fraction_time_mean": 1.0,
+            "phase.drive.mean_activation_time_mean": 0.8246493638995852,
+            "phase.recovery.edge_density_time_mean": 0.8333333333333335,
+            "phase.withdrawal.mean_weight_time_mean": 0.688437545422324,
+            "phase.withdrawal.edge_density_time_mean": 0.8214835858585859,
+            "phase.drive.saturated_fraction_time_mean": 0.7790909090909093,
+            "phase.recovery.active_fraction_time_mean": 1.0,
+            "phase.recovery.mean_activation_time_mean": 0.999367936377117,
+            "phase.withdrawal.active_fraction_time_mean": 1.0,
+            "phase.withdrawal.mean_activation_time_mean": 0.9808197681156058,
+            "phase.recovery.saturated_fraction_time_mean": 1.0,
+            "phase.withdrawal.saturated_fraction_time_mean": 0.9293924825174825
+          },
+          "treatment": {
+            "edges": 103,
+            "nodes": 12,
+            "samples": 304,
+            "activation": 12.0,
+            "inhibition": 2.207295178890255,
+            "mean_weight": 0.6502662487480908,
+            "edge_density": 0.7803030303030303,
+            "activation_auc": 291.53225463735754,
+            "active_fraction": 1.0,
+            "mean_activation": 1.0,
+            "saturated_fraction": 1.0,
+            "phase.drive.mean_weight_time_mean": 0.3262690332126442,
+            "phase.drive.edge_density_time_mean": 0.6807070707070705,
+            "phase.recovery.mean_weight_time_mean": 0.597677351777779,
+            "phase.drive.active_fraction_time_mean": 1.0,
+            "phase.drive.mean_activation_time_mean": 0.8246493638995852,
+            "phase.recovery.edge_density_time_mean": 0.7305808080808079,
+            "phase.withdrawal.mean_weight_time_mean": 0.5483372904323534,
+            "phase.withdrawal.edge_density_time_mean": 0.6824431818181816,
+            "phase.drive.saturated_fraction_time_mean": 0.7790909090909093,
+            "phase.recovery.active_fraction_time_mean": 1.0,
+            "phase.recovery.mean_activation_time_mean": 0.951934390553954,
+            "phase.withdrawal.active_fraction_time_mean": 1.0,
+            "phase.withdrawal.mean_activation_time_mean": 0.8792056315329027,
+            "phase.recovery.saturated_fraction_time_mean": 0.8866161616161615,
+            "phase.withdrawal.saturated_fraction_time_mean": 0.8183712121212121
+          },
+          "control_run": "95e320e7-6a4c-56e8-a19c-a6178160a37c",
+          "origin_hash": "6168279bc14da2035f0556a6dc15c3d5b14c04a0410753059e1edcbfbd9d4938",
+          "treatment_run": "381f0950-fd5f-5d1c-86ed-ef8ae38fab94",
+          "phase_evidence": {
+            "control": [
+              {
+                "name": "drive",
+                "end_s": 3.0,
+                "samples": 31,
+                "start_s": 0.0,
+                "complete": true,
+                "endpoints": {
+                  "mean_weight_time_mean": 0.3262690332126442,
+                  "edge_density_time_mean": 0.6807070707070705,
+                  "active_fraction_time_mean": 1.0,
+                  "mean_activation_time_mean": 0.8246493638995852,
+                  "saturated_fraction_time_mean": 0.7790909090909093
+                },
+                "input_enabled": true
+              },
+              {
+                "name": "withdrawal",
+                "end_s": 27.0,
+                "samples": 241,
+                "start_s": 3.0,
+                "complete": true,
+                "endpoints": {
+                  "mean_weight_time_mean": 0.688437545422324,
+                  "edge_density_time_mean": 0.8214835858585859,
+                  "active_fraction_time_mean": 1.0,
+                  "mean_activation_time_mean": 0.9808197681156058,
+                  "saturated_fraction_time_mean": 0.9293924825174825
+                },
+                "input_enabled": true
+              },
+              {
+                "name": "recovery",
+                "end_s": 30.0,
+                "samples": 31,
+                "start_s": 27.0,
+                "complete": true,
+                "endpoints": {
+                  "mean_weight_time_mean": 0.8133784130576326,
+                  "edge_density_time_mean": 0.8333333333333335,
+                  "active_fraction_time_mean": 1.0,
+                  "mean_activation_time_mean": 0.999367936377117,
+                  "saturated_fraction_time_mean": 1.0
+                },
+                "input_enabled": true
+              }
+            ],
+            "treatment": [
+              {
+                "name": "drive",
+                "end_s": 3.0,
+                "samples": 31,
+                "start_s": 0.0,
+                "complete": true,
+                "endpoints": {
+                  "mean_weight_time_mean": 0.3262690332126442,
+                  "edge_density_time_mean": 0.6807070707070705,
+                  "active_fraction_time_mean": 1.0,
+                  "mean_activation_time_mean": 0.8246493638995852,
+                  "saturated_fraction_time_mean": 0.7790909090909093
+                },
+                "input_enabled": true
+              },
+              {
+                "name": "withdrawal",
+                "end_s": 27.0,
+                "samples": 241,
+                "start_s": 3.0,
+                "complete": true,
+                "settling": {
+                  "time_s": null,
+                  "threshold": 0.0001,
+                  "definition": "first sampled mean activation <= threshold, remaining below through phase end for at least minimum_hold_s",
+                  "followup_s": 24.0,
+                  "minimum_hold_s": 0.5,
+                  "right_censored": true
+                },
+                "endpoints": {
+                  "mean_weight_time_mean": 0.5483372904323534,
+                  "edge_density_time_mean": 0.6824431818181816,
+                  "active_fraction_time_mean": 1.0,
+                  "mean_activation_time_mean": 0.8792056315329027,
+                  "saturated_fraction_time_mean": 0.8183712121212121
+                },
+                "input_enabled": false
+              },
+              {
+                "name": "recovery",
+                "end_s": 30.0,
+                "samples": 31,
+                "start_s": 27.0,
+                "complete": true,
+                "endpoints": {
+                  "mean_weight_time_mean": 0.597677351777779,
+                  "edge_density_time_mean": 0.7305808080808079,
+                  "active_fraction_time_mean": 1.0,
+                  "mean_activation_time_mean": 0.951934390553954,
+                  "saturated_fraction_time_mean": 0.8866161616161615
+                },
+                "input_enabled": true
+              }
+            ]
+          },
+          "control_state_hash": "dc3ec823a7aefcbd0eebd8e013bf51d04d3663528674b3f12278eaebdae51482",
+          "treatment_state_hash": "ed8e820ed8d83df034318b5c47c0181f9a46460cf8085b0af22a8074dfd54492"
+        },
+        {
+          "seed": 23,
+          "control": {
+            "edges": 124,
+            "nodes": 12,
+            "samples": 304,
+            "activation": 12.0,
+            "inhibition": 2.2071460187180416,
+            "mean_weight": 0.9214347200171317,
+            "edge_density": 0.9393939393939394,
+            "activation_auc": 349.27987105593706,
+            "active_fraction": 1.0,
+            "mean_activation": 1.0,
+            "saturated_fraction": 1.0,
+            "phase.drive.mean_weight_time_mean": 0.29504673045676055,
+            "phase.drive.edge_density_time_mean": 0.8054256854256852,
+            "phase.recovery.mean_weight_time_mean": 0.9183152383509584,
+            "phase.drive.active_fraction_time_mean": 1.0,
+            "phase.drive.mean_activation_time_mean": 0.784572265394566,
+            "phase.recovery.edge_density_time_mean": 0.9393939393939394,
+            "phase.withdrawal.mean_weight_time_mean": 0.7501885780022897,
+            "phase.withdrawal.edge_density_time_mean": 0.9350378787878789,
+            "phase.drive.saturated_fraction_time_mean": 0.6346464646464646,
+            "phase.recovery.active_fraction_time_mean": 1.0,
+            "phase.recovery.mean_activation_time_mean": 0.9994614182461184,
+            "phase.withdrawal.active_fraction_time_mean": 1.0,
+            "phase.withdrawal.mean_activation_time_mean": 0.9972769925909244,
+            "phase.recovery.saturated_fraction_time_mean": 1.0,
+            "phase.withdrawal.saturated_fraction_time_mean": 0.9862847222222223
+          },
+          "treatment": {
+            "edges": 122,
+            "nodes": 12,
+            "samples": 304,
+            "activation": 12.0,
+            "inhibition": 2.2071461784850444,
+            "mean_weight": 0.6260539743588882,
+            "edge_density": 0.9242424242424242,
+            "activation_auc": 334.17128929988166,
+            "active_fraction": 1.0,
+            "mean_activation": 1.0,
+            "saturated_fraction": 1.0,
+            "phase.drive.mean_weight_time_mean": 0.29504673045676055,
+            "phase.drive.edge_density_time_mean": 0.8054256854256852,
+            "phase.recovery.mean_weight_time_mean": 0.5326807725291512,
+            "phase.drive.active_fraction_time_mean": 1.0,
+            "phase.drive.mean_activation_time_mean": 0.784572265394566,
+            "phase.recovery.edge_density_time_mean": 0.924242424242424,
+            "phase.withdrawal.mean_weight_time_mean": 0.3652429396830077,
+            "phase.withdrawal.edge_density_time_mean": 0.9090909090909088,
+            "phase.drive.saturated_fraction_time_mean": 0.6346464646464646,
+            "phase.recovery.active_fraction_time_mean": 1.0,
+            "phase.recovery.mean_activation_time_mean": 0.9976743090998267,
+            "phase.withdrawal.active_fraction_time_mean": 1.0,
+            "phase.withdrawal.mean_activation_time_mean": 0.9450400280259439,
+            "phase.recovery.saturated_fraction_time_mean": 0.9902777777777777,
+            "phase.withdrawal.saturated_fraction_time_mean": 0.7909722222222223
+          },
+          "control_run": "c6362133-2e08-59dd-8a9d-ef755c837229",
+          "origin_hash": "a98f9b04e4604e2e7d512bf8075932d2da2abc1cc41b00e1850972f42d6bfb69",
+          "treatment_run": "cf9d3eab-e512-59fb-9993-8cfebaa71aa3",
+          "phase_evidence": {
+            "control": [
+              {
+                "name": "drive",
+                "end_s": 3.0,
+                "samples": 31,
+                "start_s": 0.0,
+                "complete": true,
+                "endpoints": {
+                  "mean_weight_time_mean": 0.29504673045676055,
+                  "edge_density_time_mean": 0.8054256854256852,
+                  "active_fraction_time_mean": 1.0,
+                  "mean_activation_time_mean": 0.784572265394566,
+                  "saturated_fraction_time_mean": 0.6346464646464646
+                },
+                "input_enabled": true
+              },
+              {
+                "name": "withdrawal",
+                "end_s": 27.0,
+                "samples": 241,
+                "start_s": 3.0,
+                "complete": true,
+                "endpoints": {
+                  "mean_weight_time_mean": 0.7501885780022897,
+                  "edge_density_time_mean": 0.9350378787878789,
+                  "active_fraction_time_mean": 1.0,
+                  "mean_activation_time_mean": 0.9972769925909244,
+                  "saturated_fraction_time_mean": 0.9862847222222223
+                },
+                "input_enabled": true
+              },
+              {
+                "name": "recovery",
+                "end_s": 30.0,
+                "samples": 31,
+                "start_s": 27.0,
+                "complete": true,
+                "endpoints": {
+                  "mean_weight_time_mean": 0.9183152383509584,
+                  "edge_density_time_mean": 0.9393939393939394,
+                  "active_fraction_time_mean": 1.0,
+                  "mean_activation_time_mean": 0.9994614182461184,
+                  "saturated_fraction_time_mean": 1.0
+                },
+                "input_enabled": true
+              }
+            ],
+            "treatment": [
+              {
+                "name": "drive",
+                "end_s": 3.0,
+                "samples": 31,
+                "start_s": 0.0,
+                "complete": true,
+                "endpoints": {
+                  "mean_weight_time_mean": 0.29504673045676055,
+                  "edge_density_time_mean": 0.8054256854256852,
+                  "active_fraction_time_mean": 1.0,
+                  "mean_activation_time_mean": 0.784572265394566,
+                  "saturated_fraction_time_mean": 0.6346464646464646
+                },
+                "input_enabled": true
+              },
+              {
+                "name": "withdrawal",
+                "end_s": 27.0,
+                "samples": 241,
+                "start_s": 3.0,
+                "complete": true,
+                "settling": {
+                  "time_s": null,
+                  "threshold": 0.0001,
+                  "definition": "first sampled mean activation <= threshold, remaining below through phase end for at least minimum_hold_s",
+                  "followup_s": 24.0,
+                  "minimum_hold_s": 0.5,
+                  "right_censored": true
+                },
+                "endpoints": {
+                  "mean_weight_time_mean": 0.3652429396830077,
+                  "edge_density_time_mean": 0.9090909090909088,
+                  "active_fraction_time_mean": 1.0,
+                  "mean_activation_time_mean": 0.9450400280259439,
+                  "saturated_fraction_time_mean": 0.7909722222222223
+                },
+                "input_enabled": false
+              },
+              {
+                "name": "recovery",
+                "end_s": 30.0,
+                "samples": 31,
+                "start_s": 27.0,
+                "complete": true,
+                "endpoints": {
+                  "mean_weight_time_mean": 0.5326807725291512,
+                  "edge_density_time_mean": 0.924242424242424,
+                  "active_fraction_time_mean": 1.0,
+                  "mean_activation_time_mean": 0.9976743090998267,
+                  "saturated_fraction_time_mean": 0.9902777777777777
+                },
+                "input_enabled": true
+              }
+            ]
+          },
+          "control_state_hash": "d9148d6203e3e02b6064c4b300acd3dd39001ffc47db256bb7eec1fcd71ef4ed",
+          "treatment_state_hash": "ed6b98bb38aa3a8f7665b4e19120269d034ac99390fa948cf78504f24203d5b2"
+        },
+        {
+          "seed": 47,
+          "control": {
+            "edges": 142,
+            "nodes": 13,
+            "samples": 304,
+            "activation": 13.0,
+            "inhibition": 2.3910748536112116,
+            "mean_weight": 0.9341278217541273,
+            "edge_density": 0.9102564102564102,
+            "activation_auc": 353.4127667377993,
+            "active_fraction": 1.0,
+            "mean_activation": 1.0,
+            "saturated_fraction": 1.0,
+            "phase.drive.mean_weight_time_mean": 0.28065321714949537,
+            "phase.drive.edge_density_time_mean": 0.8372089947089946,
+            "phase.recovery.mean_weight_time_mean": 0.9280284396083084,
+            "phase.drive.active_fraction_time_mean": 1.0,
+            "phase.drive.mean_activation_time_mean": 0.8255828020586216,
+            "phase.recovery.edge_density_time_mean": 0.9102564102564101,
+            "phase.withdrawal.mean_weight_time_mean": 0.7612260647369293,
+            "phase.withdrawal.edge_density_time_mean": 0.8873852305102304,
+            "phase.drive.saturated_fraction_time_mean": 0.7334722222222223,
+            "phase.recovery.active_fraction_time_mean": 1.0,
+            "phase.recovery.mean_activation_time_mean": 0.9994614182461184,
+            "phase.withdrawal.active_fraction_time_mean": 1.0,
+            "phase.withdrawal.mean_activation_time_mean": 0.9906752192332036,
+            "phase.recovery.saturated_fraction_time_mean": 1.0,
+            "phase.withdrawal.saturated_fraction_time_mean": 0.9653389665889667
+          },
+          "treatment": {
+            "edges": 96,
+            "nodes": 11,
+            "samples": 304,
+            "activation": 11.0,
+            "inhibition": 2.0232310770951822,
+            "mean_weight": 0.6923008893452135,
+            "edge_density": 0.8727272727272727,
+            "activation_auc": 275.2257790726271,
+            "active_fraction": 1.0,
+            "mean_activation": 1.0,
+            "saturated_fraction": 1.0,
+            "phase.drive.mean_weight_time_mean": 0.28065321714949537,
+            "phase.drive.edge_density_time_mean": 0.8372089947089946,
+            "phase.recovery.mean_weight_time_mean": 0.597842714564828,
+            "phase.drive.active_fraction_time_mean": 1.0,
+            "phase.drive.mean_activation_time_mean": 0.8255828020586216,
+            "phase.recovery.edge_density_time_mean": 0.833939393939394,
+            "phase.withdrawal.mean_weight_time_mean": 0.4821415048526972,
+            "phase.withdrawal.edge_density_time_mean": 0.8222222222222221,
+            "phase.drive.saturated_fraction_time_mean": 0.7334722222222223,
+            "phase.recovery.active_fraction_time_mean": 1.0,
+            "phase.recovery.mean_activation_time_mean": 0.9895757885983184,
+            "phase.withdrawal.active_fraction_time_mean": 1.0,
+            "phase.withdrawal.mean_activation_time_mean": 0.916154427082056,
+            "phase.recovery.saturated_fraction_time_mean": 0.9318181818181818,
+            "phase.withdrawal.saturated_fraction_time_mean": 0.8002083333333334
+          },
+          "control_run": "11e93a0e-375d-5963-990d-0d7209a04da1",
+          "origin_hash": "78e6f43b0632ff8d6678e729ff3c78953c01eeeeb443aaa4379552d5255b17b3",
+          "treatment_run": "c13a332d-8420-5d49-bd73-1429ceb7df5c",
+          "phase_evidence": {
+            "control": [
+              {
+                "name": "drive",
+                "end_s": 3.0,
+                "samples": 31,
+                "start_s": 0.0,
+                "complete": true,
+                "endpoints": {
+                  "mean_weight_time_mean": 0.28065321714949537,
+                  "edge_density_time_mean": 0.8372089947089946,
+                  "active_fraction_time_mean": 1.0,
+                  "mean_activation_time_mean": 0.8255828020586216,
+                  "saturated_fraction_time_mean": 0.7334722222222223
+                },
+                "input_enabled": true
+              },
+              {
+                "name": "withdrawal",
+                "end_s": 27.0,
+                "samples": 241,
+                "start_s": 3.0,
+                "complete": true,
+                "endpoints": {
+                  "mean_weight_time_mean": 0.7612260647369293,
+                  "edge_density_time_mean": 0.8873852305102304,
+                  "active_fraction_time_mean": 1.0,
+                  "mean_activation_time_mean": 0.9906752192332036,
+                  "saturated_fraction_time_mean": 0.9653389665889667
+                },
+                "input_enabled": true
+              },
+              {
+                "name": "recovery",
+                "end_s": 30.0,
+                "samples": 31,
+                "start_s": 27.0,
+                "complete": true,
+                "endpoints": {
+                  "mean_weight_time_mean": 0.9280284396083084,
+                  "edge_density_time_mean": 0.9102564102564101,
+                  "active_fraction_time_mean": 1.0,
+                  "mean_activation_time_mean": 0.9994614182461184,
+                  "saturated_fraction_time_mean": 1.0
+                },
+                "input_enabled": true
+              }
+            ],
+            "treatment": [
+              {
+                "name": "drive",
+                "end_s": 3.0,
+                "samples": 31,
+                "start_s": 0.0,
+                "complete": true,
+                "endpoints": {
+                  "mean_weight_time_mean": 0.28065321714949537,
+                  "edge_density_time_mean": 0.8372089947089946,
+                  "active_fraction_time_mean": 1.0,
+                  "mean_activation_time_mean": 0.8255828020586216,
+                  "saturated_fraction_time_mean": 0.7334722222222223
+                },
+                "input_enabled": true
+              },
+              {
+                "name": "withdrawal",
+                "end_s": 27.0,
+                "samples": 241,
+                "start_s": 3.0,
+                "complete": true,
+                "settling": {
+                  "time_s": null,
+                  "threshold": 0.0001,
+                  "definition": "first sampled mean activation <= threshold, remaining below through phase end for at least minimum_hold_s",
+                  "followup_s": 24.0,
+                  "minimum_hold_s": 0.5,
+                  "right_censored": true
+                },
+                "endpoints": {
+                  "mean_weight_time_mean": 0.4821415048526972,
+                  "edge_density_time_mean": 0.8222222222222221,
+                  "active_fraction_time_mean": 1.0,
+                  "mean_activation_time_mean": 0.916154427082056,
+                  "saturated_fraction_time_mean": 0.8002083333333334
+                },
+                "input_enabled": false
+              },
+              {
+                "name": "recovery",
+                "end_s": 30.0,
+                "samples": 31,
+                "start_s": 27.0,
+                "complete": true,
+                "endpoints": {
+                  "mean_weight_time_mean": 0.597842714564828,
+                  "edge_density_time_mean": 0.833939393939394,
+                  "active_fraction_time_mean": 1.0,
+                  "mean_activation_time_mean": 0.9895757885983184,
+                  "saturated_fraction_time_mean": 0.9318181818181818
+                },
+                "input_enabled": true
+              }
+            ]
+          },
+          "control_state_hash": "1512fbc7371f32a40255970ab40d04c024d97fcf5f9aaf2ec50a4049859a7c5f",
+          "treatment_state_hash": "c25b9817dd79da29380aa6cdd7209280d775964dae6ee5d26c14ec3eaf28bc74"
+        },
+        {
+          "seed": 89,
+          "control": {
+            "edges": 120,
+            "nodes": 12,
+            "samples": 304,
+            "activation": 12.0,
+            "inhibition": 2.2071460188073218,
+            "mean_weight": 0.8053148007422111,
+            "edge_density": 0.9090909090909091,
+            "activation_auc": 331.2735293752071,
+            "active_fraction": 1.0,
+            "mean_activation": 1.0,
+            "saturated_fraction": 1.0,
+            "phase.drive.mean_weight_time_mean": 0.404974032511281,
+            "phase.drive.edge_density_time_mean": 0.8324603174603175,
+            "phase.recovery.mean_weight_time_mean": 0.800450460549018,
+            "phase.drive.active_fraction_time_mean": 1.0,
+            "phase.drive.mean_activation_time_mean": 0.9375005144441938,
+            "phase.recovery.edge_density_time_mean": 0.9090909090909092,
+            "phase.withdrawal.mean_weight_time_mean": 0.7457148306927449,
+            "phase.withdrawal.edge_density_time_mean": 0.8850547138047139,
+            "phase.drive.saturated_fraction_time_mean": 0.888690476190476,
+            "phase.recovery.active_fraction_time_mean": 1.0,
+            "phase.recovery.mean_activation_time_mean": 0.9994614182461184,
+            "phase.withdrawal.active_fraction_time_mean": 1.0,
+            "phase.withdrawal.mean_activation_time_mean": 0.9909360410770454,
+            "phase.recovery.saturated_fraction_time_mean": 1.0,
+            "phase.withdrawal.saturated_fraction_time_mean": 0.9572348484848484
+          },
+          "treatment": {
+            "edges": 78,
+            "nodes": 10,
+            "samples": 304,
+            "activation": 10.0,
+            "inhibition": 1.8392885042773426,
+            "mean_weight": 0.8115681620113815,
+            "edge_density": 0.8666666666666667,
+            "activation_auc": 279.72407368642666,
+            "active_fraction": 1.0,
+            "mean_activation": 1.0,
+            "saturated_fraction": 1.0,
+            "phase.drive.mean_weight_time_mean": 0.404974032511281,
+            "phase.drive.edge_density_time_mean": 0.8324603174603175,
+            "phase.recovery.mean_weight_time_mean": 0.7683591249252099,
+            "phase.drive.active_fraction_time_mean": 1.0,
+            "phase.drive.mean_activation_time_mean": 0.9375005144441938,
+            "phase.recovery.edge_density_time_mean": 0.8059259259259259,
+            "phase.withdrawal.mean_weight_time_mean": 0.5884496689407811,
+            "phase.withdrawal.edge_density_time_mean": 0.7777777777777777,
+            "phase.drive.saturated_fraction_time_mean": 0.888690476190476,
+            "phase.recovery.active_fraction_time_mean": 1.0,
+            "phase.recovery.mean_activation_time_mean": 0.9980570716398031,
+            "phase.withdrawal.active_fraction_time_mean": 1.0,
+            "phase.withdrawal.mean_activation_time_mean": 0.9378787069541971,
+            "phase.recovery.saturated_fraction_time_mean": 0.995,
+            "phase.withdrawal.saturated_fraction_time_mean": 0.8999999999999999
+          },
+          "control_run": "555c4c63-f6ec-5372-a767-d5e43d0e6dc7",
+          "origin_hash": "7b648407744045b99154d944efb9fdc56037233947f17e2fcf950c67e5732523",
+          "treatment_run": "094548d9-404a-597f-ab1f-6c82c7488d31",
+          "phase_evidence": {
+            "control": [
+              {
+                "name": "drive",
+                "end_s": 3.0,
+                "samples": 31,
+                "start_s": 0.0,
+                "complete": true,
+                "endpoints": {
+                  "mean_weight_time_mean": 0.404974032511281,
+                  "edge_density_time_mean": 0.8324603174603175,
+                  "active_fraction_time_mean": 1.0,
+                  "mean_activation_time_mean": 0.9375005144441938,
+                  "saturated_fraction_time_mean": 0.888690476190476
+                },
+                "input_enabled": true
+              },
+              {
+                "name": "withdrawal",
+                "end_s": 27.0,
+                "samples": 241,
+                "start_s": 3.0,
+                "complete": true,
+                "endpoints": {
+                  "mean_weight_time_mean": 0.7457148306927449,
+                  "edge_density_time_mean": 0.8850547138047139,
+                  "active_fraction_time_mean": 1.0,
+                  "mean_activation_time_mean": 0.9909360410770454,
+                  "saturated_fraction_time_mean": 0.9572348484848484
+                },
+                "input_enabled": true
+              },
+              {
+                "name": "recovery",
+                "end_s": 30.0,
+                "samples": 31,
+                "start_s": 27.0,
+                "complete": true,
+                "endpoints": {
+                  "mean_weight_time_mean": 0.800450460549018,
+                  "edge_density_time_mean": 0.9090909090909092,
+                  "active_fraction_time_mean": 1.0,
+                  "mean_activation_time_mean": 0.9994614182461184,
+                  "saturated_fraction_time_mean": 1.0
+                },
+                "input_enabled": true
+              }
+            ],
+            "treatment": [
+              {
+                "name": "drive",
+                "end_s": 3.0,
+                "samples": 31,
+                "start_s": 0.0,
+                "complete": true,
+                "endpoints": {
+                  "mean_weight_time_mean": 0.404974032511281,
+                  "edge_density_time_mean": 0.8324603174603175,
+                  "active_fraction_time_mean": 1.0,
+                  "mean_activation_time_mean": 0.9375005144441938,
+                  "saturated_fraction_time_mean": 0.888690476190476
+                },
+                "input_enabled": true
+              },
+              {
+                "name": "withdrawal",
+                "end_s": 27.0,
+                "samples": 241,
+                "start_s": 3.0,
+                "complete": true,
+                "settling": {
+                  "time_s": null,
+                  "threshold": 0.0001,
+                  "definition": "first sampled mean activation <= threshold, remaining below through phase end for at least minimum_hold_s",
+                  "followup_s": 24.0,
+                  "minimum_hold_s": 0.5,
+                  "right_censored": true
+                },
+                "endpoints": {
+                  "mean_weight_time_mean": 0.5884496689407811,
+                  "edge_density_time_mean": 0.7777777777777777,
+                  "active_fraction_time_mean": 1.0,
+                  "mean_activation_time_mean": 0.9378787069541971,
+                  "saturated_fraction_time_mean": 0.8999999999999999
+                },
+                "input_enabled": false
+              },
+              {
+                "name": "recovery",
+                "end_s": 30.0,
+                "samples": 31,
+                "start_s": 27.0,
+                "complete": true,
+                "endpoints": {
+                  "mean_weight_time_mean": 0.7683591249252099,
+                  "edge_density_time_mean": 0.8059259259259259,
+                  "active_fraction_time_mean": 1.0,
+                  "mean_activation_time_mean": 0.9980570716398031,
+                  "saturated_fraction_time_mean": 0.995
+                },
+                "input_enabled": true
+              }
+            ]
+          },
+          "control_state_hash": "8ca234e4fb714e6435aa530bdad233819064bf2c4f2de2251ebc37ae14921bdd",
+          "treatment_state_hash": "1e281f9b0e50ab208413f6ff3ee004deb5edd196826ebe94749facc3c5f19cae"
+        }
+      ],
+      "method": "paired-bootstrap-signflip-holm/1",
+      "metrics": [
+        {
+          "n": 4,
+          "p": 0.25,
+          "ci95": [
+            -2.0,
+            -0.5
+          ],
+          "metric": "activation",
+          "p_holm": 1.0,
+          "paired_dz": -1.3055824196677337,
+          "difference": -1.25,
+          "control_mean": 12.5,
+          "missing_pairs": 0,
+          "treatment_mean": 11.25
+        },
+        {
+          "n": 4,
+          "p": 0.125,
+          "ci95": [
+            -71.52760467107424,
+            -27.40391836227647
+          ],
+          "metric": "activation_auc",
+          "p_holm": 1.0,
+          "paired_dz": -1.9317333166629875,
+          "difference": -52.28373832273692,
+          "control_mean": 347.4470874968102,
+          "missing_pairs": 0,
+          "treatment_mean": 295.16334917407323
+        },
+        {
+          "n": 4,
+          "p": 1.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "metric": "active_fraction",
+          "p_holm": 1.0,
+          "paired_dz": null,
+          "difference": 0.0,
+          "control_mean": 1.0,
+          "missing_pairs": 0,
+          "treatment_mean": 1.0
+        },
+        {
+          "n": 4,
+          "p": 0.125,
+          "ci95": [
+            -0.04915501165501171,
+            -0.021969696969697028
+          ],
+          "metric": "edge_density",
+          "p_holm": 1.0,
+          "paired_dz": -2.320626200379933,
+          "difference": -0.037033799533799566,
+          "control_mean": 0.8980186480186481,
+          "missing_pairs": 0,
+          "treatment_mean": 0.8609848484848485
+        },
+        {
+          "n": 4,
+          "p": 0.125,
+          "ci95": [
+            -44.0,
+            -12.0
+          ],
+          "metric": "edges",
+          "p_holm": 1.0,
+          "paired_dz": -1.4681695167800275,
+          "difference": -29.25,
+          "control_mean": 129.0,
+          "missing_pairs": 0,
+          "treatment_mean": 99.75
+        },
+        {
+          "n": 4,
+          "p": 0.25,
+          "ci95": [
+            -0.3678506455230043,
+            -0.09188976403400173
+          ],
+          "metric": "inhibition",
+          "p_holm": 1.0,
+          "paired_dz": -1.3052808543009198,
+          "difference": -0.229870204778503,
+          "control_mean": 2.299110439465459,
+          "missing_pairs": 0,
+          "treatment_mean": 2.0692402346869563
+        },
+        {
+          "n": 4,
+          "p": 1.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "metric": "mean_activation",
+          "p_holm": 1.0,
+          "paired_dz": null,
+          "difference": 0.0,
+          "control_mean": 1.0,
+          "missing_pairs": 0,
+          "treatment_mean": 1.0
+        },
+        {
+          "n": 4,
+          "p": 0.25,
+          "ci95": [
+            -0.26860383903357865,
+            -0.055766712150350645
+          ],
+          "metric": "mean_weight",
+          "p_holm": 1.0,
+          "paired_dz": -1.3301513008526762,
+          "difference": -0.1748729054553912,
+          "control_mean": 0.8699202240712847,
+          "missing_pairs": 0,
+          "treatment_mean": 0.6950473186158935
+        },
+        {
+          "n": 4,
+          "p": 0.25,
+          "ci95": [
+            -2.0,
+            -0.5
+          ],
+          "metric": "nodes",
+          "p_holm": 1.0,
+          "paired_dz": -1.3055824196677337,
+          "difference": -1.25,
+          "control_mean": 12.5,
+          "missing_pairs": 0,
+          "treatment_mean": 11.25
+        },
+        {
+          "n": 4,
+          "p": 1.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "metric": "phase.drive.active_fraction_time_mean",
+          "p_holm": 1.0,
+          "paired_dz": null,
+          "difference": 0.0,
+          "control_mean": 1.0,
+          "missing_pairs": 0,
+          "treatment_mean": 1.0
+        },
+        {
+          "n": 4,
+          "p": 1.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "metric": "phase.drive.edge_density_time_mean",
+          "p_holm": 1.0,
+          "paired_dz": null,
+          "difference": 0.0,
+          "control_mean": 0.7889505170755169,
+          "missing_pairs": 0,
+          "treatment_mean": 0.7889505170755169
+        },
+        {
+          "n": 4,
+          "p": 1.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "metric": "phase.drive.mean_activation_time_mean",
+          "p_holm": 1.0,
+          "paired_dz": null,
+          "difference": 0.0,
+          "control_mean": 0.8430762364492417,
+          "missing_pairs": 0,
+          "treatment_mean": 0.8430762364492417
+        },
+        {
+          "n": 4,
+          "p": 1.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "metric": "phase.drive.mean_weight_time_mean",
+          "p_holm": 1.0,
+          "paired_dz": null,
+          "difference": 0.0,
+          "control_mean": 0.3267357533325453,
+          "missing_pairs": 0,
+          "treatment_mean": 0.3267357533325453
+        },
+        {
+          "n": 4,
+          "p": 1.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "metric": "phase.drive.saturated_fraction_time_mean",
+          "p_holm": 1.0,
+          "paired_dz": null,
+          "difference": 0.0,
+          "control_mean": 0.758975018037518,
+          "missing_pairs": 0,
+          "treatment_mean": 0.758975018037518
+        },
+        {
+          "n": 4,
+          "p": 1.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "metric": "phase.recovery.active_fraction_time_mean",
+          "p_holm": 1.0,
+          "paired_dz": null,
+          "difference": 0.0,
+          "control_mean": 1.0,
+          "missing_pairs": 0,
+          "treatment_mean": 1.0
+        },
+        {
+          "n": 4,
+          "p": 0.125,
+          "ci95": [
+            -0.10295875420875439,
+            -0.03705176767676799
+          ],
+          "metric": "phase.recovery.edge_density_time_mean",
+          "p_holm": 1.0,
+          "paired_dz": -1.7952061457895583,
+          "difference": -0.0743465099715101,
+          "control_mean": 0.8980186480186481,
+          "missing_pairs": 0,
+          "treatment_mean": 0.823672138047138
+        },
+        {
+          "n": 4,
+          "p": 0.125,
+          "ci95": [
+            -0.03602193665394515,
+            -0.0015957278763035765
+          ],
+          "metric": "phase.recovery.mean_activation_time_mean",
+          "p_holm": 1.0,
+          "paired_dz": -0.6910924235095933,
+          "difference": -0.015127657805892536,
+          "control_mean": 0.999438047778868,
+          "missing_pairs": 0,
+          "treatment_mean": 0.9843103899729756
+        },
+        {
+          "n": 4,
+          "p": 0.125,
+          "ci95": [
+            -0.35791009543264385,
+            -0.10661493297872623
+          ],
+          "metric": "phase.recovery.mean_weight_time_mean",
+          "p_holm": 1.0,
+          "paired_dz": -1.5426875455149052,
+          "difference": -0.24090314694223733,
+          "control_mean": 0.8650431378914794,
+          "missing_pairs": 0,
+          "treatment_mean": 0.624139990949242
+        },
+        {
+          "n": 4,
+          "p": 0.125,
+          "ci95": [
+            -0.09078282828282835,
+            -0.007361111111111152
+          ],
+          "metric": "phase.recovery.saturated_fraction_time_mean",
+          "p_holm": 1.0,
+          "paired_dz": -0.9507534377422834,
+          "difference": -0.04907196969696975,
+          "control_mean": 1.0,
+          "missing_pairs": 0,
+          "treatment_mean": 0.9509280303030303
+        },
+        {
+          "n": 4,
+          "p": 1.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "metric": "phase.withdrawal.active_fraction_time_mean",
+          "p_holm": 1.0,
+          "paired_dz": null,
+          "difference": 0.0,
+          "control_mean": 1.0,
+          "missing_pairs": 0,
+          "treatment_mean": 1.0
+        },
+        {
+          "n": 4,
+          "p": 0.125,
+          "ci95": [
+            -0.12315867003367026,
+            -0.04555498899248922
+          ],
+          "metric": "phase.withdrawal.edge_density_time_mean",
+          "p_holm": 1.0,
+          "paired_dz": -1.7105911804638303,
+          "difference": -0.08435682951307974,
+          "control_mean": 0.8822403522403522,
+          "missing_pairs": 0,
+          "treatment_mean": 0.7978835227272726
+        },
+        {
+          "n": 4,
+          "p": 0.125,
+          "ci95": [
+            -0.08947493596773942,
+            -0.0526471493439144
+          ],
+          "metric": "phase.withdrawal.mean_activation_time_mean",
+          "p_holm": 1.0,
+          "paired_dz": -3.0258666261099574,
+          "difference": -0.07035730685541988,
+          "control_mean": 0.9899270052541947,
+          "missing_pairs": 0,
+          "treatment_mean": 0.9195696983987749
+        },
+        {
+          "n": 4,
+          "p": 0.125,
+          "ci95": [
+            -0.3320150991017571,
+            -0.14868270837096725
+          ],
+          "metric": "phase.withdrawal.mean_weight_time_mean",
+          "p_holm": 1.0,
+          "paired_dz": -2.0983005258695457,
+          "difference": -0.24034890373636214,
+          "control_mean": 0.736391754713572,
+          "missing_pairs": 0,
+          "treatment_mean": 0.4960428509772098
+        },
+        {
+          "n": 4,
+          "p": 0.125,
+          "ci95": [
+            -0.18022156662781663,
+            -0.08412805944055946
+          ],
+          "metric": "phase.withdrawal.saturated_fraction_time_mean",
+          "p_holm": 1.0,
+          "paired_dz": -2.1694327797630453,
+          "difference": -0.13217481303418804,
+          "control_mean": 0.95956275495338,
+          "missing_pairs": 0,
+          "treatment_mean": 0.827387941919192
+        },
+        {
+          "n": 4,
+          "p": 1.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "metric": "samples",
+          "p_holm": 1.0,
+          "paired_dz": null,
+          "difference": 0.0,
+          "control_mean": 304.0,
+          "missing_pairs": 0,
+          "treatment_mean": 304.0
+        },
+        {
+          "n": 4,
+          "p": 1.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "metric": "saturated_fraction",
+          "p_holm": 1.0,
+          "paired_dz": null,
+          "difference": 0.0,
+          "control_mean": 1.0,
+          "missing_pairs": 0,
+          "treatment_mean": 1.0
+        }
+      ],
+      "data_hash": "86192905c5bc607c25f23e77d252244e9c3dc7969cea7e2c9bdef0d583ba06de",
+      "resamples": 5000,
+      "phase_method": "half-open-microsecond/2"
+    },
+    "artifact_id": "794ca441-c465-4f4a-99f5-914c90156c96",
+    "csv_artifact_id": "36758bc5-19bf-45a8-a2d6-708a6ad03509"
+  },
+  "runs": [
+    {
+      "run_id": "2db8dd86-33b6-53df-bf04-d0fef3a07d5b",
+      "seed": 89,
+      "condition": "撤除＋关闭传播",
+      "state_hash": "89eb18ca80bfabacb57a4e5cd1fa070c8960a77b85ecaa4fb7b5d2b1c98e6cbe",
+      "phases": [
+        {
+          "name": "drive",
+          "start_s": 0.0,
+          "end_s": 3.0,
+          "input_enabled": true,
+          "complete": true,
+          "samples": 31,
+          "endpoints": {
+            "mean_activation_time_mean": 0.6159812373875668,
+            "saturated_fraction_time_mean": 0.4709522976190475,
+            "active_fraction_time_mean": 1.0,
+            "edge_density_time_mean": 0.8183862433862434,
+            "mean_weight_time_mean": 0.3651094122954634
+          }
+        },
+        {
+          "name": "withdrawal",
+          "start_s": 3.0,
+          "end_s": 27.0,
+          "input_enabled": false,
+          "complete": true,
+          "samples": 241,
+          "endpoints": {
+            "mean_activation_time_mean": 0.006231067628013394,
+            "saturated_fraction_time_mean": 0.0,
+            "active_fraction_time_mean": 0.10333333333333335,
+            "edge_density_time_mean": 0.7777777777777777,
+            "mean_weight_time_mean": 0.4081383826456701
+          },
+          "settling": {
+            "threshold": 0.0001,
+            "minimum_hold_s": 0.5,
+            "time_s": 2.6,
+            "right_censored": false,
+            "followup_s": 24.0,
+            "definition": "first sampled mean activation <= threshold, remaining below through phase end for at least minimum_hold_s"
+          }
+        },
+        {
+          "name": "recovery",
+          "start_s": 27.0,
+          "end_s": 30.0,
+          "input_enabled": true,
+          "complete": true,
+          "samples": 31,
+          "endpoints": {
+            "mean_activation_time_mean": 0.4757824569688504,
+            "saturated_fraction_time_mean": 0.2899999499999998,
+            "active_fraction_time_mean": 0.715,
+            "edge_density_time_mean": 0.8151851851851851,
+            "mean_weight_time_mean": 0.45091912411130314
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "094548d9-404a-597f-ab1f-6c82c7488d31",
+      "seed": 89,
+      "condition": "撤除与恢复",
+      "state_hash": "1e281f9b0e50ab208413f6ff3ee004deb5edd196826ebe94749facc3c5f19cae",
+      "phases": [
+        {
+          "name": "drive",
+          "start_s": 0.0,
+          "end_s": 3.0,
+          "input_enabled": true,
+          "complete": true,
+          "samples": 31,
+          "endpoints": {
+            "mean_activation_time_mean": 0.9375005144441938,
+            "saturated_fraction_time_mean": 0.888690476190476,
+            "active_fraction_time_mean": 1.0,
+            "edge_density_time_mean": 0.8324603174603175,
+            "mean_weight_time_mean": 0.404974032511281
+          }
+        },
+        {
+          "name": "withdrawal",
+          "start_s": 3.0,
+          "end_s": 27.0,
+          "input_enabled": false,
+          "complete": true,
+          "samples": 241,
+          "endpoints": {
+            "mean_activation_time_mean": 0.9378787069541971,
+            "saturated_fraction_time_mean": 0.8999999999999999,
+            "active_fraction_time_mean": 1.0,
+            "edge_density_time_mean": 0.7777777777777777,
+            "mean_weight_time_mean": 0.5884496689407811
+          },
+          "settling": {
+            "threshold": 0.0001,
+            "minimum_hold_s": 0.5,
+            "time_s": null,
+            "right_censored": true,
+            "followup_s": 24.0,
+            "definition": "first sampled mean activation <= threshold, remaining below through phase end for at least minimum_hold_s"
+          }
+        },
+        {
+          "name": "recovery",
+          "start_s": 27.0,
+          "end_s": 30.0,
+          "input_enabled": true,
+          "complete": true,
+          "samples": 31,
+          "endpoints": {
+            "mean_activation_time_mean": 0.9980570716398031,
+            "saturated_fraction_time_mean": 0.995,
+            "active_fraction_time_mean": 1.0,
+            "edge_density_time_mean": 0.8059259259259259,
+            "mean_weight_time_mean": 0.7683591249252099
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "555c4c63-f6ec-5372-a767-d5e43d0e6dc7",
+      "seed": 89,
+      "condition": "持续驱动",
+      "state_hash": "8ca234e4fb714e6435aa530bdad233819064bf2c4f2de2251ebc37ae14921bdd",
+      "phases": [
+        {
+          "name": "drive",
+          "start_s": 0.0,
+          "end_s": 3.0,
+          "input_enabled": true,
+          "complete": true,
+          "samples": 31,
+          "endpoints": {
+            "mean_activation_time_mean": 0.9375005144441938,
+            "saturated_fraction_time_mean": 0.888690476190476,
+            "active_fraction_time_mean": 1.0,
+            "edge_density_time_mean": 0.8324603174603175,
+            "mean_weight_time_mean": 0.404974032511281
+          }
+        },
+        {
+          "name": "withdrawal",
+          "start_s": 3.0,
+          "end_s": 27.0,
+          "input_enabled": true,
+          "complete": true,
+          "samples": 241,
+          "endpoints": {
+            "mean_activation_time_mean": 0.9909360410770454,
+            "saturated_fraction_time_mean": 0.9572348484848484,
+            "active_fraction_time_mean": 1.0,
+            "edge_density_time_mean": 0.8850547138047139,
+            "mean_weight_time_mean": 0.7457148306927449
+          }
+        },
+        {
+          "name": "recovery",
+          "start_s": 27.0,
+          "end_s": 30.0,
+          "input_enabled": true,
+          "complete": true,
+          "samples": 31,
+          "endpoints": {
+            "mean_activation_time_mean": 0.9994614182461184,
+            "saturated_fraction_time_mean": 1.0,
+            "active_fraction_time_mean": 1.0,
+            "edge_density_time_mean": 0.9090909090909092,
+            "mean_weight_time_mean": 0.800450460549018
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "ec216241-ed82-5f98-8248-536bc77b5de5",
+      "seed": 47,
+      "condition": "撤除＋关闭传播",
+      "state_hash": "82fdc1664d756b81153832f89b26348ae7886823be9ebc526671463e1851f93f",
+      "phases": [
+        {
+          "name": "drive",
+          "start_s": 0.0,
+          "end_s": 3.0,
+          "input_enabled": true,
+          "complete": true,
+          "samples": 31,
+          "endpoints": {
+            "mean_activation_time_mean": 0.5908014443628959,
+            "saturated_fraction_time_mean": 0.46476843518518524,
+            "active_fraction_time_mean": 1.0,
+            "edge_density_time_mean": 0.8395105820105817,
+            "mean_weight_time_mean": 0.26055075215735574
+          }
+        },
+        {
+          "name": "withdrawal",
+          "start_s": 3.0,
+          "end_s": 27.0,
+          "input_enabled": false,
+          "complete": true,
+          "samples": 241,
+          "endpoints": {
+            "mean_activation_time_mean": 0.006842381942436832,
+            "saturated_fraction_time_mean": 0.0,
+            "active_fraction_time_mean": 0.1075,
+            "edge_density_time_mean": 0.8222222222222221,
+            "mean_weight_time_mean": 0.3083394805663461
+          },
+          "settling": {
+            "threshold": 0.0001,
+            "minimum_hold_s": 0.5,
+            "time_s": 2.7,
+            "right_censored": false,
+            "followup_s": 24.0,
+            "definition": "first sampled mean activation <= threshold, remaining below through phase end for at least minimum_hold_s"
+          }
+        },
+        {
+          "name": "recovery",
+          "start_s": 27.0,
+          "end_s": 30.0,
+          "input_enabled": true,
+          "complete": true,
+          "samples": 31,
+          "endpoints": {
+            "mean_activation_time_mean": 0.40422256156590636,
+            "saturated_fraction_time_mean": 0.2696969393939393,
+            "active_fraction_time_mean": 0.7696969545454544,
+            "edge_density_time_mean": 0.7906060606060605,
+            "mean_weight_time_mean": 0.31701446940343064
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "c13a332d-8420-5d49-bd73-1429ceb7df5c",
+      "seed": 47,
+      "condition": "撤除与恢复",
+      "state_hash": "c25b9817dd79da29380aa6cdd7209280d775964dae6ee5d26c14ec3eaf28bc74",
+      "phases": [
+        {
+          "name": "drive",
+          "start_s": 0.0,
+          "end_s": 3.0,
+          "input_enabled": true,
+          "complete": true,
+          "samples": 31,
+          "endpoints": {
+            "mean_activation_time_mean": 0.8255828020586216,
+            "saturated_fraction_time_mean": 0.7334722222222223,
+            "active_fraction_time_mean": 1.0,
+            "edge_density_time_mean": 0.8372089947089946,
+            "mean_weight_time_mean": 0.28065321714949537
+          }
+        },
+        {
+          "name": "withdrawal",
+          "start_s": 3.0,
+          "end_s": 27.0,
+          "input_enabled": false,
+          "complete": true,
+          "samples": 241,
+          "endpoints": {
+            "mean_activation_time_mean": 0.916154427082056,
+            "saturated_fraction_time_mean": 0.8002083333333334,
+            "active_fraction_time_mean": 1.0,
+            "edge_density_time_mean": 0.8222222222222221,
+            "mean_weight_time_mean": 0.4821415048526972
+          },
+          "settling": {
+            "threshold": 0.0001,
+            "minimum_hold_s": 0.5,
+            "time_s": null,
+            "right_censored": true,
+            "followup_s": 24.0,
+            "definition": "first sampled mean activation <= threshold, remaining below through phase end for at least minimum_hold_s"
+          }
+        },
+        {
+          "name": "recovery",
+          "start_s": 27.0,
+          "end_s": 30.0,
+          "input_enabled": true,
+          "complete": true,
+          "samples": 31,
+          "endpoints": {
+            "mean_activation_time_mean": 0.9895757885983184,
+            "saturated_fraction_time_mean": 0.9318181818181818,
+            "active_fraction_time_mean": 1.0,
+            "edge_density_time_mean": 0.833939393939394,
+            "mean_weight_time_mean": 0.597842714564828
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "11e93a0e-375d-5963-990d-0d7209a04da1",
+      "seed": 47,
+      "condition": "持续驱动",
+      "state_hash": "1512fbc7371f32a40255970ab40d04c024d97fcf5f9aaf2ec50a4049859a7c5f",
+      "phases": [
+        {
+          "name": "drive",
+          "start_s": 0.0,
+          "end_s": 3.0,
+          "input_enabled": true,
+          "complete": true,
+          "samples": 31,
+          "endpoints": {
+            "mean_activation_time_mean": 0.8255828020586216,
+            "saturated_fraction_time_mean": 0.7334722222222223,
+            "active_fraction_time_mean": 1.0,
+            "edge_density_time_mean": 0.8372089947089946,
+            "mean_weight_time_mean": 0.28065321714949537
+          }
+        },
+        {
+          "name": "withdrawal",
+          "start_s": 3.0,
+          "end_s": 27.0,
+          "input_enabled": true,
+          "complete": true,
+          "samples": 241,
+          "endpoints": {
+            "mean_activation_time_mean": 0.9906752192332036,
+            "saturated_fraction_time_mean": 0.9653389665889667,
+            "active_fraction_time_mean": 1.0,
+            "edge_density_time_mean": 0.8873852305102304,
+            "mean_weight_time_mean": 0.7612260647369293
+          }
+        },
+        {
+          "name": "recovery",
+          "start_s": 27.0,
+          "end_s": 30.0,
+          "input_enabled": true,
+          "complete": true,
+          "samples": 31,
+          "endpoints": {
+            "mean_activation_time_mean": 0.9994614182461184,
+            "saturated_fraction_time_mean": 1.0,
+            "active_fraction_time_mean": 1.0,
+            "edge_density_time_mean": 0.9102564102564101,
+            "mean_weight_time_mean": 0.9280284396083084
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "61289652-d26a-572c-8f4c-44edee542357",
+      "seed": 23,
+      "condition": "撤除＋关闭传播",
+      "state_hash": "518ac5de0d0942b4e2a0a5bb759e18eb6321acd156190d325e5b97f85cf429e8",
+      "phases": [
+        {
+          "name": "drive",
+          "start_s": 0.0,
+          "end_s": 3.0,
+          "input_enabled": true,
+          "complete": true,
+          "samples": 31,
+          "endpoints": {
+            "mean_activation_time_mean": 0.46515467127498195,
+            "saturated_fraction_time_mean": 0.27331647053872055,
+            "active_fraction_time_mean": 1.0,
+            "edge_density_time_mean": 0.7436363636363637,
+            "mean_weight_time_mean": 0.26534173923909204
+          }
+        },
+        {
+          "name": "withdrawal",
+          "start_s": 3.0,
+          "end_s": 27.0,
+          "input_enabled": false,
+          "complete": true,
+          "samples": 241,
+          "endpoints": {
+            "mean_activation_time_mean": 0.004806179987159345,
+            "saturated_fraction_time_mean": 0.0,
+            "active_fraction_time_mean": 0.10902777777777779,
+            "edge_density_time_mean": 0.8034722222222221,
+            "mean_weight_time_mean": 0.2336150295893268
+          },
+          "settling": {
+            "threshold": 0.0001,
+            "minimum_hold_s": 0.5,
+            "time_s": 2.6,
+            "right_censored": false,
+            "followup_s": 24.0,
+            "definition": "first sampled mean activation <= threshold, remaining below through phase end for at least minimum_hold_s"
+          }
+        },
+        {
+          "name": "recovery",
+          "start_s": 27.0,
+          "end_s": 30.0,
+          "input_enabled": true,
+          "complete": true,
+          "samples": 31,
+          "endpoints": {
+            "mean_activation_time_mean": 0.4162224843489591,
+            "saturated_fraction_time_mean": 0.3222221666666665,
+            "active_fraction_time_mean": 0.6666666666666665,
+            "edge_density_time_mean": 0.8161616186868689,
+            "mean_weight_time_mean": 0.273669133083484
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "cf9d3eab-e512-59fb-9993-8cfebaa71aa3",
+      "seed": 23,
+      "condition": "撤除与恢复",
+      "state_hash": "ed6b98bb38aa3a8f7665b4e19120269d034ac99390fa948cf78504f24203d5b2",
+      "phases": [
+        {
+          "name": "drive",
+          "start_s": 0.0,
+          "end_s": 3.0,
+          "input_enabled": true,
+          "complete": true,
+          "samples": 31,
+          "endpoints": {
+            "mean_activation_time_mean": 0.784572265394566,
+            "saturated_fraction_time_mean": 0.6346464646464646,
+            "active_fraction_time_mean": 1.0,
+            "edge_density_time_mean": 0.8054256854256852,
+            "mean_weight_time_mean": 0.29504673045676055
+          }
+        },
+        {
+          "name": "withdrawal",
+          "start_s": 3.0,
+          "end_s": 27.0,
+          "input_enabled": false,
+          "complete": true,
+          "samples": 241,
+          "endpoints": {
+            "mean_activation_time_mean": 0.9450400280259439,
+            "saturated_fraction_time_mean": 0.7909722222222223,
+            "active_fraction_time_mean": 1.0,
+            "edge_density_time_mean": 0.9090909090909088,
+            "mean_weight_time_mean": 0.3652429396830077
+          },
+          "settling": {
+            "threshold": 0.0001,
+            "minimum_hold_s": 0.5,
+            "time_s": null,
+            "right_censored": true,
+            "followup_s": 24.0,
+            "definition": "first sampled mean activation <= threshold, remaining below through phase end for at least minimum_hold_s"
+          }
+        },
+        {
+          "name": "recovery",
+          "start_s": 27.0,
+          "end_s": 30.0,
+          "input_enabled": true,
+          "complete": true,
+          "samples": 31,
+          "endpoints": {
+            "mean_activation_time_mean": 0.9976743090998267,
+            "saturated_fraction_time_mean": 0.9902777777777777,
+            "active_fraction_time_mean": 1.0,
+            "edge_density_time_mean": 0.924242424242424,
+            "mean_weight_time_mean": 0.5326807725291512
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "c6362133-2e08-59dd-8a9d-ef755c837229",
+      "seed": 23,
+      "condition": "持续驱动",
+      "state_hash": "d9148d6203e3e02b6064c4b300acd3dd39001ffc47db256bb7eec1fcd71ef4ed",
+      "phases": [
+        {
+          "name": "drive",
+          "start_s": 0.0,
+          "end_s": 3.0,
+          "input_enabled": true,
+          "complete": true,
+          "samples": 31,
+          "endpoints": {
+            "mean_activation_time_mean": 0.784572265394566,
+            "saturated_fraction_time_mean": 0.6346464646464646,
+            "active_fraction_time_mean": 1.0,
+            "edge_density_time_mean": 0.8054256854256852,
+            "mean_weight_time_mean": 0.29504673045676055
+          }
+        },
+        {
+          "name": "withdrawal",
+          "start_s": 3.0,
+          "end_s": 27.0,
+          "input_enabled": true,
+          "complete": true,
+          "samples": 241,
+          "endpoints": {
+            "mean_activation_time_mean": 0.9972769925909244,
+            "saturated_fraction_time_mean": 0.9862847222222223,
+            "active_fraction_time_mean": 1.0,
+            "edge_density_time_mean": 0.9350378787878789,
+            "mean_weight_time_mean": 0.7501885780022897
+          }
+        },
+        {
+          "name": "recovery",
+          "start_s": 27.0,
+          "end_s": 30.0,
+          "input_enabled": true,
+          "complete": true,
+          "samples": 31,
+          "endpoints": {
+            "mean_activation_time_mean": 0.9994614182461184,
+            "saturated_fraction_time_mean": 1.0,
+            "active_fraction_time_mean": 1.0,
+            "edge_density_time_mean": 0.9393939393939394,
+            "mean_weight_time_mean": 0.9183152383509584
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "32cefcc4-5338-5909-9cd0-ab21824d1716",
+      "seed": 11,
+      "condition": "撤除＋关闭传播",
+      "state_hash": "936b1584773a1b690a281a5691313db2995c619f67e19c51c991383c374140fd",
+      "phases": [
+        {
+          "name": "drive",
+          "start_s": 0.0,
+          "end_s": 3.0,
+          "input_enabled": true,
+          "complete": true,
+          "samples": 31,
+          "endpoints": {
+            "mean_activation_time_mean": 0.5357464860768949,
+            "saturated_fraction_time_mean": 0.41666660606060596,
+            "active_fraction_time_mean": 0.9863636363636362,
+            "edge_density_time_mean": 0.683063973063973,
+            "mean_weight_time_mean": 0.3012166054584176
+          }
+        },
+        {
+          "name": "withdrawal",
+          "start_s": 3.0,
+          "end_s": 27.0,
+          "input_enabled": false,
+          "complete": true,
+          "samples": 241,
+          "endpoints": {
+            "mean_activation_time_mean": 0.0058199218743183526,
+            "saturated_fraction_time_mean": 0.0,
+            "active_fraction_time_mean": 0.09545454545454546,
+            "edge_density_time_mean": 0.6566666666666668,
+            "mean_weight_time_mean": 0.3751329924246372
+          },
+          "settling": {
+            "threshold": 0.0001,
+            "minimum_hold_s": 0.5,
+            "time_s": 2.6,
+            "right_censored": false,
+            "followup_s": 24.0,
+            "definition": "first sampled mean activation <= threshold, remaining below through phase end for at least minimum_hold_s"
+          }
+        },
+        {
+          "name": "recovery",
+          "start_s": 27.0,
+          "end_s": 30.0,
+          "input_enabled": true,
+          "complete": true,
+          "samples": 31,
+          "endpoints": {
+            "mean_activation_time_mean": 0.4189605053164323,
+            "saturated_fraction_time_mean": 0.27272724242424234,
+            "active_fraction_time_mean": 0.662121212121212,
+            "edge_density_time_mean": 0.6960606060606062,
+            "mean_weight_time_mean": 0.4116892558326533
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "381f0950-fd5f-5d1c-86ed-ef8ae38fab94",
+      "seed": 11,
+      "condition": "撤除与恢复",
+      "state_hash": "ed8e820ed8d83df034318b5c47c0181f9a46460cf8085b0af22a8074dfd54492",
+      "phases": [
+        {
+          "name": "drive",
+          "start_s": 0.0,
+          "end_s": 3.0,
+          "input_enabled": true,
+          "complete": true,
+          "samples": 31,
+          "endpoints": {
+            "mean_activation_time_mean": 0.8246493638995852,
+            "saturated_fraction_time_mean": 0.7790909090909093,
+            "active_fraction_time_mean": 1.0,
+            "edge_density_time_mean": 0.6807070707070705,
+            "mean_weight_time_mean": 0.3262690332126442
+          }
+        },
+        {
+          "name": "withdrawal",
+          "start_s": 3.0,
+          "end_s": 27.0,
+          "input_enabled": false,
+          "complete": true,
+          "samples": 241,
+          "endpoints": {
+            "mean_activation_time_mean": 0.8792056315329027,
+            "saturated_fraction_time_mean": 0.8183712121212121,
+            "active_fraction_time_mean": 1.0,
+            "edge_density_time_mean": 0.6824431818181816,
+            "mean_weight_time_mean": 0.5483372904323534
+          },
+          "settling": {
+            "threshold": 0.0001,
+            "minimum_hold_s": 0.5,
+            "time_s": null,
+            "right_censored": true,
+            "followup_s": 24.0,
+            "definition": "first sampled mean activation <= threshold, remaining below through phase end for at least minimum_hold_s"
+          }
+        },
+        {
+          "name": "recovery",
+          "start_s": 27.0,
+          "end_s": 30.0,
+          "input_enabled": true,
+          "complete": true,
+          "samples": 31,
+          "endpoints": {
+            "mean_activation_time_mean": 0.951934390553954,
+            "saturated_fraction_time_mean": 0.8866161616161615,
+            "active_fraction_time_mean": 1.0,
+            "edge_density_time_mean": 0.7305808080808079,
+            "mean_weight_time_mean": 0.597677351777779
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "95e320e7-6a4c-56e8-a19c-a6178160a37c",
+      "seed": 11,
+      "condition": "持续驱动",
+      "state_hash": "dc3ec823a7aefcbd0eebd8e013bf51d04d3663528674b3f12278eaebdae51482",
+      "phases": [
+        {
+          "name": "drive",
+          "start_s": 0.0,
+          "end_s": 3.0,
+          "input_enabled": true,
+          "complete": true,
+          "samples": 31,
+          "endpoints": {
+            "mean_activation_time_mean": 0.8246493638995852,
+            "saturated_fraction_time_mean": 0.7790909090909093,
+            "active_fraction_time_mean": 1.0,
+            "edge_density_time_mean": 0.6807070707070705,
+            "mean_weight_time_mean": 0.3262690332126442
+          }
+        },
+        {
+          "name": "withdrawal",
+          "start_s": 3.0,
+          "end_s": 27.0,
+          "input_enabled": true,
+          "complete": true,
+          "samples": 241,
+          "endpoints": {
+            "mean_activation_time_mean": 0.9808197681156058,
+            "saturated_fraction_time_mean": 0.9293924825174825,
+            "active_fraction_time_mean": 1.0,
+            "edge_density_time_mean": 0.8214835858585859,
+            "mean_weight_time_mean": 0.688437545422324
+          }
+        },
+        {
+          "name": "recovery",
+          "start_s": 27.0,
+          "end_s": 30.0,
+          "input_enabled": true,
+          "complete": true,
+          "samples": 31,
+          "endpoints": {
+            "mean_activation_time_mean": 0.999367936377117,
+            "saturated_fraction_time_mean": 1.0,
+            "active_fraction_time_mean": 1.0,
+            "edge_density_time_mean": 0.8333333333333335,
+            "mean_weight_time_mean": 0.8133784130576326
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "stage": "D2c",
+  "date": "2026-09-06",
+  "validation": {
+    "full": {
+      "passed": 256,
+      "skipped": 0,
+      "seconds": 271.93
+    },
+    "final_target": {
+      "passed": 14,
+      "seconds": 42.1
+    },
+    "status_target": {
+      "passed": 7,
+      "seconds": 24.69
+    },
+    "edge_existing_and_new": {
+      "passed": 4,
+      "seconds": 51.3
+    },
+    "edge_final": {
+      "passed": 2,
+      "seconds": 31.5
+    }
+  },
+  "versions": {
+    "database": 17,
+    "core": "causal/7",
+    "state": "state/5",
+    "profile": "profile/5"
+  },
+  "configuration_fields": 419,
+  "remaining": "AI providers/environment/interpreter/plan bridge; other D settings/operations/performance; E notes and reports; innate evolutionary trainer"
+}

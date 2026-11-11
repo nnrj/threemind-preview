@@ -1,0 +1,8 @@
+#!/bin/sh
+# Use staged bytes, not unstaged working files. This guard has no third-party dependencies.
+python scripts/check-git-data.py
+check_status=$?
+if [ "$check_status" -ne 0 ]; then
+    printf '%s\n' 'Commit aborted: the Git data check did not pass. Your files and staged changes are preserved.' >&2
+fi
+exit "$check_status"

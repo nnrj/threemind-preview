@@ -1,0 +1,291 @@
+{
+  "revision": "6241016",
+  "sources": {
+    "src/threemind_core/__init__.py": "f3eb5e0c6f549cdba7ac4f3ef790c3e9f83955c9a387622bfc2ec1505406218d",
+    "src/threemind_core/attention.py": "386f47720e8e590f4d5749eca05581026eb84cd191220db554c9230d2526234a",
+    "src/threemind_core/energy.py": "1e6631674e7713bfe31427b8b4354a48fcfd5b2cbbd2a56f82f043bb187b8ec7",
+    "src/threemind_core/engine.py": "b57add607277c3f98d7fc9c9fbb79ef9d2e9fde217692a99bd389bce2ee3adce",
+    "src/threemind_core/resources.py": "75cb0c23ae291281782fc2fdb8f9c6d8bdcdeab67af08b02515bebfb5dee35a4",
+    "src/threemind_core/restoration.py": "e0095132244ed7722cdfc7481a1463ccda6064570d867e303194fab8c34213d6",
+    "src/threemind_core/spatial.py": "e57fc876000e4124910dd3e5a1480e79b5c88150f5227d79d9e75fdd9338635c",
+    "src/threemind_core/spec.py": "e44cf161ff954afa149e3502cd6bf9ea68663ce805b6c4954c632c23abe21b78",
+    "src/threemind_kernels/__init__.py": "75c429ab6fa4ba396a1ab9a22afebe5c84112819d0f697b2b15e7840e56cc0d4",
+    "src/threemind_kernels/build.py": "4216ccc10c1fb5d61f5a76b79c099e45820bffa47976a482eadbf66548687c32",
+    "src/threemind_kernels/cli.py": "0e9c07282af99ef86886efe5461084c6044a3b13e3bc9ad0e9ef8a8e868a6b66",
+    "src/threemind_kernels/continuous.py": "447ec690cc71d6d9d258283e01368dbd87c2df0b24e9f3d94ce33999dfbdf5b1",
+    "src/threemind_kernels/continuous_native.py": "899d98e7257c8a131467365ad8b840e02a4351b3075383000c81a11c93c0dcf3",
+    "src/threemind_kernels/contract.py": "e7da677351f95dc26677734426c88240d34327eda8e4389f997398ef4153e9a7",
+    "src/threemind_kernels/definition.py": "e282c3f15a82192cda311939e024bda741f647f1b9dfe05739b57dc903051a32",
+    "src/threemind_kernels/lif.py": "848fc5754004438460caa6189dd8c47f4c57748f007a8b5d7fca6555baf2b4cb",
+    "src/threemind_kernels/lif_native.py": "10b53aa711d20f6458ca74163270941f4c0f4b07bd36ef93f874eebee902846f",
+    "src/threemind_kernels/mechanisms.py": "a63a57c256a5984fb811df42a71fda4fd7c1de18a2c71e2d6eafea6606a8f2e6",
+    "src/threemind_kernels/memory.py": "b8d1bc0f4f8755ada0a7126762924dbb05a1f65e4705d77c68d628a8e64e05e3",
+    "src/threemind_kernels/memory_native.py": "bd455b3beb69dad8d51806d11902a65cbb634845c72701bbe07bf250419b066e",
+    "src/threemind_kernels/novelty.py": "54b5f70c2a93c7070919433cca0e868a3fcf9fc16eb182bc1db77dcf3502e882",
+    "src/threemind_kernels/novelty_native.py": "7c248e5edb278d69c7182efdd75bc4a2cb8705b566d58f143de996f21762c463",
+    "src/threemind_kernels/registry.py": "2b3f0bdb3133713ec6a48f155007fdadc25c1338b21f5669c2954c2645ef48ef",
+    "src/threemind_runtime/__init__.py": "55f967e3fbbed83e50e29aeb7d5576f1ee488a3aa372ca984d93a5d5991b31f9",
+    "src/threemind_runtime/activity_readout.py": "31e295fee2177693c3f344e006cf9392a82a743471bbacf7e39f937d98733cac",
+    "src/threemind_runtime/adapter_checks.py": "ff5b3b453535fc4f2551b0910b4d230a95b2538097bc19a16a04a03b6a30b514",
+    "src/threemind_runtime/adapter_cli.py": "51a5906a1b64227372b63bcebc750d03e2f33128fffd98c7e47b25c1982b8253",
+    "src/threemind_runtime/adapter_contracts.py": "c6351594bc1e0de36be36fdb647e79203bd4e0db3df45dcf8fc19f60ef1252a1",
+    "src/threemind_runtime/adapters.py": "a3c85c872034687f3a9401cd83f8d00f27807d69f6e624f81a2c8f9c3ee34db0",
+    "src/threemind_runtime/body.py": "1beb6db14463b94af2029e970b5b25d428d251929e84c3d34e9518ba56f0b974",
+    "src/threemind_runtime/bus.py": "abe9bcf3e0c1cd9b9c0bbd933116d37047fdf97ea9c5160d7c12c4ddf3537d52",
+    "src/threemind_runtime/calibration.py": "52b2b3bf67872e6d4c7db2f8517df6402149ce179dd48d84153af914eec5c05a",
+    "src/threemind_runtime/calibration_cli.py": "68ef2f4074d45f4492f36cd8486042285016a44470920307cbebbd3ff1daabdc",
+    "src/threemind_runtime/capabilities.py": "bf0b85d28c19be191d270ef644ad95d3ed8a1a1cb01e26b872d19b6624d8ebed",
+    "src/threemind_runtime/capability_render.py": "68088af7a901e5de37799b9e42171e4fba23148011f1c70b5984d38fbe450410",
+    "src/threemind_runtime/chat_readout.py": "0bb1735bd31502305ca8b7eac10178d78e6d898c029dcd5c5fc9e30b003f0de9",
+    "src/threemind_runtime/cli.py": "d61b6bd22bc0c4968c89c7d6a4c8e7beca03e4bb644943336c5d02edfa0be87b",
+    "src/threemind_runtime/codec.py": "1e1c2b1a89c6fd0f112588d9cf646c9c17c3ecd11eedb89e180defe0a6e2011b",
+    "src/threemind_runtime/cold_state.py": "dba59245645779f0ce0c51d5ce5513fa26dfb21ade2d17d2c768ba68025fe653",
+    "src/threemind_runtime/deployment.py": "0e652c5432ab5b438db8c6f1c1c96bbb3e3e93a9f0b7c9cd91a91ab322644bd2",
+    "src/threemind_runtime/ecology.py": "a486e8ebdfef2173363807e2874f7ef41036680e676e9123a93e0c2332f2050b",
+    "src/threemind_runtime/ecology_cli.py": "f3f45bcfc0a3e4ecc4332c7c3e09df031aa987b709f61e76fc1767e062f068ba",
+    "src/threemind_runtime/ecology_job.py": "c333e314219ab5a962b41811d5091b13d9985b3cb0ce36b4ca668c6b9c2a493d",
+    "src/threemind_runtime/ecology_observer.py": "da0a2a42bc5ba9ee7636fdab1632e80866ddffb969afbbb330006de653285e28",
+    "src/threemind_runtime/ecology_observer_cli.py": "4b9df0b24e0d9f09e3a5205a5a9939cb271b6c40fbeb0206afc6dbf584fd51f2",
+    "src/threemind_runtime/ecology_rules.py": "10ca96fe3dcca7d34feece9e8beeae4bee125a95269f0e2c808d25ff5c85280b",
+    "src/threemind_runtime/ecology_senses.py": "29862adea286f0753c1091ed052d6366374ba311c286db6951f0335336a010ca",
+    "src/threemind_runtime/energy_supply.py": "6dbc1148fbe8df62257145ef2e0e73da7d4c74d5907ade6f3e2dbc29fd0231a0",
+    "src/threemind_runtime/event_observation.py": "371eae6e4ef243825d4b0a19497107626ba89c262a80d59bf5076a1872d7011e",
+    "src/threemind_runtime/host.py": "d61edcf6b84c0625ffae0836f8aa61119fbab13b0caacfef26292bd3f9e90517",
+    "src/threemind_runtime/inheritance.py": "45bd7e7f8acbee5b8c0762103326100da20abcb424719e0dbbe2f304ad607f88",
+    "src/threemind_runtime/live_media.py": "7e49d73d8b8417feb851112e3034cae6882a919bd7df5ad8e32f350d59460419",
+    "src/threemind_runtime/media.py": "e89c18d67565e38d6461fe28ab695e0e9b0f39d25ac457ed57cc91eb4819dbc1",
+    "src/threemind_runtime/network.py": "66e1fa56b935248126d5b56b2e65536aa96260b56dffaf85b4df77f7d001095b",
+    "src/threemind_runtime/network_wiring.py": "820975b1bc2d3eac3ae90fae296d72c1763a0f9cbd578e6d91f23fad19f140c4",
+    "src/threemind_runtime/output_organs.py": "a9ee5c8fd1f25e477ea7ba3742a2f3feff505715d275ae0a770dc7f74787c23e",
+    "src/threemind_runtime/population_bundle.py": "245675a68416078f3f44d87de8464a8308c40eef0d96fd7c739b58440d4d0124",
+    "src/threemind_runtime/population_participant.py": "41b797196be348bd084a10a26ed225a0956227d1c6924cb506465bb84627f24e",
+    "src/threemind_runtime/population_store.py": "1b4e3658071dc60b9d4fbf5a389ed362f656384e4241a058bc10837f1cb3abc1",
+    "src/threemind_runtime/population_world.py": "a859837443a6b83c538313f4956705ada5ef73229401b3a0931b1ab007afd554",
+    "src/threemind_runtime/profile.py": "205316ac8648d6395b3ae9a8d634b88821cd065dac6232ab457bb9637b9e607d",
+    "src/threemind_runtime/readout_columns.py": "aa8780af9d532ddfd774f3ae288d55a91ff9f972d2810674157fc138f467b704",
+    "src/threemind_runtime/readout_config.py": "5092bca3da6b491ba2a1d39a98b520d15c45480146cee5b2f62235a804f9bff2",
+    "src/threemind_runtime/readout_host.py": "a0ffc2bd583db6fb9c781a0abcc1d077330899a02af02dedde5c1f6860cf4916",
+    "src/threemind_runtime/readout_session.py": "2cc91e591a063b2436df59eb5d32ec020a51544e2e4dad59fc301fdc72073c24",
+    "src/threemind_runtime/readouts.py": "305763784c6d666cdb1658fbaee2effb81eb658a0736667fb9eae4355987278f",
+    "src/threemind_runtime/receptors.py": "6445a8762cb3097a5a8d3e0a51bc81cfabfb782e724f93c16d25edd471764ca0",
+    "src/threemind_runtime/registry.py": "d1b75449e540c2dbef39b59d8646acfc807f6122fa156f52959534dc31cb3c47",
+    "src/threemind_runtime/sensory.py": "bc9c3b5cd3a278ec65597b003a23516b7bd1210ce20ae9b798b36cbe9df6249e",
+    "src/threemind_runtime/source_policies.py": "57fae2a340577741d3ca248fdc856f9c1ff799bb5e95668a55a6527b4a35ff28",
+    "src/threemind_runtime/store.py": "747ff68902860630049b8fb21db72a5bfbd7dc2a676921d9adc22877abfdd42d",
+    "src/threemind_runtime/telemetry.py": "66d78ba01b572e1b7d83ee88a8bb53d652ef96d6814c2c9a6330cdca42f11977",
+    "src/threemind_runtime/telemetry_probe.py": "4fa87bb29912ff956dda51fae34a11c14fab445dc0e707a63032adce861d382a",
+    "src/threemind_runtime/temporal_probe.py": "8609cb6175b3331375ce7ed9d689c1091bbba5b83bfe5bb5b60bd3930c2cf66e",
+    "src/threemind_runtime/world.py": "c59949365a9518466602351d352f209065387ad26455286c3445a2a46680e249",
+    "src/threemind_runtime/world_cli.py": "347e30ee3b9056ab018f96cae5c223f714e71341e51cb09511bb1fe9f86d81fa",
+    "src/threemind_runtime/world_ports.py": "a582dd5fdccad4bb952d2f6efcca686b3b17caa3a4daa35b7db4b4ee8e9bff3c",
+    "src/threemind_runtime/world_schema.py": "65ebf37158c5e7432becf18fd8c3d54d4439b6d8bee7126ab9bf505ee40090fe"
+  },
+  "witnesses": {
+    "normal": [
+      {
+        "time_us": 0,
+        "digest": "f6b2071e79c19bb8a17e74e64a8587f41c745157c4c7e8651ba5f4a769bf0e57"
+      },
+      {
+        "time_us": 100000,
+        "digest": "757497c302a980437dd3228c6783aa06e8d941117a3f0ada94688b303916bb72"
+      },
+      {
+        "time_us": 1000000,
+        "digest": "e5d52f21288ef6b9d7a9c62ceda15399d86d04ed34852d25703cbe237149d9b1"
+      }
+    ],
+    "equal-drive-strong": [
+      {
+        "time_us": 0,
+        "digest": "6b31305175351e7b32ee3ad77551d44e2b9db6f62ac29124fde9dc4813f6b9e7"
+      },
+      {
+        "time_us": 100000,
+        "digest": "2bbed473fad4720dce3988bbe2a7a0022048a2e69a4873e7bd42ab76c93df8b7"
+      },
+      {
+        "time_us": 1000000,
+        "digest": "444883fe7edbfdc353d093e82ea4a704c0000b2cb78586ff000c4d81635c6ce1"
+      }
+    ],
+    "strong": [
+      {
+        "time_us": 0,
+        "digest": "a862d097bcc3c127857c2de2048252009ef01d1c8ab488a9bae3702dd40adb5c"
+      },
+      {
+        "time_us": 100000,
+        "digest": "e4b98fcbef877fbe855c11c7e8cb4a06593b0979da32517473aeab4345c74fcb"
+      },
+      {
+        "time_us": 1000000,
+        "digest": "11466d47e696f9eafa9fe10dd10515b5dfecd2d2c45f41f35a0e465f12c0f36f"
+      }
+    ],
+    "text": [
+      {
+        "time_us": "0",
+        "channels": [
+          [
+            54893643,
+            0.08262364471909156
+          ],
+          [
+            106558229,
+            0.046475800154489
+          ],
+          [
+            132390522,
+            0.046475800154489
+          ],
+          [
+            158222815,
+            0.10844353369380766
+          ],
+          [
+            364881159,
+            0.046475800154489
+          ],
+          [
+            380614849,
+            0.046475800154489
+          ],
+          [
+            416545745,
+            0.08262364471909156
+          ],
+          [
+            458111728,
+            0.10844353369380766
+          ],
+          [
+            483944021,
+            0.046475800154489
+          ],
+          [
+            587273193,
+            0.08262364471909156
+          ],
+          [
+            871428416,
+            0.21688706738761532
+          ],
+          [
+            974757588,
+            0.08262364471909156
+          ],
+          [
+            1026422174,
+            0.046475800154489
+          ],
+          [
+            1042155864,
+            0.046475800154489
+          ],
+          [
+            1093820450,
+            0.10844353369380766
+          ],
+          [
+            1119652743,
+            0.10844353369380766
+          ],
+          [
+            1352143380,
+            0.08262364471909156
+          ],
+          [
+            1507137138,
+            0.19106717841289922
+          ],
+          [
+            1574535414,
+            0.08262364471909156
+          ],
+          [
+            1600367707,
+            0.08262364471909156
+          ],
+          [
+            1610466310,
+            0.08262364471909156
+          ],
+          [
+            1636298603,
+            0.046475800154489
+          ],
+          [
+            1884522930,
+            0.092951600308978
+          ],
+          [
+            1936187516,
+            0.10844353369380766
+          ],
+          [
+            2039516688,
+            0.051639777949432225
+          ],
+          [
+            2168678153,
+            0.08262364471909156
+          ],
+          [
+            2194510446,
+            0.15491933384829668
+          ],
+          [
+            2623560824,
+            0.08262364471909156
+          ],
+          [
+            2856051461,
+            0.10844353369380766
+          ],
+          [
+            2949282030,
+            0.10844353369380766
+          ],
+          [
+            3404164701,
+            0.046475800154489
+          ],
+          [
+            3414263304,
+            0.10844353369380766
+          ],
+          [
+            3440095597,
+            0.08262364471909156
+          ],
+          [
+            3507493873,
+            0.10844353369380766
+          ],
+          [
+            3610823045,
+            0.08262364471909156
+          ],
+          [
+            3765816803,
+            0.10844353369380766
+          ],
+          [
+            3817481389,
+            0.092951600308978
+          ],
+          [
+            3998307440,
+            0.046475800154489
+          ],
+          [
+            4169034888,
+            0.19106717841289922
+          ]
+        ],
+        "intensity": 1.0
+      }
+    ]
+  }
+}

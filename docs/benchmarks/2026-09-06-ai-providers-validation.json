@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-06",
+  "stage": "D3a AI providers and durable calls",
+  "database_schema": 18,
+  "core": "causal/7",
+  "model_profile": "profile/5",
+  "scientific_fields": 419,
+  "python_full": { "passed": 262, "skipped": 0, "seconds": 271.47, "log": ".work/d3a-full2.log" },
+  "python_final_targeted": { "passed": 8, "seconds": 27.27, "log": ".work/d3a-final.log" },
+  "browser_final": { "passed": 1, "seconds": 9.8, "log": ".work/d3a-browser-final.log", "provider": "local synthetic HTTP/SSE server" },
+  "checks": ["Ruff", "TypeScript/Vite", "legacy fields: 55 reviewed, 0 pending", "git diff --check", "desktop and mobile screenshots inspected"],
+  "coverage": [
+    "encrypted secret retention, explicit clear and key rotation decryption",
+    "request validation does not echo credentials",
+    "project RLS, platform grants, revocation, no implicit admin project write",
+    "HTTP Chat and Responses, UTF-8 SSE splitting, required completion, truncation rejection",
+    "timeout and cancellation while waiting for a response",
+    "immutable provider config revision and request identity",
+    "separate AI and runtime queue capacities",
+    "no automatic resend after uncertain outbound side effect",
+    "concurrent provider quota reservation",
+    "expired AI jobs do not block a paused model",
+    "archive cleanup includes AI content and retains accounting receipt",
+    "existing-database incremental migration"
+  ],
+  "environment_issue": "First full run could not access its Windows sandbox pytest temporary directory (WinError 5); rerun with a fresh project-local directory and required execution permissions passed.",
+  "limits": ["No paid provider was called", "Not a universal vendor compatibility claim", "D3b environment/interpreter/plan tools are the next implementation stage", "Remaining D, E and innate trainer are not complete"],
+  "old_data_read": false,
+  "push": false
+}

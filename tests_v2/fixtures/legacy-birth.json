@@ -1,0 +1,557 @@
+{
+  "schema": "threemind.legacy-birth-witness/1",
+  "classification": "small frozen engineering fixture; no formal experimental subjects",
+  "cases": [
+    {
+      "kernel_id": "threemind.causal/1",
+      "source_revision": "5a5f0dd58c254e56b290676287d17568e78ae9f0",
+      "parent_fixture": "causal1-continuation.json",
+      "parent_hash": "d7b9ca320394f86c538fb533147c9ddde78c6f5d357740c85effaa2f3dd978bd",
+      "child_hash": "fb6ee0fe58661017155922665b6840ddb20963c04637ddb57814efbbc52c68a5"
+    },
+    {
+      "kernel_id": "threemind.causal/2",
+      "source_revision": "5a5f0dd58c254e56b290676287d17568e78ae9f0",
+      "parent_fixture": "causal2-continuation.json",
+      "parent_hash": "a6b3798e433541d6a97c672fd6688953ccdbb1a1dab8d4b7dc5b8cc226ec3467",
+      "child_hash": "2057545ea258fc78f16915f2c30d10cb0a6af9c5833c7ae0e8bae1a114963e01"
+    },
+    {
+      "kernel_id": "threemind.causal/3",
+      "source_revision": "5a5f0dd58c254e56b290676287d17568e78ae9f0",
+      "parent_fixture": "causal3-continuation.json",
+      "parent_hash": "40d6c872767d27df65f7639be3a074ecebf4e8a0a74b3060955a7e4e2d1693c9",
+      "child_hash": "5090371c294b49bf3b4df9439aa2d1512a11b9fb8beb85046777ef6eb4c06acd"
+    },
+    {
+      "kernel_id": "threemind.causal/4",
+      "source_revision": "5a5f0dd58c254e56b290676287d17568e78ae9f0",
+      "parent_fixture": "causal4-continuation.json",
+      "parent_hash": "551d2d95652660191947b25f1ff0281e3cc9b709ce868ac520510cf945079d6c",
+      "child_hash": "b26964b6a6d724cfe803f66ce3a0dafef84867757f2632d356265a9a914f369c"
+    },
+    {
+      "kernel_id": "threemind.causal/5",
+      "source_revision": "5a5f0dd58c254e56b290676287d17568e78ae9f0",
+      "parent_fixture": "causal5-continuation.json",
+      "parent_hash": "d4be1d58ef86dde3473b317583aea6f1e1f82b80b33621c685db2c6a84b6b5bd",
+      "child_hash": "b87ccc66ac47e67baec286dea9ce852f9e6271b8bb2e29064b101824f1f87f31"
+    },
+    {
+      "kernel_id": "threemind.causal/6",
+      "source_revision": "5a5f0dd58c254e56b290676287d17568e78ae9f0",
+      "parent_fixture": "causal6-continuation.json",
+      "parent_hash": "ec02a8b9b9d47f1ea4928b68c1222486fc211d334d774d43482f4cf67cd10c35",
+      "child_hash": "682e8bdeb6c909febd604d27309db99d63e29693659b12194d3888c2bc031ebf"
+    },
+    {
+      "kernel_id": "threemind.causal/7",
+      "source_revision": "5a5f0dd58c254e56b290676287d17568e78ae9f0",
+      "parent": {
+        "attention": {
+          "considered_channels": "4",
+          "counter_overflowed": false,
+          "evaluated_frames": "2",
+          "modulators": [],
+          "passed_channels": "4",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "config": {
+          "activation_floor": 1e-05,
+          "activation_tau": 0.3044,
+          "associative_gain": 0.01,
+          "attention_competition_enabled": true,
+          "birth_weight": 0.065,
+          "delay_us": 10000,
+          "direct_gain": 0.9,
+          "energy_simulation_enabled": true,
+          "first_gain": 0.045,
+          "forgetting_rate": 0.025,
+          "inhibition": true,
+          "inhibition_diffusion_rate": 3.5,
+          "inhibition_gain": 0.24,
+          "inhibition_response_gain": 2.0,
+          "inhibition_tau": 0.2321,
+          "intensity_gain": 0.075,
+          "learning_rate": 0.0055,
+          "plasticity": true,
+          "propagation_rate": 4.2,
+          "prune_support": 1e-05,
+          "prune_weight": 0.008,
+          "repeat_gain": 0.018,
+          "seed": 20260724,
+          "spatial_embedding": true,
+          "stability_gain": 0.022,
+          "stability_tau": 666.667,
+          "step_us": 10000,
+          "support_gain": 0.035,
+          "support_tau": 666.667,
+          "trace_tau": 0.504
+        },
+        "dynamics": "threemind.causal/7",
+        "edges": [
+          {
+            "birth_us": "0",
+            "eligibility": 0.17968292339068737,
+            "last_touch_us": "460000",
+            "source": 1,
+            "stability": 0.08867415023325537,
+            "target": 2,
+            "touches": 47,
+            "weight": 0.10624946864321153
+          },
+          {
+            "birth_us": "210000",
+            "eligibility": 0.17593731856298817,
+            "last_touch_us": "460000",
+            "source": 1,
+            "stability": 0.03706100065349069,
+            "target": 3,
+            "touches": 27,
+            "weight": 0.050024213536052686
+          },
+          {
+            "birth_us": "0",
+            "eligibility": 0.16862969411446466,
+            "last_touch_us": "460000",
+            "source": 2,
+            "stability": 0.08832972417788927,
+            "target": 1,
+            "touches": 47,
+            "weight": 0.10609303489910414
+          },
+          {
+            "birth_us": "210000",
+            "eligibility": 0.17195934335069787,
+            "last_touch_us": "460000",
+            "source": 3,
+            "stability": 0.036947027309616874,
+            "target": 1,
+            "touches": 27,
+            "weight": 0.049972493008647666
+          }
+        ],
+        "energy": {
+          "consumed_associative": 0.001473531572370279,
+          "consumed_direct": 0.07058393749520356,
+          "consumed_inhibition": 0.0032357026638517384,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "reserve": 0.9247068282685738,
+          "schema": "threemind.energy/1",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "life": "active",
+        "next_event": 214,
+        "next_node": 4,
+        "next_step_us": "470000",
+        "nodes": [
+          {
+            "activation": 0.34426790430088333,
+            "associative": 0.010911315637640709,
+            "channel": 7,
+            "direct": 0.33335658866324286,
+            "id": 1,
+            "inhibition": 0.058012661674337385,
+            "last_touch_us": "460000",
+            "stability": 0.02502530072360814,
+            "support": 0.03981297842392207,
+            "touches": 47,
+            "trace": 0.544570381346069
+          },
+          {
+            "activation": 0.13567500426714782,
+            "associative": 0.016523047544052313,
+            "channel": 13,
+            "direct": 0.11915195672309555,
+            "id": 2,
+            "inhibition": 0.03385482949782876,
+            "last_touch_us": "460000",
+            "stability": 0.01256805266204031,
+            "support": 0.019994629235064135,
+            "touches": 46,
+            "trace": 0.23773393626461048
+          },
+          {
+            "activation": 0.1647298585530614,
+            "associative": 0.006378515861668524,
+            "channel": 19,
+            "direct": 0.1583513426913929,
+            "id": 3,
+            "inhibition": 0.024589479550879426,
+            "last_touch_us": "460000",
+            "stability": 0.008127129310359148,
+            "support": 0.012929523902844109,
+            "touches": 26,
+            "trace": 0.22665380700897045
+          }
+        ],
+        "queue": [
+          {
+            "id": 210,
+            "kind": "inhibition",
+            "payload": {
+              "values": [
+                [
+                  1,
+                  8.441810980527471e-05
+                ]
+              ]
+            },
+            "time_us": "470000"
+          },
+          {
+            "id": 211,
+            "kind": "inhibition",
+            "payload": {
+              "values": [
+                [
+                  2,
+                  0.00013044573478510047
+                ]
+              ]
+            },
+            "time_us": "470000"
+          },
+          {
+            "id": 212,
+            "kind": "inhibition",
+            "payload": {
+              "values": [
+                [
+                  3,
+                  6.889820453555287e-05
+                ]
+              ]
+            },
+            "time_us": "470000"
+          },
+          {
+            "id": 213,
+            "kind": "signal",
+            "payload": {
+              "values": [
+                [
+                  1,
+                  0.00038176425452860266
+                ],
+                [
+                  2,
+                  0.0005642568322976674
+                ],
+                [
+                  3,
+                  0.00029309131158812806
+                ]
+              ]
+            },
+            "time_us": "470000"
+          },
+          {
+            "id": 214,
+            "kind": "inhibition",
+            "payload": {
+              "values": [
+                [
+                  1,
+                  0.0020817692693101725
+                ],
+                [
+                  2,
+                  0.0014049280321607222
+                ],
+                [
+                  3,
+                  0.0006614660833702402
+                ]
+              ]
+            },
+            "time_us": "470000"
+          },
+          {
+            "id": 3,
+            "kind": "stimulus",
+            "payload": {
+              "channels": [
+                [
+                  17,
+                  0.3
+                ],
+                [
+                  19,
+                  0.4
+                ]
+              ],
+              "intensity": 1.0,
+              "time_us": "510000"
+            },
+            "time_us": "510000"
+          }
+        ],
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0"
+        },
+        "schema": "threemind.state/5",
+        "sequence": 254,
+        "silenced_edges": [],
+        "silenced_nodes": [],
+        "sources_open": true,
+        "state_time_us": "460000",
+        "time_us": "460000"
+      },
+      "parent_hash": "4373322f8e3c058014228ea345dd84dca114ee1fbbf041e5798b5318b5934392",
+      "child_hash": "74125bbfff43ead36c563e3a084a26d4d0caf784af3e2b23c3b10df8ee292bb0"
+    },
+    {
+      "kernel_id": "threemind.causal/8",
+      "source_revision": "304ef25dd8cafaec3cffd374cf9a7f06b77d5388",
+      "parent": {
+        "attention": {
+          "considered_channels": "4",
+          "counter_overflowed": false,
+          "evaluated_frames": "2",
+          "modulators": [],
+          "passed_channels": "4",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "config": {
+          "activation_decay_enabled": true,
+          "activation_floor": 0.004,
+          "activation_tau": 0.30441023431381903,
+          "associative_gain": 0.01,
+          "attention_competition_enabled": true,
+          "birth_weight": 0.065,
+          "delay_us": 10000,
+          "direct_gain": 0.9,
+          "eligibility_decay_enabled": true,
+          "eligibility_tau": 0.40247707040780034,
+          "energy_simulation_enabled": true,
+          "first_gain": 0.045,
+          "forgetting_rate": 0.025,
+          "inhibition": true,
+          "inhibition_decay_enabled": true,
+          "inhibition_diffusion_rate": 3.5,
+          "inhibition_gain": 0.24,
+          "inhibition_response_gain": 2.0,
+          "inhibition_tau": 0.2321354823145728,
+          "intensity_gain": 0.075,
+          "learning_rate": 0.055,
+          "node_prune_after_us": 80000000,
+          "plasticity": true,
+          "propagation_interval_us": 100000,
+          "propagation_rate": 4.2,
+          "prune_support": 0.006,
+          "prune_weight": 0.008,
+          "quiescence_death_us": 1000000,
+          "repeat_gain": 0.018,
+          "seed": 20260724,
+          "spatial_embedding": true,
+          "stability_decay_enabled": true,
+          "stability_gain": 0.022,
+          "stability_tau": 666.6666666666667,
+          "step_us": 10000,
+          "support_decay_enabled": true,
+          "support_gain": 0.035,
+          "support_tau": 666.6666666666667,
+          "trace_decay_enabled": true,
+          "trace_tau": 0.5039028822088802
+        },
+        "dynamics": "threemind.causal/8",
+        "edges": [
+          {
+            "birth_us": "0",
+            "eligibility": 0.018290686953275237,
+            "last_touch_us": "400000",
+            "source": 1,
+            "stability": 0.08799690713855655,
+            "target": 2,
+            "touches": 3,
+            "weight": 0.07366418731276317
+          },
+          {
+            "birth_us": "210000",
+            "eligibility": 0.017717903265216058,
+            "last_touch_us": "300000",
+            "source": 1,
+            "stability": 0.03393404130087761,
+            "target": 3,
+            "touches": 1,
+            "weight": 0.05627953231152763
+          },
+          {
+            "birth_us": "0",
+            "eligibility": 0.024723389249016115,
+            "last_touch_us": "100000",
+            "source": 2,
+            "stability": 0.08773353469035718,
+            "target": 1,
+            "touches": 1,
+            "weight": 0.07323566891320264
+          },
+          {
+            "birth_us": "210000",
+            "eligibility": 0.02075412037892055,
+            "last_touch_us": "210000",
+            "source": 3,
+            "stability": 0.03381972819202935,
+            "target": 1,
+            "touches": 0,
+            "weight": 0.05610227116356549
+          }
+        ],
+        "energy": {
+          "consumed_associative": 0.0005475258416572339,
+          "consumed_direct": 0.07245000000000001,
+          "consumed_inhibition": 0.004080561998148887,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "reserve": 0.9229219121601937,
+          "schema": "threemind.energy/1",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "life": "active",
+        "next_event": 10,
+        "next_node": 4,
+        "next_propagation_us": "500000",
+        "next_step_us": "470000",
+        "nodes": [
+          {
+            "activation": 0.33295597390220055,
+            "associative": 0.0,
+            "birth_us": "0",
+            "channel": 7,
+            "direct": 0.0,
+            "generated_inhibition": 0.0,
+            "id": 1,
+            "inhibition": 0.06886438537283923,
+            "last_touch_us": "210000",
+            "local_plasticity": 0.9842966605510747,
+            "pending_inhibition": 0.04885344239819721,
+            "stability": 0.02181019367906301,
+            "support": 0.03841339160671102,
+            "touches": 3,
+            "trace": 0.5302015561203891
+          },
+          {
+            "activation": 0.1276221345633047,
+            "associative": 0.0037870489738691475,
+            "birth_us": "0",
+            "channel": 13,
+            "direct": 0.0,
+            "generated_inhibition": 0.0009088917537285934,
+            "id": 2,
+            "inhibition": 0.037520722558396696,
+            "last_touch_us": "410000",
+            "local_plasticity": 0.989893435634875,
+            "pending_inhibition": 0.027187967726798615,
+            "stability": 0.014036894951562587,
+            "support": 0.018748171038150373,
+            "touches": 4,
+            "trace": 0.2272143292738222
+          },
+          {
+            "activation": 0.16124886600798646,
+            "associative": 0.0,
+            "birth_us": "210000",
+            "channel": 19,
+            "direct": 0.0,
+            "generated_inhibition": 0.0,
+            "id": 3,
+            "inhibition": 0.032598058792888095,
+            "last_touch_us": "310000",
+            "local_plasticity": 0.9950584302787637,
+            "pending_inhibition": 0.020820020723560956,
+            "stability": 0.006863291279494841,
+            "support": 0.012392883220748734,
+            "touches": 2,
+            "trace": 0.2227146330850336
+          }
+        ],
+        "queue": [
+          {
+            "id": 3,
+            "kind": "stimulus",
+            "payload": {
+              "channels": [
+                [
+                  17,
+                  0.3
+                ],
+                [
+                  19,
+                  0.4
+                ]
+              ],
+              "intensity": 1.0,
+              "time_us": "510000"
+            },
+            "time_us": "510000"
+          }
+        ],
+        "quiet_since_us": null,
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0"
+        },
+        "schema": "threemind.state/6",
+        "sequence": 55,
+        "silenced_edges": [],
+        "silenced_nodes": [],
+        "sources_open": true,
+        "state_time_us": "460000",
+        "time_us": "460000",
+        "transport": {
+          "activated": 2.0368247552284116,
+          "discarded": 0.0,
+          "received": 2.097376292082862,
+          "sent": 0.027376292082861693
+        },
+        "traversed": [
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      "parent_hash": "f2d8e6f6daab3c193be72bb45d6d1100dce8faa4ef2afcc20d09d5dd64608dea",
+      "child_hash": "af353977aa6f434a4c5f9ccf031da76a2f7a6d2a712e9bbd325a19e890628933"
+    }
+  ]
+}

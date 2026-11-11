@@ -1,0 +1,548 @@
+{
+  "schema": "threemind.paper-data-index/1",
+  "manuscript_sha256": "6a3d4c0e2987315e978a802ba5f2ace9b2cd2ccb2644394bc85a3d126d3c5708",
+  "section_reference": "Section numbering of the author-supplied revision; no manuscript text is included.",
+  "studies": [
+    {
+      "study_id": "E12",
+      "paper_section": "4.7",
+      "title": "耗竭、易化与连接巩固：实验结果",
+      "files": 3,
+      "bytes": 559707458,
+      "data_roots": [
+        "originals/objects/cbde2d48-284d-4294-9184-89f439923547"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-09-29-memory-timescales"
+      ],
+      "original_project_ids": [
+        "cbde2d48-284d-4294-9184-89f439923547"
+      ],
+      "kernel_ids_in_catalogue": [
+        "threemind.causal/9",
+        "threemind.continuous-memory/1",
+        "threemind.continuous/1"
+      ]
+    },
+    {
+      "study_id": "E13",
+      "paper_section": "4.10",
+      "title": "刺激间隔、环境选择与自主活动：实验结果",
+      "files": 4,
+      "bytes": 371566146,
+      "data_roots": [
+        "originals/objects/59aee7a1-5248-417f-a03b-b56f858a04d9"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-09-29-input-rate-and-autonomy"
+      ],
+      "original_project_ids": [
+        "59aee7a1-5248-417f-a03b-b56f858a04d9"
+      ],
+      "kernel_ids_in_catalogue": [
+        "threemind.continuous-memory/1",
+        "threemind.lif/1"
+      ]
+    },
+    {
+      "study_id": "E15",
+      "paper_section": "4.2",
+      "title": "经历改变行为，内部通路承担作用：802 实例实验报告",
+      "files": 5,
+      "bytes": 328907557,
+      "data_roots": [
+        "originals/objects/92548061-22c0-4bd9-b283-c4e1e7f4360d"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-09-29-experience-and-autonomy"
+      ],
+      "original_project_ids": [
+        "92548061-22c0-4bd9-b283-c4e1e7f4360d"
+      ],
+      "kernel_ids_in_catalogue": [
+        "threemind.continuous-memory/1"
+      ]
+    },
+    {
+      "study_id": "E17",
+      "paper_section": "4.7",
+      "title": "刺激强度、背景与物理参照：实验结果",
+      "files": 3,
+      "bytes": 11165425,
+      "data_roots": [
+        "originals/objects/36029e2c-2f4c-4f21-9aa5-376b0701c044"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-09-30-stimulus-spacetime"
+      ],
+      "original_project_ids": [
+        "36029e2c-2f4c-4f21-9aa5-376b0701c044"
+      ],
+      "kernel_ids_in_catalogue": [
+        "threemind.continuous-memory/2"
+      ]
+    },
+    {
+      "study_id": "E21",
+      "paper_section": "4.6",
+      "title": "顺序信息保存在哪里，感官反向怎样形成",
+      "files": 29,
+      "bytes": 389054634,
+      "data_roots": [
+        "originals/objects/2561276a-6460-4c52-910b-e92ef516e335",
+        "originals/research/8fe5925b7314d3c7d432b8e4"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-10-01-order-mechanisms"
+      ],
+      "original_project_ids": [
+        "2561276a-6460-4c52-910b-e92ef516e335"
+      ],
+      "kernel_ids_in_catalogue": [
+        "threemind.continuous-memory/2"
+      ]
+    },
+    {
+      "study_id": "E22",
+      "paper_section": "4.6",
+      "title": "感官反向会恢复，顺序表达怎样受时间影响",
+      "files": 34,
+      "bytes": 277866367,
+      "data_roots": [
+        "originals/objects/5e4f46e7-5d55-44de-a2b6-9707e2057387",
+        "originals/research/74a3b57c817ee166e500f698"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-10-01-recovery-reference"
+      ],
+      "original_project_ids": [
+        "5e4f46e7-5d55-44de-a2b6-9707e2057387"
+      ],
+      "kernel_ids_in_catalogue": [
+        "threemind.continuous-memory/2"
+      ]
+    },
+    {
+      "study_id": "E28",
+      "paper_section": "4.8",
+      "title": "E28：营养海洋让生存与繁殖发生了，学习优势要单独看",
+      "files": 4,
+      "bytes": 1644195306,
+      "data_roots": [
+        "originals/objects/e53a833e-6566-463c-90c2-a94a8fe2a8ef"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-10-03-primitive-ocean"
+      ],
+      "original_project_ids": [
+        "e53a833e-6566-463c-90c2-a94a8fe2a8ef"
+      ],
+      "kernel_ids_in_catalogue": [
+        "threemind.continuous-memory/2"
+      ]
+    },
+    {
+      "study_id": "E30",
+      "paper_section": "4.8",
+      "title": "E30：意识控制确有觅食优势，经历与内部活动确实改变行动",
+      "files": 4,
+      "bytes": 1096944013,
+      "data_roots": [
+        "originals/objects/3818e230-3515-45ce-b873-55150549bd98"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-10-03-ocean-causality"
+      ],
+      "original_project_ids": [
+        "3818e230-3515-45ce-b873-55150549bd98"
+      ],
+      "kernel_ids_in_catalogue": [
+        "threemind.continuous-memory/2"
+      ]
+    },
+    {
+      "study_id": "E31",
+      "paper_section": "4.9 (supporting material)",
+      "title": "E31：内部活动确实影响动作，是否已经成为觅食、捕猎和逃离的技能？",
+      "files": 78,
+      "bytes": 1576131978,
+      "data_roots": [
+        "originals/objects/8bb46e22-c05f-4c7f-b398-c76406e299dc",
+        "originals/research/5c7e8c0e211d576ed34797b3"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-10-03-ocean-behavior"
+      ],
+      "original_project_ids": [
+        "8bb46e22-c05f-4c7f-b398-c76406e299dc"
+      ],
+      "kernel_ids_in_catalogue": [
+        "threemind.continuous-memory/2"
+      ]
+    },
+    {
+      "study_id": "E32",
+      "paper_section": "4.9",
+      "title": "E32 完整海洋：内部活动的作用，终于放回原环境检验",
+      "files": 80,
+      "bytes": 2039018658,
+      "data_roots": [
+        "originals/objects/0b662685-7484-4c20-b1cb-064b53a582e4",
+        "originals/research/fed375083e565dbd27310f34"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-10-03-ocean-community"
+      ],
+      "original_project_ids": [
+        "0b662685-7484-4c20-b1cb-064b53a582e4"
+      ],
+      "kernel_ids_in_catalogue": [
+        "threemind.continuous-memory/2"
+      ]
+    },
+    {
+      "study_id": "E34",
+      "paper_section": "4.9",
+      "title": "E34：内部活动改变了动作；持久连接也改变了实际捕获结果",
+      "files": 53,
+      "bytes": 1034688672,
+      "data_roots": [
+        "originals/objects/315c50a4-0a3a-4b07-b760-0fc053730a39",
+        "originals/research/df8408a4a15803b79c852902"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-10-03-ocean-hunting"
+      ],
+      "original_project_ids": [
+        "315c50a4-0a3a-4b07-b760-0fc053730a39"
+      ],
+      "kernel_ids_in_catalogue": []
+    },
+    {
+      "study_id": "E37",
+      "paper_section": "4.9",
+      "title": "E37：仅包裹吞食的意识驱动海洋与代际变化",
+      "files": 1845,
+      "bytes": 1677140830,
+      "data_roots": [
+        "originals/objects/bc5ac72c-27bf-4e3e-9a21-f922bc7ddc90",
+        "originals/research/e21acbb5b0ef64e6d5d22790"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-10-04-ocean-enclosure"
+      ],
+      "original_project_ids": [
+        "bc5ac72c-27bf-4e3e-9a21-f922bc7ddc90"
+      ],
+      "kernel_ids_in_catalogue": [
+        "threemind.continuous-memory/2"
+      ]
+    },
+    {
+      "study_id": "E38",
+      "paper_section": "4.9",
+      "title": "E38：成功个体能否成为可复用的吞食谱系",
+      "files": 1908,
+      "bytes": 1691619912,
+      "data_roots": [
+        "originals/objects/18f51630-f184-4b20-ba08-67ece6175083",
+        "originals/research/1e4312291976e322b213e590"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-10-04-ocean-species"
+      ],
+      "original_project_ids": [
+        "18f51630-f184-4b20-ba08-67ece6175083"
+      ],
+      "kernel_ids_in_catalogue": []
+    },
+    {
+      "study_id": "E41",
+      "paper_section": "4.9",
+      "title": "E41：转弯摄食与半包裹分开培养",
+      "files": 2037,
+      "bytes": 1683570686,
+      "data_roots": [
+        "originals/objects/07e60c31-5f51-42e2-bc99-a83eb18f61a9",
+        "originals/research/38d8ff58389237a285152005",
+        "originals/research/b57578fa3d9790b9a2d1b837"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-10-04-ocean-split"
+      ],
+      "original_project_ids": [
+        "07e60c31-5f51-42e2-bc99-a83eb18f61a9"
+      ],
+      "kernel_ids_in_catalogue": []
+    },
+    {
+      "study_id": "E43",
+      "paper_section": "4.7",
+      "title": "E43：间隔复习留下了更持久的连接，但语言接口还没读出可靠的新对应",
+      "files": 21,
+      "bytes": 59460798,
+      "data_roots": [
+        "originals/objects/9cc6f412-6512-4c96-9a86-af93bfedfff7",
+        "originals/research/3c5b723e73d548f4514fabfd"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-10-04-language-spaced"
+      ],
+      "original_project_ids": [
+        "9cc6f412-6512-4c96-9a86-af93bfedfff7"
+      ],
+      "kernel_ids_in_catalogue": [
+        "threemind.continuous-memory/2"
+      ]
+    },
+    {
+      "study_id": "E47",
+      "paper_section": "4.10",
+      "title": "E47：内部联想已经能被译成名字，新经历的表达仍未打通",
+      "files": 39,
+      "bytes": 1341717017,
+      "data_roots": [
+        "originals/objects/4e645e2b-1408-4e6b-a651-a8e12acf765c",
+        "originals/research/ed3d495588f742643218ef4f"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-10-05-expression-alignment"
+      ],
+      "original_project_ids": [
+        "4e645e2b-1408-4e6b-a651-a8e12acf765c"
+      ],
+      "kernel_ids_in_catalogue": [
+        "threemind.continuous-memory/2"
+      ]
+    },
+    {
+      "study_id": "E50",
+      "paper_section": "4.10",
+      "title": "E50 图与活动表达、共同所指",
+      "files": 39,
+      "bytes": 573560588,
+      "data_roots": [
+        "originals/objects/18b1f570-cd04-4bad-ac33-b8bea07472f0",
+        "originals/objects/3df399e5-649b-4040-b151-67a6bf278ec6",
+        "originals/research/fa2a8a52127fcb30112d436b"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-10-05-graph-expression"
+      ],
+      "original_project_ids": [
+        "18b1f570-cd04-4bad-ac33-b8bea07472f0",
+        "3df399e5-649b-4040-b151-67a6bf278ec6"
+      ],
+      "kernel_ids_in_catalogue": []
+    },
+    {
+      "study_id": "E56",
+      "paper_section": "4.11",
+      "title": "E56：共享读取修好了指认，回答归属另做验证",
+      "files": 10,
+      "bytes": 1167096361,
+      "data_roots": [
+        "originals/objects/4266a949-9e41-45b7-9653-7566d2df8164"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-10-06-vision-correction"
+      ],
+      "original_project_ids": [
+        "4266a949-9e41-45b7-9653-7566d2df8164"
+      ],
+      "kernel_ids_in_catalogue": [
+        "threemind.continuous-memory/2"
+      ]
+    },
+    {
+      "study_id": "E57",
+      "paper_section": "4.11",
+      "title": "E57：指认的答案究竟来自哪里",
+      "files": 3,
+      "bytes": 810249646,
+      "data_roots": [
+        "originals/objects/e7606f95-62ea-4645-badd-46bdcf54ec47"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-10-06-choice-attribution"
+      ],
+      "original_project_ids": [
+        "e7606f95-62ea-4645-badd-46bdcf54ec47"
+      ],
+      "kernel_ids_in_catalogue": []
+    },
+    {
+      "study_id": "E58",
+      "paper_section": "4.11",
+      "title": "E58：完整视野、动作反馈与记忆内容",
+      "files": 4,
+      "bytes": 709184356,
+      "data_roots": [
+        "originals/objects/93f1fb20-c124-4e80-825f-686f170b74e4"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-10-07-embodied-memory"
+      ],
+      "original_project_ids": [
+        "93f1fb20-c124-4e80-825f-686f170b74e4"
+      ],
+      "kernel_ids_in_catalogue": [
+        "threemind.continuous-memory/2"
+      ]
+    },
+    {
+      "study_id": "E68",
+      "paper_section": "4.12",
+      "title": "Continuous shape/color learning: two complete individuals",
+      "files": 22029,
+      "bytes": 20035559044,
+      "data_roots": [
+        "experiments/2026-10-13-continuous-shape-color"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-10-13-continuous-shape-color"
+      ],
+      "original_project_ids": [],
+      "kernel_ids_in_catalogue": [
+        "threemind.continuous-memory/2",
+        "threemind.continuous-memory/3.1"
+      ]
+    },
+    {
+      "study_id": "M1-M3-development",
+      "paper_section": "4.2-4.3 (development)",
+      "title": "Development and explicit-target closure",
+      "files": 10,
+      "bytes": 173141123,
+      "data_roots": [
+        "experiments/2026-10-16-mechanism-discovery/closure-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-10-16-mechanism-discovery"
+      ],
+      "original_project_ids": [],
+      "kernel_ids_in_catalogue": [
+        "threemind.continuous-memory/5.1"
+      ]
+    },
+    {
+      "study_id": "M1-blockade",
+      "paper_section": "4.3",
+      "title": "Connection blockade and restoration",
+      "files": 10,
+      "bytes": 3125870,
+      "data_roots": [
+        "experiments/2026-10-16-mechanism-discovery/m1-silence-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-10-16-mechanism-discovery"
+      ],
+      "original_project_ids": [],
+      "kernel_ids_in_catalogue": [
+        "threemind.continuous-memory/5.1"
+      ]
+    },
+    {
+      "study_id": "M1-confirmation",
+      "paper_section": "4.3",
+      "title": "Selective transfer of learned responses: 48 independent origins",
+      "files": 10,
+      "bytes": 94682192,
+      "data_roots": [
+        "experiments/2026-10-16-mechanism-discovery/m1-confirmation-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-10-16-mechanism-discovery"
+      ],
+      "original_project_ids": [],
+      "kernel_ids_in_catalogue": [
+        "threemind.continuous-memory/5.1"
+      ]
+    },
+    {
+      "study_id": "M2-confirmation",
+      "paper_section": "4.5",
+      "title": "New-condition resource prediction: 8 origins, 160 first responses",
+      "files": 11,
+      "bytes": 8435385,
+      "data_roots": [
+        "experiments/2026-10-16-mechanism-discovery/m2-gain-prediction-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-10-16-mechanism-discovery"
+      ],
+      "original_project_ids": [],
+      "kernel_ids_in_catalogue": [
+        "threemind.continuous-memory/5.1"
+      ]
+    },
+    {
+      "study_id": "M2-initial",
+      "paper_section": "4.5",
+      "title": "Initial resource-threshold model and its failed prediction",
+      "files": 12,
+      "bytes": 23415070,
+      "data_roots": [
+        "experiments/2026-10-16-mechanism-discovery/m2-threshold-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-10-16-mechanism-discovery"
+      ],
+      "original_project_ids": [],
+      "kernel_ids_in_catalogue": [
+        "threemind.continuous-memory/5.1"
+      ]
+    },
+    {
+      "study_id": "M3-confirmation",
+      "paper_section": "4.2",
+      "title": "Four joint activity criteria: 64 independent origins, five implementations",
+      "files": 10,
+      "bytes": 1256038007,
+      "data_roots": [
+        "experiments/2026-10-16-mechanism-discovery/m3-confirmation-v2"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-10-16-mechanism-discovery"
+      ],
+      "original_project_ids": [],
+      "kernel_ids_in_catalogue": [
+        "threemind.continuous-memory/5.1"
+      ]
+    },
+    {
+      "study_id": "M5-confirmation",
+      "paper_section": "4.4",
+      "title": "New learning with fixed output readout: 48 independent origins",
+      "files": 11,
+      "bytes": 4896287273,
+      "data_roots": [
+        "experiments/2026-10-16-mechanism-discovery/m5-confirmation-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-10-16-mechanism-discovery"
+      ],
+      "original_project_ids": [],
+      "kernel_ids_in_catalogue": [
+        "threemind.continuous-memory/5.1"
+      ]
+    },
+    {
+      "study_id": "SAT-exclusion",
+      "paper_section": "4.13",
+      "title": "3-SAT Core contribution exclusion: eight independent origins",
+      "files": 8,
+      "bytes": 137590651,
+      "data_roots": [
+        "experiments/2026-11-01-sat-core-exclusion/v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-01-sat-core-exclusion"
+      ],
+      "original_project_ids": [],
+      "kernel_ids_in_catalogue": [
+        "threemind.continuous-memory/5.1"
+      ]
+    }
+  ]
+}

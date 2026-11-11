@@ -1,0 +1,269 @@
+{
+  "schema": "threemind.validation/1",
+  "date": "2026-09-06",
+  "stage": "D4a display controls and D4b passive readout computation",
+  "status": "validated_for_this_scope",
+  "base_commit": "022aacd",
+  "database_schema": 20,
+  "core_changed": false,
+  "scientific_parameter_count": 419,
+  "full_regression": {
+    "passed": 283,
+    "skipped": 0,
+    "seconds": 373.2
+  },
+  "targeted_backend": {
+    "passed": 27,
+    "seconds": 82.43
+  },
+  "frozen_reference": {
+    "reference_file_sha256": "0c595ce5880c53fb8885fc59c818cd185a5d7b2b7d2f7eb78f847857f26d2b90",
+    "cases": [
+      {
+        "scope": "all-active",
+        "origin": "0",
+        "samples": 16,
+        "exact": true,
+        "output_sha256": "ab288fd0e670c25f000d5120b7670493153d04e153a8786a305ac8a2f3ea4335"
+      },
+      {
+        "scope": "all-active",
+        "origin": "37778931862957161709587",
+        "samples": 16,
+        "exact": true,
+        "output_sha256": "03ad89323eff9e841a294215e25b196bb4d8453b91fd0326d7a46629a9839a96"
+      },
+      {
+        "scope": "associative-only",
+        "origin": "0",
+        "samples": 16,
+        "exact": true,
+        "output_sha256": "ab288fd0e670c25f000d5120b7670493153d04e153a8786a305ac8a2f3ea4335"
+      },
+      {
+        "scope": "associative-only",
+        "origin": "37778931862957161709587",
+        "samples": 16,
+        "exact": true,
+        "output_sha256": "03ad89323eff9e841a294215e25b196bb4d8453b91fd0326d7a46629a9839a96"
+      },
+      {
+        "scope": "associative-or-persistent",
+        "origin": "0",
+        "samples": 16,
+        "exact": true,
+        "output_sha256": "ab288fd0e670c25f000d5120b7670493153d04e153a8786a305ac8a2f3ea4335"
+      },
+      {
+        "scope": "associative-or-persistent",
+        "origin": "37778931862957161709587",
+        "samples": 16,
+        "exact": true,
+        "output_sha256": "03ad89323eff9e841a294215e25b196bb4d8453b91fd0326d7a46629a9839a96"
+      }
+    ]
+  },
+  "frontend": {
+    "typecheck": "passed",
+    "production_build": "passed",
+    "ruff": "passed",
+    "browser_final_graph_and_existing_workstation": {
+      "passed": 5,
+      "seconds": 47.5
+    },
+    "after_heap_selection_change": {
+      "passed": 4,
+      "seconds": 10.1
+    },
+    "final_pure_model_and_benchmark": {
+      "passed": 3,
+      "seconds": 2.3
+    },
+    "spatial_browser": "passed in restored batch before unrelated label-heap change",
+    "visual_inspection": [
+      "desktop and mobile graph",
+      "exported PNG with boundary footer"
+    ]
+  },
+  "gpu_buffer_cycles": {
+    "schema": "threemind.gpu-buffer-validation/1",
+    "baseline": 5,
+    "cycles": [
+      {
+        "created": 15,
+        "deleted": 10,
+        "live": 5,
+        "peak": 5
+      },
+      {
+        "created": 25,
+        "deleted": 20,
+        "live": 5,
+        "peak": 5
+      },
+      {
+        "created": 35,
+        "deleted": 30,
+        "live": 5,
+        "peak": 5
+      },
+      {
+        "created": 45,
+        "deleted": 40,
+        "live": 5,
+        "peak": 5
+      },
+      {
+        "created": 55,
+        "deleted": 50,
+        "live": 5,
+        "peak": 5
+      }
+    ]
+  },
+  "gpu_scope": "Instrumented WebGL buffer allocation/deletion over 5 cycles, 60 -> 10000 -> 60 nodes. Final unmount leaves 0 buffers. Not driver VRAM measurement.",
+  "layout": {
+    "schema": "threemind.display-benchmark/1",
+    "at": "2026-09-06T15:25:48.799Z",
+    "node": "v24.14.0",
+    "cpu": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+    "scope": "Synthetic graph; Node worker calculation only, excludes database, HTTP, main-thread upload and GPU drawing.",
+    "measurements": [
+      {
+        "nodes": 10000,
+        "edges": 40000,
+        "labels": 80,
+        "prepare_ms": 9.07650000000001,
+        "layout_step_ms": 1.7693000000000438,
+        "transfer_pack_ms": 0.5704000000000633
+      },
+      {
+        "nodes": 100000,
+        "edges": 300000,
+        "labels": 80,
+        "prepare_ms": 152.56639999999993,
+        "layout_step_ms": 15.319899999999961,
+        "transfer_pack_ms": 2.7058999999999287
+      }
+    ]
+  },
+  "readout": {
+    "before": [
+      {
+        "nodes": 1000,
+        "cold_ms": 16.91670000002432,
+        "steady_ms": [
+          14.822699999967881,
+          14.727200000038465,
+          15.076700000008714,
+          14.667300000041905,
+          14.503200000035577,
+          14.507699999967372,
+          14.25619999997707
+        ],
+        "steady_median_ms": 14.667300000041905,
+        "section_json_bytes": 133403,
+        "scope": "one structural and one temporal observer plus section JSON; excludes Core, checkpoint copying, database and UI"
+      },
+      {
+        "nodes": 10000,
+        "cold_ms": 171.6003000000228,
+        "steady_ms": [
+          161.3995000000159,
+          157.80170000005,
+          161.25640000007024,
+          150.54489999999987,
+          155.1943999999139,
+          158.15069999996467,
+          157.91400000000522
+        ],
+        "steady_median_ms": 157.91400000000522,
+        "section_json_bytes": 1348405,
+        "scope": "one structural and one temporal observer plus section JSON; excludes Core, checkpoint copying, database and UI"
+      }
+    ],
+    "final": [
+      {
+        "nodes": 1000,
+        "cold_ms": 301.19529999865335,
+        "steady_ms": [
+          14.909199999237899,
+          9.684399999969173,
+          9.94900000114285,
+          10.034900000391644,
+          9.740199999214383,
+          10.573799998383038,
+          9.831900000790483
+        ],
+        "steady_median_ms": 9.94900000114285,
+        "section_json_bytes": 133403,
+        "scope": "one structural and one temporal observer plus section JSON; excludes Core, checkpoint copying, database and UI"
+      },
+      {
+        "nodes": 10000,
+        "cold_ms": 105.61710000001767,
+        "steady_ms": [
+          106.07659999914176,
+          96.89520000029006,
+          97.16980000121112,
+          96.40980000040145,
+          106.55989999941085,
+          100.04079999998794,
+          99.92939999938244
+        ],
+        "steady_median_ms": 99.92939999938244,
+        "section_json_bytes": 1348405,
+        "scope": "one structural and one temporal observer plus section JSON; excludes Core, checkpoint copying, database and UI"
+      }
+    ],
+    "preliminary_column_prototype": [
+      {
+        "nodes": 1000,
+        "cold_ms": 1488.0607000000055,
+        "steady_ms": [
+          10.469600000078572,
+          9.55229999999574,
+          12.187399999902482,
+          10.992699999860633,
+          9.645599999885235,
+          9.506399999963833,
+          9.495600000036575
+        ],
+        "steady_median_ms": 9.645599999885235,
+        "section_json_bytes": 133403,
+        "scope": "one structural and one temporal observer plus section JSON; excludes Core, checkpoint copying, database and UI"
+      },
+      {
+        "nodes": 10000,
+        "cold_ms": 103.67219999989175,
+        "steady_ms": [
+          102.10300000017014,
+          96.4040000001205,
+          95.61009999993075,
+          95.3809000000092,
+          95.1850999999806,
+          101.49309999997058,
+          92.83340000001772
+        ],
+        "steady_median_ms": 95.61009999993075,
+        "section_json_bytes": 1348405,
+        "scope": "one structural and one temporal observer plus section JSON; excludes Core, checkpoint copying, database and UI"
+      }
+    ],
+    "limitations": "Synthetic 1k/10k node observations, seven steady samples; excludes Core, checkpoint copying, database and UI. Cold dependency initialization separately reported. Not a guarantee of 100ms real-time execution."
+  },
+  "resolved_browser_fixture_failures": [
+    "Expected completed at research-advance boundary",
+    "Do not overwrite persisted preferences in init script on reload",
+    "Explicit seed count for parameter-sweep fixture",
+    "Accessible scan-parameter label"
+  ],
+  "resolved_product_regression": "Run export link now selects model artifact tab via view=artifacts",
+  "remaining": [
+    "Historical graph early conditional response and complete-state decode cost",
+    "Evidence export observation commit boundary and streamed event/carrier packaging",
+    "Operational preferences, worker/public deployment improvements",
+    "Notebooks and reports",
+    "Innate evolutionary trainer"
+  ]
+}

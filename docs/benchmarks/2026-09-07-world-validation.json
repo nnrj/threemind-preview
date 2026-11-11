@@ -1,0 +1,78 @@
+{
+  "schema": "threemind.validation/1",
+  "date": "2026-09-07",
+  "source_base_commit": "7fd8c0a",
+  "scope": "Declarative physical worlds, headless mutable Runtime, immutable Lab revisions and graphical authoring. Engineering acceptance only.",
+  "contracts": {
+    "core": "causal/7 unchanged",
+    "state": "state/5 unchanged",
+    "runtime_profile": "profile/5 unchanged",
+    "birth": "threemind.birth/1 unchanged",
+    "world": "threemind.world/1",
+    "world_recovery": "threemind.world-state/1",
+    "device_context": "threemind.world-runtime/1",
+    "database_schema": 37,
+    "parameters": 421
+  },
+  "final_integration": {
+    "passed": 40,
+    "failed": 0,
+    "skipped": 0,
+    "seconds": 172.14,
+    "coverage": [
+      "strict physical schema, duplicate JSON fields, byte limits, references and units",
+      "observer labels and editor ordering cannot change anonymous stimuli or physics",
+      "reference and native Core learning with exact mid-interval physical continuation",
+      "actual headless RGB, saved solver state and explicit renderer cleanup",
+      "optional atomic SQLite brain/profile/world state with CAS and retention",
+      "Rust rejects incomplete world continuation but accepts exported mutable brain with fresh stimuli",
+      "project roles, immutable revisions, retry identity and frozen run protocols",
+      "world and RGB worker capability matching",
+      "paired branches share warmup physics within each seed block",
+      "two generations with distinct development/evaluation worlds and isolated parent versions",
+      "existing graphical configuration contract, development, readout fidelity and research operations",
+      "database upgrade fixtures"
+    ]
+  },
+  "existing_body_regression": { "passed": 7, "failed": 0, "skipped": 0, "seconds": 19.25 },
+  "browser": {
+    "engine": "Microsoft Edge / Playwright, local workstation",
+    "passed": 5,
+    "failed": 0,
+    "duration_reported": "1.6m",
+    "coverage": [
+      "world graphical and JSON synchronization, line numbers, format and duplicate-key validation",
+      "invalid file import preserves current edits; valid import updates configuration",
+      "real 5 by 4 RGB eye and separate 47000 us Core / 60000 us physical clocks",
+      "immutable world revisions and older run protocol identity",
+      "camera direction guides and geometry selection, observer-only Three.js rendering",
+      "390 px layout without horizontal overflow",
+      "legacy configuration, development, evolution and evolution-backed research reports"
+    ],
+    "screenshots_visually_reviewed": [
+      "docs/images/world-configuration.png",
+      "docs/images/world-observation.png",
+      "docs/images/world-mobile.png"
+    ]
+  },
+  "tooling": {
+    "rust_release_build": "passed",
+    "frontend_production_build": "passed; existing large lazy-loaded dependency chunk warnings remain",
+    "ruff": "passed",
+    "translation_catalogue": 3988,
+    "missing_translations": 0,
+    "duplicate_translation_keys": 0,
+    "legacy_fields_reviewed": 55,
+    "legacy_fields_pending": 0,
+    "data_files_read": false
+  },
+  "limitations": [
+    "No new full-suite run in this phase; final targeted integration and existing-body regressions are reported separately.",
+    "An initial paired-world fixture incorrectly supplied one seed; the test now follows the existing two-seed minimum and the final run passes.",
+    "RGB calibration is local evidence, not proof of cross-GPU or cross-driver bitwise equivalence.",
+    "No throughput or real-time scalability guarantee is inferred from these small engineering worlds.",
+    "Raw sensory carriers are recorded per sample; complete physical poses are checkpoint observations, not every solver step.",
+    "AI world proposals and shared/independent ecological selection are not included in this phase.",
+    "Docker application image has not been rebuilt for schema 37 in this phase."
+  ]
+}

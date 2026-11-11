@@ -1,0 +1,230 @@
+{
+  "auditory_sensor": {
+    "enabled": {
+      "type": "bool",
+      "minimum": null,
+      "maximum": null,
+      "choices": null
+    },
+    "target_sample_rate": {
+      "type": "int",
+      "minimum": 4000,
+      "maximum": 96000,
+      "choices": null
+    },
+    "window_us": {
+      "type": "int",
+      "minimum": 5000,
+      "maximum": 1000000,
+      "choices": null
+    },
+    "encoding": {
+      "type": "str",
+      "minimum": null,
+      "maximum": null,
+      "choices": [
+        [
+          "band-energy",
+          "频带幅度"
+        ],
+        [
+          "waveform",
+          "波形正负通道"
+        ]
+      ]
+    },
+    "band_count": {
+      "type": "int",
+      "minimum": 3,
+      "maximum": 64,
+      "choices": null
+    },
+    "minimum_frequency": {
+      "type": "float",
+      "minimum": 1,
+      "maximum": 47000,
+      "choices": null
+    },
+    "maximum_frequency": {
+      "type": "float",
+      "minimum": 1,
+      "maximum": 47000,
+      "choices": null
+    },
+    "waveform_bins": {
+      "type": "int",
+      "minimum": 4,
+      "maximum": 256,
+      "choices": null
+    },
+    "level_enabled": {
+      "type": "bool",
+      "minimum": null,
+      "maximum": null,
+      "choices": null
+    },
+    "change_enabled": {
+      "type": "bool",
+      "minimum": null,
+      "maximum": null,
+      "choices": null
+    },
+    "gain": {
+      "type": "float",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null
+    },
+    "upload_limit_mb": {
+      "type": "int",
+      "minimum": 1,
+      "maximum": 256,
+      "choices": null
+    },
+    "max_duration_s": {
+      "type": "int",
+      "minimum": 1,
+      "maximum": 600,
+      "choices": null
+    }
+  },
+  "visual_sensor": {
+    "enabled": {
+      "type": "bool",
+      "minimum": null,
+      "maximum": null,
+      "choices": null
+    },
+    "target_width": {
+      "type": "int",
+      "minimum": 2,
+      "maximum": 256,
+      "choices": null
+    },
+    "target_height": {
+      "type": "int",
+      "minimum": 2,
+      "maximum": 256,
+      "choices": null
+    },
+    "frame_interval_us": {
+      "type": "int",
+      "minimum": 16667,
+      "maximum": 5000000,
+      "choices": null
+    },
+    "patch_width": {
+      "type": "int",
+      "minimum": 1,
+      "maximum": 32,
+      "choices": null
+    },
+    "patch_height": {
+      "type": "int",
+      "minimum": 1,
+      "maximum": 32,
+      "choices": null
+    },
+    "patch_interval_us": {
+      "type": "int",
+      "minimum": 1,
+      "maximum": 100000,
+      "choices": null
+    },
+    "filter_mode": {
+      "type": "str",
+      "minimum": null,
+      "maximum": null,
+      "choices": [
+        [
+          "luminance",
+          "亮度"
+        ],
+        [
+          "edges",
+          "Sobel 局部边缘"
+        ],
+        [
+          "threshold",
+          "阈值对照"
+        ]
+      ]
+    },
+    "threshold": {
+      "type": "float",
+      "minimum": 0,
+      "maximum": 1,
+      "choices": null
+    },
+    "level_enabled": {
+      "type": "bool",
+      "minimum": null,
+      "maximum": null,
+      "choices": null
+    },
+    "change_enabled": {
+      "type": "bool",
+      "minimum": null,
+      "maximum": null,
+      "choices": null
+    },
+    "gain": {
+      "type": "float",
+      "minimum": 0,
+      "maximum": 100,
+      "choices": null
+    },
+    "upload_limit_mb": {
+      "type": "int",
+      "minimum": 1,
+      "maximum": 256,
+      "choices": null
+    },
+    "max_duration_s": {
+      "type": "int",
+      "minimum": 1,
+      "maximum": 600,
+      "choices": null
+    }
+  },
+  "acoustic_output": {
+    "enabled": {
+      "type": "bool",
+      "minimum": null,
+      "maximum": null,
+      "choices": null
+    },
+    "maximum_voices": {
+      "type": "int",
+      "minimum": 1,
+      "maximum": 128,
+      "choices": null
+    },
+    "minimum_activation": {
+      "type": "float",
+      "minimum": 0,
+      "maximum": 1,
+      "choices": null
+    }
+  },
+  "activation_projector": {
+    "enabled": {
+      "type": "bool",
+      "minimum": null,
+      "maximum": null,
+      "choices": null
+    },
+    "width": {
+      "type": "int",
+      "minimum": 8,
+      "maximum": 512,
+      "choices": null
+    },
+    "height": {
+      "type": "int",
+      "minimum": 8,
+      "maximum": 512,
+      "choices": null
+    }
+  }
+}

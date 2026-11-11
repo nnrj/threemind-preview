@@ -1,0 +1,153 @@
+{
+  "schema": "threemind.validation/1",
+  "generated_at": "2026-09-07T04:18:22.485736+00:00",
+  "scope": "Input envelope neutrality and faithful passive node observations; engineering verification, not evidence of consciousness or biological evolution.",
+  "contracts": {
+    "core_dynamics": "causal/7 unchanged",
+    "state": "state/5 unchanged",
+    "runtime_profile": "profile/5 unchanged",
+    "database_schema": 33,
+    "raw_nodes": "threemind.raw-node-observation/1",
+    "parameters": 420
+  },
+  "full_regression": {
+    "passed": 381,
+    "failed": 1,
+    "skipped": 0,
+    "seconds": 785.14,
+    "failure": "new upgrade test fixture omitted SET search_path before exercising a trigger; fixture corrected",
+    "resolution": "original failure included in final 30 passing targeted checks"
+  },
+  "final_targeted": {
+    "passed": 30,
+    "skipped": 0,
+    "seconds": 66.77
+  },
+  "envelope_final": {
+    "passed": 2,
+    "seconds": 2.05,
+    "invariant": "reference and native Core state hashes and node projections match with altered IDs, labels, carrier grouping and observer settings/on-off"
+  },
+  "browser": {
+    "flows_passed": 3,
+    "seconds": 47.0,
+    "final_repeat_passed": 1,
+    "final_repeat_seconds": 14.6,
+    "coverage": [
+      "raw nodes default and accurate history counts",
+      "derived views separate",
+      "unfiltered temporal rows default",
+      "old candidate accessible after later raw samples",
+      "JSON/CSV/figure export",
+      "conversation visibility preferences",
+      "mobile layout"
+    ],
+    "initial_issues": [
+      "older test assumed a candidate remained in first page; now traverses bounded API pages before opening its evidence URL",
+      "screenshot review found history count still using derived rows; corrected and browser revalidated"
+    ]
+  },
+  "translation_audit": {
+    "catalogue": 3731,
+    "literalReferences": 2854,
+    "dynamicReferences": 109,
+    "metadata": {
+      "parameters": 420,
+      "adapters": 23,
+      "commands": 10,
+      "texts": 715
+    },
+    "duplicates": [],
+    "invalidPlaceholders": [],
+    "missing": [],
+    "remainingDirectDisplayLiterals": {}
+  },
+  "legacy_fields_reviewed": 55,
+  "synthetic_observer_cost": {
+    "scope": "synthetic complete-node snapshot, observer+hash+JSON only; excludes Core, database and UI; hardware-specific",
+    "default_interval_us": 100000,
+    "results": [
+      {
+        "nodes": 1000,
+        "median_observe_hash_and_json_ms": 7.149,
+        "uncompressed_json_bytes": 152647,
+        "repeat_ms": [
+          7.958,
+          6.707,
+          6.451,
+          7.591
+        ]
+      },
+      {
+        "nodes": 10000,
+        "median_observe_hash_and_json_ms": 64.538,
+        "uncompressed_json_bytes": 1538649,
+        "repeat_ms": [
+          65.455,
+          63.62,
+          92.678,
+          59.822
+        ]
+      },
+      {
+        "nodes": 100000,
+        "median_observe_hash_and_json_ms": 605.925,
+        "uncompressed_json_bytes": 15578651,
+        "repeat_ms": [
+          601.086,
+          637.467,
+          610.763,
+          600.149
+        ]
+      }
+    ]
+  },
+  "limits": [
+    "Complete means all source nodes at each declared structural sample, not the full edge graph or continuous per-node waveform.",
+    "Historical filtered packets are explicitly incomplete; no old data was reconstructed or migrated.",
+    "AI receives a declared bounded analysis subset; absent from its input does not imply inactive, irrelevant or unrelated.",
+    "Identical-input neutrality does not imply identical physical sensing under different host loads.",
+    "Large raw records still have O(nodes times samples) storage and processing cost; no hidden node clipping.",
+    "Synthetic observer cost excludes Core, database and UI; concurrent workstation measurement, not a capacity guarantee.",
+    "Unregistered multigeneration coordinator work remains separate and is not certified by this record."
+  ],
+  "logs": {
+    "full": {
+      "file": ".work/readout-fidelity-full.log",
+      "sha256": "2135fc5adf3cfdc5cef05024074b43a55678850bfd546bbb667815a15783a57f"
+    },
+    "final_targeted": {
+      "file": ".work/readout-fidelity-delivery-targeted.log",
+      "sha256": "f65a9bb30bc031b889d6fc3cda0d7f198a8a0ec1a09c3b2627417e2edcd66641"
+    },
+    "envelope_final": {
+      "file": ".work/readout-fidelity-envelope-final.log",
+      "sha256": "e987628b6ba0eb573fa7a46993f228112aea87c941472213dd3c1793db2774f5"
+    },
+    "browser_flows": {
+      "file": ".work/readout-fidelity-final-browser.log",
+      "sha256": "b774c91e7f627ac65dac6c8f134af9d41fb59a8312ef5400cbee251003c43493"
+    },
+    "browser_final": {
+      "file": ".work/readout-fidelity-delivery-browser.log",
+      "sha256": "ce3f4294616e17f68e706f38d4a6d0858151a4039f75f26c54f506f0cb3880f1"
+    },
+    "build": {
+      "file": ".work/readout-fidelity-delivery-build.log",
+      "sha256": "ecef98bcdc007ecea0444262f2a49da78d7a78a8bb6efa7688393d2a5a50b484"
+    },
+    "ruff": {
+      "file": ".work/readout-fidelity-ruff.log",
+      "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+    },
+    "legacy": {
+      "file": ".work/readout-fidelity-legacy.log",
+      "sha256": "c19a202e506941ed4dd27dca8b425fb110a7529ddfdfb03d50627b373a9c5b61"
+    },
+    "migration": {
+      "file": ".work/readout-fidelity-migrate.log",
+      "sha256": "40ec514251942edb52f28d40a01815d57cdc91b67aca3da4633322ba775fbce0"
+    }
+  },
+  "image": "docs/images/v2/readout-fidelity-raw.png"
+}

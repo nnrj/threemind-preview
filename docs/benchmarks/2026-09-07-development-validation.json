@@ -1,0 +1,101 @@
+{
+  "schema": "threemind.development-validation/1",
+  "date": "2026-09-07",
+  "database_schema": 31,
+  "birth_rule": "threemind.birth/1",
+  "core_dynamics": "threemind.causal/7",
+  "state": "threemind.state/5",
+  "profile": "threemind.runtime-profile/5",
+  "scientific_parameters": 419,
+  "core_parameters": 60,
+  "legacy_parameters": {
+    "reviewed": 55,
+    "pending": 0
+  },
+  "pytest_full": {
+    "passed": 364,
+    "failed": 0,
+    "skipped": 0,
+    "seconds": 827.36
+  },
+  "pytest_final_development": {
+    "passed": 7,
+    "seconds": 25.55
+  },
+  "pytest_development_and_upgrade": {
+    "passed": 10,
+    "seconds": 36.32
+  },
+  "edge": {
+    "passed": 5,
+    "failed": 0,
+    "desktop_width": 1440,
+    "mobile_width": 390,
+    "horizontal_overflow": false
+  },
+  "edge_final_development": {
+    "passed": 1,
+    "seconds": 18.9,
+    "includes_existing_source_filter_reset": true
+  },
+  "build": {
+    "typescript": true,
+    "vite": true,
+    "known_warning": "pre-existing chunks larger than 500 kB"
+  },
+  "ruff": true,
+  "translations": {
+    "catalogue": 3711,
+    "literalReferences": 2855,
+    "dynamicReferences": 109,
+    "duplicates": [],
+    "invalidPlaceholders": [],
+    "missing": [],
+    "remainingDirectDisplayLiterals": {}
+  },
+  "standalone": {
+    "schema": "threemind.development-runtime-validation/1",
+    "runtime": "standalone Rust executable",
+    "database_used_by_runtime": false,
+    "python_used_by_runtime": false,
+    "birth_rule": "threemind.birth/1",
+    "source_hash": "c5ff2b7e12e7b225cc8be3cd3860f887cd937115c9aa1cc32b966ef92ddff302",
+    "initial_hash": "2023f674ec47ce94bd37c98d1d032eb6db53e1d055f2c939c048f1ce7ce80c36",
+    "after_hash": "02b3a3866f3cac7ce633c9e61eceb4ae5a605efd476ae40d423ecf9b934eedcb",
+    "profile": "threemind.runtime-profile/5",
+    "nodes_before": 6,
+    "nodes_after": 8,
+    "new_sensory_channels": [
+      4294967200,
+      4294967201
+    ],
+    "executable_sha256": "4b0ab4460403f070a6f6f9292688c2c17065b58f5a3e0c5e97ca23b1c8e66c44"
+  },
+  "verified": [
+    "atomic run/session/job creation and rollback",
+    "operation nonce retry and conflict",
+    "immutable version and fixed historical protocol",
+    "source hash checks",
+    "birth preserves learned structure",
+    "source model unchanged",
+    "parameter identity validation in JSON and form",
+    "independent native and reference birth",
+    "plasticity after birth",
+    "pause/recovery matches uninterrupted sibling",
+    "birth evidence emitted once",
+    "old worker capability rejection",
+    "project RLS and viewer write rejection",
+    "registered source cleanup protection",
+    "parent and child version lineage",
+    "tmind/JSON/manifest ZIP exports and profile roundtrip",
+    "documentation viewer link"
+  ],
+  "limits": [
+    "development and explicit manual selection, not automatic evolution",
+    "no custom world/body editor in this stage",
+    "environment and sensory seed not yet separated",
+    "formation manifest excludes raw evidence; use source-run evidence export",
+    "no delete of development/innate registrations; archive source runs",
+    "existing validation Docker image was not rebuilt in this stage"
+  ]
+}

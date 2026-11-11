@@ -1,0 +1,16 @@
+[package]
+name = "threemind-runtime"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+threemind-core = { path = "../threemind-core" }
+serde_json = { version = "1", features = ["float_roundtrip"] }
+serde = { version = "1", features = ["derive"] }
+clap = { version = "4", features = ["derive"] }
+zip = { version = "4", default-features = false, features = ["deflate"] }
+arrow-array = "57"
+arrow-schema = "57"
+arrow-ipc = { version = "57", features = ["zstd"] }
+sha2 = "0.10"
+rusqlite = { version = "0.40", features = ["bundled"] }

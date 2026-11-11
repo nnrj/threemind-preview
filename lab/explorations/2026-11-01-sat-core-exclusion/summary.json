@@ -1,0 +1,295 @@
+{
+  "schema": "sat-core-exclusion-analysis/1",
+  "independent_origins": 8,
+  "totals": {
+    "intact": {
+      "solved": 161,
+      "n": 192,
+      "flips": 8005,
+      "wall_seconds": 60.36429409991251,
+      "probe_correct": 512,
+      "probe_n": 512,
+      "local_correct": 28623,
+      "local_n": 28623,
+      "trajectory_equal": 208,
+      "trajectory_n": 208,
+      "query_n": 29135
+    },
+    "restored": {
+      "solved": 161,
+      "n": 192,
+      "flips": 8005,
+      "wall_seconds": 61.6330178999342,
+      "probe_correct": 512,
+      "probe_n": 512,
+      "local_correct": 28623,
+      "local_n": 28623,
+      "trajectory_equal": 208,
+      "trajectory_n": 208,
+      "query_n": 29135
+    },
+    "blank-core": {
+      "solved": 161,
+      "n": 192,
+      "flips": 8005,
+      "wall_seconds": 60.48828420002246,
+      "probe_correct": 512,
+      "probe_n": 512,
+      "local_correct": 28623,
+      "local_n": 28623,
+      "trajectory_equal": 208,
+      "trajectory_n": 208,
+      "query_n": 29135
+    },
+    "relay-fixed": {
+      "solved": 161,
+      "n": 192,
+      "flips": 8005,
+      "wall_seconds": 15.036989499931224,
+      "probe_correct": 512,
+      "probe_n": 512,
+      "local_correct": 28623,
+      "local_n": 28623,
+      "trajectory_equal": 208,
+      "trajectory_n": 208,
+      "query_n": 29135
+    },
+    "template-fixed": {
+      "solved": 161,
+      "n": 192,
+      "flips": 8005,
+      "wall_seconds": 13.809107000182848,
+      "probe_correct": 512,
+      "probe_n": 512,
+      "local_correct": 28623,
+      "local_n": 28623,
+      "trajectory_equal": 208,
+      "trajectory_n": 208,
+      "query_n": 29135
+    },
+    "constant-fixed": {
+      "solved": 103,
+      "n": 192,
+      "flips": 12283,
+      "wall_seconds": 21.230752599716652,
+      "probe_correct": 352,
+      "probe_n": 512,
+      "local_correct": 32417,
+      "local_n": 41457,
+      "trajectory_equal": 20,
+      "trajectory_n": 208,
+      "query_n": 41969
+    },
+    "relay-trained": {
+      "solved": 161,
+      "n": 192,
+      "flips": 8005,
+      "wall_seconds": 14.079835300100967,
+      "probe_correct": 512,
+      "probe_n": 512,
+      "local_correct": 28623,
+      "local_n": 28623,
+      "trajectory_equal": 208,
+      "trajectory_n": 208,
+      "query_n": 29135
+    },
+    "constant-trained": {
+      "solved": 103,
+      "n": 192,
+      "flips": 12283,
+      "wall_seconds": 21.143414799968014,
+      "probe_correct": 384,
+      "probe_n": 512,
+      "local_correct": 36594,
+      "local_n": 41457,
+      "trajectory_equal": 20,
+      "trajectory_n": 208,
+      "query_n": 41969
+    },
+    "quantized-rule": {
+      "solved": 161,
+      "n": 192,
+      "flips": 8005,
+      "wall_seconds": 0.9827082998817787,
+      "probe_correct": 0,
+      "probe_n": 0,
+      "local_correct": 0,
+      "local_n": 0,
+      "trajectory_equal": 208,
+      "trajectory_n": 208,
+      "query_n": 0
+    },
+    "random-local": {
+      "solved": 95,
+      "n": 192,
+      "flips": 12890,
+      "wall_seconds": 1.4988555001909845,
+      "probe_correct": 0,
+      "probe_n": 0,
+      "local_correct": 0,
+      "local_n": 0,
+      "trajectory_equal": 1,
+      "trajectory_n": 208,
+      "query_n": 0
+    },
+    "walksat": {
+      "solved": 160,
+      "n": 192,
+      "flips": 6947,
+      "wall_seconds": 0.8703121001308318,
+      "probe_correct": 0,
+      "probe_n": 0,
+      "local_correct": 0,
+      "local_n": 0,
+      "trajectory_equal": 20,
+      "trajectory_n": 208,
+      "query_n": 0
+    }
+  },
+  "paired": {
+    "blank-core": {
+      "mean": 0.0,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "level": 0.9,
+      "per_origin": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_accuracy_difference": 0.0
+    },
+    "relay-fixed": {
+      "mean": 0.0,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "level": 0.9,
+      "per_origin": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_accuracy_difference": 0.0
+    },
+    "template-fixed": {
+      "mean": 0.0,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "level": 0.9,
+      "per_origin": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_accuracy_difference": 0.0
+    },
+    "relay-trained": {
+      "mean": 0.0,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "level": 0.9,
+      "per_origin": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_accuracy_difference": 0.0
+    },
+    "constant-fixed": {
+      "mean": 0.3020833333333333,
+      "interval": [
+        0.23958333333333331,
+        0.375
+      ],
+      "level": 0.95,
+      "per_origin": [
+        0.4583333333333333,
+        0.16666666666666666,
+        0.4583333333333333,
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.3333333333333333
+      ],
+      "local_accuracy_drop": 0.3125,
+      "reference": "relay-fixed"
+    },
+    "constant-trained": {
+      "mean": 0.3020833333333333,
+      "interval": [
+        0.23958333333333331,
+        0.375
+      ],
+      "level": 0.95,
+      "per_origin": [
+        0.4583333333333333,
+        0.16666666666666666,
+        0.4583333333333333,
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.3333333333333333
+      ],
+      "local_accuracy_drop": 0.25,
+      "reference": "relay-trained"
+    }
+  },
+  "targets": {
+    "blank-core": true,
+    "relay-fixed": true,
+    "template-fixed": true,
+    "relay-trained": true,
+    "constant-fixed": true,
+    "constant-trained": true
+  },
+  "audit": {
+    "witness_trajectories": 2288,
+    "whole_transitions": 1728,
+    "reader_predictions_replayed": 258748,
+    "calibration_predictions_replayed": 1024,
+    "max_logit_replay_error": 0.0,
+    "restored_identical_trajectories": 208,
+    "parents_unchanged": true,
+    "fixed_readers_unchanged": true
+  },
+  "resource": {
+    "minimum_available_bytes": {
+      "commit": 8181542912,
+      "data_disk": 110108999680,
+      "ram": 10850320384,
+      "system_disk": 10206441472
+    },
+    "peak_private_bytes": 1846841344,
+    "wall_seconds": 3897.158651900012
+  }
+}

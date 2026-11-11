@@ -1,0 +1,81 @@
+{
+  "schema": "threemind.git-data-policy/1",
+  "allow_paths": {
+    "tests_v2/fixtures/memory2-preservation-hashes.json": {
+      "reason": "Small frozen engineering witness: historical memory/2 configuration, scenario hashes and complete-state hashes only; no formal individual, original trajectory or model package. Sources and exact comparison limits are documented in memory5-baseline-verification.md.",
+      "max_bytes": 16384
+    },
+    "tests_v2/fixtures/causal1-continuation.json": {
+      "reason": "Necessary frozen legacy-state or stimulus regression fixture; does not authorize research datasets.",
+      "max_bytes": 1048576
+    },
+    "tests_v2/fixtures/causal2-continuation.json": {
+      "reason": "Necessary frozen legacy-state or stimulus regression fixture; does not authorize research datasets.",
+      "max_bytes": 1048576
+    },
+    "tests_v2/fixtures/causal3-continuation.json": {
+      "reason": "Necessary frozen legacy-state or stimulus regression fixture; does not authorize research datasets.",
+      "max_bytes": 1048576
+    },
+    "tests_v2/fixtures/causal4-continuation.json": {
+      "reason": "Necessary frozen legacy-state or stimulus regression fixture; does not authorize research datasets.",
+      "max_bytes": 1048576
+    },
+    "tests_v2/fixtures/causal5-continuation.json": {
+      "reason": "Necessary frozen legacy-state or stimulus regression fixture; does not authorize research datasets.",
+      "max_bytes": 1048576
+    },
+    "tests_v2/fixtures/causal6-continuation.json": {
+      "reason": "Necessary frozen legacy-state or stimulus regression fixture; does not authorize research datasets.",
+      "max_bytes": 1048576
+    },
+    "tests_v2/fixtures/causal8-energy-before-unification.json": {
+      "reason": "Necessary frozen legacy-state or stimulus regression fixture; does not authorize research datasets.",
+      "max_bytes": 1048576
+    },
+    "tests_v2/fixtures/causal9-baseline.json": {
+      "reason": "Necessary frozen legacy-state or stimulus regression fixture; does not authorize research datasets.",
+      "max_bytes": 1048576
+    },
+    "tests_v2/fixtures/environment-seed-legacy.json": {
+      "reason": "Necessary frozen legacy-state or stimulus regression fixture; does not authorize research datasets.",
+      "max_bytes": 1048576
+    },
+    "tests_v2/fixtures/memory2-before-retention3.json": {
+      "reason": "Necessary frozen legacy-state or stimulus regression fixture; does not authorize research datasets.",
+      "max_bytes": 1048576
+    },
+    "tests_v2/fixtures/memory3-before-local4.json": {
+      "reason": "Necessary frozen legacy-state or stimulus regression fixture; does not authorize research datasets.",
+      "max_bytes": 1048576
+    },
+    "tests_v2/fixtures/stimulus-6241016.json": {
+      "reason": "Necessary frozen legacy-state or stimulus regression fixture; does not authorize research datasets.",
+      "max_bytes": 1048576
+    },
+    "tests_v2/fixtures/v3-restoration.json": {
+      "reason": "Necessary frozen legacy-state or stimulus regression fixture; does not authorize research datasets.",
+      "max_bytes": 1048576
+    },
+    "lab/explorations/2026-10-05-temporal-state-expression/raw-linear-fit.json": {
+      "reason": "Small derived classifier fit coefficients, not original per-point evidence.",
+      "max_bytes": 16384
+    },
+    "data/ui-settings.example.json": {
+      "reason": "Shareable application settings template.",
+      "max_bytes": 16384
+    },
+    "data/README.md": {
+      "reason": "Source-controlled storage instructions only.",
+      "max_bytes": 65536
+    },
+    "data/.gitkeep": {
+      "reason": "Empty source-controlled placeholder.",
+      "max_bytes": 0
+    },
+    "tests_v2/fixtures/legacy-birth.json": {
+      "reason": "Small frozen engineering child-state witness from historical birth/1 sources 5a5f0dd and 304ef25; preserves kernel fields and hashes, not experiment originals. Provenance is recorded in src/threemind_kernels/legacy/sources.json.",
+      "max_bytes": 17983
+    }
+  }
+}

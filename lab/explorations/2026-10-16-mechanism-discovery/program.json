@@ -1,0 +1,439 @@
+{
+  "schema": "threemind.mechanism-preparation/1",
+  "recorded_on": "2026-10-16",
+  "status": "preparation-only",
+  "execution_authorized": false,
+  "kernel": "threemind.continuous-memory/5.1",
+  "scope": [
+    "offline-evidence-audit",
+    "protocol-preparation",
+    "statistical-planning",
+    "documentation"
+  ],
+  "forbidden": [
+    "E69-resume",
+    "new-subjects",
+    "Core-changes",
+    "service-or-schedule-changes",
+    "cloud-purchases",
+    "author-paper-edits"
+  ],
+  "sampling": {
+    "pilot_origins": 8,
+    "confirmation_start": 48,
+    "increment": 16,
+    "maximum": 128,
+    "target_power": 0.8,
+    "alpha": 0.05,
+    "continuous_effect": 0.5,
+    "binary_difference": 0.1,
+    "pilot_in_confirmation": false,
+    "outcome_based_extension": false,
+    "replication": "fresh origins and fresh materials",
+    "counts": "per declared comparison/cohort; repeated questions and sibling copies are nested"
+  },
+  "packages": [
+    {
+      "id": "M1",
+      "backlog": [
+        "R08",
+        "R10",
+        "R17"
+      ],
+      "phase": 1,
+      "independent_unit": "birth_origin",
+      "question": "Which local states carry history-specific content and transfer useful behavior?",
+      "competitors": [
+        "current-input shortcut",
+        "fast-state transfer",
+        "generic perturbation",
+        "reader relearning"
+      ],
+      "primary_outcomes": [
+        "opposite-history response contrast",
+        "target-versus-matched donor-directed shift",
+        "off-task damage"
+      ],
+      "controls": [
+        "intact",
+        "sham",
+        "target-silence",
+        "matched-silence",
+        "release",
+        "target-graft",
+        "matched-graft"
+      ],
+      "status": "protocol-prepared-not-run",
+      "stop_conditions": [
+        "unverifiable original",
+        "observation changes state",
+        "answer leakage",
+        "unmatched critical intervention",
+        "new incomplete state"
+      ],
+      "gates": {
+        "evidence": "pending",
+        "version_and_fields": "pending",
+        "truth_isolation": "pending",
+        "observation_invariance": "pending",
+        "whole_system_restore": "pending",
+        "apparatus": "pending",
+        "pilot": "pending",
+        "power": "pending",
+        "frozen_confirmation": "pending",
+        "resources": "pending",
+        "execution_permission": "pending"
+      },
+      "target_selection": "teaching-and-development-only",
+      "matching": [
+        "count",
+        "effective_weight_same_time",
+        "node_degree",
+        "activity"
+      ],
+      "reader": "fixed-nonlearning",
+      "intervention_fields": "persistent-and-fast-separate"
+    },
+    {
+      "id": "M2",
+      "backlog": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R07",
+        "R41"
+      ],
+      "phase": 1,
+      "independent_unit": "birth_origin",
+      "question": "Which conditions separate structural retention, retrieval, expression and relearning?",
+      "competitors": [
+        "trace loss",
+        "retrieval threshold",
+        "inhibition or energy gate",
+        "reader failure",
+        "input competition"
+      ],
+      "primary_outcomes": [
+        "trace-retrieval-expression curves",
+        "held-out retrieval prediction",
+        "reversal-retention tradeoff"
+      ],
+      "controls": [
+        "weak-single",
+        "strong-single",
+        "joint-equal-total",
+        "joint-equal-per-channel",
+        "H-default",
+        "H-gain-2",
+        "H-gain-4",
+        "S"
+      ],
+      "status": "protocol-prepared-not-run",
+      "stop_conditions": [
+        "unverifiable original",
+        "observation changes state",
+        "answer leakage",
+        "unmatched critical intervention",
+        "new incomplete state"
+      ],
+      "gates": {
+        "evidence": "pending",
+        "version_and_fields": "pending",
+        "truth_isolation": "pending",
+        "observation_invariance": "pending",
+        "whole_system_restore": "pending",
+        "apparatus": "pending",
+        "pilot": "pending",
+        "power": "pending",
+        "frozen_confirmation": "pending",
+        "resources": "pending",
+        "execution_permission": "pending"
+      },
+      "delay_seconds": [
+        1,
+        30,
+        60,
+        300
+      ],
+      "independent_delay_cohorts": true,
+      "gain_candidates": [
+        "existing-default",
+        2,
+        4
+      ],
+      "version_comparisons": "separate-not-ablation"
+    },
+    {
+      "id": "M3",
+      "backlog": [
+        "R12"
+      ],
+      "phase": 1,
+      "independent_unit": "birth_origin",
+      "question": "Which competing organizations can satisfy each original autonomy criterion?",
+      "competitors": [
+        "reactive sufficiency",
+        "finite-memory sufficiency",
+        "generic plasticity",
+        "recurrent-state sufficiency"
+      ],
+      "primary_outcomes": [
+        "per-criterion pass/fail/undetermined",
+        "intervention specificity",
+        "closed-loop versus replay contrast"
+      ],
+      "controls": [
+        "reactive",
+        "finite-state",
+        "local-Hebbian",
+        "fixed-recurrent-personal-reader",
+        "ThreeMind"
+      ],
+      "status": "protocol-prepared-not-run",
+      "stop_conditions": [
+        "unverifiable original",
+        "observation changes state",
+        "answer leakage",
+        "unmatched critical intervention",
+        "new incomplete state"
+      ],
+      "gates": {
+        "evidence": "pending",
+        "version_and_fields": "pending",
+        "truth_isolation": "pending",
+        "observation_invariance": "pending",
+        "whole_system_restore": "pending",
+        "apparatus": "pending",
+        "pilot": "pending",
+        "power": "pending",
+        "frozen_confirmation": "pending",
+        "resources": "pending",
+        "execution_permission": "pending"
+      },
+      "criterion_version": "autonomy-criteria/1",
+      "composite_consciousness_score": false
+    },
+    {
+      "id": "M4",
+      "backlog": [
+        "R11"
+      ],
+      "phase": 2,
+      "independent_unit": "birth_origin",
+      "question": "Does experience create stable functional specialization with selective causal effects?",
+      "competitors": [
+        "fixed receptor map",
+        "birth energy regions",
+        "training-time confound",
+        "body-state confound"
+      ],
+      "primary_outcomes": [
+        "held-out task selectivity",
+        "time-block stability",
+        "selective target-versus-matched impairment"
+      ],
+      "controls": [
+        "pre-training",
+        "post-training",
+        "eye-only",
+        "hand-only",
+        "joint",
+        "target",
+        "matched",
+        "rescue"
+      ],
+      "status": "protocol-prepared-not-run",
+      "stop_conditions": [
+        "unverifiable original",
+        "observation changes state",
+        "answer leakage",
+        "unmatched critical intervention",
+        "new incomplete state"
+      ],
+      "gates": {
+        "evidence": "pending",
+        "version_and_fields": "pending",
+        "truth_isolation": "pending",
+        "observation_invariance": "pending",
+        "whole_system_restore": "pending",
+        "apparatus": "pending",
+        "pilot": "pending",
+        "power": "pending",
+        "frozen_confirmation": "pending",
+        "resources": "pending",
+        "execution_permission": "pending"
+      }
+    },
+    {
+      "id": "M5",
+      "backlog": [
+        "R17",
+        "R32",
+        "R33",
+        "R35",
+        "R39",
+        "R40",
+        "R41"
+      ],
+      "phase": 2,
+      "independent_unit": "birth_origin",
+      "question": "Can a fixed personal peripheral express new Core experiences?",
+      "competitors": [
+        "sensory-only classification",
+        "reader memorization",
+        "teacher residue",
+        "joint learning only"
+      ],
+      "primary_outcomes": [
+        "first-answer new-correspondence accuracy",
+        "Core-specific intervention effect",
+        "old-skill retention"
+      ],
+      "controls": [
+        "frozen-personal-reader",
+        "sensory-only",
+        "specified-learning-off",
+        "joint-learning",
+        "offline-early-late-cross"
+      ],
+      "status": "protocol-prepared-not-run",
+      "stop_conditions": [
+        "unverifiable original",
+        "observation changes state",
+        "answer leakage",
+        "unmatched critical intervention",
+        "new incomplete state"
+      ],
+      "gates": {
+        "evidence": "pending",
+        "version_and_fields": "pending",
+        "truth_isolation": "pending",
+        "observation_invariance": "pending",
+        "whole_system_restore": "pending",
+        "apparatus": "pending",
+        "pilot": "pending",
+        "power": "pending",
+        "frozen_confirmation": "pending",
+        "resources": "pending",
+        "execution_permission": "pending"
+      }
+    },
+    {
+      "id": "M6",
+      "backlog": [
+        "R09",
+        "R19",
+        "R22",
+        "R23",
+        "R24",
+        "R25",
+        "R26",
+        "R27",
+        "R28",
+        "R29",
+        "R30",
+        "R31",
+        "R34"
+      ],
+      "phase": 3,
+      "independent_unit": "world",
+      "question": "When do experience pathways provide ecological benefit and useful communication?",
+      "competitors": [
+        "action persistence advantage",
+        "local reflex sufficiency",
+        "shared environment",
+        "sound perturbation only"
+      ],
+      "primary_outcomes": [
+        "feeding-energy-survival contrasts",
+        "cross-world transfer",
+        "receiver information benefit"
+      ],
+      "controls": [
+        "full",
+        "fixed-initial",
+        "matched-random",
+        "local-reactive",
+        "pathway-intervention",
+        "silence",
+        "power-matched-scramble",
+        "signal-reversal"
+      ],
+      "status": "protocol-prepared-not-run",
+      "stop_conditions": [
+        "unverifiable original",
+        "observation changes state",
+        "answer leakage",
+        "unmatched critical intervention",
+        "new incomplete state"
+      ],
+      "gates": {
+        "evidence": "pending",
+        "version_and_fields": "pending",
+        "truth_isolation": "pending",
+        "observation_invariance": "pending",
+        "whole_system_restore": "pending",
+        "apparatus": "pending",
+        "pilot": "pending",
+        "power": "pending",
+        "frozen_confirmation": "pending",
+        "resources": "pending",
+        "execution_permission": "pending"
+      }
+    },
+    {
+      "id": "M7",
+      "backlog": [
+        "R14",
+        "R37",
+        "R38"
+      ],
+      "phase": 3,
+      "independent_unit": "birth_origin",
+      "question": "How do exploration and teaching routes shape learning, transfer and interference?",
+      "competitors": [
+        "extra experience time",
+        "extra energy only",
+        "task-specific overfitting"
+      ],
+      "primary_outcomes": [
+        "learning curve",
+        "transfer",
+        "rule reversal",
+        "old-skill retention"
+      ],
+      "controls": [
+        "free-exploration",
+        "equal-time-nonexploration",
+        "teaching",
+        "contingent-energy",
+        "combined",
+        "unrelated-energy"
+      ],
+      "status": "protocol-prepared-not-run",
+      "stop_conditions": [
+        "unverifiable original",
+        "observation changes state",
+        "answer leakage",
+        "unmatched critical intervention",
+        "new incomplete state"
+      ],
+      "gates": {
+        "evidence": "pending",
+        "version_and_fields": "pending",
+        "truth_isolation": "pending",
+        "observation_invariance": "pending",
+        "whole_system_restore": "pending",
+        "apparatus": "pending",
+        "pilot": "pending",
+        "power": "pending",
+        "frozen_confirmation": "pending",
+        "resources": "pending",
+        "execution_permission": "pending"
+      }
+    }
+  ]
+}

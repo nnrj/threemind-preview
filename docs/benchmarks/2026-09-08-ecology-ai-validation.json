@@ -1,0 +1,28 @@
+{
+  "date":"2026-09-08",
+  "base_commit":"d316a3c",
+  "scope":"F5d optional evidence-bound ecological AI interpretation and scheduling",
+  "versions":{"database":45,"template":"threemind.ecology-interpretation/1","core":"causal/7 (unchanged)"},
+  "checks":[
+    {"suite":"initial frozen evidence, rejection, scheduling and permissions","passed":4,"failed":0,"seconds":29.31,"log":".work/ecology-ai-first.log"},
+    {"suite":"ecological AI, providers and research AI regression","passed":16,"failed":0,"seconds":79.25,"log":".work/ecology-ai-integration.log"},
+    {"suite":"ecological AI, observer, wiring and independent assessments","passed":17,"failed":0,"seconds":94.81,"log":".work/ecology-ai-regression.log"},
+    {"suite":"final scheduling clocks, late warnings, evidence, scoped migration and restart","passed":12,"failed":0,"seconds":66.28,"log":".work/ecology-ai-final-backend.log"},
+    {"suite":"local mock AI browser end-to-end","passed":1,"failed":0,"seconds":8.7,"log":".work/ecology-ai-browser2.log"},
+    {"suite":"final AI, original observer and mock speech browser flows","passed":3,"failed":0,"seconds":41.9,"log":".work/ecology-ai-final-browser.log"}
+  ],
+  "quality":{"ui_build":"passed; existing chunk-size advisory remains","ruff":"passed","translations":4413,"missing_translations":0,"visual_review":"desktop preview, structured response and 390px configuration screenshots inspected"},
+  "resolved_failures":[
+    "Read-only CodeEditor call sites initially omitted their required onChange argument; supplied explicit no-op handlers.",
+    "The new provider picker initially typed the existing API object as an array, causing a blank dialog. It now uses the providers property and an explicit response type; the complete browser flow passed.",
+    "Late observer warnings now widen the declared evidence interval to contain their original checkpoints."
+  ],
+  "boundaries":[
+    "Overlapping suites do not represent a full-repository test total.",
+    "All AI calls used local mocks; browser speech used a mock. No real external AI, email or speech was sent.",
+    "Complete committed population and event counts do not substitute for every brain or physical step.",
+    "Statement reference validation cannot prove natural-language inferences; all AI commentary remains unreviewed.",
+    "No Core, birth, input mapping or output dynamics changed. Brain and population hashes remained unchanged.",
+    "No data/ scan, legacy migration, Docker rebuild or git push in this stage."
+  ]
+}

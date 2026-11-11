@@ -1,0 +1,456 @@
+{
+  "image": "threemind-lab:validation",
+  "source_commit": "f285808",
+  "checks": {
+    "initialization_login_frontend": {
+      "server_mode": true,
+      "anonymous_denied": true,
+      "native": true
+    },
+    "mujoco_native_run": {
+      "status": "completed",
+      "time_us": "200000",
+      "state_hash": "2ebaf61e3658644948b407869be56e1b83b470831dbd79b58d3ab2f67de65a7e"
+    },
+    "notification_tls_queue": {
+      "status": "sent",
+      "verified_tls": true,
+      "external_recipients": 0
+    },
+    "ai_queue": {
+      "status": "completed",
+      "external_paid_calls": 0
+    },
+    "media_and_organs": {
+      "original_roundtrips": 2,
+      "delivered_envelopes": 2,
+      "organ_response_keys": [
+        "rows",
+        "more",
+        "next",
+        "scope"
+      ]
+    },
+    "research_exports": {
+      "markdown": {
+        "bytes": 2492,
+        "sha256": "5b7485f50fa44cdbc89c8c17276857476e92a7b93fcdebb23d10eb64157c621e"
+      },
+      "html": {
+        "bytes": 7640,
+        "sha256": "fddd20efc227e22866d0b7f0bb7547d6a514c414db5fb707c4190b63a1a201b2"
+      },
+      "docx": {
+        "bytes": 39683,
+        "sha256": "bbd3e46fe412777bd8398ca9cf43d8cfbad837a3a11fe5f8e1c23d9b65692228"
+      },
+      "pdf": {
+        "bytes": 39514,
+        "sha256": "4f3fb441d7cdb1ad2afcc29a99764b9637327c4a9caabe4358fe2fc1aafd5eb4"
+      }
+    },
+    "recovery_started": {
+      "committed_time_us": "700000",
+      "previous_generation": 1,
+      "natural_lease_expiry_seconds": 60
+    },
+    "worker_fault_recovery": {
+      "generation": 2,
+      "state_hash": "9607d322bf04dc0ae909c6aaeedb85f15a55ad4e11b35c9a5c7550ebc1de216e",
+      "matches_uninterrupted_run": true
+    },
+    "model_roundtrip": {
+      "bytes": 14633,
+      "state_hash_matches": true
+    },
+    "complete": true,
+    "actual_versions": {
+      "schema": 40,
+      "python": "3.12.14",
+      "packages": {
+        "mujoco": "3.12.0",
+        "numpy": "2.5.3",
+        "scipy": "1.18.1",
+        "psycopg": "3.3.5",
+        "pydantic": "2.13.5",
+        "fastapi": "0.141.1"
+      }
+    },
+    "standalone_ecology": {
+      "members": 2,
+      "time_us": 47000,
+      "partial_physical_boundary": true,
+      "sqlite_bundle_and_uninterrupted_equal": true,
+      "lab_imported": false
+    },
+    "world_library": {
+      "revision": 1,
+      "protocol_hash": "ca34c575e3f7d19f4bd0282091cd58e57123234f6cc8a15a2a38b118ce89896e",
+      "motors": 2
+    },
+    "offscreen_rgb_run": {
+      "status": "completed",
+      "state_hash": "282cb5e452c3b576c121b4f0666fa73c896c32c21134b0c209211c847ab9e78d",
+      "headless": true,
+      "render_backend": "osmesa"
+    },
+    "population_recovery_started": {
+      "time_us": "40000",
+      "lease_generation": 1
+    },
+    "population_fault_recovery": {
+      "members": 6,
+      "generation": 2,
+      "brain_hashes_match": true,
+      "complete_ledger_summary_matches": true,
+      "state_hashes": {
+        "n0": "342b64b59e3d72bec2066b2dfb442d2cc8cd60d0f152accdbb6f42ff2382b2b5",
+        "n1": "381d677d191ab29bf278322996c7ebca655dd0fc71195fae142d9f747845a520",
+        "n2": "2a1c1a7bc816d47891e81cddfdc91563b6c46a633172e4ba7205ac08c1c9686d",
+        "n3": "4da4d43f6b2a63387d7c2ea0faef80fb0f4dc1c40e73f5d079af1b8a563cfd9e",
+        "n4": "4e9a53e45e27793c837b3365dbd50ffe05eb5f86374d0cc0bbf59879040f747a",
+        "n5": "3c77650cbd5defd0904dcbe1f578f37847edd6ca9a7675eed9111eb8bd696d49"
+      }
+    },
+    "independent_habitats": {
+      "members": 6,
+      "resource_pools": 6
+    },
+    "population_evidence_bundle": {
+      "bytes": 130993,
+      "individuals": 6,
+      "all_model_hashes_verified": true
+    },
+    "ecology_trajectory": {
+      "source_rows": 62,
+      "exports": {
+        "markdown": {
+          "bytes": 21896,
+          "sha256": "20e3c7ea9976a3be6f10fd71e5911cb60f8c11d4f510f6df72787fa5c3d016d8"
+        },
+        "html": {
+          "bytes": 184872,
+          "sha256": "147a1e031e75ed7ff8f3da7407b1e59d11931ac0df08ca57f651312a040ebb2e"
+        },
+        "docx": {
+          "bytes": 178939,
+          "sha256": "77d87f8db1f6f9a66871a5ab7da3d751dd0f0ee7f234addaae39c8a73148b3ca"
+        },
+        "pdf": {
+          "bytes": 112847,
+          "sha256": "adf9b0d9fb8092f97aac793f7b93da78751bca23beaf198a806a6635768399ba"
+        }
+      }
+    },
+    "ecology_members": {
+      "source_rows": 6,
+      "exports": {
+        "markdown": {
+          "bytes": 5588,
+          "sha256": "7f2eb353e34c50d8cd16404898847020f26021197a67f6e32187f5106a13ee37"
+        },
+        "html": {
+          "bytes": 131448,
+          "sha256": "06028f93447347fdf607600e94fa3eee148a18bf139607c6175fd8a0d56f3551"
+        },
+        "docx": {
+          "bytes": 123003,
+          "sha256": "12b0a1276fcb42c1863e05c4e8400545dc1f737aba8bbbdff7cec2bbfa92caef"
+        },
+        "pdf": {
+          "bytes": 80254,
+          "sha256": "f943650c68cbe0443cd03d0a80ec4307f4fd41f20ea3e46f2c0f7a31da6326ef"
+        }
+      }
+    },
+    "directed_evolution": {
+      "generations": 2,
+      "members_with_isolated_evaluations": 16,
+      "complete_evidence_bundle_bytes": 109910
+    },
+    "ecology_complete": true,
+    "actual_container_isolation": {
+      "services": {
+        "notification-worker": {
+          "image": "threemind-lab:validation",
+          "user": "threemind",
+          "read_only": true,
+          "memory_bytes": 268435456,
+          "nano_cpus": 500000000,
+          "pids": 256,
+          "cap_drop": [
+            "ALL"
+          ],
+          "security_opt": [
+            "no-new-privileges:true"
+          ],
+          "ports": {}
+        },
+        "api": {
+          "image": "threemind-lab:validation",
+          "user": "threemind",
+          "read_only": true,
+          "memory_bytes": 2147483648,
+          "nano_cpus": 2000000000,
+          "pids": 256,
+          "cap_drop": [
+            "ALL"
+          ],
+          "security_opt": [
+            "no-new-privileges:true"
+          ],
+          "ports": {
+            "8877/tcp": [
+              {
+                "HostIp": "127.0.0.1",
+                "HostPort": "18878"
+              }
+            ]
+          }
+        },
+        "ai-worker": {
+          "image": "threemind-lab:validation",
+          "user": "threemind",
+          "read_only": true,
+          "memory_bytes": 536870912,
+          "nano_cpus": 1000000000,
+          "pids": 256,
+          "cap_drop": [
+            "ALL"
+          ],
+          "security_opt": [
+            "no-new-privileges:true"
+          ],
+          "ports": {}
+        },
+        "worker": {
+          "image": "threemind-lab:validation",
+          "user": "threemind",
+          "read_only": true,
+          "memory_bytes": 2147483648,
+          "nano_cpus": 2000000000,
+          "pids": 256,
+          "cap_drop": [
+            "ALL"
+          ],
+          "security_opt": [
+            "no-new-privileges:true"
+          ],
+          "ports": {}
+        },
+        "bootstrap": {
+          "image": "threemind-lab:validation",
+          "user": "threemind",
+          "read_only": true,
+          "memory_bytes": 1073741824,
+          "nano_cpus": 1000000000,
+          "pids": 256,
+          "cap_drop": [
+            "ALL"
+          ],
+          "security_opt": [
+            "no-new-privileges:true"
+          ],
+          "ports": {}
+        },
+        "postgres": {
+          "image": "postgres:17-bookworm",
+          "user": "",
+          "read_only": false,
+          "memory_bytes": 1073741824,
+          "nano_cpus": 2000000000,
+          "pids": 256,
+          "cap_drop": null,
+          "security_opt": null,
+          "ports": {}
+        }
+      },
+      "api_probe": {
+        "uid": 10001,
+        "root_write_denied": true,
+        "tmp_writable": true,
+        "no_new_privs": true,
+        "zero_effective_capabilities": true
+      },
+      "source_commit": "2d447e3"
+    },
+    "publication_recheck": {
+      "source_commit": "62a0b6b",
+      "same_fixed_revisions": true,
+      "exports": {
+        "ecology_trajectory": {
+          "document_id": "047bb951-21d9-42ed-aa7a-66adf09b627b",
+          "revision": 1,
+          "formats": {
+            "markdown": {
+              "bytes": 21896,
+              "sha256": "20e3c7ea9976a3be6f10fd71e5911cb60f8c11d4f510f6df72787fa5c3d016d8"
+            },
+            "html": {
+              "bytes": 184872,
+              "sha256": "147a1e031e75ed7ff8f3da7407b1e59d11931ac0df08ca57f651312a040ebb2e"
+            },
+            "docx": {
+              "bytes": 178939,
+              "sha256": "a90cd8a99a76027b9e859a8eec90a37567a7016c00784f972af4427008f37020"
+            },
+            "pdf": {
+              "bytes": 114661,
+              "sha256": "6aede625a22a3839ae532183dba5cfcc03c49382247f739ab5a7f7eccbd7dc42"
+            }
+          }
+        },
+        "ecology_members": {
+          "document_id": "eb8f6673-f919-4164-b908-93482b7cd537",
+          "revision": 1,
+          "formats": {
+            "markdown": {
+              "bytes": 5588,
+              "sha256": "7f2eb353e34c50d8cd16404898847020f26021197a67f6e32187f5106a13ee37"
+            },
+            "html": {
+              "bytes": 156596,
+              "sha256": "548f8e00bcea9cb10413287ba76bc996b0aa92efd0e4359bdffcfb38167f5785"
+            },
+            "docx": {
+              "bytes": 136375,
+              "sha256": "172ba8ec0f2899a3568a6584a376974ff247cb8e7fc61ed86f166ac27171378f"
+            },
+            "pdf": {
+              "bytes": 98854,
+              "sha256": "48cc2f9f1fbde9ee64081790b802bd84c39fa733362bc84f82949bd56f268490"
+            }
+          }
+        }
+      }
+    },
+    "final_image_runtime_recheck": {
+      "source_commit": "2d447e3",
+      "standalone": {
+        "members": 2,
+        "time_us": 47000,
+        "partial_physical_boundary": true,
+        "sqlite_bundle_and_uninterrupted_equal": true,
+        "lab_imported": false
+      },
+      "population_members": 6,
+      "brain_hashes_match_previous_image": true,
+      "full_ledger_summary_matches_previous_image": true,
+      "state_hashes": {
+        "n0": "342b64b59e3d72bec2066b2dfb442d2cc8cd60d0f152accdbb6f42ff2382b2b5",
+        "n1": "381d677d191ab29bf278322996c7ebca655dd0fc71195fae142d9f747845a520",
+        "n2": "2a1c1a7bc816d47891e81cddfdc91563b6c46a633172e4ba7205ac08c1c9686d",
+        "n3": "4da4d43f6b2a63387d7c2ea0faef80fb0f4dc1c40e73f5d079af1b8a563cfd9e",
+        "n4": "4e9a53e45e27793c837b3365dbd50ffe05eb5f86374d0cc0bbf59879040f747a",
+        "n5": "3c77650cbd5defd0904dcbe1f578f37847edd6ca9a7675eed9111eb8bd696d49"
+      },
+      "scope": "Portable CLI recovery plus a new fully recorded Lab population; previous fault injection remains attributed to f285808"
+    }
+  },
+  "schema": "threemind.validation/1",
+  "date": "2026-09-07",
+  "database_schema": 40,
+  "platform": "Linux x86-64, Docker Desktop on Windows",
+  "image_stages": [
+    {
+      "source_commit": "f285808",
+      "scope": "Full application, real fault recovery, complete population, directed evolution, headless RGB, original exports and browser",
+      "image_config": "sha256:5ceb4e57195b6d11ec739a855f212c2aec85e9266420cb741c3b8e4f3ddf9fe6",
+      "manifest_list": "sha256:601ebd1c15b00705da3df38270189bb30b22f8b494ad6634bd1accc3f854f630"
+    },
+    {
+      "source_commit": "62a0b6b",
+      "scope": "Re-export the same immutable records after histogram precision and PDF table fixes",
+      "image_config": "sha256:388c2151f86fa84f50a009c613a632959dd85578bd1a16f41c691ccc7631ac7f",
+      "manifest_list": "sha256:ab5ca96acc1b92560815724869f0c2052bb3419ecaaf7d7dae0629c38d2b9724"
+    },
+    {
+      "source_commit": "2d447e3",
+      "scope": "Repeat standalone population recovery, newly recorded Lab population and actual service isolation after observer copy optimization",
+      "image_config": "sha256:07eb0511f28d212a1583fc0b4cb8b1f940dd1febafd7aad26b9896ee194e27ac",
+      "manifest_list": "sha256:b2e8135227b9e65d6a9a092347e9cc443577a275a88f6960acde6c394a4a20bd"
+    }
+  ],
+  "final_image_id": "sha256:b2e8135227b9e65d6a9a092347e9cc443577a275a88f6960acde6c394a4a20bd",
+  "final_image_config": "sha256:07eb0511f28d212a1583fc0b4cb8b1f940dd1febafd7aad26b9896ee194e27ac",
+  "browser": {
+    "server_login_in_browser": true,
+    "observations": [
+      {
+        "kind": "ecology_trajectory",
+        "chart_rendered": true,
+        "horizontal_overflow_px": 0
+      },
+      {
+        "kind": "ecology_members",
+        "chart_rendered": true,
+        "horizontal_overflow_px": 0
+      }
+    ],
+    "viewport_widths": [
+      1440,
+      390
+    ],
+    "page_errors": 0
+  },
+  "document_visual_review": {
+    "base_word_pages": 2,
+    "base_pdf_pages": 2,
+    "trajectory_word_pages": 19,
+    "trajectory_pdf_pages": 18,
+    "members_word_pages": 5,
+    "members_pdf_pages": 5,
+    "final_pdf_pages_all_visually_inspected": true,
+    "word_review": "Base and original Word pages were individually inspected; final trajectory pages 1-19 and member pages 3-5 have byte-identical rendered PNG hashes. Changed final member pages 1-2 were individually re-inspected.",
+    "issues_fixed": [
+      "Distinct near-equal histogram bin labels, explicit numeric offset",
+      "PDF table fragments contain text, preserve explicit line breaks and English word wrapping"
+    ],
+    "tools": "LibreOffice for DOCX review and Poppler page PNGs; not production dependencies"
+  },
+  "regression_batches": [
+    {
+      "scope": "Renderer subprocess isolation and capability failures",
+      "passed": 14,
+      "seconds": 57.97
+    },
+    {
+      "scope": "Migration restarts and explicit version history",
+      "passed": 13,
+      "seconds": 51.03
+    },
+    {
+      "scope": "Report pagination, histogram precision, existing exports and ecological sources",
+      "passed": 13,
+      "seconds": 88.3,
+      "warnings": "One upstream ziamath DeprecationWarning"
+    },
+    {
+      "scope": "Population observer isolation, CLI, store and raw readout fidelity",
+      "passed": 27,
+      "seconds": 90.69
+    }
+  ],
+  "fixture_corrections": [
+    "Ecology status is active; initial fixture expected running.",
+    "Resource pool pagination requires a fixed checkpoint_id; resumed report checks after verifying already completed recovery hashes.",
+    "One incremental command omitted --target lab and tagged the Rust runtime target; corrected and recreated only this test stack.",
+    "Browser module path and scoped title selector corrected before successful review.",
+    "Final readiness probe now tolerates transport disconnects while API restarts; protocol fetched from its actual dedicated endpoint.",
+    "Docker image inspect identifies an OCI index on this host; distinguish it from the image config digest recorded by BuildKit."
+  ],
+  "cleanup": {
+    "project": "threemind-ecology-acceptance-20260907",
+    "isolated_stack_and_database_volume_removed": true,
+    "unrelated_container_ids_unchanged": true,
+    "built_image_retained": true,
+    "workstation_and_existing_postgresql_untouched_by_cleanup": true
+  },
+  "limitations": [
+    "Functional and recovery acceptance with small engineering fixtures; no scientific consciousness or AGI conclusion",
+    "No full-suite rerun attributed to this phase; batches overlap and must not be summed as unique tests",
+    "No 24-hour endurance, mature large-population throughput, ARM64, GPU EGL or cross-hardware bitwise equivalence claim",
+    "All AI and SMTP calls used isolated mock services; no external provider or recipient",
+    "Source, operating-system packages and image identity differ by recorded stage; no byte-reproducible build claim"
+  ]
+}

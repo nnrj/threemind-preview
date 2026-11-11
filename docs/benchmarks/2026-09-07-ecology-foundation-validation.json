@@ -1,0 +1,55 @@
+{
+  "schema": "threemind.validation/1",
+  "date": "2026-09-07",
+  "source_base_commit": "f268d83",
+  "scope": "Independent ecological ledger, shared/isolated body physics and declared body-state transduction; no connected population trainer or new GUI yet.",
+  "contracts": {
+    "core": "causal/7 unchanged",
+    "state": "state/5 unchanged",
+    "runtime_profile": "profile/5 unchanged",
+    "birth": "threemind.birth/1 unchanged",
+    "world": "threemind.world/1 unchanged",
+    "database_schema": "38 unchanged",
+    "rules": "threemind.ecology-rules/1",
+    "ledger": "threemind.ecology-ledger/1",
+    "physical_population": "threemind.population-world/1",
+    "body_senses": "threemind.body-state-senses/1"
+  },
+  "final_integration": {
+    "passed": 45,
+    "failed": 0,
+    "skipped": 0,
+    "seconds": 112.60,
+    "files": [
+      "test_ecology_rules.py", "test_ecology_senses.py", "test_population_world.py",
+      "test_world.py", "test_world_cli.py", "test_world_api.py", "test_world_ai.py"
+    ],
+    "coverage": [
+      "Explicit resource allocation, capacity, costs and conservation tolerance",
+      "Shared competition, independent external supply and actual coaccess requirements",
+      "Resource transfer to offspring and explicit deferral by population/birth budgets",
+      "Delayed reproduction boundary and observed parent viability",
+      "Body failure never represented as an unobserved Core death",
+      "One shared physical clock with actual collisions; independent control cannot influence another habitat",
+      "Local inherited sensory/motor identities survive physical instance prefixes",
+      "Full solver state, late habitat births, empty populations and reused free-joint bodies",
+      "Real offscreen RGB and renderer cleanup; removed slots do not obstruct rangefinders",
+      "Interval contact impulse and peak are retained when final contact has ended",
+      "Observer labels/order/queries and metadata do not change physical or reference/native Core results",
+      "Default on and individual body-state switches, scales, raw zero measurements and port collision checks",
+      "Existing standalone world, Lab world revisions and AI authoring integration"
+    ]
+  },
+  "tooling": { "ruff": "passed", "frontend_changed": false, "core_changed": false, "data_files_read": false },
+  "limitations": [
+    "No new full-suite or browser run for this lower-layer phase; frontend code did not change.",
+    "The earlier integration round had 39 passes and one fixture failure: it used range instead of the actual rangefinder kind. The corrected fixture is covered in the final run.",
+    "The first contact test exposed a final-sample-only observation gap. The implementation now integrates each physical step and the final tests validate actual impacts.",
+    "birth_due remains explicitly model_born=false until an actual Runtime coordinator applies inheritance.",
+    "Population checkpoints, trainer jobs, graphical ecology settings and report exports are not delivered by this phase.",
+    "Resource fields are declared radial simulator fields; no diffusion or occlusion physics is claimed.",
+    "Body failure removal is a simulator operation, not a model of corpses or biological death.",
+    "Local RGB calibration does not prove cross-GPU determinism; no large-population throughput claim is made.",
+    "The Docker application image has not been rebuilt in this phase."
+  ]
+}

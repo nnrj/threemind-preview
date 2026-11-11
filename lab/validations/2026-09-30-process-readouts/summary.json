@@ -1,0 +1,91 @@
+{
+  "schema": "threemind.process-readout-validation/1",
+  "date": "2026-09-30",
+  "engineering_base": "5110e10",
+  "new_simulations": 0,
+  "windows": 840,
+  "source_files_verified": 2760,
+  "all_source_hashes_unchanged": true,
+  "activity_presence_not_accuracy": {
+    "memory": {
+      "windows": 240,
+      "classifications": {
+        "pattern_converged": 240
+      },
+      "with_activity": 240,
+      "with_dynamic_change": 240,
+      "with_target_process_activity": 192,
+      "with_target_at_decision": 0
+    },
+    "memory-intervention": {
+      "windows": 96,
+      "classifications": {
+        "pattern_converged": 96
+      },
+      "with_activity": 96,
+      "with_dynamic_change": 96,
+      "with_target_process_activity": 64,
+      "with_target_at_decision": 0
+    },
+    "sequence": {
+      "windows": 256,
+      "classifications": {
+        "pattern_converged": 256
+      },
+      "with_activity": 256,
+      "with_dynamic_change": 256,
+      "with_target_process_activity": 64,
+      "with_target_at_decision": 0
+    },
+    "transfer": {
+      "windows": 240,
+      "classifications": {
+        "pattern_converged": 240
+      },
+      "with_activity": 240,
+      "with_dynamic_change": 240,
+      "with_target_process_activity": 192,
+      "with_target_at_decision": 0
+    },
+    "transfer-trace": {
+      "windows": 8,
+      "classifications": {
+        "pattern_converged": 8
+      },
+      "with_activity": 8,
+      "with_dynamic_change": 8,
+      "with_target_process_activity": 8,
+      "with_target_at_decision": 0
+    }
+  },
+  "controlled_comparisons": {
+    "matched": {
+      "comparisons": 32,
+      "changed": 0,
+      "identical_samples": 1632
+    },
+    "restore": {
+      "comparisons": 32,
+      "changed": 0,
+      "identical_samples": 1632
+    },
+    "silence": {
+      "comparisons": 32,
+      "changed": 32,
+      "identical_samples": 0
+    }
+  },
+  "evidence_directory": ".work/process-readout-calibration-20260930",
+  "evidence_files": {
+    "calibration.json": {
+      "bytes": 3794583,
+      "sha256": "b698274bf0e8b72e8ae17954b1e6cb2cb2f4806b922f9b480b95f8d19813399b"
+    },
+    "controlled-comparisons.json": {
+      "bytes": 1097442,
+      "sha256": "e3a2a06600607ce74a4f667ac46b118f709220390b6a7c66be86d9fe39920863"
+    }
+  },
+  "evidence_bytes": 4892025,
+  "calibration_wall_seconds": 10.300646799994865
+}

@@ -1,0 +1,34 @@
+{
+  "planning_only": true,
+  "seed": 2026101691,
+  "simulations": 20000,
+  "family_comparisons": 4,
+  "test": "exact paired binary discordant sign / McNemar; Holm family correction",
+  "assumption": {
+    "threeMind_joint_pass": 0.8,
+    "comparator_joint_pass": 0.6,
+    "positive_difference_probability": 0.2,
+    "negative_difference_probability": 0,
+    "paired_standardized_effect": 0.5
+  },
+  "scope": "Planning conditional on stated paired-outcome distribution; no new criterion or consciousness score; not observed scientific data.",
+  "candidate_results": [
+    {
+      "n": 48,
+      "joint_four_comparison_power": 0.75575,
+      "mc95": [
+        0.7497954706856881,
+        0.761704529314312
+      ]
+    },
+    {
+      "n": 64,
+      "joint_four_comparison_power": 0.9737,
+      "mc95": [
+        0.9714821532548888,
+        0.9759178467451112
+      ]
+    }
+  ],
+  "selected_n": 64
+}

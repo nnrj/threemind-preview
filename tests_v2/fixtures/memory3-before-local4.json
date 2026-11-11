@@ -1,0 +1,4058 @@
+{
+  "source": "current source before memory/4 registration; independent backends agree",
+  "samples": [
+    {
+      "mode": "adaptive-half-life",
+      "time_us": "611337",
+      "state": {
+        "attention": {
+          "considered_channels": "0",
+          "counter_overflowed": false,
+          "evaluated_frames": "0",
+          "modulators": [],
+          "passed_channels": "0",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "config": {
+          "activation_decay_enabled": true,
+          "activation_floor": 0.004,
+          "activation_tau": 0.30441023431381903,
+          "associative_gain": 0.01,
+          "birth_weight": 0.065,
+          "consolidation_mode": "adaptive-half-life",
+          "context_enabled": true,
+          "context_mix": 1.0,
+          "context_tau_s": 1.0,
+          "context_temperature": 1.0,
+          "dead_node_retention_us": 80000000,
+          "delay_us": 10000,
+          "depletion_enabled": true,
+          "direct_gain": 0.9,
+          "dormant_prune_weight": 1e-08,
+          "dormant_traces_enabled": false,
+          "edge_consolidation_enabled": true,
+          "edge_wake_threshold": null,
+          "eligibility_decay_enabled": true,
+          "eligibility_tau": 0.40247707040780034,
+          "fast_enabled": true,
+          "fast_gain": 0.1,
+          "fast_learning_rate": 0.1,
+          "fast_tau_s": 2.0,
+          "first_gain": 0.045,
+          "forgetting_rate": 0.025,
+          "inhibition": true,
+          "inhibition_decay_enabled": true,
+          "inhibition_diffusion_rate": 3.5,
+          "inhibition_gain": 0.24,
+          "inhibition_response_gain": 2.0,
+          "inhibition_tau": 0.2321354823145728,
+          "intensity_gain": 0.075,
+          "learning_rate": 0.055,
+          "memory_growth_formula": "log-saturating",
+          "memory_half_life_decay_rate": 0.125,
+          "memory_half_life_max_s": 2592000.0,
+          "memory_half_life_min_s": 30.0,
+          "memory_learning_gain": 0.2,
+          "memory_weight_learning_rate": 0.55,
+          "node_prune_after_us": 80000000,
+          "node_retention_mode": "automatic",
+          "node_wake_threshold": null,
+          "novelty_mode": "arrival-window",
+          "plasticity": true,
+          "propagation_interval_us": 100000,
+          "propagation_rate": 4.2,
+          "prune_support": 0.006,
+          "prune_weight": 0.008,
+          "quiescence_death_us": 1000000000000,
+          "repeat_gain": 0.018,
+          "retain_nodes": false,
+          "revival_enabled": false,
+          "seed": 20260724,
+          "stability_decay_enabled": true,
+          "stability_gain": 0.022,
+          "stability_tau": 666.6666666666667,
+          "step_us": 10000,
+          "stp_active_tau_s": 0.003,
+          "stp_enabled": true,
+          "stp_facilitation_tau_s": 0.0,
+          "stp_recovery_tau_s": 0.8,
+          "stp_utilization": 0.5,
+          "strong_fatigue_enabled": true,
+          "strong_fatigue_gain": 1.0,
+          "strong_fatigue_tau_s": 5.0,
+          "support_decay_enabled": true,
+          "support_gain": 0.035,
+          "support_tau": 666.6666666666667,
+          "trace_decay_enabled": true,
+          "trace_tau": 0.5039028822088802
+        },
+        "definition": {
+          "config": {
+            "activation_decay_enabled": true,
+            "activation_floor": 0.004,
+            "activation_tau": 0.30441023431381903,
+            "associative_gain": 0.01,
+            "birth_weight": 0.065,
+            "consolidation_mode": "adaptive-half-life",
+            "context_enabled": true,
+            "context_mix": 1.0,
+            "context_tau_s": 1.0,
+            "context_temperature": 1.0,
+            "dead_node_retention_us": 80000000,
+            "delay_us": 10000,
+            "depletion_enabled": true,
+            "direct_gain": 0.9,
+            "dormant_prune_weight": 1e-08,
+            "dormant_traces_enabled": false,
+            "edge_consolidation_enabled": true,
+            "edge_wake_threshold": null,
+            "eligibility_decay_enabled": true,
+            "eligibility_tau": 0.40247707040780034,
+            "fast_enabled": true,
+            "fast_gain": 0.1,
+            "fast_learning_rate": 0.1,
+            "fast_tau_s": 2.0,
+            "first_gain": 0.045,
+            "forgetting_rate": 0.025,
+            "inhibition": true,
+            "inhibition_decay_enabled": true,
+            "inhibition_diffusion_rate": 3.5,
+            "inhibition_gain": 0.24,
+            "inhibition_response_gain": 2.0,
+            "inhibition_tau": 0.2321354823145728,
+            "intensity_gain": 0.075,
+            "learning_rate": 0.055,
+            "memory_growth_formula": "log-saturating",
+            "memory_half_life_decay_rate": 0.125,
+            "memory_half_life_max_s": 2592000.0,
+            "memory_half_life_min_s": 30.0,
+            "memory_learning_gain": 0.2,
+            "memory_weight_learning_rate": 0.55,
+            "node_prune_after_us": 80000000,
+            "node_retention_mode": "automatic",
+            "node_wake_threshold": null,
+            "novelty_mode": "arrival-window",
+            "plasticity": true,
+            "propagation_interval_us": 100000,
+            "propagation_rate": 4.2,
+            "prune_support": 0.006,
+            "prune_weight": 0.008,
+            "quiescence_death_us": 1000000000000,
+            "repeat_gain": 0.018,
+            "retain_nodes": false,
+            "revival_enabled": false,
+            "seed": 20260724,
+            "stability_decay_enabled": true,
+            "stability_gain": 0.022,
+            "stability_tau": 666.6666666666667,
+            "step_us": 10000,
+            "stp_active_tau_s": 0.003,
+            "stp_enabled": true,
+            "stp_facilitation_tau_s": 0.0,
+            "stp_recovery_tau_s": 0.8,
+            "stp_utilization": 0.5,
+            "strong_fatigue_enabled": true,
+            "strong_fatigue_gain": 1.0,
+            "strong_fatigue_tau_s": 5.0,
+            "support_decay_enabled": true,
+            "support_gain": 0.035,
+            "support_tau": 666.6666666666667,
+            "trace_decay_enabled": true,
+            "trace_tau": 0.5039028822088802
+          },
+          "hypothesis_id": "threemind.hypotheses/continuous-memory3",
+          "kernel_id": "threemind.continuous-memory/3",
+          "operators": [
+            {
+              "id": "threemind.causal9-transition/1",
+              "phase": "hybrid-event-clock"
+            },
+            {
+              "id": "threemind.leaky-fast-trace/1",
+              "phase": "efficacy-and-emission"
+            },
+            {
+              "id": "threemind.tm-synapse/1",
+              "phase": "before-emission"
+            },
+            {
+              "id": "threemind.local-context-attention/1",
+              "phase": "after-arrival"
+            },
+            {
+              "id": "threemind.resource-clamp-control/1",
+              "phase": "before-emission"
+            },
+            {
+              "id": "threemind.edge-consolidation-control/1",
+              "phase": "positive-edge-updates"
+            },
+            {
+              "id": "threemind.local-birth-novelty/2",
+              "phase": "after-arrivals-before-emission"
+            },
+            {
+              "id": "threemind.adaptive-half-life/2",
+              "phase": "local-touch-emission-expiry"
+            },
+            {
+              "id": "threemind.strong-input-fatigue/2",
+              "phase": "accepted-input"
+            },
+            {
+              "id": "threemind.optional-dormancy/2",
+              "phase": "local-expiry"
+            },
+            {
+              "id": "threemind.local-awakening/1",
+              "phase": "same-time-local-arrivals"
+            }
+          ],
+          "schema": "threemind.kernel-definition/1",
+          "state_schema": "threemind.continuous-memory-state/3.1"
+        },
+        "definition_hash": "fadc21389dad26f6f8f7797444d877251905b6452c84ad0025f8f5bfd1442499",
+        "dynamics": "threemind.continuous-memory/3",
+        "edges": [
+          {
+            "birth_us": "0",
+            "eligibility": 0.07954710896181966,
+            "last_touch_us": "300000",
+            "source": 1,
+            "stability": 0.20541801715538477,
+            "target": 2,
+            "touches": 5,
+            "weight": 0.14794205474597663
+          },
+          {
+            "birth_us": "0",
+            "eligibility": 0.04626248452990328,
+            "last_touch_us": "200000",
+            "source": 1,
+            "stability": 0.1166123839244948,
+            "target": 3,
+            "touches": 3,
+            "weight": 0.09157949995654056
+          },
+          {
+            "birth_us": "73000",
+            "eligibility": 0.008127456215621278,
+            "last_touch_us": "200000",
+            "source": 1,
+            "stability": 0.056085601779211354,
+            "target": 4,
+            "touches": 2,
+            "weight": 0.07928668404074131
+          },
+          {
+            "birth_us": "0",
+            "eligibility": 0.07951122044883079,
+            "last_touch_us": "300000",
+            "source": 2,
+            "stability": 0.20540686999657745,
+            "target": 1,
+            "touches": 5,
+            "weight": 0.14793746792032708
+          },
+          {
+            "birth_us": "0",
+            "eligibility": 0.04430845255865756,
+            "last_touch_us": "200000",
+            "source": 2,
+            "stability": 0.1004585274765529,
+            "target": 3,
+            "touches": 3,
+            "weight": 0.08508113848512468
+          },
+          {
+            "birth_us": "73000",
+            "eligibility": 0.007610090553107409,
+            "last_touch_us": "200000",
+            "source": 2,
+            "stability": 0.0525040642953161,
+            "target": 4,
+            "touches": 2,
+            "weight": 0.0778332277873563
+          },
+          {
+            "birth_us": "0",
+            "eligibility": 0.06541164803854846,
+            "last_touch_us": "180000",
+            "source": 3,
+            "stability": 0.10796101854693733,
+            "target": 1,
+            "touches": 1,
+            "weight": 0.07620129703874376
+          },
+          {
+            "birth_us": "0",
+            "eligibility": 0.062321187211207184,
+            "last_touch_us": "180000",
+            "source": 3,
+            "stability": 0.09185108817955898,
+            "target": 2,
+            "touches": 1,
+            "weight": 0.06961842172135292
+          },
+          {
+            "birth_us": "73000",
+            "eligibility": 0.007210726032771411,
+            "last_touch_us": "100000",
+            "source": 4,
+            "stability": 0.055771444989007234,
+            "target": 1,
+            "touches": 1,
+            "weight": 0.07914631106440109
+          },
+          {
+            "birth_us": "73000",
+            "eligibility": 0.006626094472272394,
+            "last_touch_us": "100000",
+            "source": 4,
+            "stability": 0.052204073839440195,
+            "target": 2,
+            "touches": 1,
+            "weight": 0.07769923114540794
+          }
+        ],
+        "energy": {
+          "consumed_associative": 0.0,
+          "consumed_direct": 0.0,
+          "consumed_inhibition": 0.0,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "reserve": 1.0,
+          "schema": "threemind.energy/1",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "life": "active",
+        "next_event": 15,
+        "next_node": 5,
+        "next_propagation_us": "700000",
+        "next_step_us": "620000",
+        "nodes": [
+          {
+            "activation": 0.24771655946819826,
+            "associative": 0.0,
+            "birth_us": "0",
+            "channel": 10,
+            "direct": 0.0,
+            "generated_inhibition": 0.0,
+            "id": 1,
+            "inhibition": 0.05432354588197227,
+            "last_touch_us": "310000",
+            "local_plasticity": 0.9588603207256062,
+            "pending_inhibition": 0.03059511176901049,
+            "stability": 0.05713844343665798,
+            "support": 0.10563220933514395,
+            "touches": 6,
+            "trace": 0.4327049951493284
+          },
+          {
+            "activation": 0.24769085426404344,
+            "associative": 0.0,
+            "birth_us": "0",
+            "channel": 11,
+            "direct": 0.0,
+            "generated_inhibition": 0.0,
+            "id": 2,
+            "inhibition": 0.05296848597236049,
+            "last_touch_us": "310000",
+            "local_plasticity": 0.960808356157636,
+            "pending_inhibition": 0.02982236930567338,
+            "stability": 0.054432838669949885,
+            "support": 0.08090008229590562,
+            "touches": 6,
+            "trace": 0.4326622657209612
+          },
+          {
+            "activation": 0.13332748532946898,
+            "associative": 0.0,
+            "birth_us": "0",
+            "channel": 20,
+            "direct": 0.0,
+            "generated_inhibition": 0.0,
+            "id": 3,
+            "inhibition": 0.030790758880188146,
+            "last_touch_us": "210000",
+            "local_plasticity": 0.9868683753234726,
+            "pending_inhibition": 0.016920759619716768,
+            "stability": 0.018238367606288098,
+            "support": 0.03817445553667442,
+            "touches": 4,
+            "trace": 0.255846714705598
+          },
+          {
+            "activation": 0.06528841819956704,
+            "associative": 0.0,
+            "birth_us": "73000",
+            "channel": 21,
+            "direct": 0.0,
+            "generated_inhibition": 0.0,
+            "id": 4,
+            "inhibition": 0.026297616605587427,
+            "last_touch_us": "210000",
+            "local_plasticity": 0.9926157213437031,
+            "pending_inhibition": 0.015049426071309305,
+            "stability": 0.010255942578190094,
+            "support": 0.020425413156177963,
+            "touches": 3,
+            "trace": 0.1305601803312108
+          }
+        ],
+        "operator_state": {
+          "fast": [
+            {
+              "source": 1,
+              "state": {
+                "time_us": "300000",
+                "value": 0.003395053879396478
+              },
+              "target": 2
+            },
+            {
+              "source": 1,
+              "state": {
+                "time_us": "200000",
+                "value": 0.0018899356048538967
+              },
+              "target": 3
+            },
+            {
+              "source": 1,
+              "state": {
+                "time_us": "200000",
+                "value": 0.001793414904121938
+              },
+              "target": 4
+            },
+            {
+              "source": 2,
+              "state": {
+                "time_us": "300000",
+                "value": 0.003350804606372682
+              },
+              "target": 1
+            },
+            {
+              "source": 2,
+              "state": {
+                "time_us": "200000",
+                "value": 0.001690637585668604
+              },
+              "target": 3
+            },
+            {
+              "source": 2,
+              "state": {
+                "time_us": "200000",
+                "value": 0.0017223436480635623
+              },
+              "target": 4
+            },
+            {
+              "source": 4,
+              "state": {
+                "time_us": "100000",
+                "value": 0.0004355797777208277
+              },
+              "target": 1
+            },
+            {
+              "source": 4,
+              "state": {
+                "time_us": "100000",
+                "value": 0.000425463427527525
+              },
+              "target": 2
+            }
+          ],
+          "novelty": {
+            "audit": {
+              "awarded": 4,
+              "births": 10,
+              "cancelled": 0,
+              "disabled": 0,
+              "ineligible": 6,
+              "no_reentry": 0,
+              "reference_reached": 0,
+              "requested_bonus": 0.06817806995473856,
+              "stability_bonus": 0.06817806995473856,
+              "weight_bonus": 0.06817806995473857
+            },
+            "pending": [],
+            "serial": 4
+          },
+          "retention": {
+            "audit": {
+              "dormant_created": 0,
+              "dormant_expired": 0,
+              "edge_settlements": 72,
+              "expiry_checks": 0,
+              "node_settlements": 19,
+              "nodes_awakened": 0,
+              "nodes_deleted": 0,
+              "revived": 0
+            },
+            "deadlines": [
+              [
+                1,
+                3,
+                2,
+                "94300000"
+              ],
+              [
+                1,
+                3,
+                1,
+                "98200000"
+              ],
+              [
+                1,
+                4,
+                2,
+                "99000000"
+              ],
+              [
+                1,
+                2,
+                4,
+                "99100000"
+              ],
+              [
+                1,
+                4,
+                1,
+                "99800000"
+              ],
+              [
+                1,
+                1,
+                4,
+                "99900000"
+              ],
+              [
+                1,
+                2,
+                3,
+                "103000000"
+              ],
+              [
+                1,
+                1,
+                3,
+                "106200000"
+              ],
+              [
+                1,
+                1,
+                2,
+                "126900000"
+              ],
+              [
+                1,
+                2,
+                1,
+                "126900000"
+              ]
+            ],
+            "dormant": [],
+            "edges": [
+              [
+                1,
+                2,
+                30.0,
+                "600000"
+              ],
+              [
+                1,
+                3,
+                30.0,
+                "600000"
+              ],
+              [
+                1,
+                4,
+                30.0,
+                "600000"
+              ],
+              [
+                2,
+                1,
+                30.0,
+                "600000"
+              ],
+              [
+                2,
+                3,
+                30.0,
+                "600000"
+              ],
+              [
+                2,
+                4,
+                30.0,
+                "600000"
+              ],
+              [
+                3,
+                1,
+                30.0,
+                "600000"
+              ],
+              [
+                3,
+                2,
+                30.0,
+                "600000"
+              ],
+              [
+                4,
+                1,
+                30.0,
+                "600000"
+              ],
+              [
+                4,
+                2,
+                30.0,
+                "600000"
+              ]
+            ],
+            "fatigue": [],
+            "isolated": [],
+            "nodes": [
+              [
+                1,
+                31.20840822004676,
+                "310000"
+              ],
+              [
+                2,
+                30.899349869111216,
+                "310000"
+              ],
+              [
+                3,
+                30.402182658240395,
+                "210000"
+              ],
+              [
+                4,
+                30.209478342344433,
+                "210000"
+              ]
+            ],
+            "salience": [],
+            "sleeping": []
+          },
+          "short_term": [
+            {
+              "source": 1,
+              "state": {
+                "active": 0.11132266785344293,
+                "available": 0.11132266785344253,
+                "time_us": "600000",
+                "utilization": 0.5
+              },
+              "target": 2
+            },
+            {
+              "source": 1,
+              "state": {
+                "active": 0.11132266785344293,
+                "available": 0.11132266785344253,
+                "time_us": "600000",
+                "utilization": 0.5
+              },
+              "target": 3
+            },
+            {
+              "source": 1,
+              "state": {
+                "active": 0.11132266785344293,
+                "available": 0.11132266785344253,
+                "time_us": "600000",
+                "utilization": 0.5
+              },
+              "target": 4
+            },
+            {
+              "source": 2,
+              "state": {
+                "active": 0.11132266785344293,
+                "available": 0.11132266785344253,
+                "time_us": "600000",
+                "utilization": 0.5
+              },
+              "target": 1
+            },
+            {
+              "source": 2,
+              "state": {
+                "active": 0.11132266785344293,
+                "available": 0.11132266785344253,
+                "time_us": "600000",
+                "utilization": 0.5
+              },
+              "target": 3
+            },
+            {
+              "source": 2,
+              "state": {
+                "active": 0.11132266785344293,
+                "available": 0.11132266785344253,
+                "time_us": "600000",
+                "utilization": 0.5
+              },
+              "target": 4
+            },
+            {
+              "source": 3,
+              "state": {
+                "active": 0.11132266785344293,
+                "available": 0.11132266785344253,
+                "time_us": "600000",
+                "utilization": 0.5
+              },
+              "target": 1
+            },
+            {
+              "source": 3,
+              "state": {
+                "active": 0.11959192247300283,
+                "available": 0.11959192247300238,
+                "time_us": "500000",
+                "utilization": 0.5
+              },
+              "target": 2
+            },
+            {
+              "source": 4,
+              "state": {
+                "active": 0.18119660072849492,
+                "available": 0.18119660072849397,
+                "time_us": "300000",
+                "utilization": 0.5
+              },
+              "target": 1
+            },
+            {
+              "source": 4,
+              "state": {
+                "active": 0.18119660072849492,
+                "available": 0.18119660072849397,
+                "time_us": "300000",
+                "utilization": 0.5
+              },
+              "target": 2
+            }
+          ]
+        },
+        "queue": [
+          {
+            "id": 4,
+            "kind": "stimulus",
+            "payload": {
+              "channels": [
+                [
+                  10,
+                  0.8
+                ],
+                [
+                  11,
+                  0.6
+                ],
+                [
+                  21,
+                  0.4
+                ]
+              ],
+              "intensity": 1.0,
+              "time_us": "800000"
+            },
+            "time_us": "800000"
+          },
+          {
+            "id": 5,
+            "kind": "stimulus",
+            "payload": {
+              "channels": [
+                [
+                  10,
+                  0.8
+                ],
+                [
+                  11,
+                  0.6
+                ],
+                [
+                  20,
+                  0.4
+                ]
+              ],
+              "intensity": 1.0,
+              "time_us": "1400000"
+            },
+            "time_us": "1400000"
+          },
+          {
+            "id": 6,
+            "kind": "stimulus",
+            "payload": {
+              "channels": [
+                [
+                  10,
+                  0.8
+                ],
+                [
+                  11,
+                  0.6
+                ],
+                [
+                  21,
+                  0.4
+                ]
+              ],
+              "intensity": 1.0,
+              "time_us": "2800000"
+            },
+            "time_us": "2800000"
+          }
+        ],
+        "quiet_since_us": null,
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0"
+        },
+        "schema": "threemind.continuous-memory-state/3.1",
+        "sequence": 73,
+        "silenced_edges": [],
+        "silenced_nodes": [],
+        "sources_open": true,
+        "state_time_us": "610000",
+        "time_us": "611337",
+        "transport": {
+          "activated": 3.9687441999761046,
+          "discarded": 0.06914103136598027,
+          "received": 5.014147211783618,
+          "sent": 0.22328824314959755
+        },
+        "traversed": []
+      }
+    },
+    {
+      "mode": "adaptive-half-life",
+      "time_us": "5000000",
+      "state": {
+        "attention": {
+          "considered_channels": "0",
+          "counter_overflowed": false,
+          "evaluated_frames": "0",
+          "modulators": [],
+          "passed_channels": "0",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "config": {
+          "activation_decay_enabled": true,
+          "activation_floor": 0.004,
+          "activation_tau": 0.30441023431381903,
+          "associative_gain": 0.01,
+          "birth_weight": 0.065,
+          "consolidation_mode": "adaptive-half-life",
+          "context_enabled": true,
+          "context_mix": 1.0,
+          "context_tau_s": 1.0,
+          "context_temperature": 1.0,
+          "dead_node_retention_us": 80000000,
+          "delay_us": 10000,
+          "depletion_enabled": true,
+          "direct_gain": 0.9,
+          "dormant_prune_weight": 1e-08,
+          "dormant_traces_enabled": false,
+          "edge_consolidation_enabled": true,
+          "edge_wake_threshold": null,
+          "eligibility_decay_enabled": true,
+          "eligibility_tau": 0.40247707040780034,
+          "fast_enabled": true,
+          "fast_gain": 0.1,
+          "fast_learning_rate": 0.1,
+          "fast_tau_s": 2.0,
+          "first_gain": 0.045,
+          "forgetting_rate": 0.025,
+          "inhibition": true,
+          "inhibition_decay_enabled": true,
+          "inhibition_diffusion_rate": 3.5,
+          "inhibition_gain": 0.24,
+          "inhibition_response_gain": 2.0,
+          "inhibition_tau": 0.2321354823145728,
+          "intensity_gain": 0.075,
+          "learning_rate": 0.055,
+          "memory_growth_formula": "log-saturating",
+          "memory_half_life_decay_rate": 0.125,
+          "memory_half_life_max_s": 2592000.0,
+          "memory_half_life_min_s": 30.0,
+          "memory_learning_gain": 0.2,
+          "memory_weight_learning_rate": 0.55,
+          "node_prune_after_us": 80000000,
+          "node_retention_mode": "automatic",
+          "node_wake_threshold": null,
+          "novelty_mode": "arrival-window",
+          "plasticity": true,
+          "propagation_interval_us": 100000,
+          "propagation_rate": 4.2,
+          "prune_support": 0.006,
+          "prune_weight": 0.008,
+          "quiescence_death_us": 1000000000000,
+          "repeat_gain": 0.018,
+          "retain_nodes": false,
+          "revival_enabled": false,
+          "seed": 20260724,
+          "stability_decay_enabled": true,
+          "stability_gain": 0.022,
+          "stability_tau": 666.6666666666667,
+          "step_us": 10000,
+          "stp_active_tau_s": 0.003,
+          "stp_enabled": true,
+          "stp_facilitation_tau_s": 0.0,
+          "stp_recovery_tau_s": 0.8,
+          "stp_utilization": 0.5,
+          "strong_fatigue_enabled": true,
+          "strong_fatigue_gain": 1.0,
+          "strong_fatigue_tau_s": 5.0,
+          "support_decay_enabled": true,
+          "support_gain": 0.035,
+          "support_tau": 666.6666666666667,
+          "trace_decay_enabled": true,
+          "trace_tau": 0.5039028822088802
+        },
+        "definition": {
+          "config": {
+            "activation_decay_enabled": true,
+            "activation_floor": 0.004,
+            "activation_tau": 0.30441023431381903,
+            "associative_gain": 0.01,
+            "birth_weight": 0.065,
+            "consolidation_mode": "adaptive-half-life",
+            "context_enabled": true,
+            "context_mix": 1.0,
+            "context_tau_s": 1.0,
+            "context_temperature": 1.0,
+            "dead_node_retention_us": 80000000,
+            "delay_us": 10000,
+            "depletion_enabled": true,
+            "direct_gain": 0.9,
+            "dormant_prune_weight": 1e-08,
+            "dormant_traces_enabled": false,
+            "edge_consolidation_enabled": true,
+            "edge_wake_threshold": null,
+            "eligibility_decay_enabled": true,
+            "eligibility_tau": 0.40247707040780034,
+            "fast_enabled": true,
+            "fast_gain": 0.1,
+            "fast_learning_rate": 0.1,
+            "fast_tau_s": 2.0,
+            "first_gain": 0.045,
+            "forgetting_rate": 0.025,
+            "inhibition": true,
+            "inhibition_decay_enabled": true,
+            "inhibition_diffusion_rate": 3.5,
+            "inhibition_gain": 0.24,
+            "inhibition_response_gain": 2.0,
+            "inhibition_tau": 0.2321354823145728,
+            "intensity_gain": 0.075,
+            "learning_rate": 0.055,
+            "memory_growth_formula": "log-saturating",
+            "memory_half_life_decay_rate": 0.125,
+            "memory_half_life_max_s": 2592000.0,
+            "memory_half_life_min_s": 30.0,
+            "memory_learning_gain": 0.2,
+            "memory_weight_learning_rate": 0.55,
+            "node_prune_after_us": 80000000,
+            "node_retention_mode": "automatic",
+            "node_wake_threshold": null,
+            "novelty_mode": "arrival-window",
+            "plasticity": true,
+            "propagation_interval_us": 100000,
+            "propagation_rate": 4.2,
+            "prune_support": 0.006,
+            "prune_weight": 0.008,
+            "quiescence_death_us": 1000000000000,
+            "repeat_gain": 0.018,
+            "retain_nodes": false,
+            "revival_enabled": false,
+            "seed": 20260724,
+            "stability_decay_enabled": true,
+            "stability_gain": 0.022,
+            "stability_tau": 666.6666666666667,
+            "step_us": 10000,
+            "stp_active_tau_s": 0.003,
+            "stp_enabled": true,
+            "stp_facilitation_tau_s": 0.0,
+            "stp_recovery_tau_s": 0.8,
+            "stp_utilization": 0.5,
+            "strong_fatigue_enabled": true,
+            "strong_fatigue_gain": 1.0,
+            "strong_fatigue_tau_s": 5.0,
+            "support_decay_enabled": true,
+            "support_gain": 0.035,
+            "support_tau": 666.6666666666667,
+            "trace_decay_enabled": true,
+            "trace_tau": 0.5039028822088802
+          },
+          "hypothesis_id": "threemind.hypotheses/continuous-memory3",
+          "kernel_id": "threemind.continuous-memory/3",
+          "operators": [
+            {
+              "id": "threemind.causal9-transition/1",
+              "phase": "hybrid-event-clock"
+            },
+            {
+              "id": "threemind.leaky-fast-trace/1",
+              "phase": "efficacy-and-emission"
+            },
+            {
+              "id": "threemind.tm-synapse/1",
+              "phase": "before-emission"
+            },
+            {
+              "id": "threemind.local-context-attention/1",
+              "phase": "after-arrival"
+            },
+            {
+              "id": "threemind.resource-clamp-control/1",
+              "phase": "before-emission"
+            },
+            {
+              "id": "threemind.edge-consolidation-control/1",
+              "phase": "positive-edge-updates"
+            },
+            {
+              "id": "threemind.local-birth-novelty/2",
+              "phase": "after-arrivals-before-emission"
+            },
+            {
+              "id": "threemind.adaptive-half-life/2",
+              "phase": "local-touch-emission-expiry"
+            },
+            {
+              "id": "threemind.strong-input-fatigue/2",
+              "phase": "accepted-input"
+            },
+            {
+              "id": "threemind.optional-dormancy/2",
+              "phase": "local-expiry"
+            },
+            {
+              "id": "threemind.local-awakening/1",
+              "phase": "same-time-local-arrivals"
+            }
+          ],
+          "schema": "threemind.kernel-definition/1",
+          "state_schema": "threemind.continuous-memory-state/3.1"
+        },
+        "definition_hash": "fadc21389dad26f6f8f7797444d877251905b6452c84ad0025f8f5bfd1442499",
+        "dynamics": "threemind.continuous-memory/3",
+        "edges": [
+          {
+            "birth_us": "0",
+            "eligibility": 0.00027223256604142,
+            "last_touch_us": "2900000",
+            "source": 1,
+            "stability": 0.3656088326875643,
+            "target": 2,
+            "touches": 12,
+            "weight": 0.16920061000558667
+          },
+          {
+            "birth_us": "0",
+            "eligibility": 3.9044894998790975e-05,
+            "last_touch_us": "2800000",
+            "source": 1,
+            "stability": 0.14638731007853698,
+            "target": 3,
+            "touches": 5,
+            "weight": 0.09188080709025707
+          },
+          {
+            "birth_us": "73000",
+            "eligibility": 0.00022593950208664166,
+            "last_touch_us": "2800000",
+            "source": 1,
+            "stability": 0.11944107438217666,
+            "target": 4,
+            "touches": 5,
+            "weight": 0.0883073935341342
+          },
+          {
+            "birth_us": "0",
+            "eligibility": 0.00025652276310683686,
+            "last_touch_us": "2900000",
+            "source": 2,
+            "stability": 0.36541716121780504,
+            "target": 1,
+            "touches": 12,
+            "weight": 0.1691200890916701
+          },
+          {
+            "birth_us": "0",
+            "eligibility": 2.875191944254494e-05,
+            "last_touch_us": "2800000",
+            "source": 2,
+            "stability": 0.12307211585018786,
+            "target": 3,
+            "touches": 5,
+            "weight": 0.08417327654787993
+          },
+          {
+            "birth_us": "73000",
+            "eligibility": 0.00017049960127507209,
+            "last_touch_us": "2800000",
+            "source": 2,
+            "stability": 0.10264890637439092,
+            "target": 4,
+            "touches": 5,
+            "weight": 0.08366839956367624
+          },
+          {
+            "birth_us": "0",
+            "eligibility": 7.854176482427469e-06,
+            "last_touch_us": "1400000",
+            "source": 3,
+            "stability": 0.1331451325545727,
+            "target": 1,
+            "touches": 3,
+            "weight": 0.07817034278114719
+          },
+          {
+            "birth_us": "0",
+            "eligibility": 8.312230811273749e-06,
+            "last_touch_us": "1400000",
+            "source": 3,
+            "stability": 0.11094080044297092,
+            "target": 2,
+            "touches": 2,
+            "weight": 0.07031160150095857
+          },
+          {
+            "birth_us": "73000",
+            "eligibility": 0.00021374444350785894,
+            "last_touch_us": "2800000",
+            "source": 4,
+            "stability": 0.11460091504005754,
+            "target": 1,
+            "touches": 4,
+            "weight": 0.08855290639635044
+          },
+          {
+            "birth_us": "73000",
+            "eligibility": 0.0001654939805376398,
+            "last_touch_us": "2800000",
+            "source": 4,
+            "stability": 0.09886593717811594,
+            "target": 2,
+            "touches": 4,
+            "weight": 0.08391899232589495
+          }
+        ],
+        "energy": {
+          "consumed_associative": 0.0,
+          "consumed_direct": 0.0,
+          "consumed_inhibition": 0.0,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "reserve": 1.0,
+          "schema": "threemind.energy/1",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "life": "active",
+        "next_event": 50,
+        "next_node": 5,
+        "next_propagation_us": "5100000",
+        "next_step_us": "5010000",
+        "nodes": [
+          {
+            "activation": 0.0,
+            "associative": 0.0,
+            "birth_us": "0",
+            "channel": 10,
+            "direct": 0.0,
+            "generated_inhibition": 0.0,
+            "id": 1,
+            "inhibition": 4.867207219557043e-05,
+            "last_touch_us": "2910000",
+            "local_plasticity": 0.9181245556918052,
+            "pending_inhibition": 0.0,
+            "stability": 0.11371589487249288,
+            "support": 0.1955826080748494,
+            "touches": 13,
+            "trace": 0.010056741799564405
+          },
+          {
+            "activation": 0.0,
+            "associative": 0.0,
+            "birth_us": "0",
+            "channel": 11,
+            "direct": 0.0,
+            "generated_inhibition": 0.0,
+            "id": 2,
+            "inhibition": 4.765318898359168e-05,
+            "last_touch_us": "2910000",
+            "local_plasticity": 0.9295306494180012,
+            "pending_inhibition": 0.0,
+            "stability": 0.09787409803055387,
+            "support": 0.1516906013880851,
+            "touches": 13,
+            "trace": 0.007656663370758952
+          },
+          {
+            "activation": 0.0,
+            "associative": 0.0,
+            "birth_us": "0",
+            "channel": 20,
+            "direct": 0.0,
+            "generated_inhibition": 0.0,
+            "id": 3,
+            "inhibition": 5.983835692521518e-05,
+            "last_touch_us": "2810000",
+            "local_plasticity": 0.9839292933150943,
+            "pending_inhibition": 0.0,
+            "stability": 0.02232042595125794,
+            "support": 0.05432540387499407,
+            "touches": 6,
+            "trace": 0.0004283082318901924
+          },
+          {
+            "activation": 0.0,
+            "associative": 0.0,
+            "birth_us": "73000",
+            "channel": 21,
+            "direct": 0.0,
+            "generated_inhibition": 0.0,
+            "id": 4,
+            "inhibition": 5.853962389978644e-05,
+            "last_touch_us": "2810000",
+            "local_plasticity": 0.9839140036444445,
+            "pending_inhibition": 0.0,
+            "stability": 0.022341661604938213,
+            "support": 0.056302222550062675,
+            "touches": 6,
+            "trace": 0.004761951341241112
+          }
+        ],
+        "operator_state": {
+          "fast": [
+            {
+              "source": 1,
+              "state": {
+                "time_us": "2900000",
+                "value": 0.003574525820498747
+              },
+              "target": 2
+            },
+            {
+              "source": 1,
+              "state": {
+                "time_us": "2800000",
+                "value": 0.0014799576490947305
+              },
+              "target": 3
+            },
+            {
+              "source": 1,
+              "state": {
+                "time_us": "2800000",
+                "value": 0.0014696194395216293
+              },
+              "target": 4
+            },
+            {
+              "source": 2,
+              "state": {
+                "time_us": "2900000",
+                "value": 0.002924161768081243
+              },
+              "target": 1
+            },
+            {
+              "source": 2,
+              "state": {
+                "time_us": "2800000",
+                "value": 0.0011625077037974705
+              },
+              "target": 3
+            },
+            {
+              "source": 2,
+              "state": {
+                "time_us": "2800000",
+                "value": 0.0012005031458572027
+              },
+              "target": 4
+            },
+            {
+              "source": 3,
+              "state": {
+                "time_us": "1400000",
+                "value": 0.00041084862523028265
+              },
+              "target": 1
+            },
+            {
+              "source": 4,
+              "state": {
+                "time_us": "2800000",
+                "value": 0.0007249943624198274
+              },
+              "target": 1
+            },
+            {
+              "source": 4,
+              "state": {
+                "time_us": "2800000",
+                "value": 0.0006903553671715867
+              },
+              "target": 2
+            }
+          ],
+          "novelty": {
+            "audit": {
+              "awarded": 4,
+              "births": 10,
+              "cancelled": 0,
+              "disabled": 0,
+              "ineligible": 6,
+              "no_reentry": 0,
+              "reference_reached": 0,
+              "requested_bonus": 0.06817806995473856,
+              "stability_bonus": 0.06817806995473856,
+              "weight_bonus": 0.06817806995473857
+            },
+            "pending": [],
+            "serial": 4
+          },
+          "retention": {
+            "audit": {
+              "dormant_created": 0,
+              "dormant_expired": 0,
+              "edge_settlements": 434,
+              "expiry_checks": 0,
+              "node_settlements": 38,
+              "nodes_awakened": 0,
+              "nodes_deleted": 0,
+              "revived": 0
+            },
+            "deadlines": [
+              [
+                1,
+                3,
+                2,
+                "98200000"
+              ],
+              [
+                1,
+                3,
+                1,
+                "102800000"
+              ],
+              [
+                1,
+                2,
+                4,
+                "105900000"
+              ],
+              [
+                1,
+                4,
+                2,
+                "105900000"
+              ],
+              [
+                1,
+                2,
+                3,
+                "106200000"
+              ],
+              [
+                1,
+                4,
+                1,
+                "108200000"
+              ],
+              [
+                1,
+                1,
+                4,
+                "108300000"
+              ],
+              [
+                1,
+                1,
+                3,
+                "110000000"
+              ],
+              [
+                1,
+                1,
+                2,
+                "136400000"
+              ],
+              [
+                1,
+                2,
+                1,
+                "136400000"
+              ]
+            ],
+            "dormant": [],
+            "edges": [
+              [
+                1,
+                2,
+                30.0,
+                "4300000"
+              ],
+              [
+                1,
+                3,
+                30.0,
+                "4300000"
+              ],
+              [
+                1,
+                4,
+                30.0,
+                "4300000"
+              ],
+              [
+                2,
+                1,
+                30.0,
+                "4300000"
+              ],
+              [
+                2,
+                3,
+                30.0,
+                "4300000"
+              ],
+              [
+                2,
+                4,
+                30.0,
+                "4300000"
+              ],
+              [
+                3,
+                1,
+                30.0,
+                "4100000"
+              ],
+              [
+                3,
+                2,
+                30.0,
+                "4100000"
+              ],
+              [
+                4,
+                1,
+                30.0,
+                "4100000"
+              ],
+              [
+                4,
+                2,
+                30.0,
+                "4100000"
+              ]
+            ],
+            "fatigue": [],
+            "isolated": [],
+            "nodes": [
+              [
+                1,
+                32.213904557398656,
+                "2910000"
+              ],
+              [
+                2,
+                31.565984736987954,
+                "2910000"
+              ],
+              [
+                3,
+                30.296232220680192,
+                "2810000"
+              ],
+              [
+                4,
+                30.317413160477834,
+                "2810000"
+              ]
+            ],
+            "salience": [],
+            "sleeping": []
+          },
+          "short_term": [
+            {
+              "source": 1,
+              "state": {
+                "active": 0.10549760782731346,
+                "available": 0.1054976078273131,
+                "time_us": "3500000",
+                "utilization": 0.5
+              },
+              "target": 2
+            },
+            {
+              "source": 1,
+              "state": {
+                "active": 0.108618732807569,
+                "available": 0.10861873280756862,
+                "time_us": "3300000",
+                "utilization": 0.5
+              },
+              "target": 3
+            },
+            {
+              "source": 1,
+              "state": {
+                "active": 0.10893645377151005,
+                "available": 0.10893645377150968,
+                "time_us": "3300000",
+                "utilization": 0.5
+              },
+              "target": 4
+            },
+            {
+              "source": 2,
+              "state": {
+                "active": 0.10634072793186641,
+                "available": 0.10634072793186605,
+                "time_us": "3400000",
+                "utilization": 0.5
+              },
+              "target": 1
+            },
+            {
+              "source": 2,
+              "state": {
+                "active": 0.11416362012510375,
+                "available": 0.11416362012510334,
+                "time_us": "3200000",
+                "utilization": 0.5
+              },
+              "target": 3
+            },
+            {
+              "source": 2,
+              "state": {
+                "active": 0.11480146347324947,
+                "available": 0.11480146347324904,
+                "time_us": "3200000",
+                "utilization": 0.5
+              },
+              "target": 4
+            },
+            {
+              "source": 3,
+              "state": {
+                "active": 0.1245114542109993,
+                "available": 0.1245114542109988,
+                "time_us": "1700000",
+                "utilization": 0.5
+              },
+              "target": 1
+            },
+            {
+              "source": 3,
+              "state": {
+                "active": 0.15356630829310336,
+                "available": 0.15356630829310264,
+                "time_us": "1600000",
+                "utilization": 0.5
+              },
+              "target": 2
+            },
+            {
+              "source": 4,
+              "state": {
+                "active": 0.133935994677127,
+                "available": 0.1339359946771264,
+                "time_us": "3100000",
+                "utilization": 0.5
+              },
+              "target": 1
+            },
+            {
+              "source": 4,
+              "state": {
+                "active": 0.133935994677127,
+                "available": 0.1339359946771264,
+                "time_us": "3100000",
+                "utilization": 0.5
+              },
+              "target": 2
+            }
+          ]
+        },
+        "queue": [],
+        "quiet_since_us": "4390000",
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0"
+        },
+        "schema": "threemind.continuous-memory-state/3.1",
+        "sequence": 550,
+        "silenced_edges": [],
+        "silenced_nodes": [],
+        "sources_open": true,
+        "state_time_us": "5000000",
+        "time_us": "5000000",
+        "transport": {
+          "activated": 8.749182588305311,
+          "discarded": 0.24707821278982922,
+          "received": 9.983515605091942,
+          "sent": 0.5105938178817728
+        },
+        "traversed": []
+      }
+    },
+    {
+      "mode": "adaptive-half-life",
+      "time_us": "120000000",
+      "state": {
+        "attention": {
+          "considered_channels": "0",
+          "counter_overflowed": false,
+          "evaluated_frames": "0",
+          "modulators": [],
+          "passed_channels": "0",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "config": {
+          "activation_decay_enabled": true,
+          "activation_floor": 0.004,
+          "activation_tau": 0.30441023431381903,
+          "associative_gain": 0.01,
+          "birth_weight": 0.065,
+          "consolidation_mode": "adaptive-half-life",
+          "context_enabled": true,
+          "context_mix": 1.0,
+          "context_tau_s": 1.0,
+          "context_temperature": 1.0,
+          "dead_node_retention_us": 80000000,
+          "delay_us": 10000,
+          "depletion_enabled": true,
+          "direct_gain": 0.9,
+          "dormant_prune_weight": 1e-08,
+          "dormant_traces_enabled": false,
+          "edge_consolidation_enabled": true,
+          "edge_wake_threshold": null,
+          "eligibility_decay_enabled": true,
+          "eligibility_tau": 0.40247707040780034,
+          "fast_enabled": true,
+          "fast_gain": 0.1,
+          "fast_learning_rate": 0.1,
+          "fast_tau_s": 2.0,
+          "first_gain": 0.045,
+          "forgetting_rate": 0.025,
+          "inhibition": true,
+          "inhibition_decay_enabled": true,
+          "inhibition_diffusion_rate": 3.5,
+          "inhibition_gain": 0.24,
+          "inhibition_response_gain": 2.0,
+          "inhibition_tau": 0.2321354823145728,
+          "intensity_gain": 0.075,
+          "learning_rate": 0.055,
+          "memory_growth_formula": "log-saturating",
+          "memory_half_life_decay_rate": 0.125,
+          "memory_half_life_max_s": 2592000.0,
+          "memory_half_life_min_s": 30.0,
+          "memory_learning_gain": 0.2,
+          "memory_weight_learning_rate": 0.55,
+          "node_prune_after_us": 80000000,
+          "node_retention_mode": "automatic",
+          "node_wake_threshold": null,
+          "novelty_mode": "arrival-window",
+          "plasticity": true,
+          "propagation_interval_us": 100000,
+          "propagation_rate": 4.2,
+          "prune_support": 0.006,
+          "prune_weight": 0.008,
+          "quiescence_death_us": 1000000000000,
+          "repeat_gain": 0.018,
+          "retain_nodes": false,
+          "revival_enabled": false,
+          "seed": 20260724,
+          "stability_decay_enabled": true,
+          "stability_gain": 0.022,
+          "stability_tau": 666.6666666666667,
+          "step_us": 10000,
+          "stp_active_tau_s": 0.003,
+          "stp_enabled": true,
+          "stp_facilitation_tau_s": 0.0,
+          "stp_recovery_tau_s": 0.8,
+          "stp_utilization": 0.5,
+          "strong_fatigue_enabled": true,
+          "strong_fatigue_gain": 1.0,
+          "strong_fatigue_tau_s": 5.0,
+          "support_decay_enabled": true,
+          "support_gain": 0.035,
+          "support_tau": 666.6666666666667,
+          "trace_decay_enabled": true,
+          "trace_tau": 0.5039028822088802
+        },
+        "definition": {
+          "config": {
+            "activation_decay_enabled": true,
+            "activation_floor": 0.004,
+            "activation_tau": 0.30441023431381903,
+            "associative_gain": 0.01,
+            "birth_weight": 0.065,
+            "consolidation_mode": "adaptive-half-life",
+            "context_enabled": true,
+            "context_mix": 1.0,
+            "context_tau_s": 1.0,
+            "context_temperature": 1.0,
+            "dead_node_retention_us": 80000000,
+            "delay_us": 10000,
+            "depletion_enabled": true,
+            "direct_gain": 0.9,
+            "dormant_prune_weight": 1e-08,
+            "dormant_traces_enabled": false,
+            "edge_consolidation_enabled": true,
+            "edge_wake_threshold": null,
+            "eligibility_decay_enabled": true,
+            "eligibility_tau": 0.40247707040780034,
+            "fast_enabled": true,
+            "fast_gain": 0.1,
+            "fast_learning_rate": 0.1,
+            "fast_tau_s": 2.0,
+            "first_gain": 0.045,
+            "forgetting_rate": 0.025,
+            "inhibition": true,
+            "inhibition_decay_enabled": true,
+            "inhibition_diffusion_rate": 3.5,
+            "inhibition_gain": 0.24,
+            "inhibition_response_gain": 2.0,
+            "inhibition_tau": 0.2321354823145728,
+            "intensity_gain": 0.075,
+            "learning_rate": 0.055,
+            "memory_growth_formula": "log-saturating",
+            "memory_half_life_decay_rate": 0.125,
+            "memory_half_life_max_s": 2592000.0,
+            "memory_half_life_min_s": 30.0,
+            "memory_learning_gain": 0.2,
+            "memory_weight_learning_rate": 0.55,
+            "node_prune_after_us": 80000000,
+            "node_retention_mode": "automatic",
+            "node_wake_threshold": null,
+            "novelty_mode": "arrival-window",
+            "plasticity": true,
+            "propagation_interval_us": 100000,
+            "propagation_rate": 4.2,
+            "prune_support": 0.006,
+            "prune_weight": 0.008,
+            "quiescence_death_us": 1000000000000,
+            "repeat_gain": 0.018,
+            "retain_nodes": false,
+            "revival_enabled": false,
+            "seed": 20260724,
+            "stability_decay_enabled": true,
+            "stability_gain": 0.022,
+            "stability_tau": 666.6666666666667,
+            "step_us": 10000,
+            "stp_active_tau_s": 0.003,
+            "stp_enabled": true,
+            "stp_facilitation_tau_s": 0.0,
+            "stp_recovery_tau_s": 0.8,
+            "stp_utilization": 0.5,
+            "strong_fatigue_enabled": true,
+            "strong_fatigue_gain": 1.0,
+            "strong_fatigue_tau_s": 5.0,
+            "support_decay_enabled": true,
+            "support_gain": 0.035,
+            "support_tau": 666.6666666666667,
+            "trace_decay_enabled": true,
+            "trace_tau": 0.5039028822088802
+          },
+          "hypothesis_id": "threemind.hypotheses/continuous-memory3",
+          "kernel_id": "threemind.continuous-memory/3",
+          "operators": [
+            {
+              "id": "threemind.causal9-transition/1",
+              "phase": "hybrid-event-clock"
+            },
+            {
+              "id": "threemind.leaky-fast-trace/1",
+              "phase": "efficacy-and-emission"
+            },
+            {
+              "id": "threemind.tm-synapse/1",
+              "phase": "before-emission"
+            },
+            {
+              "id": "threemind.local-context-attention/1",
+              "phase": "after-arrival"
+            },
+            {
+              "id": "threemind.resource-clamp-control/1",
+              "phase": "before-emission"
+            },
+            {
+              "id": "threemind.edge-consolidation-control/1",
+              "phase": "positive-edge-updates"
+            },
+            {
+              "id": "threemind.local-birth-novelty/2",
+              "phase": "after-arrivals-before-emission"
+            },
+            {
+              "id": "threemind.adaptive-half-life/2",
+              "phase": "local-touch-emission-expiry"
+            },
+            {
+              "id": "threemind.strong-input-fatigue/2",
+              "phase": "accepted-input"
+            },
+            {
+              "id": "threemind.optional-dormancy/2",
+              "phase": "local-expiry"
+            },
+            {
+              "id": "threemind.local-awakening/1",
+              "phase": "same-time-local-arrivals"
+            }
+          ],
+          "schema": "threemind.kernel-definition/1",
+          "state_schema": "threemind.continuous-memory-state/3.1"
+        },
+        "definition_hash": "fadc21389dad26f6f8f7797444d877251905b6452c84ad0025f8f5bfd1442499",
+        "dynamics": "threemind.continuous-memory/3",
+        "edges": [
+          {
+            "birth_us": "0",
+            "eligibility": 2.2066485586181811e-128,
+            "last_touch_us": "2900000",
+            "source": 1,
+            "stability": 0.19310897746579936,
+            "target": 2,
+            "touches": 12,
+            "weight": 0.16920061000558667
+          },
+          {
+            "birth_us": "0",
+            "eligibility": 2.079308856003405e-128,
+            "last_touch_us": "2900000",
+            "source": 2,
+            "stability": 0.19291729764128143,
+            "target": 1,
+            "touches": 12,
+            "weight": 0.1691200890916701
+          }
+        ],
+        "energy": {
+          "consumed_associative": 0.0,
+          "consumed_direct": 0.0,
+          "consumed_inhibition": 0.0,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "reserve": 1.0,
+          "schema": "threemind.energy/1",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "life": "active",
+        "next_event": 50,
+        "next_node": 5,
+        "next_propagation_us": "120100000",
+        "next_step_us": "120010000",
+        "nodes": [
+          {
+            "activation": 0.0,
+            "associative": 0.0,
+            "birth_us": "0",
+            "channel": 10,
+            "direct": 0.0,
+            "generated_inhibition": 0.0,
+            "id": 1,
+            "inhibition": 3.4485773828665837e-220,
+            "last_touch_us": "2910000",
+            "local_plasticity": 0.9181245556918052,
+            "pending_inhibition": 0.0,
+            "stability": 0.11371589487249288,
+            "support": 0.1955826080748494,
+            "touches": 13,
+            "trace": 7.733703919075886e-102
+          },
+          {
+            "activation": 0.0,
+            "associative": 0.0,
+            "birth_us": "0",
+            "channel": 11,
+            "direct": 0.0,
+            "generated_inhibition": 0.0,
+            "id": 2,
+            "inhibition": 3.376386135644554e-220,
+            "last_touch_us": "2910000",
+            "local_plasticity": 0.9295306494180012,
+            "pending_inhibition": 0.0,
+            "stability": 0.09787409803055387,
+            "support": 0.1516906013880851,
+            "touches": 13,
+            "trace": 5.8880270268098104e-102
+          }
+        ],
+        "operator_state": {
+          "fast": [
+            {
+              "source": 1,
+              "state": {
+                "time_us": "2900000",
+                "value": 0.003574525820498747
+              },
+              "target": 2
+            },
+            {
+              "source": 2,
+              "state": {
+                "time_us": "2900000",
+                "value": 0.002924161768081243
+              },
+              "target": 1
+            }
+          ],
+          "novelty": {
+            "audit": {
+              "awarded": 4,
+              "births": 10,
+              "cancelled": 0,
+              "disabled": 0,
+              "ineligible": 6,
+              "no_reentry": 0,
+              "reference_reached": 0,
+              "requested_bonus": 0.06817806995473856,
+              "stability_bonus": 0.06817806995473856,
+              "weight_bonus": 0.06817806995473857
+            },
+            "pending": [],
+            "serial": 4
+          },
+          "retention": {
+            "audit": {
+              "dormant_created": 0,
+              "dormant_expired": 0,
+              "edge_settlements": 442,
+              "expiry_checks": 10,
+              "node_settlements": 40,
+              "nodes_awakened": 0,
+              "nodes_deleted": 2,
+              "revived": 0
+            },
+            "deadlines": [
+              [
+                1,
+                1,
+                2,
+                "136400000"
+              ],
+              [
+                1,
+                2,
+                1,
+                "136400000"
+              ]
+            ],
+            "dormant": [],
+            "edges": [
+              [
+                1,
+                2,
+                30.0,
+                "4300000"
+              ],
+              [
+                2,
+                1,
+                30.0,
+                "4300000"
+              ]
+            ],
+            "fatigue": [],
+            "isolated": [],
+            "nodes": [
+              [
+                1,
+                32.213904557398656,
+                "2910000"
+              ],
+              [
+                2,
+                31.565984736987954,
+                "2910000"
+              ]
+            ],
+            "salience": [],
+            "sleeping": []
+          },
+          "short_term": [
+            {
+              "source": 1,
+              "state": {
+                "active": 0.10549760782731346,
+                "available": 0.1054976078273131,
+                "time_us": "3500000",
+                "utilization": 0.5
+              },
+              "target": 2
+            },
+            {
+              "source": 2,
+              "state": {
+                "active": 0.10634072793186641,
+                "available": 0.10634072793186605,
+                "time_us": "3400000",
+                "utilization": 0.5
+              },
+              "target": 1
+            }
+          ]
+        },
+        "queue": [],
+        "quiet_since_us": "4390000",
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0"
+        },
+        "schema": "threemind.continuous-memory-state/3.1",
+        "sequence": 12050,
+        "silenced_edges": [],
+        "silenced_nodes": [],
+        "sources_open": true,
+        "state_time_us": "120000000",
+        "time_us": "120000000",
+        "transport": {
+          "activated": 8.749182588305311,
+          "discarded": 0.24707821278982922,
+          "received": 9.983515605091942,
+          "sent": 0.5105938178817728
+        },
+        "traversed": []
+      }
+    },
+    {
+      "mode": "legacy-stability",
+      "time_us": "611337",
+      "state": {
+        "attention": {
+          "considered_channels": "0",
+          "counter_overflowed": false,
+          "evaluated_frames": "0",
+          "modulators": [],
+          "passed_channels": "0",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "config": {
+          "activation_decay_enabled": true,
+          "activation_floor": 0.004,
+          "activation_tau": 0.30441023431381903,
+          "associative_gain": 0.01,
+          "birth_weight": 0.065,
+          "consolidation_mode": "legacy-stability",
+          "context_enabled": true,
+          "context_mix": 1.0,
+          "context_tau_s": 1.0,
+          "context_temperature": 1.0,
+          "dead_node_retention_us": 80000000,
+          "delay_us": 10000,
+          "depletion_enabled": true,
+          "direct_gain": 0.9,
+          "dormant_prune_weight": 1e-08,
+          "dormant_traces_enabled": false,
+          "edge_consolidation_enabled": true,
+          "edge_wake_threshold": null,
+          "eligibility_decay_enabled": true,
+          "eligibility_tau": 0.40247707040780034,
+          "fast_enabled": true,
+          "fast_gain": 0.1,
+          "fast_learning_rate": 0.1,
+          "fast_tau_s": 2.0,
+          "first_gain": 0.045,
+          "forgetting_rate": 0.025,
+          "inhibition": true,
+          "inhibition_decay_enabled": true,
+          "inhibition_diffusion_rate": 3.5,
+          "inhibition_gain": 0.24,
+          "inhibition_response_gain": 2.0,
+          "inhibition_tau": 0.2321354823145728,
+          "intensity_gain": 0.075,
+          "learning_rate": 0.055,
+          "memory_growth_formula": "log-saturating",
+          "memory_half_life_decay_rate": 0.125,
+          "memory_half_life_max_s": 2592000.0,
+          "memory_half_life_min_s": 30.0,
+          "memory_learning_gain": 0.2,
+          "memory_weight_learning_rate": 0.55,
+          "node_prune_after_us": 80000000,
+          "node_retention_mode": "automatic",
+          "node_wake_threshold": null,
+          "novelty_mode": "arrival-window",
+          "plasticity": true,
+          "propagation_interval_us": 100000,
+          "propagation_rate": 4.2,
+          "prune_support": 0.006,
+          "prune_weight": 0.008,
+          "quiescence_death_us": 1000000000000,
+          "repeat_gain": 0.018,
+          "retain_nodes": false,
+          "revival_enabled": false,
+          "seed": 20260724,
+          "stability_decay_enabled": true,
+          "stability_gain": 0.022,
+          "stability_tau": 666.6666666666667,
+          "step_us": 10000,
+          "stp_active_tau_s": 0.003,
+          "stp_enabled": true,
+          "stp_facilitation_tau_s": 0.0,
+          "stp_recovery_tau_s": 0.8,
+          "stp_utilization": 0.5,
+          "strong_fatigue_enabled": true,
+          "strong_fatigue_gain": 1.0,
+          "strong_fatigue_tau_s": 5.0,
+          "support_decay_enabled": true,
+          "support_gain": 0.035,
+          "support_tau": 666.6666666666667,
+          "trace_decay_enabled": true,
+          "trace_tau": 0.5039028822088802
+        },
+        "definition": {
+          "config": {
+            "activation_decay_enabled": true,
+            "activation_floor": 0.004,
+            "activation_tau": 0.30441023431381903,
+            "associative_gain": 0.01,
+            "birth_weight": 0.065,
+            "consolidation_mode": "legacy-stability",
+            "context_enabled": true,
+            "context_mix": 1.0,
+            "context_tau_s": 1.0,
+            "context_temperature": 1.0,
+            "dead_node_retention_us": 80000000,
+            "delay_us": 10000,
+            "depletion_enabled": true,
+            "direct_gain": 0.9,
+            "dormant_prune_weight": 1e-08,
+            "dormant_traces_enabled": false,
+            "edge_consolidation_enabled": true,
+            "edge_wake_threshold": null,
+            "eligibility_decay_enabled": true,
+            "eligibility_tau": 0.40247707040780034,
+            "fast_enabled": true,
+            "fast_gain": 0.1,
+            "fast_learning_rate": 0.1,
+            "fast_tau_s": 2.0,
+            "first_gain": 0.045,
+            "forgetting_rate": 0.025,
+            "inhibition": true,
+            "inhibition_decay_enabled": true,
+            "inhibition_diffusion_rate": 3.5,
+            "inhibition_gain": 0.24,
+            "inhibition_response_gain": 2.0,
+            "inhibition_tau": 0.2321354823145728,
+            "intensity_gain": 0.075,
+            "learning_rate": 0.055,
+            "memory_growth_formula": "log-saturating",
+            "memory_half_life_decay_rate": 0.125,
+            "memory_half_life_max_s": 2592000.0,
+            "memory_half_life_min_s": 30.0,
+            "memory_learning_gain": 0.2,
+            "memory_weight_learning_rate": 0.55,
+            "node_prune_after_us": 80000000,
+            "node_retention_mode": "automatic",
+            "node_wake_threshold": null,
+            "novelty_mode": "arrival-window",
+            "plasticity": true,
+            "propagation_interval_us": 100000,
+            "propagation_rate": 4.2,
+            "prune_support": 0.006,
+            "prune_weight": 0.008,
+            "quiescence_death_us": 1000000000000,
+            "repeat_gain": 0.018,
+            "retain_nodes": false,
+            "revival_enabled": false,
+            "seed": 20260724,
+            "stability_decay_enabled": true,
+            "stability_gain": 0.022,
+            "stability_tau": 666.6666666666667,
+            "step_us": 10000,
+            "stp_active_tau_s": 0.003,
+            "stp_enabled": true,
+            "stp_facilitation_tau_s": 0.0,
+            "stp_recovery_tau_s": 0.8,
+            "stp_utilization": 0.5,
+            "strong_fatigue_enabled": true,
+            "strong_fatigue_gain": 1.0,
+            "strong_fatigue_tau_s": 5.0,
+            "support_decay_enabled": true,
+            "support_gain": 0.035,
+            "support_tau": 666.6666666666667,
+            "trace_decay_enabled": true,
+            "trace_tau": 0.5039028822088802
+          },
+          "hypothesis_id": "threemind.hypotheses/continuous-memory3",
+          "kernel_id": "threemind.continuous-memory/3",
+          "operators": [
+            {
+              "id": "threemind.causal9-transition/1",
+              "phase": "hybrid-event-clock"
+            },
+            {
+              "id": "threemind.leaky-fast-trace/1",
+              "phase": "efficacy-and-emission"
+            },
+            {
+              "id": "threemind.tm-synapse/1",
+              "phase": "before-emission"
+            },
+            {
+              "id": "threemind.local-context-attention/1",
+              "phase": "after-arrival"
+            },
+            {
+              "id": "threemind.resource-clamp-control/1",
+              "phase": "before-emission"
+            },
+            {
+              "id": "threemind.edge-consolidation-control/1",
+              "phase": "positive-edge-updates"
+            },
+            {
+              "id": "threemind.local-birth-novelty/2",
+              "phase": "after-arrivals-before-emission"
+            },
+            {
+              "id": "threemind.adaptive-half-life/2",
+              "phase": "local-touch-emission-expiry"
+            },
+            {
+              "id": "threemind.strong-input-fatigue/2",
+              "phase": "accepted-input"
+            },
+            {
+              "id": "threemind.optional-dormancy/2",
+              "phase": "local-expiry"
+            },
+            {
+              "id": "threemind.local-awakening/1",
+              "phase": "same-time-local-arrivals"
+            }
+          ],
+          "schema": "threemind.kernel-definition/1",
+          "state_schema": "threemind.continuous-memory-state/3.1"
+        },
+        "definition_hash": "d76f8a710b78f8f0494a5f7a7dfb1e298799ed11161bdea7c55c477d6c1bb5b1",
+        "dynamics": "threemind.continuous-memory/3",
+        "edges": [
+          {
+            "birth_us": "0",
+            "eligibility": 0.07956825081167766,
+            "last_touch_us": "300000",
+            "source": 1,
+            "stability": 0.20542016940493163,
+            "target": 2,
+            "touches": 5,
+            "weight": 0.14890877052295154
+          },
+          {
+            "birth_us": "0",
+            "eligibility": 0.04627490733835051,
+            "last_touch_us": "200000",
+            "source": 1,
+            "stability": 0.11661423566157465,
+            "target": 3,
+            "touches": 3,
+            "weight": 0.09197652972831208
+          },
+          {
+            "birth_us": "73000",
+            "eligibility": 0.00813372659474829,
+            "last_touch_us": "200000",
+            "source": 1,
+            "stability": 0.05608556785783215,
+            "target": 4,
+            "touches": 2,
+            "weight": 0.07954840009154358
+          },
+          {
+            "birth_us": "0",
+            "eligibility": 0.0795323653757439,
+            "last_touch_us": "300000",
+            "source": 2,
+            "stability": 0.20540900685915928,
+            "target": 1,
+            "touches": 5,
+            "weight": 0.14890413585211124
+          },
+          {
+            "birth_us": "0",
+            "eligibility": 0.04431967553568827,
+            "last_touch_us": "200000",
+            "source": 2,
+            "stability": 0.10046024868153491,
+            "target": 3,
+            "touches": 3,
+            "weight": 0.08542927602250334
+          },
+          {
+            "birth_us": "73000",
+            "eligibility": 0.007616247461485397,
+            "last_touch_us": "200000",
+            "source": 2,
+            "stability": 0.05250401718684702,
+            "target": 4,
+            "touches": 2,
+            "weight": 0.07808729294435088
+          },
+          {
+            "birth_us": "0",
+            "eligibility": 0.06541326690459255,
+            "last_touch_us": "180000",
+            "source": 3,
+            "stability": 0.10796142867060164,
+            "target": 1,
+            "touches": 1,
+            "weight": 0.07628335176857606
+          },
+          {
+            "birth_us": "0",
+            "eligibility": 0.062322806106307777,
+            "last_touch_us": "180000",
+            "source": 3,
+            "stability": 0.09185149870582127,
+            "target": 2,
+            "touches": 1,
+            "weight": 0.06967683583489703
+          },
+          {
+            "birth_us": "73000",
+            "eligibility": 0.007211338289220284,
+            "last_touch_us": "100000",
+            "source": 4,
+            "stability": 0.0557709096743143,
+            "target": 1,
+            "touches": 1,
+            "weight": 0.07923499167751918
+          },
+          {
+            "birth_us": "73000",
+            "eligibility": 0.006626692506025337,
+            "last_touch_us": "100000",
+            "source": 4,
+            "stability": 0.05220353710929266,
+            "target": 2,
+            "touches": 1,
+            "weight": 0.07778281816408966
+          }
+        ],
+        "energy": {
+          "consumed_associative": 0.0,
+          "consumed_direct": 0.0,
+          "consumed_inhibition": 0.0,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "reserve": 1.0,
+          "schema": "threemind.energy/1",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "life": "active",
+        "next_event": 15,
+        "next_node": 5,
+        "next_propagation_us": "700000",
+        "next_step_us": "620000",
+        "nodes": [
+          {
+            "activation": 0.2477320921765171,
+            "associative": 0.0,
+            "birth_us": "0",
+            "channel": 10,
+            "direct": 0.0,
+            "generated_inhibition": 0.0,
+            "id": 1,
+            "inhibition": 0.0543446296880178,
+            "last_touch_us": "310000",
+            "local_plasticity": 0.9588596577551011,
+            "pending_inhibition": 0.030611480708655922,
+            "stability": 0.05713936422902636,
+            "support": 0.10563541999360948,
+            "touches": 6,
+            "trace": 0.4327293415770301
+          },
+          {
+            "activation": 0.2477063076618597,
+            "associative": 0.0,
+            "birth_us": "0",
+            "channel": 11,
+            "direct": 0.0,
+            "generated_inhibition": 0.0,
+            "id": 2,
+            "inhibition": 0.052987303772726174,
+            "last_touch_us": "310000",
+            "local_plasticity": 0.9608076899843355,
+            "pending_inhibition": 0.029836904772431918,
+            "stability": 0.05443376391064509,
+            "support": 0.08090341066873796,
+            "touches": 6,
+            "trace": 0.43268648194848
+          },
+          {
+            "activation": 0.13333705244522098,
+            "associative": 0.0,
+            "birth_us": "0",
+            "channel": 20,
+            "direct": 0.0,
+            "generated_inhibition": 0.0,
+            "id": 3,
+            "inhibition": 0.03078356026856132,
+            "last_touch_us": "210000",
+            "local_plasticity": 0.9868677589967576,
+            "pending_inhibition": 0.016913893128977044,
+            "stability": 0.018239223615614388,
+            "support": 0.038176684367218994,
+            "touches": 4,
+            "trace": 0.25586387393722876
+          },
+          {
+            "activation": 0.06529401814517771,
+            "associative": 0.0,
+            "birth_us": "73000",
+            "channel": 21,
+            "direct": 0.0,
+            "generated_inhibition": 0.0,
+            "id": 4,
+            "inhibition": 0.026275290533382428,
+            "last_touch_us": "210000",
+            "local_plasticity": 0.99261550383785,
+            "pending_inhibition": 0.015031199491799822,
+            "stability": 0.01025624466965281,
+            "support": 0.020426634942295574,
+            "touches": 3,
+            "trace": 0.1305699011256361
+          }
+        ],
+        "operator_state": {
+          "fast": [
+            {
+              "source": 1,
+              "state": {
+                "time_us": "300000",
+                "value": 0.0034041927992340035
+              },
+              "target": 2
+            },
+            {
+              "source": 1,
+              "state": {
+                "time_us": "200000",
+                "value": 0.0018949676286667146
+              },
+              "target": 3
+            },
+            {
+              "source": 1,
+              "state": {
+                "time_us": "200000",
+                "value": 0.0017958882498593197
+              },
+              "target": 4
+            },
+            {
+              "source": 2,
+              "state": {
+                "time_us": "300000",
+                "value": 0.0033598849888789037
+              },
+              "target": 1
+            },
+            {
+              "source": 2,
+              "state": {
+                "time_us": "200000",
+                "value": 0.0016951039092837016
+              },
+              "target": 3
+            },
+            {
+              "source": 2,
+              "state": {
+                "time_us": "200000",
+                "value": 0.0017247603581717155
+              },
+              "target": 4
+            },
+            {
+              "source": 4,
+              "state": {
+                "time_us": "100000",
+                "value": 0.00043585153205664485
+              },
+              "target": 1
+            },
+            {
+              "source": 4,
+              "state": {
+                "time_us": "100000",
+                "value": 0.00042572887170691656
+              },
+              "target": 2
+            }
+          ],
+          "novelty": {
+            "audit": {
+              "awarded": 4,
+              "births": 10,
+              "cancelled": 0,
+              "disabled": 0,
+              "ineligible": 6,
+              "no_reentry": 0,
+              "reference_reached": 0,
+              "requested_bonus": 0.06817568496686781,
+              "stability_bonus": 0.06817568496686781,
+              "weight_bonus": 0.06817568496686782
+            },
+            "pending": [],
+            "serial": 4
+          },
+          "retention": {
+            "audit": {
+              "dormant_created": 0,
+              "dormant_expired": 0,
+              "edge_settlements": 72,
+              "expiry_checks": 0,
+              "node_settlements": 19,
+              "nodes_awakened": 0,
+              "nodes_deleted": 0,
+              "revived": 0
+            },
+            "deadlines": [],
+            "dormant": [],
+            "edges": [
+              [
+                1,
+                2,
+                30.0,
+                "600000"
+              ],
+              [
+                1,
+                3,
+                30.0,
+                "600000"
+              ],
+              [
+                1,
+                4,
+                30.0,
+                "600000"
+              ],
+              [
+                2,
+                1,
+                30.0,
+                "600000"
+              ],
+              [
+                2,
+                3,
+                30.0,
+                "600000"
+              ],
+              [
+                2,
+                4,
+                30.0,
+                "600000"
+              ],
+              [
+                3,
+                1,
+                30.0,
+                "600000"
+              ],
+              [
+                3,
+                2,
+                30.0,
+                "600000"
+              ],
+              [
+                4,
+                1,
+                30.0,
+                "600000"
+              ],
+              [
+                4,
+                2,
+                30.0,
+                "600000"
+              ]
+            ],
+            "fatigue": [],
+            "isolated": [],
+            "nodes": [
+              [
+                1,
+                31.20844891854915,
+                "310000"
+              ],
+              [
+                2,
+                30.899390554671783,
+                "310000"
+              ],
+              [
+                3,
+                30.402208285327294,
+                "210000"
+              ],
+              [
+                4,
+                30.20949204626771,
+                "210000"
+              ]
+            ],
+            "salience": [],
+            "sleeping": []
+          },
+          "short_term": [
+            {
+              "source": 1,
+              "state": {
+                "active": 0.11132266785344293,
+                "available": 0.11132266785344253,
+                "time_us": "600000",
+                "utilization": 0.5
+              },
+              "target": 2
+            },
+            {
+              "source": 1,
+              "state": {
+                "active": 0.11132266785344293,
+                "available": 0.11132266785344253,
+                "time_us": "600000",
+                "utilization": 0.5
+              },
+              "target": 3
+            },
+            {
+              "source": 1,
+              "state": {
+                "active": 0.11132266785344293,
+                "available": 0.11132266785344253,
+                "time_us": "600000",
+                "utilization": 0.5
+              },
+              "target": 4
+            },
+            {
+              "source": 2,
+              "state": {
+                "active": 0.11132266785344293,
+                "available": 0.11132266785344253,
+                "time_us": "600000",
+                "utilization": 0.5
+              },
+              "target": 1
+            },
+            {
+              "source": 2,
+              "state": {
+                "active": 0.11132266785344293,
+                "available": 0.11132266785344253,
+                "time_us": "600000",
+                "utilization": 0.5
+              },
+              "target": 3
+            },
+            {
+              "source": 2,
+              "state": {
+                "active": 0.11132266785344293,
+                "available": 0.11132266785344253,
+                "time_us": "600000",
+                "utilization": 0.5
+              },
+              "target": 4
+            },
+            {
+              "source": 3,
+              "state": {
+                "active": 0.11132266785344293,
+                "available": 0.11132266785344253,
+                "time_us": "600000",
+                "utilization": 0.5
+              },
+              "target": 1
+            },
+            {
+              "source": 3,
+              "state": {
+                "active": 0.11959192247300283,
+                "available": 0.11959192247300238,
+                "time_us": "500000",
+                "utilization": 0.5
+              },
+              "target": 2
+            },
+            {
+              "source": 4,
+              "state": {
+                "active": 0.18119660072849492,
+                "available": 0.18119660072849397,
+                "time_us": "300000",
+                "utilization": 0.5
+              },
+              "target": 1
+            },
+            {
+              "source": 4,
+              "state": {
+                "active": 0.18119660072849492,
+                "available": 0.18119660072849397,
+                "time_us": "300000",
+                "utilization": 0.5
+              },
+              "target": 2
+            }
+          ]
+        },
+        "queue": [
+          {
+            "id": 4,
+            "kind": "stimulus",
+            "payload": {
+              "channels": [
+                [
+                  10,
+                  0.8
+                ],
+                [
+                  11,
+                  0.6
+                ],
+                [
+                  21,
+                  0.4
+                ]
+              ],
+              "intensity": 1.0,
+              "time_us": "800000"
+            },
+            "time_us": "800000"
+          },
+          {
+            "id": 5,
+            "kind": "stimulus",
+            "payload": {
+              "channels": [
+                [
+                  10,
+                  0.8
+                ],
+                [
+                  11,
+                  0.6
+                ],
+                [
+                  20,
+                  0.4
+                ]
+              ],
+              "intensity": 1.0,
+              "time_us": "1400000"
+            },
+            "time_us": "1400000"
+          },
+          {
+            "id": 6,
+            "kind": "stimulus",
+            "payload": {
+              "channels": [
+                [
+                  10,
+                  0.8
+                ],
+                [
+                  11,
+                  0.6
+                ],
+                [
+                  21,
+                  0.4
+                ]
+              ],
+              "intensity": 1.0,
+              "time_us": "2800000"
+            },
+            "time_us": "2800000"
+          }
+        ],
+        "quiet_since_us": null,
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0"
+        },
+        "schema": "threemind.continuous-memory-state/3.1",
+        "sequence": 73,
+        "silenced_edges": [],
+        "silenced_nodes": [],
+        "sources_open": true,
+        "state_time_us": "610000",
+        "time_us": "611337",
+        "transport": {
+          "activated": 3.968913291509074,
+          "discarded": 0.06947218243498211,
+          "received": 5.014492598318341,
+          "sent": 0.2239647807533244
+        },
+        "traversed": []
+      }
+    },
+    {
+      "mode": "legacy-stability",
+      "time_us": "5000000",
+      "state": {
+        "attention": {
+          "considered_channels": "0",
+          "counter_overflowed": false,
+          "evaluated_frames": "0",
+          "modulators": [],
+          "passed_channels": "0",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "config": {
+          "activation_decay_enabled": true,
+          "activation_floor": 0.004,
+          "activation_tau": 0.30441023431381903,
+          "associative_gain": 0.01,
+          "birth_weight": 0.065,
+          "consolidation_mode": "legacy-stability",
+          "context_enabled": true,
+          "context_mix": 1.0,
+          "context_tau_s": 1.0,
+          "context_temperature": 1.0,
+          "dead_node_retention_us": 80000000,
+          "delay_us": 10000,
+          "depletion_enabled": true,
+          "direct_gain": 0.9,
+          "dormant_prune_weight": 1e-08,
+          "dormant_traces_enabled": false,
+          "edge_consolidation_enabled": true,
+          "edge_wake_threshold": null,
+          "eligibility_decay_enabled": true,
+          "eligibility_tau": 0.40247707040780034,
+          "fast_enabled": true,
+          "fast_gain": 0.1,
+          "fast_learning_rate": 0.1,
+          "fast_tau_s": 2.0,
+          "first_gain": 0.045,
+          "forgetting_rate": 0.025,
+          "inhibition": true,
+          "inhibition_decay_enabled": true,
+          "inhibition_diffusion_rate": 3.5,
+          "inhibition_gain": 0.24,
+          "inhibition_response_gain": 2.0,
+          "inhibition_tau": 0.2321354823145728,
+          "intensity_gain": 0.075,
+          "learning_rate": 0.055,
+          "memory_growth_formula": "log-saturating",
+          "memory_half_life_decay_rate": 0.125,
+          "memory_half_life_max_s": 2592000.0,
+          "memory_half_life_min_s": 30.0,
+          "memory_learning_gain": 0.2,
+          "memory_weight_learning_rate": 0.55,
+          "node_prune_after_us": 80000000,
+          "node_retention_mode": "automatic",
+          "node_wake_threshold": null,
+          "novelty_mode": "arrival-window",
+          "plasticity": true,
+          "propagation_interval_us": 100000,
+          "propagation_rate": 4.2,
+          "prune_support": 0.006,
+          "prune_weight": 0.008,
+          "quiescence_death_us": 1000000000000,
+          "repeat_gain": 0.018,
+          "retain_nodes": false,
+          "revival_enabled": false,
+          "seed": 20260724,
+          "stability_decay_enabled": true,
+          "stability_gain": 0.022,
+          "stability_tau": 666.6666666666667,
+          "step_us": 10000,
+          "stp_active_tau_s": 0.003,
+          "stp_enabled": true,
+          "stp_facilitation_tau_s": 0.0,
+          "stp_recovery_tau_s": 0.8,
+          "stp_utilization": 0.5,
+          "strong_fatigue_enabled": true,
+          "strong_fatigue_gain": 1.0,
+          "strong_fatigue_tau_s": 5.0,
+          "support_decay_enabled": true,
+          "support_gain": 0.035,
+          "support_tau": 666.6666666666667,
+          "trace_decay_enabled": true,
+          "trace_tau": 0.5039028822088802
+        },
+        "definition": {
+          "config": {
+            "activation_decay_enabled": true,
+            "activation_floor": 0.004,
+            "activation_tau": 0.30441023431381903,
+            "associative_gain": 0.01,
+            "birth_weight": 0.065,
+            "consolidation_mode": "legacy-stability",
+            "context_enabled": true,
+            "context_mix": 1.0,
+            "context_tau_s": 1.0,
+            "context_temperature": 1.0,
+            "dead_node_retention_us": 80000000,
+            "delay_us": 10000,
+            "depletion_enabled": true,
+            "direct_gain": 0.9,
+            "dormant_prune_weight": 1e-08,
+            "dormant_traces_enabled": false,
+            "edge_consolidation_enabled": true,
+            "edge_wake_threshold": null,
+            "eligibility_decay_enabled": true,
+            "eligibility_tau": 0.40247707040780034,
+            "fast_enabled": true,
+            "fast_gain": 0.1,
+            "fast_learning_rate": 0.1,
+            "fast_tau_s": 2.0,
+            "first_gain": 0.045,
+            "forgetting_rate": 0.025,
+            "inhibition": true,
+            "inhibition_decay_enabled": true,
+            "inhibition_diffusion_rate": 3.5,
+            "inhibition_gain": 0.24,
+            "inhibition_response_gain": 2.0,
+            "inhibition_tau": 0.2321354823145728,
+            "intensity_gain": 0.075,
+            "learning_rate": 0.055,
+            "memory_growth_formula": "log-saturating",
+            "memory_half_life_decay_rate": 0.125,
+            "memory_half_life_max_s": 2592000.0,
+            "memory_half_life_min_s": 30.0,
+            "memory_learning_gain": 0.2,
+            "memory_weight_learning_rate": 0.55,
+            "node_prune_after_us": 80000000,
+            "node_retention_mode": "automatic",
+            "node_wake_threshold": null,
+            "novelty_mode": "arrival-window",
+            "plasticity": true,
+            "propagation_interval_us": 100000,
+            "propagation_rate": 4.2,
+            "prune_support": 0.006,
+            "prune_weight": 0.008,
+            "quiescence_death_us": 1000000000000,
+            "repeat_gain": 0.018,
+            "retain_nodes": false,
+            "revival_enabled": false,
+            "seed": 20260724,
+            "stability_decay_enabled": true,
+            "stability_gain": 0.022,
+            "stability_tau": 666.6666666666667,
+            "step_us": 10000,
+            "stp_active_tau_s": 0.003,
+            "stp_enabled": true,
+            "stp_facilitation_tau_s": 0.0,
+            "stp_recovery_tau_s": 0.8,
+            "stp_utilization": 0.5,
+            "strong_fatigue_enabled": true,
+            "strong_fatigue_gain": 1.0,
+            "strong_fatigue_tau_s": 5.0,
+            "support_decay_enabled": true,
+            "support_gain": 0.035,
+            "support_tau": 666.6666666666667,
+            "trace_decay_enabled": true,
+            "trace_tau": 0.5039028822088802
+          },
+          "hypothesis_id": "threemind.hypotheses/continuous-memory3",
+          "kernel_id": "threemind.continuous-memory/3",
+          "operators": [
+            {
+              "id": "threemind.causal9-transition/1",
+              "phase": "hybrid-event-clock"
+            },
+            {
+              "id": "threemind.leaky-fast-trace/1",
+              "phase": "efficacy-and-emission"
+            },
+            {
+              "id": "threemind.tm-synapse/1",
+              "phase": "before-emission"
+            },
+            {
+              "id": "threemind.local-context-attention/1",
+              "phase": "after-arrival"
+            },
+            {
+              "id": "threemind.resource-clamp-control/1",
+              "phase": "before-emission"
+            },
+            {
+              "id": "threemind.edge-consolidation-control/1",
+              "phase": "positive-edge-updates"
+            },
+            {
+              "id": "threemind.local-birth-novelty/2",
+              "phase": "after-arrivals-before-emission"
+            },
+            {
+              "id": "threemind.adaptive-half-life/2",
+              "phase": "local-touch-emission-expiry"
+            },
+            {
+              "id": "threemind.strong-input-fatigue/2",
+              "phase": "accepted-input"
+            },
+            {
+              "id": "threemind.optional-dormancy/2",
+              "phase": "local-expiry"
+            },
+            {
+              "id": "threemind.local-awakening/1",
+              "phase": "same-time-local-arrivals"
+            }
+          ],
+          "schema": "threemind.kernel-definition/1",
+          "state_schema": "threemind.continuous-memory-state/3.1"
+        },
+        "definition_hash": "d76f8a710b78f8f0494a5f7a7dfb1e298799ed11161bdea7c55c477d6c1bb5b1",
+        "dynamics": "threemind.continuous-memory/3",
+        "edges": [
+          {
+            "birth_us": "0",
+            "eligibility": 0.0002691704347562068,
+            "last_touch_us": "2900000",
+            "source": 1,
+            "stability": 0.36558443354436954,
+            "target": 2,
+            "touches": 12,
+            "weight": 0.17381882747633046
+          },
+          {
+            "birth_us": "0",
+            "eligibility": 3.945263418904888e-05,
+            "last_touch_us": "2800000",
+            "source": 1,
+            "stability": 0.14639180158840245,
+            "target": 3,
+            "touches": 5,
+            "weight": 0.09227310516187427
+          },
+          {
+            "birth_us": "73000",
+            "eligibility": 0.00022621824275134532,
+            "last_touch_us": "2800000",
+            "source": 1,
+            "stability": 0.11944327837865326,
+            "target": 4,
+            "touches": 5,
+            "weight": 0.0881955127776141
+          },
+          {
+            "birth_us": "0",
+            "eligibility": 0.0002576822549361914,
+            "last_touch_us": "2900000",
+            "source": 2,
+            "stability": 0.3654273176484708,
+            "target": 1,
+            "touches": 12,
+            "weight": 0.17375083996582555
+          },
+          {
+            "birth_us": "0",
+            "eligibility": 2.9022909645153e-05,
+            "last_touch_us": "2800000",
+            "source": 2,
+            "stability": 0.12307565411494234,
+            "target": 3,
+            "touches": 5,
+            "weight": 0.08434056939325082
+          },
+          {
+            "birth_us": "73000",
+            "eligibility": 0.0001707024182383884,
+            "last_touch_us": "2800000",
+            "source": 2,
+            "stability": 0.10265058221338731,
+            "target": 4,
+            "touches": 5,
+            "weight": 0.08347348280243845
+          },
+          {
+            "birth_us": "0",
+            "eligibility": 7.856100011967323e-06,
+            "last_touch_us": "1400000",
+            "source": 3,
+            "stability": 0.13314586500677847,
+            "target": 1,
+            "touches": 3,
+            "weight": 0.0778096269442445
+          },
+          {
+            "birth_us": "0",
+            "eligibility": 8.312244710723537e-06,
+            "last_touch_us": "1400000",
+            "source": 3,
+            "stability": 0.11094117957676138,
+            "target": 2,
+            "touches": 2,
+            "weight": 0.06969035122307274
+          },
+          {
+            "birth_us": "73000",
+            "eligibility": 0.0002138812051522527,
+            "last_touch_us": "2800000",
+            "source": 4,
+            "stability": 0.11460157856120456,
+            "target": 1,
+            "touches": 4,
+            "weight": 0.08784387816918195
+          },
+          {
+            "birth_us": "73000",
+            "eligibility": 0.00016561858435092632,
+            "last_touch_us": "2800000",
+            "source": 4,
+            "stability": 0.09886651951230126,
+            "target": 2,
+            "touches": 4,
+            "weight": 0.0831585859790055
+          }
+        ],
+        "energy": {
+          "consumed_associative": 0.0,
+          "consumed_direct": 0.0,
+          "consumed_inhibition": 0.0,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "reserve": 1.0,
+          "schema": "threemind.energy/1",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "life": "active",
+        "next_event": 50,
+        "next_node": 5,
+        "next_propagation_us": "5100000",
+        "next_step_us": "5010000",
+        "nodes": [
+          {
+            "activation": 0.0,
+            "associative": 0.0,
+            "birth_us": "0",
+            "channel": 10,
+            "direct": 0.0,
+            "generated_inhibition": 0.0,
+            "id": 1,
+            "inhibition": 4.908631384759526e-05,
+            "last_touch_us": "2910000",
+            "local_plasticity": 0.9181214055199577,
+            "pending_inhibition": 0.0,
+            "stability": 0.11372027011116993,
+            "support": 0.1955963346353553,
+            "touches": 13,
+            "trace": 0.010060066107832919
+          },
+          {
+            "activation": 0.0,
+            "associative": 0.0,
+            "birth_us": "0",
+            "channel": 11,
+            "direct": 0.0,
+            "generated_inhibition": 0.0,
+            "id": 2,
+            "inhibition": 4.805534937485836e-05,
+            "last_touch_us": "2910000",
+            "local_plasticity": 0.9295371009289636,
+            "pending_inhibition": 0.0,
+            "stability": 0.09786513759866176,
+            "support": 0.1516671623707625,
+            "touches": 13,
+            "trace": 0.007648051905691822
+          },
+          {
+            "activation": 0.0,
+            "associative": 0.0,
+            "birth_us": "0",
+            "channel": 20,
+            "direct": 0.0,
+            "generated_inhibition": 0.0,
+            "id": 3,
+            "inhibition": 5.9616176298228084e-05,
+            "last_touch_us": "2810000",
+            "local_plasticity": 0.9839278100102555,
+            "pending_inhibition": 0.0,
+            "stability": 0.022322486096867274,
+            "support": 0.05433311113056316,
+            "touches": 6,
+            "trace": 0.000429645212096604
+          },
+          {
+            "activation": 0.0,
+            "associative": 0.0,
+            "birth_us": "73000",
+            "channel": 21,
+            "direct": 0.0,
+            "generated_inhibition": 0.0,
+            "id": 4,
+            "inhibition": 5.8078913285483496e-05,
+            "last_touch_us": "2810000",
+            "local_plasticity": 0.9839130541808268,
+            "pending_inhibition": 0.0,
+            "stability": 0.02234298030440737,
+            "support": 0.05630759788984996,
+            "touches": 6,
+            "trace": 0.004762900318921704
+          }
+        ],
+        "operator_state": {
+          "fast": [
+            {
+              "source": 1,
+              "state": {
+                "time_us": "2900000",
+                "value": 0.0034708758871471123
+              },
+              "target": 2
+            },
+            {
+              "source": 1,
+              "state": {
+                "time_us": "2800000",
+                "value": 0.0014936716559537178
+              },
+              "target": 3
+            },
+            {
+              "source": 1,
+              "state": {
+                "time_us": "2800000",
+                "value": 0.0014787188248842243
+              },
+              "target": 4
+            },
+            {
+              "source": 2,
+              "state": {
+                "time_us": "2900000",
+                "value": 0.002969501581170472
+              },
+              "target": 1
+            },
+            {
+              "source": 2,
+              "state": {
+                "time_us": "2800000",
+                "value": 0.0011719287521291836
+              },
+              "target": 3
+            },
+            {
+              "source": 2,
+              "state": {
+                "time_us": "2800000",
+                "value": 0.0012072870343268589
+              },
+              "target": 4
+            },
+            {
+              "source": 3,
+              "state": {
+                "time_us": "1400000",
+                "value": 0.00041277333362227256
+              },
+              "target": 1
+            },
+            {
+              "source": 4,
+              "state": {
+                "time_us": "2800000",
+                "value": 0.0007291965879622851
+              },
+              "target": 1
+            },
+            {
+              "source": 4,
+              "state": {
+                "time_us": "2800000",
+                "value": 0.0006941848290635683
+              },
+              "target": 2
+            }
+          ],
+          "novelty": {
+            "audit": {
+              "awarded": 4,
+              "births": 10,
+              "cancelled": 0,
+              "disabled": 0,
+              "ineligible": 6,
+              "no_reentry": 0,
+              "reference_reached": 0,
+              "requested_bonus": 0.06817568496686781,
+              "stability_bonus": 0.06817568496686781,
+              "weight_bonus": 0.06817568496686782
+            },
+            "pending": [],
+            "serial": 4
+          },
+          "retention": {
+            "audit": {
+              "dormant_created": 0,
+              "dormant_expired": 0,
+              "edge_settlements": 434,
+              "expiry_checks": 0,
+              "node_settlements": 38,
+              "nodes_awakened": 0,
+              "nodes_deleted": 0,
+              "revived": 0
+            },
+            "deadlines": [],
+            "dormant": [],
+            "edges": [
+              [
+                1,
+                2,
+                30.0,
+                "4300000"
+              ],
+              [
+                1,
+                3,
+                30.0,
+                "4300000"
+              ],
+              [
+                1,
+                4,
+                30.0,
+                "4300000"
+              ],
+              [
+                2,
+                1,
+                30.0,
+                "4300000"
+              ],
+              [
+                2,
+                3,
+                30.0,
+                "4300000"
+              ],
+              [
+                2,
+                4,
+                30.0,
+                "4300000"
+              ],
+              [
+                3,
+                1,
+                30.0,
+                "4100000"
+              ],
+              [
+                3,
+                2,
+                30.0,
+                "4100000"
+              ],
+              [
+                4,
+                1,
+                30.0,
+                "4100000"
+              ],
+              [
+                4,
+                2,
+                30.0,
+                "4100000"
+              ]
+            ],
+            "fatigue": [],
+            "isolated": [],
+            "nodes": [
+              [
+                1,
+                32.21410704850452,
+                "2910000"
+              ],
+              [
+                2,
+                31.565673189053623,
+                "2910000"
+              ],
+              [
+                3,
+                30.29632387597244,
+                "2810000"
+              ],
+              [
+                4,
+                30.317477171233826,
+                "2810000"
+              ]
+            ],
+            "salience": [],
+            "sleeping": []
+          },
+          "short_term": [
+            {
+              "source": 1,
+              "state": {
+                "active": 0.10541877446969736,
+                "available": 0.105418774469697,
+                "time_us": "3500000",
+                "utilization": 0.5
+              },
+              "target": 2
+            },
+            {
+              "source": 1,
+              "state": {
+                "active": 0.108618732807569,
+                "available": 0.10861873280756862,
+                "time_us": "3300000",
+                "utilization": 0.5
+              },
+              "target": 3
+            },
+            {
+              "source": 1,
+              "state": {
+                "active": 0.10893645377151005,
+                "available": 0.10893645377150968,
+                "time_us": "3300000",
+                "utilization": 0.5
+              },
+              "target": 4
+            },
+            {
+              "source": 2,
+              "state": {
+                "active": 0.10549760782731346,
+                "available": 0.1054976078273131,
+                "time_us": "3500000",
+                "utilization": 0.5
+              },
+              "target": 1
+            },
+            {
+              "source": 2,
+              "state": {
+                "active": 0.11416362012510375,
+                "available": 0.11416362012510334,
+                "time_us": "3200000",
+                "utilization": 0.5
+              },
+              "target": 3
+            },
+            {
+              "source": 2,
+              "state": {
+                "active": 0.11480146347324947,
+                "available": 0.11480146347324904,
+                "time_us": "3200000",
+                "utilization": 0.5
+              },
+              "target": 4
+            },
+            {
+              "source": 3,
+              "state": {
+                "active": 0.1245114542109993,
+                "available": 0.1245114542109988,
+                "time_us": "1700000",
+                "utilization": 0.5
+              },
+              "target": 1
+            },
+            {
+              "source": 3,
+              "state": {
+                "active": 0.15356630829310336,
+                "available": 0.15356630829310264,
+                "time_us": "1600000",
+                "utilization": 0.5
+              },
+              "target": 2
+            },
+            {
+              "source": 4,
+              "state": {
+                "active": 0.133935994677127,
+                "available": 0.1339359946771264,
+                "time_us": "3100000",
+                "utilization": 0.5
+              },
+              "target": 1
+            },
+            {
+              "source": 4,
+              "state": {
+                "active": 0.133935994677127,
+                "available": 0.1339359946771264,
+                "time_us": "3100000",
+                "utilization": 0.5
+              },
+              "target": 2
+            }
+          ]
+        },
+        "queue": [],
+        "quiet_since_us": "4390000",
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0"
+        },
+        "schema": "threemind.continuous-memory-state/3.1",
+        "sequence": 550,
+        "silenced_edges": [],
+        "silenced_nodes": [],
+        "sources_open": true,
+        "state_time_us": "5000000",
+        "time_us": "5000000",
+        "transport": {
+          "activated": 8.74923056776809,
+          "discarded": 0.2500661976631423,
+          "received": 9.983760620969631,
+          "sent": 0.5138268186327778
+        },
+        "traversed": []
+      }
+    },
+    {
+      "mode": "legacy-stability",
+      "time_us": "120000000",
+      "state": {
+        "attention": {
+          "considered_channels": "0",
+          "counter_overflowed": false,
+          "evaluated_frames": "0",
+          "modulators": [],
+          "passed_channels": "0",
+          "schema": "threemind.attention/1",
+          "since_us": "0",
+          "suppressed_channels": "0"
+        },
+        "config": {
+          "activation_decay_enabled": true,
+          "activation_floor": 0.004,
+          "activation_tau": 0.30441023431381903,
+          "associative_gain": 0.01,
+          "birth_weight": 0.065,
+          "consolidation_mode": "legacy-stability",
+          "context_enabled": true,
+          "context_mix": 1.0,
+          "context_tau_s": 1.0,
+          "context_temperature": 1.0,
+          "dead_node_retention_us": 80000000,
+          "delay_us": 10000,
+          "depletion_enabled": true,
+          "direct_gain": 0.9,
+          "dormant_prune_weight": 1e-08,
+          "dormant_traces_enabled": false,
+          "edge_consolidation_enabled": true,
+          "edge_wake_threshold": null,
+          "eligibility_decay_enabled": true,
+          "eligibility_tau": 0.40247707040780034,
+          "fast_enabled": true,
+          "fast_gain": 0.1,
+          "fast_learning_rate": 0.1,
+          "fast_tau_s": 2.0,
+          "first_gain": 0.045,
+          "forgetting_rate": 0.025,
+          "inhibition": true,
+          "inhibition_decay_enabled": true,
+          "inhibition_diffusion_rate": 3.5,
+          "inhibition_gain": 0.24,
+          "inhibition_response_gain": 2.0,
+          "inhibition_tau": 0.2321354823145728,
+          "intensity_gain": 0.075,
+          "learning_rate": 0.055,
+          "memory_growth_formula": "log-saturating",
+          "memory_half_life_decay_rate": 0.125,
+          "memory_half_life_max_s": 2592000.0,
+          "memory_half_life_min_s": 30.0,
+          "memory_learning_gain": 0.2,
+          "memory_weight_learning_rate": 0.55,
+          "node_prune_after_us": 80000000,
+          "node_retention_mode": "automatic",
+          "node_wake_threshold": null,
+          "novelty_mode": "arrival-window",
+          "plasticity": true,
+          "propagation_interval_us": 100000,
+          "propagation_rate": 4.2,
+          "prune_support": 0.006,
+          "prune_weight": 0.008,
+          "quiescence_death_us": 1000000000000,
+          "repeat_gain": 0.018,
+          "retain_nodes": false,
+          "revival_enabled": false,
+          "seed": 20260724,
+          "stability_decay_enabled": true,
+          "stability_gain": 0.022,
+          "stability_tau": 666.6666666666667,
+          "step_us": 10000,
+          "stp_active_tau_s": 0.003,
+          "stp_enabled": true,
+          "stp_facilitation_tau_s": 0.0,
+          "stp_recovery_tau_s": 0.8,
+          "stp_utilization": 0.5,
+          "strong_fatigue_enabled": true,
+          "strong_fatigue_gain": 1.0,
+          "strong_fatigue_tau_s": 5.0,
+          "support_decay_enabled": true,
+          "support_gain": 0.035,
+          "support_tau": 666.6666666666667,
+          "trace_decay_enabled": true,
+          "trace_tau": 0.5039028822088802
+        },
+        "definition": {
+          "config": {
+            "activation_decay_enabled": true,
+            "activation_floor": 0.004,
+            "activation_tau": 0.30441023431381903,
+            "associative_gain": 0.01,
+            "birth_weight": 0.065,
+            "consolidation_mode": "legacy-stability",
+            "context_enabled": true,
+            "context_mix": 1.0,
+            "context_tau_s": 1.0,
+            "context_temperature": 1.0,
+            "dead_node_retention_us": 80000000,
+            "delay_us": 10000,
+            "depletion_enabled": true,
+            "direct_gain": 0.9,
+            "dormant_prune_weight": 1e-08,
+            "dormant_traces_enabled": false,
+            "edge_consolidation_enabled": true,
+            "edge_wake_threshold": null,
+            "eligibility_decay_enabled": true,
+            "eligibility_tau": 0.40247707040780034,
+            "fast_enabled": true,
+            "fast_gain": 0.1,
+            "fast_learning_rate": 0.1,
+            "fast_tau_s": 2.0,
+            "first_gain": 0.045,
+            "forgetting_rate": 0.025,
+            "inhibition": true,
+            "inhibition_decay_enabled": true,
+            "inhibition_diffusion_rate": 3.5,
+            "inhibition_gain": 0.24,
+            "inhibition_response_gain": 2.0,
+            "inhibition_tau": 0.2321354823145728,
+            "intensity_gain": 0.075,
+            "learning_rate": 0.055,
+            "memory_growth_formula": "log-saturating",
+            "memory_half_life_decay_rate": 0.125,
+            "memory_half_life_max_s": 2592000.0,
+            "memory_half_life_min_s": 30.0,
+            "memory_learning_gain": 0.2,
+            "memory_weight_learning_rate": 0.55,
+            "node_prune_after_us": 80000000,
+            "node_retention_mode": "automatic",
+            "node_wake_threshold": null,
+            "novelty_mode": "arrival-window",
+            "plasticity": true,
+            "propagation_interval_us": 100000,
+            "propagation_rate": 4.2,
+            "prune_support": 0.006,
+            "prune_weight": 0.008,
+            "quiescence_death_us": 1000000000000,
+            "repeat_gain": 0.018,
+            "retain_nodes": false,
+            "revival_enabled": false,
+            "seed": 20260724,
+            "stability_decay_enabled": true,
+            "stability_gain": 0.022,
+            "stability_tau": 666.6666666666667,
+            "step_us": 10000,
+            "stp_active_tau_s": 0.003,
+            "stp_enabled": true,
+            "stp_facilitation_tau_s": 0.0,
+            "stp_recovery_tau_s": 0.8,
+            "stp_utilization": 0.5,
+            "strong_fatigue_enabled": true,
+            "strong_fatigue_gain": 1.0,
+            "strong_fatigue_tau_s": 5.0,
+            "support_decay_enabled": true,
+            "support_gain": 0.035,
+            "support_tau": 666.6666666666667,
+            "trace_decay_enabled": true,
+            "trace_tau": 0.5039028822088802
+          },
+          "hypothesis_id": "threemind.hypotheses/continuous-memory3",
+          "kernel_id": "threemind.continuous-memory/3",
+          "operators": [
+            {
+              "id": "threemind.causal9-transition/1",
+              "phase": "hybrid-event-clock"
+            },
+            {
+              "id": "threemind.leaky-fast-trace/1",
+              "phase": "efficacy-and-emission"
+            },
+            {
+              "id": "threemind.tm-synapse/1",
+              "phase": "before-emission"
+            },
+            {
+              "id": "threemind.local-context-attention/1",
+              "phase": "after-arrival"
+            },
+            {
+              "id": "threemind.resource-clamp-control/1",
+              "phase": "before-emission"
+            },
+            {
+              "id": "threemind.edge-consolidation-control/1",
+              "phase": "positive-edge-updates"
+            },
+            {
+              "id": "threemind.local-birth-novelty/2",
+              "phase": "after-arrivals-before-emission"
+            },
+            {
+              "id": "threemind.adaptive-half-life/2",
+              "phase": "local-touch-emission-expiry"
+            },
+            {
+              "id": "threemind.strong-input-fatigue/2",
+              "phase": "accepted-input"
+            },
+            {
+              "id": "threemind.optional-dormancy/2",
+              "phase": "local-expiry"
+            },
+            {
+              "id": "threemind.local-awakening/1",
+              "phase": "same-time-local-arrivals"
+            }
+          ],
+          "schema": "threemind.kernel-definition/1",
+          "state_schema": "threemind.continuous-memory-state/3.1"
+        },
+        "definition_hash": "d76f8a710b78f8f0494a5f7a7dfb1e298799ed11161bdea7c55c477d6c1bb5b1",
+        "dynamics": "threemind.continuous-memory/3",
+        "edges": [
+          {
+            "birth_us": "0",
+            "eligibility": 2.1818276942922518e-128,
+            "last_touch_us": "2900000",
+            "source": 1,
+            "stability": 0.19308457669410783,
+            "target": 2,
+            "touches": 12,
+            "weight": 0.02579203466913625
+          },
+          {
+            "birth_us": "0",
+            "eligibility": 2.0887074044988316e-128,
+            "last_touch_us": "2900000",
+            "source": 2,
+            "stability": 0.1929274546885861,
+            "target": 1,
+            "touches": 12,
+            "weight": 0.025771216152174887
+          }
+        ],
+        "energy": {
+          "consumed_associative": 0.0,
+          "consumed_direct": 0.0,
+          "consumed_inhibition": 0.0,
+          "consumed_maintenance": 0.0,
+          "counter_overflowed": false,
+          "death_us": null,
+          "discarded_total": 0.0,
+          "initial_total": 1.0,
+          "last_maintenance_deficit": 0.0,
+          "last_settlement_us": "0",
+          "offered_total": 0.0,
+          "reserve": 1.0,
+          "schema": "threemind.energy/1",
+          "since_us": "0",
+          "starved_since_us": null,
+          "supplied_total": 0.0,
+          "unserved_total": 0.0
+        },
+        "life": "active",
+        "next_event": 50,
+        "next_node": 5,
+        "next_propagation_us": "120100000",
+        "next_step_us": "120010000",
+        "nodes": [
+          {
+            "activation": 0.0,
+            "associative": 0.0,
+            "birth_us": "0",
+            "channel": 10,
+            "direct": 0.0,
+            "generated_inhibition": 0.0,
+            "id": 1,
+            "inhibition": 3.4779277747053086e-220,
+            "last_touch_us": "2910000",
+            "local_plasticity": 0.9181214055199577,
+            "pending_inhibition": 0.0,
+            "stability": 0.11372027011116993,
+            "support": 0.1955963346353553,
+            "touches": 13,
+            "trace": 7.736260335099726e-102
+          },
+          {
+            "activation": 0.0,
+            "associative": 0.0,
+            "birth_us": "0",
+            "channel": 11,
+            "direct": 0.0,
+            "generated_inhibition": 0.0,
+            "id": 2,
+            "inhibition": 3.404880530181797e-220,
+            "last_touch_us": "2910000",
+            "local_plasticity": 0.9295371009289636,
+            "pending_inhibition": 0.0,
+            "stability": 0.09786513759866176,
+            "support": 0.1516671623707625,
+            "touches": 13,
+            "trace": 5.881404750682374e-102
+          }
+        ],
+        "operator_state": {
+          "fast": [
+            {
+              "source": 1,
+              "state": {
+                "time_us": "2900000",
+                "value": 0.0034708758871471123
+              },
+              "target": 2
+            },
+            {
+              "source": 2,
+              "state": {
+                "time_us": "2900000",
+                "value": 0.002969501581170472
+              },
+              "target": 1
+            }
+          ],
+          "novelty": {
+            "audit": {
+              "awarded": 4,
+              "births": 10,
+              "cancelled": 0,
+              "disabled": 0,
+              "ineligible": 6,
+              "no_reentry": 0,
+              "reference_reached": 0,
+              "requested_bonus": 0.06817568496686781,
+              "stability_bonus": 0.06817568496686781,
+              "weight_bonus": 0.06817568496686782
+            },
+            "pending": [],
+            "serial": 4
+          },
+          "retention": {
+            "audit": {
+              "dormant_created": 0,
+              "dormant_expired": 0,
+              "edge_settlements": 442,
+              "expiry_checks": 10,
+              "node_settlements": 40,
+              "nodes_awakened": 0,
+              "nodes_deleted": 2,
+              "revived": 0
+            },
+            "deadlines": [],
+            "dormant": [],
+            "edges": [
+              [
+                1,
+                2,
+                30.0,
+                "4300000"
+              ],
+              [
+                2,
+                1,
+                30.0,
+                "4300000"
+              ]
+            ],
+            "fatigue": [],
+            "isolated": [],
+            "nodes": [
+              [
+                1,
+                32.21410704850452,
+                "2910000"
+              ],
+              [
+                2,
+                31.565673189053623,
+                "2910000"
+              ]
+            ],
+            "salience": [],
+            "sleeping": []
+          },
+          "short_term": [
+            {
+              "source": 1,
+              "state": {
+                "active": 0.10541877446969736,
+                "available": 0.105418774469697,
+                "time_us": "3500000",
+                "utilization": 0.5
+              },
+              "target": 2
+            },
+            {
+              "source": 2,
+              "state": {
+                "active": 0.10549760782731346,
+                "available": 0.1054976078273131,
+                "time_us": "3500000",
+                "utilization": 0.5
+              },
+              "target": 1
+            }
+          ]
+        },
+        "queue": [],
+        "quiet_since_us": "4390000",
+        "resources": {
+          "adaptation_budget_skips": "0",
+          "adaptation_period_us": "0",
+          "adaptations_used": 0,
+          "counter_overflowed": false,
+          "edge_capacity_rejections": "0",
+          "node_capacity_rejections": "0",
+          "propagation_budget_skips": "0",
+          "schema": "threemind.resources/1",
+          "since_us": "0"
+        },
+        "schema": "threemind.continuous-memory-state/3.1",
+        "sequence": 12050,
+        "silenced_edges": [],
+        "silenced_nodes": [],
+        "sources_open": true,
+        "state_time_us": "120000000",
+        "time_us": "120000000",
+        "transport": {
+          "activated": 8.74923056776809,
+          "discarded": 0.2500661976631423,
+          "received": 9.983760620969631,
+          "sent": 0.5138268186327778
+        },
+        "traversed": []
+      }
+    }
+  ]
+}

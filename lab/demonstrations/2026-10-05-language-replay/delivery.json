@@ -1,0 +1,23 @@
+{
+  "project": "7d5d5fa6-d84b-47b2-b788-1cdec68a3aca",
+  "replay": {
+    "artifact_id": "b4875ba2-f4c9-4a1c-a501-d41d8ac78798",
+    "bytes": 11060266,
+    "job_id": "8d50c3bc-3788-4a8a-b438-bd36dfa184da",
+    "sha256": "225fe1dac0fb02cd9260043c6ca6fd46d0fba0f09f34285fa72872d4fae4e568"
+  },
+  "video": {
+    "artifact_id": "da9440cc-9001-48c5-a0f6-171817c6711a",
+    "bytes": 5627339,
+    "job_id": "5dc293a8-70ac-4f50-99f6-d3be13e0781c",
+    "sha256": "deef599fbd535698157b58ca39fd0e512d588e90993226c0df64f793e94cedb3"
+  },
+  "poster": {
+    "artifact_id": "d05fb65c-cc38-4c94-bbfe-1ed831f84817",
+    "bytes": 468751,
+    "job_id": "1dd3844f-75e2-49fa-be71-cccf56e5a0f5",
+    "sha256": "d2a9619813095a7e2d5ed372c4467b3dc313014d802079075b4e9aa5ca079bd4"
+  },
+  "record": "8587d29d-a158-5935-b177-d9ec9539875f",
+  "ui_route": "/dialogue/replay?artifact=b4875ba2-f4c9-4a1c-a501-d41d8ac78798"
+}

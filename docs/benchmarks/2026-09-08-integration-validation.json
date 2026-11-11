@@ -1,0 +1,654 @@
+{
+  "schema": "threemind.integration-acceptance/1",
+  "date": "2026-09-08",
+  "initial_source_commit": "a04903f",
+  "final_code_commit": "31122f3",
+  "last_code_change": [
+    "threemind-ui/src/v2/AdapterContracts.tsx: result container class",
+    "threemind-ui/src/v2/style.css: vertical result paragraphs"
+  ],
+  "backend": {
+    "passed": 559,
+    "failed": 0,
+    "skipped": 0,
+    "seconds": 1417.11,
+    "warnings": [
+      "ziamath importlib.resources.path deprecation"
+    ]
+  },
+  "rust_workspace": {
+    "passed": 2,
+    "failed": 0,
+    "ignored": 0,
+    "other_test_targets_have_zero_cases": true
+  },
+  "frontend_integration": {
+    "passed": 37,
+    "failed": 0,
+    "skipped": 0,
+    "reported_duration": "3.8m",
+    "browser": "headless msedge"
+  },
+  "final_layout_frontend": {
+    "passed": 1,
+    "seconds": 5.1,
+    "widths": [
+      1440,
+      390
+    ]
+  },
+  "checks": {
+    "typescript_vite": "passed",
+    "ruff_src_tests_examples": "passed",
+    "translations": 4500,
+    "translation_missing_duplicate_placeholder_errors": 0,
+    "legacy_core_fields": 55,
+    "legacy_pending": 0,
+    "current_core_fields": 60,
+    "vite_large_dependency_chunk_warning_retained": true
+  },
+  "images": {
+    "initial": {
+      "source_commit": "a04903f",
+      "oci_index": "sha256:69613e4a0aeb9192accf965a6dc292aa1c269a41d92b0dbc92dbf7b21d5df940",
+      "scope": "all baseline, population and F5 API/worker checks"
+    },
+    "final": {
+      "source_commit": "31122f3",
+      "oci_index": "sha256:5b9be034460031146235e493a0165b77f80aeec54e67ddaed3414fe50c36c223",
+      "scope": "UI-only follow-up; repeated initialization, browser login/charts/contracts, native SDK and actual isolation"
+    }
+  },
+  "container": {
+    "test_project": "threemind-f5-acceptance-20260908",
+    "checks": {
+      "initialization_login_frontend": {
+        "server_mode": true,
+        "anonymous_denied": true,
+        "native": true
+      },
+      "mujoco_native_run": {
+        "status": "completed",
+        "time_us": "200000",
+        "state_hash": "2ebaf61e3658644948b407869be56e1b83b470831dbd79b58d3ab2f67de65a7e"
+      },
+      "notification_tls_queue": {
+        "status": "sent",
+        "verified_tls": true,
+        "external_recipients": 0
+      },
+      "ai_queue": {
+        "status": "completed",
+        "external_paid_calls": 0
+      },
+      "media_and_organs": {
+        "original_roundtrips": 2,
+        "delivered_envelopes": 2,
+        "organ_response_keys": [
+          "rows",
+          "more",
+          "next",
+          "scope"
+        ]
+      },
+      "research_exports": {
+        "markdown": {
+          "bytes": 2492,
+          "sha256": "1a0245ad0bbdac10977c965ac6b2af35368e56e0ec187b2d969e075bd5835785"
+        },
+        "html": {
+          "bytes": 7640,
+          "sha256": "0d0862af128219a229102074e02181770d707bb9b24b66b658aff0c6d82d1465"
+        },
+        "docx": {
+          "bytes": 39683,
+          "sha256": "ff117adec408425acec46bca7d4b8bce44fa926d05248d0c3c6e6a813edaaff5"
+        },
+        "pdf": {
+          "bytes": 39507,
+          "sha256": "6b776578f3492b895f7807a1e2cc05b5ef18e99bc588929b1a4354ada88f87e7"
+        }
+      },
+      "recovery_started": {
+        "committed_time_us": "400000",
+        "previous_generation": 1,
+        "natural_lease_expiry_seconds": 60
+      },
+      "worker_fault_recovery": {
+        "generation": 2,
+        "state_hash": "9607d322bf04dc0ae909c6aaeedb85f15a55ad4e11b35c9a5c7550ebc1de216e",
+        "matches_uninterrupted_run": true
+      },
+      "model_roundtrip": {
+        "bytes": 14633,
+        "state_hash_matches": true
+      },
+      "complete": true,
+      "actual_versions": {
+        "schema": 46,
+        "python": "3.12.14",
+        "packages": {
+          "mujoco": "3.12.0",
+          "numpy": "2.5.3",
+          "scipy": "1.18.1",
+          "psycopg": "3.3.5",
+          "pydantic": "2.13.5",
+          "fastapi": "0.141.1"
+        }
+      },
+      "standalone_ecology": {
+        "members": 2,
+        "time_us": 47000,
+        "partial_physical_boundary": true,
+        "sqlite_bundle_and_uninterrupted_equal": true,
+        "lab_imported": false
+      },
+      "world_library": {
+        "revision": 1,
+        "protocol_hash": "ca34c575e3f7d19f4bd0282091cd58e57123234f6cc8a15a2a38b118ce89896e",
+        "motors": 2
+      },
+      "offscreen_rgb_run": {
+        "status": "completed",
+        "state_hash": "282cb5e452c3b576c121b4f0666fa73c896c32c21134b0c209211c847ab9e78d",
+        "headless": true,
+        "render_backend": "osmesa"
+      },
+      "population_recovery_started": {
+        "time_us": "20000",
+        "lease_generation": 1
+      },
+      "population_fault_recovery": {
+        "members": 6,
+        "generation": 2,
+        "brain_hashes_match": true,
+        "complete_ledger_summary_matches": true,
+        "state_hashes": {
+          "n0": "342b64b59e3d72bec2066b2dfb442d2cc8cd60d0f152accdbb6f42ff2382b2b5",
+          "n1": "381d677d191ab29bf278322996c7ebca655dd0fc71195fae142d9f747845a520",
+          "n2": "2a1c1a7bc816d47891e81cddfdc91563b6c46a633172e4ba7205ac08c1c9686d",
+          "n3": "4da4d43f6b2a63387d7c2ea0faef80fb0f4dc1c40e73f5d079af1b8a563cfd9e",
+          "n4": "4e9a53e45e27793c837b3365dbd50ffe05eb5f86374d0cc0bbf59879040f747a",
+          "n5": "3c77650cbd5defd0904dcbe1f578f37847edd6ca9a7675eed9111eb8bd696d49"
+        }
+      },
+      "independent_habitats": {
+        "members": 6,
+        "resource_pools": 6
+      },
+      "population_evidence_bundle": {
+        "bytes": 131006,
+        "individuals": 6,
+        "all_model_hashes_verified": true
+      },
+      "ecology_trajectory": {
+        "source_rows": 62,
+        "exports": {
+          "markdown": {
+            "bytes": 21896,
+            "sha256": "973f2a5e8055f151f72f021c8acace50b913368a7eda6280cf951cfb74e862a8"
+          },
+          "html": {
+            "bytes": 184872,
+            "sha256": "51f804c9d638592d9536e48970c047c8274be63ad3572842f61c2da4adef9a7d"
+          },
+          "docx": {
+            "bytes": 178934,
+            "sha256": "9896eac6e57c07c478a2e7be64206807d5c9e08a3788795dc779b1d1a1f2a25c"
+          },
+          "pdf": {
+            "bytes": 114667,
+            "sha256": "8efd436a50ac9a723a1d71e143d4ef35ad2e03aa8125dd242f655254f1504d26"
+          }
+        }
+      },
+      "ecology_members": {
+        "source_rows": 6,
+        "exports": {
+          "markdown": {
+            "bytes": 5588,
+            "sha256": "2d7060921d5dff53fe70a71408c3b3e591f5b0dc454db825bd1bcd0bfe326c8a"
+          },
+          "html": {
+            "bytes": 156596,
+            "sha256": "9e4cac8766f6ba3969bcf8057b2b6ede57fa43faf856b3e88c1fe7fa48ca7d01"
+          },
+          "docx": {
+            "bytes": 136376,
+            "sha256": "1b322609e6aec3d3a255669301448ea1d1e681b4d64b3db5a4f8fbc953199b3f"
+          },
+          "pdf": {
+            "bytes": 98846,
+            "sha256": "6787fc428dcc372cde2608953ca015ada03b342df07b441a7a245137b47f62c5"
+          }
+        }
+      },
+      "directed_evolution": {
+        "generations": 2,
+        "members_with_isolated_evaluations": 16,
+        "complete_evidence_bundle_bytes": 110795
+      },
+      "ecology_complete": true,
+      "adapter_offline_sdk": {
+        "contracts": 24,
+        "probes": [
+          {
+            "adapter_id": "remote-anonymous",
+            "backend": "reference",
+            "frame_count": 3,
+            "state_hash": "6b195cadb0dd8d893671b7b263d957199aa423672b76673f3041267a072048f3",
+            "checks": {
+              "deterministic_encoding": true,
+              "carrier_unchanged": true,
+              "pending_recovery": true,
+              "metadata_invariance": true,
+              "observer_isolation": true,
+              "explicit_view_skips": true,
+              "capacity_refusal_without_core_change": true,
+              "consumer_failure_and_detach": true
+            }
+          },
+          {
+            "adapter_id": "remote-anonymous",
+            "backend": "native",
+            "frame_count": 3,
+            "state_hash": "6b195cadb0dd8d893671b7b263d957199aa423672b76673f3041267a072048f3",
+            "checks": {
+              "deterministic_encoding": true,
+              "carrier_unchanged": true,
+              "pending_recovery": true,
+              "metadata_invariance": true,
+              "observer_isolation": true,
+              "explicit_view_skips": true,
+              "capacity_refusal_without_core_change": true,
+              "consumer_failure_and_detach": true
+            }
+          },
+          {
+            "adapter_id": "anonymous-frames",
+            "backend": "reference",
+            "frame_count": 2,
+            "state_hash": "fa8e3e5fb93dfdc618d54525ea1f11abd8e01a68109e4921ef5e967b635f5231",
+            "checks": {
+              "deterministic_encoding": true,
+              "carrier_unchanged": true,
+              "pending_recovery": true,
+              "metadata_invariance": true,
+              "observer_isolation": true,
+              "explicit_view_skips": true,
+              "capacity_refusal_without_core_change": true,
+              "consumer_failure_and_detach": true
+            }
+          },
+          {
+            "adapter_id": "anonymous-frames",
+            "backend": "native",
+            "frame_count": 2,
+            "state_hash": "fa8e3e5fb93dfdc618d54525ea1f11abd8e01a68109e4921ef5e967b635f5231",
+            "checks": {
+              "deterministic_encoding": true,
+              "carrier_unchanged": true,
+              "pending_recovery": true,
+              "metadata_invariance": true,
+              "observer_isolation": true,
+              "explicit_view_skips": true,
+              "capacity_refusal_without_core_change": true,
+              "consumer_failure_and_detach": true
+            }
+          },
+          {
+            "adapter_id": "text-sensor",
+            "backend": "reference",
+            "frame_count": 1,
+            "state_hash": "3964b139f66b82e6d07638b40114a489f68ca7531443deb2f5883b4fd107b1f7",
+            "checks": {
+              "deterministic_encoding": true,
+              "carrier_unchanged": true,
+              "pending_recovery": true,
+              "metadata_invariance": true,
+              "observer_isolation": true,
+              "explicit_view_skips": true,
+              "capacity_refusal_without_core_change": true,
+              "consumer_failure_and_detach": true
+            }
+          },
+          {
+            "adapter_id": "text-sensor",
+            "backend": "native",
+            "frame_count": 1,
+            "state_hash": "177aa79030f5a18aa588a8f02d3b42037899fa9a3786c0a9dc668863f86b92df",
+            "checks": {
+              "deterministic_encoding": true,
+              "carrier_unchanged": true,
+              "pending_recovery": true,
+              "metadata_invariance": true,
+              "observer_isolation": true,
+              "explicit_view_skips": true,
+              "capacity_refusal_without_core_change": true,
+              "consumer_failure_and_detach": true
+            }
+          }
+        ]
+      },
+      "observer_immutable_evidence": {
+        "entries": 13,
+        "checkpoint_hash_unchanged": true,
+        "brain_hashes_unchanged": true,
+        "export_sha256": "712009d266de46aff1c5dee9f2fdb0435f8f3a2792c46407f1bff623e0404360"
+      },
+      "ecology_ai_local_mock": {
+        "status": "completed",
+        "application_status": "recorded",
+        "evidence_hash": "c2215ea5320854b20f5a465e9bda09ea0afdf1e469ece366b8a19bfdf1bf8722",
+        "checkpoint_hash_unchanged": true,
+        "external_paid_calls": 0
+      },
+      "independent_assessment_and_fixed_report": {
+        "trials": 2,
+        "statuses": [
+          "satisfied",
+          "not_satisfied"
+        ],
+        "parent_unchanged": true,
+        "fabricated_decision_rejected": true,
+        "exports": {
+          "markdown": {
+            "bytes": 3669,
+            "sha256": "5d0e285751762f971ccc8628326ac9d53406840090d58baa0daa0b7a0d8e9495"
+          },
+          "html": {
+            "bytes": 69470,
+            "sha256": "f75bbaee3048c4b70bdb1056a87d4363d95dd65b70c80f39ca7936b15c09b1ea"
+          },
+          "docx": {
+            "bytes": 81724,
+            "sha256": "2d931fcad784ffb6c35be3c80ba7be107b49dc4b1595d7d1c4d1aa951b16c348"
+          },
+          "pdf": {
+            "bytes": 57783,
+            "sha256": "0f5a5e6d20786a987da516f3b4b663ee78fa576ff774c4456bd4d23baa7b3429"
+          }
+        }
+      },
+      "execution_health_optional": {
+        "policy_revision": 2,
+        "email_disabled": true,
+        "checkpoint_hash_unchanged": true,
+        "metrics": [
+          "commit_age_s",
+          "ready_wait_s",
+          "expired_leases",
+          "worker_rss_mib",
+          "worker_cpu_percent",
+          "host_memory_percent"
+        ],
+        "disabled_after_check": true
+      },
+      "f5_complete": true,
+      "actual_container_isolation": {
+        "services": {
+          "notification-worker": {
+            "image": "threemind-lab:validation",
+            "user": "threemind",
+            "read_only": true,
+            "memory_bytes": 268435456,
+            "nano_cpus": 500000000,
+            "pids": 256,
+            "cap_drop": [
+              "ALL"
+            ],
+            "security_opt": [
+              "no-new-privileges:true"
+            ],
+            "ports": {}
+          },
+          "worker": {
+            "image": "threemind-lab:validation",
+            "user": "threemind",
+            "read_only": true,
+            "memory_bytes": 2147483648,
+            "nano_cpus": 2000000000,
+            "pids": 256,
+            "cap_drop": [
+              "ALL"
+            ],
+            "security_opt": [
+              "no-new-privileges:true"
+            ],
+            "ports": {}
+          },
+          "api": {
+            "image": "threemind-lab:validation",
+            "user": "threemind",
+            "read_only": true,
+            "memory_bytes": 2147483648,
+            "nano_cpus": 2000000000,
+            "pids": 256,
+            "cap_drop": [
+              "ALL"
+            ],
+            "security_opt": [
+              "no-new-privileges:true"
+            ],
+            "ports": {
+              "8877/tcp": [
+                {
+                  "HostIp": "127.0.0.1",
+                  "HostPort": "18878"
+                }
+              ]
+            }
+          },
+          "ai-worker": {
+            "image": "threemind-lab:validation",
+            "user": "threemind",
+            "read_only": true,
+            "memory_bytes": 536870912,
+            "nano_cpus": 1000000000,
+            "pids": 256,
+            "cap_drop": [
+              "ALL"
+            ],
+            "security_opt": [
+              "no-new-privileges:true"
+            ],
+            "ports": {}
+          },
+          "bootstrap": {
+            "image": "threemind-lab:validation",
+            "user": "threemind",
+            "read_only": true,
+            "memory_bytes": 1073741824,
+            "nano_cpus": 1000000000,
+            "pids": 256,
+            "cap_drop": [
+              "ALL"
+            ],
+            "security_opt": [
+              "no-new-privileges:true"
+            ],
+            "ports": {}
+          },
+          "postgres": {
+            "image": "postgres:17-bookworm",
+            "user": "",
+            "read_only": false,
+            "memory_bytes": 1073741824,
+            "nano_cpus": 2000000000,
+            "pids": 256,
+            "cap_drop": null,
+            "security_opt": null,
+            "ports": {}
+          }
+        },
+        "api_probe": {
+          "uid": 10001,
+          "root_write_denied": true,
+          "tmp_writable": true,
+          "no_new_privs": true,
+          "zero_effective_capabilities": true
+        }
+      },
+      "automatic_ecology_ai_local_mock": {
+        "calls": 1,
+        "trigger": [
+          "finished_summary"
+        ],
+        "maximum_calls": 1,
+        "external_paid_calls": 0,
+        "checkpoint_hash_unchanged": true,
+        "disabled_after_check": true
+      }
+    },
+    "final_browser": {
+      "server_login_in_browser": true,
+      "observations": [
+        {
+          "kind": "ecology_trajectory",
+          "chart_rendered": true,
+          "horizontal_overflow_px": 0
+        },
+        {
+          "kind": "ecology_members",
+          "chart_rendered": true,
+          "horizontal_overflow_px": 0
+        }
+      ],
+      "adapter_declaration_authenticated": true,
+      "viewport_widths": [
+        1440,
+        390
+      ],
+      "page_errors": 0
+    },
+    "final_sdk": {
+      "version": "threemind.adapter-check/1",
+      "backend": "native",
+      "carrier_sha256": "423ab80aa17542c70e7fb7cf18894677ebd01e59af1b4da5a496d4c80e72c77d",
+      "encoded_frames_sha256": "c45f3936cf6a287602e4110afb5a50c663fc56b7eae9f06d2cfe114b373792e3",
+      "frame_count": 3,
+      "delivered_events": 31,
+      "state_hash": "6b195cadb0dd8d893671b7b263d957199aa423672b76673f3041267a072048f3",
+      "checks": {
+        "deterministic_encoding": true,
+        "carrier_unchanged": true,
+        "pending_recovery": true,
+        "metadata_invariance": true,
+        "observer_isolation": true,
+        "explicit_view_skips": true,
+        "capacity_refusal_without_core_change": true,
+        "consumer_failure_and_detach": true
+      },
+      "limits": [
+        "Only the supplied fixture, fixed delivered inputs, protocol and chosen backend were exercised.",
+        "This does not validate physical hardware, arbitrary adapter code, learnt control or semantic intent.",
+        "Observation consumer failure still needs the owning host's recovery policy."
+      ],
+      "adapter_id": "remote-anonymous"
+    }
+  },
+  "visual_review": {
+    "container_assessment_pdf_pages": 4,
+    "all_pages_viewed": true,
+    "container_report_widths": [
+      1440,
+      390
+    ],
+    "page_errors": 0,
+    "horizontal_overflow": 0
+  },
+  "test_harness_corrections": [
+    "Early dependent acceptance refused by completion precondition; rerun only after completion.",
+    "Automatic trigger is a list containing finished_summary, not a dictionary; assertion corrected without changing product."
+  ],
+  "limits": [
+    "Functional fixtures are not consciousness, AGI or learnt body-control evidence.",
+    "Fixed-input comparisons use the same protocol and backend; no cross-hardware bitwise claim.",
+    "All AI, SMTP and speech checks use local mocks; no paid AI or external mail.",
+    "Not a 24-hour, mature-network, high-concurrency, ARM64 or public-internet acceptance.",
+    "Population brain advance remains sequential; complete evidence and historical metadata have growth costs.",
+    "Build processes reused an existing system proxy; no global Docker configuration or proxy credentials recorded.",
+    "Final documentation commit does not rebuild code or retroactively change tested image contents."
+  ],
+  "logs": {
+    "full-regression": {
+      "path": ".work/2026-09-08-full-regression.log",
+      "bytes": 1291,
+      "sha256": "9be1fab02c75b638b0e3c716a320b2a5fad94ad8ec7476498f806f724cf26247"
+    },
+    "rust-workspace": {
+      "path": ".work/2026-09-08-rust-workspace.log",
+      "bytes": 1297,
+      "sha256": "2cb3349d759d8f9bc1469ab9354088321995005a79484bd3205d2b3c6062b05e"
+    },
+    "final-integration-browser": {
+      "path": ".work/2026-09-08-final-integration-browser.log",
+      "bytes": 5905,
+      "sha256": "d9a1a76609b9f8e75c42cb6c90c911b49751a7fcaeb8e132c04cbc7dd642cb04"
+    },
+    "final-status-layout-browser": {
+      "path": ".work/2026-09-08-final-status-layout-browser.log",
+      "bytes": 430,
+      "sha256": "18694804eda2c2c3e516e93320ddad1b3ed1f871f55ba61b5c420423d366362b"
+    },
+    "final-status-layout-build": {
+      "path": ".work/2026-09-08-final-status-layout-build.log",
+      "bytes": 18764,
+      "sha256": "1896165c0a8c81c7530c0c902ea4d45cd5d6b8a9dd48bf0138c32335d80c69c7"
+    },
+    "container-build-dependencies": {
+      "path": ".work/2026-09-08-container-build-dependencies.log",
+      "bytes": 80343,
+      "sha256": "d7c9507dbe4bfa403ba618a4ae1bdef1a7489ddc89e0766ee35b4a4e74d73945"
+    },
+    "container-base-acceptance": {
+      "path": ".work/2026-09-08-container-base-acceptance.log",
+      "bytes": 1314,
+      "sha256": "f042e2c181bcd492ccd98b55aa3b01a3735fd8a86f19abbd9452bf35047889a9"
+    },
+    "container-ecology-acceptance": {
+      "path": ".work/2026-09-08-container-ecology-acceptance.log",
+      "bytes": 2567,
+      "sha256": "d3c0b31fb7216d9c6e3f2ee56e5c0e518200874dc71c3d628eabaea0fe930dbb"
+    },
+    "container-f5-acceptance": {
+      "path": ".work/2026-09-08-container-f5-acceptance.log",
+      "bytes": 3895,
+      "sha256": "f772d86040203ed06f7399c4b18ab017e8db209cc7d4e53e2d228a247755237c"
+    },
+    "container-automatic-ai": {
+      "path": ".work/2026-09-08-container-automatic-ai.log",
+      "bytes": 191,
+      "sha256": "97bb58918e8733da524bebda004df590bd3aa9fb0c216216b8894652d7aff49b"
+    },
+    "container-final-layout-build": {
+      "path": ".work/2026-09-08-container-final-layout-build.log",
+      "bytes": 26658,
+      "sha256": "48aae3fcf5d7e6a72c7671adc3bdec69460a7803c8d1408a5c1ed40a27943bd6"
+    },
+    "container-final-recreate": {
+      "path": ".work/2026-09-08-container-final-recreate.log",
+      "bytes": 2311,
+      "sha256": "65c0ae9c97f73c515fe26002148b6b9df88c1ff240c0eb4dfe165714fc6ab0d8"
+    },
+    "container-final-browser": {
+      "path": ".work/2026-09-08-container-final-browser.log",
+      "bytes": 292,
+      "sha256": "e2252d36209ff446de9639abcd1ece4379f533b2e65290cce5294c9524fbaded"
+    },
+    "container-final-isolation": {
+      "path": ".work/2026-09-08-container-final-isolation.log",
+      "bytes": 239,
+      "sha256": "dc30676322711283b184d183b4bbe33eda6cba844834e93524c0f0521b024583"
+    }
+  },
+  "cleanup": {
+    "project": "threemind-f5-acceptance-20260908",
+    "verified_container_count": 7,
+    "verified_volume_count": 1,
+    "all_test_containers_removed": true,
+    "test_volume_removed": true,
+    "other_projects_untouched": true,
+    "image_retained": true
+  }
+}

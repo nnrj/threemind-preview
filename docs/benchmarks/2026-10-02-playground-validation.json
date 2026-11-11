@@ -1,0 +1,145 @@
+{
+  "schema": "threemind.engineering-validation/1",
+  "date": "2026-10-02",
+  "scope": "Official PandaPickCube CPU integration; not a learning experiment or physical robot test",
+  "standalone": {
+    "passed": true,
+    "seconds": 50.38339692399995,
+    "versions": {
+      "jax": "0.11.2",
+      "jaxlib": "0.11.2",
+      "mujoco": "3.14.0",
+      "mujoco-mjx": "3.14.0",
+      "playground": "0.2.0"
+    },
+    "metrics": {
+      "task_distance": 0.360202604717523,
+      "task_best_distance": 0.3601609570852679,
+      "task_distance_improvement": -4.164763225511514e-05,
+      "task_success_observed": false,
+      "task_success": 0,
+      "task_reward": 0.6826111078262329,
+      "task_reward_total": 3.508547782897949,
+      "task_elapsed_s": 0.1,
+      "task_done": false,
+      "playground_box_target": 0.0,
+      "playground_gripper_box": 0.04820680618286133,
+      "playground_no_floor_collision": 1.0,
+      "playground_out_of_bounds": 0.0,
+      "playground_robot_target_qpos": 0.7992796301841736
+    },
+    "core_hash": "018aa9f6b457440a6c94eeebeef2a00cea577717b7ad835e9d0551fc8d58e551"
+  },
+  "baked_delivery_image": {
+    "passed": true,
+    "seconds": 42.39825735500017,
+    "versions": {
+      "jax": "0.11.2",
+      "jaxlib": "0.11.2",
+      "mujoco": "3.14.0",
+      "mujoco-mjx": "3.14.0",
+      "playground": "0.2.0"
+    },
+    "metrics": {
+      "task_distance": 0.360202604717523,
+      "task_best_distance": 0.3601609570852679,
+      "task_distance_improvement": -4.164763225511514e-05,
+      "task_success_observed": false,
+      "task_success": 0,
+      "task_reward": 0.6826111078262329,
+      "task_reward_total": 3.508547782897949,
+      "task_elapsed_s": 0.1,
+      "task_done": false,
+      "playground_box_target": 0.0,
+      "playground_gripper_box": 0.04820680618286133,
+      "playground_no_floor_collision": 1.0,
+      "playground_out_of_bounds": 0.0,
+      "playground_robot_target_qpos": 0.7992796301841736
+    },
+    "core_hash": "018aa9f6b457440a6c94eeebeef2a00cea577717b7ad835e9d0551fc8d58e551"
+  },
+  "image": {
+    "tag": "threemind-playground:local",
+    "id": "sha256:5bd6445505e7a269ccfffcfcfcdbac87fab8d2595198ba5fa33dc9b3764456fe",
+    "bytes": 3377773085,
+    "pip_check": "No broken requirements found",
+    "source_mount": false,
+    "network": "none"
+  },
+  "lab": {
+    "passed": true,
+    "seconds": 67.05368331300019,
+    "status": "paused",
+    "steps": 150,
+    "time_us": "3000000",
+    "core_hash": "b56e362605015c5896c4696ca5820453d1e4e6f9e7629667f504c61ba4090048",
+    "scene_geometries": 83,
+    "versions": {
+      "jax": "0.11.2",
+      "jaxlib": "0.11.2",
+      "mujoco": "3.14.0",
+      "mujoco-mjx": "3.14.0",
+      "playground": "0.2.0"
+    },
+    "world_only_reset": true,
+    "scene_uncompressed_bytes": 27334955,
+    "scene_base64_bytes": 4441704
+  },
+  "limits": {
+    "worker_memory_gib": 6,
+    "worker_cpus": 2,
+    "disposable_database_memory_gib": 1,
+    "no_published_ports": true
+  },
+  "core_hash_before_observer_storage_change": "b56e362605015c5896c4696ca5820453d1e4e6f9e7629667f504c61ba4090048",
+  "checks": [
+    "fixed source/asset integrity",
+    "non-mutating observers",
+    "world and Core continuation",
+    "150-step episode pause",
+    "no implicit terminal restart",
+    "world-only reset followed by delivery",
+    "scene API without physics reconstruction",
+    "CPU-only worker routing",
+    "UI 1440 and 390"
+  ],
+  "recorded_failed_attempts": [
+    "package download timeout, retried with bounded timeout",
+    "256 MiB disposable PostgreSQL limit caused OOM; increased to 1 GiB and compressed scene payload",
+    "native aggregate final-bit metric difference; full dynamics hashes matched",
+    "UI select locator corrected",
+    "capability array-order assertion replaced with set semantics"
+  ],
+  "not_verified": [
+    "Playground JAX/CUDA",
+    "Playground Warp/CUDA",
+    "physical hardware transfer",
+    "learned grasping"
+  ],
+  "host_database_check": {
+    "schema": 57,
+    "docker_to_existing_postgresql": "passed",
+    "jobs_claimed": 0
+  },
+  "final_ui_acceptance": {
+    "widths": [
+      1440,
+      390
+    ],
+    "passed": true,
+    "seconds": 44.51
+  },
+  "old_experiment_data": "E26 archive and database reports unchanged",
+  "sources": {
+    "tools/validate_playground.py": "1abb2a97d590a0eaa0c99ab7636539ac3f88e281cbbc2c633d9a0b9bd25ecb6b",
+    "tools/validate_playground_lab.py": "668adc7dee1c7f4c282024e08d783be25ecff16d65383ea40af75b1fe20090a2",
+    "tests_v2/test_playground.py": "5f3d2fd4f285a19b4daf2268e5ceb84d16da5661d6a316eb0c88d9c0c15dff36",
+    "src/threemind_runtime/playground_world.py": "0d429aa296f928cbff8f3ae0e3d7b14388d226f6ea29a9f0657229967dc9b980",
+    "src/threemind_runtime/playground_assets.json": "d78ad73ab6ed2ac7105fcdaba7792aef28e629beda3b35e75aaa59400f93ad7d",
+    "src/threemind_runtime/playground_scene.py": "095d5d021ce84d2b0b0d4d304c7f0f533efadc24f94b87714e381bc3a8786ae6",
+    "deploy/constraints-playground-linux-py312.txt": "4ba3e462808a3c911f426ffd499b9f2cba4c34a0dc402f8d357c15544b89d27d",
+    "deploy/Dockerfile.playground": "267e5a65a038ab3bdf08414caaaca5592619a248df6b1ed3f944ea9a73bcb164",
+    "scripts/playground-worker.py": "2a5c11714c89ef43360c90ecda19e0d86f6da39373480e692eeb5845bf7f5033",
+    "migrations/057_playground_tasks.sql": "863d75751653ba80575310ff77d6da1c4f2dc57d8d6e168625a7852e030aae9b"
+  }
+}

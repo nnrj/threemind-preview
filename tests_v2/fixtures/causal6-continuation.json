@@ -1,0 +1,447 @@
+{
+  "source": "B10 standalone Rust runtime, frozen before rebuilding causal/7",
+  "binary_sha256": "0b287f6873e2081759fd60950fda35ef6cc21e07ff5063e0de7e8a93516ac4da",
+  "before": {
+    "attention": {
+      "considered_channels": "3",
+      "counter_overflowed": false,
+      "evaluated_frames": "1",
+      "modulators": [
+        {
+          "budget_multiplier": 1.0,
+          "competition_enabled": false,
+          "expires_us": "75555",
+          "gain": 0.6,
+          "source": "fixed-control",
+          "ttl_us": 70000,
+          "updated_us": "5555"
+        }
+      ],
+      "passed_channels": "2",
+      "schema": "threemind.attention/1",
+      "since_us": "0",
+      "suppressed_channels": "1"
+    },
+    "config": {
+      "activation_floor": 1e-05,
+      "activation_tau": 0.3044,
+      "associative_gain": 0.01,
+      "attention_budget": 2,
+      "attention_competition_enabled": true,
+      "birth_weight": 0.065,
+      "delay_us": 10000,
+      "direct_gain": 0.9,
+      "first_gain": 0.045,
+      "forgetting_rate": 0.025,
+      "inhibition": true,
+      "inhibition_diffusion_rate": 3.5,
+      "inhibition_gain": 0.24,
+      "inhibition_response_gain": 2.0,
+      "inhibition_tau": 0.2321,
+      "intensity_gain": 0.075,
+      "learning_rate": 0.0055,
+      "plasticity": true,
+      "propagation_rate": 4.2,
+      "prune_support": 1e-05,
+      "prune_weight": 0.008,
+      "repeat_gain": 0.018,
+      "seed": 77,
+      "spatial_competition_rate": 0.1,
+      "spatial_embedding": true,
+      "spatial_radius": 1.8,
+      "stability_gain": 0.022,
+      "stability_tau": 666.667,
+      "step_us": 10000,
+      "support_gain": 0.035,
+      "support_tau": 666.667,
+      "trace_tau": 0.504
+    },
+    "dynamics": "threemind.causal/6",
+    "edges": [
+      {
+        "birth_us": "0",
+        "eligibility": 0.4134049580812741,
+        "last_touch_us": "10000",
+        "source": 1,
+        "stability": 0.09149058203478673,
+        "target": 2,
+        "touches": 2,
+        "weight": 0.11189391684241272
+      },
+      {
+        "birth_us": "0",
+        "eligibility": 0.41333431849202645,
+        "last_touch_us": "10000",
+        "source": 2,
+        "stability": 0.09148902796382327,
+        "target": 1,
+        "touches": 2,
+        "weight": 0.11189321044652024
+      }
+    ],
+    "energy": {
+      "consumed_associative": 0.0,
+      "consumed_direct": 0.0,
+      "consumed_inhibition": 0.0,
+      "consumed_maintenance": 0.0,
+      "counter_overflowed": false,
+      "death_us": null,
+      "discarded_total": 0.0,
+      "initial_total": 1.0,
+      "last_maintenance_deficit": 0.0,
+      "last_settlement_us": "0",
+      "offered_total": 0.0,
+      "reserve": 1.0,
+      "schema": "threemind.energy/1",
+      "since_us": "0",
+      "starved_since_us": null,
+      "supplied_total": 0.0,
+      "unserved_total": 0.0
+    },
+    "life": "active",
+    "next_event": 8,
+    "next_node": 3,
+    "next_step_us": "20000",
+    "nodes": [
+      {
+        "activation": 0.6967312120262306,
+        "associative": 0.0,
+        "channel": 1,
+        "direct": 0.6967312120262306,
+        "id": 1,
+        "inhibition": 0.1668566159293075,
+        "last_touch_us": "0",
+        "stability": 0.015839762401900787,
+        "support": 0.025199622003023985,
+        "touches": 1,
+        "trace": 0.7058550763775461
+      },
+      {
+        "activation": 0.5655282986142705,
+        "associative": 0.0,
+        "channel": 2,
+        "direct": 0.5655282986142705,
+        "id": 2,
+        "inhibition": 0.13557100044256234,
+        "last_touch_us": "0",
+        "stability": 0.012869806951544393,
+        "support": 0.020474692877456988,
+        "touches": 1,
+        "trace": 0.5735072495567562
+      }
+    ],
+    "queue": [
+      {
+        "id": 7,
+        "kind": "signal",
+        "payload": {
+          "values": [
+            [
+              1,
+              0.00040909881116193026
+            ],
+            [
+              2,
+              0.0004797384004095544
+            ]
+          ]
+        },
+        "time_us": "20000"
+      },
+      {
+        "id": 8,
+        "kind": "inhibition",
+        "payload": {
+          "values": [
+            [
+              1,
+              0.004828999557437667
+            ],
+            [
+              2,
+              0.005943384070692513
+            ]
+          ]
+        },
+        "time_us": "20000"
+      },
+      {
+        "id": 2,
+        "kind": "stimulus",
+        "payload": {
+          "channels": [
+            [
+              1,
+              0.8
+            ],
+            [
+              2,
+              0.65
+            ],
+            [
+              3,
+              0.4
+            ]
+          ],
+          "intensity": 1.0,
+          "time_us": "31337"
+        },
+        "time_us": "31337"
+      },
+      {
+        "id": 3,
+        "kind": "stimulus",
+        "payload": {
+          "channels": [
+            [
+              1,
+              0.8
+            ],
+            [
+              2,
+              0.65
+            ],
+            [
+              3,
+              0.4
+            ]
+          ],
+          "intensity": 1.0,
+          "time_us": "99555"
+        },
+        "time_us": "99555"
+      }
+    ],
+    "resources": {
+      "adaptation_budget_skips": "0",
+      "adaptation_period_us": "0",
+      "adaptations_used": 0,
+      "counter_overflowed": false,
+      "edge_capacity_rejections": "0",
+      "node_capacity_rejections": "0",
+      "propagation_budget_skips": "0",
+      "schema": "threemind.resources/1",
+      "since_us": "0"
+    },
+    "schema": "threemind.state/5",
+    "sequence": 5,
+    "silenced_edges": [],
+    "silenced_nodes": [],
+    "sources_open": true,
+    "state_time_us": "10000",
+    "time_us": "17001"
+  },
+  "before_hash": "ec02a8b9b9d47f1ea4928b68c1222486fc211d334d774d43482f4cf67cd10c35",
+  "target_us": "160123",
+  "after": {
+    "attention": {
+      "considered_channels": "9",
+      "counter_overflowed": false,
+      "evaluated_frames": "3",
+      "modulators": [
+        {
+          "budget_multiplier": 1.0,
+          "competition_enabled": false,
+          "expires_us": "75555",
+          "gain": 0.6,
+          "source": "fixed-control",
+          "ttl_us": 70000,
+          "updated_us": "5555"
+        }
+      ],
+      "passed_channels": "6",
+      "schema": "threemind.attention/1",
+      "since_us": "0",
+      "suppressed_channels": "3"
+    },
+    "config": {
+      "activation_floor": 1e-05,
+      "activation_tau": 0.3044,
+      "associative_gain": 0.01,
+      "attention_budget": 2,
+      "attention_competition_enabled": true,
+      "birth_weight": 0.065,
+      "delay_us": 10000,
+      "direct_gain": 0.9,
+      "first_gain": 0.045,
+      "forgetting_rate": 0.025,
+      "inhibition": true,
+      "inhibition_diffusion_rate": 3.5,
+      "inhibition_gain": 0.24,
+      "inhibition_response_gain": 2.0,
+      "inhibition_tau": 0.2321,
+      "intensity_gain": 0.075,
+      "learning_rate": 0.0055,
+      "plasticity": true,
+      "propagation_rate": 4.2,
+      "prune_support": 1e-05,
+      "prune_weight": 0.008,
+      "repeat_gain": 0.018,
+      "seed": 77,
+      "spatial_competition_rate": 0.1,
+      "spatial_embedding": true,
+      "spatial_radius": 1.8,
+      "stability_gain": 0.022,
+      "stability_tau": 666.667,
+      "step_us": 10000,
+      "support_gain": 0.035,
+      "support_tau": 666.667,
+      "trace_tau": 0.504
+    },
+    "dynamics": "threemind.causal/6",
+    "edges": [
+      {
+        "birth_us": "0",
+        "eligibility": 0.8912965073891813,
+        "last_touch_us": "160000",
+        "source": 1,
+        "stability": 0.16868726315839278,
+        "target": 2,
+        "touches": 19,
+        "weight": 0.12156000681922452
+      },
+      {
+        "birth_us": "0",
+        "eligibility": 0.8912600410264048,
+        "last_touch_us": "160000",
+        "source": 2,
+        "stability": 0.16866964923904507,
+        "target": 1,
+        "touches": 19,
+        "weight": 0.12155200367465063
+      }
+    ],
+    "energy": {
+      "consumed_associative": 0.0,
+      "consumed_direct": 0.0,
+      "consumed_inhibition": 0.0,
+      "consumed_maintenance": 0.0,
+      "counter_overflowed": false,
+      "death_us": null,
+      "discarded_total": 0.0,
+      "initial_total": 1.0,
+      "last_maintenance_deficit": 0.0,
+      "last_settlement_us": "0",
+      "offered_total": 0.0,
+      "reserve": 1.0,
+      "schema": "threemind.energy/1",
+      "since_us": "0",
+      "starved_since_us": null,
+      "supplied_total": 0.0,
+      "unserved_total": 0.0
+    },
+    "life": "active",
+    "next_event": 72,
+    "next_node": 3,
+    "next_step_us": "170000",
+    "nodes": [
+      {
+        "activation": 0.8170915014162026,
+        "associative": 0.004908894540003565,
+        "channel": 1,
+        "direct": 0.8121826068761989,
+        "id": 1,
+        "inhibition": 0.17393919482023548,
+        "last_touch_us": "160000",
+        "stability": 0.027957774701932312,
+        "support": 0.04447827793489231,
+        "touches": 18,
+        "trace": 0.8900131919112657
+      },
+      {
+        "activation": 0.8228574686949806,
+        "associative": 0.005408708514018604,
+        "channel": 2,
+        "direct": 0.8174487601809621,
+        "id": 2,
+        "inhibition": 0.1838292688244363,
+        "last_touch_us": "160000",
+        "stability": 0.027017645180262978,
+        "support": 0.04298261733223656,
+        "touches": 18,
+        "trace": 0.8900523310631493
+      }
+    ],
+    "queue": [
+      {
+        "id": 69,
+        "kind": "inhibition",
+        "payload": {
+          "values": [
+            [
+              1,
+              0.00010909924804901435
+            ]
+          ]
+        },
+        "time_us": "170000"
+      },
+      {
+        "id": 70,
+        "kind": "inhibition",
+        "payload": {
+          "values": [
+            [
+              2,
+              0.00010854955940911232
+            ]
+          ]
+        },
+        "time_us": "170000"
+      },
+      {
+        "id": 71,
+        "kind": "signal",
+        "payload": {
+          "values": [
+            [
+              1,
+              0.0005998134505533896
+            ],
+            [
+              2,
+              0.0006046194539489439
+            ]
+          ]
+        },
+        "time_us": "170000"
+      },
+      {
+        "id": 72,
+        "kind": "inhibition",
+        "payload": {
+          "values": [
+            [
+              1,
+              0.006547945024374084
+            ],
+            [
+              2,
+              0.006195663468337727
+            ]
+          ]
+        },
+        "time_us": "170000"
+      }
+    ],
+    "resources": {
+      "adaptation_budget_skips": "0",
+      "adaptation_period_us": "0",
+      "adaptations_used": 0,
+      "counter_overflowed": false,
+      "edge_capacity_rejections": "0",
+      "node_capacity_rejections": "0",
+      "propagation_budget_skips": "0",
+      "schema": "threemind.resources/1",
+      "since_us": "0"
+    },
+    "schema": "threemind.state/5",
+    "sequence": 84,
+    "silenced_edges": [],
+    "silenced_nodes": [],
+    "sources_open": true,
+    "state_time_us": "160000",
+    "time_us": "160123"
+  },
+  "after_hash": "11c7fe63d691c84e59a9e1ff6e955a6bb147e8c60ac0227fba488004ad16c75b"
+}

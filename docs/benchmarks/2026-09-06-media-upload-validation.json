@@ -1,0 +1,47 @@
+{
+  "date": "2026-09-06",
+  "scope": "B10 resumable PostgreSQL media carriers and bounded original reads",
+  "database_schema": 12,
+  "model_configuration_fields": 379,
+  "core": "causal/6",
+  "state": "state/5",
+  "profile": "profile/4",
+  "full_pytest": {
+    "passed": 209,
+    "skipped": 0,
+    "seconds": 243.13
+  },
+  "browser": {
+    "passed": 2,
+    "seconds": 32.9,
+    "engine": "Edge",
+    "actual_hardware_capture": false
+  },
+  "checks": [
+    "Ruff",
+    "TypeScript/Vite",
+    "native extension rebuild",
+    "standalone Rust CLI rebuild and model/SQLite roundtrip",
+    "Prettier",
+    "legacy audit 55 covered, 0 pending",
+    "git diff --check"
+  ],
+  "memory_record": "2026-09-06-media-upload-memory.json",
+  "limits": [
+    "Frame and decoder buffers remain subject to separate budgets",
+    "Memory fixture has compressible RIFF padding and short PCM, not a complex video throughput claim",
+    "No migration or scan of old data",
+    "In-progress decoder recovery restarts decoding from the persisted original"
+  ],
+  "sha256": {
+    "migrations/012_media_uploads.sql": "048596718de9a455049f74d15ab7b6f94ee314ddbfce437fc306d77bafbfc6cc",
+    "src/threemind_lab/media_uploads.py": "a8dfb1813188a19e02ba276f3359b01202bd0b39f832339de135eb86c858d032",
+    "src/threemind_lab/media_upload_api.py": "8e46148b71dc2a4cd76af857e5e7777b2eb46f0b116b94bc75e01648c9910266",
+    "src/threemind_lab/media_codec.py": "6c49bfe5cb168eecf7e21da22ec32d076368318410f87b63c73b86e0da65661c",
+    "src/threemind_lab/media_store.py": "88175f60b45b04ccf589740fb907686cc2857f80eac3d248af550634971d6f14",
+    "src/threemind_runtime/media.py": "e89c18d67565e38d6461fe28ab695e0e9b0f39d25ac457ed57cc91eb4819dbc1",
+    "crates/threemind-runtime/src/media-profile-contract.json": "65bd631f42796c00ae871362407616af956dd3b72d0da8eb1a68734a0498a073",
+    "threemind-ui/src/v2/mediaTransfer.ts": "7e10e9a5561416f9926c8d505b52e83a6ebfa9ba43d0f8a52f61428bcb27851f",
+    "threemind-ui/src/v2/media.tsx": "ba141181159f69a780d9698c922c0ab33fd599d85b3c93cfdf3672ed544fa6f4"
+  }
+}

@@ -1,0 +1,645 @@
+{
+  "schema": "threemind-v3-restoration-oracle/1",
+  "sources": [
+    {
+      "revision": "97d8592",
+      "path": "core/threemind/runtime.py",
+      "sha256": "4263c8e921a7cce73faba23fb6f673ecd1e0302846c7c17c14faa13fb31d9cdd"
+    },
+    {
+      "revision": "97d8592",
+      "path": "core/threemind/model.py",
+      "sha256": "958046eaf861a6e0db5841ca95d764879662e59be79f50a52c96dd3f3b8ef939"
+    },
+    {
+      "revision": "97d8592",
+      "path": "core/threemind/frames.py",
+      "sha256": "a1da68bf0eb5aa17758995eb83018142f18c66dd8436c8471186c6fc4a2221ad"
+    },
+    {
+      "revision": "97d8592",
+      "path": "core/threemind/attention.py",
+      "sha256": "b5b4a3256c52bb971be7706b6c9a684a44ac1a2fe88f06f38ecc44bc04a796a2"
+    },
+    {
+      "revision": "0c5e64a",
+      "path": "legacy/ui/src/Lab.tsx",
+      "sha256": "90ac189e4c82dbfae633d083cdda0a377b581e39292e40a92621c3c619e0068d"
+    },
+    {
+      "revision": "0c5e64a",
+      "path": "legacy/ui/src/MediaControls.tsx",
+      "sha256": "89d530075fe1f9d71d89cdd6b3b6a09aa520c2fe5b04c75354f20efcd25b3844"
+    }
+  ],
+  "samples": {
+    "local_birth": {
+      "nodes": [
+        {
+          "id": 1,
+          "activation": 0.63,
+          "previous_activation": 0.0,
+          "trace": 0.63,
+          "plasticity": 0.9950104,
+          "stability": 0.0069299999999999995,
+          "support": 0.022050000000000004,
+          "born_tick": 0,
+          "last_touched_tick": 0,
+          "touch_count": 1,
+          "direct_touch": 0.63,
+          "associative_touch": 0.0,
+          "inhibition": 0.0,
+          "pending_inhibition": 0.0,
+          "position": null
+        },
+        {
+          "id": 2,
+          "activation": 0.45,
+          "previous_activation": 0.0,
+          "trace": 0.45,
+          "plasticity": 0.996436,
+          "stability": 0.0049499999999999995,
+          "support": 0.015750000000000004,
+          "born_tick": 0,
+          "last_touched_tick": 0,
+          "touch_count": 1,
+          "direct_touch": 0.45,
+          "associative_touch": 0.0,
+          "inhibition": 0.0,
+          "pending_inhibition": 0.0,
+          "position": null
+        }
+      ],
+      "edges": [
+        {
+          "source": 1,
+          "target": 2,
+          "weight": 0.06453550000000001,
+          "stability": 0.0756,
+          "eligibility": 0.0756,
+          "born_tick": 0,
+          "last_touched_tick": 0,
+          "touch_count": 0,
+          "vector": null,
+          "formation_associative_touch": 0.0,
+          "local_novelty": 0.0
+        },
+        {
+          "source": 2,
+          "target": 1,
+          "weight": 0.06453550000000001,
+          "stability": 0.0756,
+          "eligibility": 0.0756,
+          "born_tick": 0,
+          "last_touched_tick": 0,
+          "touch_count": 0,
+          "vector": null,
+          "formation_associative_touch": 0.0,
+          "local_novelty": 0.0
+        }
+      ]
+    },
+    "local_repeat": {
+      "nodes": [
+        {
+          "id": 1,
+          "activation": 1.0,
+          "previous_activation": 0.0,
+          "trace": 1.0,
+          "plasticity": 0.9870904,
+          "stability": 0.017929999999999998,
+          "support": 0.04410000000000001,
+          "born_tick": 0,
+          "last_touched_tick": 0,
+          "touch_count": 2,
+          "direct_touch": 0.63,
+          "associative_touch": 0.0,
+          "inhibition": 0.0,
+          "pending_inhibition": 0.0,
+          "position": null
+        },
+        {
+          "id": 2,
+          "activation": 0.9,
+          "previous_activation": 0.0,
+          "trace": 0.9,
+          "plasticity": 0.989308,
+          "stability": 0.014849999999999999,
+          "support": 0.03150000000000001,
+          "born_tick": 0,
+          "last_touched_tick": 0,
+          "touch_count": 2,
+          "direct_touch": 0.45,
+          "associative_touch": 0.0,
+          "inhibition": 0.0,
+          "pending_inhibition": 0.0,
+          "position": null
+        }
+      ],
+      "edges": [
+        {
+          "source": 1,
+          "target": 2,
+          "weight": 0.08709337614070001,
+          "stability": 0.11690505504,
+          "eligibility": 0.35097626376,
+          "born_tick": 0,
+          "last_touched_tick": 0,
+          "touch_count": 1,
+          "vector": null,
+          "formation_associative_touch": 0.0,
+          "local_novelty": 0.0
+        },
+        {
+          "source": 2,
+          "target": 1,
+          "weight": 0.08709337614070001,
+          "stability": 0.11690505504,
+          "eligibility": 0.35097626376,
+          "born_tick": 0,
+          "last_touched_tick": 0,
+          "touch_count": 1,
+          "vector": null,
+          "formation_associative_touch": 0.0,
+          "local_novelty": 0.0
+        }
+      ]
+    },
+    "local_novelty": {
+      "nodes": [
+        {
+          "id": 1,
+          "activation": 1.0,
+          "previous_activation": 0.0,
+          "trace": 1.0,
+          "plasticity": 0.9791704,
+          "stability": 0.028929999999999997,
+          "support": 0.06790000000000002,
+          "born_tick": 0,
+          "last_touched_tick": 0,
+          "touch_count": 3,
+          "direct_touch": 0.63,
+          "associative_touch": 0.05,
+          "inhibition": 0.0,
+          "pending_inhibition": 0.0,
+          "position": null
+        },
+        {
+          "id": 2,
+          "activation": 0.9,
+          "previous_activation": 0.0,
+          "trace": 0.9,
+          "plasticity": 0.989308,
+          "stability": 0.014849999999999999,
+          "support": 0.03150000000000001,
+          "born_tick": 0,
+          "last_touched_tick": 0,
+          "touch_count": 2,
+          "direct_touch": 0.45,
+          "associative_touch": 0.05,
+          "inhibition": 0.0,
+          "pending_inhibition": 0.0,
+          "position": null
+        },
+        {
+          "id": 3,
+          "activation": 0.54,
+          "previous_activation": 0.0,
+          "trace": 0.54,
+          "plasticity": 0.9957232,
+          "stability": 0.00594,
+          "support": 0.018900000000000004,
+          "born_tick": 0,
+          "last_touched_tick": 0,
+          "touch_count": 1,
+          "direct_touch": 0.54,
+          "associative_touch": 0.0,
+          "inhibition": 0.0,
+          "pending_inhibition": 0.0,
+          "position": null
+        }
+      ],
+      "edges": [
+        {
+          "source": 1,
+          "target": 2,
+          "weight": 0.08709337614070001,
+          "stability": 0.11690505504,
+          "eligibility": 0.35097626376,
+          "born_tick": 0,
+          "last_touched_tick": 0,
+          "touch_count": 1,
+          "vector": null,
+          "formation_associative_touch": 0.0,
+          "local_novelty": 0.0
+        },
+        {
+          "source": 2,
+          "target": 1,
+          "weight": 0.08709337614070001,
+          "stability": 0.11690505504,
+          "eligibility": 0.35097626376,
+          "born_tick": 0,
+          "last_touched_tick": 0,
+          "touch_count": 1,
+          "vector": null,
+          "formation_associative_touch": 0.0,
+          "local_novelty": 0.0
+        },
+        {
+          "source": 1,
+          "target": 3,
+          "weight": 0.0888634518688,
+          "stability": 0.05663028816,
+          "eligibility": 0.04313028816,
+          "born_tick": 0,
+          "last_touched_tick": 0,
+          "touch_count": 0,
+          "vector": null,
+          "formation_associative_touch": 0.05,
+          "local_novelty": 0.75
+        },
+        {
+          "source": 3,
+          "target": 1,
+          "weight": 0.0888634518688,
+          "stability": 0.05663028816,
+          "eligibility": 0.04313028816,
+          "born_tick": 0,
+          "last_touched_tick": 0,
+          "touch_count": 0,
+          "vector": null,
+          "formation_associative_touch": 0.05,
+          "local_novelty": 0.75
+        }
+      ]
+    },
+    "local_forget": {
+      "nodes": [
+        {
+          "id": 1,
+          "activation": 1.0,
+          "previous_activation": 0.0,
+          "trace": 1.0,
+          "plasticity": 0.9791704,
+          "stability": 0.028929999999999997,
+          "support": 0.06790000000000002,
+          "born_tick": 0,
+          "last_touched_tick": 0,
+          "touch_count": 3,
+          "direct_touch": 0.63,
+          "associative_touch": 0.05,
+          "inhibition": 0.0,
+          "pending_inhibition": 0.0,
+          "position": null
+        },
+        {
+          "id": 2,
+          "activation": 0.9,
+          "previous_activation": 0.0,
+          "trace": 0.9,
+          "plasticity": 0.989308,
+          "stability": 0.014849999999999999,
+          "support": 0.03150000000000001,
+          "born_tick": 0,
+          "last_touched_tick": 0,
+          "touch_count": 2,
+          "direct_touch": 0.45,
+          "associative_touch": 0.05,
+          "inhibition": 0.0,
+          "pending_inhibition": 0.0,
+          "position": null
+        },
+        {
+          "id": 3,
+          "activation": 0.54,
+          "previous_activation": 0.0,
+          "trace": 0.54,
+          "plasticity": 0.9957232,
+          "stability": 0.00594,
+          "support": 0.018900000000000004,
+          "born_tick": 0,
+          "last_touched_tick": 0,
+          "touch_count": 1,
+          "direct_touch": 0.54,
+          "associative_touch": 0.0,
+          "inhibition": 0.0,
+          "pending_inhibition": 0.0,
+          "position": null
+        }
+      ],
+      "edges": [
+        {
+          "source": 1,
+          "target": 2,
+          "weight": 0.08691645736277388,
+          "stability": 0.11679611926285992,
+          "eligibility": 0.2737614857328,
+          "born_tick": 0,
+          "last_touched_tick": 0,
+          "touch_count": 1,
+          "vector": null,
+          "formation_associative_touch": 0.0,
+          "local_novelty": 0.0
+        },
+        {
+          "source": 2,
+          "target": 1,
+          "weight": 0.08691645736277388,
+          "stability": 0.11679611926285992,
+          "eligibility": 0.2737614857328,
+          "born_tick": 0,
+          "last_touched_tick": 0,
+          "touch_count": 1,
+          "vector": null,
+          "formation_associative_touch": 0.0,
+          "local_novelty": 0.0
+        },
+        {
+          "source": 1,
+          "target": 3,
+          "weight": 0.08867061073763044,
+          "stability": 0.05648533440371472,
+          "eligibility": 0.0336416247648,
+          "born_tick": 0,
+          "last_touched_tick": 0,
+          "touch_count": 0,
+          "vector": null,
+          "formation_associative_touch": 0.05,
+          "local_novelty": 0.75
+        },
+        {
+          "source": 3,
+          "target": 1,
+          "weight": 0.08867061073763044,
+          "stability": 0.05648533440371472,
+          "eligibility": 0.0336416247648,
+          "born_tick": 0,
+          "last_touched_tick": 0,
+          "touch_count": 0,
+          "vector": null,
+          "formation_associative_touch": 0.05,
+          "local_novelty": 0.75
+        }
+      ]
+    },
+    "first_pair": {
+      "nodes": [
+        {
+          "id": 1,
+          "activation": 0.63,
+          "previous_activation": 0.0,
+          "trace": 0.63,
+          "plasticity": 0.9950104,
+          "stability": 0.0069299999999999995,
+          "support": 0.022050000000000004,
+          "born_tick": 1,
+          "last_touched_tick": 1,
+          "touch_count": 1,
+          "direct_touch": 0.63,
+          "associative_touch": 0.0,
+          "inhibition": 0.0,
+          "pending_inhibition": 0.0,
+          "position": null
+        },
+        {
+          "id": 2,
+          "activation": 0.45,
+          "previous_activation": 0.0,
+          "trace": 0.45,
+          "plasticity": 0.996436,
+          "stability": 0.0049499999999999995,
+          "support": 0.015750000000000004,
+          "born_tick": 1,
+          "last_touched_tick": 1,
+          "touch_count": 1,
+          "direct_touch": 0.45,
+          "associative_touch": 0.0,
+          "inhibition": 0.0,
+          "pending_inhibition": 0.0,
+          "position": null
+        }
+      ],
+      "edges": [
+        {
+          "source": 1,
+          "target": 2,
+          "weight": 0.06439826883090015,
+          "stability": 0.0754588452,
+          "eligibility": 0.058968,
+          "born_tick": 1,
+          "last_touched_tick": 1,
+          "touch_count": 0,
+          "vector": null,
+          "formation_associative_touch": 0.0,
+          "local_novelty": 0.0
+        },
+        {
+          "source": 2,
+          "target": 1,
+          "weight": 0.06439826883090015,
+          "stability": 0.0754588452,
+          "eligibility": 0.058968,
+          "born_tick": 1,
+          "last_touched_tick": 1,
+          "touch_count": 0,
+          "vector": null,
+          "formation_associative_touch": 0.0,
+          "local_novelty": 0.0
+        }
+      ]
+    },
+    "repeat_pair": {
+      "nodes": [
+        {
+          "id": 1,
+          "activation": 1.0,
+          "previous_activation": 0.63,
+          "trace": 1.0,
+          "plasticity": 0.9870904,
+          "stability": 0.017929999999999998,
+          "support": 0.04395103950000001,
+          "born_tick": 1,
+          "last_touched_tick": 2,
+          "touch_count": 2,
+          "direct_touch": 0.63,
+          "associative_touch": 0.0,
+          "inhibition": 0.0,
+          "pending_inhibition": 0.0,
+          "position": null
+        },
+        {
+          "id": 2,
+          "activation": 0.774,
+          "previous_activation": 0.45,
+          "trace": 0.819,
+          "plasticity": 0.99030592,
+          "stability": 0.013463999999999999,
+          "support": 0.03135074250000001,
+          "born_tick": 1,
+          "last_touched_tick": 2,
+          "touch_count": 2,
+          "direct_touch": 0.45,
+          "associative_touch": 0.0,
+          "inhibition": 0.0,
+          "pending_inhibition": 0.0,
+          "position": null
+        }
+      ],
+      "edges": [
+        {
+          "source": 1,
+          "target": 2,
+          "weight": 0.0838702441184405,
+          "stability": 0.11387659591885992,
+          "eligibility": 0.2313045257328,
+          "born_tick": 1,
+          "last_touched_tick": 2,
+          "touch_count": 1,
+          "vector": null,
+          "formation_associative_touch": 0.0,
+          "local_novelty": 0.0
+        },
+        {
+          "source": 2,
+          "target": 1,
+          "weight": 0.0838702441184405,
+          "stability": 0.11387659591885992,
+          "eligibility": 0.2313045257328,
+          "born_tick": 1,
+          "last_touched_tick": 2,
+          "touch_count": 1,
+          "vector": null,
+          "formation_associative_touch": 0.0,
+          "local_novelty": 0.0
+        }
+      ]
+    },
+    "isolated_without_energy": {
+      "nodes": [
+        {
+          "id": 1,
+          "activation": 0.63,
+          "previous_activation": 0.0,
+          "trace": 0.63,
+          "plasticity": 0.9950104,
+          "stability": 0.0069299999999999995,
+          "support": 0.022050000000000004,
+          "born_tick": 1,
+          "last_touched_tick": 1,
+          "touch_count": 1,
+          "direct_touch": 0.63,
+          "associative_touch": 0.0,
+          "inhibition": 0.0,
+          "pending_inhibition": 0.0,
+          "position": null
+        }
+      ],
+      "edges": []
+    },
+    "saturated_direct": {
+      "energy_consumed": 0.08999999999999986,
+      "activation": 1.0,
+      "direct_touch": 0.9,
+      "impulses": {
+        "1": 0.017871696
+      }
+    },
+    "soft_inhibition": [
+      {
+        "input": 0,
+        "output": 0.0
+      },
+      {
+        "input": 0.1,
+        "output": 0.09966799462495582
+      },
+      {
+        "input": 0.5,
+        "output": 0.46211715726000974
+      },
+      {
+        "input": 1,
+        "output": 0.7615941559557649
+      },
+      {
+        "input": 2,
+        "output": 0.9640275800758169
+      }
+    ],
+    "inhibition_two_phases": {
+      "state": {
+        "nodes": [
+          {
+            "id": 1,
+            "activation": 0.63,
+            "previous_activation": 0.0,
+            "trace": 0.63,
+            "plasticity": 0.9950104,
+            "stability": 0.0069299999999999995,
+            "support": 0.022050000000000004,
+            "born_tick": 0,
+            "last_touched_tick": 0,
+            "touch_count": 1,
+            "direct_touch": 0.63,
+            "associative_touch": 0.0,
+            "inhibition": 0.21171112004666098,
+            "pending_inhibition": 0.14660075406308065,
+            "position": null
+          },
+          {
+            "id": 2,
+            "activation": 0.45,
+            "previous_activation": 0.0,
+            "trace": 0.45,
+            "plasticity": 0.996436,
+            "stability": 0.0049499999999999995,
+            "support": 0.015750000000000004,
+            "born_tick": 0,
+            "last_touched_tick": 0,
+            "touch_count": 1,
+            "direct_touch": 0.45,
+            "associative_touch": 0.0,
+            "inhibition": 0.27423452732982956,
+            "pending_inhibition": 0.11350702315762284,
+            "position": null
+          }
+        ],
+        "edges": [
+          {
+            "source": 1,
+            "target": 2,
+            "weight": 0.06453550000000001,
+            "stability": 0.0756,
+            "eligibility": 0.0756,
+            "born_tick": 0,
+            "last_touched_tick": 0,
+            "touch_count": 0,
+            "vector": null,
+            "formation_associative_touch": 0.0,
+            "local_novelty": 0.0
+          },
+          {
+            "source": 2,
+            "target": 1,
+            "weight": 0.06453550000000001,
+            "stability": 0.0756,
+            "eligibility": 0.0756,
+            "born_tick": 0,
+            "last_touched_tick": 0,
+            "touch_count": 0,
+            "vector": null,
+            "formation_associative_touch": 0.0,
+            "local_novelty": 0.0
+          }
+        ]
+      },
+      "delta": {
+        "inhibition_generated": 0.048,
+        "inhibition_transferred": 0.26166304,
+        "inhibition_transfer_count": 2
+      }
+    }
+  },
+  "history_limit": "Old runtime first appears in root commit 97d8592; earlier author intent is unavailable."
+}

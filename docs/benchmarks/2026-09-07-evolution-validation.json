@@ -1,0 +1,133 @@
+{
+  "schema": "threemind.validation/1",
+  "generated_at": "2026-09-07T05:46:19.580390+00:00",
+  "scope": "Directed multigeneration training and fixed evidence tools; engineering verification, not evidence of consciousness or successful biological evolution.",
+  "source_base_commit": "d66f72a",
+  "contracts": {
+    "core": "causal/7 unchanged",
+    "state": "state/5 unchanged",
+    "runtime_profile": "profile/5 unchanged",
+    "birth": "threemind.birth/1 unchanged",
+    "campaign": "threemind.evolution/1",
+    "database_schema": 36,
+    "parameters": 420
+  },
+  "full_regression": {
+    "passed": 414,
+    "failed": 0,
+    "skipped": 0,
+    "seconds": 1352.52,
+    "scope_note": "Started before final nonempty-fixture strengthening and schema 36 publication capability gating; later changes covered by final targeted runs."
+  },
+  "nonempty_targeted": {
+    "passed": 16,
+    "failed": 0,
+    "seconds": 144.86,
+    "coverage": [
+      "nonempty multigeneration inheritance and deterministic state hashes",
+      "evaluation copies cannot become offspring sources",
+      "single-worker barriers, simultaneous completion, lease failure, retry and cancellation",
+      "project permissions, immutable scientific settings",
+      "ZIP integrity and fixed report sources"
+    ]
+  },
+  "publication_targeted": {
+    "passed": 22,
+    "failed": 0,
+    "seconds": 180.09,
+    "coverage": [
+      "schema 36 upgrade",
+      "runtime and AI worker capability gating",
+      "fixed record references in report exports",
+      "mock AI generation and saved draft",
+      "readout fidelity and existing research operations"
+    ]
+  },
+  "browser": {
+    "passed": 10,
+    "failed": 0,
+    "reported_duration": "1.6m",
+    "coverage": [
+      "development and independent birth",
+      "graphical and JSON evolution configuration",
+      "nonempty candidate provenance and final verification",
+      "fixed sources and report preview",
+      "existing report exports and paired study designer",
+      "narrow layouts and documentation entry"
+    ]
+  },
+  "translation_audit": {
+    "catalogue": 3858,
+    "literalReferences": 2969,
+    "dynamicReferences": 112,
+    "metadata": {
+      "parameters": 420,
+      "adapters": 23,
+      "commands": 10,
+      "texts": 746
+    },
+    "duplicates": [],
+    "invalidPlaceholders": [],
+    "missing": [],
+    "remainingDirectDisplayLiterals": {}
+  },
+  "legacy_fields_reviewed": 55,
+  "resolved_validation_issues": [
+    "Initial short ambient fixtures ended before the first sensor sample. Backend fixtures now explicitly sample every 10 ms; browser fixtures run long enough. All campaign members must have nonempty networks.",
+    "A lease test expected a failed run, but the established contract blocks the run and fails its job; assertion corrected.",
+    "Test worker capabilities are initialized at first poll, and AI prepare returns sources inside evidence; fixtures corrected.",
+    "Browser selectors and modal assertions corrected; graphical JSON link placement and responsive layout improved after screenshot review."
+  ],
+  "limits": [
+    "Directed selection only. Shared and independent ecological habitats, resource/reproduction strategies and editable worlds are separate pending work.",
+    "All evaluation copies are isolated; only pre-evaluation candidates are inherited. Final verification never feeds back into selection.",
+    "Different seeds are not proof of independent samples. Reused evaluation environments, shared ancestors and censored survival are declared.",
+    "No structural crossover, implicit rewiring, parameter mutation or default consciousness fitness score.",
+    "ZIP contains complete campaign-level evidence and provenance, not every individual model, raw stimulus or trajectory. Those have separate per-run exports.",
+    "The 2 GiB uncompressed export limit fails atomically rather than reporting silent truncation. Streaming/spooled output is not a throughput capacity claim.",
+    "No real external AI requests, old data migration or new Docker image verification were performed in this phase."
+  ],
+  "logs": {
+    "full": {
+      "file": ".work/evolution-full.log",
+      "sha256": "2b9c873c6b7a5ebe2b75a39a4500c108b7d54b4042541f5cea24c9bca5f7d78f"
+    },
+    "nonempty_targeted": {
+      "file": ".work/evolution-nonempty-validation.log",
+      "sha256": "e89d25435294b18060b642705dd99a3572fda3e7940747431c23feb5a508511f"
+    },
+    "publication_targeted": {
+      "file": ".work/evolution-publication-validation.log",
+      "sha256": "c4f2f3bfe136a1475acca791487de285f000fb163746337f834b42d2d15ae231"
+    },
+    "browser": {
+      "file": ".work/evolution-browser-regression.log",
+      "sha256": "ba9a6074bcf8ff43f9da82adaf3183b7c0e931e0a46b74f5c9817917798e8259"
+    },
+    "build": {
+      "file": ".work/evolution-build-final.log",
+      "sha256": "b49bf31d62a3fc06d448893a53a18960c5f1a4f9e26c4c28e38645437af63cfc"
+    },
+    "ruff": {
+      "file": ".work/evolution-delivery-ruff.log",
+      "sha256": "a4443afdcfb6d7363adb285762515ccf7cf50473b1a05c20c1a50f6bed4d26b0"
+    },
+    "translations": {
+      "file": ".work/evolution-translations-final.json",
+      "sha256": "43ff99d41faf38f72fea9abb53f9130930027417acd2cd7464d9e228cd0c0618"
+    },
+    "legacy": {
+      "file": ".work/evolution-legacy-final.log",
+      "sha256": "3bc879484bbbb681d03d35f283d8cc76115311ce49d8fccee3addb5360b64631"
+    },
+    "migration": {
+      "file": ".work/evolution-publication-migration.log",
+      "sha256": "20c911ec10f31e9b50987fb9f8bb6df59ea34564bb043429015714f1e82faca0"
+    }
+  },
+  "images": [
+    "docs/images/v2/evolution-configuration.png",
+    "docs/images/v2/evolution-evidence.png",
+    "docs/images/v2/evolution-report-preview.png"
+  ]
+}
