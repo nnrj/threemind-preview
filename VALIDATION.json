@@ -133,6 +133,25 @@
         "predations": 115,
         "scavenging": 121
       }
+    },
+    "data_binding": {
+      "main_experiment_ids": 81,
+      "evidence_files": 44635,
+      "evidence_bytes": 95719269964,
+      "evidence_manifest_sha256": "1dee7a51723693e45132fd2664a297783bc4e65e5fe8b75494fe56a33aa8a512",
+      "new_independent_source_files": 16401,
+      "scoped_closure_files": 8,
+      "reanalysis_and_offline_checks": [
+        "M1",
+        "M2",
+        "M3",
+        "M5",
+        "E69",
+        "R51i",
+        "R63e",
+        "OCEAN63-P1",
+        "OCEAN63-P2"
+      ]
     }
   },
   "data_release": "Source update and a physical data-package release are verified separately."

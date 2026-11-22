@@ -1,15 +1,17 @@
 # Data availability / 数据获取
 
-The companion dataset is named **threemind-data-preview**. The verified 11 November export contained 28,314 evidence files (42.535 GiB), selected against the earlier revision. For r3 study mappings, see [STUDIES.json](STUDIES.json).
+The companion **threemind-data-preview** release for the r3 v6 main manuscripts contains **44,635 evidence files (89.146 GiB)** for **81 experiment IDs**. Look up an experiment in [STUDIES.json](STUDIES.json) for its code and data paths. The data package records its release date and totals in `EXPORT.json`. `MANIFEST.jsonl` lists individual files, sizes and SHA-256 checksums.
 
-**Public download URL / DOI: to be supplied by the author after upload.** This extraction has not uploaded the code or data. The intended source repository is <https://github.com/nnrj/threemind-preview>.
+The r3 release adds the 6.1 and 6.3 replications, the reported E69 gaze-learning course, and the aquatic studies through the observations used in the main text. The registered AS63-01, AS63-02, AS63-03 and RT63-01 archives were verified against their original checksums. The E69 records end at subject boundary 000865. Sealed water-world checkpoints place P1 at 1520.70 internal seconds and P2 at 1669.06 internal seconds.
 
-Place the dataset beside this code checkout, or pass its location explicitly to the verification/reanalysis commands in [REPRODUCIBILITY.md](REPRODUCIBILITY.md). Its `MANIFEST.jsonl` and `EXPORT.json` identify every original byte sequence. It includes sealed evidence archives, complete subject states, personal adapter learning states where used, trajectories, analyses and replay media. Some historical packages are stored under content hashes; the dataset's `OBJECTS.jsonl` identifies their formats and experiment memberships.
+This is a local release. A public dataset URL or DOI can be added after the author deposits the package.
 
-No paper draft is included. Experiment design records and scientific reports are included to document the criteria, outcomes and historical corrections. Use the version-specific protocol for each study. The public preview does not silently substitute the latest kernel for a historical one.
+本版按 r3 v6 定稿的正文、图注和表 4-1 收录数据。只在补充方法目录中列名的实验不属于这份数据包。读者可从[实验索引](STUDIES.json)查到对应的科研代码和原件。两份预览放在同一父目录后，可按[复算说明](REPRODUCIBILITY.md)检查封存文件和实验结果。
 
-中文：数据另存，不在代码 Git 仓库中。请在数据托管平台发布后补充永久地址。使用前先按数据包清单核验，实验编号、论文小节、数据位置和代码位置见同一份索引。
+```powershell
+python ../threemind-data-preview/verify_data.py --metadata-only
+python ../threemind-data-preview/verify_data.py
+python ../threemind-data-preview/recheck_main_results.py
+```
 
-The installed data package records its own release date, file count, and SHA-256 hashes in `EXPORT.json` and `MANIFEST.jsonl`. The r3 code preview also identifies later evidence from the two research-data volumes. See `r3_studies` in the study index. Counts for the earlier export should not be used as an r3 total.
-
-数据预览版以自身的 `EXPORT.json` 和 `MANIFEST.jsonl` 标明实际收录的材料。代码索引包含 r3 新增的研究。上列数量指 11 月 11 日已经核验的那一版。
+SHA-256 of the evidence manifest / 逐文件清单的 SHA-256 为 `1dee7a51723693e45132fd2664a297783bc4e65e5fe8b75494fe56a33aa8a512`。

@@ -33242,8 +33242,8 @@
     },
     {
       "path": "DATA_AVAILABILITY.md",
-      "bytes": 2031,
-      "sha256": "365a0af57db392b4bad036c5202dfc991b60d33bfa43a163ed477a00586a9c9e"
+      "bytes": 1601,
+      "sha256": "a199d9deb1255b61287b42cadd9ecef9a0b21ad5c914e93176b1b592e2ad96df"
     },
     {
       "path": "INSTALL.md",
@@ -33287,13 +33287,13 @@
     },
     {
       "path": "STUDIES.json",
-      "bytes": 62412,
-      "sha256": "b2aeb4e8dd54bdf9567289e8ffb05c9fdce6c806f55e3f7952e0c79b5d679a99"
+      "bytes": 94990,
+      "sha256": "a8722717094f2fc05ab3f592692b73b003097ca4810f86a26e4eb3e25632c699"
     },
     {
       "path": "VALIDATION.json",
-      "bytes": 5503,
-      "sha256": "d89d516b33d45841ccf9fdab6f83ae481a78d2962d87285ee7b3843c7d598544"
+      "bytes": 6008,
+      "sha256": "55bf9667e7d14bdf123e45afdcf620b89e28d17b69b15b5a231ce8e0c4c7eb9e"
     },
     {
       "path": "docs/en/reference/history-figure-sources.md",

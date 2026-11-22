@@ -4,17 +4,81 @@
   "source_commit": "b1ea13db51efdf5abbdcfad9f948649a9506960e",
   "manuscript_sha256": "4e426c9662298207451c0408e71919c49945ff30ad9715685dd157123aabd227",
   "reference_document_sha256": {
-    "Mapping before meaning_r3_v6.en.docx": "46fcda0cfd3893bea84010bed264a901c59c1563ca72880f038376bcf093c358",
+    "Mapping before meaning_r3_v6.en.docx": "860afdf80b3ed6169640fd8df19c33f4d5f133312cda13788a3b8e1226d03197",
     "Mapping before meaning_r3_v6.zh.docx": "4e426c9662298207451c0408e71919c49945ff30ad9715685dd157123aabd227",
-    "supplementary_r3_v6.en.docx": "d19339365227fd9d02e7e68599e6a67eba088e7ff360e148fe42ac68add30928",
+    "supplementary_r3_v6.en.docx": "1e4277a27a54aae97015c516cf2d368893809845aefda47a830ca194bfe65165",
     "supplementary_r3_v6.zh.docx": "d49ba07bab006bd14b6e1ec451d436c3c2677b4a761419fbe168d6c36e6cd1bf",
     "terminology_r3.zh-en.docx": "5461db28d1ccc3497a59a7aa3112a977ba5d642b39a91aab846b325d435bc72a"
   },
   "studies": [
     {
+      "study_id": "AS63-01",
+      "manuscript_ids": [
+        "AS63-01"
+      ],
+      "paper_sections": [
+        "4.10"
+      ],
+      "files": 1,
+      "bytes": 3240752036,
+      "data_roots": [
+        "experiments/2026-11-17-artificial-selection63/AS63-01"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-17-artificial-selection63"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-17-artificial-selection63/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "AS63-02",
+      "manuscript_ids": [
+        "AS63-02"
+      ],
+      "paper_sections": [
+        "4.10"
+      ],
+      "files": 1,
+      "bytes": 525891735,
+      "data_roots": [
+        "experiments/2026-11-17-artificial-selection63/AS63-02"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-17-artificial-selection63"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-17-artificial-selection63/layout-report.zh.md"
+      ]
+    },
+    {
+      "study_id": "AS63-03",
+      "manuscript_ids": [
+        "AS63-03"
+      ],
+      "paper_sections": [
+        "4.10"
+      ],
+      "files": 1,
+      "bytes": 451102219,
+      "data_roots": [
+        "experiments/2026-11-18-ring-mechanism63/AS63-03"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-18-ring-mechanism63"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-18-ring-mechanism63/report.zh.md"
+      ]
+    },
+    {
       "study_id": "E12",
-      "paper_section": "4.7",
-      "title": "耗竭、易化与连接巩固：实验结果",
+      "manuscript_ids": [
+        "E12"
+      ],
+      "paper_sections": [
+        "4.7"
+      ],
       "files": 3,
       "bytes": 559707458,
       "data_roots": [
@@ -23,19 +87,18 @@
       "source_directories": [
         "lab/explorations/2026-09-29-memory-timescales"
       ],
-      "original_project_ids": [
-        "cbde2d48-284d-4294-9184-89f439923547"
-      ],
-      "kernel_ids_in_catalogue": [
-        "threemind.causal/9",
-        "threemind.continuous-memory/1",
-        "threemind.continuous/1"
+      "code_companion_paths": [
+        "lab/explorations/2026-09-29-memory-timescales/report.zh.md"
       ]
     },
     {
       "study_id": "E13",
-      "paper_section": "4.10",
-      "title": "刺激间隔、环境选择与自主活动：实验结果",
+      "manuscript_ids": [
+        "E13"
+      ],
+      "paper_sections": [
+        "4.10"
+      ],
       "files": 4,
       "bytes": 371566146,
       "data_roots": [
@@ -44,18 +107,39 @@
       "source_directories": [
         "lab/explorations/2026-09-29-input-rate-and-autonomy"
       ],
-      "original_project_ids": [
-        "59aee7a1-5248-417f-a03b-b56f858a04d9"
+      "code_companion_paths": [
+        "lab/explorations/2026-09-29-input-rate-and-autonomy/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "E14",
+      "manuscript_ids": [
+        "E14"
       ],
-      "kernel_ids_in_catalogue": [
-        "threemind.continuous-memory/1",
-        "threemind.lif/1"
+      "paper_sections": [
+        "4.10"
+      ],
+      "files": 4,
+      "bytes": 82218347,
+      "data_roots": [
+        "originals/objects/df63c577-3b39-4642-87c5-2e9e1b05f165"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-09-29-internal-activity"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-09-29-internal-activity/report.zh.md"
       ]
     },
     {
       "study_id": "E15",
-      "paper_section": "4.2",
-      "title": "经历改变行为，内部通路承担作用：802 实例实验报告",
+      "manuscript_ids": [
+        "E15"
+      ],
+      "paper_sections": [
+        "4.2",
+        "4.10"
+      ],
       "files": 5,
       "bytes": 328907557,
       "data_roots": [
@@ -64,17 +148,19 @@
       "source_directories": [
         "lab/explorations/2026-09-29-experience-and-autonomy"
       ],
-      "original_project_ids": [
-        "92548061-22c0-4bd9-b283-c4e1e7f4360d"
-      ],
-      "kernel_ids_in_catalogue": [
-        "threemind.continuous-memory/1"
+      "code_companion_paths": [
+        "lab/explorations/2026-09-29-experience-and-autonomy/report.r2.zh.md",
+        "lab/explorations/2026-09-29-experience-and-autonomy/report.zh.md"
       ]
     },
     {
       "study_id": "E17",
-      "paper_section": "4.7",
-      "title": "刺激强度、背景与物理参照：实验结果",
+      "manuscript_ids": [
+        "E17"
+      ],
+      "paper_sections": [
+        "4.7"
+      ],
       "files": 3,
       "bytes": 11165425,
       "data_roots": [
@@ -83,17 +169,61 @@
       "source_directories": [
         "lab/explorations/2026-09-30-stimulus-spacetime"
       ],
-      "original_project_ids": [
-        "36029e2c-2f4c-4f21-9aa5-376b0701c044"
+      "code_companion_paths": [
+        "lab/explorations/2026-09-30-stimulus-spacetime/report.r2.zh.md",
+        "lab/explorations/2026-09-30-stimulus-spacetime/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "E18",
+      "manuscript_ids": [
+        "E18"
       ],
-      "kernel_ids_in_catalogue": [
-        "threemind.continuous-memory/2"
+      "paper_sections": [
+        "4.5"
+      ],
+      "files": 6,
+      "bytes": 279661501,
+      "data_roots": [
+        "originals/objects/c49b4ad2-3d53-486a-b124-433e5491df36"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-09-30-memory-transfer"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-09-30-memory-transfer/report.r2.zh.md",
+        "lab/explorations/2026-09-30-memory-transfer/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "E20",
+      "manuscript_ids": [
+        "E20"
+      ],
+      "paper_sections": [
+        "4.6"
+      ],
+      "files": 11,
+      "bytes": 505762297,
+      "data_roots": [
+        "originals/objects/242ff8e9-f7d5-4d89-8964-cff06ca8fdf0"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-10-01-priority-memory"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-10-01-priority-memory/report.r3.zh.md",
+        "lab/explorations/2026-10-01-priority-memory/report.zh.md"
       ]
     },
     {
       "study_id": "E21",
-      "paper_section": "4.6",
-      "title": "顺序信息保存在哪里，感官反向怎样形成",
+      "manuscript_ids": [
+        "E21"
+      ],
+      "paper_sections": [
+        "4.6"
+      ],
       "files": 29,
       "bytes": 389054634,
       "data_roots": [
@@ -103,17 +233,19 @@
       "source_directories": [
         "lab/explorations/2026-10-01-order-mechanisms"
       ],
-      "original_project_ids": [
-        "2561276a-6460-4c52-910b-e92ef516e335"
-      ],
-      "kernel_ids_in_catalogue": [
-        "threemind.continuous-memory/2"
+      "code_companion_paths": [
+        "lab/explorations/2026-10-01-order-mechanisms/report.r3.zh.md",
+        "lab/explorations/2026-10-01-order-mechanisms/report.zh.md"
       ]
     },
     {
       "study_id": "E22",
-      "paper_section": "4.6",
-      "title": "感官反向会恢复，顺序表达怎样受时间影响",
+      "manuscript_ids": [
+        "E22"
+      ],
+      "paper_sections": [
+        "4.6"
+      ],
       "files": 34,
       "bytes": 277866367,
       "data_roots": [
@@ -123,17 +255,18 @@
       "source_directories": [
         "lab/explorations/2026-10-01-recovery-reference"
       ],
-      "original_project_ids": [
-        "5e4f46e7-5d55-44de-a2b6-9707e2057387"
-      ],
-      "kernel_ids_in_catalogue": [
-        "threemind.continuous-memory/2"
+      "code_companion_paths": [
+        "lab/explorations/2026-10-01-recovery-reference/report.zh.md"
       ]
     },
     {
       "study_id": "E28",
-      "paper_section": "4.8",
-      "title": "E28：营养海洋让生存与繁殖发生了，学习优势要单独看",
+      "manuscript_ids": [
+        "E28"
+      ],
+      "paper_sections": [
+        "4.8"
+      ],
       "files": 4,
       "bytes": 1644195306,
       "data_roots": [
@@ -142,17 +275,19 @@
       "source_directories": [
         "lab/explorations/2026-10-03-primitive-ocean"
       ],
-      "original_project_ids": [
-        "e53a833e-6566-463c-90c2-a94a8fe2a8ef"
-      ],
-      "kernel_ids_in_catalogue": [
-        "threemind.continuous-memory/2"
+      "code_companion_paths": [
+        "lab/explorations/2026-10-03-primitive-ocean/report.r2.zh.md",
+        "lab/explorations/2026-10-03-primitive-ocean/report.zh.md"
       ]
     },
     {
       "study_id": "E30",
-      "paper_section": "4.8",
-      "title": "E30：意识控制确有觅食优势，经历与内部活动确实改变行动",
+      "manuscript_ids": [
+        "E30"
+      ],
+      "paper_sections": [
+        "4.8"
+      ],
       "files": 4,
       "bytes": 1096944013,
       "data_roots": [
@@ -161,37 +296,19 @@
       "source_directories": [
         "lab/explorations/2026-10-03-ocean-causality"
       ],
-      "original_project_ids": [
-        "3818e230-3515-45ce-b873-55150549bd98"
-      ],
-      "kernel_ids_in_catalogue": [
-        "threemind.continuous-memory/2"
-      ]
-    },
-    {
-      "study_id": "E31",
-      "paper_section": "4.9 (supporting material)",
-      "title": "E31：内部活动确实影响动作，是否已经成为觅食、捕猎和逃离的技能？",
-      "files": 78,
-      "bytes": 1576131978,
-      "data_roots": [
-        "originals/objects/8bb46e22-c05f-4c7f-b398-c76406e299dc",
-        "originals/research/5c7e8c0e211d576ed34797b3"
-      ],
-      "source_directories": [
-        "lab/explorations/2026-10-03-ocean-behavior"
-      ],
-      "original_project_ids": [
-        "8bb46e22-c05f-4c7f-b398-c76406e299dc"
-      ],
-      "kernel_ids_in_catalogue": [
-        "threemind.continuous-memory/2"
+      "code_companion_paths": [
+        "lab/explorations/2026-10-03-ocean-causality/report.r2.zh.md",
+        "lab/explorations/2026-10-03-ocean-causality/report.zh.md"
       ]
     },
     {
       "study_id": "E32",
-      "paper_section": "4.9",
-      "title": "E32 完整海洋：内部活动的作用，终于放回原环境检验",
+      "manuscript_ids": [
+        "E32"
+      ],
+      "paper_sections": [
+        "4.9"
+      ],
       "files": 80,
       "bytes": 2039018658,
       "data_roots": [
@@ -201,17 +318,18 @@
       "source_directories": [
         "lab/explorations/2026-10-03-ocean-community"
       ],
-      "original_project_ids": [
-        "0b662685-7484-4c20-b1cb-064b53a582e4"
-      ],
-      "kernel_ids_in_catalogue": [
-        "threemind.continuous-memory/2"
+      "code_companion_paths": [
+        "lab/explorations/2026-10-03-ocean-community/report.zh.md"
       ]
     },
     {
       "study_id": "E34",
-      "paper_section": "4.9",
-      "title": "E34：内部活动改变了动作；持久连接也改变了实际捕获结果",
+      "manuscript_ids": [
+        "E34"
+      ],
+      "paper_sections": [
+        "4.9"
+      ],
       "files": 53,
       "bytes": 1034688672,
       "data_roots": [
@@ -221,15 +339,20 @@
       "source_directories": [
         "lab/explorations/2026-10-03-ocean-hunting"
       ],
-      "original_project_ids": [
-        "315c50a4-0a3a-4b07-b760-0fc053730a39"
-      ],
-      "kernel_ids_in_catalogue": []
+      "code_companion_paths": [
+        "lab/explorations/2026-10-03-ocean-hunting/report.r2.zh.md",
+        "lab/explorations/2026-10-03-ocean-hunting/report.zh.md"
+      ]
     },
     {
       "study_id": "E37",
-      "paper_section": "4.9, 4.11",
-      "title": "E37：仅包裹吞食的意识驱动海洋与代际变化",
+      "manuscript_ids": [
+        "E37"
+      ],
+      "paper_sections": [
+        "4.9",
+        "4.11"
+      ],
       "files": 1845,
       "bytes": 1677140830,
       "data_roots": [
@@ -239,17 +362,20 @@
       "source_directories": [
         "lab/explorations/2026-10-04-ocean-enclosure"
       ],
-      "original_project_ids": [
-        "bc5ac72c-27bf-4e3e-9a21-f922bc7ddc90"
-      ],
-      "kernel_ids_in_catalogue": [
-        "threemind.continuous-memory/2"
+      "code_companion_paths": [
+        "lab/explorations/2026-10-04-ocean-enclosure/report.r2.zh.md",
+        "lab/explorations/2026-10-04-ocean-enclosure/report.zh.md"
       ]
     },
     {
       "study_id": "E38",
-      "paper_section": "4.9, 4.11",
-      "title": "E38：成功个体能否成为可复用的吞食谱系",
+      "manuscript_ids": [
+        "E38"
+      ],
+      "paper_sections": [
+        "4.9",
+        "4.11"
+      ],
       "files": 1908,
       "bytes": 1691619912,
       "data_roots": [
@@ -259,15 +385,43 @@
       "source_directories": [
         "lab/explorations/2026-10-04-ocean-species"
       ],
-      "original_project_ids": [
-        "18f51630-f184-4b20-ba08-67ece6175083"
+      "code_companion_paths": [
+        "lab/explorations/2026-10-04-ocean-species/report.r2.zh.md",
+        "lab/explorations/2026-10-04-ocean-species/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "E39–E40",
+      "manuscript_ids": [
+        "E39",
+        "E40"
       ],
-      "kernel_ids_in_catalogue": []
+      "paper_sections": [
+        "4.9"
+      ],
+      "files": 2312,
+      "bytes": 2148035065,
+      "data_roots": [
+        "originals/objects/0891a8a7-9b75-417d-8859-75eced8c36ee",
+        "originals/research/b565d4f8573987a262f1bc5e",
+        "originals/research/fca7f51b514eebad1ada21fd"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-10-04-ocean-culture"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-10-04-ocean-culture/report.r3.zh.md",
+        "lab/explorations/2026-10-04-ocean-culture/report.zh.md"
+      ]
     },
     {
       "study_id": "E41",
-      "paper_section": "4.9",
-      "title": "E41：转弯摄食与半包裹分开培养",
+      "manuscript_ids": [
+        "E41"
+      ],
+      "paper_sections": [
+        "4.9"
+      ],
       "files": 2037,
       "bytes": 1683570686,
       "data_roots": [
@@ -278,15 +432,19 @@
       "source_directories": [
         "lab/explorations/2026-10-04-ocean-split"
       ],
-      "original_project_ids": [
-        "07e60c31-5f51-42e2-bc99-a83eb18f61a9"
-      ],
-      "kernel_ids_in_catalogue": []
+      "code_companion_paths": [
+        "lab/explorations/2026-10-04-ocean-split/report.r3.zh.md",
+        "lab/explorations/2026-10-04-ocean-split/report.zh.md"
+      ]
     },
     {
       "study_id": "E43",
-      "paper_section": "4.7",
-      "title": "E43：间隔复习留下了更持久的连接，但语言接口还没读出可靠的新对应",
+      "manuscript_ids": [
+        "E43"
+      ],
+      "paper_sections": [
+        "4.7"
+      ],
       "files": 21,
       "bytes": 59460798,
       "data_roots": [
@@ -296,17 +454,62 @@
       "source_directories": [
         "lab/explorations/2026-10-04-language-spaced"
       ],
-      "original_project_ids": [
-        "9cc6f412-6512-4c96-9a86-af93bfedfff7"
+      "code_companion_paths": [
+        "lab/explorations/2026-10-04-language-spaced/report.r3.zh.md",
+        "lab/explorations/2026-10-04-language-spaced/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "E44",
+      "manuscript_ids": [
+        "E44"
       ],
-      "kernel_ids_in_catalogue": [
-        "threemind.continuous-memory/2"
+      "paper_sections": [
+        "4.3"
+      ],
+      "files": 42,
+      "bytes": 652225674,
+      "data_roots": [
+        "originals/objects/a6fe320f-1e36-49f2-a5d0-b9c4597d83dc",
+        "originals/research/54815bd3588855bb3d73b3a5"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-10-04-language-development"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-10-04-language-development/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "E45",
+      "manuscript_ids": [
+        "E45"
+      ],
+      "paper_sections": [
+        "4.3"
+      ],
+      "files": 64,
+      "bytes": 428120860,
+      "data_roots": [
+        "originals/objects/c008cf91-ec52-4b23-829e-f53e5748ecbe",
+        "originals/research/7d9997e8d7722f91492bf9ab"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-10-05-language-calibration"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-10-05-language-calibration/report.zh.md"
       ]
     },
     {
       "study_id": "E47",
-      "paper_section": "4.10",
-      "title": "E47：内部联想已经能被译成名字，新经历的表达仍未打通",
+      "manuscript_ids": [
+        "E47"
+      ],
+      "paper_sections": [
+        "4.3",
+        "4.4"
+      ],
       "files": 39,
       "bytes": 1341717017,
       "data_roots": [
@@ -316,17 +519,43 @@
       "source_directories": [
         "lab/explorations/2026-10-05-expression-alignment"
       ],
-      "original_project_ids": [
-        "4e645e2b-1408-4e6b-a651-a8e12acf765c"
+      "code_companion_paths": [
+        "lab/explorations/2026-10-05-expression-alignment/report.r3.zh.md",
+        "lab/explorations/2026-10-05-expression-alignment/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "E48",
+      "manuscript_ids": [
+        "E48"
       ],
-      "kernel_ids_in_catalogue": [
-        "threemind.continuous-memory/2"
+      "paper_sections": [
+        "4.3",
+        "4.4"
+      ],
+      "files": 57,
+      "bytes": 3519970757,
+      "data_roots": [
+        "originals/objects/c8e782f8-271e-4ccf-b453-86ae16bd38ae",
+        "originals/research/d8f3ca71b32ed2b67ee3b403"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-10-05-temporal-state-expression"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-10-05-temporal-state-expression/report.r3.zh.md",
+        "lab/explorations/2026-10-05-temporal-state-expression/report.zh.md"
       ]
     },
     {
       "study_id": "E50",
-      "paper_section": "4.10",
-      "title": "E50 图与活动表达、共同所指",
+      "manuscript_ids": [
+        "E50"
+      ],
+      "paper_sections": [
+        "4.3",
+        "4.4"
+      ],
       "files": 39,
       "bytes": 573560588,
       "data_roots": [
@@ -337,16 +566,19 @@
       "source_directories": [
         "lab/explorations/2026-10-05-graph-expression"
       ],
-      "original_project_ids": [
-        "18b1f570-cd04-4bad-ac33-b8bea07472f0",
-        "3df399e5-649b-4040-b151-67a6bf278ec6"
-      ],
-      "kernel_ids_in_catalogue": []
+      "code_companion_paths": [
+        "lab/explorations/2026-10-05-graph-expression/report.r3.zh.md",
+        "lab/explorations/2026-10-05-graph-expression/report.zh.md"
+      ]
     },
     {
       "study_id": "E56",
-      "paper_section": "4.11",
-      "title": "E56：共享读取修好了指认，回答归属另做验证",
+      "manuscript_ids": [
+        "E56"
+      ],
+      "paper_sections": [
+        "4.12"
+      ],
       "files": 10,
       "bytes": 1167096361,
       "data_roots": [
@@ -355,17 +587,19 @@
       "source_directories": [
         "lab/explorations/2026-10-06-vision-correction"
       ],
-      "original_project_ids": [
-        "4266a949-9e41-45b7-9653-7566d2df8164"
-      ],
-      "kernel_ids_in_catalogue": [
-        "threemind.continuous-memory/2"
+      "code_companion_paths": [
+        "lab/explorations/2026-10-06-vision-correction/report.r2.zh.md",
+        "lab/explorations/2026-10-06-vision-correction/report.zh.md"
       ]
     },
     {
       "study_id": "E57",
-      "paper_section": "4.11",
-      "title": "E57：指认的答案究竟来自哪里",
+      "manuscript_ids": [
+        "E57"
+      ],
+      "paper_sections": [
+        "4.12"
+      ],
       "files": 3,
       "bytes": 810249646,
       "data_roots": [
@@ -374,15 +608,19 @@
       "source_directories": [
         "lab/explorations/2026-10-06-choice-attribution"
       ],
-      "original_project_ids": [
-        "e7606f95-62ea-4645-badd-46bdcf54ec47"
-      ],
-      "kernel_ids_in_catalogue": []
+      "code_companion_paths": [
+        "lab/explorations/2026-10-06-choice-attribution/report.r2.zh.md",
+        "lab/explorations/2026-10-06-choice-attribution/report.zh.md"
+      ]
     },
     {
       "study_id": "E58",
-      "paper_section": "4.11",
-      "title": "E58：完整视野、动作反馈与记忆内容",
+      "manuscript_ids": [
+        "E58"
+      ],
+      "paper_sections": [
+        "4.12"
+      ],
       "files": 4,
       "bytes": 709184356,
       "data_roots": [
@@ -391,17 +629,19 @@
       "source_directories": [
         "lab/explorations/2026-10-07-embodied-memory"
       ],
-      "original_project_ids": [
-        "93f1fb20-c124-4e80-825f-686f170b74e4"
-      ],
-      "kernel_ids_in_catalogue": [
-        "threemind.continuous-memory/2"
+      "code_companion_paths": [
+        "lab/explorations/2026-10-07-embodied-memory/report.r2.zh.md",
+        "lab/explorations/2026-10-07-embodied-memory/report.zh.md"
       ]
     },
     {
       "study_id": "E68",
-      "paper_section": "4.13",
-      "title": "Continuous shape/color learning: two complete individuals",
+      "manuscript_ids": [
+        "E68"
+      ],
+      "paper_sections": [
+        "4.13"
+      ],
       "files": 22029,
       "bytes": 20035559044,
       "data_roots": [
@@ -410,33 +650,38 @@
       "source_directories": [
         "lab/explorations/2026-10-13-continuous-shape-color"
       ],
-      "original_project_ids": [],
-      "kernel_ids_in_catalogue": [
-        "threemind.continuous-memory/2",
-        "threemind.continuous-memory/3.1"
+      "code_companion_paths": [
+        "lab/explorations/2026-10-13-continuous-shape-color/report.zh.md"
       ]
     },
     {
-      "study_id": "M1-M3-development",
-      "paper_section": "4.2-4.3 (development)",
-      "title": "Development and explicit-target closure",
-      "files": 10,
-      "bytes": 173141123,
+      "study_id": "E69",
+      "manuscript_ids": [
+        "E69"
+      ],
+      "paper_sections": [
+        "4.13"
+      ],
+      "files": 11589,
+      "bytes": 13840428181,
       "data_roots": [
-        "experiments/2026-10-16-mechanism-discovery/closure-v1"
+        "experiments/2026-10-13-eye-hand-shape-color/continuations/r1"
       ],
       "source_directories": [
-        "lab/explorations/2026-10-16-mechanism-discovery"
+        "lab/explorations/2026-10-13-eye-hand-shape-color"
       ],
-      "original_project_ids": [],
-      "kernel_ids_in_catalogue": [
-        "threemind.continuous-memory/5.1"
+      "code_companion_paths": [
+        "lab/explorations/2026-10-13-eye-hand-shape-color/progress-20261015.zh.md"
       ]
     },
     {
       "study_id": "M1-blockade",
-      "paper_section": "4.3",
-      "title": "Connection blockade and restoration",
+      "manuscript_ids": [
+        "M1"
+      ],
+      "paper_sections": [
+        "4.3"
+      ],
       "files": 10,
       "bytes": 3125870,
       "data_roots": [
@@ -445,15 +690,19 @@
       "source_directories": [
         "lab/explorations/2026-10-16-mechanism-discovery"
       ],
-      "original_project_ids": [],
-      "kernel_ids_in_catalogue": [
-        "threemind.continuous-memory/5.1"
+      "code_companion_paths": [
+        "lab/explorations/2026-10-16-mechanism-discovery/m1-confirmation-report.zh.md",
+        "lab/explorations/2026-10-16-mechanism-discovery/report-m1.r2.zh.md"
       ]
     },
     {
       "study_id": "M1-confirmation",
-      "paper_section": "4.3",
-      "title": "Selective transfer of learned responses: 48 independent origins",
+      "manuscript_ids": [
+        "M1"
+      ],
+      "paper_sections": [
+        "4.3"
+      ],
       "files": 10,
       "bytes": 94682192,
       "data_roots": [
@@ -462,15 +711,19 @@
       "source_directories": [
         "lab/explorations/2026-10-16-mechanism-discovery"
       ],
-      "original_project_ids": [],
-      "kernel_ids_in_catalogue": [
-        "threemind.continuous-memory/5.1"
+      "code_companion_paths": [
+        "lab/explorations/2026-10-16-mechanism-discovery/m1-confirmation-report.zh.md",
+        "lab/explorations/2026-10-16-mechanism-discovery/report-m1.r2.zh.md"
       ]
     },
     {
       "study_id": "M2-confirmation",
-      "paper_section": "4.5",
-      "title": "New-condition resource prediction: 8 origins, 160 first responses",
+      "manuscript_ids": [
+        "M2"
+      ],
+      "paper_sections": [
+        "4.5"
+      ],
       "files": 11,
       "bytes": 8435385,
       "data_roots": [
@@ -479,15 +732,21 @@
       "source_directories": [
         "lab/explorations/2026-10-16-mechanism-discovery"
       ],
-      "original_project_ids": [],
-      "kernel_ids_in_catalogue": [
-        "threemind.continuous-memory/5.1"
+      "code_companion_paths": [
+        "lab/explorations/2026-10-16-mechanism-discovery/m2-cue-report.zh.md",
+        "lab/explorations/2026-10-16-mechanism-discovery/m2-gain-report.zh.md",
+        "lab/explorations/2026-10-16-mechanism-discovery/m2-relearning-assay-report.zh.md",
+        "lab/explorations/2026-10-16-mechanism-discovery/m2-threshold-report.zh.md"
       ]
     },
     {
       "study_id": "M2-initial",
-      "paper_section": "4.5",
-      "title": "Initial resource-threshold model and its failed prediction",
+      "manuscript_ids": [
+        "M2"
+      ],
+      "paper_sections": [
+        "4.5"
+      ],
       "files": 12,
       "bytes": 23415070,
       "data_roots": [
@@ -496,15 +755,21 @@
       "source_directories": [
         "lab/explorations/2026-10-16-mechanism-discovery"
       ],
-      "original_project_ids": [],
-      "kernel_ids_in_catalogue": [
-        "threemind.continuous-memory/5.1"
+      "code_companion_paths": [
+        "lab/explorations/2026-10-16-mechanism-discovery/m2-cue-report.zh.md",
+        "lab/explorations/2026-10-16-mechanism-discovery/m2-gain-report.zh.md",
+        "lab/explorations/2026-10-16-mechanism-discovery/m2-relearning-assay-report.zh.md",
+        "lab/explorations/2026-10-16-mechanism-discovery/m2-threshold-report.zh.md"
       ]
     },
     {
       "study_id": "M3-confirmation",
-      "paper_section": "4.2",
-      "title": "Four joint activity criteria: 64 independent origins, five implementations",
+      "manuscript_ids": [
+        "M3"
+      ],
+      "paper_sections": [
+        "4.2"
+      ],
       "files": 10,
       "bytes": 1256038007,
       "data_roots": [
@@ -513,15 +778,18 @@
       "source_directories": [
         "lab/explorations/2026-10-16-mechanism-discovery"
       ],
-      "original_project_ids": [],
-      "kernel_ids_in_catalogue": [
-        "threemind.continuous-memory/5.1"
+      "code_companion_paths": [
+        "lab/explorations/2026-10-16-mechanism-discovery/m3-confirmation-report.zh.md"
       ]
     },
     {
       "study_id": "M5-confirmation",
-      "paper_section": "4.4",
-      "title": "New learning with fixed output readout: 48 independent origins",
+      "manuscript_ids": [
+        "M5"
+      ],
+      "paper_sections": [
+        "4.4"
+      ],
       "files": 11,
       "bytes": 4896287273,
       "data_roots": [
@@ -530,15 +798,862 @@
       "source_directories": [
         "lab/explorations/2026-10-16-mechanism-discovery"
       ],
-      "original_project_ids": [],
-      "kernel_ids_in_catalogue": [
-        "threemind.continuous-memory/5.1"
+      "code_companion_paths": [
+        "lab/explorations/2026-10-16-mechanism-discovery/m5-confirmation-report.zh.md",
+        "lab/explorations/2026-10-16-mechanism-discovery/m5-report.r2.zh.md",
+        "lab/explorations/2026-10-16-mechanism-discovery/m5-report.zh.md"
+      ]
+    },
+    {
+      "study_id": "OCEAN63-28",
+      "manuscript_ids": [
+        "OCEAN63-28"
+      ],
+      "paper_sections": [
+        "4.8"
+      ],
+      "files": 6,
+      "bytes": 1080427524,
+      "data_roots": [
+        "experiments/ocean63-20261121/study-28"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-21-ocean63/results/ocean63-28"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-21-ocean63/results/ocean63-28/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "OCEAN63-30",
+      "manuscript_ids": [
+        "OCEAN63-30"
+      ],
+      "paper_sections": [
+        "4.8"
+      ],
+      "files": 6,
+      "bytes": 1520943952,
+      "data_roots": [
+        "experiments/ocean63-20261121/study-30"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-21-ocean63/results/ocean63-30"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-21-ocean63/results/ocean63-30/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "OCEAN63-38",
+      "manuscript_ids": [
+        "OCEAN63-38"
+      ],
+      "paper_sections": [
+        "4.8",
+        "4.11"
+      ],
+      "files": 6,
+      "bytes": 2816971138,
+      "data_roots": [
+        "experiments/ocean63-20261121/study-38"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-21-ocean63/results/ocean63-38"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-21-ocean63/results/ocean63-38/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "OCEAN63-39C",
+      "manuscript_ids": [
+        "OCEAN63-39C"
+      ],
+      "paper_sections": [
+        "4.11"
+      ],
+      "files": 1704,
+      "bytes": 3735048557,
+      "data_roots": [
+        "experiments/ocean63-20261121/study-39c"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-21-ocean63"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-21-ocean63/protocol.zh.md"
+      ]
+    },
+    {
+      "study_id": "OCEAN63-P1",
+      "manuscript_ids": [
+        "OCEAN63-P1"
+      ],
+      "paper_sections": [
+        "4.11"
+      ],
+      "files": 70,
+      "bytes": 577345483,
+      "data_roots": [
+        "experiments/ocean63-p1-20261121/evidence"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-21-ocean63-p1"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-21-ocean63-p1/protocol.zh.md"
+      ]
+    },
+    {
+      "study_id": "OCEAN63-P2",
+      "manuscript_ids": [
+        "OCEAN63-P2"
+      ],
+      "paper_sections": [
+        "4.11"
+      ],
+      "files": 72,
+      "bytes": 1496955791,
+      "data_roots": [
+        "experiments/ocean63-p2-20261122/evidence"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-22-ocean63-p2"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-22-ocean63-p2/protocol.zh.md"
+      ]
+    },
+    {
+      "study_id": "R43",
+      "manuscript_ids": [
+        "R43"
+      ],
+      "paper_sections": [
+        "4.14"
+      ],
+      "files": 9,
+      "bytes": 575334989,
+      "data_roots": [
+        "experiments/2026-11-09-context-revision/v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-09-context-revision"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-09-context-revision/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "R51d",
+      "manuscript_ids": [
+        "R51d"
+      ],
+      "paper_sections": [
+        "4.7"
+      ],
+      "files": 8,
+      "bytes": 76803077,
+      "data_roots": [
+        "experiments/2026-11-13-kernel60-revalidation/stimulus61-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-13-kernel61/stimulus"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-13-kernel61/stimulus/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "R51g",
+      "manuscript_ids": [
+        "R51g"
+      ],
+      "paper_sections": [
+        "4.2"
+      ],
+      "files": 10,
+      "bytes": 157632842,
+      "data_roots": [
+        "experiments/2026-11-13-kernel60-revalidation/criteria61-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-13-kernel61/criteria"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-13-kernel61/criteria/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "R51i",
+      "manuscript_ids": [
+        "R51i"
+      ],
+      "paper_sections": [
+        "4.2"
+      ],
+      "files": 10,
+      "bytes": 1257054915,
+      "data_roots": [
+        "experiments/2026-11-13-kernel60-revalidation/criteria-confirmation61-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-13-kernel61/criteria_confirmation"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-13-kernel61/criteria_confirmation/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "R51k",
+      "manuscript_ids": [
+        "R51k"
+      ],
+      "paper_sections": [
+        "4.4"
+      ],
+      "files": 10,
+      "bytes": 3247046458,
+      "data_roots": [
+        "experiments/2026-11-13-kernel60-revalidation/fixed-readout61-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-13-kernel61/fixed_readout"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-13-kernel61/fixed_readout/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "R51m",
+      "manuscript_ids": [
+        "R51m"
+      ],
+      "paper_sections": [
+        "4.5"
+      ],
+      "files": 11,
+      "bytes": 341817659,
+      "data_roots": [
+        "experiments/2026-11-13-kernel60-revalidation/inertial-reversal61-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-13-kernel61/inertial_reversal"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-13-kernel61/inertial_reversal/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "R51n",
+      "manuscript_ids": [
+        "R51n"
+      ],
+      "paper_sections": [
+        "4.6"
+      ],
+      "files": 10,
+      "bytes": 97957701,
+      "data_roots": [
+        "experiments/2026-11-13-kernel60-revalidation/order-recall61-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-13-kernel61/order_recall"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-13-kernel61/order_recall/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "R51o",
+      "manuscript_ids": [
+        "R51o"
+      ],
+      "paper_sections": [
+        "4.6"
+      ],
+      "files": 10,
+      "bytes": 67980973,
+      "data_roots": [
+        "experiments/2026-11-13-kernel60-revalidation/order-exchange61-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-13-kernel61/order_exchange"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-13-kernel61/order_exchange/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "R51p",
+      "manuscript_ids": [
+        "R51p"
+      ],
+      "paper_sections": [
+        "4.6"
+      ],
+      "files": 10,
+      "bytes": 205554690,
+      "data_roots": [
+        "experiments/2026-11-13-kernel60-revalidation/order-timing61-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-13-kernel61/order_timing"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-13-kernel61/order_timing/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "R51q",
+      "manuscript_ids": [
+        "R51q"
+      ],
+      "paper_sections": [
+        "4.6"
+      ],
+      "files": 10,
+      "bytes": 160377482,
+      "data_roots": [
+        "experiments/2026-11-13-kernel60-revalidation/order-reference61-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-13-kernel61/order_reference"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-13-kernel61/order_reference/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "R51t",
+      "manuscript_ids": [
+        "R51t"
+      ],
+      "paper_sections": [
+        "4.7"
+      ],
+      "files": 10,
+      "bytes": 1307325298,
+      "data_roots": [
+        "experiments/2026-11-13-kernel60-revalidation/memory-timescales61-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-13-kernel61/memory_timescales"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-13-kernel61/memory_timescales/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "R51t1",
+      "manuscript_ids": [
+        "R51t1"
+      ],
+      "paper_sections": [
+        "4.7"
+      ],
+      "files": 24,
+      "bytes": 409677782,
+      "data_roots": [
+        "experiments/2026-11-13-kernel60-revalidation/persistent-activity61-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-13-kernel61/persistent_cause"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-13-kernel61/persistent_cause/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "R51t10",
+      "manuscript_ids": [
+        "R51t10"
+      ],
+      "paper_sections": [
+        "4.7"
+      ],
+      "files": 17,
+      "bytes": 91280732,
+      "data_roots": [
+        "experiments/2026-11-13-kernel60-revalidation/release-lifecycle62-v1-r1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-14-kernel62/release_lifecycle/completion"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-14-kernel62/release_lifecycle/completion/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "R51t11",
+      "manuscript_ids": [
+        "R51t11"
+      ],
+      "paper_sections": [
+        "4.7"
+      ],
+      "files": 42,
+      "bytes": 158863164,
+      "data_roots": [
+        "experiments/2026-11-13-kernel60-revalidation/prefix-solution62-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-14-kernel62/prefix_solution"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-14-kernel62/prefix_solution/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "R51t12",
+      "manuscript_ids": [
+        "R51t12"
+      ],
+      "paper_sections": [
+        "4.7"
+      ],
+      "files": 13,
+      "bytes": 68344464,
+      "data_roots": [
+        "experiments/2026-11-13-kernel60-revalidation/separated-signals62-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-14-kernel62/separated_signals"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-14-kernel62/separated_signals/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "R51t13",
+      "manuscript_ids": [
+        "R51t13"
+      ],
+      "paper_sections": [
+        "4.7"
+      ],
+      "files": 13,
+      "bytes": 63453900,
+      "data_roots": [
+        "experiments/2026-11-13-kernel60-revalidation/inhibition63-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-15-kernel63"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-15-kernel63/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "R51t14",
+      "manuscript_ids": [
+        "R51t14"
+      ],
+      "paper_sections": [
+        "4.7"
+      ],
+      "files": 13,
+      "bytes": 45024312,
+      "data_roots": [
+        "experiments/2026-11-13-kernel60-revalidation/resources63-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-15-kernel63/resources"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-15-kernel63/resources/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "R51t15",
+      "manuscript_ids": [
+        "R51t15"
+      ],
+      "paper_sections": [
+        "4.7"
+      ],
+      "files": 25,
+      "bytes": 110367279,
+      "data_roots": [
+        "experiments/2026-11-13-kernel60-revalidation/prefix-causes63-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-15-kernel63/prefix_causes"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-15-kernel63/prefix_causes/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "R51t16",
+      "manuscript_ids": [
+        "R51t16"
+      ],
+      "paper_sections": [
+        "4.7"
+      ],
+      "files": 13,
+      "bytes": 58973159,
+      "data_roots": [
+        "experiments/2026-11-13-kernel60-revalidation/resource-bypass63-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-15-kernel63/resource_bypass"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-15-kernel63/resource_bypass/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "R51t2",
+      "manuscript_ids": [
+        "R51t2"
+      ],
+      "paper_sections": [
+        "4.7"
+      ],
+      "files": 10,
+      "bytes": 143756981,
+      "data_roots": [
+        "experiments/2026-11-13-kernel60-revalidation/dynamics-function61-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-13-kernel61/dynamics_function/mechanism_report"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-13-kernel61/dynamics_function/mechanism_report/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "R51t3",
+      "manuscript_ids": [
+        "R51t3"
+      ],
+      "paper_sections": [
+        "4.5",
+        "4.7"
+      ],
+      "files": 10,
+      "bytes": 149485599,
+      "data_roots": [
+        "experiments/2026-11-13-kernel60-revalidation/closed-body61-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-13-kernel61/dynamics_function/body_report"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-13-kernel61/dynamics_function/body_report/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "R51t4",
+      "manuscript_ids": [
+        "R51t4"
+      ],
+      "paper_sections": [
+        "4.7"
+      ],
+      "files": 11,
+      "bytes": 298327951,
+      "data_roots": [
+        "experiments/2026-11-13-kernel60-revalidation/delayed-choice61-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-13-kernel61/dynamics_function/decision_report"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-13-kernel61/dynamics_function/decision_report/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "R51t5",
+      "manuscript_ids": [
+        "R51t5"
+      ],
+      "paper_sections": [
+        "4.7"
+      ],
+      "files": 11,
+      "bytes": 46301060,
+      "data_roots": [
+        "experiments/2026-11-13-kernel60-revalidation/prefix-cross61-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-13-kernel61/dynamics_function/prefix_cross_report"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-13-kernel61/dynamics_function/prefix_cross_report/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "R51t6",
+      "manuscript_ids": [
+        "R51t6"
+      ],
+      "paper_sections": [
+        "4.7"
+      ],
+      "files": 10,
+      "bytes": 63788635,
+      "data_roots": [
+        "experiments/2026-11-13-kernel60-revalidation/prefix-components61-v2"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-13-kernel61/prefix_components"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-13-kernel61/prefix_components/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "R51t7",
+      "manuscript_ids": [
+        "R51t7"
+      ],
+      "paper_sections": [
+        "4.7"
+      ],
+      "files": 11,
+      "bytes": 235235308,
+      "data_roots": [
+        "experiments/2026-11-13-kernel60-revalidation/prefix-recovery62-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-14-kernel62/prefix_recovery"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-14-kernel62/prefix_recovery/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "R51t8",
+      "manuscript_ids": [
+        "R51t8"
+      ],
+      "paper_sections": [
+        "4.7"
+      ],
+      "files": 12,
+      "bytes": 69073609,
+      "data_roots": [
+        "experiments/2026-11-13-kernel60-revalidation/prefix-precheck62-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-14-kernel62/prefix_precheck"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-14-kernel62/prefix_precheck/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "R51t9",
+      "manuscript_ids": [
+        "R51t9"
+      ],
+      "paper_sections": [
+        "4.7"
+      ],
+      "files": 21,
+      "bytes": 254210400,
+      "data_roots": [
+        "experiments/2026-11-13-kernel60-revalidation/prefix-resources62-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-14-kernel62/prefix_resources"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-14-kernel62/prefix_resources/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "R63a",
+      "manuscript_ids": [
+        "R63a"
+      ],
+      "paper_sections": [
+        "4.7"
+      ],
+      "files": 10,
+      "bytes": 67852135,
+      "data_roots": [
+        "experiments/2026-11-13-kernel60-revalidation/stimulus-63-rerun-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-15-kernel63-revalidation/stimulus"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-15-kernel63-revalidation/stimulus/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "R63b",
+      "manuscript_ids": [
+        "R63b"
+      ],
+      "paper_sections": [
+        "4.3"
+      ],
+      "files": 7,
+      "bytes": 22045525,
+      "data_roots": [
+        "experiments/2026-11-13-kernel60-revalidation/causal-63-rerun-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-15-kernel63-revalidation/causal"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-15-kernel63-revalidation/causal/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "R63c",
+      "manuscript_ids": [
+        "R63c"
+      ],
+      "paper_sections": [
+        "4.5"
+      ],
+      "files": 11,
+      "bytes": 151410599,
+      "data_roots": [
+        "experiments/2026-11-13-kernel60-revalidation/body-memory-63-rerun-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-15-kernel63-revalidation/body_memory"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-15-kernel63-revalidation/body_memory/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "R63d",
+      "manuscript_ids": [
+        "R63d"
+      ],
+      "paper_sections": [
+        "4.2"
+      ],
+      "files": 11,
+      "bytes": 157878873,
+      "data_roots": [
+        "experiments/2026-11-13-kernel60-revalidation/criteria-63-rerun-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-15-kernel63-revalidation/criteria"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-15-kernel63-revalidation/criteria/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "R63e",
+      "manuscript_ids": [
+        "R63e"
+      ],
+      "paper_sections": [
+        "4.2"
+      ],
+      "files": 11,
+      "bytes": 1257965138,
+      "data_roots": [
+        "experiments/2026-11-13-kernel60-revalidation/criteria-confirmation-63-rerun-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-15-kernel63-revalidation/criteria_confirmation"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-15-kernel63-revalidation/criteria_confirmation/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "R63f",
+      "manuscript_ids": [
+        "R63f"
+      ],
+      "paper_sections": [
+        "4.5"
+      ],
+      "files": 11,
+      "bytes": 30365122,
+      "data_roots": [
+        "experiments/2026-11-13-kernel60-revalidation/body-transfer-63-rerun-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-15-kernel63-revalidation/body_transfer"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-15-kernel63-revalidation/body_transfer/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "R63g",
+      "manuscript_ids": [
+        "R63g"
+      ],
+      "paper_sections": [
+        "4.3"
+      ],
+      "files": 11,
+      "bytes": 10281703,
+      "data_roots": [
+        "experiments/2026-11-13-kernel60-revalidation/transfer-63-rerun-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-15-kernel63-revalidation/transfer"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-15-kernel63-revalidation/transfer/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "R63h",
+      "manuscript_ids": [
+        "R63h"
+      ],
+      "paper_sections": [
+        "4.4"
+      ],
+      "files": 12,
+      "bytes": 3247145563,
+      "data_roots": [
+        "experiments/2026-11-13-kernel60-revalidation/fixed-readout-63-rerun-v1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-15-kernel63-revalidation/fixed_readout"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-15-kernel63-revalidation/fixed_readout/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "RT63-01",
+      "manuscript_ids": [
+        "RT63-01"
+      ],
+      "paper_sections": [
+        "4.6"
+      ],
+      "files": 1,
+      "bytes": 22914673,
+      "data_roots": [
+        "experiments/2026-11-18-repeat-timing63/RT63-01"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-11-18-repeat-timing63"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-11-18-repeat-timing63/report.zh.md"
       ]
     },
     {
       "study_id": "SAT-exclusion",
-      "paper_section": "4.15",
-      "title": "3-SAT Core contribution exclusion: eight independent origins",
+      "manuscript_ids": [
+        "3-SAT"
+      ],
+      "paper_sections": [
+        "4.15"
+      ],
       "files": 8,
       "bytes": 137590651,
       "data_roots": [
@@ -547,13 +1662,52 @@
       "source_directories": [
         "lab/explorations/2026-11-01-sat-core-exclusion"
       ],
-      "original_project_ids": [],
-      "kernel_ids_in_catalogue": [
-        "threemind.continuous-memory/5.1"
+      "code_companion_paths": [
+        "lab/explorations/2026-11-01-sat-core-exclusion/report.zh.md"
+      ]
+    },
+    {
+      "study_id": "X1",
+      "manuscript_ids": [
+        "X1"
+      ],
+      "paper_sections": [
+        "4.3"
+      ],
+      "files": 4,
+      "bytes": 9490379,
+      "data_roots": [
+        "experiments/2026-10-16-mechanism-discovery/closure-v1/X1"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-10-16-mechanism-discovery"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-10-16-mechanism-discovery/closure-report.r2.zh.md"
+      ]
+    },
+    {
+      "study_id": "X3",
+      "manuscript_ids": [
+        "X3"
+      ],
+      "paper_sections": [
+        "4.2"
+      ],
+      "files": 4,
+      "bytes": 157160796,
+      "data_roots": [
+        "experiments/2026-10-16-mechanism-discovery/closure-v1/X3"
+      ],
+      "source_directories": [
+        "lab/explorations/2026-10-16-mechanism-discovery"
+      ],
+      "code_companion_paths": [
+        "lab/explorations/2026-10-16-mechanism-discovery/closure-report.r2.zh.md"
       ]
     }
   ],
-  "studies_note": "File counts in studies describe the initial 2026-11-11 evidence export. Use the data package EXPORT.json and MANIFEST.jsonl for the installed release.",
+  "studies_note": "The installed r3 v6 data release is indexed by evidence group; r3_studies maps individual manuscript IDs and sections to those groups.",
   "r3_studies": [
     {
       "id": "E15",
@@ -567,6 +1721,9 @@
       ],
       "evidence_paths": [
         "originals/objects/92548061-22c0-4bd9-b283-c4e1e7f4360d"
+      ],
+      "evidence_groups": [
+        "E15"
       ]
     },
     {
@@ -578,7 +1735,10 @@
         "lab/explorations/2026-10-16-mechanism-discovery/closure-report.r2.zh.md"
       ],
       "evidence_paths": [
-        "experiments/2026-10-16-mechanism-discovery/closure-v1"
+        "experiments/2026-10-16-mechanism-discovery/closure-v1/X3"
+      ],
+      "evidence_groups": [
+        "X3"
       ]
     },
     {
@@ -590,8 +1750,10 @@
         "lab/explorations/2026-10-16-mechanism-discovery/m3-confirmation-report.zh.md"
       ],
       "evidence_paths": [
-        "experiments/2026-10-16-mechanism-discovery/closure-v1",
         "experiments/2026-10-16-mechanism-discovery/m3-confirmation-v2"
+      ],
+      "evidence_groups": [
+        "M3-confirmation"
       ]
     },
     {
@@ -604,6 +1766,9 @@
       ],
       "evidence_paths": [
         "experiments/2026-11-13-kernel60-revalidation/criteria61-v1"
+      ],
+      "evidence_groups": [
+        "R51g"
       ]
     },
     {
@@ -616,6 +1781,9 @@
       ],
       "evidence_paths": [
         "experiments/2026-11-13-kernel60-revalidation/criteria-confirmation61-v1"
+      ],
+      "evidence_groups": [
+        "R51i"
       ]
     },
     {
@@ -628,6 +1796,9 @@
       ],
       "evidence_paths": [
         "experiments/2026-11-13-kernel60-revalidation/criteria-63-rerun-v1"
+      ],
+      "evidence_groups": [
+        "R63d"
       ]
     },
     {
@@ -640,6 +1811,9 @@
       ],
       "evidence_paths": [
         "experiments/2026-11-13-kernel60-revalidation/criteria-confirmation-63-rerun-v1"
+      ],
+      "evidence_groups": [
+        "R63e"
       ]
     },
     {
@@ -654,6 +1828,10 @@
       "evidence_paths": [
         "experiments/2026-10-16-mechanism-discovery/m1-confirmation-v1",
         "experiments/2026-10-16-mechanism-discovery/m1-silence-v1"
+      ],
+      "evidence_groups": [
+        "M1-blockade",
+        "M1-confirmation"
       ]
     },
     {
@@ -665,7 +1843,10 @@
         "lab/explorations/2026-10-16-mechanism-discovery/closure-report.r2.zh.md"
       ],
       "evidence_paths": [
-        "experiments/2026-10-16-mechanism-discovery/closure-v1"
+        "experiments/2026-10-16-mechanism-discovery/closure-v1/X1"
+      ],
+      "evidence_groups": [
+        "X1"
       ]
     },
     {
@@ -678,6 +1859,9 @@
       ],
       "evidence_paths": [
         "experiments/2026-11-13-kernel60-revalidation/causal-63-rerun-v1"
+      ],
+      "evidence_groups": [
+        "R63b"
       ]
     },
     {
@@ -690,6 +1874,9 @@
       ],
       "evidence_paths": [
         "experiments/2026-11-13-kernel60-revalidation/transfer-63-rerun-v1"
+      ],
+      "evidence_groups": [
+        "R63g"
       ]
     },
     {
@@ -701,7 +1888,11 @@
         "lab/explorations/2026-10-04-language-development/report.zh.md"
       ],
       "evidence_paths": [
-        "originals/objects/a6fe320f-1e36-49f2-a5d0-b9c4597d83dc"
+        "originals/objects/a6fe320f-1e36-49f2-a5d0-b9c4597d83dc",
+        "originals/research/54815bd3588855bb3d73b3a5"
+      ],
+      "evidence_groups": [
+        "E44"
       ]
     },
     {
@@ -713,7 +1904,11 @@
         "lab/explorations/2026-10-05-language-calibration/report.zh.md"
       ],
       "evidence_paths": [
-        "originals/objects/c008cf91-ec52-4b23-829e-f53e5748ecbe"
+        "originals/objects/c008cf91-ec52-4b23-829e-f53e5748ecbe",
+        "originals/research/7d9997e8d7722f91492bf9ab"
+      ],
+      "evidence_groups": [
+        "E45"
       ]
     },
     {
@@ -729,6 +1924,9 @@
       "evidence_paths": [
         "originals/objects/4e645e2b-1408-4e6b-a651-a8e12acf765c",
         "originals/research/ed3d495588f742643218ef4f"
+      ],
+      "evidence_groups": [
+        "E47"
       ]
     },
     {
@@ -742,7 +1940,11 @@
         "lab/explorations/2026-10-05-temporal-state-expression/report.r3.zh.md"
       ],
       "evidence_paths": [
-        "originals/objects/c8e782f8-271e-4ccf-b453-86ae16bd38ae"
+        "originals/objects/c8e782f8-271e-4ccf-b453-86ae16bd38ae",
+        "originals/research/d8f3ca71b32ed2b67ee3b403"
+      ],
+      "evidence_groups": [
+        "E48"
       ]
     },
     {
@@ -759,6 +1961,9 @@
         "originals/objects/18b1f570-cd04-4bad-ac33-b8bea07472f0",
         "originals/objects/3df399e5-649b-4040-b151-67a6bf278ec6",
         "originals/research/fa2a8a52127fcb30112d436b"
+      ],
+      "evidence_groups": [
+        "E50"
       ]
     },
     {
@@ -772,8 +1977,10 @@
         "lab/explorations/2026-10-16-mechanism-discovery/m5-report.zh.md"
       ],
       "evidence_paths": [
-        "experiments/2026-10-16-mechanism-discovery/m5-confirmation-v1",
-        "experiments/2026-10-16-mechanism-discovery/m5-expression-v1"
+        "experiments/2026-10-16-mechanism-discovery/m5-confirmation-v1"
+      ],
+      "evidence_groups": [
+        "M5-confirmation"
       ]
     },
     {
@@ -786,6 +1993,9 @@
       ],
       "evidence_paths": [
         "experiments/2026-11-13-kernel60-revalidation/fixed-readout61-v1"
+      ],
+      "evidence_groups": [
+        "R51k"
       ]
     },
     {
@@ -798,6 +2008,9 @@
       ],
       "evidence_paths": [
         "experiments/2026-11-13-kernel60-revalidation/fixed-readout-63-rerun-v1"
+      ],
+      "evidence_groups": [
+        "R63h"
       ]
     },
     {
@@ -814,6 +2027,10 @@
       "evidence_paths": [
         "experiments/2026-10-16-mechanism-discovery/m2-gain-prediction-v1",
         "experiments/2026-10-16-mechanism-discovery/m2-threshold-v1"
+      ],
+      "evidence_groups": [
+        "M2-initial",
+        "M2-confirmation"
       ]
     },
     {
@@ -827,6 +2044,9 @@
       ],
       "evidence_paths": [
         "originals/objects/c49b4ad2-3d53-486a-b124-433e5491df36"
+      ],
+      "evidence_groups": [
+        "E18"
       ]
     },
     {
@@ -839,6 +2059,9 @@
       ],
       "evidence_paths": [
         "experiments/2026-11-13-kernel60-revalidation/inertial-reversal61-v1"
+      ],
+      "evidence_groups": [
+        "R51m"
       ]
     },
     {
@@ -852,6 +2075,9 @@
       ],
       "evidence_paths": [
         "experiments/2026-11-13-kernel60-revalidation/closed-body61-v1"
+      ],
+      "evidence_groups": [
+        "R51t3"
       ]
     },
     {
@@ -864,6 +2090,9 @@
       ],
       "evidence_paths": [
         "experiments/2026-11-13-kernel60-revalidation/body-memory-63-rerun-v1"
+      ],
+      "evidence_groups": [
+        "R63c"
       ]
     },
     {
@@ -876,6 +2105,9 @@
       ],
       "evidence_paths": [
         "experiments/2026-11-13-kernel60-revalidation/body-transfer-63-rerun-v1"
+      ],
+      "evidence_groups": [
+        "R63f"
       ]
     },
     {
@@ -889,6 +2121,9 @@
       ],
       "evidence_paths": [
         "originals/objects/242ff8e9-f7d5-4d89-8964-cff06ca8fdf0"
+      ],
+      "evidence_groups": [
+        "E20"
       ]
     },
     {
@@ -903,6 +2138,9 @@
       "evidence_paths": [
         "originals/objects/2561276a-6460-4c52-910b-e92ef516e335",
         "originals/research/8fe5925b7314d3c7d432b8e4"
+      ],
+      "evidence_groups": [
+        "E21"
       ]
     },
     {
@@ -916,6 +2154,9 @@
       "evidence_paths": [
         "originals/objects/5e4f46e7-5d55-44de-a2b6-9707e2057387",
         "originals/research/74a3b57c817ee166e500f698"
+      ],
+      "evidence_groups": [
+        "E22"
       ]
     },
     {
@@ -928,6 +2169,9 @@
       ],
       "evidence_paths": [
         "experiments/2026-11-13-kernel60-revalidation/order-recall61-v1"
+      ],
+      "evidence_groups": [
+        "R51n"
       ]
     },
     {
@@ -940,6 +2184,9 @@
       ],
       "evidence_paths": [
         "experiments/2026-11-13-kernel60-revalidation/order-exchange61-v1"
+      ],
+      "evidence_groups": [
+        "R51o"
       ]
     },
     {
@@ -952,6 +2199,9 @@
       ],
       "evidence_paths": [
         "experiments/2026-11-13-kernel60-revalidation/order-timing61-v1"
+      ],
+      "evidence_groups": [
+        "R51p"
       ]
     },
     {
@@ -964,6 +2214,9 @@
       ],
       "evidence_paths": [
         "experiments/2026-11-13-kernel60-revalidation/order-reference61-v1"
+      ],
+      "evidence_groups": [
+        "R51q"
       ]
     },
     {
@@ -974,13 +2227,18 @@
       "research_sources": [
         "lab/explorations/2026-11-18-repeat-timing63/report.zh.md"
       ],
-      "evidence_paths": [],
+      "evidence_paths": [
+        "experiments/2026-11-18-repeat-timing63/RT63-01"
+      ],
       "registered_archive": {
         "file": "originals.zip",
         "sha256": "ae06690cf76632551adae895e757d74623c148cb98f5090f1bc22552c94af19c",
         "bytes": 22914673,
         "index": "lab/artifact-index/2026-11-18-repeat-timing63.json"
-      }
+      },
+      "evidence_groups": [
+        "RT63-01"
+      ]
     },
     {
       "id": "E12",
@@ -992,6 +2250,9 @@
       ],
       "evidence_paths": [
         "originals/objects/cbde2d48-284d-4294-9184-89f439923547"
+      ],
+      "evidence_groups": [
+        "E12"
       ]
     },
     {
@@ -1005,6 +2266,9 @@
       ],
       "evidence_paths": [
         "originals/objects/36029e2c-2f4c-4f21-9aa5-376b0701c044"
+      ],
+      "evidence_groups": [
+        "E17"
       ]
     },
     {
@@ -1019,6 +2283,9 @@
       "evidence_paths": [
         "originals/objects/9cc6f412-6512-4c96-9a86-af93bfedfff7",
         "originals/research/3c5b723e73d548f4514fabfd"
+      ],
+      "evidence_groups": [
+        "E43"
       ]
     },
     {
@@ -1031,6 +2298,9 @@
       ],
       "evidence_paths": [
         "experiments/2026-11-13-kernel60-revalidation/stimulus61-v1"
+      ],
+      "evidence_groups": [
+        "R51d"
       ]
     },
     {
@@ -1043,6 +2313,9 @@
       ],
       "evidence_paths": [
         "experiments/2026-11-13-kernel60-revalidation/stimulus-63-rerun-v1"
+      ],
+      "evidence_groups": [
+        "R63a"
       ]
     },
     {
@@ -1055,6 +2328,9 @@
       ],
       "evidence_paths": [
         "experiments/2026-11-13-kernel60-revalidation/memory-timescales61-v1"
+      ],
+      "evidence_groups": [
+        "R51t"
       ]
     },
     {
@@ -1067,6 +2343,9 @@
       ],
       "evidence_paths": [
         "experiments/2026-11-13-kernel60-revalidation/persistent-activity61-v1"
+      ],
+      "evidence_groups": [
+        "R51t1"
       ]
     },
     {
@@ -1079,6 +2358,9 @@
       ],
       "evidence_paths": [
         "experiments/2026-11-13-kernel60-revalidation/dynamics-function61-v1"
+      ],
+      "evidence_groups": [
+        "R51t2"
       ]
     },
     {
@@ -1091,6 +2373,9 @@
       ],
       "evidence_paths": [
         "experiments/2026-11-13-kernel60-revalidation/delayed-choice61-v1"
+      ],
+      "evidence_groups": [
+        "R51t4"
       ]
     },
     {
@@ -1103,6 +2388,9 @@
       ],
       "evidence_paths": [
         "experiments/2026-11-13-kernel60-revalidation/prefix-cross61-v1"
+      ],
+      "evidence_groups": [
+        "R51t5"
       ]
     },
     {
@@ -1114,8 +2402,10 @@
         "lab/explorations/2026-11-13-kernel61/prefix_components/report.zh.md"
       ],
       "evidence_paths": [
-        "experiments/2026-11-13-kernel60-revalidation/prefix-components61-v1",
         "experiments/2026-11-13-kernel60-revalidation/prefix-components61-v2"
+      ],
+      "evidence_groups": [
+        "R51t6"
       ]
     },
     {
@@ -1128,6 +2418,9 @@
       ],
       "evidence_paths": [
         "experiments/2026-11-13-kernel60-revalidation/prefix-recovery62-v1"
+      ],
+      "evidence_groups": [
+        "R51t7"
       ]
     },
     {
@@ -1140,6 +2433,9 @@
       ],
       "evidence_paths": [
         "experiments/2026-11-13-kernel60-revalidation/prefix-precheck62-v1"
+      ],
+      "evidence_groups": [
+        "R51t8"
       ]
     },
     {
@@ -1152,6 +2448,9 @@
       ],
       "evidence_paths": [
         "experiments/2026-11-13-kernel60-revalidation/prefix-resources62-v1"
+      ],
+      "evidence_groups": [
+        "R51t9"
       ]
     },
     {
@@ -1163,8 +2462,10 @@
         "lab/explorations/2026-11-14-kernel62/release_lifecycle/completion/report.zh.md"
       ],
       "evidence_paths": [
-        "experiments/2026-11-13-kernel60-revalidation/release-lifecycle62-v1",
         "experiments/2026-11-13-kernel60-revalidation/release-lifecycle62-v1-r1"
+      ],
+      "evidence_groups": [
+        "R51t10"
       ]
     },
     {
@@ -1177,6 +2478,9 @@
       ],
       "evidence_paths": [
         "experiments/2026-11-13-kernel60-revalidation/prefix-solution62-v1"
+      ],
+      "evidence_groups": [
+        "R51t11"
       ]
     },
     {
@@ -1189,6 +2493,9 @@
       ],
       "evidence_paths": [
         "experiments/2026-11-13-kernel60-revalidation/separated-signals62-v1"
+      ],
+      "evidence_groups": [
+        "R51t12"
       ]
     },
     {
@@ -1201,6 +2508,9 @@
       ],
       "evidence_paths": [
         "experiments/2026-11-13-kernel60-revalidation/inhibition63-v1"
+      ],
+      "evidence_groups": [
+        "R51t13"
       ]
     },
     {
@@ -1213,6 +2523,9 @@
       ],
       "evidence_paths": [
         "experiments/2026-11-13-kernel60-revalidation/resources63-v1"
+      ],
+      "evidence_groups": [
+        "R51t14"
       ]
     },
     {
@@ -1225,6 +2538,9 @@
       ],
       "evidence_paths": [
         "experiments/2026-11-13-kernel60-revalidation/prefix-causes63-v1"
+      ],
+      "evidence_groups": [
+        "R51t15"
       ]
     },
     {
@@ -1237,6 +2553,9 @@
       ],
       "evidence_paths": [
         "experiments/2026-11-13-kernel60-revalidation/resource-bypass63-v1"
+      ],
+      "evidence_groups": [
+        "R51t16"
       ]
     },
     {
@@ -1250,6 +2569,9 @@
       ],
       "evidence_paths": [
         "originals/objects/e53a833e-6566-463c-90c2-a94a8fe2a8ef"
+      ],
+      "evidence_groups": [
+        "E28"
       ]
     },
     {
@@ -1263,6 +2585,9 @@
       ],
       "evidence_paths": [
         "originals/objects/3818e230-3515-45ce-b873-55150549bd98"
+      ],
+      "evidence_groups": [
+        "E30"
       ]
     },
     {
@@ -1275,6 +2600,9 @@
       ],
       "evidence_paths": [
         "experiments/ocean63-20261121/study-28"
+      ],
+      "evidence_groups": [
+        "OCEAN63-28"
       ]
     },
     {
@@ -1287,6 +2615,9 @@
       ],
       "evidence_paths": [
         "experiments/ocean63-20261121/study-30"
+      ],
+      "evidence_groups": [
+        "OCEAN63-30"
       ]
     },
     {
@@ -1300,6 +2631,9 @@
       ],
       "evidence_paths": [
         "experiments/ocean63-20261121/study-38"
+      ],
+      "evidence_groups": [
+        "OCEAN63-38"
       ]
     },
     {
@@ -1313,6 +2647,9 @@
       "evidence_paths": [
         "originals/objects/0b662685-7484-4c20-b1cb-064b53a582e4",
         "originals/research/fed375083e565dbd27310f34"
+      ],
+      "evidence_groups": [
+        "E32"
       ]
     },
     {
@@ -1327,6 +2664,9 @@
       "evidence_paths": [
         "originals/objects/315c50a4-0a3a-4b07-b760-0fc053730a39",
         "originals/research/df8408a4a15803b79c852902"
+      ],
+      "evidence_groups": [
+        "E34"
       ]
     },
     {
@@ -1342,6 +2682,9 @@
       "evidence_paths": [
         "originals/objects/bc5ac72c-27bf-4e3e-9a21-f922bc7ddc90",
         "originals/research/e21acbb5b0ef64e6d5d22790"
+      ],
+      "evidence_groups": [
+        "E37"
       ]
     },
     {
@@ -1357,6 +2700,9 @@
       "evidence_paths": [
         "originals/objects/18f51630-f184-4b20-ba08-67ece6175083",
         "originals/research/1e4312291976e322b213e590"
+      ],
+      "evidence_groups": [
+        "E38"
       ]
     },
     {
@@ -1370,7 +2716,11 @@
       ],
       "evidence_paths": [
         "originals/objects/0891a8a7-9b75-417d-8859-75eced8c36ee",
-        "originals/research/b565d4f8573987a262f1bc5e"
+        "originals/research/b565d4f8573987a262f1bc5e",
+        "originals/research/fca7f51b514eebad1ada21fd"
+      ],
+      "evidence_groups": [
+        "E39–E40"
       ]
     },
     {
@@ -1384,7 +2734,11 @@
       ],
       "evidence_paths": [
         "originals/objects/0891a8a7-9b75-417d-8859-75eced8c36ee",
-        "originals/research/b565d4f8573987a262f1bc5e"
+        "originals/research/b565d4f8573987a262f1bc5e",
+        "originals/research/fca7f51b514eebad1ada21fd"
+      ],
+      "evidence_groups": [
+        "E39–E40"
       ]
     },
     {
@@ -1400,6 +2754,9 @@
         "originals/objects/07e60c31-5f51-42e2-bc99-a83eb18f61a9",
         "originals/research/38d8ff58389237a285152005",
         "originals/research/b57578fa3d9790b9a2d1b837"
+      ],
+      "evidence_groups": [
+        "E41"
       ]
     },
     {
@@ -1412,6 +2769,9 @@
       ],
       "evidence_paths": [
         "originals/objects/59aee7a1-5248-417f-a03b-b56f858a04d9"
+      ],
+      "evidence_groups": [
+        "E13"
       ]
     },
     {
@@ -1424,6 +2784,9 @@
       ],
       "evidence_paths": [
         "originals/objects/df63c577-3b39-4642-87c5-2e9e1b05f165"
+      ],
+      "evidence_groups": [
+        "E14"
       ]
     },
     {
@@ -1434,13 +2797,18 @@
       "research_sources": [
         "lab/explorations/2026-11-17-artificial-selection63/report.zh.md"
       ],
-      "evidence_paths": [],
+      "evidence_paths": [
+        "experiments/2026-11-17-artificial-selection63/AS63-01"
+      ],
       "registered_archive": {
         "file": "originals.zip",
         "sha256": "3331e353e417ba0b77bff1431c54031f9b031ea98c8a8967f1f2c3835a824e82",
         "bytes": 3240752036,
         "index": "lab/artifact-index/2026-11-17-artificial-selection63.json"
-      }
+      },
+      "evidence_groups": [
+        "AS63-01"
+      ]
     },
     {
       "id": "AS63-02",
@@ -1450,13 +2818,18 @@
       "research_sources": [
         "lab/explorations/2026-11-17-artificial-selection63/layout-report.zh.md"
       ],
-      "evidence_paths": [],
+      "evidence_paths": [
+        "experiments/2026-11-17-artificial-selection63/AS63-02"
+      ],
       "registered_archive": {
         "file": "originals.zip",
         "sha256": "61d865c3f3e8f78e6855f3eb6d895f4d7851c7a137133758f0585f54a91f546b",
         "bytes": 525891735,
         "index": "lab/artifact-index/2026-11-17-artificial-selection63.json"
-      }
+      },
+      "evidence_groups": [
+        "AS63-02"
+      ]
     },
     {
       "id": "AS63-03",
@@ -1466,13 +2839,18 @@
       "research_sources": [
         "lab/explorations/2026-11-18-ring-mechanism63/report.zh.md"
       ],
-      "evidence_paths": [],
+      "evidence_paths": [
+        "experiments/2026-11-18-ring-mechanism63/AS63-03"
+      ],
       "registered_archive": {
         "file": "originals.zip",
         "sha256": "5ea7002718d3281d8f075711df759cf11310da0f9179d0f2e44431a8201cd495",
         "bytes": 451102219,
         "index": "lab/artifact-index/2026-11-18-ring-mechanism63.json"
-      }
+      },
+      "evidence_groups": [
+        "AS63-03"
+      ]
     },
     {
       "id": "OCEAN63-39C",
@@ -1490,7 +2868,10 @@
         "common_to_internal_seconds": 300,
         "regular_supply_first_live_capture_internal_seconds": 1857.04,
         "half_supply_first_live_capture_internal_seconds": 1220.52
-      }
+      },
+      "evidence_groups": [
+        "OCEAN63-39C"
+      ]
     },
     {
       "id": "OCEAN63-P1",
@@ -1507,7 +2888,10 @@
         "case": "world-0-reference",
         "internal_seconds": 1520.7,
         "last_segment": "seg-0025.zip"
-      }
+      },
+      "evidence_groups": [
+        "OCEAN63-P1"
+      ]
     },
     {
       "id": "OCEAN63-P2",
@@ -1524,7 +2908,10 @@
         "case": "world-0-reference",
         "internal_seconds": 1669.06,
         "last_segment": "seg-0028.zip"
-      }
+      },
+      "evidence_groups": [
+        "OCEAN63-P2"
+      ]
     },
     {
       "id": "E56",
@@ -1537,6 +2924,9 @@
       ],
       "evidence_paths": [
         "originals/objects/4266a949-9e41-45b7-9653-7566d2df8164"
+      ],
+      "evidence_groups": [
+        "E56"
       ]
     },
     {
@@ -1550,6 +2940,9 @@
       ],
       "evidence_paths": [
         "originals/objects/e7606f95-62ea-4645-badd-46bdcf54ec47"
+      ],
+      "evidence_groups": [
+        "E57"
       ]
     },
     {
@@ -1563,6 +2956,9 @@
       ],
       "evidence_paths": [
         "originals/objects/93f1fb20-c124-4e80-825f-686f170b74e4"
+      ],
+      "evidence_groups": [
+        "E58"
       ]
     },
     {
@@ -1575,6 +2971,9 @@
       ],
       "evidence_paths": [
         "experiments/2026-10-13-continuous-shape-color"
+      ],
+      "evidence_groups": [
+        "E68"
       ]
     },
     {
@@ -1596,7 +2995,10 @@
         "trials_per_test": 24,
         "final_fixations": 20,
         "final_fixations_from_outside_center": 19
-      }
+      },
+      "evidence_groups": [
+        "E69"
+      ]
     },
     {
       "id": "R43",
@@ -1608,6 +3010,9 @@
       ],
       "evidence_paths": [
         "experiments/2026-11-09-context-revision/v1"
+      ],
+      "evidence_groups": [
+        "R43"
       ]
     },
     {
@@ -1620,6 +3025,9 @@
       ],
       "evidence_paths": [
         "experiments/2026-11-01-sat-core-exclusion/v1"
+      ],
+      "evidence_groups": [
+        "SAT-exclusion"
       ]
     }
   ],
@@ -2100,6 +3508,12 @@
       "lab/explorations/2026-11-01-sat-core-exclusion/report.zh.md"
     ]
   },
-  "coverage_note": "A code or evidence reference identifies a study; it does not certify that a separate dataset release has included all its records. The four ring/timing archive references carry registered hashes.",
-  "main_scope": "The final Chinese and English r3 v6 main manuscripts, including their own figures, captions and Table 4-1, determine the scope of the data release. A listing in the supplementary catalogue alone does not qualify a study. The complete research-source catalogue below indexes public code and reports only."
+  "coverage_note": "The manuscript IDs in r3_studies have installed data in the companion release identified by public_data_manifest_sha256. supplementary_research_sources is a separate index of public code and reports.",
+  "main_scope": "The final Chinese and English r3 v6 main manuscripts, including their own figures, captions and Table 4-1, determine the scope of the data release. A listing in the supplementary catalogue alone does not qualify a study. The complete research-source catalogue below indexes public code and reports only.",
+  "previous_data_export": {
+    "date": "2026-11-11",
+    "manifest_sha256": "c02d6094fc14ef15f12994826c8fd4d859ecc97bff8b7a3aae0806f02d5f60ea",
+    "files": 28314
+  },
+  "public_data_manifest_sha256": "1dee7a51723693e45132fd2664a297783bc4e65e5fe8b75494fe56a33aa8a512"
 }
