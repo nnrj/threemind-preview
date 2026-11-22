@@ -2171,10 +2171,222 @@
         "decay",
         "R47"
       ]
+    },
+    {
+      "id": "zh-19-kernel60",
+      "work": "modern-zh",
+      "key": "chronicles/19-kernel60",
+      "group": "chronicles",
+      "title": "卷十九 刺激以固定函数找到节点",
+      "path": "docs/zh/history/chronicles/19-kernel60.md",
+      "period": "2026-11-12",
+      "tags": [
+        "kernel",
+        "addressing",
+        "R49"
+      ]
+    },
+    {
+      "id": "en-19-kernel60",
+      "work": "modern-en",
+      "key": "chronicles/19-kernel60",
+      "group": "chronicles",
+      "title": "Chapter 19: a fixed function from stimulus to node",
+      "path": "docs/en/history/chronicles/19-kernel60.md",
+      "period": "2026-11-12",
+      "tags": [
+        "kernel",
+        "addressing",
+        "R49"
+      ]
+    },
+    {
+      "id": "zh-source-20261114-dynamics-function",
+      "work": "modern-zh",
+      "key": "sources/2026-11-14-dynamics-function",
+      "group": "sources",
+      "title": "三项动力学问题的功能检验",
+      "path": "docs/zh/history/sources/2026-11-14-dynamics-function.md",
+      "period": "2026-11-14",
+      "tags": [
+        "kernel",
+        "experiment",
+        "R51"
+      ]
+    },
+    {
+      "id": "en-source-20261114-dynamics-function",
+      "work": "modern-en",
+      "key": "sources/2026-11-14-dynamics-function",
+      "group": "sources",
+      "title": "Functional tests of three dynamical differences",
+      "path": "docs/en/history/sources/2026-11-14-dynamics-function.md",
+      "period": "2026-11-14",
+      "tags": [
+        "kernel",
+        "experiment",
+        "R51"
+      ]
+    },
+    {
+      "id": "zh-source-20261114-kernel62",
+      "work": "modern-zh",
+      "key": "sources/2026-11-14-kernel62",
+      "group": "sources",
+      "title": "6.2实施授权与配置取舍",
+      "path": "docs/zh/history/sources/2026-11-14-kernel62.md",
+      "period": "2026-11-14",
+      "tags": [
+        "kernel",
+        "retention",
+        "R51"
+      ]
+    },
+    {
+      "id": "en-source-20261114-kernel62",
+      "work": "modern-en",
+      "key": "sources/2026-11-14-kernel62",
+      "group": "sources",
+      "title": "Authorization and configuration decisions for 6.2",
+      "path": "docs/en/history/sources/2026-11-14-kernel62.md",
+      "period": "2026-11-14",
+      "tags": [
+        "kernel",
+        "retention",
+        "R51"
+      ]
+    },
+    {
+      "id": "zh-chronicles/20-artificial-selection",
+      "work": "modern-zh",
+      "key": "chronicles/20-artificial-selection",
+      "group": "chronicles",
+      "title": "卷二十 从亲代表现出发检验代际保留",
+      "path": "docs/zh/history/chronicles/20-artificial-selection.md",
+      "period": "2026-11-17 to 2026-11-18",
+      "tags": [
+        "artificial-selection",
+        "AS63-01",
+        "AS63-02",
+        "inheritance",
+        "fixed-environment",
+        "AS63-03"
+      ]
+    },
+    {
+      "id": "zh-sources/2026-11-17-artificial-selection",
+      "work": "modern-zh",
+      "key": "sources/2026-11-17-artificial-selection",
+      "group": "sources",
+      "title": "2026-11-17：新人工选择实验的要求与授权",
+      "path": "docs/zh/history/sources/2026-11-17-artificial-selection.md",
+      "period": "2026-11-17",
+      "tags": [
+        "artificial-selection",
+        "AS63-01",
+        "AS63-02",
+        "inheritance",
+        "fixed-environment"
+      ]
+    },
+    {
+      "id": "en-chronicles/20-artificial-selection",
+      "work": "modern-en",
+      "key": "chronicles/20-artificial-selection",
+      "group": "chronicles",
+      "title": "Volume XX Testing inheritance from the parent's own behavior",
+      "path": "docs/en/history/chronicles/20-artificial-selection.md",
+      "period": "2026-11-17 to 2026-11-18",
+      "tags": [
+        "artificial-selection",
+        "AS63-01",
+        "AS63-02",
+        "inheritance",
+        "fixed-environment",
+        "AS63-03"
+      ]
+    },
+    {
+      "id": "en-sources/2026-11-17-artificial-selection",
+      "work": "modern-en",
+      "key": "sources/2026-11-17-artificial-selection",
+      "group": "sources",
+      "title": "17 November 2026: New artificial-selection requirements and authorization",
+      "path": "docs/en/history/sources/2026-11-17-artificial-selection.md",
+      "period": "2026-11-17",
+      "tags": [
+        "artificial-selection",
+        "AS63-01",
+        "AS63-02",
+        "inheritance",
+        "fixed-environment"
+      ]
+    },
+    {
+      "id": "zh-sources/2026-11-18-ring-mechanism-comparison",
+      "work": "modern-zh",
+      "key": "sources/2026-11-18-ring-mechanism-comparison",
+      "group": "sources",
+      "title": "2026-11-18：环形行为差异的对照要求与来源",
+      "path": "docs/zh/history/sources/2026-11-18-ring-mechanism-comparison.md",
+      "period": "2026-11-18",
+      "tags": [
+        "AS63-03",
+        "ring",
+        "inheritance",
+        "motor-bindings"
+      ]
+    },
+    {
+      "id": "en-sources/2026-11-18-ring-mechanism-comparison",
+      "work": "modern-en",
+      "key": "sources/2026-11-18-ring-mechanism-comparison",
+      "group": "sources",
+      "title": "18 November 2026: Ring mechanism comparison authorization and sources",
+      "path": "docs/en/history/sources/2026-11-18-ring-mechanism-comparison.md",
+      "period": "2026-11-18",
+      "tags": [
+        "AS63-03",
+        "ring",
+        "inheritance",
+        "motor-bindings"
+      ]
+    },
+    {
+      "id": "zh-sources/2026-11-18-repeat-timing",
+      "work": "modern-zh",
+      "key": "sources/2026-11-18-repeat-timing",
+      "group": "sources",
+      "title": "2026-11-18：相同刺激的两次出现与时间寻址",
+      "path": "docs/zh/history/sources/2026-11-18-repeat-timing.md",
+      "period": "2026-11-18",
+      "tags": [
+        "RT63-01",
+        "AS63-ADDR",
+        "temporal-input",
+        "memory",
+        "addressing"
+      ]
+    },
+    {
+      "id": "en-sources/2026-11-18-repeat-timing",
+      "work": "modern-en",
+      "key": "sources/2026-11-18-repeat-timing",
+      "group": "sources",
+      "title": "18 November 2026: Repeated identical input and time-dependent addressing",
+      "path": "docs/en/history/sources/2026-11-18-repeat-timing.md",
+      "period": "2026-11-18",
+      "tags": [
+        "RT63-01",
+        "AS63-ADDR",
+        "temporal-input",
+        "memory",
+        "addressing"
+      ]
     }
   ],
   "public_edition": {
-    "date": "2026-11-11",
+    "date": "2026-11-22",
     "scope": "Public research history; manuscript and submission records omitted.",
     "omitted_entry_count": 4,
     "omission_reason": "Manuscript files and manuscript-writing/submission records are excluded from this public catalogue."

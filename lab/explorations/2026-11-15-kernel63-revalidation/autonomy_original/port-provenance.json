@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-16",
+  "source_directory": "lab/explorations/2026-11-13-kernel61/autonomy_original",
+  "source_sha256": {
+    "execute_original.py": "bb1422c5faa402d37faca885141b2117b4dc32fadb45edf7ce0b164508a66c7d",
+    "materials_original.py": "820db120e4785c3a0393c7d9e5b8893d5c25c40332e011937a1f1a91c639d4e5",
+    "measurement_original.py": "be272bdf74aebc76ed477326f389905ca852cf94c090077969fbb53e6b7d5466",
+    "study_original.py": "2010dc9771ef828441d037c92d64cdc09d2486d3a39f09cbccc95ef5a0b0b22f",
+    "analyze_original.py": "b24d82fcd2b9c976a00aac03a6c6fbeb62e20e1c9b3ffaa9a7b86c29b9572608",
+    "protocol.zh.md": "01fb66df270bdf489cf72cf842db42c9e88fe0b01d50d53d872f9a64428f9343",
+    "protocol.en.md": "2821ce0083dbba735bb4f57352d35455348b94fc043f61e9a52ffde781f877a1"
+  },
+  "production_changes": false,
+  "registered": false,
+  "changes": [
+    "genuine 6.3 kernel/configuration",
+    "new identities and new-campaign prerequisites",
+    "historical scoring and material formulas unchanged",
+    "direct FileStandardInfo allocation",
+    "self-contained historical arithmetic validation"
+  ]
+}

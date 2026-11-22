@@ -149,7 +149,8 @@ def test_new_creation_default_and_old_explicit_choices_are_separate(backend):
     from threemind_runtime.ecology_job import parse_job
 
     created = create_engine(backend=backend).capture_state().to_dict()
-    assert created["dynamics"] == DEFAULT_KERNEL == "threemind.continuous-memory/3"
+    assert created["dynamics"] == DEFAULT_KERNEL == "threemind.continuous-memory/6.1"
+    assert created["config"]["decay_curve"] == "inverse-logarithmic"
     assert created["config"]["novelty_mode"] == "arrival-window"
     assert default_spec()["kernel_id"] == DEFAULT_KERNEL
     assert default_spec()["activity_readout"]["enabled"]

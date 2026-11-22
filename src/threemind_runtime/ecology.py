@@ -12,13 +12,13 @@ from copy import deepcopy
 from dataclasses import replace
 from typing import Literal
 
-from pydantic import Field
+from pydantic import Field, model_serializer, model_validator
 
 from threemind_kernels.registry import resolve_kernel
 
 from .ecology_rules import EcologyLedger, EcologyRules
 from .ecology_senses import BodyStateSenses, transduce
-from .inheritance import BIRTH_RULE, birth
+from .inheritance import BIRTH_RULE, KERNEL60, KERNEL60_BIRTH_RULE, birth, birth_metadata, birth_rule
 from .population_participant import CoreParticipant, ParticipantConfig
 from .population_world import PopulationWorld, SpawnLayout, body_scope
 from .world_schema import Id, Model, digest, parse_world
@@ -30,10 +30,39 @@ class EcologySettings(Model):
     founder_count: int = Field(default=2, ge=1, le=256)
     ecology_seed: int = Field(default=20260724, ge=0, le=2**32 - 1)
     body_failure_inputs: Literal["close_all", "detach_body"] = "close_all"
-    inheritance_rule: Literal["threemind.birth/1"] = BIRTH_RULE
+    inheritance_rule: Literal["threemind.birth/1", "threemind.birth/2"] = BIRTH_RULE
+    inheritance_decay_age: Literal["preserve", "reset"] | None = None
     rules: EcologyRules = Field(default_factory=EcologyRules)
     senses: BodyStateSenses = Field(default_factory=BodyStateSenses)
     layout: SpawnLayout = Field(default_factory=SpawnLayout)
+
+    @model_validator(mode="after")
+    def valid_inheritance(self):
+        if self.inheritance_rule == BIRTH_RULE and self.inheritance_decay_age is not None:
+            raise ValueError("decay-age inheritance requires threemind.birth/2")
+        return self
+
+    @model_serializer(mode="wrap")
+    def historical_shape(self, handler):
+        value = handler(self)
+        # Preserve historical ecology/1 protocol hashes and exact recovery.
+        if self.inheritance_decay_age is None:
+            value.pop("inheritance_decay_age", None)
+        return value
+
+    def birth(self, image):
+        return birth(image, rule=self.inheritance_rule, decay_age=self.inheritance_decay_age or "preserve")
+
+    def birth_metadata(self, image):
+        return birth_metadata(image, self.inheritance_decay_age or "preserve")
+
+    def for_kernel(self, kernel_id):
+        expected = birth_rule(kernel_id)
+        if expected == KERNEL60_BIRTH_RULE and self.inheritance_rule == BIRTH_RULE and "inheritance_rule" not in self.model_fields_set:
+            return self.model_copy(update={"inheritance_rule": expected})
+        if self.inheritance_rule != expected:
+            raise ValueError("ecological inheritance rule does not match the selected kernel")
+        return self
 
     def validate_world(self, world):
         if self.founder_count > self.rules.reproduction.population_limit:
@@ -69,7 +98,23 @@ class EcologyCoordinator:
         checkpoint=None,
     ):
         self.world_spec = parse_world(world.model_dump(mode="json") if hasattr(world, "model_dump") else world)
-        settings = settings or EcologySettings()
+        if settings is None:
+            source_kernel = kernel_id
+            if founders:
+                from threemind_kernels.registry import state_kernel
+
+                source_kernel = state_kernel(founders[0]).kernel_id
+            settings = EcologySettings(inheritance_rule=KERNEL60_BIRTH_RULE) if source_kernel == KERNEL60 else EcologySettings()
+        if isinstance(settings, dict):
+            settings = EcologySettings.model_validate_json(json.dumps(settings))
+        if checkpoint is None:
+            if founders:
+                from threemind_kernels.registry import state_kernel
+
+                for founder in founders:
+                    settings = settings.for_kernel(state_kernel(founder).kernel_id)
+            elif kernel_id is not None:
+                settings = settings.for_kernel(resolve_kernel(kernel_id).kernel_id)
         self.settings = EcologySettings.model_validate_json(
             settings.model_dump_json() if isinstance(settings, EcologySettings) else json.dumps(settings)
         )
@@ -169,7 +214,7 @@ class EcologyCoordinator:
                     raise ValueError("supply one common founder model or one model for each declared founder")
                 for index, identity in enumerate(self.ledger.accounts):
                     source = sources[0 if len(sources) == 1 else index]
-                    image = birth(source)
+                    image = self.settings.birth(source)
                     self.participants[identity] = self.factory(identity, image, None)
                     self.world.activate(identity)
                     self.emit(
@@ -179,7 +224,7 @@ class EcologyCoordinator:
                             "individual": identity,
                             "source_state_hash": source.digest,
                             "state_hash": image.digest,
-                            "inheritance_rule": BIRTH_RULE,
+                            **self.settings.birth_metadata(source),
                             "model_born": True,
                         }
                     )
@@ -238,7 +283,7 @@ class EcologyCoordinator:
         for event in decisions:
             if event["kind"] == "birth_due":
                 source = self.participants[event["parent"]].engine.capture_state()
-                image = birth(source)
+                image = self.settings.birth(source)
                 identity = event["individual"]
                 self.participants[identity] = self.factory(identity, image, None)
                 self.world.activate(identity)
@@ -250,6 +295,7 @@ class EcologyCoordinator:
                         "source_time_us": str(self.participants[event["parent"]].engine.time_us),
                         "source_state_hash": source.digest,
                         "state_hash": image.digest,
+                        **self.settings.birth_metadata(source),
                     }
                 )
             else:

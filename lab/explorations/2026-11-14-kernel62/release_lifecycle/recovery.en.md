@@ -1,0 +1,13 @@
+# Authorized continuation from a new R51t10 research copy
+
+15 November 2026. The author asked for the provenance and rationale of the recovery restriction, then explicitly authorized creation of a new copy and continuation.
+
+The complete teaching state ends at 81.2 internal seconds, with SHA256 `93be6e86084b5470215770eae9184b19e9430e19c87e4dde1717d6a41f3f8629`. The interrupted wait has no complete final state. Its STOP, in-flight marker, incomplete recording, source, reports and verified evidence package remain intact. The new `release-lifecycle62-v1-r1` directory copies the verified teaching state and frozen materials. Waiting proceeds in a newly declared research copy. Teaching is not repeated, and the interrupted and replacement waits are not presented as one continuous experience.
+
+The 92-stage plan, two curriculum blocks, inputs and criteria remain unchanged. One completed teaching stage is reused; the remaining 91 stages use the verified recorder. Sampling and internal advancement order are identical. Repeated whole-state hashing around each observation is removed, and wall-budget overrun requests a complete-stage pause instead of raising mid-stage. Eight old/new recording comparisons and forced-budget checks in both backends passed. Production 6.2 source and defaults are unchanged during recovery. Commit/RAM/C/E reserves remain 5/4/5/25 GiB.
+
+The waiting material retains fixed background input and stops only task cues. An experimental process exiting is different from a model individual reaching its death condition. Earlier notes used “dead host” for process failure; subsequent explanations use “experimental process exited with an incomplete stage” to avoid this ambiguity.
+
+The provenance review finds the restriction in this conversation's automated continuation prompts of 15–17 October. The E69 incident record describes experience from 2004 to 2010 seconds without a complete 2010-second state, followed by separately authorized recovery from 2004 seconds. This explains the intent to preserve experience and disclose rollback. Automated prompts and handoff notes do not establish that the author personally dictated the exact rule; the earlier direct attribution was too strong. The current recovery now has explicit authorization and requires no repeated approval for the same action.
+
+The original R51t10 research identity is retained. Its interrupted status and receipt remain in the event history; the new continuation is registered as running. Scientific completion requires all remaining stages, read-only verification and full API evidence readback. The comprehensive replication campaign and manuscripts remain outside this continuation.

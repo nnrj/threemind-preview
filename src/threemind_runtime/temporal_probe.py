@@ -12,7 +12,7 @@ from pydantic import BaseModel, ConfigDict, Field, field_validator
 from .calibration import MAX_PACKAGE, FiniteDose, encode
 from .codec import ArtifactCodec
 from .host import create_engine
-from .inheritance import BIRTH_RULE, birth
+from .inheritance import birth, birth_rule
 from .readout_config import ActivityReadoutConfig, TemporalReadoutConfig
 from .readout_session import SESSION_VERSION, ReadoutSession
 from .sensory import TEXT_VERSION, TextSensor
@@ -186,7 +186,7 @@ def calibrate_temporal(
             "seed": seed,
             "protocol": protocol.model_dump(mode="json"),
             "rows": rows,
-            "inheritance": BIRTH_RULE if protocol.route == "birth" else None,
+            "inheritance": birth_rule(state["dynamics"]) if protocol.route == "birth" else None,
             "provenance": provenance,
             "elapsed_seconds": time.monotonic() - started,
             "batch_budget_reached": exhausted,

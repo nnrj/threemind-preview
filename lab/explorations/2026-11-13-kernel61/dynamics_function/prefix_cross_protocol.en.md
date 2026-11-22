@@ -1,0 +1,17 @@
+# R51t5: crossing novelty timing with connection retention
+
+14 November 2026. This separately registered follow-up addresses the author's authorized prefix investigation after R51t2. It does not change the first three batches' targets, scoring or results. R51t4 formal scores are not used to select these conditions.
+
+R51t1 showed that immediate novelty in /2 exactly restored /1 prefix performance. Legacy connection retention restored persistent activity in /3.1 and /5.1, but prefix discrimination failed under their original novelty timing. R51t2 found distinguishable prefix activity in 6.1 but a shared preference between endings. The new question is whether immediate novelty and legacy retention jointly determine historical prefix performance, so that changing either alone misses their interaction.
+
+Genuine /3.1 and /5.1 kernels are each compared under three retention settings—original default, existing legacy connection retention, and legacy connection retention with existing manual node retention—and two novelty timings: arrival-window and immediate. Two curricula exchange C/E. Each condition includes continuous teaching and two declared A-B/D-B diagnostic copies. The full matrix has 12 conditions and 72 stages; five conditions and 30 stages already have complete originals and are read only. Seven conditions require 42 new stages. Existing /1 and immediate-novelty /2 positive references are reused, not rerun.
+
+New conditions are immediate novelty under all three retention settings in both versions, plus arrival-window novelty with legacy connections and manual node retention in /5.1. Every option belongs to the genuine historical implementation. No old mechanism is added to 6.1, and no historical identity or default changes.
+
+The original 212.2-second teaching course and fixed background are reused. Complete taught parents produce separate registered A-B and D-B copies, with a one-second wait, a one-second cue interval and a 15-second observation. Core, random state, input bus and observer history are preserved. The independent material scale remains two exchanged blocks, not 42 samples.
+
+The original criterion requires the taught-ending minus alternative activation peak margin to exceed 1e-6 for both probes in both blocks. All four activity processes are also retained. Recovery only when two changes are combined, with each alone failing, supports their joint role. Recovery from immediate novelty alone does not establish retention as necessary. If all combinations fail, the sufficiency hypothesis is rejected and this batch ends without further search. Manual node retention combined with legacy connection retention is described as a combination, not a single-field ablation.
+
+Separate calibration encoding and seed 9291199 test observation, complete restoration and host pauses in both versions. The registered batch starts only after R51t4 computation finishes. Sources, native library and reused originals are hashed.
+
+The original-data cap is 512 MiB; total delivery budget is 1.5 GiB, within the unused part of the existing 18 GiB overall envelope, not an increased total. Host budget is 30 minutes, each stage five minutes; commit/RAM/C/E reserves remain 5/4/5/25 GiB. Incomplete-state failures are preserved, never rolled back. Bilingual reporting, independent arithmetic and complete API readback with zero pending requests close the batch. A future 6.2 and default changes remain for author discussion.

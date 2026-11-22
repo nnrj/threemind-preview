@@ -1,0 +1,7 @@
+# 2026-11-14：收件记录格式核验更正
+
+464个科学阶段完整结束后，analyze_v2.py在首份收件记录上抛出KeyError：实际收件格式没有status字段。原脚本和失败事实保留，没有生成该次科学分析结果，也没有重跑个体。
+
+另存analyze_v3.py，将不存在的status检查改为检查实际Core事件序号为正。原有的逐条事件编号对应、输入内容与来源比较、计划时间等于实际到达时间、无答案标签以及输入队列为空等检查全部保留。原过程积分、峰值、科学阈值、分母和判定代码没有变化。尚未执行的新颖性补充使用对应修正版analyze_novelty_v2.py；原analyze_novelty.py保留。
+
+失败位置为analyze_v2.py第51行。核对的实际记录具有core_event_id、core_sequence、scheduled_time_us、delivered_time_us、stimulus及source等字段。这是收件格式的核验错误，不是未送达的输入。修正版将检查每条真实收件记录，并把失败脚本和本更正一同收入交付包。

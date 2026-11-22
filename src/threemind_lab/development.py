@@ -19,7 +19,7 @@ from pydantic import Field, field_validator
 
 from threemind_kernels.registry import resolve_kernel, state_kernel
 from threemind_runtime import ArtifactCodec
-from threemind_runtime.inheritance import BIRTH_RULE, birth
+from threemind_runtime.inheritance import BIRTH_RULE, KERNEL60_BIRTH_RULE, birth, birth_rule
 from threemind_runtime.profile import profile_from_spec
 
 from .configuration import PROTOCOL_IMMUTABLE
@@ -234,7 +234,7 @@ def register_in(db, project, actor, request):
             cp["time_us"],
             Jsonb(protocol),
             digest(protocol),
-            BIRTH_RULE,
+            birth_rule(protocol["kernel_id"]),
             parent["id"] if parent else None,
             parent["generation"] + 1 if parent else 0,
         ),
@@ -262,7 +262,7 @@ def initial_state(database, project, run):
         "payload": {
             "session_id": str(session["id"]),
             "version_id": str(source["id"]),
-            "birth_rule": BIRTH_RULE,
+            "birth_rule": source["birth_rule"],
             "source_hash": source["state_hash"],
             "initial_hash": image.digest,
         },
@@ -270,7 +270,7 @@ def initial_state(database, project, run):
 
 
 def born_image(database, project, version):
-    if version["birth_rule"] != BIRTH_RULE:
+    if version["birth_rule"] not in (BIRTH_RULE, KERNEL60_BIRTH_RULE):
         raise ValueError("unsupported inheritance rule")
     _, image = database.load_checkpoint(project, version["run_id"], version["checkpoint_id"])
     if image.digest != version["state_hash"]:
@@ -281,7 +281,7 @@ def born_image(database, project, version):
         image.to_dict()["config"]
     ) != descriptor.configuration(recorded.config):
         raise ValueError("checkpoint Core configuration differs from its recorded protocol")
-    return birth(image)
+    return birth(image, rule=version["birth_rule"])
 
 
 def listing(database, project, kind, q="", offset=0):
@@ -339,7 +339,7 @@ def export(database, job):
     model = ArtifactCodec.encode(image, "json" if fmt == "json" else "tmind", profile=profile)
     metadata = {
         "innate_version_id": str(version["id"]),
-        "birth_rule": BIRTH_RULE,
+        "birth_rule": version["birth_rule"],
         "source_hash": version["state_hash"],
         "state_hash": image.digest,
         "time_us": "0",

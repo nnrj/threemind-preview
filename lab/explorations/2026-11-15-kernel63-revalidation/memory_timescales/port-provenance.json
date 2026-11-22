@@ -1,0 +1,19 @@
+{
+  "status": "prepared, not registered or run",
+  "historical_batch": "R51t",
+  "new_batch": "R63q",
+  "source_sha256": {
+    "lab/explorations/2026-11-13-kernel61/memory_timescales/materials_timescales.py": "00082da47baa9d74e3192f6057a2e9ec321d2a871c74afeb4a9a996b52d2b6d2",
+    "lab/explorations/2026-11-13-kernel61/memory_timescales/measurement_timescales.py": "73f4e40543f20677ed3736c176ee6d734e5c374057e4616c601e6975fd6b5776",
+    "lab/explorations/2026-11-13-kernel61/memory_timescales/execute_streamed.py": "b125c2987e84a3115895106e6ea354ca8e7ac102b8090986cfc5c910e963ca7a",
+    "lab/explorations/2026-11-13-kernel61/memory_timescales/analyze_timescales_v3.py": "2cdcb0e8d0b884a0dea17847c8e3f7c806f000b3e9f2d39d4a2fb17783c7e336",
+    "lab/explorations/2026-11-13-kernel61/memory_timescales/study_timescales.py": "5bc00ffef46a31bd3c52fdc22f1b46908f79f0720cc1b0f1c099333f6a5136a0",
+    "lab/explorations/2026-11-13-kernel61/memory_timescales/protocol.zh.md": "13ca4031121ff2b1ecd41a910305909f88930abfc23773bf281195db8a87612b",
+    "lab/explorations/2026-11-13-kernel61/memory_timescales/protocol.en.md": "47bb82aa2936d474bd8991ac14c069e48ff2385827555ebd024ea7c5ee99e345"
+  },
+  "historical_reference_kernel": "threemind.continuous-memory/1",
+  "known_6_1_negative_targets": [
+    "persistent activity",
+    "two-prefix discrimination"
+  ]
+}

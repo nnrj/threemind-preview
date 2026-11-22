@@ -53,6 +53,10 @@ fn split_local_objects(value: &mut Value) {
     if value["dynamics"] != threemind_core::local::KERNEL_ID
         && value["dynamics"] != threemind_core::local::KERNEL5_ID
         && value["dynamics"] != threemind_core::local51::KERNEL_ID
+        && value["dynamics"] != threemind_core::local60::KERNEL_ID
+        && value["dynamics"] != threemind_core::local61::KERNEL_ID
+        && value["dynamics"] != threemind_core::local62::KERNEL_ID
+        && value["dynamics"] != threemind_core::local63::KERNEL_ID
         && value["dynamics"] != threemind_core::local53::KERNEL_ID
         && value["dynamics"] != threemind_core::weight_decay::KERNEL_ID
         && value["dynamics"] != threemind_core::local52::KERNEL_ID {
@@ -84,6 +88,10 @@ fn join_local_objects(value: &mut Value) -> Result<()> {
     if value["dynamics"] != threemind_core::local::KERNEL_ID
         && value["dynamics"] != threemind_core::local::KERNEL5_ID
         && value["dynamics"] != threemind_core::local51::KERNEL_ID
+        && value["dynamics"] != threemind_core::local60::KERNEL_ID
+        && value["dynamics"] != threemind_core::local61::KERNEL_ID
+        && value["dynamics"] != threemind_core::local62::KERNEL_ID
+        && value["dynamics"] != threemind_core::local63::KERNEL_ID
         && value["dynamics"] != threemind_core::local53::KERNEL_ID
         && value["dynamics"] != threemind_core::weight_decay::KERNEL_ID
         && value["dynamics"] != threemind_core::local52::KERNEL_ID {
@@ -100,7 +108,12 @@ fn join_local_objects(value: &mut Value) -> Result<()> {
         return Err("invalid local object columns".into());
     }
     let v52 = value["dynamics"] == threemind_core::local52::KERNEL_ID;
-    let v53 = value["dynamics"] == threemind_core::local53::KERNEL_ID
+    let v62 = value["dynamics"] == threemind_core::local62::KERNEL_ID;
+    let v53 = value["dynamics"] == threemind_core::local63::KERNEL_ID
+        || value["dynamics"] == threemind_core::local62::KERNEL_ID
+        || value["dynamics"] == threemind_core::local61::KERNEL_ID
+        || value["dynamics"] == threemind_core::local60::KERNEL_ID
+        || value["dynamics"] == threemind_core::local53::KERNEL_ID
         || value["dynamics"] == threemind_core::weight_decay::KERNEL_ID;
     let v5 = value["dynamics"] == threemind_core::local::KERNEL5_ID
         || value["dynamics"] == threemind_core::local51::KERNEL_ID || v53 || v52;
@@ -138,7 +151,15 @@ fn join_local_objects(value: &mut Value) -> Result<()> {
             expected.push(if name == "nodes" { "last_emit_us" } else { "completed_period_us" });
         }
         if v53 { expected.push("decay_age"); }
+        if name == "nodes" && (value["dynamics"] == threemind_core::local60::KERNEL_ID || value["dynamics"] == threemind_core::local61::KERNEL_ID || value["dynamics"] == threemind_core::local62::KERNEL_ID || value["dynamics"] == threemind_core::local63::KERNEL_ID) {
+            expected.push("birth_serial");
+        }
         if v52 { expected.extend(["decay_curve", "decay_contributions"]); }
+        let optional: &[&str] = if v62 && name == "edges" {
+            &["inhibition_weight", "inhibition_short_term", "inhibition_learning"]
+        } else if name == "edges" && value["dynamics"] == threemind_core::local63::KERNEL_ID {
+            &["inhibition_short_term"]
+        } else { &[] };
         let rows = value[name].as_array_mut().ok_or("missing object rows")?;
         let columns = extra[name]
             .as_array()
@@ -148,7 +169,8 @@ fn join_local_objects(value: &mut Value) -> Result<()> {
         }
         for (row, more) in rows.iter_mut().zip(columns) {
             let fields = more.as_object().ok_or("invalid local object fields")?;
-            if fields.len() != expected.len() || expected.iter().any(|k| !fields.contains_key(*k)) {
+            if expected.iter().any(|k| !fields.contains_key(*k))
+                || fields.keys().any(|k| !expected.contains(&k.as_str()) && !optional.contains(&k.as_str())) {
                 return Err("invalid local object fields".into());
             }
             row.as_object_mut().unwrap().extend(fields.clone());

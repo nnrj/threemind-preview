@@ -50,6 +50,8 @@ def test_physics_causal_delivery_and_resume():
         "threemind.continuous-memory/5.1",
         "threemind.continuous-memory/5.2",
         "threemind.continuous-memory/5.3",
+        "threemind.continuous-memory/6.0", "threemind.continuous-memory/6.1",
+        "threemind.continuous-memory/6.2", "threemind.continuous-memory/6.3",
         "threemind.lif/1",
     ],
 )
@@ -134,6 +136,8 @@ def test_independent_rust_artifact_and_sqlite_interop(tmp_path, format, kernel_i
         "threemind.continuous-memory/5.1",
         "threemind.continuous-memory/5.2",
         "threemind.continuous-memory/5.3",
+        "threemind.continuous-memory/6.0", "threemind.continuous-memory/6.1",
+        "threemind.continuous-memory/6.2", "threemind.continuous-memory/6.3",
         "threemind.lif/1",
     ],
 )

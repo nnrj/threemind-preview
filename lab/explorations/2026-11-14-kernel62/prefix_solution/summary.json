@@ -1,0 +1,1684 @@
+{
+  "experiment": "R51t11",
+  "date": "2026-11-15",
+  "record": "33b74b4b-d2ef-54ac-a3db-a460c960a424",
+  "material_blocks": 2,
+  "production_core_changed": false,
+  "stages": 192,
+  "verified_states": 576,
+  "verified_processes": 118,
+  "max_arithmetic_error": 0,
+  "science_stage_wall_seconds": 5639.634556699486,
+  "phase_host_wall_seconds": 5786.798667000025,
+  "raw_bytes_at_final_audit": 166658211,
+  "peak_private_bytes": 121622528,
+  "minimum_available_bytes": {
+    "commit": 14616834048,
+    "ram": 12744040448,
+    "system_disk": 10136920064,
+    "data_disk": 65076817920
+  },
+  "prefix_candidate": {
+    "name": "normalized-path",
+    "patch": {
+      "activation_signal_threshold": 0.004,
+      "consolidation_mode": "stability",
+      "inhibition_signal_threshold": 0.0,
+      "inhibitory_learning_enabled": false,
+      "novelty_mode": "immediate",
+      "research_bypass_inhibition_resources": true,
+      "research_inhibition_marks_usage": false,
+      "research_normalize_inhibition": true,
+      "resource_precheck_enabled": true,
+      "subthreshold_expiry_enabled": true
+    },
+    "reference_A": "n1r1l1g1",
+    "stages": [
+      "E/normalized-path/0/train",
+      "E/normalized-path/0/AB",
+      "E/normalized-path/0/DB",
+      "E/normalized-path/1/train",
+      "E/normalized-path/1/AB",
+      "E/normalized-path/1/DB"
+    ]
+  },
+  "shared_profiles": [
+    {
+      "name": "resource-101-original-tau",
+      "prefix_pass": true,
+      "persistence_pass": false,
+      "patch": {
+        "activation_signal_threshold": 0.004,
+        "consolidation_mode": "stability",
+        "depletion_enabled": true,
+        "edge_consolidation_enabled": true,
+        "inhibition_tau": 0.2321354823145728,
+        "novelty_mode": "immediate",
+        "research_inhibitory_route": "outgoing",
+        "research_inhibitory_weight": "effective",
+        "research_transport": "old-inhibition",
+        "resource_precheck": true,
+        "resource_precheck_enabled": true,
+        "stp_facilitation_tau_s": 0.0,
+        "subthreshold_expiry_enabled": true
+      }
+    },
+    {
+      "name": "resource-101-quarter-tau",
+      "prefix_pass": false,
+      "persistence_pass": false,
+      "patch": {
+        "activation_signal_threshold": 0.004,
+        "consolidation_mode": "stability",
+        "depletion_enabled": true,
+        "edge_consolidation_enabled": true,
+        "inhibition_tau": 0.0580338705786432,
+        "novelty_mode": "immediate",
+        "research_inhibitory_route": "outgoing",
+        "research_inhibitory_weight": "effective",
+        "research_transport": "old-inhibition",
+        "resource_precheck": true,
+        "resource_precheck_enabled": true,
+        "stp_facilitation_tau_s": 0.0,
+        "subthreshold_expiry_enabled": true
+      }
+    },
+    {
+      "name": "resource-011-original-tau",
+      "prefix_pass": false,
+      "persistence_pass": true,
+      "patch": {
+        "activation_signal_threshold": 0.004,
+        "consolidation_mode": "stability",
+        "depletion_enabled": false,
+        "edge_consolidation_enabled": true,
+        "inhibition_tau": 0.2321354823145728,
+        "novelty_mode": "immediate",
+        "research_inhibitory_route": "outgoing",
+        "research_inhibitory_weight": "effective",
+        "research_transport": "old-inhibition",
+        "resource_precheck": true,
+        "resource_precheck_enabled": true,
+        "stp_facilitation_tau_s": 1.0,
+        "subthreshold_expiry_enabled": true
+      }
+    },
+    {
+      "name": "resource-011-quarter-tau",
+      "prefix_pass": false,
+      "persistence_pass": true,
+      "patch": {
+        "activation_signal_threshold": 0.004,
+        "consolidation_mode": "stability",
+        "depletion_enabled": false,
+        "edge_consolidation_enabled": true,
+        "inhibition_tau": 0.0580338705786432,
+        "novelty_mode": "immediate",
+        "research_inhibitory_route": "outgoing",
+        "research_inhibitory_weight": "effective",
+        "research_transport": "old-inhibition",
+        "resource_precheck": true,
+        "resource_precheck_enabled": true,
+        "stp_facilitation_tau_s": 1.0,
+        "subthreshold_expiry_enabled": true
+      }
+    }
+  ],
+  "groups": [
+    {
+      "phase": "A",
+      "variant": "n0r0l0g0",
+      "task": "prefix",
+      "passed_blocks": 0,
+      "observations": [
+        {
+          "block": 0,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.0015587276589029767,
+          "minimum": 0.0,
+          "maximum": 0.44999449639831685,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 0,
+          "cue": "DB",
+          "passed": false,
+          "margin": -0.0015587131772033525,
+          "minimum": 0.0,
+          "maximum": 0.449995132843548,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.0015587276589029767,
+          "minimum": 0.0,
+          "maximum": 0.44999449639831685,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "DB",
+          "passed": false,
+          "margin": -0.0015587131772033525,
+          "minimum": 0.0,
+          "maximum": 0.449995132843548,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "phase": "A",
+      "variant": "n0r0l0g1",
+      "task": "prefix",
+      "passed_blocks": 0,
+      "observations": [
+        {
+          "block": 0,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.0016753129644411363,
+          "minimum": 0.0,
+          "maximum": 0.4499932395967471,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 0,
+          "cue": "DB",
+          "passed": false,
+          "margin": -0.0016753043139952697,
+          "minimum": 0.0,
+          "maximum": 0.44999361140399985,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.0016753129644411363,
+          "minimum": 0.0,
+          "maximum": 0.4499932395967471,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "DB",
+          "passed": false,
+          "margin": -0.0016753043139952697,
+          "minimum": 0.0,
+          "maximum": 0.44999361140399985,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "phase": "A",
+      "variant": "n0r0l1g0",
+      "task": "prefix",
+      "passed_blocks": 0,
+      "observations": [
+        {
+          "block": 0,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.001252969614568153,
+          "minimum": 0.0,
+          "maximum": 0.4499946348029964,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 0,
+          "cue": "DB",
+          "passed": false,
+          "margin": -0.0012529301924156522,
+          "minimum": 0.0,
+          "maximum": 0.4499952107529974,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.001252969614568153,
+          "minimum": 0.0,
+          "maximum": 0.4499946348029964,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "DB",
+          "passed": false,
+          "margin": -0.0012529301924156522,
+          "minimum": 0.0,
+          "maximum": 0.4499952107529974,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "phase": "A",
+      "variant": "n0r0l1g1",
+      "task": "prefix",
+      "passed_blocks": 0,
+      "observations": [
+        {
+          "block": 0,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.0013274633321571916,
+          "minimum": 0.0,
+          "maximum": 0.44999345539964636,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 0,
+          "cue": "DB",
+          "passed": false,
+          "margin": -0.001327459751060231,
+          "minimum": 0.0,
+          "maximum": 0.44999375422541493,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.0013274633321571916,
+          "minimum": 0.0,
+          "maximum": 0.44999345539964636,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "DB",
+          "passed": false,
+          "margin": -0.001327459751060231,
+          "minimum": 0.0,
+          "maximum": 0.44999375422541493,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "phase": "A",
+      "variant": "n0r1l0g0",
+      "task": "prefix",
+      "passed_blocks": 0,
+      "observations": [
+        {
+          "block": 0,
+          "cue": "AB",
+          "passed": false,
+          "margin": 8.049116928532385e-16,
+          "minimum": 0.0,
+          "maximum": 0.3437443161220458,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 0,
+          "cue": "DB",
+          "passed": false,
+          "margin": -9.853229343548264e-16,
+          "minimum": 0.0,
+          "maximum": 0.3437443161220322,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "AB",
+          "passed": false,
+          "margin": 8.049116928532385e-16,
+          "minimum": 0.0,
+          "maximum": 0.3437443161220458,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "DB",
+          "passed": false,
+          "margin": -9.853229343548264e-16,
+          "minimum": 0.0,
+          "maximum": 0.34374431612203216,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "phase": "A",
+      "variant": "n0r1l0g1",
+      "task": "prefix",
+      "passed_blocks": 0,
+      "observations": [
+        {
+          "block": 0,
+          "cue": "AB",
+          "passed": false,
+          "margin": 6.522560269672795e-16,
+          "minimum": 0.0,
+          "maximum": 0.34022060861103615,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 0,
+          "cue": "DB",
+          "passed": false,
+          "margin": -6.418476861114186e-16,
+          "minimum": 0.0,
+          "maximum": 0.3402206086110274,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "AB",
+          "passed": false,
+          "margin": 6.522560269672795e-16,
+          "minimum": 0.0,
+          "maximum": 0.34022060861103615,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "DB",
+          "passed": false,
+          "margin": -6.418476861114186e-16,
+          "minimum": 0.0,
+          "maximum": 0.3402206086110274,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "phase": "A",
+      "variant": "n0r1l1g0",
+      "task": "prefix",
+      "passed_blocks": 0,
+      "observations": [
+        {
+          "block": 0,
+          "cue": "AB",
+          "passed": false,
+          "margin": -0.001024996765119801,
+          "minimum": 0.0,
+          "maximum": 0.43414969191652547,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 0,
+          "cue": "DB",
+          "passed": true,
+          "margin": 0.001025242447546551,
+          "minimum": 0.0,
+          "maximum": 0.43393155113848475,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "AB",
+          "passed": false,
+          "margin": -0.001024996765119801,
+          "minimum": 0.0,
+          "maximum": 0.43414969191652547,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "DB",
+          "passed": true,
+          "margin": 0.001025242447546551,
+          "minimum": 0.0,
+          "maximum": 0.43393155113848475,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "phase": "A",
+      "variant": "n0r1l1g1",
+      "task": "prefix",
+      "passed_blocks": 0,
+      "observations": [
+        {
+          "block": 0,
+          "cue": "AB",
+          "passed": false,
+          "margin": -0.0022117705074988017,
+          "minimum": 0.0,
+          "maximum": 0.4214107451377205,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 0,
+          "cue": "DB",
+          "passed": false,
+          "margin": -0.0017057498191556247,
+          "minimum": 0.0,
+          "maximum": 0.420441115429898,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "AB",
+          "passed": false,
+          "margin": -0.0022117705074988017,
+          "minimum": 0.0,
+          "maximum": 0.4214107451377204,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "DB",
+          "passed": false,
+          "margin": -0.0017057498191556247,
+          "minimum": 0.0,
+          "maximum": 0.420441115429898,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "phase": "A",
+      "variant": "n1r0l0g0",
+      "task": "prefix",
+      "passed_blocks": 0,
+      "observations": [
+        {
+          "block": 0,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.0019157936931907815,
+          "minimum": 0.0,
+          "maximum": 0.4499950490294845,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 0,
+          "cue": "DB",
+          "passed": false,
+          "margin": -0.0019157884656982455,
+          "minimum": 0.0,
+          "maximum": 0.449995967341271,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.0019157936931907815,
+          "minimum": 0.0,
+          "maximum": 0.4499950490294845,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "DB",
+          "passed": false,
+          "margin": -0.0019157884656982455,
+          "minimum": 0.0,
+          "maximum": 0.449995967341271,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "phase": "A",
+      "variant": "n1r0l0g1",
+      "task": "prefix",
+      "passed_blocks": 0,
+      "observations": [
+        {
+          "block": 0,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.0014559573378781707,
+          "minimum": 0.0,
+          "maximum": 0.44999415243569546,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 0,
+          "cue": "DB",
+          "passed": false,
+          "margin": -0.0014559571064609242,
+          "minimum": 0.0,
+          "maximum": 0.4499944680665844,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.0014559573378781707,
+          "minimum": 0.0,
+          "maximum": 0.44999415243569546,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "DB",
+          "passed": false,
+          "margin": -0.0014559571064609242,
+          "minimum": 0.0,
+          "maximum": 0.4499944680665844,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "phase": "A",
+      "variant": "n1r0l1g0",
+      "task": "prefix",
+      "passed_blocks": 0,
+      "observations": [
+        {
+          "block": 0,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.0014307366204280303,
+          "minimum": 0.0,
+          "maximum": 0.44999513385892964,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 0,
+          "cue": "DB",
+          "passed": false,
+          "margin": -0.0014307030098763482,
+          "minimum": 0.0,
+          "maximum": 0.44999597809778846,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.0014307366204280303,
+          "minimum": 0.0,
+          "maximum": 0.44999513385892964,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "DB",
+          "passed": false,
+          "margin": -0.0014307030098763482,
+          "minimum": 0.0,
+          "maximum": 0.44999597809778846,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "phase": "A",
+      "variant": "n1r0l1g1",
+      "task": "prefix",
+      "passed_blocks": 0,
+      "observations": [
+        {
+          "block": 0,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.0011633592757375605,
+          "minimum": 0.0,
+          "maximum": 0.449994294301101,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 0,
+          "cue": "DB",
+          "passed": false,
+          "margin": -0.0011633592311973487,
+          "minimum": 0.0,
+          "maximum": 0.4499949474497096,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.0011633592757375605,
+          "minimum": 0.0,
+          "maximum": 0.449994294301101,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "DB",
+          "passed": false,
+          "margin": -0.0011633592311973487,
+          "minimum": 0.0,
+          "maximum": 0.4499949474497096,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "phase": "A",
+      "variant": "n1r1l0g0",
+      "task": "prefix",
+      "passed_blocks": 0,
+      "observations": [
+        {
+          "block": 0,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.002971732824852684,
+          "minimum": 0.0,
+          "maximum": 0.4532944046153529,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 0,
+          "cue": "DB",
+          "passed": false,
+          "margin": -0.0029659246400190326,
+          "minimum": 0.0,
+          "maximum": 0.4521647745841687,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.002971732824852684,
+          "minimum": 0.0,
+          "maximum": 0.4532944046153529,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "DB",
+          "passed": false,
+          "margin": -0.0029659246400190326,
+          "minimum": 0.0,
+          "maximum": 0.4521647745841687,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "phase": "A",
+      "variant": "n1r1l0g1",
+      "task": "prefix",
+      "passed_blocks": 0,
+      "observations": [
+        {
+          "block": 0,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.0029951838992621355,
+          "minimum": 0.0,
+          "maximum": 0.453280110869708,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 0,
+          "cue": "DB",
+          "passed": false,
+          "margin": -0.0029905794995120777,
+          "minimum": 0.0,
+          "maximum": 0.4522676925573216,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.0029951838992621355,
+          "minimum": 0.0,
+          "maximum": 0.453280110869708,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "DB",
+          "passed": false,
+          "margin": -0.0029905794995120777,
+          "minimum": 0.0,
+          "maximum": 0.4522676925573216,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "phase": "A",
+      "variant": "n1r1l1g0",
+      "task": "prefix",
+      "passed_blocks": 0,
+      "observations": [
+        {
+          "block": 0,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.0010562673578682,
+          "minimum": 0.0,
+          "maximum": 0.45214481549994656,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 0,
+          "cue": "DB",
+          "passed": false,
+          "margin": -0.0010568136053793614,
+          "minimum": 0.0,
+          "maximum": 0.4519939330810369,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.0010562673578682,
+          "minimum": 0.0,
+          "maximum": 0.45214481549994656,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "DB",
+          "passed": false,
+          "margin": -0.0010568136053793614,
+          "minimum": 0.0,
+          "maximum": 0.4519939330810369,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "phase": "A",
+      "variant": "n1r1l1g1",
+      "task": "prefix",
+      "passed_blocks": 0,
+      "observations": [
+        {
+          "block": 0,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.0010508927796347156,
+          "minimum": 0.0,
+          "maximum": 0.4521404764249401,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 0,
+          "cue": "DB",
+          "passed": false,
+          "margin": -0.0010513779346137744,
+          "minimum": 0.0,
+          "maximum": 0.4519573636881537,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.0010508927796347156,
+          "minimum": 0.0,
+          "maximum": 0.4521404764249401,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "DB",
+          "passed": false,
+          "margin": -0.0010513779346137744,
+          "minimum": 0.0,
+          "maximum": 0.4519573636881537,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "phase": "C",
+      "variant": "resource-101-original-tau",
+      "task": "persistent",
+      "passed_blocks": 0,
+      "observations": [
+        {
+          "block": 0,
+          "cue": "probe",
+          "passed": false,
+          "margin": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "probe",
+          "passed": false,
+          "margin": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "phase": "C",
+      "variant": "resource-101-quarter-tau",
+      "task": "prefix",
+      "passed_blocks": 0,
+      "observations": [
+        {
+          "block": 0,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.0012525244572682975,
+          "minimum": 0.0,
+          "maximum": 0.44999999999971874,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 0,
+          "cue": "DB",
+          "passed": false,
+          "margin": -0.001252524452848007,
+          "minimum": 0.0,
+          "maximum": 0.4499999999998898,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.0012525244572682975,
+          "minimum": 0.0,
+          "maximum": 0.44999999999971874,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "DB",
+          "passed": false,
+          "margin": -0.001252524452848007,
+          "minimum": 0.0,
+          "maximum": 0.4499999999998898,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "phase": "C",
+      "variant": "resource-101-quarter-tau",
+      "task": "persistent",
+      "passed_blocks": 0,
+      "observations": [
+        {
+          "block": 0,
+          "cue": "probe",
+          "passed": false,
+          "margin": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "probe",
+          "passed": false,
+          "margin": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "phase": "C",
+      "variant": "resource-011-original-tau",
+      "task": "prefix",
+      "passed_blocks": 0,
+      "observations": [
+        {
+          "block": 0,
+          "cue": "AB",
+          "passed": false,
+          "margin": -1.805257542203398e-05,
+          "minimum": 0.02173104779492388,
+          "maximum": 0.5685475191863577,
+          "end": 0.02173104779492388,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 0,
+          "cue": "DB",
+          "passed": true,
+          "margin": 1.8052575421978467e-05,
+          "minimum": 0.021731052194460223,
+          "maximum": 0.5685861721328248,
+          "end": 0.021731052194460223,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "AB",
+          "passed": false,
+          "margin": -1.805257542203398e-05,
+          "minimum": 0.02173104779492388,
+          "maximum": 0.5685475191863577,
+          "end": 0.02173104779492388,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "DB",
+          "passed": true,
+          "margin": 1.8052575421978467e-05,
+          "minimum": 0.021731052194460223,
+          "maximum": 0.5685861721328248,
+          "end": 0.021731052194460223,
+          "complete": true,
+          "saturation_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "phase": "C",
+      "variant": "resource-011-original-tau",
+      "task": "persistent",
+      "passed_blocks": 2,
+      "observations": [
+        {
+          "block": 0,
+          "cue": "probe",
+          "passed": true,
+          "margin": 1.0479937369300973e-09,
+          "minimum": 0.01715403162868609,
+          "maximum": 0.023055098781509416,
+          "end": 0.01715403162868609,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "probe",
+          "passed": true,
+          "margin": 1.0479937369300973e-09,
+          "minimum": 0.01715403162868609,
+          "maximum": 0.023055098781509416,
+          "end": 0.01715403162868609,
+          "complete": true,
+          "saturation_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "phase": "C",
+      "variant": "resource-011-quarter-tau",
+      "task": "prefix",
+      "passed_blocks": 0,
+      "observations": [
+        {
+          "block": 0,
+          "cue": "AB",
+          "passed": false,
+          "margin": -1.3507284726932411e-05,
+          "minimum": 0.06889982456124238,
+          "maximum": 0.7631784761193623,
+          "end": 0.06889982456124238,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 0,
+          "cue": "DB",
+          "passed": true,
+          "margin": 1.3507284726932411e-05,
+          "minimum": 0.06889986277674671,
+          "maximum": 0.7632088226713944,
+          "end": 0.06889986277674671,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "AB",
+          "passed": false,
+          "margin": -1.3507284726932411e-05,
+          "minimum": 0.06889982456124238,
+          "maximum": 0.7631784761193623,
+          "end": 0.06889982456124238,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "DB",
+          "passed": true,
+          "margin": 1.3507284726932411e-05,
+          "minimum": 0.06889986277674671,
+          "maximum": 0.7632088226713944,
+          "end": 0.06889986277674671,
+          "complete": true,
+          "saturation_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "phase": "C",
+      "variant": "resource-011-quarter-tau",
+      "task": "persistent",
+      "passed_blocks": 2,
+      "observations": [
+        {
+          "block": 0,
+          "cue": "probe",
+          "passed": true,
+          "margin": 4.045794324558649e-09,
+          "minimum": 0.05543783764403164,
+          "maximum": 0.07450871414160268,
+          "end": 0.05543783764403164,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "probe",
+          "passed": true,
+          "margin": 4.045794324558649e-09,
+          "minimum": 0.05543783764403164,
+          "maximum": 0.07450871414160268,
+          "end": 0.05543783764403164,
+          "complete": true,
+          "saturation_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "phase": "D",
+      "variant": "fresh-codes",
+      "task": "prefix",
+      "passed_blocks": 2,
+      "observations": [
+        {
+          "block": 0,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.0009761989385644806,
+          "minimum": 0.0,
+          "maximum": 0.44981607665602835,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 0,
+          "cue": "DB",
+          "passed": true,
+          "margin": 0.0027378166179323274,
+          "minimum": 0.0,
+          "maximum": 0.44982346731541156,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.0009761989385644806,
+          "minimum": 0.0,
+          "maximum": 0.44981607665602835,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "DB",
+          "passed": true,
+          "margin": 0.0027378166179323274,
+          "minimum": 0.0,
+          "maximum": 0.44982346731541156,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "phase": "F",
+      "variant": "incident-base",
+      "task": "prefix",
+      "passed_blocks": 2,
+      "observations": [
+        {
+          "block": 0,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.000978372527150058,
+          "minimum": 0.0,
+          "maximum": 0.4498160762575615,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 0,
+          "cue": "DB",
+          "passed": true,
+          "margin": 0.002735433828363186,
+          "minimum": 0.0,
+          "maximum": 0.449823467847983,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.0009783725272572777,
+          "minimum": 0.0,
+          "maximum": 0.44981607625756065,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "DB",
+          "passed": true,
+          "margin": 0.0027354338282538984,
+          "minimum": 0.0,
+          "maximum": 0.4498234678479834,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "phase": "F",
+      "variant": "incident-effective",
+      "task": "prefix",
+      "passed_blocks": 2,
+      "observations": [
+        {
+          "block": 0,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.0009783633617797757,
+          "minimum": 0.0,
+          "maximum": 0.4498160752680127,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 0,
+          "cue": "DB",
+          "passed": true,
+          "margin": 0.0027354335052183834,
+          "minimum": 0.0,
+          "maximum": 0.4498234680548979,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.0009783633619936255,
+          "minimum": 0.0,
+          "maximum": 0.44981607526801115,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "DB",
+          "passed": true,
+          "margin": 0.0027354335050004466,
+          "minimum": 0.0,
+          "maximum": 0.44982346805489876,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "phase": "F",
+      "variant": "outgoing-base",
+      "task": "prefix",
+      "passed_blocks": 2,
+      "observations": [
+        {
+          "block": 0,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.0009762005425402523,
+          "minimum": 0.0,
+          "maximum": 0.44981607778092325,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 0,
+          "cue": "DB",
+          "passed": true,
+          "margin": 0.0027378246690041644,
+          "minimum": 0.0,
+          "maximum": 0.4498234672300754,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.0009762005425402523,
+          "minimum": 0.0,
+          "maximum": 0.44981607778092325,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "DB",
+          "passed": true,
+          "margin": 0.0027378246690041644,
+          "minimum": 0.0,
+          "maximum": 0.4498234672300754,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "phase": "F",
+      "variant": "outgoing-effective",
+      "task": "prefix",
+      "passed_blocks": 2,
+      "observations": [
+        {
+          "block": 0,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.0009761989385644806,
+          "minimum": 0.0,
+          "maximum": 0.44981607665602835,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 0,
+          "cue": "DB",
+          "passed": true,
+          "margin": 0.0027378166179323274,
+          "minimum": 0.0,
+          "maximum": 0.44982346731541156,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.0009761989385644806,
+          "minimum": 0.0,
+          "maximum": 0.44981607665602835,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "DB",
+          "passed": true,
+          "margin": 0.0027378166179323274,
+          "minimum": 0.0,
+          "maximum": 0.44982346731541156,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "phase": "E",
+      "variant": "current-path",
+      "task": "prefix",
+      "passed_blocks": 0,
+      "observations": [
+        {
+          "block": 0,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.0012667780851224678,
+          "minimum": 0.0,
+          "maximum": 0.44999464243837833,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 0,
+          "cue": "DB",
+          "passed": false,
+          "margin": -0.0012667339981058054,
+          "minimum": 0.0,
+          "maximum": 0.4499952184390132,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.0012667780851224678,
+          "minimum": 0.0,
+          "maximum": 0.44999464243837833,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "DB",
+          "passed": false,
+          "margin": -0.0012667339981058054,
+          "minimum": 0.0,
+          "maximum": 0.4499952184390132,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "phase": "E",
+      "variant": "normalized-path",
+      "task": "prefix",
+      "passed_blocks": 2,
+      "observations": [
+        {
+          "block": 0,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.000974492791517817,
+          "minimum": 0.0,
+          "maximum": 0.44963183518039596,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 0,
+          "cue": "DB",
+          "passed": true,
+          "margin": 0.002693423080045415,
+          "minimum": 0.0,
+          "maximum": 0.44964704664380917,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.000974492791517817,
+          "minimum": 0.0,
+          "maximum": 0.44963183518039596,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "DB",
+          "passed": true,
+          "margin": 0.002693423080045415,
+          "minimum": 0.0,
+          "maximum": 0.44964704664380917,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "phase": "G",
+      "variant": "normalized-path",
+      "task": "persistent",
+      "passed_blocks": 0,
+      "observations": [
+        {
+          "block": 0,
+          "cue": "probe",
+          "passed": false,
+          "margin": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "probe",
+          "passed": false,
+          "margin": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "phase": "H",
+      "variant": "normalized-path",
+      "task": "prefix",
+      "passed_blocks": 2,
+      "observations": [
+        {
+          "block": 0,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.000974492791517817,
+          "minimum": 0.0,
+          "maximum": 0.44963183518039596,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 0,
+          "cue": "DB",
+          "passed": true,
+          "margin": 0.002693423080045415,
+          "minimum": 0.0,
+          "maximum": 0.44964704664380917,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "AB",
+          "passed": true,
+          "margin": 0.000974492791517817,
+          "minimum": 0.0,
+          "maximum": 0.44963183518039596,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        },
+        {
+          "block": 1,
+          "cue": "DB",
+          "passed": true,
+          "margin": 0.002693423080045415,
+          "minimum": 0.0,
+          "maximum": 0.44964704664380917,
+          "end": 0.0,
+          "complete": true,
+          "saturation_fraction": 0.0
+        }
+      ]
+    }
+  ],
+  "inhibition_counter_note": "Separate inhibition routing omits the general inhibition-transmission counter; conclusions use node-process observations, not that counter."
+}

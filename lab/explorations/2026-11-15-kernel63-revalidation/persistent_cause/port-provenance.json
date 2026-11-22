@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-16",
+  "source_directory": "lab/explorations/2026-11-13-kernel61/persistent_cause",
+  "source_sha256": {
+    "execute_cause.py": "7984dedb6206ae6d44648969916e7ca3f798199f3e2c499e9d20780bc70f4841",
+    "design.py": "adafcb4ec7caa918e803efe32ae24887bac5003286bdabe220c0b5125515d477",
+    "supplement.py": "16fc41b0d38eca8c209ef0defc25cf85b75c65faa9a3dd7b87370e01c95e6471",
+    "novelty_followup.py": "2afcbefaf7c743b6ba98e1c008e47d8b30b02123d014d872e3de2c06f53c7241",
+    "analyze_v3.py": "95fa924869dc546554875c0bf96cb8018317bc84bf7cf5081554dfd6a0663e22",
+    "analyze_novelty_v2.py": "cbb99fc61a9e439218ca49551830baa8af4ee101690d5307333d65616a533be0"
+  },
+  "production_changes": false,
+  "registered": false,
+  "changes": [
+    "6.3 replaces the current-version arm; genuine historical control implementations retained",
+    "all 476 historical stages planned together before new results",
+    "new identities and registration",
+    "lossless streaming JSON writer",
+    "known negative targets and new adverse changes judged separately"
+  ]
+}

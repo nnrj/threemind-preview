@@ -1,0 +1,36 @@
+# R51t15: Reproducing prefix discrimination on 6.3 and identifying the relevant differences
+
+Registered before formal computation, 15 November 2026. The user requested investigation of separate synaptic resources together with inhibition not updating the most recent transmission time, and an explanation of the earlier 6.2 recovery. The user did not claim that shared resources were the sole cause. That attribution in R51t14 is corrected; its measurements remain intact.
+
+## Questions and expectations
+
+First, can the complete successful R51t11 condition reproduce correct discrimination of both AB and DB on a 6.3 base? Next, which differences in resource handling, inhibitory learning and the inhibitory connection signal threshold explain success and failure? We expect the complete combination to reproduce. The comparisons, rather than an assumption of a single cause, determine individual and combined effects.
+
+R51t14 already combined independent resources with inhibition not updating the most recent transmission time. The earlier positive condition also used stability-based retention, immediate novelty, weight-proportional inhibition, inhibition bypassing resources, disabled explicit inhibitory learning and a zero inhibitory connection threshold. Independent resources still undergo depletion and recovery. Bypassed resources impose no such limit. Explicit inhibitory learning can update weight, short-term enhancement, eligibility, stability, retention timescale and touch records. The most recent transmission time is a separate field.
+
+## Subjects, teaching and criterion
+
+The isolated implementation `threemind.research-prefix-causes63/1` derives from the 6.3 Python reference kernel. Production 6.3, Rust, defaults and historical originals remain unchanged. A separate witness retains the R51t11 emission function verbatim. Identity and configuration metadata are distinguished from numerical dynamics when comparing witnesses.
+
+Reuse the two anonymous material blocks with exchanged endings. Each new individual receives 212.2 internal seconds of continuous teaching. Preserve its complete final state, then register separate AB and DB diagnostic copies, including nodes, connections, resources, pending events, clock and random state. No trainable peripheral is needed. Teaching retains the original repetitions and background input. These declared diagnostic branches do not authorize ordinary-test rollback or answer-driven retraining.
+
+AB should favor C and DB should favor E; the second block exchanges the taught endings. Present A or D, then B after one second. Observe the full 15-second process at 10-ms intervals, retaining activation, inhibition, direct and associative activity: 1,502 samples including the pre-cue point. Keep the original criterion: after B, the correct ending's activation peak must exceed the other ending's peak by more than 1e-6. Both prefixes must pass within each block, and both blocks must pass for recovery. An increased response to one ending is not a substitute for this criterion.
+
+Common settings are stability-based retention, immediate novelty, weight-proportional inhibition, prerelease checking, excitatory connection threshold 0.004, excitatory/inhibitory node sending thresholds 0.004/0.002, depletion enabled and facilitation disabled. Excitatory learning is retained. Inhibition does not update the most recent transmission time except in its designated control. Freeze complete configurations and stimuli before execution.
+
+## Bounded comparisons
+
+1. **A: 18 stages.** Compare the complete positive combination with the historical emitter, the same combination with the 6.3 emitter, and a control restoring only inhibitory transmission-time updates. Each condition has two blocks, each with teaching, AB and DB. Check archived inputs, configurations and process scores. Both complete combinations must recover before B; otherwise preserve evidence and locate the first divergence.
+2. **B: 66 new stages.** Three resource treatments (shared, independent, inhibition bypass) × explicit inhibitory learning on/off × inhibitory connection threshold 0.0004/0 form 12 conditions. Reuse the identical complete combination from A; execute the other 11 conditions, six stages each. Matched comparisons identify individual effects and interactions.
+3. **C: at most 36 stages.** If the complete positive combination passes but restoring inhibitory learning alone fails, restore one inhibitory learning contribution at a time: weight, short-term enhancement, eligibility, stability, retention timescale, or touch count and latest touch time. Keep excitatory learning unchanged. This tests which individual updates suffice to disrupt recovery; inactive mechanisms are identified as unchanged conditions, and untested combinations are not assigned necessity.
+4. **D: 12 stages.** Among successful B conditions, prefer retained inhibitory learning, then avoiding resource bypass, then the nonzero threshold; break remaining ties by shared, independent, bypass resources. Select a failing condition differing by one factor, preferring learning, resources, then threshold. If none exists, use A's transmission-time control. Test both selected conditions with new codes (XOR 0x00400000 and 0x00200000) and birth seeds 9291271/9291272. Do not use D to select new parameters; report its results separately.
+
+At most 132 stages. Report all configurations, effective fields, both ending peaks and signed margins. A tests reproducibility of the historical recovery; B explains the incomplete combination and the other differences; C identifies the relevant learning update; D tests the selected contrast on previously unused encodings. Valid negative findings close their targets normally.
+
+## Engineering, resources and delivery
+
+Before formal teaching, use a short course with separate codes to verify that observation, save/restore, partitioned advancement and host pauses preserve complete state. The research emitter without additional interventions must match production 6.3 reference execution; disabled component interventions must match disabled inhibitory learning. Freeze sources, materials and protocols and register through the unified research API without starting old queue workers.
+
+Originals are capped at 512 MiB and total new storage at 2 GiB. Scientific-host time is capped at two hours cumulatively, with a 300-second per-stage limit checked after complete-state saving. Check commit memory, physical RAM, C and E every second, retaining 5/4/5/25 GiB. Preserve evidence and pause on resource failure, observation disturbance, unverifiable originals or a new dead-host in-flight state. Do not lower guards, delete evidence or roll back automatically.
+
+Independently recalculate process scores and check parent states, configurations, inputs, events and hashes. Reports distinguish the user's position, assistant interpretation and measured conclusions. Close after complete API readback and zero pending requests; update the bilingual backlog and history and the two Classical Chinese versions for consequential findings. Broad revalidation remain paused. [Public edition: manuscript editing or private locator omitted.] This study does not change production defaults.

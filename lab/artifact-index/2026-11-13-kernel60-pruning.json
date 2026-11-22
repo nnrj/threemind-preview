@@ -1,0 +1,21 @@
+{
+  "schema": "threemind.kernel60-pruning-artifact-locations/1",
+  "study": "R50",
+  "work": "E:\\ThreeMindData\\experiments\\2026-11-13-kernel60-pruning\\quick-v1",
+  "resource_id": "kernel60-pruning-20261113-v1",
+  "project_id": "7119c32a-f173-454d-b105-d4a415d1fb68",
+  "record_id": "5afbbd07-419b-5abe-bba8-f40e361a3eab",
+  "archive_member": "originals-v1.zip",
+  "archive_sha256": "75d57a7341ba46612dcfad378fc7048452efe99f13efe2c80dbf475dc32ca6aa",
+  "archive_bytes": 16131551,
+  "manifest_members": 4942,
+  "analysis_sha256": "e5b9d16184a4288a02e83bd725e2d5a1eb4f64ced430e030741bf180787f52a2",
+  "publication_coverage": "verified",
+  "pending": 0,
+  "decision": "Reject candidate 0.018; retain 6.0 default prune_weight=0.008",
+  "reports": [
+    "lab/explorations/2026-11-13-kernel60-pruning/report.zh.md",
+    "lab/explorations/2026-11-13-kernel60-pruning/report.en.md"
+  ],
+  "data_boundary": "Full states, trajectories, frozen binary and detailed results remain outside Git. This index contains locations and hashes only."
+}

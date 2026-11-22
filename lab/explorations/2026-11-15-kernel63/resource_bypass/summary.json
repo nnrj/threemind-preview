@@ -1,0 +1,292 @@
+{
+  "max_arithmetic_error": 0.0,
+  "passed": true,
+  "positive_reference": [
+    {
+      "absolute_margin_difference": 0.0,
+      "key": "A/S101/bypass/0/AB"
+    },
+    {
+      "absolute_margin_difference": 0.0,
+      "key": "A/S101/bypass/0/DB"
+    },
+    {
+      "absolute_margin_difference": 0.0,
+      "key": "A/S101/bypass/1/AB"
+    },
+    {
+      "absolute_margin_difference": 0.0,
+      "key": "A/S101/bypass/1/DB"
+    }
+  ],
+  "processes": 36,
+  "raw_bytes": 67985273,
+  "resources": {
+    "minimum_available_bytes": {
+      "commit": 15358259200,
+      "data_disk": 63328067584,
+      "ram": 13995876352,
+      "system_disk": 10065575936
+    },
+    "peak_private_bytes": 103342080,
+    "wall_seconds": 239.83904060005443
+  },
+  "scientific_stop": false,
+  "stages": 72,
+  "states": 144,
+  "wall_seconds": 188.58609810005873,
+  "groups": [
+    {
+      "persistent_passed_blocks": 0,
+      "prefix_passed_blocks": 0,
+      "profile": "P",
+      "variant": "limited"
+    },
+    {
+      "persistent_passed_blocks": 0,
+      "prefix_passed_blocks": 0,
+      "profile": "P",
+      "variant": "bypass"
+    },
+    {
+      "persistent_passed_blocks": 0,
+      "prefix_passed_blocks": 0,
+      "profile": "S101",
+      "variant": "limited"
+    },
+    {
+      "persistent_passed_blocks": 0,
+      "prefix_passed_blocks": 2,
+      "profile": "S101",
+      "variant": "bypass"
+    },
+    {
+      "persistent_passed_blocks": 2,
+      "prefix_passed_blocks": 0,
+      "profile": "S011",
+      "variant": "limited"
+    },
+    {
+      "persistent_passed_blocks": 2,
+      "prefix_passed_blocks": 0,
+      "profile": "S011",
+      "variant": "bypass"
+    }
+  ],
+  "registration": {
+    "pending": 0,
+    "project": "d0a04159-ee0f-4200-ada9-13d5ce7197b7",
+    "record": "8f0bca42-147f-54d5-a0fe-0fc9299ce0c0"
+  },
+  "engineering": {
+    "passed": true,
+    "tests": [
+      {
+        "name": "pytest",
+        "errors": "0",
+        "failures": "0",
+        "skipped": "0",
+        "tests": "245",
+        "time": "31.994",
+        "timestamp": "2026-11-15T18:05:59.228478+08:00",
+        "hostname": "DESKTOP-346GUF7"
+      },
+      {
+        "name": "pytest",
+        "errors": "0",
+        "failures": "0",
+        "skipped": "0",
+        "tests": "18",
+        "time": "4.073",
+        "timestamp": "2026-11-15T18:08:57.650507+08:00",
+        "hostname": "DESKTOP-346GUF7"
+      }
+    ],
+    "passed_tests": 263,
+    "historical_source_files_unchanged": 19,
+    "old_complete_state_witnesses": 16,
+    "retained_independent_resources": true,
+    "native_sha256": "62c29fc6e216818e931c73d2d8b4f589188c9fed037758283e61967ac21b8cf1",
+    "runtime_sha256": "7902f6753ae5d69ee9b0878b2fa8b627fe33b06273c2d4728d016989ce5ef6b0",
+    "performance_conditions": 8,
+    "elapsed_ratio_range": [
+      0.9967309352599234,
+      1.0252360938852492
+    ],
+    "environment_notes": [
+      "Two test invocations failed during sandbox temporary-directory setup before assertions; isolated elevated pytest passed.",
+      "The local wheel was installed successfully. Pip reported locked temporary-cache cleanup warnings; no files were deleted and no service was restarted."
+    ]
+  },
+  "descriptive": {
+    "analysis_identity": "post-run descriptive analysis; registered scores unchanged",
+    "bypass_cost_comparison": [
+      {
+        "bypass_off_seconds": 0.15897559997392818,
+        "bypass_on_seconds": 0.20215389999793842,
+        "distribution": "per-connection",
+        "interpretation": "different dynamics; not optional-code overhead",
+        "nodes": 32,
+        "ratio": 1.2716033154213064
+      },
+      {
+        "bypass_off_seconds": 0.22725960001116619,
+        "bypass_on_seconds": 0.3083244999870658,
+        "distribution": "weight-proportional",
+        "interpretation": "different dynamics; not optional-code overhead",
+        "nodes": 32,
+        "ratio": 1.3567061632244206
+      },
+      {
+        "bypass_off_seconds": 0.8979793000034988,
+        "bypass_on_seconds": 12.125625799992122,
+        "distribution": "per-connection",
+        "interpretation": "different dynamics; not optional-code overhead",
+        "nodes": 128,
+        "ratio": 13.503235319505558
+      },
+      {
+        "bypass_off_seconds": 0.9034089000197127,
+        "bypass_on_seconds": 0.9115532000432722,
+        "distribution": "weight-proportional",
+        "interpretation": "different dynamics; not optional-code overhead",
+        "nodes": 128,
+        "ratio": 1.009015076144791
+      }
+    ],
+    "waiting_course": [
+      {
+        "begin_us": 81200000,
+        "end_us": 381200000,
+        "first_inactive_us": 83000000,
+        "key": "C/P/limited/0/wait",
+        "maximum_sample_gap_us": 100000,
+        "maximum_task_activation_maximum": 0.9431685710114729,
+        "minimum_task_activation_maximum": 0.0,
+        "samples": 3001,
+        "samples_above_1e_6": 18
+      },
+      {
+        "begin_us": 81200000,
+        "end_us": 381200000,
+        "first_inactive_us": 83000000,
+        "key": "C/P/limited/1/wait",
+        "maximum_sample_gap_us": 100000,
+        "maximum_task_activation_maximum": 0.9431685710114729,
+        "minimum_task_activation_maximum": 0.0,
+        "samples": 3001,
+        "samples_above_1e_6": 18
+      },
+      {
+        "begin_us": 81200000,
+        "end_us": 381200000,
+        "first_inactive_us": 83000000,
+        "key": "C/P/bypass/0/wait",
+        "maximum_sample_gap_us": 100000,
+        "maximum_task_activation_maximum": 0.9346643378691627,
+        "minimum_task_activation_maximum": 0.0,
+        "samples": 3001,
+        "samples_above_1e_6": 18
+      },
+      {
+        "begin_us": 81200000,
+        "end_us": 381200000,
+        "first_inactive_us": 83000000,
+        "key": "C/P/bypass/1/wait",
+        "maximum_sample_gap_us": 100000,
+        "maximum_task_activation_maximum": 0.9346643378691627,
+        "minimum_task_activation_maximum": 0.0,
+        "samples": 3001,
+        "samples_above_1e_6": 18
+      },
+      {
+        "begin_us": 81200000,
+        "end_us": 381200000,
+        "first_inactive_us": 83000000,
+        "key": "C/S101/limited/0/wait",
+        "maximum_sample_gap_us": 100000,
+        "maximum_task_activation_maximum": 0.9397947620703192,
+        "minimum_task_activation_maximum": 0.0,
+        "samples": 3001,
+        "samples_above_1e_6": 18
+      },
+      {
+        "begin_us": 81200000,
+        "end_us": 381200000,
+        "first_inactive_us": 83000000,
+        "key": "C/S101/limited/1/wait",
+        "maximum_sample_gap_us": 100000,
+        "maximum_task_activation_maximum": 0.9397947620703192,
+        "minimum_task_activation_maximum": 0.0,
+        "samples": 3001,
+        "samples_above_1e_6": 18
+      },
+      {
+        "begin_us": 81200000,
+        "end_us": 381200000,
+        "first_inactive_us": 82900000,
+        "key": "C/S101/bypass/0/wait",
+        "maximum_sample_gap_us": 100000,
+        "maximum_task_activation_maximum": 0.9122061190250494,
+        "minimum_task_activation_maximum": 0.0,
+        "samples": 3001,
+        "samples_above_1e_6": 17
+      },
+      {
+        "begin_us": 81200000,
+        "end_us": 381200000,
+        "first_inactive_us": 82900000,
+        "key": "C/S101/bypass/1/wait",
+        "maximum_sample_gap_us": 100000,
+        "maximum_task_activation_maximum": 0.9122061190250494,
+        "minimum_task_activation_maximum": 0.0,
+        "samples": 3001,
+        "samples_above_1e_6": 17
+      },
+      {
+        "begin_us": 81200000,
+        "end_us": 381200000,
+        "first_inactive_us": null,
+        "key": "C/S011/limited/0/wait",
+        "maximum_sample_gap_us": 100000,
+        "maximum_task_activation_maximum": 1.0,
+        "minimum_task_activation_maximum": 0.01988001012907173,
+        "samples": 3001,
+        "samples_above_1e_6": 3001
+      },
+      {
+        "begin_us": 81200000,
+        "end_us": 381200000,
+        "first_inactive_us": null,
+        "key": "C/S011/limited/1/wait",
+        "maximum_sample_gap_us": 100000,
+        "maximum_task_activation_maximum": 1.0,
+        "minimum_task_activation_maximum": 0.01988001012907173,
+        "samples": 3001,
+        "samples_above_1e_6": 3001
+      },
+      {
+        "begin_us": 81200000,
+        "end_us": 381200000,
+        "first_inactive_us": null,
+        "key": "C/S011/bypass/0/wait",
+        "maximum_sample_gap_us": 100000,
+        "maximum_task_activation_maximum": 1.0,
+        "minimum_task_activation_maximum": 0.017154032730356195,
+        "samples": 3001,
+        "samples_above_1e_6": 3001
+      },
+      {
+        "begin_us": 81200000,
+        "end_us": 381200000,
+        "first_inactive_us": null,
+        "key": "C/S011/bypass/1/wait",
+        "maximum_sample_gap_us": 100000,
+        "maximum_task_activation_maximum": 1.0,
+        "minimum_task_activation_maximum": 0.017154032730356195,
+        "samples": 3001,
+        "samples_above_1e_6": 3001
+      }
+    ]
+  }
+}

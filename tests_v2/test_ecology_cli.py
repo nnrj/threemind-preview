@@ -9,6 +9,7 @@ import pytest
 from test_ecology_runtime import configuration
 
 from threemind_core import Stimulus
+from threemind_kernels.registry import BASELINE_KERNEL
 from threemind_runtime import create_engine
 from threemind_runtime.codec import ArtifactCodec
 from threemind_runtime.ecology_job import EcologyJob
@@ -121,6 +122,9 @@ def test_cli_example_and_numerical_boundary_recording(tmp_path):
     example = tmp_path / "example.json"
     cli("--write-example", example)
     job = EcologyJob.model_validate_json(example.read_text(encoding="utf-8"))
+    # The example follows the user's creation default; this historical runtime
+    # fixture explicitly tests the original ecology kernel.
+    job = EcologyJob.model_validate_json(json.dumps(job.model_dump() | {"kernel_id": BASELINE_KERNEL, "core_config": {}}))
     job.participant.trace = True
     example.write_text(job.model_dump_json(), encoding="utf-8")
     refused = cli("--protocol", example, "--until-us", 20000, success=False)
@@ -139,7 +143,7 @@ def test_founder_import_preserves_nondefault_sensory_profile_and_real_birth(tmp_
     profile = job.profile
     profile["text_sensor"]["max_carrier_characters"] = 321
     profile["acoustic_output"]["maximum_voices"] = 7
-    engine = create_engine()
+    engine = create_engine(kernel_id=BASELINE_KERNEL)
     engine.inject(Stimulus(1000, ((12345, 0.9), (67890, 0.7))))
     engine.advance_to(20000)
     model = tmp_path / "founder.tmind"

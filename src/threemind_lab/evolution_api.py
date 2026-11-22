@@ -4,6 +4,8 @@ from uuid import UUID
 from fastapi import Query, Request
 from pydantic import Field
 
+from threemind_runtime.inheritance import birth_rule
+
 from . import development, evolution
 from .configuration import default_spec
 from .evolution_protocol import SELECTION_METRICS, EvolutionProtocol, EvolutionRequest, seed_plan
@@ -46,7 +48,7 @@ def register_evolution_routes(app, access):
         return {
             "defaults": {
                 "schema_id": "threemind.evolution/1",
-                "inheritance_rule": "threemind.birth/1",
+                "inheritance_rule": birth_rule(shared["kernel_id"]),
                 "selection_mode": "directed",
                 "initial_version_id": None,
                 "generations": 2,

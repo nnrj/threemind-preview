@@ -91,3 +91,89 @@ $tmChangeId = [guid]::NewGuid().ToString()
 `storage seal --local --project PROJECT_UUID --id RUN_UUID` 是明确封存，要求主体已完成、停止写入，恢复边界受支持且依赖可核验。暂停待续训、协调器、依赖缺失或有活动作业的主体不得封存迁出。本轮未自动封存任何真实运行；既有 T12 的 `/4` 宿主保存问题仍另案，不被本轮工程夹具验证覆盖。
 
 根回退检查新写入、资源版本和策略版本。切换后若已写入新资料，需另作反向迁移，不强行切回一个缺新数据的根。数据库原件回退也先验证保留的旧字节；回退、取消和归档均不等于删除。源副本清理须另出逐对象预览，正式研究原件不作为腾空间的普通缓存。
+
+## 新实验使用多个数据目录
+
+未配置多盘时，实验继续使用现有数据根下的 `experiments`。要使用其他磁盘，可在「数据管理 → 存储位置 → 实验数据目录与多盘分配」中添加宿主机上的绝对目录。数字较小的优先级先用。每个目录可以设置占用上限，每块磁盘可以设置最低剩余空间。上限包括该目录中已有文件的实际占用。多个目录位于同一个卷时共享剩余空间，并采用最高的保留值。
+
+启动实验前，按预计同时存在的数据填写峰值预算，包括原始记录、检查点文件、临时文件、归档和需要落盘的回读副本。默认先找能容纳整项预算的一块盘。单盘放不下时，预览会显示缺口。如果可以按世界或批次独立写入，可为每一项起名并勾选「允许本次实验跨目录存储」。一个世界、一个文件或一个分卷始终写在一个目录。分配后，实验可按名称找到原目录。拔盘会中止依赖该盘的操作，接回原盘后可按名称重新打开。Windows 下重新分配盘符时，系统会核对卷身份和目录身份。
+
+命令行与网页共用同一份分配记录。以下命令在宿主机本地运行。省略 `--local` 时通过已认证的 ThreeMind 服务访问服务端磁盘。
+
+```powershell
+threemind storage pool status --local
+threemind storage pool configure --local --json directories.json
+threemind storage pool preview --local --json budget.json
+threemind storage pool reserve --local --json budget.json
+threemind storage pool path --local --name aquatic --part world-a
+```
+
+配置示例中 E 优先、H 备用，两盘分别保留 25 GiB 和 5 GiB。再次编辑时使用 `status` 返回的当前 `revision` 作为 `expected_revision`。若要限制目录最大占用，将对应的 `limit_bytes` 改为字节数。
+
+```json
+{"expected_revision":0,"directories":[
+  {"id":"primary","path":"E:/ThreeMindData","priority":10,"reserve_bytes":26843545600,"limit_bytes":null},
+  {"id":"portable","path":"H:/ThreeMindData","priority":20,"reserve_bytes":5368709120,"limit_bytes":null}
+]}
+```
+
+下面的 `budget.json` 示范如何给一个世界、两个归档分卷和一次文件回读预留空间。正式实验应按各自的实测规模填写预算。
+
+```json
+{"name":"aquatic","allow_split":true,"parts":[
+  {"name":"world-a","kind":"data","bytes":4294967296},
+  {"name":"vol-1","kind":"archive","bytes":2147483648},
+  {"name":"vol-2","kind":"archive","bytes":2147483648},
+  {"name":"check","kind":"readback","bytes":1073741824}
+]}
+```
+
+新实验可通过 `StudyConfig.for_experiment(...)` 让研究工具按硬预算分配目录。多分项实验在预留后用 `part="world-a"` 打开对应工作区。其他脚本用 `ResearchStorage.workspace_path(name, part=...)` 取得实际路径。写死盘符的旧脚本继续按原路径运行。历史数据和数据库有各自的存储位置。
+
+数据写完以后，`archive` 将各数据分项写入同一个标准 ZIP 字节流，按预算直接写到分卷，无需先在某块盘上保存完整 ZIP。`verify` 校验各卷的字节数和 SHA-256。`extract` 可从跨盘分卷中还原指定文件到预留的回读目录。管理页也提供这三项操作。将归档给其他人使用时，按清单顺序把各卷的原始字节拼接即可得到普通 ZIP。
+
+```powershell
+threemind storage pool archive --local --name aquatic
+threemind storage pool verify --local --name aquatic
+threemind storage pool extract --local --name aquatic --part check --member world-a/trajectory.json
+threemind storage pool finish --local --name aquatic
+```
+
+通过 HTTP 可从 `/api/v2/storage/experiment-pool` 查询或配置目录，使用 `/preview` 和 `/reserve` 分配空间。已归档的实验可从 `/studies/{name}/manifest` 取得有序清单，或用 `threemind storage pool download --name aquatic --part vol-1 --output volume-1.bin` 下载并核对单卷。完成实验会释放未用预算并保留定位记录；只有尚未创建工作目录的预留可取消。联合备份保留宿主机分配表与已发布分卷清单，实验原件仍按既有流程登记或单独备份。
+
+完成实验以后也可按需取出某个文件。例如，运行 `threemind storage pool extract --local --name aquatic --member world-a/trajectory.json --output trajectory.json`，即可在当前目录得到原文件。网页可选择「下载归档中的文件」。
+
+## 整项实验的同步、备份、迁移与归档
+
+在“数据管理 → 存储位置 → 实验数据目录与多盘分配”中为目录选择用途。要给运行盘腾空间，请把归档目录设在另一块硬盘上。例如，实验在 E 盘运行时，可以在移动硬盘 H 上设置 H:\ThreeMindArchive。网页会优先推荐位于其他物理磁盘的在线归档目录。同盘目录也可手动选择，用于整理文件。只有运行目录参与新实验的分配；同一存储卷上的多个目录共用可用空间和磁盘保留值。在 Windows 上，程序查询卷对应的磁盘编号，避免把同一硬盘的两个分区误认作两块硬盘。[Windows 卷与物理磁盘](https://learn.microsoft.com/en-us/windows/win32/api/winioctl/ni-winioctl-ioctl_volume_get_volume_disk_extents)
+
+展开“实验同步、迁移与归档”，选择实验、操作和目标目录，再预览和执行。旧实验可在“登记已完成的历史实验”中按运行目录查找，确认已停止写入后登记。发现范围是该运行目录的 experiments 目录下的直接子目录。分散在若干运行目录的已登记实验按各自的分项一起处理。
+
+| 操作 | 数据写在哪里 | 完成后从哪里访问实验 |
+| --- | --- | --- |
+| 单向同步 | 目标目录的 replicas 下。以后同步会复用相同文件并保留仅在目标端存在的文件。目标文件有独立修改时会提示冲突。 | 原位置 |
+| 版本备份 | backups 下每次建立单独版本，随盘保存文件清单、校验值和版本回执。 | 原位置。可选定一个历史版本，用新实验名恢复到运行目录。 |
+| 迁移 | 另一个运行目录。 | 相同实验名指向新运行目录。 |
+| 归档 | 归档目录。如果已有完全相同的同步副本，将直接使用该副本。 | 相同实验名指向归档盘。拔盘后仍可查询目录和传输记录。 |
+| 取消归档 | 选定的运行目录。 | 相同实验名重新指向运行目录，实验保持完成状态。 |
+
+本机已将 `H:\ThreeMindArchive` 登记为 `portable-archive`，供 `E:\ThreeMindData` 中的实验跨盘归档。`H:\ThreeMindData` 继续作为备用运行目录。以下示例使用本机目录标识和示例实验名 `aquatic`。
+
+~~~powershell
+threemind storage transfer discover --local --directory primary
+threemind storage transfer adopt --local --directory primary --name aquatic
+threemind storage transfer preview --local --operation archive --name aquatic --to portable-archive
+threemind storage transfer sync --local --name aquatic --to portable-archive
+threemind storage transfer archive --local --name aquatic --to portable-archive
+threemind storage transfer list --local
+threemind storage transfer release --local --job <上一步归档的任务编号>
+threemind storage transfer unarchive --local --name aquatic --to primary
+threemind storage transfer backup --local --name aquatic --to portable-archive
+threemind storage transfer restore --local --name aquatic --backup <备份版本编号> --to primary --as aquatic-restored
+~~~
+
+迁移、归档或取消归档完成时，旧副本仍在原盘。页面上的“释放旧副本”和命令 release 会重新核对当前副本和旧副本，再从旧盘释放空间。核对覆盖文件长度、SHA-256、空目录、文件和目录的修改时间，以及 NTFS 创建时间。多个分项分处不同盘时，新建一个公共父目录来容纳它们。访问时间会随系统读取而变化。具有独立用途的硬链接会阻止释放；符号链接、重解析点及 NTFS 额外数据流会阻止普通文件复制。已登记证据通过实验路径与资源定位器跟随迁移。使用绝对旧路径的外部脚本须改用实验名称或现有定位器。
+
+磁盘意外断开后，可按同一任务编号 resume，已复制且通过校验的文件会复用。如果源数据在中断期间发生变化，程序会告知原因。完整的数据盘备份即使换了宿主机，也可用 import-backup --directory <目录标识> --name <实验名> --backup <版本编号> 登记，再通过 restore 还原。数据库中的记录和实验目录以外的公共证据仍使用既有的整机联合备份。pool archive 继续负责 ZIP 分卷打包。
+
+通过 API 访问 /api/v2/storage/experiment-pool/transfers。读取清单、预览和查询任务需要 data.read，启动、恢复和释放需要 data.manage。省略命令中的 --local 使用同一组认证接口。HTTP 启动操作返回任务编号，可按编号查询进度和失败原因。

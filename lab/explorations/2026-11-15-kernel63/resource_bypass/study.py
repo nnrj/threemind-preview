@@ -1,0 +1,226 @@
+"""R51t16: production inhibitory bypass and two behavioral endpoints."""
+import argparse
+from copy import deepcopy
+import gc
+import importlib.util
+import json
+import os
+from pathlib import Path
+import shutil
+import sys
+import time
+from uuid import UUID, uuid5
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parents[3]
+sys.path.insert(0, str(ROOT / 'src'))
+spec = importlib.util.spec_from_file_location('r51t16_material_helpers', HERE.parent.parent / '2026-11-14-kernel62/prefix_solution/study.py')
+t = importlib.util.module_from_spec(spec); spec.loader.exec_module(t)
+s, h, recorder, pre = t.s, t.h, t.recorder, t.pre
+from threemind_kernels.local63 import KERNEL_ID, Local63Config
+from threemind_kernels.registry import resolve_kernel
+
+NS = UUID('3f4cb58a-053c-5084-8044-77833e2c0b40')
+OLD = t.DATA / 'prefix-solution62-v1'
+GROUPS = ('limited', 'bypass')
+PROFILES = ('P', 'S101', 'S011')
+
+
+def engine(config=None, state=None, backend='native'):
+    return resolve_kernel(KERNEL_ID).create(None if state is not None else Local63Config(**config), state, backend=backend)
+
+
+def patch(profile, name):
+    result = Local63Config().to_dict()
+    result.pop('seed')
+    result.update(inhibition_bypasses_resources=name == 'bypass', separate_inhibition_resources=False)
+    if profile != 'P':
+        result.update(inhibition_distribution='weight-proportional', inhibition_updates_usage=False,
+            consolidation_mode='stability', novelty_mode='immediate',
+            activation_signal_threshold=.004, inhibition_signal_threshold=.0004,
+            inhibitory_learning_enabled=False, depletion_enabled=profile == 'S101',
+            stp_facilitation_tau_s=0.0 if profile == 'S101' else 1.0)
+    return result
+
+
+def persistent_stages(cases):
+    rows=[]
+    for profile in PROFILES:
+        for name in GROUPS:
+            for block in (0,1):
+                previous=None
+                for cue,material in [('train',f'retention/s{block}/011/paired/train'),
+                                     ('wait',f'readout/s{block}/011/paired/d300/wait'),
+                                     ('sustain',f'sustain/s{block}/unchanged')]:
+                    key=f'C/{profile}/{name}/{block}/{cue}'
+                    case=deepcopy(cases['persistent-activity61-v1/'+material])
+                    rows.append({'key':key,'group':'persistent','profile':profile,'variant':name,
+                        'block':block,'cue':cue,'case':case,'patch':patch(profile,name),
+                        'mask':0,'seed':9291000,'parent':previous})
+                    previous=key
+    return rows
+
+
+def measure(case,points,mask):
+    result=t.measure(case,points,mask)
+    if case.get('cue') not in ('AB','DB'): result.pop('margin',None)
+    return result
+
+def stages(cases, phase, profile, name, fresh=False):
+    rows = []
+    for block in (0, 1):
+        parent = f'{phase}/{profile}/{name}/{block}/train'
+        for cue in ('train', 'AB', 'DB'):
+            key = f'short/train-{block}' if cue == 'train' else f'history/s{block}/101/d1/{cue}'
+            case = deepcopy(cases['prefix-resources62-v1/' + key])
+            rows.append({'key': f'{phase}/{profile}/{name}/{block}/{cue}', 'group': 'prefix',
+                         'profile': profile, 'variant': name, 'block': block, 'cue': cue,
+                         'case': case, 'patch': patch(profile, name),
+                         'mask': (0x02000000 if block == 0 else 0x01000000) if fresh else 0,
+                         'seed': 9291251 + block if fresh else 9291000,
+                         'parent': None if cue == 'train' else parent})
+    return rows
+
+
+def prepare(work):
+    assert not work.exists()
+    assert s.read(OLD / 'publication/completion.json')['pending'] == 0
+    assert s.base.resource_check(OLD)['safe'] and shutil.disk_usage(OLD).free > 27 * 2**30
+    work.mkdir()
+    shutil.copytree(OLD / 'materials', work / 'materials')
+    shutil.copyfile(OLD / 'materials.json', work / 'materials.json')
+    shutil.copyfile(OLD / 'publication/completion.json', work / 'prior-delivery.json')
+    refs = {p.relative_to(work).as_posix(): s.sha(p) for p in (work / 'materials').rglob('*') if p.is_file()}
+    s.write(work / 'reference-manifest.json', refs)
+    cases = s.read(work / 'materials.json')
+    plan = [q for profile in PROFILES for name in GROUPS for q in stages(cases, 'A', profile, name)]
+    plan += persistent_stages(cases)
+    assert len(plan) == 72
+    s.write(work / 'phase-A.json', plan)
+    s.write(work / 'initial-resources.json', s.base.resource_check(work))
+    print(json.dumps({'prepared': str(work), 'stages': len(plan)}), flush=True)
+
+
+def apparatus(work):
+    assert not (work / 'apparatus.json').exists()
+    plan = s.read(work / 'phase-A.json'); checks = []
+    recorder.s.engine = engine
+    recorder.s.TARGETS = {x ^ 0x10000000 for x in s.measure.TOKENS.values()}
+    with s.base.worker_lock(work), pre.Guard(work):
+        for profile in PROFILES:
+            for name in GROUPS:
+                case = deepcopy(plan[0]['case']); case['end_us'] = 6000000
+                inputs = t.inputs(work, case, 0x10000000, case['end_us'])
+                hashes = {}
+                for mode in ('plain', 'observed', 'restored', 'partitioned', 'paused'):
+                    e = engine({'seed': 9291249} | case['initial_config'] | patch(profile, name))
+                    e, _, _ = recorder.drive(e, case, deepcopy(inputs), mode=mode)
+                    hashes[mode] = e.capture_state().digest
+                assert len(set(hashes.values())) == 1, (profile, name)
+                checks.append({'profile': profile, 'variant': name, 'same_complete_state': True, 'hashes': hashes})
+    s.write(work / 'apparatus.json', {'passed': True, 'checks': checks})
+    shutil.copyfile(work / 'resource-summary.json', work / 'apparatus-resources.json')
+    print(json.dumps({'apparatus_passed': True, 'conditions': len(checks)}), flush=True)
+
+
+def register(work):
+    assert s.read(work / 'apparatus.json')['passed'] and not (work / 'frozen.json').exists()
+    import _threemind_native
+    paths = list((ROOT / 'src').rglob('*.py')) + list((ROOT / 'crates').rglob('*.rs'))
+    paths += list((ROOT / 'crates/threemind-core/src').glob('*defaults.json'))
+    paths += list(HERE.glob('*.py')) + list(HERE.glob('protocol.*.md'))
+    paths += [Path(m.__file__) for m in tuple(sys.modules.values()) if getattr(m, '__file__', None)
+              and str(m.__file__).endswith('.py') and Path(m.__file__).is_relative_to(ROOT / 'lab')]
+    sources = {p.relative_to(ROOT).as_posix(): s.sha(p) for p in paths}
+    for rel in sources:
+        out = work / 'frozen-source' / rel; out.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(ROOT / rel, out)
+    with pre.client_context() as client:
+        rec = s.base.ResearchRecorder(work, s.PROJECT, client=client)
+        rec.register({'source_key': 'r51t16:resource-bypass63:20261115:v1',
+            'title': 'R51t16：6.3抑制绕过资源、性能、前缀与持续活动', 'classification': 'formal',
+            'execution_status': 'running', 'executor': 'ai', 'kernels': [KERNEL_ID],
+            'protocol': (HERE / 'protocol.zh.md').read_text('utf8'), 'protocol_version': s.sha(HERE / 'protocol.zh.md'),
+            'required_roles': ['protocol', 'report', 'note', 'original'],
+            'metadata': {'material_blocks': 2, 'stage_cap': 72, 'phase_a_stages': 72,
+                         'profiles': list(PROFILES), 'bypass_birth_default': True, 'other_defaults_unchanged': True}}, request_id=uuid5(NS, 'register'))
+        for lang in ('zh', 'en'):
+            rec.text({'identity': str(uuid5(NS, 'protocol-doc-' + lang)), 'request_id': str(uuid5(NS, 'protocol-' + lang)),
+                      'expected_revision': 0, 'kind': 'protocol', 'title': 'R51t16 protocol ' + lang,
+                      'markdown': (HERE / f'protocol.{lang}.md').read_text('utf8')})
+        rec.append('stage', 'r51t16:phase-a', {'stages': s.read(work / 'phase-A.json')}, request_id=uuid5(NS, 'phase-a'))
+        rec.synchronize(strict=True); assert rec.status['pending'] == 0
+        s.write(work / 'registration.json', {'project': s.PROJECT, 'record': rec.experiment, 'pending': 0})
+    s.write(work / 'frozen.json', {'sources': sources, 'native_sha256': s.sha(Path(_threemind_native._threemind_native.__file__)),
+                                  'plan_sha256': s.sha(work / 'phase-A.json'),
+                                  'references_sha256': s.sha(work / 'reference-manifest.json')})
+    print(json.dumps(s.read(work / 'registration.json')), flush=True)
+
+
+def check(work):
+    import _threemind_native
+    f = s.read(work / 'frozen.json')
+    assert s.sha(Path(_threemind_native._threemind_native.__file__)) == f['native_sha256']
+    for rel, sha in f['sources'].items():
+        assert s.sha(ROOT / rel) == sha, rel
+    assert s.sha(work / 'phase-A.json') == f['plan_sha256']
+    assert s.sha(work / 'reference-manifest.json') == f['references_sha256']
+    for rel, sha in s.read(work / 'reference-manifest.json').items():
+        assert s.sha(work / rel) == sha, rel
+
+
+def run(work, phase):
+    import psutil
+    check(work)
+    plan = s.read(work / f'phase-{phase}.json')
+    if phase != 'A':
+        assert s.sha(work / f'phase-{phase}.json') == s.read(work / f'phase-{phase}-frozen.json')['sha256']
+    assert not any((work / n).exists() for n in ('STOP', 'in-flight.json', f'phase-{phase}-summary.json'))
+    started = time.monotonic(); results = []; recorder.ACTIVE_WORK = work; recorder.s.engine = engine
+    with s.base.worker_lock(work), pre.Guard(work) as guard:
+        host = {'pid': os.getpid(), 'created': psutil.Process().create_time(), 'command': sys.argv}
+        s.write(work / f'host-{phase}.json', host); s.base.atomic_json(work / 'host.json', host)
+        for stage in plan:
+            out = work / 'cases' / stage['key']
+            if (out / 'result.json').exists():
+                q = s.read(out / 'result.json'); assert h.get(out / 'final.rstate.gz').digest == q['final_sha256']
+                results.append(q); continue
+            if (work / 'STOP').exists(): return
+            assert guard.thread.is_alive() and s.base.resource_check(work)['safe']
+            if sum(p.stat().st_size for p in work.rglob('*') if p.is_file()) > 512 * 2**20:
+                s.write(work / 'STOP', {'reason': 'registered originals cap'}); return
+            out.mkdir(parents=True, exist_ok=False); s.write(work / 'in-flight.json', host | {'key': stage['key']})
+            parent = h.get(work / 'cases' / stage['parent'] / 'final.rstate.gz') if stage['parent'] else None
+            e = engine(state=parent) if parent else engine({'seed': stage['seed']} | stage['case']['initial_config'] | stage['patch'])
+            initial = e.capture_state(); h.put(out / 'initial.rstate.gz', initial)
+            # Historical resource fields already match the declared complete configuration.
+            assert all(getattr(e.config, k) == v for k, v in stage['patch'].items())
+            inputs = t.inputs(work, stage['case'], stage['mask']); s.packed(out / 'inputs.json.gz', inputs)
+            recorder.s.TARGETS = {v ^ stage['mask'] for v in s.measure.TOKENS.values()}
+            wall, cpu = time.perf_counter(), time.process_time()
+            e, points, injected = recorder.drive(e, stage['case'], inputs, out)
+            elapsed, cpu_elapsed = time.perf_counter() - wall, time.process_time() - cpu
+            final = e.capture_state(); h.put(out / 'final.rstate.gz', final)
+            assert h.get(out / 'final.rstate.gz').digest == final.digest
+            if points: s.packed(out / 'process.json.gz', points)
+            result = {k: stage[k] for k in ('key', 'group', 'profile', 'variant', 'block', 'cue')}
+            result.update(parent_sha256=parent.digest if parent else None, initial_sha256=initial.digest,
+                final_sha256=final.digest, time_us=e.time_us, life=e.life, injected=injected, scheduled=len(inputs),
+                wall_seconds=elapsed, cpu_seconds=cpu_elapsed, snapshot_bytes=len(final.payload),
+                process=measure(stage['case'], points, stage['mask']) if points else None)
+            s.write(out / 'result.json', result); results.append(result); (work / 'in-flight.json').unlink()
+            s.base.atomic_json(work / 'current.json', {'phase': phase, 'complete': len(results), 'total': len(plan), 'last': stage['key']})
+            print(json.dumps({'complete': len(results), 'total': len(plan), 'key': stage['key'],
+                              'seconds': round(elapsed, 2), 'process': result['process']}), flush=True)
+            del e, points, inputs; gc.collect()
+            if elapsed > 300 or sum(q['wall_seconds'] for q in results) > 7200:
+                s.write(work / 'STOP', {'reason': 'registered scientific execution budget', 'key': stage['key']})
+                return
+        s.write(work / f'phase-{phase}-summary.json', {'stages': len(results), 'wall_seconds': time.monotonic() - started})
+    shutil.copyfile(work / 'resource-summary.json', work / f'phase-{phase}-resources.json')
+
+
+if __name__ == '__main__':
+    p = argparse.ArgumentParser(); p.add_argument('action', choices=('prepare', 'apparatus', 'register', 'check', 'run'))
+    p.add_argument('--work', type=Path, required=True); p.add_argument('--phase', default='A'); a = p.parse_args()
+    run(a.work, a.phase) if a.action == 'run' else globals()[a.action](a.work)

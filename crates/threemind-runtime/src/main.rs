@@ -8,7 +8,7 @@ use std::{
     path::PathBuf,
     time::{Duration, Instant},
 };
-use threemind_core::{kernel::Kernel, parse_time, retention, Stimulus};
+use threemind_core::{kernel::Kernel, local61, parse_time, Stimulus};
 type Result<T> = std::result::Result<T, Box<dyn std::error::Error>>;
 const EMBEDDED_DEFINITION: &[u8] =
     include_bytes!(concat!(env!("OUT_DIR"), "/kernel-definition.json"));
@@ -151,7 +151,7 @@ fn execute(args: Args) -> Result<()> {
             serde_json::json!({})
         };
         Kernel::new(
-            args.kernel.as_deref().unwrap_or(retention::KERNEL_ID),
+            args.kernel.as_deref().unwrap_or(local61::KERNEL_ID),
             config,
         )?
     };

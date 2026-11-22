@@ -6,6 +6,12 @@ Keep historical versions and evidence intact. Append dated corrections and sourc
 
 History maintenance never authorizes changes to Core dynamics, old instances, original experiment data, or running services beyond the user's task.
 
+## Writing and translation (2026-11-21)
+
+Before drafting or substantially revising project documentation, experimental reports,[Public edition: manuscript editing or private locator omitted.] For translation and bilingual synchronization, also follow `docs/zh/translation-guidelines.md` (English counterpart available). These requirements apply throughout the repository, including reports under `lab/`.
+
+Use the author's designated source and approved definitions. Explain actors, methods and statistical units clearly; state each experiment's conclusion before moving on. Preserve established findings and material uncertainty without adding unrelated disclaimers or post-result criteria. Translation must preserve meaning and claim strength in natural English, including figure labels. Respect protected passages and existing authorization for technical corrections; these guidelines do not authorize rewriting historical reports or changing research mechanisms.
+
 ## Kernel change authorization and tool-time isolation (2026-10-13)
 
 Outside clearly isolated temporary experiments, any kernel change not already explicitly authorized by the user requires asking the user and obtaining confirmation before implementation. Existing explicit authorization applies to its stated scope; do not ask again for that same scope, and do not expand it by treating an assistant-authored plan or contract as user authorization. Every kernel change must visibly disclose what changes, why, and its expected/observed impact; distinguish implementation optimization, dynamics changes, default changes and unresolved effects. Temporary experiments cannot silently change production kernels, formal subjects or defaults.

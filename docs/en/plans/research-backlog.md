@@ -1,5 +1,422 @@
 # Research plan and progress
 
+## 22 November 2026 · P1 checkpoint and P2 aquatic selection study
+
+The first P1 reference world retained a complete checkpoint at 1500.00 simulated seconds. It had passed that point when the pause request was processed and stopped with a second complete checkpoint at 1520.70 seconds. P2 compares reference and sparse particle supply in newly created populations. Founders and offspring start small, pay for growth and reproduce in litters of three. Close relatives are protected from live predation; a juvenile can draw energy from its parent on direct contact before age 30 seconds. The study tracks changes in hunting across generations and the survival of hunters' offspring. Each experiment keeps its own originals on drive I. [P2 protocol and evidence location](../../../lab/explorations/2026-11-22-ocean63-p2/README.md)
+
+## 22 November 2026 · P1 runs before 39C resumes
+
+At the author's request, we paused the first reduced-supply world of 39C at 1624.90 seconds of simulated time. We reloaded the complete world and checked the Core states of all 117 individuals. P1 uses its own registered founders on drive I to compare predation and reproduction across generations under reference and sparse food supply. Once the P1 originals have been verified, the queue will resume 39C from that checkpoint. Turn analyses follow verification of all four earlier studies. [Scheduling amendment](../../../lab/explorations/2026-11-21-ocean63-p1/scheduling/priority.md)
+
+## 21 November 2026 · Turning records and the next predation experiment
+
+OCEAN63-30, 28 and 38 have completed simulation, bilingual reporting and authenticated readback of the originals. Study 39C is following scavenging and reproduction across generations. Once all four are verified, dated report editions will quantify turning before feeding from the recorded inputs and commands. E28 lacks a body-collision measurement, so its events will be reported as candidates. At the author's request OCEAN63-P1 will also run on drive I. Each of two independent habitat pairs compares one grain per second with one every eight seconds. In both conditions larger individuals can consume smaller ones on contact and a parent pays for two offspring per litter. The study tests whether predation increases across generations and whether early hunters leave more surviving offspring. Apparatus checks covered actual contact, equal-size contacts, paid twin births, passive turning observations and checkpoint continuity.
+
+[OCEAN63-P1 protocol and progress](../../../lab/explorations/2026-11-21-ocean63-p1/README.md)
+
+## 2026-11-21　Feeding and selection in 6.3 water worlds
+
+E28 and E30 from manuscript section 4.8 and E38 from section 4.11 have separate registrations for new 6.3 cohorts. The first E30 world entered formal observation. E38 selects a parent on its own observed predation. A fourth registration, OCEAN63-39C, extends observation in two habitats where bodies remain edible after death. The apparatus checks verified natural death, persistence on the map, repeated scavenging and a meal with a net loss. The population-level predictions await observations of actual descendants.
+
+[Protocols, execution order and evidence](../../../lab/explorations/2026-11-21-ocean63/README.md)
+
+## 18 November 2026: RT63-01 completed; AS63-ADDR remains a design discussion
+
+RT63-TIME: The small three-question 6.3 study is complete: 24 main subjects, 120 diagnostics, and full evidence readback passed. Continuous/separated presentation and 0.2/1 s gaps differed immediately at both intensities, with retained weight differences after 30 s. Intensity 0.2 re-expressed them and weight exchange established causality; intensity 0.05 did not meet re-expression under the fixed cue. Four encodings gave identical values, not stochastic population replication.
+
+AS63-ADDR status update: Evidence supports retaining stable input addresses while using internal state and connection changes for temporal distinctions. No new addressing function was implemented. Counting, more gaps, and longer retention remain untested questions, not automatically authorized follow-up experiments.
+
+[RT63-01](../../../lab/explorations/2026-11-18-repeat-timing63/report.en.md)
+
+## 2026-11-18: AS63-03 locates node-ID dependence in the old ring adapter
+
+AS63-03 completed all 312 stages with full evidence and API-download verification. The main difference was old motor-adapter dependence on node IDs: default 6.3 gave 4.417% and 95.333% in opposite historical directions under the original rule, but 94.000% in both after aligning old channel bindings; blank Cores also reached 93.750%. Birth lost no nodes, connections or current effective weights, and the prefix configuration did not recover opposite preferences under the original rule. Attribution of old high occupancy to learning/inheritance must narrow; old reports and the manuscript were not rewritten.
+
+AS63-ADDR: The author proposed stable functional addressing. Identity parameters, collision rules, motor readout and dynamics remain design questions. Recommendations only: no kernel/default change or new experimental batch is authorized or started.
+
+[Report](../../../lab/explorations/2026-11-18-ring-mechanism63/report.en.md) · [Addressing](../../../lab/explorations/2026-11-18-ring-mechanism63/addressing-recommendations.en.md)
+
+## 2026-11-18: AS63 artificial selection and layout control completed
+
+AS63-01 completed and audited 16 populations and 5,056 stages. Some parent–offspring tendencies agreed, but 0/16 populations met retention in both directions across two transmissions. Selection gains over random controls were 0.042 and 0.127 percentage points; successive strengthening and inheritance benefits over blank-Core controls also missed their criteria. Sustained circling with near-50% occupancy was retained.
+
+AS63-02 completed all 768 layout-control stages. Closed-loop minus old-action-replay target occupancy was -23.216 and +23.297 percentage points for the two selection directions. The registered joint goal was not met. Direction-specific results and uncertainty are reported separately and do not change primary scores.
+
+The two archives contain 26616 and 3954 members. Both were downloaded in full through the local research API and checked member by member; bilingual reports matched on readback. Both records are finalized with pending=0. Production Core code, old experiments, the manuscript, and other paused batches were not changed.
+
+[Main report](../../../lab/explorations/2026-11-17-artificial-selection63/report.en.md) · [Layout control](../../../lab/explorations/2026-11-17-artificial-selection63/layout-report.en.md)
+
+## 17 November 2026: New artificial-selection experiment registered and running
+
+The author authorized a new Core6.3 artificial-selection experiment. AS63-01 assesses candidates through complete-state copies before selected originals reproduce through birth/2. Sixteen independent populations, three generations, opposite directions and random selection retain all candidates, with matched uninherited controls. AS63-02 separately registers layout swapping and action replay in every G2 candidate. Apparatus checks passed; scientific computation is still running. Neither registration changes historical evidence or resumes other paused batches.
+
+[AS63](../history/chronicles/20-artificial-selection.md) · [protocol](../../../lab/explorations/2026-11-17-artificial-selection63/protocol.en.md)
+
+AS63-01 storage amendment / 原件预算修正：Measured evidence from the first four populations required a storage amendment from 3 GiB to 4 GiB each for originals, archive, and readback, registered in the existing record. An independent apparatus check established exact full-trajectory and final-state equivalence after a step-boundary pause. The actual stage resumed at 24.6 internal seconds, retaining 246 rows and finishing its original 60-second duration. Scientific conditions, samples, and criteria remain unchanged; original source and interruption evidence are retained.
+
+## 2026-11-16: R63h fixed-readout replication completed; continuation paused at author request
+
+All eight origins pass fixed expression and causal attribution with the 110-ms output-port reader. The primary temporal condition passes 4/8 and 0/8 respectively, below the registered 6/8 threshold. Endpoint new answers score 56/64; plasticity-off teaching or new-connection blocking gives 0/64 while preserving all 64 old answers. Restoration is exact. Audits verify 2,024 complete states and 1,824 answers. Scientific categories match 6.1, with maximum numerical difference 0. Computation took 3075.83 s and peak private memory was 863.49 MiB. No new adverse contradiction occurred. Core learning expressed through a fixed reader is replicated, along with the known limitation of this temporal-readout design. At the author's request, the campaign pauses after delivery . [Public edition: manuscript editing or private locator omitted.] R63i and subsequent studies have not started. All 2,131 archive members passed complete API readback, pending=0.
+
+[R63h](../../../lab/explorations/2026-11-15-kernel63-revalidation/fixed_readout/report.en.md) · [API](../../../lab/explorations/2026-11-15-kernel63-revalidation/fixed_readout/delivery.json) · [coverage](../../../lab/explorations/2026-11-15-kernel63-revalidation/coverage.en.md)
+
+
+## 2026-11-16: read-only development of the 6.3 first-response formula
+
+A calculation derived from existing 6.3 rules agrees with all 64 first-response directions in the completed R63g records; maximum amplitude error is 1.7347×10⁻¹⁸. This is retrospective development, not a new prospective prediction result. The tool neither creates a Core nor changes state. M2 still needs a complete intervention and independent-material protocol before registration and execution.
+
+[development](../../../lab/explorations/2026-11-15-kernel63-revalidation/resource_prediction/development.en.md)
+
+## 2026-11-16: R63u retention, retrieval and relearning measurement prepared
+
+Read-only arithmetic checks of the original X2 study cover 32 origins and 256 diagnostic processes, reproducing the original cue-dependence and transient-expression decisions. Taught and untaught individuals all reached the minimum two rounds, so those results cannot resolve savings in teaching. The new protocol retains the retention tests and pairs two existing 6.3 retention configurations. Independent materials calibrate a process-response criterion before formal relearning, with a 16-round limit; failed calibration is reported as unavailable measurement. Stored, sleeping and graph-visible connections are counted separately. Only protocol and tools are prepared: no registration or subject creation, pending R63q. Core, old originals and old criteria remain unchanged.
+
+[R63u](../../../lab/explorations/2026-11-15-kernel63-revalidation/retention_relearning/preparation.en.md) · [protocol](../../../lab/explorations/2026-11-15-kernel63-revalidation/retention_relearning/protocol.en.md)
+
+
+## 2026-11-16: R63g eight-origin connection transfer completed
+
+All eight origins pass the primary transfer criteria. Complete and persistent target packages transfer all 48 target choices to the donor relation while preserving all 48 unrelated responses. Matched transplantation changes the other relation, and immediate restoration restores complete state and responses. All 16 fast-state exchanges are zero-change controls, reported as 0/8 passes. Actual edge-content changes affect only destinations, further localizing transfer to connectivity. Independent verification covers 816 states and 672 probes; all 157 scientific summary values match 6.1 exactly. Computation took 149.83 s, peak private memory was 550.75 MiB and allocated originals occupied 14.72 MiB. No new stop was triggered; fixed process-readout testing follows. All 1,018 archive members passed complete API readback, pending=0.
+
+[R63g](../../../lab/explorations/2026-11-15-kernel63-revalidation/transfer/report.en.md) · [API](../../../lab/explorations/2026-11-15-kernel63-revalidation/transfer/delivery.json) · [coverage](../../../lab/explorations/2026-11-15-kernel63-revalidation/coverage.en.md)
+
+
+## 2026-11-16: R63f bodily-transfer replication completed
+
+All 192 taught process tests retain the taught direction; all 48 untaught tests are undirected, across original angle, changed angle and changed gravity. Target readout at native convergence remains 0/240 and historical inertial reversal remains absent, both matching 6.1. Verification covers 560 new states, 40 complete parents and 240 trajectory pairs. Independent integral error is at most 6.94×10⁻¹⁸; 9,120 numerical fields differ from 6.1 by at most 4.34×10⁻¹⁹, with identical classifications. Computation took 307.14 s, peak private memory was 626.93 MiB and allocated originals occupied 66.63 MiB. Expression of bodily experience across physical settings is replicated, without a new adverse contradiction. The eight-origin connection-transfer study follows. All 2,307 archive members passed complete API readback, pending=0.
+
+[R63f](../../../lab/explorations/2026-11-15-kernel63-revalidation/body_transfer/report.en.md) · [API](../../../lab/explorations/2026-11-15-kernel63-revalidation/body_transfer/delivery.json) · [coverage](../../../lab/explorations/2026-11-15-kernel63-revalidation/coverage.en.md)
+
+
+## 2026-11-16: R63e 64-group autonomous-activity confirmation completed
+
+All 64 ThreeMind 6.3 origins satisfy the four autonomous-activity criteria; each control has 0/64 joint passes. Recurrent-network temporal interaction passes in 49/64 origins, above the original 48/64 criterion threshold. Each paired joint-rate advantage is 100 percentage points, with Holm-adjusted P=4.3368×10⁻¹⁹. Verification covers 33,920 complete states, 20,480 probes, 1,280 feedback-replay groups and 128 recurrent-network teaching histories. All 9,097 scientific summary values match 6.1 exactly. Computation took 92.19 min and peaked at 650.55 MiB private memory, without marked slowdown. All 38,854 archive members passed complete research-API readback, pending=0. The batch confirms that 6.3 retains the joint capacity for experience-organized autonomous activity. No new scientific stop was triggered; R63f bodily transfer follows. [Public edition: manuscript editing instructions omitted.]
+
+[R63e report](../../../lab/explorations/2026-11-15-kernel63-revalidation/criteria_confirmation/report.en.md) · [API](../../../lab/explorations/2026-11-15-kernel63-revalidation/criteria_confirmation/delivery.json) · [coverage](../../../lab/explorations/2026-11-15-kernel63-revalidation/coverage.en.md)
+
+
+R63t5 prefix-factor tools are also prepared. The genuine 3.1/5.1 matrices remain, with four corresponding 6.3 conditions using existing retention and novelty options. There are still two blocks and only 12 additional 6.3 execution stages; manual node retention is not reintroduced. Historical condition and positive-process scores pass verification. Registration and execution remain pending.
+
+Preparation update, 16 November 2026: R63t4 delayed choice retains four material blocks, 64 systems and 1,536 phases. All historical curricula and scores pass verification; independent integration of 42 saved questions differs by at most 6.94×10⁻¹⁸. Protocol and tools are prepared, without registration or new subject creation.
+
+## 2026-11-16: Historical body-method correction and additional replication preparation
+
+
+Method correction, 16 November 2026: frozen code and delivered R51t3 inputs confirm that online dose matching retains all sensory components and scales their total to the joint-only total. The revised report instead described removing inertial components and increasing the remainder. A [dated correction](../../../lab/explorations/2026-11-13-kernel61/dynamics_function/body_report/errata-20261116.en.md) was appended to the original research record in both languages and read back, pending=0. Historical directories, reports and the original package were neither written nor replaced; numerical findings and conclusions remain unchanged. The original-scale 110-stage R63t2 protocol is separately prepared, not registered or executed.
+
+The 296-stage R63t3 body tools are also prepared; posture errors from six historical trajectories reproduce exactly. Neither batch is registered or executed.
+
+## 2026-11-16: R63d eight-group joint-criteria replication completed
+
+After interruption, inspection confirmed that all 40 systems had finished the preceding day, with no STOP or orphaned in-flight state. Read-only verification resumed without recomputing subjects. ThreeMind passed each criterion and their conjunction in 8/8 origins; every control had 0/8 joint passes. Recurrent-network temporal interaction passed 5/8. All 750 numerical scientific-summary fields match historical 6.1 exactly. Audits verified 4,240 complete states, 2,560 probes, 160 feedback-replay groups and 16 numerical recurrent-network teaching replays. Computation took 406.38 s, peak private memory was 565.51 MiB and allocated originals 175.68 MiB. All 4,933 archive members passed API readback, pending=0. No new adverse contradiction or marked slowdown occurred. R63e proceeds with 64 new confirmation origins.
+
+Evidence: [R63d report](../../../lab/explorations/2026-11-15-kernel63-revalidation/criteria/report.en.md), [API receipt](../../../lab/explorations/2026-11-15-kernel63-revalidation/criteria/delivery.json), [complete coverage](../../../lab/explorations/2026-11-15-kernel63-revalidation/coverage.en.md).
+
+## 2026-11-15: R63c bodily-experience replication completed; R63d registered
+
+R63c completed 616 formal stages across 4 material blocks, with 16 separate calibration conditions. Trained process responses passed 192/192 and untrained references 0/48. After 300 s, target blockade retained 0/32 responses, versus 32/32 after matched blockade and immediate restoration. Restored complete states and processes equal the intact references. Native convergence-time readout remains 0/240, reported separately. Audits verified 1,264 complete states and independently recomputed 336 probes. All 632 conditions match 6.1 in classification, sampling and lifecycle; the largest four-field trajectory difference is 2.78e-17. Formal host time was 34.82 min, peak private memory 947.29 MiB and allocated originals 258.91 MiB. All 4,497 archive members passed API readback, pending=0, with no new adverse contradiction or performance stop.
+
+R63d is independently registered: 8 origins, 5 implementations and 40 system units. Apparatus validation precedes formal computation. The 64-origin confirmation and all remaining original and additional studies remain in scope. Only R63a through R63c are closed; the complete campaign is not finished.
+
+Evidence: [R63c report](../../../lab/explorations/2026-11-15-kernel63-revalidation/body_memory/report.en.md), [API receipt](../../../lab/explorations/2026-11-15-kernel63-revalidation/body_memory/delivery.json), [coverage](../../../lab/explorations/2026-11-15-kernel63-revalidation/coverage.en.md).
+
+## 2026-11-15: R63b completed; R63c bodily experience is running
+
+R63b created 8 independent 6.3 origins, 16 opposite-teaching histories and 80 causal research copies. All 8 origins passed: target blockade removed 100% of the history-dependent response difference; matched blockade removed 0%. Sham and immediately restored conditions exactly matched the intact state and recorded process. Audits verified 192 complete states, parent continuity and independent arithmetic for 80 trajectories. Primary and auxiliary measurements match R51e. Runtime was 49.61 s, peak private memory 79.02 MiB and allocated originals 22.23 MiB. All 343 archive members were read back through the research API, with pending=0 and no new adverse contradiction or performance stop.
+
+R63c was independently registered. Sixteen calibration conditions selected intensity 0.3 by the frozen rule. Its 616 formal stages across 4 material blocks are running serially, measuring bodily-experience responses after 1, 60 and 300 s and their connection dependence. No R63c conclusion is declared yet. R63d eight-group comparison tools are prepared but have not started. Historical evidence, Core and the paper remain unchanged.
+
+Evidence: [R63b report](../../../lab/explorations/2026-11-15-kernel63-revalidation/causal/report.en.md), [API receipt](../../../lab/explorations/2026-11-15-kernel63-revalidation/causal/delivery.json), [campaign coverage](../../../lab/explorations/2026-11-15-kernel63-revalidation/coverage.en.md).
+
+
+## 2026-11-15: R63a completed; proceeding to R63b connection causality
+
+All 264 conditions, 528 initial/final states and 180 parent–copy links passed verification. Grouped connection formation passed 4/4 combinations, order affected weights in 8/8 comparisons, and repetition increased weights. All 96 weak edges per combination survived 120 seconds, so the short-term deletion target remains unmet as in 6.1. Seventy-four old active labels became dead; old actual activation after those death times was zero, and shared-time activation was identical. All 318 direct-history differences concern removed nodes. Convergence remains 48/100 in the same conditions; four untrained cart conditions are explicitly censored by death. All 1923 archive members were read back through the API, pending=0. Recorded scientific time was 182.33 seconds and guarded host time 324.58 seconds. No new adverse contradiction or major slowdown occurred.
+
+R63b retains 8 origins, 16 teaching references and 80 causal copies. Do not rerun R63a. E18 bodily-experience tools are prepared and await completion of the preceding batch. All original and additional studies remain in scope; the paper is unchanged.
+
+
+## 2026-11-15: Author approved a complete 6.3 rerun; R63a started
+
+The author explicitly requested every experiment in plan v2 and the additional mechanism studies from revalidation. This replaces the pending selective-rerun proposal; historical proposals, reports and originals remain intact. New 6.3 subjects retain the original sample sizes, controls and criteria. Common defaults match 6.1, with timely weak-activation settlement retained; no production dynamics or global version default changed. The 135 engineering tests and 12 addressing/in-flight checks passed. R63a was registered through the API and launched once; its 264 conditions are still running, with no scientific outcome declared. Initial E-drive free space was 58.85 GiB. Each batch requires a complete budget; new adverse contradictions or serious slowdowns trigger preservation and discussion.
+
+[Coverage](../../../lab/explorations/2026-11-15-kernel63-revalidation/coverage.en.md)
+
+## 2026-11-15: endpoint reclamation can remove dormant edges before their own expiry
+
+Source inspection confirms explicit dormancy is off by default in 6.1/6.3 and ordinary/dormant edge thresholds remain 0.008/1e−8. When dormancy is enabled, endpoint reclamation can remove edges above their dormant threshold; this is an existing rule, with frequency not yet measured. The 129-to-one-node stress workload had no connections and is not dormant-lifetime evidence. Separating edge expiry from endpoint reclamation is recommended for the pending checks; no experiment or mechanism change was made.
+
+[Review](../../../lab/explorations/2026-11-15-kernel63/revalidation-resume-review.en.md)
+
+## 2026-11-15: continuation on 6.3 authorized; targeted revalidation scope awaits a decision
+
+The author now authorizes continuing the original campaign on 6.3, but requests a decision before repeating completed 6.1 experiments. Review recommends targeted checks because timely settlement has changed weak-input node cleanup; compatibility-state equality alone does not establish every scientific result under actual defaults. Proposed checks retain original small scales: stimulus formation, connection causation and transfer, eight-group criteria, and key delay/order conditions; the eight-source fixed-readout check precedes M5 confirmation. The 64-group criteria confirmation, 48-source transfer confirmation and historical diagnoses are not repeated wholesale. This records a proposal and authorization boundary, not an approved rerun; no new scientific subject has started.
+
+[Review](../../../lab/explorations/2026-11-15-kernel63/revalidation-resume-review.en.md)
+
+## 2026-11-15: 6.3 performance audit identifies weak-input maintenance costs
+
+Relative to default 6.1, default 6.3 increased ordinary Rust advancement time by 2.97%–3.18% and Python time by 6.15%; interval upper bounds were below this study's 10% scale. The pooled Rust weak-input increase was 33.49%, although separate-phase confirmation lacked precision; both Python phases confirmed an increase, pooled at 78.77%. Independent switch controls and counters locate the principal cost in timely settlement and node recreation after existing deletion rules execute. Retaining nodes reduced the cost but was diagnostic only, with no default change. Rust weak-input final nodes fell from 129 to one and snapshot size fell 86.28%. All 235 complete states were verified. Kernels and historical evidence are unchanged; broad revalidation remain paused. [Public edition: manuscript editing or private locator omitted.]
+
+[Report](../../../lab/explorations/2026-11-15-kernel63/performance_comparison/report.en.md)
+
+## 2026-11-15: 6.3 restores three 6.1 defaults and retains local expiry
+
+The author requested the 6.1 resource and usage-record behavior in 6.3, then explicitly retained local subthreshold expiry. Delivered defaults disable resource prechecking and inhibitory resource bypass, and enable inhibitory transmission-time updates; independent resources remain off and expiry remains on. Under the final expiry setting, prechecking reduced time by 8.40%, below the preregistered 20% threshold. Final 6.3 defaults changed time relative to 6.1 by −1.78% to +7.10% across four materials. The expiry-disabled compatibility configuration passed 72 boundary comparisons and all 24 paired benchmark final states. Actual defaults retain the behavioral difference in timely active-set settlement; the original zeroing floor and one-second quiet period remain. There were 654 distinct passing engineering tests; two database checks were skipped because the isolated test database was not running. Ten pre-edit 6.3 states and 19 historical implementation files remain unchanged. Python/Rust, standalone runtime and configuration catalogue are synchronized; the native module is installed, services were not restarted, and the application default remains 6.1. Historical scientific scores are preserved; broad revalidation remain paused. [Public edition: manuscript editing or private locator omitted.]
+
+[Report](../../../lab/explorations/2026-11-15-kernel63/default_alignment/report.en.md)
+
+## 2026-11-15: R51t16 implements inhibitory bypass and tests prefixes and sustained activity
+
+6.3 now has an inhibitory resource-bypass switch, default on. Earlier snapshots lacking it restore with off; historical kernels are preserved. Keeping independent resources optional but disabled changed matched-state benchmark time by −0.3% to +2.5%, so the option remains, default off. All 72 stages, 144 states and 36 processes were verified. The complete prefix profile reproduced 2/2 in production 6.3 with scores identical to R51t15; an alternate profile disabling depletion and enabling facilitation sustained activity for 300 seconds at 2/2, but scored 0/2 on prefixes. Actual new defaults scored 0/2 on both, and no tested profile passed both. All 263 engineering checks passed; 946 archive members were read back, pending=0. In the dense 128-node benchmark, bypass increased per-connection execution time 13.50-fold; this dynamics cost is reported separately from retaining the option. Broad revalidation remain paused. [Public edition: manuscript editing or private locator omitted.]
+
+[Report](../../../lab/explorations/2026-11-15-kernel63/resource_bypass/report.en.md)
+
+## 2026-11-15: R51t15 reproduces prefixes and separates resource and inhibitory-learning effects
+
+An isolated 6.3 study reproduced the complete R51t11 positive condition: both material blocks passed and process scores exactly matched the originals. Independent resources plus disabled inhibitory transmission-time updates still passed 0/2. Inhibitory resource bypass with explicit inhibitory learning disabled passed 2/2 at connection thresholds 0 and 0.0004. Individually restoring inhibitory contributions to shared weights, stability, or touch records reduced the successful condition to 0/2; short-term enhancement and eligibility individually retained 2/2. Selected successful/failing conditions reproduced at 2/2 and 0/2 with new codes. All 132 stages, 264 complete states and 88 processes were audited; 1293 archive members were read back with pending=0. Production and defaults are unchanged; broad revalidation remains paused.
+
+[Report](../../../lab/explorations/2026-11-15-kernel63/prefix_causes/report.en.md)
+
+## 2026-11-15: R51t14 implements independent resources without restoring prefix discrimination
+
+6.3 now offers independent excitatory/inhibitory resource pools, shared by default. Inhibitory learning, weights and learning records remain shared/enabled. Across 48 stages, both resource modes passed 0/2 material blocks in each of four configurations. All 96 states and 32 processes were verified; 48 shared boundaries matched R51t13 numerically. Benchmark times were similar, with independent pools adding about 20.1% state size and 5% peak commit. There were 692 passing engineering checks; all 790 archive members were read back, pending=0. The main campaign remains paused.
+
+[Report](../../../lab/explorations/2026-11-15-kernel63/resources/report.en.md)
+
+## 2026-11-15: R51t13 delivers simpler 6.3; prefix recovery was not achieved
+
+6.2/6.3 default to no inhibitory usage updates; 6.3 removes state separation and retains per-connection transmission. All prefix conditions across 72 stages passed 0/2. Matched implementation is about 5.4% faster; proportional allocation about 46% slower without a capability gain. 929 members verified, pending=0; main work paused.
+
+[Report](../../../lab/explorations/2026-11-15-kernel63/report.en.md)
+
+## 2026-11-15: R51t12 separates connection states without restoring prefixes
+
+Optional separated states, master/child switches and complete inheritance are implemented in 6.2, shared by default. All conditions across 72 stages passed 0/2 blocks. Full separation added about 49.3% time and 67.1% snapshot size. All 930 members were read back, pending=0; the main campaign remains paused.
+
+[Report](../../../lab/explorations/2026-11-14-kernel62/separated_signals/report.en.md)
+
+## 2026-11-15: R51t11 restores prefixes and isolates an inhibitory retention effect
+
+Under normalized inhibition with explicit inhibitory learning disabled and the declared companion settings, stopping inhibitory usage-time updates changes prefixes from 0/2 to 2/2; new codes and birth seeds also pass 2/2. Same-configuration persistence is 0/2, with no joint pass in four complete profiles. The research solution is validated; production 6.2 and defaults are unchanged and the main campaign remains paused.
+
+[Report](../../../lab/explorations/2026-11-14-kernel62/prefix_solution/report.en.md)
+
+## 2026-11-15: R51t10 completed; genuine persistence and prefix findings retained
+
+The 92 stages and eight supplementary tails are complete. Local expiry removes stale survival labels; genuine 300-second persistence under shorter inhibition and prefix discrimination in the successful research configuration are retained. Default prefix performance remains unrecovered. All 1206 members passed readback with pending=0; interruption evidence is preserved.
+
+[Report](../../../lab/explorations/2026-11-14-kernel62/release_lifecycle/completion/report.en.md)
+
+## 2026-11-15: 6.2 pre-release and activity-expiry repairs; R51t10 interrupted
+
+The author approved a default-on pre-release threshold check and required reassessment of persistence after lifecycle repair. Python and Rust 6.2 now expose `resource_precheck_enabled` and `subthreshold_expiry_enabled`, enabled for new individuals. The first checks the applicable excitatory/inhibitory connection thresholds before resource release. The second schedules sub-floor positive activation for local settlement at the next microsecond, preserving same-time summation and the existing one-second quiescence interval. It affects death and acceptance of later input and is recorded as a behavioral repair. Historical 6.2 artifacts missing the fields restore with both disabled. The global new-individual version remains 6.1.
+
+Engineering regression passed 478 tests; eleven database integration checks were skipped because the independent test database was not running. Native, standalone Rust and frontend builds passed. The new wheel is installed; running services were not restarted. Six 6.1 implementation files are unchanged. Read-only historical verification confirmed positive task activation throughout 1,502 samples in each of two curriculum blocks for kernels 1 and 2 and the short-inhibition 6.1 condition. The ranges were 0.0171540–0.0230551 and 0.0604104–0.0811919, with no records reaching 0.95. Those persistence findings remain supported.
+
+Only the first 81.2-second teaching stage of the 92-stage R51t10 plan completed. Repeated full-state hashing caused excessive recording overhead; the next waiting stage then hit a 300-second wall-time assertion without complete final-state preservation. This was an instrument error, not a scientific negative or a complete-state pause. STOP, in-flight, failed-branch evidence and the complete teaching state remain intact. The corrected recorder produced identical complete states and records in both backends across four configurations and passed a forced wall-budget test that finishes the stage before pausing. Recovery awaits the author's confirmation under the standing dead-host rule and has not occurred.
+
+Research record `1047029e-d54a-5f2f-8f56-5db7a0503731` is explicitly interrupted. Its 499-member evidence package passed complete API readback with pending=0. This verifies preserved evidence, not completion of the 92-stage scientific targets. The main campaign remains paused and manuscripts are unchanged.
+
+[Report](../../../lab/explorations/2026-11-14-kernel62/release_lifecycle/report.en.md)
+
+## 2026-11-15: R51t9 resource and sending-threshold comparisons completed
+
+The author requested that resource release remain before signal checking, asking whether lower thresholds or greater availability could replace pre-release screening, and then raised node sending thresholds and inverse-logarithmic tails. R51t9 initially registered 24 current-propagation conditions and three conditional historical-inhibition conditions; four high-threshold supply conditions were separately registered prospectively during execution. In total, 186 teaching and diagnostic stages and eight stimulus-free copies were completed. The two exchanged curricula remain two material blocks; 24 stages from four completed references were reused without rerunning them.
+
+All 31 new conditions passed 0/2 curricula. No replacement for pre-release screening restored discrimination. Greater resources increased transmission and weights but failed to preserve the correct prefix difference. The tested expectation that threshold and supply adjustments suffice is rejected. Signal-dependent resource consumption is the next recommendation, not an implemented change.
+
+Stimulus-free observation revealed a separate lifecycle-label defect: original references had zero activation at the one-second sample and no further transmission, yet the default condition remained labeled active at 300 seconds. Two sub-floor entries remained in its active set without expiry or sending timers; the corresponding local-maintenance path exists in both Python and Rust. The label is invalid as a measure of actual activity duration; node-process scores are retained. The combined zero-threshold/faster-recovery conditions still had activity at one second and zero activation at the final 2.6- or 2.9-second samples. Local lifecycle maintenance should be corrected before using survival durations, and label persistence must not be treated as sustained activity or directly attributed to inverse-logarithmic tails.
+
+Read-only verification covered 436 initial/final states, 140 diagnostic processes and 140 independently derived answer checks. All 1049 archive members were read back through the API; pending=0. Production 6.2, defaults, historical evidence and the manuscript are unchanged. Comprehensive replication remains paused.
+
+[Report](../../../lab/explorations/2026-11-14-kernel62/prefix_resources/report.en.md)
+
+## 2026-11-15: R51t8 establishes the causal role of pre-release screening
+
+After R51t7, the author requested further localization. Holding stability retention and immediate novelty fixed, this study added five isolated conditions across two exchanged curricula, totaling 30 stages. Five completed controls were reused from verified originals. Adding only pre-release screening to the failed historical-inhibition/0.004 condition changed 0/2 to 2/2. Removing only that check from successful complete historical emission changed 2/2 to 0/2. Forward and reverse interventions establish a causal role for this ordering.
+
+Recovery requires accompanying conditions. With 6.2 inhibition, neither 0.0004 nor 0.004 restored discrimination; historical inhibition at 0.0004 also failed. The successful candidate matches all 4,246 teaching records of task-node and connection states from the complete historical-emission reference. At the first recorded divergence, 3.9 internal seconds, same-time available resources were 0.215375 with screening and 0.107688 without it, while weights and node activity still agreed. Resource consumption by ineffective transmission changes later propagation and learning; this is a dynamical effect rather than merely a performance optimization.
+
+The study establishes a specific recovery combination while retaining fixed-function addressing. Production 6.2, defaults, the paused comprehensive replication and the manuscript were unchanged. Separately decomposing resource use, allocation and learning in modern inhibition is a recommendation, not an implemented change. New computation totaled 22.95 minutes with 95.37 MiB peak private memory and no resource pause or simulation rollback. Read-only verification covered 120 initial/final states and 40 process records, with maximum arithmetic discrepancy 3.91e-18. All 402 archive members were read back through the API; pending=0. The unit remains two curriculum blocks.
+
+[Report](../../../lab/explorations/2026-11-14-kernel62/prefix_precheck/report.en.md)
+
+## 2026-11-15: R51t7 restores prefix discrimination in a 6.2 research derivative
+
+The two authorized base-weight reinforcement switches are implemented and enabled by default. Disabling inhibitory weight reinforcement and the other initial switch combinations did not restore discrimination. Across 94 isolated stages, stability retention, immediate novelty and complete emission replacement restored both exchanged curriculum blocks while retaining 6.2 fixed-function addressing. Inhibitory replacement alone, the higher excitatory threshold alone, and their combination each scored 0/2. Replacing a successful parent's eight task weights or its test-transmission configuration with the failed counterpart abolished discrimination. The reverse single exchanges did not rescue failed parents. Formation and expression must work together; fixed-function addressing is compatible with this ability.
+
+The first recorded task difference between successful full replacement and the failed higher-threshold combination occurred in short-term resources at 3.9 internal seconds, before weight or activity differences. Weak-signal handling before resource release is the next single-component candidate, not a production change. Production 6.2 received only the authorized reinforcement switches; other transmission rules and defaults remain intact. The campaign remains paused for the author's decision.
+
+Verification covered 188 execution initial/final states, 16 pre-intervention states and 68 processes, with maximum independent arithmetic error 3.91×10⁻¹⁸. All 542 archive members were downloaded and checked through the API, pending=0. Scientific stage time totaled 35.25 minutes. The first full-graph observation buffer triggered a complete-boundary memory pause; streaming resumed from that state without rerunning teaching or rolling back simulated time.
+
+[Report](../../../lab/explorations/2026-11-14-kernel62/prefix_recovery/report.en.md)
+
+
+## 2026-11-14: 6.2 options implemented; prefix recovery failed
+
+6.2 implements stability-based retention, independent connection thresholds and research presets; all 338 engineering tests passed. All four candidate combinations scored 0/2 prefix-material blocks in both Python and Rust. Default promotion is withheld: 6.2 retains its compatibility configuration, the global default remains 6.1, and the campaign stays paused. Completed 6.1 batches are not repeated solely for a new version label; changed configurations require targeted evidence.
+
+[Report](../../../lab/explorations/2026-11-14-kernel62/report.en.md) · [Revalidation](../../../lab/explorations/2026-11-14-kernel62/revalidation.en.md)
+
+## 2026-11-14: R51t6 locates reinforcement and forgetting effects on prefix relations
+
+R51t6 completed 70 stages in two exchanged curriculum blocks using an isolated 5.1 research derivative. Reinforcement of base weights by actual associative transmission and stability-dependent slowing of weight forgetting were individually necessary: removing either changed success from 2/2 to 0/2. Removing period-specific decay exemption or recent-transmission protection separately retained 2/2. Disabling all or either component of immediate novelty produced 18 exact scientific-state and 18 exact process matches; the extra immediate bonus was unnecessary. Window-trained weights transferred failure into successful recipients, and reference weights restored window recipients. Disabling reinforcement during testing preserved success. Learned weight differences therefore carried the switch in performance.
+
+The recommendations prioritize immediate novelty as a candidate default for 6.2 and legacy stability retention as an optional candidate. Stability growth/decline must not be relabeled as H time-scale growth/relaxation. The inertial preset changes the connection signal-amount threshold signal_threshold from 0.0004 to 0.004 for both activation and inhibitory signals; source-node sending thresholds are unchanged. Closed-loop benefit failed, so the preset is recommended as optional and disabled by default. These remain recommendations: production kernels, defaults and the manuscript are unchanged, and the campaign remains paused.
+
+[Report](../../../lab/explorations/2026-11-13-kernel61/prefix_components/report.en.md)
+
+## 2026-11-14: Dynamical studies delivered; joint rule effects identified
+
+R51t2–t5 are fully delivered. Changing only the test threshold after identical complete teaching states reversed inertial responses in 4/4 encoding blocks; closed-loop posture benefit failed. Retaining inhibition with faster decay restored 300-second low-amplitude activity. Under the new continuous curriculum, both this profile and the reference scored 32/32 on short-delay, long-delay and distractor pairing questions, reaching a ceiling without an additional gain. Removing inhibition made both output integrals exactly equal and nonzero on all 96 cued questions, preventing selection. Prefix recovery still failed in 6.1. In genuine 3.1 and 5.1, immediate novelty plus legacy connection retention restored 2/2 exchanged-material blocks; either alone failed, and manual node retention added no effect. The campaign remains paused; 6.2 and default changes await the author.
+
+[Report](../../../lab/explorations/2026-11-13-kernel61/dynamics_function/report.en.md)
+
+## 2026-11-14：R51t2/t3交付，R51t4运行 / Delivery and ongoing test
+
+R51t2 (110 stages) and R51t3 (296 stages) are delivered: 1,650/3,860 archive members fully read back through the API, pending=0. Shortening inhibition decay restored low-amplitude persistence with inhibition retained. Changing only test-time transmission threshold reversed inertial responses from the same taught state. Posture benefit failed its criterion, and none of 11 prefix configurations recovered discrimination. R51t4 is testing delayed choices and post-correction prefix behavior in 64 complete systems nested within four new encoding blocks. The main campaign remains paused; defaults and manuscript are unchanged.
+
+## 2026-11-14：Three dynamical questions take priority over the replication campaign
+
+The author authorized closed-loop tests of inertial reversal, the relation between persistent-activity duration and decisions, and recovery of prefix discrimination. The comprehensive campaign remains paused. Activity in 6.1 is shortened, not absent. Inhibition is retained while existing gains, decay times and synaptic resources are compared. R51t2 prepares 110 new stages in two material blocks and reuses completed references read-only. Four-block body tasks and delayed choices in four new sources follow under separate freezes. This records authorization and protocol, not new results. A possible 6.2, changed defaults and selective reruns will be discussed after the evidence. r3 retains version-specific historical findings and adds replication and causal investigations, citing research at the points where it motivated the work.
+
+[Plan](../../../lab/explorations/2026-11-13-kernel61/dynamics_function/plan.en.md)
+
+## 2026-11-14：R51t1: causal investigation completed
+
+R51t1 completed 476 scientific stages using two exchanged-material blocks. Genuine /1 and /2 reproduced 300-second persistence. Selecting existing legacy connection retention restored 2/2 blocks in /3.1 and /5.1. Default 6.1 had zero activity by 30 seconds but retained four task connections at 300 seconds. Disabling inhibition after unchanged teaching, while activity remained, sustained both blocks through 300 seconds and the subsequent 15-second observation. Enabling depletion or disabling facilitation then terminated activity. The results locate contributions from connection retention, inhibition and short-term resources.
+
+The 0.004 transmitted-signal threshold that restored inertial reversal scored 0/2 here, and the version transitions differ; that common-threshold explanation is rejected. Immediate novelty enhancement in /2 exactly restored historical /1 prefix discrimination in 2/2 blocks. The same change in 6.1 remained at 0/2, so that restoration target was not achieved. All 592 historical E12 results identify /1. R51t's /2 mislabel has a separate erratum and appended correction in the original research record; original reports and artifacts remain intact.
+
+Audits passed for 2248 complete states and 44652 inputs; twenty 6.1 final states exactly match R51t. All 6792 archive members were downloaded through the research API and individually verified, pending=0. Scientific execution took 58.57 minutes, with peak private memory 747.67 MiB. Before archiving, logical content was 1.095 GiB and allocated storage 1.108 GiB. Follow-up protocols were bounded explorations registered after initial observations; stages and copies are not independent samples. Production Core, defaults and manuscripts are unchanged. Diagnosis is complete, while comprehensive revalidation remains paused under R51t's scientific stopping rule pending the author's decision. E15 and later work are unfinished; neither the campaign nor this batch should restart automatically.
+
+[Report](../../../lab/explorations/2026-11-13-kernel61/persistent_cause/report.en.md)
+
+## 2026-11-14：R51t1 / Cause investigation
+
+On 2026-11-14 the author authorized a cause investigation after the R51t scientific pause, including comparison with the inertial-reversal findings. R51t1 retains two material blocks and has 384 bounded stages across five authentic versions and declared configuration contrasts. Independent apparatus checks of observation, pause and full restoration passed before the formal run. No scientific conclusion is yet available. Other campaign batches remain paused; defaults and historical reports remain unchanged. Research record: 703d9ec6-df98-5364-85cf-5b9b9febc888; registration pending=0.
+
+## 2026-11-14：R51t completed; scientific pause triggered
+
+R51t/E12 completed 592 stages in two material blocks. The default combination passed all four pairing-effect comparisons at both 30 and 300 seconds. At 300 seconds the mean effect was 0.033404676, versus 0.008914914 in the original kernel-/2 batch, about 3.75 times the historical value. Disabling existing-connection strengthening only before testing retained 99.9710%–99.9712% of the target margin. However, under the historical persistent-activity condition, task activation remained at one second but was zero at 30 and 300 seconds; all five subsequent 15-second intervention windows were zero throughout. Neither block distinguished both prefixes of the shared-B sequences at any of the one-, three- or 20-second waits (0/2 at each wait), versus 2/2 historically at one second. These two adverse dynamical differences trigger the preregistered scientific stopping rule. Comprehensive revalidation pauses pending the author's decision on causal diagnosis. Read-only verification covered 4,746 complete states, 41,248 inputs and four observation controls. All 10,190 archive members were read back through the research API, pending=0. Execution took 114.29 minutes, with peak private memory 872.29 MiB. Two audit-tool format/scope errors were corrected in separate retained versions, without replaying individuals or changing scores. E15 and later batches remain prepared; Core, defaults and the author's manuscript are unchanged.
+
+[Report](../../../lab/explorations/2026-11-13-kernel61/memory_timescales/report.en.md)
+
+
+## 2026-11-14: R51t
+
+The R51t/E12 formal batch has started with two original material blocks and 592 stages. The independent apparatus exposed record-storage costs and a private-memory peak. Failed apparatus originals were retained. Comparable records were separated from additional audits; projections are now losslessly buffered and JSON streamed. Six calibration stages exactly matched complete state, observer, process and projection bytes, with peak private memory 756.20 MiB. Under the existing authorization to increase budgets when space permits, originals, archive and readback each reserve 8 GiB; the conservative full estimate is 7.062 GiB. The twice-historical comparable-record check, 1-GiB private cap and 5/4/5/25-GiB reserves remain unchanged. After exact STOP archival and verification under lock, execution started once. Core and scientific rules are unchanged. This records tooling qualification and startup, not a scientific result.
+
+## 2026-11-14：Persistent connections and current state determine bodily responses
+
+R51s bodily state exchange and waiting is complete. Four material blocks supplied 16 complete references, 704 diagnostics and 48 holding stages. Weight exchange had consistent effects in 4/4 blocks for both full-sensory teaching conditions; all 128 weight-containing diagnostics moved partway toward the donor. Current state continued to affect expression. All 12 conditions at 10, 30 and 60 seconds retained the taught direction in 4/4 blocks, with 96/96 cued diagnostics passing. Both primary targets were met. Read-only verification covered 2,352 states, 128 exchanges and 17,888 inputs. The 12,558-member archive was read back through the API, pending=0. Execution took 21.60 minutes, peak private memory was 669.57 MiB, and unit allocation was 1.420–1.715 times historical allocation. No scientific stop occurred; original-scale E12/R51t proceeds with defaults unchanged.
+
+[Report](../../../lab/explorations/2026-11-13-kernel61/body_recovery/report.en.md)
+
+## 2026-11-14：Distinct local effects during formation and expression
+
+R51r bodily formation and expression revalidation is complete. Four material blocks supplied 32 teaching references and 512 diagnostics. All-on references retained the taught direction in 4/4 blocks for both sensory conditions; all eight primary mechanism contrasts had consistent effects. With full sensory input, teaching depletion and competition strengthened responses, while test-stage depletion and competition weakened them. With joint signals alone, teaching effects also became negative. All 256 cued diagnostics retained the taught direction. The results establish distinct local-mechanism effects during formation and expression, depending on bodily input composition. Read-only verification passed for 1,632 states and 32,544 inputs; the 7,768-member archive was read back through the API, pending=0. Runtime was 16.21 minutes, peak private memory 650.79 MiB, and unit allocation 1.235–1.905 times historical allocation, with no scientific stop. E22 bodily state exchange and waiting, R51s, is being prepared but has not been registered or run. Defaults remain unchanged.
+
+[Report](../../../lab/explorations/2026-11-13-kernel61/body_formation/report.en.md)
+
+## 2026-11-14：Timing perturbations and matched doses confirm order expression
+
+R51q timing perturbation and dose-matched reference revalidation is complete. Four material blocks supplied 192 teaching references and 576 diagnostics. Order expression passed 72/72 teaching/K-timing comparisons, 8/8 perturbation comparisons and 16/96 reference comparisons. All historical positives were retained, with 28 added positives. Target integrals were identical across K timings in all 48 comparisons. Shared-reference X cues passed 16/16; target activation was zero in the other 80 reference comparisons. Order expression tolerates the tested timing perturbations, and reference effects are not explained solely by counts or doses. Read-only checks verified 12,864 states and 50,752 inputs. Runtime was 20.16 minutes, peak private memory 598.01 MiB. Losslessly packed complete snapshots brought actual unit allocation to 1.616–1.779 times historical allocation. Full archive API readback is complete, pending=0, with no scientific stop. E21C bodily formation R51r is prepared but not registered or run, retaining four material blocks. Core and defaults remain unchanged.
+
+[Report](../../../lab/explorations/2026-11-13-kernel61/order_reference/report.en.md)
+
+## 2026-11-14：Repetition preserves order expression and extends effective conditions
+
+R51p timing revalidation is complete. Four material blocks supplied 352 teaching references and 1,472 diagnostics: dense order expression passed 80/80, sparse expression 160/240, and separate references 0/64. All 148 historical sparse positives retained the bidirectional criterion, with 12 additional positives; 40 historical primacy effects became recency effects, explicitly retained as directional differences. Read-only checks verified 5,120 states, 88,720 inputs and 384 matched historical comparisons. The first audit incorrectly required a newborn waiting state to be active; its script and failure were preserved, and a separate v2 completed verification without rerunning subjects or changing scores. Runtime was 32.32 minutes with peak private memory of 605.42 MiB and no stop. Full archive API readback is complete, pending=0. R51q is prepared to continue original-scale E22 jitter and dose-matched references. Production Core and defaults remain unchanged.
+
+[Report](../../../lab/explorations/2026-11-13-kernel61/order_timing/report.en.md)
+
+## 2026-11-14：Connection weights causally carry the order response
+
+R51o state exchange is complete. Four material blocks supplied 16 teaching references and 512 diagnostics. Weights alone transferred direction in 16/16; all 128 combinations including weights followed the donor, while all 128 excluding weights retained the recipient direction. This confirms experience-formed connection weights as the causal carrier of the order response after 30 seconds, reproducing E21. Read-only checks verified 1,856 states, 6,336 inputs and 256 exchanges; all 6,896 archive members were read back through the API, pending=0. Execution took 6.81 minutes with peak private memory of 575.32 MiB, without a stop. Next, R51p retains historical scale to examine repetition, teaching timing and reference arrangement; it is currently prepared only. The default threshold remains 0.0004.
+
+[Report](../../../lab/explorations/2026-11-13-kernel61/order_exchange/report.en.md)
+
+## 2026-11-14：Order expression retained for 300 seconds in kernel6.1
+
+R51n computation completed on 13 November and was analyzed and delivered on 14 November. Four anonymous material blocks provided 96 teaching references and 576 single-test diagnostic copies. Under default facilitation and a 50-ms event interval, order expression passed in 4/4 blocks at both 1 and 30 seconds and in 4/4 at 300 seconds, versus historical 0/4 at 300 seconds. Task activation was zero before the 30- and 300-second cues. All positive conditions showed recency; 32 of 144 paired comparisons passed. The 0.5-second course expressed order at 30 seconds, while historical 1-second primacy under the facilitated 2-second course was not reproduced. Kernel6.1 retains order expression and extends expressible retention of the short-interval course, with course/time differences preserved. Checks verified 6,528 states and 138,752 inputs; the 12,159-member archive was read back through the API with pending=0. No frozen stop was triggered. E21 state exchange remains in preparation, not registered or executed; the default threshold remains 0.0004.
+
+[Report](../../../lab/explorations/2026-11-13-kernel61/order_recall/report.en.md)
+
+## 2026-11-13：R51l 48-source local-transfer confirmation delivered
+
+All 48 independent R51l sources passed, including 8/8 in each of six strata. Target whole and persistent bundles transferred 480/480 first and final target choices to the donor direction while preserving 480/480 unrelated responses; untaught mixtures passed in 192/192 trials. Sham and restoration were exact, while matched transplantation changed the other relationship. The actual changes were the target endpoints of 192 connections and corresponding timers; all 96 fast-bundle exchanges made no changes. Every source had a minimum gain of 100 percentage points, exact two-sided P=7.1054e-15. Read-only checks verified 7,680 states and 10,080,000 frames, and the 8,664-member archive was fully read back through the API, pending=0 and scientific_stop=false. The result confirms selective transfer of responses and closed-loop choices through experience-formed local connections in 6.1. Defaults remain unchanged; E20 event order follows with its original four material blocks.
+
+[Report](../../../lab/explorations/2026-11-13-kernel61/transfer_confirmation/report.en.md)
+
+## 2026-11-13：R51m completed: the transmission threshold controls inertial reversal
+
+The author proposed that slower decay might prevent prompt deletion of transient connections and requested an explanation before later replications. R51m completed 1,792 stages across four historical material blocks, five genuine versions and 17 configurations. Versions /2, /3.1 and /5.1 were reversed in 16/16 full-sensory tests; /5.3 and /6.1 followed teaching in 16/16. Disabling deletion preserved reversal in all four historical blocks. Exponential decay, an independently calibrated higher deletion threshold, and their combination failed to restore reversal in 6.1. Raising only the transmitted-signal threshold from 0.0004 to 0.004 restored 16/16 reversed full-sensory responses and preserved 16/16 taught joint-only responses, meeting the target in 4/4 blocks. Thus prompt deletion was rejected as a necessary explanation, while causal control by the transmission threshold was established. The public pretest operation disabling inhibition also changed 12/16 historical responses to the taught direction; it includes clearing inhibitory state and is reported at that intervention scope. The audit verified 3,584 initial/final states, 192 intervention states and 235,712 inputs. The 15,540-member archive was read back through the API, pending=0, record 16c42855-1d4f-5d15-9484-94ca325a2ded. Scientific execution took 43.04 minutes, with peak private memory of 671.05 MiB; matched 80-stage execution in 6.1 took 1.078 times that in 5.1. Bodily association was retained and no campaign stop was triggered. R51l, the 48-source transfer confirmation, follows. Defaults, production Core, historical originals and the author manuscript are preserved.
+
+[Report](../../../lab/explorations/2026-11-13-kernel61/inertial_reversal/report.en.md)
+
+
+## 2026-11-13：R51k fixed expression delivered
+
+R51k completed eight sources: the 110-ms output-port reader passed fixed expression and connection causality in 8/8; the primary temporal condition passed in 4/8 and 0/8, below 6/8. Blocking new connections reduced endpoint new answers from 56/64 to 0/64 while preserving 64/64 old answers, with exact restoration. Version 6.1 retains expression of new learning through a fixed personal reader; the tested temporal features failed the stable-expression target. All 2,024 complete states and 1,824 answers passed audit. The 2,149-member archive and bilingual reports were read back through the API with pending=0, record 5fbc563e-3574-52f3-b7f9-9b2eb4233d4d. No campaign stop was triggered. R51m inertial investigation is next, before R51l; neither has created formal individuals at this point.
+
+[Report](../../../lab/explorations/2026-11-13-kernel61/fixed_readout/report.en.md)
+
+13 November 2026 — The author requested R51m immediately after current R51k and before R51l or other batches. It will locate the changed inertial response by comparing genuine memory/2 with 6.1, aligning stimuli, process windows and blanks, and testing decay, deletion speed and other supported candidates. Higher deletion thresholds are research configurations only; defaults and Core remain unchanged. Preparation is not a result. [R51m](../../../lab/explorations/2026-11-13-kernel61/inertial_reversal/decision.en.md)
+
+## 13 November 2026: local transfer delivered; temporal readout study running
+
+13 November 2026 — R51j local transfer passed 8/8; full 1,016-member readback, pending0. R51k temporal readout is registered, apparatus-verified and running. [R51](../../../lab/explorations/2026-11-13-kernel61/coverage.en.md)
+
+## 13 November 2026: bodily transfer passed; local transplantation begins
+
+13 November 2026 — R51h bodily transfer: trained 192/192, untrained 0/48; full readback pending0. R51j local transfer started. [R51](../../../lab/explorations/2026-11-13-kernel61/coverage.en.md)
+
+## 13 November 2026: 64-group confirmation delivered; bodily transfer running
+
+13 November 2026 — R51i independent confirmation: 6.1 jointly passed 64/64, each comparator 0/64; RNN temporal interaction 49/64 passed. Full 38,852-member API readback, pending0. Registered R51h bodily transfer began; other planned batches remain pending. [R51](../../../lab/explorations/2026-11-13-kernel61/coverage.en.md)
+
+## Latest, 13 November 2026: eight-group criteria replication delivered; 64-group confirmation running
+
+13 November 2026 — R51g: 6.1 jointly passed in 8/8 sources, each comparator in 0/8. Full 4,903-member API readback has pending=0. R51i independent 64-group confirmation registered and started. [R51](../../../lab/explorations/2026-11-13-kernel61/coverage.en.md)
+
+## Latest, 13 November 2026: bodily retention replicated; five-system comparison running
+
+R51f completed and delivered: 192/192 trained process responses correct, untrained 0/48; all 32 target blocks abolished retrieval, with exact restoration; convergence 0/240. Full 4,470-member API readback has zero pending requests. R51g, eight sources across five systems, is running after apparatus validation. Transfer preparation and the pending 64-group confirmation are not results. [R51](../../../lab/explorations/2026-11-13-kernel61/coverage.en.md)
+
+## Latest, 13 November 2026: first two 6.1 scientific batches delivered
+
+R51d completed 264 conditions, confirming grouping, repetition and order effects while failing 120-second weak deletion. R51e completed eight origins and 80 causal copies: target reduction 100%, matched reduction 0%, exact restoration. Both packages and bilingual reports have full API readback and zero pending requests. E18 bodily experience and temporal readout is next; the remaining original-scale plan continues. The manuscript is unchanged. [R51](../../../lab/explorations/2026-11-13-kernel61/coverage.en.md)
+
+## Latest, 13 November 2026: 6.1 passes engineering acceptance; R51 continues at original scales
+
+R51c confirms default 6.1 time ratios of 0.8073/0.8234 to 5.1 and allocated artifacts about 1.10 times as large. All 48 measurements and 96 complete states verified. The author explicitly authorized continuation of plan v2 on 6.1 with the original scales and stopping conditions. Local deletion and sender thresholds are authorized version changes; historical Core, originals and pause markers remain. Stimulus units and connection formation are next, followed by the planned sequence. [Public edition: manuscript editing or private locator omitted.] [R51c](../../../lab/explorations/2026-11-13-kernel61/report.en.md) · [6.1](kernel61-revalidation-addendum.md)
+
+## 13 November 2026 addendum: R51b identifies repeated emission; formal revalidation remains paused
+
+Following the author's request to locate cost, 52 isolated engineering trials were completed. Default 6.0 took 8.57 times as long as 5.1 on the 1024-node fixture. Emission accounted for 76.66% of coarse-profile time and structural checks for 17.67%. Of 102,400 connection attempts, 95% transmitted nothing. All 92,160 attempts during internal seconds 1–10 had zero output, yet that interval consumed 87.15% of elapsed time. Tiny residual inhibition continues scheduling node emission while the connection threshold blocks transmission. Reducing scan frequency saved only 14.06%; exponential decay saved 8.59%. Emission implementation is therefore the first optimization target.
+
+All 104 complete states verified, and 21 instrumented final states matched production. The 255-member archive and both reports were read back through the API with pending=0. Zero-output attempts still update resources, inhibition and accounting, so they cannot simply be removed. Production is unchanged, optimization has not been implemented, and formal science remains paused. First reduce state copying, time conversion and repeated configuration lookups while preserving dynamics. [R51b report](../../../lab/explorations/2026-11-13-kernel60-revalidation/cost-profile/report.en.md)
+
+## 13 November 2026: R51 approved; reproduction complete, performance gate paused the campaign
+
+Approved plan v2 retains each historical study's actual origins, worlds and controls, without universal expansion or mandatory migration. Version 6.0 reproduction now inherits persistent connection state and decay age by default, with reset age as a control; offspring fast state and time begin anew. Historical birth hashes, both backends, multigeneration ecological recovery and standalone Rust continuation checks passed.
+
+In R51a's identifier- and input-matched 1024-node engineering fixture, confirmed 6.0 advancement took 8.51 times as long as 5.1, exceeding the registered twofold stop. Version 5.3 performed similarly to 6.0, placing the main cost difference before fixed-function addressing. The initial identifier-alignment error is preserved; final conclusions use corrected measurements. No formal mechanism, aquatic, visual or other scientific batch began. The author must decide how to address performance before further Core changes or resumption. [Public edition: manuscript editing or private locator omitted.] [Plan v2](kernel60-revalidation-v2.md) · [Engineering report](../../../lab/explorations/2026-11-13-kernel60-revalidation/report.en.md)
+
+## 2026-11-13: R50 completed; retain the 6.0 threshold at 0.008
+
+The author authorized a quick test of 0.018 and adoption only if suitable. Eight new origins and 640 continuous sequences completed, with full research-API archive readback and zero pending operations. The candidate cleared weak connections at 30 seconds in 8/8 origins; 300-second massed, spaced and strong responses were exactly equal to baseline. However, four novelty origins lost new target connections and responses; four others had stronger, changed responses. The preregistered preservation goal failed. The default remains 0.008; production Core was unchanged. Further work, if approved, should address the overlap between weak-trace clearance and novelty retention. This batch does not continue parameter search. [R50 report](../../../lab/explorations/2026-11-13-kernel60-pruning/report.en.md)
+
+## 2026-11-12: R49 fixed-function addressing
+
+The author authorized an independent 6.0 addressing change while retaining the other 5.3 mechanisms. Python/Rust implement F(c)=c; 92 dedicated checks and 458 historical/runtime regressions passed. Eligibility and stability remain in use and were retained. Final acceptance on 13 November 2026 implemented both author-selected policies, defaulting to address delivery: 134 dedicated checks and 461 regression/configuration checks passed, with 2 database-dependent skips. Configuration is exposed and the native module is installed in the project environment. The global default remains 5.3; no new scientific study was started. [6.0](../v2-kernel60.md)
+
+## 11 November 2026, later decision: /5.3 and inverse logarithmic decay become creation defaults
+
+After reviewing retention and performance, the user explicitly selected /5.3 with inverse-logarithmic decay for new individuals. Other curves and historical kernels remain selectable. Python, Rust, the research API and workbench share this policy; saved individuals and explicit templates retain their configuration. This supersedes the earlier decision to retain power law, while preserving R47/R48 targets, scores and reports. [Decision, scope and checks](kernel53-default-selection.md)
+
 
 > **Public-edition edit (2026-11-11; source lines 3-3):** Manuscript text, writing/submission discussion or links to non-public manuscript documents are omitted. Where a paragraph mixed these with research information, the research information is retained in this public extract. The complete source remains unchanged.
 
@@ -494,7 +911,7 @@ This consolidation checks plans, reports and delivery records; it does not rerun
 | ID / priority | Question | Existing basis and remaining gap | Experiment approach | Expected answer |
 | --- | --- | --- | --- | --- |
 | R07 / P2 `/5.1` engineering delivered; research retention validation pending, old negative evidence retained | Does forgetting help selection, conflicting learning and adaptation? | Original 12 conditions favored repeated over single stimulation but 4 Hretention remained weak. Nine 5.1 workloads reduceHcost 49.58–60.38% against 5 and S51.27–58.11%; dense still slower than 2, large sparseH much faster. Engineering costs are not memory scores; **2026-10-16: Oct16 four-delay H/S expression exploration delivered; gains2/4, relearning and adaptation tradeoffs remain**  **2026-10-16 closure-v1: S-mode relearning-savings goal FAIL at all four delays: both groups two lessons. closure-N1 records a floor for future measurement design; forgetting/adaptation retains a separate goal。**  **16 October 2026 M2 window calibration: each dose 0/8, no correct expression in 16 rounds; reject this measurement window without estimating savings or changing prior scores.**  **16October2026: same-parent cue diagnosis delivered;weak0.4 fails while strong0.8 expresses opposite prior histories in8/8. Savings remains separate.**  **2026-10-17: M2 short-term-resource causation passes; predictor gain omission located and original failure retained.**  **2026-10-17: M2 corrected formula passes prospective prediction on new materials.** |189 consistencychecks, frozen program 8 cases, Runtime/full-host recovery and installation complete.Default 3, old versions, H/S rules preserved.NoexactS bulkformula proved; periodic maintenance retained.Shape/color, long retention, multi-seedand long-churn memory remain separate; no renaming this release | [5.1delivery](local-events-v51-delivery.md) · [Approvedplan](local-events-v5.md) · [Earlierperformance](memory5-performance-comparison-20261013.md) · [Rootcauses](memory5-root-cause-20261013.md) · [Oldretentionevidence](../../../lab/explorations/2026-10-09-local-events-v4/report.en.md)  [closure](../../../lab/explorations/2026-10-16-mechanism-discovery/closure-report.en.md) |
-| R08 / P2 | Can novel experience become a later response template? | Novelty contributes under specific conditions; template and repeated-erasure predictions remain incomplete; **2026-10-16: Oct16 M1 selective expression pathway tested; template generalization untested**  **2026-10-16 closure-v1: Target correspondence graft changes two-gate choices 0/48→44/48; registered experience-transfer goal PASS。**  **16 October 2026 M1 confirmation: 48 new origins all qualify; both donor endpoints 480/480, unrelated answers preserved, full archive/text API delivery.** | Novel/familiar material, similarity gradients and repetition; targeted, sham and unrelated-region erasure controls | Separate immediate gain, persistent connections and preference; do not require erasure to cause growing instability  [closure](../../../lab/explorations/2026-10-16-mechanism-discovery/closure-report.en.md) |
+| R08 / P2 | Can novel experience become a later response template? | Novelty contributes under specific conditions; template and repeated-erasure predictions remain incomplete; **2026-10-16: Oct16 M1 selective expression pathway tested; template generalization untested**  **2026-10-16 closure-v1: Target correspondence graft changes two-gate choices 0/48→44/48; registered experience-transfer goal PASS。**  **16 October 2026 M1 confirmation: 48 new origins all qualify; both donor endpoints 480/480, unrelated answers preserved, full archive/text API delivery.**  **2026-11-14 R51t6: immediate bonus unnecessary for this prefix curriculum; window-trained weights transfer failure. Default candidate pending.**  **2026-11-14: all four 6.2 combinations failed prefix recovery; arrival-window default retained and old positive artifacts preserved.**  **2026-11-15 R51t7: stability/immediate plus complete emission replacement restores 2/2 in a 6.2 research derivative; formation and expression must work together; production decision pending.** **2026-11-15 R51t8: forward/reverse interventions establish pre-release screening; recovery requires historical inhibition and a 0.004 excitatory threshold in the tested combination. Production unchanged.**  **2026-11-15 R51t9：31 threshold/resource conditions failed prefix recovery despite increased transmission; stale life labels reveal a local maintenance gap** | Novel/familiar material, similarity gradients and repetition; targeted, sham and unrelated-region erasure controls | Separate immediate gain, persistent connections and preference; do not require erasure to cause growing instability  [closure](../../../lab/explorations/2026-10-16-mechanism-discovery/closure-report.en.md) |
 | R09 / P1 stage complete, continuing | Are control advantages caused by experience/internal activity? | E32 has feeding advantages in two complete worlds; focal0 target silence removes uncued activity and reduces food3→2,matched remains3. Population attribution is not fully partitioned | E33 separates predation effects; E34 localizes capture processes; do not generalize one focal cause to the whole population | [E32](../../../lab/explorations/2026-10-03-ocean-community/report.en.md) |
 | R10 / P2 partial | Do grafts transfer patterns and skills? | E34 target grafts beat blank/matched action similarity in 3/4 complete-habitat sources; body 12 recovers a no-capture outcome, not general feeding benefit; **2026-10-16: Oct16 /5.1 graft readiness audited; legacy version/topology incompatible, no new graft run**  **2026-10-16 closure-v1: New /5.1 graft completed: 6/8 meet all rules, behavioral gain +91.67 points, unrelated loss zero; historical evidence retained separately。**  **16 October 2026 M1 confirmation: 48 new origins all qualify; both donor endpoints 480/480, unrelated answers preserved, full archive/text API delivery.** | Separate pattern transfer, actual encounters and population benefit; retain opposite/negative outcomes | [E34](../../../lab/explorations/2026-10-03-ocean-hunting/report.en.md)  [closure](../../../lab/explorations/2026-10-16-mechanism-discovery/closure-report.en.md) |
 | R11 / P2 E69 read-only complete, balanced prospective preparation | Can functional regions emerge naturally? | Per-node activity and complete edges exist; region is an assigned energy partition. No isolated hand-only condition or per-frame edge flow  **16 October 2026 M4 apparatus preparation: separate wrapper preserves physical/readout implementations and randomizes optical/text ports; five isolated tests pass, not a specialization result.**  **16October2026: real eye-hand30s capacity PASS,N0,API-delivered;supports small local balanced prospective design.**  **2026-10-17: M4 failed formal apparatus preserved; v2 acceptance repeated; scientific N=0.**  **2026-10-17: M4 balanced prospective study starts with a4GiB originals budget; running, no scientific score yet.**  **2026-10-17: M4 c111 complete pause; fresh-host continuation under acceptance.**  **2026-10-17: M4 continuation verified at120s/1080 updates; running.** | Compare task selectivity, cross-question stability, experience and fixed mappings without Core changes or subject advancement | [Analysis plan](../../../lab/explorations/2026-10-13-eye-hand-shape-color/focus-and-regional-analysis-20261015.en.md) |
@@ -533,8 +950,17 @@ This consolidation checks plans, reports and delivery records; it does not rerun
 | R44 / P1 completed and delivered | Does longer connection retention improve joint judgments, and should decay change? | Q1 8/8; Q2 1/8, Q3 target 1/8 and all 2/8, Q4 at most 1/8; 2,896 boundaries and full API readback pending0 | Retention improves sensory prediction with action mismatch; continue R45 before selecting expression-pathway controls | [Report](../../../lab/explorations/2026-11-09-retention-causality/report.en.md) · [Delivery](../../../lab/explorations/2026-11-09-retention-causality/delivery.md) |
 | R45 / P1 completed and delivered | Does slower or disabled H relaxation improve natural retention and joint answers? | 96 sequences/2,592 boundaries; four major-benefit comparisons 0/8, natural conditions 40/128, raised 28/128; API readback pending0 | Effective intervention, small natural retention growth; no new default, proceed to R46 curves | [Report](../../../lab/explorations/2026-11-09-retention-relaxation/report.en.md) · [Delivery](../../../lab/explorations/2026-11-09-retention-relaxation/delivery.md) |
 | R46 / P1 local-mechanism a/b delivered | Can three curves and relaxation support retention, expression and forgetting? | a:1920 sequences; b:960, immediate strong/novelty gains 8/8 and inverse-log structural benefits 8/8; all settings miss six-profile activity target; both archives verified pending0 | No new default; prioritize repetition-induced timescale growth; personal-Transformer joint tasks and reversal remain unfinished | [a report](../../../lab/explorations/2026-11-09-decay-mechanisms52/report.en.md) · [b report](../../../lab/explorations/2026-11-09-decay-mechanisms52/stimulus-report.en.md) · [b delivery](../../../lab/explorations/2026-11-09-decay-mechanisms52/stimulus-delivery.md) |
-| R47 / P1 /5.3 and three comparisons delivered | Can single-age decay retain repetition, express history and forget weak input? | 48 origins confirm inverse-logarithmic local retention; whole-system initial/new/return 8/8 each, reversal 4/8; all three API deliveries pending0; faithful /5.2 Rust delivered | Weak forgetting unmet for all curves; the weight-dependent fifth strategy was tested in R48; power-law default retained; reversal mechanisms remain for future study | [Implementation and recommendations](../v2-kernel53.md) · [Joint development](../../../lab/explorations/2026-11-11-kernel53/joint/report.en.md) · [Confirmation](../../../lab/explorations/2026-11-11-kernel53/confirmation/report.en.md) |
-| R48 / Complete | Can weight-dependent decay combine rapid weak forgetting, strong/repeated retention and reversal? | Fast weak forgetting 8/8; slow immediate initial 128/128 with one-third fewer updates, but both candidates 0/8 on four complete goals; inverse log 8/8, 8/8, 4/8, 8/8; both API deliveries pending0, Rust/wheel verified | Round closed; the author confirmed selection against the complete goals: keep the candidate and the 5.3 power-law default; new formulas or settings require new testable goals | [Local](../../../lab/explorations/2026-11-11-weight-dependent-decay/report.en.md) · [Whole learners](../../../lab/explorations/2026-11-11-weight-dependent-decay/joint/report.en.md) · [Runtime](../../../lab/explorations/2026-11-11-weight-dependent-decay/engineering-report.en.md) |
+| R47 / P1 /5.3 and three comparisons delivered | Can single-age decay retain repetition, express history and forget weak input? | 48 origins confirm inverse-logarithmic local retention; whole-system initial/new/return 8/8 each, reversal 4/8; all three API deliveries pending0; faithful /5.2 Rust delivered | Weak forgetting unmet for all curves; the weight-dependent fifth strategy was tested in R48; the user subsequently selected inverse logarithmic decay as the /5.3 default and /5.3 for new individuals; reversal and long-run scale remain for study | [Implementation and recommendations](../v2-kernel53.md) · [Joint development](../../../lab/explorations/2026-11-11-kernel53/joint/report.en.md) · [Confirmation](../../../lab/explorations/2026-11-11-kernel53/confirmation/report.en.md) |
+| R48 / Complete | Can weight-dependent decay combine rapid weak forgetting, strong/repeated retention and reversal? | Fast weak forgetting 8/8; slow immediate initial 128/128 with one-third fewer updates, but both candidates 0/8 on four complete goals; inverse log 8/8, 8/8, 4/8, 8/8; both API deliveries pending0, Rust/wheel verified | Round closed; the independent candidate is retained; the user subsequently selected inverse-logarithmic /5.3, without promoting the R48 candidate; new formulas or settings require new testable goals | [Local](../../../lab/explorations/2026-11-11-weight-dependent-decay/report.en.md) · [Whole learners](../../../lab/explorations/2026-11-11-weight-dependent-decay/joint/report.en.md) · [Runtime](../../../lab/explorations/2026-11-11-weight-dependent-decay/engineering-report.en.md) |
+| R49 / engineering complete | Direct fixed-function addressing while preserving the other 5.3 rules | Independent backends, both delivery policies and final regressions passed; address delivery is the default | Register mechanism, shape–color and embodiment studies separately | [Implementation](../v2-kernel60.md) · [Engineering report](../../../lab/explorations/2026-11-12-kernel60/engineering-report.en.md) |
+| R50 / complete; candidate rejected | Does 0.018 clear weak traces while preserving learned responses? | Eight origins: weak clearance 8/8; three retention courses 8/8; novelty targets retained 4/8; API verified | Default remains 0.008; further work needs authorization | [Report](../../../lab/explorations/2026-11-13-kernel60-pruning/report.en.md) |
+| R51 / complete 6.3 rerun in progress | Rerun all plan-v2 and additional mechanism studies |[Public edition: manuscript editing or private locator omitted.] R63i and remaining original/additional studies await explicit resumption; preparation is not completion | Retain sizes and criteria; preserve and discuss new adverse contradictions or major slowdowns | [Coverage](../../../lab/explorations/2026-11-15-kernel63-revalidation/coverage.en.md) |
+| R51t11 / complete | Recover prefixes and isolate a specific mechanism | Inhibitory usage time affects retention; one change under normalized inhibition gives 0/2 to 2/2; 192 stages complete | Production unchanged in that batch; subsequent implementation in R51t13; joint persistence target unresolved | [Report](../../../lab/explorations/2026-11-14-kernel62/prefix_solution/report.en.md) |
+| R51t12 / complete | Test separate weights, resources and learning records with inhibitory learning retained | 72 stages, 144 states, 48 processes; all groups 0/2; costs measured; API pending=0 | 6.2 options retained; simplified 6.3 delivered in R51t13 | [Report](../../../lab/explorations/2026-11-14-kernel62/separated_signals/report.en.md) |
+| R51t13 / complete | Test usage updates and inhibitory allocation; simplify 6.3 | 72 stages, 144 states, 40 processes; prefix 0/2 throughout; 631 checks passed; full readback pending=0 | No usage updates and per-connection default; prefix recovery unresolved | [Report](../../../lab/explorations/2026-11-15-kernel63/report.en.md) |
+| R51t14 / complete | Compare shared and independent resources while retaining inhibitory learning | 48 stages, 96 states, 32 processes; all groups 0/2; 692 checks passed; 790 members read back, pending=0 | Shared default, independent option; prefixes unresolved | [Report](../../../lab/explorations/2026-11-15-kernel63/resources/report.en.md) |
+| R51t15 / complete | Reproduce the historical positive; identify resource, inhibitory-learning and threshold effects | 132 stages, 264 states and 88 processes; weight, stability and touch updates individually disrupt success; API pending=0 | Nonzero threshold can be retained; research condition is not automatically a production default | [Report](../../../lab/explorations/2026-11-15-kernel63/prefix_causes/report.en.md) |
+| R51t16 / complete | Implement inhibitory bypass; test prefixes, persistence, and cost of optional independent pools | 72 stages, 144 states, 36 processes; 263 checks; 946 members read back, pending=0 | Bypass default on, independent resources optional/off; dense per-connection bypass cost 13.50-fold reported separately | [Report](../../../lab/explorations/2026-11-15-kernel63/resource_bypass/report.en.md) |
 
 R09–R20 are directions, not one authorized unlimited local batch. Indicator/literature preparation for R12 can run alongside mechanism work rather than waiting for every hypothesis to be perfect.
 
@@ -548,7 +974,7 @@ R09–R20 are directions, not one authorized unlimited local batch. Indicator/li
 | T04 / P2 before broader deployment | Real OCI build/deployment and Runtime sandbox acceptance | **Package isolation and actual Linux Playground container limits/recovery/API checked; complete multi-user deployment and GPU containers remain open** | Verify remaining resource/permission/recovery/device boundaries in execution; preserve dynamics |
 | T05 / P3 before larger ecology | Snapshot retention, external warning and training safety | **Current joint backup actually restored in isolation; large-training retention policies remain open** | [Actual delivery](existing-data-migration-delivery.md); sources/backups retained, database-default checkpoints; user decides warning thresholds/actions, without hidden changes to consciousness |
 | T06 / current delivery complete | Screenshots, recording and measured behavior clips | Python/CLI PNG/MP4 and graph/world PNG/WebM; wide/narrow and real encoding checked | Primary demonstrations must retain the full habitat; local clips illustrate apparatus only |
-| T10 / approved relocation complete | Data management, separation and formal bundles | Real schema 65; 43 resources, 32,984 files and 4,242 payloads, 61.69 GiB verified and activated; joint restore accepted | [Actual delivery](existing-data-migration-delivery.md), [Guide](../storage-migration.md); retain 68 source/report/fixture resources and 46 expanded workspaces plus source copies; no automatic checkpoint sealing; database remains default; earlier Git delivery preserved; November 10: ordinary commits warn above 50 MiB and block above 100 MiB, 23 checks passed, research-data boundaries retained; [Public-edition omission, 2026-11-11: manuscript/publication planning and its private-document link are omitted; the technical migration record is retained.] |
+| T10 / approved relocation complete | Data management, separation and formal bundles | Real schema 65; 43 resources, 32,984 files and 4,242 payloads, 61.69 GiB verified and activated; joint restore accepted · New experiments support peak reservations, multiple disks and volume readback (2026-11-21); completed experiments support sync, versioned backup, migration, archival and retrieval | [Actual delivery](existing-data-migration-delivery.md), [Guide](../storage-migration.md); retain 68 source/report/fixture resources and 46 expanded workspaces plus source copies; no automatic checkpoint sealing; database remains default; earlier Git delivery preserved; November 10: ordinary commits warn above 50 MiB and block above 100 MiB, 23 checks passed, research-data boundaries retained; [Public-edition omission, 2026-11-11: manuscript/publication planning and its private-document link are omitted; the technical migration record is retained.] |
 | T11 / backfill and location editions complete | Historical research and unified overview | Original 84 indices/59,118 references retained; 70 experiment annotations, 129 database and 136 repository report editions, 129 additional fixed-version links | [Backfill](experiment-record-backfill-delivery.md), [Relocation](existing-data-migration-delivery.md); preserve originals/privacy/subjects, 33 historical gaps remain, T12 separate |
 | T12 / Partly repaired; inheritance/historical-state repair await decisions | Historical host inheritance and save/restore gaps | /4 saver/spatial-time repaired; user-authorized /3.1 corrects zero-response expiry with both-backend/Lab acceptance. The24 /4 cases lack this defect; original /3 hash and failure remain | [New-kernel delivery](memory-retention-31-delivery.md), [Original discovery](kernel-creation-hierarchy-delivery.md); no silent subject conversion or weakened validation. Host inheritance and explicit repair of historical missing-expiry states remain undecided; no formal new-trial authorization |
 | T13 / Current delivery complete | Global resource menus and explicit ownership | Authorized global defaults, project overview, paging/search/type/archive/project filters, detail ownership, creation destinations, legacy links and privacy accepted; local schema 63 installed | [Acceptance](global-resource-browsing.md), [guide](../global-resource-browsing.md); original witnesses match, no Core/old-subject/scientific-data changes or user-service takeover, no push; existing services need a normal restart |
@@ -1128,3 +1554,28 @@ The user requested important discoveries within the chronological narrative and 
 ## 17 October 2026: Historical pause decision
 
 This public extract retains the operational decision and omits manuscript preparation discussions. After the 17:54 review, the author chose to pause automatic continuation. The threemind automation was set to PAUSED, E67/E68/E69 remained paused, and the complete M4 boundary and active STOP were preserved. Recovered resources did not authorize automatic restart at that time. M4 and E69 were unfinished, and M6/M7 had no new scientific batch results. This is a historical record, not a current instruction.
+
+
+### 12 November 2026: Existing experimental evidence added to supplementary_v3
+
+The requested mechanism, stimulus-carrier, order, and related studies are now organized as 41 entries with 41 sources in bilingual Section S2.19, ordered chronologically and labeled with study dates. Goals, methods, statistical units, and conclusions follow the source reports. Stable identifiers, including R47/R48, and original criteria remain unchanged; this editorial work adds no experiment or execution authorization. Original v2 files are retained, with only agreed terminology normalized in existing English text. [Public edition: manuscript editing or private locator omitted.]
+
+
+13 November 2026 — Author approved temporal M5 readout and a separate 110-ms endpoint; scales remain 8/48 origins. R51h/j are prepared tools only; R51i is running. [M5 decision](../../../lab/explorations/2026-11-13-kernel61/fixed_readout/decision.en.md)
+
+
+13 November 2026 — R51 transfer apparatus counter checks were clarified; 48-source confirmation is preparation only. [R51](../../../lab/explorations/2026-11-13-kernel61/coverage.en.md)
+
+
+On 13 November 2026, the author requested an assessment of whether the default 6.1 transmission threshold should increase to preserve inertial reversal. R51m established restoration at 0.004 versus 0.0004; the default review must also consider weak cues, order expression, frozen readouts and resource costs. Frozen batches retain their configurations. No default-value comparison or default change has been made; the recommendation will be submitted to the author. [R51 default review](../../../lab/explorations/2026-11-13-kernel61/inertial_reversal/default-review.en.md)
+
+
+2026-11-13 — R51n event-order revalidation was registered and started once, record `f2a0b318-840d-51de-b58e-cba8843721a1`. Four material blocks comprise 96 teaching parents and 576 registered diagnostic copies, with separate 1/30/300-second retention conditions. Five apparatus modes produced identical final state hashes. A pre-run storage amendment losslessly compressed files: all ZIP member bytes and complete-state hashes matched in 65 apparatus states, reducing state files from 1,291,463 to 349,237 bytes while retaining originals. The first formal unit occupied about 0.95 times its historical counterpart. Production Core, defaults, curriculum, scoring and sample size are unchanged. Scientific results await analysis after the full batch. [R51n](../../../lab/explorations/2026-11-13-kernel61/order_recall/protocol.en.md)
+
+### 2026-11-21 · T10 multi-disk experiment storage
+
+Delivered local CLI, administrative UI and HTTP operations. A host with no pool retains the single-directory workflow. This host uses E first and H second, with peak-space reservations and optional placement by experiment part. Physical-disk acceptance covered a split archive and byte-identical recovery. Future embodied experiments can budget complete worlds and archive volumes before reserving space. Existing workspaces retain their locations. [Configuration and examples](../storage-migration.md)
+
+### 2026-11-21 · T10 transfers for completed experiments
+
+The host tools support incremental sync, versioned backup and restore, migration, archival and unarchival. Releasing the old copy requires another content and timestamp check. An isolated experiment made a round trip between E and H. Historical studies can now be selected individually. [Usage and recovery](../storage-migration.md)

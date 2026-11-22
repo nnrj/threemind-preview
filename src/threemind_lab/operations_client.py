@@ -183,7 +183,8 @@ class OperationsClient:
         self.close()
 
     def request(
-        self, method, path, *, body=None, content=None, params=None, headers=None, output=None, maximum=8 * 1024 * 1024
+        self, method, path, *, body=None, content=None, params=None, headers=None, output=None,
+        maximum=8 * 1024 * 1024, expected_sha256=None
     ):
         if not path.startswith("/api/v2/") or ".." in path.split("/") or "?" in path or "#" in path:
             raise ValueError("Only canonical ThreeMind API paths are accepted")
@@ -228,6 +229,8 @@ class OperationsClient:
                             raise ValueError("download exceeds configured byte budget")
                         sha.update(piece)
                         stream.write(piece)
+                if expected_sha256 is not None and (count != maximum or sha.hexdigest() != expected_sha256):
+                    raise ValueError("download differs from the published volume manifest; retained as .partial")
                 # Hard-link gives exclusive publication even if another process creates the output meanwhile.
                 import os
 

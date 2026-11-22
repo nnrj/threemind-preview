@@ -7,6 +7,7 @@ import { api, projectPath } from "./api";
 import { Button, ErrorBox, Field, Loading, useWorkspace } from "./ui";
 import { t } from "./i18n";
 import StorageAudit from "./storageAudit";
+import ExperimentStorage from "./ExperimentStorage";
 import "./dataManagement.css";
 
 type Json = Record<string, any>;
@@ -1137,6 +1138,7 @@ export function HostStorage() {
   return (
     <section className="data-panel">
       <h2>{t("存储位置")}</h2>
+      <ExperimentStorage writable={writable} />
       {overview.data && (
         <fieldset disabled={!writable}>
           <RootChange overview={overview.data} changed={changed} />

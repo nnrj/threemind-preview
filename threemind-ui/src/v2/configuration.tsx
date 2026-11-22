@@ -171,6 +171,9 @@ export const ConfigurationEditor = forwardRef<
           "threemind.continuous-memory/4",
           "threemind.continuous-memory/5",
           "threemind.continuous-memory/5.1",
+          "threemind.continuous-memory/5.2",
+          "threemind.continuous-memory/5.3",
+        "threemind.continuous-memory/6.0", "threemind.continuous-memory/6.1", "threemind.continuous-memory/6.2", "threemind.continuous-memory/6.3",
         ].includes(spec.kernel_id) &&
         ["config.propagation_limit", "config.edge_adaptation_limit"].includes(
           field.path,
@@ -205,6 +208,9 @@ export const ConfigurationEditor = forwardRef<
         "threemind.continuous-memory/4",
         "threemind.continuous-memory/5",
         "threemind.continuous-memory/5.1",
+        "threemind.continuous-memory/5.2",
+        "threemind.continuous-memory/5.3",
+        "threemind.continuous-memory/6.0", "threemind.continuous-memory/6.1", "threemind.continuous-memory/6.2", "threemind.continuous-memory/6.3",
       ].includes(next.kernel_id) &&
       !next.config.dormant_traces_enabled
     )
@@ -353,6 +359,9 @@ export const ConfigurationEditor = forwardRef<
       "threemind.continuous-memory/4",
       "threemind.continuous-memory/5",
       "threemind.continuous-memory/5.1",
+      "threemind.continuous-memory/5.2",
+      "threemind.continuous-memory/5.3",
+        "threemind.continuous-memory/6.0", "threemind.continuous-memory/6.1", "threemind.continuous-memory/6.2", "threemind.continuous-memory/6.3",
     ].includes(spec.kernel_id);
     const inactive =
       retention &&
@@ -472,6 +481,17 @@ export const ConfigurationEditor = forwardRef<
                     : t(title)}
                 </option>
               ))}
+            </select>
+          ) : item.type === "boolean" && item.nullable ? (
+            <select
+              aria-label={t(label)}
+              value={value == null ? "inherit" : value ? "true" : "false"}
+              disabled={lock}
+              onChange={(e) => patch(path, e.target.value === "inherit" ? null : e.target.value === "true")}
+            >
+              <option value="inherit">{t(item.null_label || "跟随总开关")}</option>
+              <option value="true">{t("已开启")}</option>
+              <option value="false">{t("已关闭")}</option>
             </select>
           ) : item.type === "boolean" ? (
             <span className="boolean-parameter">
@@ -612,7 +632,9 @@ export const ConfigurationEditor = forwardRef<
                 );
                 if (preset)
                   patch("config", {
-                    ...catalogue.kernel_defaults?.[spec.kernel_id],
+                    ...(["threemind.continuous-memory/6.2", "threemind.continuous-memory/6.3"].includes(spec.kernel_id)
+                      ? spec.config
+                      : catalogue.kernel_defaults?.[spec.kernel_id]),
                     ...preset.config,
                   });
               }}

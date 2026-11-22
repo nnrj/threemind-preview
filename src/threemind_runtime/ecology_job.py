@@ -30,6 +30,7 @@ class EcologyJob(Model):
     @model_validator(mode="after")
     def valid(self):
         resolve_kernel(self.kernel_id).configuration(self.core_config)
+        self.ecology = self.ecology.for_kernel(self.kernel_id)
         self.ecology.validate_world(self.world)
         if self.runtime_profile is not None:
             profile = validate_profile(self.runtime_profile)

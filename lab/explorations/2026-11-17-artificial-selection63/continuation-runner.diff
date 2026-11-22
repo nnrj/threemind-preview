@@ -1,0 +1,65 @@
+--- study.py (frozen original)
++++ continuation_study.py
+@@ -12,6 +12,8 @@
+ from uuid import uuid5
+ 
+ import ring as r
++import resume_tools
++r.execute = resume_tools.continue_execute
+ from lab.tools.study_lock import worker_lock
+ 
+ PROJECT = "d0a04159-ee0f-4200-ada9-13d5ce7197b7"
+@@ -132,8 +134,11 @@
+         return r.read(folder / "complete.json")
+     if (work / "in-flight.json").exists():
+         raise RuntimeError("prior in-flight evidence: inspect actual host before any continuation")
+-    start = time.monotonic()
++    prior_pause = r.read(work / "continuation-v2/pause-receipt.json")
++    prior_elapsed = prior_pause["population_wall_seconds_estimate"] if prior_pause["seed"] == seed else 0.
++    start = time.monotonic() - prior_elapsed
+     raw_at_start = sum(p.stat().st_size for p in work.rglob("*") if p.is_file())
++    raw_at_start -= sum(p.stat().st_size for p in folder.rglob("*") if p.is_file()) if folder.exists() else 0
+     added_bytes = 0
+     prior_wall = sum(r.read(p)["wall_seconds"] for p in (work / "populations").glob("*/complete.json"))
+     r.save(work / "in-flight.json", {"seed": seed, "pid": os.getpid(),
+@@ -148,8 +153,8 @@
+             last_check = now
+         if prior_wall + now - start > 6 * 3600:
+             raise RuntimeError("six-hour total scientific budget")
+-        if raw_at_start + added_bytes > 3 * 2**30:
+-            raise RuntimeError("3 GiB original evidence budget")
++        if raw_at_start + added_bytes > 4 * 2**30:
++            raise RuntimeError("4 GiB original evidence budget (registered engineering amendment)")
+ 
+     def life(key, **kwargs):
+         nonlocal completed, added_bytes
+@@ -220,7 +225,8 @@
+             previous = children
+     assert completed == 316
+     report = {"seed": seed, "groups": groups, "uninherited": controls,
+-              "decisions": decisions, "stages": completed, "wall_seconds": time.monotonic() - start}
++              "decisions": decisions, "stages": completed, "wall_seconds": time.monotonic() - start,
++              "wall_seconds_estimated": bool(prior_elapsed)}
+     r.save(folder / "complete.json", report)
+     # Only the transient running marker is removed; scientific originals are immutable.
+     (work / "in-flight.json").unlink()
+@@ -230,6 +236,10 @@
+ 
+ 
+ def run(work, only_seed=None):
++    amendment = r.read(work / "continuation-v2/registration.json")
++    assert amendment["pending"] == 0
++    for name, expected in amendment["sources"].items():
++        assert sha(r.HERE / name) == expected, name
+     frozen_check(work)
+     lock = worker_lock(work)
+     try:
+@@ -253,7 +263,7 @@
+ 
+ if __name__ == "__main__":
+     parser = argparse.ArgumentParser()
+-    parser.add_argument("command", choices=("register", "run", "check-selection"))
++    parser.add_argument("command", choices=("run",))
+     parser.add_argument("--work", type=Path, default=DEFAULT_WORK)
+     parser.add_argument("--seed", type=int)
+     args = parser.parse_args()

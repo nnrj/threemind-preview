@@ -585,3 +585,238 @@ E51有限试验完成：教可感知钟与现在/刚刚句式，144轮/652模拟
 后续明确提醒运行时Rust实现。协议、第一批结果及独立原件读回分别保留；后述复习中重建连接属于结果之后的只读解释。 [18](../chronicles/18-kernel53.md)
 
 2026-11-11 — R48b当前结果据已冻结课表、完整状态及独立算术核验；即时收益和迟测失败同列。迟测前连接存留、旧课中的删后重建为注明日期的事后只读解释。Rust编译、原生/wheel测试及规模性能属于工程证据，不增加科学来源数。[卷十八](../chronicles/18-kernel53.md)
+
+
+2026-11-12 — 作者本轮授权仅改6.0固定函数寻址，随后确认虚拟地址及本地提交；代码、工程检查和待定的地址复用边界分别记录。原研究证据保留。[卷十九](../chronicles/19-kernel60.md)
+
+2026-11-13 — 作者再次明确保留两种重建后信号接收方式，默认仍按地址送达；6.0完成工程验收，原生模块已安装到项目环境，旧实验与服务不动。 [卷十九](../chronicles/19-kernel60.md)
+
+2026-11-13 — R50完成8来源快速阈值验证。0.018清除弱连接但损失4/8新颖经历目标及响应，故6.0保留0.008；完整原件API核验通过。 [R50](../chronicles/19-kernel60.md)
+
+
+2026-11-13 — 作者批准《ThreeMind 6.0 全面复验计划v2》，其中明确：“默认继承持久连接状态及衰减年龄，另设年龄归零对照；后代快速活动重新初始化，内部时钟归零。”随后原话：“注意到水域实验依赖繁殖规则。这个规则可先补齐，我们此前已敲定了如何补齐。”据此实现繁殖并进行早期成本检查。编号对齐纠错、性能结果与事后定位分别保留。[计划](../../plans/kernel60-revalidation-v2.md) · [卷十九](../chronicles/19-kernel60.md)
+
+
+2026-11-13 — 作者原话：“定位耗时问题”。据此仅实施隔离工程诊断，未授权改生产内核。计时一致性、52次测量、分项成本及优化建议见[R51b](../../../../lab/explorations/2026-11-13-kernel60-revalidation/cost-profile/report.zh.md)，原件与API回执另存数据目录。
+
+
+2026-11-13 — R51c的48次工程测量与96份状态核验通过。6.1默认耗时低于5.1，作者批准按原计划规模继续科学复验。 [Decision](../../plans/kernel61-revalidation-addendum.md)
+
+
+2026-11-13 — R51d分组与历史作用复验通过，120秒弱边删除未达；R51e八来源目标阻断消除全部经历差异，匹配无损、恢复完全。两批API读回pending0。 [R51d/e](../chronicles/19-kernel60.md)
+
+
+2026-11-13 — R51f身体关联保持复验完成：192/192过程正确，目标阻断32次消失、恢复逐值一致，收敛0/240；4470文件API读回pending0。R51g八组五系统复验开始。 [R51f](../chronicles/19-kernel60.md)
+
+
+2026-11-13 — R51g五系统八来源复验：6.1联合8/8，对照均0/8；4903文件API读回pending0。R51i独立64组确认已登记并启动。 [R51g/i](../chronicles/19-kernel60.md)
+
+
+2026-11-13 — 作者批准M5过程读出，110毫秒端点另列；8/48来源规模不变。R51h/j仅工具准备，R51i仍在运行。 [R51](../chronicles/19-kernel60.md)
+
+
+2026-11-13 — R51i独立64组确认：6.1联合64/64，对照均0/64；RNN时间交互49/64通过。38,852文件API完整读回、pending0。R51h身体迁移已登记并启动，原计划其余批次保持。 [R51i](../chronicles/19-kernel60.md)
+
+
+2026-11-13 — R51h身体迁移受训192/192、未教学0/48，原包读回pending0；R51j局部移植已启动。 [R51h/j](../chronicles/19-kernel60.md)
+
+
+2026-11-13 — R51j局部移植8/8通过，1016文件API读回pending0；R51k过程读出已登记、装置通过并运行。 [R51j/k](../chronicles/19-kernel60.md)
+
+
+2026-11-13 — 作者要求当前R51k完成后，先插入R51m惯性感官反向响应原因定位，再推进R51l及其余批次。比较真实旧版/2与6.1，核对输入、过程窗口和空白参照；检验衰减、删除速度及其他有依据的候选原因。较高删除阈值仅用于研究配置，默认值和Core不改。目前仅准备，尚无结果。 [R51m](../../../../lab/explorations/2026-11-13-kernel61/inertial_reversal/decision.zh.md)
+
+2026-11-13 — R51k八来源复验完成：110毫秒输出端口读出在固定表达和连接因果两项目标均为8/8；主条件过程读出分别4/8和0/8，未达6/8。新关系连接阻断使端点新题56/64降至0/64，旧题64/64保留，恢复精确。结论是6.1保留固定个人读出器表达新学习的能力，本次过程特征未达到稳定表达目标。 2024份完整状态及1824次回答核验通过；2149文件原包和双语报告经API完整读回、pending0，记录5fbc563e-3574-52f3-b7f9-9b2eb4233d4d。未触发全轮停止条件。按作者安排，下一批先做R51m惯性感官原因定位，再进行R51l；两批此刻均未创建正式个体。 [R51k](../../../../lab/explorations/2026-11-13-kernel61/fixed_readout/report.zh.md)
+
+2026-11-13 — 作者提出慢衰减可能使瞬时连接来不及删除，要求在后续复验前定位旧惯性反向响应的改变。R51m用4个旧教材区组、5个真实版本及17配置完成1792阶段。/2、/3.1、/5.1均16/16反向，/5.3、/6.1均16/16教学方向。旧版关闭删除仍4/4区组反向；6.1换指数衰减、独立校准的较高删除阈值或二者组合均未恢复。仅把传递信号门槛从0.0004提高到0.004，就使6.1完整感官16/16恢复反向、仅关节16/16保留教学方向，4/4区组达标。故及时删边的必要性假设被否定，传递门槛的方向调节作用得到确认。测试期通过既有API关闭抑制还使旧版12/16转回教学方向；该操作包括清除抑制状态，按实际干预范围报告。 3584初末全状态、192干预状态及235712输入核验通过；原包15540文件经API完整读回，pending0，记录16c42855-1d4f-5d15-9484-94ca325a2ded。科学运行43.04分钟，私有内存峰值671.05MiB；共同80阶段的6.1耗时为5.1的1.078倍。本批没有出现身体关联丢失或触发全轮停止，下一批为R51l 48来源移植确认。默认值、生产Core、旧原件和作者论文保持。 [R51m](../../../../lab/explorations/2026-11-13-kernel61/inertial_reversal/report.zh.md)
+
+
+2026-11-13，作者要求在适当阶段评估6.1是否应提高默认传递门槛，以保留惯性感官反向响应。R51m已确认0.004相对0.0004的恢复作用；默认值评估还需比较弱提示、顺序表达、固定读出器及资源成本。当前冻结批次继续使用原配置。尚未实施默认值比较或修改默认值；形成建议后交由作者决定。 [R51m default review](../../../../lab/explorations/2026-11-13-kernel61/inertial_reversal/default-review.zh.md)
+
+
+2026-11-13 — R51l record `4058fdf3-7108-5599-ab32-ed3a0c27a5ca`, archive `a94bc32b01e861c5841190e904da666857a475a8b68e81a8b8c5ccf9ee63fb09`, API verified, pending=0. [Report](../../../../lab/explorations/2026-11-13-kernel61/transfer_confirmation/report.zh.md)
+
+
+2026-11-14 — R51n record `f2a0b318-840d-51de-b58e-cba8843721a1`, archive `c78939609d862631452ae8b6dba62b1b018ecb464492d275a5f60414248f96a9`, API verified, pending=0. English report revision 2 corrects identifier spacing only; version 1 and the original archive remain. [Report](../../../../lab/explorations/2026-11-13-kernel61/order_recall/report.zh.md)
+
+
+2026-11-14 — R51o record `34ce81e3-3afa-5ec2-88b6-734143071273`, archive `9c5abd915a6df52b2049a2061415d2130166cac2f2748175231a6ba1af13f549`, 6896 members, API verified, pending=0. [Report](../../../../lab/explorations/2026-11-13-kernel61/order_exchange/report.zh.md)
+
+
+2026-11-14 — R51p record `f260db39-9864-5d43-8a48-d3f4da1ff0fb`, archive `3b5c37c16649485384ffdd71a2c6378a93c3a5651a865db70a2dc0b4013a747a`, 20300 members, API verified, pending=0. [Report](../../../../lab/explorations/2026-11-13-kernel61/order_timing/report.zh.md)
+
+
+2026-11-14 — R51q record `3513f983-f694-5d94-a720-bc90a50fcd95`, archive `adf0422423b87d0ce9129ed26ef584f8f9bd4288250eeedacb520f2182a70543`, 9073 members, API verified, pending=0. [Report](../../../../lab/explorations/2026-11-13-kernel61/order_reference/report.zh.md)
+
+
+2026-11-14 — R51r record `2a8234ce-4314-5b5d-8add-8af1df49da62`, archive `ef2c7f15de8835b22a84edcc5e200424617626867da1ad63c0fe453330eb14b9`, 7768 members; API verified, pending=0. [Report](../../../../lab/explorations/2026-11-13-kernel61/body_formation/report.zh.md)
+
+
+2026-11-14 — R51s record `29b91273-2889-53d2-8f36-2334a8e4284b`, archive `9da3d10e2102458d2e5ee352789b7be8b021091228b93fb953b3714e9c876a1c`, 12558 members; API verified, pending=0. [Report](../../../../lab/explorations/2026-11-13-kernel61/body_recovery/report.zh.md)
+
+2026-11-14 — R51t record `c4dda7ad-66fc-51de-8ad8-d1a31fe8d61c`, archive `0daa2a383c6d72f71155e95f11876bb49e8d17f5d8f7e83f8dcef3efa99e693d`, 10190 members, 1303663193 bytes; API verified, pending=0, scientific_stop=true. [Report](../../../../lab/explorations/2026-11-13-kernel61/memory_timescales/report.zh.md)
+
+2026-11-14 — R51t1：持续活动原因定位完成. Record `703d9ec6-df98-5364-85cf-5b9b9febc888`, archive `c1462e642d481824f97b539cc5c82c7dd6944f42eea0859244eecde319717547`, 6792 members, 407135545 bytes; full API download and member verification passed, pending=0, scientific_stop=true. [Report](../../../../lab/explorations/2026-11-13-kernel61/persistent_cause/report.zh.md)
+
+Historical-identity correction: E12's 592 originals identify memory/1. R51t's old /2 label was corrected by dated errata and appended API notes, preserving the prior report and archive. [Erratum](../../../../lab/explorations/2026-11-13-kernel61/memory_timescales/errata-20261114.zh.md).
+
+2026-11-14 — 三项动力学问题优先于全面复验. [Decision and protocol](2026-11-14-dynamics-function.md)
+
+2026-11-14 — R51t2–t5: complete API readback, pending=0. R51t4 record `8db14f2a-0c67-5b12-b85c-2a998ffc485d`, archive `2ab24341a015bdf4a1c76664b81db08fbd048ea58bb52fd8c550df2182a2783f` (15808 members), plus preserved-original dated revision 2. R51t5 record `394eb433-4ec0-5ea1-bae4-094ae50f3da2`, archive `e02c09a01f7deeca5c4e4226445d2b1d9b21aee20b73591cf2a676972b546dfe` (934 members). [Report](../../../../lab/explorations/2026-11-13-kernel61/dynamics_function/report.zh.md)
+
+## 2026-11-14：R51t6定位前缀关系的强化与遗忘作用
+
+Record `118a926b-c65d-5834-a0d6-b8fd8e67f73a`; archive `7a7d27825b7c8a2c9014f562250d71d8b40ddb8e2c80acef26f086ecdc0b89c0`, 1131 members, 63324423 bytes. Full API readback and member verification passed; pending=0. [Report](../../../../lab/explorations/2026-11-13-kernel61/prefix_components/report.zh.md) · [Authorization audit](../../../../lab/explorations/2026-11-13-kernel61/prefix_components/novelty-authorization.zh.md).
+
+R51t3、R51t5另附机制说明修订2，原文、分数及原包保留；回执分别为各数据目录的publication/mechanism-description-r2.json。
+
+
+## 2026-11-14：6.2选项实现完成，前缀恢复未达标
+
+作者当日明确授权、配置取舍与工程/功能验收分别记录。 [Decision](2026-11-14-kernel62.md) · [Report](../../../../lab/explorations/2026-11-14-kernel62/report.zh.md) · [Summary](../../../../lab/explorations/2026-11-14-kernel62/verification-summary.json)
+
+
+## 2026-11-15：R51t7在6.2研究副本中恢复前缀区分
+
+Record `9764684a-2060-5999-b604-7b6a9d6f2ca4`; archive `852af222befe322d93426aa8dec0a2e26ff5b0ff0bafb64196a063d103d08776`, 542 members, 235016326 bytes. API readback verified, pending=0. [Report](../../../../lab/explorations/2026-11-14-kernel62/prefix_recovery/report.zh.md).
+
+## 2026-11-15：R51t8确认资源释放前筛选的因果作用
+
+作者本轮“继续定位”的授权、R51t8事前协议、正反干预结果及原包回执已收录；旧报告和旧标准保留。 [Source](2026-11-14-kernel62.md) · [Report](../../../../lab/explorations/2026-11-14-kernel62/prefix_precheck/report.zh.md)
+
+## 2026-11-15：R51t9资源补给与发送门槛对照完成
+
+作者关于资源释放顺序、两类门槛及生物学动机的本轮讨论，原协议、主批中另行事前登记的增补，以及R51t9结果和交付回执已收录。先前报告和标准保留。 [Source](2026-11-14-kernel62.md) · [Report](../../../../lab/explorations/2026-11-14-kernel62/prefix_resources/report.zh.md)
+
+## 2026-11-15：R51t10修复与中断证据
+
+两个6.2默认开关和旧持续活动核查已交付；新科学复验中断，失败证据保留，恢复待授权。 [Source](2026-11-14-kernel62.md)
+
+## 2026-11-15：R51t10续跑结项，真实持续活动与前缀结论保留
+
+92阶段及8个测量补充完成。局部到期修复消除存活标记滞留；短抑制条件的300秒真实活动及成功研究配置的前缀区分保留。默认前缀配置仍未恢复。原件1206成员读回，pending=0；旧中断证据保留。 [Source](2026-11-14-kernel62.md)
+
+
+## 2026-11-15：R51t11恢复前缀，并定位抑制对连接保持的隐含作用
+
+前缀恢复方案及单字段因果对照完成，新编码2/2；同配置300秒持续活动0/2。原件1826成员读回，pending=0。正式内核与默认不改。 [Source](2026-11-14-kernel62.md)
+
+## 2026-11-15：R51t12分离连接状态，前缀未恢复
+
+6.2分离选项、总子开关及存档继承已实现，默认共用。72阶段各组0/2，未恢复前缀；全部分离有约49.3%时间和67.1%快照增量。930成员读回，pending=0，主线仍暂停。
+
+[Report](../../../../lab/explorations/2026-11-14-kernel62/separated_signals/report.zh.md)
+
+## 2026-11-15：R51t13完成6.3简化，前缀恢复预期未达成
+
+6.2/6.3默认不更新抑制使用时间；6.3取消状态分离，逐连接默认。72阶段各前缀组0/2，按比例没有取得能力收益；等状态实现快约5.4%，按比例基准慢约46%。929成员读回，pending=0，主线暂停。
+
+[Report](../../../../lab/explorations/2026-11-15-kernel63/report.zh.md)
+
+## 2026-11-15：R51t14独立突触资源已实现，前缀区分未恢复
+
+6.3新增独立兴奋／抑制突触资源选项，默认仍共享。保持抑制学习、权重及学习记录共享，48阶段中四种配置的共享／独立组均0/2教材通过。96状态、32过程核验通过，共享组48边界与R51t13数值一致。基准耗时接近，独立资源使存档增约20.1%、峰值提交内存增约5%。692工程检查通过，790成员原包完整读回，pending=0；全面复验仍暂停。
+
+[Report](../../../../lab/explorations/2026-11-15-kernel63/resources/report.zh.md)
+
+## 2026-11-15：R51t15复现前缀区分，拆清资源与抑制学习的作用
+
+6.3隔离研究完整复现R51t11成功组合，两套教材均通过，过程分数与旧原件精确一致。独立资源与抑制不更新最近传导时间同时开启仍0/2；抑制绕过资源、关闭显式抑制学习的组合为2/2，抑制连接门槛0和0.0004均通过。单独恢复抑制对共用权重、稳定度、次数及最近触达记录的更新，各使成功组合降为0/2；短时增强、资格迹分别恢复仍2/2。选定成功／失败组合在新编码中再次为2/2与0/2。132阶段、264完整状态、88过程已核验，1293成员原包读回，pending=0。正式内核和默认未改；全面复验继续暂停。
+
+[Report](../../../../lab/explorations/2026-11-15-kernel63/prefix_causes/report.zh.md)
+
+## 2026-11-15：R51t16正式实现抑制绕过资源，分别验证前缀与持续活动
+
+6.3新增抑制绕过突触资源开关，默认开启；旧存档缺字段按关闭恢复，历史内核保持不变。保留但关闭独立资源选项的同态基准耗时变化为−0.3%至+2.5%，故继续保留且默认关闭。72阶段、144完整状态及36过程核验通过：此前完整前缀组合在正式6.3恢复2/2，与R51t15分数完全一致；关闭耗竭并开启易化的另一配置保持300秒活动2/2，但前缀0/2。实际新默认两项均0/2，没有受测配置同时通过。263工程检查通过，946归档成员API完整读回，pending=0。128节点密集基准中，绕过开启使逐连接模式耗时增至13.50倍；该动力学成本与保留选项的开销分别报告。全面复验和论文继续暂停。
+
+[Report](../../../../lab/explorations/2026-11-15-kernel63/resource_bypass/report.zh.md)
+
+## 2026-11-15：6.3恢复三项6.1默认，保留局部到期修复
+
+作者要求6.3恢复6.1的资源处理与使用记录，随后明确保留微弱激活到期结算。本轮交付默认为：资源释放前检查关闭、抑制更新最近传导时间开启、抑制绕过资源关闭；独立资源仍关闭，到期结算保持开启。最终设置的前置检查耗时收益为8.40%，未达到事前20%标准。6.3默认相对6.1的四材料耗时变化为−1.78%至+7.10%。关闭到期修复的兼容配置通过72次逐边界数值比较，基准24对末态相同；实际默认仍保留活动集合及时结算的行为差异，原归零下限与1秒静默期不变。654个不同工程测试通过，2项数据库检查因独立测试库未运行而跳过。修改前10份6.3状态和19个历史实现文件保持不变。Python/Rust、独立运行时及配置目录已同步；原生模块已安装，服务未重启，全局版本仍6.1。旧科学成绩保留，全面复验与论文继续暂停。
+
+[Report](../../../../lab/explorations/2026-11-15-kernel63/default_alignment/report.zh.md)
+
+## 2026-11-15：性能复核定位微弱输入的维护成本
+
+完成六种负载及追加原因对照，核验235份完整末态。普通Rust约慢3%、Python约慢6%；微弱输入存在显著维护成本，定位为结算与删除重建。Rust分批确认精度未达的结果原样保留，未改判据。内核默认未改，优化仅为建议。
+
+[Report](../../../../lab/explorations/2026-11-15-kernel63/performance_comparison/report.zh.md)
+
+## 2026-11-15：作者授权在6.3全部重跑，R63a已登记启动
+
+作者明确要求重跑原计划v2全部实验及6.1复验期间追加的研究。本决定取代此前有限补验的待决建议；旧建议、旧报告与原件保留。新建6.3个体，旧样本量、必要对照和科学判据保持。当前默认与6.1共有参数一致，并保留微弱激活及时结算修复；不改生产机制或全局版本。基础135项工程测试及12项寻址/在途检查通过，刺激体R63a已完成API登记并单次启动，264条件尚在计算中，没有提前宣布科学结论。启动E盘空闲58.85 GiB，分批冻结完整预算；新不利矛盾或严重性能下降保全后讨论。
+
+[Coverage](../../../../lab/explorations/2026-11-15-kernel63-revalidation/coverage.zh.md)
+
+
+## 2026-11-16：R63e的64组自主活动确认结项
+
+ThreeMind 6.3的64个来源全部满足四项自主活动判据，四种对照的联合达标数均为0/64； 固定循环网络时间交互49/64，超过48/64单项门槛，按原规则记通过。 四组联合率差均为100个百分点，Holm校正P=4.3368×10⁻¹⁹。 33,920份完整状态、20,480次探测、1,280组反馈重放及128条循环网络教学历史核验通过，9097项科学汇总数值与6.1完全一致。 正式计算92.19分钟、私有峰值650.55 MiB，未见明显变慢。 原包38854成员经科研API完整读回，pending=0。 本批确认了6.3保留经历组织自主活动的四项联合能力。 没有新科学停止项，继续R63f身体迁移； [公开版删节：论文编修或私有定位信息。]
+
+[R63e 报告](../../../../lab/explorations/2026-11-15-kernel63-revalidation/criteria_confirmation/report.zh.md) · [API](../../../../lab/explorations/2026-11-15-kernel63-revalidation/criteria_confirmation/delivery.json) · [coverage](../../../../lab/explorations/2026-11-15-kernel63-revalidation/coverage.zh.md)
+
+
+## 2026-11-16：R63f身体迁移复验结项
+
+受训过程192/192保留教学方向，未教学48/48无可测方向；原角度、改变角度及改变重力均成立。原收敛时点目标读出仍0/240，惯性感官旧反向优势仍未恢复，二者与6.1一致。560新状态、40完整父体及240组过程配对通过核验，积分独立算术最大误差6.94×10⁻¹⁸；9120项数值与6.1最大差异4.34×10⁻¹⁹，分类全同。计算307.14秒、私有峰值626.93 MiB，原件实际分配66.63 MiB。身体经历跨物理条件表达的能力得到复验，没有新不利矛盾；继续8来源连接转移。 原包2307成员经API完整读回，pending=0。
+
+[R63f](../../../../lab/explorations/2026-11-15-kernel63-revalidation/body_transfer/report.zh.md) · [API](../../../../lab/explorations/2026-11-15-kernel63-revalidation/body_transfer/delivery.json) · [coverage](../../../../lab/explorations/2026-11-15-kernel63-revalidation/coverage.zh.md)
+
+
+## 2026-11-16：R63g八来源连接转移结项
+
+8/8来源通过主要转移判据。目标完整连接包及持久状态包均使48/48目标选择转向供体，保留48/48无关响应；匹配移植只改变另一关系，换回原连接恢复完整状态和响应。16份快速状态交换均为零改动，照实记0/8通过。实际连接包改变的边内容只有目的端，将作用进一步定位于连接关系。816状态、672探测的独立核验通过；157项科学汇总数值与6.1完全相同。计算149.83秒，私有峰值550.75 MiB，原件14.72 MiB，无新停止项。继续固定过程读出器实验。 原包1018成员经API完整读回，pending=0。
+
+[R63g](../../../../lab/explorations/2026-11-15-kernel63-revalidation/transfer/report.zh.md) · [API](../../../../lab/explorations/2026-11-15-kernel63-revalidation/transfer/delivery.json) · [coverage](../../../../lab/explorations/2026-11-15-kernel63-revalidation/coverage.zh.md)
+
+
+## 2026-11-16：R63u保存、提取与再学习测量准备
+
+原X2的32来源、256次诊断过程经只读算术核验，原提示分离及短暂表达判定均复现。旧已教和未教个体全部在最少两轮达标，因此不能据此判断是否节省教学。新协议保留原保持测验，按两种现有6.3保持配置配对比较；再学习改为先用独立材料校准过程响应标准，最多16轮，校准失败则明确记录测量不足。实际保存、休眠及图中可见的连接分别统计。当前只完成协议和工具准备，未登记或创建个体，等待R63q；不改变Core、旧原件或旧判据。
+
+[R63u](../../../../lab/explorations/2026-11-15-kernel63-revalidation/retention_relearning/preparation.zh.md) · [protocol](../../../../lab/explorations/2026-11-15-kernel63-revalidation/retention_relearning/protocol.zh.md)
+
+
+## 2026-11-16：首次响应公式的6.3只读开发核查
+
+按6.3实际规则计算已结项资料中的首次响应，64/64方向相同，最大幅度差1.7347×10⁻¹⁸；属于回顾性公式开发，不是独立预测实验。M2原8＋8来源的正式设计和执行仍待完成。
+
+[development](../../../../lab/explorations/2026-11-15-kernel63-revalidation/resource_prediction/development.zh.md)
+
+
+## 2026-11-16：R63h固定读出复验结项，按作者要求暂停接续
+
+8/8来源在110毫秒输出端口条件中通过固定表达及连接因果判据； 过程条件分别4/8、0/8，未达到预定6/8门槛。 端点新题56/64； 关闭可塑性或阻断新连接均0/64，旧题64/64保留，恢复逐题精确。 2024完整状态及1824回答核验通过，科学汇总与6.1分类一致，数值最大差异0。 计算3075.83秒、私有峰值863.49 MiB，没有新不利矛盾。 内核新学习可经固定读出器表达的结论得到复验； 本次过程读出组合的已知不足也保留。 作者要求，因此本批交付后暂停，R63i及其余实验未启动。 [公开版删节：论文编修或私有定位信息。]  原包2131成员经API完整读回，pending=0。
+
+[R63h](../../../../lab/explorations/2026-11-15-kernel63-revalidation/fixed_readout/report.zh.md) · [API](../../../../lab/explorations/2026-11-15-kernel63-revalidation/fixed_readout/delivery.json) · [coverage](../../../../lab/explorations/2026-11-15-kernel63-revalidation/coverage.zh.md)
+
+
+## 2026-11-17：新人工选择实验已登记执行
+
+作者明确授权用6.3检验从亲代表现出发的人工选择。AS63-01固定区域，使用完整状态副本评估候选本身，再让入选原体按birth/2繁殖；16独立群体、三代、相反方向及随机选择，逐代比较全部候选，并设不继承内核状态的匹配对照。AS63-02依后续授权另行登记布局交换和动作重放，使用全部G2候选。装置检查通过，科学运行尚未结束；两项登记分别冻结，不改旧证据或其他暂停批次。
+
+[AS63](2026-11-17-artificial-selection.md)
+
+
+## 2026-11-18：AS63人工选择及布局对照结项
+
+主实验AS63-01的16群体、5056段过程完成并核验。部分亲子倾向一致，双向两代保留为0/16；定向选择相对随机选择分别增加0.042和0.127个百分点，逐代增强及相对空白内核的继承收益也均未达预定标准。接近50%区域占据的持续绕圈行为完整保留。
+
+布局对照AS63-02的768段过程也已完成。实时控制相对旧动作重放的目标区域停留比例差，两个选择方向分别为-23.216、+23.297个百分点；预定双向目标未达到。具体方向、区间及判据见独立报告，布局结果不改变主实验评分。
+
+两批原包分别有26616和3954个成员，经本地科研API完整下载后逐成员校验；双语报告读回一致，两条记录均已结项，pending=0。此次没有改动生产内核、旧实验、当前论文或其他暂停批次。
+
+[AS63](2026-11-17-artificial-selection.md)
+
+## 2026-11-18：AS63-03定位旧环形外设的编号依赖
+
+[AS63-03](2026-11-18-ring-mechanism-comparison.md)
+
+## 2026-11-18：重复刺激无需更换入口也能留下时间差异
+
+[RT63-01](2026-11-18-repeat-timing.md)
+
+2026-11-21，多盘存储的实现与验收。配置规则和调用方式见[宿主机指南](../../storage-migration.md)，单目录兼容、容量分配、换盘和分卷回读的检验见[存储测试](../../../../tests_v2/test_experiment_storage.py)。
+
+2026-11-21，已完成实验的同步、备份、迁移与归档。[实验转移实现](../../../../src/threemind_lab/experiment_transfers.py)、[隔离与实盘测试](../../../../tests_v2/test_experiment_transfers.py)及[使用方法](../../storage-migration.md)。

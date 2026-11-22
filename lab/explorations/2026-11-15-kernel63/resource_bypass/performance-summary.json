@@ -1,0 +1,210 @@
+{
+  "same_numerical_states": true,
+  "binaries": {
+    "baseline": "52d6174b5eb09990eed7651b058098f8806b86ae91287623ae97aa9138435b1a",
+    "current": "62c29fc6e216818e931c73d2d8b4f589188c9fed037758283e61967ac21b8cf1"
+  },
+  "results": [
+    {
+      "nodes": 32,
+      "distribution": "per-connection",
+      "bypass": true,
+      "first": {
+        "baseline": {
+          "wall_seconds": 0.19717790000140667,
+          "cpu_seconds": 0.203125,
+          "peak_working_set_bytes": 37236736,
+          "peak_commit_bytes": 27222016,
+          "snapshot_bytes": 617897
+        },
+        "current": {
+          "wall_seconds": 0.20215389999793842,
+          "cpu_seconds": 0.203125,
+          "peak_working_set_bytes": 37462016,
+          "peak_commit_bytes": 27516928,
+          "snapshot_bytes": 617973
+        },
+        "wall_ratio": 1.0252360938852492,
+        "cpu_ratio": 1.0
+      },
+      "repeat": null,
+      "large_degradation": false
+    },
+    {
+      "nodes": 32,
+      "distribution": "per-connection",
+      "bypass": false,
+      "first": {
+        "baseline": {
+          "wall_seconds": 0.1552007999853231,
+          "cpu_seconds": 0.15625,
+          "peak_working_set_bytes": 37560320,
+          "peak_commit_bytes": 27729920,
+          "snapshot_bytes": 618299
+        },
+        "current": {
+          "wall_seconds": 0.15897559997392818,
+          "cpu_seconds": 0.15625,
+          "peak_working_set_bytes": 37650432,
+          "peak_commit_bytes": 27754496,
+          "snapshot_bytes": 618375
+        },
+        "wall_ratio": 1.024322039505995,
+        "cpu_ratio": 1.0
+      },
+      "repeat": null,
+      "large_degradation": false
+    },
+    {
+      "nodes": 32,
+      "distribution": "weight-proportional",
+      "bypass": true,
+      "first": {
+        "baseline": {
+          "wall_seconds": 0.3044450999586843,
+          "cpu_seconds": 0.296875,
+          "peak_working_set_bytes": 37560320,
+          "peak_commit_bytes": 27914240,
+          "snapshot_bytes": 616890
+        },
+        "current": {
+          "wall_seconds": 0.3083244999870658,
+          "cpu_seconds": 0.3125,
+          "peak_working_set_bytes": 37781504,
+          "peak_commit_bytes": 27901952,
+          "snapshot_bytes": 616966
+        },
+        "wall_ratio": 1.0127425274011899,
+        "cpu_ratio": 1.0526315789473684
+      },
+      "repeat": null,
+      "large_degradation": false
+    },
+    {
+      "nodes": 32,
+      "distribution": "weight-proportional",
+      "bypass": false,
+      "first": {
+        "baseline": {
+          "wall_seconds": 0.22387519996846095,
+          "cpu_seconds": 0.21875,
+          "peak_working_set_bytes": 37560320,
+          "peak_commit_bytes": 27914240,
+          "snapshot_bytes": 618284
+        },
+        "current": {
+          "wall_seconds": 0.22725960001116619,
+          "cpu_seconds": 0.21875,
+          "peak_working_set_bytes": 37830656,
+          "peak_commit_bytes": 28069888,
+          "snapshot_bytes": 618360
+        },
+        "wall_ratio": 1.0151173512884948,
+        "cpu_ratio": 1.0
+      },
+      "repeat": null,
+      "large_degradation": false
+    },
+    {
+      "nodes": 128,
+      "distribution": "per-connection",
+      "bypass": true,
+      "first": {
+        "baseline": {
+          "wall_seconds": 12.089189899968915,
+          "cpu_seconds": 12.09375,
+          "peak_working_set_bytes": 142258176,
+          "peak_commit_bytes": 143306752,
+          "snapshot_bytes": 9956570
+        },
+        "current": {
+          "wall_seconds": 12.125625799992122,
+          "cpu_seconds": 12.125,
+          "peak_working_set_bytes": 143986688,
+          "peak_commit_bytes": 144998400,
+          "snapshot_bytes": 9956646
+        },
+        "wall_ratio": 1.0030139240366553,
+        "cpu_ratio": 1.0025839793281655
+      },
+      "repeat": null,
+      "large_degradation": false
+    },
+    {
+      "nodes": 128,
+      "distribution": "per-connection",
+      "bypass": false,
+      "first": {
+        "baseline": {
+          "wall_seconds": 0.8794932999880984,
+          "cpu_seconds": 0.875,
+          "peak_working_set_bytes": 147660800,
+          "peak_commit_bytes": 148451328,
+          "snapshot_bytes": 9656113
+        },
+        "current": {
+          "wall_seconds": 0.8979793000034988,
+          "cpu_seconds": 0.890625,
+          "peak_working_set_bytes": 148615168,
+          "peak_commit_bytes": 149569536,
+          "snapshot_bytes": 9656189
+        },
+        "wall_ratio": 1.0210189207986582,
+        "cpu_ratio": 1.0178571428571428
+      },
+      "repeat": null,
+      "large_degradation": false
+    },
+    {
+      "nodes": 128,
+      "distribution": "weight-proportional",
+      "bypass": true,
+      "first": {
+        "baseline": {
+          "wall_seconds": 0.91454289999092,
+          "cpu_seconds": 0.921875,
+          "peak_working_set_bytes": 147660800,
+          "peak_commit_bytes": 148619264,
+          "snapshot_bytes": 9656297
+        },
+        "current": {
+          "wall_seconds": 0.9115532000432722,
+          "cpu_seconds": 0.921875,
+          "peak_working_set_bytes": 148959232,
+          "peak_commit_bytes": 150073344,
+          "snapshot_bytes": 9656373
+        },
+        "wall_ratio": 0.9967309352599234,
+        "cpu_ratio": 1.0
+      },
+      "repeat": null,
+      "large_degradation": false
+    },
+    {
+      "nodes": 128,
+      "distribution": "weight-proportional",
+      "bypass": false,
+      "first": {
+        "baseline": {
+          "wall_seconds": 0.9024219999555498,
+          "cpu_seconds": 0.90625,
+          "peak_working_set_bytes": 147660800,
+          "peak_commit_bytes": 148692992,
+          "snapshot_bytes": 9655128
+        },
+        "current": {
+          "wall_seconds": 0.9034089000197127,
+          "cpu_seconds": 0.90625,
+          "peak_working_set_bytes": 148959232,
+          "peak_commit_bytes": 150073344,
+          "snapshot_bytes": 9655204
+        },
+        "wall_ratio": 1.001093612593899,
+        "cpu_ratio": 1.0
+      },
+      "repeat": null,
+      "large_degradation": false
+    }
+  ],
+  "retain_optional_pool": true
+}

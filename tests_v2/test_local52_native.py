@@ -17,7 +17,7 @@ def test_registered_native_route_preserves_52_and_global_default():
     key = "threemind.continuous-memory/5.2"
     descriptor = resolve_kernel(key)
     assert descriptor.backends == ("reference", "native")
-    assert DEFAULT_KERNEL == "threemind.continuous-memory/3"
+    assert DEFAULT_KERNEL == "threemind.continuous-memory/6.1"
     assert select_execution(key, default="native") == {"backend": "native"}
     e = descriptor.create(backend="native")
     assert type(e) is NativeLocal52Engine

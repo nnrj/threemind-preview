@@ -202,8 +202,9 @@ def test_configuration_variants_and_restore(backend, extra):
         b = resolve_kernel(KERNEL_ID).create(state=b.capture_state(), backend=backend)
 
 
-def test_global_default_unchanged_and_version_definition():
-    assert DEFAULT_KERNEL == "threemind.continuous-memory/3"
+def test_global_default_and_version_definition():
+    assert DEFAULT_KERNEL == "threemind.continuous-memory/6.1"
+    assert Local53Config().decay_curve == "inverse-logarithmic"
     assert (
         make().definition(Local53Config())
         == resolve_kernel(KERNEL_ID).create(backend="native").capture_state().to_dict()["definition"]

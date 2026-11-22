@@ -1,0 +1,24 @@
+{
+  "schema": "threemind.prefix-precheck-artifact-locations/1",
+  "study": "R51t8",
+  "work": "E:\\ThreeMindData\\experiments\\2026-11-13-kernel60-revalidation\\prefix-precheck62-v1",
+  "resource_id": "kernel60-revalidation-20261113",
+  "project_id": "d0a04159-ee0f-4200-ada9-13d5ce7197b7",
+  "record_id": "9e626bd1-2fee-501a-bf0f-ec3c08309496",
+  "archive_member": "prefix-precheck62-v1/originals.zip",
+  "archive_sha256": "76e2a67409855bfddd596fd8ee58e093e81e81b59a926b8d0f8036079078cb51",
+  "archive_bytes": 68903582,
+  "manifest_members": 402,
+  "analysis_sha256": "7a4d4a9ffb4c7ddf20f9f1c2b410dcc7631af45955c66ef1e0b3b3a0155d5a3c",
+  "publication_coverage": "verified",
+  "pending": 0,
+  "new_stages": 30,
+  "reused_stages": 30,
+  "material_blocks": 2,
+  "decision": "Pre-release screening has a causal role. Recovery requires the demonstrated inhibition/threshold combination. Production kernels and defaults unchanged.",
+  "reports": [
+    "lab/explorations/2026-11-14-kernel62/prefix_precheck/report.zh.md",
+    "lab/explorations/2026-11-14-kernel62/prefix_precheck/report.en.md"
+  ],
+  "data_boundary": "States, detailed trajectories and original packages remain outside Git; this file contains provenance and aggregate facts only."
+}

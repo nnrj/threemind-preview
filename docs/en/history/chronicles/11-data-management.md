@@ -81,3 +81,13 @@ The new rule follows GitHub's ordinary file limits: above 50 MiB warns without b
 
 > **Public-edition edit (2026-11-11; source lines 81-86):** Manuscript text, writing/submission discussion or links to non-public manuscript documents are omitted. Where a paragraph mixed these with research information, the research information is retained in this public extract. The complete source remains unchanged.
 
+
+## 2026-11-21 · New experiments can use multiple disks
+
+After connecting a portable SSD, the author wanted a large experiment to make use of free space across disks. The allocator now considers directory priority, directory quotas and minimum free space. It keeps a whole experiment together by default. A study can explicitly split worlds, batches or archive volumes. This workstation uses E first and H second. An isolated acceptance check wrote two ZIP segments to E and H, recovered a 1,065,576-byte original onto H and verified its SHA-256. This was a storage-tool delivery. [Usage](../../storage-migration.md)
+
+## 2026-11-21 · Moving completed experiments to removable storage
+
+The author wanted to reclaim space on a run disk while keeping finished experiments accessible by name. The storage tools now provide replicas, versioned backup and restore, migration, archival and unarchival. In an isolated round trip, the host synced an experiment from E to H, reused the verified replica for archival, released the old copy and restored it to E. The checks covered contents, empty directories, and NTFS creation and modification times. [Operator guide](../../storage-migration.md)
+
+The author clarified that archival normally frees space on the run disk. The page now suggests a directory on a different physical disk first and also permits an explicit same-disk destination.

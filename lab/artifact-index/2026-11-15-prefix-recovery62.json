@@ -1,0 +1,23 @@
+{
+  "schema": "threemind.prefix-recovery-artifact-locations/1",
+  "study": "R51t7",
+  "work": "E:\\ThreeMindData\\experiments\\2026-11-13-kernel60-revalidation\\prefix-recovery62-v1",
+  "resource_id": "kernel60-revalidation-20261113",
+  "project_id": "d0a04159-ee0f-4200-ada9-13d5ce7197b7",
+  "record_id": "9764684a-2060-5999-b604-7b6a9d6f2ca4",
+  "archive_member": "prefix-recovery62-v1/originals.zip",
+  "archive_sha256": "852af222befe322d93426aa8dec0a2e26ff5b0ff0bafb64196a063d103d08776",
+  "archive_bytes": 235016326,
+  "manifest_members": 542,
+  "final_analysis_sha256": "a3cfdecfba0b682a088923bcdb0924c50001ce6e6827c71fd5fa054a53f040a5",
+  "publication_coverage": "verified",
+  "pending": 0,
+  "scientific_stages": 94,
+  "material_blocks": 2,
+  "decision": "Weight reinforcement switches default on. Complete emission replacement restores prefix discrimination in isolated 6.2 derivatives; production transmission unchanged pending author decision.",
+  "reports": [
+    "lab/explorations/2026-11-14-kernel62/prefix_recovery/report.zh.md",
+    "lab/explorations/2026-11-14-kernel62/prefix_recovery/report.en.md"
+  ],
+  "data_boundary": "States, process records and original packages remain outside Git. This index contains only provenance, hashes and aggregate counts."
+}

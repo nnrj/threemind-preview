@@ -1,4 +1,10 @@
-# Public preview extraction — 2026-11-11
+# Public preview releases
+
+## 2026-11-22
+
+The source snapshot now corresponds to `b1ea13db51efdf5abbdcfad9f948649a9506960e`. It includes kernels 6.0–6.3, the associated historical comparisons, the r3 experimental scripts, and the paused aquatic studies. [Study index](STUDIES.json) · [Source checksums](SOURCE_MANIFEST.json) · [Dataset scope](DATA_AVAILABILITY.md).
+
+## Initial public preview — 2026-11-11
 
 The following paragraphs record the initial extraction; the supplement below updates its scope.
 

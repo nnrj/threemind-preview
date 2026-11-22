@@ -1,0 +1,51 @@
+{
+  "kernel": "threemind.continuous-memory/6.2",
+  "material_blocks": 2,
+  "configurations_per_backend": 4,
+  "stages_per_backend": 24,
+  "saved_states": 48,
+  "processes": 32,
+  "frame_count_per_process": 1502,
+  "maximum_process_backend_difference": 2.168404344971009e-19,
+  "results": [
+    {
+      "retention": "adaptive-half-life",
+      "novelty": "arrival-window",
+      "blocks": 2,
+      "reference": 0,
+      "native": 0
+    },
+    {
+      "retention": "adaptive-half-life",
+      "novelty": "immediate",
+      "blocks": 2,
+      "reference": 0,
+      "native": 0
+    },
+    {
+      "retention": "stability",
+      "novelty": "arrival-window",
+      "blocks": 2,
+      "reference": 0,
+      "native": 0
+    },
+    {
+      "retention": "stability",
+      "novelty": "immediate",
+      "blocks": 2,
+      "reference": 0,
+      "native": 0
+    }
+  ],
+  "materials_sha256": {
+    "short/train-0": "14facb69e601c49bed202a95d858c80d438007de7ea672444a3727c3453d044d",
+    "history/s0/101/d1/AB": "026950b00e791617405ec4996f16cb047256918fa1c3dab2f51ef7912b781bb7",
+    "history/s0/101/d1/DB": "555d1b5a01e0e9bfacdcde41538dcea2238146dd8a94dd861c5550ad67bd07a5",
+    "short/train-1": "6578585859cdae03059af0bbb86fbd0e202d8b5ab09663e06122399f46f40345",
+    "history/s1/101/d1/AB": "1a593daa51c0edaf0bd3a6cadf98bc045d312b3c88442cc4593ac94631d84c6c",
+    "history/s1/101/d1/DB": "28bf9b6adf9167b966eb2a1e72ce01325fd039ecc0e89d9aca003e5b74433548"
+  },
+  "contract_sha256": "1cb0e314e5955039bb89659e7827b72d420aaea5479f41b14b88df08b707d28e",
+  "results_sha256": "2c6d1615be7aadd13058602ef1c2cbc315c4c4412afbd64deaf66506595fb6a3",
+  "wall_seconds_including_observation_and_saving": 3347.410046200006
+}

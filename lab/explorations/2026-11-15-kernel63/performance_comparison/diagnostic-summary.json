@@ -1,0 +1,446 @@
+{
+  "cases": {
+    "native-weak128": {
+      "00": {
+        "expiry": false,
+        "retain": false,
+        "median_seconds": 0.014508542501425836,
+        "nodes": 129,
+        "audit": {
+          "edge_visits": 0,
+          "edges_awakened": 0,
+          "edges_deleted": 0,
+          "expiry_checks": 0,
+          "node_visits": 6240,
+          "nodes_awakened": 0,
+          "nodes_deleted": 0,
+          "scan_visits": 0
+        }
+      },
+      "10": {
+        "expiry": true,
+        "retain": false,
+        "median_seconds": 0.019508644998131784,
+        "nodes": 1,
+        "audit": {
+          "edge_visits": 0,
+          "edges_awakened": 0,
+          "edges_deleted": 0,
+          "expiry_checks": 9600,
+          "node_visits": 15840,
+          "nodes_awakened": 0,
+          "nodes_deleted": 4800,
+          "scan_visits": 0
+        }
+      },
+      "01": {
+        "expiry": false,
+        "retain": true,
+        "median_seconds": 0.014477520000946242,
+        "nodes": 129,
+        "audit": {
+          "edge_visits": 0,
+          "edges_awakened": 0,
+          "edges_deleted": 0,
+          "expiry_checks": 0,
+          "node_visits": 6240,
+          "nodes_awakened": 0,
+          "nodes_deleted": 0,
+          "scan_visits": 0
+        }
+      },
+      "11": {
+        "expiry": true,
+        "retain": true,
+        "median_seconds": 0.016601687503862195,
+        "nodes": 129,
+        "audit": {
+          "edge_visits": 0,
+          "edges_awakened": 0,
+          "edges_deleted": 0,
+          "expiry_checks": 4800,
+          "node_visits": 11040,
+          "nodes_awakened": 0,
+          "nodes_deleted": 0,
+          "scan_visits": 0
+        }
+      }
+    },
+    "python-weak32": {
+      "00": {
+        "expiry": false,
+        "retain": false,
+        "median_seconds": 0.04789179063118354,
+        "nodes": 33,
+        "audit": {
+          "edge_visits": 0,
+          "edges_awakened": 0,
+          "edges_deleted": 0,
+          "expiry_checks": 0,
+          "node_visits": 1040,
+          "nodes_awakened": 0,
+          "nodes_deleted": 0,
+          "scan_visits": 0
+        }
+      },
+      "10": {
+        "expiry": true,
+        "retain": false,
+        "median_seconds": 0.08479457812609326,
+        "nodes": 1,
+        "audit": {
+          "edge_visits": 0,
+          "edges_awakened": 0,
+          "edges_deleted": 0,
+          "expiry_checks": 1600,
+          "node_visits": 2640,
+          "nodes_awakened": 0,
+          "nodes_deleted": 800,
+          "scan_visits": 0
+        }
+      },
+      "01": {
+        "expiry": false,
+        "retain": true,
+        "median_seconds": 0.04806885624384449,
+        "nodes": 33,
+        "audit": {
+          "edge_visits": 0,
+          "edges_awakened": 0,
+          "edges_deleted": 0,
+          "expiry_checks": 0,
+          "node_visits": 1040,
+          "nodes_awakened": 0,
+          "nodes_deleted": 0,
+          "scan_visits": 0
+        }
+      },
+      "11": {
+        "expiry": true,
+        "retain": true,
+        "median_seconds": 0.06883021873909456,
+        "nodes": 33,
+        "audit": {
+          "edge_visits": 0,
+          "edges_awakened": 0,
+          "edges_deleted": 0,
+          "expiry_checks": 800,
+          "node_visits": 1840,
+          "nodes_awakened": 0,
+          "nodes_deleted": 0,
+          "scan_visits": 0
+        }
+      }
+    }
+  },
+  "verified_states": 40,
+  "profiles": {
+    "00": [
+      {
+        "file": "E:\\WORKSPACE\\AgentWork\\threemind\\src\\threemind_kernels\\local63.py",
+        "line": 281,
+        "function": "_settle_node",
+        "primitive_calls": 1040,
+        "calls": 1040,
+        "self_seconds": 0.0019448000000000002,
+        "cumulative_seconds": 0.046644000000000005
+      },
+      {
+        "file": "E:\\WORKSPACE\\AgentWork\\threemind\\src\\threemind_kernels\\local63.py",
+        "line": 727,
+        "function": "_receive",
+        "primitive_calls": 201,
+        "calls": 201,
+        "self_seconds": 0.00097,
+        "cumulative_seconds": 0.0787968
+      },
+      {
+        "file": "E:\\WORKSPACE\\AgentWork\\threemind\\src\\threemind_kernels\\local63.py",
+        "line": 251,
+        "function": "_project_node",
+        "primitive_calls": 968,
+        "calls": 968,
+        "self_seconds": 0.0049414,
+        "cumulative_seconds": 0.044467700000000006
+      },
+      {
+        "file": "E:\\WORKSPACE\\AgentWork\\threemind\\src\\threemind_kernels\\local_deadlines.py",
+        "line": 28,
+        "function": "discard",
+        "primitive_calls": 4121,
+        "calls": 4121,
+        "self_seconds": 0.0014866,
+        "cumulative_seconds": 0.0025105
+      },
+      {
+        "file": "E:\\WORKSPACE\\AgentWork\\threemind\\src\\threemind_kernels\\local_deadlines.py",
+        "line": 38,
+        "function": "set",
+        "primitive_calls": 241,
+        "calls": 241,
+        "self_seconds": 0.00037610000000000003,
+        "cumulative_seconds": 0.0011374
+      },
+      {
+        "file": "E:\\WORKSPACE\\AgentWork\\threemind\\src\\threemind_kernels\\local63.py",
+        "line": 69,
+        "function": "set",
+        "primitive_calls": 441,
+        "calls": 441,
+        "self_seconds": 0.00041220000000000004,
+        "cumulative_seconds": 0.0016527
+      },
+      {
+        "file": "E:\\WORKSPACE\\AgentWork\\threemind\\src\\threemind_kernels\\local63.py",
+        "line": 351,
+        "function": "_node_timers",
+        "primitive_calls": 1040,
+        "calls": 1040,
+        "self_seconds": 0.0017893000000000002,
+        "cumulative_seconds": 0.0044518000000000005
+      }
+    ],
+    "10": [
+      {
+        "file": "E:\\WORKSPACE\\AgentWork\\threemind\\src\\threemind_kernels\\local63.py",
+        "line": 945,
+        "function": "_delete_node",
+        "primitive_calls": 800,
+        "calls": 800,
+        "self_seconds": 0.0035185000000000004,
+        "cumulative_seconds": 0.0071059
+      },
+      {
+        "file": "E:\\WORKSPACE\\AgentWork\\threemind\\src\\threemind_kernels\\local63.py",
+        "line": 281,
+        "function": "_settle_node",
+        "primitive_calls": 2640,
+        "calls": 2640,
+        "self_seconds": 0.00428,
+        "cumulative_seconds": 0.08607240000000001
+      },
+      {
+        "file": "E:\\WORKSPACE\\AgentWork\\threemind\\src\\threemind_kernels\\local63.py",
+        "line": 251,
+        "function": "_project_node",
+        "primitive_calls": 1800,
+        "calls": 1800,
+        "self_seconds": 0.0088847,
+        "cumulative_seconds": 0.0811944
+      },
+      {
+        "file": "E:\\WORKSPACE\\AgentWork\\threemind\\src\\threemind_kernels\\local63.py",
+        "line": 727,
+        "function": "_receive",
+        "primitive_calls": 401,
+        "calls": 401,
+        "self_seconds": 0.0010518,
+        "cumulative_seconds": 0.046343100000000005
+      },
+      {
+        "file": "E:\\WORKSPACE\\AgentWork\\threemind\\src\\threemind_kernels\\local63.py",
+        "line": 964,
+        "function": "_expiry",
+        "primitive_calls": 1600,
+        "calls": 1600,
+        "self_seconds": 0.0012258,
+        "cumulative_seconds": 0.0986568
+      },
+      {
+        "file": "E:\\WORKSPACE\\AgentWork\\threemind\\src\\threemind_kernels\\local_deadlines.py",
+        "line": 28,
+        "function": "discard",
+        "primitive_calls": 12121,
+        "calls": 12121,
+        "self_seconds": 0.0049674,
+        "cumulative_seconds": 0.0126142
+      },
+      {
+        "file": "E:\\WORKSPACE\\AgentWork\\threemind\\src\\threemind_kernels\\local_deadlines.py",
+        "line": 38,
+        "function": "set",
+        "primitive_calls": 1841,
+        "calls": 1841,
+        "self_seconds": 0.0026252000000000003,
+        "cumulative_seconds": 0.0066154000000000004
+      },
+      {
+        "file": "E:\\WORKSPACE\\AgentWork\\threemind\\src\\threemind_kernels\\local63.py",
+        "line": 69,
+        "function": "set",
+        "primitive_calls": 2041,
+        "calls": 2041,
+        "self_seconds": 0.0019878,
+        "cumulative_seconds": 0.0090419
+      },
+      {
+        "file": "E:\\WORKSPACE\\AgentWork\\threemind\\src\\threemind_kernels\\local63.py",
+        "line": 1017,
+        "function": "_base_expiry",
+        "primitive_calls": 1600,
+        "calls": 1600,
+        "self_seconds": 0.003311,
+        "cumulative_seconds": 0.097431
+      },
+      {
+        "file": "E:\\WORKSPACE\\AgentWork\\threemind\\src\\threemind_kernels\\local63.py",
+        "line": 351,
+        "function": "_node_timers",
+        "primitive_calls": 1840,
+        "calls": 1840,
+        "self_seconds": 0.0049205,
+        "cumulative_seconds": 0.018039600000000003
+      }
+    ],
+    "01": [
+      {
+        "file": "E:\\WORKSPACE\\AgentWork\\threemind\\src\\threemind_kernels\\local63.py",
+        "line": 727,
+        "function": "_receive",
+        "primitive_calls": 201,
+        "calls": 201,
+        "self_seconds": 0.0009939,
+        "cumulative_seconds": 0.07909000000000001
+      },
+      {
+        "file": "E:\\WORKSPACE\\AgentWork\\threemind\\src\\threemind_kernels\\local63.py",
+        "line": 281,
+        "function": "_settle_node",
+        "primitive_calls": 1040,
+        "calls": 1040,
+        "self_seconds": 0.0020635000000000002,
+        "cumulative_seconds": 0.0471176
+      },
+      {
+        "file": "E:\\WORKSPACE\\AgentWork\\threemind\\src\\threemind_kernels\\local63.py",
+        "line": 351,
+        "function": "_node_timers",
+        "primitive_calls": 1040,
+        "calls": 1040,
+        "self_seconds": 0.0016902000000000002,
+        "cumulative_seconds": 0.0043664
+      },
+      {
+        "file": "E:\\WORKSPACE\\AgentWork\\threemind\\src\\threemind_kernels\\local_deadlines.py",
+        "line": 28,
+        "function": "discard",
+        "primitive_calls": 4121,
+        "calls": 4121,
+        "self_seconds": 0.0015188,
+        "cumulative_seconds": 0.0025459000000000002
+      },
+      {
+        "file": "E:\\WORKSPACE\\AgentWork\\threemind\\src\\threemind_kernels\\local_deadlines.py",
+        "line": 38,
+        "function": "set",
+        "primitive_calls": 241,
+        "calls": 241,
+        "self_seconds": 0.0003711,
+        "cumulative_seconds": 0.0011395
+      },
+      {
+        "file": "E:\\WORKSPACE\\AgentWork\\threemind\\src\\threemind_kernels\\local63.py",
+        "line": 69,
+        "function": "set",
+        "primitive_calls": 441,
+        "calls": 441,
+        "self_seconds": 0.00042590000000000005,
+        "cumulative_seconds": 0.0016693
+      },
+      {
+        "file": "E:\\WORKSPACE\\AgentWork\\threemind\\src\\threemind_kernels\\local63.py",
+        "line": 251,
+        "function": "_project_node",
+        "primitive_calls": 968,
+        "calls": 968,
+        "self_seconds": 0.0049749,
+        "cumulative_seconds": 0.044821700000000006
+      }
+    ],
+    "11": [
+      {
+        "file": "E:\\WORKSPACE\\AgentWork\\threemind\\src\\threemind_kernels\\local63.py",
+        "line": 281,
+        "function": "_settle_node",
+        "primitive_calls": 1840,
+        "calls": 1840,
+        "self_seconds": 0.0035031000000000003,
+        "cumulative_seconds": 0.0837655
+      },
+      {
+        "file": "E:\\WORKSPACE\\AgentWork\\threemind\\src\\threemind_kernels\\local63.py",
+        "line": 727,
+        "function": "_receive",
+        "primitive_calls": 401,
+        "calls": 401,
+        "self_seconds": 0.0010958,
+        "cumulative_seconds": 0.0834203
+      },
+      {
+        "file": "E:\\WORKSPACE\\AgentWork\\threemind\\src\\threemind_kernels\\local63.py",
+        "line": 351,
+        "function": "_node_timers",
+        "primitive_calls": 1840,
+        "calls": 1840,
+        "self_seconds": 0.0030544,
+        "cumulative_seconds": 0.0109171
+      },
+      {
+        "file": "E:\\WORKSPACE\\AgentWork\\threemind\\src\\threemind_kernels\\local63.py",
+        "line": 964,
+        "function": "_expiry",
+        "primitive_calls": 800,
+        "calls": 800,
+        "self_seconds": 0.00046840000000000006,
+        "cumulative_seconds": 0.0427789
+      },
+      {
+        "file": "E:\\WORKSPACE\\AgentWork\\threemind\\src\\threemind_kernels\\local_deadlines.py",
+        "line": 28,
+        "function": "discard",
+        "primitive_calls": 8121,
+        "calls": 8121,
+        "self_seconds": 0.0032396,
+        "cumulative_seconds": 0.0075723000000000006
+      },
+      {
+        "file": "E:\\WORKSPACE\\AgentWork\\threemind\\src\\threemind_kernels\\local_deadlines.py",
+        "line": 38,
+        "function": "set",
+        "primitive_calls": 1041,
+        "calls": 1041,
+        "self_seconds": 0.0015631,
+        "cumulative_seconds": 0.0038694000000000003
+      },
+      {
+        "file": "E:\\WORKSPACE\\AgentWork\\threemind\\src\\threemind_kernels\\local63.py",
+        "line": 69,
+        "function": "set",
+        "primitive_calls": 1241,
+        "calls": 1241,
+        "self_seconds": 0.0012418000000000002,
+        "cumulative_seconds": 0.005384900000000001
+      },
+      {
+        "file": "E:\\WORKSPACE\\AgentWork\\threemind\\src\\threemind_kernels\\local63.py",
+        "line": 1017,
+        "function": "_base_expiry",
+        "primitive_calls": 800,
+        "calls": 800,
+        "self_seconds": 0.0012916000000000002,
+        "cumulative_seconds": 0.0423105
+      },
+      {
+        "file": "E:\\WORKSPACE\\AgentWork\\threemind\\src\\threemind_kernels\\local63.py",
+        "line": 251,
+        "function": "_project_node",
+        "primitive_calls": 1768,
+        "calls": 1768,
+        "self_seconds": 0.0087083,
+        "cumulative_seconds": 0.0798233
+      }
+    ]
+  },
+  "rows_sha256": "ea47073204e7374453b62a504908bf84f88acc5d95c23fc842970b8b4968c1d4",
+  "verification_note": "StateImage IDs use canonical hashes. The frozen runner compared raw bytes at its final read-only audit; this verifier corrects that audit without rerunning measurements."
+}

@@ -907,7 +907,8 @@ class Database:
                 reserve = None
                 if (
                     state["dynamics"] in (
-                        "threemind.continuous-memory/4", "threemind.continuous-memory/5", "threemind.continuous-memory/5.1", "threemind.continuous-memory/5.2"
+                        "threemind.continuous-memory/4", "threemind.continuous-memory/5", "threemind.continuous-memory/5.1",
+                        "threemind.continuous-memory/5.2", "threemind.continuous-memory/5.3", "threemind.continuous-memory/6.0", "threemind.continuous-memory/6.1", "threemind.continuous-memory/6.2", "threemind.continuous-memory/6.3"
                     )
                     and state["config"]["energy_model"] == "local-field"
                 ):

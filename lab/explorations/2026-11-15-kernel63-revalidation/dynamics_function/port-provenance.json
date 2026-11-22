@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-16",
+  "source_directory": "lab/explorations/2026-11-13-kernel61/dynamics_function",
+  "source_sha256": {
+    "mechanism.py": "1cf9dcaeb73b4e8794111a95aed283c2700cd9c732a3962db4cc90193aaedc93",
+    "mechanism_design.py": "7f5dd9c3bb87474c3319d68fdc4854e5940df486af4b7cf4ea6a737d7d79300f",
+    "mechanism_analysis.py": "8d0bb09c75d3821918768c9af3175571bc8f0961e75525b8c7923f69e2fdbdaa",
+    "prefix_localization.py": "925e0c4a69a4f4ffd1cb8691037f617c25a6f1991b7bcc223806d651fb5ca02d",
+    "body.py": "d86ec0410d61294c70eff51edbd945cfa859d9ec48300a44902a90aa26511543",
+    "body_analysis_v2.py": "b4a9deab259645325667f813caf59a9137d530aa18d55f272f340740ac809d8a"
+  },
+  "registered": false,
+  "production_changes": false,
+  "changes": [
+    "new genuine 6.3 subjects and new R63t1 references",
+    "original 110 stages and scores",
+    "new registration identity and explicit budget",
+    "compare new findings with known historical results",
+    "R63t3 uses new R63i teaching references; physical settings and historical random-sequence key retained"
+  ]
+}

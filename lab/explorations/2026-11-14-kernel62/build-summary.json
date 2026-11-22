@@ -1,0 +1,88 @@
+{
+  "base_commit": "ff0fd262",
+  "tests": {
+    "passed": 338,
+    "elapsed_seconds": 52.34,
+    "scope": [
+      "test_local62.py",
+      "test_local61.py",
+      "test_inheritance60.py"
+    ]
+  },
+  "history": {
+    "editions": 4,
+    "chapters": 145,
+    "status": "verified"
+  },
+  "frontend_build": "passed",
+  "python_static_checks": "passed",
+  "installed_native_supports_62": true,
+  "global_default": "threemind.continuous-memory/6.1",
+  "kernel62_defaults": {
+    "novelty_mode": "arrival-window",
+    "consolidation_mode": "adaptive-half-life",
+    "decay_curve": "inverse-logarithmic"
+  },
+  "historical61_sha256": {
+    "src/threemind_kernels/local61.py": "2337756820892a901dd8d0cb614045bca84fa5a9817b19d7f4e0ec4a8fc246ba",
+    "src/threemind_kernels/local61_config.py": "52c40d605c626458afcb1ae576817af8584559917af8894e54a962bb10f2ab8c",
+    "src/threemind_kernels/local61_native.py": "ff68f109e3889f08d548f4bfb58d86f0afc57ee76c84bf93c8bb279b8844e8d4",
+    "crates/threemind-core/src/local61.rs": "13fa6218cfce06801416053db2453b99223fe5f1f137e2cc903c7af5f16a55c2",
+    "crates/threemind-core/src/local61_transitions.rs": "f672074a0bf560388a2e6b331df8da8ec9f868576e44e0a73a348263fbd72c2e",
+    "crates/threemind-core/src/local61-defaults.json": "b487bde310165deb9675acd8d6183901dea246d0d3269bcda13aeae1ba536373"
+  },
+  "benchmark_medians": {
+    "6.1": {
+      "teaching_s": 0.005472899996675551,
+      "idle_s": 5.5000127758830786e-06,
+      "encode_s": 0.012216599978273734,
+      "artifact_bytes": 91146,
+      "nodes": 64,
+      "edges": 128,
+      "expiry_checks": 192,
+      "scan_visits": 0
+    },
+    "6.2": {
+      "teaching_s": 0.0054493999923579395,
+      "idle_s": 4.2000028770416975e-06,
+      "encode_s": 0.012471199996070936,
+      "artifact_bytes": 91575,
+      "nodes": 64,
+      "edges": 128,
+      "expiry_checks": 192,
+      "scan_visits": 0
+    },
+    "stability": {
+      "teaching_s": 0.009919699979946017,
+      "idle_s": 0.056169799994677305,
+      "encode_s": 0.006075499986764044,
+      "artifact_bytes": 33715,
+      "nodes": 64,
+      "edges": 0,
+      "expiry_checks": 129121,
+      "scan_visits": 0
+    }
+  },
+  "build_artifacts": {
+    ".work/native60-final/release/threemind-runtime.exe": {
+      "bytes": 13548032,
+      "sha256": "a4288f3448c6c43b98d446a048617755b46766b2bd475cc69ccb6657d2a25362"
+    },
+    ".work/kernel62-wheels-final/threemind_native-2.0.0-cp311-abi3-win_amd64.whl": {
+      "bytes": 3239994,
+      "sha256": "413c711b772943c655906d6ea138e467c3591b6490f423d4d336bfb92143a109"
+    },
+    ".work/kernel62-python-wheels-final/threemind_lab-2.1.0-py3-none-any.whl": {
+      "bytes": 636332,
+      "sha256": "c2e1f3cdcc8eb64bf79992a149916bd4717e996376a969d018f9ef110fb356ec"
+    },
+    ".work/kernel62-python-wheels-final/threemind_runtime-2.1.0-py3-none-any.whl": {
+      "bytes": 540261,
+      "sha256": "2a825d4bf7a5081bb00895b35947d5d67d6fcc2b5f1cdcb949edb7a47b0bd900"
+    },
+    ".work/kernel62-python-wheels-final/threemind_transformer-2.1.0-py3-none-any.whl": {
+      "bytes": 66553,
+      "sha256": "8ebee37c2e68076241f27ad029fd6bac7871566ac91e66e73ed4377403a549d9"
+    }
+  }
+}

@@ -95,7 +95,7 @@ def test_filesystem_delta_checkpoints_preserve_full_context_trajectory_and_db_pr
     assert engine.capture_state().digest == resumed.capture_state().digest
     locator = storage.target(database.blobs.freeze("checkpoint")["target_id"])
     root = locator["configuration"]["path"]
-    assert str(tmp_path / "repo/data/checkpoints") == root
+    assert str(tmp_path / "data/checkpoints") == root
     with database.tx(project) as db:
         blob = db.execute("SELECT * FROM stored_blobs WHERE id=%s", (cp2["blob_id"],)).fetchone()
     storage.safe_path(blob["locator"]["target_id"], blob["locator"]["key"]).write_bytes(b"corrupt")
@@ -380,12 +380,15 @@ def test_union_backup_restores_moved_member_file_checkpoint_and_blob_without_old
     from psycopg.conninfo import conninfo_to_dict, make_conninfo
 
     from threemind_lab.database import Database
+    from threemind_lab.experiment_storage import ExperimentStorage
     from threemind_lab.storage_backup import compact_research, create, inspect, restore
 
     pg_bin = Path("D:/Program Files/PostgreSQL/17/bin")
     if not (pg_bin / "pg_dump.exe").exists():
         pytest.skip("PostgreSQL backup utilities absent")
     storage = local_files(database, tmp_path)
+    pool = ExperimentStorage(storage)
+    pool.configure([{"id": "local", "path": str(tmp_path / "pool")}], 0)
     project = database.create_project({"id": LOCAL_USER}, "union backup")["id"]
     database.checkpoint_backend = "filesystem"
     run = database.create_run(project, "continuing file checkpoint", {})
@@ -441,8 +444,10 @@ def test_union_backup_restores_moved_member_file_checkpoint_and_blob_without_old
             assert inspect(backup)["schema"] == "threemind.storage-backup/2"
         destination = tmp_path / "restored"
         restore(admin, backup, name, destination, pg_bin=pg_bin)
+        assert (destination / "control/source-host/experiment-storage.json").read_bytes() == pool.file.read_bytes()
+        assert not (destination / "control/experiment-storage.json").exists()
         # Physically hide every old source tree before reading the restored copy.
-        for path in (tmp_path / "originals", tmp_path / "repo/data/checkpoints", source):
+        for path in (tmp_path / "originals", tmp_path / "data/checkpoints", source):
             path.rename(path.with_name(path.name + "-unavailable"))
         restored = Database(make_conninfo(**(params | {"dbname": name})), allow_owner=True)
         try:

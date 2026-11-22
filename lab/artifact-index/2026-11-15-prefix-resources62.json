@@ -1,0 +1,26 @@
+{
+  "schema": "threemind.prefix-resources-artifact-locations/1",
+  "study": "R51t9",
+  "work": "E:\\ThreeMindData\\experiments\\2026-11-13-kernel60-revalidation\\prefix-resources62-v1",
+  "resource_id": "kernel60-revalidation-20261113",
+  "project_id": "d0a04159-ee0f-4200-ada9-13d5ce7197b7",
+  "record_id": "72caba0f-6820-5662-8d2b-ff5a693659df",
+  "archive_member": "prefix-resources62-v1/originals.zip",
+  "archive_sha256": "bae9304d351f9e238bb5b90f994fd5f9a4ff02fafa7f72961301ac2c747d9752",
+  "archive_bytes": 252199694,
+  "manifest_members": 1049,
+  "final_audit_sha256": "6e71efac3cbd915b18964d6e0412f575c8f6cb58a78a2d02fdb1772693e7f619",
+  "publication_coverage": "verified",
+  "pending": 0,
+  "new_primary_stages": 162,
+  "new_supplement_stages": 24,
+  "new_tail_stages": 8,
+  "reused_stages": 24,
+  "material_blocks": 2,
+  "decision": "31 threshold/resource conditions failed prefix recovery despite increased transmission; stale life labels reveal a local maintenance gap",
+  "reports": [
+    "lab/explorations/2026-11-14-kernel62/prefix_resources/report.zh.md",
+    "lab/explorations/2026-11-14-kernel62/prefix_resources/report.en.md"
+  ],
+  "data_boundary": "Detailed trajectories, complete states and original packages remain outside Git; this index contains only provenance and aggregate results."
+}

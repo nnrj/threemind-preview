@@ -1,0 +1,269 @@
+{
+  "stages": 72,
+  "states": 144,
+  "processes": 40,
+  "max_arithmetic_error": 0,
+  "wall_seconds": 170.54020810034126,
+  "raw_bytes": 64679621,
+  "resources": {
+    "phase-A-resources.json": {
+      "minimum_available_bytes": {
+        "commit": 15234584576,
+        "data_disk": 64309497856,
+        "ram": 13982928896,
+        "system_disk": 10110869504
+      },
+      "peak_private_bytes": 103297024,
+      "wall_seconds": 219.41084480000427
+    }
+  },
+  "selection": {
+    "candidates": [],
+    "chosen": null
+  },
+  "prefix": [
+    {
+      "profile": "P",
+      "variant": "per-connection-u0",
+      "passed_blocks": 0,
+      "margins_block0": [
+        -0.00013328568043409483,
+        0.00013332096117149583
+      ]
+    },
+    {
+      "profile": "P",
+      "variant": "per-connection-u1",
+      "passed_blocks": 0,
+      "margins_block0": [
+        -0.00013328568043409483,
+        0.00013332096117149583
+      ]
+    },
+    {
+      "profile": "P",
+      "variant": "weight-proportional-u0",
+      "passed_blocks": 0,
+      "margins_block0": [
+        -0.0001368515778920644,
+        0.00013690158322050838
+      ]
+    },
+    {
+      "profile": "P",
+      "variant": "weight-proportional-u1",
+      "passed_blocks": 0,
+      "margins_block0": [
+        -0.0001368515778920644,
+        0.00013690158322050838
+      ]
+    },
+    {
+      "profile": "S",
+      "variant": "per-connection-u0",
+      "passed_blocks": 0,
+      "margins_block0": [
+        0.0015595341261596604,
+        -0.0015595151032998938
+      ]
+    },
+    {
+      "profile": "S",
+      "variant": "per-connection-u1",
+      "passed_blocks": 0,
+      "margins_block0": [
+        0.0015587276589029767,
+        -0.0015587131772033525
+      ]
+    },
+    {
+      "profile": "S",
+      "variant": "weight-proportional-u0",
+      "passed_blocks": 0,
+      "margins_block0": [
+        0.0016631108594248392,
+        -0.0016631009986904713
+      ]
+    },
+    {
+      "profile": "S",
+      "variant": "weight-proportional-u1",
+      "passed_blocks": 0,
+      "margins_block0": [
+        0.0019157936931907815,
+        -0.0019157884656982455
+      ]
+    }
+  ],
+  "sustained": [
+    {
+      "profile": "P",
+      "variant": "per-connection-u0",
+      "block": 0,
+      "process": {
+        "complete": true,
+        "continuous": false,
+        "correct": "E",
+        "end": 0.0,
+        "maximum": 0.0,
+        "maximum_inhibition": 0.0,
+        "minimum": 0.0,
+        "peaks": {
+          "C": 0.0,
+          "E": 0.0
+        },
+        "samples": 1502,
+        "saturation_fraction": 0.0,
+        "wrong": "C"
+      }
+    },
+    {
+      "profile": "P",
+      "variant": "per-connection-u0",
+      "block": 1,
+      "process": {
+        "complete": true,
+        "continuous": false,
+        "correct": "C",
+        "end": 0.0,
+        "maximum": 0.0,
+        "maximum_inhibition": 0.0,
+        "minimum": 0.0,
+        "peaks": {
+          "C": 0.0,
+          "E": 0.0
+        },
+        "samples": 1502,
+        "saturation_fraction": 0.0,
+        "wrong": "E"
+      }
+    },
+    {
+      "profile": "P",
+      "variant": "weight-proportional-u0",
+      "block": 0,
+      "process": {
+        "complete": true,
+        "continuous": false,
+        "correct": "E",
+        "end": 0.0,
+        "maximum": 0.0,
+        "maximum_inhibition": 0.0,
+        "minimum": 0.0,
+        "peaks": {
+          "C": 0.0,
+          "E": 0.0
+        },
+        "samples": 1502,
+        "saturation_fraction": 0.0,
+        "wrong": "C"
+      }
+    },
+    {
+      "profile": "P",
+      "variant": "weight-proportional-u0",
+      "block": 1,
+      "process": {
+        "complete": true,
+        "continuous": false,
+        "correct": "C",
+        "end": 0.0,
+        "maximum": 0.0,
+        "maximum_inhibition": 0.0,
+        "minimum": 0.0,
+        "peaks": {
+          "C": 0.0,
+          "E": 0.0
+        },
+        "samples": 1502,
+        "saturation_fraction": 0.0,
+        "wrong": "E"
+      }
+    },
+    {
+      "profile": "S",
+      "variant": "per-connection-u0",
+      "block": 0,
+      "process": {
+        "complete": true,
+        "continuous": false,
+        "correct": "E",
+        "end": 0.0,
+        "maximum": 0.0,
+        "maximum_inhibition": 0.0,
+        "minimum": 0.0,
+        "peaks": {
+          "C": 0.0,
+          "E": 0.0
+        },
+        "samples": 1502,
+        "saturation_fraction": 0.0,
+        "wrong": "C"
+      }
+    },
+    {
+      "profile": "S",
+      "variant": "per-connection-u0",
+      "block": 1,
+      "process": {
+        "complete": true,
+        "continuous": false,
+        "correct": "C",
+        "end": 0.0,
+        "maximum": 0.0,
+        "maximum_inhibition": 0.0,
+        "minimum": 0.0,
+        "peaks": {
+          "C": 0.0,
+          "E": 0.0
+        },
+        "samples": 1502,
+        "saturation_fraction": 0.0,
+        "wrong": "E"
+      }
+    },
+    {
+      "profile": "S",
+      "variant": "weight-proportional-u0",
+      "block": 0,
+      "process": {
+        "complete": true,
+        "continuous": false,
+        "correct": "E",
+        "end": 0.0,
+        "maximum": 0.0,
+        "maximum_inhibition": 0.0,
+        "minimum": 0.0,
+        "peaks": {
+          "C": 0.0,
+          "E": 0.0
+        },
+        "samples": 1502,
+        "saturation_fraction": 0.0,
+        "wrong": "C"
+      }
+    },
+    {
+      "profile": "S",
+      "variant": "weight-proportional-u0",
+      "block": 1,
+      "process": {
+        "complete": true,
+        "continuous": false,
+        "correct": "C",
+        "end": 0.0,
+        "maximum": 0.0,
+        "maximum_inhibition": 0.0,
+        "minimum": 0.0,
+        "peaks": {
+          "C": 0.0,
+          "E": 0.0
+        },
+        "samples": 1502,
+        "saturation_fraction": 0.0,
+        "wrong": "E"
+      }
+    }
+  ],
+  "default_recommendation": "retain per-connection; no prefix recovery or sustained-activity benefit; proportional benchmark cost +46.0%"
+}

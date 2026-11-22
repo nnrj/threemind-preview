@@ -1,0 +1,44 @@
+{
+  "historical_source": "src/threemind_kernels/local.py",
+  "sha256": "4cdef511a06c0b040e4be4d121b72ce0c7efa32cdcef122a2085991dd751ba5d",
+  "replacements": {
+    "_associate": [
+      [
+        "e.weight = min(1.0, e.weight + bonus)",
+        "e.weight = min(1.0, e.weight + (bonus if c.research_novelty_weight else 0.0))  # R51t6"
+      ],
+      [
+        "e.stability = min(1.0, e.stability + bonus)",
+        "e.stability = min(1.0, e.stability + (bonus if c.research_novelty_stability else 0.0))  # R51t6"
+      ]
+    ],
+    "_emit": [
+      [
+        "e.weight = min(1.0, e.weight + c.associative_gain * amount)",
+        "e.weight = min(1.0, e.weight + (c.associative_gain * amount if c.research_pass_weight_gain else 0.0))  # R51t6"
+      ]
+    ],
+    "_expiry": [
+      [
+        "e.weight = min(1.0, e.weight + bonus)",
+        "e.weight = min(1.0, e.weight + (bonus if c.research_novelty_weight else 0.0))  # R51t6"
+      ],
+      [
+        "e.stability = min(1.0, e.stability + bonus)",
+        "e.stability = min(1.0, e.stability + (bonus if c.research_novelty_stability else 0.0))  # R51t6"
+      ],
+      [
+        "dt / c.stability_tau * (1 - e.eligibility)",
+        "dt / c.stability_tau * (1 - (e.eligibility if c.research_eligibility_protection else 0.0))"
+      ],
+      [
+        "if int(e.last_pass_us) != self.time_us:",
+        "if not c.research_use_protection or int(e.last_pass_us) != self.time_us:  # R51t6"
+      ],
+      [
+        "(0.08 + 0.92 * e.stability)",
+        "(0.08 + 0.92 * (e.stability if c.research_stability_protection else 0.0))"
+      ]
+    ]
+  }
+}

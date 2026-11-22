@@ -1021,6 +1021,11 @@ test("creation hierarchy separates kernel versions and matching templates withou
   const dialog = page.getByRole("dialog", { name: "创建意识", exact: true });
   const kernel = dialog.getByLabel("内核版本", { exact: true });
   await expect(kernel).toHaveValue(catalogue.defaults.kernel_id);
+  await expect(kernel).toHaveValue("threemind.continuous-memory/5.3");
+  for (const version of ["5.2", "5.3"]) {
+    await expect(kernel.locator(`option[value='threemind.continuous-memory/${version}']`))
+      .toContainText(`continuous-memory/${version}`);
+  }
   await expect(
     kernel.locator("option[value='threemind.continuous-memory/4']"),
   ).toContainText("continuous-memory/4");
@@ -1077,6 +1082,32 @@ test("creation hierarchy separates kernel versions and matching templates withou
   });
   expect(witness.errors).toEqual([]);
 });
+
+for (const [version, curve] of [["5.2", "exponential"], ["5.3", "inverse-logarithmic"]]) {
+  test(`memory${version} exposes its decay choices and preserves an explicit alternative`, async ({ page }) => {
+    const witness = await mock(page);
+    await page.goto("/");
+    await page.getByRole("banner").getByRole("button", { name: "新建意识", exact: true }).click();
+    const dialog = page.getByRole("dialog", { name: "创建意识", exact: true });
+    await dialog.getByLabel("内核版本", { exact: true }).selectOption(`threemind.continuous-memory/${version}`);
+    await dialog.locator(".configuration-advanced > summary").click();
+    await dialog.getByLabel("搜索高级参数", { exact: true }).fill("衰减机制");
+    const decay = dialog.getByLabel("衰减机制", { exact: true });
+    await expect(decay).toHaveValue(curve);
+    for (const value of ["exponential", "power-law", "inverse-logarithmic"]) {
+      await expect(decay.locator(`option[value='${value}']`)).toHaveCount(1);
+    }
+    await expect(decay.locator("option[value='power-exponential']")).toHaveCount(version === "5.3" ? 1 : 0);
+    await decay.selectOption("power-law");
+    await dialog.getByLabel("所属项目", { exact: true }).selectOption(projectId);
+    await dialog.getByRole("button", { name: "创建并准备", exact: true }).click();
+    await expect(page).toHaveURL(new RegExp(`/runs/${runId}`));
+    const created = witness.requests.find(row => row.method === "POST" && row.path === `/projects/${projectId}/runs`)!;
+    expect(created.body.spec.kernel_id).toBe(`threemind.continuous-memory/${version}`);
+    expect(created.body.spec.config.decay_curve).toBe("power-law");
+    expect(witness.errors).toEqual([]);
+  });
+}
 
 test("memory3.1 creation preserves its version and uses its own configuration source", async ({
   page,

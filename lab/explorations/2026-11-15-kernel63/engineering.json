@@ -1,0 +1,44 @@
+{
+  "tests_passed": 631,
+  "tests_skipped": 7,
+  "count_method": "396 first suite after explicit compatibility fix + 209 additional cases after two-value switch fix + 6 runtime version cases + 20 explicit standalone cases; preliminary subset runs not added",
+  "first_suite": {
+    "passed": 396,
+    "skipped": 7
+  },
+  "additional_suite": {
+    "passed": 209,
+    "standalone_initially_skipped": 12,
+    "standalone_later_passed": 12
+  },
+  "standalone_version_cases": 6,
+  "new_standalone_choices": 8,
+  "native_binary_sha256": "a6f09b7e23dd2f939a532f8f618c9f1b7342941b6706b1dacc5a64456b03ebc0",
+  "native_wheel_sha256": "1615e9ac1167a96d73c6885aec99deae45e84e54d1026f7ec6aab10e8c6af259",
+  "standalone_runtime_sha256": "a541a6e6cb83fdc1377f15348e6fd82f0a8ca15fff6c9839d4c8be40e5f21bf2",
+  "legacy60_61_unchanged": {
+    "src/threemind_kernels/local60.py": "cf51f3290bb3957bb0bb6e789a3df4be61e2a69598c5583038571b954b782b56",
+    "src/threemind_kernels/local60_config.py": "b06c520e79865324bacb6174fcc1e013fd85c2d7561ea90a265f3e40b0eede2b",
+    "src/threemind_kernels/local60_native.py": "a3bc89a7b2be9b1deaed85f748bf0fe9606c4c77e5c639f0509cceb86ffca2d6",
+    "src/threemind_kernels/local61.py": "2337756820892a901dd8d0cb614045bca84fa5a9817b19d7f4e0ec4a8fc246ba",
+    "src/threemind_kernels/local61_config.py": "52c40d605c626458afcb1ae576817af8584559917af8894e54a962bb10f2ab8c",
+    "src/threemind_kernels/local61_native.py": "ff68f109e3889f08d548f4bfb58d86f0afc57ee76c84bf93c8bb279b8844e8d4",
+    "crates/threemind-core/src/local60-defaults.json": "861379c4a3a6d23940a792f1262a0641d0420c6132fa374927d846cda3833fc2",
+    "crates/threemind-core/src/local60.rs": "c066ad82af99a0477f873511bf9cd7385fba9f9cb0c502cbfcad84f5d1d44fef",
+    "crates/threemind-core/src/local60_transitions.rs": "9de8c0f334b00e4b96735841dc7543add723950b662f4fbbb1478c639b053365",
+    "crates/threemind-core/src/local61-defaults.json": "b487bde310165deb9675acd8d6183901dea246d0d3269bcda13aeae1ba536373",
+    "crates/threemind-core/src/local61.rs": "13fa6218cfce06801416053db2453b99223fe5f1f137e2cc903c7af5f16a55c2",
+    "crates/threemind-core/src/local61_synapse.rs": "50d30a203d082b3bb418ce2ec6e49242cae06ef6ba3fbfba58c5cf38fc4b1082",
+    "crates/threemind-core/src/local61_transitions.rs": "f672074a0bf560388a2e6b331df8da8ec9f868576e44e0a73a348263fbd72c2e"
+  },
+  "earlier62_witnesses": [
+    "adaptive-half-life",
+    "stability"
+  ],
+  "historical_usage_missing_restores": true,
+  "global_default_kernel": "threemind.continuous-memory/6.1",
+  "native_installation": "verified",
+  "services_restarted": false,
+  "frontend_build": "passed including English labels",
+  "test_corrections": "Historical 6.1 comparisons explicitly retain inhibitory usage updates; separated learning test now checks both values. No dynamics or state equality assertion weakened."
+}

@@ -21,7 +21,7 @@ def test_catalogue_covers_every_executable_parameter_and_rejects_invalid_contrac
         if kernel["kernel_id"] in (
             "threemind.continuous-memory/4", "threemind.continuous-memory/5", "threemind.continuous-memory/5.1",
             "threemind.continuous-memory/5.2",
-            "threemind.continuous-memory/5.3", "threemind.experimental-weight-decay/1",
+            "threemind.continuous-memory/5.3", "threemind.continuous-memory/6.0", "threemind.continuous-memory/6.1", "threemind.continuous-memory/6.2", "threemind.continuous-memory/6.3", "threemind.experimental-weight-decay/1",
         ):
             retired = {
                 "propagation_limit",
@@ -51,9 +51,9 @@ def test_catalogue_covers_every_executable_parameter_and_rejects_invalid_contrac
         assert not validate_configuration(default_spec() | {"intervention": {"nodes": [node_id]}})["valid"]
     assert validate_configuration(default_spec() | {"intervention": {"edges": [[0, 2**32 - 1]]}})["valid"]
     original = default_spec()
-    changed = original | {"config": asdict(replace(Config(), step_us=5000, seed=7))}
+    changed = original | {"config": original["config"] | {"propagation_interval_us": 5000, "seed": 7}}
     result = validate_configuration(changed, current=original)
-    assert {e["path"] for e in result["errors"]} == {"config.step_us", "config.seed"}
+    assert {e["path"] for e in result["errors"]} == {"config.propagation_interval_us", "config.seed"}
     assert not validate_configuration(original | {"seed": 1}, current=original)["valid"]
     frozen = original | {"study_id": "frozen", "condition": "A", "block_seed": 1}
     assert not validate_configuration(frozen | {"trace": True}, current=frozen)["valid"]

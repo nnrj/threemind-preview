@@ -6,7 +6,7 @@ from copy import deepcopy
 from typing import Annotated, Literal
 from uuid import UUID
 
-from fastapi import File, Form, HTTPException, Query, Request, UploadFile
+from fastapi import BackgroundTasks, File, Form, HTTPException, Query, Request, UploadFile
 from fastapi.responses import FileResponse, StreamingResponse
 from pydantic import Field
 
@@ -81,6 +81,55 @@ class MigrationAction(StrictModel):
 
 class RootPreview(StrictModel):
     destination: str
+
+
+class ExperimentDirectory(StrictModel):
+    id: str
+    path: str
+    priority: int = Field(default=0, ge=0, strict=True)
+    limit_bytes: int | None = Field(default=None, ge=0, strict=True)
+    reserve_bytes: int = Field(default=0, ge=0, strict=True)
+    enabled: bool = True
+    role: Literal["run", "archive", "backup"] | None = None
+
+
+class ExperimentDirectories(StrictModel):
+    expected_revision: int = Field(ge=0, strict=True)
+    directories: list[ExperimentDirectory] = Field(max_length=64)
+
+
+class ExperimentPart(StrictModel):
+    name: str
+    bytes: int = Field(gt=0, strict=True)
+    kind: Literal["data", "archive", "readback"] = "data"
+
+
+class ExperimentPlacement(StrictModel):
+    name: str
+    parts: list[ExperimentPart] = Field(min_length=1, max_length=128)
+    allow_split: bool = False
+
+
+class ExperimentReadback(StrictModel):
+    part: str
+    member: str
+
+
+class ExperimentTransfer(StrictModel):
+    operation: Literal["sync", "backup", "migrate", "archive", "unarchive", "restore"]
+    name: str
+    destination: str
+    backup: str | None = None
+    restore_as: str | None = None
+
+
+class HistoricalExperiment(StrictModel):
+    name: str
+    directory: str
+
+
+class PortableExperimentBackup(HistoricalExperiment):
+    backup: str
 
 
 class RootPlan(RootPreview, Operation):
@@ -490,6 +539,185 @@ def register(app, access):
         )
 
     host = "/api/v2/storage"
+
+    def pool():
+        from .experiment_storage import ExperimentStorage
+
+        return ExperimentStorage(storage())
+
+    def transfers():
+        from .experiment_transfers import ExperimentTransfers
+
+        return ExperimentTransfers(pool())
+
+    transfer_path = host + "/experiment-pool/transfers"
+
+    @app.get(transfer_path)
+    def experiment_transfers(request: Request):
+        host_admin(request)
+        return transfers().catalog()
+
+    @app.get(transfer_path + "/discover")
+    def discover_experiments(request: Request, directory: str):
+        host_admin(request)
+        return {"names": transfers().discover(directory)}
+
+    @app.post(transfer_path + "/adopt")
+    def adopt_experiment(request: Request, body: HistoricalExperiment):
+        host_admin(request, write=True)
+        return transfers().adopt(**body.model_dump())
+
+    @app.post(transfer_path + "/import-backup")
+    def register_experiment_backup(request: Request, body: PortableExperimentBackup):
+        host_admin(request, write=True)
+        return transfers().import_backup(**body.model_dump())
+
+    @app.post(transfer_path + "/preview")
+    def preview_experiment_transfer(request: Request, body: ExperimentTransfer):
+        host_admin(request)
+        return transfers().preview(**body.model_dump())
+
+    @app.post(transfer_path + "/jobs", status_code=202)
+    def start_experiment_transfer(request: Request, body: ExperimentTransfer, tasks: BackgroundTasks):
+        from .operation_receipts import HEADER
+
+        host_admin(request, write=True)
+        service = transfers()
+        job = service.create(**body.model_dump(), job_id=request.headers.get(HEADER))
+        tasks.add_task(service.background, job["id"], "run")
+        return job
+
+    @app.get(transfer_path + "/jobs/{job_id}")
+    def experiment_transfer_status(job_id: UUID, request: Request):
+        host_admin(request)
+        return transfers().job(str(job_id))
+
+    @app.post(transfer_path + "/jobs/{job_id}/{action}")
+    def manage_experiment_transfer(job_id: UUID, action: Literal["resume", "cancel", "release"], request: Request,
+                                   tasks: BackgroundTasks):
+        host_admin(request, write=True)
+        service = transfers()
+        job = service.job(str(job_id))
+        if action == "cancel":
+            return service.cancel(job["id"])
+        if action == "release" and (job["status"] not in ("complete", "released")
+                                    or job["operation"] not in ("migrate", "archive", "unarchive")):
+            raise StorageConflict("no verified source is available for release")
+        if action == "release" and job["status"] == "complete":
+            service.update(job["id"], release_pending=True, error=None)
+        tasks.add_task(service.background, job["id"], "release" if action == "release" else "run")
+        return service.job(job["id"])
+
+    @app.get(host + "/experiment-pool")
+    def pool_status(request: Request):
+        host_admin(request)
+        return pool().status()
+
+    @app.put(host + "/experiment-pool")
+    def pool_configure(request: Request, body: ExperimentDirectories):
+        host_admin(request, write=True)
+        return pool().configure(**body.model_dump())
+
+    @app.post(host + "/experiment-pool/preview")
+    def pool_preview(request: Request, body: ExperimentPlacement):
+        host_admin(request)
+        return pool().preview(**body.model_dump())
+
+    @app.post(host + "/experiment-pool/reserve")
+    def pool_reserve(request: Request, body: ExperimentPlacement):
+        host_admin(request, write=True)
+        return pool().reserve(**body.model_dump())
+
+    @app.get(host + "/experiment-pool/studies/{name}")
+    def pool_study(name: str, request: Request):
+        host_admin(request)
+        return pool().study(name)
+
+    @app.get(host + "/experiment-pool/studies/{name}/path")
+    def pool_path(name: str, request: Request, part: str | None = None):
+        host_admin(request)
+        return {"path": str(pool().path(name, part))}
+
+    @app.get(host + "/experiment-pool/studies/{name}/manifest")
+    def pool_manifest(name: str, request: Request):
+        from .experiment_volumes import manifest_path
+
+        host_admin(request)
+        service = pool()
+        path = manifest_path(service, service.study(name)["name"])
+        if not path.exists():
+            raise HTTPException(404, "archive has not been published")
+        return read_json(path)
+
+    @app.post(host + "/experiment-pool/studies/{name}/extract")
+    def pool_extract(name: str, body: ExperimentReadback, request: Request):
+        from .experiment_volumes import extract_member
+
+        host_admin(request, write=True)
+        return extract_member(pool(), name, body.part, body.member)
+
+    @app.get(host + "/experiment-pool/studies/{name}/member")
+    def pool_member(name: str, member: str, request: Request):
+        from contextlib import ExitStack
+        from urllib.parse import quote
+
+        from starlette.background import BackgroundTask
+
+        from .experiment_volumes import CHUNK, open_member
+
+        host_admin(request)
+        stack = ExitStack()
+        entry, stream = stack.enter_context(open_member(pool(), name, member))
+
+        def blocks():
+            with stack:
+                while chunk := stream.read(CHUNK):
+                    yield chunk
+
+        filename = quote(member.rsplit("/", 1)[-1], safe="")
+        return StreamingResponse(
+            blocks(),
+            media_type="application/octet-stream",
+            background=BackgroundTask(stack.close),
+            headers={
+                "Content-Length": str(entry.file_size),
+                "Content-Disposition": "attachment; filename*=UTF-8''" + filename,
+            },
+        )
+
+    @app.post(host + "/experiment-pool/studies/{name}/verify")
+    def pool_verify(name: str, request: Request):
+        from .experiment_volumes import verify_archive
+
+        host_admin(request)
+        return verify_archive(pool(), name)
+
+    @app.post(host + "/experiment-pool/studies/{name}/{action}")
+    def pool_action(name: str, action: Literal["finish", "cancel", "archive"], request: Request):
+        from .experiment_volumes import create_archive
+
+        host_admin(request, write=True)
+        service = pool()
+        if action == "archive":
+            return create_archive(service, name)
+        return getattr(service, action)(name)
+
+    @app.get(host + "/experiment-pool/studies/{name}/volumes/{part}")
+    def pool_download(name: str, part: str, request: Request):
+        from .experiment_volumes import manifest_path
+
+        host_admin(request)
+        service = pool()
+        study = service.study(name)
+        index = manifest_path(service, study["name"])
+        if not index.is_file():
+            raise HTTPException(404, "archive has not been published")
+        manifest = read_json(index)
+        if not any(row["part"] == part for row in manifest["volumes"]):
+            raise HTTPException(404, "unknown published archive volume")
+        return FileResponse(
+            under_root(service.path(name, part), "evidence.zip.part"), filename=f"{name}.{part}.zip.part"
+        )
 
     @app.get(host)
     def storage_overview(request: Request):

@@ -1,0 +1,18 @@
+{
+  "tests_passed": 478,
+  "tests_skipped": 11,
+  "native_wheel_sha256": "6307094fdd2b83828bae7935cccff117d771f2b3c41ecf2cdc4262a56ea8b734",
+  "installed_native_sha256": "8c8ecde30109ec78e7f6dafb9ea0f9de51c377c7080eb86c0b847ebd413a66d5",
+  "standalone_runtime_sha256": "37a604c07b8233fd2db9acfe1aad0c3a6dfb2e36a91ba58c03bcf91eef04b0d2",
+  "legacy61_unchanged": {
+    "src/threemind_kernels/local61.py": "2337756820892a901dd8d0cb614045bca84fa5a9817b19d7f4e0ec4a8fc246ba",
+    "src/threemind_kernels/local61_config.py": "52c40d605c626458afcb1ae576817af8584559917af8894e54a962bb10f2ab8c",
+    "src/threemind_kernels/local61_native.py": "ff68f109e3889f08d548f4bfb58d86f0afc57ee76c84bf93c8bb279b8844e8d4",
+    "crates/threemind-core/src/local61.rs": "13fa6218cfce06801416053db2453b99223fe5f1f137e2cc903c7af5f16a55c2",
+    "crates/threemind-core/src/local61_transitions.rs": "f672074a0bf560388a2e6b331df8da8ec9f868576e44e0a73a348263fbd72c2e",
+    "crates/threemind-core/src/local61-defaults.json": "b487bde310165deb9675acd8d6183901dea246d0d3269bcda13aeae1ba536373"
+  },
+  "frontend_build": "passed",
+  "running_services_restarted": false,
+  "global_default_kernel": "threemind.continuous-memory/6.1"
+}

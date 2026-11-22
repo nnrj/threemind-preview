@@ -16,12 +16,16 @@ from threemind_lab.operation_receipts import HEADER
 from threemind_lab.worker import Worker
 
 
-@pytest.mark.parametrize("kernel_id", [None, "threemind.continuous-memory/3.1", "threemind.continuous-memory/5.1"])
+@pytest.mark.parametrize("kernel_id", [None, "threemind.continuous-memory/3.1", "threemind.continuous-memory/5.1",
+                                     "threemind.continuous-memory/5.2", "threemind.continuous-memory/5.3"])
 def test_prepare_defaults_template_edit_and_start_once(database, kernel_id):
     with TestClient(create_app(Settings(database_url=database.test_url, backend="reference"), database)) as client:
         # All creation/configuration tools work before any project exists.
         default = client.get("/api/v2/configuration/defaults", params={"kernel_id": kernel_id} if kernel_id else {}).json()
         assert default["revision"] == 0
+        assert default["spec"]["kernel_id"] == (kernel_id or "threemind.continuous-memory/6.1")
+        if kernel_id in (None, "threemind.continuous-memory/5.3"):
+            assert default["spec"]["config"]["decay_curve"] == "inverse-logarithmic"
         assert client.get("/api/v2/projects").json() == []
         spec = default["spec"] | {
             "environment": "replay",

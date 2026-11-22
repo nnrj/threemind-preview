@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-22",
+  "scope": "P1 checkpoint validation and recorder provenance",
+  "reason": "The first 53-founder world stopped at internal time zero when JSON compared the position of individual 2 with 10. The stored world values and the bytes of all 53 Cores were identical. The corrected recorder compares world states and computes segment boundary digests with the same JSON string keys used by the independent result reader. It also verifies every restored Core against its archived bytes.",
+  "formal_recovery": "Resume the existing initial.zip at zero. The protocol, habitat, seed, run duration, outcome measures and the entire previously collected 39C series keep their registered versions.",
+  "original_worldio_sha256": "d3c92b4e4fa094b047bbefb8a61672cd353e1af7d62c6c9a86b2f0e2af32a309",
+  "revised_files": {
+    "lab/explorations/2026-11-21-ocean63-p1/worldio.py": "b5e7716728f4d401422042169ae227e64bf47fce734cb09c546ef50352f32178",
+    "lab/explorations/2026-11-21-ocean63-p1/dispatch.py": "e833413c7c7cdf4371f17dd34aadfc7ead8ca7e6cc00ff3568218710590a943e"
+  },
+  "qualification_sha256": "94ca87bc178bfd15c7431b14a28918b0b4c95f511e57f1265c34494a81077e41",
+  "qualification_script_sha256": "82981b62216bff922fac41d16a53050f7731268377b05a8c92630961d702029a"
+}

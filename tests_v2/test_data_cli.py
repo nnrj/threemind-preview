@@ -7,6 +7,34 @@ from threemind_lab import data_cli
 from threemind_lab.operations_client import OperationsClient
 
 
+def test_experiment_pool_cli_local_and_http_share_the_placement_format(tmp_path, capsys, monkeypatch):
+    from threemind_lab import experiment_pool_cli
+
+    cfg = tmp_path / "directories.json"
+    cfg.write_text(
+        json.dumps({"expected_revision": 0, "directories": [{"id": "fixed", "path": str(tmp_path / "disk")}]})
+    )
+    data_cli.storage_main(["pool", "configure", "--local", "--json", str(cfg)])
+    assert json.loads(capsys.readouterr().out)["revision"] == 1
+    budget = tmp_path / "budget.json"
+    body = {"name": "water", "parts": [{"name": "main", "bytes": 1048576}]}
+    budget.write_text(json.dumps(body))
+    data_cli.storage_main(["pool", "preview", "--local", "--json", str(budget)])
+    local = json.loads(capsys.readouterr().out)
+    assert local["parts"][0]["directory"] == "fixed"
+
+    def preview(request):
+        assert request.url.path == "/api/v2/storage/experiment-pool/preview"
+        assert json.loads(request.content) == body
+        return httpx.Response(200, json=local)
+
+    monkeypatch.setattr(
+        experiment_pool_cli, "connect", lambda _: OperationsClient(transport=httpx.MockTransport(preview))
+    )
+    data_cli.storage_main(["pool", "preview", "--json", str(budget)])
+    assert json.loads(capsys.readouterr().out) == local
+
+
 def test_data_cli_plan_and_export_reuse_explicit_id(tmp_path, monkeypatch, capsys):
     calls = []
 

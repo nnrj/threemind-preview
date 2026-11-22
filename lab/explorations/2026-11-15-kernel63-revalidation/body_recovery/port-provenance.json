@@ -1,0 +1,21 @@
+{
+  "status": "prepared, not registered or run",
+  "historical_batch": "R51s",
+  "new_batch": "R63p",
+  "source_sha256": {
+    "lab/explorations/2026-11-13-kernel61/body_recovery/study_recovery.py": "30709956e3f0ea262a5848c77bb88df08416baea9f39431c6adf402098207cff",
+    "lab/explorations/2026-11-13-kernel61/body_recovery/materials_recovery.py": "e2da3f9ebcdff6be6b82192ce9bfa97be7d85d4d997f6561c697cd4be56ee797",
+    "lab/explorations/2026-11-13-kernel61/body_recovery/measurement_recovery.py": "19957efc34dd9b593f8e9597364dcfe1b6b79cd619cf0d9e67c77c3c7cbecf3f",
+    "lab/explorations/2026-11-13-kernel61/body_recovery/intervention_active.py": "a3aa8c4f15ab5636550a7df4239102c27497f4cd0f8eade209ac413e91e1eb73",
+    "lab/explorations/2026-11-13-kernel61/body_recovery/analyze_recovery.py": "c24845c92c7cc51ea7bee3dbb68648a16e507e28115533e622023549657de331",
+    "lab/explorations/2026-11-13-kernel61/body_recovery/protocol.zh.md": "83cabd42e5d6769f6be52a6c807a0f67aaa4f31e4ea8657463180991d6bbf643",
+    "lab/explorations/2026-11-13-kernel61/body_recovery/protocol.en.md": "fc5cac9e069e47bcd13c07d9a25853262cf6fff84a4848ca341b3f015d82362c"
+  },
+  "scope": "New genuine 6.3 subjects; original materials, course, contrasts and criteria retained. Historical results are not new results.",
+  "changes": [
+    "new version and batch identities",
+    "new raw directories and API request namespace",
+    "corrected read-only birth-state audit where applicable",
+    "FileStandardInfo allocation measurement"
+  ]
+}

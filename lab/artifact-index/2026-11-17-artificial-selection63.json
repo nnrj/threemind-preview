@@ -1,0 +1,130 @@
+{
+  "schema": "threemind.artificial-selection63-artifact-locations/1",
+  "completed_date_beijing": "2026-11-18",
+  "kernel": "threemind.continuous-memory/6.3",
+  "birth": "threemind.birth/2; decay_age=preserve",
+  "studies": [
+    {
+      "study": "AS63-01",
+      "work": "E:\\WORKSPACE\\AgentWork\\threemind\\.work\\artificial-selection63-20261117",
+      "archive_bytes": 3240752036,
+      "archive_sha256": "3331e353e417ba0b77bff1431c54031f9b031ea98c8a8967f1f2c3835a824e82",
+      "coverage": "verified",
+      "members": 26616,
+      "pending": 0,
+      "project": "d0a04159-ee0f-4200-ada9-13d5ce7197b7",
+      "raw_bytes": 3231147611,
+      "record": "ef022c6e-a0f6-5bb0-acfa-e9b0629e19bc",
+      "resource_id": "as63-01-20261117",
+      "archive_member": "originals.zip",
+      "manifest_member": "manifest.json",
+      "audit_sha256": "b6a9a3fbdecb1e1fc273e01b22831ef39dc50b2c7650a543ee62c07a048985c8"
+    },
+    {
+      "study": "AS63-02",
+      "work": "E:\\WORKSPACE\\AgentWork\\threemind\\.work\\artificial-selection63-layout-20261117",
+      "archive_bytes": 525891735,
+      "archive_sha256": "61d865c3f3e8f78e6855f3eb6d895f4d7851c7a137133758f0585f54a91f546b",
+      "coverage": "verified",
+      "members": 3954,
+      "pending": 0,
+      "project": "d0a04159-ee0f-4200-ada9-13d5ce7197b7",
+      "raw_bytes": 524502539,
+      "record": "d268901c-e0df-5de0-a809-2775a0ef0065",
+      "resource_id": "as63-02-20261117",
+      "archive_member": "originals.zip",
+      "manifest_member": "manifest.json",
+      "audit_sha256": "4ac71f1188bd8b0931b2fcad669e63ada141c98702168ac1209d0c38c114ca76"
+    }
+  ],
+  "primary_stages": 5056,
+  "layout_stages": 768,
+  "independent_populations": 16,
+  "primary_targets": {
+    "H1": {
+      "ci95": [
+        0.0,
+        0.2059072142078227
+      ],
+      "passed": false,
+      "passed_populations": 0,
+      "populations": [
+        {
+          "passed": false,
+          "seed": 1117100
+        },
+        {
+          "passed": false,
+          "seed": 1117101
+        },
+        {
+          "passed": false,
+          "seed": 1117102
+        },
+        {
+          "passed": false,
+          "seed": 1117103
+        },
+        {
+          "passed": false,
+          "seed": 1117104
+        },
+        {
+          "passed": false,
+          "seed": 1117105
+        },
+        {
+          "passed": false,
+          "seed": 1117106
+        },
+        {
+          "passed": false,
+          "seed": 1117107
+        },
+        {
+          "passed": false,
+          "seed": 1117108
+        },
+        {
+          "passed": false,
+          "seed": 1117109
+        },
+        {
+          "passed": false,
+          "seed": 1117110
+        },
+        {
+          "passed": false,
+          "seed": 1117111
+        },
+        {
+          "passed": false,
+          "seed": 1117112
+        },
+        {
+          "passed": false,
+          "seed": 1117113
+        },
+        {
+          "passed": false,
+          "seed": 1117114
+        },
+        {
+          "passed": false,
+          "seed": 1117115
+        }
+      ],
+      "proportion": 0.0,
+      "required_populations": 4,
+      "total_populations": 16
+    }
+  },
+  "layout_joint_passed": false,
+  "reports": [
+    "lab/explorations/2026-11-17-artificial-selection63/report.zh.md",
+    "lab/explorations/2026-11-17-artificial-selection63/report.en.md",
+    "lab/explorations/2026-11-17-artificial-selection63/layout-report.zh.md",
+    "lab/explorations/2026-11-17-artificial-selection63/layout-report.en.md"
+  ],
+  "data_boundary": "Original states, full trajectories, and archives remain in ignored storage; only small summaries, code, reports and figures are tracked."
+}

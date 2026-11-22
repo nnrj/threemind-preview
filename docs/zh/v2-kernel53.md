@@ -2,11 +2,13 @@
 
 2026-11-11。[English](../en/v2-kernel53.md) · [授权计划](plans/kernel53.md) · [工程验收](../../lab/explorations/2026-11-11-kernel53/engineering-report.zh.md)
 
+**同日后续更新：用户已选择逆对数作为 5.3 的默认衰减，并将 5.3 设为新建默认内核。** 指数、幂律、先幂律后指数继续可选。旧存档和用户显式配置沿用原值；下文原比较中的默认保留决定属于当时记录，后续取舍见[默认选择记录](plans/kernel53-default-selection.md)。
+
 ## 已完成什么
 
 `threemind.continuous-memory/5.3`已有独立Python参考实现和真实Rust实现，并接入现有创建、配置、刺激、推进、观察、干预及保存恢复接口。单权重/单年龄、四种衰减曲线、按内部时钟检查删除、节点发送与连接传导分离、两类信号同向传导及强化都已实现。以下说明区分动力学改变、实现优化与实验结论。
 
-5.3是独立的新动力学。历史5.1与5.2的个体按其真实版本恢复；5.2新增保留原贡献列表、原传导和事件规则的Rust后端。项目全局创建默认仍为`continuous-memory/3`。作者论文、原实验报告与数据没有被改写。
+5.3是独立的新动力学。历史5.1与5.2的个体按其真实版本恢复；5.2新增保留原贡献列表、原传导和事件规则的Rust后端。项目全局创建默认现为`continuous-memory/5.3`，其默认曲线为逆对数。作者论文、原实验报告与数据没有被改写。
 
 ## 一个权重和一个年龄
 
@@ -49,12 +51,12 @@ q_+=w_{\mathrm{eff}}s_+rd,\qquad q_-=w_{\mathrm{eff}}s_-rd.
 
 曲线、转折年龄、强化计龄方式及结构检查周期在出生后固定。完整存档保存配置、年龄、事件队列及所有原有状态，Python与Rust可相互恢复。拒绝用5.1身份加载5.3，或在恢复时覆盖保存的配置。精确全态副本仍可建立；繁殖中的年龄继承规则尚未定义，相关操作会明确拒绝。
 
-本机已验证的产物在`.work/kernel53-delivery/`：独立程序`threemind-runtime.exe`和Python模块`_threemind_native.pyd`。它们包含真实5.2和5.3。没有覆盖已安装扩展，也没有重启当前API服务；服务使用新后端需要在适当维护时间重新构建/安装并正常重启。
+初次交付的`.work/kernel53-delivery/`及科研运行二进制原样保留。默认变更后的本机产物位于`.work/kernel53-default-20261111/`，包含独立程序`threemind-runtime.exe`、Python模块及wheel，支持真实5.2、5.3。本次已更新项目`.work/kernel-venv`中的原生扩展，替换前安装另行备份；当前API与工作台进程没有重启，重启后加载新后端和新建默认。
 
 在项目根目录可以直接使用独立程序。下面命令只创建一个零时刻工程示例，不教学、不运行旧个体；输出文件已存在时拒绝覆盖：
 
 ```powershell
-.\.work\kernel53-delivery\threemind-runtime.exe `
+.\.work\kernel53-default-20261111\threemind-runtime.exe `
   --kernel threemind.continuous-memory/5.3 `
   --clock unbounded --until-us 0 --export .work\example-53.tmind
 ```
@@ -66,7 +68,7 @@ from threemind_kernels.local53 import Local53Config
 from threemind_kernels.registry import resolve_kernel
 
 core = resolve_kernel("threemind.continuous-memory/5.3").create(
-    Local53Config(decay_curve="power-law"), backend="reference"
+    Local53Config(), backend="reference"  # 默认 inverse-logarithmic
 )
 ```
 

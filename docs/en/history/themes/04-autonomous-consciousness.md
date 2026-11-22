@@ -105,3 +105,69 @@ R43 separates four questions: whether opposite experiences organize joint predic
 All eight independent individuals completed the study. Joint conflict accuracy increased from 4/64 to 62/64 after discriminating evidence; G2 passed in 8/8. Stable history-dependent joint judgments, selective observation, and behavioral attribution to the designated connections each passed in 0/8. First-window new-cue accuracy was 40/128; ambiguous exits were 102/192 with autonomous viewing and 184/192 with information forced. The apparatus can use new evidence to revise answers, while this curriculum did not establish selective information seeking.
 
 Formal output always used personal temporal Transformers: twenty recorded frames per second-long window, eight consumed frames, and activation, inhibition, direct and associative activity fields. After the author reiterated the commitment to activity as a process, the assistant clarified that the mean-activation projection was a separate post-run diagnostic, never a replacement adapter. Further post-result checks found that nonzero first-window output-port information was in the inhibition field. Target silence changed 768/768 windows without changing category outputs. These observations motivate separate inhibition, reverse-route and action-expression controls before expanding the same curriculum; they do not alter the four registered verdicts. [Report](../../../../lab/explorations/2026-11-09-context-revision/report.en.md) · [Delivery](../../../../lab/explorations/2026-11-09-context-revision/delivery.md)
+
+
+## 2026-11-16: R63e 64-group autonomous-activity confirmation completed
+
+All 64 ThreeMind 6.3 origins satisfy the four autonomous-activity criteria; each control has 0/64 joint passes. Recurrent-network temporal interaction passes in 49/64 origins, above the original 48/64 criterion threshold. Each paired joint-rate advantage is 100 percentage points, with Holm-adjusted P=4.3368×10⁻¹⁹. Verification covers 33,920 complete states, 20,480 probes, 1,280 feedback-replay groups and 128 recurrent-network teaching histories. All 9,097 scientific summary values match 6.1 exactly. Computation took 92.19 min and peaked at 650.55 MiB private memory, without marked slowdown. All 38,854 archive members passed complete research-API readback, pending=0. The batch confirms that 6.3 retains the joint capacity for experience-organized autonomous activity. No new scientific stop was triggered; R63f bodily transfer follows. [Public edition: manuscript editing instructions omitted.]
+
+[R63e report](../../../../lab/explorations/2026-11-15-kernel63-revalidation/criteria_confirmation/report.en.md) · [API](../../../../lab/explorations/2026-11-15-kernel63-revalidation/criteria_confirmation/delivery.json) · [coverage](../../../../lab/explorations/2026-11-15-kernel63-revalidation/coverage.en.md)
+
+
+## 2026-11-16: R63f bodily-transfer replication completed
+
+All 192 taught process tests retain the taught direction; all 48 untaught tests are undirected, across original angle, changed angle and changed gravity. Target readout at native convergence remains 0/240 and historical inertial reversal remains absent, both matching 6.1. Verification covers 560 new states, 40 complete parents and 240 trajectory pairs. Independent integral error is at most 6.94×10⁻¹⁸; 9,120 numerical fields differ from 6.1 by at most 4.34×10⁻¹⁹, with identical classifications. Computation took 307.14 s, peak private memory was 626.93 MiB and allocated originals occupied 66.63 MiB. Expression of bodily experience across physical settings is replicated, without a new adverse contradiction. The eight-origin connection-transfer study follows. All 2,307 archive members passed complete API readback, pending=0.
+
+[R63f](../../../../lab/explorations/2026-11-15-kernel63-revalidation/body_transfer/report.en.md) · [API](../../../../lab/explorations/2026-11-15-kernel63-revalidation/body_transfer/delivery.json) · [coverage](../../../../lab/explorations/2026-11-15-kernel63-revalidation/coverage.en.md)
+
+
+## 2026-11-16: R63g eight-origin connection transfer completed
+
+All eight origins pass the primary transfer criteria. Complete and persistent target packages transfer all 48 target choices to the donor relation while preserving all 48 unrelated responses. Matched transplantation changes the other relation, and immediate restoration restores complete state and responses. All 16 fast-state exchanges are zero-change controls, reported as 0/8 passes. Actual edge-content changes affect only destinations, further localizing transfer to connectivity. Independent verification covers 816 states and 672 probes; all 157 scientific summary values match 6.1 exactly. Computation took 149.83 s, peak private memory was 550.75 MiB and allocated originals occupied 14.72 MiB. No new stop was triggered; fixed process-readout testing follows. All 1,018 archive members passed complete API readback, pending=0.
+
+[R63g](../../../../lab/explorations/2026-11-15-kernel63-revalidation/transfer/report.en.md) · [API](../../../../lab/explorations/2026-11-15-kernel63-revalidation/transfer/delivery.json) · [coverage](../../../../lab/explorations/2026-11-15-kernel63-revalidation/coverage.en.md)
+
+
+## 2026-11-16: R63u retention, retrieval and relearning measurement prepared
+
+Read-only arithmetic checks of the original X2 study cover 32 origins and 256 diagnostic processes, reproducing the original cue-dependence and transient-expression decisions. Taught and untaught individuals all reached the minimum two rounds, so those results cannot resolve savings in teaching. The new protocol retains the retention tests and pairs two existing 6.3 retention configurations. Independent materials calibrate a process-response criterion before formal relearning, with a 16-round limit; failed calibration is reported as unavailable measurement. Stored, sleeping and graph-visible connections are counted separately. Only protocol and tools are prepared: no registration or subject creation, pending R63q. Core, old originals and old criteria remain unchanged.
+
+[R63u](../../../../lab/explorations/2026-11-15-kernel63-revalidation/retention_relearning/preparation.en.md) · [protocol](../../../../lab/explorations/2026-11-15-kernel63-revalidation/retention_relearning/protocol.en.md)
+
+
+## 2026-11-16: read-only development of the 6.3 first-response formula
+
+Read-only calculations under the 6.3 rules reproduce 64/64 first-response directions in completed records, with maximum amplitude difference 1.7347×10⁻¹⁸. This is retrospective formula development, not an independent prediction study. Formal design and execution of the original eight-plus-eight-origin M2 studies remain pending.
+
+[development](../../../../lab/explorations/2026-11-15-kernel63-revalidation/resource_prediction/development.en.md)
+
+
+## 2026-11-16: R63h fixed-readout replication completed; continuation paused at author request
+
+All eight origins pass fixed expression and causal attribution with the 110-ms output-port reader. The primary temporal condition passes 4/8 and 0/8 respectively, below the registered 6/8 threshold. Endpoint new answers score 56/64; plasticity-off teaching or new-connection blocking gives 0/64 while preserving all 64 old answers. Restoration is exact. Audits verify 2,024 complete states and 1,824 answers. Scientific categories match 6.1, with maximum numerical difference 0. Computation took 3075.83 s and peak private memory was 863.49 MiB. No new adverse contradiction occurred. Core learning expressed through a fixed reader is replicated, along with the known limitation of this temporal-readout design. At the author's request, the campaign pauses after delivery . [Public edition: manuscript editing or private locator omitted.] R63i and subsequent studies have not started. All 2,131 archive members passed complete API readback, pending=0.
+
+[R63h](../../../../lab/explorations/2026-11-15-kernel63-revalidation/fixed_readout/report.en.md) · [API](../../../../lab/explorations/2026-11-15-kernel63-revalidation/fixed_readout/delivery.json) · [coverage](../../../../lab/explorations/2026-11-15-kernel63-revalidation/coverage.en.md)
+
+
+## 17 November 2026: New artificial-selection experiment registered and running
+
+The author authorized a new Core6.3 artificial-selection experiment. AS63-01 assesses candidates through complete-state copies before selected originals reproduce through birth/2. Sixteen independent populations, three generations, opposite directions and random selection retain all candidates, with matched uninherited controls. AS63-02 separately registers layout swapping and action replay in every G2 candidate. Apparatus checks passed; scientific computation is still running. Neither registration changes historical evidence or resumes other paused batches.
+
+[AS63](../chronicles/20-artificial-selection.md)
+
+
+## 2026-11-18: AS63 artificial selection and layout control completed
+
+AS63-01 completed and audited 16 populations and 5,056 stages. Some parent–offspring tendencies agreed, but 0/16 populations met retention in both directions across two transmissions. Selection gains over random controls were 0.042 and 0.127 percentage points; successive strengthening and inheritance benefits over blank-Core controls also missed their criteria. Sustained circling with near-50% occupancy was retained.
+
+AS63-02 completed all 768 layout-control stages. Closed-loop minus old-action-replay target occupancy was -23.216 and +23.297 percentage points for the two selection directions. The registered joint goal was not met. Direction-specific results and uncertainty are reported separately and do not change primary scores.
+
+The two archives contain 26616 and 3954 members. Both were downloaded in full through the local research API and checked member by member; bilingual reports matched on readback. Both records are finalized with pending=0. Production Core code, old experiments, the manuscript, and other paused batches were not changed.
+
+[AS63](../chronicles/20-artificial-selection.md)
+
+## 2026-11-18: AS63-03 locates node-ID dependence in the old ring adapter
+
+All 312 stages completed. The four old /1 histories reproduced exactly at 2,400 sampled points. With peripheral 9293202, developed /1 target occupancy was 93.917% in both historical directions. Default 6.3 gave 4.417% and 95.333% under the original rule, but 94.000% in both directions after alignment. Crucially, blank 6.3 Cores supplied with the same bindings reached 93.750% in both directions. The prefix configuration did not recover opposite preferences under the original rule. The other peripheral remained near 50%, with its trajectories retained.
+
+[AS63-03](../../../../lab/explorations/2026-11-18-ring-mechanism63/report.en.md)

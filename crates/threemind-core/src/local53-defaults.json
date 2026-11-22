@@ -111,7 +111,7 @@
   "energy_seed": 20261009,
   "energy_region_count": 16,
   "energy_node_capacity": 1.0,
-  "decay_curve": "power-law",
+  "decay_curve": "inverse-logarithmic",
   "decay_transition_age": 10.0,
   "reinforcement_age_policy": "keep",
   "retention_growth_enabled": false,

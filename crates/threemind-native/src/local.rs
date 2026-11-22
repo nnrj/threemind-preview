@@ -137,3 +137,14 @@ bind_local!(NativeLocal52, LocalEngine52);
 
 use threemind_core::weight_decay::LocalWeightDecayEngine;
 bind_local!(NativeWeightDecay, LocalWeightDecayEngine);
+
+use threemind_core::local60::LocalEngine60;
+bind_local!(NativeLocal60, LocalEngine60);
+
+use threemind_core::local61::LocalEngine61;
+bind_local!(NativeLocal61, LocalEngine61);
+
+use threemind_core::local62::LocalEngine62;
+use threemind_core::local63::LocalEngine63;
+bind_local!(NativeLocal62, LocalEngine62);
+bind_local!(NativeLocal63, LocalEngine63);

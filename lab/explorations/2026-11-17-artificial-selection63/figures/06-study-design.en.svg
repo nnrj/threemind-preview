@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="940.4pt" height="594.8pt" viewBox="0 0 940.4 594.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-17T21:02:16.022864</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 594.8 
+L 940.4 594.8 
+L 940.4 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 39.61 197.5712 
+L 289.63 197.5712 
+Q 297.038 197.5712 297.038 192.928 
+L 297.038 105.868 
+Q 297.038 101.2248 289.63 101.2248 
+L 39.61 101.2248 
+Q 32.202 101.2248 32.202 105.868 
+L 32.202 192.928 
+Q 32.202 197.5712 39.61 197.5712 
+z
+" clip-path="url(#p23058d2442)" style="fill: #eaf4f9; stroke: #526676; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 345.19 197.5712 
+L 595.21 197.5712 
+Q 602.618 197.5712 602.618 192.928 
+L 602.618 105.868 
+Q 602.618 101.2248 595.21 101.2248 
+L 345.19 101.2248 
+Q 337.782 101.2248 337.782 105.868 
+L 337.782 192.928 
+Q 337.782 197.5712 345.19 197.5712 
+z
+" clip-path="url(#p23058d2442)" style="fill: #f5f7f8; stroke: #526676; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 650.77 197.5712 
+L 900.79 197.5712 
+Q 908.198 197.5712 908.198 192.928 
+L 908.198 105.868 
+Q 908.198 101.2248 900.79 101.2248 
+L 650.77 101.2248 
+Q 643.362 101.2248 643.362 105.868 
+L 643.362 192.928 
+Q 643.362 197.5712 650.77 197.5712 
+z
+" clip-path="url(#p23058d2442)" style="fill: #f5f7f8; stroke: #526676; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 39.61 357.1812 
+L 289.63 357.1812 
+Q 297.038 357.1812 297.038 352.538 
+L 297.038 265.478 
+Q 297.038 260.8348 289.63 260.8348 
+L 39.61 260.8348 
+Q 32.202 260.8348 32.202 265.478 
+L 32.202 352.538 
+Q 32.202 357.1812 39.61 357.1812 
+z
+" clip-path="url(#p23058d2442)" style="fill: #eaf4f9; stroke: #526676; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 650.77 357.1812 
+L 900.79 357.1812 
+Q 908.198 357.1812 908.198 352.538 
+L 908.198 265.478 
+Q 908.198 260.8348 900.79 260.8348 
+L 650.77 260.8348 
+Q 643.362 260.8348 643.362 265.478 
+L 643.362 352.538 
+Q 643.362 357.1812 650.77 357.1812 
+z
+" clip-path="url(#p23058d2442)" style="fill: #f5f7f8; stroke: #526676; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 39.61 516.7912 
+L 289.63 516.7912 
+Q 297.038 516.7912 297.038 512.148 
+L 297.038 425.088 
+Q 297.038 420.4448 289.63 420.4448 
+L 39.61 420.4448 
+Q 32.202 420.4448 32.202 425.088 
+L 32.202 512.148 
+Q 32.202 516.7912 39.61 516.7912 
+z
+" clip-path="url(#p23058d2442)" style="fill: #eaf4f9; stroke: #526676; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 345.19 516.7912 
+L 595.21 516.7912 
+Q 602.618 516.7912 602.618 512.148 
+L 602.618 425.088 
+Q 602.618 420.4448 595.21 420.4448 
+L 345.19 420.4448 
+Q 337.782 420.4448 337.782 425.088 
+L 337.782 512.148 
+Q 337.782 516.7912 345.19 516.7912 
+z
+" clip-path="url(#p23058d2442)" style="fill: #f5f7f8; stroke: #526676; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 650.77 516.7912 
+L 900.79 516.7912 
+Q 908.198 516.7912 908.198 512.148 
+L 908.198 425.088 
+Q 908.198 420.4448 900.79 420.4448 
+L 650.77 420.4448 
+Q 643.362 420.4448 643.362 425.088 
+L 643.362 512.148 
+Q 643.362 516.7912 650.77 516.7912 
+z
+" clip-path="url(#p23058d2442)" style="fill: #f5f7f8; stroke: #526676; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 164.62 101.2248 
+L 164.62 85.554 
+" clip-path="url(#p23058d2442)" style="fill: none; stroke: #526676; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 164.62 85.554 
+L 775.78 85.554 
+" clip-path="url(#p23058d2442)" style="fill: none; stroke: #526676; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 470.2 197.5712 
+L 470.2 309.008 
+" clip-path="url(#p23058d2442)" style="fill: none; stroke: #526676; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle" x="470.2" y="41.318199" transform="rotate(-0 470.2 41.318199)">AS63-01: Assess the parent, then test the descendants</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #465665" x="470.2" y="70.864123" transform="rotate(-0 470.2 70.864123)">16 independent populations · 4 G0 candidates each · G0 → G1 → G2 · Fixed primary layout</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 9.3px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(83.886555 136.574081)">4 original candidates per generation</text>
+    <text style="font-size: 9.3px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(84.818734 152.013625)">60 internal seconds of development</text>
+    <text style="font-size: 9.3px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(102.660203 167.317302)">Save complete current state</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9.3px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(404.230305 137.698073)">Selection assessment: 2 starts</text>
+    <text style="font-size: 9.3px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(399.719078 151.959133)">Complete-state copies; no birth</text>
+    <text style="font-size: 9.3px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(412.727453 167.249005)">Mean region 1 occupancy</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9.3px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(696.7765 137.698073)">Held-out assessment: 4 other starts</text>
+    <text style="font-size: 9.3px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(698.794164 152.013625)">Copies of the same complete state</text>
+    <text style="font-size: 9.3px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(706.77618 168.468903)">Scores excluded from selection</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9.3px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(84.808562 296.184081)">Select 2 original candidates per arm</text>
+    <text style="font-size: 9.3px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(88.153656 311.54225)">Region 0: lowest; region 1: highest</text>
+    <text style="font-size: 9.3px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(93.793234 326.981794)">Random: independent of scores</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 9.3px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(675.909625 296.184081)">Compare every candidate in each generation</text>
+    <text style="font-size: 9.3px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(699.496023 311.54225)">Average 4 starts within candidates</text>
+    <text style="font-size: 9.3px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(692.385156 326.927302)">Then 4 candidates within populations</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 9.3px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(96.214141 455.848573)">2 offspring per selected parent</text>
+    <text style="font-size: 9.3px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(70.931945 471.206742)">4 offspring per arm in the next generation</text>
+    <text style="font-size: 9.3px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(102.039719 486.537302)">threemind.birth/2 · preserve</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 9.3px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(393.074664 455.848573)">1 uninherited control per offspring</text>
+    <text style="font-size: 9.3px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(394.410812 471.179133)">Blank Core; no parental Core state</text>
+    <text style="font-size: 9.3px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(385.073031 486.537302)">Same peripherals, starts, development</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 9.3px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(722.440867 455.77955)">Four separate questions</text>
+    <text style="font-size: 9.3px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(705.443664 471.15225)">Retention · Selection advantage</text>
+    <text style="font-size: 9.3px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(699.331094 487.688903)">Accumulation · Inheritance benefit</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 299.042374 149.398 
+Q 317.412012 149.398 334.44001 149.398 
+" style="fill: none; stroke: #526676; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 329.64001 146.998 
+L 334.44001 149.398 
+L 329.64001 151.798 
+z
+" style="fill: #526676; stroke: #526676; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 775.78 87.554935 
+Q 775.78 93.390325 775.78 97.884075 
+" style="fill: none; stroke: #526676; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 778.18 93.084075 
+L 775.78 97.884075 
+L 773.38 93.084075 
+z
+" style="fill: #526676; stroke: #526676; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_11">
+    <g id="patch_12">
+     <path d="M 432.683437 99.227676 
+L 526.236562 99.227676 
+L 526.236562 88.131524 
+L 432.683437 88.131524 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle" x="479.46" y="96.053623" transform="rotate(-0 479.46 96.053623)">Complete-state copies</text>
+   </g>
+   <g id="patch_13">
+    <path d="M 164.62 199.567494 
+Q 164.62 229.200842 164.62 257.492548 
+" style="fill: none; stroke: #526676; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 167.02 252.692548 
+L 164.62 257.492548 
+L 162.22 252.692548 
+z
+" style="fill: #526676; stroke: #526676; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: start" x="172.028" y="230.121956" transform="rotate(-0 172.028 230.121956)">Original stays unchanged</text>
+   </g>
+   <g id="patch_14">
+    <path d="M 468.199822 309.008 
+Q 383.617895 309.008 300.377608 309.008 
+" style="fill: none; stroke: #526676; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 305.177608 311.408 
+L 300.377608 309.008 
+L 305.177608 306.608 
+z
+" style="fill: #526676; stroke: #526676; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: start" x="479.46" y="262.043956" transform="rotate(-0 479.46 262.043956)">Scores select original candidates</text>
+   </g>
+   <g id="patch_15">
+    <path d="M 775.78 199.567494 
+Q 775.78 229.200842 775.78 257.492548 
+" style="fill: none; stroke: #526676; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 778.18 252.692548 
+L 775.78 257.492548 
+L 773.38 252.692548 
+z
+" style="fill: #526676; stroke: #526676; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 775.78 359.177494 
+Q 775.78 388.810842 775.78 417.102548 
+" style="fill: none; stroke: #526676; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 778.18 412.302548 
+L 775.78 417.102548 
+L 773.38 412.302548 
+z
+" style="fill: #526676; stroke: #526676; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 164.62 359.177494 
+Q 164.62 388.810842 164.62 417.102548 
+" style="fill: none; stroke: #526676; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 167.02 412.302548 
+L 164.62 417.102548 
+L 162.22 412.302548 
+z
+" style="fill: #526676; stroke: #526676; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: start" x="172.028" y="390.892756" transform="rotate(-0 172.028 390.892756)">Birth only here</text>
+   </g>
+   <g id="patch_18">
+    <path d="M 299.042374 468.618 
+Q 317.412012 468.618 334.44001 468.618 
+" style="fill: none; stroke-dasharray: 4.44,1.92; stroke-dashoffset: 0; stroke: #526676; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 329.64001 466.218 
+L 334.44001 468.618 
+L 329.64001 471.018 
+z
+" style="fill: #526676; stroke-dasharray: 4.44,1.92; stroke-dashoffset: 0; stroke: #526676; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 604.622374 468.618 
+Q 622.992012 468.618 640.02001 468.618 
+" style="fill: none; stroke-dasharray: 4.44,1.92; stroke-dashoffset: 0; stroke: #526676; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 635.22001 466.218 
+L 640.02001 468.618 
+L 635.22001 471.018 
+z
+" style="fill: #526676; stroke-dasharray: 4.44,1.92; stroke-dashoffset: 0; stroke: #526676; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 9.1px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle" x="470.2" y="546.607247" transform="rotate(-0 470.2 546.607247)">Each assessment runs continuously for 60 internal seconds; experience is not written back. G2 does not reproduce. Independent N = 16.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p23058d2442">
+   <rect x="7.2" y="7.2" width="926" height="580.4"/>
+  </clipPath>
+ </defs>
+</svg>

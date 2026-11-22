@@ -20,7 +20,7 @@ MAX_ARTIFACT_BYTES = 512 * 1024 * 1024
 
 def split_local_objects(state):
     if state.get("dynamics") not in (
-        "threemind.continuous-memory/4", "threemind.continuous-memory/5", "threemind.continuous-memory/5.1", "threemind.continuous-memory/5.2", "threemind.continuous-memory/5.3", "threemind.experimental-weight-decay/1"
+        "threemind.continuous-memory/4", "threemind.continuous-memory/5", "threemind.continuous-memory/5.1", "threemind.continuous-memory/5.2", "threemind.continuous-memory/5.3", "threemind.continuous-memory/6.0", "threemind.continuous-memory/6.1", "threemind.continuous-memory/6.2", "threemind.continuous-memory/6.3", "threemind.experimental-weight-decay/1"
     ):
         return
     state["local_object_columns"] = {
@@ -34,7 +34,7 @@ def split_local_objects(state):
 
 def join_local_objects(state):
     if state.get("dynamics") not in (
-        "threemind.continuous-memory/4", "threemind.continuous-memory/5", "threemind.continuous-memory/5.1", "threemind.continuous-memory/5.2", "threemind.continuous-memory/5.3", "threemind.experimental-weight-decay/1"
+        "threemind.continuous-memory/4", "threemind.continuous-memory/5", "threemind.continuous-memory/5.1", "threemind.continuous-memory/5.2", "threemind.continuous-memory/5.3", "threemind.continuous-memory/6.0", "threemind.continuous-memory/6.1", "threemind.continuous-memory/6.2", "threemind.continuous-memory/6.3", "threemind.experimental-weight-decay/1"
     ):
         return
     from threemind_kernels.local import LocalEdge, LocalNode
@@ -54,6 +54,22 @@ def join_local_objects(state):
         from threemind_kernels.local53 import Local53Edge as LocalEdge
         from threemind_kernels.local53 import Local53Node as LocalNode
 
+    elif state["dynamics"] == "threemind.continuous-memory/6.0":
+        from threemind_kernels.local60 import Local60Edge as LocalEdge
+        from threemind_kernels.local60 import Local60Node as LocalNode
+
+    elif state["dynamics"] == "threemind.continuous-memory/6.1":
+        from threemind_kernels.local61 import Local61Edge as LocalEdge
+        from threemind_kernels.local61 import Local61Node as LocalNode
+
+    elif state["dynamics"] == "threemind.continuous-memory/6.2":
+        from threemind_kernels.local62 import Local62Edge as LocalEdge
+        from threemind_kernels.local62 import Local62Node as LocalNode
+
+    elif state["dynamics"] == "threemind.continuous-memory/6.3":
+        from threemind_kernels.local63 import Local63Edge as LocalEdge
+        from threemind_kernels.local63 import Local63Node as LocalNode
+
     extra = state.pop("local_object_columns", None)
     if (
         not isinstance(extra, dict)
@@ -63,7 +79,13 @@ def join_local_objects(state):
         raise ValueError("missing local object columns")
     for name, base, local in (("nodes", Node, LocalNode), ("edges", Edge, LocalEdge)):
         expected = {f.name for f in fields(local)} - {f.name for f in fields(base)}
-        if len(extra[name]) != len(state[name]) or any(set(row) != expected for row in extra[name]):
+        optional = ({"inhibition_weight", "inhibition_short_term", "inhibition_learning"}
+                    if name == "edges" and state["dynamics"] == "threemind.continuous-memory/6.2" else
+                    {"inhibition_short_term"}
+                    if name == "edges" and state["dynamics"] == "threemind.continuous-memory/6.3" else set())
+        if len(extra[name]) != len(state[name]) or any(
+            not expected - optional <= set(row) <= expected for row in extra[name]
+        ):
             raise ValueError("invalid local object columns")
         state[name] = [row | values for row, values in zip(state[name], extra[name])]
 

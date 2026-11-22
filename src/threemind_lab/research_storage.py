@@ -45,6 +45,7 @@ class ResearchStorage:
         self.registry_path = self.control_dir / "registry.json"
         self._artifact_cache = {}
         self._registry_cache = None
+        self._experiment_alias_cache = None
         self._member_cache = OrderedDict()
         self._member_cache_bytes = 0
 
@@ -107,12 +108,21 @@ class ResearchStorage:
             )
         return checked_path(info["requested_path"])
 
-    def workspace_path(self, name):
-        """Resolve a new study workspace without creating or moving anything."""
+    def workspace_path(self, name, *, part=None, expected_bytes=None):
+        """Resolve an existing placement or reserve a new single workspace with its peak budget."""
         key = relative_key(name)
         if len(key.parts) != 1:
             raise ValueError("a study workspace name must be one portable path component")
-        return under_root(self.writable_root(), "experiments/" + name)
+        from .experiment_storage import ExperimentStorage, has_run_directories
+
+        pool = ExperimentStorage(self)
+        if part is None and not pool.file.exists():
+            return under_root(self.writable_root(), "experiments/" + name)
+        state = pool._read()
+        if (expected_bytes is not None and has_run_directories(state) and name.casefold() not in state["studies"]
+                and not under_root(self.writable_root(), "experiments/" + name).is_dir()):
+            pool.reserve(name, [{"name": "main", "bytes": expected_bytes}])
+        return pool.path(name, part)
 
     def checkpoint_settings(self):
         path = self.control_dir / "checkpoint-settings.json"
@@ -159,6 +169,11 @@ class ResearchStorage:
             if path is None:
                 raise ValueError("filesystem targets require an explicit absolute path")
             configuration["path"] = str(self._outside_control(path))
+            if "volume_identity" in configuration:
+                from .storage_volumes import directory_identity
+
+                if configuration["volume_identity"] != directory_identity(Path(configuration["path"])):
+                    raise StorageConflict("target directory identity changed before registration")
             if Path(configuration["path"]).exists() and not Path(configuration["path"]).is_dir():
                 raise ValueError("a filesystem target must be a directory")
         elif path is not None:
@@ -206,13 +221,61 @@ class ResearchStorage:
         self.resolve_locator(locator)
         return locator
 
-    def resolve_locator(self, locator):
+    def _experiment_location(self, path, *, for_write=False, volume=None):
+        """Moved study members follow the catalog even when their former disk is offline."""
+        from .experiment_storage import ExperimentStorage
+        from .storage_volumes import mounted_directory
+
+        pool = ExperimentStorage(self)
+        try:
+            info = pool.file.stat()
+        except FileNotFoundError:
+            return None
+        signature = (info.st_ino, info.st_size, info.st_mtime_ns, info.st_ctime_ns)
+        cached = self._experiment_alias_cache
+        if cached is None or cached[0] != signature:
+            state = pool._read()
+            aliases = []
+            for study in state["studies"].values():
+                if not study.get("aliases"):
+                    continue
+                current = {p["name"]: p for p in study["parts"]}
+                for old in [*study["aliases"], *study["parts"]]:
+                    entry = state["directories"][old["directory"]]
+                    base = Path(entry["path"]) / relative_key(old["relative_path"])
+                    part = current[old["name"]]
+                    for prefix in {base, Path(old.get("original_path", base))}:
+                        aliases.append((prefix, entry["volume"], state["directories"][part["directory"]],
+                                        part["relative_path"], study.get("residency")))
+            cached = self._experiment_alias_cache = (signature, sorted(aliases, key=lambda a: -len(a[0].parts)))
+        for base, old_volume, dest, key, residency in cached[1]:
+            if path.is_relative_to(base) and (not volume or volume == old_volume):
+                if for_write and residency == "archived":
+                    raise StorageConflict("archived experiments must be returned to a run directory before writing")
+                root = under_root(mounted_directory(dest), key)
+                return checked_path(root / path.relative_to(base))
+        return None
+
+    def resolve_locator(self, locator, *, for_write=False, member=None):
         target = self.target(locator["target_id"], locator["config_revision"])
         if target["kind"] != "filesystem":
             raise ValueError("directory operations require a filesystem target")
         if locator.get("host_id", target["host_id"]) != target["host_id"]:
             raise StorageConflict("storage locator belongs to another host")
-        return self._outside_control(under_root(Path(target["configuration"]["path"]), locator["relative_path"]))
+        config = target["configuration"]
+        root = Path(config["path"])
+        relative = relative_key(locator["relative_path"])
+        if member:
+            relative /= relative_key(member)
+        mapped = self._experiment_location(root / relative, for_write=for_write,
+                                           volume=config.get("volume_identity", {}).get("volume"))
+        if mapped is not None:
+            return self._outside_control(mapped)
+        if "volume_identity" in config:
+            from .storage_volumes import mounted_directory
+
+            root = mounted_directory({"path": str(root), **config["volume_identity"]})
+        return self._outside_control(under_root(root, relative.as_posix()))
 
     def safe_path(self, target_id, relative_path, *, config_revision=None):
         return self.resolve_locator(self.locator(target_id, relative_path, config_revision=config_revision))
@@ -264,10 +327,17 @@ class ResearchStorage:
 
     def _assert_available_path(self, state, path, *, except_id=None):
         """Each managed writable tree has one lock owner, including its children."""
+        from .storage_volumes import VolumeOffline
+
         for other in state["resources"].values():
             if other["id"] == except_id:
                 continue
-            location = self.resolve_locator(other["locator"])
+            locator = other["locator"]
+            try:
+                location = self.resolve_locator(locator)
+            except VolumeOffline:
+                target = self.target(locator["target_id"], locator["config_revision"])
+                location = Path(target["configuration"]["path"]) / relative_key(locator["relative_path"])
             if location.is_relative_to(path) or path.is_relative_to(location):
                 raise StorageConflict("managed research resource locations cannot overlap")
 
@@ -284,15 +354,14 @@ class ResearchStorage:
         row = self.resource(resource_id)
         if for_write and (row["writer_mode"] != "cooperative" or row.get("migration_id")):
             raise StorageBusy("resource is sealed, unmanaged, or reserved for migration")
-        return self.resolve_locator(row["locator"])
+        return self.resolve_locator(row["locator"], for_write=for_write)
 
     def resolve_member(self, resource_id, member=None):
         row = self.resource(resource_id)
         locations = self.member_locations(row, copy_state=False)
         if member and member in locations:
             return self.resolve_locator(locations[member])
-        root = self.resolve_locator(row["locator"])
-        return under_root(root, member) if member else root
+        return self.resolve_locator(row["locator"], member=member)
 
     def member_locations(self, resource, *, copy_state=True):
         reference = resource.get("member_manifest")
@@ -375,10 +444,12 @@ class ResearchStorage:
                 original = checked_path(original)
                 if candidate == original or candidate.is_relative_to(original):
                     suffix = candidate.relative_to(original)
-                    mapped = self.resolve_locator(row["locator"])
-                    resolved = mapped if str(suffix) == "." else self.resolve_member(row["id"], suffix.as_posix())
+                    resolved = self.resolve_member(row["id"], None if str(suffix) == "." else suffix.as_posix())
                     matches.append((len(original.parts), resolved))
         if not matches:
+            mapped = self._experiment_location(candidate)
+            if mapped is not None:
+                return mapped
             # P1's tracked, exact-file index never makes the archive directory public.
             index_root = checked_path(self.repository_root / "lab/artifact-index")
             if index_root.exists():

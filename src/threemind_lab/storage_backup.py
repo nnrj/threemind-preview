@@ -279,10 +279,17 @@ def create(url, destination, *, blobs=None, pg_bin=None, key_ids=(), compression
             ).fetchall()
         registry_before = blobs.storage._load()
         control_before = {}
-        for name in ("registry.json", "blob-policies.json", "checkpoint-settings.json"):
+        for name in ("registry.json", "blob-policies.json", "checkpoint-settings.json", "experiment-storage.json"):
             source = blobs.storage.control_dir / name
             if source.exists():
                 control_before[name] = source.read_bytes()
+        for source in (blobs.storage.control_dir / "experiment-archives").glob("*.json"):
+            name = "experiment-archives/" + source.name
+            control_before[name] = under_root(blobs.storage.control_dir, name).read_bytes()
+        transfer_indexes = {
+            source.name: _hash(source)
+            for source in (blobs.storage.control_dir / "experiment-transfers").glob("*.jsonl.gz")
+        }
         for resource in registry_before["resources"].values():
             if resource.get("member_manifest"):
                 name = resource["member_manifest"]["path"]
@@ -386,6 +393,17 @@ def create(url, destination, *, blobs=None, pg_bin=None, key_ids=(), compression
         )
     if blobs.storage._load() != registry_before:
         raise ValueError("host location registry changed during backup; retain incomplete backup and retry")
+    for filename, signature in transfer_indexes.items():
+        name = "experiment-transfers/" + filename
+        output = under_root(destination, "control/" + name)
+        output.parent.mkdir(parents=True, exist_ok=True)
+        with under_root(blobs.storage.control_dir, name).open("rb") as src, output.open("xb") as out:
+            shutil.copyfileobj(src, out)
+            out.flush()
+            os.fsync(out.fileno())
+        if _hash(output) != signature:
+            raise ValueError("experiment transfer inventory changed during backup")
+        manifest["control_files"].append({"name": name, "path": output.relative_to(destination).as_posix(), **signature})
     for name, raw in control_before.items():
         if (blobs.storage.control_dir / name).read_bytes() != raw:
             raise ValueError("host control configuration changed during backup")
@@ -612,6 +630,11 @@ def _restore_originals_locked(destination, manifest, new_database, external_root
     # Use a distinct explicit registry file until the operator activates it.
     projected_storage.registry_path = external_root / "registry.restore.json"
     for name, row in controls.items():
+        if name == "experiment-storage.json" or name.startswith(("experiment-archives/", "experiment-transfers/")):
+            # Host volume identities travel as evidence, never as active restore bindings.
+            output = under_root(external_root / "control" / "source-host", name)
+            output.parent.mkdir(parents=True, exist_ok=True)
+            copy_member(row, output)
         if name.startswith("resource-members/"):
             output = under_root(external_root / "control", name)
             output.parent.mkdir(parents=True, exist_ok=True)

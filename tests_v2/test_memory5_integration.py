@@ -23,7 +23,7 @@ def feed(engine):
 
 
 def test_creation_defaults_and_immutable_research_options():
-    assert DEFAULT_KERNEL == 'threemind.continuous-memory/3'
+    assert DEFAULT_KERNEL == 'threemind.continuous-memory/6.1'
     spec = default_spec(kernel_id=KERNEL_ID)
     assert spec['config']['reception_mode'] == 'legacy-source'
     assert spec['config']['arrival_mode'] == 'sequential'

@@ -47,8 +47,8 @@ def test_quiet_decay_partition_and_observation(rule):
 
 
 def test_identity_defaults_and_immutable_law():
-    assert DEFAULT_KERNEL=='threemind.continuous-memory/3'
-    assert resolve_kernel('threemind.continuous-memory/5.3').configuration().decay_curve=='power-law'
+    assert DEFAULT_KERNEL=='threemind.continuous-memory/6.1'
+    assert resolve_kernel('threemind.continuous-memory/5.3').configuration().decay_curve=='inverse-logarithmic'
     desc=resolve_kernel(KERNEL_ID)
     assert type(desc.create(backend='native')) is NativeWeightDecayEngine
     for backend in ('reference','native'):

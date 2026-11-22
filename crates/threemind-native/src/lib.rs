@@ -138,6 +138,10 @@ fn _threemind_native(m: &Bound<'_, PyModule>) -> PyResult<()> {
     m.add_class::<local::NativeLocal5>()?;
     m.add_class::<local::NativeLocal51>()?;
     m.add_class::<local::NativeLocal53>()?;
+    m.add_class::<local::NativeLocal60>()?;
+    m.add_class::<local::NativeLocal61>()?;
+    m.add_class::<local::NativeLocal62>()?;
+    m.add_class::<local::NativeLocal63>()?;
     m.add_class::<local::NativeWeightDecay>()?;
     m.add_class::<local::NativeLocal52>()?;
     m.add_class::<lif::NativeLif>()?;

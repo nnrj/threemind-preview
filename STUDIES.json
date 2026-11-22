@@ -1,7 +1,15 @@
 {
-  "schema": "threemind.paper-data-index/1",
-  "manuscript_sha256": "6a3d4c0e2987315e978a802ba5f2ace9b2cd2ccb2644394bc85a3d126d3c5708",
-  "section_reference": "Section numbering of the author-supplied revision; no manuscript text is included.",
+  "schema": "threemind.paper-data-index/2",
+  "edition": "r3 v6",
+  "source_commit": "b1ea13db51efdf5abbdcfad9f948649a9506960e",
+  "manuscript_sha256": "4e426c9662298207451c0408e71919c49945ff30ad9715685dd157123aabd227",
+  "reference_document_sha256": {
+    "Mapping before meaning_r3_v6.en.docx": "46fcda0cfd3893bea84010bed264a901c59c1563ca72880f038376bcf093c358",
+    "Mapping before meaning_r3_v6.zh.docx": "4e426c9662298207451c0408e71919c49945ff30ad9715685dd157123aabd227",
+    "supplementary_r3_v6.en.docx": "d19339365227fd9d02e7e68599e6a67eba088e7ff360e148fe42ac68add30928",
+    "supplementary_r3_v6.zh.docx": "d49ba07bab006bd14b6e1ec451d436c3c2677b4a761419fbe168d6c36e6cd1bf",
+    "terminology_r3.zh-en.docx": "5461db28d1ccc3497a59a7aa3112a977ba5d642b39a91aab846b325d435bc72a"
+  },
   "studies": [
     {
       "study_id": "E12",
@@ -220,7 +228,7 @@
     },
     {
       "study_id": "E37",
-      "paper_section": "4.9",
+      "paper_section": "4.9, 4.11",
       "title": "E37：仅包裹吞食的意识驱动海洋与代际变化",
       "files": 1845,
       "bytes": 1677140830,
@@ -240,7 +248,7 @@
     },
     {
       "study_id": "E38",
-      "paper_section": "4.9",
+      "paper_section": "4.9, 4.11",
       "title": "E38：成功个体能否成为可复用的吞食谱系",
       "files": 1908,
       "bytes": 1691619912,
@@ -392,7 +400,7 @@
     },
     {
       "study_id": "E68",
-      "paper_section": "4.12",
+      "paper_section": "4.13",
       "title": "Continuous shape/color learning: two complete individuals",
       "files": 22029,
       "bytes": 20035559044,
@@ -529,7 +537,7 @@
     },
     {
       "study_id": "SAT-exclusion",
-      "paper_section": "4.13",
+      "paper_section": "4.15",
       "title": "3-SAT Core contribution exclusion: eight independent origins",
       "files": 8,
       "bytes": 137590651,
@@ -544,5 +552,1647 @@
         "threemind.continuous-memory/5.1"
       ]
     }
-  ]
+  ],
+  "studies_note": "File counts in studies describe the initial 2026-11-11 evidence export. Use the data package EXPORT.json and MANIFEST.jsonl for the installed release.",
+  "r3_studies": [
+    {
+      "id": "E15",
+      "sections": [
+        "4.2",
+        "4.10"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-09-29-experience-and-autonomy/report.zh.md",
+        "lab/explorations/2026-09-29-experience-and-autonomy/report.r2.zh.md"
+      ],
+      "evidence_paths": [
+        "originals/objects/92548061-22c0-4bd9-b283-c4e1e7f4360d"
+      ]
+    },
+    {
+      "id": "X3",
+      "sections": [
+        "4.2"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-10-16-mechanism-discovery/closure-report.r2.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-10-16-mechanism-discovery/closure-v1"
+      ]
+    },
+    {
+      "id": "M3",
+      "sections": [
+        "4.2"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-10-16-mechanism-discovery/m3-confirmation-report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-10-16-mechanism-discovery/closure-v1",
+        "experiments/2026-10-16-mechanism-discovery/m3-confirmation-v2"
+      ]
+    },
+    {
+      "id": "R51g",
+      "sections": [
+        "4.2"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-13-kernel61/criteria/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/criteria61-v1"
+      ]
+    },
+    {
+      "id": "R51i",
+      "sections": [
+        "4.2"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-13-kernel61/criteria_confirmation/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/criteria-confirmation61-v1"
+      ]
+    },
+    {
+      "id": "R63d",
+      "sections": [
+        "4.2"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-15-kernel63-revalidation/criteria/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/criteria-63-rerun-v1"
+      ]
+    },
+    {
+      "id": "R63e",
+      "sections": [
+        "4.2"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-15-kernel63-revalidation/criteria_confirmation/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/criteria-confirmation-63-rerun-v1"
+      ]
+    },
+    {
+      "id": "M1",
+      "sections": [
+        "4.3"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-10-16-mechanism-discovery/report-m1.r2.zh.md",
+        "lab/explorations/2026-10-16-mechanism-discovery/m1-confirmation-report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-10-16-mechanism-discovery/m1-confirmation-v1",
+        "experiments/2026-10-16-mechanism-discovery/m1-silence-v1"
+      ]
+    },
+    {
+      "id": "X1",
+      "sections": [
+        "4.3"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-10-16-mechanism-discovery/closure-report.r2.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-10-16-mechanism-discovery/closure-v1"
+      ]
+    },
+    {
+      "id": "R51e",
+      "sections": [
+        "4.3"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-13-kernel61/causal/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/causal61-v1"
+      ]
+    },
+    {
+      "id": "R51j",
+      "sections": [
+        "4.3"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-13-kernel61/transfer/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/transfer61-v1"
+      ]
+    },
+    {
+      "id": "R51l",
+      "sections": [
+        "4.3"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-13-kernel61/transfer_confirmation/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/transfer-confirmation61-v1"
+      ]
+    },
+    {
+      "id": "R63b",
+      "sections": [
+        "4.3"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-15-kernel63-revalidation/causal/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/causal-63-rerun-v1"
+      ]
+    },
+    {
+      "id": "R63g",
+      "sections": [
+        "4.3"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-15-kernel63-revalidation/transfer/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/transfer-63-rerun-v1"
+      ]
+    },
+    {
+      "id": "E44",
+      "sections": [
+        "4.3"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-10-04-language-development/report.zh.md"
+      ],
+      "evidence_paths": [
+        "originals/objects/a6fe320f-1e36-49f2-a5d0-b9c4597d83dc"
+      ]
+    },
+    {
+      "id": "E45",
+      "sections": [
+        "4.3"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-10-05-language-calibration/report.zh.md"
+      ],
+      "evidence_paths": [
+        "originals/objects/c008cf91-ec52-4b23-829e-f53e5748ecbe"
+      ]
+    },
+    {
+      "id": "E47",
+      "sections": [
+        "4.3",
+        "4.4"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-10-05-expression-alignment/report.zh.md",
+        "lab/explorations/2026-10-05-expression-alignment/report.r3.zh.md"
+      ],
+      "evidence_paths": [
+        "originals/objects/4e645e2b-1408-4e6b-a651-a8e12acf765c",
+        "originals/research/ed3d495588f742643218ef4f"
+      ]
+    },
+    {
+      "id": "E48",
+      "sections": [
+        "4.3",
+        "4.4"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-10-05-temporal-state-expression/report.zh.md",
+        "lab/explorations/2026-10-05-temporal-state-expression/report.r3.zh.md"
+      ],
+      "evidence_paths": [
+        "originals/objects/c8e782f8-271e-4ccf-b453-86ae16bd38ae"
+      ]
+    },
+    {
+      "id": "E50",
+      "sections": [
+        "4.3",
+        "4.4"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-10-05-graph-expression/report.zh.md",
+        "lab/explorations/2026-10-05-graph-expression/report.r3.zh.md"
+      ],
+      "evidence_paths": [
+        "originals/objects/18b1f570-cd04-4bad-ac33-b8bea07472f0",
+        "originals/objects/3df399e5-649b-4040-b151-67a6bf278ec6",
+        "originals/research/fa2a8a52127fcb30112d436b"
+      ]
+    },
+    {
+      "id": "M5",
+      "sections": [
+        "4.4"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-10-16-mechanism-discovery/m5-report.r2.zh.md",
+        "lab/explorations/2026-10-16-mechanism-discovery/m5-confirmation-report.zh.md",
+        "lab/explorations/2026-10-16-mechanism-discovery/m5-report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-10-16-mechanism-discovery/m5-confirmation-v1",
+        "experiments/2026-10-16-mechanism-discovery/m5-expression-v1"
+      ]
+    },
+    {
+      "id": "R51k",
+      "sections": [
+        "4.4"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-13-kernel61/fixed_readout/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/fixed-readout61-v1"
+      ]
+    },
+    {
+      "id": "R63h",
+      "sections": [
+        "4.4"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-15-kernel63-revalidation/fixed_readout/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/fixed-readout-63-rerun-v1"
+      ]
+    },
+    {
+      "id": "M2",
+      "sections": [
+        "4.5"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-10-16-mechanism-discovery/m2-threshold-report.zh.md",
+        "lab/explorations/2026-10-16-mechanism-discovery/m2-gain-report.zh.md",
+        "lab/explorations/2026-10-16-mechanism-discovery/m2-cue-report.zh.md",
+        "lab/explorations/2026-10-16-mechanism-discovery/m2-relearning-assay-report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-10-16-mechanism-discovery/m2-gain-prediction-v1",
+        "experiments/2026-10-16-mechanism-discovery/m2-threshold-v1"
+      ]
+    },
+    {
+      "id": "E18",
+      "sections": [
+        "4.5"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-09-30-memory-transfer/report.zh.md",
+        "lab/explorations/2026-09-30-memory-transfer/report.r2.zh.md"
+      ],
+      "evidence_paths": [
+        "originals/objects/c49b4ad2-3d53-486a-b124-433e5491df36"
+      ]
+    },
+    {
+      "id": "R51f",
+      "sections": [
+        "4.5"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-13-kernel61/body_memory/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/body-memory61-v1"
+      ]
+    },
+    {
+      "id": "R51h",
+      "sections": [
+        "4.5"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-13-kernel61/body_transfer/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/body-transfer61-v1"
+      ]
+    },
+    {
+      "id": "R51m",
+      "sections": [
+        "4.5"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-13-kernel61/inertial_reversal/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/inertial-reversal61-v1"
+      ]
+    },
+    {
+      "id": "R51t3",
+      "sections": [
+        "4.5",
+        "4.7"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-13-kernel61/dynamics_function/body_report/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/closed-body61-v1"
+      ]
+    },
+    {
+      "id": "R63c",
+      "sections": [
+        "4.5"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-15-kernel63-revalidation/body_memory/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/body-memory-63-rerun-v1"
+      ]
+    },
+    {
+      "id": "R63f",
+      "sections": [
+        "4.5"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-15-kernel63-revalidation/body_transfer/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/body-transfer-63-rerun-v1"
+      ]
+    },
+    {
+      "id": "E20",
+      "sections": [
+        "4.6"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-10-01-priority-memory/report.zh.md",
+        "lab/explorations/2026-10-01-priority-memory/report.r3.zh.md"
+      ],
+      "evidence_paths": [
+        "originals/objects/242ff8e9-f7d5-4d89-8964-cff06ca8fdf0"
+      ]
+    },
+    {
+      "id": "E21",
+      "sections": [
+        "4.6"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-10-01-order-mechanisms/report.zh.md",
+        "lab/explorations/2026-10-01-order-mechanisms/report.r3.zh.md"
+      ],
+      "evidence_paths": [
+        "originals/objects/2561276a-6460-4c52-910b-e92ef516e335",
+        "originals/research/8fe5925b7314d3c7d432b8e4"
+      ]
+    },
+    {
+      "id": "E22",
+      "sections": [
+        "4.6"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-10-01-recovery-reference/report.zh.md"
+      ],
+      "evidence_paths": [
+        "originals/objects/5e4f46e7-5d55-44de-a2b6-9707e2057387",
+        "originals/research/74a3b57c817ee166e500f698"
+      ]
+    },
+    {
+      "id": "R51n",
+      "sections": [
+        "4.6"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-13-kernel61/order_recall/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/order-recall61-v1"
+      ]
+    },
+    {
+      "id": "R51o",
+      "sections": [
+        "4.6"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-13-kernel61/order_exchange/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/order-exchange61-v1"
+      ]
+    },
+    {
+      "id": "R51p",
+      "sections": [
+        "4.6"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-13-kernel61/order_timing/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/order-timing61-v1"
+      ]
+    },
+    {
+      "id": "R51q",
+      "sections": [
+        "4.6"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-13-kernel61/order_reference/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/order-reference61-v1"
+      ]
+    },
+    {
+      "id": "RT63-01",
+      "sections": [
+        "4.6"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-18-repeat-timing63/report.zh.md"
+      ],
+      "evidence_paths": [],
+      "registered_archive": {
+        "file": "originals.zip",
+        "sha256": "ae06690cf76632551adae895e757d74623c148cb98f5090f1bc22552c94af19c",
+        "bytes": 22914673,
+        "index": "lab/artifact-index/2026-11-18-repeat-timing63.json"
+      }
+    },
+    {
+      "id": "E12",
+      "sections": [
+        "4.7"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-09-29-memory-timescales/report.zh.md"
+      ],
+      "evidence_paths": [
+        "originals/objects/cbde2d48-284d-4294-9184-89f439923547"
+      ]
+    },
+    {
+      "id": "E17",
+      "sections": [
+        "4.7"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-09-30-stimulus-spacetime/report.zh.md",
+        "lab/explorations/2026-09-30-stimulus-spacetime/report.r2.zh.md"
+      ],
+      "evidence_paths": [
+        "originals/objects/36029e2c-2f4c-4f21-9aa5-376b0701c044"
+      ]
+    },
+    {
+      "id": "E43",
+      "sections": [
+        "4.7"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-10-04-language-spaced/report.zh.md",
+        "lab/explorations/2026-10-04-language-spaced/report.r3.zh.md"
+      ],
+      "evidence_paths": [
+        "originals/objects/9cc6f412-6512-4c96-9a86-af93bfedfff7",
+        "originals/research/3c5b723e73d548f4514fabfd"
+      ]
+    },
+    {
+      "id": "X2",
+      "sections": [
+        "4.7"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-10-16-mechanism-discovery/closure-report.r2.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-10-16-mechanism-discovery/closure-v1"
+      ]
+    },
+    {
+      "id": "R47b",
+      "sections": [
+        "4.7"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-11-kernel53/confirmation/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-11-kernel53/confirmation-v1"
+      ]
+    },
+    {
+      "id": "R51d",
+      "sections": [
+        "4.7"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-13-kernel61/stimulus/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/stimulus61-v1"
+      ]
+    },
+    {
+      "id": "R63a",
+      "sections": [
+        "4.7"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-15-kernel63-revalidation/stimulus/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/stimulus-63-rerun-v1"
+      ]
+    },
+    {
+      "id": "R51t",
+      "sections": [
+        "4.7"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-13-kernel61/memory_timescales/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/memory-timescales61-v1"
+      ]
+    },
+    {
+      "id": "R51t1",
+      "sections": [
+        "4.7"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-13-kernel61/persistent_cause/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/persistent-activity61-v1"
+      ]
+    },
+    {
+      "id": "R51t2",
+      "sections": [
+        "4.7"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-13-kernel61/dynamics_function/mechanism_report/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/dynamics-function61-v1"
+      ]
+    },
+    {
+      "id": "R51t4",
+      "sections": [
+        "4.7"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-13-kernel61/dynamics_function/decision_report/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/delayed-choice61-v1"
+      ]
+    },
+    {
+      "id": "R51t5",
+      "sections": [
+        "4.7"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-13-kernel61/dynamics_function/prefix_cross_report/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/prefix-cross61-v1"
+      ]
+    },
+    {
+      "id": "R51t6",
+      "sections": [
+        "4.7"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-13-kernel61/prefix_components/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/prefix-components61-v1",
+        "experiments/2026-11-13-kernel60-revalidation/prefix-components61-v2"
+      ]
+    },
+    {
+      "id": "R51t7",
+      "sections": [
+        "4.7"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-14-kernel62/prefix_recovery/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/prefix-recovery62-v1"
+      ]
+    },
+    {
+      "id": "R51t8",
+      "sections": [
+        "4.7"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-14-kernel62/prefix_precheck/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/prefix-precheck62-v1"
+      ]
+    },
+    {
+      "id": "R51t9",
+      "sections": [
+        "4.7"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-14-kernel62/prefix_resources/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/prefix-resources62-v1"
+      ]
+    },
+    {
+      "id": "R51t10",
+      "sections": [
+        "4.7"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-14-kernel62/release_lifecycle/completion/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/release-lifecycle62-v1",
+        "experiments/2026-11-13-kernel60-revalidation/release-lifecycle62-v1-r1"
+      ]
+    },
+    {
+      "id": "R51t11",
+      "sections": [
+        "4.7"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-14-kernel62/prefix_solution/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/prefix-solution62-v1"
+      ]
+    },
+    {
+      "id": "R51t12",
+      "sections": [
+        "4.7"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-14-kernel62/separated_signals/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/separated-signals62-v1"
+      ]
+    },
+    {
+      "id": "R51t13",
+      "sections": [
+        "4.7"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-15-kernel63/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/inhibition63-v1"
+      ]
+    },
+    {
+      "id": "R51t14",
+      "sections": [
+        "4.7"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-15-kernel63/resources/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/resources63-v1"
+      ]
+    },
+    {
+      "id": "R51t15",
+      "sections": [
+        "4.7"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-15-kernel63/prefix_causes/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/prefix-causes63-v1"
+      ]
+    },
+    {
+      "id": "R51t16",
+      "sections": [
+        "4.7"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-15-kernel63/resource_bypass/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-13-kernel60-revalidation/resource-bypass63-v1"
+      ]
+    },
+    {
+      "id": "E28",
+      "sections": [
+        "4.8"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-10-03-primitive-ocean/report.zh.md",
+        "lab/explorations/2026-10-03-primitive-ocean/report.r2.zh.md"
+      ],
+      "evidence_paths": [
+        "originals/objects/e53a833e-6566-463c-90c2-a94a8fe2a8ef"
+      ]
+    },
+    {
+      "id": "E30",
+      "sections": [
+        "4.8"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-10-03-ocean-causality/report.zh.md",
+        "lab/explorations/2026-10-03-ocean-causality/report.r2.zh.md"
+      ],
+      "evidence_paths": [
+        "originals/objects/3818e230-3515-45ce-b873-55150549bd98"
+      ]
+    },
+    {
+      "id": "OCEAN63-28",
+      "sections": [
+        "4.8"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-21-ocean63/results/ocean63-28/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/ocean63-20261121/study-28"
+      ]
+    },
+    {
+      "id": "OCEAN63-30",
+      "sections": [
+        "4.8"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-21-ocean63/results/ocean63-30/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/ocean63-20261121/study-30"
+      ]
+    },
+    {
+      "id": "OCEAN63-38",
+      "sections": [
+        "4.8",
+        "4.11"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-21-ocean63/results/ocean63-38/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/ocean63-20261121/study-38"
+      ]
+    },
+    {
+      "id": "E32",
+      "sections": [
+        "4.9"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-10-03-ocean-community/report.zh.md"
+      ],
+      "evidence_paths": [
+        "originals/objects/0b662685-7484-4c20-b1cb-064b53a582e4",
+        "originals/research/fed375083e565dbd27310f34"
+      ]
+    },
+    {
+      "id": "E34",
+      "sections": [
+        "4.9"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-10-03-ocean-hunting/report.zh.md",
+        "lab/explorations/2026-10-03-ocean-hunting/report.r2.zh.md"
+      ],
+      "evidence_paths": [
+        "originals/objects/315c50a4-0a3a-4b07-b760-0fc053730a39",
+        "originals/research/df8408a4a15803b79c852902"
+      ]
+    },
+    {
+      "id": "E37",
+      "sections": [
+        "4.9",
+        "4.11"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-10-04-ocean-enclosure/report.zh.md",
+        "lab/explorations/2026-10-04-ocean-enclosure/report.r2.zh.md"
+      ],
+      "evidence_paths": [
+        "originals/objects/bc5ac72c-27bf-4e3e-9a21-f922bc7ddc90",
+        "originals/research/e21acbb5b0ef64e6d5d22790"
+      ]
+    },
+    {
+      "id": "E38",
+      "sections": [
+        "4.9",
+        "4.11"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-10-04-ocean-species/report.zh.md",
+        "lab/explorations/2026-10-04-ocean-species/report.r2.zh.md"
+      ],
+      "evidence_paths": [
+        "originals/objects/18f51630-f184-4b20-ba08-67ece6175083",
+        "originals/research/1e4312291976e322b213e590"
+      ]
+    },
+    {
+      "id": "E39",
+      "sections": [
+        "4.9"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-10-04-ocean-culture/report.zh.md",
+        "lab/explorations/2026-10-04-ocean-culture/report.r3.zh.md"
+      ],
+      "evidence_paths": [
+        "originals/objects/0891a8a7-9b75-417d-8859-75eced8c36ee",
+        "originals/research/b565d4f8573987a262f1bc5e"
+      ]
+    },
+    {
+      "id": "E40",
+      "sections": [
+        "4.9"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-10-04-ocean-culture/report.zh.md",
+        "lab/explorations/2026-10-04-ocean-culture/report.r3.zh.md"
+      ],
+      "evidence_paths": [
+        "originals/objects/0891a8a7-9b75-417d-8859-75eced8c36ee",
+        "originals/research/b565d4f8573987a262f1bc5e"
+      ]
+    },
+    {
+      "id": "E41",
+      "sections": [
+        "4.9"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-10-04-ocean-split/report.zh.md",
+        "lab/explorations/2026-10-04-ocean-split/report.r3.zh.md"
+      ],
+      "evidence_paths": [
+        "originals/objects/07e60c31-5f51-42e2-bc99-a83eb18f61a9",
+        "originals/research/38d8ff58389237a285152005",
+        "originals/research/b57578fa3d9790b9a2d1b837"
+      ]
+    },
+    {
+      "id": "E53",
+      "sections": [
+        "4.9"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-10-06-ocean-communication/report.zh.md"
+      ],
+      "evidence_paths": [
+        "originals/objects/e3a234c2-9e3f-4d19-bedf-d643ba298ee6"
+      ]
+    },
+    {
+      "id": "E13",
+      "sections": [
+        "4.10"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-09-29-input-rate-and-autonomy/report.zh.md"
+      ],
+      "evidence_paths": [
+        "originals/objects/59aee7a1-5248-417f-a03b-b56f858a04d9"
+      ]
+    },
+    {
+      "id": "E14",
+      "sections": [
+        "4.10"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-09-29-internal-activity/report.zh.md"
+      ],
+      "evidence_paths": [
+        "originals/objects/df63c577-3b39-4642-87c5-2e9e1b05f165"
+      ]
+    },
+    {
+      "id": "AS63-01",
+      "sections": [
+        "4.10"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-17-artificial-selection63/report.zh.md"
+      ],
+      "evidence_paths": [],
+      "registered_archive": {
+        "file": "originals.zip",
+        "sha256": "3331e353e417ba0b77bff1431c54031f9b031ea98c8a8967f1f2c3835a824e82",
+        "bytes": 3240752036,
+        "index": "lab/artifact-index/2026-11-17-artificial-selection63.json"
+      }
+    },
+    {
+      "id": "AS63-02",
+      "sections": [
+        "4.10"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-17-artificial-selection63/layout-report.zh.md"
+      ],
+      "evidence_paths": [],
+      "registered_archive": {
+        "file": "originals.zip",
+        "sha256": "61d865c3f3e8f78e6855f3eb6d895f4d7851c7a137133758f0585f54a91f546b",
+        "bytes": 525891735,
+        "index": "lab/artifact-index/2026-11-17-artificial-selection63.json"
+      }
+    },
+    {
+      "id": "AS63-03",
+      "sections": [
+        "4.10"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-18-ring-mechanism63/report.zh.md"
+      ],
+      "evidence_paths": [],
+      "registered_archive": {
+        "file": "originals.zip",
+        "sha256": "5ea7002718d3281d8f075711df759cf11310da0f9179d0f2e44431a8201cd495",
+        "bytes": 451102219,
+        "index": "lab/artifact-index/2026-11-18-ring-mechanism63.json"
+      }
+    },
+    {
+      "id": "OCEAN63-39C",
+      "sections": [
+        "4.11"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-21-ocean63/protocol.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/ocean63-20261121/study-39c"
+      ]
+    },
+    {
+      "id": "OCEAN63-P1",
+      "sections": [
+        "4.11"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-21-ocean63-p1/protocol.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/ocean63-p1-20261121/evidence"
+      ],
+      "sealed_observation": {
+        "case": "world-0-reference",
+        "internal_seconds": 1520.7,
+        "last_segment": "seg-0025.zip"
+      }
+    },
+    {
+      "id": "OCEAN63-P2",
+      "sections": [
+        "4.11"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-22-ocean63-p2/protocol.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/ocean63-p2-20261122/evidence"
+      ],
+      "sealed_observation": {
+        "case": "world-0-reference",
+        "internal_seconds": 1669.06,
+        "last_segment": "seg-0028.zip"
+      }
+    },
+    {
+      "id": "E56",
+      "sections": [
+        "4.12"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-10-06-vision-correction/report.zh.md",
+        "lab/explorations/2026-10-06-vision-correction/report.r2.zh.md"
+      ],
+      "evidence_paths": [
+        "originals/objects/4266a949-9e41-45b7-9653-7566d2df8164"
+      ]
+    },
+    {
+      "id": "E57",
+      "sections": [
+        "4.12"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-10-06-choice-attribution/report.zh.md",
+        "lab/explorations/2026-10-06-choice-attribution/report.r2.zh.md"
+      ],
+      "evidence_paths": [
+        "originals/objects/e7606f95-62ea-4645-badd-46bdcf54ec47"
+      ]
+    },
+    {
+      "id": "E58",
+      "sections": [
+        "4.12"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-10-07-embodied-memory/report.zh.md",
+        "lab/explorations/2026-10-07-embodied-memory/report.r2.zh.md"
+      ],
+      "evidence_paths": [
+        "originals/objects/93f1fb20-c124-4e80-825f-686f170b74e4"
+      ]
+    },
+    {
+      "id": "E68",
+      "sections": [
+        "4.13"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-10-13-continuous-shape-color/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-10-13-continuous-shape-color"
+      ]
+    },
+    {
+      "id": "E69",
+      "sections": [
+        "4.13"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-10-13-eye-hand-shape-color/progress-20261015.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-10-13-eye-hand-shape-color"
+      ],
+      "status": "Paused development study. The final coordination test was not completed."
+    },
+    {
+      "id": "R43",
+      "sections": [
+        "4.14"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-09-context-revision/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-09-context-revision/v1"
+      ]
+    },
+    {
+      "id": "R44",
+      "sections": [
+        "4.14"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-09-retention-causality/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-09-retention-causality/v1"
+      ]
+    },
+    {
+      "id": "3-SAT",
+      "sections": [
+        "4.15"
+      ],
+      "research_sources": [
+        "lab/explorations/2026-11-01-sat-core-exclusion/report.zh.md"
+      ],
+      "evidence_paths": [
+        "experiments/2026-11-01-sat-core-exclusion/v1"
+      ]
+    }
+  ],
+  "supplementary_research_sources": {
+    "E01": [
+      "lab/explorations/2026-09-09-memory-relations/report.md"
+    ],
+    "E02": [
+      "lab/explorations/2026-09-09-calibrated-generalization/report.md"
+    ],
+    "E03": [
+      "lab/explorations/2026-09-09-language-scaffold-relations/report.md"
+    ],
+    "E04": [
+      "lab/explorations/2026-09-09-blocked-sentence-teaching/report.md"
+    ],
+    "E05": [
+      "lab/explorations/2026-09-09-default-mapping-repetition/report.md"
+    ],
+    "E06": [
+      "lab/explorations/2026-09-10-temporal-repetition/report.md"
+    ],
+    "E07": [
+      "lab/explorations/2026-09-10-time-comparison/report.md"
+    ],
+    "E08": [
+      "lab/explorations/2026-09-10-pair-no-punctuation/report.md"
+    ],
+    "E09": [
+      "lab/explorations/2026-09-10-host-background-pair/report.md"
+    ],
+    "E10": [
+      "lab/explorations/2026-09-29-candidates/report.zh.md"
+    ],
+    "E11": [
+      "lab/explorations/2026-09-29-continuous-mechanisms/report.zh.md"
+    ],
+    "E12": [
+      "lab/explorations/2026-09-29-memory-timescales/report.zh.md"
+    ],
+    "E13": [
+      "lab/explorations/2026-09-29-input-rate-and-autonomy/report.zh.md"
+    ],
+    "E14": [
+      "lab/explorations/2026-09-29-internal-activity/report.zh.md"
+    ],
+    "E15": [
+      "lab/explorations/2026-09-29-experience-and-autonomy/report.zh.md",
+      "lab/explorations/2026-09-29-experience-and-autonomy/report.r2.zh.md"
+    ],
+    "E16": [
+      "lab/explorations/2026-09-29-mechanism-calibration/report.zh.md"
+    ],
+    "E17": [
+      "lab/explorations/2026-09-30-stimulus-spacetime/report.zh.md",
+      "lab/explorations/2026-09-30-stimulus-spacetime/report.r2.zh.md"
+    ],
+    "E18": [
+      "lab/explorations/2026-09-30-memory-transfer/report.zh.md",
+      "lab/explorations/2026-09-30-memory-transfer/report.r2.zh.md"
+    ],
+    "E19": [
+      "lab/explorations/2026-09-30-intensity-mechanisms/report.zh.md"
+    ],
+    "E20": [
+      "lab/explorations/2026-10-01-priority-memory/report.zh.md",
+      "lab/explorations/2026-10-01-priority-memory/report.r3.zh.md"
+    ],
+    "E21": [
+      "lab/explorations/2026-10-01-order-mechanisms/report.zh.md",
+      "lab/explorations/2026-10-01-order-mechanisms/report.r3.zh.md"
+    ],
+    "E22": [
+      "lab/explorations/2026-10-01-recovery-reference/report.zh.md"
+    ],
+    "E23": [
+      "lab/explorations/2026-10-01-observation-background/report.zh.md"
+    ],
+    "E24": [
+      "lab/explorations/2026-10-02-target-background/report.zh.md"
+    ],
+    "E25": [
+      "lab/explorations/2026-10-02-response-readout/report.zh.md"
+    ],
+    "E26": [
+      "lab/explorations/2026-10-02-robot-language/report.zh.md"
+    ],
+    "E27": [
+      "lab/explorations/2026-10-02-survival-transfer/report.zh.md"
+    ],
+    "E28": [
+      "lab/explorations/2026-10-03-primitive-ocean/report.zh.md",
+      "lab/explorations/2026-10-03-primitive-ocean/report.r2.zh.md"
+    ],
+    "E29": [
+      "lab/explorations/2026-10-03-ocean-evolution/report.zh.md"
+    ],
+    "E30": [
+      "lab/explorations/2026-10-03-ocean-causality/report.zh.md",
+      "lab/explorations/2026-10-03-ocean-causality/report.r2.zh.md"
+    ],
+    "E31": [
+      "lab/explorations/2026-10-03-ocean-behavior/report.zh.md"
+    ],
+    "E32": [
+      "lab/explorations/2026-10-03-ocean-community/report.zh.md"
+    ],
+    "E33": [
+      "lab/explorations/2026-10-03-ocean-no-predation/report.zh.md"
+    ],
+    "E34": [
+      "lab/explorations/2026-10-03-ocean-hunting/report.zh.md",
+      "lab/explorations/2026-10-03-ocean-hunting/report.r2.zh.md"
+    ],
+    "E35": [
+      "lab/explorations/2026-10-04-ocean-groups/report.zh.md"
+    ],
+    "E36": [
+      "lab/explorations/2026-10-04-ocean-groups/report.zh.md"
+    ],
+    "E37": [
+      "lab/explorations/2026-10-04-ocean-enclosure/report.zh.md",
+      "lab/explorations/2026-10-04-ocean-enclosure/report.r2.zh.md"
+    ],
+    "E38": [
+      "lab/explorations/2026-10-04-ocean-species/report.zh.md",
+      "lab/explorations/2026-10-04-ocean-species/report.r2.zh.md"
+    ],
+    "E39": [
+      "lab/explorations/2026-10-04-ocean-culture/report.zh.md",
+      "lab/explorations/2026-10-04-ocean-culture/report.r3.zh.md"
+    ],
+    "E40": [
+      "lab/explorations/2026-10-04-ocean-culture/report.zh.md",
+      "lab/explorations/2026-10-04-ocean-culture/report.r3.zh.md"
+    ],
+    "E41": [
+      "lab/explorations/2026-10-04-ocean-split/report.zh.md",
+      "lab/explorations/2026-10-04-ocean-split/report.r3.zh.md"
+    ],
+    "E42": [
+      "lab/explorations/2026-10-04-language-centre/report.zh.md"
+    ],
+    "E43": [
+      "lab/explorations/2026-10-04-language-spaced/report.zh.md",
+      "lab/explorations/2026-10-04-language-spaced/report.r3.zh.md"
+    ],
+    "E44": [
+      "lab/explorations/2026-10-04-language-development/report.zh.md"
+    ],
+    "E45": [
+      "lab/explorations/2026-10-05-language-calibration/report.zh.md"
+    ],
+    "E46": [
+      "lab/explorations/2026-10-05-native-language/report.zh.md"
+    ],
+    "E47": [
+      "lab/explorations/2026-10-05-expression-alignment/report.zh.md",
+      "lab/explorations/2026-10-05-expression-alignment/report.r3.zh.md"
+    ],
+    "E48": [
+      "lab/explorations/2026-10-05-temporal-state-expression/report.zh.md",
+      "lab/explorations/2026-10-05-temporal-state-expression/report.r3.zh.md"
+    ],
+    "E49": [
+      "lab/explorations/2026-10-05-bus-expression/report.zh.md"
+    ],
+    "E50": [
+      "lab/explorations/2026-10-05-graph-expression/report.zh.md",
+      "lab/explorations/2026-10-05-graph-expression/report.r3.zh.md"
+    ],
+    "E51": [
+      "lab/explorations/2026-10-05-clock-recollection/report.zh.md"
+    ],
+    "E52": [
+      "lab/explorations/2026-10-05-coadaptive-language/report.zh.md"
+    ],
+    "E53": [
+      "lab/explorations/2026-10-06-ocean-communication/report.zh.md"
+    ],
+    "E54": [
+      "lab/explorations/2026-10-06-shape-color-pointing/report.zh.md"
+    ],
+    "E55": [
+      "lab/explorations/2026-10-06-grounded-reviews/report.zh.md"
+    ],
+    "E56": [
+      "lab/explorations/2026-10-06-vision-correction/report.zh.md",
+      "lab/explorations/2026-10-06-vision-correction/report.r2.zh.md"
+    ],
+    "E57": [
+      "lab/explorations/2026-10-06-choice-attribution/report.zh.md",
+      "lab/explorations/2026-10-06-choice-attribution/report.r2.zh.md"
+    ],
+    "E58": [
+      "lab/explorations/2026-10-07-embodied-memory/report.zh.md",
+      "lab/explorations/2026-10-07-embodied-memory/report.r2.zh.md"
+    ],
+    "E59": [
+      "lab/explorations/2026-10-07-active-vision/report.zh.md"
+    ],
+    "E60": [
+      "lab/explorations/2026-10-07-eye-hand-learning/report.zh.md"
+    ],
+    "E61": [
+      "lab/explorations/2026-10-07-body-exploration/report.zh.md"
+    ],
+    "E63": [
+      "lab/explorations/2026-10-07-rehearsal-centered/report.zh.md"
+    ],
+    "E64": [
+      "lab/explorations/2026-10-08-centered-restart/report.zh.md"
+    ],
+    "E66": [
+      "lab/explorations/2026-10-08-centered-correction-cycles/report.zh.md"
+    ],
+    "E67": [
+      "lab/explorations/2026-10-11-shape-color-kernels/report.zh.md"
+    ],
+    "E68": [
+      "lab/explorations/2026-10-13-continuous-shape-color/report.zh.md"
+    ],
+    "E69": [
+      "lab/explorations/2026-10-13-eye-hand-shape-color/progress-20261015.zh.md"
+    ],
+    "E62": [
+      "lab/explorations/2026-10-07-continuous-development/report.zh.md"
+    ],
+    "E65": [
+      "lab/explorations/2026-10-08-centered-learning/report.zh.md"
+    ],
+    "M1": [
+      "lab/explorations/2026-10-16-mechanism-discovery/report-m1.r2.zh.md",
+      "lab/explorations/2026-10-16-mechanism-discovery/m1-confirmation-report.zh.md"
+    ],
+    "X1": [
+      "lab/explorations/2026-10-16-mechanism-discovery/closure-report.r2.zh.md"
+    ],
+    "X2": [
+      "lab/explorations/2026-10-16-mechanism-discovery/closure-report.r2.zh.md"
+    ],
+    "X3": [
+      "lab/explorations/2026-10-16-mechanism-discovery/closure-report.r2.zh.md"
+    ],
+    "M5": [
+      "lab/explorations/2026-10-16-mechanism-discovery/m5-report.r2.zh.md",
+      "lab/explorations/2026-10-16-mechanism-discovery/m5-confirmation-report.zh.md",
+      "lab/explorations/2026-10-16-mechanism-discovery/m5-report.zh.md"
+    ],
+    "M3": [
+      "lab/explorations/2026-10-16-mechanism-discovery/m3-confirmation-report.zh.md"
+    ],
+    "M2": [
+      "lab/explorations/2026-10-16-mechanism-discovery/m2-threshold-report.zh.md",
+      "lab/explorations/2026-10-16-mechanism-discovery/m2-gain-report.zh.md",
+      "lab/explorations/2026-10-16-mechanism-discovery/m2-cue-report.zh.md",
+      "lab/explorations/2026-10-16-mechanism-discovery/m2-relearning-assay-report.zh.md"
+    ],
+    "3-SAT 能力归因与 Core 排除实验 v3": [
+      "lab/explorations/2026-11-01-sat-core-exclusion/report.zh.md"
+    ],
+    "R47a": [
+      "lab/explorations/2026-11-11-kernel53/report.zh.md"
+    ],
+    "R47b": [
+      "lab/explorations/2026-11-11-kernel53/confirmation/report.zh.md"
+    ],
+    "R47c": [
+      "lab/explorations/2026-11-11-kernel53/joint/report.zh.md"
+    ],
+    "5.3 四种衰减曲线的运行性能基准": [
+      "lab/explorations/2026-11-11-kernel53/engineering-report.zh.md"
+    ],
+    "R48a": [
+      "lab/explorations/2026-11-11-weight-dependent-decay/report.zh.md"
+    ],
+    "R48b": [
+      "lab/explorations/2026-11-11-weight-dependent-decay/joint/report.zh.md"
+    ],
+    "权重依赖衰减的运行性能基准": [
+      "lab/explorations/2026-11-11-weight-dependent-decay/engineering-report.zh.md"
+    ],
+    "M4": [
+      "lab/explorations/2026-10-16-mechanism-discovery/m4-capacity-report.zh.md",
+      "lab/explorations/2026-10-16-mechanism-discovery/m4-instrument-report.zh.md",
+      "lab/explorations/2026-10-16-mechanism-discovery/m4-material-report.zh.md"
+    ],
+    "3-SAT v1": [
+      "lab/explorations/2026-11-01-sat-pilot/report.zh.md"
+    ],
+    "3-SAT v2": [
+      "lab/explorations/2026-11-01-sat-curriculum/report.zh.md"
+    ],
+    "R43": [
+      "lab/explorations/2026-11-09-context-revision/report.zh.md"
+    ],
+    "R44": [
+      "lab/explorations/2026-11-09-retention-causality/report.zh.md"
+    ],
+    "R45": [
+      "lab/explorations/2026-11-09-retention-relaxation/report.zh.md"
+    ],
+    "R46a": [
+      "lab/explorations/2026-11-09-decay-mechanisms52/report.zh.md"
+    ],
+    "R49": [
+      "lab/explorations/2026-11-12-kernel60/engineering-report.zh.md"
+    ],
+    "R50": [
+      "lab/explorations/2026-11-13-kernel60-pruning/report.zh.md"
+    ],
+    "R51a": [
+      "lab/explorations/2026-11-13-kernel60-revalidation/report.zh.md"
+    ],
+    "R51b": [
+      "lab/explorations/2026-11-13-kernel60-revalidation/cost-profile/report.zh.md"
+    ],
+    "R51c": [
+      "lab/explorations/2026-11-13-kernel61/report.zh.md"
+    ],
+    "R51d": [
+      "lab/explorations/2026-11-13-kernel61/stimulus/report.zh.md"
+    ],
+    "R51e": [
+      "lab/explorations/2026-11-13-kernel61/causal/report.zh.md"
+    ],
+    "R51f": [
+      "lab/explorations/2026-11-13-kernel61/body_memory/report.zh.md"
+    ],
+    "R51g": [
+      "lab/explorations/2026-11-13-kernel61/criteria/report.zh.md"
+    ],
+    "R51h": [
+      "lab/explorations/2026-11-13-kernel61/body_transfer/report.zh.md"
+    ],
+    "R51i": [
+      "lab/explorations/2026-11-13-kernel61/criteria_confirmation/report.zh.md"
+    ],
+    "R51j": [
+      "lab/explorations/2026-11-13-kernel61/transfer/report.zh.md"
+    ],
+    "R51k": [
+      "lab/explorations/2026-11-13-kernel61/fixed_readout/report.zh.md"
+    ],
+    "R51l": [
+      "lab/explorations/2026-11-13-kernel61/transfer_confirmation/report.zh.md"
+    ],
+    "R51m": [
+      "lab/explorations/2026-11-13-kernel61/inertial_reversal/report.zh.md"
+    ],
+    "R51n": [
+      "lab/explorations/2026-11-13-kernel61/order_recall/report.zh.md"
+    ],
+    "R51o": [
+      "lab/explorations/2026-11-13-kernel61/order_exchange/report.zh.md"
+    ],
+    "R51p": [
+      "lab/explorations/2026-11-13-kernel61/order_timing/report.zh.md"
+    ],
+    "R51q": [
+      "lab/explorations/2026-11-13-kernel61/order_reference/report.zh.md"
+    ],
+    "R51r": [
+      "lab/explorations/2026-11-13-kernel61/body_formation/report.zh.md"
+    ],
+    "R51s": [
+      "lab/explorations/2026-11-13-kernel61/body_recovery/report.zh.md"
+    ],
+    "R51t": [
+      "lab/explorations/2026-11-13-kernel61/memory_timescales/report.zh.md"
+    ],
+    "R51t1": [
+      "lab/explorations/2026-11-13-kernel61/persistent_cause/report.zh.md"
+    ],
+    "R51t2": [
+      "lab/explorations/2026-11-13-kernel61/dynamics_function/mechanism_report/report.zh.md"
+    ],
+    "R51t3": [
+      "lab/explorations/2026-11-13-kernel61/dynamics_function/body_report/report.zh.md"
+    ],
+    "R51t4": [
+      "lab/explorations/2026-11-13-kernel61/dynamics_function/decision_report/report.zh.md"
+    ],
+    "R51t5": [
+      "lab/explorations/2026-11-13-kernel61/dynamics_function/prefix_cross_report/report.zh.md"
+    ],
+    "R51t6": [
+      "lab/explorations/2026-11-13-kernel61/prefix_components/report.zh.md"
+    ],
+    "R51t7": [
+      "lab/explorations/2026-11-14-kernel62/prefix_recovery/report.zh.md"
+    ],
+    "R51t8": [
+      "lab/explorations/2026-11-14-kernel62/prefix_precheck/report.zh.md"
+    ],
+    "R51t9": [
+      "lab/explorations/2026-11-14-kernel62/prefix_resources/report.zh.md"
+    ],
+    "R51t10": [
+      "lab/explorations/2026-11-14-kernel62/release_lifecycle/completion/report.zh.md"
+    ],
+    "R51t11": [
+      "lab/explorations/2026-11-14-kernel62/prefix_solution/report.zh.md"
+    ],
+    "R51t12": [
+      "lab/explorations/2026-11-14-kernel62/separated_signals/report.zh.md"
+    ],
+    "R51t13": [
+      "lab/explorations/2026-11-15-kernel63/report.zh.md"
+    ],
+    "R51t14": [
+      "lab/explorations/2026-11-15-kernel63/resources/report.zh.md"
+    ],
+    "R51t15": [
+      "lab/explorations/2026-11-15-kernel63/prefix_causes/report.zh.md"
+    ],
+    "R51t16": [
+      "lab/explorations/2026-11-15-kernel63/resource_bypass/report.zh.md"
+    ],
+    "RT63-01": [
+      "lab/explorations/2026-11-18-repeat-timing63/report.zh.md"
+    ],
+    "R63a": [
+      "lab/explorations/2026-11-15-kernel63-revalidation/stimulus/report.zh.md"
+    ],
+    "R63b": [
+      "lab/explorations/2026-11-15-kernel63-revalidation/causal/report.zh.md"
+    ],
+    "R63c": [
+      "lab/explorations/2026-11-15-kernel63-revalidation/body_memory/report.zh.md"
+    ],
+    "R63d": [
+      "lab/explorations/2026-11-15-kernel63-revalidation/criteria/report.zh.md"
+    ],
+    "R63e": [
+      "lab/explorations/2026-11-15-kernel63-revalidation/criteria_confirmation/report.zh.md"
+    ],
+    "R63f": [
+      "lab/explorations/2026-11-15-kernel63-revalidation/body_transfer/report.zh.md"
+    ],
+    "R63g": [
+      "lab/explorations/2026-11-15-kernel63-revalidation/transfer/report.zh.md"
+    ],
+    "R63h": [
+      "lab/explorations/2026-11-15-kernel63-revalidation/fixed_readout/report.zh.md"
+    ],
+    "AS63-01": [
+      "lab/explorations/2026-11-17-artificial-selection63/report.zh.md"
+    ],
+    "AS63-02": [
+      "lab/explorations/2026-11-17-artificial-selection63/layout-report.zh.md"
+    ],
+    "AS63-03": [
+      "lab/explorations/2026-11-18-ring-mechanism63/report.zh.md"
+    ],
+    "3-SAT v3": [
+      "lab/explorations/2026-11-01-sat-core-exclusion/report.zh.md"
+    ],
+    "OCEAN63-28": [
+      "lab/explorations/2026-11-21-ocean63/results/ocean63-28/report.zh.md"
+    ],
+    "OCEAN63-30": [
+      "lab/explorations/2026-11-21-ocean63/results/ocean63-30/report.zh.md"
+    ],
+    "OCEAN63-38": [
+      "lab/explorations/2026-11-21-ocean63/results/ocean63-38/report.zh.md"
+    ],
+    "OCEAN63-39C": [
+      "lab/explorations/2026-11-21-ocean63/protocol.zh.md"
+    ],
+    "OCEAN63-P1": [
+      "lab/explorations/2026-11-21-ocean63-p1/protocol.zh.md"
+    ],
+    "OCEAN63-P2": [
+      "lab/explorations/2026-11-22-ocean63-p2/protocol.zh.md"
+    ],
+    "3-SAT": [
+      "lab/explorations/2026-11-01-sat-core-exclusion/report.zh.md"
+    ]
+  },
+  "coverage_note": "A code or evidence reference identifies a study; it does not certify that a separate dataset release has included all its records. The four ring/timing archive references carry registered hashes."
 }

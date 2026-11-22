@@ -1,0 +1,76 @@
+{
+  "record": {
+    "protocol_sha256": "f5be288d71929c54801548b61ec22d933fe0a2d3d4f4e7793adbd59e1083da73",
+    "record": "b8ebd60d-fce7-511a-9d83-f546d99eec1f",
+    "registered_utc": "2026-11-22T06:02:09.437902+00:00"
+  },
+  "environment": "threemind.ocean-juvenile-kin-care/1",
+  "kernel": "threemind.continuous-memory/6.3",
+  "birth_rule": "threemind.birth/2",
+  "previous": {
+    "milestones": [
+      {
+        "alive": 34,
+        "births": 32.0,
+        "checkpoint_sha256": "b100271dc1520b70977e343f44511b820b000ecc82496c3851a4558e2bffa892",
+        "file": "seg-0024.zip",
+        "generation": 4,
+        "native_cores": 85,
+        "predations": 37.0,
+        "start_sha256": "615cd00fe21a9f51acd47c154895ee5612a859e603b59ebdda3da650fbc1e1f6",
+        "time_us": 1500000000,
+        "world_sha256": "04f80b0c7e18eb151713889001e81bbc89d5c408d31748852c64cfe61df4681a"
+      },
+      {
+        "alive": 37,
+        "births": 38.0,
+        "checkpoint_sha256": "e08b8f9d31b596a0cfb65412338b3f94b19b9f713b45024209fb7fc20a7116de",
+        "file": "seg-0025.zip",
+        "generation": 4,
+        "native_cores": 91,
+        "predations": 40.0,
+        "start_sha256": "04f80b0c7e18eb151713889001e81bbc89d5c408d31748852c64cfe61df4681a",
+        "time_us": 1520700000,
+        "world_sha256": "976c6a4481582b3b795ae1bd1c533b5ce78ee5dc7b063da0994b72e3ee208e72"
+      }
+    ],
+    "paused_utc": "2026-11-22T05:47:10.224289+00:00",
+    "scope": "world-0-reference"
+  },
+  "qualification": {
+    "balance_at_30s": -4.4568793100552284e-12,
+    "contact_full_rate_per_tick": [
+      0.02,
+      0.02,
+      0.02
+    ],
+    "equal_size_survived": true,
+    "example_litter_bill": 1661.4169372860772,
+    "full_30s_without_food_alive": true,
+    "juvenile_core_life": "active",
+    "kin_boundary_verified": true,
+    "litter_size": 3,
+    "native_core_and_next_tick_verified": true,
+    "paired_world_fingerprints": [
+      "d00e8b658925468de9c036a04c8975fd7a1156c6886896bc8ea80c2d4546074e",
+      "8c93ee8d1ec52f420d8af33dca63c8c6d3b49124f378b54ef14c2dc7ea83a87b"
+    ],
+    "positive_growth_paid": true,
+    "sealed_and_analyzed_four_short_worlds": true,
+    "separated_births": true,
+    "shared_care_under_floor_pressure": [
+      0.009999999999990905,
+      0.009999999999990905,
+      0.009999999999990905
+    ]
+  },
+  "first_sealed_world": {
+    "case": "world-0-reference",
+    "file": "seg-0000.zip",
+    "end_us": 2000000,
+    "end_sha256": "6d3dc1c57e894cc710ee7bf6693eda33089db42c89a1961e01ea9e07a3b5f13a",
+    "world_sha256": "9edf72ddd7f3fb2ae0b0ba58336788547d2a2ae0dd388d47c1ad564dc65e2c95",
+    "stored_energy_balance_error": -8.640199666842818e-12,
+    "individual_cores_read_back": 53
+  }
+}

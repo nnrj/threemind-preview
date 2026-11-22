@@ -788,6 +788,149 @@ def catalogue(kernel_id=None):
     # defaults and constraints separate from every historical version.
     from .kernel_parameters import weight_decay_fields
     fields.extend(weight_decay_fields(fields))
+    # /6.0 owns executable defaults; only UI descriptions are shared with /5.3.
+    fixed_id = "threemind.continuous-memory/6.0"
+    fixed_defaults = resolve_kernel(fixed_id).config_fields()
+    for original in tuple(fields):
+        if "threemind.continuous-memory/5.3" in original.get("kernels", ()):
+            item = dict(original, kernels=[fixed_id])
+            item["hint"] = item.get("hint", "").replace("/5.3", "/6.0")
+            if item["path"].startswith("config."):
+                item["default"] = fixed_defaults[item["path"][7:]]
+            fields.append(item)
+    fields.append({
+        "path": "config.inflight_delivery", "label": "节点重建后的在途信号",
+        "hint": "按地址送达为默认；同次出生模式丢弃发给已删除节点的旧信号。出生时选定。",
+        "unit": "", "group": "continuous", "kernels": [fixed_id],
+        "default": fixed_defaults["inflight_delivery"], "immutable": True, "type": "string",
+        "choices": [["same-birth", "1 · 丢弃重建前旧信号"], ["address", "2 · 仍按地址送达（默认）"]],
+    })
+    local_id = "threemind.continuous-memory/6.1"
+    local_defaults = resolve_kernel(local_id).config_fields()
+    for original in tuple(fields):
+        if fixed_id in original.get("kernels", ()):
+            item = dict(original, kernels=[local_id])
+            item["hint"] = item.get("hint", "").replace("/6.0", "/6.1")
+            if item["path"].startswith("config."):
+                item["default"] = local_defaults[item["path"][7:]]
+            if item["path"] == "config.structure_check_interval_us":
+                item["label"] = "删除检查时间网格"
+                item["hint"] = "局部策略只检查到期对象；全图策略在每个网格时刻扫描。两者均在同刻输入和发送后检查。"
+            fields.append(item)
+    fields.append({
+        "path": "config.deletion_strategy", "label": "删除策略", "group": "continuous",
+        "hint": "局部删除按对象安排到期检查，不周期遍历全图；全图扫描保留为对照。",
+        "unit": "", "kernels": [local_id], "default": "local", "type": "string",
+        "choices": [["local", "局部删除（默认）"], ["global-scan", "全图扫描"]],
+    })
+    for key, label in (("activation_send_threshold", "激活发送门槛"), ("inhibition_send_threshold", "抑制发送门槛")):
+        fields.append({
+            "path": f"config.{key}", "label": label, "group": "continuous", "unit": "",
+            "hint": "比较源节点的相应活动强度；低于门槛不发送该类信号。0关闭该门槛；连接端传导条件另行设置。",
+            "kernels": [local_id], "default": local_defaults[key], "type": "number",
+            "minimum": 0.0, "maximum": 1e12,
+        })
+    stable_id = "threemind.continuous-memory/6.2"
+    stable_defaults = resolve_kernel(stable_id).config_fields()
+    for original in tuple(fields):
+        if local_id in original.get("kernels", ()):
+            item = dict(original, kernels=[stable_id])
+            item["hint"] = item.get("hint", "").replace("/6.1", "/6.2")
+            if item["path"].startswith("config."):
+                item["default"] = stable_defaults[item["path"][7:]]
+            if item["path"] == "config.consolidation_mode":
+                item["label"] = "连接保持规则"
+                item["choices"] = [["adaptive-half-life", "单年龄衰减（默认）"], ["stability", "稳定度保持"]]
+                item["hint"] = "稳定度保持按使用经历改变稳定度，稳定度越高，权重遗忘越慢；自身增长和回落分别可选。H时间尺度开关只用于单年龄衰减。出生时选定。"
+            elif item["path"] == "config.novelty_mode":
+                item["label"] = "新颖性增强时机"
+                item["choices"] = [["arrival-window", "到达窗口（默认）"], ["immediate", "即时"]]
+                item["hint"] = "即时方式使用连接形成时的联想活动；到达窗口方式等待已安排的联想信号抵达后结算。出生时选定。"
+            elif item["path"] == "config.decay_curve":
+                item["choices"] = [[value, "逆对数衰减" if value == "inverse-logarithmic" else label]
+                                   for value, label in item["choices"]]
+            fields.append(item)
+    for key, label in (("activation_signal_threshold", "激活连接信号量门槛"), ("inhibition_signal_threshold", "抑制连接信号量门槛")):
+        fields.append({
+            "path": f"config.{key}", "label": label, "group": "continuous", "unit": "",
+            "hint": "留空使用公共连接信号量门槛；0关闭该类门槛。另一类可独立留空。总开关关闭时两类均不截断。",
+            "kernels": [stable_id], "default": None, "nullable": True, "null_label": "使用公共门槛", "type": "number",
+            "minimum": 0.0, "maximum": 1e12,
+        })
+    for key, label in (("stability_growth_enabled", "稳定度增长"), ("stability_relaxation_enabled", "稳定度回落")):
+        fields.append({
+            "path": f"config.{key}", "label": label, "group": "continuous", "unit": "",
+            "hint": "仅控制稳定度保持规则中的连接稳定度；实际传导对基础权重的强化独立保留。",
+            "kernels": [stable_id], "default": True, "type": "boolean",
+        })
+    for key, label in (("activation_weight_reinforcement_enabled", "激活传导强化权重"), ("inhibition_weight_reinforcement_enabled", "抑制传导强化权重")):
+        fields.append({
+            "path": f"config.{key}", "label": label, "group": "continuous", "unit": "",
+            "hint": "仅控制成功传导该类信号后增加基础权重；不关闭其他学习状态或共同刺激强化。仍受可塑性、既有连接强化及相应学习总开关约束。",
+            "kernels": [stable_id], "default": True, "type": "boolean",
+        })
+    fields.append({"path": "config.separate_inhibition", "label": "激活与抑制全部分离",
+                   "hint": "总开关控制权重、突触资源与学习记录的分离；未指定的子开关继承它，显式子开关优先。出生时选定，默认全部共用。",
+                   "group": "continuous", "unit": "", "kernels": [stable_id], "default": False,
+                   "type": "boolean", "immutable": True})
+    for key, label, hint in (
+        ("separate_inhibition_weights", "激活与抑制使用独立权重",
+         "开启后两类信号分别强化和使用自己的基础权重；共同刺激对两者按同一规则学习。学习记录另行配置。显式值覆盖总开关。"),
+        ("separate_inhibition_resources", "激活与抑制使用独立突触资源",
+         "开启后两类信号各有一套可用、活跃及不可用资源和易化状态，分别消耗恢复；容量与时间常数相同。显式值覆盖总开关。"),
+        ("separate_inhibition_learning", "激活与抑制使用独立学习记录",
+         "分开短时增强、资格迹、稳定度、衰减年龄、保持时间尺度、使用次数和使用时间。要求权重分离；显式值覆盖总开关。"),
+    ):
+        fields.append({"path": f"config.{key}", "label": label, "hint": hint, "group": "continuous",
+                       "unit": "", "kernels": [stable_id], "default": None, "type": "boolean", "immutable": True,
+                       "nullable": True, "null_label": "跟随总开关"})
+    fields.append({
+        "path": "config.resource_precheck_enabled", "label": "资源释放前门槛检查",
+        "group": "continuous", "unit": "", "kernels": [stable_id], "default": True, "type": "boolean",
+        "hint": "先按有效权重和源信号量检查各类连接信号门槛；均未达到时不释放突触资源。关闭后沿用先释放再检查的顺序。节点发送门槛独立保留。",
+    })
+    fields.append({
+        "path": "config.subthreshold_expiry_enabled", "label": "局部活动到期维护",
+        "group": "continuous", "unit": "", "kernels": [stable_id], "default": True, "type": "boolean",
+        "hint": "新个体开启：低于激活归零下限的正活动在下一内部微秒局部结算，及时更新静默与死亡状态。关闭仅用于历史行为对照；旧存档恢复保留旧设置。",
+    })
+    fields.append({
+        "path": "config.inhibition_updates_usage", "label": "抑制传导更新使用时间",
+        "group": "continuous", "unit": "", "kernels": [stable_id], "default": False, "type": "boolean",
+        "hint": "决定成功抑制传导是否刷新连接最近传导时间。默认不更新；激活照常更新，抑制学习及其最近学习时间不受此开关控制。旧6.2存档没有此项时保持原更新行为。",
+    })
+    simple_id = "threemind.continuous-memory/6.3"
+    simple_defaults = resolve_kernel(simple_id).config_fields()
+    for original in tuple(fields):
+        if stable_id in original.get("kernels", ()) and not original["path"].startswith("config.separate_inhibition"):
+            item = dict(original, kernels=[simple_id])
+            item["hint"] = item.get("hint", "").replace("/6.2", "/6.3")
+            if item["path"].startswith("config."):
+                item["default"] = simple_defaults[item["path"][7:]]
+            if item["path"] == "config.resource_precheck_enabled":
+                item["hint"] = "默认关闭，沿用6.1先释放突触资源、再检查实际传导量的顺序。开启后，先按有效权重和源信号量检查各类连接门槛。节点发送门槛独立保留。"
+            elif item["path"] == "config.subthreshold_expiry_enabled":
+                item["hint"] = "默认开启：对低于既有激活归零下限的正活动在下一内部微秒结算，及时更新静默与死亡状态；归零下限及静默期本身不变。关闭可复现6.1的到期安排。旧存档保持保存的设置。"
+            elif item["path"] == "config.inhibition_updates_usage":
+                item["hint"] = "默认开启，与6.1一致：成功激活或抑制传导均刷新连接最近传导时间。关闭后仅激活刷新；抑制学习及其最近学习时间由原有规则控制。旧存档保持保存的设置。"
+            fields.append(item)
+    fields.append({
+        "path": "config.inhibition_distribution", "label": "抑制分配方式",
+        "group": "continuous", "unit": "", "kernels": [simple_id], "default": "per-connection", "type": "string",
+        "choices": [["per-connection", "逐连接传导（默认）"], ["weight-proportional", "总量按权重比例分配"]],
+        "hint": "逐连接：源信号分别乘连接有效权重。按比例：将总量按有效权重比例分给非休眠输出连接，再按距离、突触资源和门槛传导，不重新分配失败份额。",
+    })
+    fields.append({
+        "path": "config.separate_inhibition_resources", "label": "兴奋与抑制使用独立突触资源",
+        "group": "continuous", "unit": "", "kernels": [simple_id], "default": False, "type": "boolean",
+        "immutable": True,
+        "hint": "关闭（默认）：共用原资源状态。开启：两类信号分别释放、消耗并恢复自己的资源，使用同一组资源参数；权重和学习记录仍共用。出生时选择。抑制绕过资源限制开启时，抑制不使用这两种资源，独立资源状态保留。",
+    })
+    fields.append({
+        "path": "config.inhibition_bypasses_resources", "label": "抑制绕过突触资源限制",
+        "group": "continuous", "unit": "", "kernels": [simple_id], "default": simple_defaults["inhibition_bypasses_resources"], "type": "boolean",
+        "hint": "默认关闭，与6.1一致：抑制按共享或独立资源设置释放和恢复。开启后，抑制不释放或消耗突触资源，也不受释放比例削减；兴奋仍按原规则使用资源。分配、能量、连接门槛及学习开关保持各自作用。旧存档保持保存的设置，缺此字段时按关闭恢复。",
+    })
     for item in fields:
         item.update(scope="instance", target="new-instance or selected individual",
                     source="kernel/runtime executable default",
@@ -927,6 +1070,34 @@ def catalogue(kernel_id=None):
                 "propagation_mode", "propagation_phase", "arrival_mode", "reception_mode", "energy_model",
                 "energy_distribution", "energy_seed", "energy_region_count")],
             "threemind.lif/1": ["config.rest_mv", "config.reset_mv", "config.threshold_mv"],
+            "threemind.continuous-memory/6.0": [f"config.{k}" for k in (
+                "inflight_delivery",
+                "propagation_interval_us", "novelty_mode", "consolidation_mode", "memory_growth_formula",
+                "propagation_mode", "propagation_phase", "arrival_mode", "reception_mode", "energy_model",
+                "energy_distribution", "energy_seed", "energy_region_count", "decay_curve",
+                "decay_transition_age", "reinforcement_age_policy", "structure_check_interval_us",
+            )],
+            "threemind.continuous-memory/6.1": [f"config.{k}" for k in (
+                "inflight_delivery", "propagation_interval_us", "novelty_mode", "consolidation_mode",
+                "memory_growth_formula", "propagation_mode", "propagation_phase", "arrival_mode",
+                "reception_mode", "energy_model", "energy_distribution", "energy_seed",
+                "energy_region_count", "decay_curve", "decay_transition_age",
+                "reinforcement_age_policy", "structure_check_interval_us",
+            )],
+            "threemind.continuous-memory/6.2": [f"config.{k}" for k in (
+                "inflight_delivery", "propagation_interval_us", "novelty_mode", "consolidation_mode",
+                "memory_growth_formula", "propagation_mode", "propagation_phase", "arrival_mode",
+                "reception_mode", "energy_model", "energy_distribution", "energy_seed",
+                "energy_region_count", "decay_curve", "decay_transition_age",
+                "reinforcement_age_policy", "structure_check_interval_us",
+            )],
+            "threemind.continuous-memory/6.3": [f"config.{k}" for k in (
+                "inflight_delivery", "propagation_interval_us", "novelty_mode", "consolidation_mode",
+                "memory_growth_formula", "propagation_mode", "propagation_phase", "arrival_mode",
+                "reception_mode", "energy_model", "energy_distribution", "energy_seed",
+                "energy_region_count", "decay_curve", "decay_transition_age",
+                "reinforcement_age_policy", "structure_check_interval_us",
+            )],
             "threemind.continuous-memory/2": ["config.novelty_mode"],
             "threemind.continuous-memory/3": [
                 "config.novelty_mode",
@@ -1036,7 +1207,7 @@ def validate_configuration(value, *, current=None, elapsed_us=0, maximum_duratio
             locked += ["config.novelty_mode"]
         if original["kernel_id"] in ("threemind.continuous-memory/3", "threemind.continuous-memory/3.1"):
             locked += ["config.consolidation_mode", "config.memory_growth_formula"]
-        if original["kernel_id"] in ("threemind.continuous-memory/4", "threemind.continuous-memory/5", "threemind.continuous-memory/5.1", "threemind.continuous-memory/5.2", "threemind.continuous-memory/5.3"):
+        if original["kernel_id"] in ("threemind.continuous-memory/4", "threemind.continuous-memory/5", "threemind.continuous-memory/5.1", "threemind.continuous-memory/5.2", "threemind.continuous-memory/5.3", "threemind.continuous-memory/6.0", "threemind.continuous-memory/6.1", "threemind.continuous-memory/6.2", "threemind.continuous-memory/6.3"):
             locked += ["config.propagation_interval_us"]
             locked += [
                 f"config.{k}"
@@ -1056,8 +1227,10 @@ def validate_configuration(value, *, current=None, elapsed_us=0, maximum_duratio
             ]
         if original["kernel_id"] == "threemind.continuous-memory/5.2":
             locked += ["config.decay_curve"]
-        if original["kernel_id"] == "threemind.continuous-memory/5.3":
+        if original["kernel_id"] in ("threemind.continuous-memory/5.3", "threemind.continuous-memory/6.0", "threemind.continuous-memory/6.1", "threemind.continuous-memory/6.2", "threemind.continuous-memory/6.3"):
             locked += [f"config.{k}" for k in ("decay_curve", "decay_transition_age", "reinforcement_age_policy", "structure_check_interval_us")]
+        if original["kernel_id"] in ("threemind.continuous-memory/6.0", "threemind.continuous-memory/6.1", "threemind.continuous-memory/6.2", "threemind.continuous-memory/6.3"):
+            locked += ["config.inflight_delivery"]
         if original["kernel_id"] == "threemind.experimental-weight-decay/1":
             locked += catalogue(original["kernel_id"])["kernel_immutable"][original["kernel_id"]]
         if original.get("study_id"):
@@ -1084,7 +1257,7 @@ def validate_configuration(value, *, current=None, elapsed_us=0, maximum_duratio
     elif any(data.get(k) is not None for k in ("study_id", "condition", "block_seed")):
         errors.append({"path": "study_id", "message": "实验归属只能由实验训练器分配。"})
     adjustments = []
-    if data["kernel_id"] in ("threemind.continuous-memory/3", "threemind.continuous-memory/3.1", "threemind.continuous-memory/4", "threemind.continuous-memory/5", "threemind.continuous-memory/5.1", "threemind.continuous-memory/5.2", "threemind.continuous-memory/5.3") and isinstance(
+    if data["kernel_id"] in ("threemind.continuous-memory/3", "threemind.continuous-memory/3.1", "threemind.continuous-memory/4", "threemind.continuous-memory/5", "threemind.continuous-memory/5.1", "threemind.continuous-memory/5.2", "threemind.continuous-memory/5.3", "threemind.continuous-memory/6.0", "threemind.continuous-memory/6.1", "threemind.continuous-memory/6.2", "threemind.continuous-memory/6.3") and isinstance(
         value, dict
     ):
         requested = value.get("config", {})

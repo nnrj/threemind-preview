@@ -17,7 +17,7 @@ from threemind_core import StateImage
 from .bus import InputBus
 from .codec import ArtifactCodec
 from .host import create_engine
-from .inheritance import BIRTH_RULE, birth
+from .inheritance import birth, birth_rule
 from .sensory import TEXT_VERSION, TextSensor, TextSensorConfig
 
 VERSION = "threemind.probe-calibration/1"
@@ -288,7 +288,7 @@ def calibrate(
             "sensor_config": asdict(sensor_config),
             "seed": seed,
             "protocol": protocol.model_dump(),
-            "inheritance": BIRTH_RULE if protocol.route == "birth" else None,
+            "inheritance": birth_rule(state["dynamics"]) if protocol.route == "birth" else None,
             "activation_floor": state["config"]["activation_floor"],
             "propagation_interval_us": state["config"]["propagation_interval_us"],
             "mapping": mapping,

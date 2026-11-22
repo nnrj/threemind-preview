@@ -1,14 +1,30 @@
 {
   "schema": "threemind.public-omissions/1",
-  "date": "2026-11-11",
-  "source_commit": "8f56c7872458f40e9367c7144d74968fa7187a19",
+  "date": "2026-11-22",
+  "source_commit": "b1ea13db51efdf5abbdcfad9f948649a9506960e",
   "scope": "Source-line locations refer to the complete source commit, not the edited public copies. Removed text and private conversation IDs are not included.",
   "markdown_edits": [
+    {
+      "path": "AGENTS.md",
+      "source_lines": [
+        11,
+        11
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
     {
       "path": "docs/en/algorithmic-comparison.md",
       "source_lines": [
         50,
         50
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/en/history/chronicles/11-data-management.md",
+      "source_lines": [
+        81,
+        86
       ],
       "reason": "manuscript-and-editorial-content"
     },
@@ -93,6 +109,62 @@
       "reason": "manuscript-and-editorial-content"
     },
     {
+      "path": "docs/en/history/chronicles/19-kernel60.md",
+      "source_lines": [
+        73,
+        73
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/en/history/chronicles/19-kernel60.md",
+      "source_lines": [
+        82,
+        82
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/en/history/chronicles/19-kernel60.md",
+      "source_lines": [
+        138,
+        138
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/en/history/chronicles/19-kernel60.md",
+      "source_lines": [
+        373,
+        373
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/en/history/chronicles/19-kernel60.md",
+      "source_lines": [
+        417,
+        417
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/en/history/chronicles/19-kernel60.md",
+      "source_lines": [
+        494,
+        494
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/en/history/chronicles/19-kernel60.md",
+      "source_lines": [
+        529,
+        529
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
       "path": "docs/en/history/index.md",
       "source_lines": [
         42,
@@ -169,6 +241,38 @@
       "source_lines": [
         395,
         395
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/en/history/milestones.md",
+      "source_lines": [
+        576,
+        576
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/en/history/milestones.md",
+      "source_lines": [
+        582,
+        582
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/en/history/milestones.md",
+      "source_lines": [
+        626,
+        626
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/en/history/milestones.md",
+      "source_lines": [
+        661,
+        661
       ],
       "reason": "manuscript-and-editorial-content"
     },
@@ -265,6 +369,30 @@
       "source_lines": [
         306,
         344
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/en/history/sources/2026-11-14-dynamics-function.md",
+      "source_lines": [
+        13,
+        13
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/en/history/sources/2026-11-14-kernel62.md",
+      "source_lines": [
+        11,
+        11
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/en/history/sources/2026-11-14-kernel62.md",
+      "source_lines": [
+        103,
+        103
       ],
       "reason": "manuscript-and-editorial-content"
     },
@@ -517,6 +645,38 @@
       "reason": "private-conversation-locator"
     },
     {
+      "path": "docs/en/history/sources/source-register.md",
+      "source_lines": [
+        708,
+        708
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/en/history/sources/source-register.md",
+      "source_lines": [
+        714,
+        714
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/en/history/sources/source-register.md",
+      "source_lines": [
+        733,
+        733
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/en/history/sources/source-register.md",
+      "source_lines": [
+        768,
+        768
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
       "path": "docs/en/history/sources/strong-stimulus-dialogue.md",
       "source_lines": [
         5,
@@ -645,12 +805,44 @@
       "reason": "manuscript-and-editorial-content"
     },
     {
+      "path": "docs/en/history/themes/03-memory.md",
+      "source_lines": [
+        386,
+        386
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/en/history/themes/03-memory.md",
+      "source_lines": [
+        392,
+        392
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
       "path": "docs/en/history/themes/04-autonomous-consciousness.md",
       "source_lines": [
         44,
         44
       ],
       "reason": "provenance-link"
+    },
+    {
+      "path": "docs/en/history/themes/04-autonomous-consciousness.md",
+      "source_lines": [
+        107,
+        107
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/en/history/themes/04-autonomous-consciousness.md",
+      "source_lines": [
+        142,
+        142
+      ],
+      "reason": "manuscript-and-editorial-content"
     },
     {
       "path": "docs/en/history/themes/05-embodied-behavior.md",
@@ -709,12 +901,52 @@
       "reason": "provenance-link"
     },
     {
+      "path": "docs/en/plans/body-exploration.md",
+      "source_lines": [
+        9,
+        9
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
       "path": "docs/en/plans/kernel-delta-decay-audit-20261013.md",
       "source_lines": [
         19,
         19
       ],
       "reason": "private-conversation-locator"
+    },
+    {
+      "path": "docs/en/plans/kernel60-revalidation-v2.md",
+      "source_lines": [
+        63,
+        63
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/en/plans/kernel60-revalidation-v2.md",
+      "source_lines": [
+        69,
+        69
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/en/plans/kernel63.md",
+      "source_lines": [
+        35,
+        35
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/en/plans/kernel63.md",
+      "source_lines": [
+        41,
+        41
+      ],
+      "reason": "manuscript-and-editorial-content"
     },
     {
       "path": "docs/en/plans/memory5-baseline-verification.md",
@@ -735,104 +967,185 @@
     {
       "path": "docs/en/plans/research-backlog.md",
       "source_lines": [
-        3,
-        3
+        59,
+        59
       ],
       "reason": "manuscript-and-editorial-content"
     },
     {
       "path": "docs/en/plans/research-backlog.md",
       "source_lines": [
-        5,
-        5
+        93,
+        93
       ],
       "reason": "manuscript-and-editorial-content"
     },
     {
       "path": "docs/en/plans/research-backlog.md",
       "source_lines": [
-        23,
-        23
+        159,
+        159
       ],
       "reason": "manuscript-and-editorial-content"
     },
     {
       "path": "docs/en/plans/research-backlog.md",
       "source_lines": [
-        25,
-        27
+        165,
+        165
       ],
       "reason": "manuscript-and-editorial-content"
     },
     {
       "path": "docs/en/plans/research-backlog.md",
       "source_lines": [
-        75,
-        75
+        171,
+        171
       ],
       "reason": "manuscript-and-editorial-content"
     },
     {
       "path": "docs/en/plans/research-backlog.md",
       "source_lines": [
-        77,
-        85
+        394,
+        394
       ],
       "reason": "manuscript-and-editorial-content"
     },
     {
       "path": "docs/en/plans/research-backlog.md",
       "source_lines": [
-        107,
-        107
+        406,
+        406
       ],
       "reason": "manuscript-and-editorial-content"
     },
     {
       "path": "docs/en/plans/research-backlog.md",
       "source_lines": [
-        109,
-        141
+        420,
+        420
       ],
       "reason": "manuscript-and-editorial-content"
     },
     {
       "path": "docs/en/plans/research-backlog.md",
       "source_lines": [
-        145,
-        145
+        422,
+        422
       ],
       "reason": "manuscript-and-editorial-content"
     },
     {
       "path": "docs/en/plans/research-backlog.md",
       "source_lines": [
-        345,
-        345
+        440,
+        440
       ],
       "reason": "manuscript-and-editorial-content"
     },
     {
       "path": "docs/en/plans/research-backlog.md",
       "source_lines": [
-        565,
-        565
+        442,
+        444
       ],
       "reason": "manuscript-and-editorial-content"
     },
     {
       "path": "docs/en/plans/research-backlog.md",
       "source_lines": [
-        1126,
-        1126
+        492,
+        492
       ],
       "reason": "manuscript-and-editorial-content"
     },
     {
       "path": "docs/en/plans/research-backlog.md",
       "source_lines": [
-        1128,
-        1128
+        494,
+        502
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/en/plans/research-backlog.md",
+      "source_lines": [
+        524,
+        524
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/en/plans/research-backlog.md",
+      "source_lines": [
+        526,
+        558
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/en/plans/research-backlog.md",
+      "source_lines": [
+        560,
+        560
+      ],
+      "reason": "manuscript-and-editorial-content",
+      "superseded_source_revision": "8f56c7872458f40e9367c7144d74968fa7187a19"
+    },
+    {
+      "path": "docs/en/plans/research-backlog.md",
+      "source_lines": [
+        562,
+        562
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/en/plans/research-backlog.md",
+      "source_lines": [
+        762,
+        762
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/en/plans/research-backlog.md",
+      "source_lines": [
+        966,
+        966
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/en/plans/research-backlog.md",
+      "source_lines": [
+        991,
+        991
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/en/plans/research-backlog.md",
+      "source_lines": [
+        1552,
+        1552
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/en/plans/research-backlog.md",
+      "source_lines": [
+        1554,
+        1554
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/en/plans/research-backlog.md",
+      "source_lines": [
+        1559,
+        1559
       ],
       "reason": "manuscript-and-editorial-content"
     },
@@ -853,6 +1166,22 @@
       "reason": "private-conversation-locator"
     },
     {
+      "path": "docs/en/writing-guidelines.md",
+      "source_lines": [
+        78,
+        78
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/en/writing-guidelines.md",
+      "source_lines": [
+        125,
+        125
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
       "path": "docs/history/README.md",
       "source_lines": [
         11,
@@ -865,6 +1194,14 @@
       "source_lines": [
         50,
         50
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/zh/history/chronicles/08-embodied-communication.md",
+      "source_lines": [
+        110,
+        110
       ],
       "reason": "manuscript-and-editorial-content"
     },
@@ -889,6 +1226,14 @@
       "source_lines": [
         86,
         86
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/zh/history/chronicles/13-shape-color-causality.md",
+      "source_lines": [
+        162,
+        162
       ],
       "reason": "manuscript-and-editorial-content"
     },
@@ -989,6 +1334,54 @@
       "reason": "manuscript-and-editorial-content"
     },
     {
+      "path": "docs/zh/history/chronicles/19-kernel60.md",
+      "source_lines": [
+        73,
+        73
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/zh/history/chronicles/19-kernel60.md",
+      "source_lines": [
+        82,
+        82
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/zh/history/chronicles/19-kernel60.md",
+      "source_lines": [
+        138,
+        138
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/zh/history/chronicles/19-kernel60.md",
+      "source_lines": [
+        256,
+        256
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/zh/history/chronicles/19-kernel60.md",
+      "source_lines": [
+        494,
+        494
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/zh/history/chronicles/19-kernel60.md",
+      "source_lines": [
+        529,
+        529
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
       "path": "docs/zh/history/classical/shiji-05.md",
       "source_lines": [
         324,
@@ -1045,6 +1438,14 @@
       "reason": "manuscript-and-editorial-content"
     },
     {
+      "path": "docs/zh/history/classical/shiji-06.md",
+      "source_lines": [
+        459,
+        459
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
       "path": "docs/zh/history/classical/tongjian-04.md",
       "source_lines": [
         447,
@@ -1097,6 +1498,14 @@
       "source_lines": [
         143,
         158
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/zh/history/classical/tongjian-05.md",
+      "source_lines": [
+        407,
+        407
       ],
       "reason": "manuscript-and-editorial-content"
     },
@@ -1177,6 +1586,22 @@
       "source_lines": [
         395,
         395
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/zh/history/milestones.md",
+      "source_lines": [
+        626,
+        626
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/zh/history/milestones.md",
+      "source_lines": [
+        661,
+        661
       ],
       "reason": "manuscript-and-editorial-content"
     },
@@ -1289,6 +1714,30 @@
       "source_lines": [
         324,
         362
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/zh/history/sources/2026-11-14-dynamics-function.md",
+      "source_lines": [
+        5,
+        5
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/zh/history/sources/2026-11-14-dynamics-function.md",
+      "source_lines": [
+        21,
+        21
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/zh/history/sources/2026-11-14-kernel62.md",
+      "source_lines": [
+        11,
+        11
       ],
       "reason": "manuscript-and-editorial-content"
     },
@@ -1517,6 +1966,22 @@
       "reason": "private-conversation-locator"
     },
     {
+      "path": "docs/zh/history/sources/source-register.md",
+      "source_lines": [
+        737,
+        737
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/zh/history/sources/source-register.md",
+      "source_lines": [
+        772,
+        772
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
       "path": "docs/zh/history/sources/strong-stimulus-dialogue.md",
       "source_lines": [
         5,
@@ -1653,12 +2118,36 @@
       "reason": "manuscript-and-editorial-content"
     },
     {
+      "path": "docs/zh/history/themes/03-memory.md",
+      "source_lines": [
+        279,
+        279
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
       "path": "docs/zh/history/themes/04-autonomous-consciousness.md",
       "source_lines": [
         48,
         48
       ],
       "reason": "provenance-link"
+    },
+    {
+      "path": "docs/zh/history/themes/04-autonomous-consciousness.md",
+      "source_lines": [
+        111,
+        111
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/zh/history/themes/04-autonomous-consciousness.md",
+      "source_lines": [
+        146,
+        146
+      ],
+      "reason": "manuscript-and-editorial-content"
     },
     {
       "path": "docs/zh/history/themes/05-embodied-behavior.md",
@@ -1725,12 +2214,44 @@
       "reason": "manuscript-and-editorial-content"
     },
     {
+      "path": "docs/zh/plans/choice-attribution.md",
+      "source_lines": [
+        5,
+        5
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
       "path": "docs/zh/plans/kernel-delta-decay-audit-20261013.md",
       "source_lines": [
         19,
         19
       ],
       "reason": "private-conversation-locator"
+    },
+    {
+      "path": "docs/zh/plans/kernel60-revalidation-v2.md",
+      "source_lines": [
+        69,
+        69
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/zh/plans/mechanism-discovery-20261016.md",
+      "source_lines": [
+        26,
+        26
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/zh/plans/mechanism-discovery-20261016.md",
+      "source_lines": [
+        110,
+        110
+      ],
+      "reason": "manuscript-and-editorial-content"
     },
     {
       "path": "docs/zh/plans/memory5-baseline-verification.md",
@@ -1751,104 +2272,104 @@
     {
       "path": "docs/zh/plans/research-backlog.md",
       "source_lines": [
-        3,
-        3
+        59,
+        59
       ],
       "reason": "manuscript-and-editorial-content"
     },
     {
       "path": "docs/zh/plans/research-backlog.md",
       "source_lines": [
-        5,
-        5
+        93,
+        93
       ],
       "reason": "manuscript-and-editorial-content"
     },
     {
       "path": "docs/zh/plans/research-backlog.md",
       "source_lines": [
-        23,
-        23
+        282,
+        282
       ],
       "reason": "manuscript-and-editorial-content"
     },
     {
       "path": "docs/zh/plans/research-backlog.md",
       "source_lines": [
-        25,
-        27
+        394,
+        394
       ],
       "reason": "manuscript-and-editorial-content"
     },
     {
       "path": "docs/zh/plans/research-backlog.md",
       "source_lines": [
-        75,
-        75
+        406,
+        406
       ],
       "reason": "manuscript-and-editorial-content"
     },
     {
       "path": "docs/zh/plans/research-backlog.md",
       "source_lines": [
-        77,
-        85
+        420,
+        420
       ],
       "reason": "manuscript-and-editorial-content"
     },
     {
       "path": "docs/zh/plans/research-backlog.md",
       "source_lines": [
-        107,
-        107
+        422,
+        422
       ],
       "reason": "manuscript-and-editorial-content"
     },
     {
       "path": "docs/zh/plans/research-backlog.md",
       "source_lines": [
-        109,
-        141
+        440,
+        440
       ],
       "reason": "manuscript-and-editorial-content"
     },
     {
       "path": "docs/zh/plans/research-backlog.md",
       "source_lines": [
-        145,
-        145
+        442,
+        444
       ],
       "reason": "manuscript-and-editorial-content"
     },
     {
       "path": "docs/zh/plans/research-backlog.md",
       "source_lines": [
-        151,
-        151
+        492,
+        492
       ],
       "reason": "manuscript-and-editorial-content"
     },
     {
       "path": "docs/zh/plans/research-backlog.md",
       "source_lines": [
-        265,
-        265
+        494,
+        502
       ],
       "reason": "manuscript-and-editorial-content"
     },
     {
       "path": "docs/zh/plans/research-backlog.md",
       "source_lines": [
-        277,
-        277
+        524,
+        524
       ],
       "reason": "manuscript-and-editorial-content"
     },
     {
       "path": "docs/zh/plans/research-backlog.md",
       "source_lines": [
-        345,
-        345
+        526,
+        558
       ],
       "reason": "manuscript-and-editorial-content"
     },
@@ -1858,29 +2379,86 @@
         560,
         560
       ],
-      "reason": "manuscript-and-editorial-content"
+      "reason": "manuscript-and-editorial-content",
+      "superseded_source_revision": "8f56c7872458f40e9367c7144d74968fa7187a19"
     },
     {
       "path": "docs/zh/plans/research-backlog.md",
       "source_lines": [
-        565,
-        565
+        562,
+        562
       ],
       "reason": "manuscript-and-editorial-content"
     },
     {
       "path": "docs/zh/plans/research-backlog.md",
       "source_lines": [
-        1126,
-        1126
+        568,
+        568
       ],
       "reason": "manuscript-and-editorial-content"
     },
     {
       "path": "docs/zh/plans/research-backlog.md",
       "source_lines": [
-        1128,
-        1128
+        682,
+        682
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/zh/plans/research-backlog.md",
+      "source_lines": [
+        694,
+        694
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/zh/plans/research-backlog.md",
+      "source_lines": [
+        762,
+        762
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/zh/plans/research-backlog.md",
+      "source_lines": [
+        966,
+        966
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/zh/plans/research-backlog.md",
+      "source_lines": [
+        991,
+        991
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/zh/plans/research-backlog.md",
+      "source_lines": [
+        1552,
+        1552
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/zh/plans/research-backlog.md",
+      "source_lines": [
+        1554,
+        1554
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/zh/plans/research-backlog.md",
+      "source_lines": [
+        1559,
+        1559
       ],
       "reason": "manuscript-and-editorial-content"
     },
@@ -1901,10 +2479,90 @@
       "reason": "private-conversation-locator"
     },
     {
+      "path": "docs/zh/writing-guidelines.md",
+      "source_lines": [
+        77,
+        77
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/zh/writing-guidelines.md",
+      "source_lines": [
+        78,
+        78
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/zh/writing-guidelines.md",
+      "source_lines": [
+        103,
+        103
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/zh/writing-guidelines.md",
+      "source_lines": [
+        111,
+        111
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/zh/writing-guidelines.md",
+      "source_lines": [
+        113,
+        113
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/zh/writing-guidelines.md",
+      "source_lines": [
+        125,
+        125
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "docs/zh/writing-guidelines.md",
+      "source_lines": [
+        127,
+        127
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
       "path": "lab/explorations/2026-10-13-eye-hand-shape-color/HANDOFF.md",
       "source_lines": [
         9,
         9
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-10-13-eye-hand-shape-color/bounded-training-comparison-20261015.zh.md",
+      "source_lines": [
+        9,
+        9
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-10-13-eye-hand-shape-color/focus-and-regional-analysis-20261015.zh.md",
+      "source_lines": [
+        11,
+        11
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-10-13-eye-hand-shape-color/focus-and-regional-analysis-20261015.zh.md",
+      "source_lines": [
+        56,
+        56
       ],
       "reason": "manuscript-and-editorial-content"
     },
@@ -2125,47 +2783,151 @@
       "reason": "manuscript-and-editorial-content"
     },
     {
-      "path": "docs/en/history/chronicles/11-data-management.md",
+      "path": "lab/explorations/2026-11-13-kernel60-revalidation/HANDOFF.md",
       "source_lines": [
-        81,
-        86
+        67,
+        67
       ],
       "reason": "manuscript-and-editorial-content"
     },
     {
-      "path": "docs/en/plans/body-exploration.md",
+      "path": "lab/explorations/2026-11-13-kernel60-revalidation/HANDOFF.md",
       "source_lines": [
-        9,
-        9
+        91,
+        91
       ],
       "reason": "manuscript-and-editorial-content"
     },
     {
-      "path": "docs/zh/history/chronicles/08-embodied-communication.md",
+      "path": "lab/explorations/2026-11-13-kernel60-revalidation/HANDOFF.md",
       "source_lines": [
-        110,
-        110
+        107,
+        107
       ],
       "reason": "manuscript-and-editorial-content"
     },
     {
-      "path": "docs/zh/history/chronicles/13-shape-color-causality.md",
+      "path": "lab/explorations/2026-11-13-kernel60-revalidation/HANDOFF.md",
       "source_lines": [
-        162,
-        162
+        137,
+        137
       ],
       "reason": "manuscript-and-editorial-content"
     },
     {
-      "path": "docs/zh/plans/choice-attribution.md",
+      "path": "lab/explorations/2026-11-13-kernel60-revalidation/HANDOFF.md",
       "source_lines": [
-        5,
-        5
+        156,
+        156
       ],
       "reason": "manuscript-and-editorial-content"
     },
     {
-      "path": "docs/zh/plans/mechanism-discovery-20261016.md",
+      "path": "lab/explorations/2026-11-13-kernel60-revalidation/HANDOFF.md",
+      "source_lines": [
+        164,
+        164
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-13-kernel60-revalidation/HANDOFF.md",
+      "source_lines": [
+        220,
+        220
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-13-kernel60-revalidation/HANDOFF.md",
+      "source_lines": [
+        246,
+        246
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-13-kernel60-revalidation/HANDOFF.md",
+      "source_lines": [
+        270,
+        270
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-13-kernel60-revalidation/HANDOFF.md",
+      "source_lines": [
+        278,
+        278
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-13-kernel60-revalidation/HANDOFF.md",
+      "source_lines": [
+        288,
+        288
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-13-kernel60-revalidation/HANDOFF.md",
+      "source_lines": [
+        296,
+        296
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-13-kernel60-revalidation/HANDOFF.md",
+      "source_lines": [
+        306,
+        306
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-13-kernel60-revalidation/HANDOFF.md",
+      "source_lines": [
+        327,
+        327
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-13-kernel60-revalidation/HANDOFF.md",
+      "source_lines": [
+        442,
+        442
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-13-kernel60-revalidation/HANDOFF.md",
+      "source_lines": [
+        450,
+        450
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-13-kernel60-revalidation/HANDOFF.md",
+      "source_lines": [
+        509,
+        509
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-13-kernel60-revalidation/delivery.md",
+      "source_lines": [
+        24,
+        24
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-13-kernel60-revalidation/delivery.md",
       "source_lines": [
         26,
         26
@@ -2173,15 +2935,127 @@
       "reason": "manuscript-and-editorial-content"
     },
     {
-      "path": "docs/zh/plans/mechanism-discovery-20261016.md",
+      "path": "lab/explorations/2026-11-13-kernel60-revalidation/report.en.md",
       "source_lines": [
-        110,
-        110
+        49,
+        49
       ],
       "reason": "manuscript-and-editorial-content"
     },
     {
-      "path": "lab/explorations/2026-10-13-eye-hand-shape-color/bounded-training-comparison-20261015.zh.md",
+      "path": "lab/explorations/2026-11-13-kernel60-revalidation/report.zh.md",
+      "source_lines": [
+        49,
+        49
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-13-kernel61/autonomy_original/protocol.en.md",
+      "source_lines": [
+        43,
+        43
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-13-kernel61/autonomy_original/protocol.zh.md",
+      "source_lines": [
+        43,
+        43
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-13-kernel61/coverage.en.md",
+      "source_lines": [
+        182,
+        182
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-13-kernel61/coverage.zh.md",
+      "source_lines": [
+        29,
+        29
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-13-kernel61/coverage.zh.md",
+      "source_lines": [
+        184,
+        184
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-13-kernel61/dynamics_function/plan.en.md",
+      "source_lines": [
+        19,
+        19
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-13-kernel61/dynamics_function/plan.zh.md",
+      "source_lines": [
+        36,
+        36
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-13-kernel61/dynamics_function/plan.zh.md",
+      "source_lines": [
+        38,
+        38
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-13-kernel61/dynamics_function/prefix_cross_report/report-r2.en.md",
+      "source_lines": [
+        42,
+        42
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-13-kernel61/dynamics_function/prefix_cross_report/report-r2.zh.md",
+      "source_lines": [
+        42,
+        42
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-13-kernel61/dynamics_function/prefix_cross_report/report.en.md",
+      "source_lines": [
+        42,
+        42
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-13-kernel61/dynamics_function/prefix_cross_report/report.zh.md",
+      "source_lines": [
+        42,
+        42
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-13-kernel61/dynamics_function/references.en.md",
+      "source_lines": [
+        1,
+        1
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-13-kernel61/dynamics_function/references.en.md",
       "source_lines": [
         9,
         9
@@ -2189,7 +3063,23 @@
       "reason": "manuscript-and-editorial-content"
     },
     {
-      "path": "lab/explorations/2026-10-13-eye-hand-shape-color/focus-and-regional-analysis-20261015.zh.md",
+      "path": "lab/explorations/2026-11-13-kernel61/dynamics_function/references.zh.md",
+      "source_lines": [
+        1,
+        1
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-13-kernel61/dynamics_function/references.zh.md",
+      "source_lines": [
+        5,
+        5
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-13-kernel61/dynamics_function/references.zh.md",
       "source_lines": [
         11,
         11
@@ -2197,18 +3087,338 @@
       "reason": "manuscript-and-editorial-content"
     },
     {
-      "path": "lab/explorations/2026-10-13-eye-hand-shape-color/focus-and-regional-analysis-20261015.zh.md",
+      "path": "lab/explorations/2026-11-13-kernel61/dynamics_function/report.en.md",
       "source_lines": [
-        56,
-        56
+        31,
+        31
       ],
       "reason": "manuscript-and-editorial-content"
     },
     {
-      "path": "docs/en/plans/research-backlog.md",
+      "path": "lab/explorations/2026-11-13-kernel61/dynamics_function/report.en.md",
       "source_lines": [
-        560,
-        560
+        36,
+        36
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-13-kernel61/dynamics_function/report.zh.md",
+      "source_lines": [
+        31,
+        31
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-13-kernel61/dynamics_function/report.zh.md",
+      "source_lines": [
+        36,
+        36
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-13-kernel61/prefix_components/evaluation.en.md",
+      "source_lines": [
+        46,
+        46
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-13-kernel61/prefix_components/evaluation.en.md",
+      "source_lines": [
+        50,
+        50
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-13-kernel61/prefix_components/evaluation.zh.md",
+      "source_lines": [
+        50,
+        50
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-14-kernel62/prefix_resources/report.zh.md",
+      "source_lines": [
+        154,
+        154
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-14-kernel62/prefix_solution/report.en.md",
+      "source_lines": [
+        100,
+        100
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-14-kernel62/prefix_solution/report.zh.md",
+      "source_lines": [
+        107,
+        107
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-14-kernel62/release_lifecycle/completion/report.en.md",
+      "source_lines": [
+        65,
+        65
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-14-kernel62/report.en.md",
+      "source_lines": [
+        71,
+        71
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-14-kernel62/report.zh.md",
+      "source_lines": [
+        71,
+        71
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-14-kernel62/revalidation.en.md",
+      "source_lines": [
+        38,
+        38
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-14-kernel62/revalidation.zh.md",
+      "source_lines": [
+        38,
+        38
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-15-kernel63-revalidation/CONTINUATION.md",
+      "source_lines": [
+        3,
+        3
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-15-kernel63-revalidation/CONTINUATION.md",
+      "source_lines": [
+        31,
+        31
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-15-kernel63-revalidation/HANDOFF.md",
+      "source_lines": [
+        3,
+        3
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-15-kernel63-revalidation/HANDOFF.md",
+      "source_lines": [
+        5,
+        5
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-15-kernel63-revalidation/HANDOFF.md",
+      "source_lines": [
+        9,
+        9
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-15-kernel63-revalidation/HANDOFF.md",
+      "source_lines": [
+        11,
+        11
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-15-kernel63-revalidation/HANDOFF.md",
+      "source_lines": [
+        13,
+        13
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-15-kernel63-revalidation/HANDOFF.md",
+      "source_lines": [
+        15,
+        15
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-15-kernel63-revalidation/HANDOFF.md",
+      "source_lines": [
+        17,
+        17
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-15-kernel63-revalidation/HANDOFF.md",
+      "source_lines": [
+        25,
+        25
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-15-kernel63-revalidation/HANDOFF.md",
+      "source_lines": [
+        55,
+        55
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-15-kernel63-revalidation/autonomy_original/protocol.en.md",
+      "source_lines": [
+        43,
+        43
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-15-kernel63-revalidation/autonomy_original/protocol.zh.md",
+      "source_lines": [
+        43,
+        43
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-15-kernel63-revalidation/coverage.en.md",
+      "source_lines": [
+        3,
+        3
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-15-kernel63-revalidation/coverage.en.md",
+      "source_lines": [
+        28,
+        28
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-15-kernel63-revalidation/coverage.zh.md",
+      "source_lines": [
+        3,
+        3
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-15-kernel63-revalidation/coverage.zh.md",
+      "source_lines": [
+        30,
+        30
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-15-kernel63-revalidation/dynamics_function/mechanism_protocol.en.md",
+      "source_lines": [
+        35,
+        35
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-15-kernel63-revalidation/dynamics_function/mechanism_protocol.zh.md",
+      "source_lines": [
+        35,
+        35
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-15-kernel63-revalidation/fixed_readout/report.en.md",
+      "source_lines": [
+        51,
+        51
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-15-kernel63-revalidation/fixed_readout/report.zh.md",
+      "source_lines": [
+        51,
+        51
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-15-kernel63/default_alignment/report.en.md",
+      "source_lines": [
+        58,
+        58
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-15-kernel63/performance_comparison/report.en.md",
+      "source_lines": [
+        57,
+        57
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-15-kernel63/prefix_causes/protocol.en.md",
+      "source_lines": [
+        36,
+        36
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-15-kernel63/resource_bypass/report.en.md",
+      "source_lines": [
+        77,
+        77
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-15-kernel63/revalidation-resume-review.en.md",
+      "source_lines": [
+        43,
+        43
+      ],
+      "reason": "manuscript-and-editorial-content"
+    },
+    {
+      "path": "lab/explorations/2026-11-15-kernel63/revalidation-resume-review.zh.md",
+      "source_lines": [
+        43,
+        43
       ],
       "reason": "manuscript-and-editorial-content"
     }
@@ -2251,7 +3461,7 @@
   "whole_file_exclusions": [
     {
       "category": "Manuscript drafts, supplements, editorial source material and paper-only assets",
-      "count": 671,
+      "count": 973,
       "exception": "Six authorized scientific PNGs remain at their original paths; see docs/history/figure-provenance.json."
     },
     {
@@ -2266,6 +3476,11 @@
       "category": "Manuscript-writing/submission history chapters and planning documents",
       "count": 6,
       "note": "These entries are omitted from the public history catalogue and source inventory."
+    },
+    {
+      "category": "Manuscript revision notes in the replication project",
+      "count": 2,
+      "reason": "The scientific protocols, results and references are retained in their study directories."
     }
   ]
 }

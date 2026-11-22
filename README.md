@@ -18,7 +18,7 @@ This repository starts a new Git history. Reviewed research histories, discussio
 | `tests`, `tests_v2` | Software checks; some integration checks require an isolated database or external data |
 | `docs/en`, `docs/zh` | Technical and operating documentation, research plans and curated histories |
 
-Historical experimental identities are retained. The current `/5.3` implementation is included but is not substituted for the historical kernels used in the paper. The default decay curve within `/5.3` remains power law.
+New individuals use `threemind.continuous-memory/6.3`. The preview includes genuine historical kernels, with fixed-function addressing from 6.0. Use the kernel and configuration recorded for each study. The [study index](STUDIES.json) maps the r3 results to research code and evidence.
 
 ## Scope
 

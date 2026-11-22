@@ -1,0 +1,33 @@
+{
+  "final_regression": {
+    "passed": 319,
+    "skipped": 9,
+    "failures": 0,
+    "errors": 0,
+    "skipped_reason": "isolated PostgreSQL cluster on port 55439 is not running"
+  },
+  "standalone_runtime_tests_passed": 5,
+  "frontend_build_passed": true,
+  "historical_61_hashes_unchanged": {
+    "src/threemind_kernels/local61.py": "2337756820892a901dd8d0cb614045bca84fa5a9817b19d7f4e0ec4a8fc246ba",
+    "src/threemind_kernels/local61_config.py": "52c40d605c626458afcb1ae576817af8584559917af8894e54a962bb10f2ab8c",
+    "src/threemind_kernels/local61_native.py": "ff68f109e3889f08d548f4bfb58d86f0afc57ee76c84bf93c8bb279b8844e8d4",
+    "crates/threemind-core/src/local61.rs": "13fa6218cfce06801416053db2453b99223fe5f1f137e2cc903c7af5f16a55c2",
+    "crates/threemind-core/src/local61_transitions.rs": "f672074a0bf560388a2e6b331df8da8ec9f868576e44e0a73a348263fbd72c2e",
+    "crates/threemind-core/src/local61-defaults.json": "b487bde310165deb9675acd8d6183901dea246d0d3269bcda13aeae1ba536373"
+  },
+  "sources": {
+    "src/threemind_kernels/local62.py": "b249b0ee547952f9702084628d463603803b373e7edae95a9d4d5167cf4061ec",
+    "src/threemind_kernels/local62_config.py": "37172b31ab841f1c78699dadd945db240f43ca6efe60eb936078037a9faf3530",
+    "crates/threemind-core/src/local62_transitions.rs": "ca67da6a21d9e1458b55a97fc28ec4aebb6b106ac5df4eddb667c4156bdb091e",
+    "crates/threemind-core/src/local62-defaults.json": "9fa9d4c7d0f8d6db34c5633f59ac6919274cec10befb6e4ee5c80300151691c6",
+    "src/threemind_lab/configuration.py": "640b775aff09effdba99c15ea600c1d3b9fb73c866fe2fb68dec142670c1e20d"
+  },
+  "builds": {
+    ".work\\kernel62-weight-wheels-v2\\threemind_native-2.0.0-cp311-abi3-win_amd64.whl": "f0407e857dbf9639f021ec8318f6d730d2447dc8ca54fb8617dcd5ac34355ecd",
+    ".work\\kernel62-weight-python-wheel\\threemind_runtime-2.1.0-py3-none-any.whl": "9e7398a43dfb29da9a5bbf16c692cd8405280f601a693909f34161bcd0037125",
+    ".work\\native62-weights\\release\\threemind-runtime.exe": "e8be599d925c301a7764eba88158655f41ec43685e0f4c28ba4e16b0f02cbd33"
+  },
+  "scope": "weight-only toggles; both true; no production prefix-dynamics changes",
+  "junit_sha256": "9068250557e66bd18fff4709f378ad7dd3c830f41f9ec0b7e14295a2bf89469e"
+}

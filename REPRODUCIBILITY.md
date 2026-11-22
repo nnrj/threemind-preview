@@ -53,7 +53,7 @@ The corresponding `lab/explorations` directory contains the preserved protocol, 
 
 Historical design records use `design.en.md` and `design.zh.md`. Preserve independent-origin denominators, branches, original criteria, negative results and complete peripheral state. Run a fresh experiment only after selecting a new output directory and verifying the script's arguments. Some historical drivers retain the author's original absolute default paths and local API registration settings: inspect `--help` and pass an explicit new `--work` where supported. Never execute a historical driver against the published data directory.
 
-The current source includes `/5.3`, whose default decay rule is power law. The paper's earlier experiments use their recorded historical kernel versions. Genuine implementations and saved identities are retained; a new version is not a drop-in replacement for an old individual.
+The current default for a new individual is `threemind.continuous-memory/6.3`. Select the recorded kernel and configuration when reproducing an earlier study. The public source snapshot includes the historical implementations.
 
 ## 5. Software checks
 
@@ -71,3 +71,16 @@ These 343 checks passed on the extracted code using a newly built native extensi
 先核验源码与数据，再运行只读复算入口。该入口从原始封装包读取每个独立来源的记录，重算 M1、M2、M3、M5 的确认统计，并逐项对照已保存分析；它不推进个体，也不重复训练。论文小节与数据位置见 `STUDIES.json`。
 
 若要重新实验，请先阅读相应中英文协议，使用新输出目录，并保留实验实际使用的内核身份和完整个体状态。旧脚本保留原来的默认路径及平台登记逻辑，运行前须明确参数；不要把公开原件目录直接作为新实验工作目录。
+
+## Inspect the P1 and P2 pause boundaries
+
+A live progress file can predate the last sealed observation. Read the segment chain, the feeding and birth events, and the complete last checkpoint. From the code preview, with the indicated data installed, run the following commands.
+
+```powershell
+python tools/read_ocean_checkpoint.py ../threemind-data-preview/experiments/ocean63-p1-20261121/evidence/cases/world-0-reference --last 25
+python tools/read_ocean_checkpoint.py ../threemind-data-preview/experiments/ocean63-p2-20261122/evidence/cases/world-0-reference --last 28
+```
+
+The command checks the checksums of the records it reads. Use the dataset verifier for all files. P1 stopped at 1520.70 internal seconds. P2 stopped at 1669.06 internal seconds with 311 saved Cores, 57 living individuals, 258 births, 115 live predation events and 121 scavenging meals. The counters apply to the first original-supply aquatic world.
+
+在论文所用的观察边界，P1 对应第 25 个编号分段，P2 对应第 28 个编号分段。命令只读已封存的记录。运行前请按数据包中的文件清单确认对应分段已安装。

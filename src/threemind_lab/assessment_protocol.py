@@ -7,6 +7,8 @@ from uuid import UUID
 
 from pydantic import Field, field_validator, model_validator
 
+from threemind_runtime.inheritance import birth_rule
+
 from .development import validate_spec
 from .evolution_protocol import SELECTION_METRICS, Seed
 from .protocols import RunSpec, StrictModel
@@ -32,7 +34,7 @@ class Criterion(StrictModel):
 
 class AssessmentProtocol(StrictModel):
     schema_id: Literal["threemind.assessment/1"] = VERSION
-    inheritance_rule: Literal["threemind.birth/1"] = "threemind.birth/1"
+    inheritance_rule: Literal["threemind.birth/1", "threemind.birth/2"] = "threemind.birth/1"
     source_version_id: UUID
     evaluation: RunSpec
     environment_seeds: list[Seed] = Field(min_length=1, max_length=32)
@@ -48,6 +50,11 @@ class AssessmentProtocol(StrictModel):
 
     @model_validator(mode="after")
     def coherent(self):
+        expected = birth_rule(self.evaluation.kernel_id)
+        if "inheritance_rule" not in self.model_fields_set:
+            self.inheritance_rule = expected
+        if self.inheritance_rule != expected:
+            raise ValueError("inheritance rule does not match the evaluation kernel")
         if len(set(self.environment_seeds)) != len(self.environment_seeds):
             raise ValueError("评估环境种子不能重复。")
         if set(self.environment_seeds) & set(self.excluded_environment_seeds):

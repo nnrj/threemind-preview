@@ -37,7 +37,7 @@ MECHANISMS = tuple(x for x in PREVIOUS if x[0] != "threemind.adaptive-half-life/
 
 @dataclass(frozen=True, slots=True)
 class Local53Config(Local51Config):
-    decay_curve: str = "power-law"
+    decay_curve: str = "inverse-logarithmic"
     decay_transition_age: float = 10.0
     reinforcement_age_policy: str = "keep"
     retention_growth_enabled: bool = False

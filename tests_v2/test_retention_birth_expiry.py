@@ -169,7 +169,7 @@ def test_version_routing_export_and_no_silent_upgrade(backend):
     assert create_engine(state=old, backend=backend).capture_state().digest == old.digest
     with pytest.raises(ValueError, match="identity|schema"):
         resolve_kernel(KERNEL_ID).create(state=old, backend=backend)
-    assert DEFAULT_KERNEL == "threemind.continuous-memory/3"
+    assert DEFAULT_KERNEL == "threemind.continuous-memory/6.1"
 
 
 def test_catalogue_and_validation_include_same_parameters_and_birth_locks():

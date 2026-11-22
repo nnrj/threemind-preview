@@ -12,6 +12,8 @@ from uuid import UUID
 
 from pydantic import Field, field_validator, model_validator
 
+from threemind_runtime.inheritance import birth_rule
+
 from .development import validate_spec
 from .protocols import RunSpec, StrictModel
 from .record_schema import ExecutionRecordOptions
@@ -57,7 +59,7 @@ class SelectionCriterion(StrictModel):
 
 class EvolutionProtocol(StrictModel):
     schema_id: Literal["threemind.evolution/1"] = "threemind.evolution/1"
-    inheritance_rule: Literal["threemind.birth/1"] = "threemind.birth/1"
+    inheritance_rule: Literal["threemind.birth/1", "threemind.birth/2"] = "threemind.birth/1"
     selection_mode: Literal["directed"] = "directed"
     initial_version_id: UUID | None = None
     generations: int = Field(ge=1, le=1000, strict=True)
@@ -79,6 +81,11 @@ class EvolutionProtocol(StrictModel):
 
     @model_validator(mode="after")
     def coherent(self):
+        expected = birth_rule(self.development.kernel_id)
+        if "inheritance_rule" not in self.model_fields_set:
+            self.inheritance_rule = expected
+        if self.inheritance_rule != expected or birth_rule(self.evaluation.kernel_id) != expected:
+            raise ValueError("inheritance rule does not match the development and evaluation kernels")
         if self.survivor_count > self.population_size:
             raise ValueError("父本数量不能超过每代个体数。")
         if len(self.development_seeds) != self.generations or any(

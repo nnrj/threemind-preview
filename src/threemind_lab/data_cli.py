@@ -237,12 +237,21 @@ def main(argv=None):
 
 def storage_main(argv=None):
     argv = list(argv if argv is not None else sys.argv[1:])
+    if argv and argv[0] == "transfer":
+        from .experiment_transfer_cli import main as transfer_main
+
+        return transfer_main(argv[1:])
     if argv and argv[0] == "backup":
         from .storage_backup import main as backup_main
 
         return backup_main(argv[1:])
+    if argv and argv[0] == "pool":
+        from .experiment_pool_cli import main as pool_main
+
+        return pool_main(argv[1:])
     parser = argparse.ArgumentParser(
-        description="Host-admin explicit storage registration and migration; never automatic"
+        description="Host storage registration, migration, backups and experiment placement",
+        epilog="Use 'storage pool' for placement, 'storage transfer' for experiment files, and 'storage backup' for host backups.",
     )
     parser.add_argument(
         "action",

@@ -1,0 +1,11 @@
+# R51t9 evidence and interpretation
+
+The original protocol and source freeze cover 144 main stages, 18 conditional historical-inhibition stages, and eight stimulus-free copies. The four high-threshold resource conditions were separately registered before their execution, during the main run; their 24 stages are not presented as part of the original preregistration. Four completed controls contributed 24 reused stages without rerunning historical individuals. The unit is two exchanged curriculum blocks, not 31 independent populations.
+
+`final-audit.json` combines primary and supplemental verification: 436 complete initial/final states, 140 diagnostic processes, and 140 independently derived curriculum-answer checks. All 31 new configurations pass 0/2 curricula; the existing successful pre-release-screening reference passes 2/2. These are explicit negative results for recovery by the tested threshold/resource adjustments. Raw states, inputs, process records, original scores and historical references are retained.
+
+A new read-only finding is preserved in `tail-status-audit.json` and its explicitly linked v2. The default condition's lifecycle label remains active at 300 seconds although observed activation is zero and transmitted totals are unchanged from the one-second observation. Two sub-floor cached nodes remain in the active set without expiry/sending timers. This makes the lifecycle label unsuitable as an activity-duration measurement here. Actual activation and transmission records remain available; the prefix score is derived from activation, not the lifecycle label. File verification does not imply that this defect was repaired.
+
+The reports recommend evaluating signal-dependent resource consumption after local lifecycle maintenance is addressed. That candidate has not been implemented. Production Core implementations, defaults, historical artifacts and manuscripts are unchanged. Comprehensive replication remains paused. Read-only analysis performed by the assistant is not external independent replication.
+
+中文说明：主批、条件性对照、8份无刺激副本和另行事前登记的高门槛增补均已完成并核验。31种新增配置均未恢复前缀区分。生命周期标记滞留是本次明确发现并保留的测量问题，不能以“active到300秒”报告持续活动300秒；报告改用真实激活与传输记录作判断。原件、旧标准、旧阳性参照和正式内核均未改，后续修复及机制候选尚未实施。

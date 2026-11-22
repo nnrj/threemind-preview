@@ -32,6 +32,7 @@ class EcologyProtocol(StrictModel):
     def complete_protocol(self):
         if self.base.environment != "world" or self.base.world_protocol is None:
             raise ValueError("生态训练需要可配置的物理世界与躯体协议。")
+        self.ecology = self.ecology.for_kernel(self.base.kernel_id)
         self.ecology.validate_world(self.base.world_protocol)
         validate_spec(self.base, None, 86400)
         return self

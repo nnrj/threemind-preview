@@ -1,0 +1,388 @@
+{
+  "date": "2026-11-15",
+  "kind": "engineering-default-adjustment",
+  "final_defaults": {
+    "resource_precheck_enabled": false,
+    "subthreshold_expiry_enabled": true,
+    "inhibition_updates_usage": true,
+    "inhibition_bypasses_resources": false,
+    "separate_inhibition_resources": false
+  },
+  "61_shared_parameter_count": 128,
+  "61_shared_parameter_differences": {},
+  "extra_63_parameters": {
+    "activation_signal_threshold": null,
+    "inhibition_signal_threshold": null,
+    "stability_growth_enabled": true,
+    "stability_relaxation_enabled": true,
+    "activation_weight_reinforcement_enabled": true,
+    "inhibition_weight_reinforcement_enabled": true,
+    "resource_precheck_enabled": false,
+    "subthreshold_expiry_enabled": true,
+    "inhibition_updates_usage": true,
+    "inhibition_bypasses_resources": false,
+    "separate_inhibition_resources": false,
+    "inhibition_distribution": "per-connection"
+  },
+  "benchmark_without_expiry": {
+    "file": ".work/kernel63-default-alignment/performance-before.json",
+    "sha256": "46949f814328ae8fc034b72dafd125c1459103d2ac13781ef56561864c6dca93",
+    "expiry_enabled": false,
+    "cases": [
+      {
+        "nodes": 32,
+        "initial_topology": "sparse",
+        "61": {
+          "wall_seconds": 0.04218840005341917,
+          "cpu_seconds": 0.046875,
+          "save_seconds": 0.002426800027024001,
+          "snapshot_bytes": 152652,
+          "peak_commit_bytes": 20983808,
+          "events": 1998,
+          "edges": 192
+        },
+        "compatible": {
+          "wall_seconds": 0.042461899982299656,
+          "cpu_seconds": 0.046875,
+          "save_seconds": 0.0022717000101692975,
+          "snapshot_bytes": 153711,
+          "peak_commit_bytes": 21012480,
+          "events": 1998,
+          "edges": 192
+        },
+        "precheck": {
+          "wall_seconds": 0.039593700028490275,
+          "cpu_seconds": 0.046875,
+          "save_seconds": 0.002295800019055605,
+          "snapshot_bytes": 153733,
+          "peak_commit_bytes": 21127168,
+          "events": 2047,
+          "edges": 192
+        },
+        "precheck_ratio": 0.9324523877875226,
+        "63_vs_61_ratio": 1.0064828229687348
+      },
+      {
+        "nodes": 32,
+        "initial_topology": "dense",
+        "61": {
+          "wall_seconds": 0.1694495999836363,
+          "cpu_seconds": 0.171875,
+          "save_seconds": 0.01071639999281615,
+          "snapshot_bytes": 618109,
+          "peak_commit_bytes": 26849280,
+          "events": 1704,
+          "edges": 992
+        },
+        "compatible": {
+          "wall_seconds": 0.17109509999863803,
+          "cpu_seconds": 0.171875,
+          "save_seconds": 0.010559300018940121,
+          "snapshot_bytes": 619168,
+          "peak_commit_bytes": 27062272,
+          "events": 1704,
+          "edges": 992
+        },
+        "precheck": {
+          "wall_seconds": 0.15162310004234314,
+          "cpu_seconds": 0.15625,
+          "save_seconds": 0.01084679999621585,
+          "snapshot_bytes": 619435,
+          "peak_commit_bytes": 26931200,
+          "events": 1771,
+          "edges": 992
+        },
+        "precheck_ratio": 0.8861919484751469,
+        "63_vs_61_ratio": 1.0097108521658396
+      },
+      {
+        "nodes": 128,
+        "initial_topology": "sparse",
+        "61": {
+          "wall_seconds": 0.04288099997211248,
+          "cpu_seconds": 0.046875,
+          "save_seconds": 0.009005600004456937,
+          "snapshot_bytes": 561037,
+          "peak_commit_bytes": 25993216,
+          "events": 2353,
+          "edges": 750
+        },
+        "compatible": {
+          "wall_seconds": 0.043700599984731525,
+          "cpu_seconds": 0.046875,
+          "save_seconds": 0.009103299991693348,
+          "snapshot_bytes": 562096,
+          "peak_commit_bytes": 26058752,
+          "events": 2353,
+          "edges": 750
+        },
+        "precheck": {
+          "wall_seconds": 0.04069819999858737,
+          "cpu_seconds": 0.046875,
+          "save_seconds": 0.009236000012606382,
+          "snapshot_bytes": 562328,
+          "peak_commit_bytes": 25980928,
+          "events": 2353,
+          "edges": 750
+        },
+        "precheck_ratio": 0.9312961381035235,
+        "63_vs_61_ratio": 1.0191133605361833
+      },
+      {
+        "nodes": 128,
+        "initial_topology": "dense",
+        "61": {
+          "wall_seconds": 0.9280222000088543,
+          "cpu_seconds": 0.921875,
+          "save_seconds": 0.16035030002240092,
+          "snapshot_bytes": 9668242,
+          "peak_commit_bytes": 135012352,
+          "events": 1544,
+          "edges": 16256
+        },
+        "compatible": {
+          "wall_seconds": 0.9250659999670461,
+          "cpu_seconds": 0.9375,
+          "save_seconds": 0.1580806999700144,
+          "snapshot_bytes": 9669301,
+          "peak_commit_bytes": 135786496,
+          "events": 1544,
+          "edges": 16256
+        },
+        "precheck": {
+          "wall_seconds": 0.8751365999924019,
+          "cpu_seconds": 0.875,
+          "save_seconds": 0.16141180001432076,
+          "snapshot_bytes": 9673863,
+          "peak_commit_bytes": 135925760,
+          "events": 1693,
+          "edges": 16256
+        },
+        "precheck_ratio": 0.9460261214049346,
+        "63_vs_61_ratio": 0.9968145158146217
+      }
+    ],
+    "geometric_precheck_ratio": 0.923711496513476,
+    "meets_substantial_gain_rule": false,
+    "identical_61_63_final_states": 24,
+    "compared_final_state_pairs": 24,
+    "minimum_free_GiB": {
+      "commit": 14.204078674316406,
+      "ram": 12.764972686767578,
+      "c": 9.344600677490234,
+      "e": 58.86738967895508
+    }
+  },
+  "benchmark_with_expiry": {
+    "file": ".work/kernel63-default-alignment/performance-final.json",
+    "sha256": "cf71586abefcf5441cc0864f79fda080a30bea9dd17a940fa8c754604abf19ba",
+    "expiry_enabled": true,
+    "cases": [
+      {
+        "nodes": 32,
+        "initial_topology": "sparse",
+        "61": {
+          "wall_seconds": 0.042786500009242445,
+          "cpu_seconds": 0.046875,
+          "save_seconds": 0.0022570000146515667,
+          "snapshot_bytes": 152652,
+          "peak_commit_bytes": 20926464,
+          "events": 1998,
+          "edges": 192
+        },
+        "compatible": {
+          "wall_seconds": 0.04450249997898936,
+          "cpu_seconds": 0.046875,
+          "save_seconds": 0.0022962999646551907,
+          "snapshot_bytes": 153626,
+          "peak_commit_bytes": 20926464,
+          "events": 1998,
+          "edges": 192
+        },
+        "precheck": {
+          "wall_seconds": 0.04166699998313561,
+          "cpu_seconds": 0.046875,
+          "save_seconds": 0.0022498000180348754,
+          "snapshot_bytes": 153666,
+          "peak_commit_bytes": 20783104,
+          "events": 2047,
+          "edges": 192
+        },
+        "precheck_ratio": 0.9362844784631772,
+        "63_vs_61_ratio": 1.0401061075193399
+      },
+      {
+        "nodes": 32,
+        "initial_topology": "dense",
+        "61": {
+          "wall_seconds": 0.17151919996831566,
+          "cpu_seconds": 0.171875,
+          "save_seconds": 0.010695900011342019,
+          "snapshot_bytes": 618109,
+          "peak_commit_bytes": 26624000,
+          "events": 1704,
+          "edges": 992
+        },
+        "compatible": {
+          "wall_seconds": 0.1786201000213623,
+          "cpu_seconds": 0.171875,
+          "save_seconds": 0.01066159998299554,
+          "snapshot_bytes": 618592,
+          "peak_commit_bytes": 26841088,
+          "events": 1704,
+          "edges": 992
+        },
+        "precheck": {
+          "wall_seconds": 0.15963660000124946,
+          "cpu_seconds": 0.15625,
+          "save_seconds": 0.01060229999711737,
+          "snapshot_bytes": 618876,
+          "peak_commit_bytes": 27049984,
+          "events": 1771,
+          "edges": 992
+        },
+        "precheck_ratio": 0.8937213672042369,
+        "63_vs_61_ratio": 1.0414000301678086
+      },
+      {
+        "nodes": 128,
+        "initial_topology": "sparse",
+        "61": {
+          "wall_seconds": 0.045456099964212626,
+          "cpu_seconds": 0.046875,
+          "save_seconds": 0.009361899981740862,
+          "snapshot_bytes": 561037,
+          "peak_commit_bytes": 25821184,
+          "events": 2353,
+          "edges": 750
+        },
+        "compatible": {
+          "wall_seconds": 0.04464560002088547,
+          "cpu_seconds": 0.046875,
+          "save_seconds": 0.009438800043426454,
+          "snapshot_bytes": 562100,
+          "peak_commit_bytes": 25870336,
+          "events": 2353,
+          "edges": 750
+        },
+        "precheck": {
+          "wall_seconds": 0.0416065999888815,
+          "cpu_seconds": 0.046875,
+          "save_seconds": 0.009426300006452948,
+          "snapshot_bytes": 562320,
+          "peak_commit_bytes": 25833472,
+          "events": 2353,
+          "edges": 750
+        },
+        "precheck_ratio": 0.9319305815000289,
+        "63_vs_61_ratio": 0.9821696110320669
+      },
+      {
+        "nodes": 128,
+        "initial_topology": "dense",
+        "61": {
+          "wall_seconds": 0.9161636999924667,
+          "cpu_seconds": 0.921875,
+          "save_seconds": 0.16124320001108572,
+          "snapshot_bytes": 9668242,
+          "peak_commit_bytes": 134688768,
+          "events": 1544,
+          "edges": 16256
+        },
+        "compatible": {
+          "wall_seconds": 0.9811860999907367,
+          "cpu_seconds": 0.984375,
+          "save_seconds": 0.162704800022766,
+          "snapshot_bytes": 9666468,
+          "peak_commit_bytes": 135819264,
+          "events": 1544,
+          "edges": 16256
+        },
+        "precheck": {
+          "wall_seconds": 0.8859168000053614,
+          "cpu_seconds": 0.875,
+          "save_seconds": 0.16373440000461414,
+          "snapshot_bytes": 9671058,
+          "peak_commit_bytes": 135569408,
+          "events": 1693,
+          "edges": 16256
+        },
+        "precheck_ratio": 0.9029039445358279,
+        "63_vs_61_ratio": 1.07097246922008
+      }
+    ],
+    "geometric_precheck_ratio": 0.916028043992132,
+    "meets_substantial_gain_rule": false,
+    "identical_61_63_final_states": 0,
+    "compared_final_state_pairs": 24,
+    "minimum_free_GiB": {
+      "commit": 14.000484466552734,
+      "ram": 12.692947387695312,
+      "c": 9.338909149169922,
+      "e": 58.86042022705078
+    }
+  },
+  "test_suites": [
+    {
+      "file": ".work/kernel63-default-alignment/kernel-tests.xml",
+      "sha256": "29246e50603dcc393ff318e3b66f86f4bfbb9cf478cbf656e50150bdd5896c13",
+      "tests": 596,
+      "passed": 591,
+      "failures": 0,
+      "errors": 0,
+      "skipped": [
+        {
+          "test": "test_independent_rust_runtime_round_trip[tmind-stability]",
+          "reason": "set THREEMIND_TEST_RUNTIME to test the separately built Rust executable"
+        },
+        {
+          "test": "test_independent_rust_runtime_round_trip[tmind-adaptive-half-life]",
+          "reason": "set THREEMIND_TEST_RUNTIME to test the separately built Rust executable"
+        },
+        {
+          "test": "test_independent_rust_runtime_round_trip[json-stability]",
+          "reason": "set THREEMIND_TEST_RUNTIME to test the separately built Rust executable"
+        },
+        {
+          "test": "test_independent_rust_runtime_round_trip[json-adaptive-half-life]",
+          "reason": "set THREEMIND_TEST_RUNTIME to test the separately built Rust executable"
+        },
+        {
+          "test": "test_delivered_defaults_and_independent_runtime",
+          "reason": "set THREEMIND_TEST_RUNTIME to check standalone executable defaults"
+        }
+      ]
+    },
+    {
+      "file": ".work/kernel63-default-alignment/runtime-tests.xml",
+      "sha256": "044102b9917f4b9dc6241e003faddfdd9edfd3550ce8ff318ad66891d3804452",
+      "tests": 67,
+      "passed": 65,
+      "failures": 0,
+      "errors": 0,
+      "skipped": [
+        {
+          "test": "test_paused_configuration_is_atomic_validated_audited_and_used_on_resume",
+          "reason": "isolated PostgreSQL test cluster on 55439 is not running"
+        },
+        {
+          "test": "test_configuration_project_and_viewer_authorization",
+          "reason": "isolated PostgreSQL test cluster on 55439 is not running"
+        }
+      ]
+    }
+  ],
+  "distinct_passed_tests": 654,
+  "historical_source_count": 19,
+  "pre_edit_witness_files": 10,
+  "witness_manifest_sha256": "5b9d75bb23d7f0d3f6097bb7f94968f852e6b565dec27b46f79a87374d997837",
+  "delivered_source_sha256": {
+    "src/threemind_kernels/local63_config.py": "0f72ed6c55d530d3e79a23a2c7cd79621c832a4b394e65c681711a7598c07434",
+    "crates/threemind-core/src/local63-defaults.json": "8b4a1b30cef1097722eba3066e96ca480886a545e020c7c0851d19af65b1e090",
+    "src/threemind_lab/configuration.py": "545883de71830b5cebce2a973b5f3af42d072d572ec7122eb0de0dde7405774a",
+    "src/threemind_kernels/local63.py": "5c0d75398f00459a9b7bab62587d827e98ae4ffb4eda941a6521e9bd6ffee21a",
+    "crates/threemind-core/src/local63_transitions.rs": "f35b66890a476a307e997afa9b2c951ac36cb59992b7368d34c4add02b47bad1"
+  },
+  "native_sha256": "fa127216fc6bc50e7cef43d192d13c0c49082bb69b433537f7bbe7fa96f89786",
+  "standalone_sha256": "ec6f114dad6577ba95b5486d8010d7932dbdb79341f34911c411d15cce81c549"
+}

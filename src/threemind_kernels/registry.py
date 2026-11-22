@@ -10,7 +10,7 @@ from typing import Any
 from threemind_core import Config, StateImage
 
 BASELINE_KERNEL = "threemind.causal/9"
-DEFAULT_KERNEL = "threemind.continuous-memory/3"
+DEFAULT_KERNEL = "threemind.continuous-memory/6.1"
 
 
 @lru_cache(maxsize=1)
@@ -89,6 +89,10 @@ class KernelDescriptor:
         from .local51 import Local51Config
         from .local52 import Local52Config
         from .local53 import Local53Config
+        from .local60 import Local60Config
+        from .local61 import Local61Config
+        from .local62 import Local62Config
+        from .local63 import Local63Config
         from .weight_decay import CandidateConfig
         from .memory import MemoryConfig
         from .novelty import NoveltyConfig
@@ -107,6 +111,10 @@ class KernelDescriptor:
             "threemind.continuous-memory/5.1": Local51Config,
             "threemind.continuous-memory/5.2": Local52Config,
             "threemind.continuous-memory/5.3": Local53Config,
+            "threemind.continuous-memory/6.0": Local60Config,
+            "threemind.continuous-memory/6.1": Local61Config,
+            "threemind.continuous-memory/6.2": Local62Config,
+            "threemind.continuous-memory/6.3": Local63Config,
             "threemind.experimental-weight-decay/1": CandidateConfig,
             "threemind.lif/1": LifConfig,
         }[self.kernel_id]
@@ -213,6 +221,30 @@ class KernelDescriptor:
                 return Local53Engine(config, state)
             from .local53_native import NativeLocal53Engine
             return NativeLocal53Engine(config, state)
+        if self.kernel_id == "threemind.continuous-memory/6.0":
+            if backend == "reference":
+                from .local60 import Local60Engine
+                return Local60Engine(config, state)
+            from .local60_native import NativeLocal60Engine
+            return NativeLocal60Engine(config, state)
+        if self.kernel_id == "threemind.continuous-memory/6.1":
+            if backend == "reference":
+                from .local61 import Local61Engine
+                return Local61Engine(config, state)
+            from .local61_native import NativeLocal61Engine
+            return NativeLocal61Engine(config, state)
+        if self.kernel_id == "threemind.continuous-memory/6.2":
+            if backend == "reference":
+                from .local62 import Local62Engine
+                return Local62Engine(config, state)
+            from .local62_native import NativeLocal62Engine
+            return NativeLocal62Engine(config, state)
+        if self.kernel_id == "threemind.continuous-memory/6.3":
+            if backend == "reference":
+                from .local63 import Local63Engine
+                return Local63Engine(config, state)
+            from .local63_native import NativeLocal63Engine
+            return NativeLocal63Engine(config, state)
         if self.kernel_id == "threemind.continuous-memory/5.2":
             if backend == "reference":
                 from .local52 import Local52Engine
@@ -428,6 +460,49 @@ _KERNELS[LOCAL53_ID] = KernelDescriptor(
     LOCAL53_ID, LOCAL53_STATE, "continuous", "单年龄衰减与定向统一传导 · /5.3",
     LOCAL53_HYPOTHESIS, LOCAL53_MECHANISMS, ("reference", "native"), "activation",
     "experimental", ("causal_energy", "causal_space", "local_events", "selectable_decay"),
+)
+from .local60 import HYPOTHESIS_ID as LOCAL60_HYPOTHESIS
+from .local60 import KERNEL_ID as LOCAL60_ID
+from .local60 import MECHANISMS as LOCAL60_MECHANISMS
+from .local60 import STATE_SCHEMA as LOCAL60_STATE
+
+_KERNELS[LOCAL60_ID] = KernelDescriptor(
+    LOCAL60_ID, LOCAL60_STATE, "continuous", "固定函数寻址 · /6.0",
+    LOCAL60_HYPOTHESIS, LOCAL60_MECHANISMS, ("reference", "native"), "activation",
+    "experimental", ("causal_energy", "causal_space", "local_events", "selectable_decay", "fixed_function_addressing"),
+)
+
+from .local61 import HYPOTHESIS_ID as LOCAL61_HYPOTHESIS
+from .local61 import KERNEL_ID as LOCAL61_ID
+from .local61 import MECHANISMS as LOCAL61_MECHANISMS
+from .local61 import STATE_SCHEMA as LOCAL61_STATE
+
+_KERNELS[LOCAL61_ID] = KernelDescriptor(
+    LOCAL61_ID, LOCAL61_STATE, "continuous", "局部删除与独立发送门槛 · /6.1",
+    LOCAL61_HYPOTHESIS, LOCAL61_MECHANISMS, ("reference", "native"), "activation",
+    "experimental", ("causal_energy", "causal_space", "local_events", "selectable_decay", "fixed_function_addressing"),
+)
+
+from .local62 import HYPOTHESIS_ID as LOCAL62_HYPOTHESIS
+from .local62 import KERNEL_ID as LOCAL62_ID
+from .local62 import MECHANISMS as LOCAL62_MECHANISMS
+from .local62 import STATE_SCHEMA as LOCAL62_STATE
+
+_KERNELS[LOCAL62_ID] = KernelDescriptor(
+    LOCAL62_ID, LOCAL62_STATE, "continuous", "稳定度保持与分类型连接门槛 · /6.2",
+    LOCAL62_HYPOTHESIS, LOCAL62_MECHANISMS, ("reference", "native"), "activation",
+    "experimental", ("causal_energy", "causal_space", "local_events", "selectable_decay", "fixed_function_addressing"),
+)
+
+from .local63 import HYPOTHESIS_ID as LOCAL63_HYPOTHESIS
+from .local63 import KERNEL_ID as LOCAL63_ID
+from .local63 import MECHANISMS as LOCAL63_MECHANISMS
+from .local63 import STATE_SCHEMA as LOCAL63_STATE
+
+_KERNELS[LOCAL63_ID] = KernelDescriptor(
+    LOCAL63_ID, LOCAL63_STATE, "continuous", "共享连接状态与抑制分配 · /6.3",
+    LOCAL63_HYPOTHESIS, LOCAL63_MECHANISMS, ("reference", "native"), "activation",
+    "experimental", ("causal_energy", "causal_space", "local_events", "selectable_decay", "fixed_function_addressing"),
 )
 
 _LEGACY_DESCRIPTIONS = {

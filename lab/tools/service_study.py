@@ -76,22 +76,45 @@ class StudyConfig:
     usage_soft_delta: int = 6
     usage_hard_delta: int = 10
 
-    def __post_init__(self):
-        work = self.work.resolve()
-        base = (ROOT / ".work").resolve()
-        if work == base or not work.is_relative_to(base):
-            from threemind_lab.config import load_env
-            from threemind_lab.research_storage import ResearchStorage
+    @classmethod
+    def for_experiment(cls, *, name, part=None, **settings):
+        """Select the pinned workspace for this experiment (or its already budgeted world)."""
+        from threemind_lab.config import load_env
+        from threemind_lab.research_storage import ResearchStorage
 
-            load_env()
-            storage = ResearchStorage(os.getenv("THREEMIND_STORAGE_CONTROL") or None)
-            managed = storage.writable_root() / "experiments"
-            if work == managed or not work.is_relative_to(managed):
-                raise ValueError("dedicated managed experiments or historical .work subdirectory required")
+        load_env()
+        storage = ResearchStorage(os.getenv("THREEMIND_STORAGE_CONTROL") or None)
+        peak = settings.get("storage_hard", cls.storage_hard) if part is None else None
+        return cls(name=name, work=storage.workspace_path(name, part=part, expected_bytes=peak), **settings)
+
+    def __post_init__(self):
+        from threemind_lab.config import load_env
+        from threemind_lab.experiment_storage import ExperimentStorage
+        from threemind_lab.research_storage import ResearchStorage
+
         if not 0 <= self.usage_start <= 100 or not 0 < self.storage_soft < self.storage_hard:
             raise ValueError("invalid study budgets")
         if self.instance_limit < 1 or self.wall_seconds <= 0:
             raise ValueError("positive instance and wall budgets required")
+        work = self.work.resolve()
+        base = (ROOT / ".work").resolve()
+        load_env()
+        storage = ResearchStorage(os.getenv("THREEMIND_STORAGE_CONTROL") or None)
+        pool = ExperimentStorage(storage)
+        binding = pool.binding(work)
+        if binding or work == base or not work.is_relative_to(base):
+            managed = storage.writable_root() / "experiments"
+            if not binding and work.parent == managed and not work.exists() and pool.file.exists():
+                work = storage.workspace_path(work.name, expected_bytes=self.storage_hard)
+                binding = pool.binding(work)
+            if not binding and pool.file.exists() and work.name.casefold() in pool._read()["studies"]:
+                raise ValueError("select a named data part for a multi-part experiment")
+            if binding:
+                pool.guard(*binding)
+            if not binding and (work == managed or not work.is_relative_to(managed)):
+                raise ValueError("dedicated managed experiments or historical .work subdirectory required")
+            if binding:
+                object.__setattr__(self, "_pool_binding", (pool, binding))
         object.__setattr__(self, "work", work)
         object.__setattr__(self, "sources", self.sources.resolve())
 
@@ -127,7 +150,11 @@ class Study:
             self.prepare()
         self.meta = read_json(self.work / "platform.json")
         self.project = self.meta["project_id"]
-        if encoded(self.meta["settings"]) != encoded(asdict(config)):
+        registered_settings = dict(self.meta["settings"])
+        placement = getattr(config, "_pool_binding", None)
+        if placement and self.meta.get("storage_placement") == list(placement[1]):
+            registered_settings["work"] = str(self.work)
+        if encoded(registered_settings) != encoded(asdict(config)):
             raise ValueError("registered study settings differ; do not silently change budgets")
         if self.implementation != self.meta["implementation"]:
             raise RuntimeError("implementation changed; create a separately registered study")
@@ -167,6 +194,7 @@ class Study:
         self.recorder.synchronize(strict=True)
 
     def prepare(self):
+        self.check_workspace()
         self.work.mkdir(parents=True, exist_ok=True)
         if (self.work / "platform.json").exists():
             raise RuntimeError("study already prepared; use resume operations")
@@ -184,6 +212,8 @@ class Study:
             "implementation": self.implementation,
             "design_sha256": hashlib.sha256((self.here / "design.zh.md").read_bytes()).hexdigest(),
         }
+        if placement := getattr(self.settings, "_pool_binding", None):
+            self.meta["storage_placement"] = list(placement[1])
         new_json(self.work / "platform.json", self.meta)
         self.complete_registration()
 
@@ -242,15 +272,38 @@ class Study:
         if not path.is_relative_to(self.work) or not path.is_file():
             raise ValueError('recorded original must be a file in this experiment directory')
         storage = self.db.blobs.storage
-        resource = next((r for r in storage.resources() if self.work.is_relative_to(storage.resolve_locator(r['locator']))), None)
+        from threemind_lab.storage_volumes import VolumeOffline, directory_identity
+
+        resource = None
+        for row in storage.resources():
+            try:
+                location = storage.resolve_locator(row["locator"])
+            except VolumeOffline:
+                continue
+            if self.work.is_relative_to(location):
+                resource = row
+                break
         if resource is None:
-            target_id = 'record-work:' + hashlib.sha256(str(self.work.parent).encode()).hexdigest()[:24]
+            placement = getattr(self.settings, "_pool_binding", None)
+            root = self.work.parent
+            key = str(root)
+            resource_id = 'record-study:' + self.project
+            config = {}
+            if placement:
+                pool, (name, part) = placement
+                if pool.guard(name, part) != self.work:
+                    raise RuntimeError("experiment disk moved; reopen the workspace before registering evidence")
+                root = pool.part_root(name, part)
+                config["volume_identity"] = directory_identity(root)
+                key = json.dumps(config["volume_identity"], sort_keys=True)
+                resource_id += ":" + hashlib.sha256((name + "/" + part).encode()).hexdigest()[:20]
+            target_id = 'record-work:' + hashlib.sha256(key.encode()).hexdigest()[:24]
             try:
                 storage.target(target_id)
             except ValueError:
-                storage.register_target(self.work.parent, 'Maintained research originals', target_id=target_id)
-            resource = storage.register_resource('record-study:' + self.project,
-                storage.locator(target_id, self.work.name), writer_mode='cooperative')
+                storage.register_target(root, 'Maintained research originals', target_id=target_id, configuration=config)
+            resource = storage.register_resource(resource_id,
+                storage.locator(target_id, self.work.relative_to(root).as_posix()), writer_mode='cooperative')
         self.records.grant_resource(self.project, {'id': LOCAL_USER}, resource['id'])
         checksum = hashlib.sha256()
         with path.open('rb') as stream:
@@ -262,12 +315,20 @@ class Study:
             'locator': {'kind': 'file', 'resource_id': resource['id'],
                         'member': path.relative_to(storage.resolve_locator(resource['locator'])).as_posix()}})
 
+    def check_workspace(self, *, measure=True):
+        placement = getattr(self.settings, "_pool_binding", None)
+        if placement:
+            pool, binding = placement
+            if pool.guard(*binding, check_directory=measure) != self.work:
+                raise RuntimeError("experiment drive letter changed; reopen its registered workspace")
+
     def guard(self, force=False):
         now = time.time()
         if not force and now - self.last_check < 1:
             return
         self.last_check = now
         c = self.settings
+        self.check_workspace(measure=force or now - self.last_storage_check >= 30)
         if (self.work / "STOP").exists():
             raise RuntimeError("study STOP file")
         usage = self.work / "usage.json"
@@ -338,6 +399,7 @@ class Case:
         self.study, self.key, self.kernel, self.seed = study, key, kernel, seed
         self.id = study.identity(key)
         self.folder = study.work / "cases" / key
+        study.check_workspace(measure=False)
         self.folder.mkdir(parents=True, exist_ok=True)
         if (self.folder / "result.json").exists():
             raise RuntimeError(f"completed case must be loaded rather than overwritten: {key}")
@@ -533,6 +595,7 @@ class Case:
         return self.engine.life != "dead"
 
     def finish(self, extra=None):
+        self.study.check_workspace()
         self.session.host.close(self.engine.time_us, "run_ended")
         self.sample(enforce_budget=False)
         image = self.engine.capture_state()

@@ -19,7 +19,10 @@ async function fixture(page: Page, admin = true, withProject = true) {
       });
     let response: any = {};
     if (path.endsWith("/session"))
-      response = { user: { id: "fixture-user", admin }, mode: "workstation" };
+      response = {
+        user: { id: "fixture-user", admin, superadmin: admin },
+        mode: "workstation",
+      };
     else if (path === "/api/v2/projects")
       response = withProject
         ? [{ id: project, name: "Disposable fixture", role: "owner" }]
@@ -80,6 +83,9 @@ async function fixture(page: Page, admin = true, withProject = true) {
     else if (path === "/api/v2/storage")
       response = {
         policies: { revision: 0, categories: {} },
+        data_root: { path: "E:/test", requested_path: "E:/test", revision: 0 },
+        checkpoint_settings: { backend: "database", revision: 0 },
+        checkpoint_backend: "database",
         targets: [],
         resources: [
           { id: "offline-fixture", revision: 1, writer_mode: "sealed" },
@@ -113,6 +119,184 @@ async function fixture(page: Page, admin = true, withProject = true) {
   ).toBeVisible();
   return writes;
 }
+
+test("experiment disk placement previews before reserving, with splitting off by default", async ({
+  page,
+}) => {
+  await fixture(page);
+  const directories = [
+    {
+      id: "primary",
+      path: "E:/test",
+      priority: 1,
+      reserve_bytes: 0,
+      limit_bytes: null,
+      enabled: true,
+      online: true,
+      available_bytes: 1024 ** 3,
+    },
+    {
+      id: "portable",
+      path: "H:/test",
+      priority: 2,
+      reserve_bytes: 0,
+      limit_bytes: null,
+      enabled: true,
+      online: true,
+      available_bytes: 2 * 1024 ** 3,
+    },
+  ];
+  const requests: any[] = [];
+  let saved: any;
+  await page.route("**/api/v2/storage/experiment-pool**", async (route) => {
+    const req = route.request(),
+      path = new URL(req.url()).pathname;
+    if (req.method() === "GET") {
+      await route.fulfill({
+        json: path.includes("/studies/")
+          ? saved
+          : { revision: 1, directories, studies: saved ? [saved] : [] },
+      });
+      return;
+    }
+    const body = req.postDataJSON();
+    requests.push(body);
+    const plan = {
+      ...body,
+      fits: true,
+      status: "reserved",
+      parts: body.parts.map((p: any) => ({
+        ...p,
+        directory: "portable",
+        relative_path: "experiments/" + body.name,
+      })),
+    };
+    if (path.endsWith("/reserve")) saved = plan;
+    await route.fulfill({ json: plan });
+  });
+  await page.getByRole("link", { name: "存储位置", exact: true }).click();
+  await page.getByText("实验数据目录与多盘分配", { exact: true }).click();
+  await expect(page.getByLabel("允许本次实验跨目录存储")).not.toBeChecked();
+  await page.getByLabel("实验目录名", { exact: true }).fill("mayfly");
+  await expect(page.getByRole("button", { name: "确认预留" })).toBeDisabled();
+  await page.getByRole("button", { name: "预估空间" }).click();
+  await expect(page.getByText(/portable \/ experiments\/mayfly/)).toBeVisible();
+  await page.getByRole("button", { name: "确认预留" }).click();
+  await expect.poll(() => requests.length).toBe(2);
+  expect(requests[1]).toMatchObject({
+    name: "mayfly",
+    allow_split: false,
+    parts: [{ name: "main", kind: "data", bytes: 1024 ** 3 }],
+  });
+});
+
+test("experiment transfers preview archive separately from releasing its old copy", async ({
+  page,
+}) => {
+  await fixture(page);
+  const dirs = [
+    {
+      id: "e",
+      path: "E:/test",
+      role: "run",
+      volume: "e-volume",
+      physical_disks: ["1"],
+      enabled: true,
+      online: true,
+      priority: 1,
+      reserve_bytes: 0,
+      limit_bytes: null,
+    },
+    {
+      id: "h",
+      path: "H:/test-archive",
+      role: "archive",
+      volume: "h-volume",
+      physical_disks: ["3"],
+      enabled: true,
+      online: true,
+      priority: 2,
+      reserve_bytes: 0,
+      limit_bytes: null,
+    },
+  ];
+  dirs.unshift(
+    {
+      ...dirs[1],
+      id: "same-volume",
+      path: "E:/other",
+      volume: "e-volume",
+      physical_disks: ["1"],
+      priority: 0,
+    },
+    {
+      ...dirs[1],
+      id: "same-device",
+      path: "F:/other",
+      volume: "f-volume",
+      physical_disks: ["1"],
+      priority: 0,
+    },
+  );
+  const study = {
+    name: "aquatic",
+    status: "complete",
+    residency: "active",
+    directories: ["e"],
+  };
+  const job = {
+    id: "job-fixture",
+    name: "aquatic",
+    operation: "archive",
+    destination: "h",
+    status: "complete",
+    created: 1,
+  };
+  let started = false,
+    released = false;
+  await page.route("**/api/v2/storage/experiment-pool**", async (route) => {
+    const path = new URL(route.request().url()).pathname;
+    let result: unknown = { directories: dirs, revision: 1, studies: [study] };
+    if (path.endsWith("/transfers"))
+      result = { studies: [study], jobs: started ? [job] : [] };
+    else if (path.endsWith("/preview"))
+      result = { bytes: 64, files: 1, available_bytes: 2048, online: true };
+    else if (path.endsWith("/jobs")) {
+      expect(route.request().postDataJSON()).toMatchObject({
+        operation: "archive",
+        destination: "h",
+        name: "aquatic",
+      });
+      started = true;
+      result = job;
+    } else if (path.endsWith("/release")) {
+      released = true;
+      job.status = "released";
+      result = job;
+    }
+    await route.fulfill({ json: result });
+  });
+  await page.getByRole("link", { name: "存储位置", exact: true }).click();
+  await page.getByText("实验数据目录与多盘分配", { exact: true }).click();
+  await page.getByText("实验同步、迁移与归档", { exact: true }).click();
+  const panel = page
+    .getByText("实验同步、迁移与归档", { exact: true })
+    .locator("..");
+  await panel.getByRole("combobox", { name: "操作", exact: true }).selectOption("archive");
+  await panel.getByRole("combobox", { name: "实验名称", exact: true }).selectOption("aquatic");
+  const destination = panel.getByRole("combobox", { name: "目标目录", exact: true });
+  await expect(destination).toHaveValue("h");
+  await destination.selectOption("same-volume");
+  await expect(panel.getByText(/归档目录与源数据在同一卷/)).toBeVisible();
+  await destination.selectOption("h");
+  await expect(panel.getByRole("button", { name: "开始传输" })).toBeDisabled();
+  await panel.getByRole("button", { name: "预览传输" }).click();
+  await panel.getByRole("button", { name: "开始传输" }).click();
+  await panel.getByRole("button", { name: "释放旧副本", exact: true }).click();
+  expect(released).toBe(false);
+  await panel.getByRole("button", { name: "确认释放旧副本" }).click();
+  await expect.poll(() => released).toBe(true);
+});
 
 test("inventory export is previewed first and repeated commands retain their request identity", async ({
   page,

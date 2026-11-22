@@ -1,0 +1,15 @@
+# R51t11 extension: inhibitory transmission, usage records and retention
+
+15 November 2026, registered before the additional comparisons. All 16 phase-A configurations failed, while phase F has reproduced a successful candidate. F, C and D continue as registered. Source inspection identified an effect not separated by the original four factors.
+
+In 6.2, disabling `inhibitory_learning_enabled` removes inhibitory contributions to explicit strengthening, fast enhancement, eligibility, stability growth and retention-scale growth. Nevertheless, successful inhibitory transmission alone still updates the connection's `last_pass_us`. Stability-based maintenance then skips decay for that emission period, and subsequent co-stimulation can receive an internal-use coefficient of 1 rather than 0.45. The successful separate inhibitory path does not write this record. This field therefore affects dynamics, rather than serving only as a log.
+
+The hypothesis is that, with explicit inhibitory learning disabled, withholding the usage update for inhibitory-only transmission restores prefix discrimination. Excitatory transmission still updates usage, and inhibitory transmission and competition remain active.
+
+Phase E adds only two configurations, each using the two original exchanged curricula: (1) A's n0r0l1g0 current sending path, with the inhibitory usage update disabled; (2) A's n1r1l1g1 normalized path with inhibitory resource bypass, learning disabled and zero inhibitory connection threshold, also with the usage update disabled. The completed A configurations are reused as references. E adds 12 stages of continuous 212.2-second teaching and declared AB/DB diagnostic copies. Prefix criteria remain unchanged. The less modified current path is preferred if it passes. If both fail, the expectation is rejected for this comparison and the working phase-F solution is retained without further tuning.
+
+If E succeeds, phase G tests persistence under the identical complete configuration in both curricula (81.2-second teaching, 300-second fixed-background waiting and 15-second observation; six stages). Phase H tests new codes and birth seeds (six stages): curriculum 0 uses mask 0x08000000 and seed 9291221; curriculum 1 uses mask 0x04000000 and seed 9291222. H results cannot be used to reselect the candidate.
+
+E, G and H add at most 24 stages. Together with A96, F24, C42 and D6, the batch totals at most 192. The limits of 1 GiB originals, 4 GiB delivery space and two hours of cumulative scientific execution remain. Production 6.2 and historical evidence are unchanged. The new research implementation has its own identity and must pass baseline equivalence and observation, restoration, partitioned-time and pause checks before registration and execution.
+
+The original 168-stage analysis and audit are preserved. Final analysis and verification are generated separately for the extension. Delivery includes an explicit recovery recommendation, its tested scope, bilingual reports and complete API readback of the original evidence.

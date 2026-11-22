@@ -1,0 +1,63 @@
+{
+  "records": [
+    {
+      "work": "E:\\ThreeMindData\\experiments\\2026-11-13-kernel60-revalidation\\dynamics-function61-v1",
+      "archive_bytes": 143122459,
+      "archive_sha256": "5f1fb6ac227af8659d7b82b7e0f14687d2e1a5cf013b039fb3b69f3f0f5a4290",
+      "coverage": "verified",
+      "members": 1650,
+      "pending": 0,
+      "project": "d0a04159-ee0f-4200-ada9-13d5ce7197b7",
+      "record": "4bb40523-b775-531c-970e-dc0e58d915da",
+      "scientific_stop": false
+    },
+    {
+      "work": "E:\\ThreeMindData\\experiments\\2026-11-13-kernel60-revalidation\\closed-body61-v1",
+      "archive_bytes": 148779963,
+      "archive_sha256": "c5b34f4cfcfd9998e0ee2b06da210661d4876230ff0564871af4a7ddb2110aa6",
+      "coverage": "verified",
+      "members": 3860,
+      "pending": 0,
+      "project": "d0a04159-ee0f-4200-ada9-13d5ce7197b7",
+      "record": "a87c7a1b-febf-5881-bd35-a680674a7c5e",
+      "scientific_stop": false
+    },
+    {
+      "work": "E:\\ThreeMindData\\experiments\\2026-11-13-kernel60-revalidation\\delayed-choice61-v1",
+      "archive_bytes": 295116783,
+      "archive_sha256": "2ab24341a015bdf4a1c76664b81db08fbd048ea58bb52fd8c550df2182a2783f",
+      "coverage": "verified",
+      "members": 15808,
+      "pending": 0,
+      "project": "d0a04159-ee0f-4200-ada9-13d5ce7197b7",
+      "record": "8db14f2a-0c67-5b12-b85c-2a998ffc485d",
+      "scientific_stop": false
+    },
+    {
+      "work": "E:\\ThreeMindData\\experiments\\2026-11-13-kernel60-revalidation\\prefix-cross61-v1",
+      "archive_bytes": 45865070,
+      "archive_sha256": "e02c09a01f7deeca5c4e4226445d2b1d9b21aee20b73591cf2a676972b546dfe",
+      "coverage": "verified",
+      "members": 934,
+      "pending": 0,
+      "project": "d0a04159-ee0f-4200-ada9-13d5ce7197b7",
+      "record": "394eb433-4ec0-5ea1-bae4-094ae50f3da2",
+      "scientific_stop": false
+    }
+  ],
+  "decision_report_revision2": {
+    "correct_configuration_fields": {
+      "edge_consolidation_enabled": true,
+      "retention_growth_enabled": false,
+      "retention_relaxation_enabled": false
+    },
+    "coverage": "verified",
+    "original_manifest_unchanged": true,
+    "original_reports_unchanged": true,
+    "pending": 0,
+    "record": "8db14f2a-0c67-5b12-b85c-2a998ffc485d",
+    "scientific_results_unchanged": true
+  },
+  "main_campaign_paused": true,
+  "production_changed": false
+}

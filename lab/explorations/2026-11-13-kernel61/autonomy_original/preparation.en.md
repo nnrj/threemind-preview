@@ -1,0 +1,13 @@
+# Original E15 criteria: material preparation
+
+14 November 2026. Read-only preparation only: no registration, new individual or execution. This item belongs to comprehensive revalidation plan v2 and follows E12/R51t if no stopping condition occurs.
+
+E15 is distinct from the completed five-system comparison. It used wiring seeds 9293201 and 9293202, each with two environmentally selected lineages, giving four parental materials. Originals are in `.work/experience-autonomy-20260929`, research project 92548061-22c0-4bd9-b283-c4e1e7f4360d. Its 802 records comprise 112 connection-localization tests, 64 sequential-input tests, 48 continuous environmental stages and 128 environmental diagnostics, 48 memory teaching/holding stages and 192 diagnostics, 80 additional retention diagnostics, and 34 texture stages with 96 diagnostics. They are not 802 independent sources.
+
+The parents depend on E13 selection materials and E14 warmup and P/Q teaching. Selection is recorded in `.work/input-rate-autonomy-20260929/selection-results.json`; warmup and teaching are in `.work/internal-activity-20260929`. Ancestry, birth operations and actual stimuli must be verified. Historical states cannot be loaded as 6.1, and the four related parents cannot be treated as unrelated worlds. Material reconstruction must be listed separately rather than described as a new complete environmental-selection study.
+
+Original primary measures are uncued-control-adjusted motor integrals and activation integrals for unstimulated nodes. Effects must exceed 0.0001 and ten times sham error; each criterion requires at least three parents covering both wirings. Target, count/weight/stability-matched and return-path silencing, immediate restoration and total communication blockade are distinct conditions. Historical fields no longer active in 6.1 must not be assigned fictitious causal roles.
+
+The closed-loop ring body converts position to regional sensation and provides velocity feedback. Motor projection is fixed, with no learned peripheral. PPP/PQP/QQQ/QPQ routes last 30 seconds per stage and preserve body, Core, input bus, observer and supply state continuously. Common diagnostic starting positions and public birth interventions apply only to registered copies. The protocol must state new node addressing and inherited decay-age rules; output projection is fixed by its declared function rather than selected using test answers.
+
+Remaining prerequisites are complete material/ancestry verification, 6.1 apparatus and supply/birth-continuity checks, stage budgets and frozen criteria and comparison scope. Historical evidence, Core, defaults and the author's manuscript remain unchanged. This is preparation, not a second concurrent scientific worker.

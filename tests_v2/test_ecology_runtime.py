@@ -12,6 +12,14 @@ from threemind_runtime.population_participant import CoreParticipant, Participan
 from threemind_runtime.world_schema import default_world, digest
 
 
+@pytest.fixture(autouse=True)
+def historical_ecology_kernel(monkeypatch):
+    # These legacy fixtures predate the selectable 5.3 constructor default.
+    # Keep testing their original implementation instead of rebirthing 5.3.
+    from threemind_kernels import registry
+    monkeypatch.setattr(registry, "DEFAULT_KERNEL", registry.BASELINE_KERNEL)
+
+
 def configuration(habitat="shared"):
     value = EcologySettings().model_dump(mode="json")
     value["rules"].update(habitat=habitat, uptake_per_s=100, maintenance_per_s=0)

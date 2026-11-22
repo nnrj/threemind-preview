@@ -10,6 +10,23 @@ import dataManagement from "./dataManagement.en";
 import researchRecords from "./researchRecords.en";
 import browsing from "./browsing.en";
 const english: Record<string, string> = {
+  "权重和学习记录共用；突触资源默认共用，可选择分别使用。抑制默认不更新最近传导时间。默认逐连接传导，也可按权重比例分配抑制总量。":
+    "Weights and learning records are shared. Synaptic resources are shared by default, with separate pools available. Inhibition does not update the last transmission time by default. Per-connection transmission is the default; proportional allocation of the inhibitory total is optional.",
+  "兴奋与抑制使用独立突触资源": "Separate excitatory and inhibitory synaptic resources",
+  "关闭（默认）：共用原资源状态。开启：两类信号分别释放、消耗并恢复自己的资源，使用同一组资源参数；权重和学习记录仍共用。出生时选择。":
+    "Off (default): share the existing resource pool. On: each signal type releases, depletes and recovers its own resources using the same resource parameters. Weights and learning records remain shared. Select at birth.",
+  "共享连接状态与抑制分配": "Shared connection state and inhibitory allocation",
+  "共享连接状态与抑制分配 · /6.3": "Shared connection state and inhibitory allocation · /6.3",
+  "移除激活和抑制状态分离；抑制默认不更新最近传导时间。默认逐连接传导，也可按权重比例分配抑制总量。":
+    "Separate excitatory and inhibitory states are removed. Inhibition does not update the last transmission time by default. Per-connection transmission is the default; proportional allocation of the inhibitory total is optional.",
+  "抑制传导更新使用时间": "Inhibitory transmission updates usage time",
+  "决定成功抑制传导是否刷新连接最近传导时间。默认不更新；激活照常更新，抑制学习及其最近学习时间不受此开关控制。旧6.2存档没有此项时保持原更新行为。":
+    "Controls whether successful inhibitory transmission updates the connection's last transmission time. Disabled by default; excitation still updates it. Inhibitory learning and its last learning time are unchanged. Earlier 6.2 artifacts without this setting retain the original update behavior.",
+  "抑制分配方式": "Inhibitory allocation",
+  "逐连接传导（默认）": "Per-connection transmission (default)",
+  "总量按权重比例分配": "Allocate the total in proportion to weights",
+  "逐连接：源信号分别乘连接有效权重。按比例：将总量按有效权重比例分给非休眠输出连接，再按距离、突触资源和门槛传导，不重新分配失败份额。":
+    "Per-connection: multiply the source signal by each connection's effective weight. Proportional: allocate the total among awake outgoing connections in proportion to effective weights, then apply distance, resources and thresholds without redistributing failed shares.",
   ...platform,
   ...browsing,
   ...researchRecords,

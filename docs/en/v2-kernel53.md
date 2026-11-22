@@ -2,11 +2,13 @@
 
 11 November 2026. [中文](../zh/v2-kernel53.md) · [Approved plan](plans/kernel53.md) · [Engineering verification](../../lab/explorations/2026-11-11-kernel53/engineering-report.en.md)
 
+**Later update on the same date: the user selected inverse-logarithmic decay as the /5.3 default and /5.3 as the default kernel for new individuals.** Exponential, power-law and power-exponential remain selectable. Saved individuals and explicit configurations keep their original values. Earlier decisions below describe the comparison stage; see the subsequent [default selection record](plans/kernel53-default-selection.md).
+
 ## Delivered scope
 
 `threemind.continuous-memory/5.3` has independent Python and genuine Rust implementations, using the existing creation, configuration, stimulus, advancement, observation, intervention and persistence interfaces. It implements one weight and one age, four decay curves, internal-clock deletion checks, separate node emission and connection transmission, and common directed transmission and reinforcement for excitation and inhibition.
 
-Version 5.3 is new dynamics. Historical /5.1 and /5.2 subjects retain their genuine identities. The new /5.2 Rust backend preserves its contribution histories, transmission and event rules. The global creation default remains `continuous-memory/3`. Author manuscripts, historical reports and original data were not rewritten.
+Version 5.3 is new dynamics. Historical /5.1 and /5.2 subjects retain their genuine identities. The new /5.2 Rust backend preserves its contribution histories, transmission and event rules. The global creation default is now `continuous-memory/5.3`, using inverse-logarithmic decay. Author manuscripts, historical reports and original data were not rewritten.
 
 ## One weight and one age
 
@@ -49,12 +51,12 @@ Dormancy and revival remain separately optional and initially disabled. Opposite
 
 Curve, transition age, reinforcement age policy and structure-check interval are fixed at birth. Complete state retains configuration, ages, queued events and all established fields, with Python/Rust cross-restoration. Restoring a different identity or overriding saved configuration is rejected. Exact full-state copies remain supported; reproduction refuses undefined age-inheritance behavior.
 
-Verified local products are `.work/kernel53-delivery/threemind-runtime.exe` and `_threemind_native.pyd`, containing genuine /5.2 and /5.3. Installed extensions and the running API service were not replaced. Using the new backends in that service requires rebuilding/installing and a normal restart at an appropriate maintenance time.
+The initial `.work/kernel53-delivery/` products and frozen research binaries are preserved. Builds with the new defaults are in `.work/kernel53-default-20261111/`, including the standalone runtime, Python extension and wheel with genuine /5.2 and /5.3 support. The project's `.work/kernel-venv` extension has been updated after backing up the previous installation. Running API/workbench processes were not restarted; a normal restart loads the new backend and creation defaults.
 
 From the repository root, this command creates only a zero-time engineering example, without teaching or loading a historical individual. Existing export files are not overwritten:
 
 ```powershell
-.\.work\kernel53-delivery\threemind-runtime.exe `
+.\.work\kernel53-default-20261111\threemind-runtime.exe `
   --kernel threemind.continuous-memory/5.3 `
   --clock unbounded --until-us 0 --export .work\example-53.tmind
 ```
@@ -66,7 +68,7 @@ from threemind_kernels.local53 import Local53Config
 from threemind_kernels.registry import resolve_kernel
 
 core = resolve_kernel("threemind.continuous-memory/5.3").create(
-    Local53Config(decay_curve="power-law"), backend="reference"
+    Local53Config(), backend="reference"  # inverse-logarithmic by default
 )
 ```
 

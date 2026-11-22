@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-16",
+  "source_directory": "lab/explorations/2026-11-13-kernel61/spaced_reviews",
+  "source_sha256": {
+    "materials_spaced.py": "c56f3059c8848a3d09b30c310ecdf23da2b86e8da696d76dba30d76dfb0b2a7e",
+    "measurement_spaced.py": "9749c961c6ad55e8dc74660e04069b6b356243c073bb2287272069c23612e6d8",
+    "features_spaced.py": "741c77e3e70991f3f47452bf6f6ebc1c5401a6e56a6476267d5acd5c7599b827",
+    "execute_spaced.py": "d9fb49b4b16e8777cdee756ca27e56560fd132d2bd1775a6713d27b1b6adb947",
+    "decode_spaced.py": "44471be4ad6943ee0b1c5740532a7d9e1959d4164ae8db9c6c3c646896e7e38b",
+    "verify_measurement.py": "98fbfb364f5dfb486f27fce5e783ef508b55c27896705dc61b3f2f80eeb066f1",
+    "verify_decoder_guard.py": "6434223704898f0be366a43e111ffacede62850410327043925f7d6ab10be265",
+    "protocol.zh.md": "ed2f07e357d5a205c08352fcd3f809fdcf6c8d3120cd305201c1a6490de8b53d",
+    "protocol.en.md": "86f2a407354144adc2e44e87a678e84d11cca0e14bf52dc03bbba4b250f3031a"
+  },
+  "production_changes": false,
+  "registered": false,
+  "changes": [
+    "genuine 6.3 identity",
+    "new batch and observer identities",
+    "historical materials, readout and scoring retained",
+    "new serial host and read-only audit required before launch"
+  ]
+}

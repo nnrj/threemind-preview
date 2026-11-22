@@ -62,6 +62,10 @@ class Publication:
         self.state = read_json(self.path) if self.path.exists() else {}
         self.worker = "study-publication-" + self.project
         self.last_guard = 0
+        from threemind_lab.experiment_storage import ExperimentStorage
+
+        self.pool = ExperimentStorage(self.db.blobs.storage)
+        self.placement = self.pool.binding(self.work)
 
     def remember(self, key, value):
         self.state[key] = json.loads(encoded(value))
@@ -70,12 +74,18 @@ class Publication:
         staging.replace(self.path)
         return self.state[key]
 
-    def guard(self, *, reserve=0):
+    def guard(self, *, reserve=0, workspace_write=False):
         if not reserve and time.monotonic() - self.last_guard < 15:
             return
         if psutil.Process().memory_info().rss > 4 * GIB or psutil.virtual_memory().available < 2 * GIB:
             raise RuntimeError("publication memory reserve")
-        if shutil.disk_usage("C:/").free < 5 * GIB or shutil.disk_usage("E:/").free < 15 * GIB + reserve:
+        database_reserve = reserve
+        if self.placement:
+            if self.pool.guard(*self.placement, reserve if workspace_write else 0) != self.work:
+                raise RuntimeError("workspace drive letter changed; reopen the study before publishing")
+            if workspace_write:
+                database_reserve = 0
+        if shutil.disk_usage("C:/").free < 5 * GIB or shutil.disk_usage("E:/").free < 15 * GIB + database_reserve:
             raise RuntimeError("publication disk reserve")
         with self.db.tx() as tx:
             size = tx.execute("SELECT pg_database_size(current_database()) AS bytes").fetchone()["bytes"]
@@ -245,7 +255,7 @@ class Publication:
                 and ".partial" not in p.name
                 and "__pycache__" not in p.parts
             ]
-            self.guard(reserve=sum(p.stat().st_size for p in entries))
+            self.guard(reserve=sum(p.stat().st_size for p in entries), workspace_write=True)
             manifest = []
             staging = path.with_suffix(f".zip.partial-{time.time_ns()}")
             with zipfile.ZipFile(staging, "x", allowZip64=True) as archive:

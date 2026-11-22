@@ -79,3 +79,11 @@ The 220,490,039-byte archive with 6,907 members passed complete unified-API arch
 The bounded comparison ended with its immediate benefit, negatives and independent candidate preserved. Defaults remain; no unbounded tuning follows. Installed products, running services, author manuscripts, historical individuals and originals were retained.
 
 [Whole-learner conclusions](../../../../lab/explorations/2026-11-11-weight-dependent-decay/joint/report.en.md) · [Rust verification](../../../../lab/explorations/2026-11-11-weight-dependent-decay/engineering-report.en.md) · [Usage](../../v2-weight-decay.md)
+
+## 11 November 2026, later: inverse-logarithmic creation default
+
+After comparing power-law and inverse-logarithmic retention, learning and performance, the author explicitly selected inverse logarithmic decay for /5.3 and /5.3 for new individuals, with both /5.2 and /5.3 visible in the interface and API. This paraphrases the contemporary message in context without reconstructing a quotation from its typing errors. The decision prioritizes demonstrated retention: 48-origin local confirmation and 8/8 initial, new and return learning in whole-individual exploration. Earlier weak-forgetting and reversal failures retain their original scores and conclusions.
+
+The implementation synchronizes the Python registry, /5.3 configuration, Rust constructor, standalone runtime and workbench. The language dialog obtains its default from the API. All historical versions and the other three curves remain available. Restoration uses saved identity and configuration, so existing power-law /5.3 individuals retain their curve. Formulas, the 30-second base scale, continued age and disabled retention growth/relaxation are unchanged. Long-run structural memory use remains for larger-scale measurement.
+
+[Decision and engineering checks](../../plans/kernel53-default-selection.md)

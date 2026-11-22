@@ -1,4 +1,10 @@
-# ThreeMind 公开版补全说明 / Public-edition supplement
+# ThreeMind 公开版 / Public edition
+
+2026-11-22。代码来自 `b1ea13db51efdf5abbdcfad9f948649a9506960e`。四套史书现有 149 章。本次新增 6.0 至 6.3 的内核实现、相关复验、环形环境和水域实验的程序与研究记录。原预览版纳入的六张史书配图保持原字节。混合材料中涉及论文编修和私有定位的删节见 [PUBLIC_OMISSIONS.json](PUBLIC_OMISSIONS.json)。
+
+The 22 November edition contains the 6.0–6.3 kernels and their studies. The four public histories now contain 149 chapters. The earlier edition is documented below.
+
+## 2026-11-11 公开版补全 / Historical supplement
 
 2026-11-11。来源为完整仓库提交 `8f56c7872458f40e9367c7144d74968fa7187a19`。本说明记录对初始代码预览版的补全；原仓库、实验原件和原始 Git 历史保持不变。
 

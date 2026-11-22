@@ -1,0 +1,13 @@
+# E12 replication preparation: synaptic resources, facilitation and connection strengthening
+
+14 November 2026. This note records preparation, not experimental findings. R51s remains the active scientific run. This batch may be registered and run only after the preceding batch is delivered without a stopping condition.
+
+The 598 historical E12 records have been checked. Six tested equivalence between the two historical kernels; they do not supply additional teaching sources. Those version checks remain in the original evidence, while 6.1 implementation and observation checks are performed separately. The other 592 stages cover both exchanged material blocks: 34 teaching references, 16 post-teaching configuration-and-wait stages, 32 common references after retention intervals, and 510 single-test diagnostics. The diagnostics include four observation-tool controls. Interventions, cues and retention times are registered research copies, not independent samples.
+
+All 41,248 original input frames from these 592 stages have been exported read-only through the research API. The files total 74,585,786 bytes. Each export retains its receipt and hash. Anonymous channels, sources, amplitudes, enqueue and delivery times, carrier grouping and original teaching pulses are checked. Historical originals are unchanged, and no individual has been created for this batch. Materials currently reside in the ignored .work/r51t-materials directory; registration will copy and freeze them in a separate evidence directory.
+
+The 192 early short-term records predate the trajectory_scope field. Their original runner and execution amendment specify all-node trajectories. Later retention records retain task-node trajectories at 10-ms intervals and the complete observer. A missing later-added field is not missing scientific evidence.
+
+The study will retain the original questions and material scale: all eight combinations of depletion D, short-term facilitation F and strengthening of existing connections L; teaching-stage versus test-stage effects; paired responses after 1, 30 and 300 seconds; the original temporal-readout classification; sustained activity; and short-term prefix effects. L-off will be described by its actual 6.1 effects, rather than as disabling all learning. Retention-scale growth is disabled by default in 6.1, so historical contributions of that mechanism cannot be assumed for the current version. The Core, default thresholds, decay and other production code remain unchanged.
+
+The next steps are the preregistered protocol, measurement and analysis rules, apparatus checks, complete-state recording and resource budget. All 592 stages remain covered. Reading originals and preparing materials do not count as completing the replication.

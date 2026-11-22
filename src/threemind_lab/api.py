@@ -109,6 +109,7 @@ class DataExport(StrictModel):
 class Fork(Name):
     checkpoint_id: UUID | None = None
     inherit: bool = False
+    inheritance_decay_age: Literal["preserve", "reset"] = "preserve"
     spec: RunSpec | None = None
     paused: bool = Field(False, strict=True)
     background: Literal["preserve", "suspend"] = "preserve"
@@ -1483,8 +1484,16 @@ def create_app(settings: Settings | None = None, database: Database | None = Non
                 "fork preserves kernel configuration; record parameter interventions through a paired study"
             )
         origin_hash = image.digest
+        if not body.inherit and body.inheritance_decay_age != "preserve":
+            raise ValueError("decay-age inheritance is a birth option, not an exact-fork option")
+        inheritance = None
         if body.inherit:
-            image = birth(image)
+            from threemind_runtime.inheritance import KERNEL60_BIRTH_RULE, birth_metadata
+
+            metadata = birth_metadata(image, body.inheritance_decay_age)
+            if metadata["inheritance_rule"] == KERNEL60_BIRTH_RULE:
+                inheritance = {**metadata, "source_state_hash": origin_hash}
+            image = birth(image, decay_age=body.inheritance_decay_age)
         row = app.state.db.create_run(
             project,
             body.name,
@@ -1515,7 +1524,7 @@ def create_app(settings: Settings | None = None, database: Database | None = Non
             project,
             row["id"],
             image,
-            context=context,
+            context={**context, **({"birth": inheritance} if inheritance else {})},
             expected_revision=0,
             status="paused" if body.paused else "queued",
         )

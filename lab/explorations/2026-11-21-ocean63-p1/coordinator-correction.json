@@ -1,0 +1,8 @@
+{
+  "date": "2026-11-21",
+  "scope": "Research platform completion receipt before the first formal P1 world",
+  "original_sha256": "d3c2cbc3d9d5fb5003894452c8d8043787e623ea3440151c5e775642c60cc01b",
+  "corrected_sha256": "b1b8e41661fd3a4aa76a81f092e912bb82e21a4ca772224877744394d550c0b1",
+  "reason": "The service returns verified after a full hash check and indexed after a metadata check. The coordinator already verifies the raw bytes before finalization. Its final metadata check now requires completed, indexed and zero problems. The original coordinator and this correction are both included in the evidence.",
+  "scientific_protocol": "Original registration, worlds, observations and outcome criteria retain their registered hashes."
+}

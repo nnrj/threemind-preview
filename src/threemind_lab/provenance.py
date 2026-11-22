@@ -40,6 +40,7 @@ def capture_implementation(backend: str) -> dict:
         "crates/threemind-core/src/local-defaults.json",
         "crates/threemind-core/src/local52-defaults.json",
         "crates/threemind-core/src/local53-defaults.json",
+        "crates/threemind-core/src/local60-defaults.json",
         "crates/threemind-core/src/weight-decay-defaults.json",
         "pyproject.toml",
         "crates/threemind-runtime/src/media-profile-contract.json",

@@ -96,9 +96,17 @@ ALIASES = {
 }
 
 
+def pool_read_operation(method, path):
+    return method == "POST" and (
+        path in ("/api/v2/storage/experiment-pool/preview", "/api/v2/storage/experiment-pool/transfers/preview")
+        or bool(re.fullmatch(r"/api/v2/storage/experiment-pool/studies/[^/]+/verify", path))
+    )
+
+
 def receiptable(method, path):
     return (
         method in ("POST", "PUT", "PATCH", "DELETE")
+        and not pool_read_operation(method, path)
         and bool(re.match(r"^/api/v2/(projects/[a-zA-Z0-9{}_-]+/|storage/)", path))
         and not any(part in path.split("/") for part in HUMAN_ONLY)
     )
@@ -115,7 +123,7 @@ def catalog(app):
                 continue
             method = method.upper()
             body = value.get("requestBody", {}).get("content", {})
-            effect = "read" if method == "GET" else "write"
+            effect = "read" if method == "GET" or pool_read_operation(method, path) else "write"
             human = effect != "read" and (
                 any(part in path.split("/") for part in HUMAN_ONLY) or path == "/api/v2/storage/targets"
             )

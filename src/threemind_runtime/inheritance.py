@@ -8,16 +8,105 @@ from threemind_core import StateImage
 from threemind_kernels.registry import state_kernel
 
 BIRTH_RULE = "threemind.birth/1"
+KERNEL60_BIRTH_RULE = "threemind.birth/2"
+KERNEL60 = "threemind.continuous-memory/6.0"
+KERNEL61 = "threemind.continuous-memory/6.1"
+KERNEL62 = "threemind.continuous-memory/6.2"
+KERNEL63 = "threemind.continuous-memory/6.3"
 
 
-def birth(image: StateImage) -> StateImage:
+def birth_rule(kernel_id: str) -> str:
+    """Name the rule actually used, without relabelling historical births."""
+    return KERNEL60_BIRTH_RULE if kernel_id in (KERNEL60, KERNEL61, KERNEL62, KERNEL63) else BIRTH_RULE
+
+
+def birth_metadata(image: StateImage, decay_age: str = "preserve") -> dict:
+    kernel = state_kernel(image).kernel_id
+    result = {"inheritance_rule": birth_rule(kernel)}
+    if kernel in (KERNEL60, KERNEL61, KERNEL62, KERNEL63):
+        if decay_age not in ("preserve", "reset"):
+            raise ValueError("inheritance decay age must be preserve or reset")
+        result["inheritance_decay_age"] = decay_age
+    elif decay_age != "preserve":
+        raise ValueError("inheritance decay-age selection is defined only for memory/6.0")
+    return result
+
+
+def _birth60(image: StateImage, decay_age: str) -> StateImage:
+    """Inherit current persistent values, not a parent's pending experiences.
+
+    Project lazy values to the saved observation time on a private engine. This
+    does not advance the parent's clock or deliver any queued event. Sleeping
+    connections are retained too; public graph queries intentionally omit them.
+    """
+    if image.to_dict()["dynamics"] == KERNEL63:
+        from threemind_kernels.local63 import Local63Engine as Local60Engine
+    elif image.to_dict()["dynamics"] == KERNEL62:
+        from threemind_kernels.local62 import Local62Engine as Local60Engine
+    elif image.to_dict()["dynamics"] == KERNEL61:
+        from threemind_kernels.local61 import Local61Engine as Local60Engine
+    else:
+        from threemind_kernels.local60 import Local60Engine
+
+    parent = Local60Engine(state=image)
+    child = Local60Engine(parent.config)
+    for serial, (_, original) in enumerate(sorted(parent.nodes.items()), 1):
+        row = parent._project_node(original, parent.time_us)
+        node = child.node_type(
+            row.id, row.channel, birth_serial=serial,
+            support=row.support, stability=row.stability,
+            local_plasticity=row.local_plasticity, touches=row.touches,
+            half_life=row.half_life, region=row.region, sleeping=row.sleeping,
+            decay_age=row.decay_age if decay_age == "preserve" else 0.0,
+        )
+        child.nodes[node.id] = node
+        child.regions.setdefault(node.region, set()).add(node.id)
+        child._node_timers(node)
+        if child.config.energy_simulation_enabled and child.config.energy_starvation_damage_enabled:
+            child.timers.set((5, node.id, 0), child.config.propagation_interval_us)
+    child.birth_count = len(child.nodes)
+    for key, original in sorted(parent.edges.items()):
+        row = parent._project_edge(original, parent.time_us)
+        edge = child.edge_type(
+            row.source, row.target, row.weight,
+            stability=row.stability, touches=row.touches,
+            half_life=row.half_life, sleeping=row.sleeping,
+            decay_age=row.decay_age if decay_age == "preserve" else 0.0,
+        )
+        if image.to_dict()["dynamics"] == KERNEL62 and child.config.separates("weights"):
+            edge.inhibition_weight = row.inhibition_weight
+            if child.config.separates("learning"):
+                edge.inhibition_learning = dict(row.inhibition_learning)
+                edge.inhibition_learning.update(fast=None, eligibility=0.0, last_pass_us="0", last_touch_us="0")
+                if decay_age == "reset":
+                    edge.inhibition_learning["decay_age"] = 0.0
+        child.edges[key] = edge
+        child.outgoing.setdefault(edge.source, set()).add(key)
+        for identity in key:
+            child.incident.setdefault(identity, set()).add(key)
+        child._edge_timer(edge)
+    # Validate the same artifact that either backend will receive.
+    if image.to_dict()["dynamics"] in (KERNEL61, KERNEL62, KERNEL63):
+        for node in child.nodes.values():
+            child._node_timers(node)
+    result = child.capture_state()
+    Local60Engine(state=result)
+    return result
+
+
+def birth(image: StateImage, *, rule: str | None = None, decay_age: str = "preserve") -> StateImage:
     state = image.to_dict()
     descriptor = state_kernel(image)
+    metadata = birth_metadata(image, decay_age)
+    if rule is not None and rule != metadata["inheritance_rule"]:
+        raise ValueError("inheritance rule does not match the saved kernel identity")
+    if descriptor.kernel_id in (KERNEL60, KERNEL61, KERNEL62, KERNEL63):
+        return _birth60(image, decay_age)
     if descriptor.kernel_id == "threemind.experimental-weight-decay/1":
         raise ValueError("structural inheritance is not defined for the R48 research kernel; "
                          "use a blank instance or an exact complete-state fork")
     if descriptor.kernel_id == "threemind.continuous-memory/5.3":
-        raise ValueError("structural inheritance of decay age is not defined for memory/5.3; "
+        raise ValueError(f"structural inheritance of decay age is not defined for {descriptor.kernel_id}; "
                          "use a blank instance or an exact complete-state fork")
     if descriptor.kernel_id == "threemind.continuous-memory/5.2":
         raise ValueError("structural inheritance of contribution ages is not defined for memory/5.2; "

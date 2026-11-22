@@ -91,3 +91,89 @@ Single-payload migration uses `storage payload-migrate --project PROJECT_UUID --
 `storage seal --local --project PROJECT_UUID --id RUN_UUID` explicitly seals a completed, non-writing subject with a supported verifiable recovery boundary. Paused subjects awaiting training, coordinators, missing dependencies and active jobs cannot be sealed for relocation. No real run was automatically sealed here. Existing T12 `/4` host-save issues remain separate; engineering fixtures do not cover them.
 
 Root rollback checks intervening writes and resource/policy revisions. New data written after switching requires a reverse migration, not a forced switch to an incomplete old root. Payload rollback verifies retained old bytes. Cancel, rollback and archive are not deletion. Source cleanup requires a separate exact preview; formal originals are not ordinary space-recovery caches.
+
+## Store a new experiment across data directories
+
+With no directory pool configured, experiments use the existing data root's `experiments` directory. Open **Data management → Storage locations → Experiment directories and disk placement** to register absolute paths on the host. Smaller priority numbers come first. A directory limit includes existing files at their allocated sizes. Directories on the same volume share the available space and the largest configured free-space floor.
+
+Budget for the peak simultaneous use of raw records, checkpoint files, scratch files, archives and readback copies. By default the allocator looks for one directory that can hold the whole experiment. If none fits, the preview shows the shortfall. To split a study, give each independently writable world, batch or volume a name and explicitly enable splitting. Files and individual parts always stay on one disk. Removing a disk stops access to its assigned parts. Reconnect the same disk and reopen the placement by name. On Windows it can be found under a different drive letter by its volume and directory identity.
+
+The web interface, REST API and CLI share host placement records. Use these commands at the host, or omit `--local` to use the authenticated server.
+
+```powershell
+threemind storage pool status --local
+threemind storage pool configure --local --json directories.json
+threemind storage pool preview --local --json budget.json
+threemind storage pool reserve --local --json budget.json
+threemind storage pool path --local --name aquatic --part world-a
+```
+
+Example host configuration, with E first and H second. Set `limit_bytes` to cap a directory. Supply the current revision from `status` when editing.
+
+```json
+{"expected_revision":0,"directories":[
+  {"id":"primary","path":"E:/ThreeMindData","priority":10,"reserve_bytes":26843545600,"limit_bytes":null},
+  {"id":"portable","path":"H:/ThreeMindData","priority":20,"reserve_bytes":5368709120,"limit_bytes":null}
+]}
+```
+
+Example budget with one world, two archive volumes and space to read back a file. Size these parts for the actual experiment.
+
+```json
+{"name":"aquatic","allow_split":true,"parts":[
+  {"name":"world-a","kind":"data","bytes":4294967296},
+  {"name":"vol-1","kind":"archive","bytes":2147483648},
+  {"name":"vol-2","kind":"archive","bytes":2147483648},
+  {"name":"check","kind":"readback","bytes":1073741824}
+]}
+```
+
+Study authors can use `StudyConfig.for_experiment(...)` for automatic placement using the study's hard budget. For a multipart reservation, pass `part="world-a"` to open that workspace. Other scripts can call `ResearchStorage.workspace_path(name, part=...)`. Scripts that hard-code a physical location continue to use it. Existing experiments and the database retain their own storage settings.
+
+After finishing writes, `archive` streams a standard ZIP directly into the reserved volumes. It publishes the ordered manifest after verifying segment sizes and SHA-256 hashes. Use `verify` to check the archive again, or `extract` to restore one file into its reserved readback part without joining the volumes. These operations are also available in the web interface. Recipients can concatenate the raw volumes in manifest order to obtain an ordinary ZIP.
+
+```powershell
+threemind storage pool archive --local --name aquatic
+threemind storage pool verify --local --name aquatic
+threemind storage pool extract --local --name aquatic --part check --member world-a/trajectory.json
+threemind storage pool finish --local --name aquatic
+```
+
+The REST entry point is `/api/v2/storage/experiment-pool`, with `/preview`, `/reserve` and `/studies/{name}/manifest`. An authenticated client can download and verify a segment with `threemind storage pool download --name aquatic --part vol-1 --output volume-1.bin`. Completion releases unused budget and retains the placement. Only unused reservations can be cancelled. Joint backups preserve the source host's placement records and published volume manifests. Register experiment originals under the existing backup procedure or back them up separately.
+
+After completing a study, restore an individual file with `threemind storage pool extract --local --name aquatic --member world-a/trajectory.json --output trajectory.json`, or select **Download file from archive** in the web interface.
+
+## Sync, back up, move and archive whole experiments
+
+Choose directory roles under **Data management → Storage locations → Experiment directories and disk placement**. To reclaim space on the run disk, archive to another physical disk. For example, an experiment on E can use H:\ThreeMindArchive on a removable disk. The page suggests an online archive directory on another physical disk first. A directory on the same disk can also be selected for organizing files. Only run directories receive new experiments. Directories on the same volume share its available space and reserve. On Windows the host queries disk extents to distinguish separate physical disks from partitions of the same disk. [Windows volume disk extents](https://learn.microsoft.com/en-us/windows/win32/api/winioctl/ni-winioctl-ioctl_volume_get_volume_disk_extents)
+
+Open **Experiment sync, migration and archival**, select the experiment and destination, and preview the transfer. Use **Register a completed historical experiment** for a finished, inactive workspace directly below the experiments folder of a configured run directory. A registered experiment with several named parts can be transferred as a unit.
+
+| Operation | Destination and effect |
+| --- | --- |
+| Sync | Updates the replica under replicas. Identical files are reused, target-only files stay in place, and conflicting edits are reported. The experiment keeps its original location. |
+| Backup | Adds a version under backups with its inventory, hashes and receipt. Restore any version to a run directory under a new experiment name. |
+| Migrate | Switches the experiment to another run directory. |
+| Archive | Switches the experiment to an archive directory. An exact, verified replica at that destination can be used directly. The catalog remains visible while the disk is disconnected. |
+| Unarchive | Returns the experiment to the selected run directory under its existing name and completed status. |
+
+This workstation uses `primary` for `E:\ThreeMindData` and `portable-archive` for `H:\ThreeMindArchive`. `H:\ThreeMindData` remains the fallback run directory. The following commands use these IDs and an example study named `aquatic`.
+
+~~~powershell
+threemind storage transfer discover --local --directory primary
+threemind storage transfer adopt --local --directory primary --name aquatic
+threemind storage transfer preview --local --operation archive --name aquatic --to portable-archive
+threemind storage transfer sync --local --name aquatic --to portable-archive
+threemind storage transfer archive --local --name aquatic --to portable-archive
+threemind storage transfer list --local
+threemind storage transfer release --local --job <archive-job-id>
+threemind storage transfer unarchive --local --name aquatic --to primary
+threemind storage transfer backup --local --name aquatic --to portable-archive
+threemind storage transfer restore --local --name aquatic --backup <backup-id> --to primary --as aquatic-restored
+~~~
+
+Migration, archival and unarchival retain the old copy until **Release old copy** or release verifies both locations again. Verification covers sizes, SHA-256, empty directories, file and directory modification times, and NTFS creation times. Consolidating parts from multiple volumes creates a common parent for them. Access times may change on reads. Shared hard links prevent source release. Symbolic links, reparse points and named NTFS streams require separate handling. Registered evidence follows its storage locator. External scripts that embed absolute paths must use the experiment name or locator to follow a move.
+
+After a disconnect, resume the same job to reuse verified files. The tool reports changes to a source during an interruption. On a fresh host, register the backup disk and use import-backup --directory <id> --name <study> --backup <version> before restore. The host backup command covers database records and separately registered external evidence. The existing pool archive command creates split ZIP files.
+
+The authenticated HTTP entry point is /api/v2/storage/experiment-pool/transfers. Inspection and preview use data.read, and changes use data.manage. Omit --local in the CLI to use the HTTP interface. Starting an HTTP transfer returns a job ID for progress and error reporting.

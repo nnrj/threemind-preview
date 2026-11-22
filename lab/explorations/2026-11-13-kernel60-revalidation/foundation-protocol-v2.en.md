@@ -1,0 +1,18 @@
+# R51a: inheritance, complete state and early cost checks
+
+2026-11-13. Authorized by revalidation plan v2 and the author's request to implement reproduction first. These are engineering specimens, not independent origins in subsequent scientific experiments.
+
+Establish that 6.0 offspring inherit persistent state and start at internal time zero, historical births remain unchanged, and the Python native binding and standalone Rust runtime can continue the same newborn. Then compare basic 6.0 and 5.1 costs before formal mechanism studies.
+
+`threemind.birth/2` defaults to `preserve`: inherit persistent weights, support, stability, local plasticity, use counts, retention scale, energy region, dormancy and accumulated decay age, projected to the parent's observation time. `reset` changes only inherited decay age to zero. Both clear fast activity, synaptic resource-use state, pending events, intervention masks and parental time; virtual node addresses remain unchanged. Energy starts from newborn configuration; the ecological ledger pays the declared reproductive cost. An exact copy is a different operation.
+
+Tests cover four decay curves, two in-flight policies, two age policies and both backends; serialization, identical-input continuation, multigeneration ecological checkpoints and energy conservation; and comparison against the frozen historical birth function. Require an unchanged parental hash, the declared persistent/fast-state behavior, cross-backend agreement within existing numerical tolerance and unchanged historical birth hashes. Resolve engineering failures before formal aquatic experiments.
+
+The cost benchmark follows the R47 disjoint reciprocal-pair fixture: 512 and 4096 pairs, giving 1024 and 8192 nodes and the same number of directed connections. Codes 0 through N−1 align 5.1 sequential node identities with 6.0 addresses. Each pair receives strength 0.8 at time zero, followed by 10 internal seconds. Compare normal propagation and explicitly silencing every node. The latter measures structural maintenance, not learning or behavior. Both versions set quiescence-death waiting to 10^12 microseconds to cover the window; other settings retain genuine defaults. Record all configuration, initial/final graph sizes and actual advancement.
+
+Use one excluded warm-up per material, then five comparisons with alternating order. Separately record construction, advancement, capture and serialization wall/CPU time, plus logical and allocated file bytes. Save complete initial and final states. Advancement is the primary execution cost; storage and serialization remain separate. If a median ratio reaches two, repeat that condition with five new engineering comparisons and host-load measurements. Comparable graph sizes plus both wall and CPU median ratios of at least two trigger a pause of further scientific batches. If timings are below 0.01 seconds, extend the engineering window to 100 seconds before interpreting an unstable ratio. Preserve slow results; do not change Core to erase a failed gate.
+
+Originals budget: 512 MiB, with 2 GiB total allowance for archive/readback peaks. Host limit: two hours and 1 GiB private memory. Reuse the existing work lock and every-second 5/4/5/25 GiB guard; stop at complete boundaries. Preserve dead-host in-flight evidence. Engineering cost determines whether to proceed; it is not a scientific autonomy or learning result.
+
+
+2026-11-13 instrument correction: the first protocol incorrectly assumed historical node IDs started at one. Artifact inspection showed they started at zero. This separate v2 batch checks id=channel for every node before timing. Preserve v1 originals and timings; use v2 for the final identity-matched comparison.

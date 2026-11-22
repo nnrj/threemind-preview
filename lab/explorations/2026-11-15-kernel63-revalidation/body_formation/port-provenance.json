@@ -1,0 +1,22 @@
+{
+  "status": "prepared, not registered or run",
+  "historical_batch": "R51r",
+  "new_batch": "R63o",
+  "source_sha256": {
+    "lab/explorations/2026-11-13-kernel61/body_formation/study_formation.py": "bcce48a57e54ad984efb068a95cfab65aaa7213a23ad6a1f4ac75a77879b26f3",
+    "lab/explorations/2026-11-13-kernel61/body_formation/execute_formation.py": "4efa06a3223676ff7eb62ed00701df01163022f0007edf4e5ac3b80462ce93bc",
+    "lab/explorations/2026-11-13-kernel61/body_formation/materials_formation.py": "7328935edd77ac5cfe5e42e420dcdfb2d8de3e7f6099cf7411b8fee8a6cff8a6",
+    "lab/explorations/2026-11-13-kernel61/body_formation/measurement_formation.py": "98c7d83a221285c8115c3af979daa87212ca5a23a73eed4306cbf1e476a5a270",
+    "lab/explorations/2026-11-13-kernel61/body_formation/analyze_formation.py": "29d4811600f5afbe3fd44789ce1aa32bda09f2c2106c2cb840b2becc4f8145e5",
+    "lab/explorations/2026-11-13-kernel61/body_formation/compact_trajectory.py": "932664fdf01eaf898743c9ec58b56157952c26a8b1bd4e6be681c5de6e720c4c",
+    "lab/explorations/2026-11-13-kernel61/body_formation/protocol.zh.md": "bdf9098e91a8ef89b71a9396e5c7d822595a59fc0a61dfd5cdf3187c64c6e156",
+    "lab/explorations/2026-11-13-kernel61/body_formation/protocol.en.md": "11aaebf2f4ebaee136955bd9b62c0fd366723e05360d161b7adb92644c434241"
+  },
+  "scope": "New genuine 6.3 subjects; original materials, course, contrasts and criteria retained. Historical results are not new results.",
+  "changes": [
+    "new version and batch identities",
+    "new raw directories and API request namespace",
+    "corrected read-only birth-state audit where applicable",
+    "FileStandardInfo allocation measurement"
+  ]
+}

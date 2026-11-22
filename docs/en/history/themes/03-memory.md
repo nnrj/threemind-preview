@@ -254,3 +254,155 @@ The mathematical property held, but the expected balance of retention and forget
 R48b weight slow scored 128/128 immediately versus 111/128 for matched exponential decay, needed no additional correction, and used one-third fewer optimizer updates: a clear immediate-learning benefit. After 300 seconds it returned to 50%, passing 0/8 complete goals throughout. All eight individuals retaining eight connections before the initial delayed test also failed, again separating structural survival from correct expression. Inverse log passed three retention goals at 8/8 and reversal at 4/8. Slower fractional forgetting of stronger weights held mathematically, but neither tested setting balanced retention and forgetting; defaults remain.
 
 Original denominators and criteria were retained, and an independent Rust implementation and performance checks were completed. A later improvement should predict weak removal, strong retention and reversal together rather than optimize a single score. [Narrative and evidence](../chronicles/18-kernel53.md)
+
+## 11 November 2026, later: default selection uses the confirmed retention advantage
+
+Following a renewed comparison, the author selected inverse logarithmic decay as the /5.3 creation default. The choice prioritizes demonstrated experience retention and continuous-learning benefits; power law and the other curves remain selectable. Original weak-deletion and reversal scores remain unchanged. The global new-individual default also becomes /5.3, while saved individuals retain their version, curve and complete state. [Evidence and implementation scope](../../plans/kernel53-default-selection.md)
+
+
+## 12 November 2026: entry addressing and learned connections
+
+Version 6.0 uses a fixed function from stimulus code to virtual node address, removing birth-order ID allocation. Connections shaped by experience retain the 5.3 decay, retention and transmission rules. This task verifies implementation and version isolation; subsequent research results require separate registration. [Chapter 19](../chronicles/19-kernel60.md)
+
+2026-11-13 — The author reaffirmed both signal-delivery policies after node recreation, defaulting to address delivery. Version 6.0 passed final engineering acceptance and the native module was installed in the project environment; historical experiments and services remain untouched. [Chapter 19](../chronicles/19-kernel60.md)
+
+2026-11-13 — R50 completed an eight-origin threshold validation. The candidate cleared weak connections but removed novelty targets and responses in 4/8 origins. Retain 0.008; complete API archive verification passed. [R50](../chronicles/19-kernel60.md)
+
+## 2026-11-14：R51t1: causal investigation completed
+
+Retained connections and persistent activity are different outcomes. In R51t1, 6.1 retained task connections with weights 0.632698–0.654313 at 300 seconds after activity had stopped. Disabling inhibition after teaching maintained activity; depletion or disabling facilitation terminated it. Legacy retention restored persistence in /3.1 and /5.1, while immediate novelty enhancement restored /2 prefix discrimination. Structural retention, current transmission and novelty timing thus have distinct demonstrated roles. Prefix restoration in 6.1 remains an explicit unresolved target, with production mechanisms unchanged. [R51t1](../chronicles/19-kernel60.md)
+
+## 2026-11-14：Three dynamical questions take priority over the replication campaign
+
+The author authorized closed-loop tests of inertial reversal, the relation between persistent-activity duration and decisions, and recovery of prefix discrimination. The comprehensive campaign remains paused. Activity in 6.1 is shortened, not absent. Inhibition is retained while existing gains, decay times and synaptic resources are compared. R51t2 prepares 110 new stages in two material blocks and reuses completed references read-only. Four-block body tasks and delayed choices in four new sources follow under separate freezes. This records authorization and protocol, not new results. A possible 6.2, changed defaults and selective reruns will be discussed after the evidence. r3 retains version-specific historical findings and adds replication and causal investigations, citing research at the points where it motivated the work.
+
+[Source](../sources/2026-11-14-dynamics-function.md)
+
+## 2026-11-14: Dynamical studies delivered; joint rule effects identified
+
+R51t2–t5 are fully delivered. Changing only the test threshold after identical complete teaching states reversed inertial responses in 4/4 encoding blocks; closed-loop posture benefit failed. Retaining inhibition with faster decay restored 300-second low-amplitude activity. Under the new continuous curriculum, both this profile and the reference scored 32/32 on short-delay, long-delay and distractor pairing questions, reaching a ceiling without an additional gain. Removing inhibition made both output integrals exactly equal and nonzero on all 96 cued questions, preventing selection. Prefix recovery still failed in 6.1. In genuine 3.1 and 5.1, immediate novelty plus legacy connection retention restored 2/2 exchanged-material blocks; either alone failed, and manual node retention added no effect. The campaign remains paused; 6.2 and default changes await the author.
+
+[Report](../../../../lab/explorations/2026-11-13-kernel61/dynamics_function/report.en.md)
+
+## 2026-11-14: R51t6 locates reinforcement and forgetting effects on prefix relations
+
+R51t6 completed 70 stages in two exchanged curriculum blocks using an isolated 5.1 research derivative. Reinforcement of base weights by actual associative transmission and stability-dependent slowing of weight forgetting were individually necessary: removing either changed success from 2/2 to 0/2. Removing period-specific decay exemption or recent-transmission protection separately retained 2/2. Disabling all or either component of immediate novelty produced 18 exact scientific-state and 18 exact process matches; the extra immediate bonus was unnecessary. Window-trained weights transferred failure into successful recipients, and reference weights restored window recipients. Disabling reinforcement during testing preserved success. Learned weight differences therefore carried the switch in performance.
+
+[Evidence](../../../../lab/explorations/2026-11-13-kernel61/prefix_components/report.en.md)
+
+
+## 2026-11-14: 6.2 options implemented; prefix recovery failed
+
+The functional check retained two exchanged-material blocks and crossed single-age inverse-logarithmic/stability retention with arrival-window/immediate novelty. All four configurations scored 0/2 in both Python and Rust. Independent checks verified 48 states and 32 processes; the maximum difference across the four activity variables was 2.1684×10⁻¹⁹. The expectation that restoring these two candidates alone would recover prefix discrimination in 6.2 failed for these materials. The positive 5.1 evidence is preserved. Further comparison must locate the remaining divergences in formation and expression.
+
+Under the preregistered default-selection condition, 6.2 retains arrival-window novelty, single-age inverse-logarithmic decay and the original thresholds. Candidates remain selectable, and the global default for new individuals remains 6.1. The campaign stays paused. Completed 6.1 batches need not all be repeated merely to change the version label; adopting a changed configuration requires evidence for affected claims. Historical research originals and the author's manuscript are unchanged.
+
+[Report](../../../../lab/explorations/2026-11-14-kernel62/report.en.md)
+
+
+## 2026-11-15: R51t7 restores prefix discrimination in a 6.2 research derivative
+
+Both weight-reinforcement switches default on. Isolated 6.2 full emission replacement restores 2/2; inhibitory weight-off alone fails. Production transmission awaits the author.
+
+Successful weights lose discrimination under the failed test-transmission condition; failed weights also abolish success when transplanted. Formation and expression jointly determine the outcome. Weak-signal handling before resource release is the next candidate. [Report](../../../../lab/explorations/2026-11-14-kernel62/prefix_recovery/report.en.md)
+
+## 2026-11-15: R51t8 establishes the causal role of pre-release screening
+
+After R51t7, the author requested further localization. Holding stability retention and immediate novelty fixed, this study added five isolated conditions across two exchanged curricula, totaling 30 stages. Five completed controls were reused from verified originals. Adding only pre-release screening to the failed historical-inhibition/0.004 condition changed 0/2 to 2/2. Removing only that check from successful complete historical emission changed 2/2 to 0/2. Forward and reverse interventions establish a causal role for this ordering.
+
+Recovery requires accompanying conditions. With 6.2 inhibition, neither 0.0004 nor 0.004 restored discrimination; historical inhibition at 0.0004 also failed. The successful candidate matches all 4,246 teaching records of task-node and connection states from the complete historical-emission reference. At the first recorded divergence, 3.9 internal seconds, same-time available resources were 0.215375 with screening and 0.107688 without it, while weights and node activity still agreed. Resource consumption by ineffective transmission changes later propagation and learning; this is a dynamical effect rather than merely a performance optimization.
+
+The study establishes a specific recovery combination while retaining fixed-function addressing. Production 6.2, defaults, the paused comprehensive replication and the manuscript were unchanged. Separately decomposing resource use, allocation and learning in modern inhibition is a recommendation, not an implemented change. New computation totaled 22.95 minutes with 95.37 MiB peak private memory and no resource pause or simulation rollback. Read-only verification covered 120 initial/final states and 40 process records, with maximum arithmetic discrepancy 3.91e-18. All 402 archive members were read back through the API; pending=0. The unit remains two curriculum blocks.
+
+[Report](../../../../lab/explorations/2026-11-14-kernel62/prefix_precheck/report.en.md)
+
+## 2026-11-15: R51t9 resource and sending-threshold comparisons completed
+
+The author requested that resource release remain before signal checking, asking whether lower thresholds or greater availability could replace pre-release screening, and then raised node sending thresholds and inverse-logarithmic tails. R51t9 initially registered 24 current-propagation conditions and three conditional historical-inhibition conditions; four high-threshold supply conditions were separately registered prospectively during execution. In total, 186 teaching and diagnostic stages and eight stimulus-free copies were completed. The two exchanged curricula remain two material blocks; 24 stages from four completed references were reused without rerunning them.
+
+All 31 new conditions passed 0/2 curricula. No replacement for pre-release screening restored discrimination. Greater resources increased transmission and weights but failed to preserve the correct prefix difference. The tested expectation that threshold and supply adjustments suffice is rejected. Signal-dependent resource consumption is the next recommendation, not an implemented change.
+
+Stimulus-free observation revealed a separate lifecycle-label defect: original references had zero activation at the one-second sample and no further transmission, yet the default condition remained labeled active at 300 seconds. Two sub-floor entries remained in its active set without expiry or sending timers; the corresponding local-maintenance path exists in both Python and Rust. The label is invalid as a measure of actual activity duration; node-process scores are retained. The combined zero-threshold/faster-recovery conditions still had activity at one second and zero activation at the final 2.6- or 2.9-second samples. Local lifecycle maintenance should be corrected before using survival durations, and label persistence must not be treated as sustained activity or directly attributed to inverse-logarithmic tails.
+
+Read-only verification covered 436 initial/final states, 140 diagnostic processes and 140 independently derived answer checks. All 1049 archive members were read back through the API; pending=0. Production 6.2, defaults, historical evidence and the manuscript are unchanged. Comprehensive replication remains paused.
+
+[Report](../../../../lab/explorations/2026-11-14-kernel62/prefix_resources/report.en.md)
+
+## 2026-11-15: 6.2 pre-release and activity-expiry repairs; R51t10 interrupted
+
+The author approved a default-on pre-release threshold check and required reassessment of persistence after lifecycle repair. Python and Rust 6.2 now expose `resource_precheck_enabled` and `subthreshold_expiry_enabled`, enabled for new individuals. The first checks the applicable excitatory/inhibitory connection thresholds before resource release. The second schedules sub-floor positive activation for local settlement at the next microsecond, preserving same-time summation and the existing one-second quiescence interval. It affects death and acceptance of later input and is recorded as a behavioral repair. Historical 6.2 artifacts missing the fields restore with both disabled. The global new-individual version remains 6.1.
+
+Engineering regression passed 478 tests; eleven database integration checks were skipped because the independent test database was not running. Native, standalone Rust and frontend builds passed. The new wheel is installed; running services were not restarted. Six 6.1 implementation files are unchanged. Read-only historical verification confirmed positive task activation throughout 1,502 samples in each of two curriculum blocks for kernels 1 and 2 and the short-inhibition 6.1 condition. The ranges were 0.0171540–0.0230551 and 0.0604104–0.0811919, with no records reaching 0.95. Those persistence findings remain supported.
+
+Only the first 81.2-second teaching stage of the 92-stage R51t10 plan completed. Repeated full-state hashing caused excessive recording overhead; the next waiting stage then hit a 300-second wall-time assertion without complete final-state preservation. This was an instrument error, not a scientific negative or a complete-state pause. STOP, in-flight, failed-branch evidence and the complete teaching state remain intact. The corrected recorder produced identical complete states and records in both backends across four configurations and passed a forced wall-budget test that finishes the stage before pausing. Recovery awaits the author's confirmation under the standing dead-host rule and has not occurred.
+
+Research record `1047029e-d54a-5f2f-8f56-5db7a0503731` is explicitly interrupted. Its 499-member evidence package passed complete API readback with pending=0. This verifies preserved evidence, not completion of the 92-stage scientific targets. The main campaign remains paused and manuscripts are unchanged.
+
+[Report](../../../../lab/explorations/2026-11-14-kernel62/release_lifecycle/report.en.md)
+
+## 2026-11-15: R51t10 completed; genuine persistence and prefix findings retained
+
+Configuration calls in the original 20 tails settled nodes and masked stale activity. Eight additional tails were prospectively registered from teaching states whose flags were set at birth, with no reconfiguration or repeated teaching. With the repair disabled, activation was zero at the one-second sample but life remained active at 300 seconds. With it enabled, death occurred at about 1.996 seconds under the original one-second quiescence rule, with an empty active set. No further transmission occurred after the first zero sample in any condition. This comparison confirms the local expiry repair.
+
+With background input retained and inhibition decay time divided by four, all four switch combinations maintained task activity for the 15-second window after 300 seconds in both curriculum blocks. Pointwise maximum activation was 0.0604104–0.0811919, with no 0.95 saturation. Original inhibition passed 0/2 throughout. The successful research configuration retained 2/2 prefix discrimination with repair off or on; all production-default combinations remained 0/2. Across 20 paired processes, the largest difference in four activity fields was 4.34e-19, preserving all prior functional judgments. The repair corrects false survival labels while preserving genuine persistence and successful prefix discrimination; the two switches alone do not restore default prefix capability.
+
+[Report](../../../../lab/explorations/2026-11-14-kernel62/release_lifecycle/completion/report.en.md)
+
+
+## 2026-11-15: R51t11 restores prefixes and isolates an inhibitory retention effect
+
+Disabling explicit inhibitory learning retained usage-time updates and their effects on decay and co-stimulation reinforcement. A single-record intervention under normalized inhibition changed prefix performance from 0/2 to 2/2, including the subsequent recoding check. The causal unit is the record and both downstream uses. No tested complete configuration jointly supported prefix discrimination and persistence; default selection must evaluate the tasks separately.
+
+[Report](../../../../lab/explorations/2026-11-14-kernel62/prefix_solution/report.en.md)
+
+## 2026-11-15: R51t12 separates connection states without restoring prefixes
+
+Separate weights, resources and learning records changed transmission but did not restore prefixes under either configuration. Shared state was not a sufficient cause removable by these separations alone. Subsequent work must distinguish state separation from the specific inhibitory transmission rules. The 0/2 outcomes, complete processes and measured costs were delivered as a completed negative result.
+
+[Report](../../../../lab/explorations/2026-11-14-kernel62/separated_signals/report.en.md)
+
+## 2026-11-15: R51t13 delivers simpler 6.3; prefix recovery was not achieved
+
+6.2/6.3 default to no inhibitory usage updates; 6.3 removes state separation and retains per-connection transmission. All prefix conditions across 72 stages passed 0/2. Matched implementation is about 5.4% faster; proportional allocation about 46% slower without a capability gain. 929 members verified, pending=0; main work paused.
+
+[Report](../../../../lab/explorations/2026-11-15-kernel63/report.en.md)
+
+## 2026-11-15: R51t14 implements independent resources without restoring prefix discrimination
+
+Independent pools allow each signal type to deplete and recover its own resources, measurably changing inhibitory transmission. R51t14 still passed 0/2 blocks with inhibitory learning and other settings retained: this complete intervention did not restore the tested prefix selectivity. It differs from inhibition bypassing resources and from disabling inhibitory learning. Recovery results must be cited with their complete configurations rather than treating these interventions as interchangeable.
+
+[Report](../../../../lab/explorations/2026-11-15-kernel63/resources/report.en.md)
+
+## 2026-11-15: R51t15 reproduces prefixes and separates resource and inhibitory-learning effects
+
+An isolated 6.3 study reproduced the complete R51t11 positive condition: both material blocks passed and process scores exactly matched the originals. Independent resources plus disabled inhibitory transmission-time updates still passed 0/2. Inhibitory resource bypass with explicit inhibitory learning disabled passed 2/2 at connection thresholds 0 and 0.0004. Individually restoring inhibitory contributions to shared weights, stability, or touch records reduced the successful condition to 0/2; short-term enhancement and eligibility individually retained 2/2. Selected successful/failing conditions reproduced at 2/2 and 0/2 with new codes. All 132 stages, 264 complete states and 88 processes were audited; 1293 archive members were read back with pending=0. Production and defaults are unchanged; broad revalidation remains paused.
+
+[Report](../../../../lab/explorations/2026-11-15-kernel63/prefix_causes/report.en.md)
+
+## 2026-11-15: R51t16 implements inhibitory bypass and tests prefixes and sustained activity
+
+6.3 now has an inhibitory resource-bypass switch, default on. Earlier snapshots lacking it restore with off; historical kernels are preserved. Keeping independent resources optional but disabled changed matched-state benchmark time by −0.3% to +2.5%, so the option remains, default off. All 72 stages, 144 states and 36 processes were verified. The complete prefix profile reproduced 2/2 in production 6.3 with scores identical to R51t15; an alternate profile disabling depletion and enabling facilitation sustained activity for 300 seconds at 2/2, but scored 0/2 on prefixes. Actual new defaults scored 0/2 on both, and no tested profile passed both. All 263 engineering checks passed; 946 archive members were read back, pending=0. In the dense 128-node benchmark, bypass increased per-connection execution time 13.50-fold; this dynamics cost is reported separately from retaining the option. Broad revalidation remain paused. [Public edition: manuscript editing or private locator omitted.]
+
+[Report](../../../../lab/explorations/2026-11-15-kernel63/resource_bypass/report.en.md)
+
+## 2026-11-15: 6.3 restores three 6.1 defaults and retains local expiry
+
+The author requested the 6.1 resource and usage-record behavior in 6.3, then explicitly retained local subthreshold expiry. Delivered defaults disable resource prechecking and inhibitory resource bypass, and enable inhibitory transmission-time updates; independent resources remain off and expiry remains on. Under the final expiry setting, prechecking reduced time by 8.40%, below the preregistered 20% threshold. Final 6.3 defaults changed time relative to 6.1 by −1.78% to +7.10% across four materials. The expiry-disabled compatibility configuration passed 72 boundary comparisons and all 24 paired benchmark final states. Actual defaults retain the behavioral difference in timely active-set settlement; the original zeroing floor and one-second quiet period remain. There were 654 distinct passing engineering tests; two database checks were skipped because the isolated test database was not running. Ten pre-edit 6.3 states and 19 historical implementation files remain unchanged. Python/Rust, standalone runtime and configuration catalogue are synchronized; the native module is installed, services were not restarted, and the application default remains 6.1. Historical scientific scores are preserved; broad revalidation remain paused. [Public edition: manuscript editing or private locator omitted.]
+
+[Report](../../../../lab/explorations/2026-11-15-kernel63/default_alignment/report.en.md)
+
+## 2026-11-15: performance audit locates weak-input maintenance costs
+
+Default-switch controls separated the cost of actual maintenance from the number of optional features. Under repeated weak inputs, timely zeroing lets nodes with zero activation, no effective connections and insufficient support meet existing local deletion conditions; later identical codes create nodes again. Retention controls reduced deletion/recreation cost, while settlement itself still cost time. This workload formed no connections and measured neither memory performance nor death of the whole individual. The evidence favors optimizing local maintenance rather than restoring stale activity labels for speed.
+
+[Report](../../../../lab/explorations/2026-11-15-kernel63/performance_comparison/report.en.md)
+
+## 18 November 2026: Temporal differences without changing input addresses
+
+During the addressing discussion, the author asked whether repeated identical content requires time-dependent addresses or can be distinguished through changing internal state and shared input. He authorized a small 6.3 study of continuous/separated presentation, different gaps, and connection retention after activation subsides. RT63-01 registered three schedules with equal content, dose, and final 200 ms of input. The kernel and defaults remained unchanged.
+
+All 24 main runs and 120 diagnostics completed. Both intensities and all four anonymous encodings distinguished continuous presentation from 0.2 s and 1 s gaps. At a 30 s delay, task activation was zero and both intensities retained weight differences. Intensity 0.2 re-expressed these differences; bidirectional weight-only exchange reduced the recipient–donor response-curve gap by 99.9866–99.9927%. Intensity 0.05 failed to activate the other two task nodes under the fixed cue. Retention and expression were therefore assessed separately, without tuning or replacing the negative result.
+
+Identical values across encodings support code-renaming consistency, not population inference from randomly varying individuals. The results support temporal distinction through internal dynamics and local plasticity at stable input addresses. Verbal counting was not tested, and no new addressing function was authorized or implemented. Inputs, complete states, shams, numerical reanalysis, and the full original archive were verified, including complete local API readback.
+
+[RT63-01](../../../../lab/explorations/2026-11-18-repeat-timing63/report.en.md)

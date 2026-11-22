@@ -56,7 +56,7 @@ def test_complete_isolated_trace_and_observer_neutrality(backend):
 @pytest.mark.parametrize("sensor", [TextSensorConfig(gain=0), TextSensorConfig(enabled=False)])
 def test_unmeasurable_is_not_zero(sensor):
     result, _ = calibrate(
-        create_engine().capture_state(), seed=1, sensor_config=sensor, protocol=CalibrationProtocol(intensities=[0.0])
+        create_engine(Config()).capture_state(), seed=1, sensor_config=sensor, protocol=CalibrationProtocol(intensities=[0.0])
     )
     assert all(not c["scorable"] for c in result["mapping"]["coverage"].values())
     assert all(v is None for r in result["rows"] for v in r["endpoint"].values())

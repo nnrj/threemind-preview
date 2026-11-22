@@ -1,0 +1,9 @@
+# R63h execution and audit preparation
+
+15 November 2026, before registration. This batch repeats R51k under the author's 13 November decision to use temporal readout as primary and retain the old endpoint as a separate control. Origins, materials, features, curriculum, correction limits and scientific scores are retained. New subjects use the genuine current-default 6.3 implementation.
+
+Historical R51k exceeded the 1-GiB private-memory limit after its second complete origin because the preceding origin's result remained referenced. It subsequently completed using one fresh serial host per complete origin. This batch uses that approach from the first origin. Each host completes all teaching, peripheral calibration, continuous questions, corrections and research copies belonging to one origin before exiting. The next independent origin starts in a fresh host. No individual is split or reset. The 1-GiB limit and cumulative two-hour batch budget remain. Releasing a host between independent origins affects memory usage, not inputs, simulated time or random state.
+
+The initially frozen audit incorporates R51k's corrected active-node index verification. After configuration operations, it independently evaluates activation decay and checks both values and index changes; a field-change whitelist alone is insufficient. Readout calculations, continuity, normalization scales, fitted learning state, connection matching, restoration and inference remain fully checked. Read-only per-origin scores are saved and large inspected objects released rather than repeatedly loading all trajectories.
+
+Historical runners, failures, STOP records and both audit editions remain in their original directory. This batch neither invokes the historical continuation tool nor reruns old individuals. The protocol, hosts.py, scoring.py, analyze.py and audit_readout.py are registered and frozen together before any formal subjects are created.

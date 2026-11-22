@@ -1,0 +1,9 @@
+# Lossless storage adjustment before formal R51q execution
+
+14 November 2026. No formal subjects have been created. All three independent apparatus courses passed full-state equivalence under observation, save/restore and pause. FileStandardInfo measurements then showed that individually stored lesson snapshots projected actual allocation ratios of 2.021 and 2.042 relative to historical originals for the timing and jitter examples. File-length measurements had indicated only 1.756 and 1.785; these measures must be distinguished.
+
+Formal execution therefore uses `packed_snapshots.py`. Each teaching reference places its per-lesson snapshots in one `lesson-states.zip`, retaining every member's original complete tmind bytes. Teaching and diagnostic endpoints and pre-probe states remain separate files. The analyzer decodes snapshots from the archive by their original member names. Observation times, complete-state counts, inputs, simulated advancement, courses, readout and scoring are unchanged.
+
+Preparation checks all 192 apparatus teaching snapshots byte-for-byte and by complete-state hash, preserving the original separate files. Actual allocation projections for all three examples must fall below twice their historical allocation. Each formal complete unit then uses FileStandardInfo for both new and historical originals. Historical allocation values are saved separately in proof.json; frozen files remain intact. The twice-historical and 50%-over-estimate stops, memory/disk reserves and other limits remain unchanged.
+
+This changes research-evidence organization and disk measurement, not Core dynamics. Frozen study_reference.py and analyze_reference.py remain intact. The sole formal execution and analysis entries become `packed_snapshots.py run/analyze`, delegating to the original executor and read-only analysis. This note and the lossless proof are registered in the same research record before formal execution.

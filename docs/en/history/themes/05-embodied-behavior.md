@@ -81,3 +81,14 @@ The E39/E41 recordings document natural G1 individual 60 feeding at simulated 12
 
 
 [Turning register](../../../../lab/explorations/2026-10-04-ocean-species/turning-and-closeout.md) · [Offspring report](../../../../lab/explorations/2026-10-04-ocean-split/report.r3.en.md) · [Attribution report](../../../../lab/explorations/2026-10-06-choice-attribution/report.r2.en.md)
+
+
+## 13 November 2026: birth conditions for 6.0 aquatic revalidation
+
+Version 6.0 now inherits persistent connections and decay age, with an optional reset-age control; fast state and the internal clock are initialized anew. Multigeneration ecological engineering verified inheritance, energy accounting and exact recovery. Feeding, selection and capture revalidation has not begun because advancement cost crossed the registered stop. Reproduction capability and adaptive benefit remain separately tested questions. [Chapter 19](../chronicles/19-kernel60.md)
+
+On 21 November 2026 the 6.3 water-world reruns opened with the feeding comparison. Separate registrations cover the earlier food-supply comparison and the new scavenging hypothesis. The latter retains negative-return meals and traces individual income, movement and shell costs, births and descendants. [Chapter 20](../chronicles/20-artificial-selection.md)
+
+Later that day the author requested measurements of turns before feeding. Study P1 varies grain replenishment between worlds with the same starting state. It distinguishes live kills, scavenging and predation among close relatives, and follows the survival of actual offspring. This permits a comparison of who hunts when food is scarce and who leaves more descendants. [P1 protocol](../../../../lab/explorations/2026-11-21-ocean63-p1/protocol.en.md)
+
+On 22 November, a P1 individual less than five seconds old had eaten its own parent. P2 separates the size at birth from the inherited adult target and charges the body for growth. It records individual births, parental feeding, evasive turns and the number of surviving children per parent. [P2 protocol](../../../../lab/explorations/2026-11-22-ocean63-p2/protocol.en.md)

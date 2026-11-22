@@ -33,6 +33,9 @@ def facade(tmp_path, monkeypatch):
         "enabled": True,
         "username": "fixture",
         "csrf": "fixture-csrf",
+        "expires_at": "2099-01-01",
+        "remembered": False,
+        "source": "human",
         "role": "owner",
     }
     storage = ResearchStorage(tmp_path / "control", repository_root=tmp_path)
@@ -47,7 +50,34 @@ def facade(tmp_path, monkeypatch):
         def tx(self, *_args, **_kwargs):
             yield self
 
-        def execute(self, *_args):
+        def execute(self, query, *_args):
+            if "FROM platform_roles" in query:
+                roles = (
+                    [
+                        {
+                            "id": actor["id"],
+                            "key": "superadmin",
+                            "name": "Fixture administrator",
+                            "builtin": True,
+                            "revision": 1,
+                            "permissions": [],
+                        }
+                    ]
+                    if actor["admin"]
+                    else []
+                )
+                if actor.get("reader"):
+                    roles = [
+                        {
+                            "id": actor["id"],
+                            "key": "fixture-reader",
+                            "name": "Reader",
+                            "builtin": False,
+                            "revision": 1,
+                            "permissions": [{"action": "data.read", "scope": "platform"}],
+                        }
+                    ]
+                return SimpleNamespace(fetchall=lambda: roles)
             return SimpleNamespace(fetchone=lambda: actor)
 
     app = FastAPI()
@@ -93,12 +123,84 @@ def test_host_admin_and_csrf(facade):
     assert not facade.storage.control_dir.exists()
     facade.actor["admin"] = True
     facade.app.state.settings = Settings("postgresql://fixture", mode="server", docs_root=facade.root)
+    facade.client.cookies.set("tm_session", "fixture-session")
     body = {"kind": "filesystem", "name": "data", "path": str(facade.root / "target"), "expected_revision": 0}
     assert facade.client.post("/api/v2/storage/targets", json=body).status_code == 403
     assert (
         facade.client.post("/api/v2/storage/targets", json=body, headers={"X-CSRF-Token": "fixture-csrf"}).status_code
         == 201
     )
+
+
+def test_experiment_pool_api_shares_host_placement_and_checks_permissions(facade):
+    from threemind_lab.experiment_storage import ExperimentStorage
+
+    base = "/api/v2/storage/experiment-pool"
+    body = {"name": "water", "parts": [{"name": "world", "bytes": 65536}]}
+    facade.actor["admin"] = False
+    assert facade.client.get(base).status_code == 403
+    assert facade.client.post(base + "/reserve", json=body).status_code == 403
+    facade.actor["admin"] = True
+    cfg = {"expected_revision": 0, "directories": [{"id": "ssd", "path": str(facade.root / "ssd")}]}
+    assert facade.client.put(base, json=cfg).status_code == 200
+    assert facade.client.put(base, json=cfg).status_code == 409
+    assert facade.client.post(base + "/preview", json=body).json()["fits"]
+    assert not ExperimentStorage(facade.storage).status()["studies"]
+    assert facade.client.post(base + "/reserve", json=body).json()["parts"][0]["directory"] == "ssd"
+    assert facade.client.get(base + "/studies/water/path").json()["path"] == str(facade.storage.workspace_path("water"))
+    assert facade.client.post(base + "/studies/water/cancel").json()["status"] == "unreserved"
+
+    parts = [{"name": n, "kind": k, "bytes": 2**20} for n, k in (("world", "data"), ("v1", "archive"))]
+    assert facade.client.post(base + "/reserve", json={"name": "pond", "parts": parts}).status_code == 200
+    import io
+
+    service = ExperimentStorage(facade.storage)
+    service.write_file("pond", "world", "trace.txt", io.BytesIO(b"test"), 4)
+    url = base + "/studies/pond"
+    manifest = facade.client.post(url + "/archive").json()
+    assert manifest["members"] == 1
+    assert facade.client.post(url + "/finish").status_code == 200
+    assert len(facade.client.get(url + "/volumes/v1").content) == manifest["volumes"][0]["bytes"]
+    assert facade.client.get(url + "/member", params={"member": "world/trace.txt"}).content == b"test"
+    facade.actor.update(admin=False, reader=True)
+    headers = {HEADER: str(uuid4())}
+    assert (
+        facade.client.post(base + "/preview", json={"name": "future", "parts": parts}, headers=headers).status_code
+        == 200
+    )
+    assert facade.client.post(url + "/verify", json={}, headers=headers).status_code == 200
+    assert (
+        facade.client.post(base + "/reserve", json={"name": "future", "parts": parts}, headers=headers).status_code
+        == 403
+    )
+
+
+def test_experiment_transfer_http_receipts_reader_and_explicit_release(facade):
+    base = "/api/v2/storage/experiment-pool"
+    route = base + "/transfers"
+    client = facade.client
+    assert client.put(base, json={"expected_revision": 0, "directories": [
+        {"id": "run", "path": str(facade.root / "run")},
+        {"id": "cold", "role": "archive", "path": str(facade.root / "cold")}]}).status_code == 200
+    src = facade.root / "run/experiments/mayfly"
+    src.mkdir(parents=True)
+    (src / "trajectory").write_bytes(b"evidence")
+    assert client.get(route + "/discover", params={"directory": "run"}).json()["names"] == ["mayfly"]
+    assert client.post(route + "/adopt", json={"name": "mayfly", "directory": "run"}).status_code == 200
+    payload = {"operation": "archive", "name": "mayfly", "destination": "cold"}
+    header = {HEADER: str(uuid4())}
+    facade.actor.update(admin=False, reader=True)
+    assert client.post(route + "/preview", json=payload, headers=header).json()["files"] == 1
+    assert client.post(route + "/jobs", json=payload, headers=header).status_code == 403
+    facade.actor.update(admin=True, reader=False)
+    response = client.post(route + "/jobs", json=payload, headers=header)
+    assert response.status_code == 202, response.text
+    url = route + "/jobs/" + header[HEADER]
+    assert client.get(url).json()["status"] == "complete"
+    assert client.post(route + "/jobs", json=payload, headers=header).headers["X-ThreeMind-Replayed"] == "true"
+    assert src.exists()
+    assert client.post(url + "/release", json={}).status_code == 200
+    assert client.get(url).json()["status"] == "released" and not src.exists()
 
 
 def test_checkpoint_setting_and_root_preview_keep_host_auth_and_agent_catalog(facade, monkeypatch):

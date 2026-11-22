@@ -35,7 +35,7 @@ export default function Dialogue() {
     [core, setCore] = useState("{}"),
     [offset, setOffset] = useState(0),
     [tab, setTab] = useState("dialogue");
-  const [kernel, setKernel] = useState("threemind.continuous-memory/3");
+  const [kernel, setKernel] = useState("");
   const [valid, setValid] = useState(true);
   const [watching, setWatching] = useState(false);
   const observedWindows = useRef(0),
@@ -168,7 +168,7 @@ export default function Dialogue() {
     setKernel(
       fromCurrent && current
         ? current.kernel_id
-        : "threemind.continuous-memory/3",
+        : (kernels.data?.kernels?.find((item: any) => item.default)?.kernel_id ?? ""),
     );
     setConfig(
       fromCurrent && current
@@ -195,7 +195,7 @@ export default function Dialogue() {
         request_id: request.current,
         name,
         ...config,
-        kernel_id: kernel,
+        ...(kernel ? { kernel_id: kernel } : {}),
         config: parseJson(core),
         ...(source ? { source_run_id: source } : {}),
       });

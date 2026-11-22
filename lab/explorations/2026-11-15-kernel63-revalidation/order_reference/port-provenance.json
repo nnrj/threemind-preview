@@ -1,0 +1,22 @@
+{
+  "status": "prepared, not registered or run",
+  "historical_batch": "R51q",
+  "new_batch": "R63n",
+  "source_sha256": {
+    "lab/explorations/2026-11-13-kernel61/order_reference/study_reference.py": "ed2ba4c61bf3ce6d61e234863561436dea45529f0095c4ede5f798ae240385eb",
+    "lab/explorations/2026-11-13-kernel61/order_reference/materials_reference.py": "c66668ee64aecef501629d5e170e7c0309f4325ea174a1b141f9a280be680bb3",
+    "lab/explorations/2026-11-13-kernel61/order_reference/measurement_reference.py": "4d3b80a2e36e78c495a6f745a856326845cd2e6b5cf14f7c49a8b267bf6f1758",
+    "lab/explorations/2026-11-13-kernel61/order_reference/analyze_reference.py": "f1d807c21826d4d046692f7d048159da5c4fea82009d63d71637cfcc8aed2c6a",
+    "lab/explorations/2026-11-13-kernel61/order_reference/packed_snapshots.py": "78f72ace386131ba5d345d580dbcf73233d739eb410e728be40565b0d125339e",
+    "lab/explorations/2026-11-13-kernel61/order_reference/compare_history.py": "caec060b704d185c61e5a18f7daee3bca19299b16f44b187dad061e7dc62dada",
+    "lab/explorations/2026-11-13-kernel61/order_reference/protocol.zh.md": "09a6b192486227e0df70b08be99100e844eda7d81bd93f25fa3b27ab4947f264",
+    "lab/explorations/2026-11-13-kernel61/order_reference/protocol.en.md": "22ddc83921099e504457898b1f6bc6329729b7056aab92288b199cf8e1ec90c0"
+  },
+  "scope": "New genuine 6.3 subjects; original materials, course, contrasts and criteria retained. Historical results are not new results.",
+  "changes": [
+    "new version and batch identities",
+    "new raw directories and API request namespace",
+    "corrected read-only birth-state audit where applicable",
+    "FileStandardInfo allocation measurement"
+  ]
+}

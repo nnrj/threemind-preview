@@ -1,0 +1,13 @@
+material,profile,rule,parent_nodes,child_nodes,parent_edges,child_edges,same_edge_pairs,weight_l1_change,weight_max_change,effective_parent_to_child_weight_max_error,child_initial_activation,genuine_birth_exact
+s9293201-c0,legacy1,threemind.birth/1,48,48,1490,1490,True,0.0,0.0,0.0,0.0,True
+s9293201-c0,default63,threemind.birth/2,48,48,1490,1490,True,2.575707641216761,0.02938348359664172,0.0,0.0,True
+s9293201-c0,prefix63,threemind.birth/2,48,48,1490,1490,True,0.0,0.0,0.0,0.0,True
+s9293201-c2,legacy1,threemind.birth/1,48,48,1490,1490,True,0.0,0.0,0.0,0.0,True
+s9293201-c2,default63,threemind.birth/2,48,48,1490,1490,True,2.575707641216761,0.02938348359664172,0.0,0.0,True
+s9293201-c2,prefix63,threemind.birth/2,48,48,1490,1490,True,0.0,0.0,0.0,0.0,True
+s9293202-c0,legacy1,threemind.birth/1,49,49,1498,1498,True,0.0,0.0,0.0,0.0,True
+s9293202-c0,default63,threemind.birth/2,49,49,1498,1498,True,3.0080930952422866,0.02938348359664172,0.0,0.0,True
+s9293202-c0,prefix63,threemind.birth/2,49,49,1498,1498,True,0.0,0.0,0.0,0.0,True
+s9293202-c2,legacy1,threemind.birth/1,49,49,1498,1498,True,0.0,0.0,0.0,0.0,True
+s9293202-c2,default63,threemind.birth/2,49,49,1498,1498,True,3.0080930952422866,0.02938348359664172,0.0,0.0,True
+s9293202-c2,prefix63,threemind.birth/2,49,49,1498,1498,True,0.0,0.0,0.0,0.0,True

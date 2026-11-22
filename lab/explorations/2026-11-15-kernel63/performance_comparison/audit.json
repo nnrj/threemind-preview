@@ -1,0 +1,22 @@
+{
+  "complete_worker_processes": 235,
+  "verified_complete_state_files": 235,
+  "timed_and_warmup_instances": 2868,
+  "additional_profile_instances": 4,
+  "measurement_elapsed_seconds": 670.2162184715271,
+  "raw_bytes": 12840030,
+  "raw_inventory_sha256": "2348d9b42ab3b001dcef9821511d8fa78d8cfeec3ac07ea8fa5ae726a12ec6cb",
+  "arithmetic_verified": true,
+  "frozen_manifest_verified": true,
+  "native_extension_post_run": [
+    {
+      "path": ".work\\kernel-venv\\Lib\\site-packages\\_threemind_native\\_threemind_native.pyd",
+      "sha256": "4faa90dcf61604698949f0eeea59077e5be88819ce42eba85a112fd331912958",
+      "mtime_before_benchmark_start": true,
+      "hash_recorded_after_measurement": true
+    }
+  ],
+  "provenance_note": "The preregistered native path resolved to the Python package loader. The actual extension hash above was added after measurement; it is not a preregistered binary hash.",
+  "summary_sha256": "dcd4fd31a2eb4f1eeee84e86ead1743a721b4f5aed23539ee80b66527b56709a",
+  "diagnostic_summary_sha256": "c0449c795c7585b3da8367aa7527e8354414075b56501d9656b3ba651e5b3a72"
+}
