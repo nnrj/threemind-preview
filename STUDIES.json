@@ -669,42 +669,6 @@
       ]
     },
     {
-      "id": "R51e",
-      "sections": [
-        "4.3"
-      ],
-      "research_sources": [
-        "lab/explorations/2026-11-13-kernel61/causal/report.zh.md"
-      ],
-      "evidence_paths": [
-        "experiments/2026-11-13-kernel60-revalidation/causal61-v1"
-      ]
-    },
-    {
-      "id": "R51j",
-      "sections": [
-        "4.3"
-      ],
-      "research_sources": [
-        "lab/explorations/2026-11-13-kernel61/transfer/report.zh.md"
-      ],
-      "evidence_paths": [
-        "experiments/2026-11-13-kernel60-revalidation/transfer61-v1"
-      ]
-    },
-    {
-      "id": "R51l",
-      "sections": [
-        "4.3"
-      ],
-      "research_sources": [
-        "lab/explorations/2026-11-13-kernel61/transfer_confirmation/report.zh.md"
-      ],
-      "evidence_paths": [
-        "experiments/2026-11-13-kernel60-revalidation/transfer-confirmation61-v1"
-      ]
-    },
-    {
       "id": "R63b",
       "sections": [
         "4.3"
@@ -863,30 +827,6 @@
       ],
       "evidence_paths": [
         "originals/objects/c49b4ad2-3d53-486a-b124-433e5491df36"
-      ]
-    },
-    {
-      "id": "R51f",
-      "sections": [
-        "4.5"
-      ],
-      "research_sources": [
-        "lab/explorations/2026-11-13-kernel61/body_memory/report.zh.md"
-      ],
-      "evidence_paths": [
-        "experiments/2026-11-13-kernel60-revalidation/body-memory61-v1"
-      ]
-    },
-    {
-      "id": "R51h",
-      "sections": [
-        "4.5"
-      ],
-      "research_sources": [
-        "lab/explorations/2026-11-13-kernel61/body_transfer/report.zh.md"
-      ],
-      "evidence_paths": [
-        "experiments/2026-11-13-kernel60-revalidation/body-transfer61-v1"
       ]
     },
     {
@@ -1079,30 +1019,6 @@
       "evidence_paths": [
         "originals/objects/9cc6f412-6512-4c96-9a86-af93bfedfff7",
         "originals/research/3c5b723e73d548f4514fabfd"
-      ]
-    },
-    {
-      "id": "X2",
-      "sections": [
-        "4.7"
-      ],
-      "research_sources": [
-        "lab/explorations/2026-10-16-mechanism-discovery/closure-report.r2.zh.md"
-      ],
-      "evidence_paths": [
-        "experiments/2026-10-16-mechanism-discovery/closure-v1"
-      ]
-    },
-    {
-      "id": "R47b",
-      "sections": [
-        "4.7"
-      ],
-      "research_sources": [
-        "lab/explorations/2026-11-11-kernel53/confirmation/report.zh.md"
-      ],
-      "evidence_paths": [
-        "experiments/2026-11-11-kernel53/confirmation-v1"
       ]
     },
     {
@@ -1487,18 +1403,6 @@
       ]
     },
     {
-      "id": "E53",
-      "sections": [
-        "4.9"
-      ],
-      "research_sources": [
-        "lab/explorations/2026-10-06-ocean-communication/report.zh.md"
-      ],
-      "evidence_paths": [
-        "originals/objects/e3a234c2-9e3f-4d19-bedf-d643ba298ee6"
-      ]
-    },
-    {
       "id": "E13",
       "sections": [
         "4.10"
@@ -1580,7 +1484,13 @@
       ],
       "evidence_paths": [
         "experiments/ocean63-20261121/study-39c"
-      ]
+      ],
+      "reported_boundary": {
+        "world": "world-0",
+        "common_to_internal_seconds": 300,
+        "regular_supply_first_live_capture_internal_seconds": 1857.04,
+        "half_supply_first_live_capture_internal_seconds": 1220.52
+      }
     },
     {
       "id": "OCEAN63-P1",
@@ -1676,9 +1586,17 @@
         "lab/explorations/2026-10-13-eye-hand-shape-color/progress-20261015.zh.md"
       ],
       "evidence_paths": [
-        "experiments/2026-10-13-eye-hand-shape-color"
+        "experiments/2026-10-13-eye-hand-shape-color/continuations/r1"
       ],
-      "status": "Paused development study. The final coordination test was not completed."
+      "status": "Paused development study. The final coordination test was not completed.",
+      "reported_boundary": {
+        "time_internal_seconds": 4662,
+        "last_complete_subject_boundary": "000865",
+        "development_tests": 4,
+        "trials_per_test": 24,
+        "final_fixations": 20,
+        "final_fixations_from_outside_center": 19
+      }
     },
     {
       "id": "R43",
@@ -1690,18 +1608,6 @@
       ],
       "evidence_paths": [
         "experiments/2026-11-09-context-revision/v1"
-      ]
-    },
-    {
-      "id": "R44",
-      "sections": [
-        "4.14"
-      ],
-      "research_sources": [
-        "lab/explorations/2026-11-09-retention-causality/report.zh.md"
-      ],
-      "evidence_paths": [
-        "experiments/2026-11-09-retention-causality/v1"
       ]
     },
     {
@@ -2194,5 +2100,6 @@
       "lab/explorations/2026-11-01-sat-core-exclusion/report.zh.md"
     ]
   },
-  "coverage_note": "A code or evidence reference identifies a study; it does not certify that a separate dataset release has included all its records. The four ring/timing archive references carry registered hashes."
+  "coverage_note": "A code or evidence reference identifies a study; it does not certify that a separate dataset release has included all its records. The four ring/timing archive references carry registered hashes.",
+  "main_scope": "The final Chinese and English r3 v6 main manuscripts, including their own figures, captions and Table 4-1, determine the scope of the data release. A listing in the supplementary catalogue alone does not qualify a study. The complete research-source catalogue below indexes public code and reports only."
 }
