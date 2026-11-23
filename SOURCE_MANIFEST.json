@@ -33207,6 +33207,7 @@
     ".gitattributes",
     "DATA_AVAILABILITY.md",
     "INSTALL.md",
+    "LICENSE",
     "PRIVACY_REVIEW.json",
     "PUBLIC_EDITION.md",
     "PUBLIC_OMISSIONS.json",
@@ -33216,6 +33217,8 @@
     "REPRODUCIBILITY.md",
     "SOURCE_MANIFEST.json",
     "STUDIES.json",
+    "TRADEMARK.md",
+    "TRADEMARK.zh-CN.md",
     "VALIDATION.json",
     "docs/en/reference/history-figure-sources.md",
     "docs/history/figure-provenance.json",
@@ -33251,6 +33254,11 @@
       "sha256": "891272947629fd956a087499b3eec35986965713f94cacc9d595e7744a915f52"
     },
     {
+      "path": "LICENSE",
+      "bytes": 1098,
+      "sha256": "4ad4d2a09198c7b8f9b6ba8cfdbd92206ce8563effb8ba2eed50c2bb41b681fb"
+    },
+    {
       "path": "PRIVACY_REVIEW.json",
       "bytes": 3665,
       "sha256": "330e58f83b5b94826e5976deb7fd05898907e71904b56817d48af9444a1f1c22"
@@ -33267,13 +33275,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 3059,
-      "sha256": "5995f39004fa5397786b5ed649bb82b35a746ea7cea253579b945971dba211b3"
+      "bytes": 3753,
+      "sha256": "143a5fae61ab6957c8bfb246ee7b9f37de42036c6e43a15df63bf4ece7ee7819"
     },
     {
       "path": "README_CN.md",
-      "bytes": 1787,
-      "sha256": "111648dec36469d829c794f2b987f599dbc881932bdb5fd51185e047bb0165dc"
+      "bytes": 2456,
+      "sha256": "ddfd10338c2df664aa8c9f6d312ea3cf6ce61588daf41d7ef2e6f11137a50a44"
     },
     {
       "path": "RELEASE_NOTES.md",
@@ -33289,6 +33297,16 @@
       "path": "STUDIES.json",
       "bytes": 94990,
       "sha256": "a8722717094f2fc05ab3f592692b73b003097ca4810f86a26e4eb3e25632c699"
+    },
+    {
+      "path": "TRADEMARK.md",
+      "bytes": 2225,
+      "sha256": "8217d1071f8c961424a01c636c9e093ba371ec9f0fd589861c9564c564b1d642"
+    },
+    {
+      "path": "TRADEMARK.zh-CN.md",
+      "bytes": 1946,
+      "sha256": "8413836f5b27418aad6ea36bd07b6a00f68960ef84253f7572e29b30b2cb0932"
     },
     {
       "path": "VALIDATION.json",
